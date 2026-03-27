@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-03-27T21:56:38.835Z",
-  "totalLinks": 38,
-  "totalWithPrice": 36,
+  "generatedAt": "2026-03-27T22:56:58.044Z",
+  "totalLinks": 39,
+  "totalWithPrice": 37,
   "overall": {
-    "count": 36,
-    "sum": 136462.87,
-    "avg": 3791,
+    "count": 37,
+    "sum": 139291.87,
+    "avg": 3765,
     "min": 33,
     "max": 29999.99
   },
   "byMonth": {
     "2026-03": {
-      "count": 36,
-      "sum": 136462.87,
+      "count": 37,
+      "sum": 139291.87,
       "min": 33,
       "max": 29999.99,
-      "avg": 3791
+      "avg": 3765
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 34,
-      "sum": 130864.87,
+      "count": 35,
+      "sum": 133693.87,
       "min": 33,
       "max": 29999.99,
-      "avg": 3849
+      "avg": 3820
     },
     "marketplace": {
       "count": 2,
@@ -36,11 +36,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 34,
-      "sum": 130864.87,
+      "count": 35,
+      "sum": 133693.87,
       "min": 33,
       "max": 29999.99,
-      "avg": 3849
+      "avg": 3820
     },
     "wildwoodguitars.com": {
       "count": 1,
@@ -58,6 +58,27 @@
     }
   },
   "byModel": {
+    "echopark-deluxe-warcane-pickups-59": {
+      "displayName": "Echopark Deluxe w/Arcane Pickups 59",
+      "brand": "Echopark",
+      "model": "Deluxe w/Arcane Pickups",
+      "variant": "59",
+      "count": 1,
+      "sum": 2829,
+      "min": 2829,
+      "max": 2829,
+      "sightings": [
+        {
+          "price": 2829,
+          "date": "2026-03-27T22:56:46.211Z",
+          "year": 2017,
+          "title": "2017 Echopark 59 Deluxe Cherry w/Arcane Pickups #1221C",
+          "url": "https://reverb.com/item/95503431-2017-echopark-59-deluxe-cherry-w-arcane-pickups-1221c",
+          "condition": "Very Good"
+        }
+      ],
+      "avg": 2829
+    },
     "prs-mccarty-594": {
       "displayName": "PRS McCarty 594",
       "brand": "PRS",
@@ -767,8 +788,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 3791,
-      "count": 36
+      "avg": 3765,
+      "count": 37
     }
   },
   "recentDrops": [],
@@ -777,10 +798,15 @@
     "250-500": 1,
     "500-1000": 4,
     "1000-2000": 10,
-    "2000-5000": 15,
+    "2000-5000": 16,
     "5000+": 5
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 1,
+      "count": 2,
+      "avg": 1
+    },
     "PRS": {
       "sum": 0,
       "count": 2,
@@ -831,11 +857,6 @@
       "count": 1,
       "avg": 1
     },
-    "Echopark": {
-      "sum": 1,
-      "count": 1,
-      "avg": 1
-    },
     "Hamer": {
       "sum": 1,
       "count": 1,
@@ -853,15 +874,15 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-27": 29,
+    "2026-03-27": 30,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 35,
+    "reverb": 36,
     "news": 1,
     "marketplace": 2
   },
-  "activeModelsCount": 30,
+  "activeModelsCount": 31,
   "topPosters": [
     {
       "username": "GP",
@@ -884,6 +905,10 @@
       "count": 3
     },
     {
+      "username": "Madero",
+      "count": 2
+    },
+    {
       "username": "Shteefe",
       "count": 1
     },
@@ -898,17 +923,13 @@
     {
       "username": "侍",
       "count": 1
-    },
-    {
-      "username": "Madero",
-      "count": 1
     }
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 3791,
+    "avg": 3765,
     "pctBelowAvg": 0,
-    "count": 36
+    "count": 37
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -1041,14 +1062,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 35,
+      "total": 36,
       "sold": 6,
       "removed": 0,
-      "live": 29,
+      "live": 30,
       "soldPct": 17,
       "removedPct": 0
     },
     "byBrand": {
+      "Echopark": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "PRS": {
         "total": 2,
         "sold": 0,
@@ -1126,14 +1155,6 @@
         "sold": 0,
         "removed": 0,
         "live": 2,
-        "soldPct": 0,
-        "removedPct": 0
-      },
-      "Echopark": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
         "soldPct": 0,
         "removedPct": 0
       },
