@@ -1,40 +1,61 @@
 {
-  "generatedAt": "2026-03-27T23:43:24.519Z",
-  "totalLinks": 39,
-  "totalWithPrice": 37,
+  "generatedAt": "2026-03-27T23:47:02.806Z",
+  "totalLinks": 42,
+  "totalWithPrice": 39,
   "overall": {
-    "count": 37,
-    "sum": 139273.26,
-    "avg": 3764,
+    "count": 39,
+    "sum": 149918.26,
+    "avg": 3844,
     "min": 33,
     "max": 29999.99
   },
   "byMonth": {
     "2026-03": {
-      "count": 37,
-      "sum": 139273.26,
+      "count": 39,
+      "sum": 149918.26,
       "min": 33,
       "max": 29999.99,
-      "avg": 3764
+      "avg": 3844
     }
   },
   "byCategory": {
+    "news": {
+      "count": 1,
+      "sum": 150,
+      "min": 150,
+      "max": 150,
+      "avg": 150
+    },
+    "marketplace": {
+      "count": 3,
+      "sum": 16093,
+      "min": 1999,
+      "max": 10495,
+      "avg": 5364
+    },
     "reverb": {
       "count": 35,
       "sum": 133675.26,
       "min": 33,
       "max": 29999.99,
       "avg": 3819
-    },
-    "marketplace": {
-      "count": 2,
-      "sum": 5598,
-      "min": 1999,
-      "max": 3599,
-      "avg": 2799
     }
   },
   "byDomain": {
+    "resistorhead.company.site": {
+      "count": 1,
+      "sum": 150,
+      "min": 150,
+      "max": 150,
+      "avg": 150
+    },
+    "tapestrymusic.com": {
+      "count": 1,
+      "sum": 10495,
+      "min": 10495,
+      "max": 10495,
+      "avg": 10495
+    },
     "reverb.com": {
       "count": 35,
       "sum": 133675.26,
@@ -58,6 +79,27 @@
     }
   },
   "byModel": {
+    "fender-telecaster": {
+      "displayName": "Fender Telecaster",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 1,
+      "sum": 10495,
+      "min": 10495,
+      "max": 10495,
+      "sightings": [
+        {
+          "price": 10495,
+          "date": "2026-03-27T23:35:36.273Z",
+          "year": 1967,
+          "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
+          "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
+          "condition": null
+        }
+      ],
+      "avg": 10495
+    },
     "echopark-deluxe-warcane-pickups-59": {
       "displayName": "Echopark Deluxe w/Arcane Pickups 59",
       "brand": "Echopark",
@@ -803,8 +845,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 3764,
-      "count": 37
+      "avg": 3844,
+      "count": 39
     }
   },
   "recentDrops": [
@@ -831,14 +873,19 @@
     }
   ],
   "priceDistribution": {
-    "0-250": 1,
+    "0-250": 2,
     "250-500": 1,
     "500-1000": 4,
     "1000-2000": 10,
     "2000-5000": 16,
-    "5000+": 5
+    "5000+": 6
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 1,
+      "count": 2,
+      "avg": 1
+    },
     "Echopark": {
       "sum": 1,
       "count": 2,
@@ -899,11 +946,6 @@
       "count": 1,
       "avg": 1
     },
-    "Fender": {
-      "sum": 1,
-      "count": 1,
-      "avg": 1
-    },
     "Danocaster": {
       "sum": 1,
       "count": 1,
@@ -911,15 +953,15 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-27": 30,
+    "2026-03-27": 33,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 36,
-    "news": 1,
-    "marketplace": 2
+    "news": 3,
+    "marketplace": 3,
+    "reverb": 36
   },
-  "activeModelsCount": 31,
+  "activeModelsCount": 32,
   "topPosters": [
     {
       "username": "GP",
@@ -942,6 +984,14 @@
       "count": 3
     },
     {
+      "username": "jazee_",
+      "count": 2
+    },
+    {
+      "username": "hibernative",
+      "count": 2
+    },
+    {
       "username": "Madero",
       "count": 2
     },
@@ -950,23 +1000,15 @@
       "count": 1
     },
     {
-      "username": "hibernative",
-      "count": 1
-    },
-    {
       "username": "hibby_",
-      "count": 1
-    },
-    {
-      "username": "侍",
       "count": 1
     }
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 3764,
+    "avg": 3844,
     "pctBelowAvg": 0,
-    "count": 37
+    "count": 39
   },
   "topVoted": [],
   "discountFromRetail": {},
