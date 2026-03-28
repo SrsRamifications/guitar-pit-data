@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-03-28T13:57:11.653Z",
-  "totalLinks": 51,
-  "totalWithPrice": 47,
+  "generatedAt": "2026-03-28T14:49:23.855Z",
+  "totalLinks": 52,
+  "totalWithPrice": 48,
   "overall": {
-    "count": 47,
-    "sum": 166759.42,
-    "avg": 3548,
+    "count": 48,
+    "sum": 168082.73,
+    "avg": 3502,
     "min": 33,
     "max": 29999.99
   },
   "byMonth": {
     "2026-03": {
-      "count": 47,
-      "sum": 166759.42,
+      "count": 48,
+      "sum": 168082.73,
       "min": 33,
       "max": 29999.99,
-      "avg": 3548
+      "avg": 3502
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 43,
-      "sum": 150516.42,
+      "count": 44,
+      "sum": 151839.73,
       "min": 33,
       "max": 29999.99,
-      "avg": 3500
+      "avg": 3451
     },
     "news": {
       "count": 1,
@@ -43,11 +43,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 43,
-      "sum": 150516.42,
+      "count": 44,
+      "sum": 151839.73,
       "min": 33,
       "max": 29999.99,
-      "avg": 3500
+      "avg": 3451
     },
     "resistorhead.company.site": {
       "count": 1,
@@ -79,6 +79,27 @@
     }
   },
   "byModel": {
+    "epiphone-sg": {
+      "displayName": "Epiphone SG",
+      "brand": "Epiphone",
+      "model": "SG",
+      "variant": null,
+      "count": 1,
+      "sum": 1323.31,
+      "min": 1323.31,
+      "max": 1323.31,
+      "sightings": [
+        {
+          "price": 1323.31,
+          "date": "2026-03-28T14:49:11.518Z",
+          "year": 2002,
+          "title": "Epiphone Gothic Series SG 2002 \"Infernal Beauty\" by Mr. Decor - One-of-a-Kind Art",
+          "url": "https://reverb.com/item/94896973-epiphone-gothic-series-sg-2002-infernal-beauty-by-mr-decor-one-of-a-kind-art",
+          "condition": "Excellent"
+        }
+      ],
+      "avg": 1323
+    },
     "fender-custom-shop-telecaster": {
       "displayName": "Fender Custom Shop Telecaster",
       "brand": "Fender Custom Shop",
@@ -950,8 +971,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 3548,
-      "count": 47
+      "avg": 3502,
+      "count": 48
     }
   },
   "recentDrops": [
@@ -981,11 +1002,16 @@
     "0-250": 2,
     "250-500": 1,
     "500-1000": 4,
-    "1000-2000": 13,
+    "1000-2000": 14,
     "2000-5000": 21,
     "5000+": 6
   },
   "daysOnMarket": {
+    "Epiphone": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Fender Custom Shop": {
       "sum": 1,
       "count": 2,
@@ -1063,16 +1089,16 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 8,
+    "2026-03-28": 9,
     "2026-03-27": 34,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 44,
+    "reverb": 45,
     "news": 4,
     "marketplace": 3
   },
-  "activeModelsCount": 37,
+  "activeModelsCount": 38,
   "topPosters": [
     {
       "username": "GP",
@@ -1084,7 +1110,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 6
+      "count": 7
     },
     {
       "username": "jazee_",
@@ -1117,9 +1143,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 3548,
+    "avg": 3502,
     "pctBelowAvg": 0,
-    "count": 47
+    "count": 48
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -1272,14 +1298,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 44,
+      "total": 45,
       "sold": 8,
       "removed": 0,
-      "live": 36,
+      "live": 37,
       "soldPct": 18,
       "removedPct": 0
     },
     "byBrand": {
+      "Epiphone": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "Fender Custom Shop": {
         "total": 2,
         "sold": 0,
@@ -1406,7 +1440,7 @@
     "withOffers": 9,
     "totalOffers": 18,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 2
+    "offersEnabledPct": 4
   },
   "shippingInsights": {
     "freeShippingPct": 0,
