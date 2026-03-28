@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-28T20:05:51.218Z",
-  "totalLinks": 72,
-  "totalWithPrice": 64,
+  "generatedAt": "2026-03-28T20:55:54.349Z",
+  "totalLinks": 73,
+  "totalWithPrice": 65,
   "overall": {
-    "count": 64,
-    "sum": 316573.84,
-    "avg": 4946,
+    "count": 65,
+    "sum": 318188.84,
+    "avg": 4895,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 60,
-    "sum": 160578.85,
-    "avg": 2676,
+    "count": 61,
+    "sum": 162193.85,
+    "avg": 2659,
     "min": 33,
     "max": 7999,
-    "median": 2475
+    "median": 2450
   },
   "outliers": {
-    "thresholdHigh": 8835,
+    "thresholdHigh": 8700,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,27 +57,27 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 64,
-      "sum": 316573.84,
+      "count": 65,
+      "sum": 318188.84,
       "min": 33,
       "max": 99000,
-      "avg": 4946
+      "avg": 4895
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 55,
+      "sum": 188171.85,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3421
+    },
     "marketplace": {
       "count": 8,
       "sum": 126136.99,
       "min": 929.99,
       "max": 99000,
       "avg": 15767
-    },
-    "reverb": {
-      "count": 54,
-      "sum": 186556.85,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3455
     },
     "news": {
       "count": 2,
@@ -88,19 +88,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 55,
+      "sum": 188171.85,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3421
+    },
     "sweetwater.com": {
       "count": 1,
       "sum": 929.99,
       "min": 929.99,
       "max": 929.99,
       "avg": 930
-    },
-    "reverb.com": {
-      "count": 54,
-      "sum": 186556.85,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3455
     },
     "nstuffmusic.com": {
       "count": 1,
@@ -153,6 +153,36 @@
     }
   },
   "byModel": {
+    "kiesel-kyber-fixed-bridge-usa": {
+      "displayName": "Kiesel Kyber Fixed Bridge Usa",
+      "brand": "Kiesel",
+      "model": "Kyber Fixed Bridge",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 1615,
+      "min": 1615,
+      "max": 1615,
+      "sightings": [
+        {
+          "price": 1615,
+          "date": "2026-03-28T20:55:41.132Z",
+          "year": null,
+          "title": "Kiesel Kyber 6 Fixed Bridge - Splatter Paint- Made in USA",
+          "url": "https://reverb.com/item/95028470-kiesel-kyber-6-fixed-bridge-splatter-paint-made-in-usa",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1615,
+          "min": 1615,
+          "max": 1615,
+          "avg": 1615
+        }
+      },
+      "avg": 1615
+    },
     "acoustic-label-fg3-guitar": {
       "displayName": "Acoustic Label FG3 Guitar",
       "brand": "Acoustic",
@@ -2076,8 +2106,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 23,
-      "sum": 93844.73999999999,
+      "count": 24,
+      "sum": 95459.73999999999,
       "sold": {
         "count": 6,
         "sum": 17804.45,
@@ -2085,7 +2115,7 @@
         "min": 1375,
         "max": 4999
       },
-      "avg": 4080,
+      "avg": 3977,
       "min": 350,
       "max": 29999.99
     },
@@ -2173,8 +2203,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4946,
-      "count": 64
+      "avg": 4895,
+      "count": 65
     }
   },
   "recentDrops": [
@@ -2203,7 +2233,7 @@
   "priceDistribution": {
     "0-500": 3,
     "500-1k": 5,
-    "1k-2k": 15,
+    "1k-2k": 16,
     "2k-3k": 16,
     "3k-5k": 17,
     "5k-10k": 4,
@@ -2212,13 +2242,18 @@
   "priceDistributionFiltered": {
     "0-500": 3,
     "500-1k": 5,
-    "1k-2k": 15,
+    "1k-2k": 16,
     "2k-3k": 16,
     "3k-5k": 17,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 4,
+      "count": 3,
+      "avg": 1
+    },
     "Acoustic": {
       "sum": 0,
       "count": 1,
@@ -2334,11 +2369,6 @@
       "count": 3,
       "avg": 2
     },
-    "Kiesel": {
-      "sum": 4,
-      "count": 2,
-      "avg": 2
-    },
     "Jackson": {
       "sum": 6,
       "count": 3,
@@ -2361,16 +2391,16 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 28,
+    "2026-03-28": 29,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 56,
     "marketplace": 10,
-    "reverb": 55,
     "news": 7
   },
-  "activeModelsCount": 60,
+  "activeModelsCount": 61,
   "topPosters": [
     {
       "username": "GP",
@@ -2401,12 +2431,12 @@
       "count": 4
     },
     {
-      "username": "HanSwolo",
+      "username": "Modean",
       "count": 3
     },
     {
-      "username": "Modean",
-      "count": 2
+      "username": "HanSwolo",
+      "count": 3
     },
     {
       "username": "Madero",
@@ -2415,9 +2445,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4946,
+    "avg": 4895,
     "pctBelowAvg": 0,
-    "count": 64
+    "count": 65
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2584,11 +2614,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 234.78369556212098,
-      "count": 12,
-      "avgPctDrop": 19.6
+      "totalPctDrop": 249.73893516191035,
+      "count": 13,
+      "avgPctDrop": 19.2
     },
     "byBrand": {
+      "Kiesel": {
+        "totalPctDrop": 14.955239599789364,
+        "count": 1,
+        "avgPctDrop": 15
+      },
       "PRS": {
         "totalPctDrop": 30.938281250000006,
         "count": 1,
@@ -2638,15 +2673,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 61,
+      "total": 62,
       "sold": 10,
       "removed": 0,
-      "live": 51,
+      "live": 52,
       "soldPct": 16,
       "removedPct": 0,
       "livePct": 84
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 3,
+        "sold": 1,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 33,
+        "removedPct": 0,
+        "livePct": 67
+      },
       "Acoustic": {
         "total": 1,
         "sold": 0,
@@ -2854,15 +2898,6 @@
         "removedPct": 0,
         "livePct": 67
       },
-      "Kiesel": {
-        "total": 2,
-        "sold": 1,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 50,
-        "removedPct": 0,
-        "livePct": 50
-      },
       "Tyler": {
         "total": 1,
         "sold": 0,
@@ -2911,13 +2946,13 @@
     }
   },
   "offerActivity": {
-    "withOffers": 10,
-    "totalOffers": 19,
-    "avgOffersPerListing": 1.9,
+    "withOffers": 11,
+    "totalOffers": 20,
+    "avgOffersPerListing": 1.8,
     "offersEnabledPct": 20
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 93
+    "avgShippingCost": 90
   }
 }
