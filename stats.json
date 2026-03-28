@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-28T22:38:42.526Z",
-  "totalLinks": 78,
-  "totalWithPrice": 70,
+  "generatedAt": "2026-03-28T22:46:25.438Z",
+  "totalLinks": 79,
+  "totalWithPrice": 71,
   "overall": {
-    "count": 70,
-    "sum": 329158,
-    "avg": 4702,
+    "count": 71,
+    "sum": 331257.99,
+    "avg": 4666,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 66,
-    "sum": 173163.01,
-    "avg": 2624,
+    "count": 67,
+    "sum": 175263,
+    "avg": 2616,
     "min": 33,
     "max": 7999,
-    "median": 2375
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 9077,
@@ -57,14 +57,21 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 70,
-      "sum": 329158,
+      "count": 71,
+      "sum": 331257.99,
       "min": 33,
       "max": 99000,
-      "avg": 4702
+      "avg": 4666
     }
   },
   "byCategory": {
+    "news": {
+      "count": 4,
+      "sum": 10479.16,
+      "min": 150,
+      "max": 4499.17,
+      "avg": 2620
+    },
     "reverb": {
       "count": 58,
       "sum": 193471.85,
@@ -78,16 +85,16 @@
       "min": 929.99,
       "max": 99000,
       "avg": 14145
-    },
-    "news": {
-      "count": 3,
-      "sum": 8379.17,
-      "min": 150,
-      "max": 4499.17,
-      "avg": 2793
     }
   },
   "byDomain": {
+    "guitarcenter.smart.link": {
+      "count": 1,
+      "sum": 2099.99,
+      "min": 2099.99,
+      "max": 2099.99,
+      "avg": 2100
+    },
     "reverb.com": {
       "count": 58,
       "sum": 193471.85,
@@ -160,6 +167,36 @@
     }
   },
   "byModel": {
+    "ibanez-rg-j-custom": {
+      "displayName": "Ibanez RG J Custom",
+      "brand": "Ibanez",
+      "model": "RG",
+      "variant": "J Custom",
+      "count": 1,
+      "sum": 2099.99,
+      "min": 2099.99,
+      "max": 2099.99,
+      "sightings": [
+        {
+          "price": 2099.99,
+          "date": "2026-03-28T22:46:11.160Z",
+          "year": null,
+          "title": "Used Ibanez RG8570Z J CUSTOM Brown Sunburst Solid Body Electric Guitar Brown Sunburst",
+          "url": "https://guitarcenter.smart.link/0d5tbbro8?schemeUrl=GuitarCenterApp%3A%2F%2FProductDetailsPage%3FID%3Dsite5121973634&isStyle=true&producturl=Used%2FIbanez%2FUsed-Ibanez-RG8570Z-J-CUSTOM-Brown-Sunburst-Solid-Body-Electric-Guitar.gc",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2099.99,
+          "min": 2099.99,
+          "max": 2099.99,
+          "avg": 2100
+        }
+      },
+      "avg": 2100
+    },
     "ibanez-540p-magenta-solid": {
       "displayName": "Ibanez 540P MAGENTA Solid",
       "brand": "Ibanez",
@@ -2202,6 +2239,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 6,
+      "sum": 110058.98,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 18343,
+      "min": 1169.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 26,
       "sum": 99559.73999999999,
@@ -2215,17 +2263,6 @@
       "avg": 3829,
       "min": 350,
       "max": 29999.99
-    },
-    "Used": {
-      "count": 5,
-      "sum": 107958.99,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 21592,
-      "min": 1169.99,
-      "max": 99000
     },
     "Very Good": {
       "count": 18,
@@ -2300,8 +2337,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4702,
-      "count": 70
+      "avg": 4666,
+      "count": 71
     }
   },
   "recentDrops": [
@@ -2331,7 +2368,7 @@
     "0-500": 3,
     "500-1k": 5,
     "1k-2k": 19,
-    "2k-3k": 17,
+    "2k-3k": 18,
     "3k-5k": 18,
     "5k-10k": 4,
     "10k+": 4
@@ -2340,7 +2377,7 @@
     "0-500": 3,
     "500-1k": 5,
     "1k-2k": 19,
-    "2k-3k": 17,
+    "2k-3k": 18,
     "3k-5k": 18,
     "5k-10k": 4,
     "10k+": 0
@@ -2348,7 +2385,7 @@
   "daysOnMarket": {
     "Ibanez": {
       "sum": 4,
-      "count": 5,
+      "count": 6,
       "avg": 1
     },
     "BC Rich": {
@@ -2488,16 +2525,16 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 34,
+    "2026-03-28": 35,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "news": 9,
     "reverb": 59,
-    "marketplace": 11,
-    "news": 8
+    "marketplace": 11
   },
-  "activeModelsCount": 64,
+  "activeModelsCount": 65,
   "topPosters": [
     {
       "username": "GP",
@@ -2512,12 +2549,12 @@
       "count": 9
     },
     {
-      "username": "Beijing Bob",
+      "username": "Shteefe",
       "count": 6
     },
     {
-      "username": "Shteefe",
-      "count": 5
+      "username": "Beijing Bob",
+      "count": 6
     },
     {
       "username": "jazee_",
@@ -2542,9 +2579,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4702,
+    "avg": 4666,
     "pctBelowAvg": 0,
-    "count": 70
+    "count": 71
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2770,20 +2807,20 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 64,
+      "total": 65,
       "sold": 10,
       "removed": 0,
-      "live": 54,
-      "soldPct": 16,
+      "live": 55,
+      "soldPct": 15,
       "removedPct": 0,
-      "livePct": 84
+      "livePct": 85
     },
     "byBrand": {
       "Ibanez": {
-        "total": 5,
+        "total": 6,
         "sold": 0,
         "removed": 0,
-        "live": 5,
+        "live": 6,
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
