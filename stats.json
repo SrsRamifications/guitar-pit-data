@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-28T22:46:25.438Z",
-  "totalLinks": 79,
-  "totalWithPrice": 71,
+  "generatedAt": "2026-03-28T22:56:22.057Z",
+  "totalLinks": 80,
+  "totalWithPrice": 72,
   "overall": {
-    "count": 71,
-    "sum": 331257.99,
-    "avg": 4666,
+    "count": 72,
+    "sum": 333056.99,
+    "avg": 4626,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 67,
-    "sum": 175263,
-    "avg": 2616,
+    "count": 68,
+    "sum": 177062,
+    "avg": 2604,
     "min": 33,
     "max": 7999,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 9077,
+    "thresholdHigh": 9050,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,27 +57,27 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 71,
-      "sum": 331257.99,
+      "count": 72,
+      "sum": 333056.99,
       "min": 33,
       "max": 99000,
-      "avg": 4666
+      "avg": 4626
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 59,
+      "sum": 195270.85,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3310
+    },
     "news": {
       "count": 4,
       "sum": 10479.16,
       "min": 150,
       "max": 4499.17,
       "avg": 2620
-    },
-    "reverb": {
-      "count": 58,
-      "sum": 193471.85,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3336
     },
     "marketplace": {
       "count": 9,
@@ -88,19 +88,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 59,
+      "sum": 195270.85,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3310
+    },
     "guitarcenter.smart.link": {
       "count": 1,
       "sum": 2099.99,
       "min": 2099.99,
       "max": 2099.99,
       "avg": 2100
-    },
-    "reverb.com": {
-      "count": 58,
-      "sum": 193471.85,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3336
     },
     "guitarcenter.com": {
       "count": 2,
@@ -167,6 +167,36 @@
     }
   },
   "byModel": {
+    "kiesel-original": {
+      "displayName": "Kiesel Original",
+      "brand": "Kiesel",
+      "model": "Original",
+      "variant": null,
+      "count": 1,
+      "sum": 1799,
+      "min": 1799,
+      "max": 1799,
+      "sightings": [
+        {
+          "price": 1799,
+          "date": "2026-03-28T22:56:09.131Z",
+          "year": null,
+          "title": "Kiesel Osiris 6 with Original Bag",
+          "url": "https://reverb.com/item/95518144-kiesel-osiris-6-with-original-bag",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1799,
+          "min": 1799,
+          "max": 1799,
+          "avg": 1799
+        }
+      },
+      "avg": 1799
+    },
     "ibanez-rg-j-custom": {
       "displayName": "Ibanez RG J Custom",
       "brand": "Ibanez",
@@ -2239,6 +2269,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 27,
+      "sum": 101358.73999999999,
+      "sold": {
+        "count": 6,
+        "sum": 17804.45,
+        "avg": 2967,
+        "min": 1375,
+        "max": 4999
+      },
+      "avg": 3754,
+      "min": 350,
+      "max": 29999.99
+    },
     "Used": {
       "count": 6,
       "sum": 110058.98,
@@ -2249,20 +2293,6 @@
       "avg": 18343,
       "min": 1169.99,
       "max": 99000
-    },
-    "Excellent": {
-      "count": 26,
-      "sum": 99559.73999999999,
-      "sold": {
-        "count": 6,
-        "sum": 17804.45,
-        "avg": 2967,
-        "min": 1375,
-        "max": 4999
-      },
-      "avg": 3829,
-      "min": 350,
-      "max": 29999.99
     },
     "Very Good": {
       "count": 18,
@@ -2337,8 +2367,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4666,
-      "count": 71
+      "avg": 4626,
+      "count": 72
     }
   },
   "recentDrops": [
@@ -2367,7 +2397,7 @@
   "priceDistribution": {
     "0-500": 3,
     "500-1k": 5,
-    "1k-2k": 19,
+    "1k-2k": 20,
     "2k-3k": 18,
     "3k-5k": 18,
     "5k-10k": 4,
@@ -2376,13 +2406,18 @@
   "priceDistributionFiltered": {
     "0-500": 3,
     "500-1k": 5,
-    "1k-2k": 19,
+    "1k-2k": 20,
     "2k-3k": 18,
     "3k-5k": 18,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 4,
+      "count": 4,
+      "avg": 1
+    },
     "Ibanez": {
       "sum": 4,
       "count": 6,
@@ -2391,11 +2426,6 @@
     "BC Rich": {
       "sum": 6,
       "count": 8,
-      "avg": 1
-    },
-    "Kiesel": {
-      "sum": 4,
-      "count": 3,
       "avg": 1
     },
     "Acoustic": {
@@ -2525,16 +2555,16 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 35,
+    "2026-03-28": 36,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 60,
     "news": 9,
-    "reverb": 59,
     "marketplace": 11
   },
-  "activeModelsCount": 65,
+  "activeModelsCount": 66,
   "topPosters": [
     {
       "username": "GP",
@@ -2549,11 +2579,11 @@
       "count": 9
     },
     {
-      "username": "Shteefe",
-      "count": 6
+      "username": "Beijing Bob",
+      "count": 7
     },
     {
-      "username": "Beijing Bob",
+      "username": "Shteefe",
       "count": 6
     },
     {
@@ -2579,9 +2609,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4666,
+    "avg": 4626,
     "pctBelowAvg": 0,
-    "count": 71
+    "count": 72
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2807,15 +2837,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 65,
+      "total": 66,
       "sold": 10,
       "removed": 0,
-      "live": 55,
+      "live": 56,
       "soldPct": 15,
       "removedPct": 0,
       "livePct": 85
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 4,
+        "sold": 1,
+        "removed": 0,
+        "live": 3,
+        "soldPct": 25,
+        "removedPct": 0,
+        "livePct": 75
+      },
       "Ibanez": {
         "total": 6,
         "sold": 0,
@@ -2833,15 +2872,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Kiesel": {
-        "total": 3,
-        "sold": 1,
-        "removed": 0,
-        "live": 2,
-        "soldPct": 33,
-        "removedPct": 0,
-        "livePct": 67
       },
       "Acoustic": {
         "total": 1,
@@ -3083,10 +3113,10 @@
     "withOffers": 12,
     "totalOffers": 21,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 22
+    "offersEnabledPct": 23
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 96
   }
 }
