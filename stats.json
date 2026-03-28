@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-28T19:21:23.391Z",
-  "totalLinks": 70,
-  "totalWithPrice": 60,
+  "generatedAt": "2026-03-28T19:36:33.613Z",
+  "totalLinks": 71,
+  "totalWithPrice": 61,
   "overall": {
-    "count": 60,
-    "sum": 304471.68,
-    "avg": 5075,
+    "count": 61,
+    "sum": 309019.85,
+    "avg": 5066,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 56,
-    "sum": 148476.69,
-    "avg": 2651,
+    "count": 57,
+    "sum": 153024.86,
+    "avg": 2685,
     "min": 33,
     "max": 7999,
-    "median": 2475
+    "median": 2500
   },
   "outliers": {
     "thresholdHigh": 8700,
@@ -57,20 +57,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 60,
-      "sum": 304471.68,
+      "count": 61,
+      "sum": 309019.85,
       "min": 33,
       "max": 99000,
-      "avg": 5075
+      "avg": 5066
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 52,
-      "sum": 179708.68,
+      "count": 53,
+      "sum": 184256.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3456
+      "avg": 3477
     },
     "news": {
       "count": 2,
@@ -89,11 +89,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 52,
-      "sum": 179708.68,
+      "count": 53,
+      "sum": 184256.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3456
+      "avg": 3477
     },
     "southshoreguitarboutique.com": {
       "count": 1,
@@ -139,6 +139,66 @@
     }
   },
   "byModel": {
+    "prs-mccarty-594": {
+      "displayName": "PRS McCarty 594",
+      "brand": "PRS",
+      "model": "McCarty 594",
+      "variant": null,
+      "count": 2,
+      "sum": 7298.17,
+      "min": 2750,
+      "max": 4548.17,
+      "sightings": [
+        {
+          "price": 2750,
+          "date": "2026-03-27T21:14:54.364Z",
+          "year": null,
+          "title": "PRS McCarty 594 Soapbar",
+          "url": "https://reverb.com/item/95502869-prs-mccarty-594-soapbar",
+          "condition": "Excellent"
+        },
+        {
+          "price": 4548.17,
+          "date": "2026-03-28T19:36:20.663Z",
+          "year": null,
+          "title": "PRS McCarty 594 - Antique White",
+          "url": "https://reverb.com/item/95513943-prs-mccarty-594-antique-white",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 4548.17,
+          "min": 4548.17,
+          "max": 4548.17,
+          "avg": 4548
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 2750,
+          "min": 2750,
+          "max": 2750,
+          "avg": 2750
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2750,
+        "min": 2750,
+        "max": 2750,
+        "prices": [
+          {
+            "price": 2750,
+            "askingPrice": 2750,
+            "date": "2026-03-27T23:42:16.313Z",
+            "title": "PRS McCarty 594 Soapbar",
+            "url": "https://reverb.com/item/95502869-prs-mccarty-594-soapbar"
+          }
+        ]
+      },
+      "avg": 3649
+    },
     "prs-custom-24": {
       "displayName": "PRS Custom 24",
       "brand": "PRS",
@@ -858,51 +918,6 @@
         }
       },
       "avg": 16500
-    },
-    "prs-mccarty-594": {
-      "displayName": "PRS McCarty 594",
-      "brand": "PRS",
-      "model": "McCarty 594",
-      "variant": null,
-      "count": 1,
-      "sum": 2750,
-      "min": 2750,
-      "max": 2750,
-      "sightings": [
-        {
-          "price": 2750,
-          "date": "2026-03-27T21:14:54.364Z",
-          "year": null,
-          "title": "PRS McCarty 594 Soapbar",
-          "url": "https://reverb.com/item/95502869-prs-mccarty-594-soapbar",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2750,
-          "min": 2750,
-          "max": 2750,
-          "avg": 2750
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2750,
-        "min": 2750,
-        "max": 2750,
-        "prices": [
-          {
-            "price": 2750,
-            "askingPrice": 2750,
-            "date": "2026-03-27T23:42:16.313Z",
-            "title": "PRS McCarty 594 Soapbar",
-            "url": "https://reverb.com/item/95502869-prs-mccarty-594-soapbar"
-          }
-        ]
-      },
-      "avg": 2750
     },
     "bc-rich-trifold-catalog": {
       "displayName": "BC Rich trifold catalog",
@@ -1986,6 +2001,17 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 6,
+      "sum": 22363.07,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 3727,
+      "min": 1295.95,
+      "max": 5799
+    },
     "Very Good": {
       "count": 17,
       "sum": 53008.57000000001,
@@ -2013,17 +2039,6 @@
       "avg": 4161,
       "min": 350,
       "max": 29999.99
-    },
-    "Brand New": {
-      "count": 5,
-      "sum": 17814.9,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 3563,
-      "min": 1295.95,
-      "max": 5799
     },
     "Good": {
       "count": 5,
@@ -2073,8 +2088,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5075,
-      "count": 60
+      "avg": 5066,
+      "count": 61
     }
   },
   "recentDrops": [
@@ -2105,7 +2120,7 @@
     "500-1k": 4,
     "1k-2k": 15,
     "2k-3k": 15,
-    "3k-5k": 15,
+    "3k-5k": 16,
     "5k-10k": 4,
     "10k+": 4
   },
@@ -2114,14 +2129,14 @@
     "500-1k": 4,
     "1k-2k": 15,
     "2k-3k": 15,
-    "3k-5k": 15,
+    "3k-5k": 16,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
     "PRS": {
       "sum": 2,
-      "count": 5,
+      "count": 6,
       "avg": 0
     },
     "Anderson": {
@@ -2251,12 +2266,12 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 26,
+    "2026-03-28": 27,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 53,
+    "reverb": 54,
     "marketplace": 10,
     "news": 7
   },
@@ -2272,7 +2287,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 7
+      "count": 8
     },
     {
       "username": "jazee_",
@@ -2305,9 +2320,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5075,
+    "avg": 5066,
     "pctBelowAvg": 0,
-    "count": 60
+    "count": 61
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2528,23 +2543,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 58,
+      "total": 59,
       "sold": 10,
       "removed": 0,
-      "live": 48,
+      "live": 49,
       "soldPct": 17,
       "removedPct": 0,
       "livePct": 83
     },
     "byBrand": {
       "PRS": {
-        "total": 6,
+        "total": 7,
         "sold": 1,
         "removed": 0,
-        "live": 5,
-        "soldPct": 17,
+        "live": 6,
+        "soldPct": 14,
         "removedPct": 0,
-        "livePct": 83
+        "livePct": 86
       },
       "Anderson": {
         "total": 1,
