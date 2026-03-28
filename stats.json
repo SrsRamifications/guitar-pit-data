@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-28T18:59:10.074Z",
-  "totalLinks": 67,
-  "totalWithPrice": 57,
+  "generatedAt": "2026-03-28T19:01:08.357Z",
+  "totalLinks": 68,
+  "totalWithPrice": 58,
   "overall": {
-    "count": 57,
-    "sum": 296121.68,
-    "avg": 5195,
+    "count": 58,
+    "sum": 299621.68,
+    "avg": 5166,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 53,
-    "sum": 140126.69,
-    "avg": 2644,
+    "count": 54,
+    "sum": 143626.69,
+    "avg": 2660,
     "min": 33,
     "max": 7999,
-    "median": 2450
+    "median": 2475
   },
   "outliers": {
     "thresholdHigh": 9050,
@@ -57,17 +57,17 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 57,
-      "sum": 296121.68,
+      "count": 58,
+      "sum": 299621.68,
       "min": 33,
       "max": 99000,
-      "avg": 5195
+      "avg": 5166
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 49,
-      "sum": 171358.68,
+      "count": 50,
+      "sum": 174858.68,
       "min": 33,
       "max": 29999.99,
       "avg": 3497
@@ -89,8 +89,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 49,
-      "sum": 171358.68,
+      "count": 50,
+      "sum": 174858.68,
       "min": 33,
       "max": 29999.99,
       "avg": 3497
@@ -139,6 +139,36 @@
     }
   },
   "byModel": {
+    "gibson-sg-custom-shop-59": {
+      "displayName": "Gibson SG Custom Shop 59",
+      "brand": "Gibson",
+      "model": "SG",
+      "variant": "Custom Shop 59",
+      "count": 1,
+      "sum": 3500,
+      "min": 3500,
+      "max": 3500,
+      "sightings": [
+        {
+          "price": 3500,
+          "date": "2026-03-28T19:00:55.559Z",
+          "year": null,
+          "title": "Gibson Custom Shop 61/59 SG  VOS",
+          "url": "https://reverb.com/item/95515175-gibson-custom-shop-61-59-sg-vos",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3500,
+          "min": 3500,
+          "max": 3500,
+          "avg": 3500
+        }
+      },
+      "avg": 3500
+    },
     "schecter-traditional-wembley-hss-usa-custom-shop": {
       "displayName": "Schecter Traditional Wembley HSS Usa Custom Shop",
       "brand": "Schecter",
@@ -1912,8 +1942,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 20,
-      "sum": 85494.73999999999,
+      "count": 21,
+      "sum": 88994.73999999999,
       "sold": {
         "count": 6,
         "sum": 17804.45,
@@ -1921,7 +1951,7 @@
         "min": 1375,
         "max": 4999
       },
-      "avg": 4275,
+      "avg": 4238,
       "min": 350,
       "max": 29999.99
     },
@@ -1998,8 +2028,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5195,
-      "count": 57
+      "avg": 5166,
+      "count": 58
     }
   },
   "recentDrops": [
@@ -2030,7 +2060,7 @@
     "500-1k": 4,
     "1k-2k": 15,
     "2k-3k": 13,
-    "3k-5k": 14,
+    "3k-5k": 15,
     "5k-10k": 4,
     "10k+": 4
   },
@@ -2039,11 +2069,16 @@
     "500-1k": 4,
     "1k-2k": 15,
     "2k-3k": 13,
-    "3k-5k": 14,
+    "3k-5k": 15,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 9,
+      "count": 7,
+      "avg": 1
+    },
     "Schecter": {
       "sum": 0,
       "count": 1,
@@ -2058,11 +2093,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "Gibson": {
-      "sum": 9,
-      "count": 6,
-      "avg": 2
     },
     "Ibanez": {
       "sum": 4,
@@ -2171,20 +2201,20 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 23,
+    "2026-03-28": 24,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 50,
+    "reverb": 51,
     "marketplace": 10,
     "news": 7
   },
-  "activeModelsCount": 56,
+  "activeModelsCount": 57,
   "topPosters": [
     {
       "username": "GP",
-      "count": 22
+      "count": 23
     },
     {
       "username": "YellowJack6",
@@ -2225,9 +2255,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5195,
+    "avg": 5166,
     "pctBelowAvg": 0,
-    "count": 57
+    "count": 58
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2448,15 +2478,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 55,
+      "total": 56,
       "sold": 10,
       "removed": 0,
-      "live": 45,
+      "live": 46,
       "soldPct": 18,
       "removedPct": 0,
       "livePct": 82
     },
     "byBrand": {
+      "Gibson": {
+        "total": 9,
+        "sold": 1,
+        "removed": 0,
+        "live": 8,
+        "soldPct": 11,
+        "removedPct": 0,
+        "livePct": 89
+      },
       "Schecter": {
         "total": 1,
         "sold": 0,
@@ -2483,15 +2522,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 8,
-        "sold": 1,
-        "removed": 0,
-        "live": 7,
-        "soldPct": 13,
-        "removedPct": 0,
-        "livePct": 88
       },
       "Ibanez": {
         "total": 4,
@@ -2697,10 +2727,10 @@
     "withOffers": 10,
     "totalOffers": 19,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 14
+    "offersEnabledPct": 16
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 90
+    "avgShippingCost": 92
   }
 }
