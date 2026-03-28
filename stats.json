@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T16:05:11.146Z",
+  "generatedAt": "2026-03-28T16:30:00.304Z",
   "totalLinks": 59,
   "totalWithPrice": 52,
   "overall": {
@@ -8,6 +8,52 @@
     "avg": 5326,
     "min": 33,
     "max": 99000
+  },
+  "filtered": {
+    "count": 48,
+    "sum": 120977.74,
+    "avg": 2520,
+    "min": 33,
+    "max": 7999,
+    "median": 2290
+  },
+  "outliers": {
+    "thresholdHigh": 9077,
+    "thresholdLow": 0,
+    "count": 4,
+    "items": [
+      {
+        "title": "Languedoc G2 Natural 2013 - Zac Brown",
+        "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/languedoc-g2-natural-2013-zac-brown-2500373",
+        "price": "$99,000",
+        "image": "http://www.chicagomusicexchange.com/cdn/shop/files/languedoc-languedoc-g2-natural-2013-zac-brown-languedoc-g2-natural-2013-zac-brown-u74725885146-1227537525.jpg?v=1773779181",
+        "condition": "Used",
+        "postedAt": "2026-03-28T15:20:32.347Z"
+      },
+      {
+        "title": "Hamer Custom Shop Vector V #2 Rick Nielsen Signature/Artist Signed Black & White Checkerboard 1983 w/OHSC",
+        "url": "https://reverb.com/item/95448773-hamer-custom-shop-vector-v-2-rick-nielsen-signature-artist-signed-black-white-checkerboard-1983-w-ohsc",
+        "price": "$29,999.99",
+        "image": "https://rvb-img.reverb.com/i/s--AyOhWHw4--/quality=medium-low,height=800,width=800,fit=contain/2c277a3d-9b5a-48f0-a8c4-f7f2222fa6b2.jpeg",
+        "condition": "Excellent",
+        "postedAt": "2026-03-27T01:35:31.451Z"
+      },
+      {
+        "title": "Rick Toone Spearfish \"Blueprint\" 2025 - Custom Blueprint Stain",
+        "url": "https://reverb.com/item/94758681-rick-toone-spearfish-blueprint-2025-custom-blueprint-stain",
+        "price": "$16,500",
+        "image": "https://rvb-img.reverb.com/i/s--jSGXGi2r--/quality=medium-low,height=800,width=800,fit=contain/a72c9d6d-42a1-44c9-a8fd-b197bb653764.jpg",
+        "condition": "Very Good",
+        "postedAt": "2026-03-27T21:56:25.171Z"
+      },
+      {
+        "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
+        "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
+        "price": "$10,495",
+        "condition": null,
+        "postedAt": "2026-03-27T23:35:36.273Z"
+      }
+    ]
   },
   "byMonth": {
     "2026-03": {
@@ -1778,12 +1824,22 @@
     }
   ],
   "priceDistribution": {
-    "0-250": 2,
-    "250-500": 1,
-    "500-1000": 4,
-    "1000-2000": 14,
-    "2000-5000": 24,
-    "5000+": 7
+    "0-500": 3,
+    "500-1k": 4,
+    "1k-2k": 14,
+    "2k-3k": 12,
+    "3k-5k": 12,
+    "5k-10k": 3,
+    "10k+": 4
+  },
+  "priceDistributionFiltered": {
+    "0-500": 3,
+    "500-1k": 4,
+    "1k-2k": 14,
+    "2k-3k": 12,
+    "3k-5k": 12,
+    "5k-10k": 3,
+    "10k+": 0
   },
   "daysOnMarket": {
     "BC Rich": {
@@ -1812,7 +1868,7 @@
       "avg": 0
     },
     "Fender Custom Shop": {
-      "sum": 1,
+      "sum": 2,
       "count": 2,
       "avg": 1
     },
@@ -2142,14 +2198,30 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 46,
+      "total": 52,
       "sold": 8,
       "removed": 0,
-      "live": 38,
-      "soldPct": 17,
+      "live": 44,
+      "soldPct": 15,
       "removedPct": 0
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 7,
+        "sold": 0,
+        "removed": 0,
+        "live": 7,
+        "soldPct": 0,
+        "removedPct": 0
+      },
+      "Languedoc": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "PRS": {
         "total": 3,
         "sold": 1,
@@ -2207,11 +2279,19 @@
         "removedPct": 0
       },
       "Gibson": {
-        "total": 4,
+        "total": 5,
         "sold": 0,
         "removed": 0,
-        "live": 4,
+        "live": 5,
         "soldPct": 0,
+        "removedPct": 0
+      },
+      "Fender": {
+        "total": 2,
+        "sold": 1,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 50,
         "removedPct": 0
       },
       "Echopark": {
@@ -2227,14 +2307,6 @@
         "sold": 0,
         "removed": 0,
         "live": 1,
-        "soldPct": 0,
-        "removedPct": 0
-      },
-      "BC Rich": {
-        "total": 6,
-        "sold": 0,
-        "removed": 0,
-        "live": 6,
         "soldPct": 0,
         "removedPct": 0
       },
@@ -2294,6 +2366,14 @@
         "soldPct": 50,
         "removedPct": 0
       },
+      "Jackson": {
+        "total": 3,
+        "sold": 0,
+        "removed": 0,
+        "live": 3,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "Framus": {
         "total": 1,
         "sold": 1,
@@ -2302,28 +2382,12 @@
         "soldPct": 100,
         "removedPct": 0
       },
-      "Jackson": {
-        "total": 2,
-        "sold": 0,
-        "removed": 0,
-        "live": 2,
-        "soldPct": 0,
-        "removedPct": 0
-      },
       "Hamer": {
         "total": 1,
         "sold": 0,
         "removed": 0,
         "live": 1,
         "soldPct": 0,
-        "removedPct": 0
-      },
-      "Fender": {
-        "total": 1,
-        "sold": 1,
-        "removed": 0,
-        "live": 0,
-        "soldPct": 100,
         "removedPct": 0
       },
       "Danocaster": {
