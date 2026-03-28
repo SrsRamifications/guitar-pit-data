@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-28T19:01:08.357Z",
-  "totalLinks": 68,
-  "totalWithPrice": 58,
+  "generatedAt": "2026-03-28T19:19:00.930Z",
+  "totalLinks": 69,
+  "totalWithPrice": 59,
   "overall": {
-    "count": 58,
-    "sum": 299621.68,
-    "avg": 5166,
+    "count": 59,
+    "sum": 302171.68,
+    "avg": 5122,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 54,
-    "sum": 143626.69,
-    "avg": 2660,
+    "count": 55,
+    "sum": 146176.69,
+    "avg": 2658,
     "min": 33,
     "max": 7999,
-    "median": 2475
+    "median": 2500
   },
   "outliers": {
     "thresholdHigh": 9050,
@@ -57,20 +57,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 58,
-      "sum": 299621.68,
+      "count": 59,
+      "sum": 302171.68,
       "min": 33,
       "max": 99000,
-      "avg": 5166
+      "avg": 5122
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 50,
-      "sum": 174858.68,
+      "count": 51,
+      "sum": 177408.68,
       "min": 33,
       "max": 29999.99,
-      "avg": 3497
+      "avg": 3479
     },
     "news": {
       "count": 2,
@@ -89,11 +89,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 50,
-      "sum": 174858.68,
+      "count": 51,
+      "sum": 177408.68,
       "min": 33,
       "max": 29999.99,
-      "avg": 3497
+      "avg": 3479
     },
     "southshoreguitarboutique.com": {
       "count": 1,
@@ -139,6 +139,36 @@
     }
   },
   "byModel": {
+    "anderson-classic": {
+      "displayName": "Anderson Classic",
+      "brand": "Anderson",
+      "model": "Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 2550,
+      "min": 2550,
+      "max": 2550,
+      "sightings": [
+        {
+          "price": 2550,
+          "date": "2026-03-28T19:18:48.079Z",
+          "year": 2007,
+          "title": "Tom Anderson Hollow T Classic Contoured 2007 - Translucent Blond",
+          "url": "https://reverb.com/item/95515485-tom-anderson-hollow-t-classic-contoured-2007-translucent-blond",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2550,
+          "min": 2550,
+          "max": 2550,
+          "avg": 2550
+        }
+      },
+      "avg": 2550
+    },
     "gibson-sg-custom-shop-59": {
       "displayName": "Gibson SG Custom Shop 59",
       "brand": "Gibson",
@@ -1942,8 +1972,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 21,
-      "sum": 88994.73999999999,
+      "count": 22,
+      "sum": 91544.73999999999,
       "sold": {
         "count": 6,
         "sum": 17804.45,
@@ -1951,7 +1981,7 @@
         "min": 1375,
         "max": 4999
       },
-      "avg": 4238,
+      "avg": 4161,
       "min": 350,
       "max": 29999.99
     },
@@ -2028,8 +2058,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5166,
-      "count": 58
+      "avg": 5122,
+      "count": 59
     }
   },
   "recentDrops": [
@@ -2059,7 +2089,7 @@
     "0-500": 3,
     "500-1k": 4,
     "1k-2k": 15,
-    "2k-3k": 13,
+    "2k-3k": 14,
     "3k-5k": 15,
     "5k-10k": 4,
     "10k+": 4
@@ -2068,12 +2098,17 @@
     "0-500": 3,
     "500-1k": 4,
     "1k-2k": 15,
-    "2k-3k": 13,
+    "2k-3k": 14,
     "3k-5k": 15,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Anderson": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Gibson": {
       "sum": 9,
       "count": 7,
@@ -2201,20 +2236,20 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 24,
+    "2026-03-28": 25,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 51,
+    "reverb": 52,
     "marketplace": 10,
     "news": 7
   },
-  "activeModelsCount": 57,
+  "activeModelsCount": 58,
   "topPosters": [
     {
       "username": "GP",
-      "count": 23
+      "count": 24
     },
     {
       "username": "YellowJack6",
@@ -2255,9 +2290,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5166,
+    "avg": 5122,
     "pctBelowAvg": 0,
-    "count": 58
+    "count": 59
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2478,15 +2513,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 56,
+      "total": 57,
       "sold": 10,
       "removed": 0,
-      "live": 46,
+      "live": 47,
       "soldPct": 18,
       "removedPct": 0,
       "livePct": 82
     },
     "byBrand": {
+      "Anderson": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 9,
         "sold": 1,
@@ -2727,10 +2771,10 @@
     "withOffers": 10,
     "totalOffers": 19,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 16
+    "offersEnabledPct": 17
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 92
+    "avgShippingCost": 93
   }
 }
