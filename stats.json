@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T16:30:00.304Z",
+  "generatedAt": "2026-03-28T16:36:51.274Z",
   "totalLinks": 59,
   "totalWithPrice": 52,
   "overall": {
@@ -519,6 +519,21 @@
           "max": 10495,
           "avg": 10495
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 10495,
+        "min": 10495,
+        "max": 10495,
+        "prices": [
+          {
+            "price": 10495,
+            "askingPrice": 10495,
+            "date": "2026-03-28T16:36:41.720Z",
+            "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
+            "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx"
+          }
+        ]
       },
       "avg": 10495
     },
@@ -1300,6 +1315,21 @@
           "avg": 3599
         }
       },
+      "soldData": {
+        "count": 1,
+        "avg": 3599,
+        "min": 3599,
+        "max": 3599,
+        "prices": [
+          {
+            "price": 3599,
+            "askingPrice": 3599,
+            "date": "2026-03-28T16:36:45.300Z",
+            "title": "1998 Jackson USA SL1",
+            "url": "https://wildwoodguitars.com/collections/used-electric-guitars/products/wwconjkuo5617npre-owned-jacksonn1998-sl1-made-in-usaneerie-dess-swirl-high-glossnhardshell-case"
+          }
+        ]
+      },
       "avg": 3599
     },
     "gibson-les-paul-special": {
@@ -1329,6 +1359,21 @@
           "max": 1999,
           "avg": 1999
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1999,
+        "min": 1999,
+        "max": 1999,
+        "prices": [
+          {
+            "price": 1999,
+            "askingPrice": 1999,
+            "date": "2026-03-28T16:36:48.603Z",
+            "title": "Gibson Les Paul Special Double Cut Electric Guitar-Cherry",
+            "url": "https://www.guitarcenter.com/Gibson/Les-Paul-Special-Double-Cut-Electric-Guitar-Cherry-1500000455117.gc"
+          }
+        ]
       },
       "avg": 1999
     },
@@ -2025,19 +2070,27 @@
   "topVoted": [],
   "discountFromRetail": {},
   "soldPrices": {
-    "count": 8,
-    "avg": 2870,
+    "count": 11,
+    "avg": 3550,
     "min": 1201.8,
-    "max": 4999,
+    "max": 10495,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 5,
-      "count": 8,
+      "totalDays": 10,
+      "count": 11,
       "avgDays": 1
     },
     "byModel": {
+      "fender-telecaster": {
+        "displayName": "Fender Telecaster",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
+      },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594",
         "totalDays": 0,
@@ -2070,6 +2123,22 @@
         "slowest": 1,
         "avgDays": 1
       },
+      "jackson-sl1-usa": {
+        "displayName": "Jackson SL1 Usa",
+        "totalDays": 2,
+        "count": 1,
+        "fastest": 2,
+        "slowest": 2,
+        "avgDays": 2
+      },
+      "gibson-les-paul-special": {
+        "displayName": "Gibson Les Paul Special",
+        "totalDays": 2,
+        "count": 1,
+        "fastest": 2,
+        "slowest": 2,
+        "avgDays": 2
+      },
       "framus-teambuilt-pro-diablo": {
         "displayName": "Framus Teambuilt Pro Diablo",
         "totalDays": 1,
@@ -2096,6 +2165,13 @@
       }
     },
     "byBrand": {
+      "Fender": {
+        "totalDays": 2,
+        "count": 2,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
+      },
       "PRS": {
         "totalDays": 0,
         "count": 1,
@@ -2124,14 +2200,21 @@
         "slowest": 1,
         "avgDays": 1
       },
-      "Framus": {
-        "totalDays": 1,
+      "Jackson": {
+        "totalDays": 2,
         "count": 1,
-        "fastest": 1,
-        "slowest": 1,
-        "avgDays": 1
+        "fastest": 2,
+        "slowest": 2,
+        "avgDays": 2
       },
-      "Fender": {
+      "Gibson": {
+        "totalDays": 2,
+        "count": 1,
+        "fastest": 2,
+        "slowest": 2,
+        "avgDays": 2
+      },
+      "Framus": {
         "totalDays": 1,
         "count": 1,
         "fastest": 1,
@@ -2199,10 +2282,10 @@
   "sellThrough": {
     "overall": {
       "total": 52,
-      "sold": 8,
+      "sold": 11,
       "removed": 0,
-      "live": 44,
-      "soldPct": 15,
+      "live": 41,
+      "soldPct": 21,
       "removedPct": 0
     },
     "byBrand": {
@@ -2280,18 +2363,18 @@
       },
       "Gibson": {
         "total": 5,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
-        "live": 5,
-        "soldPct": 0,
+        "live": 4,
+        "soldPct": 20,
         "removedPct": 0
       },
       "Fender": {
         "total": 2,
-        "sold": 1,
+        "sold": 2,
         "removed": 0,
-        "live": 1,
-        "soldPct": 50,
+        "live": 0,
+        "soldPct": 100,
         "removedPct": 0
       },
       "Echopark": {
@@ -2368,10 +2451,10 @@
       },
       "Jackson": {
         "total": 3,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
-        "live": 3,
-        "soldPct": 0,
+        "live": 2,
+        "soldPct": 33,
         "removedPct": 0
       },
       "Framus": {
