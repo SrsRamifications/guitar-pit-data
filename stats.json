@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-28T19:48:47.885Z",
+  "generatedAt": "2026-03-28T19:57:16.529Z",
   "totalLinks": 72,
-  "totalWithPrice": 62,
+  "totalWithPrice": 64,
   "overall": {
-    "count": 62,
-    "sum": 311319.85,
-    "avg": 5021,
+    "count": 64,
+    "sum": 316573.84,
+    "avg": 4946,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 58,
-    "sum": 155324.86,
-    "avg": 2678,
+    "count": 60,
+    "sum": 160578.85,
+    "avg": 2676,
     "min": 33,
     "max": 7999,
     "median": 2475
   },
   "outliers": {
-    "thresholdHigh": 8700,
+    "thresholdHigh": 8835,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,14 +57,21 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 62,
-      "sum": 311319.85,
+      "count": 64,
+      "sum": 316573.84,
       "min": 33,
       "max": 99000,
-      "avg": 5021
+      "avg": 4946
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 8,
+      "sum": 126136.99,
+      "min": 929.99,
+      "max": 99000,
+      "avg": 15767
+    },
     "reverb": {
       "count": 54,
       "sum": 186556.85,
@@ -78,22 +85,29 @@
       "min": 150,
       "max": 3730,
       "avg": 1940
-    },
-    "marketplace": {
-      "count": 6,
-      "sum": 120883,
-      "min": 1999,
-      "max": 99000,
-      "avg": 20147
     }
   },
   "byDomain": {
+    "sweetwater.com": {
+      "count": 1,
+      "sum": 929.99,
+      "min": 929.99,
+      "max": 929.99,
+      "avg": 930
+    },
     "reverb.com": {
       "count": 54,
       "sum": 186556.85,
       "min": 33,
       "max": 29999.99,
       "avg": 3455
+    },
+    "nstuffmusic.com": {
+      "count": 1,
+      "sum": 4324,
+      "min": 4324,
+      "max": 4324,
+      "avg": 4324
     },
     "southshoreguitarboutique.com": {
       "count": 1,
@@ -139,6 +153,36 @@
     }
   },
   "byModel": {
+    "acoustic-label-fg3-guitar": {
+      "displayName": "Acoustic Label FG3 Guitar",
+      "brand": "Acoustic",
+      "model": "Label FG3 Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 929.99,
+      "min": 929.99,
+      "max": 929.99,
+      "sightings": [
+        {
+          "price": 929.99,
+          "date": "2026-03-28T15:44:09.840Z",
+          "year": null,
+          "title": "Red Label FG3 Acoustic Guitar - Natural",
+          "url": "https://www.sweetwater.com/store/detail/FG3N--yamaha-red-label-fg3-natural?_queryID=4b5dd4fa2f4662e48ffd692a1095e69a&_index=production_products&serial=ILP171260",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 929.99,
+          "min": 929.99,
+          "max": 929.99,
+          "avg": 930
+        }
+      },
+      "avg": 930
+    },
     "dunable-evil-instruments-claudio-signature": {
       "displayName": "Dunable Evil Instruments Claudio Signature",
       "brand": "Dunable",
@@ -2070,6 +2114,17 @@
       "min": 33,
       "max": 16500
     },
+    "New": {
+      "count": 1,
+      "sum": 4324,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 4324,
+      "min": 4324,
+      "max": 4324
+    },
     "Good": {
       "count": 5,
       "sum": 13752.47,
@@ -2118,8 +2173,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5021,
-      "count": 62
+      "avg": 4946,
+      "count": 64
     }
   },
   "recentDrops": [
@@ -2147,23 +2202,28 @@
   ],
   "priceDistribution": {
     "0-500": 3,
-    "500-1k": 4,
+    "500-1k": 5,
     "1k-2k": 15,
     "2k-3k": 16,
-    "3k-5k": 16,
+    "3k-5k": 17,
     "5k-10k": 4,
     "10k+": 4
   },
   "priceDistributionFiltered": {
     "0-500": 3,
-    "500-1k": 4,
+    "500-1k": 5,
     "1k-2k": 15,
     "2k-3k": 16,
-    "3k-5k": 16,
+    "3k-5k": 17,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Acoustic": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Dunable": {
       "sum": 0,
       "count": 1,
@@ -2306,11 +2366,11 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 55,
     "marketplace": 10,
+    "reverb": 55,
     "news": 7
   },
-  "activeModelsCount": 59,
+  "activeModelsCount": 60,
   "topPosters": [
     {
       "username": "GP",
@@ -2355,9 +2415,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5021,
+    "avg": 4946,
     "pctBelowAvg": 0,
-    "count": 62
+    "count": 64
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2578,15 +2638,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 60,
+      "total": 61,
       "sold": 10,
       "removed": 0,
-      "live": 50,
-      "soldPct": 17,
+      "live": 51,
+      "soldPct": 16,
       "removedPct": 0,
-      "livePct": 83
+      "livePct": 84
     },
     "byBrand": {
+      "Acoustic": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Dunable": {
         "total": 1,
         "sold": 0,
