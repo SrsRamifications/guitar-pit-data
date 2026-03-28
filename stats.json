@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-28T16:36:51.274Z",
-  "totalLinks": 59,
-  "totalWithPrice": 52,
+  "generatedAt": "2026-03-28T16:41:12.454Z",
+  "totalLinks": 60,
+  "totalWithPrice": 53,
   "overall": {
-    "count": 52,
-    "sum": 276972.73,
-    "avg": 5326,
+    "count": 53,
+    "sum": 279472.73,
+    "avg": 5273,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 48,
-    "sum": 120977.74,
+    "count": 49,
+    "sum": 123477.74,
     "avg": 2520,
     "min": 33,
     "max": 7999,
-    "median": 2290
+    "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 9077,
+    "thresholdHigh": 8777,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,27 +57,27 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 52,
-      "sum": 276972.73,
+      "count": 53,
+      "sum": 279472.73,
       "min": 33,
       "max": 99000,
-      "avg": 5326
+      "avg": 5273
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 46,
+      "sum": 158439.73,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3444
+    },
     "marketplace": {
       "count": 6,
       "sum": 120883,
       "min": 1999,
       "max": 99000,
       "avg": 20147
-    },
-    "reverb": {
-      "count": 45,
-      "sum": 155939.73,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3465
     },
     "news": {
       "count": 1,
@@ -88,19 +88,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 46,
+      "sum": 158439.73,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3444
+    },
     "chicagomusicexchange.com": {
       "count": 3,
       "sum": 104790,
       "min": 2295,
       "max": 99000,
       "avg": 34930
-    },
-    "reverb.com": {
-      "count": 45,
-      "sum": 155939.73,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3465
     },
     "resistorhead.company.site": {
       "count": 1,
@@ -132,6 +132,36 @@
     }
   },
   "byModel": {
+    "ibanez-metal-usa": {
+      "displayName": "Ibanez Metal Usa",
+      "brand": "Ibanez",
+      "model": "Metal",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-03-28T16:40:59.914Z",
+          "year": 1989,
+          "title": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
+          "url": "https://reverb.com/item/95513063-ibanez-ucmd-usa-custom-metal-design-series-rg-1989-1991-animal-print",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "bc-rich-mockingbird-metallic-refin": {
       "displayName": "BC Rich Mockingbird Metallic Refin",
       "brand": "BC Rich",
@@ -1754,6 +1784,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 19,
+      "sum": 83495.73999999999,
+      "sold": {
+        "count": 6,
+        "sum": 17804.45,
+        "avg": 2967,
+        "min": 1375,
+        "max": 4999
+      },
+      "avg": 4395,
+      "min": 350,
+      "max": 29999.99
+    },
     "Used": {
       "count": 4,
       "sum": 106789,
@@ -1764,20 +1808,6 @@
       "avg": 26697,
       "min": 1999,
       "max": 99000
-    },
-    "Excellent": {
-      "count": 18,
-      "sum": 80995.73999999999,
-      "sold": {
-        "count": 6,
-        "sum": 17804.45,
-        "avg": 2967,
-        "min": 1375,
-        "max": 4999
-      },
-      "avg": 4500,
-      "min": 350,
-      "max": 29999.99
     },
     "Good": {
       "count": 4,
@@ -1841,8 +1871,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5326,
-      "count": 52
+      "avg": 5273,
+      "count": 53
     }
   },
   "recentDrops": [
@@ -1872,7 +1902,7 @@
     "0-500": 3,
     "500-1k": 4,
     "1k-2k": 14,
-    "2k-3k": 12,
+    "2k-3k": 13,
     "3k-5k": 12,
     "5k-10k": 3,
     "10k+": 4
@@ -1881,12 +1911,17 @@
     "0-500": 3,
     "500-1k": 4,
     "1k-2k": 14,
-    "2k-3k": 12,
+    "2k-3k": 13,
     "3k-5k": 12,
     "5k-10k": 3,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 3,
+      "count": 4,
+      "avg": 1
+    },
     "BC Rich": {
       "sum": 6,
       "count": 7,
@@ -1920,11 +1955,6 @@
     "Milkman": {
       "sum": 1,
       "count": 1,
-      "avg": 1
-    },
-    "Ibanez": {
-      "sum": 3,
-      "count": 3,
       "avg": 1
     },
     "Seymour Duncan": {
@@ -2009,20 +2039,20 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 15,
+    "2026-03-28": 16,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 47,
     "marketplace": 7,
-    "news": 6,
-    "reverb": 46
+    "news": 6
   },
-  "activeModelsCount": 50,
+  "activeModelsCount": 51,
   "topPosters": [
     {
       "username": "GP",
-      "count": 18
+      "count": 19
     },
     {
       "username": "YellowJack6",
@@ -2063,9 +2093,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5326,
+    "avg": 5273,
     "pctBelowAvg": 0,
-    "count": 52
+    "count": 53
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2281,14 +2311,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 52,
+      "total": 53,
       "sold": 11,
       "removed": 0,
-      "live": 41,
+      "live": 42,
       "soldPct": 21,
       "removedPct": 0
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 4,
+        "sold": 0,
+        "removed": 0,
+        "live": 4,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "BC Rich": {
         "total": 7,
         "sold": 0,
@@ -2342,14 +2380,6 @@
         "sold": 0,
         "removed": 0,
         "live": 1,
-        "soldPct": 0,
-        "removedPct": 0
-      },
-      "Ibanez": {
-        "total": 3,
-        "sold": 0,
-        "removed": 0,
-        "live": 3,
         "soldPct": 0,
         "removedPct": 0
       },
@@ -2487,7 +2517,7 @@
     "withOffers": 9,
     "totalOffers": 18,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 7
+    "offersEnabledPct": 9
   },
   "shippingInsights": {
     "freeShippingPct": 0,
