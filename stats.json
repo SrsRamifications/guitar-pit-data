@@ -1,24 +1,31 @@
 {
-  "generatedAt": "2026-03-28T15:13:57.809Z",
-  "totalLinks": 53,
-  "totalWithPrice": 49,
+  "generatedAt": "2026-03-28T15:22:45.870Z",
+  "totalLinks": 55,
+  "totalWithPrice": 50,
   "overall": {
-    "count": 49,
-    "sum": 172182.73,
+    "count": 50,
+    "sum": 175677.73,
     "avg": 3514,
     "min": 33,
     "max": 29999.99
   },
   "byMonth": {
     "2026-03": {
-      "count": 49,
-      "sum": 172182.73,
+      "count": 50,
+      "sum": 175677.73,
       "min": 33,
       "max": 29999.99,
       "avg": 3514
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 4,
+      "sum": 19588,
+      "min": 1999,
+      "max": 10495,
+      "avg": 4897
+    },
     "reverb": {
       "count": 45,
       "sum": 155939.73,
@@ -32,16 +39,16 @@
       "min": 150,
       "max": 150,
       "avg": 150
-    },
-    "marketplace": {
-      "count": 3,
-      "sum": 16093,
-      "min": 1999,
-      "max": 10495,
-      "avg": 5364
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 1,
+      "sum": 3495,
+      "min": 3495,
+      "max": 3495,
+      "avg": 3495
+    },
     "reverb.com": {
       "count": 45,
       "sum": 155939.73,
@@ -98,13 +105,22 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4100,
+          "min": 4100,
+          "max": 4100,
+          "avg": 4100
+        }
+      },
       "avg": 4100
     },
-    "epiphone-sg": {
-      "displayName": "Epiphone SG",
+    "epiphone-sg-gothic": {
+      "displayName": "Epiphone SG Gothic",
       "brand": "Epiphone",
       "model": "SG",
-      "variant": null,
+      "variant": "Gothic",
       "count": 1,
       "sum": 1323.31,
       "min": 1323.31,
@@ -119,7 +135,46 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1323.31,
+          "min": 1323.31,
+          "max": 1323.31,
+          "avg": 1323
+        }
+      },
       "avg": 1323
+    },
+    "lsl-xt4-one-series": {
+      "displayName": "LSL XT4 \"one\" series",
+      "brand": "LSL",
+      "model": "XT4 \"one\" series",
+      "variant": null,
+      "count": 1,
+      "sum": 1575,
+      "min": 1575,
+      "max": 1575,
+      "sightings": [
+        {
+          "price": 1575,
+          "date": "2026-03-28T13:48:59.463Z",
+          "year": null,
+          "title": "LsL XT4 \"one\" series",
+          "url": "https://reverb.com/item/95027024-lsl-xt4-one-series",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1575,
+          "min": 1575,
+          "max": 1575,
+          "avg": 1575
+        }
+      },
+      "avg": 1575
     },
     "fender-custom-shop-telecaster": {
       "displayName": "Fender Custom Shop Telecaster",
@@ -140,7 +195,46 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2695,
+          "min": 2695,
+          "max": 2695,
+          "avg": 2695
+        }
+      },
       "avg": 2695
+    },
+    "milkman-sound-85w-pedal": {
+      "displayName": "Milkman Sound 85W Pedal",
+      "brand": "Milkman",
+      "model": "Sound 85W Pedal",
+      "variant": null,
+      "count": 1,
+      "sum": 2284.16,
+      "min": 2284.16,
+      "max": 2284.16,
+      "sightings": [
+        {
+          "price": 2284.16,
+          "date": "2026-03-28T04:04:28.377Z",
+          "year": null,
+          "title": "Milkman Sound 85W Pedal Steel 85W Tube Guitar Amp Head Regular Vanilla",
+          "url": "https://reverb.com/item/94649068",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2284.16,
+          "min": 2284.16,
+          "max": 2284.16,
+          "avg": 2284
+        }
+      },
+      "avg": 2284
     },
     "ibanez-rg": {
       "displayName": "Ibanez RG",
@@ -161,7 +255,46 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1699,
+          "min": 1699,
+          "max": 1699,
+          "avg": 1699
+        }
+      },
       "avg": 1699
+    },
+    "boden": {
+      "displayName": "Boden",
+      "brand": null,
+      "model": "Boden",
+      "variant": null,
+      "count": 1,
+      "sum": 1039,
+      "min": 1039,
+      "max": 1039,
+      "sightings": [
+        {
+          "price": 1039,
+          "date": "2026-03-28T00:48:11.554Z",
+          "year": null,
+          "title": "Boden Essential 6 Coral Pink B-Stock",
+          "url": "https://reverb.com/item/94260615",
+          "condition": "B-Stock"
+        }
+      ],
+      "byCondition": {
+        "B-Stock": {
+          "count": 1,
+          "sum": 1039,
+          "min": 1039,
+          "max": 1039,
+          "avg": 1039
+        }
+      },
+      "avg": 1039
     },
     "ibanez-dt155": {
       "displayName": "Ibanez DT155",
@@ -182,13 +315,22 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2100,
+          "min": 2100,
+          "max": 2100,
+          "avg": 2100
+        }
+      },
       "avg": 2100
     },
-    "seymour-duncan-10s-spring-bh": {
-      "displayName": "Seymour Duncan 10S Spring BH",
+    "seymour-duncan-10s-spring-bh-quilted-maple": {
+      "displayName": "Seymour Duncan 10S Spring BH Quilted Maple",
       "brand": "Seymour Duncan",
       "model": "10S Spring BH",
-      "variant": null,
+      "variant": "Quilted Maple",
       "count": 1,
       "sum": 2450,
       "min": 2450,
@@ -203,6 +345,15 @@
           "condition": "Brand New"
         }
       ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 2450,
+          "min": 2450,
+          "max": 2450,
+          "avg": 2450
+        }
+      },
       "avg": 2450
     },
     "gibson-sg-custom": {
@@ -224,6 +375,15 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2999,
+          "min": 2999,
+          "max": 2999,
+          "avg": 2999
+        }
+      },
       "avg": 2999
     },
     "fender-telecaster": {
@@ -245,6 +405,15 @@
           "condition": null
         }
       ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 10495,
+          "min": 10495,
+          "max": 10495,
+          "avg": 10495
+        }
+      },
       "avg": 10495
     },
     "echopark-deluxe-warcane-pickups-59": {
@@ -266,7 +435,46 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2829,
+          "min": 2829,
+          "max": 2829,
+          "avg": 2829
+        }
+      },
       "avg": 2829
+    },
+    "rick-toone-spearfish-blueprint-blueprint": {
+      "displayName": "Rick Toone Spearfish \"Blueprint\" Blueprint",
+      "brand": "Rick Toone",
+      "model": "Spearfish \"Blueprint\" Blueprint",
+      "variant": null,
+      "count": 1,
+      "sum": 16500,
+      "min": 16500,
+      "max": 16500,
+      "sightings": [
+        {
+          "price": 16500,
+          "date": "2026-03-27T21:56:25.171Z",
+          "year": 2025,
+          "title": "Rick Toone Spearfish \"Blueprint\" 2025 - Custom Blueprint Stain",
+          "url": "https://reverb.com/item/94758681-rick-toone-spearfish-blueprint-2025-custom-blueprint-stain",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 16500,
+          "min": 16500,
+          "max": 16500,
+          "avg": 16500
+        }
+      },
+      "avg": 16500
     },
     "prs-mccarty-594": {
       "displayName": "PRS McCarty 594",
@@ -287,6 +495,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2750,
+          "min": 2750,
+          "max": 2750,
+          "avg": 2750
+        }
+      },
       "soldData": {
         "count": 1,
         "avg": 2750,
@@ -305,8 +522,8 @@
       "avg": 2750
     },
     "bc-rich-trifold-catalog": {
-      "displayName": "B.C. Rich trifold catalog",
-      "brand": "B.C. Rich",
+      "displayName": "BC Rich trifold catalog",
+      "brand": "BC Rich",
       "model": "trifold catalog",
       "variant": null,
       "count": 1,
@@ -323,11 +540,20 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 33,
+          "min": 33,
+          "max": 33,
+          "avg": 33
+        }
+      },
       "avg": 33
     },
     "bc-rich-rg": {
-      "displayName": "B.C. Rich RG",
-      "brand": "B.C. Rich",
+      "displayName": "BC Rich RG",
+      "brand": "BC Rich",
       "model": "RG",
       "variant": null,
       "count": 1,
@@ -344,11 +570,20 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 999.99,
+          "min": 999.99,
+          "max": 999.99,
+          "avg": 1000
+        }
+      },
       "avg": 1000
     },
     "bc-rich-jm180-mij": {
-      "displayName": "B.C. Rich JM180 Mij",
-      "brand": "B.C. Rich",
+      "displayName": "BC Rich JM180 Mij",
+      "brand": "BC Rich",
       "model": "JM180",
       "variant": "Mij",
       "count": 1,
@@ -365,13 +600,22 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2199.99,
+          "min": 2199.99,
+          "max": 2199.99,
+          "avg": 2200
+        }
+      },
       "avg": 2200
     },
-    "telecaster-hh": {
-      "displayName": "Telecaster Hh",
+    "telecaster-hh-nitro": {
+      "displayName": "Telecaster Hh Nitro",
       "brand": null,
       "model": "Telecaster",
-      "variant": "Hh",
+      "variant": "Hh Nitro",
       "count": 1,
       "sum": 350,
       "min": 350,
@@ -386,7 +630,61 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 350,
+          "min": 350,
+          "max": 350,
+          "avg": 350
+        }
+      },
       "avg": 350
+    },
+    "parker-fly-sitka-transparent-artist": {
+      "displayName": "Parker Fly Sitka Transparent Artist",
+      "brand": "Parker",
+      "model": "Fly Sitka Transparent",
+      "variant": "Artist",
+      "count": 1,
+      "sum": 4999,
+      "min": 4999,
+      "max": 4999,
+      "sightings": [
+        {
+          "price": 4999,
+          "date": "2026-03-27T18:15:23.962Z",
+          "year": 1998,
+          "title": "Parker Fly Artist Sitka 1998 - Transparent Butterscotch",
+          "url": "https://reverb.com/item/95496448-parker-fly-artist-sitka-1998-transparent-butterscotch",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4999,
+          "min": 4999,
+          "max": 4999,
+          "avg": 4999
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 4999,
+        "min": 4999,
+        "max": 4999,
+        "prices": [
+          {
+            "price": 4999,
+            "askingPrice": 4999,
+            "date": "2026-03-27T20:19:40.939Z",
+            "title": "Parker Fly Artist Sitka 1998 - Transparent Butterscotch",
+            "url": "https://reverb.com/item/95496448-parker-fly-artist-sitka-1998-transparent-butterscotch"
+          }
+        ]
+      },
+      "avg": 4999
     },
     "single-cut": {
       "displayName": "Single Cut",
@@ -407,6 +705,15 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 5521.8,
+          "min": 5521.8,
+          "max": 5521.8,
+          "avg": 5522
+        }
+      },
       "avg": 5522
     },
     "fender-custom-shop-telecaster-masterbuilt": {
@@ -428,6 +735,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 7999,
+          "min": 7999,
+          "max": 7999,
+          "avg": 7999
+        }
+      },
       "avg": 7999
     },
     "prs-custom-24": {
@@ -449,11 +765,80 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4399,
+          "min": 4399,
+          "max": 4399,
+          "avg": 4399
+        }
+      },
       "avg": 4399
     },
+    "diamond-mcmahon-artistry-warmoth": {
+      "displayName": "Diamond McMAHON Artistry Warmoth",
+      "brand": "Diamond",
+      "model": "McMAHON Artistry Warmoth",
+      "variant": null,
+      "count": 1,
+      "sum": 3850,
+      "min": 3850,
+      "max": 3850,
+      "sightings": [
+        {
+          "price": 3850,
+          "date": "2026-03-27T14:38:38.135Z",
+          "year": null,
+          "title": "McMAHON Artistry Warmoth Diamondback",
+          "url": "https://reverb.com/item/90634988-mcmahon-artistry-warmoth-diamondback",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 3850,
+          "min": 3850,
+          "max": 3850,
+          "avg": 3850
+        }
+      },
+      "avg": 3850
+    },
+    "vintage-b-c-rich-hss": {
+      "displayName": "Vintage B. C. Rich Hss",
+      "brand": "Vintage",
+      "model": "B. C. Rich",
+      "variant": "Hss",
+      "count": 1,
+      "sum": 1699,
+      "min": 1699,
+      "max": 1699,
+      "sightings": [
+        {
+          "price": 1699,
+          "date": "2026-03-27T14:33:53.986Z",
+          "year": 1987,
+          "title": "B. C. Rich ST-lll U.S.A. - HSS Vintage 1987 Snake Skin",
+          "url": "https://reverb.com/item/86377130-b-c-rich-st-lll-u-s-a-hss-vintage-1987-snake-skin",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 1699,
+          "min": 1699,
+          "max": 1699,
+          "avg": 1699
+        }
+      },
+      "avg": 1699
+    },
     "bc-rich-neck-usajapan": {
-      "displayName": "B.C. Rich neck USA/Japan?",
-      "brand": "B.C. Rich",
+      "displayName": "BC Rich neck USA/Japan?",
+      "brand": "BC Rich",
       "model": "neck USA/Japan?",
       "variant": null,
       "count": 1,
@@ -470,12 +855,21 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 525,
+          "min": 525,
+          "max": 525,
+          "avg": 525
+        }
+      },
       "avg": 525
     },
-    "bc-rich-jr-joey-rico": {
-      "displayName": "BC Rich JR Joey Rico,",
+    "bc-rich-pt": {
+      "displayName": "BC Rich PT",
       "brand": "BC Rich",
-      "model": "JR Joey Rico,",
+      "model": "PT",
       "variant": null,
       "count": 1,
       "sum": 1295.95,
@@ -491,11 +885,20 @@
           "condition": "Brand New"
         }
       ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1295.95,
+          "min": 1295.95,
+          "max": 1295.95,
+          "avg": 1296
+        }
+      },
       "avg": 1296
     },
-    "les-paul-custom-60": {
-      "displayName": "Les Paul Custom 60",
-      "brand": null,
+    "greco-les-paul-custom-60": {
+      "displayName": "Greco Les Paul Custom 60",
+      "brand": "Greco",
       "model": "Les Paul Custom",
       "variant": "60",
       "count": 1,
@@ -512,13 +915,22 @@
           "condition": "Good"
         }
       ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
       "avg": 1600
     },
-    "bc-rich-rare-neon-platinum": {
-      "displayName": "B.C. Rich RARE Neon Platinum",
-      "brand": "B.C. Rich",
+    "bc-rich-rare-neon-platinum-platinum": {
+      "displayName": "BC Rich RARE Neon Platinum Platinum",
+      "brand": "BC Rich",
       "model": "RARE Neon Platinum",
-      "variant": null,
+      "variant": "Platinum",
       "count": 1,
       "sum": 850,
       "min": 850,
@@ -533,6 +945,15 @@
           "condition": "Fair"
         }
       ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 850,
+          "min": 850,
+          "max": 850,
+          "avg": 850
+        }
+      },
       "avg": 850
     },
     "ibanez-uv777p-bk-steve-vai-signature": {
@@ -554,7 +975,46 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
       "avg": 2500
+    },
+    "fractal-audio-ax8": {
+      "displayName": "Fractal Audio AX8",
+      "brand": "Fractal Audio",
+      "model": "AX8",
+      "variant": null,
+      "count": 1,
+      "sum": 668.31,
+      "min": 668.31,
+      "max": 668.31,
+      "sightings": [
+        {
+          "price": 668.31,
+          "date": "2026-03-27T06:03:25.708Z",
+          "year": null,
+          "title": "Fractal Audio AX8",
+          "url": "https://reverb.com/item/94215529-fractal-audio-ax8",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 668.31,
+          "min": 668.31,
+          "max": 668.31,
+          "avg": 668
+        }
+      },
+      "avg": 668
     },
     "gibson-les-paul-custom-70s": {
       "displayName": "Gibson Les Paul Custom 70s",
@@ -575,13 +1035,22 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3199.99,
+          "min": 3199.99,
+          "max": 3199.99,
+          "avg": 3200
+        }
+      },
       "avg": 3200
     },
-    "esp-horizon-original-series-custom-shop": {
-      "displayName": "ESP Horizon Original Series Custom Shop",
+    "esp-original-custom-shop": {
+      "displayName": "ESP Original Custom Shop",
       "brand": "ESP",
-      "model": "Horizon",
-      "variant": "Original Series Custom Shop",
+      "model": "Original",
+      "variant": "Custom Shop",
       "count": 1,
       "sum": 3950,
       "min": 3950,
@@ -596,6 +1065,15 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3950,
+          "min": 3950,
+          "max": 3950,
+          "avg": 3950
+        }
+      },
       "soldData": {
         "count": 1,
         "avg": 3950,
@@ -613,10 +1091,10 @@
       },
       "avg": 3950
     },
-    "esp-arrow-andromeda-emg-floyd-rose": {
-      "displayName": "ESP Arrow Andromeda EMG Floyd Rose",
+    "esp-arrow-floyd-rose": {
+      "displayName": "ESP Arrow Floyd Rose",
       "brand": "ESP",
-      "model": "Arrow Andromeda EMG",
+      "model": "Arrow",
       "variant": "Floyd Rose",
       "count": 1,
       "sum": 4199.99,
@@ -632,13 +1110,22 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4199.99,
+          "min": 4199.99,
+          "max": 4199.99,
+          "avg": 4200
+        }
+      },
       "avg": 4200
     },
-    "kiesel-z2-multiscale-headless": {
-      "displayName": "Kiesel Z2 Multiscale Headless",
+    "kiesel-headless-multiscale": {
+      "displayName": "Kiesel Headless Multiscale",
       "brand": "Kiesel",
-      "model": "Z2 Multiscale Headless",
-      "variant": null,
+      "model": "Headless",
+      "variant": "Multiscale",
       "count": 1,
       "sum": 1375,
       "min": 1375,
@@ -653,6 +1140,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1375,
+          "min": 1375,
+          "max": 1375,
+          "avg": 1375
+        }
+      },
       "soldData": {
         "count": 1,
         "avg": 1375,
@@ -689,6 +1185,15 @@
           "condition": null
         }
       ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 3599,
+          "min": 3599,
+          "max": 3599,
+          "avg": 3599
+        }
+      },
       "avg": 3599
     },
     "gibson-les-paul-special": {
@@ -710,6 +1215,15 @@
           "condition": "Used"
         }
       ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
       "avg": 1999
     },
     "framus-teambuilt-pro-diablo": {
@@ -731,6 +1245,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1386.45,
+          "min": 1386.45,
+          "max": 1386.45,
+          "avg": 1386
+        }
+      },
       "soldData": {
         "count": 1,
         "avg": 1386,
@@ -767,6 +1290,15 @@
           "condition": "Good"
         }
       ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2700,
+          "min": 2700,
+          "max": 2700,
+          "avg": 2700
+        }
+      },
       "avg": 2700
     },
     "jackson-rr1-usa": {
@@ -788,6 +1320,15 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2800,
+          "min": 2800,
+          "max": 2800,
+          "avg": 2800
+        }
+      },
       "avg": 2800
     },
     "gibson-les-paul-faded": {
@@ -809,12 +1350,21 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1350,
+          "min": 1350,
+          "max": 1350,
+          "avg": 1350
+        }
+      },
       "avg": 1350
     },
-    "echopark-echocaster-diablo-dt-005": {
-      "displayName": "Echopark Echocaster Diablo #DT-005",
+    "echopark-005": {
+      "displayName": "Echopark 005",
       "brand": "Echopark",
-      "model": "Echocaster Diablo #DT-005",
+      "model": "005",
       "variant": null,
       "count": 1,
       "sum": 3650,
@@ -830,6 +1380,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3650,
+          "min": 3650,
+          "max": 3650,
+          "avg": 3650
+        }
+      },
       "avg": 3650
     },
     "kiesel-type-x": {
@@ -851,6 +1410,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
       "avg": 1800
     },
     "esp-max-cavalera-rpr": {
@@ -872,6 +1440,15 @@
           "condition": "Brand New"
         }
       ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 5799,
+          "min": 5799,
+          "max": 5799,
+          "avg": 5799
+        }
+      },
       "avg": 5799
     },
     "gibson-explorer": {
@@ -893,6 +1470,15 @@
           "condition": "Very Good"
         }
       ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1400,
+          "min": 1400,
+          "max": 1400,
+          "avg": 1400
+        }
+      },
       "avg": 1400
     },
     "hamer-vector-rick-nielsen-custom-shop-signature": {
@@ -914,6 +1500,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 29999.99,
+          "min": 29999.99,
+          "max": 29999.99,
+          "avg": 30000
+        }
+      },
       "avg": 30000
     },
     "fender-stratocaster-1960-custom-shop": {
@@ -935,6 +1530,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3299,
+          "min": 3299,
+          "max": 3299,
+          "avg": 3299
+        }
+      },
       "soldData": {
         "count": 1,
         "avg": 3299,
@@ -971,6 +1575,15 @@
           "condition": "Excellent"
         }
       ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3995,
+          "min": 3995,
+          "max": 3995,
+          "avg": 3995
+        }
+      },
       "soldData": {
         "count": 1,
         "avg": 3995,
@@ -989,11 +1602,96 @@
       "avg": 3995
     }
   },
+  "byCondition": {
+    "Used": {
+      "count": 2,
+      "sum": 5494,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2747,
+      "min": 1999,
+      "max": 3495
+    },
+    "Excellent": {
+      "count": 18,
+      "sum": 80995.73999999999,
+      "sold": {
+        "count": 6,
+        "sum": 17804.45,
+        "avg": 2967,
+        "min": 1375,
+        "max": 4999
+      },
+      "avg": 4500,
+      "min": 350,
+      "max": 29999.99
+    },
+    "Good": {
+      "count": 4,
+      "sum": 7252.469999999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 1813,
+      "min": 668.31,
+      "max": 2700
+    },
+    "Very Good": {
+      "count": 16,
+      "sum": 50708.57000000001,
+      "sold": {
+        "count": 2,
+        "sum": 5151.8,
+        "avg": 2576,
+        "min": 1201.8,
+        "max": 3950
+      },
+      "avg": 3169,
+      "min": 33,
+      "max": 16500
+    },
+    "B-Stock": {
+      "count": 1,
+      "sum": 1039,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 1039,
+      "min": 1039,
+      "max": 1039
+    },
+    "Brand New": {
+      "count": 4,
+      "sum": 13394.95,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 3349,
+      "min": 1295.95,
+      "max": 5799
+    },
+    "Fair": {
+      "count": 2,
+      "sum": 2549,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 1275,
+      "min": 850,
+      "max": 1699
+    }
+  },
   "seasonal": {
     "03": {
       "name": "Mar",
       "avg": 3514,
-      "count": 49
+      "count": 50
     }
   },
   "recentDrops": [
@@ -1024,7 +1722,7 @@
     "250-500": 1,
     "500-1000": 4,
     "1000-2000": 14,
-    "2000-5000": 22,
+    "2000-5000": 23,
     "5000+": 6
   },
   "daysOnMarket": {
@@ -1038,10 +1736,20 @@
       "count": 1,
       "avg": 0
     },
+    "LSL": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Fender Custom Shop": {
       "sum": 1,
       "count": 2,
       "avg": 1
+    },
+    "Milkman": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
     },
     "Ibanez": {
       "sum": 2,
@@ -1068,12 +1776,37 @@
       "count": 2,
       "avg": 2
     },
-    "B.C. Rich": {
-      "sum": 5,
-      "count": 5,
+    "Rick Toone": {
+      "sum": 1,
+      "count": 1,
       "avg": 1
     },
     "BC Rich": {
+      "sum": 6,
+      "count": 6,
+      "avg": 1
+    },
+    "Parker": {
+      "sum": 1,
+      "count": 1,
+      "avg": 1
+    },
+    "Diamond": {
+      "sum": 1,
+      "count": 1,
+      "avg": 1
+    },
+    "Vintage": {
+      "sum": 1,
+      "count": 1,
+      "avg": 1
+    },
+    "Greco": {
+      "sum": 1,
+      "count": 1,
+      "avg": 1
+    },
+    "Fractal Audio": {
       "sum": 1,
       "count": 1,
       "avg": 1
@@ -1110,16 +1843,16 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 10,
+    "2026-03-28": 12,
     "2026-03-27": 34,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "marketplace": 5,
     "reverb": 46,
-    "news": 4,
-    "marketplace": 3
+    "news": 4
   },
-  "activeModelsCount": 39,
+  "activeModelsCount": 48,
   "topPosters": [
     {
       "username": "GP",
@@ -1142,6 +1875,10 @@
       "count": 4
     },
     {
+      "username": "Shteefe",
+      "count": 3
+    },
+    {
       "username": "HanSwolo",
       "count": 3
     },
@@ -1156,17 +1893,13 @@
     {
       "username": "Modean",
       "count": 1
-    },
-    {
-      "username": "Shteefe",
-      "count": 1
     }
   ],
   "bestMonth": {
     "name": "Mar",
     "avg": 3514,
     "pctBelowAvg": 0,
-    "count": 49
+    "count": 50
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -1192,16 +1925,24 @@
         "slowest": 0,
         "avgDays": 0
       },
-      "esp-horizon-original-series-custom-shop": {
-        "displayName": "ESP Horizon Original Series Custom Shop",
+      "parker-fly-sitka-transparent-artist": {
+        "displayName": "Parker Fly Sitka Transparent Artist",
         "totalDays": 0,
         "count": 1,
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
       },
-      "kiesel-z2-multiscale-headless": {
-        "displayName": "Kiesel Z2 Multiscale Headless",
+      "esp-original-custom-shop": {
+        "displayName": "ESP Original Custom Shop",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
+      "kiesel-headless-multiscale": {
+        "displayName": "Kiesel Headless Multiscale",
         "totalDays": 1,
         "count": 1,
         "fastest": 1,
@@ -1235,6 +1976,13 @@
     },
     "byBrand": {
       "PRS": {
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
+      "Parker": {
         "totalDays": 0,
         "count": 1,
         "fastest": 0,
@@ -1285,6 +2033,11 @@
       "avgPctDrop": 18.5
     },
     "byBrand": {
+      "LSL": {
+        "totalPctDrop": 10,
+        "count": 1,
+        "avgPctDrop": 10
+      },
       "Ibanez": {
         "totalPctDrop": 10.638297872340425,
         "count": 1,
@@ -1295,15 +2048,20 @@
         "count": 2,
         "avgPctDrop": 9.4
       },
-      "B.C. Rich": {
-        "totalPctDrop": 12.353923205342237,
+      "Vintage": {
+        "totalPctDrop": 26.130434782608695,
         "count": 1,
-        "avgPctDrop": 12.4
+        "avgPctDrop": 26.1
       },
       "BC Rich": {
-        "totalPctDrop": 48.058116232464926,
+        "totalPctDrop": 60.41203943780717,
+        "count": 2,
+        "avgPctDrop": 30.2
+      },
+      "Fractal Audio": {
+        "totalPctDrop": 7.500346020761254,
         "count": 1,
-        "avgPctDrop": 48.1
+        "avgPctDrop": 7.5
       },
       "Jackson": {
         "totalPctDrop": 62.5,
@@ -1343,11 +2101,27 @@
         "soldPct": 0,
         "removedPct": 0
       },
+      "LSL": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "Fender Custom Shop": {
         "total": 2,
         "sold": 0,
         "removed": 0,
         "live": 2,
+        "soldPct": 0,
+        "removedPct": 0
+      },
+      "Milkman": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
         "soldPct": 0,
         "removedPct": 0
       },
@@ -1383,15 +2157,55 @@
         "soldPct": 0,
         "removedPct": 0
       },
-      "B.C. Rich": {
-        "total": 5,
+      "Rick Toone": {
+        "total": 1,
         "sold": 0,
         "removed": 0,
-        "live": 5,
+        "live": 1,
         "soldPct": 0,
         "removedPct": 0
       },
       "BC Rich": {
+        "total": 6,
+        "sold": 0,
+        "removed": 0,
+        "live": 6,
+        "soldPct": 0,
+        "removedPct": 0
+      },
+      "Parker": {
+        "total": 1,
+        "sold": 1,
+        "removed": 0,
+        "live": 0,
+        "soldPct": 100,
+        "removedPct": 0
+      },
+      "Diamond": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0
+      },
+      "Vintage": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0
+      },
+      "Greco": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0
+      },
+      "Fractal Audio": {
         "total": 1,
         "sold": 0,
         "removed": 0,
