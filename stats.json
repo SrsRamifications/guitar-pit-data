@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-28T17:13:24.526Z",
-  "totalLinks": 64,
-  "totalWithPrice": 55,
+  "generatedAt": "2026-03-28T18:24:08.271Z",
+  "totalLinks": 65,
+  "totalWithPrice": 56,
   "overall": {
-    "count": 55,
-    "sum": 289702.73,
-    "avg": 5267,
+    "count": 56,
+    "sum": 294122.68,
+    "avg": 5252,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 51,
-    "sum": 133707.74,
-    "avg": 2622,
+    "count": 52,
+    "sum": 138127.69,
+    "avg": 2656,
     "min": 33,
     "max": 7999,
-    "median": 2450
+    "median": 2475
   },
   "outliers": {
-    "thresholdHigh": 9077,
+    "thresholdHigh": 9185,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,27 +57,27 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 55,
-      "sum": 289702.73,
+      "count": 56,
+      "sum": 294122.68,
       "min": 33,
       "max": 99000,
-      "avg": 5267
+      "avg": 5252
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 48,
+      "sum": 169359.68,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3528
+    },
     "news": {
       "count": 2,
       "sum": 3880,
       "min": 150,
       "max": 3730,
       "avg": 1940
-    },
-    "reverb": {
-      "count": 47,
-      "sum": 164939.73,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3509
     },
     "marketplace": {
       "count": 6,
@@ -88,19 +88,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 48,
+      "sum": 169359.68,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3528
+    },
     "southshoreguitarboutique.com": {
       "count": 1,
       "sum": 3730,
       "min": 3730,
       "max": 3730,
       "avg": 3730
-    },
-    "reverb.com": {
-      "count": 47,
-      "sum": 164939.73,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3509
     },
     "chicagomusicexchange.com": {
       "count": 3,
@@ -139,6 +139,36 @@
     }
   },
   "byModel": {
+    "prs-dgt-wood-library-private-stock": {
+      "displayName": "PRS DGT Wood Library Private Stock",
+      "brand": "PRS",
+      "model": "DGT",
+      "variant": "Wood Library Private Stock",
+      "count": 1,
+      "sum": 4419.95,
+      "min": 4419.95,
+      "max": 4419.95,
+      "sightings": [
+        {
+          "price": 4419.95,
+          "date": "2026-03-28T18:23:55.005Z",
+          "year": 2024,
+          "title": "PRS Wood Library DGT Electric Guitar - Private Stock Bahamian Blue Finish - CHUCKSCLUSIVE - #240385600 - 2024",
+          "url": "https://reverb.com/item/92254615-prs-wood-library-dgt-electric-guitar-private-stock-bahamian-blue-finish-chucksclusive-240385600-2024",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 4419.95,
+          "min": 4419.95,
+          "max": 4419.95,
+          "avg": 4420
+        }
+      },
+      "avg": 4420
+    },
     "martin-mario-t-style-2-tone": {
       "displayName": "Martin Mario T-Style 2-Tone",
       "brand": "Martin",
@@ -1851,6 +1881,17 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 5,
+      "sum": 17814.9,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 3563,
+      "min": 1295.95,
+      "max": 5799
+    },
     "Good": {
       "count": 5,
       "sum": 13752.47,
@@ -1912,17 +1953,6 @@
       "min": 1039,
       "max": 1039
     },
-    "Brand New": {
-      "count": 4,
-      "sum": 13394.95,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 3349,
-      "min": 1295.95,
-      "max": 5799
-    },
     "Fair": {
       "count": 2,
       "sum": 2549,
@@ -1938,8 +1968,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5267,
-      "count": 55
+      "avg": 5252,
+      "count": 56
     }
   },
   "recentDrops": [
@@ -1970,7 +2000,7 @@
     "500-1k": 4,
     "1k-2k": 14,
     "2k-3k": 13,
-    "3k-5k": 13,
+    "3k-5k": 14,
     "5k-10k": 4,
     "10k+": 4
   },
@@ -1979,20 +2009,25 @@
     "500-1k": 4,
     "1k-2k": 14,
     "2k-3k": 13,
-    "3k-5k": 13,
+    "3k-5k": 14,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 2,
+      "count": 4,
+      "avg": 1
+    },
     "Martin": {
       "sum": 0,
       "count": 1,
       "avg": 0
     },
     "Gibson": {
-      "sum": 8,
+      "sum": 9,
       "count": 6,
-      "avg": 1
+      "avg": 2
     },
     "Ibanez": {
       "sum": 3,
@@ -2008,11 +2043,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "PRS": {
-      "sum": 2,
-      "count": 3,
-      "avg": 1
     },
     "Epiphone": {
       "sum": 0,
@@ -2070,14 +2100,14 @@
       "avg": 1
     },
     "Fractal Audio": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "ESP": {
-      "sum": 4,
+      "sum": 6,
       "count": 3,
-      "avg": 1
+      "avg": 2
     },
     "Kiesel": {
       "sum": 4,
@@ -2106,20 +2136,20 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 20,
+    "2026-03-28": 21,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 49,
     "news": 7,
-    "marketplace": 9,
-    "reverb": 48
+    "marketplace": 9
   },
-  "activeModelsCount": 54,
+  "activeModelsCount": 55,
   "topPosters": [
     {
       "username": "GP",
-      "count": 20
+      "count": 21
     },
     {
       "username": "YellowJack6",
@@ -2160,9 +2190,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5267,
+    "avg": 5252,
     "pctBelowAvg": 0,
-    "count": 55
+    "count": 56
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2329,11 +2359,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 203.845414312121,
-      "count": 11,
-      "avgPctDrop": 18.5
+      "totalPctDrop": 234.78369556212098,
+      "count": 12,
+      "avgPctDrop": 19.6
     },
     "byBrand": {
+      "PRS": {
+        "totalPctDrop": 30.938281250000006,
+        "count": 1,
+        "avgPctDrop": 30.9
+      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -2378,15 +2413,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 53,
+      "total": 54,
       "sold": 10,
       "removed": 0,
-      "live": 43,
+      "live": 44,
       "soldPct": 19,
       "removedPct": 0,
       "livePct": 81
     },
     "byBrand": {
+      "PRS": {
+        "total": 5,
+        "sold": 1,
+        "removed": 0,
+        "live": 4,
+        "soldPct": 20,
+        "removedPct": 0,
+        "livePct": 80
+      },
       "Martin": {
         "total": 1,
         "sold": 0,
@@ -2413,15 +2457,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 4,
-        "sold": 1,
-        "removed": 0,
-        "live": 3,
-        "soldPct": 25,
-        "removedPct": 0,
-        "livePct": 75
       },
       "BC Rich": {
         "total": 7,
@@ -2615,13 +2650,13 @@
     }
   },
   "offerActivity": {
-    "withOffers": 9,
-    "totalOffers": 18,
-    "avgOffersPerListing": 2,
-    "offersEnabledPct": 10
+    "withOffers": 10,
+    "totalOffers": 19,
+    "avgOffersPerListing": 1.9,
+    "offersEnabledPct": 12
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 50
+    "avgShippingCost": 87
   }
 }
