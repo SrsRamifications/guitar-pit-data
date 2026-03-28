@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-03-28T04:04:41.160Z",
-  "totalLinks": 49,
-  "totalWithPrice": 45,
+  "generatedAt": "2026-03-28T04:21:23.089Z",
+  "totalLinks": 50,
+  "totalWithPrice": 46,
   "overall": {
-    "count": 45,
-    "sum": 162489.42,
-    "avg": 3611,
+    "count": 46,
+    "sum": 165184.42,
+    "avg": 3591,
     "min": 33,
     "max": 29999.99
   },
   "byMonth": {
     "2026-03": {
-      "count": 45,
-      "sum": 162489.42,
+      "count": 46,
+      "sum": 165184.42,
       "min": 33,
       "max": 29999.99,
-      "avg": 3611
+      "avg": 3591
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 41,
-      "sum": 146246.42,
+      "count": 42,
+      "sum": 148941.42,
       "min": 33,
       "max": 29999.99,
-      "avg": 3567
+      "avg": 3546
     },
     "news": {
       "count": 1,
@@ -43,11 +43,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 41,
-      "sum": 146246.42,
+      "count": 42,
+      "sum": 148941.42,
       "min": 33,
       "max": 29999.99,
-      "avg": 3567
+      "avg": 3546
     },
     "resistorhead.company.site": {
       "count": 1,
@@ -79,6 +79,27 @@
     }
   },
   "byModel": {
+    "fender-custom-shop-telecaster": {
+      "displayName": "Fender Custom Shop Telecaster",
+      "brand": "Fender Custom Shop",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 1,
+      "sum": 2695,
+      "min": 2695,
+      "max": 2695,
+      "sightings": [
+        {
+          "price": 2695,
+          "date": "2026-03-28T04:21:10.455Z",
+          "year": 2023,
+          "title": "Fender Custom Shop '52 Telecaster HS Relic Faded Surf Greed 2023",
+          "url": "https://reverb.com/item/95506733-fender-custom-shop-52-telecaster-hs-relic-faded-surf-greed-2023",
+          "condition": "Excellent"
+        }
+      ],
+      "avg": 2695
+    },
     "ibanez-rg": {
       "displayName": "Ibanez RG",
       "brand": "Ibanez",
@@ -929,8 +950,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 3611,
-      "count": 45
+      "avg": 3591,
+      "count": 46
     }
   },
   "recentDrops": [
@@ -961,10 +982,15 @@
     "250-500": 1,
     "500-1000": 4,
     "1000-2000": 12,
-    "2000-5000": 20,
+    "2000-5000": 21,
     "5000+": 6
   },
   "daysOnMarket": {
+    "Fender Custom Shop": {
+      "sum": 0,
+      "count": 2,
+      "avg": 0
+    },
     "Ibanez": {
       "sum": 1,
       "count": 3,
@@ -998,11 +1024,6 @@
     "B.C. Rich": {
       "sum": 2,
       "count": 5,
-      "avg": 0
-    },
-    "Fender Custom Shop": {
-      "sum": 0,
-      "count": 1,
       "avg": 0
     },
     "BC Rich": {
@@ -1042,20 +1063,20 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 6,
+    "2026-03-28": 7,
     "2026-03-27": 34,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 42,
+    "reverb": 43,
     "news": 4,
     "marketplace": 3
   },
-  "activeModelsCount": 36,
+  "activeModelsCount": 37,
   "topPosters": [
     {
       "username": "GP",
-      "count": 14
+      "count": 15
     },
     {
       "username": "YellowJack6",
@@ -1096,9 +1117,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 3611,
+    "avg": 3591,
     "pctBelowAvg": 0,
-    "count": 45
+    "count": 46
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -1246,14 +1267,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 42,
+      "total": 43,
       "sold": 7,
       "removed": 0,
-      "live": 35,
-      "soldPct": 17,
+      "live": 36,
+      "soldPct": 16,
       "removedPct": 0
     },
     "byBrand": {
+      "Fender Custom Shop": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "Ibanez": {
         "total": 3,
         "sold": 0,
@@ -1299,14 +1328,6 @@
         "sold": 0,
         "removed": 0,
         "live": 5,
-        "soldPct": 0,
-        "removedPct": 0
-      },
-      "Fender Custom Shop": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
         "soldPct": 0,
         "removedPct": 0
       },
