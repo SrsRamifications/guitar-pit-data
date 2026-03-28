@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-03-28T22:56:22.057Z",
-  "totalLinks": 80,
-  "totalWithPrice": 72,
+  "generatedAt": "2026-03-28T23:29:57.003Z",
+  "totalLinks": 81,
+  "totalWithPrice": 73,
   "overall": {
-    "count": 72,
-    "sum": 333056.99,
-    "avg": 4626,
+    "count": 73,
+    "sum": 337756.99,
+    "avg": 4627,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 68,
-    "sum": 177062,
-    "avg": 2604,
+    "count": 69,
+    "sum": 181762,
+    "avg": 2634,
     "min": 33,
     "max": 7999,
     "median": 2300
@@ -57,20 +57,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 72,
-      "sum": 333056.99,
+      "count": 73,
+      "sum": 337756.99,
       "min": 33,
       "max": 99000,
-      "avg": 4626
+      "avg": 4627
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 59,
-      "sum": 195270.85,
+      "count": 60,
+      "sum": 199970.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3310
+      "avg": 3333
     },
     "news": {
       "count": 4,
@@ -89,11 +89,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 59,
-      "sum": 195270.85,
+      "count": 60,
+      "sum": 199970.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3310
+      "avg": 3333
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -167,6 +167,44 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom": {
+      "displayName": "Gibson Les Paul Custom",
+      "brand": "Gibson",
+      "model": "Les Paul Custom",
+      "variant": null,
+      "count": 2,
+      "sum": 11200,
+      "min": 4700,
+      "max": 6500,
+      "sightings": [
+        {
+          "price": 6500,
+          "date": "2026-03-28T16:41:22.453Z",
+          "year": 1978,
+          "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
+          "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
+          "condition": "Good"
+        },
+        {
+          "price": 4700,
+          "date": "2026-03-28T23:29:44.450Z",
+          "year": 1987,
+          "title": "Gibson Les Paul Custom Lite 1987 - 1988 - Metallic Sunset",
+          "url": "https://reverb.com/item/95518343-gibson-les-paul-custom-lite-1987-1988-metallic-sunset",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 11200,
+          "min": 4700,
+          "max": 6500,
+          "avg": 5600
+        }
+      },
+      "avg": 5600
+    },
     "kiesel-original": {
       "displayName": "Kiesel Original",
       "brand": "Kiesel",
@@ -661,36 +699,6 @@
         }
       },
       "avg": 3730
-    },
-    "gibson-les-paul-custom": {
-      "displayName": "Gibson Les Paul Custom",
-      "brand": "Gibson",
-      "model": "Les Paul Custom",
-      "variant": null,
-      "count": 1,
-      "sum": 6500,
-      "min": 6500,
-      "max": 6500,
-      "sightings": [
-        {
-          "price": 6500,
-          "date": "2026-03-28T16:41:22.453Z",
-          "year": 1978,
-          "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
-          "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 6500,
-          "min": 6500,
-          "max": 6500,
-          "avg": 6500
-        }
-      },
-      "avg": 6500
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez Metal Usa",
@@ -2269,6 +2277,17 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 6,
+      "sum": 18452.47,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 3075,
+      "min": 668.31,
+      "max": 6500
+    },
     "Excellent": {
       "count": 27,
       "sum": 101358.73999999999,
@@ -2330,17 +2349,6 @@
       "min": 4324,
       "max": 4324
     },
-    "Good": {
-      "count": 5,
-      "sum": 13752.47,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 2750,
-      "min": 668.31,
-      "max": 6500
-    },
     "B-Stock": {
       "count": 1,
       "sum": 1039,
@@ -2367,8 +2375,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4626,
-      "count": 72
+      "avg": 4627,
+      "count": 73
     }
   },
   "recentDrops": [
@@ -2399,7 +2407,7 @@
     "500-1k": 5,
     "1k-2k": 20,
     "2k-3k": 18,
-    "3k-5k": 18,
+    "3k-5k": 19,
     "5k-10k": 4,
     "10k+": 4
   },
@@ -2408,11 +2416,16 @@
     "500-1k": 5,
     "1k-2k": 20,
     "2k-3k": 18,
-    "3k-5k": 18,
+    "3k-5k": 19,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 9,
+      "count": 8,
+      "avg": 1
+    },
     "Kiesel": {
       "sum": 4,
       "count": 4,
@@ -2447,11 +2460,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "Gibson": {
-      "sum": 9,
-      "count": 7,
-      "avg": 1
     },
     "Schecter": {
       "sum": 0,
@@ -2555,12 +2563,12 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 36,
+    "2026-03-28": 37,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 60,
+    "reverb": 61,
     "news": 9,
     "marketplace": 11
   },
@@ -2580,7 +2588,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 7
+      "count": 8
     },
     {
       "username": "Shteefe",
@@ -2609,9 +2617,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4626,
+    "avg": 4627,
     "pctBelowAvg": 0,
-    "count": 72
+    "count": 73
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2837,15 +2845,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 66,
+      "total": 67,
       "sold": 10,
       "removed": 0,
-      "live": 56,
+      "live": 57,
       "soldPct": 15,
       "removedPct": 0,
       "livePct": 85
     },
     "byBrand": {
+      "Gibson": {
+        "total": 10,
+        "sold": 1,
+        "removed": 0,
+        "live": 9,
+        "soldPct": 10,
+        "removedPct": 0,
+        "livePct": 90
+      },
       "Kiesel": {
         "total": 4,
         "sold": 1,
@@ -2908,15 +2925,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 9,
-        "sold": 1,
-        "removed": 0,
-        "live": 8,
-        "soldPct": 11,
-        "removedPct": 0,
-        "livePct": 89
       },
       "Schecter": {
         "total": 1,
@@ -3113,10 +3121,10 @@
     "withOffers": 12,
     "totalOffers": 21,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 23
+    "offersEnabledPct": 25
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 96
+    "avgShippingCost": 102
   }
 }
