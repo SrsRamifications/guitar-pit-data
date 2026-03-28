@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-28T19:19:00.930Z",
-  "totalLinks": 69,
-  "totalWithPrice": 59,
+  "generatedAt": "2026-03-28T19:21:23.391Z",
+  "totalLinks": 70,
+  "totalWithPrice": 60,
   "overall": {
-    "count": 59,
-    "sum": 302171.68,
-    "avg": 5122,
+    "count": 60,
+    "sum": 304471.68,
+    "avg": 5075,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 55,
-    "sum": 146176.69,
-    "avg": 2658,
+    "count": 56,
+    "sum": 148476.69,
+    "avg": 2651,
     "min": 33,
     "max": 7999,
-    "median": 2500
+    "median": 2475
   },
   "outliers": {
-    "thresholdHigh": 9050,
+    "thresholdHigh": 8700,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,20 +57,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 59,
-      "sum": 302171.68,
+      "count": 60,
+      "sum": 304471.68,
       "min": 33,
       "max": 99000,
-      "avg": 5122
+      "avg": 5075
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 51,
-      "sum": 177408.68,
+      "count": 52,
+      "sum": 179708.68,
       "min": 33,
       "max": 29999.99,
-      "avg": 3479
+      "avg": 3456
     },
     "news": {
       "count": 2,
@@ -89,11 +89,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 51,
-      "sum": 177408.68,
+      "count": 52,
+      "sum": 179708.68,
       "min": 33,
       "max": 29999.99,
-      "avg": 3479
+      "avg": 3456
     },
     "southshoreguitarboutique.com": {
       "count": 1,
@@ -139,6 +139,51 @@
     }
   },
   "byModel": {
+    "prs-custom-24": {
+      "displayName": "PRS Custom 24",
+      "brand": "PRS",
+      "model": "Custom 24",
+      "variant": null,
+      "count": 2,
+      "sum": 6699,
+      "min": 2300,
+      "max": 4399,
+      "sightings": [
+        {
+          "price": 4399,
+          "date": "2026-03-27T15:53:06.714Z",
+          "year": 1990,
+          "title": "PRS Custom 24 1990 - Tiger's Eye burst",
+          "url": "https://reverb.com/item/95436813-prs-custom-24-1990-tiger-s-eye-burst",
+          "condition": "Excellent"
+        },
+        {
+          "price": 2300,
+          "date": "2026-03-28T19:21:10.393Z",
+          "year": 2017,
+          "title": "PRS Custom 24 Charcoal Smokeburst 2017 w/ Tremonti bridge pickup",
+          "url": "https://reverb.com/item/95516114-prs-custom-24-charcoal-smokeburst-2017-w-tremonti-bridge-pickup",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2300,
+          "min": 2300,
+          "max": 2300,
+          "avg": 2300
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 4399,
+          "min": 4399,
+          "max": 4399,
+          "avg": 4399
+        }
+      },
+      "avg": 3350
+    },
     "anderson-classic": {
       "displayName": "Anderson Classic",
       "brand": "Anderson",
@@ -1084,36 +1129,6 @@
       },
       "avg": 7999
     },
-    "prs-custom-24": {
-      "displayName": "PRS Custom 24",
-      "brand": "PRS",
-      "model": "Custom 24",
-      "variant": null,
-      "count": 1,
-      "sum": 4399,
-      "min": 4399,
-      "max": 4399,
-      "sightings": [
-        {
-          "price": 4399,
-          "date": "2026-03-27T15:53:06.714Z",
-          "year": 1990,
-          "title": "PRS Custom 24 1990 - Tiger's Eye burst",
-          "url": "https://reverb.com/item/95436813-prs-custom-24-1990-tiger-s-eye-burst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4399,
-          "min": 4399,
-          "max": 4399,
-          "avg": 4399
-        }
-      },
-      "avg": 4399
-    },
     "diamond-mcmahon-artistry-warmoth": {
       "displayName": "Diamond McMAHON Artistry Warmoth",
       "brand": "Diamond",
@@ -1971,6 +1986,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 17,
+      "sum": 53008.57000000001,
+      "sold": {
+        "count": 2,
+        "sum": 5151.8,
+        "avg": 2576,
+        "min": 1201.8,
+        "max": 3950
+      },
+      "avg": 3118,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 22,
       "sum": 91544.73999999999,
@@ -2018,20 +2047,6 @@
       "min": 1999,
       "max": 99000
     },
-    "Very Good": {
-      "count": 16,
-      "sum": 50708.57000000001,
-      "sold": {
-        "count": 2,
-        "sum": 5151.8,
-        "avg": 2576,
-        "min": 1201.8,
-        "max": 3950
-      },
-      "avg": 3169,
-      "min": 33,
-      "max": 16500
-    },
     "B-Stock": {
       "count": 1,
       "sum": 1039,
@@ -2058,8 +2073,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5122,
-      "count": 59
+      "avg": 5075,
+      "count": 60
     }
   },
   "recentDrops": [
@@ -2089,7 +2104,7 @@
     "0-500": 3,
     "500-1k": 4,
     "1k-2k": 15,
-    "2k-3k": 14,
+    "2k-3k": 15,
     "3k-5k": 15,
     "5k-10k": 4,
     "10k+": 4
@@ -2098,12 +2113,17 @@
     "0-500": 3,
     "500-1k": 4,
     "1k-2k": 15,
-    "2k-3k": 14,
+    "2k-3k": 15,
     "3k-5k": 15,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 2,
+      "count": 5,
+      "avg": 0
+    },
     "Anderson": {
       "sum": 0,
       "count": 1,
@@ -2118,11 +2138,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "PRS": {
-      "sum": 2,
-      "count": 4,
-      "avg": 1
     },
     "Martin": {
       "sum": 0,
@@ -2236,12 +2251,12 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 25,
+    "2026-03-28": 26,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 52,
+    "reverb": 53,
     "marketplace": 10,
     "news": 7
   },
@@ -2249,7 +2264,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 24
+      "count": 25
     },
     {
       "username": "YellowJack6",
@@ -2290,9 +2305,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5122,
+    "avg": 5075,
     "pctBelowAvg": 0,
-    "count": 59
+    "count": 60
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2513,15 +2528,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 57,
+      "total": 58,
       "sold": 10,
       "removed": 0,
-      "live": 47,
-      "soldPct": 18,
+      "live": 48,
+      "soldPct": 17,
       "removedPct": 0,
-      "livePct": 82
+      "livePct": 83
     },
     "byBrand": {
+      "PRS": {
+        "total": 6,
+        "sold": 1,
+        "removed": 0,
+        "live": 5,
+        "soldPct": 17,
+        "removedPct": 0,
+        "livePct": 83
+      },
       "Anderson": {
         "total": 1,
         "sold": 0,
@@ -2548,15 +2572,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 5,
-        "sold": 1,
-        "removed": 0,
-        "live": 4,
-        "soldPct": 20,
-        "removedPct": 0,
-        "livePct": 80
       },
       "Martin": {
         "total": 1,
@@ -2771,7 +2786,7 @@
     "withOffers": 10,
     "totalOffers": 19,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 17
+    "offersEnabledPct": 19
   },
   "shippingInsights": {
     "freeShippingPct": 0,
