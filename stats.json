@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-28T16:41:12.454Z",
-  "totalLinks": 60,
-  "totalWithPrice": 53,
+  "generatedAt": "2026-03-28T16:41:34.816Z",
+  "totalLinks": 61,
+  "totalWithPrice": 54,
   "overall": {
-    "count": 53,
-    "sum": 279472.73,
-    "avg": 5273,
+    "count": 54,
+    "sum": 285972.73,
+    "avg": 5296,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 49,
-    "sum": 123477.74,
-    "avg": 2520,
+    "count": 50,
+    "sum": 129977.74,
+    "avg": 2600,
     "min": 33,
     "max": 7999,
-    "median": 2295
+    "median": 2373
   },
   "outliers": {
-    "thresholdHigh": 8777,
+    "thresholdHigh": 9077,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,20 +57,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 53,
-      "sum": 279472.73,
+      "count": 54,
+      "sum": 285972.73,
       "min": 33,
       "max": 99000,
-      "avg": 5273
+      "avg": 5296
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 46,
-      "sum": 158439.73,
+      "count": 47,
+      "sum": 164939.73,
       "min": 33,
       "max": 29999.99,
-      "avg": 3444
+      "avg": 3509
     },
     "marketplace": {
       "count": 6,
@@ -89,11 +89,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 46,
-      "sum": 158439.73,
+      "count": 47,
+      "sum": 164939.73,
       "min": 33,
       "max": 29999.99,
-      "avg": 3444
+      "avg": 3509
     },
     "chicagomusicexchange.com": {
       "count": 3,
@@ -132,6 +132,36 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom": {
+      "displayName": "Gibson Les Paul Custom",
+      "brand": "Gibson",
+      "model": "Les Paul Custom",
+      "variant": null,
+      "count": 1,
+      "sum": 6500,
+      "min": 6500,
+      "max": 6500,
+      "sightings": [
+        {
+          "price": 6500,
+          "date": "2026-03-28T16:41:22.453Z",
+          "year": 1978,
+          "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
+          "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 6500,
+          "min": 6500,
+          "max": 6500,
+          "avg": 6500
+        }
+      },
+      "avg": 6500
+    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez Metal Usa",
       "brand": "Ibanez",
@@ -1784,6 +1814,17 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 5,
+      "sum": 13752.47,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2750,
+      "min": 668.31,
+      "max": 6500
+    },
     "Excellent": {
       "count": 19,
       "sum": 83495.73999999999,
@@ -1808,17 +1849,6 @@
       "avg": 26697,
       "min": 1999,
       "max": 99000
-    },
-    "Good": {
-      "count": 4,
-      "sum": 7252.469999999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 1813,
-      "min": 668.31,
-      "max": 2700
     },
     "Very Good": {
       "count": 16,
@@ -1871,8 +1901,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5273,
-      "count": 53
+      "avg": 5296,
+      "count": 54
     }
   },
   "recentDrops": [
@@ -1904,7 +1934,7 @@
     "1k-2k": 14,
     "2k-3k": 13,
     "3k-5k": 12,
-    "5k-10k": 3,
+    "5k-10k": 4,
     "10k+": 4
   },
   "priceDistributionFiltered": {
@@ -1913,10 +1943,15 @@
     "1k-2k": 14,
     "2k-3k": 13,
     "3k-5k": 12,
-    "5k-10k": 3,
+    "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 8,
+      "count": 6,
+      "avg": 1
+    },
     "Ibanez": {
       "sum": 3,
       "count": 4,
@@ -1961,11 +1996,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Gibson": {
-      "sum": 8,
-      "count": 5,
-      "avg": 2
     },
     "Fender": {
       "sum": 3,
@@ -2039,20 +2069,20 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 16,
+    "2026-03-28": 17,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 47,
+    "reverb": 48,
     "marketplace": 7,
     "news": 6
   },
-  "activeModelsCount": 51,
+  "activeModelsCount": 52,
   "topPosters": [
     {
       "username": "GP",
-      "count": 19
+      "count": 20
     },
     {
       "username": "YellowJack6",
@@ -2093,9 +2123,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5273,
+    "avg": 5296,
     "pctBelowAvg": 0,
-    "count": 53
+    "count": 54
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2311,14 +2341,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 53,
+      "total": 54,
       "sold": 11,
       "removed": 0,
-      "live": 42,
-      "soldPct": 21,
+      "live": 43,
+      "soldPct": 20,
       "removedPct": 0
     },
     "byBrand": {
+      "Gibson": {
+        "total": 6,
+        "sold": 1,
+        "removed": 0,
+        "live": 5,
+        "soldPct": 17,
+        "removedPct": 0
+      },
       "Ibanez": {
         "total": 4,
         "sold": 0,
@@ -2389,14 +2427,6 @@
         "removed": 0,
         "live": 1,
         "soldPct": 0,
-        "removedPct": 0
-      },
-      "Gibson": {
-        "total": 5,
-        "sold": 1,
-        "removed": 0,
-        "live": 4,
-        "soldPct": 20,
         "removedPct": 0
       },
       "Fender": {
@@ -2517,7 +2547,7 @@
     "withOffers": 9,
     "totalOffers": 18,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 9
+    "offersEnabledPct": 10
   },
   "shippingInsights": {
     "freeShippingPct": 0,
