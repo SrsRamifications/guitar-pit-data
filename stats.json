@@ -1,24 +1,31 @@
 {
-  "generatedAt": "2026-03-27T23:56:55.865Z",
-  "totalLinks": 43,
-  "totalWithPrice": 39,
+  "generatedAt": "2026-03-28T00:04:06.007Z",
+  "totalLinks": 44,
+  "totalWithPrice": 40,
   "overall": {
-    "count": 39,
-    "sum": 149918.26,
-    "avg": 3844,
+    "count": 40,
+    "sum": 152917.26,
+    "avg": 3823,
     "min": 33,
     "max": 29999.99
   },
   "byMonth": {
     "2026-03": {
-      "count": 39,
-      "sum": 149918.26,
+      "count": 40,
+      "sum": 152917.26,
       "min": 33,
       "max": 29999.99,
-      "avg": 3844
+      "avg": 3823
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 36,
+      "sum": 136674.26,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3797
+    },
     "news": {
       "count": 1,
       "sum": 150,
@@ -32,16 +39,16 @@
       "min": 1999,
       "max": 10495,
       "avg": 5364
-    },
-    "reverb": {
-      "count": 35,
-      "sum": 133675.26,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3819
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 36,
+      "sum": 136674.26,
+      "min": 33,
+      "max": 29999.99,
+      "avg": 3797
+    },
     "resistorhead.company.site": {
       "count": 1,
       "sum": 150,
@@ -55,13 +62,6 @@
       "min": 10495,
       "max": 10495,
       "avg": 10495
-    },
-    "reverb.com": {
-      "count": 35,
-      "sum": 133675.26,
-      "min": 33,
-      "max": 29999.99,
-      "avg": 3819
     },
     "wildwoodguitars.com": {
       "count": 1,
@@ -79,6 +79,27 @@
     }
   },
   "byModel": {
+    "gibson-sg-custom": {
+      "displayName": "Gibson SG CUSTOM",
+      "brand": "Gibson",
+      "model": "SG CUSTOM",
+      "variant": null,
+      "count": 1,
+      "sum": 2999,
+      "min": 2999,
+      "max": 2999,
+      "sightings": [
+        {
+          "price": 2999,
+          "date": "2026-03-28T00:03:54.119Z",
+          "year": 1987,
+          "title": "GIBSON SG CUSTOM ELECTRIC GUITAR W/CASE - 1987",
+          "url": "https://reverb.com/item/94729284-gibson-sg-custom-electric-guitar-w-case-1987",
+          "condition": "Very Good"
+        }
+      ],
+      "avg": 2999
+    },
     "fender-telecaster": {
       "displayName": "Fender Telecaster",
       "brand": "Fender",
@@ -845,8 +866,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 3844,
-      "count": 39
+      "avg": 3823,
+      "count": 40
     }
   },
   "recentDrops": [
@@ -877,10 +898,15 @@
     "250-500": 1,
     "500-1000": 4,
     "1000-2000": 10,
-    "2000-5000": 16,
+    "2000-5000": 17,
     "5000+": 6
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4,
+      "count": 5,
+      "avg": 1
+    },
     "Fender": {
       "sum": 1,
       "count": 2,
@@ -916,11 +942,6 @@
       "count": 1,
       "avg": 1
     },
-    "Gibson": {
-      "sum": 4,
-      "count": 4,
-      "avg": 1
-    },
     "ESP": {
       "sum": 3,
       "count": 3,
@@ -953,15 +974,16 @@
     }
   },
   "listingsPerDay": {
+    "2026-03-28": 1,
     "2026-03-27": 34,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 37,
     "news": 4,
-    "marketplace": 3,
-    "reverb": 36
+    "marketplace": 3
   },
-  "activeModelsCount": 32,
+  "activeModelsCount": 33,
   "topPosters": [
     {
       "username": "GP",
@@ -969,7 +991,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 8
+      "count": 9
     },
     {
       "username": "WontonGG",
@@ -1006,9 +1028,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 3844,
+    "avg": 3823,
     "pctBelowAvg": 0,
-    "count": 39
+    "count": 40
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -1156,14 +1178,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 36,
+      "total": 37,
       "sold": 7,
       "removed": 0,
-      "live": 29,
+      "live": 30,
       "soldPct": 19,
       "removedPct": 0
     },
     "byBrand": {
+      "Gibson": {
+        "total": 4,
+        "sold": 0,
+        "removed": 0,
+        "live": 4,
+        "soldPct": 0,
+        "removedPct": 0
+      },
       "Echopark": {
         "total": 2,
         "sold": 0,
@@ -1209,14 +1239,6 @@
         "sold": 0,
         "removed": 0,
         "live": 1,
-        "soldPct": 0,
-        "removedPct": 0
-      },
-      "Gibson": {
-        "total": 3,
-        "sold": 0,
-        "removed": 0,
-        "live": 3,
         "soldPct": 0,
         "removedPct": 0
       },
