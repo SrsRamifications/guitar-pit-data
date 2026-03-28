@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-28T17:02:32.832Z",
-  "totalLinks": 63,
-  "totalWithPrice": 54,
+  "generatedAt": "2026-03-28T17:08:27.417Z",
+  "totalLinks": 64,
+  "totalWithPrice": 55,
   "overall": {
-    "count": 54,
-    "sum": 285972.73,
-    "avg": 5296,
+    "count": 55,
+    "sum": 289702.73,
+    "avg": 5267,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 50,
-    "sum": 129977.74,
-    "avg": 2600,
+    "count": 51,
+    "sum": 133707.74,
+    "avg": 2622,
     "min": 33,
     "max": 7999,
-    "median": 2373
+    "median": 2450
   },
   "outliers": {
     "thresholdHigh": 9077,
@@ -57,14 +57,21 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 54,
-      "sum": 285972.73,
+      "count": 55,
+      "sum": 289702.73,
       "min": 33,
       "max": 99000,
-      "avg": 5296
+      "avg": 5267
     }
   },
   "byCategory": {
+    "news": {
+      "count": 2,
+      "sum": 3880,
+      "min": 150,
+      "max": 3730,
+      "avg": 1940
+    },
     "reverb": {
       "count": 47,
       "sum": 164939.73,
@@ -78,16 +85,16 @@
       "min": 1999,
       "max": 99000,
       "avg": 20147
-    },
-    "news": {
-      "count": 1,
-      "sum": 150,
-      "min": 150,
-      "max": 150,
-      "avg": 150
     }
   },
   "byDomain": {
+    "southshoreguitarboutique.com": {
+      "count": 1,
+      "sum": 3730,
+      "min": 3730,
+      "max": 3730,
+      "avg": 3730
+    },
     "reverb.com": {
       "count": 47,
       "sum": 164939.73,
@@ -132,6 +139,36 @@
     }
   },
   "byModel": {
+    "martin-mario-t-style-2-tone": {
+      "displayName": "Martin Mario T-Style 2-Tone",
+      "brand": "Martin",
+      "model": "Mario T-Style 2-Tone",
+      "variant": null,
+      "count": 1,
+      "sum": 3730,
+      "min": 3730,
+      "max": 3730,
+      "sightings": [
+        {
+          "price": 3730,
+          "date": "2026-03-28T17:08:13.034Z",
+          "year": null,
+          "title": "Mario Martin T-Style - 2-Tone Sunburst / MOJO Dynasonics. NEW (Authorized Dealer)",
+          "url": "https://southshoreguitarboutique.com/collections/electric-guitars/products/mario-martin-t-style-2-tone-sunburst-mojo-dynasonics-new-authorized-dealer",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 3730,
+          "min": 3730,
+          "max": 3730,
+          "avg": 3730
+        }
+      },
+      "avg": 3730
+    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom",
       "brand": "Gibson",
@@ -1901,8 +1938,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 5296,
-      "count": 54
+      "avg": 5267,
+      "count": 55
     }
   },
   "recentDrops": [
@@ -1933,7 +1970,7 @@
     "500-1k": 4,
     "1k-2k": 14,
     "2k-3k": 13,
-    "3k-5k": 12,
+    "3k-5k": 13,
     "5k-10k": 4,
     "10k+": 4
   },
@@ -1942,11 +1979,16 @@
     "500-1k": 4,
     "1k-2k": 14,
     "2k-3k": 13,
-    "3k-5k": 12,
+    "3k-5k": 13,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Martin": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Gibson": {
       "sum": 8,
       "count": 6,
@@ -2064,16 +2106,16 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-28": 19,
+    "2026-03-28": 20,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "news": 7,
     "marketplace": 9,
-    "reverb": 48,
-    "news": 6
+    "reverb": 48
   },
-  "activeModelsCount": 53,
+  "activeModelsCount": 54,
   "topPosters": [
     {
       "username": "GP",
@@ -2100,12 +2142,12 @@
       "count": 4
     },
     {
-      "username": "HanSwolo",
+      "username": "Beijing Bob",
       "count": 3
     },
     {
-      "username": "Beijing Bob",
-      "count": 2
+      "username": "HanSwolo",
+      "count": 3
     },
     {
       "username": "Modean",
@@ -2118,9 +2160,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 5296,
+    "avg": 5267,
     "pctBelowAvg": 0,
-    "count": 54
+    "count": 55
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2336,15 +2378,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 52,
+      "total": 53,
       "sold": 10,
       "removed": 0,
-      "live": 42,
+      "live": 43,
       "soldPct": 19,
       "removedPct": 0,
       "livePct": 81
     },
     "byBrand": {
+      "Martin": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 8,
         "sold": 1,
