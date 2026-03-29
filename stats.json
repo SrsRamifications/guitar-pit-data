@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-29T12:04:22.066Z",
-  "totalLinks": 90,
-  "totalWithPrice": 81,
+  "generatedAt": "2026-03-29T12:11:05.880Z",
+  "totalLinks": 91,
+  "totalWithPrice": 82,
   "overall": {
-    "count": 81,
-    "sum": 386554.99,
-    "avg": 4772,
+    "count": 82,
+    "sum": 387604.98,
+    "avg": 4727,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 76,
-    "sum": 194660,
-    "avg": 2561,
+    "count": 77,
+    "sum": 195709.99,
+    "avg": 2542,
     "min": 33,
     "max": 7999,
-    "median": 2298
+    "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 8777,
+    "thresholdHigh": 8800,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 81,
-      "sum": 386554.99,
+      "count": 82,
+      "sum": 387604.98,
       "min": 33,
       "max": 99000,
-      "avg": 4772
+      "avg": 4727
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 68,
-      "sum": 248768.85,
+      "count": 69,
+      "sum": 249818.84,
       "min": 33,
       "max": 35900,
-      "avg": 3658
+      "avg": 3621
     },
     "news": {
       "count": 4,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 68,
-      "sum": 248768.85,
+      "count": 69,
+      "sum": 249818.84,
       "min": 33,
       "max": 35900,
-      "avg": 3658
+      "avg": 3621
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -175,6 +175,66 @@
     }
   },
   "byModel": {
+    "fender-telecaster": {
+      "displayName": "Fender Telecaster",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 2,
+      "sum": 11544.99,
+      "min": 1049.99,
+      "max": 10495,
+      "sightings": [
+        {
+          "price": 10495,
+          "date": "2026-03-27T23:35:36.273Z",
+          "year": 1967,
+          "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
+          "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
+          "condition": null
+        },
+        {
+          "price": 1049.99,
+          "date": "2026-03-29T12:10:52.890Z",
+          "year": null,
+          "title": "Used Fender Jim Adkins JA-90 Telecaster Thinline Electric Guitar - Natural",
+          "url": "https://reverb.com/item/91371043-used-fender-jim-adkins-ja-90-telecaster-thinline-electric-guitar-natural",
+          "condition": "Mint"
+        }
+      ],
+      "byCondition": {
+        "Mint": {
+          "count": 1,
+          "sum": 1049.99,
+          "min": 1049.99,
+          "max": 1049.99,
+          "avg": 1050
+        },
+        "Unknown": {
+          "count": 1,
+          "sum": 10495,
+          "min": 10495,
+          "max": 10495,
+          "avg": 10495
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 10495,
+        "min": 10495,
+        "max": 10495,
+        "prices": [
+          {
+            "price": 10495,
+            "askingPrice": 10495,
+            "date": "2026-03-28T16:36:41.720Z",
+            "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
+            "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx"
+          }
+        ]
+      },
+      "avg": 5772
+    },
     "bc-rich-1980s-bc-rico": {
       "displayName": "BC Rich 1980's B.C. Rico",
       "brand": "BC Rich",
@@ -1338,51 +1398,6 @@
       },
       "avg": 2999
     },
-    "fender-telecaster": {
-      "displayName": "Fender Telecaster",
-      "brand": "Fender",
-      "model": "Telecaster",
-      "variant": null,
-      "count": 1,
-      "sum": 10495,
-      "min": 10495,
-      "max": 10495,
-      "sightings": [
-        {
-          "price": 10495,
-          "date": "2026-03-27T23:35:36.273Z",
-          "year": 1967,
-          "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
-          "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
-          "condition": null
-        }
-      ],
-      "byCondition": {
-        "Unknown": {
-          "count": 1,
-          "sum": 10495,
-          "min": 10495,
-          "max": 10495,
-          "avg": 10495
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 10495,
-        "min": 10495,
-        "max": 10495,
-        "prices": [
-          {
-            "price": 10495,
-            "askingPrice": 10495,
-            "date": "2026-03-28T16:36:41.720Z",
-            "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
-            "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx"
-          }
-        ]
-      },
-      "avg": 10495
-    },
     "echopark-deluxe-warcane-pickups-59": {
       "displayName": "Echopark Deluxe w/Arcane Pickups 59",
       "brand": "Echopark",
@@ -2540,6 +2555,17 @@
     }
   },
   "byCondition": {
+    "Mint": {
+      "count": 1,
+      "sum": 1049.99,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 1050,
+      "min": 1049.99,
+      "max": 1049.99
+    },
     "Good": {
       "count": 9,
       "sum": 23977.47,
@@ -2638,8 +2664,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4772,
-      "count": 81
+      "avg": 4727,
+      "count": 82
     }
   },
   "recentDrops": [
@@ -2668,7 +2694,7 @@
   "priceDistribution": {
     "0-500": 4,
     "500-1k": 5,
-    "1k-2k": 22,
+    "1k-2k": 23,
     "2k-3k": 21,
     "3k-5k": 20,
     "5k-10k": 4,
@@ -2677,13 +2703,18 @@
   "priceDistributionFiltered": {
     "0-500": 4,
     "500-1k": 5,
-    "1k-2k": 22,
+    "1k-2k": 23,
     "2k-3k": 21,
     "3k-5k": 20,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 7,
+      "count": 6,
+      "avg": 1
+    },
     "BC Rich": {
       "sum": 14,
       "count": 10,
@@ -2693,11 +2724,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "Fender": {
-      "sum": 7,
-      "count": 5,
-      "avg": 1
     },
     "Guild": {
       "sum": 0,
@@ -2836,14 +2862,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-29": 7,
+    "2026-03-29": 8,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 70,
     "marketplace": 12,
-    "reverb": 69,
     "news": 9
   },
   "activeModelsCount": 73,
@@ -2854,7 +2880,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 13
+      "count": 14
     },
     {
       "username": "YellowJack6",
@@ -2891,9 +2917,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4772,
+    "avg": 4727,
     "pctBelowAvg": 0,
-    "count": 81
+    "count": 82
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -3158,15 +3184,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 75,
+      "total": 76,
       "sold": 14,
       "removed": 0,
-      "live": 61,
-      "soldPct": 19,
+      "live": 62,
+      "soldPct": 18,
       "removedPct": 0,
-      "livePct": 81
+      "livePct": 82
     },
     "byBrand": {
+      "Fender": {
+        "total": 6,
+        "sold": 3,
+        "removed": 0,
+        "live": 3,
+        "soldPct": 50,
+        "removedPct": 0,
+        "livePct": 50
+      },
       "Gibson": {
         "total": 11,
         "sold": 2,
@@ -3193,15 +3228,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 5,
-        "sold": 3,
-        "removed": 0,
-        "live": 2,
-        "soldPct": 60,
-        "removedPct": 0,
-        "livePct": 40
       },
       "Guild": {
         "total": 1,
@@ -3449,10 +3475,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 16,
-    "totalOffers": 25,
-    "avgOffersPerListing": 1.6,
-    "offersEnabledPct": 33
+    "withOffers": 17,
+    "totalOffers": 26,
+    "avgOffersPerListing": 1.5,
+    "offersEnabledPct": 34
   },
   "shippingInsights": {
     "freeShippingPct": 0,
