@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-29T14:39:35.678Z",
-  "totalLinks": 92,
-  "totalWithPrice": 82,
+  "generatedAt": "2026-03-29T15:23:51.484Z",
+  "totalLinks": 93,
+  "totalWithPrice": 83,
   "overall": {
-    "count": 82,
-    "sum": 387604.98,
-    "avg": 4727,
+    "count": 83,
+    "sum": 392104.98,
+    "avg": 4724,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 77,
-    "sum": 195709.99,
-    "avg": 2542,
+    "count": 78,
+    "sum": 200209.99,
+    "avg": 2567,
     "min": 33,
     "max": 7999,
-    "median": 2295
+    "median": 2298
   },
   "outliers": {
-    "thresholdHigh": 8800,
+    "thresholdHigh": 9100,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 82,
-      "sum": 387604.98,
+      "count": 83,
+      "sum": 392104.98,
       "min": 33,
       "max": 99000,
-      "avg": 4727
+      "avg": 4724
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 69,
-      "sum": 249818.84,
+      "count": 70,
+      "sum": 254318.84,
       "min": 33,
       "max": 35900,
-      "avg": 3621
+      "avg": 3633
     },
     "news": {
       "count": 4,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 69,
-      "sum": 249818.84,
+      "count": 70,
+      "sum": 254318.84,
       "min": 33,
       "max": 35900,
-      "avg": 3621
+      "avg": 3633
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "ibanez-jem777-limited-edition-signature": {
+      "displayName": "Ibanez JEM777 Limited Edition Signature",
+      "brand": "Ibanez",
+      "model": "JEM777",
+      "variant": "Limited Edition Signature",
+      "count": 1,
+      "sum": 4500,
+      "min": 4500,
+      "max": 4500,
+      "sightings": [
+        {
+          "price": 4500,
+          "date": "2026-03-29T15:23:38.181Z",
+          "year": 2017,
+          "title": "Ibanez JEM777-SK Limited Edition 30th Anniversary Steve Vai Signature 2017 - Shocking Pink",
+          "url": "https://reverb.com/item/95524058-ibanez-jem777-sk-limited-edition-30th-anniversary-steve-vai-signature-2017-shocking-pink",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4500,
+          "min": 4500,
+          "max": 4500,
+          "avg": 4500
+        }
+      },
+      "avg": 4500
+    },
     "fender-telecaster": {
       "displayName": "Fender Telecaster",
       "brand": "Fender",
@@ -2562,6 +2592,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 30,
+      "sum": 144958.74,
+      "sold": {
+        "count": 10,
+        "sum": 34303.45,
+        "avg": 3430,
+        "min": 1375,
+        "max": 7999
+      },
+      "avg": 4832,
+      "min": 350,
+      "max": 35900
+    },
     "Mint": {
       "count": 1,
       "sum": 1049.99,
@@ -2597,20 +2641,6 @@
       "avg": 2780,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 29,
-      "sum": 140458.74,
-      "sold": {
-        "count": 10,
-        "sum": 34303.45,
-        "avg": 3430,
-        "min": 1375,
-        "max": 7999
-      },
-      "avg": 4843,
-      "min": 350,
-      "max": 35900
     },
     "Used": {
       "count": 6,
@@ -2674,8 +2704,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4727,
-      "count": 82
+      "avg": 4724,
+      "count": 83
     }
   },
   "recentDrops": [
@@ -2706,7 +2736,7 @@
     "500-1k": 5,
     "1k-2k": 23,
     "2k-3k": 21,
-    "3k-5k": 20,
+    "3k-5k": 21,
     "5k-10k": 4,
     "10k+": 5
   },
@@ -2715,15 +2745,20 @@
     "500-1k": 5,
     "1k-2k": 23,
     "2k-3k": 21,
-    "3k-5k": 20,
+    "3k-5k": 21,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
-    "Fender": {
+    "Ibanez": {
       "sum": 8,
-      "count": 6,
+      "count": 7,
       "avg": 1
+    },
+    "Fender": {
+      "sum": 9,
+      "count": 6,
+      "avg": 2
     },
     "BC Rich": {
       "sum": 14,
@@ -2756,14 +2791,9 @@
       "avg": 2
     },
     "Kiesel": {
-      "sum": 7,
+      "sum": 8,
       "count": 4,
       "avg": 2
-    },
-    "Ibanez": {
-      "sum": 8,
-      "count": 6,
-      "avg": 1
     },
     "Acoustic": {
       "sum": 1,
@@ -2872,21 +2902,21 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-29": 9,
+    "2026-03-29": 10,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 71,
     "marketplace": 13,
-    "reverb": 70,
     "news": 9
   },
-  "activeModelsCount": 74,
+  "activeModelsCount": 75,
   "topPosters": [
     {
       "username": "GP",
-      "count": 28
+      "count": 29
     },
     {
       "username": "Beijing Bob",
@@ -2927,9 +2957,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4727,
+    "avg": 4724,
     "pctBelowAvg": 0,
-    "count": 82
+    "count": 83
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -3194,15 +3224,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 77,
+      "total": 78,
       "sold": 15,
       "removed": 0,
-      "live": 62,
+      "live": 63,
       "soldPct": 19,
       "removedPct": 0,
       "livePct": 81
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 7,
+        "sold": 2,
+        "removed": 0,
+        "live": 5,
+        "soldPct": 29,
+        "removedPct": 0,
+        "livePct": 71
+      },
       "Fender": {
         "total": 7,
         "sold": 3,
@@ -3274,15 +3313,6 @@
         "soldPct": 25,
         "removedPct": 0,
         "livePct": 75
-      },
-      "Ibanez": {
-        "total": 6,
-        "sold": 2,
-        "removed": 0,
-        "live": 4,
-        "soldPct": 33,
-        "removedPct": 0,
-        "livePct": 67
       },
       "Acoustic": {
         "total": 1,
@@ -3488,7 +3518,7 @@
     "withOffers": 18,
     "totalOffers": 27,
     "avgOffersPerListing": 1.5,
-    "offersEnabledPct": 34
+    "offersEnabledPct": 35
   },
   "shippingInsights": {
     "freeShippingPct": 0,
