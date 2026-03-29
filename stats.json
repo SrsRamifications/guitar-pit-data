@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-03-29T02:36:59.761Z",
+  "generatedAt": "2026-03-29T02:44:26.531Z",
   "totalLinks": 85,
   "totalWithPrice": 77,
   "overall": {
     "count": 77,
-    "sum": 345530.99,
-    "avg": 4487,
+    "sum": 345830.99,
+    "avg": 4491,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 73,
-    "sum": 189536,
-    "avg": 2596,
+    "sum": 189836,
+    "avg": 2600,
     "min": 33,
     "max": 7999,
     "median": 2300
@@ -58,19 +58,19 @@
   "byMonth": {
     "2026-03": {
       "count": 77,
-      "sum": 345530.99,
+      "sum": 345830.99,
       "min": 33,
       "max": 99000,
-      "avg": 4487
+      "avg": 4491
     }
   },
   "byCategory": {
     "reverb": {
       "count": 64,
-      "sum": 207744.85,
+      "sum": 208044.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3246
+      "avg": 3251
     },
     "news": {
       "count": 4,
@@ -90,10 +90,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 64,
-      "sum": 207744.85,
+      "sum": 208044.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3246
+      "avg": 3251
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -713,6 +713,21 @@
           "avg": 3500
         }
       },
+      "soldData": {
+        "count": 1,
+        "avg": 3500,
+        "min": 3500,
+        "max": 3500,
+        "prices": [
+          {
+            "price": 3500,
+            "askingPrice": 3500,
+            "date": "2026-03-29T02:42:36.036Z",
+            "title": "Gibson Custom Shop 61/59 SG  VOS",
+            "url": "https://reverb.com/item/95515175-gibson-custom-shop-61-59-sg-vos"
+          }
+        ]
+      },
       "avg": 3500
     },
     "schecter-traditional-wembley-hss-usa-custom-shop": {
@@ -1051,12 +1066,12 @@
       "model": "RG",
       "variant": null,
       "count": 1,
-      "sum": 1699,
-      "min": 1699,
-      "max": 1699,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
       "sightings": [
         {
-          "price": 1699,
+          "price": 1999,
           "date": "2026-03-28T03:58:02.342Z",
           "year": null,
           "title": "Ibanez RG8470G - Black",
@@ -1067,13 +1082,13 @@
       "byCondition": {
         "Very Good": {
           "count": 1,
-          "sum": 1699,
-          "min": 1699,
-          "max": 1699,
-          "avg": 1699
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
         }
       },
-      "avg": 1699
+      "avg": 1999
     },
     "boden": {
       "displayName": "Boden",
@@ -2425,7 +2440,7 @@
     },
     "Very Good": {
       "count": 20,
-      "sum": 56782.57000000001,
+      "sum": 57082.57000000001,
       "sold": {
         "count": 2,
         "sum": 5151.8,
@@ -2433,7 +2448,7 @@
         "min": 1201.8,
         "max": 3950
       },
-      "avg": 2839,
+      "avg": 2854,
       "min": 33,
       "max": 16500
     },
@@ -2441,9 +2456,9 @@
       "count": 28,
       "sum": 104558.74,
       "sold": {
-        "count": 8,
-        "sum": 27903.45,
-        "avg": 3488,
+        "count": 9,
+        "sum": 31403.45,
+        "avg": 3489,
         "min": 1375,
         "max": 7999
       },
@@ -2510,7 +2525,7 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4487,
+      "avg": 4491,
       "count": 77
     }
   },
@@ -2662,9 +2677,9 @@
       "avg": 1
     },
     "Diamond": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Vintage": {
       "sum": 2,
@@ -2758,15 +2773,15 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4487,
+    "avg": 4491,
     "pctBelowAvg": 0,
     "count": 77
   },
   "topVoted": [],
   "discountFromRetail": {},
   "soldPrices": {
-    "count": 14,
-    "avg": 3594,
+    "count": 15,
+    "avg": 3588,
     "min": 1169.99,
     "max": 10495,
     "avgDiscount": 0
@@ -2774,12 +2789,20 @@
   "timeToSell": {
     "overall": {
       "totalDays": 12,
-      "count": 14,
+      "count": 15,
       "avgDays": 1
     },
     "byModel": {
       "ibanez-540p-magenta-solid": {
         "displayName": "Ibanez 540P MAGENTA Solid",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
+      "gibson-sg-custom-shop-59": {
+        "displayName": "Gibson SG Custom Shop 59",
         "totalDays": 0,
         "count": 1,
         "fastest": 0,
@@ -2891,6 +2914,13 @@
         "slowest": 1,
         "avgDays": 1
       },
+      "Gibson": {
+        "totalDays": 2,
+        "count": 2,
+        "fastest": 0,
+        "slowest": 2,
+        "avgDays": 1
+      },
       "Fender": {
         "totalDays": 3,
         "count": 3,
@@ -2927,13 +2957,6 @@
         "avgDays": 1
       },
       "Jackson": {
-        "totalDays": 2,
-        "count": 1,
-        "fastest": 2,
-        "slowest": 2,
-        "avgDays": 2
-      },
-      "Gibson": {
         "totalDays": 2,
         "count": 1,
         "fastest": 2,
@@ -3018,12 +3041,12 @@
   "sellThrough": {
     "overall": {
       "total": 70,
-      "sold": 13,
+      "sold": 14,
       "removed": 0,
-      "live": 57,
-      "soldPct": 19,
+      "live": 56,
+      "soldPct": 20,
       "removedPct": 0,
-      "livePct": 81
+      "livePct": 80
     },
     "byBrand": {
       "Guild": {
@@ -3055,12 +3078,12 @@
       },
       "Gibson": {
         "total": 10,
-        "sold": 1,
+        "sold": 2,
         "removed": 0,
-        "live": 9,
-        "soldPct": 10,
+        "live": 8,
+        "soldPct": 20,
         "removedPct": 0,
-        "livePct": 90
+        "livePct": 80
       },
       "Kiesel": {
         "total": 4,
@@ -3299,8 +3322,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 14,
-    "totalOffers": 23,
+    "withOffers": 16,
+    "totalOffers": 25,
     "avgOffersPerListing": 1.6,
     "offersEnabledPct": 29
   },
