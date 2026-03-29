@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-03-29T02:53:56.335Z",
-  "totalLinks": 86,
-  "totalWithPrice": 78,
+  "generatedAt": "2026-03-29T04:10:37.319Z",
+  "totalLinks": 87,
+  "totalWithPrice": 79,
   "overall": {
-    "count": 78,
-    "sum": 381730.99,
-    "avg": 4894,
+    "count": 79,
+    "sum": 384155.99,
+    "avg": 4863,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 73,
-    "sum": 189836,
-    "avg": 2600,
+    "count": 74,
+    "sum": 192261,
+    "avg": 2598,
     "min": 33,
     "max": 7999,
     "median": 2300
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 78,
-      "sum": 381730.99,
+      "count": 79,
+      "sum": 384155.99,
       "min": 33,
       "max": 99000,
-      "avg": 4894
+      "avg": 4863
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 65,
-      "sum": 243944.85,
+      "count": 66,
+      "sum": 246369.85,
       "min": 33,
       "max": 35900,
-      "avg": 3753
+      "avg": 3733
     },
     "news": {
       "count": 4,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 65,
-      "sum": 243944.85,
+      "count": 66,
+      "sum": 246369.85,
       "min": 33,
       "max": 35900,
-      "avg": 3753
+      "avg": 3733
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -175,6 +175,51 @@
     }
   },
   "byModel": {
+    "bc-rich-mockingbird-metallic-refin": {
+      "displayName": "BC Rich Mockingbird Metallic Refin",
+      "brand": "BC Rich",
+      "model": "Mockingbird Metallic Refin",
+      "variant": null,
+      "count": 2,
+      "sum": 4720,
+      "min": 2295,
+      "max": 2425,
+      "sightings": [
+        {
+          "price": 2295,
+          "date": "2026-03-28T15:23:54.504Z",
+          "year": null,
+          "title": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/bc-rich-mockingbird-metallic-blue-refin-1980s-2519934",
+          "condition": "Used"
+        },
+        {
+          "price": 2425,
+          "date": "2026-03-29T04:10:24.192Z",
+          "year": null,
+          "title": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
+          "url": "https://reverb.com/item/95491077-b-c-rich-mockingbird-metallic-blue-refin-1980s",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2425,
+          "min": 2425,
+          "max": 2425,
+          "avg": 2425
+        },
+        "Used": {
+          "count": 1,
+          "sum": 2295,
+          "min": 2295,
+          "max": 2295,
+          "avg": 2295
+        }
+      },
+      "avg": 2360
+    },
     "fender-stratocaster": {
       "displayName": "Fender Stratocaster",
       "brand": "Fender",
@@ -887,36 +932,6 @@
         }
       },
       "avg": 2500
-    },
-    "bc-rich-mockingbird-metallic-refin": {
-      "displayName": "BC Rich Mockingbird Metallic Refin",
-      "brand": "BC Rich",
-      "model": "Mockingbird Metallic Refin",
-      "variant": null,
-      "count": 1,
-      "sum": 2295,
-      "min": 2295,
-      "max": 2295,
-      "sightings": [
-        {
-          "price": 2295,
-          "date": "2026-03-28T15:23:54.504Z",
-          "year": null,
-          "title": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
-          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/bc-rich-mockingbird-metallic-blue-refin-1980s-2519934",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 2295,
-          "min": 2295,
-          "max": 2295,
-          "avg": 2295
-        }
-      },
-      "avg": 2295
     },
     "languedoc-g2-zac-brown": {
       "displayName": "Languedoc G2 Zac Brown",
@@ -2465,6 +2480,17 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 8,
+      "sum": 22877.47,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2860,
+      "min": 668.31,
+      "max": 6500
+    },
     "Excellent": {
       "count": 29,
       "sum": 140458.74,
@@ -2478,17 +2504,6 @@
       "avg": 4843,
       "min": 350,
       "max": 35900
-    },
-    "Good": {
-      "count": 7,
-      "sum": 20452.47,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 2922,
-      "min": 668.31,
-      "max": 6500
     },
     "Very Good": {
       "count": 20,
@@ -2563,8 +2578,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4894,
-      "count": 78
+      "avg": 4863,
+      "count": 79
     }
   },
   "recentDrops": [
@@ -2594,7 +2609,7 @@
     "0-500": 4,
     "500-1k": 5,
     "1k-2k": 20,
-    "2k-3k": 20,
+    "2k-3k": 21,
     "3k-5k": 20,
     "5k-10k": 4,
     "10k+": 5
@@ -2603,12 +2618,17 @@
     "0-500": 4,
     "500-1k": 5,
     "1k-2k": 20,
-    "2k-3k": 20,
+    "2k-3k": 21,
     "3k-5k": 20,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 10,
+      "count": 9,
+      "avg": 1
+    },
     "Fender": {
       "sum": 5,
       "count": 5,
@@ -2644,15 +2664,10 @@
       "count": 6,
       "avg": 1
     },
-    "BC Rich": {
-      "sum": 9,
-      "count": 8,
-      "avg": 1
-    },
     "Acoustic": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Dunable": {
       "sum": 0,
@@ -2660,7 +2675,7 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 3,
+      "sum": 4,
       "count": 6,
       "avg": 1
     },
@@ -2680,9 +2695,9 @@
       "avg": 0
     },
     "Languedoc": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "LSL": {
       "sum": 1,
@@ -2740,9 +2755,9 @@
       "avg": 2
     },
     "Framus": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Hamer": {
       "sum": 2,
@@ -2756,13 +2771,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-29": 3,
+    "2026-03-29": 4,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 66,
+    "reverb": 67,
     "news": 9,
     "marketplace": 11
   },
@@ -2811,9 +2826,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4894,
+    "avg": 4863,
     "pctBelowAvg": 0,
-    "count": 78
+    "count": 79
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -3078,15 +3093,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 71,
+      "total": 72,
       "sold": 14,
       "removed": 0,
-      "live": 57,
-      "soldPct": 20,
+      "live": 58,
+      "soldPct": 19,
       "removedPct": 0,
-      "livePct": 80
+      "livePct": 81
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 9,
+        "sold": 0,
+        "removed": 0,
+        "live": 9,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Fender": {
         "total": 5,
         "sold": 3,
@@ -3149,15 +3173,6 @@
         "soldPct": 33,
         "removedPct": 0,
         "livePct": 67
-      },
-      "BC Rich": {
-        "total": 8,
-        "sold": 0,
-        "removed": 0,
-        "live": 8,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
       },
       "Acoustic": {
         "total": 1,
@@ -3363,7 +3378,7 @@
     "withOffers": 16,
     "totalOffers": 25,
     "avgOffersPerListing": 1.6,
-    "offersEnabledPct": 30
+    "offersEnabledPct": 31
   },
   "shippingInsights": {
     "freeShippingPct": 0,
