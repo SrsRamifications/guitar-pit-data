@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-29T01:10:22.254Z",
-  "totalLinks": 84,
-  "totalWithPrice": 76,
+  "generatedAt": "2026-03-29T02:19:15.124Z",
+  "totalLinks": 85,
+  "totalWithPrice": 77,
   "overall": {
-    "count": 76,
-    "sum": 343530.99,
-    "avg": 4520,
+    "count": 77,
+    "sum": 345530.99,
+    "avg": 4487,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 72,
-    "sum": 187536,
-    "avg": 2605,
+    "count": 73,
+    "sum": 189536,
+    "avg": 2596,
     "min": 33,
     "max": 7999,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 9050,
+    "thresholdHigh": 8750,
     "thresholdLow": 0,
     "count": 4,
     "items": [
@@ -57,20 +57,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 76,
-      "sum": 343530.99,
+      "count": 77,
+      "sum": 345530.99,
       "min": 33,
       "max": 99000,
-      "avg": 4520
+      "avg": 4487
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 63,
-      "sum": 205744.85,
+      "count": 64,
+      "sum": 207744.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3266
+      "avg": 3246
     },
     "news": {
       "count": 4,
@@ -89,11 +89,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 63,
-      "sum": 205744.85,
+      "count": 64,
+      "sum": 207744.85,
       "min": 33,
       "max": 29999.99,
-      "avg": 3266
+      "avg": 3246
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -167,6 +167,36 @@
     }
   },
   "byModel": {
+    "guild-x-88-with-case": {
+      "displayName": "Guild X-88 With Case",
+      "brand": "Guild",
+      "model": "X-88 With Case",
+      "variant": null,
+      "count": 1,
+      "sum": 2000,
+      "min": 2000,
+      "max": 2000,
+      "sightings": [
+        {
+          "price": 2000,
+          "date": "2026-03-29T02:19:02.153Z",
+          "year": 1984,
+          "title": "1984 Guild X-88 With Case",
+          "url": "https://reverb.com/item/95519984-1984-guild-x-88-with-case",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2000,
+          "min": 2000,
+          "max": 2000,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "epiphone-epiphone-masterbilt-aj": {
       "displayName": "Epiphone epiphone masterbilt aj",
       "brand": "Epiphone",
@@ -2382,6 +2412,17 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 7,
+      "sum": 20452.47,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2922,
+      "min": 668.31,
+      "max": 6500
+    },
     "Very Good": {
       "count": 20,
       "sum": 56782.57000000001,
@@ -2409,17 +2450,6 @@
       "avg": 3734,
       "min": 350,
       "max": 29999.99
-    },
-    "Good": {
-      "count": 6,
-      "sum": 18452.47,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 3075,
-      "min": 668.31,
-      "max": 6500
     },
     "Used": {
       "count": 6,
@@ -2480,8 +2510,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4520,
-      "count": 76
+      "avg": 4487,
+      "count": 77
     }
   },
   "recentDrops": [
@@ -2511,7 +2541,7 @@
     "0-500": 4,
     "500-1k": 5,
     "1k-2k": 20,
-    "2k-3k": 19,
+    "2k-3k": 20,
     "3k-5k": 20,
     "5k-10k": 4,
     "10k+": 4
@@ -2520,12 +2550,17 @@
     "0-500": 4,
     "500-1k": 5,
     "1k-2k": 20,
-    "2k-3k": 19,
+    "2k-3k": 20,
     "3k-5k": 20,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Guild": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Epiphone": {
       "sum": 0,
       "count": 2,
@@ -2592,9 +2627,9 @@
       "avg": 0
     },
     "LSL": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Fender": {
       "sum": 5,
@@ -2637,9 +2672,9 @@
       "avg": 1
     },
     "Greco": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Fractal Audio": {
       "sum": 2,
@@ -2668,21 +2703,21 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-29": 1,
+    "2026-03-29": 2,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 64,
+    "reverb": 65,
     "news": 9,
     "marketplace": 11
   },
-  "activeModelsCount": 68,
+  "activeModelsCount": 69,
   "topPosters": [
     {
       "username": "GP",
-      "count": 25
+      "count": 26
     },
     {
       "username": "Beijing Bob",
@@ -2723,9 +2758,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4520,
+    "avg": 4487,
     "pctBelowAvg": 0,
-    "count": 76
+    "count": 77
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -2982,15 +3017,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 69,
+      "total": 70,
       "sold": 13,
       "removed": 0,
-      "live": 56,
+      "live": 57,
       "soldPct": 19,
       "removedPct": 0,
       "livePct": 81
     },
     "byBrand": {
+      "Guild": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Epiphone": {
         "total": 2,
         "sold": 0,
@@ -3258,10 +3302,10 @@
     "withOffers": 14,
     "totalOffers": 23,
     "avgOffersPerListing": 1.6,
-    "offersEnabledPct": 28
+    "offersEnabledPct": 29
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 102
+    "avgShippingCost": 105
   }
 }
