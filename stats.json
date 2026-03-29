@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T14:21:08.622Z",
+  "generatedAt": "2026-03-29T14:39:35.678Z",
   "totalLinks": 92,
   "totalWithPrice": 82,
   "overall": {
@@ -797,11 +797,18 @@
         }
       },
       "soldData": {
-        "count": 1,
-        "avg": 2750,
+        "count": 2,
+        "avg": 3649,
         "min": 2750,
-        "max": 2750,
+        "max": 4548.17,
         "prices": [
+          {
+            "price": 4548.17,
+            "askingPrice": 4548.17,
+            "date": "2026-03-29T14:37:37.841Z",
+            "title": "PRS McCarty 594 - Antique White",
+            "url": "https://reverb.com/item/95513943-prs-mccarty-594-antique-white"
+          },
           {
             "price": 2750,
             "askingPrice": 2750,
@@ -2620,8 +2627,11 @@
       "count": 6,
       "sum": 22363.07,
       "sold": {
-        "count": 0,
-        "sum": 0
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
       },
       "avg": 3727,
       "min": 1295.95,
@@ -2924,16 +2934,16 @@
   "topVoted": [],
   "discountFromRetail": {},
   "soldPrices": {
-    "count": 16,
-    "avg": 3545,
+    "count": 17,
+    "avg": 3604,
     "min": 1169.99,
     "max": 10495,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 12,
-      "count": 16,
+      "totalDays": 13,
+      "count": 17,
       "avgDays": 1
     },
     "byModel": {
@@ -2944,6 +2954,14 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
+      },
+      "prs-mccarty-594": {
+        "displayName": "PRS McCarty 594",
+        "totalDays": 1,
+        "count": 2,
+        "fastest": 0,
+        "slowest": 1,
+        "avgDays": 1
       },
       "gibson-sg-custom-shop-59": {
         "displayName": "Gibson SG Custom Shop 59",
@@ -2968,14 +2986,6 @@
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
-      },
-      "prs-mccarty-594": {
-        "displayName": "PRS McCarty 594",
-        "totalDays": 0,
-        "count": 1,
-        "fastest": 0,
-        "slowest": 0,
-        "avgDays": 0
       },
       "parker-fly-sitka-transparent-artist": {
         "displayName": "Parker Fly Sitka Transparent Artist",
@@ -3058,6 +3068,13 @@
         "slowest": 1,
         "avgDays": 1
       },
+      "PRS": {
+        "totalDays": 1,
+        "count": 2,
+        "fastest": 0,
+        "slowest": 1,
+        "avgDays": 1
+      },
       "Gibson": {
         "totalDays": 2,
         "count": 2,
@@ -3071,13 +3088,6 @@
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
-      },
-      "PRS": {
-        "totalDays": 0,
-        "count": 1,
-        "fastest": 0,
-        "slowest": 0,
-        "avgDays": 0
       },
       "Parker": {
         "totalDays": 0,
@@ -3185,12 +3195,12 @@
   "sellThrough": {
     "overall": {
       "total": 77,
-      "sold": 14,
+      "sold": 15,
       "removed": 0,
-      "live": 63,
-      "soldPct": 18,
+      "live": 62,
+      "soldPct": 19,
       "removedPct": 0,
-      "livePct": 82
+      "livePct": 81
     },
     "byBrand": {
       "Fender": {
@@ -3294,12 +3304,12 @@
       },
       "PRS": {
         "total": 7,
-        "sold": 1,
+        "sold": 2,
         "removed": 0,
-        "live": 6,
-        "soldPct": 14,
+        "live": 5,
+        "soldPct": 29,
         "removedPct": 0,
-        "livePct": 86
+        "livePct": 71
       },
       "Anderson": {
         "total": 1,
@@ -3475,8 +3485,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 17,
-    "totalOffers": 26,
+    "withOffers": 18,
+    "totalOffers": 27,
     "avgOffersPerListing": 1.5,
     "offersEnabledPct": 34
   },
