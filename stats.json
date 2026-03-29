@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-29T23:31:46.018Z",
-  "totalLinks": 98,
-  "totalWithPrice": 88,
+  "generatedAt": "2026-03-29T23:37:10.105Z",
+  "totalLinks": 99,
+  "totalWithPrice": 89,
   "overall": {
-    "count": 88,
-    "sum": 409601.97,
-    "avg": 4655,
+    "count": 89,
+    "sum": 413300.97,
+    "avg": 4644,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 83,
-    "sum": 217706.98,
-    "avg": 2623,
+    "count": 84,
+    "sum": 221405.98,
+    "avg": 2636,
     "min": 33,
     "max": 7999,
-    "median": 2300
+    "median": 2350
   },
   "outliers": {
-    "thresholdHigh": 9185,
+    "thresholdHigh": 9050,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 88,
-      "sum": 409601.97,
+      "count": 89,
+      "sum": 413300.97,
       "min": 33,
       "max": 99000,
-      "avg": 4655
+      "avg": 4644
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 75,
-      "sum": 271815.83,
+      "count": 76,
+      "sum": 275514.83,
       "min": 33,
       "max": 35900,
-      "avg": 3624
+      "avg": 3625
     },
     "news": {
       "count": 4,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 75,
-      "sum": 271815.83,
+      "count": 76,
+      "sum": 275514.83,
       "min": 33,
       "max": 35900,
-      "avg": 3624
+      "avg": 3625
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "prs-custom-22-artist": {
+      "displayName": "PRS Custom 22 Artist",
+      "brand": "PRS",
+      "model": "Custom 22",
+      "variant": "Artist",
+      "count": 1,
+      "sum": 3699,
+      "min": 3699,
+      "max": 3699,
+      "sightings": [
+        {
+          "price": 3699,
+          "date": "2026-03-29T23:36:56.979Z",
+          "year": 2014,
+          "title": "PRS Custom 22 Artist 2014",
+          "url": "https://reverb.com/item/95528777-prs-custom-22-artist-2014",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3699,
+          "min": 3699,
+          "max": 3699,
+          "avg": 3699
+        }
+      },
+      "avg": 3699
+    },
     "fano-alt-de-facto": {
       "displayName": "Fano Alt de Facto",
       "brand": "Fano",
@@ -2796,8 +2826,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 33,
-      "sum": 153856.72999999998,
+      "count": 34,
+      "sum": 157555.72999999998,
       "sold": {
         "count": 12,
         "sum": 40418.45,
@@ -2805,7 +2835,7 @@
         "min": 1375,
         "max": 7999
       },
-      "avg": 4662,
+      "avg": 4634,
       "min": 350,
       "max": 35900
     },
@@ -2907,8 +2937,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4655,
-      "count": 88
+      "avg": 4644,
+      "count": 89
     }
   },
   "recentDrops": [
@@ -2953,7 +2983,7 @@
     "500-1k": 5,
     "1k-2k": 23,
     "2k-3k": 24,
-    "3k-5k": 22,
+    "3k-5k": 23,
     "5k-10k": 5,
     "10k+": 5
   },
@@ -2962,11 +2992,16 @@
     "500-1k": 5,
     "1k-2k": 23,
     "2k-3k": 24,
-    "3k-5k": 22,
+    "3k-5k": 23,
     "5k-10k": 5,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 8,
+      "count": 7,
+      "avg": 1
+    },
     "Fano": {
       "sum": 0,
       "count": 1,
@@ -3035,11 +3070,6 @@
     "Dunable": {
       "sum": 1,
       "count": 1,
-      "avg": 1
-    },
-    "PRS": {
-      "sum": 8,
-      "count": 6,
       "avg": 1
     },
     "Anderson": {
@@ -3129,21 +3159,21 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-29": 15,
+    "2026-03-29": 16,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 76,
+    "reverb": 77,
     "marketplace": 13,
     "news": 9
   },
-  "activeModelsCount": 79,
+  "activeModelsCount": 80,
   "topPosters": [
     {
       "username": "GP",
-      "count": 32
+      "count": 33
     },
     {
       "username": "Beijing Bob",
@@ -3184,9 +3214,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4655,
+    "avg": 4644,
     "pctBelowAvg": 0,
-    "count": 88
+    "count": 89
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -3483,15 +3513,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 83,
+      "total": 84,
       "sold": 20,
       "removed": 0,
-      "live": 63,
+      "live": 64,
       "soldPct": 24,
       "removedPct": 0,
       "livePct": 76
     },
     "byBrand": {
+      "PRS": {
+        "total": 8,
+        "sold": 3,
+        "removed": 0,
+        "live": 5,
+        "soldPct": 38,
+        "removedPct": 0,
+        "livePct": 63
+      },
       "Fano": {
         "total": 1,
         "sold": 0,
@@ -3617,15 +3656,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 7,
-        "sold": 3,
-        "removed": 0,
-        "live": 4,
-        "soldPct": 43,
-        "removedPct": 0,
-        "livePct": 57
       },
       "Anderson": {
         "total": 1,
@@ -3795,7 +3825,7 @@
     "withOffers": 20,
     "totalOffers": 32,
     "avgOffersPerListing": 1.6,
-    "offersEnabledPct": 39
+    "offersEnabledPct": 40
   },
   "shippingInsights": {
     "freeShippingPct": 0,
