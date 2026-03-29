@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-29T02:44:26.531Z",
-  "totalLinks": 85,
-  "totalWithPrice": 77,
+  "generatedAt": "2026-03-29T02:53:56.335Z",
+  "totalLinks": 86,
+  "totalWithPrice": 78,
   "overall": {
-    "count": 77,
-    "sum": 345830.99,
-    "avg": 4491,
+    "count": 78,
+    "sum": 381730.99,
+    "avg": 4894,
     "min": 33,
     "max": 99000
   },
@@ -18,9 +18,9 @@
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8750,
+    "thresholdHigh": 9050,
     "thresholdLow": 0,
-    "count": 4,
+    "count": 5,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -29,6 +29,14 @@
         "image": "http://www.chicagomusicexchange.com/cdn/shop/files/languedoc-languedoc-g2-natural-2013-zac-brown-languedoc-g2-natural-2013-zac-brown-u74725885146-1227537525.jpg?v=1773779181",
         "condition": "Used",
         "postedAt": "2026-03-28T15:20:32.347Z"
+      },
+      {
+        "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+        "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
+        "price": "$35,900",
+        "image": "https://rvb-img.reverb.com/i/s--vzhQmqsZ--/quality=medium-low,height=800,width=800,fit=contain/603a2cf0-cbbe-4cc1-8587-92e4c14c4521.jpg",
+        "condition": "Excellent",
+        "postedAt": "2026-03-29T02:53:43.437Z"
       },
       {
         "title": "Hamer Custom Shop Vector V #2 Rick Nielsen Signature/Artist Signed Black & White Checkerboard 1983 w/OHSC",
@@ -57,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 77,
-      "sum": 345830.99,
+      "count": 78,
+      "sum": 381730.99,
       "min": 33,
       "max": 99000,
-      "avg": 4491
+      "avg": 4894
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 64,
-      "sum": 208044.85,
+      "count": 65,
+      "sum": 243944.85,
       "min": 33,
-      "max": 29999.99,
-      "avg": 3251
+      "max": 35900,
+      "avg": 3753
     },
     "news": {
       "count": 4,
@@ -89,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 64,
-      "sum": 208044.85,
+      "count": 65,
+      "sum": 243944.85,
       "min": 33,
-      "max": 29999.99,
-      "avg": 3251
+      "max": 35900,
+      "avg": 3753
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -167,6 +175,36 @@
     }
   },
   "byModel": {
+    "fender-stratocaster": {
+      "displayName": "Fender Stratocaster",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 1,
+      "sum": 35900,
+      "min": 35900,
+      "max": 35900,
+      "sightings": [
+        {
+          "price": 35900,
+          "date": "2026-03-29T02:53:43.437Z",
+          "year": 1964,
+          "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+          "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 35900,
+          "min": 35900,
+          "max": 35900,
+          "avg": 35900
+        }
+      },
+      "avg": 35900
+    },
     "guild-x-88-with-case": {
       "displayName": "Guild X-88 With Case",
       "brand": "Guild",
@@ -2427,6 +2465,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 29,
+      "sum": 140458.74,
+      "sold": {
+        "count": 9,
+        "sum": 31403.45,
+        "avg": 3489,
+        "min": 1375,
+        "max": 7999
+      },
+      "avg": 4843,
+      "min": 350,
+      "max": 35900
+    },
     "Good": {
       "count": 7,
       "sum": 20452.47,
@@ -2451,20 +2503,6 @@
       "avg": 2854,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 28,
-      "sum": 104558.74,
-      "sold": {
-        "count": 9,
-        "sum": 31403.45,
-        "avg": 3489,
-        "min": 1375,
-        "max": 7999
-      },
-      "avg": 3734,
-      "min": 350,
-      "max": 29999.99
     },
     "Used": {
       "count": 6,
@@ -2525,8 +2563,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4491,
-      "count": 77
+      "avg": 4894,
+      "count": 78
     }
   },
   "recentDrops": [
@@ -2559,7 +2597,7 @@
     "2k-3k": 20,
     "3k-5k": 20,
     "5k-10k": 4,
-    "10k+": 4
+    "10k+": 5
   },
   "priceDistributionFiltered": {
     "0-500": 4,
@@ -2571,15 +2609,20 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 5,
+      "count": 5,
+      "avg": 1
+    },
     "Guild": {
       "sum": 0,
       "count": 1,
       "avg": 0
     },
     "Epiphone": {
-      "sum": 0,
+      "sum": 1,
       "count": 2,
-      "avg": 0
+      "avg": 1
     },
     "Jackson": {
       "sum": 6,
@@ -2617,9 +2660,9 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 2,
+      "sum": 3,
       "count": 6,
-      "avg": 0
+      "avg": 1
     },
     "Anderson": {
       "sum": 0,
@@ -2644,11 +2687,6 @@
     "LSL": {
       "sum": 1,
       "count": 1,
-      "avg": 1
-    },
-    "Fender": {
-      "sum": 5,
-      "count": 4,
       "avg": 1
     },
     "Milkman": {
@@ -2718,21 +2756,21 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-29": 2,
+    "2026-03-29": 3,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 65,
+    "reverb": 66,
     "news": 9,
     "marketplace": 11
   },
-  "activeModelsCount": 69,
+  "activeModelsCount": 70,
   "topPosters": [
     {
       "username": "GP",
-      "count": 26
+      "count": 27
     },
     {
       "username": "Beijing Bob",
@@ -2773,9 +2811,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4491,
+    "avg": 4894,
     "pctBelowAvg": 0,
-    "count": 77
+    "count": 78
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -3040,15 +3078,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 70,
+      "total": 71,
       "sold": 14,
       "removed": 0,
-      "live": 56,
+      "live": 57,
       "soldPct": 20,
       "removedPct": 0,
       "livePct": 80
     },
     "byBrand": {
+      "Fender": {
+        "total": 5,
+        "sold": 3,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 60,
+        "removedPct": 0,
+        "livePct": 40
+      },
       "Guild": {
         "total": 1,
         "sold": 0,
@@ -3184,15 +3231,6 @@
         "removedPct": 0,
         "livePct": 100
       },
-      "Fender": {
-        "total": 4,
-        "sold": 3,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 75,
-        "removedPct": 0,
-        "livePct": 25
-      },
       "Milkman": {
         "total": 1,
         "sold": 0,
@@ -3325,7 +3363,7 @@
     "withOffers": 16,
     "totalOffers": 25,
     "avgOffersPerListing": 1.6,
-    "offersEnabledPct": 29
+    "offersEnabledPct": 30
   },
   "shippingInsights": {
     "freeShippingPct": 0,
