@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-29T08:49:34.689Z",
-  "totalLinks": 88,
-  "totalWithPrice": 80,
+  "generatedAt": "2026-03-29T11:52:39.189Z",
+  "totalLinks": 89,
+  "totalWithPrice": 81,
   "overall": {
-    "count": 80,
-    "sum": 385454.99,
-    "avg": 4818,
+    "count": 81,
+    "sum": 386554.99,
+    "avg": 4772,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 75,
-    "sum": 193560,
-    "avg": 2581,
+    "count": 76,
+    "sum": 194660,
+    "avg": 2561,
     "min": 33,
     "max": 7999,
-    "median": 2300
+    "median": 2298
   },
   "outliers": {
-    "thresholdHigh": 9050,
+    "thresholdHigh": 8777,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 80,
-      "sum": 385454.99,
+      "count": 81,
+      "sum": 386554.99,
       "min": 33,
       "max": 99000,
-      "avg": 4818
+      "avg": 4772
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 67,
-      "sum": 247668.85,
+      "count": 68,
+      "sum": 248768.85,
       "min": 33,
       "max": 35900,
-      "avg": 3697
+      "avg": 3658
     },
     "news": {
       "count": 4,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 67,
-      "sum": 247668.85,
+      "count": 68,
+      "sum": 248768.85,
       "min": 33,
       "max": 35900,
-      "avg": 3697
+      "avg": 3658
     },
     "guitarcenter.smart.link": {
       "count": 1,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "bc-rich-1980s-bc-rico": {
+      "displayName": "BC Rich 1980's B.C. Rico",
+      "brand": "BC Rich",
+      "model": "1980's B.C. Rico",
+      "variant": null,
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-03-29T11:52:26.086Z",
+          "year": 1980,
+          "title": "1980's B.C. Rich B.C. Rico RW-9C BC Rich BC Rico",
+          "url": "https://reverb.com/item/95521518-1980-s-b-c-rich-b-c-rico-rw-9c-bc-rich-bc-rico",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
+    },
     "yamaha-sg": {
       "displayName": "Yamaha SG",
       "brand": "Yamaha",
@@ -2510,6 +2540,17 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 9,
+      "sum": 23977.47,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2664,
+      "min": 668.31,
+      "max": 6500
+    },
     "Very Good": {
       "count": 21,
       "sum": 58381.57000000001,
@@ -2523,17 +2564,6 @@
       "avg": 2780,
       "min": 33,
       "max": 16500
-    },
-    "Good": {
-      "count": 8,
-      "sum": 22877.47,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 2860,
-      "min": 668.31,
-      "max": 6500
     },
     "Excellent": {
       "count": 29,
@@ -2608,8 +2638,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4818,
-      "count": 80
+      "avg": 4772,
+      "count": 81
     }
   },
   "recentDrops": [
@@ -2638,7 +2668,7 @@
   "priceDistribution": {
     "0-500": 4,
     "500-1k": 5,
-    "1k-2k": 21,
+    "1k-2k": 22,
     "2k-3k": 21,
     "3k-5k": 20,
     "5k-10k": 4,
@@ -2647,25 +2677,25 @@
   "priceDistributionFiltered": {
     "0-500": 4,
     "500-1k": 5,
-    "1k-2k": 21,
+    "1k-2k": 22,
     "2k-3k": 21,
     "3k-5k": 20,
     "5k-10k": 4,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 14,
+      "count": 10,
+      "avg": 1
+    },
     "Yamaha": {
       "sum": 0,
       "count": 1,
       "avg": 0
     },
-    "BC Rich": {
-      "sum": 13,
-      "count": 9,
-      "avg": 1
-    },
     "Fender": {
-      "sum": 6,
+      "sum": 7,
       "count": 5,
       "avg": 1
     },
@@ -2680,22 +2710,22 @@
       "avg": 1
     },
     "Jackson": {
+      "sum": 10,
+      "count": 4,
+      "avg": 3
+    },
+    "Gibson": {
+      "sum": 14,
+      "count": 8,
+      "avg": 2
+    },
+    "Kiesel": {
       "sum": 6,
       "count": 4,
       "avg": 2
     },
-    "Gibson": {
-      "sum": 11,
-      "count": 8,
-      "avg": 1
-    },
-    "Kiesel": {
-      "sum": 4,
-      "count": 4,
-      "avg": 1
-    },
     "Ibanez": {
-      "sum": 5,
+      "sum": 7,
       "count": 6,
       "avg": 1
     },
@@ -2710,7 +2740,7 @@
       "avg": 1
     },
     "PRS": {
-      "sum": 7,
+      "sum": 8,
       "count": 6,
       "avg": 1
     },
@@ -2750,14 +2780,14 @@
       "avg": 1
     },
     "Echopark": {
-      "sum": 3,
+      "sum": 5,
       "count": 2,
-      "avg": 2
+      "avg": 3
     },
     "Rick Toone": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Parker": {
       "sum": 2,
@@ -2806,17 +2836,17 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-29": 5,
+    "2026-03-29": 6,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 68,
+    "reverb": 69,
     "news": 9,
     "marketplace": 11
   },
-  "activeModelsCount": 71,
+  "activeModelsCount": 72,
   "topPosters": [
     {
       "username": "GP",
@@ -2824,7 +2854,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 11
+      "count": 12
     },
     {
       "username": "YellowJack6",
@@ -2861,9 +2891,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4818,
+    "avg": 4772,
     "pctBelowAvg": 0,
-    "count": 80
+    "count": 81
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -3128,29 +3158,29 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 73,
+      "total": 74,
       "sold": 14,
       "removed": 0,
-      "live": 59,
+      "live": 60,
       "soldPct": 19,
       "removedPct": 0,
       "livePct": 81
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 10,
+        "sold": 0,
+        "removed": 0,
+        "live": 10,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Yamaha": {
         "total": 1,
         "sold": 0,
         "removed": 0,
         "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
-      },
-      "BC Rich": {
-        "total": 9,
-        "sold": 0,
-        "removed": 0,
-        "live": 9,
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
@@ -3422,10 +3452,10 @@
     "withOffers": 16,
     "totalOffers": 25,
     "avgOffersPerListing": 1.6,
-    "offersEnabledPct": 32
+    "offersEnabledPct": 33
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 105
+    "avgShippingCost": 104
   }
 }
