@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T23:35:55.380Z",
+  "generatedAt": "2026-03-29T00:08:21.592Z",
   "totalLinks": 83,
   "totalWithPrice": 75,
   "overall": {
@@ -322,6 +322,21 @@
           "max": 1169.99,
           "avg": 1170
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1170,
+        "min": 1169.99,
+        "max": 1169.99,
+        "prices": [
+          {
+            "price": 1169.99,
+            "askingPrice": 1169.99,
+            "date": "2026-03-29T00:08:05.130Z",
+            "title": "Used Ibanez 540P MAGENTA Solid Body Electric Guitar MAGENTA",
+            "url": "https://www.guitarcenter.com/Used/Ibanez/Used-Ibanez-540P-MAGENTA-Solid-Body-Electric-Guitar-120872311.gc?algoliaQueryID=a8792b336c717e0592b1ac8a8befc155&algoliaIndexName=pHL-guitarcenter"
+          }
+        ]
       },
       "avg": 1170
     },
@@ -1058,6 +1073,21 @@
           "avg": 2100
         }
       },
+      "soldData": {
+        "count": 1,
+        "avg": 2100,
+        "min": 2100,
+        "max": 2100,
+        "prices": [
+          {
+            "price": 2100,
+            "askingPrice": 2100,
+            "date": "2026-03-29T00:06:51.431Z",
+            "title": "Ibanez DT155-BK Destroyer 1983 -1985 - Black",
+            "url": "https://reverb.com/item/94435224-ibanez-dt155-bk-destroyer-1983-1985-black"
+          }
+        ]
+      },
       "avg": 2100
     },
     "seymour-duncan-10s-spring-bh-quilted-maple": {
@@ -1447,6 +1477,21 @@
           "max": 7999,
           "avg": 7999
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 7999,
+        "min": 7999,
+        "max": 7999,
+        "prices": [
+          {
+            "price": 7999,
+            "askingPrice": 7999,
+            "date": "2026-03-29T00:07:15.855Z",
+            "title": "Fender Custom Shop '67 Set Neck Telecaster Masterbuilt Austin MacNutt Relic Black 2025",
+            "url": "https://reverb.com/item/95448950-fender-custom-shop-67-set-neck-telecaster-masterbuilt-austin-macnutt-relic-black-2025"
+          }
+        ]
       },
       "avg": 7999
     },
@@ -2311,11 +2356,11 @@
       "count": 28,
       "sum": 104558.74,
       "sold": {
-        "count": 6,
-        "sum": 17804.45,
-        "avg": 2967,
+        "count": 8,
+        "sum": 27903.45,
+        "avg": 3488,
         "min": 1375,
-        "max": 4999
+        "max": 7999
       },
       "avg": 3734,
       "min": 350,
@@ -2654,19 +2699,35 @@
   "topVoted": [],
   "discountFromRetail": {},
   "soldPrices": {
-    "count": 11,
-    "avg": 3550,
-    "min": 1201.8,
+    "count": 14,
+    "avg": 3594,
+    "min": 1169.99,
     "max": 10495,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 10,
-      "count": 11,
+      "totalDays": 12,
+      "count": 14,
       "avgDays": 1
     },
     "byModel": {
+      "ibanez-540p-magenta-solid": {
+        "displayName": "Ibanez 540P MAGENTA Solid",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
+      "ibanez-dt155": {
+        "displayName": "Ibanez DT155",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
+      },
       "fender-telecaster": {
         "displayName": "Fender Telecaster",
         "totalDays": 1,
@@ -2690,6 +2751,14 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
+      },
+      "fender-telecaster-custom-shop-masterbuilt": {
+        "displayName": "Fender Telecaster Custom Shop Masterbuilt",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
       },
       "esp-original-custom-shop": {
         "displayName": "ESP Original Custom Shop",
@@ -2749,9 +2818,16 @@
       }
     },
     "byBrand": {
-      "Fender": {
-        "totalDays": 2,
+      "Ibanez": {
+        "totalDays": 1,
         "count": 2,
+        "fastest": 0,
+        "slowest": 1,
+        "avgDays": 1
+      },
+      "Fender": {
+        "totalDays": 3,
+        "count": 3,
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
@@ -2876,12 +2952,12 @@
   "sellThrough": {
     "overall": {
       "total": 68,
-      "sold": 10,
+      "sold": 13,
       "removed": 0,
-      "live": 58,
-      "soldPct": 15,
+      "live": 55,
+      "soldPct": 19,
       "removedPct": 0,
-      "livePct": 85
+      "livePct": 81
     },
     "byBrand": {
       "Jackson": {
@@ -2913,12 +2989,12 @@
       },
       "Ibanez": {
         "total": 6,
-        "sold": 0,
+        "sold": 2,
         "removed": 0,
-        "live": 6,
-        "soldPct": 0,
+        "live": 4,
+        "soldPct": 33,
         "removedPct": 0,
-        "livePct": 100
+        "livePct": 67
       },
       "BC Rich": {
         "total": 8,
@@ -3012,12 +3088,12 @@
       },
       "Fender": {
         "total": 4,
-        "sold": 2,
+        "sold": 3,
         "removed": 0,
-        "live": 2,
-        "soldPct": 50,
+        "live": 1,
+        "soldPct": 75,
         "removedPct": 0,
-        "livePct": 50
+        "livePct": 25
       },
       "Milkman": {
         "total": 1,
@@ -3148,9 +3224,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 12,
-    "totalOffers": 21,
-    "avgOffersPerListing": 1.8,
+    "withOffers": 14,
+    "totalOffers": 23,
+    "avgOffersPerListing": 1.6,
     "offersEnabledPct": 27
   },
   "shippingInsights": {
