@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-30T00:50:02.208Z",
-  "totalLinks": 102,
-  "totalWithPrice": 92,
+  "generatedAt": "2026-03-30T01:58:10.475Z",
+  "totalLinks": 103,
+  "totalWithPrice": 93,
   "overall": {
-    "count": 92,
-    "sum": 421595.97,
-    "avg": 4583,
+    "count": 93,
+    "sum": 424194.97,
+    "avg": 4561,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 87,
-    "sum": 229700.98,
+    "count": 88,
+    "sum": 232299.98,
     "avg": 2640,
     "min": 33,
     "max": 7999,
-    "median": 2399
+    "median": 2412
   },
   "outliers": {
-    "thresholdHigh": 8700,
+    "thresholdHigh": 8400,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,14 +65,21 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 92,
-      "sum": 421595.97,
+      "count": 93,
+      "sum": 424194.97,
       "min": 33,
       "max": 99000,
-      "avg": 4583
+      "avg": 4561
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 10,
+      "sum": 129905.98,
+      "min": 929.99,
+      "max": 99000,
+      "avg": 12991
+    },
     "reverb": {
       "count": 79,
       "sum": 283809.83,
@@ -86,16 +93,16 @@
       "min": 150,
       "max": 4499.17,
       "avg": 2620
-    },
-    "marketplace": {
-      "count": 9,
-      "sum": 127306.98,
-      "min": 929.99,
-      "max": 99000,
-      "avg": 14145
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 4,
+      "sum": 107389,
+      "min": 2295,
+      "max": 99000,
+      "avg": 26847
+    },
     "reverb.com": {
       "count": 79,
       "sum": 283809.83,
@@ -145,13 +152,6 @@
       "max": 3730,
       "avg": 3730
     },
-    "chicagomusicexchange.com": {
-      "count": 3,
-      "sum": 104790,
-      "min": 2295,
-      "max": 99000,
-      "avg": 34930
-    },
     "resistorhead.company.site": {
       "count": 1,
       "sum": 150,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "music-man-cutlass-bfr-hss": {
+      "displayName": "Music Man Cutlass Bfr Hss",
+      "brand": "Music Man",
+      "model": "Cutlass",
+      "variant": "Bfr Hss",
+      "count": 1,
+      "sum": 2599,
+      "min": 2599,
+      "max": 2599,
+      "sightings": [
+        {
+          "price": 2599,
+          "date": "2026-03-30T01:57:55.978Z",
+          "year": null,
+          "title": "Music Man BFR Cutlass HSS Blue Magic Figured Maple Neck",
+          "url": "https://www.chicagomusicexchange.com/products/music-man-bfr-cutlass-hss-blue-magic-figured-maple-718705",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 2599,
+          "min": 2599,
+          "max": 2599,
+          "avg": 2599
+        }
+      },
+      "avg": 2599
+    },
     "fender-stratocaster-custom-shop-signature": {
       "displayName": "Fender Stratocaster Custom Shop Signature",
       "brand": "Fender",
@@ -2885,6 +2915,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 7,
+      "sum": 24962.07,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 3566,
+      "min": 1295.95,
+      "max": 5799
+    },
     "Excellent": {
       "count": 37,
       "sum": 165850.72999999998,
@@ -2946,20 +2990,6 @@
       "min": 1169.99,
       "max": 99000
     },
-    "Brand New": {
-      "count": 6,
-      "sum": 22363.07,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 3727,
-      "min": 1295.95,
-      "max": 5799
-    },
     "New": {
       "count": 1,
       "sum": 4324,
@@ -2997,8 +3027,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4583,
-      "count": 92
+      "avg": 4561,
+      "count": 93
     }
   },
   "recentDrops": [
@@ -3042,7 +3072,7 @@
     "0-500": 4,
     "500-1k": 5,
     "1k-2k": 24,
-    "2k-3k": 25,
+    "2k-3k": 26,
     "3k-5k": 24,
     "5k-10k": 5,
     "10k+": 5
@@ -3051,12 +3081,17 @@
     "0-500": 4,
     "500-1k": 5,
     "1k-2k": 24,
-    "2k-3k": 25,
+    "2k-3k": 26,
     "3k-5k": 24,
     "5k-10k": 5,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Music Man": {
+      "sum": 0,
+      "count": 2,
+      "avg": 0
+    },
     "Fender": {
       "sum": 11,
       "count": 7,
@@ -3081,11 +3116,6 @@
       "sum": 5,
       "count": 3,
       "avg": 2
-    },
-    "Music Man": {
-      "sum": 0,
-      "count": 1,
-      "avg": 0
     },
     "Ibanez": {
       "sum": 10,
@@ -3158,9 +3188,9 @@
       "avg": 1
     },
     "LSL": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Milkman": {
       "sum": 2,
@@ -3193,9 +3223,9 @@
       "avg": 2
     },
     "Greco": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Fractal Audio": {
       "sum": 3,
@@ -3224,18 +3254,18 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 2,
+    "2026-03-30": 3,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "marketplace": 14,
     "reverb": 80,
-    "marketplace": 13,
     "news": 9
   },
-  "activeModelsCount": 82,
+  "activeModelsCount": 83,
   "topPosters": [
     {
       "username": "GP",
@@ -3255,7 +3285,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 7
+      "count": 8
     },
     {
       "username": "jazee_",
@@ -3280,9 +3310,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4583,
+    "avg": 4561,
     "pctBelowAvg": 0,
-    "count": 92
+    "count": 93
   },
   "topVoted": [],
   "discountFromRetail": {},
@@ -3579,15 +3609,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 86,
+      "total": 87,
       "sold": 20,
       "removed": 0,
-      "live": 66,
+      "live": 67,
       "soldPct": 23,
       "removedPct": 0,
       "livePct": 77
     },
     "byBrand": {
+      "Music Man": {
+        "total": 2,
+        "sold": 1,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 50,
+        "removedPct": 0,
+        "livePct": 50
+      },
       "Fender": {
         "total": 8,
         "sold": 3,
@@ -3632,15 +3671,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Music Man": {
-        "total": 1,
-        "sold": 1,
-        "removed": 0,
-        "live": 0,
-        "soldPct": 100,
-        "removedPct": 0,
-        "livePct": 0
       },
       "Ibanez": {
         "total": 9,
