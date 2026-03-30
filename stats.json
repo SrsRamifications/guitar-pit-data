@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-30T08:49:54.834Z",
-  "totalLinks": 109,
-  "totalWithPrice": 99,
+  "generatedAt": "2026-03-30T11:16:05.359Z",
+  "totalLinks": 110,
+  "totalWithPrice": 100,
   "overall": {
-    "count": 99,
-    "sum": 437569.97,
-    "avg": 4420,
+    "count": 100,
+    "sum": 437987.18,
+    "avg": 4380,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 94,
-    "sum": 245674.98,
-    "avg": 2614,
+    "count": 95,
+    "sum": 246092.19,
+    "avg": 2590,
     "min": 33,
     "max": 7999,
-    "median": 2350
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 8400,
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 99,
-      "sum": 437569.97,
+      "count": 100,
+      "sum": 437987.18,
       "min": 33,
       "max": 99000,
-      "avg": 4420
+      "avg": 4380
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 85,
-      "sum": 297184.83,
+      "count": 86,
+      "sum": 297602.04,
       "min": 33,
       "max": 35900,
-      "avg": 3496
+      "avg": 3460
     },
     "marketplace": {
       "count": 10,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 85,
-      "sum": 297184.83,
+      "count": 86,
+      "sum": 297602.04,
       "min": 33,
       "max": 35900,
-      "avg": 3496
+      "avg": 3460
     },
     "chicagomusicexchange.com": {
       "count": 4,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "bc-rich-warlock-kkv-kerry-signature": {
+      "displayName": "BC Rich Warlock KKV Kerry Signature",
+      "brand": "BC Rich",
+      "model": "Warlock KKV Kerry",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 417.21,
+      "min": 417.21,
+      "max": 417.21,
+      "sightings": [
+        {
+          "price": 417.21,
+          "date": "2026-03-30T11:15:51.850Z",
+          "year": null,
+          "title": "B.C. Rich Warlock KKV Kerry King Signature",
+          "url": "https://reverb.com/item/95273983-b-c-rich-warlock-kkv-kerry-king-signature",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 417.21,
+          "min": 417.21,
+          "max": 417.21,
+          "avg": 417
+        }
+      },
+      "avg": 417
+    },
     "gibson-nos-archtop-1960s-nos": {
       "displayName": "Gibson NOS Archtop 1960s Nos",
       "brand": "Gibson",
@@ -3042,6 +3072,17 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 11,
+      "sum": 25994.68,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2363,
+      "min": 417.21,
+      "max": 6500
+    },
     "Brand New": {
       "count": 9,
       "sum": 26887.07,
@@ -3080,17 +3121,6 @@
       "avg": 3025,
       "min": 1049.99,
       "max": 5000
-    },
-    "Good": {
-      "count": 10,
-      "sum": 25577.47,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 2558,
-      "min": 668.31,
-      "max": 6500
     },
     "Very Good": {
       "count": 23,
@@ -3154,8 +3184,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4420,
-      "count": 99
+      "avg": 4380,
+      "count": 100
     }
   },
   "recentDrops": [
@@ -3196,7 +3226,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 5,
+    "0-500": 6,
     "500-1k": 5,
     "1k-2k": 26,
     "2k-3k": 28,
@@ -3205,7 +3235,7 @@
     "10k+": 5
   },
   "priceDistributionFiltered": {
-    "0-500": 5,
+    "0-500": 6,
     "500-1k": 5,
     "1k-2k": 26,
     "2k-3k": 28,
@@ -3214,13 +3244,18 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 24,
+      "count": 11,
+      "avg": 2
+    },
     "Gibson": {
-      "sum": 19,
+      "sum": 21,
       "count": 10,
       "avg": 2
     },
     "Music Man": {
-      "sum": 0,
+      "sum": 1,
       "count": 3,
       "avg": 0
     },
@@ -3235,28 +3270,23 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 13,
+      "sum": 14,
       "count": 7,
       "avg": 2
     },
     "Fano": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Echopark": {
-      "sum": 5,
+      "sum": 8,
       "count": 3,
-      "avg": 2
+      "avg": 3
     },
     "Ibanez": {
-      "sum": 14,
+      "sum": 16,
       "count": 9,
-      "avg": 2
-    },
-    "BC Rich": {
-      "sum": 23,
-      "count": 10,
       "avg": 2
     },
     "Yamaha": {
@@ -3275,14 +3305,14 @@
       "avg": 2
     },
     "Jackson": {
-      "sum": 10,
+      "sum": 13,
       "count": 4,
       "avg": 3
     },
     "Kiesel": {
-      "sum": 8,
+      "sum": 10,
       "count": 4,
-      "avg": 2
+      "avg": 3
     },
     "Acoustic": {
       "sum": 2,
@@ -3330,9 +3360,9 @@
       "avg": 2
     },
     "Rick Toone": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Parker": {
       "sum": 3,
@@ -3381,18 +3411,18 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 9,
+    "2026-03-30": 10,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 86,
+    "reverb": 87,
     "marketplace": 14,
     "news": 9
   },
-  "activeModelsCount": 86,
+  "activeModelsCount": 87,
   "topPosters": [
     {
       "username": "GP",
@@ -3403,12 +3433,12 @@
       "count": 20
     },
     {
-      "username": "YellowJack6",
+      "username": "WontonGG",
       "count": 11
     },
     {
-      "username": "WontonGG",
-      "count": 10
+      "username": "YellowJack6",
+      "count": 11
     },
     {
       "username": "Shteefe",
@@ -3437,9 +3467,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4420,
+    "avg": 4380,
     "pctBelowAvg": 0,
-    "count": 99
+    "count": 100
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -3765,15 +3795,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 90,
+      "total": 91,
       "sold": 23,
       "removed": 0,
-      "live": 67,
-      "soldPct": 26,
+      "live": 68,
+      "soldPct": 25,
       "removedPct": 0,
-      "livePct": 74
+      "livePct": 75
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 11,
+        "sold": 0,
+        "removed": 0,
+        "live": 11,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 13,
         "sold": 2,
@@ -3845,15 +3884,6 @@
         "soldPct": 56,
         "removedPct": 0,
         "livePct": 44
-      },
-      "BC Rich": {
-        "total": 10,
-        "sold": 0,
-        "removed": 0,
-        "live": 10,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
       },
       "Yamaha": {
         "total": 1,
@@ -4086,7 +4116,7 @@
     "withOffers": 24,
     "totalOffers": 40,
     "avgOffersPerListing": 1.7,
-    "offersEnabledPct": 44
+    "offersEnabledPct": 45
   },
   "shippingInsights": {
     "freeShippingPct": 0,
