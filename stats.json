@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-30T03:25:22.095Z",
-  "totalLinks": 107,
-  "totalWithPrice": 97,
+  "generatedAt": "2026-03-30T03:27:25.608Z",
+  "totalLinks": 108,
+  "totalWithPrice": 98,
   "overall": {
-    "count": 97,
-    "sum": 435644.97,
-    "avg": 4491,
+    "count": 98,
+    "sum": 435779.97,
+    "avg": 4447,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 92,
-    "sum": 243749.98,
-    "avg": 2649,
+    "count": 93,
+    "sum": 243884.98,
+    "avg": 2622,
     "min": 33,
     "max": 7999,
-    "median": 2412
+    "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 8350,
+    "thresholdHigh": 8400,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 97,
-      "sum": 435644.97,
+      "count": 98,
+      "sum": 435779.97,
       "min": 33,
       "max": 99000,
-      "avg": 4491
+      "avg": 4447
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 83,
-      "sum": 295259.83,
+      "count": 84,
+      "sum": 295394.83,
       "min": 33,
       "max": 35900,
-      "avg": 3557
+      "avg": 3517
     },
     "marketplace": {
       "count": 10,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 83,
-      "sum": 295259.83,
+      "count": 84,
+      "sum": 295394.83,
       "min": 33,
       "max": 35900,
-      "avg": 3557
+      "avg": 3517
     },
     "chicagomusicexchange.com": {
       "count": 4,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "gibson-nos-archtop-1960s-nos": {
+      "displayName": "Gibson NOS Archtop 1960s Nos",
+      "brand": "Gibson",
+      "model": "NOS Archtop 1960s",
+      "variant": "Nos",
+      "count": 1,
+      "sum": 135,
+      "min": 135,
+      "max": 135,
+      "sightings": [
+        {
+          "price": 135,
+          "date": "2026-03-30T03:27:12.365Z",
+          "year": null,
+          "title": "NOS Gibson Archtop 1960s Brazilian Rosewood saddle / bridge • L5 Super 400 etc.",
+          "url": "https://reverb.com/item/88271107-nos-gibson-archtop-1960s-brazilian-rosewood-saddle-bridge-l5-super-400-etc",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 135,
+          "min": 135,
+          "max": 135,
+          "avg": 135
+        }
+      },
+      "avg": 135
+    },
     "music-man-luke-usa-hh": {
       "displayName": "Music Man Luke Usa Hh",
       "brand": "Music Man",
@@ -2975,6 +3005,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 8,
+      "sum": 25097.07,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 3137,
+      "min": 135,
+      "max": 5799
+    },
     "Excellent": {
       "count": 39,
       "sum": 170700.72999999998,
@@ -3010,20 +3054,6 @@
       "avg": 2558,
       "min": 668.31,
       "max": 6500
-    },
-    "Brand New": {
-      "count": 7,
-      "sum": 24962.07,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 3566,
-      "min": 1295.95,
-      "max": 5799
     },
     "Very Good": {
       "count": 23,
@@ -3087,8 +3117,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4491,
-      "count": 97
+      "avg": 4447,
+      "count": 98
     }
   },
   "recentDrops": [
@@ -3129,7 +3159,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 4,
+    "0-500": 5,
     "500-1k": 5,
     "1k-2k": 25,
     "2k-3k": 28,
@@ -3138,7 +3168,7 @@
     "10k+": 5
   },
   "priceDistributionFiltered": {
-    "0-500": 4,
+    "0-500": 5,
     "500-1k": 5,
     "1k-2k": 25,
     "2k-3k": 28,
@@ -3147,15 +3177,15 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 17,
+      "count": 10,
+      "avg": 2
+    },
     "Music Man": {
       "sum": 0,
       "count": 3,
       "avg": 0
-    },
-    "Gibson": {
-      "sum": 17,
-      "count": 9,
-      "avg": 2
     },
     "Fender": {
       "sum": 11,
@@ -3314,18 +3344,18 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 7,
+    "2026-03-30": 8,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 84,
+    "reverb": 85,
     "marketplace": 14,
     "news": 9
   },
-  "activeModelsCount": 85,
+  "activeModelsCount": 86,
   "topPosters": [
     {
       "username": "GP",
@@ -3333,7 +3363,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 18
+      "count": 19
     },
     {
       "username": "YellowJack6",
@@ -3370,12 +3400,18 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4491,
+    "avg": 4447,
     "pctBelowAvg": 0,
-    "count": 97
+    "count": 98
   },
   "topVoted": [],
-  "discountFromRetail": {},
+  "discountFromRetail": {
+    "Gibson": {
+      "avgPrice": 2738,
+      "avgDiscount": -128.2,
+      "count": 10
+    }
+  },
   "soldPrices": {
     "count": 22,
     "avg": 3358,
@@ -3669,15 +3705,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 89,
+      "total": 90,
       "sold": 20,
       "removed": 0,
-      "live": 69,
+      "live": 70,
       "soldPct": 22,
       "removedPct": 0,
       "livePct": 78
     },
     "byBrand": {
+      "Gibson": {
+        "total": 13,
+        "sold": 2,
+        "removed": 0,
+        "live": 11,
+        "soldPct": 15,
+        "removedPct": 0,
+        "livePct": 85
+      },
       "Music Man": {
         "total": 3,
         "sold": 1,
@@ -3686,15 +3731,6 @@
         "soldPct": 33,
         "removedPct": 0,
         "livePct": 67
-      },
-      "Gibson": {
-        "total": 12,
-        "sold": 2,
-        "removed": 0,
-        "live": 10,
-        "soldPct": 17,
-        "removedPct": 0,
-        "livePct": 83
       },
       "Fender": {
         "total": 8,
@@ -3987,13 +4023,13 @@
     }
   },
   "offerActivity": {
-    "withOffers": 22,
-    "totalOffers": 36,
+    "withOffers": 23,
+    "totalOffers": 37,
     "avgOffersPerListing": 1.6,
-    "offersEnabledPct": 43
+    "offersEnabledPct": 44
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 105
+    "avgShippingCost": 101
   }
 }
