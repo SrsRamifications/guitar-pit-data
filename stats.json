@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-30T11:16:05.359Z",
-  "totalLinks": 110,
-  "totalWithPrice": 100,
+  "generatedAt": "2026-03-30T11:30:43.273Z",
+  "totalLinks": 111,
+  "totalWithPrice": 101,
   "overall": {
-    "count": 100,
-    "sum": 437987.18,
-    "avg": 4380,
+    "count": 101,
+    "sum": 439262.18,
+    "avg": 4349,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 95,
-    "sum": 246092.19,
-    "avg": 2590,
+    "count": 96,
+    "sum": 247367.19,
+    "avg": 2577,
     "min": 33,
     "max": 7999,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8400,
+    "thresholdHigh": 8600,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 100,
-      "sum": 437987.18,
+      "count": 101,
+      "sum": 439262.18,
       "min": 33,
       "max": 99000,
-      "avg": 4380
+      "avg": 4349
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 86,
-      "sum": 297602.04,
+      "count": 87,
+      "sum": 298877.04,
       "min": 33,
       "max": 35900,
-      "avg": 3460
+      "avg": 3435
     },
     "marketplace": {
       "count": 10,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 86,
-      "sum": 297602.04,
+      "count": 87,
+      "sum": 298877.04,
       "min": 33,
       "max": 35900,
-      "avg": 3460
+      "avg": 3435
     },
     "chicagomusicexchange.com": {
       "count": 4,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "kiesel-delos-d6x-2020s-satin": {
+      "displayName": "Kiesel Delos D6X 2020s Satin",
+      "brand": "Kiesel",
+      "model": "Delos D6X 2020s",
+      "variant": "Satin",
+      "count": 1,
+      "sum": 1275,
+      "min": 1275,
+      "max": 1275,
+      "sightings": [
+        {
+          "price": 1275,
+          "date": "2026-03-30T11:30:30.037Z",
+          "year": null,
+          "title": "Kiesel Delos D6X 2020s - Candy Red Satin",
+          "url": "https://reverb.com/item/95535442-kiesel-delos-d6x-2020s-candy-red-satin",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1275,
+          "min": 1275,
+          "max": 1275,
+          "avg": 1275
+        }
+      },
+      "avg": 1275
+    },
     "bc-rich-warlock-kkv-kerry-signature": {
       "displayName": "BC Rich Warlock KKV Kerry Signature",
       "brand": "BC Rich",
@@ -3072,6 +3102,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 40,
+      "sum": 171975.72999999998,
+      "sold": {
+        "count": 14,
+        "sum": 47018.45,
+        "avg": 3358,
+        "min": 1375,
+        "max": 7999
+      },
+      "avg": 4299,
+      "min": 350,
+      "max": 35900
+    },
     "Good": {
       "count": 11,
       "sum": 25994.68,
@@ -3096,20 +3140,6 @@
       "avg": 2987,
       "min": 135,
       "max": 5799
-    },
-    "Excellent": {
-      "count": 39,
-      "sum": 170700.72999999998,
-      "sold": {
-        "count": 14,
-        "sum": 47018.45,
-        "avg": 3358,
-        "min": 1375,
-        "max": 7999
-      },
-      "avg": 4377,
-      "min": 350,
-      "max": 35900
     },
     "Mint": {
       "count": 2,
@@ -3184,8 +3214,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4380,
-      "count": 100
+      "avg": 4349,
+      "count": 101
     }
   },
   "recentDrops": [
@@ -3228,7 +3258,7 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 5,
-    "1k-2k": 26,
+    "1k-2k": 27,
     "2k-3k": 28,
     "3k-5k": 24,
     "5k-10k": 6,
@@ -3237,20 +3267,25 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 5,
-    "1k-2k": 26,
+    "1k-2k": 27,
     "2k-3k": 28,
     "3k-5k": 24,
     "5k-10k": 6,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 10,
+      "count": 5,
+      "avg": 2
+    },
     "BC Rich": {
       "sum": 24,
       "count": 11,
       "avg": 2
     },
     "Gibson": {
-      "sum": 21,
+      "sum": 22,
       "count": 10,
       "avg": 2
     },
@@ -3306,11 +3341,6 @@
     },
     "Jackson": {
       "sum": 13,
-      "count": 4,
-      "avg": 3
-    },
-    "Kiesel": {
-      "sum": 10,
       "count": 4,
       "avg": 3
     },
@@ -3411,18 +3441,18 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 10,
+    "2026-03-30": 11,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 87,
+    "reverb": 88,
     "marketplace": 14,
     "news": 9
   },
-  "activeModelsCount": 87,
+  "activeModelsCount": 88,
   "topPosters": [
     {
       "username": "GP",
@@ -3445,12 +3475,12 @@
       "count": 8
     },
     {
-      "username": "jazee_",
+      "username": "Modean",
       "count": 5
     },
     {
-      "username": "Modean",
-      "count": 4
+      "username": "jazee_",
+      "count": 5
     },
     {
       "username": "David Hume",
@@ -3467,9 +3497,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4380,
+    "avg": 4349,
     "pctBelowAvg": 0,
-    "count": 100
+    "count": 101
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -3795,15 +3825,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 91,
+      "total": 92,
       "sold": 23,
       "removed": 0,
-      "live": 68,
+      "live": 69,
       "soldPct": 25,
       "removedPct": 0,
       "livePct": 75
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 5,
+        "sold": 2,
+        "removed": 0,
+        "live": 3,
+        "soldPct": 40,
+        "removedPct": 0,
+        "livePct": 60
+      },
       "BC Rich": {
         "total": 11,
         "sold": 0,
@@ -3920,15 +3959,6 @@
         "soldPct": 25,
         "removedPct": 0,
         "livePct": 75
-      },
-      "Kiesel": {
-        "total": 4,
-        "sold": 2,
-        "removed": 0,
-        "live": 2,
-        "soldPct": 50,
-        "removedPct": 0,
-        "livePct": 50
       },
       "Acoustic": {
         "total": 1,
@@ -4120,6 +4150,6 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 100
   }
 }
