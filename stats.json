@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-03-30T18:52:45.544Z",
-  "totalLinks": 118,
-  "totalWithPrice": 108,
+  "generatedAt": "2026-03-30T19:54:47.889Z",
+  "totalLinks": 119,
+  "totalWithPrice": 109,
   "overall": {
-    "count": 108,
-    "sum": 454426.66,
-    "avg": 4208,
+    "count": 109,
+    "sum": 459125.66,
+    "avg": 4212,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 103,
-    "sum": 262531.67,
-    "avg": 2549,
+    "count": 104,
+    "sum": 267230.67,
+    "avg": 2570,
     "min": 33,
     "max": 7999,
     "median": 2300
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 108,
-      "sum": 454426.66,
+      "count": 109,
+      "sum": 459125.66,
       "min": 33,
       "max": 99000,
-      "avg": 4208
+      "avg": 4212
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 94,
-      "sum": 314041.52,
+      "count": 95,
+      "sum": 318740.52,
       "min": 33,
       "max": 35900,
-      "avg": 3341
+      "avg": 3355
     },
     "marketplace": {
       "count": 10,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 94,
-      "sum": 314041.52,
+      "count": 95,
+      "sum": 318740.52,
       "min": 33,
       "max": 35900,
-      "avg": 3341
+      "avg": 3355
     },
     "chicagomusicexchange.com": {
       "count": 4,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-1959-r9": {
+      "displayName": "Gibson Les Paul 1959 R9",
+      "brand": "Gibson",
+      "model": "Les Paul",
+      "variant": "1959 R9",
+      "count": 1,
+      "sum": 4699,
+      "min": 4699,
+      "max": 4699,
+      "sightings": [
+        {
+          "price": 4699,
+          "date": "2026-03-30T19:54:34.536Z",
+          "year": 2019,
+          "title": "Incredible Top! 2019 60th Anniversary Gibson Demo Shop 1959 Les Paul r9 - Green Lemon Fade Gloss",
+          "url": "https://reverb.com/item/95420726-incredible-top-2019-60th-anniversary-gibson-demo-shop-1959-les-paul-r9-green-lemon-fade-gloss",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 4699,
+          "min": 4699,
+          "max": 4699,
+          "avg": 4699
+        }
+      },
+      "avg": 4699
+    },
     "prs-mccarty": {
       "displayName": "PRS McCarty",
       "brand": "PRS",
@@ -3282,6 +3312,17 @@
     }
   },
   "byCondition": {
+    "Fair": {
+      "count": 3,
+      "sum": 7248,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2416,
+      "min": 850,
+      "max": 4699
+    },
     "Good": {
       "count": 14,
       "sum": 31931.16,
@@ -3378,24 +3419,13 @@
       "avg": 1039,
       "min": 1039,
       "max": 1039
-    },
-    "Fair": {
-      "count": 2,
-      "sum": 2549,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 1275,
-      "min": 850,
-      "max": 1699
     }
   },
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4208,
-      "count": 108
+      "avg": 4212,
+      "count": 109
     }
   },
   "recentDrops": [
@@ -3440,7 +3470,7 @@
     "500-1k": 5,
     "1k-2k": 30,
     "2k-3k": 31,
-    "3k-5k": 25,
+    "3k-5k": 26,
     "5k-10k": 6,
     "10k+": 5
   },
@@ -3449,11 +3479,16 @@
     "500-1k": 5,
     "1k-2k": 30,
     "2k-3k": 31,
-    "3k-5k": 25,
+    "3k-5k": 26,
     "5k-10k": 6,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 27,
+      "count": 11,
+      "avg": 2
+    },
     "PRS": {
       "sum": 15,
       "count": 8,
@@ -3493,11 +3528,6 @@
       "sum": 25,
       "count": 11,
       "avg": 2
-    },
-    "Gibson": {
-      "sum": 27,
-      "count": 10,
-      "avg": 3
     },
     "Music Man": {
       "sum": 3,
@@ -3636,18 +3666,18 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 18,
+    "2026-03-30": 19,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 95,
+    "reverb": 96,
     "marketplace": 14,
     "news": 9
   },
-  "activeModelsCount": 94,
+  "activeModelsCount": 95,
   "topPosters": [
     {
       "username": "GP",
@@ -3659,7 +3689,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 11
+      "count": 12
     },
     {
       "username": "YellowJack6",
@@ -3692,16 +3722,16 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4208,
+    "avg": 4212,
     "pctBelowAvg": 0,
-    "count": 108
+    "count": 109
   },
   "topVoted": [],
   "discountFromRetail": {
     "Gibson": {
-      "avgPrice": 2738,
-      "avgDiscount": -128.2,
-      "count": 10
+      "avgPrice": 2917,
+      "avgDiscount": -143,
+      "count": 11
     }
   },
   "soldPrices": {
@@ -3961,11 +3991,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 403.3328881688604,
-      "count": 20,
-      "avgPctDrop": 20.2
+      "totalPctDrop": 409.33408840890837,
+      "count": 21,
+      "avgPctDrop": 19.5
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 53.61661742787373,
+        "count": 4,
+        "avgPctDrop": 13.4
+      },
       "Guild": {
         "totalPctDrop": 27.086313781592754,
         "count": 1,
@@ -3975,11 +4010,6 @@
         "totalPctDrop": 4.999584368563495,
         "count": 1,
         "avgPctDrop": 5
-      },
-      "Gibson": {
-        "totalPctDrop": 47.61541718782572,
-        "count": 3,
-        "avgPctDrop": 15.9
       },
       "Kiesel": {
         "totalPctDrop": 14.955239599789364,
@@ -4030,15 +4060,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 98,
+      "total": 99,
       "sold": 23,
       "removed": 0,
-      "live": 75,
+      "live": 76,
       "soldPct": 23,
       "removedPct": 0,
       "livePct": 77
     },
     "byBrand": {
+      "Gibson": {
+        "total": 14,
+        "sold": 2,
+        "removed": 0,
+        "live": 12,
+        "soldPct": 14,
+        "removedPct": 0,
+        "livePct": 86
+      },
       "PRS": {
         "total": 9,
         "sold": 3,
@@ -4110,15 +4149,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 13,
-        "sold": 2,
-        "removed": 0,
-        "live": 11,
-        "soldPct": 15,
-        "removedPct": 0,
-        "livePct": 85
       },
       "Music Man": {
         "total": 3,
@@ -4382,6 +4412,6 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 102
   }
 }
