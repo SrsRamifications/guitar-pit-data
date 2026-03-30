@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-30T13:40:07.015Z",
-  "totalLinks": 112,
-  "totalWithPrice": 102,
+  "generatedAt": "2026-03-30T13:58:25.428Z",
+  "totalLinks": 113,
+  "totalWithPrice": 103,
   "overall": {
-    "count": 102,
-    "sum": 441561.18,
-    "avg": 4329,
+    "count": 103,
+    "sum": 442589.74,
+    "avg": 4297,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 97,
-    "sum": 249666.19,
-    "avg": 2574,
+    "count": 98,
+    "sum": 250694.75,
+    "avg": 2558,
     "min": 33,
     "max": 7999,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8600,
+    "thresholdHigh": 8627,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 102,
-      "sum": 441561.18,
+      "count": 103,
+      "sum": 442589.74,
       "min": 33,
       "max": 99000,
-      "avg": 4329
+      "avg": 4297
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 88,
-      "sum": 301176.04,
+      "count": 89,
+      "sum": 302204.6,
       "min": 33,
       "max": 35900,
-      "avg": 3422
+      "avg": 3396
     },
     "marketplace": {
       "count": 10,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 88,
-      "sum": 301176.04,
+      "count": 89,
+      "sum": 302204.6,
       "min": 33,
       "max": 35900,
-      "avg": 3422
+      "avg": 3396
     },
     "chicagomusicexchange.com": {
       "count": 4,
@@ -175,6 +175,36 @@
     }
   },
   "byModel": {
+    "tokai-stratocaster": {
+      "displayName": "Tokai Stratocaster",
+      "brand": "Tokai",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 1,
+      "sum": 1028.56,
+      "min": 1028.56,
+      "max": 1028.56,
+      "sightings": [
+        {
+          "price": 1028.56,
+          "date": "2026-03-30T13:58:11.207Z",
+          "year": 1980,
+          "title": "Tokai ST55 Springy Sound Stratocaster 1980 - Metallic Red Matching Headstock",
+          "url": "https://reverb.com/item/93357830-tokai-st55-springy-sound-stratocaster-1980-metallic-red-matching-headstock",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1028.56,
+          "min": 1028.56,
+          "max": 1028.56,
+          "avg": 1029
+        }
+      },
+      "avg": 1029
+    },
     "friedman-vintage-t-teal-medium": {
       "displayName": "Friedman Vintage-T Teal Medium",
       "brand": "Friedman",
@@ -3132,6 +3162,17 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 12,
+      "sum": 27023.24,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2252,
+      "min": 417.21,
+      "max": 6500
+    },
     "Excellent": {
       "count": 41,
       "sum": 174274.72999999998,
@@ -3145,17 +3186,6 @@
       "avg": 4251,
       "min": 350,
       "max": 35900
-    },
-    "Good": {
-      "count": 11,
-      "sum": 25994.68,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 2363,
-      "min": 417.21,
-      "max": 6500
     },
     "Brand New": {
       "count": 9,
@@ -3244,8 +3274,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4329,
-      "count": 102
+      "avg": 4297,
+      "count": 103
     }
   },
   "recentDrops": [
@@ -3288,7 +3318,7 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 5,
-    "1k-2k": 27,
+    "1k-2k": 28,
     "2k-3k": 29,
     "3k-5k": 24,
     "5k-10k": 6,
@@ -3297,13 +3327,18 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 5,
-    "1k-2k": 27,
+    "1k-2k": 28,
     "2k-3k": 29,
     "3k-5k": 24,
     "5k-10k": 6,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Tokai": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Friedman": {
       "sum": 0,
       "count": 1,
@@ -3325,9 +3360,9 @@
       "avg": 2
     },
     "Music Man": {
-      "sum": 1,
+      "sum": 2,
       "count": 3,
-      "avg": 0
+      "avg": 1
     },
     "Fender": {
       "sum": 15,
@@ -3455,7 +3490,7 @@
       "avg": 3
     },
     "ESP": {
-      "sum": 9,
+      "sum": 10,
       "count": 3,
       "avg": 3
     },
@@ -3476,18 +3511,18 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 12,
+    "2026-03-30": 13,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 89,
+    "reverb": 90,
     "marketplace": 14,
     "news": 9
   },
-  "activeModelsCount": 89,
+  "activeModelsCount": 90,
   "topPosters": [
     {
       "username": "GP",
@@ -3495,7 +3530,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 20
+      "count": 21
     },
     {
       "username": "WontonGG",
@@ -3532,9 +3567,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4329,
+    "avg": 4297,
     "pctBelowAvg": 0,
-    "count": 102
+    "count": 103
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -3801,11 +3836,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 371.2469900187041,
-      "count": 18,
-      "avgPctDrop": 20.6
+      "totalPctDrop": 376.2465743872676,
+      "count": 19,
+      "avgPctDrop": 19.8
     },
     "byBrand": {
+      "Tokai": {
+        "totalPctDrop": 4.999584368563495,
+        "count": 1,
+        "avgPctDrop": 5
+      },
       "Gibson": {
         "totalPctDrop": 47.61541718782572,
         "count": 3,
@@ -3860,15 +3900,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 93,
+      "total": 94,
       "sold": 23,
       "removed": 0,
-      "live": 70,
-      "soldPct": 25,
+      "live": 71,
+      "soldPct": 24,
       "removedPct": 0,
-      "livePct": 75
+      "livePct": 76
     },
     "byBrand": {
+      "Tokai": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Friedman": {
         "total": 1,
         "sold": 0,
