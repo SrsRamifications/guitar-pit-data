@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-30T16:50:07.049Z",
-  "totalLinks": 116,
-  "totalWithPrice": 106,
+  "generatedAt": "2026-03-30T18:52:45.544Z",
+  "totalLinks": 118,
+  "totalWithPrice": 108,
   "overall": {
-    "count": 106,
-    "sum": 450427.66,
-    "avg": 4249,
+    "count": 108,
+    "sum": 454426.66,
+    "avg": 4208,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 101,
-    "sum": 258532.67,
-    "avg": 2560,
+    "count": 103,
+    "sum": 262531.67,
+    "avg": 2549,
     "min": 33,
     "max": 7999,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8600,
+    "thresholdHigh": 8342,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,20 +65,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 106,
-      "sum": 450427.66,
+      "count": 108,
+      "sum": 454426.66,
       "min": 33,
       "max": 99000,
-      "avg": 4249
+      "avg": 4208
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 92,
-      "sum": 310042.52,
+      "count": 94,
+      "sum": 314041.52,
       "min": 33,
       "max": 35900,
-      "avg": 3370
+      "avg": 3341
     },
     "marketplace": {
       "count": 10,
@@ -97,11 +97,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 92,
-      "sum": 310042.52,
+      "count": 94,
+      "sum": 314041.52,
       "min": 33,
       "max": 35900,
-      "avg": 3370
+      "avg": 3341
     },
     "chicagomusicexchange.com": {
       "count": 4,
@@ -175,6 +175,66 @@
     }
   },
   "byModel": {
+    "prs-mccarty": {
+      "displayName": "PRS McCarty",
+      "brand": "PRS",
+      "model": "McCarty",
+      "variant": null,
+      "count": 1,
+      "sum": 2399,
+      "min": 2399,
+      "max": 2399,
+      "sightings": [
+        {
+          "price": 2399,
+          "date": "2026-03-30T18:52:31.051Z",
+          "year": 2000,
+          "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
+          "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2399,
+          "min": 2399,
+          "max": 2399,
+          "avg": 2399
+        }
+      },
+      "avg": 2399
+    },
+    "eastman-sb54tv": {
+      "displayName": "Eastman SB54/TV,",
+      "brand": "Eastman",
+      "model": "SB54/TV,",
+      "variant": null,
+      "count": 1,
+      "sum": 1600,
+      "min": 1600,
+      "max": 1600,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-03-30T18:52:31.051Z",
+          "year": null,
+          "title": "Eastman SB54/TV, Gold",
+          "url": "https://reverb.com/item/95549936-eastman-sb54-tv-gold",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
+    },
     "guild-t-100-slim-jim-p90-1958": {
       "displayName": "Guild T-100 Slim Jim P90 1958",
       "brand": "Guild",
@@ -3222,9 +3282,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 14,
+      "sum": 31931.16,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 2281,
+      "min": 417.21,
+      "max": 6500
+    },
     "Excellent": {
-      "count": 43,
-      "sum": 179603.72999999998,
+      "count": 44,
+      "sum": 181203.72999999998,
       "sold": {
         "count": 14,
         "sum": 47018.45,
@@ -3232,20 +3303,9 @@
         "min": 1375,
         "max": 7999
       },
-      "avg": 4177,
+      "avg": 4118,
       "min": 350,
       "max": 35900
-    },
-    "Good": {
-      "count": 13,
-      "sum": 29532.160000000003,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 2272,
-      "min": 417.21,
-      "max": 6500
     },
     "Brand New": {
       "count": 9,
@@ -3334,8 +3394,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4249,
-      "count": 106
+      "avg": 4208,
+      "count": 108
     }
   },
   "recentDrops": [
@@ -3378,8 +3438,8 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 5,
-    "1k-2k": 29,
-    "2k-3k": 30,
+    "1k-2k": 30,
+    "2k-3k": 31,
     "3k-5k": 25,
     "5k-10k": 6,
     "10k+": 5
@@ -3387,13 +3447,23 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 5,
-    "1k-2k": 29,
-    "2k-3k": 30,
+    "1k-2k": 30,
+    "2k-3k": 31,
     "3k-5k": 25,
     "5k-10k": 6,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 15,
+      "count": 8,
+      "avg": 2
+    },
+    "Eastman": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Guild": {
       "sum": 2,
       "count": 2,
@@ -3425,7 +3495,7 @@
       "avg": 2
     },
     "Gibson": {
-      "sum": 26,
+      "sum": 27,
       "count": 10,
       "avg": 3
     },
@@ -3444,11 +3514,6 @@
       "count": 1,
       "avg": 1
     },
-    "PRS": {
-      "sum": 15,
-      "count": 7,
-      "avg": 2
-    },
     "Fano": {
       "sum": 1,
       "count": 1,
@@ -3460,7 +3525,7 @@
       "avg": 3
     },
     "Ibanez": {
-      "sum": 18,
+      "sum": 19,
       "count": 9,
       "avg": 2
     },
@@ -3545,14 +3610,14 @@
       "avg": 3
     },
     "Fractal Audio": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "ESP": {
-      "sum": 10,
+      "sum": 12,
       "count": 3,
-      "avg": 3
+      "avg": 4
     },
     "Framus": {
       "sum": 4,
@@ -3571,22 +3636,22 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 16,
+    "2026-03-30": 18,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 93,
+    "reverb": 95,
     "marketplace": 14,
     "news": 9
   },
-  "activeModelsCount": 92,
+  "activeModelsCount": 94,
   "topPosters": [
     {
       "username": "GP",
-      "count": 35
+      "count": 37
     },
     {
       "username": "Beijing Bob",
@@ -3627,9 +3692,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4249,
+    "avg": 4208,
     "pctBelowAvg": 0,
-    "count": 106
+    "count": 108
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -3965,15 +4030,33 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 96,
+      "total": 98,
       "sold": 23,
       "removed": 0,
-      "live": 73,
-      "soldPct": 24,
+      "live": 75,
+      "soldPct": 23,
       "removedPct": 0,
-      "livePct": 76
+      "livePct": 77
     },
     "byBrand": {
+      "PRS": {
+        "total": 9,
+        "sold": 3,
+        "removed": 0,
+        "live": 6,
+        "soldPct": 33,
+        "removedPct": 0,
+        "livePct": 67
+      },
+      "Eastman": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Guild": {
         "total": 2,
         "sold": 0,
@@ -4063,15 +4146,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 8,
-        "sold": 3,
-        "removed": 0,
-        "live": 5,
-        "soldPct": 38,
-        "removedPct": 0,
-        "livePct": 63
       },
       "Fano": {
         "total": 1,
@@ -4304,10 +4378,10 @@
     "withOffers": 25,
     "totalOffers": 43,
     "avgOffersPerListing": 1.7,
-    "offersEnabledPct": 47
+    "offersEnabledPct": 48
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 100
+    "avgShippingCost": 98
   }
 }
