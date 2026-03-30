@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-30T20:01:47.805Z",
-  "totalLinks": 120,
-  "totalWithPrice": 110,
+  "generatedAt": "2026-03-30T20:35:08.944Z",
+  "totalLinks": 121,
+  "totalWithPrice": 111,
   "overall": {
-    "count": 110,
-    "sum": 463724.66,
-    "avg": 4216,
+    "count": 111,
+    "sum": 471624.66,
+    "avg": 4249,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 105,
-    "sum": 271829.67,
-    "avg": 2589,
+    "count": 106,
+    "sum": 279729.67,
+    "avg": 2639,
     "min": 33,
     "max": 7999,
-    "median": 2300
+    "median": 2350
   },
   "outliers": {
-    "thresholdHigh": 8342,
+    "thresholdHigh": 8492,
     "thresholdLow": 0,
     "count": 5,
     "items": [
@@ -65,27 +65,27 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 110,
-      "sum": 463724.66,
+      "count": 111,
+      "sum": 471624.66,
       "min": 33,
       "max": 99000,
-      "avg": 4216
+      "avg": 4249
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 11,
+      "sum": 137805.98,
+      "min": 929.99,
+      "max": 99000,
+      "avg": 12528
+    },
     "reverb": {
       "count": 96,
       "sum": 323339.52,
       "min": 33,
       "max": 35900,
       "avg": 3368
-    },
-    "marketplace": {
-      "count": 10,
-      "sum": 129905.98,
-      "min": 929.99,
-      "max": 99000,
-      "avg": 12991
     },
     "news": {
       "count": 4,
@@ -96,6 +96,13 @@
     }
   },
   "byDomain": {
+    "mcallen.craigslist.org": {
+      "count": 1,
+      "sum": 7900,
+      "min": 7900,
+      "max": 7900,
+      "avg": 7900
+    },
     "reverb.com": {
       "count": 96,
       "sum": 323339.52,
@@ -175,6 +182,51 @@
     }
   },
   "byModel": {
+    "gibson-sg-custom": {
+      "displayName": "Gibson SG Custom",
+      "brand": "Gibson",
+      "model": "SG Custom",
+      "variant": null,
+      "count": 2,
+      "sum": 10899,
+      "min": 2999,
+      "max": 7900,
+      "sightings": [
+        {
+          "price": 2999,
+          "date": "2026-03-28T00:03:54.119Z",
+          "year": 1987,
+          "title": "GIBSON SG CUSTOM ELECTRIC GUITAR W/CASE - 1987",
+          "url": "https://reverb.com/item/94729284-gibson-sg-custom-electric-guitar-w-case-1987",
+          "condition": "Very Good"
+        },
+        {
+          "price": 7900,
+          "date": "2026-03-30T20:34:55.349Z",
+          "year": 1961,
+          "title": "Gibson Les Paul SG Custom 1961 - White - musical instruments - by owner - sale - craigslist",
+          "url": "https://mcallen.craigslist.org/msg/d/mcallen-gibson-les-paul-sg-custom-white/7923891511.html",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 7900,
+          "min": 7900,
+          "max": 7900,
+          "avg": 7900
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 2999,
+          "min": 2999,
+          "max": 2999,
+          "avg": 2999
+        }
+      },
+      "avg": 5450
+    },
     "gretsch-duo-jet-custom-shop": {
       "displayName": "Gretsch Duo Jet Custom Shop",
       "brand": "Gretsch",
@@ -2155,36 +2207,6 @@
       },
       "avg": 2450
     },
-    "gibson-sg-custom": {
-      "displayName": "Gibson SG CUSTOM",
-      "brand": "Gibson",
-      "model": "SG CUSTOM",
-      "variant": null,
-      "count": 1,
-      "sum": 2999,
-      "min": 2999,
-      "max": 2999,
-      "sightings": [
-        {
-          "price": 2999,
-          "date": "2026-03-28T00:03:54.119Z",
-          "year": 1987,
-          "title": "GIBSON SG CUSTOM ELECTRIC GUITAR W/CASE - 1987",
-          "url": "https://reverb.com/item/94729284-gibson-sg-custom-electric-guitar-w-case-1987",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2999,
-          "min": 2999,
-          "max": 2999,
-          "avg": 2999
-        }
-      },
-      "avg": 2999
-    },
     "echopark-deluxe-warcane-pickups-59": {
       "displayName": "Echopark Deluxe w/Arcane Pickups 59",
       "brand": "Echopark",
@@ -3454,8 +3476,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4216,
-      "count": 110
+      "avg": 4249,
+      "count": 111
     }
   },
   "recentDrops": [
@@ -3501,7 +3523,7 @@
     "1k-2k": 30,
     "2k-3k": 31,
     "3k-5k": 27,
-    "5k-10k": 6,
+    "5k-10k": 7,
     "10k+": 5
   },
   "priceDistributionFiltered": {
@@ -3510,19 +3532,19 @@
     "1k-2k": 30,
     "2k-3k": 31,
     "3k-5k": 27,
-    "5k-10k": 6,
+    "5k-10k": 7,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 27,
+      "count": 12,
+      "avg": 2
+    },
     "Gretsch": {
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "Gibson": {
-      "sum": 27,
-      "count": 11,
-      "avg": 2
     },
     "PRS": {
       "sum": 15,
@@ -3701,15 +3723,15 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-30": 20,
+    "2026-03-30": 21,
     "2026-03-29": 17,
     "2026-03-28": 39,
     "2026-03-27": 35,
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "marketplace": 15,
     "reverb": 97,
-    "marketplace": 14,
     "news": 9
   },
   "activeModelsCount": 96,
@@ -3723,12 +3745,12 @@
       "count": 22
     },
     {
-      "username": "WontonGG",
+      "username": "YellowJack6",
       "count": 12
     },
     {
-      "username": "YellowJack6",
-      "count": 11
+      "username": "WontonGG",
+      "count": 12
     },
     {
       "username": "Shteefe",
@@ -3757,16 +3779,16 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4216,
+    "avg": 4249,
     "pctBelowAvg": 0,
-    "count": 110
+    "count": 111
   },
   "topVoted": [],
   "discountFromRetail": {
     "Gibson": {
-      "avgPrice": 2917,
-      "avgDiscount": -143,
-      "count": 11
+      "avgPrice": 3332,
+      "avgDiscount": -177.7,
+      "count": 12
     }
   },
   "soldPrices": {
@@ -4095,15 +4117,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 100,
+      "total": 101,
       "sold": 23,
       "removed": 0,
-      "live": 77,
+      "live": 78,
       "soldPct": 23,
       "removedPct": 0,
       "livePct": 77
     },
     "byBrand": {
+      "Gibson": {
+        "total": 15,
+        "sold": 2,
+        "removed": 0,
+        "live": 13,
+        "soldPct": 13,
+        "removedPct": 0,
+        "livePct": 87
+      },
       "Gretsch": {
         "total": 1,
         "sold": 0,
@@ -4112,15 +4143,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 14,
-        "sold": 2,
-        "removed": 0,
-        "live": 12,
-        "soldPct": 14,
-        "removedPct": 0,
-        "livePct": 86
       },
       "PRS": {
         "total": 9,
