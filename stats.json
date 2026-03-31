@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T21:06:10.351Z",
+  "generatedAt": "2026-03-31T22:05:02.652Z",
   "totalLinks": 147,
   "totalWithPrice": 135,
   "overall": {
@@ -540,6 +540,21 @@
           "avg": 4778
         }
       },
+      "soldData": {
+        "count": 1,
+        "avg": 4778,
+        "min": 4777.5,
+        "max": 4777.5,
+        "prices": [
+          {
+            "price": 4777.5,
+            "askingPrice": 4777.5,
+            "date": "2026-03-31T22:01:42.104Z",
+            "title": "Charvel San Dimas Strathead 1983 - red with white star",
+            "url": "https://reverb.com/item/95554054-charvel-san-dimas-strathead-1983-red-with-white-star"
+          }
+        ]
+      },
       "avg": 4778
     },
     "knaggs-kenai": {
@@ -914,6 +929,21 @@
           "max": 4699,
           "avg": 4699
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 4699,
+        "min": 4699,
+        "max": 4699,
+        "prices": [
+          {
+            "price": 4699,
+            "askingPrice": 4699,
+            "date": "2026-03-31T22:02:07.150Z",
+            "title": "Incredible Top! 2019 60th Anniversary Gibson Demo Shop 1959 Les Paul r9 - Green Lemon Fade Gloss",
+            "url": "https://reverb.com/item/95420726-incredible-top-2019-60th-anniversary-gibson-demo-shop-1959-les-paul-r9-green-lemon-fade-gloss"
+          }
+        ]
       },
       "avg": 4699
     },
@@ -4115,11 +4145,11 @@
       "count": 16,
       "sum": 39108.82,
       "sold": {
-        "count": 1,
-        "sum": 2399,
-        "avg": 2399,
+        "count": 2,
+        "sum": 7176.5,
+        "avg": 3588,
         "min": 2399,
-        "max": 2399
+        "max": 4777.5
       },
       "avg": 2444,
       "min": 415.28,
@@ -4129,8 +4159,11 @@
       "count": 3,
       "sum": 7248,
       "sold": {
-        "count": 0,
-        "sum": 0
+        "count": 1,
+        "sum": 4699,
+        "avg": 4699,
+        "min": 4699,
+        "max": 4699
       },
       "avg": 2416,
       "min": 850,
@@ -4559,16 +4592,16 @@
     }
   },
   "soldPrices": {
-    "count": 35,
-    "avg": 3072,
+    "count": 37,
+    "avg": 3162,
     "min": 275,
     "max": 10495,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 30,
-      "count": 34,
+      "totalDays": 32,
+      "count": 36,
       "avgDays": 1
     },
     "byModel": {
@@ -4580,6 +4613,14 @@
         "slowest": 0,
         "avgDays": 0
       },
+      "charvel-stratocaster-san-dimas": {
+        "displayName": "Charvel Stratocaster San Dimas",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
+      },
       "prs-private-stock-studio-private-stock": {
         "displayName": "PRS Private Stock Studio Private Stock",
         "totalDays": 0,
@@ -4587,6 +4628,14 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
+      },
+      "gibson-les-paul-1959-r9": {
+        "displayName": "Gibson Les Paul 1959 R9",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
       },
       "prs-mccarty": {
         "displayName": "PRS McCarty",
@@ -4813,12 +4862,26 @@
         "slowest": 0,
         "avgDays": 0
       },
+      "Charvel": {
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
+      },
       "PRS": {
         "totalDays": 2,
         "count": 5,
         "fastest": 0,
         "slowest": 1,
         "avgDays": 0
+      },
+      "Gibson": {
+        "totalDays": 3,
+        "count": 3,
+        "fastest": 0,
+        "slowest": 2,
+        "avgDays": 1
       },
       "Eastman": {
         "totalDays": 1,
@@ -4861,13 +4924,6 @@
         "fastest": 2,
         "slowest": 2,
         "avgDays": 2
-      },
-      "Gibson": {
-        "totalDays": 2,
-        "count": 2,
-        "fastest": 0,
-        "slowest": 2,
-        "avgDays": 1
       },
       "Fender": {
         "totalDays": 3,
@@ -4985,12 +5041,12 @@
   "sellThrough": {
     "overall": {
       "total": 121,
-      "sold": 32,
+      "sold": 34,
       "removed": 0,
-      "live": 89,
-      "soldPct": 26,
+      "live": 87,
+      "soldPct": 28,
       "removedPct": 0,
-      "livePct": 74
+      "livePct": 72
     },
     "byBrand": {
       "Jackson": {
@@ -5076,12 +5132,12 @@
       },
       "Charvel": {
         "total": 1,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
-        "live": 1,
-        "soldPct": 0,
+        "live": 0,
+        "soldPct": 100,
         "removedPct": 0,
-        "livePct": 100
+        "livePct": 0
       },
       "Knaggs": {
         "total": 2,
@@ -5130,12 +5186,12 @@
       },
       "Gibson": {
         "total": 16,
-        "sold": 2,
+        "sold": 3,
         "removed": 0,
-        "live": 14,
-        "soldPct": 13,
+        "live": 13,
+        "soldPct": 19,
         "removedPct": 0,
-        "livePct": 88
+        "livePct": 81
       },
       "Gretsch": {
         "total": 1,
@@ -5383,8 +5439,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 31,
-    "totalOffers": 56,
+    "withOffers": 32,
+    "totalOffers": 57,
     "avgOffersPerListing": 1.8,
     "offersEnabledPct": 54
   },
