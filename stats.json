@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-31T15:01:32.670Z",
-  "totalLinks": 138,
-  "totalWithPrice": 126,
+  "generatedAt": "2026-03-31T17:11:26.332Z",
+  "totalLinks": 139,
+  "totalWithPrice": 127,
   "overall": {
-    "count": 126,
-    "sum": 522120.98,
-    "avg": 4144,
+    "count": 127,
+    "sum": 524215.98,
+    "avg": 4128,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 120,
-    "sum": 320725.99,
-    "avg": 2673,
+    "count": 121,
+    "sum": 322820.99,
+    "avg": 2668,
     "min": 33,
     "max": 7999,
-    "median": 2400
+    "median": 2399
   },
   "outliers": {
     "thresholdHigh": 8535,
@@ -73,20 +73,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 126,
-      "sum": 522120.98,
+      "count": 127,
+      "sum": 524215.98,
       "min": 33,
       "max": 99000,
-      "avg": 4144
+      "avg": 4128
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 111,
-      "sum": 373835.84,
+      "count": 112,
+      "sum": 375930.84,
       "min": 33,
       "max": 35900,
-      "avg": 3368
+      "avg": 3357
     },
     "marketplace": {
       "count": 11,
@@ -105,11 +105,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 111,
-      "sum": 373835.84,
+      "count": 112,
+      "sum": 375930.84,
       "min": 33,
       "max": 35900,
-      "avg": 3368
+      "avg": 3357
     },
     "mcallen.craigslist.org": {
       "count": 1,
@@ -190,6 +190,36 @@
     }
   },
   "byModel": {
+    "friedman-metro-wnatural-back": {
+      "displayName": "Friedman Metro w/Natural Back",
+      "brand": "Friedman",
+      "model": "Metro w/Natural Back",
+      "variant": null,
+      "count": 1,
+      "sum": 2095,
+      "min": 2095,
+      "max": 2095,
+      "sightings": [
+        {
+          "price": 2095,
+          "date": "2026-03-31T17:11:12.348Z",
+          "year": 2020,
+          "title": "Friedman Metro D 2020 - Black w/Natural Back PLECK'd Nice!",
+          "url": "https://reverb.com/item/95556351-friedman-metro-d-2020-black-w-natural-back-pleck-d-nice",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2095,
+          "min": 2095,
+          "max": 2095,
+          "avg": 2095
+        }
+      },
+      "avg": 2095
+    },
     "music-man-jp-signature": {
       "displayName": "Music Man JP Signature",
       "brand": "Music Man",
@@ -3792,6 +3822,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 51,
+      "sum": 201763.55,
+      "sold": {
+        "count": 19,
+        "sum": 59667.45,
+        "avg": 3140,
+        "min": 275,
+        "max": 7999
+      },
+      "avg": 3956,
+      "min": 275,
+      "max": 35900
+    },
     "Brand New": {
       "count": 11,
       "sum": 41349,
@@ -3833,20 +3877,6 @@
       "avg": 2444,
       "min": 415.28,
       "max": 6500
-    },
-    "Excellent": {
-      "count": 50,
-      "sum": 199668.55,
-      "sold": {
-        "count": 19,
-        "sum": 59667.45,
-        "avg": 3140,
-        "min": 275,
-        "max": 7999
-      },
-      "avg": 3993,
-      "min": 275,
-      "max": 35900
     },
     "Fair": {
       "count": 3,
@@ -3907,8 +3937,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4144,
-      "count": 126
+      "avg": 4128,
+      "count": 127
     }
   },
   "recentDrops": [
@@ -3980,7 +4010,7 @@
     "0-500": 7,
     "500-1k": 6,
     "1k-2k": 31,
-    "2k-3k": 37,
+    "2k-3k": 38,
     "3k-5k": 31,
     "5k-10k": 9,
     "10k+": 5
@@ -3989,19 +4019,24 @@
     "0-500": 7,
     "500-1k": 6,
     "1k-2k": 31,
-    "2k-3k": 37,
+    "2k-3k": 38,
     "3k-5k": 31,
     "5k-10k": 8,
     "10k+": 0
   },
   "daysOnMarket": {
-    "Music Man": {
-      "sum": 5,
-      "count": 4,
+    "Friedman": {
+      "sum": 1,
+      "count": 2,
       "avg": 1
     },
+    "Music Man": {
+      "sum": 7,
+      "count": 4,
+      "avg": 2
+    },
     "Jackson": {
-      "sum": 18,
+      "sum": 19,
       "count": 5,
       "avg": 4
     },
@@ -4036,7 +4071,7 @@
       "avg": 3
     },
     "Gibson": {
-      "sum": 37,
+      "sum": 39,
       "count": 13,
       "avg": 3
     },
@@ -4065,18 +4100,13 @@
       "count": 1,
       "avg": 1
     },
-    "Friedman": {
-      "sum": 1,
-      "count": 1,
-      "avg": 1
-    },
     "BC Rich": {
-      "sum": 35,
+      "sum": 36,
       "count": 11,
       "avg": 3
     },
     "Fender": {
-      "sum": 23,
+      "sum": 24,
       "count": 7,
       "avg": 3
     },
@@ -4091,7 +4121,7 @@
       "avg": 4
     },
     "Ibanez": {
-      "sum": 26,
+      "sum": 27,
       "count": 9,
       "avg": 3
     },
@@ -4136,9 +4166,9 @@
       "avg": 3
     },
     "Milkman": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Seymour Duncan": {
       "sum": 4,
@@ -4192,7 +4222,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-31": 9,
+    "2026-03-31": 10,
     "2026-03-30": 29,
     "2026-03-29": 17,
     "2026-03-28": 39,
@@ -4200,15 +4230,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 113,
+    "reverb": 114,
     "news": 10,
     "marketplace": 15
   },
-  "activeModelsCount": 106,
+  "activeModelsCount": 107,
   "topPosters": [
     {
       "username": "GP",
-      "count": 43
+      "count": 44
     },
     {
       "username": "Beijing Bob",
@@ -4249,9 +4279,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4144,
+    "avg": 4128,
     "pctBelowAvg": 0,
-    "count": 126
+    "count": 127
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -4657,15 +4687,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 112,
+      "total": 113,
       "sold": 30,
       "removed": 0,
-      "live": 82,
+      "live": 83,
       "soldPct": 27,
       "removedPct": 0,
       "livePct": 73
     },
     "byBrand": {
+      "Friedman": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Music Man": {
         "total": 4,
         "sold": 3,
@@ -4784,15 +4823,6 @@
         "livePct": 100
       },
       "Tokai": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
-      },
-      "Friedman": {
         "total": 1,
         "sold": 0,
         "removed": 0,
@@ -5032,10 +5062,10 @@
     "withOffers": 29,
     "totalOffers": 54,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 52
+    "offersEnabledPct": 53
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 97
   }
 }
