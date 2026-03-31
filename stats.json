@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-31T22:12:53.983Z",
-  "totalLinks": 148,
-  "totalWithPrice": 136,
+  "generatedAt": "2026-03-31T22:21:07.228Z",
+  "totalLinks": 149,
+  "totalWithPrice": 137,
   "overall": {
-    "count": 136,
-    "sum": 556895.7,
-    "avg": 4095,
+    "count": 137,
+    "sum": 558694.7,
+    "avg": 4078,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 130,
-    "sum": 355500.71,
-    "avg": 2735,
+    "count": 131,
+    "sum": 357299.71,
+    "avg": 2727,
     "min": 33,
     "max": 7999,
-    "median": 2413
+    "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8650,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 6,
     "items": [
@@ -73,20 +73,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 136,
-      "sum": 556895.7,
+      "count": 137,
+      "sum": 558694.7,
       "min": 33,
       "max": 99000,
-      "avg": 4095
+      "avg": 4078
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 120,
-      "sum": 403761.56,
+      "count": 121,
+      "sum": 405560.56,
       "min": 33,
       "max": 35900,
-      "avg": 3365
+      "avg": 3352
     },
     "news": {
       "count": 5,
@@ -105,11 +105,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 120,
-      "sum": 403761.56,
+      "count": 121,
+      "sum": 405560.56,
       "min": 33,
       "max": 35900,
-      "avg": 3365
+      "avg": 3352
     },
     "focusproaudio.com": {
       "count": 1,
@@ -197,6 +197,36 @@
     }
   },
   "byModel": {
+    "fender-mustang": {
+      "displayName": "Fender Mustang",
+      "brand": "Fender",
+      "model": "Mustang",
+      "variant": null,
+      "count": 1,
+      "sum": 1799,
+      "min": 1799,
+      "max": 1799,
+      "sightings": [
+        {
+          "price": 1799,
+          "date": "2026-03-31T22:20:53.982Z",
+          "year": 1965,
+          "title": "Fender Mustang 1965",
+          "url": "https://reverb.com/item/95575038-fender-mustang-1965",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1799,
+          "min": 1799,
+          "max": 1799,
+          "avg": 1799
+        }
+      },
+      "avg": 1799
+    },
     "hamer-centaura-iridescent-swirl-usa": {
       "displayName": "Hamer Centaura Iridescent Swirl Usa",
       "brand": "Hamer",
@@ -4130,8 +4160,8 @@
   },
   "byCondition": {
     "Good": {
-      "count": 17,
-      "sum": 40708.810000000005,
+      "count": 18,
+      "sum": 42507.810000000005,
       "sold": {
         "count": 2,
         "sum": 7176.5,
@@ -4139,7 +4169,7 @@
         "min": 2399,
         "max": 4777.5
       },
-      "avg": 2395,
+      "avg": 2362,
       "min": 415.28,
       "max": 6500
     },
@@ -4247,8 +4277,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4095,
-      "count": 136
+      "avg": 4078,
+      "count": 137
     }
   },
   "recentDrops": [
@@ -4319,7 +4349,7 @@
   "priceDistribution": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 32,
+    "1k-2k": 33,
     "2k-3k": 41,
     "3k-5k": 34,
     "5k-10k": 11,
@@ -4328,13 +4358,18 @@
   "priceDistributionFiltered": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 32,
+    "1k-2k": 33,
     "2k-3k": 41,
     "3k-5k": 34,
     "5k-10k": 10,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 25,
+      "count": 9,
+      "avg": 3
+    },
     "Hamer": {
       "sum": 5,
       "count": 2,
@@ -4369,11 +4404,6 @@
       "sum": 1,
       "count": 2,
       "avg": 1
-    },
-    "Fender": {
-      "sum": 25,
-      "count": 8,
-      "avg": 3
     },
     "Music Man": {
       "sum": 7,
@@ -4547,7 +4577,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-31": 19,
+    "2026-03-31": 20,
     "2026-03-30": 29,
     "2026-03-29": 17,
     "2026-03-28": 39,
@@ -4555,11 +4585,11 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 121,
+    "reverb": 122,
     "news": 12,
     "marketplace": 15
   },
-  "activeModelsCount": 116,
+  "activeModelsCount": 117,
   "topPosters": [
     {
       "username": "GP",
@@ -4583,7 +4613,7 @@
     },
     {
       "username": "Madero",
-      "count": 6
+      "count": 7
     },
     {
       "username": "Modean",
@@ -4604,9 +4634,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4095,
+    "avg": 4078,
     "pctBelowAvg": 0,
-    "count": 136
+    "count": 137
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5070,15 +5100,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 122,
+      "total": 123,
       "sold": 34,
       "removed": 0,
-      "live": 88,
+      "live": 89,
       "soldPct": 28,
       "removedPct": 0,
       "livePct": 72
     },
     "byBrand": {
+      "Fender": {
+        "total": 10,
+        "sold": 3,
+        "removed": 0,
+        "live": 7,
+        "soldPct": 30,
+        "removedPct": 0,
+        "livePct": 70
+      },
       "Hamer": {
         "total": 2,
         "sold": 0,
@@ -5150,15 +5189,6 @@
         "soldPct": 50,
         "removedPct": 0,
         "livePct": 50
-      },
-      "Fender": {
-        "total": 9,
-        "sold": 3,
-        "removed": 0,
-        "live": 6,
-        "soldPct": 33,
-        "removedPct": 0,
-        "livePct": 67
       },
       "Music Man": {
         "total": 4,
@@ -5469,8 +5499,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 32,
-    "totalOffers": 57,
+    "withOffers": 33,
+    "totalOffers": 58,
     "avgOffersPerListing": 1.8,
     "offersEnabledPct": 55
   },
