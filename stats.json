@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-31T22:05:02.652Z",
-  "totalLinks": 147,
-  "totalWithPrice": 135,
+  "generatedAt": "2026-03-31T22:12:53.983Z",
+  "totalLinks": 148,
+  "totalWithPrice": 136,
   "overall": {
-    "count": 135,
-    "sum": 555295.71,
-    "avg": 4113,
+    "count": 136,
+    "sum": 556895.7,
+    "avg": 4095,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 129,
-    "sum": 353900.72,
-    "avg": 2743,
+    "count": 130,
+    "sum": 355500.71,
+    "avg": 2735,
     "min": 33,
     "max": 7999,
-    "median": 2425
+    "median": 2413
   },
   "outliers": {
     "thresholdHigh": 8650,
@@ -73,20 +73,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 135,
-      "sum": 555295.71,
+      "count": 136,
+      "sum": 556895.7,
       "min": 33,
       "max": 99000,
-      "avg": 4113
+      "avg": 4095
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 119,
-      "sum": 402161.57,
+      "count": 120,
+      "sum": 403761.56,
       "min": 33,
       "max": 35900,
-      "avg": 3380
+      "avg": 3365
     },
     "news": {
       "count": 5,
@@ -105,11 +105,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 119,
-      "sum": 402161.57,
+      "count": 120,
+      "sum": 403761.56,
       "min": 33,
       "max": 35900,
-      "avg": 3380
+      "avg": 3365
     },
     "focusproaudio.com": {
       "count": 1,
@@ -197,6 +197,36 @@
     }
   },
   "byModel": {
+    "hamer-centaura-iridescent-swirl-usa": {
+      "displayName": "Hamer Centaura Iridescent Swirl Usa",
+      "brand": "Hamer",
+      "model": "Centaura Iridescent Swirl",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 1599.99,
+      "min": 1599.99,
+      "max": 1599.99,
+      "sightings": [
+        {
+          "price": 1599.99,
+          "date": "2026-03-31T22:12:40.562Z",
+          "year": 1990,
+          "title": "Hamer USA Centaura 1990 - Iridescent Swirl",
+          "url": "https://reverb.com/item/95574367-hamer-usa-centaura-1990-iridescent-swirl",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1599.99,
+          "min": 1599.99,
+          "max": 1599.99,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
+    },
     "jackson-extreme-surfcaster-of-usa-custom-shop": {
       "displayName": "Jackson Extreme Surfcaster of Usa Custom Shop",
       "brand": "Jackson",
@@ -4099,6 +4129,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 17,
+      "sum": 40708.810000000005,
+      "sold": {
+        "count": 2,
+        "sum": 7176.5,
+        "avg": 3588,
+        "min": 2399,
+        "max": 4777.5
+      },
+      "avg": 2395,
+      "min": 415.28,
+      "max": 6500
+    },
     "Very Good": {
       "count": 32,
       "sum": 93820.48000000003,
@@ -4140,20 +4184,6 @@
       "avg": 3917,
       "min": 135,
       "max": 9500
-    },
-    "Good": {
-      "count": 16,
-      "sum": 39108.82,
-      "sold": {
-        "count": 2,
-        "sum": 7176.5,
-        "avg": 3588,
-        "min": 2399,
-        "max": 4777.5
-      },
-      "avg": 2444,
-      "min": 415.28,
-      "max": 6500
     },
     "Fair": {
       "count": 3,
@@ -4217,8 +4247,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4113,
-      "count": 135
+      "avg": 4095,
+      "count": 136
     }
   },
   "recentDrops": [
@@ -4289,7 +4319,7 @@
   "priceDistribution": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 31,
+    "1k-2k": 32,
     "2k-3k": 41,
     "3k-5k": 34,
     "5k-10k": 11,
@@ -4298,13 +4328,18 @@
   "priceDistributionFiltered": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 31,
+    "1k-2k": 32,
     "2k-3k": 41,
     "3k-5k": 34,
     "5k-10k": 10,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Hamer": {
+      "sum": 5,
+      "count": 2,
+      "avg": 3
+    },
     "Jackson": {
       "sum": 19,
       "count": 6,
@@ -4505,11 +4540,6 @@
       "count": 1,
       "avg": 5
     },
-    "Hamer": {
-      "sum": 5,
-      "count": 1,
-      "avg": 5
-    },
     "Danocaster": {
       "sum": 5,
       "count": 1,
@@ -4517,7 +4547,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-31": 18,
+    "2026-03-31": 19,
     "2026-03-30": 29,
     "2026-03-29": 17,
     "2026-03-28": 39,
@@ -4525,15 +4555,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 120,
+    "reverb": 121,
     "news": 12,
     "marketplace": 15
   },
-  "activeModelsCount": 115,
+  "activeModelsCount": 116,
   "topPosters": [
     {
       "username": "GP",
-      "count": 51
+      "count": 52
     },
     {
       "username": "Beijing Bob",
@@ -4574,9 +4604,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4113,
+    "avg": 4095,
     "pctBelowAvg": 0,
-    "count": 135
+    "count": 136
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5040,15 +5070,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 121,
+      "total": 122,
       "sold": 34,
       "removed": 0,
-      "live": 87,
+      "live": 88,
       "soldPct": 28,
       "removedPct": 0,
       "livePct": 72
     },
     "byBrand": {
+      "Hamer": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Jackson": {
         "total": 6,
         "sold": 1,
@@ -5418,15 +5457,6 @@
         "removedPct": 0,
         "livePct": 0
       },
-      "Hamer": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
-      },
       "Danocaster": {
         "total": 1,
         "sold": 1,
@@ -5442,10 +5472,10 @@
     "withOffers": 32,
     "totalOffers": 57,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 54
+    "offersEnabledPct": 55
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 97
+    "avgShippingCost": 98
   }
 }
