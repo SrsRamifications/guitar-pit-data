@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-31T17:11:26.332Z",
-  "totalLinks": 139,
-  "totalWithPrice": 127,
+  "generatedAt": "2026-03-31T17:53:00.965Z",
+  "totalLinks": 141,
+  "totalWithPrice": 129,
   "overall": {
-    "count": 127,
-    "sum": 524215.98,
-    "avg": 4128,
+    "count": 129,
+    "sum": 529464.98,
+    "avg": 4104,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 121,
-    "sum": 322820.99,
-    "avg": 2668,
+    "count": 123,
+    "sum": 328069.99,
+    "avg": 2667,
     "min": 33,
     "max": 7999,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 8535,
+    "thresholdHigh": 8350,
     "thresholdLow": 0,
     "count": 6,
     "items": [
@@ -73,20 +73,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 127,
-      "sum": 524215.98,
+      "count": 129,
+      "sum": 529464.98,
       "min": 33,
       "max": 99000,
-      "avg": 4128
+      "avg": 4104
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 112,
-      "sum": 375930.84,
+      "count": 114,
+      "sum": 381179.84,
       "min": 33,
       "max": 35900,
-      "avg": 3357
+      "avg": 3344
     },
     "marketplace": {
       "count": 11,
@@ -105,11 +105,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 112,
-      "sum": 375930.84,
+      "count": 114,
+      "sum": 381179.84,
       "min": 33,
       "max": 35900,
-      "avg": 3357
+      "avg": 3344
     },
     "mcallen.craigslist.org": {
       "count": 1,
@@ -190,6 +190,66 @@
     }
   },
   "byModel": {
+    "suhr-classic-sss": {
+      "displayName": "Suhr Classic Sss",
+      "brand": "Suhr",
+      "model": "Classic",
+      "variant": "Sss",
+      "count": 1,
+      "sum": 2250,
+      "min": 2250,
+      "max": 2250,
+      "sightings": [
+        {
+          "price": 2250,
+          "date": "2026-03-31T17:52:42.024Z",
+          "year": 2015,
+          "title": "Suhr Classic Pro SSS with Maple Fretboard 2015 - 2017 - Fiesta Red",
+          "url": "https://reverb.com/item/95568720-suhr-classic-pro-sss-with-maple-fretboard-2015-2017-fiesta-red",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2250,
+          "min": 2250,
+          "max": 2250,
+          "avg": 2250
+        }
+      },
+      "avg": 2250
+    },
+    "novo-voltur-v1-cadillac": {
+      "displayName": "Novo Voltur V1 Cadillac",
+      "brand": "Novo",
+      "model": "Voltur V1 Cadillac",
+      "variant": null,
+      "count": 1,
+      "sum": 2999,
+      "min": 2999,
+      "max": 2999,
+      "sightings": [
+        {
+          "price": 2999,
+          "date": "2026-03-31T17:52:46.939Z",
+          "year": 2022,
+          "title": "2022 Novo Voltur V1 Cadillac Green",
+          "url": "https://reverb.com/item/95569974-2022-novo-voltur-v1-cadillac-green",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2999,
+          "min": 2999,
+          "max": 2999,
+          "avg": 2999
+        }
+      },
+      "avg": 2999
+    },
     "friedman-metro-wnatural-back": {
       "displayName": "Friedman Metro w/Natural Back",
       "brand": "Friedman",
@@ -3822,9 +3882,23 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 30,
+      "sum": 84221.48,
+      "sold": {
+        "count": 6,
+        "sum": 13150.8,
+        "avg": 2192,
+        "min": 1200,
+        "max": 3950
+      },
+      "avg": 2807,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
-      "count": 51,
-      "sum": 201763.55,
+      "count": 52,
+      "sum": 204762.55,
       "sold": {
         "count": 19,
         "sum": 59667.45,
@@ -3832,7 +3906,7 @@
         "min": 275,
         "max": 7999
       },
-      "avg": 3956,
+      "avg": 3938,
       "min": 275,
       "max": 35900
     },
@@ -3849,20 +3923,6 @@
       "avg": 3759,
       "min": 135,
       "max": 9500
-    },
-    "Very Good": {
-      "count": 29,
-      "sum": 81971.48,
-      "sold": {
-        "count": 6,
-        "sum": 13150.8,
-        "avg": 2192,
-        "min": 1200,
-        "max": 3950
-      },
-      "avg": 2827,
-      "min": 33,
-      "max": 16500
     },
     "Good": {
       "count": 16,
@@ -3937,8 +3997,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4128,
-      "count": 127
+      "avg": 4104,
+      "count": 129
     }
   },
   "recentDrops": [
@@ -4010,7 +4070,7 @@
     "0-500": 7,
     "500-1k": 6,
     "1k-2k": 31,
-    "2k-3k": 38,
+    "2k-3k": 40,
     "3k-5k": 31,
     "5k-10k": 9,
     "10k+": 5
@@ -4019,12 +4079,22 @@
     "0-500": 7,
     "500-1k": 6,
     "1k-2k": 31,
-    "2k-3k": 38,
+    "2k-3k": 40,
     "3k-5k": 31,
     "5k-10k": 8,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Suhr": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
+    "Novo": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Friedman": {
       "sum": 1,
       "count": 2,
@@ -4071,7 +4141,7 @@
       "avg": 3
     },
     "Gibson": {
-      "sum": 39,
+      "sum": 40,
       "count": 13,
       "avg": 3
     },
@@ -4201,9 +4271,9 @@
       "avg": 4
     },
     "ESP": {
-      "sum": 13,
+      "sum": 15,
       "count": 3,
-      "avg": 4
+      "avg": 5
     },
     "Framus": {
       "sum": 5,
@@ -4222,7 +4292,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-31": 10,
+    "2026-03-31": 12,
     "2026-03-30": 29,
     "2026-03-29": 17,
     "2026-03-28": 39,
@@ -4230,15 +4300,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 114,
+    "reverb": 116,
     "news": 10,
     "marketplace": 15
   },
-  "activeModelsCount": 107,
+  "activeModelsCount": 109,
   "topPosters": [
     {
       "username": "GP",
-      "count": 44
+      "count": 46
     },
     {
       "username": "Beijing Bob",
@@ -4279,9 +4349,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4128,
+    "avg": 4104,
     "pctBelowAvg": 0,
-    "count": 127
+    "count": 129
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -4687,15 +4757,33 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 113,
+      "total": 115,
       "sold": 30,
       "removed": 0,
-      "live": 83,
-      "soldPct": 27,
+      "live": 85,
+      "soldPct": 26,
       "removedPct": 0,
-      "livePct": 73
+      "livePct": 74
     },
     "byBrand": {
+      "Suhr": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
+      "Novo": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Friedman": {
         "total": 2,
         "sold": 0,
@@ -5059,9 +5147,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 29,
-    "totalOffers": 54,
-    "avgOffersPerListing": 1.9,
+    "withOffers": 31,
+    "totalOffers": 56,
+    "avgOffersPerListing": 1.8,
     "offersEnabledPct": 53
   },
   "shippingInsights": {
