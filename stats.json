@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-31T00:08:25.354Z",
-  "totalLinks": 131,
-  "totalWithPrice": 121,
+  "generatedAt": "2026-03-31T00:22:39.625Z",
+  "totalLinks": 132,
+  "totalWithPrice": 122,
   "overall": {
-    "count": 121,
-    "sum": 507192.65,
-    "avg": 4192,
+    "count": 122,
+    "sum": 507792.65,
+    "avg": 4162,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 115,
-    "sum": 305797.66,
-    "avg": 2659,
+    "count": 116,
+    "sum": 306397.66,
+    "avg": 2641,
     "min": 33,
     "max": 7999,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 8400,
+    "thresholdHigh": 8492,
     "thresholdLow": 0,
     "count": 6,
     "items": [
@@ -73,20 +73,20 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 121,
-      "sum": 507192.65,
+      "count": 122,
+      "sum": 507792.65,
       "min": 33,
       "max": 99000,
-      "avg": 4192
+      "avg": 4162
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 106,
-      "sum": 358907.51,
+      "count": 107,
+      "sum": 359507.51,
       "min": 33,
       "max": 35900,
-      "avg": 3386
+      "avg": 3360
     },
     "marketplace": {
       "count": 11,
@@ -105,11 +105,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 106,
-      "sum": 358907.51,
+      "count": 107,
+      "sum": 359507.51,
       "min": 33,
       "max": 35900,
-      "avg": 3386
+      "avg": 3360
     },
     "mcallen.craigslist.org": {
       "count": 1,
@@ -3612,6 +3612,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 50,
+      "sum": 199670.72999999998,
+      "sold": {
+        "count": 15,
+        "sum": 48293.45,
+        "avg": 3220,
+        "min": 1275,
+        "max": 7999
+      },
+      "avg": 3993,
+      "min": 275,
+      "max": 35900
+    },
     "Brand New": {
       "count": 10,
       "sum": 36387.07,
@@ -3625,20 +3639,6 @@
       "avg": 3639,
       "min": 135,
       "max": 9500
-    },
-    "Excellent": {
-      "count": 49,
-      "sum": 199070.72999999998,
-      "sold": {
-        "count": 15,
-        "sum": 48293.45,
-        "avg": 3220,
-        "min": 1275,
-        "max": 7999
-      },
-      "avg": 4063,
-      "min": 275,
-      "max": 35900
     },
     "Very Good": {
       "count": 28,
@@ -3724,8 +3724,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4192,
-      "count": 121
+      "avg": 4162,
+      "count": 122
     }
   },
   "recentDrops": [
@@ -3774,7 +3774,7 @@
   ],
   "priceDistribution": {
     "0-500": 7,
-    "500-1k": 5,
+    "500-1k": 6,
     "1k-2k": 31,
     "2k-3k": 35,
     "3k-5k": 29,
@@ -3783,7 +3783,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 7,
-    "500-1k": 5,
+    "500-1k": 6,
     "1k-2k": 31,
     "2k-3k": 35,
     "3k-5k": 29,
@@ -3862,9 +3862,9 @@
       "avg": 1
     },
     "Fender": {
-      "sum": 17,
+      "sum": 18,
       "count": 7,
-      "avg": 2
+      "avg": 3
     },
     "Mayones": {
       "sum": 1,
@@ -3983,7 +3983,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-31": 2,
+    "2026-03-31": 3,
     "2026-03-30": 29,
     "2026-03-29": 17,
     "2026-03-28": 39,
@@ -3991,7 +3991,7 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 107,
+    "reverb": 108,
     "marketplace": 15,
     "news": 9
   },
@@ -4015,7 +4015,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 9
+      "count": 10
     },
     {
       "username": "Madero",
@@ -4040,9 +4040,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4192,
+    "avg": 4162,
     "pctBelowAvg": 0,
-    "count": 121
+    "count": 122
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -4317,9 +4317,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 414.0959931708132,
-      "count": 22,
-      "avgPctDrop": 18.8
+      "totalPctDrop": 434.0959931708131,
+      "count": 23,
+      "avgPctDrop": 18.9
     },
     "byBrand": {
       "Gibson": {
@@ -4749,13 +4749,13 @@
     }
   },
   "offerActivity": {
-    "withOffers": 27,
-    "totalOffers": 47,
-    "avgOffersPerListing": 1.7,
-    "offersEnabledPct": 50
+    "withOffers": 28,
+    "totalOffers": 51,
+    "avgOffersPerListing": 1.8,
+    "offersEnabledPct": 51
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 100
+    "avgShippingCost": 98
   }
 }
