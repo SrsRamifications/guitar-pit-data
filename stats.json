@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-03-31T20:42:13.824Z",
-  "totalLinks": 144,
-  "totalWithPrice": 132,
+  "generatedAt": "2026-03-31T21:02:51.281Z",
+  "totalLinks": 145,
+  "totalWithPrice": 133,
   "overall": {
-    "count": 132,
-    "sum": 543211.71,
-    "avg": 4115,
+    "count": 133,
+    "sum": 546810.71,
+    "avg": 4111,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 126,
-    "sum": 341816.72,
-    "avg": 2713,
+    "count": 127,
+    "sum": 345415.72,
+    "avg": 2720,
     "min": 33,
     "max": 7999,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8650,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 6,
     "items": [
@@ -73,27 +73,27 @@
   },
   "byMonth": {
     "2026-03": {
-      "count": 132,
-      "sum": 543211.71,
+      "count": 133,
+      "sum": 546810.71,
       "min": 33,
       "max": 99000,
-      "avg": 4115
+      "avg": 4111
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 117,
+      "sum": 393676.57,
+      "min": 33,
+      "max": 35900,
+      "avg": 3365
+    },
     "news": {
       "count": 5,
       "sum": 15328.16,
       "min": 150,
       "max": 4849,
       "avg": 3066
-    },
-    "reverb": {
-      "count": 116,
-      "sum": 390077.57,
-      "min": 33,
-      "max": 35900,
-      "avg": 3363
     },
     "marketplace": {
       "count": 11,
@@ -104,19 +104,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 117,
+      "sum": 393676.57,
+      "min": 33,
+      "max": 35900,
+      "avg": 3365
+    },
     "focusproaudio.com": {
       "count": 1,
       "sum": 4849,
       "min": 4849,
       "max": 4849,
       "avg": 4849
-    },
-    "reverb.com": {
-      "count": 116,
-      "sum": 390077.57,
-      "min": 33,
-      "max": 35900,
-      "avg": 3363
     },
     "mcallen.craigslist.org": {
       "count": 1,
@@ -197,6 +197,36 @@
     }
   },
   "byModel": {
+    "ibanez-jem": {
+      "displayName": "Ibanez JEM",
+      "brand": "Ibanez",
+      "model": "JEM",
+      "variant": null,
+      "count": 1,
+      "sum": 3599,
+      "min": 3599,
+      "max": 3599,
+      "sightings": [
+        {
+          "price": 3599,
+          "date": "2026-03-31T21:02:37.814Z",
+          "year": 1988,
+          "title": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
+          "url": "https://reverb.com/item/95573183-ibanez-jem-777sk-1988-shocking-pink-repaint-read",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3599,
+          "min": 3599,
+          "max": 3599,
+          "avg": 3599
+        }
+      },
+      "avg": 3599
+    },
     "xotic-classic": {
       "displayName": "Xotic Classic",
       "brand": "Xotic",
@@ -3979,6 +4009,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 31,
+      "sum": 87820.48,
+      "sold": {
+        "count": 7,
+        "sum": 16749.8,
+        "avg": 2393,
+        "min": 1200,
+        "max": 3950
+      },
+      "avg": 2833,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 53,
       "sum": 208002.55,
@@ -3992,20 +4036,6 @@
       "avg": 3925,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 30,
-      "sum": 84221.48,
-      "sold": {
-        "count": 7,
-        "sum": 16749.8,
-        "avg": 2393,
-        "min": 1200,
-        "max": 3950
-      },
-      "avg": 2807,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 12,
@@ -4094,8 +4124,8 @@
   "seasonal": {
     "03": {
       "name": "Mar",
-      "avg": 4115,
-      "count": 132
+      "avg": 4111,
+      "count": 133
     }
   },
   "recentDrops": [
@@ -4168,7 +4198,7 @@
     "500-1k": 6,
     "1k-2k": 31,
     "2k-3k": 40,
-    "3k-5k": 33,
+    "3k-5k": 34,
     "5k-10k": 10,
     "10k+": 5
   },
@@ -4177,11 +4207,16 @@
     "500-1k": 6,
     "1k-2k": 31,
     "2k-3k": 40,
-    "3k-5k": 33,
+    "3k-5k": 34,
     "5k-10k": 9,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 28,
+      "count": 10,
+      "avg": 3
+    },
     "Xotic": {
       "sum": 0,
       "count": 1,
@@ -4292,15 +4327,10 @@
       "count": 3,
       "avg": 4
     },
-    "Ibanez": {
-      "sum": 28,
-      "count": 9,
-      "avg": 3
-    },
     "Yamaha": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Epiphone": {
       "sum": 6,
@@ -4394,7 +4424,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-03-31": 15,
+    "2026-03-31": 16,
     "2026-03-30": 29,
     "2026-03-29": 17,
     "2026-03-28": 39,
@@ -4402,15 +4432,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 118,
     "news": 12,
-    "reverb": 117,
     "marketplace": 15
   },
-  "activeModelsCount": 112,
+  "activeModelsCount": 113,
   "topPosters": [
     {
       "username": "GP",
-      "count": 48
+      "count": 49
     },
     {
       "username": "Beijing Bob",
@@ -4451,9 +4481,9 @@
   ],
   "bestMonth": {
     "name": "Mar",
-    "avg": 4115,
+    "avg": 4111,
     "pctBelowAvg": 0,
-    "count": 132
+    "count": 133
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -4461,6 +4491,11 @@
       "avgPrice": 3260,
       "avgDiscount": -171.7,
       "count": 13
+    },
+    "Ibanez": {
+      "avgPrice": 2997,
+      "avgDiscount": -399.5,
+      "count": 10
     }
   },
   "soldPrices": {
@@ -4889,15 +4924,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 118,
+      "total": 119,
       "sold": 32,
       "removed": 0,
-      "live": 86,
+      "live": 87,
       "soldPct": 27,
       "removedPct": 0,
       "livePct": 73
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 10,
+        "sold": 7,
+        "removed": 0,
+        "live": 3,
+        "soldPct": 70,
+        "removedPct": 0,
+        "livePct": 30
+      },
       "ESP": {
         "total": 4,
         "sold": 1,
@@ -5104,15 +5148,6 @@
         "soldPct": 33,
         "removedPct": 0,
         "livePct": 67
-      },
-      "Ibanez": {
-        "total": 9,
-        "sold": 7,
-        "removed": 0,
-        "live": 2,
-        "soldPct": 78,
-        "removedPct": 0,
-        "livePct": 22
       },
       "Yamaha": {
         "total": 1,
