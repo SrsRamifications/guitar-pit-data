@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T20:19:34.838Z",
-  "totalLinks": 165,
-  "totalWithPrice": 160,
+  "generatedAt": "2026-04-01T20:45:45.927Z",
+  "totalLinks": 166,
+  "totalWithPrice": 161,
   "overall": {
-    "count": 160,
-    "sum": 688716.71,
-    "avg": 4304,
+    "count": 161,
+    "sum": 689816.71,
+    "avg": 4285,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 152,
-    "sum": 408521.72,
-    "avg": 2688,
+    "count": 153,
+    "sum": 409621.72,
+    "avg": 2677,
     "min": 33,
     "max": 7999,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8350,
+    "thresholdHigh": 8200,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 27,
-      "sum": 74490.92,
+      "count": 28,
+      "sum": 75590.92,
       "min": 165,
       "max": 8800,
-      "avg": 2759
+      "avg": 2700
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 147,
-      "sum": 479011.73,
+      "count": 148,
+      "sum": 480111.73,
       "min": 33,
       "max": 35900,
-      "avg": 3259
+      "avg": 3244
     },
     "marketplace": {
       "count": 13,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 147,
-      "sum": 479011.73,
+      "count": 148,
+      "sum": 480111.73,
       "min": 33,
       "max": 35900,
-      "avg": 3259
+      "avg": 3244
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -185,6 +185,38 @@
     }
   },
   "byModel": {
+    "ibanez-artist-1977": {
+      "displayName": "Ibanez Artist 1977",
+      "brand": "Ibanez",
+      "model": "Artist 1977",
+      "variant": null,
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-04-01T20:45:32.558Z",
+          "year": 1979,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez 2618-AV Artist 1977 - 1979 - Antique Violin",
+          "url": "https://reverb.com/item/95595349-ibanez-2618-av-artist-1977-1979-antique-violin",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
+    },
     "prs-standard-satin": {
       "displayName": "PRS Standard Satin",
       "brand": "PRS",
@@ -5561,6 +5593,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 39,
+      "sum": 106376.20000000001,
+      "sold": {
+        "count": 9,
+        "sum": 22148.8,
+        "avg": 2461,
+        "min": 1200,
+        "max": 3950
+      },
+      "avg": 2728,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 70,
       "sum": 256935.49,
@@ -5574,20 +5620,6 @@
       "avg": 3671,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 38,
-      "sum": 105276.20000000001,
-      "sold": {
-        "count": 9,
-        "sum": 22148.8,
-        "avg": 2461,
-        "min": 1200,
-        "max": 3950
-      },
-      "avg": 2770,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 13,
@@ -5679,8 +5711,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2759,
-      "count": 27
+      "avg": 2700,
+      "count": 28
     },
     "03": {
       "name": "Mar",
@@ -5763,7 +5795,7 @@
   "priceDistribution": {
     "0-500": 7,
     "500-1k": 8,
-    "1k-2k": 41,
+    "1k-2k": 42,
     "2k-3k": 46,
     "3k-5k": 39,
     "5k-10k": 13,
@@ -5772,13 +5804,18 @@
   "priceDistributionFiltered": {
     "0-500": 7,
     "500-1k": 8,
-    "1k-2k": 41,
+    "1k-2k": 42,
     "2k-3k": 46,
     "3k-5k": 39,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 35,
+      "count": 11,
+      "avg": 3
+    },
     "PRS": {
       "sum": 33,
       "count": 16,
@@ -5805,7 +5842,7 @@
       "avg": 0
     },
     "Fender": {
-      "sum": 33,
+      "sum": 34,
       "count": 10,
       "avg": 3
     },
@@ -5862,11 +5899,6 @@
     "Hamer": {
       "sum": 7,
       "count": 2,
-      "avg": 4
-    },
-    "Ibanez": {
-      "sum": 35,
-      "count": 10,
       "avg": 4
     },
     "Xotic": {
@@ -6051,7 +6083,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 27,
+    "2026-04-01": 28,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -6060,14 +6092,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 148,
+    "reverb": 149,
     "marketplace": 17
   },
-  "activeModelsCount": 146,
+  "activeModelsCount": 147,
   "topPosters": [
     {
       "username": "GP",
-      "count": 67
+      "count": 68
     },
     {
       "username": "Beijing Bob",
@@ -6108,9 +6140,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2759,
-    "pctBelowAvg": 36,
-    "count": 27
+    "avg": 2700,
+    "pctBelowAvg": 37,
+    "count": 28
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6130,9 +6162,9 @@
       "count": 16
     },
     "Ibanez": {
-      "avgPrice": 2960,
-      "avgDiscount": -393.4,
-      "count": 10
+      "avgPrice": 2791,
+      "avgDiscount": -365.2,
+      "count": 11
     }
   },
   "soldPrices": {
@@ -6725,15 +6757,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 154,
+      "total": 155,
       "sold": 45,
       "removed": 0,
-      "live": 109,
+      "live": 110,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 11,
+        "sold": 8,
+        "removed": 0,
+        "live": 3,
+        "soldPct": 73,
+        "removedPct": 0,
+        "livePct": 27
+      },
       "PRS": {
         "total": 16,
         "sold": 6,
@@ -6886,15 +6927,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Ibanez": {
-        "total": 10,
-        "sold": 8,
-        "removed": 0,
-        "live": 2,
-        "soldPct": 80,
-        "removedPct": 0,
-        "livePct": 20
       },
       "Xotic": {
         "total": 1,
