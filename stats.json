@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-03-31T22:56:23.042Z",
-  "totalLinks": 150,
-  "totalWithPrice": 138,
+  "generatedAt": "2026-04-01T01:50:12.719Z",
+  "totalLinks": 151,
+  "totalWithPrice": 139,
   "overall": {
-    "count": 138,
-    "sum": 628694.7,
-    "avg": 4556,
+    "count": 139,
+    "sum": 632094.7,
+    "avg": 4547,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 131,
-    "sum": 357299.71,
-    "avg": 2727,
+    "count": 132,
+    "sum": 360699.71,
+    "avg": 2733,
     "min": 33,
     "max": 7999,
-    "median": 2400
+    "median": 2413
   },
   "outliers": {
     "thresholdHigh": 8650,
@@ -80,6 +80,13 @@
     ]
   },
   "byMonth": {
+    "2026-04": {
+      "count": 1,
+      "sum": 3400,
+      "min": 3400,
+      "max": 3400,
+      "avg": 3400
+    },
     "2026-03": {
       "count": 138,
       "sum": 628694.7,
@@ -89,19 +96,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 122,
+      "sum": 408960.56,
+      "min": 33,
+      "max": 35900,
+      "avg": 3352
+    },
     "marketplace": {
       "count": 12,
       "sum": 207805.98,
       "min": 929.99,
       "max": 99000,
       "avg": 17317
-    },
-    "reverb": {
-      "count": 121,
-      "sum": 405560.56,
-      "min": 33,
-      "max": 35900,
-      "avg": 3352
     },
     "news": {
       "count": 5,
@@ -112,19 +119,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 122,
+      "sum": 408960.56,
+      "min": 33,
+      "max": 35900,
+      "avg": 3352
+    },
     "chicagomusicexchange.com": {
       "count": 5,
       "sum": 177389,
       "min": 2295,
       "max": 99000,
       "avg": 35478
-    },
-    "reverb.com": {
-      "count": 121,
-      "sum": 405560.56,
-      "min": 33,
-      "max": 35900,
-      "avg": 3352
     },
     "focusproaudio.com": {
       "count": 1,
@@ -4167,6 +4174,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 55,
+      "sum": 213887.55,
+      "sold": {
+        "count": 20,
+        "sum": 61762.45,
+        "avg": 3088,
+        "min": 275,
+        "max": 7999
+      },
+      "avg": 3889,
+      "min": 275,
+      "max": 35900
+    },
     "Good": {
       "count": 18,
       "sum": 42507.810000000005,
@@ -4194,20 +4215,6 @@
       "avg": 2932,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 54,
-      "sum": 210487.55,
-      "sold": {
-        "count": 20,
-        "sum": 61762.45,
-        "avg": 3088,
-        "min": 275,
-        "max": 7999
-      },
-      "avg": 3898,
-      "min": 275,
-      "max": 35900
     },
     "Brand New": {
       "count": 12,
@@ -4283,6 +4290,11 @@
     }
   },
   "seasonal": {
+    "04": {
+      "name": "Apr",
+      "avg": 3400,
+      "count": 1
+    },
     "03": {
       "name": "Mar",
       "avg": 4556,
@@ -4359,7 +4371,7 @@
     "500-1k": 6,
     "1k-2k": 33,
     "2k-3k": 41,
-    "3k-5k": 34,
+    "3k-5k": 35,
     "5k-10k": 11,
     "10k+": 6
   },
@@ -4368,13 +4380,13 @@
     "500-1k": 6,
     "1k-2k": 33,
     "2k-3k": 41,
-    "3k-5k": 34,
+    "3k-5k": 35,
     "5k-10k": 10,
     "10k+": 0
   },
   "daysOnMarket": {
     "Fender": {
-      "sum": 25,
+      "sum": 26,
       "count": 9,
       "avg": 3
     },
@@ -4409,7 +4421,7 @@
       "avg": 0
     },
     "Friedman": {
-      "sum": 1,
+      "sum": 2,
       "count": 2,
       "avg": 1
     },
@@ -4444,7 +4456,7 @@
       "avg": 3
     },
     "Kiesel": {
-      "sum": 19,
+      "sum": 20,
       "count": 7,
       "avg": 3
     },
@@ -4479,9 +4491,9 @@
       "avg": 1
     },
     "BC Rich": {
-      "sum": 36,
+      "sum": 39,
       "count": 11,
-      "avg": 3
+      "avg": 4
     },
     "Mayones": {
       "sum": 2,
@@ -4529,9 +4541,9 @@
       "avg": 3
     },
     "LSL": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Milkman": {
       "sum": 4,
@@ -4559,9 +4571,9 @@
       "avg": 4
     },
     "Greco": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Fractal Audio": {
       "sum": 5,
@@ -4585,6 +4597,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-01": 1,
     "2026-03-31": 21,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -4593,15 +4606,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "reverb": 123,
     "marketplace": 16,
-    "reverb": 122,
     "news": 12
   },
   "activeModelsCount": 117,
   "topPosters": [
     {
       "username": "GP",
-      "count": 53
+      "count": 54
     },
     {
       "username": "Beijing Bob",
@@ -4641,10 +4654,10 @@
     }
   ],
   "bestMonth": {
-    "name": "Mar",
-    "avg": 4556,
-    "pctBelowAvg": 0,
-    "count": 138
+    "name": "Apr",
+    "avg": 3400,
+    "pctBelowAvg": 25,
+    "count": 1
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5514,6 +5527,6 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 99
   }
 }
