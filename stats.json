@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T04:53:26.058Z",
-  "totalLinks": 151,
-  "totalWithPrice": 139,
+  "generatedAt": "2026-04-01T04:56:13.265Z",
+  "totalLinks": 153,
+  "totalWithPrice": 141,
   "overall": {
-    "count": 139,
-    "sum": 633555.49,
-    "avg": 4558,
+    "count": 141,
+    "sum": 638605.48,
+    "avg": 4529,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 132,
-    "sum": 362160.5,
-    "avg": 2744,
+    "count": 134,
+    "sum": 367210.49,
+    "avg": 2740,
     "min": 33,
     "max": 7999,
     "median": 2413
   },
   "outliers": {
-    "thresholdHigh": 8650,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 7,
     "items": [
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 1,
-      "sum": 3400,
-      "min": 3400,
-      "max": 3400,
-      "avg": 3400
+      "count": 3,
+      "sum": 8449.99,
+      "min": 1349.99,
+      "max": 3700,
+      "avg": 2817
     },
     "2026-03": {
       "count": 138,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 122,
-      "sum": 410421.35,
+      "count": 124,
+      "sum": 415471.34,
       "min": 33,
       "max": 35900,
-      "avg": 3364
+      "avg": 3351
     },
     "marketplace": {
       "count": 12,
@@ -120,11 +120,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 122,
-      "sum": 410421.35,
+      "count": 124,
+      "sum": 415471.34,
       "min": 33,
       "max": 35900,
-      "avg": 3364
+      "avg": 3351
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -212,6 +212,66 @@
     }
   },
   "byModel": {
+    "gibson-flying-v": {
+      "displayName": "Gibson Flying V",
+      "brand": "Gibson",
+      "model": "Flying V",
+      "variant": null,
+      "count": 1,
+      "sum": 1349.99,
+      "min": 1349.99,
+      "max": 1349.99,
+      "sightings": [
+        {
+          "price": 1349.99,
+          "date": "2026-04-01T04:55:58.944Z",
+          "year": null,
+          "title": "Gibson Flying V, Antique Natural w/HSC",
+          "url": "https://reverb.com/item/95580585-gibson-flying-v-antique-natural-w-hsc",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1349.99,
+          "min": 1349.99,
+          "max": 1349.99,
+          "avg": 1350
+        }
+      },
+      "avg": 1350
+    },
+    "esp-m-ii-usa": {
+      "displayName": "ESP M-II Usa",
+      "brand": "ESP",
+      "model": "M-II",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 3700,
+      "min": 3700,
+      "max": 3700,
+      "sightings": [
+        {
+          "price": 3700,
+          "date": "2026-04-01T04:55:58.944Z",
+          "year": null,
+          "title": "ESP USA M-II NTB FR",
+          "url": "https://reverb.com/item/95580626-esp-usa-m-ii-ntb-fr",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3700,
+          "min": 3700,
+          "max": 3700,
+          "avg": 3700
+        }
+      },
+      "avg": 3700
+    },
     "fender-mustang": {
       "displayName": "Fender Mustang",
       "brand": "Fender",
@@ -4220,8 +4280,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 55,
-      "sum": 215291.56,
+      "count": 57,
+      "sum": 220341.55,
       "sold": {
         "count": 22,
         "sum": 99961.45,
@@ -4229,7 +4289,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3914,
+      "avg": 3866,
       "min": 275,
       "max": 35900
     },
@@ -4337,8 +4397,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3400,
-      "count": 1
+      "avg": 2817,
+      "count": 3
     },
     "03": {
       "name": "Mar",
@@ -4414,22 +4474,32 @@
   "priceDistribution": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 33,
+    "1k-2k": 34,
     "2k-3k": 41,
-    "3k-5k": 34,
+    "3k-5k": 35,
     "5k-10k": 12,
     "10k+": 6
   },
   "priceDistributionFiltered": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 33,
+    "1k-2k": 34,
     "2k-3k": 41,
-    "3k-5k": 34,
+    "3k-5k": 35,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 41,
+      "count": 14,
+      "avg": 3
+    },
+    "ESP": {
+      "sum": 15,
+      "count": 4,
+      "avg": 4
+    },
     "Fender": {
       "sum": 26,
       "count": 9,
@@ -4503,11 +4573,6 @@
     "Kiesel": {
       "sum": 20,
       "count": 7,
-      "avg": 3
-    },
-    "Gibson": {
-      "sum": 41,
-      "count": 13,
       "avg": 3
     },
     "Gretsch": {
@@ -4625,11 +4690,6 @@
       "count": 1,
       "avg": 5
     },
-    "ESP": {
-      "sum": 15,
-      "count": 3,
-      "avg": 5
-    },
     "Framus": {
       "sum": 6,
       "count": 1,
@@ -4642,7 +4702,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 1,
+    "2026-04-01": 3,
     "2026-03-31": 21,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -4651,15 +4711,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 123,
+    "reverb": 125,
     "marketplace": 16,
     "news": 12
   },
-  "activeModelsCount": 117,
+  "activeModelsCount": 119,
   "topPosters": [
     {
       "username": "GP",
-      "count": 54
+      "count": 56
     },
     {
       "username": "Beijing Bob",
@@ -4700,16 +4760,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3400,
-    "pctBelowAvg": 25,
-    "count": 1
+    "avg": 2817,
+    "pctBelowAvg": 38,
+    "count": 3
   },
   "topVoted": [],
   "discountFromRetail": {
     "Gibson": {
-      "avgPrice": 3260,
-      "avgDiscount": -171.7,
-      "count": 13
+      "avgPrice": 3124,
+      "avgDiscount": -160.3,
+      "count": 14
     },
     "Ibanez": {
       "avgPrice": 2950,
@@ -5190,15 +5250,33 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 123,
+      "total": 125,
       "sold": 37,
       "removed": 0,
-      "live": 86,
+      "live": 88,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "Gibson": {
+        "total": 17,
+        "sold": 3,
+        "removed": 0,
+        "live": 14,
+        "soldPct": 18,
+        "removedPct": 0,
+        "livePct": 82
+      },
+      "ESP": {
+        "total": 5,
+        "sold": 1,
+        "removed": 0,
+        "live": 4,
+        "soldPct": 20,
+        "removedPct": 0,
+        "livePct": 80
+      },
       "Fender": {
         "total": 10,
         "sold": 5,
@@ -5234,15 +5312,6 @@
         "soldPct": 64,
         "removedPct": 0,
         "livePct": 36
-      },
-      "ESP": {
-        "total": 4,
-        "sold": 1,
-        "removed": 0,
-        "live": 3,
-        "soldPct": 25,
-        "removedPct": 0,
-        "livePct": 75
       },
       "Xotic": {
         "total": 1,
@@ -5342,15 +5411,6 @@
         "soldPct": 43,
         "removedPct": 0,
         "livePct": 57
-      },
-      "Gibson": {
-        "total": 16,
-        "sold": 3,
-        "removed": 0,
-        "live": 13,
-        "soldPct": 19,
-        "removedPct": 0,
-        "livePct": 81
       },
       "Gretsch": {
         "total": 1,
@@ -5596,6 +5656,6 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 99
+    "avgShippingCost": 98
   }
 }
