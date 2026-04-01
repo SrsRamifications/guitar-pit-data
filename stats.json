@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T06:36:36.209Z",
-  "totalLinks": 156,
-  "totalWithPrice": 144,
+  "generatedAt": "2026-04-01T06:57:04.554Z",
+  "totalLinks": 159,
+  "totalWithPrice": 145,
   "overall": {
-    "count": 144,
-    "sum": 648085.48,
-    "avg": 4501,
+    "count": 145,
+    "sum": 648243.48,
+    "avg": 4471,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 137,
-    "sum": 376690.49,
-    "avg": 2750,
+    "count": 138,
+    "sum": 376848.49,
+    "avg": 2731,
     "min": 33,
     "max": 7999,
-    "median": 2425
+    "median": 2413
   },
   "outliers": {
-    "thresholdHigh": 8650,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 7,
     "items": [
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 6,
-      "sum": 17929.99,
-      "min": 1349.99,
+      "count": 7,
+      "sum": 18087.99,
+      "min": 158,
       "max": 4180,
-      "avg": 2988
+      "avg": 2584
     },
     "2026-03": {
       "count": 138,
@@ -96,6 +96,13 @@
     }
   },
   "byCategory": {
+    "news": {
+      "count": 6,
+      "sum": 15486.16,
+      "min": 150,
+      "max": 4849,
+      "avg": 2581
+    },
     "reverb": {
       "count": 127,
       "sum": 424951.34,
@@ -109,16 +116,16 @@
       "min": 929.99,
       "max": 99000,
       "avg": 17317
-    },
-    "news": {
-      "count": 5,
-      "sum": 15328.16,
-      "min": 150,
-      "max": 4849,
-      "avg": 3066
     }
   },
   "byDomain": {
+    "slickdeals.net": {
+      "count": 1,
+      "sum": 158,
+      "min": 158,
+      "max": 158,
+      "avg": 158
+    },
     "reverb.com": {
       "count": 127,
       "sum": 424951.34,
@@ -212,6 +219,36 @@
     }
   },
   "byModel": {
+    "prs-custom-24-se": {
+      "displayName": "PRS Custom 24 Se",
+      "brand": "PRS",
+      "model": "Custom 24",
+      "variant": "Se",
+      "count": 1,
+      "sum": 158,
+      "min": 158,
+      "max": 158,
+      "sightings": [
+        {
+          "price": 158,
+          "date": "2026-04-01T06:56:47.107Z",
+          "year": 2026,
+          "title": "PRS SE Custom 24 Quilt Electric Guitar (2 Colors) - 2026-03-31",
+          "url": "https://slickdeals.net/f/19367757-prs-se-custom-24-exclusive-orange-tiger-smokeburst-649-95",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 158,
+          "min": 158,
+          "max": 158,
+          "avg": 158
+        }
+      },
+      "avg": 158
+    },
     "charvel-so-cal-sparkle-custom-shop": {
       "displayName": "Charvel So Cal Sparkle Custom Shop",
       "brand": "Charvel",
@@ -4817,8 +4854,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2988,
-      "count": 6
+      "avg": 2584,
+      "count": 7
     },
     "03": {
       "name": "Mar",
@@ -4892,7 +4929,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 7,
+    "0-500": 8,
     "500-1k": 6,
     "1k-2k": 35,
     "2k-3k": 41,
@@ -4901,7 +4938,7 @@
     "10k+": 6
   },
   "priceDistributionFiltered": {
-    "0-500": 7,
+    "0-500": 8,
     "500-1k": 6,
     "1k-2k": 35,
     "2k-3k": 41,
@@ -4910,6 +4947,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 28,
+      "count": 10,
+      "avg": 3
+    },
     "Charvel": {
       "sum": 1,
       "count": 2,
@@ -5000,11 +5042,6 @@
       "count": 2,
       "avg": 3
     },
-    "PRS": {
-      "sum": 27,
-      "count": 9,
-      "avg": 3
-    },
     "Kiesel": {
       "sum": 20,
       "count": 7,
@@ -5016,9 +5053,9 @@
       "avg": 1
     },
     "Eastman": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Guild": {
       "sum": 5,
@@ -5167,7 +5204,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 6,
+    "2026-04-01": 9,
     "2026-03-31": 21,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5176,15 +5213,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
+    "news": 15,
     "reverb": 128,
-    "marketplace": 16,
-    "news": 12
+    "marketplace": 16
   },
-  "activeModelsCount": 132,
+  "activeModelsCount": 135,
   "topPosters": [
     {
       "username": "GP",
-      "count": 58
+      "count": 61
     },
     {
       "username": "Beijing Bob",
@@ -5225,9 +5262,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2988,
-    "pctBelowAvg": 34,
-    "count": 6
+    "avg": 2584,
+    "pctBelowAvg": 42,
+    "count": 7
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5235,6 +5272,11 @@
       "avgPrice": 3035,
       "avgDiscount": -153,
       "count": 15
+    },
+    "PRS": {
+      "avgPrice": 3567,
+      "avgDiscount": -154.8,
+      "count": 10
     },
     "Ibanez": {
       "avgPrice": 2950,
@@ -5760,15 +5802,42 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 140,
+      "total": 143,
       "sold": 39,
       "removed": 0,
-      "live": 101,
-      "soldPct": 28,
+      "live": 104,
+      "soldPct": 27,
       "removedPct": 0,
-      "livePct": 72
+      "livePct": 73
     },
     "byBrand": {
+      "PRS": {
+        "total": 11,
+        "sold": 5,
+        "removed": 0,
+        "live": 6,
+        "soldPct": 45,
+        "removedPct": 0,
+        "livePct": 55
+      },
+      "Jackson": {
+        "total": 7,
+        "sold": 1,
+        "removed": 0,
+        "live": 6,
+        "soldPct": 14,
+        "removedPct": 0,
+        "livePct": 86
+      },
+      "Gretsch": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Charvel": {
         "total": 2,
         "sold": 1,
@@ -5831,15 +5900,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Jackson": {
-        "total": 6,
-        "sold": 1,
-        "removed": 0,
-        "live": 5,
-        "soldPct": 17,
-        "removedPct": 0,
-        "livePct": 83
       },
       "Ibanez": {
         "total": 11,
@@ -5931,15 +5991,6 @@
         "removedPct": 0,
         "livePct": 100
       },
-      "PRS": {
-        "total": 10,
-        "sold": 5,
-        "removed": 0,
-        "live": 5,
-        "soldPct": 50,
-        "removedPct": 0,
-        "livePct": 50
-      },
       "Kiesel": {
         "total": 7,
         "sold": 3,
@@ -5948,15 +5999,6 @@
         "soldPct": 43,
         "removedPct": 0,
         "livePct": 57
-      },
-      "Gretsch": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
       },
       "Eastman": {
         "total": 1,
