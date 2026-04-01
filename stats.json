@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T19:54:20.415Z",
-  "totalLinks": 161,
-  "totalWithPrice": 156,
+  "generatedAt": "2026-04-01T20:02:26.715Z",
+  "totalLinks": 162,
+  "totalWithPrice": 157,
   "overall": {
-    "count": 156,
-    "sum": 678551.73,
-    "avg": 4350,
+    "count": 157,
+    "sum": 681751.73,
+    "avg": 4342,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 148,
-    "sum": 398356.74,
-    "avg": 2692,
+    "count": 149,
+    "sum": 401556.74,
+    "avg": 2695,
     "min": 33,
     "max": 7999,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8350,
+    "thresholdHigh": 8200,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 23,
-      "sum": 64325.94,
+      "count": 24,
+      "sum": 67525.94,
       "min": 540,
       "max": 8800,
-      "avg": 2797
+      "avg": 2814
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 143,
-      "sum": 468846.75,
+      "count": 144,
+      "sum": 472046.75,
       "min": 33,
       "max": 35900,
-      "avg": 3279
+      "avg": 3278
     },
     "marketplace": {
       "count": 13,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 143,
-      "sum": 468846.75,
+      "count": 144,
+      "sum": 472046.75,
       "min": 33,
       "max": 35900,
-      "avg": 3279
+      "avg": 3278
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -185,6 +185,55 @@
     }
   },
   "byModel": {
+    "prs-custom-24-10-top": {
+      "displayName": "PRS Custom 24 10 Top",
+      "brand": "PRS",
+      "model": "Custom 24",
+      "variant": "10 Top",
+      "count": 2,
+      "sum": 8195,
+      "min": 3200,
+      "max": 4995,
+      "sightings": [
+        {
+          "price": 4995,
+          "date": "2026-04-01T14:19:39.339Z",
+          "year": 1988,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Custom 24 1988 - Royal Blue Quilt 10-top",
+          "url": "https://reverb.com/item/95510806-prs-custom-24-1988-royal-blue-quilt-10-top",
+          "condition": "Excellent"
+        },
+        {
+          "price": 3200,
+          "date": "2026-04-01T20:02:11.273Z",
+          "year": 1992,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1992 PRS Custom 24 10 Top Electric Guitar (VIDEO! Fresh Setup, Ready)",
+          "url": "https://reverb.com/item/94268693-1992-prs-custom-24-10-top-electric-guitar-video-fresh-setup-ready",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3200,
+          "min": 3200,
+          "max": 3200,
+          "avg": 3200
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 4995,
+          "min": 4995,
+          "max": 4995,
+          "avg": 4995
+        }
+      },
+      "avg": 4098
+    },
     "suhr-standard-signature-hss": {
       "displayName": "Suhr Standard Signature Hss",
       "brand": "Suhr",
@@ -630,38 +679,6 @@
         }
       },
       "avg": 1299
-    },
-    "prs-custom-24-10-top": {
-      "displayName": "PRS Custom 24 10-top",
-      "brand": "PRS",
-      "model": "Custom 24",
-      "variant": "10-top",
-      "count": 1,
-      "sum": 4995,
-      "min": 4995,
-      "max": 4995,
-      "sightings": [
-        {
-          "price": 4995,
-          "date": "2026-04-01T14:19:39.339Z",
-          "year": 1988,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Custom 24 1988 - Royal Blue Quilt 10-top",
-          "url": "https://reverb.com/item/95510806-prs-custom-24-1988-royal-blue-quilt-10-top",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4995,
-          "min": 4995,
-          "max": 4995,
-          "avg": 4995
-        }
-      },
-      "avg": 4995
     },
     "yamaha-fg-770s-all-solid": {
       "displayName": "Yamaha FG-770S All Solid",
@@ -5448,6 +5465,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 36,
+      "sum": 100811.21000000002,
+      "sold": {
+        "count": 9,
+        "sum": 22148.8,
+        "avg": 2461,
+        "min": 1200,
+        "max": 3950
+      },
+      "avg": 2800,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 69,
       "sum": 254435.5,
@@ -5461,20 +5492,6 @@
       "avg": 3687,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 35,
-      "sum": 97611.21000000002,
-      "sold": {
-        "count": 9,
-        "sum": 22148.8,
-        "avg": 2461,
-        "min": 1200,
-        "max": 3950
-      },
-      "avg": 2789,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 13,
@@ -5566,8 +5583,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2797,
-      "count": 23
+      "avg": 2814,
+      "count": 24
     },
     "03": {
       "name": "Mar",
@@ -5652,7 +5669,7 @@
     "500-1k": 8,
     "1k-2k": 41,
     "2k-3k": 45,
-    "3k-5k": 37,
+    "3k-5k": 38,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -5661,20 +5678,20 @@
     "500-1k": 8,
     "1k-2k": 41,
     "2k-3k": 45,
-    "3k-5k": 37,
+    "3k-5k": 38,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 33,
+      "count": 15,
+      "avg": 2
+    },
     "Suhr": {
       "sum": 1,
       "count": 2,
       "avg": 1
-    },
-    "PRS": {
-      "sum": 33,
-      "count": 14,
-      "avg": 2
     },
     "Dean": {
       "sum": 0,
@@ -5938,7 +5955,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 23,
+    "2026-04-01": 24,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5947,7 +5964,7 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 144,
+    "reverb": 145,
     "marketplace": 17
   },
   "activeModelsCount": 143,
@@ -5962,7 +5979,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 12
+      "count": 13
     },
     {
       "username": "YellowJack6",
@@ -5995,9 +6012,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2797,
-    "pctBelowAvg": 36,
-    "count": 23
+    "avg": 2814,
+    "pctBelowAvg": 35,
+    "count": 24
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6012,9 +6029,9 @@
       "count": 15
     },
     "PRS": {
-      "avgPrice": 3420,
-      "avgDiscount": -144.3,
-      "count": 14
+      "avgPrice": 3406,
+      "avgDiscount": -143.3,
+      "count": 15
     },
     "Ibanez": {
       "avgPrice": 2960,
@@ -6518,11 +6535,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 515.9785219770531,
-      "count": 27,
-      "avgPctDrop": 19.1
+      "totalPctDrop": 524.5499505484818,
+      "count": 28,
+      "avgPctDrop": 18.7
     },
     "byBrand": {
+      "PRS": {
+        "totalPctDrop": 44.27161458333334,
+        "count": 3,
+        "avgPctDrop": 14.8
+      },
       "Music Man": {
         "totalPctDrop": 10.002632271650434,
         "count": 1,
@@ -6573,11 +6595,6 @@
         "count": 1,
         "avgPctDrop": 15
       },
-      "PRS": {
-        "totalPctDrop": 35.70018601190477,
-        "count": 2,
-        "avgPctDrop": 17.9
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -6612,15 +6629,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 150,
+      "total": 151,
       "sold": 45,
       "removed": 0,
-      "live": 105,
+      "live": 106,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "PRS": {
+        "total": 15,
+        "sold": 6,
+        "removed": 0,
+        "live": 9,
+        "soldPct": 40,
+        "removedPct": 0,
+        "livePct": 60
+      },
       "Suhr": {
         "total": 2,
         "sold": 0,
@@ -6629,15 +6655,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 14,
-        "sold": 6,
-        "removed": 0,
-        "live": 8,
-        "soldPct": 43,
-        "removedPct": 0,
-        "livePct": 57
       },
       "Dean": {
         "total": 2,
@@ -7110,8 +7127,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 41,
-    "totalOffers": 76,
+    "withOffers": 42,
+    "totalOffers": 78,
     "avgOffersPerListing": 1.9,
     "offersEnabledPct": 56
   },
