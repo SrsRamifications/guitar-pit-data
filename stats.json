@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T13:50:43.090Z",
-  "totalLinks": 145,
-  "totalWithPrice": 140,
+  "generatedAt": "2026-04-01T14:17:35.227Z",
+  "totalLinks": 146,
+  "totalWithPrice": 141,
   "overall": {
-    "count": 140,
-    "sum": 635104.78,
-    "avg": 4536,
+    "count": 141,
+    "sum": 635644.78,
+    "avg": 4508,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 133,
-    "sum": 363709.79,
-    "avg": 2735,
+    "count": 134,
+    "sum": 364249.79,
+    "avg": 2718,
     "min": 33,
     "max": 7999,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8350,
     "thresholdLow": 0,
     "count": 7,
     "items": [
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 7,
-      "sum": 19928.99,
-      "min": 1349.99,
+      "count": 8,
+      "sum": 20468.99,
+      "min": 540,
       "max": 4180,
-      "avg": 2847
+      "avg": 2559
     },
     "2026-03": {
       "count": 133,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 128,
-      "sum": 427298.8,
+      "count": 129,
+      "sum": 427838.8,
       "min": 33,
       "max": 35900,
-      "avg": 3338
+      "avg": 3317
     },
     "marketplace": {
       "count": 12,
@@ -113,11 +113,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 128,
-      "sum": 427298.8,
+      "count": 129,
+      "sum": 427838.8,
       "min": 33,
       "max": 35900,
-      "avg": 3338
+      "avg": 3317
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -170,6 +170,38 @@
     }
   },
   "byModel": {
+    "yamaha-fg-770s-all-solid": {
+      "displayName": "Yamaha FG-770S All Solid",
+      "brand": "Yamaha",
+      "model": "FG-770S All Solid",
+      "variant": null,
+      "count": 1,
+      "sum": 540,
+      "min": 540,
+      "max": 540,
+      "sightings": [
+        {
+          "price": 540,
+          "date": "2026-04-01T14:17:21.163Z",
+          "year": 1979,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
+          "url": "https://reverb.com/item/94393754-1979-yamaha-fg-770s-all-solid-wood-acoustic-guitar",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 540,
+          "min": 540,
+          "max": 540,
+          "avg": 540
+        }
+      },
+      "avg": 540
+    },
     "morgan-standard-usa": {
       "displayName": "Morgan Standard Usa",
       "brand": "Morgan",
@@ -4908,6 +4940,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 19,
+      "sum": 43055.63,
+      "sold": {
+        "count": 4,
+        "sum": 10005.48,
+        "avg": 2501,
+        "min": 1029.98,
+        "max": 4777.5
+      },
+      "avg": 2266,
+      "min": 414.62,
+      "max": 6500
+    },
     "Very Good": {
       "count": 34,
       "sum": 97636.21000000002,
@@ -4935,20 +4981,6 @@
       "avg": 3865,
       "min": 275,
       "max": 35900
-    },
-    "Good": {
-      "count": 18,
-      "sum": 42515.63,
-      "sold": {
-        "count": 4,
-        "sum": 10005.48,
-        "avg": 2501,
-        "min": 1029.98,
-        "max": 4777.5
-      },
-      "avg": 2362,
-      "min": 414.62,
-      "max": 6500
     },
     "Brand New": {
       "count": 12,
@@ -5026,8 +5058,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2847,
-      "count": 7
+      "avg": 2559,
+      "count": 8
     },
     "03": {
       "name": "Mar",
@@ -5102,7 +5134,7 @@
   ],
   "priceDistribution": {
     "0-500": 6,
-    "500-1k": 6,
+    "500-1k": 7,
     "1k-2k": 36,
     "2k-3k": 40,
     "3k-5k": 33,
@@ -5111,7 +5143,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 6,
-    "500-1k": 6,
+    "500-1k": 7,
     "1k-2k": 36,
     "2k-3k": 40,
     "3k-5k": 33,
@@ -5119,6 +5151,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Yamaha": {
+      "sum": 3,
+      "count": 2,
+      "avg": 2
+    },
     "Morgan": {
       "sum": 0,
       "count": 1,
@@ -5190,7 +5227,7 @@
       "avg": 2
     },
     "Music Man": {
-      "sum": 8,
+      "sum": 9,
       "count": 4,
       "avg": 2
     },
@@ -5260,11 +5297,6 @@
       "avg": 2
     },
     "Mayones": {
-      "sum": 3,
-      "count": 1,
-      "avg": 3
-    },
-    "Yamaha": {
       "sum": 3,
       "count": 1,
       "avg": 3
@@ -5381,7 +5413,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 7,
+    "2026-04-01": 8,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5390,10 +5422,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 129,
+    "reverb": 130,
     "marketplace": 16
   },
-  "activeModelsCount": 128,
+  "activeModelsCount": 129,
   "topPosters": [
     {
       "username": "GP",
@@ -5401,7 +5433,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 26
+      "count": 27
     },
     {
       "username": "WontonGG",
@@ -5438,9 +5470,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2847,
-    "pctBelowAvg": 37,
-    "count": 7
+    "avg": 2559,
+    "pctBelowAvg": 43,
+    "count": 8
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5920,11 +5952,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 450.4786552413454,
-      "count": 24,
-      "avgPctDrop": 18.8
+      "totalPctDrop": 458.9532315125318,
+      "count": 25,
+      "avgPctDrop": 18.4
     },
     "byBrand": {
+      "Yamaha": {
+        "totalPctDrop": 8.47457627118644,
+        "count": 1,
+        "avgPctDrop": 8.5
+      },
       "Echopark": {
         "totalPctDrop": 16.383276655331066,
         "count": 1,
@@ -6004,15 +6041,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 135,
+      "total": 136,
       "sold": 42,
       "removed": 0,
-      "live": 93,
+      "live": 94,
       "soldPct": 31,
       "removedPct": 0,
       "livePct": 69
     },
     "byBrand": {
+      "Yamaha": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Morgan": {
         "total": 1,
         "sold": 0,
@@ -6274,15 +6320,6 @@
         "removedPct": 0,
         "livePct": 100
       },
-      "Yamaha": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
-      },
       "Epiphone": {
         "total": 2,
         "sold": 0,
@@ -6484,13 +6521,13 @@
     }
   },
   "offerActivity": {
-    "withOffers": 36,
-    "totalOffers": 62,
+    "withOffers": 37,
+    "totalOffers": 64,
     "avgOffersPerListing": 1.7,
     "offersEnabledPct": 55
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 97
   }
 }
