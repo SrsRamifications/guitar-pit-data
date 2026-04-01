@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T14:19:53.219Z",
-  "totalLinks": 147,
-  "totalWithPrice": 142,
+  "generatedAt": "2026-04-01T15:29:01.635Z",
+  "totalLinks": 150,
+  "totalWithPrice": 145,
   "overall": {
-    "count": 142,
-    "sum": 640639.78,
-    "avg": 4512,
+    "count": 145,
+    "sum": 646488.78,
+    "avg": 4459,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 135,
-    "sum": 369244.79,
-    "avg": 2735,
+    "count": 138,
+    "sum": 375093.79,
+    "avg": 2718,
     "min": 33,
     "max": 7999,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8350,
     "thresholdLow": 0,
     "count": 7,
     "items": [
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 9,
-      "sum": 25463.99,
+      "count": 12,
+      "sum": 31312.99,
       "min": 540,
       "max": 4995,
-      "avg": 2829
+      "avg": 2609
     },
     "2026-03": {
       "count": 133,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 130,
-      "sum": 432833.8,
+      "count": 133,
+      "sum": 438682.8,
       "min": 33,
       "max": 35900,
-      "avg": 3329
+      "avg": 3298
     },
     "marketplace": {
       "count": 12,
@@ -113,11 +113,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 130,
-      "sum": 432833.8,
+      "count": 133,
+      "sum": 438682.8,
       "min": 33,
       "max": 35900,
-      "avg": 3329
+      "avg": 3298
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -170,6 +170,102 @@
     }
   },
   "byModel": {
+    "jackson-soloist-usa-select": {
+      "displayName": "Jackson Soloist Usa Select",
+      "brand": "Jackson",
+      "model": "Soloist",
+      "variant": "Usa Select",
+      "count": 1,
+      "sum": 2400,
+      "min": 2400,
+      "max": 2400,
+      "sightings": [
+        {
+          "price": 2400,
+          "date": "2026-04-01T15:28:44.403Z",
+          "year": 2020,
+          "modelYear": 2003,
+          "isReissue": true,
+          "title": "Jackson USA Select Series SL2H Soloist 2003 - 2020 - Black",
+          "url": "https://reverb.com/item/95578145-jackson-usa-select-series-sl2h-soloist-2003-2020-black",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2400,
+          "min": 2400,
+          "max": 2400,
+          "avg": 2400
+        }
+      },
+      "avg": 2400
+    },
+    "music-man-tosin-abasi-kaizen-signature": {
+      "displayName": "Music Man Tosin Abasi Kaizen Signature",
+      "brand": "Music Man",
+      "model": "Tosin Abasi Kaizen",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 2150,
+      "min": 2150,
+      "max": 2150,
+      "sightings": [
+        {
+          "price": 2150,
+          "date": "2026-04-01T15:28:44.403Z",
+          "year": 2023,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man Tosin Abasi Signature Kaizen 6 2023 - Present - Mint",
+          "url": "https://reverb.com/item/95586573-ernie-ball-music-man-tosin-abasi-signature-kaizen-6-2023-present-mint",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2150,
+          "min": 2150,
+          "max": 2150,
+          "avg": 2150
+        }
+      },
+      "avg": 2150
+    },
+    "eastman-sb56n-gd-goldtop-goldtop": {
+      "displayName": "Eastman SB56/N-GD Goldtop Goldtop",
+      "brand": "Eastman",
+      "model": "SB56/N-GD Goldtop",
+      "variant": "Goldtop",
+      "count": 1,
+      "sum": 1299,
+      "min": 1299,
+      "max": 1299,
+      "sightings": [
+        {
+          "price": 1299,
+          "date": "2026-04-01T15:28:44.403Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB56/N-GD - Goldtop",
+          "url": "https://reverb.com/item/95588529-eastman-sb56-n-gd-goldtop",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1299,
+          "min": 1299,
+          "max": 1299,
+          "avg": 1299
+        }
+      },
+      "avg": 1299
+    },
     "prs-custom-24-10-top": {
       "displayName": "PRS Custom 24 10-top",
       "brand": "PRS",
@@ -4972,23 +5068,9 @@
     }
   },
   "byCondition": {
-    "Excellent": {
-      "count": 60,
-      "sum": 233016.55,
-      "sold": {
-        "count": 22,
-        "sum": 99961.45,
-        "avg": 4544,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3884,
-      "min": 275,
-      "max": 35900
-    },
     "Good": {
-      "count": 19,
-      "sum": 43055.63,
+      "count": 20,
+      "sum": 45455.63,
       "sold": {
         "count": 4,
         "sum": 10005.48,
@@ -4996,9 +5078,23 @@
         "min": 1029.98,
         "max": 4777.5
       },
-      "avg": 2266,
+      "avg": 2273,
       "min": 414.62,
       "max": 6500
+    },
+    "Excellent": {
+      "count": 62,
+      "sum": 236465.55000000002,
+      "sold": {
+        "count": 22,
+        "sum": 99961.45,
+        "avg": 4544,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3814,
+      "min": 275,
+      "max": 35900
     },
     "Very Good": {
       "count": 34,
@@ -5090,8 +5186,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2829,
-      "count": 9
+      "avg": 2609,
+      "count": 12
     },
     "03": {
       "name": "Mar",
@@ -5167,8 +5263,8 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 7,
-    "1k-2k": 36,
-    "2k-3k": 40,
+    "1k-2k": 37,
+    "2k-3k": 42,
     "3k-5k": 34,
     "5k-10k": 13,
     "10k+": 6
@@ -5176,13 +5272,28 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 7,
-    "1k-2k": 36,
-    "2k-3k": 40,
+    "1k-2k": 37,
+    "2k-3k": 42,
     "3k-5k": 34,
     "5k-10k": 12,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Jackson": {
+      "sum": 25,
+      "count": 7,
+      "avg": 4
+    },
+    "Music Man": {
+      "sum": 11,
+      "count": 5,
+      "avg": 2
+    },
+    "Eastman": {
+      "sum": 2,
+      "count": 2,
+      "avg": 1
+    },
     "PRS": {
       "sum": 33,
       "count": 10,
@@ -5199,7 +5310,7 @@
       "avg": 0
     },
     "Charvel": {
-      "sum": 1,
+      "sum": 2,
       "count": 2,
       "avg": 1
     },
@@ -5209,7 +5320,7 @@
       "avg": 4
     },
     "Gibson": {
-      "sum": 50,
+      "sum": 52,
       "count": 15,
       "avg": 3
     },
@@ -5224,18 +5335,13 @@
       "avg": 2
     },
     "Fender": {
-      "sum": 31,
+      "sum": 32,
       "count": 9,
-      "avg": 3
+      "avg": 4
     },
     "Hamer": {
       "sum": 7,
       "count": 2,
-      "avg": 4
-    },
-    "Jackson": {
-      "sum": 24,
-      "count": 6,
       "avg": 4
     },
     "Ibanez": {
@@ -5263,11 +5369,6 @@
       "count": 2,
       "avg": 2
     },
-    "Music Man": {
-      "sum": 9,
-      "count": 4,
-      "avg": 2
-    },
     "Cornish": {
       "sum": 2,
       "count": 1,
@@ -5289,16 +5390,11 @@
       "avg": 2
     },
     "Kiesel": {
-      "sum": 25,
+      "sum": 26,
       "count": 7,
       "avg": 4
     },
     "Gretsch": {
-      "sum": 2,
-      "count": 1,
-      "avg": 2
-    },
-    "Eastman": {
       "sum": 2,
       "count": 1,
       "avg": 2
@@ -5324,9 +5420,9 @@
       "avg": 4
     },
     "Bedell": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Mayones": {
       "sum": 3,
@@ -5445,7 +5541,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 9,
+    "2026-04-01": 12,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5454,14 +5550,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 131,
+    "reverb": 134,
     "marketplace": 16
   },
-  "activeModelsCount": 130,
+  "activeModelsCount": 133,
   "topPosters": [
     {
       "username": "GP",
-      "count": 55
+      "count": 58
     },
     {
       "username": "Beijing Bob",
@@ -5502,9 +5598,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2829,
-    "pctBelowAvg": 37,
-    "count": 9
+    "avg": 2609,
+    "pctBelowAvg": 41,
+    "count": 12
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6078,15 +6174,42 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 137,
+      "total": 140,
       "sold": 42,
       "removed": 0,
-      "live": 95,
-      "soldPct": 31,
+      "live": 98,
+      "soldPct": 30,
       "removedPct": 0,
-      "livePct": 69
+      "livePct": 70
     },
     "byBrand": {
+      "Jackson": {
+        "total": 7,
+        "sold": 1,
+        "removed": 0,
+        "live": 6,
+        "soldPct": 14,
+        "removedPct": 0,
+        "livePct": 86
+      },
+      "Music Man": {
+        "total": 5,
+        "sold": 3,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 60,
+        "removedPct": 0,
+        "livePct": 40
+      },
+      "Eastman": {
+        "total": 2,
+        "sold": 1,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 50,
+        "removedPct": 0,
+        "livePct": 50
+      },
       "PRS": {
         "total": 10,
         "sold": 5,
@@ -6177,15 +6300,6 @@
         "removedPct": 0,
         "livePct": 100
       },
-      "Jackson": {
-        "total": 6,
-        "sold": 1,
-        "removed": 0,
-        "live": 5,
-        "soldPct": 17,
-        "removedPct": 0,
-        "livePct": 83
-      },
       "Ibanez": {
         "total": 10,
         "sold": 8,
@@ -6230,15 +6344,6 @@
         "soldPct": 100,
         "removedPct": 0,
         "livePct": 0
-      },
-      "Music Man": {
-        "total": 4,
-        "sold": 3,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 75,
-        "removedPct": 0,
-        "livePct": 25
       },
       "Cornish": {
         "total": 1,
@@ -6293,15 +6398,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Eastman": {
-        "total": 1,
-        "sold": 1,
-        "removed": 0,
-        "live": 0,
-        "soldPct": 100,
-        "removedPct": 0,
-        "livePct": 0
       },
       "Guild": {
         "total": 2,
@@ -6558,8 +6654,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 37,
-    "totalOffers": 64,
+    "withOffers": 38,
+    "totalOffers": 65,
     "avgOffersPerListing": 1.7,
     "offersEnabledPct": 56
   },
