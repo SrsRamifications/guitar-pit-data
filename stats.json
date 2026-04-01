@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-01T17:51:45.093Z",
-  "totalLinks": 156,
-  "totalWithPrice": 151,
+  "generatedAt": "2026-04-01T17:53:14.717Z",
+  "totalLinks": 157,
+  "totalWithPrice": 152,
   "overall": {
-    "count": 151,
-    "sum": 665306.78,
-    "avg": 4406,
+    "count": 152,
+    "sum": 667106.78,
+    "avg": 4389,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 143,
-    "sum": 385111.79,
-    "avg": 2693,
+    "count": 144,
+    "sum": 386911.79,
+    "avg": 2687,
     "min": 33,
     "max": 7999,
     "median": 2400
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 18,
-      "sum": 51080.99,
+      "count": 19,
+      "sum": 52880.99,
       "min": 540,
       "max": 8800,
-      "avg": 2838
+      "avg": 2783
     },
     "2026-03": {
       "count": 133,
@@ -104,35 +104,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 139,
+      "sum": 457401.8,
+      "min": 33,
+      "max": 35900,
+      "avg": 3291
+    },
     "marketplace": {
       "count": 13,
       "sum": 209704.98,
       "min": 929.99,
       "max": 99000,
       "avg": 16131
-    },
-    "reverb": {
-      "count": 138,
-      "sum": 455601.8,
-      "min": 33,
-      "max": 35900,
-      "avg": 3301
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 139,
+      "sum": 457401.8,
+      "min": 33,
+      "max": 35900,
+      "avg": 3291
+    },
     "eddiesguitars.com": {
       "count": 1,
       "sum": 1899,
       "min": 1899,
       "max": 1899,
       "avg": 1899
-    },
-    "reverb.com": {
-      "count": 138,
-      "sum": 455601.8,
-      "min": 33,
-      "max": 35900,
-      "avg": 3301
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -185,6 +185,38 @@
     }
   },
   "byModel": {
+    "prs-silver-sky-john-mayer-signature": {
+      "displayName": "PRS Silver Sky John Mayer Signature",
+      "brand": "PRS",
+      "model": "Silver Sky",
+      "variant": "John Mayer Signature",
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-04-01T17:53:00.319Z",
+          "year": 2019,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Silver Sky John Mayer Signature with Rosewood Fretboard 2019 - Present - Golden Mesa",
+          "url": "https://reverb.com/item/84772128-prs-silver-sky-john-mayer-signature-with-rosewood-fretboard-2019-present-golden-mesa",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
+    },
     "prs-silver-sky-john-mayer": {
       "displayName": "PRS Silver Sky John Mayer",
       "brand": "PRS",
@@ -5258,6 +5290,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 65,
+      "sum": 242990.55000000002,
+      "sold": {
+        "count": 22,
+        "sum": 99961.45,
+        "avg": 4544,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3738,
+      "min": 275,
+      "max": 35900
+    },
     "Very Good": {
       "count": 35,
       "sum": 97611.21000000002,
@@ -5285,20 +5331,6 @@
       "avg": 4322,
       "min": 135,
       "max": 9500
-    },
-    "Excellent": {
-      "count": 64,
-      "sum": 241190.55000000002,
-      "sold": {
-        "count": 22,
-        "sum": 99961.45,
-        "avg": 4544,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3769,
-      "min": 275,
-      "max": 35900
     },
     "Mint": {
       "count": 3,
@@ -5376,8 +5408,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2838,
-      "count": 18
+      "avg": 2783,
+      "count": 19
     },
     "03": {
       "name": "Mar",
@@ -5460,7 +5492,7 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 8,
-    "1k-2k": 39,
+    "1k-2k": 40,
     "2k-3k": 43,
     "3k-5k": 36,
     "5k-10k": 13,
@@ -5469,7 +5501,7 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 8,
-    "1k-2k": 39,
+    "1k-2k": 40,
     "2k-3k": 43,
     "3k-5k": 36,
     "5k-10k": 11,
@@ -5478,7 +5510,7 @@
   "daysOnMarket": {
     "PRS": {
       "sum": 33,
-      "count": 12,
+      "count": 13,
       "avg": 3
     },
     "Dean": {
@@ -5748,7 +5780,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 18,
+    "2026-04-01": 19,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5757,10 +5789,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "marketplace": 17,
-    "reverb": 139
+    "reverb": 140,
+    "marketplace": 17
   },
-  "activeModelsCount": 138,
+  "activeModelsCount": 139,
   "topPosters": [
     {
       "username": "GP",
@@ -5768,7 +5800,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 29
+      "count": 30
     },
     {
       "username": "WontonGG",
@@ -5805,9 +5837,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2838,
-    "pctBelowAvg": 36,
-    "count": 18
+    "avg": 2783,
+    "pctBelowAvg": 37,
+    "count": 19
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5817,9 +5849,9 @@
       "count": 15
     },
     "PRS": {
-      "avgPrice": 3690,
-      "avgDiscount": -163.6,
-      "count": 12
+      "avgPrice": 3545,
+      "avgDiscount": -153.2,
+      "count": 13
     },
     "Ibanez": {
       "avgPrice": 2960,
@@ -6401,23 +6433,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 145,
+      "total": 146,
       "sold": 43,
       "removed": 0,
-      "live": 102,
-      "soldPct": 30,
+      "live": 103,
+      "soldPct": 29,
       "removedPct": 0,
-      "livePct": 70
+      "livePct": 71
     },
     "byBrand": {
       "PRS": {
-        "total": 12,
+        "total": 13,
         "sold": 5,
         "removed": 0,
-        "live": 7,
-        "soldPct": 42,
+        "live": 8,
+        "soldPct": 38,
         "removedPct": 0,
-        "livePct": 58
+        "livePct": 62
       },
       "Dean": {
         "total": 1,
@@ -6899,10 +6931,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 38,
-    "totalOffers": 68,
+    "withOffers": 39,
+    "totalOffers": 72,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 55
+    "offersEnabledPct": 56
   },
   "shippingInsights": {
     "freeShippingPct": 0,
