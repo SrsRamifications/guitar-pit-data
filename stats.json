@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T05:11:27.039Z",
-  "totalLinks": 154,
-  "totalWithPrice": 142,
+  "generatedAt": "2026-04-01T05:12:29.845Z",
+  "totalLinks": 155,
+  "totalWithPrice": 143,
   "overall": {
-    "count": 142,
-    "sum": 640405.48,
-    "avg": 4510,
+    "count": 143,
+    "sum": 644585.48,
+    "avg": 4508,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 135,
-    "sum": 369010.49,
-    "avg": 2733,
+    "count": 136,
+    "sum": 373190.49,
+    "avg": 2744,
     "min": 33,
     "max": 7999,
-    "median": 2400
+    "median": 2413
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8650,
     "thresholdLow": 0,
     "count": 7,
     "items": [
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 4,
-      "sum": 10249.99,
+      "count": 5,
+      "sum": 14429.99,
       "min": 1349.99,
-      "max": 3700,
-      "avg": 2562
+      "max": 4180,
+      "avg": 2886
     },
     "2026-03": {
       "count": 138,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 125,
-      "sum": 417271.34,
+      "count": 126,
+      "sum": 421451.34,
       "min": 33,
       "max": 35900,
-      "avg": 3338
+      "avg": 3345
     },
     "marketplace": {
       "count": 12,
@@ -120,11 +120,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 125,
-      "sum": 417271.34,
+      "count": 126,
+      "sum": 421451.34,
       "min": 33,
       "max": 35900,
-      "avg": 3338
+      "avg": 3345
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -212,6 +212,36 @@
     }
   },
   "byModel": {
+    "echopark-la-carne-koa": {
+      "displayName": "Echopark La Carne Koa",
+      "brand": "Echopark",
+      "model": "La Carne Koa",
+      "variant": null,
+      "count": 1,
+      "sum": 4180,
+      "min": 4180,
+      "max": 4180,
+      "sightings": [
+        {
+          "price": 4180,
+          "date": "2026-04-01T05:12:16.480Z",
+          "year": 2017,
+          "title": "used 2017 Echopark La Carne Custom Koa in Sunburst, Excellent Condition with OHSC",
+          "url": "https://reverb.com/item/92489770-used-2017-echopark-la-carne-custom-koa-in-sunburst-excellent-condition-with-ohsc",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4180,
+          "min": 4180,
+          "max": 4180,
+          "avg": 4180
+        }
+      },
+      "avg": 4180
+    },
     "gibson-original": {
       "displayName": "Gibson Original",
       "brand": "Gibson",
@@ -4309,6 +4339,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 58,
+      "sum": 224521.55,
+      "sold": {
+        "count": 22,
+        "sum": 99961.45,
+        "avg": 4544,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3871,
+      "min": 275,
+      "max": 35900
+    },
     "Very Good": {
       "count": 33,
       "sum": 95637.21000000002,
@@ -4322,20 +4366,6 @@
       "avg": 2898,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 57,
-      "sum": 220341.55,
-      "sold": {
-        "count": 22,
-        "sum": 99961.45,
-        "avg": 4544,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3866,
-      "min": 275,
-      "max": 35900
     },
     "Good": {
       "count": 18,
@@ -4427,8 +4457,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2562,
-      "count": 4
+      "avg": 2886,
+      "count": 5
     },
     "03": {
       "name": "Mar",
@@ -4506,7 +4536,7 @@
     "500-1k": 6,
     "1k-2k": 35,
     "2k-3k": 41,
-    "3k-5k": 35,
+    "3k-5k": 36,
     "5k-10k": 12,
     "10k+": 6
   },
@@ -4515,11 +4545,16 @@
     "500-1k": 6,
     "1k-2k": 35,
     "2k-3k": 41,
-    "3k-5k": 35,
+    "3k-5k": 36,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 11,
+      "count": 4,
+      "avg": 3
+    },
     "Gibson": {
       "sum": 41,
       "count": 15,
@@ -4640,11 +4675,6 @@
       "count": 1,
       "avg": 2
     },
-    "Echopark": {
-      "sum": 11,
-      "count": 3,
-      "avg": 4
-    },
     "Yamaha": {
       "sum": 3,
       "count": 1,
@@ -4732,7 +4762,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 4,
+    "2026-04-01": 5,
     "2026-03-31": 21,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -4741,11 +4771,11 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 126,
+    "reverb": 127,
     "marketplace": 16,
     "news": 12
   },
-  "activeModelsCount": 120,
+  "activeModelsCount": 121,
   "topPosters": [
     {
       "username": "GP",
@@ -4757,7 +4787,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 13
+      "count": 14
     },
     {
       "username": "Shteefe",
@@ -4790,9 +4820,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2562,
-    "pctBelowAvg": 43,
-    "count": 4
+    "avg": 2886,
+    "pctBelowAvg": 36,
+    "count": 5
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5211,11 +5241,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 434.0953785860142,
-      "count": 23,
-      "avgPctDrop": 18.9
+      "totalPctDrop": 450.4786552413454,
+      "count": 24,
+      "avgPctDrop": 18.8
     },
     "byBrand": {
+      "Echopark": {
+        "totalPctDrop": 16.383276655331066,
+        "count": 1,
+        "avgPctDrop": 16.4
+      },
       "Gibson": {
         "totalPctDrop": 53.61661742787373,
         "count": 4,
@@ -5280,15 +5315,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 126,
+      "total": 127,
       "sold": 37,
       "removed": 0,
-      "live": 89,
+      "live": 90,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Echopark": {
+        "total": 4,
+        "sold": 1,
+        "removed": 0,
+        "live": 3,
+        "soldPct": 25,
+        "removedPct": 0,
+        "livePct": 75
+      },
       "Gibson": {
         "total": 18,
         "sold": 3,
@@ -5505,15 +5549,6 @@
         "removedPct": 0,
         "livePct": 100
       },
-      "Echopark": {
-        "total": 3,
-        "sold": 1,
-        "removed": 0,
-        "live": 2,
-        "soldPct": 33,
-        "removedPct": 0,
-        "livePct": 67
-      },
       "Yamaha": {
         "total": 1,
         "sold": 0,
@@ -5682,10 +5717,10 @@
     "withOffers": 35,
     "totalOffers": 61,
     "avgOffersPerListing": 1.7,
-    "offersEnabledPct": 55
+    "offersEnabledPct": 54
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 99
   }
 }
