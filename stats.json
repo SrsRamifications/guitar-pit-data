@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-01T13:41:45.900Z",
-  "totalLinks": 144,
-  "totalWithPrice": 139,
+  "generatedAt": "2026-04-01T13:43:48.808Z",
+  "totalLinks": 145,
+  "totalWithPrice": 140,
   "overall": {
-    "count": 139,
-    "sum": 633105.78,
-    "avg": 4555,
+    "count": 140,
+    "sum": 635104.78,
+    "avg": 4536,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 132,
-    "sum": 361710.79,
-    "avg": 2740,
+    "count": 133,
+    "sum": 363709.79,
+    "avg": 2735,
     "min": 33,
     "max": 7999,
-    "median": 2413
+    "median": 2400
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 6,
-      "sum": 17929.99,
+      "count": 7,
+      "sum": 19928.99,
       "min": 1349.99,
       "max": 4180,
-      "avg": 2988
+      "avg": 2847
     },
     "2026-03": {
       "count": 133,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 127,
-      "sum": 425299.8,
+      "count": 128,
+      "sum": 427298.8,
       "min": 33,
       "max": 35900,
-      "avg": 3349
+      "avg": 3338
     },
     "marketplace": {
       "count": 12,
@@ -113,11 +113,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 127,
-      "sum": 425299.8,
+      "count": 128,
+      "sum": 427298.8,
       "min": 33,
       "max": 35900,
-      "avg": 3349
+      "avg": 3338
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -170,6 +170,38 @@
     }
   },
   "byModel": {
+    "morgan-standard-usa": {
+      "displayName": "Morgan Standard Usa",
+      "brand": "Morgan",
+      "model": "Standard",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-04-01T13:43:35.179Z",
+          "year": 2014,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Morgan Electrics New Standard Double Cut Pro, USA 2014 - 2 Tone Sunburst",
+          "url": "https://reverb.com/item/94088927-morgan-electrics-new-standard-double-cut-pro-usa-2014-2-tone-sunburst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1999
+    },
     "charvel-so-cal-sparkle-custom-shop": {
       "displayName": "Charvel So Cal Sparkle Custom Shop",
       "brand": "Charvel",
@@ -4831,6 +4863,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 34,
+      "sum": 97636.21000000002,
+      "sold": {
+        "count": 7,
+        "sum": 16749.8,
+        "avg": 2393,
+        "min": 1200,
+        "max": 3950
+      },
+      "avg": 2872,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 59,
       "sum": 228021.55,
@@ -4844,20 +4890,6 @@
       "avg": 3865,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 33,
-      "sum": 95637.21000000002,
-      "sold": {
-        "count": 7,
-        "sum": 16749.8,
-        "avg": 2393,
-        "min": 1200,
-        "max": 3950
-      },
-      "avg": 2898,
-      "min": 33,
-      "max": 16500
     },
     "Good": {
       "count": 18,
@@ -4949,8 +4981,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2988,
-      "count": 6
+      "avg": 2847,
+      "count": 7
     },
     "03": {
       "name": "Mar",
@@ -5026,7 +5058,7 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 6,
-    "1k-2k": 35,
+    "1k-2k": 36,
     "2k-3k": 40,
     "3k-5k": 33,
     "5k-10k": 13,
@@ -5035,13 +5067,18 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 6,
-    "1k-2k": 35,
+    "1k-2k": 36,
     "2k-3k": 40,
     "3k-5k": 33,
     "5k-10k": 12,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Morgan": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Charvel": {
       "sum": 1,
       "count": 2,
@@ -5299,7 +5336,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 6,
+    "2026-04-01": 7,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5308,14 +5345,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 128,
+    "reverb": 129,
     "marketplace": 16
   },
-  "activeModelsCount": 127,
+  "activeModelsCount": 128,
   "topPosters": [
     {
       "username": "GP",
-      "count": 54
+      "count": 55
     },
     {
       "username": "Beijing Bob",
@@ -5356,9 +5393,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2988,
-    "pctBelowAvg": 34,
-    "count": 6
+    "avg": 2847,
+    "pctBelowAvg": 37,
+    "count": 7
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5891,15 +5928,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 134,
+      "total": 135,
       "sold": 39,
       "removed": 0,
-      "live": 95,
+      "live": 96,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Morgan": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Charvel": {
         "total": 2,
         "sold": 1,
