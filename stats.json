@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T14:17:35.227Z",
-  "totalLinks": 146,
-  "totalWithPrice": 141,
+  "generatedAt": "2026-04-01T14:19:53.219Z",
+  "totalLinks": 147,
+  "totalWithPrice": 142,
   "overall": {
-    "count": 141,
-    "sum": 635644.78,
-    "avg": 4508,
+    "count": 142,
+    "sum": 640639.78,
+    "avg": 4512,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 134,
-    "sum": 364249.79,
-    "avg": 2718,
+    "count": 135,
+    "sum": 369244.79,
+    "avg": 2735,
     "min": 33,
     "max": 7999,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8350,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 7,
     "items": [
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 8,
-      "sum": 20468.99,
+      "count": 9,
+      "sum": 25463.99,
       "min": 540,
-      "max": 4180,
-      "avg": 2559
+      "max": 4995,
+      "avg": 2829
     },
     "2026-03": {
       "count": 133,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 129,
-      "sum": 427838.8,
+      "count": 130,
+      "sum": 432833.8,
       "min": 33,
       "max": 35900,
-      "avg": 3317
+      "avg": 3329
     },
     "marketplace": {
       "count": 12,
@@ -113,11 +113,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 129,
-      "sum": 427838.8,
+      "count": 130,
+      "sum": 432833.8,
       "min": 33,
       "max": 35900,
-      "avg": 3317
+      "avg": 3329
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -170,6 +170,38 @@
     }
   },
   "byModel": {
+    "prs-custom-24-10-top": {
+      "displayName": "PRS Custom 24 10-top",
+      "brand": "PRS",
+      "model": "Custom 24",
+      "variant": "10-top",
+      "count": 1,
+      "sum": 4995,
+      "min": 4995,
+      "max": 4995,
+      "sightings": [
+        {
+          "price": 4995,
+          "date": "2026-04-01T14:19:39.339Z",
+          "year": 1988,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Custom 24 1988 - Royal Blue Quilt 10-top",
+          "url": "https://reverb.com/item/95510806-prs-custom-24-1988-royal-blue-quilt-10-top",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4995,
+          "min": 4995,
+          "max": 4995,
+          "avg": 4995
+        }
+      },
+      "avg": 4995
+    },
     "yamaha-fg-770s-all-solid": {
       "displayName": "Yamaha FG-770S All Solid",
       "brand": "Yamaha",
@@ -4940,6 +4972,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 60,
+      "sum": 233016.55,
+      "sold": {
+        "count": 22,
+        "sum": 99961.45,
+        "avg": 4544,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3884,
+      "min": 275,
+      "max": 35900
+    },
     "Good": {
       "count": 19,
       "sum": 43055.63,
@@ -4967,20 +5013,6 @@
       "avg": 2872,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 59,
-      "sum": 228021.55,
-      "sold": {
-        "count": 22,
-        "sum": 99961.45,
-        "avg": 4544,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3865,
-      "min": 275,
-      "max": 35900
     },
     "Brand New": {
       "count": 12,
@@ -5058,8 +5090,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2559,
-      "count": 8
+      "avg": 2829,
+      "count": 9
     },
     "03": {
       "name": "Mar",
@@ -5137,7 +5169,7 @@
     "500-1k": 7,
     "1k-2k": 36,
     "2k-3k": 40,
-    "3k-5k": 33,
+    "3k-5k": 34,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -5146,11 +5178,16 @@
     "500-1k": 7,
     "1k-2k": 36,
     "2k-3k": 40,
-    "3k-5k": 33,
+    "3k-5k": 34,
     "5k-10k": 12,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 33,
+      "count": 10,
+      "avg": 3
+    },
     "Yamaha": {
       "sum": 3,
       "count": 2,
@@ -5251,11 +5288,6 @@
       "count": 1,
       "avg": 2
     },
-    "PRS": {
-      "sum": 33,
-      "count": 9,
-      "avg": 4
-    },
     "Kiesel": {
       "sum": 25,
       "count": 7,
@@ -5272,7 +5304,7 @@
       "avg": 2
     },
     "Guild": {
-      "sum": 5,
+      "sum": 6,
       "count": 2,
       "avg": 3
     },
@@ -5413,7 +5445,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 8,
+    "2026-04-01": 9,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5422,10 +5454,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 130,
+    "reverb": 131,
     "marketplace": 16
   },
-  "activeModelsCount": 129,
+  "activeModelsCount": 130,
   "topPosters": [
     {
       "username": "GP",
@@ -5445,7 +5477,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 10
+      "count": 11
     },
     {
       "username": "Madero",
@@ -5470,9 +5502,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2559,
-    "pctBelowAvg": 43,
-    "count": 8
+    "avg": 2829,
+    "pctBelowAvg": 37,
+    "count": 9
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5480,6 +5512,11 @@
       "avgPrice": 3035,
       "avgDiscount": -153,
       "count": 15
+    },
+    "PRS": {
+      "avgPrice": 4051,
+      "avgDiscount": -189.4,
+      "count": 10
     },
     "Ibanez": {
       "avgPrice": 3035,
@@ -6041,15 +6078,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 136,
+      "total": 137,
       "sold": 42,
       "removed": 0,
-      "live": 94,
+      "live": 95,
       "soldPct": 31,
       "removedPct": 0,
       "livePct": 69
     },
     "byBrand": {
+      "PRS": {
+        "total": 10,
+        "sold": 5,
+        "removed": 0,
+        "live": 5,
+        "soldPct": 50,
+        "removedPct": 0,
+        "livePct": 50
+      },
       "Yamaha": {
         "total": 2,
         "sold": 0,
@@ -6229,15 +6275,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 9,
-        "sold": 5,
-        "removed": 0,
-        "live": 4,
-        "soldPct": 56,
-        "removedPct": 0,
-        "livePct": 44
       },
       "Kiesel": {
         "total": 7,
@@ -6524,7 +6561,7 @@
     "withOffers": 37,
     "totalOffers": 64,
     "avgOffersPerListing": 1.7,
-    "offersEnabledPct": 55
+    "offersEnabledPct": 56
   },
   "shippingInsights": {
     "freeShippingPct": 0,
