@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-01T17:46:02.023Z",
-  "totalLinks": 155,
-  "totalWithPrice": 150,
+  "generatedAt": "2026-04-01T17:51:45.093Z",
+  "totalLinks": 156,
+  "totalWithPrice": 151,
   "overall": {
-    "count": 150,
-    "sum": 663407.78,
-    "avg": 4423,
+    "count": 151,
+    "sum": 665306.78,
+    "avg": 4406,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 142,
-    "sum": 383212.79,
-    "avg": 2699,
+    "count": 143,
+    "sum": 385111.79,
+    "avg": 2693,
     "min": 33,
     "max": 7999,
     "median": 2400
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 17,
-      "sum": 49181.99,
+      "count": 18,
+      "sum": 51080.99,
       "min": 540,
       "max": 8800,
-      "avg": 2893
+      "avg": 2838
     },
     "2026-03": {
       "count": 133,
@@ -104,22 +104,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 13,
+      "sum": 209704.98,
+      "min": 929.99,
+      "max": 99000,
+      "avg": 16131
+    },
     "reverb": {
       "count": 138,
       "sum": 455601.8,
       "min": 33,
       "max": 35900,
       "avg": 3301
-    },
-    "marketplace": {
-      "count": 12,
-      "sum": 207805.98,
-      "min": 929.99,
-      "max": 99000,
-      "avg": 17317
     }
   },
   "byDomain": {
+    "eddiesguitars.com": {
+      "count": 1,
+      "sum": 1899,
+      "min": 1899,
+      "max": 1899,
+      "avg": 1899
+    },
     "reverb.com": {
       "count": 138,
       "sum": 455601.8,
@@ -178,6 +185,38 @@
     }
   },
   "byModel": {
+    "prs-silver-sky-john-mayer": {
+      "displayName": "PRS Silver Sky John Mayer",
+      "brand": "PRS",
+      "model": "Silver Sky",
+      "variant": "John Mayer",
+      "count": 1,
+      "sum": 1899,
+      "min": 1899,
+      "max": 1899,
+      "sightings": [
+        {
+          "price": 1899,
+          "date": "2026-04-01T17:51:29.695Z",
+          "year": 2023,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2023 - Paul Reed Smith Silver Sky John Mayer - Dodgem Blue",
+          "url": "https://eddiesguitars.com/product/sale/prs-new-old-stock-sale/paul-reed-smith-silver-sky-john-mayer-dodgem-blue-7",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 1899,
+          "min": 1899,
+          "max": 1899,
+          "avg": 1899
+        }
+      },
+      "avg": 1899
+    },
     "dean-explorer-baritone-limited": {
       "displayName": "Dean Explorer Baritone Limited",
       "brand": "Dean",
@@ -5337,8 +5376,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2893,
-      "count": 17
+      "avg": 2838,
+      "count": 18
     },
     "03": {
       "name": "Mar",
@@ -5421,7 +5460,7 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 8,
-    "1k-2k": 38,
+    "1k-2k": 39,
     "2k-3k": 43,
     "3k-5k": 36,
     "5k-10k": 13,
@@ -5430,13 +5469,18 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 8,
-    "1k-2k": 38,
+    "1k-2k": 39,
     "2k-3k": 43,
     "3k-5k": 36,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 33,
+      "count": 12,
+      "avg": 3
+    },
     "Dean": {
       "sum": 0,
       "count": 1,
@@ -5446,11 +5490,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "PRS": {
-      "sum": 33,
-      "count": 11,
-      "avg": 3
     },
     "Music Man": {
       "sum": 11,
@@ -5478,9 +5517,9 @@
       "avg": 0
     },
     "Charvel": {
-      "sum": 2,
+      "sum": 3,
       "count": 2,
-      "avg": 1
+      "avg": 2
     },
     "Echopark": {
       "sum": 15,
@@ -5488,14 +5527,14 @@
       "avg": 4
     },
     "Gibson": {
-      "sum": 54,
+      "sum": 55,
       "count": 15,
       "avg": 4
     },
     "ESP": {
-      "sum": 17,
+      "sum": 19,
       "count": 4,
-      "avg": 4
+      "avg": 5
     },
     "Millimetric": {
       "sum": 5,
@@ -5709,7 +5748,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 17,
+    "2026-04-01": 18,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5718,14 +5757,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 139,
-    "marketplace": 16
+    "marketplace": 17,
+    "reverb": 139
   },
-  "activeModelsCount": 137,
+  "activeModelsCount": 138,
   "topPosters": [
     {
       "username": "GP",
-      "count": 61
+      "count": 62
     },
     {
       "username": "Beijing Bob",
@@ -5766,9 +5805,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2893,
-    "pctBelowAvg": 35,
-    "count": 17
+    "avg": 2838,
+    "pctBelowAvg": 36,
+    "count": 18
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5778,9 +5817,9 @@
       "count": 15
     },
     "PRS": {
-      "avgPrice": 3853,
-      "avgDiscount": -175.2,
-      "count": 11
+      "avgPrice": 3690,
+      "avgDiscount": -163.6,
+      "count": 12
     },
     "Ibanez": {
       "avgPrice": 2960,
@@ -6362,15 +6401,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 144,
+      "total": 145,
       "sold": 43,
       "removed": 0,
-      "live": 101,
+      "live": 102,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "PRS": {
+        "total": 12,
+        "sold": 5,
+        "removed": 0,
+        "live": 7,
+        "soldPct": 42,
+        "removedPct": 0,
+        "livePct": 58
+      },
       "Dean": {
         "total": 1,
         "sold": 0,
@@ -6388,15 +6436,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 11,
-        "sold": 5,
-        "removed": 0,
-        "live": 6,
-        "soldPct": 45,
-        "removedPct": 0,
-        "livePct": 55
       },
       "Music Man": {
         "total": 6,
