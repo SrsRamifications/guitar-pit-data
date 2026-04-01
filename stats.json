@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T21:06:04.995Z",
-  "totalLinks": 168,
-  "totalWithPrice": 163,
+  "generatedAt": "2026-04-01T21:21:19.496Z",
+  "totalLinks": 169,
+  "totalWithPrice": 164,
   "overall": {
-    "count": 163,
-    "sum": 697716.69,
-    "avg": 4280,
+    "count": 164,
+    "sum": 702515.69,
+    "avg": 4284,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 155,
-    "sum": 417521.7,
-    "avg": 2694,
+    "count": 156,
+    "sum": 422320.7,
+    "avg": 2707,
     "min": 33,
     "max": 7999,
-    "median": 2400
+    "median": 2413
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8500,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 30,
-      "sum": 83490.9,
+      "count": 31,
+      "sum": 88289.9,
       "min": 165,
       "max": 8800,
-      "avg": 2783
+      "avg": 2848
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 150,
-      "sum": 488011.71,
+      "count": 151,
+      "sum": 492810.71,
       "min": 33,
       "max": 35900,
-      "avg": 3253
+      "avg": 3264
     },
     "marketplace": {
       "count": 13,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 150,
-      "sum": 488011.71,
+      "count": 151,
+      "sum": 492810.71,
       "min": 33,
       "max": 35900,
-      "avg": 3253
+      "avg": 3264
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -185,6 +185,38 @@
     }
   },
   "byModel": {
+    "washburn-solo": {
+      "displayName": "Washburn Solo",
+      "brand": "Washburn",
+      "model": "Solo",
+      "variant": null,
+      "count": 1,
+      "sum": 4799,
+      "min": 4799,
+      "max": 4799,
+      "sightings": [
+        {
+          "price": 4799,
+          "date": "2026-04-01T21:21:06.040Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Washburn 5257 Solo 1930s Tonk Brothers Acoustic",
+          "url": "https://reverb.com/item/95591128-washburn-5257-solo-1930s-tonk-brothers-acoustic",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 4799,
+          "min": 4799,
+          "max": 4799,
+          "avg": 4799
+        }
+      },
+      "avg": 4799
+    },
     "bc-rich-mockingbird-whardshell-case-usa": {
       "displayName": "BC Rich Mockingbird w/Hardshell Case Usa",
       "brand": "BC Rich",
@@ -5657,6 +5689,20 @@
     }
   },
   "byCondition": {
+    "Fair": {
+      "count": 4,
+      "sum": 12047,
+      "sold": {
+        "count": 1,
+        "sum": 4699,
+        "avg": 4699,
+        "min": 4699,
+        "max": 4699
+      },
+      "avg": 3012,
+      "min": 850,
+      "max": 4799
+    },
     "Good": {
       "count": 21,
       "sum": 49355.62,
@@ -5724,20 +5770,6 @@
       "min": 1049.99,
       "max": 5000
     },
-    "Fair": {
-      "count": 3,
-      "sum": 7248,
-      "sold": {
-        "count": 1,
-        "sum": 4699,
-        "avg": 4699,
-        "min": 4699,
-        "max": 4699
-      },
-      "avg": 2416,
-      "min": 850,
-      "max": 4699
-    },
     "Used": {
       "count": 5,
       "sum": 107958.99,
@@ -5775,8 +5807,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2783,
-      "count": 30
+      "avg": 2848,
+      "count": 31
     },
     "03": {
       "name": "Mar",
@@ -5861,7 +5893,7 @@
     "500-1k": 8,
     "1k-2k": 42,
     "2k-3k": 46,
-    "3k-5k": 41,
+    "3k-5k": 42,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -5870,11 +5902,16 @@
     "500-1k": 8,
     "1k-2k": 42,
     "2k-3k": 46,
-    "3k-5k": 41,
+    "3k-5k": 42,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Washburn": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "BC Rich": {
       "sum": 47,
       "count": 12,
@@ -6147,7 +6184,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 30,
+    "2026-04-01": 31,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -6156,10 +6193,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 151,
+    "reverb": 152,
     "marketplace": 17
   },
-  "activeModelsCount": 149,
+  "activeModelsCount": 150,
   "topPosters": [
     {
       "username": "GP",
@@ -6179,7 +6216,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 11
+      "count": 12
     },
     {
       "username": "Madero",
@@ -6204,9 +6241,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2783,
-    "pctBelowAvg": 35,
-    "count": 30
+    "avg": 2848,
+    "pctBelowAvg": 34,
+    "count": 31
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6821,15 +6858,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 157,
+      "total": 158,
       "sold": 45,
       "removed": 0,
-      "live": 112,
-      "soldPct": 29,
+      "live": 113,
+      "soldPct": 28,
       "removedPct": 0,
-      "livePct": 71
+      "livePct": 72
     },
     "byBrand": {
+      "Washburn": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "BC Rich": {
         "total": 12,
         "sold": 1,
