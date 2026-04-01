@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-01T15:32:08.594Z",
-  "totalLinks": 152,
-  "totalWithPrice": 147,
+  "generatedAt": "2026-04-01T15:37:07.508Z",
+  "totalLinks": 153,
+  "totalWithPrice": 148,
   "overall": {
-    "count": 147,
-    "sum": 652857.78,
-    "avg": 4441,
+    "count": 148,
+    "sum": 654732.78,
+    "avg": 4424,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 140,
-    "sum": 381462.79,
-    "avg": 2725,
+    "count": 141,
+    "sum": 383337.79,
+    "avg": 2719,
     "min": 33,
     "max": 7999,
     "median": 2400
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 14,
-      "sum": 37681.99,
+      "count": 15,
+      "sum": 39556.99,
       "min": 540,
       "max": 4995,
-      "avg": 2692
+      "avg": 2637
     },
     "2026-03": {
       "count": 133,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 135,
-      "sum": 445051.8,
+      "count": 136,
+      "sum": 446926.8,
       "min": 33,
       "max": 35900,
-      "avg": 3297
+      "avg": 3286
     },
     "marketplace": {
       "count": 12,
@@ -113,11 +113,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 135,
-      "sum": 445051.8,
+      "count": 136,
+      "sum": 446926.8,
       "min": 33,
       "max": 35900,
-      "avg": 3297
+      "avg": 3286
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -170,6 +170,38 @@
     }
   },
   "byModel": {
+    "prs-swamp-ash-special": {
+      "displayName": "PRS Swamp Ash Special",
+      "brand": "PRS",
+      "model": "Swamp Ash Special",
+      "variant": null,
+      "count": 1,
+      "sum": 1875,
+      "min": 1875,
+      "max": 1875,
+      "sightings": [
+        {
+          "price": 1875,
+          "date": "2026-04-01T15:36:52.988Z",
+          "year": 2025,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2025 PRS Swamp Ash Special",
+          "url": "https://reverb.com/item/95589141-2025-prs-swamp-ash-special",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1875,
+          "min": 1875,
+          "max": 1875,
+          "avg": 1875
+        }
+      },
+      "avg": 1875
+    },
     "music-man-kaizen-electric-guitar-limited-edition": {
       "displayName": "Music Man Kaizen Electric Guitar Limited Edition",
       "brand": "Music Man",
@@ -5100,6 +5132,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 64,
+      "sum": 241290.55000000002,
+      "sold": {
+        "count": 22,
+        "sum": 99961.45,
+        "avg": 4544,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3770,
+      "min": 275,
+      "max": 35900
+    },
     "Mint": {
       "count": 3,
       "sum": 9468.99,
@@ -5110,20 +5156,6 @@
       "avg": 3156,
       "min": 1049.99,
       "max": 5000
-    },
-    "Excellent": {
-      "count": 63,
-      "sum": 239415.55000000002,
-      "sold": {
-        "count": 22,
-        "sum": 99961.45,
-        "avg": 4544,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3800,
-      "min": 275,
-      "max": 35900
     },
     "Good": {
       "count": 20,
@@ -5218,8 +5250,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2692,
-      "count": 14
+      "avg": 2637,
+      "count": 15
     },
     "03": {
       "name": "Mar",
@@ -5295,7 +5327,7 @@
   "priceDistribution": {
     "0-500": 6,
     "500-1k": 7,
-    "1k-2k": 37,
+    "1k-2k": 38,
     "2k-3k": 43,
     "3k-5k": 35,
     "5k-10k": 13,
@@ -5304,13 +5336,18 @@
   "priceDistributionFiltered": {
     "0-500": 6,
     "500-1k": 7,
-    "1k-2k": 37,
+    "1k-2k": 38,
     "2k-3k": 43,
     "3k-5k": 35,
     "5k-10k": 12,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 33,
+      "count": 11,
+      "avg": 3
+    },
     "Music Man": {
       "sum": 11,
       "count": 6,
@@ -5325,11 +5362,6 @@
       "sum": 2,
       "count": 2,
       "avg": 1
-    },
-    "PRS": {
-      "sum": 33,
-      "count": 10,
-      "avg": 3
     },
     "Yamaha": {
       "sum": 3,
@@ -5573,7 +5605,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 14,
+    "2026-04-01": 15,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -5582,14 +5614,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 136,
+    "reverb": 137,
     "marketplace": 16
   },
-  "activeModelsCount": 134,
+  "activeModelsCount": 135,
   "topPosters": [
     {
       "username": "GP",
-      "count": 59
+      "count": 60
     },
     {
       "username": "Beijing Bob",
@@ -5630,9 +5662,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2692,
-    "pctBelowAvg": 39,
-    "count": 14
+    "avg": 2637,
+    "pctBelowAvg": 40,
+    "count": 15
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -5642,9 +5674,9 @@
       "count": 15
     },
     "PRS": {
-      "avgPrice": 4051,
-      "avgDiscount": -189.4,
-      "count": 10
+      "avgPrice": 3853,
+      "avgDiscount": -175.2,
+      "count": 11
     },
     "Ibanez": {
       "avgPrice": 3035,
@@ -6211,15 +6243,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 141,
+      "total": 142,
       "sold": 42,
       "removed": 0,
-      "live": 99,
+      "live": 100,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "PRS": {
+        "total": 11,
+        "sold": 5,
+        "removed": 0,
+        "live": 6,
+        "soldPct": 45,
+        "removedPct": 0,
+        "livePct": 55
+      },
       "Music Man": {
         "total": 6,
         "sold": 3,
@@ -6243,15 +6284,6 @@
         "sold": 1,
         "removed": 0,
         "live": 1,
-        "soldPct": 50,
-        "removedPct": 0,
-        "livePct": 50
-      },
-      "PRS": {
-        "total": 10,
-        "sold": 5,
-        "removed": 0,
-        "live": 5,
         "soldPct": 50,
         "removedPct": 0,
         "livePct": 50
@@ -6694,10 +6726,10 @@
     "withOffers": 38,
     "totalOffers": 65,
     "avgOffersPerListing": 1.7,
-    "offersEnabledPct": 57
+    "offersEnabledPct": 56
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 97
+    "avgShippingCost": 96
   }
 }
