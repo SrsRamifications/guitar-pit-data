@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-01T20:10:56.412Z",
-  "totalLinks": 164,
-  "totalWithPrice": 159,
+  "generatedAt": "2026-04-01T20:14:45.538Z",
+  "totalLinks": 165,
+  "totalWithPrice": 160,
   "overall": {
-    "count": 159,
-    "sum": 686216.72,
-    "avg": 4316,
+    "count": 160,
+    "sum": 688716.71,
+    "avg": 4304,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 151,
-    "sum": 406021.73,
-    "avg": 2689,
+    "count": 152,
+    "sum": 408521.72,
+    "avg": 2688,
     "min": 33,
     "max": 7999,
     "median": 2400
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 26,
-      "sum": 71990.93,
+      "count": 27,
+      "sum": 74490.92,
       "min": 165,
       "max": 8800,
-      "avg": 2769
+      "avg": 2759
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 146,
-      "sum": 476511.74,
+      "count": 147,
+      "sum": 479011.73,
       "min": 33,
       "max": 35900,
-      "avg": 3264
+      "avg": 3259
     },
     "marketplace": {
       "count": 13,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 146,
-      "sum": 476511.74,
+      "count": 147,
+      "sum": 479011.73,
       "min": 33,
       "max": 35900,
-      "avg": 3264
+      "avg": 3259
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -185,6 +185,38 @@
     }
   },
   "byModel": {
+    "prs-standard-satin": {
+      "displayName": "PRS Standard Satin",
+      "brand": "PRS",
+      "model": "Standard",
+      "variant": "Satin",
+      "count": 1,
+      "sum": 2499.99,
+      "min": 2499.99,
+      "max": 2499.99,
+      "sightings": [
+        {
+          "price": 2499.99,
+          "date": "2026-04-01T20:14:31.968Z",
+          "year": 2025,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Standard 24 Satin Pearl White 2025 w/OHSC",
+          "url": "https://reverb.com/item/94838766-prs-standard-24-satin-pearl-white-2025-w-ohsc",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2499.99,
+          "min": 2499.99,
+          "max": 2499.99,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "epiphone-gt-special-model": {
       "displayName": "Epiphone GT Special Model",
       "brand": "Epiphone",
@@ -5529,6 +5561,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 70,
+      "sum": 256935.49,
+      "sold": {
+        "count": 23,
+        "sum": 102461.45,
+        "avg": 4455,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3671,
+      "min": 275,
+      "max": 35900
+    },
     "Very Good": {
       "count": 38,
       "sum": 105276.20000000001,
@@ -5542,20 +5588,6 @@
       "avg": 2770,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 69,
-      "sum": 254435.5,
-      "sold": {
-        "count": 23,
-        "sum": 102461.45,
-        "avg": 4455,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3687,
-      "min": 275,
-      "max": 35900
     },
     "Brand New": {
       "count": 13,
@@ -5647,8 +5679,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2769,
-      "count": 26
+      "avg": 2759,
+      "count": 27
     },
     "03": {
       "name": "Mar",
@@ -5732,7 +5764,7 @@
     "0-500": 7,
     "500-1k": 8,
     "1k-2k": 41,
-    "2k-3k": 45,
+    "2k-3k": 46,
     "3k-5k": 39,
     "5k-10k": 13,
     "10k+": 6
@@ -5741,12 +5773,17 @@
     "0-500": 7,
     "500-1k": 8,
     "1k-2k": 41,
-    "2k-3k": 45,
+    "2k-3k": 46,
     "3k-5k": 39,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 33,
+      "count": 16,
+      "avg": 2
+    },
     "Epiphone": {
       "sum": 8,
       "count": 3,
@@ -5756,11 +5793,6 @@
       "sum": 55,
       "count": 16,
       "avg": 3
-    },
-    "PRS": {
-      "sum": 33,
-      "count": 15,
-      "avg": 2
     },
     "Suhr": {
       "sum": 1,
@@ -6019,7 +6051,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 26,
+    "2026-04-01": 27,
     "2026-03-31": 18,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -6028,10 +6060,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 147,
+    "reverb": 148,
     "marketplace": 17
   },
-  "activeModelsCount": 145,
+  "activeModelsCount": 146,
   "topPosters": [
     {
       "username": "GP",
@@ -6042,11 +6074,11 @@
       "count": 30
     },
     {
-      "username": "YellowJack6",
-      "count": 13
+      "username": "WontonGG",
+      "count": 14
     },
     {
-      "username": "WontonGG",
+      "username": "YellowJack6",
       "count": 13
     },
     {
@@ -6076,9 +6108,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2769,
+    "avg": 2759,
     "pctBelowAvg": 36,
-    "count": 26
+    "count": 27
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6093,9 +6125,9 @@
       "count": 16
     },
     "PRS": {
-      "avgPrice": 3406,
-      "avgDiscount": -143.3,
-      "count": 15
+      "avgPrice": 3349,
+      "avgDiscount": -139.2,
+      "count": 16
     },
     "Ibanez": {
       "avgPrice": 2960,
@@ -6693,15 +6725,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 153,
+      "total": 154,
       "sold": 45,
       "removed": 0,
-      "live": 108,
+      "live": 109,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "PRS": {
+        "total": 16,
+        "sold": 6,
+        "removed": 0,
+        "live": 10,
+        "soldPct": 38,
+        "removedPct": 0,
+        "livePct": 63
+      },
       "Epiphone": {
         "total": 3,
         "sold": 0,
@@ -6719,15 +6760,6 @@
         "soldPct": 22,
         "removedPct": 0,
         "livePct": 78
-      },
-      "PRS": {
-        "total": 15,
-        "sold": 6,
-        "removed": 0,
-        "live": 9,
-        "soldPct": 40,
-        "removedPct": 0,
-        "livePct": 60
       },
       "Suhr": {
         "total": 2,
@@ -7191,10 +7223,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 43,
-    "totalOffers": 79,
+    "withOffers": 44,
+    "totalOffers": 81,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 56
+    "offersEnabledPct": 57
   },
   "shippingInsights": {
     "freeShippingPct": 0,
