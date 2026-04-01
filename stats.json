@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T13:43:48.808Z",
+  "generatedAt": "2026-04-01T13:50:43.090Z",
   "totalLinks": 145,
   "totalWithPrice": 140,
   "overall": {
@@ -296,6 +296,21 @@
           "avg": 1800
         }
       },
+      "soldData": {
+        "count": 1,
+        "avg": 1800,
+        "min": 1800,
+        "max": 1800,
+        "prices": [
+          {
+            "price": 1800,
+            "askingPrice": 1800,
+            "date": "2026-04-01T13:46:55.476Z",
+            "title": "1991 Gibson M-III Deluxe 100% Original Very Good Condition (226)",
+            "url": "https://reverb.com/item/95580696-1991-gibson-m-iii-deluxe-100-original-very-good-condition-226"
+          }
+        ]
+      },
       "avg": 1800
     },
     "gibson-flying-v": {
@@ -566,6 +581,21 @@
           "max": 3599,
           "avg": 3599
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 3599,
+        "min": 3599,
+        "max": 3599,
+        "prices": [
+          {
+            "price": 3599,
+            "askingPrice": 3599,
+            "date": "2026-04-01T13:47:11.397Z",
+            "title": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
+            "url": "https://reverb.com/item/95573183-ibanez-jem-777sk-1988-shocking-pink-repaint-read"
+          }
+        ]
       },
       "avg": 3599
     },
@@ -1554,6 +1584,21 @@
           "max": 1029.98,
           "avg": 1030
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1030,
+        "min": 1029.98,
+        "max": 1029.98,
+        "prices": [
+          {
+            "price": 1029.98,
+            "askingPrice": 1029.98,
+            "date": "2026-04-01T13:47:59.367Z",
+            "title": "Tokai ST55 Springy Sound Stratocaster 1980 - Metallic Red Matching Headstock",
+            "url": "https://reverb.com/item/93357830-tokai-st55-springy-sound-stratocaster-1980-metallic-red-matching-headstock"
+          }
+        ]
       },
       "avg": 1030
     },
@@ -4867,9 +4912,9 @@
       "count": 34,
       "sum": 97636.21000000002,
       "sold": {
-        "count": 7,
-        "sum": 16749.8,
-        "avg": 2393,
+        "count": 9,
+        "sum": 22148.8,
+        "avg": 2461,
         "min": 1200,
         "max": 3950
       },
@@ -4895,10 +4940,10 @@
       "count": 18,
       "sum": 42515.63,
       "sold": {
-        "count": 3,
-        "sum": 8975.5,
-        "avg": 2992,
-        "min": 1799,
+        "count": 4,
+        "sum": 10005.48,
+        "avg": 2501,
+        "min": 1029.98,
         "max": 4777.5
       },
       "avg": 2362,
@@ -5095,14 +5140,14 @@
       "avg": 3
     },
     "ESP": {
-      "sum": 15,
+      "sum": 16,
       "count": 4,
       "avg": 4
     },
     "Millimetric": {
-      "sum": 4,
+      "sum": 5,
       "count": 3,
-      "avg": 1
+      "avg": 2
     },
     "Fender": {
       "sum": 31,
@@ -5411,19 +5456,27 @@
     }
   },
   "soldPrices": {
-    "count": 40,
-    "avg": 3925,
+    "count": 43,
+    "avg": 3801,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 37,
-      "count": 39,
+      "totalDays": 40,
+      "count": 42,
       "avgDays": 1
     },
     "byModel": {
+      "gibson-original": {
+        "displayName": "Gibson Original",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
       "fender-mustang": {
         "displayName": "Fender Mustang",
         "totalDays": 0,
@@ -5431,6 +5484,14 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
+      },
+      "ibanez-jem": {
+        "displayName": "Ibanez JEM",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
       },
       "friedman-metro-wnatural-back": {
         "displayName": "Friedman Metro w/Natural Back",
@@ -5479,6 +5540,14 @@
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
+      },
+      "tokai-stratocaster": {
+        "displayName": "Tokai Stratocaster",
+        "totalDays": 2,
+        "count": 1,
+        "fastest": 2,
+        "slowest": 2,
+        "avgDays": 2
       },
       "friedman-vintage-t-teal-medium": {
         "displayName": "Friedman Vintage-T Teal Medium",
@@ -5714,12 +5783,26 @@
       }
     },
     "byBrand": {
+      "Gibson": {
+        "totalDays": 3,
+        "count": 4,
+        "fastest": 0,
+        "slowest": 2,
+        "avgDays": 1
+      },
       "Fender": {
         "totalDays": 6,
         "count": 5,
         "fastest": 0,
         "slowest": 3,
         "avgDays": 1
+      },
+      "Ibanez": {
+        "totalDays": 12,
+        "count": 8,
+        "fastest": 0,
+        "slowest": 4,
+        "avgDays": 2
       },
       "Friedman": {
         "totalDays": 2,
@@ -5742,19 +5825,19 @@
         "slowest": 1,
         "avgDays": 0
       },
-      "Gibson": {
-        "totalDays": 3,
-        "count": 3,
-        "fastest": 0,
-        "slowest": 2,
-        "avgDays": 1
-      },
       "Eastman": {
         "totalDays": 1,
         "count": 1,
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
+      },
+      "Tokai": {
+        "totalDays": 2,
+        "count": 1,
+        "fastest": 2,
+        "slowest": 2,
+        "avgDays": 2
       },
       "Kiesel": {
         "totalDays": 2,
@@ -5775,13 +5858,6 @@
         "count": 1,
         "fastest": 2,
         "slowest": 2,
-        "avgDays": 2
-      },
-      "Ibanez": {
-        "totalDays": 11,
-        "count": 7,
-        "fastest": 0,
-        "slowest": 4,
         "avgDays": 2
       },
       "Powers Electric": {
@@ -5929,12 +6005,12 @@
   "sellThrough": {
     "overall": {
       "total": 135,
-      "sold": 39,
+      "sold": 42,
       "removed": 0,
-      "live": 96,
-      "soldPct": 29,
+      "live": 93,
+      "soldPct": 31,
       "removedPct": 0,
-      "livePct": 71
+      "livePct": 69
     },
     "byBrand": {
       "Morgan": {
@@ -5966,12 +6042,12 @@
       },
       "Gibson": {
         "total": 17,
-        "sold": 3,
+        "sold": 4,
         "removed": 0,
-        "live": 14,
-        "soldPct": 18,
+        "live": 13,
+        "soldPct": 24,
         "removedPct": 0,
-        "livePct": 82
+        "livePct": 76
       },
       "ESP": {
         "total": 4,
@@ -6020,12 +6096,12 @@
       },
       "Ibanez": {
         "total": 10,
-        "sold": 7,
+        "sold": 8,
         "removed": 0,
-        "live": 3,
-        "soldPct": 70,
+        "live": 2,
+        "soldPct": 80,
         "removedPct": 0,
-        "livePct": 30
+        "livePct": 20
       },
       "Xotic": {
         "total": 1,
@@ -6164,12 +6240,12 @@
       },
       "Tokai": {
         "total": 1,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
-        "live": 1,
-        "soldPct": 0,
+        "live": 0,
+        "soldPct": 100,
         "removedPct": 0,
-        "livePct": 100
+        "livePct": 0
       },
       "BC Rich": {
         "total": 11,
