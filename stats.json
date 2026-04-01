@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-01T04:56:13.265Z",
-  "totalLinks": 153,
-  "totalWithPrice": 141,
+  "generatedAt": "2026-04-01T04:56:24.811Z",
+  "totalLinks": 154,
+  "totalWithPrice": 142,
   "overall": {
-    "count": 141,
-    "sum": 638605.48,
-    "avg": 4529,
+    "count": 142,
+    "sum": 640405.48,
+    "avg": 4510,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 134,
-    "sum": 367210.49,
-    "avg": 2740,
+    "count": 135,
+    "sum": 369010.49,
+    "avg": 2733,
     "min": 33,
     "max": 7999,
-    "median": 2413
+    "median": 2400
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -81,11 +81,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 3,
-      "sum": 8449.99,
+      "count": 4,
+      "sum": 10249.99,
       "min": 1349.99,
       "max": 3700,
-      "avg": 2817
+      "avg": 2562
     },
     "2026-03": {
       "count": 138,
@@ -97,11 +97,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 124,
-      "sum": 415471.34,
+      "count": 125,
+      "sum": 417271.34,
       "min": 33,
       "max": 35900,
-      "avg": 3351
+      "avg": 3338
     },
     "marketplace": {
       "count": 12,
@@ -120,11 +120,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 124,
-      "sum": 415471.34,
+      "count": 125,
+      "sum": 417271.34,
       "min": 33,
       "max": 35900,
-      "avg": 3351
+      "avg": 3338
     },
     "chicagomusicexchange.com": {
       "count": 5,
@@ -212,6 +212,36 @@
     }
   },
   "byModel": {
+    "gibson-original": {
+      "displayName": "Gibson Original",
+      "brand": "Gibson",
+      "model": "Original",
+      "variant": null,
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-04-01T04:56:11.538Z",
+          "year": 1991,
+          "title": "1991 Gibson M-III Deluxe 100% Original Very Good Condition (226)",
+          "url": "https://reverb.com/item/95580696-1991-gibson-m-iii-deluxe-100-original-very-good-condition-226",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
+    },
     "gibson-flying-v": {
       "displayName": "Gibson Flying V",
       "brand": "Gibson",
@@ -4279,6 +4309,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 33,
+      "sum": 95637.21000000002,
+      "sold": {
+        "count": 7,
+        "sum": 16749.8,
+        "avg": 2393,
+        "min": 1200,
+        "max": 3950
+      },
+      "avg": 2898,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 57,
       "sum": 220341.55,
@@ -4306,20 +4350,6 @@
       "avg": 2362,
       "min": 414.62,
       "max": 6500
-    },
-    "Very Good": {
-      "count": 32,
-      "sum": 93837.21000000002,
-      "sold": {
-        "count": 7,
-        "sum": 16749.8,
-        "avg": 2393,
-        "min": 1200,
-        "max": 3950
-      },
-      "avg": 2932,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 12,
@@ -4397,8 +4427,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2817,
-      "count": 3
+      "avg": 2562,
+      "count": 4
     },
     "03": {
       "name": "Mar",
@@ -4474,7 +4504,7 @@
   "priceDistribution": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 34,
+    "1k-2k": 35,
     "2k-3k": 41,
     "3k-5k": 35,
     "5k-10k": 12,
@@ -4483,7 +4513,7 @@
   "priceDistributionFiltered": {
     "0-500": 7,
     "500-1k": 6,
-    "1k-2k": 34,
+    "1k-2k": 35,
     "2k-3k": 41,
     "3k-5k": 35,
     "5k-10k": 11,
@@ -4492,7 +4522,7 @@
   "daysOnMarket": {
     "Gibson": {
       "sum": 41,
-      "count": 14,
+      "count": 15,
       "avg": 3
     },
     "ESP": {
@@ -4702,7 +4732,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-01": 3,
+    "2026-04-01": 4,
     "2026-03-31": 21,
     "2026-03-30": 29,
     "2026-03-29": 17,
@@ -4711,15 +4741,15 @@
     "2026-03-26": 9
   },
   "categoryDistribution": {
-    "reverb": 125,
+    "reverb": 126,
     "marketplace": 16,
     "news": 12
   },
-  "activeModelsCount": 119,
+  "activeModelsCount": 120,
   "topPosters": [
     {
       "username": "GP",
-      "count": 56
+      "count": 57
     },
     {
       "username": "Beijing Bob",
@@ -4760,16 +4790,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2817,
-    "pctBelowAvg": 38,
-    "count": 3
+    "avg": 2562,
+    "pctBelowAvg": 43,
+    "count": 4
   },
   "topVoted": [],
   "discountFromRetail": {
     "Gibson": {
-      "avgPrice": 3124,
-      "avgDiscount": -160.3,
-      "count": 14
+      "avgPrice": 3035,
+      "avgDiscount": -153,
+      "count": 15
     },
     "Ibanez": {
       "avgPrice": 2950,
@@ -5250,23 +5280,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 125,
+      "total": 126,
       "sold": 37,
       "removed": 0,
-      "live": 88,
-      "soldPct": 30,
+      "live": 89,
+      "soldPct": 29,
       "removedPct": 0,
-      "livePct": 70
+      "livePct": 71
     },
     "byBrand": {
       "Gibson": {
-        "total": 17,
+        "total": 18,
         "sold": 3,
         "removed": 0,
-        "live": 14,
-        "soldPct": 18,
+        "live": 15,
+        "soldPct": 17,
         "removedPct": 0,
-        "livePct": 82
+        "livePct": 83
       },
       "ESP": {
         "total": 5,
