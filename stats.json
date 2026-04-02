@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T00:17:59.305Z",
-  "totalLinks": 171,
-  "totalWithPrice": 166,
+  "generatedAt": "2026-04-02T00:51:07.799Z",
+  "totalLinks": 173,
+  "totalWithPrice": 168,
   "overall": {
-    "count": 166,
-    "sum": 710705.68,
-    "avg": 4281,
+    "count": 168,
+    "sum": 716850.68,
+    "avg": 4267,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 158,
-    "sum": 430510.69,
-    "avg": 2725,
+    "count": 160,
+    "sum": 436655.69,
+    "avg": 2729,
     "min": 33,
     "max": 7999,
-    "median": 2438
+    "median": 2468
   },
   "outliers": {
     "thresholdHigh": 8500,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 33,
-      "sum": 96779.89,
+      "count": 35,
+      "sum": 102924.89,
       "min": 165,
       "max": 8800,
-      "avg": 2933
+      "avg": 2941
     },
     "2026-03": {
       "count": 133,
@@ -104,35 +104,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 154,
+      "sum": 502145.71,
+      "min": 33,
+      "max": 35900,
+      "avg": 3261
+    },
     "marketplace": {
       "count": 14,
       "sum": 214704.97,
       "min": 929.99,
       "max": 99000,
       "avg": 15336
-    },
-    "reverb": {
-      "count": 152,
-      "sum": 496000.71,
-      "min": 33,
-      "max": 35900,
-      "avg": 3263
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 154,
+      "sum": 502145.71,
+      "min": 33,
+      "max": 35900,
+      "avg": 3261
+    },
     "guitarcenter.com": {
       "count": 3,
       "sum": 8168.98,
       "min": 1169.99,
       "max": 4999.99,
       "avg": 2723
-    },
-    "reverb.com": {
-      "count": 152,
-      "sum": 496000.71,
-      "min": 33,
-      "max": 35900,
-      "avg": 3263
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -185,6 +185,70 @@
     }
   },
   "byModel": {
+    "fender-original": {
+      "displayName": "Fender Original",
+      "brand": "Fender",
+      "model": "Original",
+      "variant": null,
+      "count": 1,
+      "sum": 2850,
+      "min": 2850,
+      "max": 2850,
+      "sightings": [
+        {
+          "price": 2850,
+          "date": "2026-04-02T00:50:49.827Z",
+          "year": 1957,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1957 Fender Duo Sonic Vintage Guitar w Original Case | Birdseye Maple Neck!",
+          "url": "https://reverb.com/item/95596296-1957-fender-duo-sonic-vintage-guitar-w-original-case-birdseye-maple-neck",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2850,
+          "min": 2850,
+          "max": 2850,
+          "avg": 2850
+        }
+      },
+      "avg": 2850
+    },
+    "prs-rg-10-top": {
+      "displayName": "PRS RG 10-top",
+      "brand": "PRS",
+      "model": "RG",
+      "variant": "10-top",
+      "count": 1,
+      "sum": 3295,
+      "min": 3295,
+      "max": 3295,
+      "sightings": [
+        {
+          "price": 3295,
+          "date": "2026-04-02T00:50:53.787Z",
+          "year": 2024,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Paul's Guitar 10-top, 2024, OHSC & paperwork, Gorgeous",
+          "url": "https://reverb.com/item/95595681-prs-paul-s-guitar-10-top-2024-ohsc-paperwork-gorgeous",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3295,
+          "min": 3295,
+          "max": 3295,
+          "avg": 3295
+        }
+      },
+      "avg": 3295
+    },
     "acoustic-pre-war-slope-shoulder": {
       "displayName": "Acoustic Pre-war Slope Shoulder",
       "brand": "Acoustic",
@@ -5766,6 +5830,34 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 41,
+      "sum": 113226.19000000002,
+      "sold": {
+        "count": 11,
+        "sum": 27498.78,
+        "avg": 2500,
+        "min": 1200,
+        "max": 3999.99
+      },
+      "avg": 2762,
+      "min": 33,
+      "max": 16500
+    },
+    "Excellent": {
+      "count": 71,
+      "sum": 260030.49,
+      "sold": {
+        "count": 24,
+        "sum": 102811.45,
+        "avg": 4284,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3662,
+      "min": 275,
+      "max": 35900
+    },
     "Used": {
       "count": 6,
       "sum": 112958.98,
@@ -5816,34 +5908,6 @@
       "min": 414.62,
       "max": 6500
     },
-    "Very Good": {
-      "count": 40,
-      "sum": 110376.19000000002,
-      "sold": {
-        "count": 11,
-        "sum": 27498.78,
-        "avg": 2500,
-        "min": 1200,
-        "max": 3999.99
-      },
-      "avg": 2759,
-      "min": 33,
-      "max": 16500
-    },
-    "Excellent": {
-      "count": 70,
-      "sum": 256735.49,
-      "sold": {
-        "count": 24,
-        "sum": 102811.45,
-        "avg": 4284,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3668,
-      "min": 275,
-      "max": 35900
-    },
     "Brand New": {
       "count": 13,
       "sum": 56187.41999999999,
@@ -5884,8 +5948,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2933,
-      "count": 33
+      "avg": 2941,
+      "count": 35
     },
     "03": {
       "name": "Mar",
@@ -5983,8 +6047,8 @@
     "0-500": 7,
     "500-1k": 8,
     "1k-2k": 43,
-    "2k-3k": 45,
-    "3k-5k": 44,
+    "2k-3k": 46,
+    "3k-5k": 45,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -5992,12 +6056,22 @@
     "0-500": 7,
     "500-1k": 8,
     "1k-2k": 43,
-    "2k-3k": 45,
-    "3k-5k": 44,
+    "2k-3k": 46,
+    "3k-5k": 45,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 35,
+      "count": 11,
+      "avg": 3
+    },
+    "PRS": {
+      "sum": 33,
+      "count": 17,
+      "avg": 2
+    },
     "Acoustic": {
       "sum": 4,
       "count": 2,
@@ -6009,7 +6083,7 @@
       "avg": 0
     },
     "BC Rich": {
-      "sum": 49,
+      "sum": 50,
       "count": 12,
       "avg": 4
     },
@@ -6022,11 +6096,6 @@
       "sum": 35,
       "count": 11,
       "avg": 3
-    },
-    "PRS": {
-      "sum": 33,
-      "count": 16,
-      "avg": 2
     },
     "Epiphone": {
       "sum": 8,
@@ -6042,11 +6111,6 @@
       "sum": 0,
       "count": 2,
       "avg": 0
-    },
-    "Fender": {
-      "sum": 35,
-      "count": 10,
-      "avg": 4
     },
     "Collings": {
       "sum": 0,
@@ -6275,7 +6339,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 1,
+    "2026-04-02": 3,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6285,14 +6349,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "marketplace": 18,
-    "reverb": 153
+    "reverb": 155,
+    "marketplace": 18
   },
-  "activeModelsCount": 151,
+  "activeModelsCount": 153,
   "topPosters": [
     {
       "username": "GP",
-      "count": 70
+      "count": 72
     },
     {
       "username": "Beijing Bob",
@@ -6333,16 +6397,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2933,
+    "avg": 2941,
     "pctBelowAvg": 31,
-    "count": 33
+    "count": 35
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 7521,
-      "avgDiscount": -840.1,
-      "count": 10
+      "avgPrice": 7097,
+      "avgDiscount": -787.1,
+      "count": 11
     },
     "Gibson": {
       "avgPrice": 3170,
@@ -6350,9 +6414,9 @@
       "count": 17
     },
     "PRS": {
-      "avgPrice": 3336,
-      "avgDiscount": -138.3,
-      "count": 16
+      "avgPrice": 3334,
+      "avgDiscount": -138.1,
+      "count": 17
     },
     "Ibanez": {
       "avgPrice": 2791,
@@ -6988,15 +7052,33 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 159,
+      "total": 161,
       "sold": 48,
       "removed": 0,
-      "live": 111,
+      "live": 113,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "Fender": {
+        "total": 12,
+        "sold": 6,
+        "removed": 0,
+        "live": 6,
+        "soldPct": 50,
+        "removedPct": 0,
+        "livePct": 50
+      },
+      "PRS": {
+        "total": 17,
+        "sold": 6,
+        "removed": 0,
+        "live": 11,
+        "soldPct": 35,
+        "removedPct": 0,
+        "livePct": 65
+      },
       "Acoustic": {
         "total": 2,
         "sold": 0,
@@ -7042,15 +7124,6 @@
         "removedPct": 0,
         "livePct": 27
       },
-      "PRS": {
-        "total": 16,
-        "sold": 6,
-        "removed": 0,
-        "live": 10,
-        "soldPct": 38,
-        "removedPct": 0,
-        "livePct": 63
-      },
       "Epiphone": {
         "total": 3,
         "sold": 0,
@@ -7077,15 +7150,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 11,
-        "sold": 6,
-        "removed": 0,
-        "live": 5,
-        "soldPct": 55,
-        "removedPct": 0,
-        "livePct": 45
       },
       "Collings": {
         "total": 1,
