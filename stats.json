@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-02T20:24:04.763Z",
-  "totalLinks": 200,
-  "totalWithPrice": 195,
+  "generatedAt": "2026-04-02T20:33:54.281Z",
+  "totalLinks": 199,
+  "totalWithPrice": 194,
   "overall": {
-    "count": 195,
-    "sum": 793211.92,
-    "avg": 4068,
+    "count": 194,
+    "sum": 786511.92,
+    "avg": 4054,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 187,
-    "sum": 513016.93,
-    "avg": 2743,
+    "count": 186,
+    "sum": 506316.93,
+    "avg": 2722,
     "min": 25.99,
     "max": 8000,
-    "median": 2450
+    "median": 2438
   },
   "outliers": {
-    "thresholdHigh": 8500,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 63,
-      "sum": 181124.74,
+      "count": 62,
+      "sum": 174424.74,
       "min": 25.99,
       "max": 8800,
-      "avg": 2875
+      "avg": 2813
     },
     "2026-03": {
       "count": 132,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 180,
-      "sum": 577606.97,
+      "count": 179,
+      "sum": 570906.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3209
+      "avg": 3189
     },
     "marketplace": {
       "count": 15,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 180,
-      "sum": 577606.97,
+      "count": 179,
+      "sum": 570906.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3209
+      "avg": 3189
     },
     "musicgoround.com": {
       "count": 1,
@@ -192,70 +192,6 @@
     }
   },
   "byModel": {
-    "fender-stratocaster": {
-      "displayName": "Fender Stratocaster",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": null,
-      "count": 2,
-      "sum": 42600,
-      "min": 6700,
-      "max": 35900,
-      "sightings": [
-        {
-          "price": 35900,
-          "date": "2026-03-29T02:53:43.437Z",
-          "year": 1964,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
-          "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
-          "condition": "Excellent"
-        },
-        {
-          "price": 6700,
-          "date": "2026-04-02T19:34:09.766Z",
-          "year": null,
-          "modelYear": 1963,
-          "isReissue": true,
-          "title": "Fender Stratocaster 1963 - Aged Sonic Blue Nitrocellulous",
-          "url": "https://reverb.com/item/95607132-fender-stratocaster-1963-aged-sonic-blue-nitrocellulous",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 2,
-          "sum": 42600,
-          "min": 6700,
-          "max": 35900,
-          "avg": 21300
-        }
-      },
-      "soldData": {
-        "count": 2,
-        "avg": 21300,
-        "min": 6700,
-        "max": 35900,
-        "prices": [
-          {
-            "price": 6700,
-            "askingPrice": 6700,
-            "date": "2026-04-02T19:42:51.128Z",
-            "title": "Fender Stratocaster 1963 - Aged Sonic Blue Nitrocellulous",
-            "url": "https://reverb.com/item/95607132-fender-stratocaster-1963-aged-sonic-blue-nitrocellulous"
-          },
-          {
-            "price": 35900,
-            "askingPrice": 35900,
-            "date": "2026-04-01T04:35:54.903Z",
-            "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
-            "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new"
-          }
-        ]
-      },
-      "avg": 21300
-    },
     "prs-custom-24-10-top": {
       "displayName": "PRS Custom 24 10-top",
       "brand": "PRS",
@@ -4206,6 +4142,53 @@
       },
       "avg": 2360
     },
+    "fender-stratocaster": {
+      "displayName": "Fender Stratocaster",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 1,
+      "sum": 35900,
+      "min": 35900,
+      "max": 35900,
+      "sightings": [
+        {
+          "price": 35900,
+          "date": "2026-03-29T02:53:43.437Z",
+          "year": 1964,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+          "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 35900,
+          "min": 35900,
+          "max": 35900,
+          "avg": 35900
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 35900,
+        "min": 35900,
+        "max": 35900,
+        "prices": [
+          {
+            "price": 35900,
+            "askingPrice": 35900,
+            "date": "2026-04-01T04:35:54.903Z",
+            "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+            "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new"
+          }
+        ]
+      },
+      "avg": 35900
+    },
     "guild-x-88-with-case": {
       "displayName": "Guild X-88 With Case",
       "brand": "Guild",
@@ -6687,16 +6670,16 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 83,
-      "sum": 294114.56999999995,
+      "count": 82,
+      "sum": 287414.56999999995,
       "sold": {
-        "count": 28,
-        "sum": 116291.4,
-        "avg": 4153,
+        "count": 27,
+        "sum": 109591.4,
+        "avg": 4059,
         "min": 275,
         "max": 35900
       },
-      "avg": 3544,
+      "avg": 3505,
       "min": 25.99,
       "max": 35900
     },
@@ -6804,8 +6787,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2875,
-      "count": 63
+      "avg": 2813,
+      "count": 62
     },
     "03": {
       "name": "Mar",
@@ -6912,7 +6895,7 @@
     "1k-2k": 47,
     "2k-3k": 55,
     "3k-5k": 52,
-    "5k-10k": 15,
+    "5k-10k": 14,
     "10k+": 6
   },
   "priceDistributionFiltered": {
@@ -6921,15 +6904,10 @@
     "1k-2k": 47,
     "2k-3k": 55,
     "3k-5k": 52,
-    "5k-10k": 13,
+    "5k-10k": 12,
     "10k+": 0
   },
   "daysOnMarket": {
-    "Fender": {
-      "sum": 42,
-      "count": 14,
-      "avg": 3
-    },
     "PRS": {
       "sum": 53,
       "count": 21,
@@ -6939,6 +6917,11 @@
       "sum": 33,
       "count": 8,
       "avg": 4
+    },
+    "Fender": {
+      "sum": 42,
+      "count": 13,
+      "avg": 3
     },
     "Mesa Boogie": {
       "sum": 0,
@@ -7232,7 +7215,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 32,
+    "2026-04-02": 31,
     "2026-04-01": 32,
     "2026-03-31": 17,
     "2026-03-30": 29,
@@ -7242,7 +7225,7 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 181,
+    "reverb": 180,
     "marketplace": 19
   },
   "activeModelsCount": 175,
@@ -7265,7 +7248,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 15
+      "count": 14
     },
     {
       "username": "Madero",
@@ -7290,16 +7273,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2875,
-    "pctBelowAvg": 29,
-    "count": 63
+    "avg": 2813,
+    "pctBelowAvg": 31,
+    "count": 62
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6896,
-      "avgDiscount": -762,
-      "count": 14
+      "avgPrice": 6911,
+      "avgDiscount": -763.9,
+      "count": 13
     },
     "Gibson": {
       "avgPrice": 3170,
@@ -7318,8 +7301,8 @@
     }
   },
   "soldPrices": {
-    "count": 57,
-    "avg": 3528,
+    "count": 56,
+    "avg": 3471,
     "min": 275,
     "max": 35900,
     "avgDiscount": 11
@@ -7327,18 +7310,10 @@
   "timeToSell": {
     "overall": {
       "totalDays": 48,
-      "count": 56,
+      "count": 55,
       "avgDays": 1
     },
     "byModel": {
-      "fender-stratocaster": {
-        "displayName": "Fender Stratocaster",
-        "totalDays": 3,
-        "count": 2,
-        "fastest": 0,
-        "slowest": 3,
-        "avgDays": 2
-      },
       "mesa-boogie-fillmore-2-channel-23-watt": {
         "displayName": "Mesa Boogie Fillmore 2-Channel 23-Watt",
         "totalDays": 0,
@@ -7563,6 +7538,14 @@
         "slowest": 1,
         "avgDays": 1
       },
+      "fender-stratocaster": {
+        "displayName": "Fender Stratocaster",
+        "totalDays": 3,
+        "count": 1,
+        "fastest": 3,
+        "slowest": 3,
+        "avgDays": 3
+      },
       "powers-electric-a-type-pink": {
         "displayName": "Powers Electric A-Type -Pink",
         "totalDays": 0,
@@ -7741,13 +7724,6 @@
       }
     },
     "byBrand": {
-      "Fender": {
-        "totalDays": 6,
-        "count": 6,
-        "fastest": 0,
-        "slowest": 3,
-        "avgDays": 1
-      },
       "Mesa Boogie": {
         "totalDays": 0,
         "count": 1,
@@ -7802,6 +7778,13 @@
         "count": 1,
         "fastest": 1,
         "slowest": 1,
+        "avgDays": 1
+      },
+      "Fender": {
+        "totalDays": 6,
+        "count": 5,
+        "fastest": 0,
+        "slowest": 3,
         "avgDays": 1
       },
       "Yamaha": {
@@ -8050,8 +8033,8 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 187,
-      "sold": 56,
+      "total": 186,
+      "sold": 55,
       "removed": 0,
       "fake": 0,
       "live": 131,
@@ -8060,16 +8043,6 @@
       "livePct": 70
     },
     "byBrand": {
-      "Fender": {
-        "total": 15,
-        "sold": 6,
-        "removed": 0,
-        "fake": 0,
-        "live": 9,
-        "soldPct": 40,
-        "removedPct": 0,
-        "livePct": 60
-      },
       "PRS": {
         "total": 21,
         "sold": 8,
@@ -8089,6 +8062,16 @@
         "soldPct": 38,
         "removedPct": 0,
         "livePct": 63
+      },
+      "Fender": {
+        "total": 14,
+        "sold": 5,
+        "removed": 0,
+        "fake": 0,
+        "live": 9,
+        "soldPct": 36,
+        "removedPct": 0,
+        "livePct": 64
       },
       "Mesa Boogie": {
         "total": 1,
