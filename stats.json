@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T23:14:30.333Z",
-  "totalLinks": 207,
-  "totalWithPrice": 203,
+  "generatedAt": "2026-04-02T23:17:02.186Z",
+  "totalLinks": 208,
+  "totalWithPrice": 204,
   "overall": {
-    "count": 203,
-    "sum": 876283.69,
-    "avg": 4317,
+    "count": 204,
+    "sum": 877545.91,
+    "avg": 4302,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 193,
-    "sum": 534808.7,
-    "avg": 2771,
+    "count": 194,
+    "sum": 536070.92,
+    "avg": 2763,
     "min": 25.99,
     "max": 8000,
-    "median": 2499.99
+    "median": 2492
   },
   "outliers": {
     "thresholdHigh": 8620,
@@ -105,15 +105,15 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 71,
-      "sum": 264196.51,
+      "count": 72,
+      "sum": 265496.5,
       "min": 25.99,
       "max": 49000,
-      "avg": 3721
+      "avg": 3687
     },
     "2026-03": {
       "count": 132,
-      "sum": 612087.18,
+      "sum": 612049.41,
       "min": 33,
       "max": 99000,
       "avg": 4637
@@ -121,11 +121,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 187,
-      "sum": 657778.75,
+      "count": 188,
+      "sum": 659040.97,
       "min": 25.99,
       "max": 49000,
-      "avg": 3518
+      "avg": 3506
     },
     "marketplace": {
       "count": 16,
@@ -137,11 +137,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 187,
-      "sum": 657778.75,
+      "count": 188,
+      "sum": 659040.97,
       "min": 25.99,
       "max": 49000,
-      "avg": 3518
+      "avg": 3506
     },
     "guitarcenter.com": {
       "count": 4,
@@ -208,6 +208,38 @@
     }
   },
   "byModel": {
+    "gibson-dobrolektric-2000s-orange": {
+      "displayName": "Gibson Dobrolektric 2000’s Orange",
+      "brand": "Gibson",
+      "model": "Dobrolektric 2000’s Orange",
+      "variant": null,
+      "count": 1,
+      "sum": 1299.99,
+      "min": 1299.99,
+      "max": 1299.99,
+      "sightings": [
+        {
+          "price": 1299.99,
+          "date": "2026-04-02T23:16:44.636Z",
+          "year": 2000,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Dobrolektric 2000’s - Orange Sunburst",
+          "url": "https://reverb.com/item/95610091-gibson-dobrolektric-2000-s-orange-sunburst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1299.99,
+          "min": 1299.99,
+          "max": 1299.99,
+          "avg": 1300
+        }
+      },
+      "avg": 1300
+    },
     "fender-telecaster-custom-shop-nos": {
       "displayName": "Fender Telecaster Custom Shop Nos",
       "brand": "Fender",
@@ -5792,12 +5824,12 @@
       "model": "Single Cut",
       "variant": null,
       "count": 1,
-      "sum": 5559.57,
-      "min": 5559.57,
-      "max": 5559.57,
+      "sum": 5521.8,
+      "min": 5521.8,
+      "max": 5521.8,
       "sightings": [
         {
-          "price": 5559.57,
+          "price": 5521.8,
           "date": "2026-03-27T17:06:39.333Z",
           "year": 2021,
           "modelYear": null,
@@ -5810,13 +5842,13 @@
       "byCondition": {
         "Very Good": {
           "count": 1,
-          "sum": 5559.57,
-          "min": 5559.57,
-          "max": 5559.57,
-          "avg": 5560
+          "sum": 5521.8,
+          "min": 5521.8,
+          "max": 5521.8,
+          "avg": 5522
         }
       },
-      "avg": 5560
+      "avg": 5522
     },
     "fender-telecaster-custom-shop-masterbuilt": {
       "displayName": "Fender Telecaster Custom Shop Masterbuilt",
@@ -6804,6 +6836,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 52,
+      "sum": 151106.37,
+      "sold": {
+        "count": 10,
+        "sum": 24998.78,
+        "avg": 2500,
+        "min": 1200,
+        "max": 3999.99
+      },
+      "avg": 2906,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 85,
       "sum": 341103.57,
@@ -6845,20 +6891,6 @@
       "avg": 5033,
       "min": 135,
       "max": 12280
-    },
-    "Very Good": {
-      "count": 51,
-      "sum": 149844.15,
-      "sold": {
-        "count": 10,
-        "sum": 24998.78,
-        "avg": 2500,
-        "min": 1200,
-        "max": 3999.99
-      },
-      "avg": 2938,
-      "min": 33,
-      "max": 16500
     },
     "Used": {
       "count": 7,
@@ -6922,8 +6954,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3721,
-      "count": 71
+      "avg": 3687,
+      "count": 72
     },
     "03": {
       "name": "Mar",
@@ -7005,9 +7037,9 @@
     {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
-      "oldPrice": "$5,521.80",
-      "newPrice": "$5,559.57",
-      "date": "2026-03-31T02:45:18.711Z"
+      "oldPrice": "$5,533.75",
+      "newPrice": "$5,521.80",
+      "date": "2026-03-27T23:42:28.317Z"
     },
     {
       "title": "Arnold Hoyer \"mod\" archtop guitar 1960s - worn / restored - player",
@@ -7027,7 +7059,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 12,
-    "1k-2k": 48,
+    "1k-2k": 49,
     "2k-3k": 56,
     "3k-5k": 55,
     "5k-10k": 16,
@@ -7036,13 +7068,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 12,
-    "1k-2k": 48,
+    "1k-2k": 49,
     "2k-3k": 56,
     "3k-5k": 55,
     "5k-10k": 14,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 72,
+      "count": 18,
+      "avg": 4
+    },
     "Fender": {
       "sum": 43,
       "count": 16,
@@ -7109,7 +7146,7 @@
       "avg": 0
     },
     "BC Rich": {
-      "sum": 61,
+      "sum": 62,
       "count": 15,
       "avg": 4
     },
@@ -7147,11 +7184,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Gibson": {
-      "sum": 72,
-      "count": 17,
-      "avg": 4
     },
     "Epiphone": {
       "sum": 11,
@@ -7350,7 +7382,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 39,
+    "2026-04-02": 40,
     "2026-04-01": 32,
     "2026-03-31": 17,
     "2026-03-30": 29,
@@ -7360,10 +7392,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 187,
+    "reverb": 188,
     "marketplace": 20
   },
-  "activeModelsCount": 179,
+  "activeModelsCount": 180,
   "topPosters": [
     {
       "username": "GP",
@@ -7371,7 +7403,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 36
+      "count": 37
     },
     {
       "username": "WontonGG",
@@ -7408,9 +7440,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3721,
+    "avg": 3687,
     "pctBelowAvg": 14,
-    "count": 71
+    "count": 72
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7420,9 +7452,9 @@
       "count": 16
     },
     "Gibson": {
-      "avgPrice": 3170,
-      "avgDiscount": -164.1,
-      "count": 17
+      "avgPrice": 3066,
+      "avgDiscount": -155.5,
+      "count": 18
     },
     "PRS": {
       "avgPrice": 3117,
@@ -8145,16 +8177,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 196,
+      "total": 197,
       "sold": 54,
       "removed": 0,
       "fake": 0,
-      "live": 142,
-      "soldPct": 28,
+      "live": 143,
+      "soldPct": 27,
       "removedPct": 0,
-      "livePct": 72
+      "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 20,
+        "sold": 5,
+        "removed": 0,
+        "fake": 0,
+        "live": 15,
+        "soldPct": 25,
+        "removedPct": 0,
+        "livePct": 75
+      },
       "Fender": {
         "total": 15,
         "sold": 4,
@@ -8374,16 +8416,6 @@
         "soldPct": 100,
         "removedPct": 0,
         "livePct": 0
-      },
-      "Gibson": {
-        "total": 19,
-        "sold": 5,
-        "removed": 0,
-        "fake": 0,
-        "live": 14,
-        "soldPct": 26,
-        "removedPct": 0,
-        "livePct": 74
       },
       "Epiphone": {
         "total": 3,
@@ -8836,9 +8868,9 @@
     },
     {
       "label": "1–5",
-      "total": 8,
+      "total": 7,
       "sold": 2,
-      "rate": 25
+      "rate": 29
     },
     {
       "label": "6–15",
@@ -8861,7 +8893,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 112,
+      "total": 113,
       "sold": 24,
       "rate": 21
     },
@@ -8878,7 +8910,7 @@
       "rate": 11
     },
     "regular": {
-      "total": 73,
+      "total": 72,
       "sold": 18,
       "rate": 25
     }
