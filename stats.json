@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-02T13:57:17.720Z",
-  "totalLinks": 186,
-  "totalWithPrice": 181,
+  "generatedAt": "2026-04-02T14:30:19.500Z",
+  "totalLinks": 187,
+  "totalWithPrice": 182,
   "overall": {
-    "count": 181,
-    "sum": 745516.92,
-    "avg": 4119,
+    "count": 182,
+    "sum": 749389.76,
+    "avg": 4118,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 173,
-    "sum": 465321.93,
-    "avg": 2690,
+    "count": 174,
+    "sum": 469194.77,
+    "avg": 2697,
     "min": 25.99,
     "max": 7999,
-    "median": 2450
+    "median": 2468
   },
   "outliers": {
-    "thresholdHigh": 8350,
+    "thresholdHigh": 8419,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 48,
-      "sum": 131630.86,
+      "count": 49,
+      "sum": 135503.7,
       "min": 25.99,
       "max": 8800,
-      "avg": 2742
+      "avg": 2765
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 166,
-      "sum": 529911.97,
+      "count": 167,
+      "sum": 533784.81,
       "min": 25.99,
       "max": 35900,
-      "avg": 3192
+      "avg": 3196
     },
     "marketplace": {
       "count": 15,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 166,
-      "sum": 529911.97,
+      "count": 167,
+      "sum": 533784.81,
       "min": 25.99,
       "max": 35900,
-      "avg": 3192
+      "avg": 3196
     },
     "musicgoround.com": {
       "count": 1,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "fgn-explorer-mij": {
+      "displayName": "FGN Explorer Mij",
+      "brand": "FGN",
+      "model": "Explorer",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 3872.84,
+      "min": 3872.84,
+      "max": 3872.84,
+      "sightings": [
+        {
+          "price": 3872.84,
+          "date": "2026-04-02T14:30:05.204Z",
+          "year": 1978,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1978 Greco EX-800 Explorer – Destroyer 2459 – Made in Fujigen Japan – w/ Super Real Case – MIJ",
+          "url": "https://reverb.com/item/93207957-1978-greco-ex-800-explorer-destroyer-2459-made-in-fujigen-japan-w-super-real-case-mij",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3872.84,
+          "min": 3872.84,
+          "max": 3872.84,
+          "avg": 3873
+        }
+      },
+      "avg": 3873
+    },
     "bc-rich-gunslinger-candy": {
       "displayName": "BC Rich Gunslinger Candy",
       "brand": "BC Rich",
@@ -6276,6 +6308,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 44,
+      "sum": 119954.15000000002,
+      "sold": {
+        "count": 11,
+        "sum": 27498.78,
+        "avg": 2500,
+        "min": 1200,
+        "max": 3999.99
+      },
+      "avg": 2726,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 78,
       "sum": 273570.69999999995,
@@ -6289,20 +6335,6 @@
       "avg": 3507,
       "min": 25.99,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 43,
-      "sum": 116081.31000000003,
-      "sold": {
-        "count": 11,
-        "sum": 27498.78,
-        "avg": 2500,
-        "min": 1200,
-        "max": 3999.99
-      },
-      "avg": 2700,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 14,
@@ -6394,8 +6426,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2742,
-      "count": 48
+      "avg": 2765,
+      "count": 49
     },
     "03": {
       "name": "Mar",
@@ -6494,7 +6526,7 @@
     "500-1k": 11,
     "1k-2k": 45,
     "2k-3k": 51,
-    "3k-5k": 47,
+    "3k-5k": 48,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -6503,13 +6535,18 @@
     "500-1k": 11,
     "1k-2k": 45,
     "2k-3k": 51,
-    "3k-5k": 47,
+    "3k-5k": 48,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "FGN": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "BC Rich": {
-      "sum": 58,
+      "sum": 59,
       "count": 15,
       "avg": 4
     },
@@ -6529,7 +6566,7 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 51,
+      "sum": 52,
       "count": 20,
       "avg": 3
     },
@@ -6549,7 +6586,7 @@
       "avg": 1
     },
     "Ibanez": {
-      "sum": 44,
+      "sum": 45,
       "count": 12,
       "avg": 4
     },
@@ -6579,9 +6616,9 @@
       "avg": 2
     },
     "Music Man": {
-      "sum": 14,
+      "sum": 15,
       "count": 6,
-      "avg": 2
+      "avg": 3
     },
     "Jackson": {
       "sum": 31,
@@ -6604,7 +6641,7 @@
       "avg": 1
     },
     "Charvel": {
-      "sum": 3,
+      "sum": 4,
       "count": 2,
       "avg": 2
     },
@@ -6674,7 +6711,7 @@
       "avg": 3
     },
     "Guild": {
-      "sum": 7,
+      "sum": 8,
       "count": 2,
       "avg": 4
     },
@@ -6800,7 +6837,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 16,
+    "2026-04-02": 17,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6810,10 +6847,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 167,
+    "reverb": 168,
     "marketplace": 19
   },
-  "activeModelsCount": 165,
+  "activeModelsCount": 166,
   "topPosters": [
     {
       "username": "GP",
@@ -6829,7 +6866,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 14
+      "count": 15
     },
     {
       "username": "Shteefe",
@@ -6858,9 +6895,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2742,
+    "avg": 2765,
     "pctBelowAvg": 33,
-    "count": 48
+    "count": 49
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7457,11 +7494,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 569.3564524642894,
-      "count": 31,
-      "avgPctDrop": 18.4
+      "totalPctDrop": 579.3726469655941,
+      "count": 32,
+      "avgPctDrop": 18.1
     },
     "byBrand": {
+      "FGN": {
+        "totalPctDrop": 10.016194501304625,
+        "count": 1,
+        "avgPctDrop": 10
+      },
       "Gibson": {
         "totalPctDrop": 72.48457755610039,
         "count": 5,
@@ -7556,15 +7598,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 174,
+      "total": 175,
       "sold": 51,
       "removed": 0,
-      "live": 123,
+      "live": 124,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "FGN": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "BC Rich": {
         "total": 15,
         "sold": 1,
@@ -8093,7 +8144,7 @@
     "withOffers": 49,
     "totalOffers": 88,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 59
+    "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
