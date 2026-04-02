@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T21:09:52.528Z",
-  "totalLinks": 206,
-  "totalWithPrice": 202,
+  "generatedAt": "2026-04-02T22:50:32.028Z",
+  "totalLinks": 207,
+  "totalWithPrice": 203,
   "overall": {
-    "count": 202,
-    "sum": 872683.69,
-    "avg": 4320,
+    "count": 203,
+    "sum": 876283.69,
+    "avg": 4317,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 192,
-    "sum": 531208.7,
-    "avg": 2767,
+    "count": 193,
+    "sum": 534808.7,
+    "avg": 2771,
     "min": 25.99,
     "max": 8000,
-    "median": 2492
+    "median": 2499.99
   },
   "outliers": {
     "thresholdHigh": 8620,
@@ -105,11 +105,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 70,
-      "sum": 260596.51,
+      "count": 71,
+      "sum": 264196.51,
       "min": 25.99,
       "max": 49000,
-      "avg": 3723
+      "avg": 3721
     },
     "2026-03": {
       "count": 132,
@@ -121,11 +121,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 186,
-      "sum": 654178.75,
+      "count": 187,
+      "sum": 657778.75,
       "min": 25.99,
       "max": 49000,
-      "avg": 3517
+      "avg": 3518
     },
     "marketplace": {
       "count": 16,
@@ -137,11 +137,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 186,
-      "sum": 654178.75,
+      "count": 187,
+      "sum": 657778.75,
       "min": 25.99,
       "max": 49000,
-      "avg": 3517
+      "avg": 3518
     },
     "guitarcenter.com": {
       "count": 4,
@@ -208,6 +208,38 @@
     }
   },
   "byModel": {
+    "fender-telecaster-custom-shop-nos": {
+      "displayName": "Fender Telecaster Custom Shop Nos",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": "Custom Shop Nos",
+      "count": 1,
+      "sum": 3600,
+      "min": 3600,
+      "max": 3600,
+      "sightings": [
+        {
+          "price": 3600,
+          "date": "2026-04-02T22:50:18.048Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop American Custom Tele NOS RW - Charcoal Frost Metallic",
+          "url": "https://reverb.com/item/95613284-fender-custom-shop-american-custom-tele-nos-rw-charcoal-frost-metallic",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3600,
+          "min": 3600,
+          "max": 3600,
+          "avg": 3600
+        }
+      },
+      "avg": 3600
+    },
     "schecter-jl-cygnus-jeff-signature-7-string": {
       "displayName": "Schecter JL Cygnus jeff Signature 7 String",
       "brand": "Schecter",
@@ -5895,21 +5927,6 @@
           "avg": 7999
         }
       },
-      "soldData": {
-        "count": 1,
-        "avg": 7999,
-        "min": 7999,
-        "max": 7999,
-        "prices": [
-          {
-            "price": 7999,
-            "askingPrice": 7999,
-            "date": "2026-03-29T00:07:15.855Z",
-            "title": "Fender Custom Shop '67 Set Neck Telecaster Masterbuilt Austin MacNutt Relic Black 2025",
-            "url": "https://reverb.com/item/95448950-fender-custom-shop-67-set-neck-telecaster-masterbuilt-austin-macnutt-relic-black-2025"
-          }
-        ]
-      },
       "avg": 7999
     },
     "diamond-mcmahon-artistry-warmoth": {
@@ -6866,6 +6883,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 85,
+      "sum": 341103.57,
+      "sold": {
+        "count": 26,
+        "sum": 101592.4,
+        "avg": 3907,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 4013,
+      "min": 25.99,
+      "max": 49000
+    },
     "Good": {
       "count": 27,
       "sum": 62663.69,
@@ -6907,20 +6938,6 @@
       "avg": 2938,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 84,
-      "sum": 337503.57,
-      "sold": {
-        "count": 27,
-        "sum": 109591.4,
-        "avg": 4059,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 4018,
-      "min": 25.99,
-      "max": 49000
     },
     "Used": {
       "count": 7,
@@ -6984,8 +7001,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3723,
-      "count": 70
+      "avg": 3721,
+      "count": 71
     },
     "03": {
       "name": "Mar",
@@ -7091,7 +7108,7 @@
     "500-1k": 12,
     "1k-2k": 48,
     "2k-3k": 56,
-    "3k-5k": 54,
+    "3k-5k": 55,
     "5k-10k": 16,
     "10k+": 8
   },
@@ -7100,11 +7117,16 @@
     "500-1k": 12,
     "1k-2k": 48,
     "2k-3k": 56,
-    "3k-5k": 54,
+    "3k-5k": 55,
     "5k-10k": 14,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 43,
+      "count": 16,
+      "avg": 3
+    },
     "Schecter": {
       "sum": 5,
       "count": 3,
@@ -7114,11 +7136,6 @@
       "sum": 0,
       "count": 3,
       "avg": 0
-    },
-    "Fender": {
-      "sum": 43,
-      "count": 15,
-      "avg": 3
     },
     "Anderson": {
       "sum": 5,
@@ -7417,7 +7434,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 38,
+    "2026-04-02": 39,
     "2026-04-01": 32,
     "2026-03-31": 17,
     "2026-03-30": 29,
@@ -7427,14 +7444,14 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 186,
+    "reverb": 187,
     "marketplace": 20
   },
-  "activeModelsCount": 180,
+  "activeModelsCount": 181,
   "topPosters": [
     {
       "username": "GP",
-      "count": 90
+      "count": 91
     },
     {
       "username": "Beijing Bob",
@@ -7475,16 +7492,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3723,
+    "avg": 3721,
     "pctBelowAvg": 14,
-    "count": 70
+    "count": 71
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 9329,
-      "avgDiscount": -1066.1,
-      "count": 15
+      "avgPrice": 8971,
+      "avgDiscount": -1021.4,
+      "count": 16
     },
     "Gibson": {
       "avgPrice": 3170,
@@ -7503,16 +7520,16 @@
     }
   },
   "soldPrices": {
-    "count": 56,
-    "avg": 3471,
+    "count": 55,
+    "avg": 3389,
     "min": 275,
     "max": 35900,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 48,
-      "count": 55,
+      "totalDays": 47,
+      "count": 54,
       "avgDays": 1
     },
     "byModel": {
@@ -7852,14 +7869,6 @@
         "slowest": 0,
         "avgDays": 0
       },
-      "fender-telecaster-custom-shop-masterbuilt": {
-        "displayName": "Fender Telecaster Custom Shop Masterbuilt",
-        "totalDays": 1,
-        "count": 1,
-        "fastest": 1,
-        "slowest": 1,
-        "avgDays": 1
-      },
       "hoyer-arnold-mod-archtop-player": {
         "displayName": "Hoyer Arnold \"mod\" archtop Player",
         "totalDays": 1,
@@ -7983,8 +7992,8 @@
         "avgDays": 1
       },
       "Fender": {
-        "totalDays": 6,
-        "count": 5,
+        "totalDays": 5,
+        "count": 4,
         "fastest": 0,
         "slowest": 3,
         "avgDays": 1
@@ -8235,16 +8244,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 195,
-      "sold": 55,
+      "total": 196,
+      "sold": 54,
       "removed": 0,
       "fake": 0,
-      "live": 140,
+      "live": 142,
       "soldPct": 28,
       "removedPct": 0,
       "livePct": 72
     },
     "byBrand": {
+      "Fender": {
+        "total": 15,
+        "sold": 4,
+        "removed": 0,
+        "fake": 0,
+        "live": 11,
+        "soldPct": 27,
+        "removedPct": 0,
+        "livePct": 73
+      },
       "Schecter": {
         "total": 3,
         "sold": 0,
@@ -8264,16 +8283,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 14,
-        "sold": 4,
-        "removed": 0,
-        "fake": 0,
-        "live": 10,
-        "soldPct": 29,
-        "removedPct": 0,
-        "livePct": 71
       },
       "Anderson": {
         "total": 2,
@@ -8787,13 +8796,13 @@
       },
       "Fender Custom Shop": {
         "total": 2,
-        "sold": 1,
+        "sold": 0,
         "removed": 0,
         "fake": 0,
-        "live": 1,
-        "soldPct": 50,
+        "live": 2,
+        "soldPct": 0,
         "removedPct": 0,
-        "livePct": 50
+        "livePct": 100
       },
       "Milkman": {
         "total": 1,
@@ -8915,6 +8924,6 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 95
+    "avgShippingCost": 94
   }
 }
