@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-02T17:57:21.911Z",
-  "totalLinks": 199,
-  "totalWithPrice": 194,
+  "generatedAt": "2026-04-02T18:29:31.726Z",
+  "totalLinks": 200,
+  "totalWithPrice": 195,
   "overall": {
-    "count": 194,
-    "sum": 782967.91,
-    "avg": 4036,
+    "count": 195,
+    "sum": 791024.91,
+    "avg": 4057,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 186,
-    "sum": 502772.92,
-    "avg": 2703,
+    "count": 187,
+    "sum": 510829.92,
+    "avg": 2732,
     "min": 25.99,
-    "max": 8000,
-    "median": 2413
+    "max": 8057,
+    "median": 2425
   },
   "outliers": {
-    "thresholdHigh": 8419,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 61,
-      "sum": 169081.73,
+      "count": 62,
+      "sum": 177138.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2772
+      "avg": 2857
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 178,
-      "sum": 566262.97,
+      "count": 179,
+      "sum": 574319.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3181
+      "avg": 3208
     },
     "marketplace": {
       "count": 16,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 178,
-      "sum": 566262.97,
+      "count": 179,
+      "sum": 574319.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3181
+      "avg": 3208
     },
     "guitarcenter.com": {
       "count": 4,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "prs-herman-li-chleo-limited-edition-signature": {
+      "displayName": "PRS Herman Li Chleo Limited Edition Signature",
+      "brand": "PRS",
+      "model": "Herman Li Chleo",
+      "variant": "Limited Edition Signature",
+      "count": 1,
+      "sum": 8057,
+      "min": 8057,
+      "max": 8057,
+      "sightings": [
+        {
+          "price": 8057,
+          "date": "2026-04-02T18:29:18.086Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Limited Edition Herman Li Signature Chleo - 100 pieces worldwide - Charcoal Purple Burst",
+          "url": "https://reverb.com/item/95607579-prs-limited-edition-herman-li-signature-chleo-100-pieces-worldwide-charcoal-purple-burst",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 8057,
+          "min": 8057,
+          "max": 8057,
+          "avg": 8057
+        }
+      },
+      "avg": 8057
+    },
     "fender-jaguar": {
       "displayName": "Fender Jaguar",
       "brand": "Fender",
@@ -6668,6 +6700,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 81,
+      "sum": 288972.56999999995,
+      "sold": {
+        "count": 26,
+        "sum": 108091.45,
+        "avg": 4157,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3568,
+      "min": 25.99,
+      "max": 35900
+    },
     "Very Good": {
       "count": 49,
       "sum": 139602.15000000002,
@@ -6695,20 +6741,6 @@
       "avg": 2269,
       "min": 417.18,
       "max": 6500
-    },
-    "Excellent": {
-      "count": 80,
-      "sum": 280915.57,
-      "sold": {
-        "count": 26,
-        "sum": 108091.45,
-        "avg": 4157,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3511,
-      "min": 25.99,
-      "max": 35900
     },
     "Used": {
       "count": 7,
@@ -6786,8 +6818,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2772,
-      "count": 61
+      "avg": 2857,
+      "count": 62
     },
     "03": {
       "name": "Mar",
@@ -6887,7 +6919,7 @@
     "1k-2k": 49,
     "2k-3k": 54,
     "3k-5k": 51,
-    "5k-10k": 14,
+    "5k-10k": 15,
     "10k+": 6
   },
   "priceDistributionFiltered": {
@@ -6896,10 +6928,15 @@
     "1k-2k": 49,
     "2k-3k": 54,
     "3k-5k": 51,
-    "5k-10k": 12,
+    "5k-10k": 13,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 52,
+      "count": 21,
+      "avg": 2
+    },
     "Fender": {
       "sum": 44,
       "count": 15,
@@ -6959,11 +6996,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "PRS": {
-      "sum": 52,
-      "count": 20,
-      "avg": 3
     },
     "Bilt": {
       "sum": 0,
@@ -7191,9 +7223,9 @@
       "avg": 6
     },
     "Fractal Audio": {
-      "sum": 6,
+      "sum": 7,
       "count": 1,
-      "avg": 6
+      "avg": 7
     },
     "Framus": {
       "sum": 7,
@@ -7207,7 +7239,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 29,
+    "2026-04-02": 30,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -7217,14 +7249,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 179,
+    "reverb": 180,
     "marketplace": 20
   },
-  "activeModelsCount": 176,
+  "activeModelsCount": 177,
   "topPosters": [
     {
       "username": "GP",
-      "count": 82
+      "count": 83
     },
     {
       "username": "Beijing Bob",
@@ -7265,9 +7297,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2772,
-    "pctBelowAvg": 31,
-    "count": 61
+    "avg": 2857,
+    "pctBelowAvg": 30,
+    "count": 62
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7282,9 +7314,9 @@
       "count": 17
     },
     "PRS": {
-      "avgPrice": 3163,
-      "avgDiscount": -125.9,
-      "count": 20
+      "avgPrice": 3396,
+      "avgDiscount": -142.6,
+      "count": 21
     },
     "Ibanez": {
       "avgPrice": 2959,
@@ -8003,15 +8035,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 186,
+      "total": 187,
       "sold": 53,
       "removed": 0,
-      "live": 133,
+      "live": 134,
       "soldPct": 28,
       "removedPct": 0,
       "livePct": 72
     },
     "byBrand": {
+      "PRS": {
+        "total": 21,
+        "sold": 6,
+        "removed": 0,
+        "live": 15,
+        "soldPct": 29,
+        "removedPct": 0,
+        "livePct": 71
+      },
       "Fender": {
         "total": 16,
         "sold": 6,
@@ -8119,15 +8160,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 20,
-        "sold": 6,
-        "removed": 0,
-        "live": 14,
-        "soldPct": 30,
-        "removedPct": 0,
-        "livePct": 70
       },
       "Bilt": {
         "total": 1,
