@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T14:57:39.862Z",
-  "totalLinks": 189,
-  "totalWithPrice": 184,
+  "generatedAt": "2026-04-02T15:09:54.484Z",
+  "totalLinks": 190,
+  "totalWithPrice": 185,
   "overall": {
-    "count": 184,
-    "sum": 752124.92,
-    "avg": 4088,
+    "count": 185,
+    "sum": 756120.79,
+    "avg": 4087,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 176,
-    "sum": 471929.93,
-    "avg": 2681,
+    "count": 177,
+    "sum": 475925.8,
+    "avg": 2689,
     "min": 25.99,
     "max": 7999,
-    "median": 2438
+    "median": 2450
   },
   "outliers": {
     "thresholdHigh": 8419,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 51,
-      "sum": 138238.86,
+      "count": 52,
+      "sum": 142234.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2711
+      "avg": 2735
     },
     "2026-03": {
       "count": 133,
@@ -104,35 +104,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 169,
+      "sum": 539415.85,
+      "min": 25.99,
+      "max": 35900,
+      "avg": 3192
+    },
     "marketplace": {
       "count": 16,
       "sum": 216704.94,
       "min": 899.98,
       "max": 99000,
       "avg": 13544
-    },
-    "reverb": {
-      "count": 168,
-      "sum": 535419.98,
-      "min": 25.99,
-      "max": 35900,
-      "avg": 3187
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 169,
+      "sum": 539415.85,
+      "min": 25.99,
+      "max": 35900,
+      "avg": 3192
+    },
     "guitarcenter.com": {
       "count": 4,
       "sum": 9268.97,
       "min": 1099.99,
       "max": 4999.99,
       "avg": 2317
-    },
-    "reverb.com": {
-      "count": 168,
-      "sum": 535419.98,
-      "min": 25.99,
-      "max": 35900,
-      "avg": 3187
     },
     "musicgoround.com": {
       "count": 1,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "esp-m-ii": {
+      "displayName": "ESP M-II",
+      "brand": "ESP",
+      "model": "M-II",
+      "variant": null,
+      "count": 1,
+      "sum": 3995.87,
+      "min": 3995.87,
+      "max": 3995.87,
+      "sightings": [
+        {
+          "price": 3995.87,
+          "date": "2026-04-02T15:09:39.110Z",
+          "year": 1998,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP M-III White Sparkle - Made in Japan 1998",
+          "url": "https://reverb.com/item/87267056-esp-m-iii-white-sparkle-made-in-japan-1998",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3995.87,
+          "min": 3995.87,
+          "max": 3995.87,
+          "avg": 3996
+        }
+      },
+      "avg": 3996
+    },
     "fender-vibrolux-reverb-tube": {
       "displayName": "Fender Vibrolux Reverb Tube",
       "brand": "Fender",
@@ -6402,6 +6434,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 79,
+      "sum": 277566.57,
+      "sold": {
+        "count": 26,
+        "sum": 108091.45,
+        "avg": 4157,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3514,
+      "min": 25.99,
+      "max": 35900
+    },
     "Used": {
       "count": 7,
       "sum": 114058.97,
@@ -6440,20 +6486,6 @@
       "avg": 2726,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 78,
-      "sum": 273570.69999999995,
-      "sold": {
-        "count": 26,
-        "sum": 108091.45,
-        "avg": 4157,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3507,
-      "min": 25.99,
-      "max": 35900
     },
     "Brand New": {
       "count": 14,
@@ -6520,8 +6552,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2711,
-      "count": 51
+      "avg": 2735,
+      "count": 52
     },
     "03": {
       "name": "Mar",
@@ -6620,7 +6652,7 @@
     "500-1k": 11,
     "1k-2k": 47,
     "2k-3k": 51,
-    "3k-5k": 48,
+    "3k-5k": 49,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -6629,20 +6661,20 @@
     "500-1k": 11,
     "1k-2k": 47,
     "2k-3k": 51,
-    "3k-5k": 48,
+    "3k-5k": 49,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "ESP": {
+      "sum": 20,
+      "count": 6,
+      "avg": 3
+    },
     "Fender": {
       "sum": 43,
       "count": 13,
       "avg": 3
-    },
-    "ESP": {
-      "sum": 20,
-      "count": 5,
-      "avg": 4
     },
     "FGN": {
       "sum": 0,
@@ -6680,7 +6712,7 @@
       "avg": 1
     },
     "Collings": {
-      "sum": 1,
+      "sum": 2,
       "count": 2,
       "avg": 1
     },
@@ -6700,7 +6732,7 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 67,
+      "sum": 68,
       "count": 17,
       "avg": 4
     },
@@ -6931,7 +6963,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 19,
+    "2026-04-02": 20,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6941,10 +6973,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "marketplace": 20,
-    "reverb": 169
+    "reverb": 170,
+    "marketplace": 20
   },
-  "activeModelsCount": 168,
+  "activeModelsCount": 169,
   "topPosters": [
     {
       "username": "GP",
@@ -6956,7 +6988,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 16
+      "count": 17
     },
     {
       "username": "YellowJack6",
@@ -6989,9 +7021,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2711,
-    "pctBelowAvg": 34,
-    "count": 51
+    "avg": 2735,
+    "pctBelowAvg": 33,
+    "count": 52
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7618,15 +7650,15 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 594.9976792156689,
-      "count": 33,
-      "avgPctDrop": 18
+      "totalPctDrop": 621.6702181423299,
+      "count": 34,
+      "avgPctDrop": 18.3
     },
     "byBrand": {
       "ESP": {
-        "totalPctDrop": 23.56280014974143,
-        "count": 2,
-        "avgPctDrop": 11.8
+        "totalPctDrop": 50.23533907640241,
+        "count": 3,
+        "avgPctDrop": 16.7
       },
       "FGN": {
         "totalPctDrop": 10.016194501304625,
@@ -7722,15 +7754,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 177,
+      "total": 178,
       "sold": 53,
       "removed": 0,
-      "live": 124,
+      "live": 125,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "ESP": {
+        "total": 6,
+        "sold": 1,
+        "removed": 0,
+        "live": 5,
+        "soldPct": 17,
+        "removedPct": 0,
+        "livePct": 83
+      },
       "Fender": {
         "total": 14,
         "sold": 6,
@@ -7739,15 +7780,6 @@
         "soldPct": 43,
         "removedPct": 0,
         "livePct": 57
-      },
-      "ESP": {
-        "total": 5,
-        "sold": 1,
-        "removed": 0,
-        "live": 4,
-        "soldPct": 20,
-        "removedPct": 0,
-        "livePct": 80
       },
       "FGN": {
         "total": 1,
@@ -8265,8 +8297,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 49,
-    "totalOffers": 89,
+    "withOffers": 50,
+    "totalOffers": 90,
     "avgOffersPerListing": 1.8,
     "offersEnabledPct": 59
   },
