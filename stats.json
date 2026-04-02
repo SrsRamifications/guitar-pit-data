@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T18:30:17.554Z",
-  "totalLinks": 201,
-  "totalWithPrice": 196,
+  "generatedAt": "2026-04-02T18:40:16.165Z",
+  "totalLinks": 202,
+  "totalWithPrice": 197,
   "overall": {
-    "count": 196,
-    "sum": 794874.91,
-    "avg": 4055,
+    "count": 197,
+    "sum": 799174.91,
+    "avg": 4057,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 188,
-    "sum": 514679.92,
-    "avg": 2738,
+    "count": 189,
+    "sum": 518979.92,
+    "avg": 2746,
     "min": 25.99,
     "max": 8057,
-    "median": 2438
+    "median": 2450
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 63,
-      "sum": 180988.73,
+      "count": 64,
+      "sum": 185288.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2873
+      "avg": 2895
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 180,
-      "sum": 578169.97,
+      "count": 181,
+      "sum": 582469.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3212
+      "avg": 3218
     },
     "marketplace": {
       "count": 16,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 180,
-      "sum": 578169.97,
+      "count": 181,
+      "sum": 582469.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3212
+      "avg": 3218
     },
     "guitarcenter.com": {
       "count": 4,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "kiesel-zeus-multi-one": {
+      "displayName": "Kiesel Zeus Multi one",
+      "brand": "Kiesel",
+      "model": "Zeus Multi one",
+      "variant": null,
+      "count": 1,
+      "sum": 4300,
+      "min": 4300,
+      "max": 4300,
+      "sightings": [
+        {
+          "price": 4300,
+          "date": "2026-04-02T18:40:02.227Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Zeus Multi 8 one off Employee build Gold on Gold MUST SEE",
+          "url": "https://reverb.com/uk/item/95103383-kiesel-zeus-multi-8-one-off-employee-build-gold-on-gold-must-see",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4300,
+          "min": 4300,
+          "max": 4300,
+          "avg": 4300
+        }
+      },
+      "avg": 4300
+    },
     "prs-silver-sky-john-mayer-signature": {
       "displayName": "PRS Silver Sky John Mayer Signature",
       "brand": "PRS",
@@ -6696,8 +6728,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 82,
-      "sum": 292822.56999999995,
+      "count": 83,
+      "sum": 297122.56999999995,
       "sold": {
         "count": 26,
         "sum": 108091.45,
@@ -6705,7 +6737,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3571,
+      "avg": 3580,
       "min": 25.99,
       "max": 35900
     },
@@ -6813,8 +6845,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2873,
-      "count": 63
+      "avg": 2895,
+      "count": 64
     },
     "03": {
       "name": "Mar",
@@ -6913,7 +6945,7 @@
     "500-1k": 12,
     "1k-2k": 49,
     "2k-3k": 54,
-    "3k-5k": 52,
+    "3k-5k": 53,
     "5k-10k": 15,
     "10k+": 6
   },
@@ -6922,13 +6954,18 @@
     "500-1k": 12,
     "1k-2k": 49,
     "2k-3k": 54,
-    "3k-5k": 52,
+    "3k-5k": 53,
     "5k-10k": 13,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 33,
+      "count": 8,
+      "avg": 4
+    },
     "PRS": {
-      "sum": 52,
+      "sum": 53,
       "count": 22,
       "avg": 2
     },
@@ -6988,14 +7025,14 @@
       "avg": 0
     },
     "Duesenberg": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Bilt": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Dean": {
       "sum": 3,
@@ -7008,7 +7045,7 @@
       "avg": 1
     },
     "Ibanez": {
-      "sum": 46,
+      "sum": 47,
       "count": 12,
       "avg": 4
     },
@@ -7106,11 +7143,6 @@
       "sum": 3,
       "count": 1,
       "avg": 3
-    },
-    "Kiesel": {
-      "sum": 33,
-      "count": 7,
-      "avg": 5
     },
     "Gretsch": {
       "sum": 3,
@@ -7234,7 +7266,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 31,
+    "2026-04-02": 32,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -7244,14 +7276,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 181,
+    "reverb": 182,
     "marketplace": 20
   },
-  "activeModelsCount": 177,
+  "activeModelsCount": 178,
   "topPosters": [
     {
       "username": "GP",
-      "count": 84
+      "count": 85
     },
     {
       "username": "Beijing Bob",
@@ -7292,9 +7324,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2873,
+    "avg": 2895,
     "pctBelowAvg": 29,
-    "count": 63
+    "count": 64
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8022,15 +8054,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 188,
+      "total": 189,
       "sold": 52,
       "removed": 0,
-      "live": 136,
+      "live": 137,
       "soldPct": 28,
       "removedPct": 0,
       "livePct": 72
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 8,
+        "sold": 3,
+        "removed": 0,
+        "live": 5,
+        "soldPct": 38,
+        "removedPct": 0,
+        "livePct": 63
+      },
       "PRS": {
         "total": 22,
         "sold": 6,
@@ -8354,15 +8395,6 @@
         "soldPct": 100,
         "removedPct": 0,
         "livePct": 0
-      },
-      "Kiesel": {
-        "total": 7,
-        "sold": 3,
-        "removed": 0,
-        "live": 4,
-        "soldPct": 43,
-        "removedPct": 0,
-        "livePct": 57
       },
       "Gretsch": {
         "total": 1,
