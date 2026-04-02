@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-02T13:40:35.057Z",
-  "totalLinks": 185,
-  "totalWithPrice": 180,
+  "generatedAt": "2026-04-02T13:57:17.720Z",
+  "totalLinks": 186,
+  "totalWithPrice": 181,
   "overall": {
-    "count": 180,
-    "sum": 743316.92,
-    "avg": 4130,
+    "count": 181,
+    "sum": 745516.92,
+    "avg": 4119,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 172,
-    "sum": 463121.93,
-    "avg": 2693,
+    "count": 173,
+    "sum": 465321.93,
+    "avg": 2690,
     "min": 25.99,
     "max": 7999,
-    "median": 2468
+    "median": 2450
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8350,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 47,
-      "sum": 129430.86,
+      "count": 48,
+      "sum": 131630.86,
       "min": 25.99,
       "max": 8800,
-      "avg": 2754
+      "avg": 2742
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 165,
-      "sum": 527711.97,
+      "count": 166,
+      "sum": 529911.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3198
+      "avg": 3192
     },
     "marketplace": {
       "count": 15,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 165,
-      "sum": 527711.97,
+      "count": 166,
+      "sum": 529911.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3198
+      "avg": 3192
     },
     "musicgoround.com": {
       "count": 1,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "bc-rich-gunslinger-candy": {
+      "displayName": "BC Rich Gunslinger Candy",
+      "brand": "BC Rich",
+      "model": "Gunslinger Candy",
+      "variant": null,
+      "count": 1,
+      "sum": 2200,
+      "min": 2200,
+      "max": 2200,
+      "sightings": [
+        {
+          "price": 2200,
+          "date": "2026-04-02T13:57:03.521Z",
+          "year": 2021,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Gunslinger 2021 - Candy Red",
+          "url": "https://reverb.com/item/95602437-b-c-rich-gunslinger-2021-candy-red",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2200,
+          "min": 2200,
+          "max": 2200,
+          "avg": 2200
+        }
+      },
+      "avg": 2200
+    },
     "fender-custom-vibrolux-reverb": {
       "displayName": "Fender \"Custom\" Vibrolux Reverb",
       "brand": "Fender",
@@ -6244,6 +6276,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 78,
+      "sum": 273570.69999999995,
+      "sold": {
+        "count": 25,
+        "sum": 105296.45,
+        "avg": 4212,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3507,
+      "min": 25.99,
+      "max": 35900
+    },
     "Very Good": {
       "count": 43,
       "sum": 116081.31000000003,
@@ -6257,20 +6303,6 @@
       "avg": 2700,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 77,
-      "sum": 271370.7,
-      "sold": {
-        "count": 25,
-        "sum": 105296.45,
-        "avg": 4212,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3524,
-      "min": 25.99,
-      "max": 35900
     },
     "Brand New": {
       "count": 14,
@@ -6362,8 +6394,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2754,
-      "count": 47
+      "avg": 2742,
+      "count": 48
     },
     "03": {
       "name": "Mar",
@@ -6461,7 +6493,7 @@
     "0-500": 8,
     "500-1k": 11,
     "1k-2k": 45,
-    "2k-3k": 50,
+    "2k-3k": 51,
     "3k-5k": 47,
     "5k-10k": 13,
     "10k+": 6
@@ -6470,12 +6502,17 @@
     "0-500": 8,
     "500-1k": 11,
     "1k-2k": 45,
-    "2k-3k": 50,
+    "2k-3k": 51,
     "3k-5k": 47,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 58,
+      "count": 15,
+      "avg": 4
+    },
     "Fender": {
       "sum": 42,
       "count": 12,
@@ -6505,11 +6542,6 @@
       "sum": 2,
       "count": 3,
       "avg": 1
-    },
-    "BC Rich": {
-      "sum": 58,
-      "count": 14,
-      "avg": 4
     },
     "Collings": {
       "sum": 1,
@@ -6582,14 +6614,14 @@
       "avg": 5
     },
     "ESP": {
-      "sum": 19,
+      "sum": 20,
       "count": 4,
       "avg": 5
     },
     "Millimetric": {
-      "sum": 7,
+      "sum": 8,
       "count": 3,
-      "avg": 2
+      "avg": 3
     },
     "Hamer": {
       "sum": 9,
@@ -6768,7 +6800,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 15,
+    "2026-04-02": 16,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6778,10 +6810,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 166,
+    "reverb": 167,
     "marketplace": 19
   },
-  "activeModelsCount": 164,
+  "activeModelsCount": 165,
   "topPosters": [
     {
       "username": "GP",
@@ -6793,7 +6825,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 15
+      "count": 16
     },
     {
       "username": "WontonGG",
@@ -6826,9 +6858,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2754,
+    "avg": 2742,
     "pctBelowAvg": 33,
-    "count": 47
+    "count": 48
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7524,15 +7556,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 173,
+      "total": 174,
       "sold": 51,
       "removed": 0,
-      "live": 122,
+      "live": 123,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 15,
+        "sold": 1,
+        "removed": 0,
+        "live": 14,
+        "soldPct": 7,
+        "removedPct": 0,
+        "livePct": 93
+      },
       "Fender": {
         "total": 13,
         "sold": 6,
@@ -7586,15 +7627,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "BC Rich": {
-        "total": 14,
-        "sold": 1,
-        "removed": 0,
-        "live": 13,
-        "soldPct": 7,
-        "removedPct": 0,
-        "livePct": 93
       },
       "Collings": {
         "total": 2,
@@ -8065,6 +8097,6 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 96
+    "avgShippingCost": 98
   }
 }
