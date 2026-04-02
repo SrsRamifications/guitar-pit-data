@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T15:14:33.893Z",
-  "totalLinks": 191,
-  "totalWithPrice": 186,
+  "generatedAt": "2026-04-02T15:14:56.393Z",
+  "totalLinks": 192,
+  "totalWithPrice": 187,
   "overall": {
-    "count": 186,
-    "sum": 758419.79,
-    "avg": 4078,
+    "count": 187,
+    "sum": 759719.79,
+    "avg": 4063,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 178,
-    "sum": 478224.8,
-    "avg": 2687,
+    "count": 179,
+    "sum": 479524.8,
+    "avg": 2679,
     "min": 25.99,
     "max": 7999,
-    "median": 2438
+    "median": 2425
   },
   "outliers": {
     "thresholdHigh": 8419,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 53,
-      "sum": 144533.73,
+      "count": 54,
+      "sum": 145833.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2727
+      "avg": 2701
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 170,
-      "sum": 541714.85,
+      "count": 171,
+      "sum": 543014.85,
       "min": 25.99,
       "max": 35900,
-      "avg": 3187
+      "avg": 3176
     },
     "marketplace": {
       "count": 16,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 170,
-      "sum": 541714.85,
+      "count": 171,
+      "sum": 543014.85,
       "min": 25.99,
       "max": 35900,
-      "avg": 3187
+      "avg": 3176
     },
     "guitarcenter.com": {
       "count": 4,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "greco-single-cut": {
+      "displayName": "Greco Single Cut",
+      "brand": "Greco",
+      "model": "Single Cut",
+      "variant": null,
+      "count": 1,
+      "sum": 1300,
+      "min": 1300,
+      "max": 1300,
+      "sightings": [
+        {
+          "price": 1300,
+          "date": "2026-04-02T15:14:42.652Z",
+          "year": 1981,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Greco EG Single Cutaway Custom 1981 - Ebony with Gold Hardware",
+          "url": "https://reverb.com/item/95600297-greco-eg-single-cutaway-custom-1981-ebony-with-gold-hardware",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1300,
+          "min": 1300,
+          "max": 1300,
+          "avg": 1300
+        }
+      },
+      "avg": 1300
+    },
     "cort-kx700tt-true-temperament-true-temperament-limited-edition": {
       "displayName": "Cort KX700TT True Temperament True Temperament Limited Edition",
       "brand": "Cort",
@@ -6466,6 +6498,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 25,
+      "sum": 58702.79000000001,
+      "sold": {
+        "count": 5,
+        "sum": 10545.48,
+        "avg": 2109,
+        "min": 540,
+        "max": 4777.5
+      },
+      "avg": 2348,
+      "min": 417.18,
+      "max": 6500
+    },
     "Very Good": {
       "count": 45,
       "sum": 122253.15000000002,
@@ -6504,20 +6550,6 @@
       "avg": 16294,
       "min": 1099.99,
       "max": 99000
-    },
-    "Good": {
-      "count": 24,
-      "sum": 57402.79000000001,
-      "sold": {
-        "count": 5,
-        "sum": 10545.48,
-        "avg": 2109,
-        "min": 540,
-        "max": 4777.5
-      },
-      "avg": 2392,
-      "min": 417.18,
-      "max": 6500
     },
     "Brand New": {
       "count": 14,
@@ -6584,8 +6616,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2727,
-      "count": 53
+      "avg": 2701,
+      "count": 54
     },
     "03": {
       "name": "Mar",
@@ -6682,7 +6714,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 47,
+    "1k-2k": 48,
     "2k-3k": 52,
     "3k-5k": 49,
     "5k-10k": 13,
@@ -6691,13 +6723,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 47,
+    "1k-2k": 48,
     "2k-3k": 52,
     "3k-5k": 49,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Greco": {
+      "sum": 6,
+      "count": 2,
+      "avg": 3
+    },
     "Cort": {
       "sum": 0,
       "count": 1,
@@ -6973,11 +7010,6 @@
       "count": 1,
       "avg": 6
     },
-    "Greco": {
-      "sum": 6,
-      "count": 1,
-      "avg": 6
-    },
     "Hoyer": {
       "sum": 6,
       "count": 1,
@@ -7000,7 +7032,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 21,
+    "2026-04-02": 22,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -7010,14 +7042,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 171,
+    "reverb": 172,
     "marketplace": 20
   },
-  "activeModelsCount": 170,
+  "activeModelsCount": 171,
   "topPosters": [
     {
       "username": "GP",
-      "count": 79
+      "count": 80
     },
     {
       "username": "Beijing Bob",
@@ -7058,9 +7090,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2727,
-    "pctBelowAvg": 33,
-    "count": 53
+    "avg": 2701,
+    "pctBelowAvg": 34,
+    "count": 54
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7791,15 +7823,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 179,
+      "total": 180,
       "sold": 53,
       "removed": 0,
-      "live": 126,
-      "soldPct": 30,
+      "live": 127,
+      "soldPct": 29,
       "removedPct": 0,
-      "livePct": 70
+      "livePct": 71
     },
     "byBrand": {
+      "Greco": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Cort": {
         "total": 1,
         "sold": 0,
@@ -8287,15 +8328,6 @@
         "livePct": 0
       },
       "Diamond": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
-      },
-      "Greco": {
         "total": 1,
         "sold": 0,
         "removed": 0,
