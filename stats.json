@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T19:37:48.012Z",
+  "generatedAt": "2026-04-02T19:47:44.078Z",
   "totalLinks": 202,
   "totalWithPrice": 197,
   "overall": {
@@ -233,11 +233,18 @@
         }
       },
       "soldData": {
-        "count": 1,
-        "avg": 35900,
-        "min": 35900,
+        "count": 2,
+        "avg": 21300,
+        "min": 6700,
         "max": 35900,
         "prices": [
+          {
+            "price": 6700,
+            "askingPrice": 6700,
+            "date": "2026-04-02T19:42:51.128Z",
+            "title": "Fender Stratocaster 1963 - Aged Sonic Blue Nitrocellulous",
+            "url": "https://reverb.com/item/95607132-fender-stratocaster-1963-aged-sonic-blue-nitrocellulous"
+          },
           {
             "price": 35900,
             "askingPrice": 35900,
@@ -412,6 +419,21 @@
           "max": 850,
           "avg": 850
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 850,
+        "min": 850,
+        "max": 850,
+        "prices": [
+          {
+            "price": 850,
+            "askingPrice": 850,
+            "date": "2026-04-02T19:43:02.435Z",
+            "title": "Mesa Boogie Fillmore 25 2-Channel 23-Watt Guitar Amp Head 2018 - Present - Various",
+            "url": "https://reverb.com/item/94122575-mesa-boogie-fillmore-25-2-channel-23-watt-guitar-amp-head-2018-present-various"
+          }
+        ]
       },
       "avg": 850
     },
@@ -6762,9 +6784,9 @@
       "count": 83,
       "sum": 294114.56999999995,
       "sold": {
-        "count": 27,
-        "sum": 109591.4,
-        "avg": 4059,
+        "count": 28,
+        "sum": 116291.4,
+        "avg": 4153,
         "min": 275,
         "max": 35900
       },
@@ -6790,9 +6812,9 @@
       "count": 27,
       "sum": 61252.91,
       "sold": {
-        "count": 6,
-        "sum": 12245.48,
-        "avg": 2041,
+        "count": 7,
+        "sum": 13095.48,
+        "avg": 1871,
         "min": 540,
         "max": 4777.5
       },
@@ -7390,8 +7412,8 @@
     }
   },
   "soldPrices": {
-    "count": 57,
-    "avg": 3446,
+    "count": 59,
+    "avg": 3457,
     "min": 275,
     "max": 35900,
     "avgDiscount": 11
@@ -7399,10 +7421,26 @@
   "timeToSell": {
     "overall": {
       "totalDays": 48,
-      "count": 56,
+      "count": 58,
       "avgDays": 1
     },
     "byModel": {
+      "fender-stratocaster": {
+        "displayName": "Fender Stratocaster",
+        "totalDays": 3,
+        "count": 2,
+        "fastest": 0,
+        "slowest": 3,
+        "avgDays": 2
+      },
+      "mesa-boogie-fillmore-2-channel-23-watt": {
+        "displayName": "Mesa Boogie Fillmore 2-Channel 23-Watt",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
       "fender-vibrolux-reverb-tube": {
         "displayName": "Fender Vibrolux Reverb Tube",
         "totalDays": 0,
@@ -7635,14 +7673,6 @@
         "slowest": 1,
         "avgDays": 1
       },
-      "fender-stratocaster": {
-        "displayName": "Fender Stratocaster",
-        "totalDays": 3,
-        "count": 1,
-        "fastest": 3,
-        "slowest": 3,
-        "avgDays": 3
-      },
       "powers-electric-a-type-pink": {
         "displayName": "Powers Electric A-Type -Pink",
         "totalDays": 0,
@@ -7823,10 +7853,17 @@
     "byBrand": {
       "Fender": {
         "totalDays": 6,
-        "count": 7,
+        "count": 8,
         "fastest": 0,
         "slowest": 3,
         "avgDays": 1
+      },
+      "Mesa Boogie": {
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
       },
       "Mojotone": {
         "totalDays": 0,
@@ -8124,22 +8161,22 @@
   "sellThrough": {
     "overall": {
       "total": 189,
-      "sold": 56,
+      "sold": 58,
       "removed": 0,
-      "live": 133,
-      "soldPct": 30,
+      "live": 131,
+      "soldPct": 31,
       "removedPct": 0,
-      "livePct": 70
+      "livePct": 69
     },
     "byBrand": {
       "Fender": {
         "total": 17,
-        "sold": 7,
+        "sold": 8,
         "removed": 0,
-        "live": 10,
-        "soldPct": 41,
+        "live": 9,
+        "soldPct": 47,
         "removedPct": 0,
-        "livePct": 59
+        "livePct": 53
       },
       "PRS": {
         "total": 21,
@@ -8161,12 +8198,12 @@
       },
       "Mesa Boogie": {
         "total": 1,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
-        "live": 1,
-        "soldPct": 0,
+        "live": 0,
+        "soldPct": 100,
         "removedPct": 0,
-        "livePct": 100
+        "livePct": 0
       },
       "Charvel": {
         "total": 3,
