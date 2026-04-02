@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T15:09:54.484Z",
-  "totalLinks": 190,
-  "totalWithPrice": 185,
+  "generatedAt": "2026-04-02T15:14:33.893Z",
+  "totalLinks": 191,
+  "totalWithPrice": 186,
   "overall": {
-    "count": 185,
-    "sum": 756120.79,
-    "avg": 4087,
+    "count": 186,
+    "sum": 758419.79,
+    "avg": 4078,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 177,
-    "sum": 475925.8,
-    "avg": 2689,
+    "count": 178,
+    "sum": 478224.8,
+    "avg": 2687,
     "min": 25.99,
     "max": 7999,
-    "median": 2450
+    "median": 2438
   },
   "outliers": {
     "thresholdHigh": 8419,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 52,
-      "sum": 142234.73,
+      "count": 53,
+      "sum": 144533.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2735
+      "avg": 2727
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 169,
-      "sum": 539415.85,
+      "count": 170,
+      "sum": 541714.85,
       "min": 25.99,
       "max": 35900,
-      "avg": 3192
+      "avg": 3187
     },
     "marketplace": {
       "count": 16,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 169,
-      "sum": 539415.85,
+      "count": 170,
+      "sum": 541714.85,
       "min": 25.99,
       "max": 35900,
-      "avg": 3192
+      "avg": 3187
     },
     "guitarcenter.com": {
       "count": 4,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "cort-kx700tt-true-temperament-true-temperament-limited-edition": {
+      "displayName": "Cort KX700TT True Temperament True Temperament Limited Edition",
+      "brand": "Cort",
+      "model": "KX700TT True Temperament",
+      "variant": "True Temperament Limited Edition",
+      "count": 1,
+      "sum": 2299,
+      "min": 2299,
+      "max": 2299,
+      "sightings": [
+        {
+          "price": 2299,
+          "date": "2026-04-02T15:14:19.507Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Cort KX700TT - True Temperament - Limited Edition",
+          "url": "https://reverb.com/item/95600741-cort-kx700tt-true-temperament-limited-edition",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2299,
+          "min": 2299,
+          "max": 2299,
+          "avg": 2299
+        }
+      },
+      "avg": 2299
+    },
     "esp-m-ii": {
       "displayName": "ESP M-II",
       "brand": "ESP",
@@ -6434,6 +6466,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 45,
+      "sum": 122253.15000000002,
+      "sold": {
+        "count": 11,
+        "sum": 27498.78,
+        "avg": 2500,
+        "min": 1200,
+        "max": 3999.99
+      },
+      "avg": 2717,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 79,
       "sum": 277566.57,
@@ -6472,20 +6518,6 @@
       "avg": 2392,
       "min": 417.18,
       "max": 6500
-    },
-    "Very Good": {
-      "count": 44,
-      "sum": 119954.15000000002,
-      "sold": {
-        "count": 11,
-        "sum": 27498.78,
-        "avg": 2500,
-        "min": 1200,
-        "max": 3999.99
-      },
-      "avg": 2726,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 14,
@@ -6552,8 +6584,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2735,
-      "count": 52
+      "avg": 2727,
+      "count": 53
     },
     "03": {
       "name": "Mar",
@@ -6651,7 +6683,7 @@
     "0-500": 8,
     "500-1k": 11,
     "1k-2k": 47,
-    "2k-3k": 51,
+    "2k-3k": 52,
     "3k-5k": 49,
     "5k-10k": 13,
     "10k+": 6
@@ -6660,12 +6692,17 @@
     "0-500": 8,
     "500-1k": 11,
     "1k-2k": 47,
-    "2k-3k": 51,
+    "2k-3k": 52,
     "3k-5k": 49,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Cort": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "ESP": {
       "sum": 20,
       "count": 6,
@@ -6747,14 +6784,14 @@
       "avg": 2
     },
     "Music Man": {
-      "sum": 15,
+      "sum": 17,
       "count": 6,
       "avg": 3
     },
     "Jackson": {
-      "sum": 31,
+      "sum": 32,
       "count": 7,
-      "avg": 4
+      "avg": 5
     },
     "Eastman": {
       "sum": 4,
@@ -6852,9 +6889,9 @@
       "avg": 3
     },
     "Bedell": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Mayones": {
       "sum": 4,
@@ -6963,7 +7000,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 20,
+    "2026-04-02": 21,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6973,14 +7010,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 170,
+    "reverb": 171,
     "marketplace": 20
   },
-  "activeModelsCount": 169,
+  "activeModelsCount": 170,
   "topPosters": [
     {
       "username": "GP",
-      "count": 78
+      "count": 79
     },
     {
       "username": "Beijing Bob",
@@ -7021,9 +7058,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2735,
+    "avg": 2727,
     "pctBelowAvg": 33,
-    "count": 52
+    "count": 53
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7754,15 +7791,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 178,
+      "total": 179,
       "sold": 53,
       "removed": 0,
-      "live": 125,
+      "live": 126,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "Cort": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "ESP": {
         "total": 6,
         "sold": 1,
@@ -8300,10 +8346,10 @@
     "withOffers": 50,
     "totalOffers": 90,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 59
+    "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 97
   }
 }
