@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-01T22:46:50.589Z",
-  "totalLinks": 170,
-  "totalWithPrice": 165,
+  "generatedAt": "2026-04-02T00:17:59.305Z",
+  "totalLinks": 171,
+  "totalWithPrice": 166,
   "overall": {
-    "count": 165,
-    "sum": 705705.69,
-    "avg": 4277,
+    "count": 166,
+    "sum": 710705.68,
+    "avg": 4281,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 157,
-    "sum": 425510.7,
-    "avg": 2710,
+    "count": 158,
+    "sum": 430510.69,
+    "avg": 2725,
     "min": 33,
     "max": 7999,
-    "median": 2425
+    "median": 2438
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8500,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 32,
-      "sum": 91779.9,
+      "count": 33,
+      "sum": 96779.89,
       "min": 165,
       "max": 8800,
-      "avg": 2868
+      "avg": 2933
     },
     "2026-03": {
       "count": 133,
@@ -104,22 +104,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 14,
+      "sum": 214704.97,
+      "min": 929.99,
+      "max": 99000,
+      "avg": 15336
+    },
     "reverb": {
       "count": 152,
       "sum": 496000.71,
       "min": 33,
       "max": 35900,
       "avg": 3263
-    },
-    "marketplace": {
-      "count": 13,
-      "sum": 209704.98,
-      "min": 929.99,
-      "max": 99000,
-      "avg": 16131
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 3,
+      "sum": 8168.98,
+      "min": 1169.99,
+      "max": 4999.99,
+      "avg": 2723
+    },
     "reverb.com": {
       "count": 152,
       "sum": 496000.71,
@@ -147,13 +154,6 @@
       "min": 7900,
       "max": 7900,
       "avg": 7900
-    },
-    "guitarcenter.com": {
-      "count": 2,
-      "sum": 3168.99,
-      "min": 1169.99,
-      "max": 1999,
-      "avg": 1584
     },
     "sweetwater.com": {
       "count": 1,
@@ -185,6 +185,38 @@
     }
   },
   "byModel": {
+    "acoustic-pre-war-slope-shoulder": {
+      "displayName": "Acoustic Pre-war Slope Shoulder",
+      "brand": "Acoustic",
+      "model": "Pre-war Slope Shoulder",
+      "variant": null,
+      "count": 1,
+      "sum": 4999.99,
+      "min": 4999.99,
+      "max": 4999.99,
+      "sightings": [
+        {
+          "price": 4999.99,
+          "date": "2026-04-02T00:17:44.534Z",
+          "year": 2024,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used 2024 Pre-war Slope Shoulder 45 Sunburst Acoustic Guitar Sunburst",
+          "url": "https://www.guitarcenter.com/Used/Pre-war/Used-2024-Pre-war-Slope-Shoulder-45-Sunburst-Acoustic-Guitar.gc?algoliaQueryID=5aa62829afd1089f01a207394e403b41&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 4999.99,
+          "min": 4999.99,
+          "max": 4999.99,
+          "avg": 5000
+        }
+      },
+      "avg": 5000
+    },
     "washburn-solo": {
       "displayName": "Washburn Solo",
       "brand": "Washburn",
@@ -5734,6 +5766,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 6,
+      "sum": 112958.98,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 18826,
+      "min": 1169.99,
+      "max": 99000
+    },
     "Mint": {
       "count": 4,
       "sum": 13158.99,
@@ -5815,17 +5858,6 @@
       "min": 135,
       "max": 9500
     },
-    "Used": {
-      "count": 5,
-      "sum": 107958.99,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 21592,
-      "min": 1169.99,
-      "max": 99000
-    },
     "New": {
       "count": 1,
       "sum": 4324,
@@ -5852,8 +5884,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2868,
-      "count": 32
+      "avg": 2933,
+      "count": 33
     },
     "03": {
       "name": "Mar",
@@ -5952,7 +5984,7 @@
     "500-1k": 8,
     "1k-2k": 43,
     "2k-3k": 45,
-    "3k-5k": 43,
+    "3k-5k": 44,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -5961,18 +5993,23 @@
     "500-1k": 8,
     "1k-2k": 43,
     "2k-3k": 45,
-    "3k-5k": 43,
+    "3k-5k": 44,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Acoustic": {
+      "sum": 4,
+      "count": 2,
+      "avg": 2
+    },
     "Washburn": {
       "sum": 0,
       "count": 1,
       "avg": 0
     },
     "BC Rich": {
-      "sum": 47,
+      "sum": 49,
       "count": 12,
       "avg": 4
     },
@@ -6007,9 +6044,9 @@
       "avg": 0
     },
     "Fender": {
-      "sum": 34,
+      "sum": 35,
       "count": 10,
-      "avg": 3
+      "avg": 4
     },
     "Collings": {
       "sum": 0,
@@ -6102,7 +6139,7 @@
       "avg": 2
     },
     "Kiesel": {
-      "sum": 26,
+      "sum": 27,
       "count": 7,
       "avg": 4
     },
@@ -6147,11 +6184,6 @@
       "avg": 4
     },
     "Powers Electric": {
-      "sum": 4,
-      "count": 1,
-      "avg": 4
-    },
-    "Acoustic": {
       "sum": 4,
       "count": 1,
       "avg": 4
@@ -6243,6 +6275,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-02": 1,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6252,10 +6285,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 153,
-    "marketplace": 17
+    "marketplace": 18,
+    "reverb": 153
   },
-  "activeModelsCount": 150,
+  "activeModelsCount": 151,
   "topPosters": [
     {
       "username": "GP",
@@ -6263,7 +6296,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 30
+      "count": 31
     },
     {
       "username": "WontonGG",
@@ -6300,9 +6333,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2868,
-    "pctBelowAvg": 33,
-    "count": 32
+    "avg": 2933,
+    "pctBelowAvg": 31,
+    "count": 33
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6955,15 +6988,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 158,
+      "total": 159,
       "sold": 48,
       "removed": 0,
-      "live": 110,
+      "live": 111,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "Acoustic": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Washburn": {
         "total": 1,
         "sold": 0,
@@ -7296,15 +7338,6 @@
         "soldPct": 100,
         "removedPct": 0,
         "livePct": 0
-      },
-      "Acoustic": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
       },
       "Dunable": {
         "total": 1,
