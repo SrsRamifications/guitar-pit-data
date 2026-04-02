@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-02T01:36:40.251Z",
-  "totalLinks": 174,
-  "totalWithPrice": 169,
+  "generatedAt": "2026-04-02T02:00:01.396Z",
+  "totalLinks": 176,
+  "totalWithPrice": 171,
   "overall": {
-    "count": 169,
-    "sum": 718750.68,
-    "avg": 4253,
+    "count": 171,
+    "sum": 726350.68,
+    "avg": 4248,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 161,
-    "sum": 438555.69,
-    "avg": 2724,
+    "count": 163,
+    "sum": 446155.69,
+    "avg": 2737,
     "min": 33,
     "max": 7999,
-    "median": 2450
+    "median": 2485
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8500,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 36,
-      "sum": 104824.89,
+      "count": 38,
+      "sum": 112424.89,
       "min": 165,
       "max": 8800,
-      "avg": 2912
+      "avg": 2959
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 155,
-      "sum": 504045.71,
+      "count": 157,
+      "sum": 511645.71,
       "min": 33,
       "max": 35900,
-      "avg": 3252
+      "avg": 3259
     },
     "marketplace": {
       "count": 14,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 155,
-      "sum": 504045.71,
+      "count": 157,
+      "sum": 511645.71,
       "min": 33,
       "max": 35900,
-      "avg": 3252
+      "avg": 3259
     },
     "guitarcenter.com": {
       "count": 3,
@@ -185,6 +185,70 @@
     }
   },
   "byModel": {
+    "ibanez-rg-lacs-custom-shop": {
+      "displayName": "Ibanez RG Lacs Custom Shop",
+      "brand": "Ibanez",
+      "model": "RG",
+      "variant": "Lacs Custom Shop",
+      "count": 1,
+      "sum": 4800,
+      "min": 4800,
+      "max": 4800,
+      "sightings": [
+        {
+          "price": 4800,
+          "date": "2026-04-02T01:59:43.860Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez LACS RG + Case - Los Angeles Custom Shop",
+          "url": "https://reverb.com/item/95597298-ibanez-lacs-rg-case-los-angeles-custom-shop",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 4800,
+          "min": 4800,
+          "max": 4800,
+          "avg": 4800
+        }
+      },
+      "avg": 4800
+    },
+    "prs-dgt-tremolo-signature": {
+      "displayName": "PRS DGT Tremolo Signature",
+      "brand": "PRS",
+      "model": "DGT",
+      "variant": "Tremolo Signature",
+      "count": 1,
+      "sum": 2800,
+      "min": 2800,
+      "max": 2800,
+      "sightings": [
+        {
+          "price": 2800,
+          "date": "2026-04-02T01:59:47.298Z",
+          "year": 2020,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS DGT David Grissom Tremolo Signature 2020 Gold Top",
+          "url": "https://reverb.com/item/93921197-prs-dgt-david-grissom-tremolo-signature-2020-gold-top",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2800,
+          "min": 2800,
+          "max": 2800,
+          "avg": 2800
+        }
+      },
+      "avg": 2800
+    },
     "prs-mccarty": {
       "displayName": "PRS McCarty",
       "brand": "PRS",
@@ -5841,8 +5905,8 @@
   },
   "byCondition": {
     "Good": {
-      "count": 22,
-      "sum": 50955.62,
+      "count": 23,
+      "sum": 55755.62,
       "sold": {
         "count": 5,
         "sum": 10545.48,
@@ -5850,9 +5914,23 @@
         "min": 540,
         "max": 4777.5
       },
-      "avg": 2316,
+      "avg": 2424,
       "min": 414.62,
       "max": 6500
+    },
+    "Excellent": {
+      "count": 72,
+      "sum": 262830.49,
+      "sold": {
+        "count": 24,
+        "sum": 102811.45,
+        "avg": 4284,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3650,
+      "min": 275,
+      "max": 35900
     },
     "Very Good": {
       "count": 41,
@@ -5867,20 +5945,6 @@
       "avg": 2762,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 71,
-      "sum": 260030.49,
-      "sold": {
-        "count": 24,
-        "sum": 102811.45,
-        "avg": 4284,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3662,
-      "min": 275,
-      "max": 35900
     },
     "Used": {
       "count": 6,
@@ -5958,8 +6022,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2912,
-      "count": 36
+      "avg": 2959,
+      "count": 38
     },
     "03": {
       "name": "Mar",
@@ -6057,8 +6121,8 @@
     "0-500": 7,
     "500-1k": 8,
     "1k-2k": 44,
-    "2k-3k": 46,
-    "3k-5k": 45,
+    "2k-3k": 47,
+    "3k-5k": 46,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -6066,15 +6130,20 @@
     "0-500": 7,
     "500-1k": 8,
     "1k-2k": 44,
-    "2k-3k": 46,
-    "3k-5k": 45,
+    "2k-3k": 47,
+    "3k-5k": 46,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 35,
+      "count": 12,
+      "avg": 3
+    },
     "PRS": {
       "sum": 33,
-      "count": 18,
+      "count": 19,
       "avg": 2
     },
     "Fender": {
@@ -6100,11 +6169,6 @@
     "Gibson": {
       "sum": 55,
       "count": 17,
-      "avg": 3
-    },
-    "Ibanez": {
-      "sum": 35,
-      "count": 11,
       "avg": 3
     },
     "Epiphone": {
@@ -6148,9 +6212,9 @@
       "avg": 2
     },
     "Morgan": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Charvel": {
       "sum": 3,
@@ -6188,7 +6252,7 @@
       "avg": 1
     },
     "Friedman": {
-      "sum": 3,
+      "sum": 4,
       "count": 2,
       "avg": 2
     },
@@ -6233,9 +6297,9 @@
       "avg": 4
     },
     "Tokai": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Bedell": {
       "sum": 3,
@@ -6288,9 +6352,9 @@
       "avg": 4
     },
     "LSL": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Milkman": {
       "sum": 5,
@@ -6349,7 +6413,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 4,
+    "2026-04-02": 6,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6359,14 +6423,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 156,
+    "reverb": 158,
     "marketplace": 18
   },
-  "activeModelsCount": 153,
+  "activeModelsCount": 155,
   "topPosters": [
     {
       "username": "GP",
-      "count": 73
+      "count": 75
     },
     {
       "username": "Beijing Bob",
@@ -6407,9 +6471,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2912,
-    "pctBelowAvg": 32,
-    "count": 36
+    "avg": 2959,
+    "pctBelowAvg": 30,
+    "count": 38
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6424,14 +6488,14 @@
       "count": 17
     },
     "PRS": {
-      "avgPrice": 3254,
-      "avgDiscount": -132.5,
-      "count": 18
+      "avgPrice": 3230,
+      "avgDiscount": -130.7,
+      "count": 19
     },
     "Ibanez": {
-      "avgPrice": 2791,
-      "avgDiscount": -365.2,
-      "count": 11
+      "avgPrice": 2959,
+      "avgDiscount": -393.1,
+      "count": 12
     }
   },
   "soldPrices": {
@@ -7062,23 +7126,32 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 162,
+      "total": 164,
       "sold": 48,
       "removed": 0,
-      "live": 114,
-      "soldPct": 30,
+      "live": 116,
+      "soldPct": 29,
       "removedPct": 0,
-      "livePct": 70
+      "livePct": 71
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 12,
+        "sold": 8,
+        "removed": 0,
+        "live": 4,
+        "soldPct": 67,
+        "removedPct": 0,
+        "livePct": 33
+      },
       "PRS": {
-        "total": 18,
+        "total": 19,
         "sold": 6,
         "removed": 0,
-        "live": 12,
-        "soldPct": 33,
+        "live": 13,
+        "soldPct": 32,
         "removedPct": 0,
-        "livePct": 67
+        "livePct": 68
       },
       "Fender": {
         "total": 12,
@@ -7124,15 +7197,6 @@
         "soldPct": 26,
         "removedPct": 0,
         "livePct": 74
-      },
-      "Ibanez": {
-        "total": 11,
-        "sold": 8,
-        "removed": 0,
-        "live": 3,
-        "soldPct": 73,
-        "removedPct": 0,
-        "livePct": 27
       },
       "Epiphone": {
         "total": 3,
@@ -7572,7 +7636,7 @@
     "withOffers": 46,
     "totalOffers": 85,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 58
+    "offersEnabledPct": 59
   },
   "shippingInsights": {
     "freeShippingPct": 0,
