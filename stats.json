@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-02T16:48:30.986Z",
-  "totalLinks": 197,
-  "totalWithPrice": 192,
+  "generatedAt": "2026-04-02T17:12:07.511Z",
+  "totalLinks": 198,
+  "totalWithPrice": 193,
   "overall": {
-    "count": 192,
-    "sum": 770267.79,
-    "avg": 4012,
+    "count": 193,
+    "sum": 774967.91,
+    "avg": 4015,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 184,
-    "sum": 490072.8,
-    "avg": 2663,
+    "count": 185,
+    "sum": 494772.92,
+    "avg": 2674,
     "min": 25.99,
     "max": 7999,
     "median": 2400
@@ -89,15 +89,15 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 59,
-      "sum": 156381.73,
+      "count": 60,
+      "sum": 161081.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2651
+      "avg": 2685
     },
     "2026-03": {
       "count": 133,
-      "sum": 613886.06,
+      "sum": 613886.18,
       "min": 33,
       "max": 99000,
       "avg": 4616
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 176,
-      "sum": 553562.85,
+      "count": 177,
+      "sum": 558262.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3145
+      "avg": 3154
     },
     "marketplace": {
       "count": 16,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 176,
-      "sum": 553562.85,
+      "count": 177,
+      "sum": 558262.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3145
+      "avg": 3154
     },
     "guitarcenter.com": {
       "count": 4,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "fender-jaguar": {
+      "displayName": "Fender Jaguar",
+      "brand": "Fender",
+      "model": "Jaguar",
+      "variant": null,
+      "count": 1,
+      "sum": 4700,
+      "min": 4700,
+      "max": 4700,
+      "sightings": [
+        {
+          "price": 4700,
+          "date": "2026-04-02T17:11:52.854Z",
+          "year": 1963,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1963 Fender Jaguar Punchy and Full of Character (249)",
+          "url": "https://reverb.com/item/95605918-1963-fender-jaguar-punchy-and-full-of-character-249",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4700,
+          "min": 4700,
+          "max": 4700,
+          "avg": 4700
+        }
+      },
+      "avg": 4700
+    },
     "mesa-boogie-fillmore-2-channel-23-watt": {
       "displayName": "Mesa Boogie Fillmore 2-Channel 23-Watt",
       "brand": "Mesa Boogie",
@@ -5949,12 +5981,12 @@
       "model": "AX8",
       "variant": null,
       "count": 1,
-      "sum": 668.19,
-      "min": 668.19,
-      "max": 668.19,
+      "sum": 668.31,
+      "min": 668.31,
+      "max": 668.31,
       "sightings": [
         {
-          "price": 668.19,
+          "price": 668.31,
           "date": "2026-03-27T06:03:25.708Z",
           "year": null,
           "modelYear": null,
@@ -5967,9 +5999,9 @@
       "byCondition": {
         "Good": {
           "count": 1,
-          "sum": 668.19,
-          "min": 668.19,
-          "max": 668.19,
+          "sum": 668.31,
+          "min": 668.31,
+          "max": 668.31,
           "avg": 668
         }
       },
@@ -6626,9 +6658,23 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 48,
+      "sum": 131602.15000000002,
+      "sold": {
+        "count": 11,
+        "sum": 27498.78,
+        "avg": 2500,
+        "min": 1200,
+        "max": 3999.99
+      },
+      "avg": 2742,
+      "min": 33,
+      "max": 16500
+    },
     "Good": {
       "count": 27,
-      "sum": 61252.79000000001,
+      "sum": 61252.91,
       "sold": {
         "count": 5,
         "sum": 10545.48,
@@ -6653,20 +6699,6 @@
       "avg": 3511,
       "min": 25.99,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 47,
-      "sum": 126902.15000000002,
-      "sold": {
-        "count": 11,
-        "sum": 27498.78,
-        "avg": 2500,
-        "min": 1200,
-        "max": 3999.99
-      },
-      "avg": 2700,
-      "min": 33,
-      "max": 16500
     },
     "Used": {
       "count": 7,
@@ -6744,8 +6776,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2651,
-      "count": 59
+      "avg": 2685,
+      "count": 60
     },
     "03": {
       "name": "Mar",
@@ -6834,9 +6866,9 @@
     {
       "title": "Fractal Audio AX8",
       "url": "https://reverb.com/item/94215529-fractal-audio-ax8",
-      "oldPrice": "$670.04",
-      "newPrice": "$668.19",
-      "date": "2026-04-01T02:04:22.849Z"
+      "oldPrice": "$672.36",
+      "newPrice": "$668.31",
+      "date": "2026-03-27T23:42:55.870Z"
     }
   ],
   "priceDistribution": {
@@ -6844,7 +6876,7 @@
     "500-1k": 12,
     "1k-2k": 49,
     "2k-3k": 54,
-    "3k-5k": 50,
+    "3k-5k": 51,
     "5k-10k": 13,
     "10k+": 6
   },
@@ -6853,11 +6885,16 @@
     "500-1k": 12,
     "1k-2k": 49,
     "2k-3k": 54,
-    "3k-5k": 50,
+    "3k-5k": 51,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 44,
+      "count": 14,
+      "avg": 3
+    },
     "Mesa Boogie": {
       "sum": 0,
       "count": 1,
@@ -6889,14 +6926,9 @@
       "avg": 0
     },
     "ESP": {
-      "sum": 20,
+      "sum": 21,
       "count": 6,
-      "avg": 3
-    },
-    "Fender": {
-      "sum": 44,
-      "count": 13,
-      "avg": 3
+      "avg": 4
     },
     "FGN": {
       "sum": 0,
@@ -6954,7 +6986,7 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 69,
+      "sum": 71,
       "count": 17,
       "avg": 4
     },
@@ -7165,7 +7197,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 27,
+    "2026-04-02": 28,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -7175,10 +7207,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 177,
+    "reverb": 178,
     "marketplace": 20
   },
-  "activeModelsCount": 175,
+  "activeModelsCount": 176,
   "topPosters": [
     {
       "username": "GP",
@@ -7198,7 +7230,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 13
+      "count": 14
     },
     {
       "username": "Madero",
@@ -7223,16 +7255,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2651,
-    "pctBelowAvg": 34,
-    "count": 59
+    "avg": 2685,
+    "pctBelowAvg": 33,
+    "count": 60
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6157,
-      "avgDiscount": -669.6,
-      "count": 13
+      "avgPrice": 6053,
+      "avgDiscount": -656.6,
+      "count": 14
     },
     "Gibson": {
       "avgPrice": 3170,
@@ -7852,7 +7884,7 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 630.4515392902662,
+      "totalPctDrop": 630.4515738362985,
       "count": 36,
       "avgPctDrop": 17.5
     },
@@ -7948,7 +7980,7 @@
         "avgPctDrop": 30.2
       },
       "Fractal Audio": {
-        "totalPctDrop": 7.50031147472901,
+        "totalPctDrop": 7.500346020761254,
         "count": 1,
         "avgPctDrop": 7.5
       },
@@ -7961,15 +7993,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 184,
+      "total": 185,
       "sold": 53,
       "removed": 0,
-      "live": 131,
+      "live": 132,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Fender": {
+        "total": 15,
+        "sold": 6,
+        "removed": 0,
+        "live": 9,
+        "soldPct": 40,
+        "removedPct": 0,
+        "livePct": 60
+      },
       "Mesa Boogie": {
         "total": 1,
         "sold": 0,
@@ -8032,15 +8073,6 @@
         "soldPct": 17,
         "removedPct": 0,
         "livePct": 83
-      },
-      "Fender": {
-        "total": 14,
-        "sold": 6,
-        "removed": 0,
-        "live": 8,
-        "soldPct": 43,
-        "removedPct": 0,
-        "livePct": 57
       },
       "FGN": {
         "total": 1,
