@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T20:52:48.083Z",
-  "totalLinks": 198,
-  "totalWithPrice": 194,
+  "generatedAt": "2026-04-02T20:56:23.691Z",
+  "totalLinks": 199,
+  "totalWithPrice": 195,
   "overall": {
-    "count": 194,
-    "sum": 786511.92,
-    "avg": 4054,
+    "count": 195,
+    "sum": 789411.91,
+    "avg": 4048,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 186,
-    "sum": 506316.93,
-    "avg": 2722,
+    "count": 187,
+    "sum": 509216.92,
+    "avg": 2723,
     "min": 25.99,
     "max": 8000,
-    "median": 2438
+    "median": 2450
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 62,
-      "sum": 174424.74,
+      "count": 63,
+      "sum": 177324.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2813
+      "avg": 2815
     },
     "2026-03": {
       "count": 132,
@@ -104,22 +104,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 16,
+      "sum": 218504.94,
+      "min": 899.98,
+      "max": 99000,
+      "avg": 13657
+    },
     "reverb": {
       "count": 179,
       "sum": 570906.97,
       "min": 25.99,
       "max": 35900,
       "avg": 3189
-    },
-    "marketplace": {
-      "count": 15,
-      "sum": 215604.95,
-      "min": 899.98,
-      "max": 99000,
-      "avg": 14374
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 4,
+      "sum": 11068.97,
+      "min": 1169.99,
+      "max": 4999.99,
+      "avg": 2767
+    },
     "reverb.com": {
       "count": 179,
       "sum": 570906.97,
@@ -133,13 +140,6 @@
       "min": 899.98,
       "max": 899.98,
       "avg": 900
-    },
-    "guitarcenter.com": {
-      "count": 3,
-      "sum": 8168.98,
-      "min": 1169.99,
-      "max": 4999.99,
-      "avg": 2723
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "anderson-crowdster-plus-solid": {
+      "displayName": "Anderson Crowdster Plus Solid",
+      "brand": "Anderson",
+      "model": "Crowdster Plus Solid",
+      "variant": null,
+      "count": 1,
+      "sum": 2899.99,
+      "min": 2899.99,
+      "max": 2899.99,
+      "sightings": [
+        {
+          "price": 2899.99,
+          "date": "2026-04-02T20:56:07.760Z",
+          "year": 2013,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used 2013 Tom Anderson Crowdster Plus Natural Solid Body Electric Guitar Natural",
+          "url": "https://www.guitarcenter.com/Used/Tom-Anderson/Used-2013-Tom-Anderson-Crowdster-Plus-Natural-Solid-Body-Electric-Guitar.gc?algoliaQueryID=b171d3d188e72b6ce03d45a3a8d706dc&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2899.99,
+          "min": 2899.99,
+          "max": 2899.99,
+          "avg": 2900
+        }
+      },
+      "avg": 2900
+    },
     "prs-custom-24-10-top": {
       "displayName": "PRS Custom 24 10-top",
       "brand": "PRS",
@@ -6669,6 +6701,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 7,
+      "sum": 115858.97,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 16551,
+      "min": 1169.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 82,
       "sum": 287414.56999999995,
@@ -6725,17 +6768,6 @@
       "min": 135,
       "max": 9500
     },
-    "Used": {
-      "count": 6,
-      "sum": 112958.98,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 18826,
-      "min": 1169.99,
-      "max": 99000
-    },
     "Mint": {
       "count": 4,
       "sum": 13158.99,
@@ -6787,8 +6819,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2813,
-      "count": 62
+      "avg": 2815,
+      "count": 63
     },
     "03": {
       "name": "Mar",
@@ -6893,7 +6925,7 @@
     "0-500": 8,
     "500-1k": 12,
     "1k-2k": 47,
-    "2k-3k": 55,
+    "2k-3k": 56,
     "3k-5k": 52,
     "5k-10k": 14,
     "10k+": 6
@@ -6902,12 +6934,17 @@
     "0-500": 8,
     "500-1k": 12,
     "1k-2k": 47,
-    "2k-3k": 55,
+    "2k-3k": 56,
     "3k-5k": 52,
     "5k-10k": 12,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Anderson": {
+      "sum": 5,
+      "count": 2,
+      "avg": 3
+    },
     "PRS": {
       "sum": 53,
       "count": 21,
@@ -7143,11 +7180,6 @@
       "count": 1,
       "avg": 5
     },
-    "Anderson": {
-      "sum": 5,
-      "count": 1,
-      "avg": 5
-    },
     "Languedoc": {
       "sum": 5,
       "count": 1,
@@ -7215,7 +7247,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 30,
+    "2026-04-02": 31,
     "2026-04-01": 32,
     "2026-03-31": 17,
     "2026-03-30": 29,
@@ -7225,10 +7257,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 179,
-    "marketplace": 19
+    "marketplace": 20,
+    "reverb": 179
   },
-  "activeModelsCount": 175,
+  "activeModelsCount": 176,
   "topPosters": [
     {
       "username": "GP",
@@ -7236,7 +7268,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 35
+      "count": 36
     },
     {
       "username": "WontonGG",
@@ -7273,9 +7305,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2813,
-    "pctBelowAvg": 31,
-    "count": 62
+    "avg": 2815,
+    "pctBelowAvg": 30,
+    "count": 63
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8033,16 +8065,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 188,
+      "total": 189,
       "sold": 55,
       "removed": 0,
       "fake": 0,
-      "live": 133,
+      "live": 134,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Anderson": {
+        "total": 2,
+        "sold": 0,
+        "removed": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 21,
         "sold": 8,
@@ -8514,16 +8556,6 @@
         "livePct": 0
       },
       "Dunable": {
-        "total": 1,
-        "sold": 0,
-        "removed": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
-      },
-      "Anderson": {
         "total": 1,
         "sold": 0,
         "removed": 0,
