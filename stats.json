@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T14:47:03.137Z",
-  "totalLinks": 188,
-  "totalWithPrice": 183,
+  "generatedAt": "2026-04-02T14:57:39.862Z",
+  "totalLinks": 189,
+  "totalWithPrice": 184,
   "overall": {
-    "count": 183,
-    "sum": 751024.93,
-    "avg": 4104,
+    "count": 184,
+    "sum": 752124.92,
+    "avg": 4088,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 175,
-    "sum": 470829.94,
-    "avg": 2690,
+    "count": 176,
+    "sum": 471929.93,
+    "avg": 2681,
     "min": 25.99,
     "max": 7999,
-    "median": 2450
+    "median": 2438
   },
   "outliers": {
     "thresholdHigh": 8419,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 50,
-      "sum": 137138.87,
+      "count": 51,
+      "sum": 138238.86,
       "min": 25.99,
       "max": 8800,
-      "avg": 2743
+      "avg": 2711
     },
     "2026-03": {
       "count": 133,
@@ -104,22 +104,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 16,
+      "sum": 216704.94,
+      "min": 899.98,
+      "max": 99000,
+      "avg": 13544
+    },
     "reverb": {
       "count": 168,
       "sum": 535419.98,
       "min": 25.99,
       "max": 35900,
       "avg": 3187
-    },
-    "marketplace": {
-      "count": 15,
-      "sum": 215604.95,
-      "min": 899.98,
-      "max": 99000,
-      "avg": 14374
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 4,
+      "sum": 9268.97,
+      "min": 1099.99,
+      "max": 4999.99,
+      "avg": 2317
+    },
     "reverb.com": {
       "count": 168,
       "sum": 535419.98,
@@ -133,13 +140,6 @@
       "min": 899.98,
       "max": 899.98,
       "avg": 900
-    },
-    "guitarcenter.com": {
-      "count": 3,
-      "sum": 8168.98,
-      "min": 1169.99,
-      "max": 4999.99,
-      "avg": 2723
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "fender-vibrolux-reverb-tube": {
+      "displayName": "Fender Vibrolux Reverb Tube",
+      "brand": "Fender",
+      "model": "Vibrolux Reverb Tube",
+      "variant": null,
+      "count": 1,
+      "sum": 1099.99,
+      "min": 1099.99,
+      "max": 1099.99,
+      "sightings": [
+        {
+          "price": 1099.99,
+          "date": "2026-04-02T14:57:24.507Z",
+          "year": 1979,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1979 Fender Vibrolux Reverb Tube Guitar Combo Amp",
+          "url": "https://www.guitarcenter.com/Used/Fender/Vintage-Vintage-1979-Fender-Vibrolux-Reverb-Tube-Guitar-Combo-Amp-120428325.gc?source=4WWRWXGP&utm_id=17760434861&utm_creative=&utm_marketing_tactic=amp-effect&gad_source=1&gad_campaignid=17760435761&gbraid=0AAAAADtcCuz-lyc-qvVOI5f4pFuX95ENL",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1099.99,
+          "min": 1099.99,
+          "max": 1099.99,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
+    },
     "esp-holy-grail-guitar": {
       "displayName": "ESP \"Holy Grail\" Guitar",
       "brand": "ESP",
@@ -6370,6 +6402,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 7,
+      "sum": 114058.97,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 16294,
+      "min": 1099.99,
+      "max": 99000
+    },
     "Good": {
       "count": 24,
       "sum": 57402.79000000001,
@@ -6426,17 +6469,6 @@
       "min": 135,
       "max": 9500
     },
-    "Used": {
-      "count": 6,
-      "sum": 112958.98,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 18826,
-      "min": 1169.99,
-      "max": 99000
-    },
     "Mint": {
       "count": 4,
       "sum": 13158.99,
@@ -6488,8 +6520,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2743,
-      "count": 50
+      "avg": 2711,
+      "count": 51
     },
     "03": {
       "name": "Mar",
@@ -6586,7 +6618,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 46,
+    "1k-2k": 47,
     "2k-3k": 51,
     "3k-5k": 48,
     "5k-10k": 13,
@@ -6595,13 +6627,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 46,
+    "1k-2k": 47,
     "2k-3k": 51,
     "3k-5k": 48,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 43,
+      "count": 13,
+      "avg": 3
+    },
     "ESP": {
       "sum": 20,
       "count": 5,
@@ -6615,11 +6652,6 @@
     "BC Rich": {
       "sum": 59,
       "count": 15,
-      "avg": 4
-    },
-    "Fender": {
-      "sum": 42,
-      "count": 12,
       "avg": 4
     },
     "Mojotone": {
@@ -6763,7 +6795,7 @@
       "avg": 3
     },
     "Kiesel": {
-      "sum": 32,
+      "sum": 33,
       "count": 7,
       "avg": 5
     },
@@ -6899,7 +6931,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 18,
+    "2026-04-02": 19,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6909,10 +6941,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 169,
-    "marketplace": 19
+    "marketplace": 20,
+    "reverb": 169
   },
-  "activeModelsCount": 167,
+  "activeModelsCount": 168,
   "topPosters": [
     {
       "username": "GP",
@@ -6920,7 +6952,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 33
+      "count": 34
     },
     {
       "username": "WontonGG",
@@ -6957,16 +6989,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2743,
-    "pctBelowAvg": 33,
-    "count": 50
+    "avg": 2711,
+    "pctBelowAvg": 34,
+    "count": 51
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6579,
-      "avgDiscount": -722.3,
-      "count": 12
+      "avgPrice": 6157,
+      "avgDiscount": -669.6,
+      "count": 13
     },
     "Gibson": {
       "avgPrice": 3170,
@@ -7690,15 +7722,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 176,
+      "total": 177,
       "sold": 53,
       "removed": 0,
-      "live": 123,
+      "live": 124,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "Fender": {
+        "total": 14,
+        "sold": 6,
+        "removed": 0,
+        "live": 8,
+        "soldPct": 43,
+        "removedPct": 0,
+        "livePct": 57
+      },
       "ESP": {
         "total": 5,
         "sold": 1,
@@ -7725,15 +7766,6 @@
         "soldPct": 7,
         "removedPct": 0,
         "livePct": 93
-      },
-      "Fender": {
-        "total": 13,
-        "sold": 6,
-        "removed": 0,
-        "live": 7,
-        "soldPct": 46,
-        "removedPct": 0,
-        "livePct": 54
       },
       "Mojotone": {
         "total": 1,
