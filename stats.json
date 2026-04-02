@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T19:24:47.160Z",
-  "totalLinks": 203,
-  "totalWithPrice": 198,
+  "generatedAt": "2026-04-02T19:34:22.958Z",
+  "totalLinks": 202,
+  "totalWithPrice": 197,
   "overall": {
-    "count": 198,
-    "sum": 801373.91,
-    "avg": 4047,
+    "count": 197,
+    "sum": 796166.91,
+    "avg": 4041,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 190,
-    "sum": 521178.92,
-    "avg": 2743,
+    "count": 189,
+    "sum": 515971.92,
+    "avg": 2730,
     "min": 25.99,
-    "max": 8057,
-    "median": 2438
+    "max": 8000,
+    "median": 2425
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 65,
-      "sum": 187487.73,
+      "count": 64,
+      "sum": 182280.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2884
+      "avg": 2848
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 182,
-      "sum": 584668.97,
+      "count": 181,
+      "sum": 579461.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3212
+      "avg": 3201
     },
     "marketplace": {
       "count": 16,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 182,
-      "sum": 584668.97,
+      "count": 181,
+      "sum": 579461.97,
       "min": 25.99,
       "max": 35900,
-      "avg": 3212
+      "avg": 3201
     },
     "guitarcenter.com": {
       "count": 4,
@@ -192,6 +192,63 @@
     }
   },
   "byModel": {
+    "fender-stratocaster": {
+      "displayName": "Fender Stratocaster",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 2,
+      "sum": 42600,
+      "min": 6700,
+      "max": 35900,
+      "sightings": [
+        {
+          "price": 35900,
+          "date": "2026-03-29T02:53:43.437Z",
+          "year": 1964,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+          "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
+          "condition": "Excellent"
+        },
+        {
+          "price": 6700,
+          "date": "2026-04-02T19:34:09.766Z",
+          "year": null,
+          "modelYear": 1963,
+          "isReissue": true,
+          "title": "Fender Stratocaster 1963 - Aged Sonic Blue Nitrocellulous",
+          "url": "https://reverb.com/item/95607132-fender-stratocaster-1963-aged-sonic-blue-nitrocellulous",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 2,
+          "sum": 42600,
+          "min": 6700,
+          "max": 35900,
+          "avg": 21300
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 35900,
+        "min": 35900,
+        "max": 35900,
+        "prices": [
+          {
+            "price": 35900,
+            "askingPrice": 35900,
+            "date": "2026-04-01T04:35:54.903Z",
+            "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+            "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new"
+          }
+        ]
+      },
+      "avg": 21300
+    },
     "prs-custom-24-10-top": {
       "displayName": "PRS Custom 24 10-top",
       "brand": "PRS",
@@ -251,110 +308,6 @@
       },
       "avg": 3465,
       "trends": {}
-    },
-    "prs-herman-li-chleo-limited-edition-signature": {
-      "displayName": "PRS Herman Li Chleo Limited Edition Signature",
-      "brand": "PRS",
-      "model": "Herman Li Chleo",
-      "variant": "Limited Edition Signature",
-      "count": 1,
-      "sum": 8057,
-      "min": 8057,
-      "max": 8057,
-      "sightings": [
-        {
-          "price": 8057,
-          "date": "2026-04-02T18:29:18.086Z",
-          "year": null,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Limited Edition Herman Li Signature Chleo - 100 pieces worldwide - Charcoal Purple Burst",
-          "url": "https://reverb.com/item/95607579-prs-limited-edition-herman-li-signature-chleo-100-pieces-worldwide-charcoal-purple-burst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 8057,
-          "min": 8057,
-          "max": 8057,
-          "avg": 8057
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 8057,
-        "min": 8057,
-        "max": 8057,
-        "prices": [
-          {
-            "price": 8057,
-            "askingPrice": 8057,
-            "date": "2026-04-02T18:29:18.086Z",
-            "title": "PRS Limited Edition Herman Li Signature Chleo - 100 pieces worldwide - Charcoal Purple Burst",
-            "url": "https://reverb.com/item/95607579-prs-limited-edition-herman-li-signature-chleo-100-pieces-worldwide-charcoal-purple-burst"
-          }
-        ]
-      },
-      "avg": 8057
-    },
-    "prs-silver-sky-john-mayer-signature": {
-      "displayName": "PRS Silver Sky John Mayer Signature",
-      "brand": "PRS",
-      "model": "Silver Sky",
-      "variant": "John Mayer Signature",
-      "count": 2,
-      "sum": 5650,
-      "min": 1800,
-      "max": 3850,
-      "sightings": [
-        {
-          "price": 1800,
-          "date": "2026-04-01T17:53:00.319Z",
-          "year": 2019,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Silver Sky John Mayer Signature with Rosewood Fretboard 2019 - Present - Golden Mesa",
-          "url": "https://reverb.com/item/84772128-prs-silver-sky-john-mayer-signature-with-rosewood-fretboard-2019-present-golden-mesa",
-          "condition": "Excellent"
-        },
-        {
-          "price": 3850,
-          "date": "2026-04-02T18:30:02.563Z",
-          "year": 2024,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Silver Sky John Mayer Signature \"Dead Spec\" 2024 Moc Sand Satin Nitro",
-          "url": "https://reverb.com/item/95607576-prs-silver-sky-john-mayer-signature-dead-spec-2024-moc-sand-satin-nitro",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 2,
-          "sum": 5650,
-          "min": 1800,
-          "max": 3850,
-          "avg": 2825
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3850,
-        "min": 3850,
-        "max": 3850,
-        "prices": [
-          {
-            "price": 3850,
-            "askingPrice": 3850,
-            "date": "2026-04-02T18:30:02.563Z",
-            "title": "PRS Silver Sky John Mayer Signature \"Dead Spec\" 2024 Moc Sand Satin Nitro",
-            "url": "https://reverb.com/item/95607576-prs-silver-sky-john-mayer-signature-dead-spec-2024-moc-sand-satin-nitro"
-          }
-        ]
-      },
-      "avg": 2825
     },
     "kiesel-zeus-multi-one": {
       "displayName": "Kiesel Zeus Multi one",
@@ -1728,6 +1681,38 @@
         ]
       },
       "avg": 2500
+    },
+    "prs-silver-sky-john-mayer-signature": {
+      "displayName": "PRS Silver Sky John Mayer Signature",
+      "brand": "PRS",
+      "model": "Silver Sky",
+      "variant": "John Mayer Signature",
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-04-01T17:53:00.319Z",
+          "year": 2019,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Silver Sky John Mayer Signature with Rosewood Fretboard 2019 - Present - Golden Mesa",
+          "url": "https://reverb.com/item/84772128-prs-silver-sky-john-mayer-signature-with-rosewood-fretboard-2019-present-golden-mesa",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
     },
     "prs-silver-sky-john-mayer": {
       "displayName": "PRS Silver Sky John Mayer",
@@ -4241,53 +4226,6 @@
       },
       "avg": 2360
     },
-    "fender-stratocaster": {
-      "displayName": "Fender Stratocaster",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": null,
-      "count": 1,
-      "sum": 35900,
-      "min": 35900,
-      "max": 35900,
-      "sightings": [
-        {
-          "price": 35900,
-          "date": "2026-03-29T02:53:43.437Z",
-          "year": 1964,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
-          "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 35900,
-          "min": 35900,
-          "max": 35900,
-          "avg": 35900
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 35900,
-        "min": 35900,
-        "max": 35900,
-        "prices": [
-          {
-            "price": 35900,
-            "askingPrice": 35900,
-            "date": "2026-04-01T04:35:54.903Z",
-            "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
-            "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new"
-          }
-        ]
-      },
-      "avg": 35900
-    },
     "guild-x-88-with-case": {
       "displayName": "Guild X-88 With Case",
       "brand": "Guild",
@@ -6769,8 +6707,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 84,
-      "sum": 299321.56999999995,
+      "count": 83,
+      "sum": 294114.56999999995,
       "sold": {
         "count": 26,
         "sum": 108091.45,
@@ -6778,7 +6716,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3563,
+      "avg": 3544,
       "min": 25.99,
       "max": 35900
     },
@@ -6886,8 +6824,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2884,
-      "count": 65
+      "avg": 2848,
+      "count": 64
     },
     "03": {
       "name": "Mar",
@@ -6986,7 +6924,7 @@
     "500-1k": 12,
     "1k-2k": 49,
     "2k-3k": 55,
-    "3k-5k": 53,
+    "3k-5k": 52,
     "5k-10k": 15,
     "10k+": 6
   },
@@ -6995,25 +6933,25 @@
     "500-1k": 12,
     "1k-2k": 49,
     "2k-3k": 55,
-    "3k-5k": 53,
+    "3k-5k": 52,
     "5k-10k": 13,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 44,
+      "count": 16,
+      "avg": 3
+    },
     "PRS": {
       "sum": 53,
-      "count": 23,
-      "avg": 2
+      "count": 21,
+      "avg": 3
     },
     "Kiesel": {
       "sum": 33,
       "count": 8,
       "avg": 4
-    },
-    "Fender": {
-      "sum": 44,
-      "count": 15,
-      "avg": 3
     },
     "Mesa Boogie": {
       "sum": 0,
@@ -7307,7 +7245,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 34,
+    "2026-04-02": 33,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -7317,14 +7255,14 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 183,
+    "reverb": 182,
     "marketplace": 20
   },
-  "activeModelsCount": 178,
+  "activeModelsCount": 177,
   "topPosters": [
     {
       "username": "GP",
-      "count": 86
+      "count": 84
     },
     {
       "username": "Beijing Bob",
@@ -7340,7 +7278,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 14
+      "count": 15
     },
     {
       "username": "Madero",
@@ -7365,16 +7303,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2884,
-    "pctBelowAvg": 29,
-    "count": 65
+    "avg": 2848,
+    "pctBelowAvg": 30,
+    "count": 64
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6183,
-      "avgDiscount": -672.9,
-      "count": 15
+      "avgPrice": 6215,
+      "avgDiscount": -676.9,
+      "count": 16
     },
     "Gibson": {
       "avgPrice": 3170,
@@ -7382,9 +7320,9 @@
       "count": 17
     },
     "PRS": {
-      "avgPrice": 3363,
-      "avgDiscount": -140.2,
-      "count": 23
+      "avgPrice": 3117,
+      "avgDiscount": -122.6,
+      "count": 21
     },
     "Ibanez": {
       "avgPrice": 2959,
@@ -7393,8 +7331,8 @@
     }
   },
   "soldPrices": {
-    "count": 55,
-    "avg": 3626,
+    "count": 53,
+    "avg": 3539,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
@@ -8095,38 +8033,38 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 190,
-      "sold": 54,
+      "total": 189,
+      "sold": 52,
       "removed": 0,
-      "live": 136,
+      "live": 137,
       "soldPct": 28,
       "removedPct": 0,
       "livePct": 72
     },
     "byBrand": {
-      "PRS": {
-        "total": 23,
-        "sold": 8,
+      "Fender": {
+        "total": 17,
+        "sold": 6,
         "removed": 0,
-        "live": 15,
+        "live": 11,
         "soldPct": 35,
         "removedPct": 0,
         "livePct": 65
+      },
+      "PRS": {
+        "total": 21,
+        "sold": 6,
+        "removed": 0,
+        "live": 15,
+        "soldPct": 29,
+        "removedPct": 0,
+        "livePct": 71
       },
       "Kiesel": {
         "total": 8,
         "sold": 3,
         "removed": 0,
         "live": 5,
-        "soldPct": 38,
-        "removedPct": 0,
-        "livePct": 63
-      },
-      "Fender": {
-        "total": 16,
-        "sold": 6,
-        "removed": 0,
-        "live": 10,
         "soldPct": 38,
         "removedPct": 0,
         "livePct": 63
@@ -8659,7 +8597,7 @@
     "withOffers": 50,
     "totalOffers": 90,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 60
+    "offersEnabledPct": 59
   },
   "shippingInsights": {
     "freeShippingPct": 0,
