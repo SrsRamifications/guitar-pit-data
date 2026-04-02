@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T14:30:19.500Z",
-  "totalLinks": 187,
-  "totalWithPrice": 182,
+  "generatedAt": "2026-04-02T14:40:20.078Z",
+  "totalLinks": 188,
+  "totalWithPrice": 183,
   "overall": {
-    "count": 182,
-    "sum": 749389.76,
-    "avg": 4118,
+    "count": 183,
+    "sum": 751024.93,
+    "avg": 4104,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 174,
-    "sum": 469194.77,
-    "avg": 2697,
+    "count": 175,
+    "sum": 470829.94,
+    "avg": 2690,
     "min": 25.99,
     "max": 7999,
-    "median": 2468
+    "median": 2450
   },
   "outliers": {
     "thresholdHigh": 8419,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 49,
-      "sum": 135503.7,
+      "count": 50,
+      "sum": 137138.87,
       "min": 25.99,
       "max": 8800,
-      "avg": 2765
+      "avg": 2743
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 167,
-      "sum": 533784.81,
+      "count": 168,
+      "sum": 535419.98,
       "min": 25.99,
       "max": 35900,
-      "avg": 3196
+      "avg": 3187
     },
     "marketplace": {
       "count": 15,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 167,
-      "sum": 533784.81,
+      "count": 168,
+      "sum": 535419.98,
       "min": 25.99,
       "max": 35900,
-      "avg": 3196
+      "avg": 3187
     },
     "musicgoround.com": {
       "count": 1,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "esp-holy-grail-guitar": {
+      "displayName": "ESP \"Holy Grail\" Guitar",
+      "brand": "ESP",
+      "model": "\"Holy Grail\" Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 1635.17,
+      "min": 1635.17,
+      "max": 1635.17,
+      "sightings": [
+        {
+          "price": 1635.17,
+          "date": "2026-04-02T14:40:05.872Z",
+          "year": 1985,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP \"Holy Grail\" Guitar Neck 1985 banana",
+          "url": "https://reverb.com/item/94723950-esp-holy-grail-guitar-neck-1985-banana",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1635.17,
+          "min": 1635.17,
+          "max": 1635.17,
+          "avg": 1635
+        }
+      },
+      "avg": 1635
+    },
     "fgn-explorer-mij": {
       "displayName": "FGN Explorer Mij",
       "brand": "FGN",
@@ -6308,6 +6340,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 24,
+      "sum": 57402.79000000001,
+      "sold": {
+        "count": 5,
+        "sum": 10545.48,
+        "avg": 2109,
+        "min": 540,
+        "max": 4777.5
+      },
+      "avg": 2392,
+      "min": 417.18,
+      "max": 6500
+    },
     "Very Good": {
       "count": 44,
       "sum": 119954.15000000002,
@@ -6349,20 +6395,6 @@
       "avg": 4346,
       "min": 135,
       "max": 9500
-    },
-    "Good": {
-      "count": 23,
-      "sum": 55767.62000000001,
-      "sold": {
-        "count": 5,
-        "sum": 10545.48,
-        "avg": 2109,
-        "min": 540,
-        "max": 4777.5
-      },
-      "avg": 2425,
-      "min": 417.18,
-      "max": 6500
     },
     "Used": {
       "count": 6,
@@ -6426,8 +6458,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2765,
-      "count": 49
+      "avg": 2743,
+      "count": 50
     },
     "03": {
       "name": "Mar",
@@ -6524,7 +6556,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 45,
+    "1k-2k": 46,
     "2k-3k": 51,
     "3k-5k": 48,
     "5k-10k": 13,
@@ -6533,13 +6565,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 45,
+    "1k-2k": 46,
     "2k-3k": 51,
     "3k-5k": 48,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "ESP": {
+      "sum": 20,
+      "count": 5,
+      "avg": 4
+    },
     "FGN": {
       "sum": 0,
       "count": 1,
@@ -6647,11 +6684,6 @@
     },
     "Echopark": {
       "sum": 18,
-      "count": 4,
-      "avg": 5
-    },
-    "ESP": {
-      "sum": 20,
       "count": 4,
       "avg": 5
     },
@@ -6837,7 +6869,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 17,
+    "2026-04-02": 18,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6847,10 +6879,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 168,
+    "reverb": 169,
     "marketplace": 19
   },
-  "activeModelsCount": 166,
+  "activeModelsCount": 167,
   "topPosters": [
     {
       "username": "GP",
@@ -6861,12 +6893,12 @@
       "count": 33
     },
     {
-      "username": "YellowJack6",
+      "username": "WontonGG",
       "count": 16
     },
     {
-      "username": "WontonGG",
-      "count": 15
+      "username": "YellowJack6",
+      "count": 16
     },
     {
       "username": "Shteefe",
@@ -6895,9 +6927,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2765,
+    "avg": 2743,
     "pctBelowAvg": 33,
-    "count": 49
+    "count": 50
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7494,11 +7526,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 579.3726469655941,
-      "count": 32,
-      "avgPctDrop": 18.1
+      "totalPctDrop": 594.9976792156689,
+      "count": 33,
+      "avgPctDrop": 18
     },
     "byBrand": {
+      "ESP": {
+        "totalPctDrop": 23.56280014974143,
+        "count": 2,
+        "avgPctDrop": 11.8
+      },
       "FGN": {
         "totalPctDrop": 10.016194501304625,
         "count": 1,
@@ -7588,25 +7625,29 @@
         "totalPctDrop": 62.5,
         "count": 2,
         "avgPctDrop": 31.3
-      },
-      "ESP": {
-        "totalPctDrop": 7.937767899666613,
-        "count": 1,
-        "avgPctDrop": 7.9
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 175,
+      "total": 176,
       "sold": 51,
       "removed": 0,
-      "live": 124,
+      "live": 125,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "ESP": {
+        "total": 5,
+        "sold": 1,
+        "removed": 0,
+        "live": 4,
+        "soldPct": 20,
+        "removedPct": 0,
+        "livePct": 80
+      },
       "FGN": {
         "total": 1,
         "sold": 0,
@@ -7797,15 +7838,6 @@
         "livePct": 50
       },
       "Echopark": {
-        "total": 4,
-        "sold": 1,
-        "removed": 0,
-        "live": 3,
-        "soldPct": 25,
-        "removedPct": 0,
-        "livePct": 75
-      },
-      "ESP": {
         "total": 4,
         "sold": 1,
         "removed": 0,
@@ -8144,7 +8176,7 @@
     "withOffers": 49,
     "totalOffers": 88,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 60
+    "offersEnabledPct": 59
   },
   "shippingInsights": {
     "freeShippingPct": 0,
