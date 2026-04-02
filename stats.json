@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T14:40:20.078Z",
+  "generatedAt": "2026-04-02T14:47:03.137Z",
   "totalLinks": 188,
   "totalWithPrice": 183,
   "overall": {
@@ -349,6 +349,21 @@
           "max": 899.98,
           "avg": 900
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 900,
+        "min": 899.98,
+        "max": 899.98,
+        "prices": [
+          {
+            "price": 899.98,
+            "askingPrice": 899.98,
+            "date": "2026-04-02T14:46:39.493Z",
+            "title": "Used Mojotone Brownface Vibroverb Tube Combo Amp 2x10\" 41124-S000204988",
+            "url": "https://musicgoround.com/locations/littleton-co/product/S000204988/Mojotone-Brownface-Vibroverb"
+          }
+        ]
       },
       "avg": 900
     },
@@ -1140,6 +1155,21 @@
           "max": 2795,
           "avg": 2795
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2795,
+        "min": 2795,
+        "max": 2795,
+        "prices": [
+          {
+            "price": 2795,
+            "askingPrice": 2795,
+            "date": "2026-04-02T14:43:07.426Z",
+            "title": "Preowned Suhr Pete Thorn Signature Standard HSS in Graphite Metallic",
+            "url": "https://reverb.com/item/95592609-preowned-suhr-pete-thorn-signature-standard-hss-in-graphite-metallic"
+          }
+        ]
       },
       "avg": 2795
     },
@@ -6372,9 +6402,9 @@
       "count": 78,
       "sum": 273570.69999999995,
       "sold": {
-        "count": 25,
-        "sum": 105296.45,
-        "avg": 4212,
+        "count": 26,
+        "sum": 108091.45,
+        "avg": 4157,
         "min": 275,
         "max": 35900
       },
@@ -6955,19 +6985,27 @@
     }
   },
   "soldPrices": {
-    "count": 52,
-    "avg": 3584,
+    "count": 54,
+    "avg": 3519,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 48,
-      "count": 51,
+      "totalDays": 49,
+      "count": 53,
       "avgDays": 1
     },
     "byModel": {
+      "mojotone-brownface-vibroverb-tube": {
+        "displayName": "Mojotone Brownface Vibroverb Tube",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
       "acoustic-pre-war-slope-shoulder": {
         "displayName": "Acoustic Pre-war Slope Shoulder",
         "totalDays": 0,
@@ -6991,6 +7029,14 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
+      },
+      "suhr-standard-signature-hss": {
+        "displayName": "Suhr Standard Signature Hss",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
       },
       "fender-stratocaster-custom-shop": {
         "displayName": "Fender Stratocaster Custom Shop",
@@ -7354,6 +7400,13 @@
       }
     },
     "byBrand": {
+      "Mojotone": {
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
       "Acoustic": {
         "totalDays": 0,
         "count": 1,
@@ -7373,6 +7426,13 @@
         "count": 5,
         "fastest": 0,
         "slowest": 2,
+        "avgDays": 1
+      },
+      "Suhr": {
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
         "avgDays": 1
       },
       "Fender": {
@@ -7631,12 +7691,12 @@
   "sellThrough": {
     "overall": {
       "total": 176,
-      "sold": 51,
+      "sold": 53,
       "removed": 0,
-      "live": 125,
-      "soldPct": 29,
+      "live": 123,
+      "soldPct": 30,
       "removedPct": 0,
-      "livePct": 71
+      "livePct": 70
     },
     "byBrand": {
       "ESP": {
@@ -7677,12 +7737,12 @@
       },
       "Mojotone": {
         "total": 1,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
-        "live": 1,
-        "soldPct": 0,
+        "live": 0,
+        "soldPct": 100,
         "removedPct": 0,
-        "livePct": 100
+        "livePct": 0
       },
       "Duesenberg": {
         "total": 1,
@@ -7776,12 +7836,12 @@
       },
       "Suhr": {
         "total": 2,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
-        "live": 2,
-        "soldPct": 0,
+        "live": 1,
+        "soldPct": 50,
         "removedPct": 0,
-        "livePct": 100
+        "livePct": 50
       },
       "Music Man": {
         "total": 6,
@@ -8174,7 +8234,7 @@
   },
   "offerActivity": {
     "withOffers": 49,
-    "totalOffers": 88,
+    "totalOffers": 89,
     "avgOffersPerListing": 1.8,
     "offersEnabledPct": 59
   },
