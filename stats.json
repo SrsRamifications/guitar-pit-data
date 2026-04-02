@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-02T15:16:48.330Z",
-  "totalLinks": 194,
-  "totalWithPrice": 189,
+  "generatedAt": "2026-04-02T15:21:35.979Z",
+  "totalLinks": 195,
+  "totalWithPrice": 190,
   "overall": {
-    "count": 189,
-    "sum": 764368.79,
-    "avg": 4044,
+    "count": 190,
+    "sum": 766068.79,
+    "avg": 4032,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 181,
-    "sum": 484173.8,
-    "avg": 2675,
+    "count": 182,
+    "sum": 485873.8,
+    "avg": 2670,
     "min": 25.99,
     "max": 7999,
     "median": 2400
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 56,
-      "sum": 150482.73,
+      "count": 57,
+      "sum": 152182.73,
       "min": 25.99,
       "max": 8800,
-      "avg": 2687
+      "avg": 2670
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 173,
-      "sum": 547663.85,
+      "count": 174,
+      "sum": 549363.85,
       "min": 25.99,
       "max": 35900,
-      "avg": 3166
+      "avg": 3157
     },
     "marketplace": {
       "count": 16,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 173,
-      "sum": 547663.85,
+      "count": 174,
+      "sum": 549363.85,
       "min": 25.99,
       "max": 35900,
-      "avg": 3166
+      "avg": 3157
     },
     "guitarcenter.com": {
       "count": 4,
@@ -192,6 +192,38 @@
     }
   },
   "byModel": {
+    "charvel-rg": {
+      "displayName": "Charvel RG",
+      "brand": "Charvel",
+      "model": "RG",
+      "variant": null,
+      "count": 1,
+      "sum": 1700,
+      "min": 1700,
+      "max": 1700,
+      "sightings": [
+        {
+          "price": 1700,
+          "date": "2026-04-02T15:21:22.076Z",
+          "year": 1988,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1988 Charvel Model 6 - Burgundy Mist w/ Case - Free Shipping!",
+          "url": "https://reverb.com/item/95014024-1988-charvel-model-6-burgundy-mist-w-case-free-shipping",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "avg": 1700
+    },
     "suhr-pro-series-flame-maple": {
       "displayName": "Suhr Pro Series Flame Maple",
       "brand": "Suhr",
@@ -6562,6 +6594,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 26,
+      "sum": 60402.79000000001,
+      "sold": {
+        "count": 5,
+        "sum": 10545.48,
+        "avg": 2109,
+        "min": 540,
+        "max": 4777.5
+      },
+      "avg": 2323,
+      "min": 417.18,
+      "max": 6500
+    },
     "Very Good": {
       "count": 47,
       "sum": 126902.15000000002,
@@ -6575,20 +6621,6 @@
       "avg": 2700,
       "min": 33,
       "max": 16500
-    },
-    "Good": {
-      "count": 25,
-      "sum": 58702.79000000001,
-      "sold": {
-        "count": 5,
-        "sum": 10545.48,
-        "avg": 2109,
-        "min": 540,
-        "max": 4777.5
-      },
-      "avg": 2348,
-      "min": 417.18,
-      "max": 6500
     },
     "Excellent": {
       "count": 79,
@@ -6680,8 +6712,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2687,
-      "count": 56
+      "avg": 2670,
+      "count": 57
     },
     "03": {
       "name": "Mar",
@@ -6778,7 +6810,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 48,
+    "1k-2k": 49,
     "2k-3k": 54,
     "3k-5k": 49,
     "5k-10k": 13,
@@ -6787,13 +6819,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 11,
-    "1k-2k": 48,
+    "1k-2k": 49,
     "2k-3k": 54,
     "3k-5k": 49,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Charvel": {
+      "sum": 4,
+      "count": 3,
+      "avg": 1
+    },
     "Suhr": {
       "sum": 3,
       "count": 3,
@@ -6913,11 +6950,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Charvel": {
-      "sum": 4,
-      "count": 2,
-      "avg": 2
     },
     "Echopark": {
       "sum": 18,
@@ -7096,7 +7128,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 24,
+    "2026-04-02": 25,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -7106,10 +7138,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 174,
+    "reverb": 175,
     "marketplace": 20
   },
-  "activeModelsCount": 173,
+  "activeModelsCount": 174,
   "topPosters": [
     {
       "username": "GP",
@@ -7121,7 +7153,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 17
+      "count": 18
     },
     {
       "username": "YellowJack6",
@@ -7154,9 +7186,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2687,
+    "avg": 2670,
     "pctBelowAvg": 34,
-    "count": 56
+    "count": 57
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7887,15 +7919,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 182,
+      "total": 183,
       "sold": 53,
       "removed": 0,
-      "live": 129,
+      "live": 130,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Charvel": {
+        "total": 3,
+        "sold": 1,
+        "removed": 0,
+        "live": 2,
+        "soldPct": 33,
+        "removedPct": 0,
+        "livePct": 67
+      },
       "Suhr": {
         "total": 3,
         "sold": 1,
@@ -8111,15 +8152,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Charvel": {
-        "total": 2,
-        "sold": 1,
-        "removed": 0,
-        "live": 1,
-        "soldPct": 50,
-        "removedPct": 0,
-        "livePct": 50
       },
       "Echopark": {
         "total": 4,
@@ -8442,7 +8474,7 @@
     "withOffers": 50,
     "totalOffers": 90,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 60
+    "offersEnabledPct": 61
   },
   "shippingInsights": {
     "freeShippingPct": 0,
