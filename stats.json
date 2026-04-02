@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-02T10:47:05.757Z",
-  "totalLinks": 183,
-  "totalWithPrice": 178,
+  "generatedAt": "2026-04-02T13:21:31.361Z",
+  "totalLinks": 184,
+  "totalWithPrice": 179,
   "overall": {
-    "count": 178,
-    "sum": 741566.94,
-    "avg": 4166,
+    "count": 179,
+    "sum": 742466.92,
+    "avg": 4148,
     "min": 25.99,
     "max": 99000
   },
   "filtered": {
-    "count": 170,
-    "sum": 461371.95,
-    "avg": 2714,
+    "count": 171,
+    "sum": 462271.93,
+    "avg": 2703,
     "min": 25.99,
     "max": 7999,
-    "median": 2492
+    "median": 2485
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 45,
-      "sum": 127680.88,
+      "count": 46,
+      "sum": 128580.86,
       "min": 25.99,
       "max": 8800,
-      "avg": 2837
+      "avg": 2795
     },
     "2026-03": {
       "count": 133,
@@ -104,22 +104,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 15,
+      "sum": 215604.95,
+      "min": 899.98,
+      "max": 99000,
+      "avg": 14374
+    },
     "reverb": {
       "count": 164,
       "sum": 526861.97,
       "min": 25.99,
       "max": 35900,
       "avg": 3213
-    },
-    "marketplace": {
-      "count": 14,
-      "sum": 214704.97,
-      "min": 929.99,
-      "max": 99000,
-      "avg": 15336
     }
   },
   "byDomain": {
+    "musicgoround.com": {
+      "count": 1,
+      "sum": 899.98,
+      "min": 899.98,
+      "max": 899.98,
+      "avg": 900
+    },
     "reverb.com": {
       "count": 164,
       "sum": 526861.97,
@@ -185,6 +192,38 @@
     }
   },
   "byModel": {
+    "mojotone-brownface-vibroverb-tube": {
+      "displayName": "Mojotone Brownface Vibroverb Tube",
+      "brand": "Mojotone",
+      "model": "Brownface Vibroverb Tube",
+      "variant": null,
+      "count": 1,
+      "sum": 899.98,
+      "min": 899.98,
+      "max": 899.98,
+      "sightings": [
+        {
+          "price": 899.98,
+          "date": "2026-04-02T13:21:16.539Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Mojotone Brownface Vibroverb Tube Combo Amp 2x10\" 41124-S000204988",
+          "url": "https://musicgoround.com/locations/littleton-co/product/S000204988/Mojotone-Brownface-Vibroverb",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 899.98,
+          "min": 899.98,
+          "max": 899.98,
+          "avg": 900
+        }
+      },
+      "avg": 900
+    },
     "duesenberg-alliance-jeff-darosa-signature": {
       "displayName": "Duesenberg Alliance Jeff DaRosa Signature",
       "brand": "Duesenberg",
@@ -6291,8 +6330,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2837,
-      "count": 45
+      "avg": 2795,
+      "count": 46
     },
     "03": {
       "name": "Mar",
@@ -6388,7 +6427,7 @@
   ],
   "priceDistribution": {
     "0-500": 8,
-    "500-1k": 9,
+    "500-1k": 10,
     "1k-2k": 45,
     "2k-3k": 50,
     "3k-5k": 47,
@@ -6397,7 +6436,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 8,
-    "500-1k": 9,
+    "500-1k": 10,
     "1k-2k": 45,
     "2k-3k": 50,
     "3k-5k": 47,
@@ -6405,15 +6444,20 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Mojotone": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Duesenberg": {
       "sum": 0,
       "count": 1,
       "avg": 0
     },
     "PRS": {
-      "sum": 47,
+      "sum": 51,
       "count": 20,
-      "avg": 2
+      "avg": 3
     },
     "Bilt": {
       "sum": 0,
@@ -6436,17 +6480,17 @@
       "avg": 1
     },
     "Ibanez": {
-      "sum": 43,
+      "sum": 44,
       "count": 12,
       "avg": 4
     },
     "Fender": {
-      "sum": 38,
+      "sum": 41,
       "count": 11,
-      "avg": 3
+      "avg": 4
     },
     "Acoustic": {
-      "sum": 5,
+      "sum": 6,
       "count": 2,
       "avg": 3
     },
@@ -6456,14 +6500,14 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 63,
+      "sum": 66,
       "count": 17,
       "avg": 4
     },
     "Epiphone": {
-      "sum": 10,
+      "sum": 11,
       "count": 3,
-      "avg": 3
+      "avg": 4
     },
     "Suhr": {
       "sum": 3,
@@ -6476,7 +6520,7 @@
       "avg": 2
     },
     "Jackson": {
-      "sum": 30,
+      "sum": 31,
       "count": 7,
       "avg": 4
     },
@@ -6501,9 +6545,9 @@
       "avg": 2
     },
     "Echopark": {
-      "sum": 16,
+      "sum": 18,
       "count": 4,
-      "avg": 4
+      "avg": 5
     },
     "ESP": {
       "sum": 19,
@@ -6511,7 +6555,7 @@
       "avg": 5
     },
     "Millimetric": {
-      "sum": 6,
+      "sum": 7,
       "count": 3,
       "avg": 2
     },
@@ -6536,29 +6580,29 @@
       "avg": 3
     },
     "Cornish": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Knaggs": {
-      "sum": 4,
-      "count": 2,
-      "avg": 2
-    },
-    "Fano": {
       "sum": 6,
       "count": 2,
       "avg": 3
     },
+    "Fano": {
+      "sum": 7,
+      "count": 2,
+      "avg": 4
+    },
     "Martin": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Kiesel": {
-      "sum": 28,
+      "sum": 32,
       "count": 7,
-      "avg": 4
+      "avg": 5
     },
     "Gretsch": {
       "sum": 3,
@@ -6586,14 +6630,14 @@
       "avg": 3
     },
     "Mayones": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Patrick James Eggle": {
-      "sum": 10,
+      "sum": 11,
       "count": 2,
-      "avg": 5
+      "avg": 6
     },
     "Flaxwood": {
       "sum": 5,
@@ -6641,9 +6685,9 @@
       "avg": 5
     },
     "Seymour Duncan": {
-      "sum": 5,
+      "sum": 6,
       "count": 1,
-      "avg": 5
+      "avg": 6
     },
     "Rick Toone": {
       "sum": 6,
@@ -6692,7 +6736,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 13,
+    "2026-04-02": 14,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6702,10 +6746,10 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 165,
-    "marketplace": 18
+    "marketplace": 19,
+    "reverb": 165
   },
-  "activeModelsCount": 162,
+  "activeModelsCount": 163,
   "topPosters": [
     {
       "username": "GP",
@@ -6713,7 +6757,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 31
+      "count": 32
     },
     {
       "username": "YellowJack6",
@@ -6750,9 +6794,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2837,
-    "pctBelowAvg": 32,
-    "count": 45
+    "avg": 2795,
+    "pctBelowAvg": 33,
+    "count": 46
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7448,15 +7492,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 171,
+      "total": 172,
       "sold": 51,
       "removed": 0,
-      "live": 120,
+      "live": 121,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "Mojotone": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Duesenberg": {
         "total": 1,
         "sold": 0,
