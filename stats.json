@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-02T00:51:07.799Z",
-  "totalLinks": 173,
-  "totalWithPrice": 168,
+  "generatedAt": "2026-04-02T00:55:44.105Z",
+  "totalLinks": 174,
+  "totalWithPrice": 169,
   "overall": {
-    "count": 168,
-    "sum": 716850.68,
-    "avg": 4267,
+    "count": 169,
+    "sum": 718750.68,
+    "avg": 4253,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 160,
-    "sum": 436655.69,
-    "avg": 2729,
+    "count": 161,
+    "sum": 438555.69,
+    "avg": 2724,
     "min": 33,
     "max": 7999,
-    "median": 2468
+    "median": 2450
   },
   "outliers": {
-    "thresholdHigh": 8500,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 8,
     "items": [
@@ -89,11 +89,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 35,
-      "sum": 102924.89,
+      "count": 36,
+      "sum": 104824.89,
       "min": 165,
       "max": 8800,
-      "avg": 2941
+      "avg": 2912
     },
     "2026-03": {
       "count": 133,
@@ -105,11 +105,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 154,
-      "sum": 502145.71,
+      "count": 155,
+      "sum": 504045.71,
       "min": 33,
       "max": 35900,
-      "avg": 3261
+      "avg": 3252
     },
     "marketplace": {
       "count": 14,
@@ -121,11 +121,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 154,
-      "sum": 502145.71,
+      "count": 155,
+      "sum": 504045.71,
       "min": 33,
       "max": 35900,
-      "avg": 3261
+      "avg": 3252
     },
     "guitarcenter.com": {
       "count": 3,
@@ -185,6 +185,63 @@
     }
   },
   "byModel": {
+    "prs-mccarty": {
+      "displayName": "PRS McCarty",
+      "brand": "PRS",
+      "model": "McCarty",
+      "variant": null,
+      "count": 2,
+      "sum": 4299,
+      "min": 1900,
+      "max": 2399,
+      "sightings": [
+        {
+          "price": 2399,
+          "date": "2026-03-30T18:52:31.051Z",
+          "year": 2000,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
+          "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar",
+          "condition": "Good"
+        },
+        {
+          "price": 1900,
+          "date": "2026-04-02T00:55:30.977Z",
+          "year": 2007,
+          "modelYear": 1998,
+          "isReissue": true,
+          "title": "PRS McCarty Soapbar 1998 - 2007 - Amber",
+          "url": "https://reverb.com/item/95598219-prs-mccarty-soapbar-1998-2007-amber",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 4299,
+          "min": 1900,
+          "max": 2399,
+          "avg": 2150
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2399,
+        "min": 2399,
+        "max": 2399,
+        "prices": [
+          {
+            "price": 2399,
+            "askingPrice": 2399,
+            "date": "2026-03-31T02:43:15.657Z",
+            "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
+            "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar"
+          }
+        ]
+      },
+      "avg": 2150
+    },
     "fender-original": {
       "displayName": "Fender Original",
       "brand": "Fender",
@@ -2271,53 +2328,6 @@
         ]
       },
       "avg": 4699
-    },
-    "prs-mccarty": {
-      "displayName": "PRS McCarty",
-      "brand": "PRS",
-      "model": "McCarty",
-      "variant": null,
-      "count": 1,
-      "sum": 2399,
-      "min": 2399,
-      "max": 2399,
-      "sightings": [
-        {
-          "price": 2399,
-          "date": "2026-03-30T18:52:31.051Z",
-          "year": 2000,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
-          "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 2399,
-          "min": 2399,
-          "max": 2399,
-          "avg": 2399
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2399,
-        "min": 2399,
-        "max": 2399,
-        "prices": [
-          {
-            "price": 2399,
-            "askingPrice": 2399,
-            "date": "2026-03-31T02:43:15.657Z",
-            "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
-            "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar"
-          }
-        ]
-      },
-      "avg": 2399
     },
     "eastman-sb54tv": {
       "displayName": "Eastman SB54/TV,",
@@ -5830,6 +5840,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 22,
+      "sum": 50955.62,
+      "sold": {
+        "count": 5,
+        "sum": 10545.48,
+        "avg": 2109,
+        "min": 540,
+        "max": 4777.5
+      },
+      "avg": 2316,
+      "min": 414.62,
+      "max": 6500
+    },
     "Very Good": {
       "count": 41,
       "sum": 113226.19000000002,
@@ -5894,20 +5918,6 @@
       "min": 850,
       "max": 4799
     },
-    "Good": {
-      "count": 21,
-      "sum": 49055.62,
-      "sold": {
-        "count": 5,
-        "sum": 10545.48,
-        "avg": 2109,
-        "min": 540,
-        "max": 4777.5
-      },
-      "avg": 2336,
-      "min": 414.62,
-      "max": 6500
-    },
     "Brand New": {
       "count": 13,
       "sum": 56187.41999999999,
@@ -5948,8 +5958,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2941,
-      "count": 35
+      "avg": 2912,
+      "count": 36
     },
     "03": {
       "name": "Mar",
@@ -6046,7 +6056,7 @@
   "priceDistribution": {
     "0-500": 7,
     "500-1k": 8,
-    "1k-2k": 43,
+    "1k-2k": 44,
     "2k-3k": 46,
     "3k-5k": 45,
     "5k-10k": 13,
@@ -6055,22 +6065,22 @@
   "priceDistributionFiltered": {
     "0-500": 7,
     "500-1k": 8,
-    "1k-2k": 43,
+    "1k-2k": 44,
     "2k-3k": 46,
     "3k-5k": 45,
     "5k-10k": 11,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 33,
+      "count": 18,
+      "avg": 2
+    },
     "Fender": {
       "sum": 35,
       "count": 11,
       "avg": 3
-    },
-    "PRS": {
-      "sum": 33,
-      "count": 17,
-      "avg": 2
     },
     "Acoustic": {
       "sum": 4,
@@ -6339,7 +6349,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-02": 3,
+    "2026-04-02": 4,
     "2026-04-01": 32,
     "2026-03-31": 18,
     "2026-03-30": 29,
@@ -6349,14 +6359,14 @@
     "2026-03-26": 8
   },
   "categoryDistribution": {
-    "reverb": 155,
+    "reverb": 156,
     "marketplace": 18
   },
   "activeModelsCount": 153,
   "topPosters": [
     {
       "username": "GP",
-      "count": 72
+      "count": 73
     },
     {
       "username": "Beijing Bob",
@@ -6397,9 +6407,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2941,
-    "pctBelowAvg": 31,
-    "count": 35
+    "avg": 2912,
+    "pctBelowAvg": 32,
+    "count": 36
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -6414,9 +6424,9 @@
       "count": 17
     },
     "PRS": {
-      "avgPrice": 3334,
-      "avgDiscount": -138.1,
-      "count": 17
+      "avgPrice": 3254,
+      "avgDiscount": -132.5,
+      "count": 18
     },
     "Ibanez": {
       "avgPrice": 2791,
@@ -7052,15 +7062,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 161,
+      "total": 162,
       "sold": 48,
       "removed": 0,
-      "live": 113,
+      "live": 114,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "PRS": {
+        "total": 18,
+        "sold": 6,
+        "removed": 0,
+        "live": 12,
+        "soldPct": 33,
+        "removedPct": 0,
+        "livePct": 67
+      },
       "Fender": {
         "total": 12,
         "sold": 6,
@@ -7069,15 +7088,6 @@
         "soldPct": 50,
         "removedPct": 0,
         "livePct": 50
-      },
-      "PRS": {
-        "total": 17,
-        "sold": 6,
-        "removed": 0,
-        "live": 11,
-        "soldPct": 35,
-        "removedPct": 0,
-        "livePct": 65
       },
       "Acoustic": {
         "total": 2,
@@ -7566,6 +7576,6 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 97
+    "avgShippingCost": 96
   }
 }
