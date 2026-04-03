@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-03T14:43:52.803Z",
-  "totalLinks": 211,
-  "totalWithPrice": 207,
+  "generatedAt": "2026-04-03T14:44:48.769Z",
+  "totalLinks": 212,
+  "totalWithPrice": 208,
   "overall": {
-    "count": 207,
-    "sum": 883907.78,
-    "avg": 4270,
+    "count": 208,
+    "sum": 888402.77,
+    "avg": 4271,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 197,
-    "sum": 542432.79,
-    "avg": 2753,
+    "count": 198,
+    "sum": 546927.78,
+    "avg": 2762,
     "min": 26,
     "max": 8000,
     "median": 2500
   },
   "outliers": {
-    "thresholdHigh": 8500,
+    "thresholdHigh": 8620,
     "thresholdLow": 0,
     "count": 10,
     "items": [
@@ -105,15 +105,15 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 75,
-      "sum": 272076.9,
+      "count": 76,
+      "sum": 276571.9,
       "min": 26,
       "max": 49000,
-      "avg": 3628
+      "avg": 3639
     },
     "2026-03": {
       "count": 132,
-      "sum": 611830.88,
+      "sum": 611830.87,
       "min": 33,
       "max": 99000,
       "avg": 4635
@@ -121,15 +121,15 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 17,
-      "sum": 221099.94,
+      "count": 18,
+      "sum": 225594.94,
       "min": 899.98,
       "max": 99000,
-      "avg": 13006
+      "avg": 12533
     },
     "reverb": {
       "count": 190,
-      "sum": 662807.84,
+      "sum": 662807.83,
       "min": 26,
       "max": 49000,
       "avg": 3488
@@ -137,15 +137,15 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 6,
-      "sum": 179984,
+      "count": 7,
+      "sum": 184479,
       "min": 2295,
       "max": 99000,
-      "avg": 29997
+      "avg": 26354
     },
     "reverb.com": {
       "count": 190,
-      "sum": 662807.84,
+      "sum": 662807.83,
       "min": 26,
       "max": 49000,
       "avg": 3488
@@ -208,6 +208,38 @@
     }
   },
   "byModel": {
+    "gibson-sg-custom-vos-ultra": {
+      "displayName": "Gibson SG Custom Vos Ultra",
+      "brand": "Gibson",
+      "model": "SG Custom",
+      "variant": "Vos Ultra",
+      "count": 1,
+      "sum": 4495,
+      "min": 4495,
+      "max": 4495,
+      "sightings": [
+        {
+          "price": 4495,
+          "date": "2026-04-03T14:44:33.094Z",
+          "year": 2023,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson SG Custom \"CME Spec\" VOS Ultra Violet 2023",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gibson-sg-custom-cme-spec-vos-ultra-violet-2023-2528441",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 4495,
+          "min": 4495,
+          "max": 4495,
+          "avg": 4495
+        }
+      },
+      "avg": 4495
+    },
     "suhr-classic": {
       "displayName": "Suhr Classic",
       "brand": "Suhr",
@@ -5852,12 +5884,12 @@
       "model": "RG",
       "variant": null,
       "count": 1,
-      "sum": 1000,
-      "min": 1000,
-      "max": 1000,
+      "sum": 999.99,
+      "min": 999.99,
+      "max": 999.99,
       "sightings": [
         {
-          "price": 1000,
+          "price": 999.99,
           "date": "2026-03-27T20:11:56.157Z",
           "year": null,
           "modelYear": null,
@@ -5870,9 +5902,9 @@
       "byCondition": {
         "Very Good": {
           "count": 1,
-          "sum": 1000,
-          "min": 1000,
-          "max": 1000,
+          "sum": 999.99,
+          "min": 999.99,
+          "max": 999.99,
           "avg": 1000
         }
       },
@@ -7008,13 +7040,13 @@
   },
   "byCondition": {
     "Used": {
-      "count": 8,
-      "sum": 118453.97,
+      "count": 9,
+      "sum": 122948.97,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 14807,
+      "avg": 13661,
       "min": 1169.99,
       "max": 99000
     },
@@ -7034,7 +7066,7 @@
     },
     "Very Good": {
       "count": 53,
-      "sum": 152084.55999999997,
+      "sum": 152084.55,
       "sold": {
         "count": 11,
         "sum": 25163.78,
@@ -7125,8 +7157,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3628,
-      "count": 75
+      "avg": 3639,
+      "count": 76
     },
     "03": {
       "name": "Mar",
@@ -7278,23 +7310,28 @@
   ],
   "priceDistribution": {
     "0-500": 8,
-    "500-1k": 12,
-    "1k-2k": 50,
+    "500-1k": 13,
+    "1k-2k": 49,
     "2k-3k": 57,
-    "3k-5k": 56,
+    "3k-5k": 57,
     "5k-10k": 16,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 8,
-    "500-1k": 12,
-    "1k-2k": 50,
+    "500-1k": 13,
+    "1k-2k": 49,
     "2k-3k": 57,
-    "3k-5k": 56,
+    "3k-5k": 57,
     "5k-10k": 14,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 85,
+      "count": 19,
+      "avg": 4
+    },
     "Suhr": {
       "sum": 6,
       "count": 4,
@@ -7309,11 +7346,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Gibson": {
-      "sum": 85,
-      "count": 18,
-      "avg": 5
     },
     "Fender": {
       "sum": 56,
@@ -7607,7 +7639,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-03": 3,
+    "2026-04-03": 4,
     "2026-04-02": 40,
     "2026-04-01": 32,
     "2026-03-31": 17,
@@ -7618,10 +7650,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "marketplace": 21,
+    "marketplace": 22,
     "reverb": 190
   },
-  "activeModelsCount": 183,
+  "activeModelsCount": 184,
   "topPosters": [
     {
       "username": "GP",
@@ -7636,12 +7668,12 @@
       "count": 21
     },
     {
-      "username": "YellowJack6",
+      "username": "Shteefe",
       "count": 16
     },
     {
-      "username": "Shteefe",
-      "count": 15
+      "username": "YellowJack6",
+      "count": 16
     },
     {
       "username": "Madero",
@@ -7666,9 +7698,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3628,
+    "avg": 3639,
     "pctBelowAvg": 15,
-    "count": 75
+    "count": 76
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7678,9 +7710,9 @@
       "count": 16
     },
     "Gibson": {
-      "avgPrice": 3066,
-      "avgDiscount": -155.5,
-      "count": 18
+      "avgPrice": 3141,
+      "avgDiscount": -161.7,
+      "count": 19
     },
     "PRS": {
       "avgPrice": 3117,
@@ -8471,16 +8503,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 198,
+      "total": 199,
       "sold": 58,
       "removed": 0,
       "fake": 0,
-      "live": 140,
+      "live": 141,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 21,
+        "sold": 5,
+        "removed": 0,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 24,
+        "removedPct": 0,
+        "livePct": 76
+      },
       "Suhr": {
         "total": 4,
         "sold": 1,
@@ -8510,16 +8552,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 20,
-        "sold": 5,
-        "removed": 0,
-        "fake": 0,
-        "live": 15,
-        "soldPct": 25,
-        "removedPct": 0,
-        "livePct": 75
       },
       "Fender": {
         "total": 15,
@@ -9180,9 +9212,9 @@
     },
     {
       "label": "31+",
-      "total": 44,
+      "total": 43,
       "sold": 5,
-      "rate": 11
+      "rate": 12
     }
   ],
   "offersEffect": {
@@ -9199,7 +9231,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 71,
+      "total": 70,
       "sold": 9,
       "rate": 13
     },
@@ -9314,12 +9346,6 @@
     },
     {
       "state": "11",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "MN",
       "total": 2,
       "sold": 0,
       "rate": 0
