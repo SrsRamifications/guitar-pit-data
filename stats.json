@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-03T14:45:43.007Z",
+  "generatedAt": "2026-04-03T15:02:35.509Z",
   "totalLinks": 213,
   "totalWithPrice": 209,
   "overall": {
     "count": 209,
-    "sum": 891897.77,
+    "sum": 891897.78,
     "avg": 4267,
     "min": 26,
     "max": 99000
   },
   "filtered": {
     "count": 199,
-    "sum": 550422.78,
+    "sum": 550422.79,
     "avg": 2766,
     "min": 26,
     "max": 8000,
@@ -105,50 +105,50 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 77,
-      "sum": 280066.9,
+      "count": 78,
+      "sum": 282266.9,
       "min": 26,
       "max": 49000,
-      "avg": 3637
+      "avg": 3619
     },
     "2026-03": {
-      "count": 132,
-      "sum": 611830.87,
+      "count": 131,
+      "sum": 609630.88,
       "min": 33,
       "max": 99000,
-      "avg": 4635
+      "avg": 4654
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 190,
+      "sum": 662807.84,
+      "min": 26,
+      "max": 49000,
+      "avg": 3488
+    },
     "marketplace": {
       "count": 19,
       "sum": 229089.94,
       "min": 899.98,
       "max": 99000,
       "avg": 12057
-    },
-    "reverb": {
-      "count": 190,
-      "sum": 662807.83,
-      "min": 26,
-      "max": 49000,
-      "avg": 3488
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 190,
+      "sum": 662807.84,
+      "min": 26,
+      "max": 49000,
+      "avg": 3488
+    },
     "chicagomusicexchange.com": {
       "count": 8,
       "sum": 187974,
       "min": 2295,
       "max": 99000,
       "avg": 23497
-    },
-    "reverb.com": {
-      "count": 190,
-      "sum": 662807.83,
-      "min": 26,
-      "max": 49000,
-      "avg": 3488
     },
     "guitarcenter.com": {
       "count": 4,
@@ -208,6 +208,38 @@
     }
   },
   "byModel": {
+    "bc-rich-jm180-mij": {
+      "displayName": "BC Rich JM180 Mij",
+      "brand": "BC Rich",
+      "model": "JM180",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 2200,
+      "min": 2200,
+      "max": 2200,
+      "sightings": [
+        {
+          "price": 2200,
+          "date": "2026-04-02T20:47:23.328Z",
+          "year": 2001,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2001 B.C. Rich Virgin JM180 MIJ Neck-Thru w/ EMG 81, Schaller Trem, Gotoh Tuners",
+          "url": "https://reverb.com/item/95433277-2001-b-c-rich-virgin-jm180-mij-neck-thru-w-emg-81-schaller-trem-gotoh-tuners",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2200,
+          "min": 2200,
+          "max": 2200,
+          "avg": 2200
+        }
+      },
+      "avg": 2200
+    },
     "millimetric-mgs2-hunter-metallic": {
       "displayName": "Millimetric MGS2 Hunter Metallic",
       "brand": "Millimetric",
@@ -5927,38 +5959,6 @@
       },
       "avg": 1000
     },
-    "bc-rich-jm180-mij": {
-      "displayName": "BC Rich JM180 Mij",
-      "brand": "BC Rich",
-      "model": "JM180",
-      "variant": "Mij",
-      "count": 1,
-      "sum": 2199.99,
-      "min": 2199.99,
-      "max": 2199.99,
-      "sightings": [
-        {
-          "price": 2199.99,
-          "date": "2026-03-27T20:07:22.514Z",
-          "year": 2001,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2001 B.C. Rich Virgin JM180 MIJ Neck-Thru w/ EMG 81, Schaller Trem, Gotoh Tuners",
-          "url": "https://reverb.com/item/95433277-2001-b-c-rich-virgin-jm180-mij-neck-thru-w-emg-81-schaller-trem-gotoh-tuners",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2199.99,
-          "min": 2199.99,
-          "max": 2199.99,
-          "avg": 2200
-        }
-      },
-      "avg": 2200
-    },
     "mjt-telecaster-hh-nitro": {
       "displayName": "MJT Telecaster Hh Nitro",
       "brand": "MJT",
@@ -7056,6 +7056,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 53,
+      "sum": 152084.55999999997,
+      "sold": {
+        "count": 11,
+        "sum": 25163.78,
+        "avg": 2288,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2870,
+      "min": 33,
+      "max": 16500
+    },
     "Used": {
       "count": 10,
       "sum": 126443.97,
@@ -7080,20 +7094,6 @@
       "avg": 3999,
       "min": 26,
       "max": 49000
-    },
-    "Very Good": {
-      "count": 53,
-      "sum": 152084.55,
-      "sold": {
-        "count": 11,
-        "sum": 25163.78,
-        "avg": 2288,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2870,
-      "min": 33,
-      "max": 16500
     },
     "Good": {
       "count": 27,
@@ -7174,13 +7174,13 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3637,
-      "count": 77
+      "avg": 3619,
+      "count": 78
     },
     "03": {
       "name": "Mar",
-      "avg": 4635,
-      "count": 132
+      "avg": 4654,
+      "count": 131
     }
   },
   "recentDrops": [
@@ -7344,6 +7344,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 68,
+      "count": 15,
+      "avg": 5
+    },
     "Millimetric": {
       "sum": 11,
       "count": 4,
@@ -7370,7 +7375,7 @@
       "avg": 1
     },
     "Fender": {
-      "sum": 56,
+      "sum": 57,
       "count": 16,
       "avg": 4
     },
@@ -7395,7 +7400,7 @@
       "avg": 3
     },
     "Kiesel": {
-      "sum": 40,
+      "sum": 41,
       "count": 8,
       "avg": 5
     },
@@ -7428,11 +7433,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "BC Rich": {
-      "sum": 74,
-      "count": 15,
-      "avg": 5
     },
     "Mojotone": {
       "sum": 1,
@@ -7656,19 +7656,19 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-02": 41,
     "2026-04-03": 5,
-    "2026-04-02": 40,
     "2026-04-01": 32,
     "2026-03-31": 17,
     "2026-03-30": 29,
     "2026-03-29": 17,
     "2026-03-28": 35,
-    "2026-03-27": 31,
+    "2026-03-27": 30,
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "marketplace": 23,
-    "reverb": 190
+    "reverb": 190,
+    "marketplace": 23
   },
   "activeModelsCount": 184,
   "topPosters": [
@@ -7715,9 +7715,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3637,
+    "avg": 3619,
     "pctBelowAvg": 15,
-    "count": 77
+    "count": 78
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8530,6 +8530,16 @@
       "livePct": 71
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 13,
+        "sold": 1,
+        "removed": 0,
+        "fake": 0,
+        "live": 12,
+        "soldPct": 8,
+        "removedPct": 0,
+        "livePct": 92
+      },
       "Millimetric": {
         "total": 4,
         "sold": 0,
@@ -8699,16 +8709,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "BC Rich": {
-        "total": 12,
-        "sold": 1,
-        "removed": 0,
-        "fake": 0,
-        "live": 11,
-        "soldPct": 8,
-        "removedPct": 0,
-        "livePct": 92
       },
       "Mojotone": {
         "total": 1,
@@ -9111,11 +9111,11 @@
         "livePct": 100
       },
       "B.C. Rich": {
-        "total": 3,
+        "total": 2,
         "sold": 0,
         "removed": 0,
         "fake": 0,
-        "live": 3,
+        "live": 2,
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
@@ -9200,7 +9200,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 94
+    "avgShippingCost": 95
   },
   "watcherDemand": [
     {
@@ -9217,9 +9217,9 @@
     },
     {
       "label": "16–30",
-      "total": 48,
+      "total": 49,
       "sold": 11,
-      "rate": 23
+      "rate": 22
     },
     {
       "label": "31+",
@@ -9235,14 +9235,14 @@
       "rate": 25
     },
     "off": {
-      "total": 32,
+      "total": 33,
       "sold": 12,
-      "rate": 38
+      "rate": 36
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 69,
+      "total": 70,
       "sold": 9,
       "rate": 13
     },
@@ -9261,7 +9261,7 @@
     },
     {
       "state": "NY",
-      "total": 11,
+      "total": 12,
       "sold": 0,
       "rate": 0
     },
