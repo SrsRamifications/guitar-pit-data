@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-03T20:32:25.440Z",
-  "totalLinks": 224,
-  "totalWithPrice": 220,
+  "generatedAt": "2026-04-03T20:34:45.914Z",
+  "totalLinks": 225,
+  "totalWithPrice": 221,
   "overall": {
-    "count": 220,
-    "sum": 934336.94,
-    "avg": 4247,
+    "count": 221,
+    "sum": 939881.94,
+    "avg": 4253,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 208,
-    "sum": 573861.95,
-    "avg": 2759,
+    "count": 209,
+    "sum": 579406.95,
+    "avg": 2772,
     "min": 26,
     "max": 8000,
     "median": 2500
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 89,
-      "sum": 325005.9,
+      "count": 90,
+      "sum": 330550.9,
       "min": 26,
       "max": 49000,
-      "avg": 3652
+      "avg": 3673
     },
     "2026-03": {
       "count": 131,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 197,
-      "sum": 690957,
+      "count": 198,
+      "sum": 696502,
       "min": 26,
       "max": 49000,
-      "avg": 3507
+      "avg": 3518
     },
     "marketplace": {
       "count": 23,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 197,
-      "sum": 690957,
+      "count": 198,
+      "sum": 696502,
       "min": 26,
       "max": 49000,
-      "avg": 3507
+      "avg": 3518
     },
     "chicagomusicexchange.com": {
       "count": 12,
@@ -224,6 +224,38 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom-shop-1960": {
+      "displayName": "Gibson Les Paul Custom Shop 1960",
+      "brand": "Gibson",
+      "model": "Les Paul",
+      "variant": "Custom Shop 1960",
+      "count": 1,
+      "sum": 5545,
+      "min": 5545,
+      "max": 5545,
+      "sightings": [
+        {
+          "price": 5545,
+          "date": "2026-04-03T20:34:32.188Z",
+          "year": 2006,
+          "modelYear": 1960,
+          "isReissue": true,
+          "title": "Gibson Custom Shop Les Paul 1960 Historic Reissue Electric Guitar Lemonburst w/ OHSC 2006",
+          "url": "https://reverb.com/item/95633184-gibson-custom-shop-les-paul-1960-historic-reissue-electric-guitar-lemonburst-w-ohsc-2006",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 5545,
+          "min": 5545,
+          "max": 5545,
+          "avg": 5545
+        }
+      },
+      "avg": 5545
+    },
     "fender-stratocaster": {
       "displayName": "Fender Stratocaster",
       "brand": "Fender",
@@ -5980,21 +6012,6 @@
           "avg": 1575
         }
       },
-      "soldData": {
-        "count": 1,
-        "avg": 1575,
-        "min": 1575,
-        "max": 1575,
-        "prices": [
-          {
-            "price": 1575,
-            "askingPrice": 1575,
-            "date": "2026-04-03T19:38:34.058Z",
-            "title": "LsL XT4 \"one\" series",
-            "url": "https://reverb.com/item/95027024-lsl-xt4-one-series"
-          }
-        ]
-      },
       "avg": 1575
     },
     "fender-telecaster-custom-shop": {
@@ -7414,6 +7431,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 91,
+      "sum": 361770.37,
+      "sold": {
+        "count": 29,
+        "sum": 113130.4,
+        "avg": 3901,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3975,
+      "min": 26,
+      "max": 49000
+    },
     "Fair": {
       "count": 5,
       "sum": 16047,
@@ -7427,20 +7458,6 @@
       "avg": 3209,
       "min": 850,
       "max": 4799
-    },
-    "Excellent": {
-      "count": 90,
-      "sum": 356225.37,
-      "sold": {
-        "count": 30,
-        "sum": 114705.4,
-        "avg": 3824,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3958,
-      "min": 26,
-      "max": 49000
     },
     "Very Good": {
       "count": 54,
@@ -7532,8 +7549,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3652,
-      "count": 89
+      "avg": 3673,
+      "count": 90
     },
     "03": {
       "name": "Mar",
@@ -7689,7 +7706,7 @@
     "1k-2k": 53,
     "2k-3k": 59,
     "3k-5k": 60,
-    "5k-10k": 18,
+    "5k-10k": 19,
     "10k+": 9
   },
   "priceDistributionFiltered": {
@@ -7698,12 +7715,17 @@
     "1k-2k": 53,
     "2k-3k": 59,
     "3k-5k": 60,
-    "5k-10k": 15,
+    "5k-10k": 16,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 90,
+      "count": 20,
+      "avg": 5
+    },
     "Fender": {
-      "sum": 58,
+      "sum": 59,
       "count": 17,
       "avg": 3
     },
@@ -7746,11 +7768,6 @@
       "sum": 11,
       "count": 4,
       "avg": 3
-    },
-    "Gibson": {
-      "sum": 90,
-      "count": 19,
-      "avg": 5
     },
     "Suhr": {
       "sum": 6,
@@ -8024,7 +8041,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-03": 16,
+    "2026-04-03": 17,
     "2026-04-02": 41,
     "2026-04-01": 32,
     "2026-03-31": 17,
@@ -8035,10 +8052,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 197,
+    "reverb": 198,
     "marketplace": 27
   },
-  "activeModelsCount": 193,
+  "activeModelsCount": 194,
   "topPosters": [
     {
       "username": "GP",
@@ -8050,7 +8067,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 22
+      "count": 23
     },
     {
       "username": "Shteefe",
@@ -8083,9 +8100,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3652,
+    "avg": 3673,
     "pctBelowAvg": 14,
-    "count": 89
+    "count": 90
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8095,9 +8112,9 @@
       "count": 17
     },
     "Gibson": {
-      "avgPrice": 3141,
-      "avgDiscount": -161.7,
-      "count": 19
+      "avgPrice": 3261,
+      "avgDiscount": -171.8,
+      "count": 20
     },
     "PRS": {
       "avgPrice": 3055,
@@ -8111,17 +8128,17 @@
     }
   },
   "soldPrices": {
-    "count": 63,
-    "avg": 3308,
+    "count": 62,
+    "avg": 3336,
     "min": 165,
     "max": 35900,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 381.7000000000001,
-      "count": 62,
-      "avgDays": 6.2
+      "totalDays": 360.9000000000001,
+      "count": 61,
+      "avgDays": 5.9
     },
     "byModel": {
       "gretsch-cp-thornton-improv": {
@@ -8484,14 +8501,6 @@
         "slowest": 6.2,
         "avgDays": 6.2
       },
-      "lsl-xt4-one-series": {
-        "displayName": "LSL XT4 \"one\" series",
-        "totalDays": 20.8,
-        "count": 1,
-        "fastest": 20.8,
-        "slowest": 20.8,
-        "avgDays": 20.8
-      },
       "fender-telecaster": {
         "displayName": "Fender Telecaster",
         "totalDays": 0.7,
@@ -8763,13 +8772,6 @@
         "slowest": 5.7,
         "avgDays": 5.7
       },
-      "LSL": {
-        "totalDays": 20.8,
-        "count": 1,
-        "fastest": 20.8,
-        "slowest": 20.8,
-        "avgDays": 20.8
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -8928,16 +8930,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 210,
-      "sold": 61,
+      "total": 211,
+      "sold": 60,
       "removed": 0,
       "fake": 0,
-      "live": 149,
-      "soldPct": 29,
+      "live": 151,
+      "soldPct": 28,
       "removedPct": 0,
-      "livePct": 71
+      "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 22,
+        "sold": 5,
+        "removed": 0,
+        "fake": 0,
+        "live": 17,
+        "soldPct": 23,
+        "removedPct": 0,
+        "livePct": 77
+      },
       "Fender": {
         "total": 16,
         "sold": 5,
@@ -9027,16 +9039,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 21,
-        "sold": 5,
-        "removed": 0,
-        "fake": 0,
-        "live": 16,
-        "soldPct": 24,
-        "removedPct": 0,
-        "livePct": 76
       },
       "Suhr": {
         "total": 4,
@@ -9490,13 +9492,13 @@
       },
       "LSL": {
         "total": 1,
-        "sold": 1,
+        "sold": 0,
         "removed": 0,
         "fake": 0,
-        "live": 0,
-        "soldPct": 100,
+        "live": 1,
+        "soldPct": 0,
         "removedPct": 0,
-        "livePct": 0
+        "livePct": 100
       },
       "Fender Custom Shop": {
         "total": 2,
@@ -9621,8 +9623,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 58,
-    "totalOffers": 108,
+    "withOffers": 57,
+    "totalOffers": 107,
     "avgOffersPerListing": 1.9,
     "offersEnabledPct": 61
   },
@@ -9646,8 +9648,8 @@
     {
       "label": "16–30",
       "total": 48,
-      "sold": 14,
-      "rate": 29
+      "sold": 13,
+      "rate": 27
     },
     {
       "label": "31+",
@@ -9659,25 +9661,25 @@
   "offersEffect": {
     "on": {
       "total": 121,
-      "sold": 33,
-      "rate": 27
+      "sold": 32,
+      "rate": 26
     },
     "off": {
-      "total": 34,
+      "total": 35,
       "sold": 13,
-      "rate": 38
+      "rate": 37
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 68,
+      "total": 69,
       "sold": 10,
-      "rate": 15
+      "rate": 14
     },
     "regular": {
-      "total": 76,
-      "sold": 24,
-      "rate": 32
+      "total": 75,
+      "sold": 23,
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -9712,12 +9714,6 @@
       "rate": 17
     },
     {
-      "state": "OR",
-      "total": 6,
-      "sold": 2,
-      "rate": 33
-    },
-    {
       "state": "FL",
       "total": 6,
       "sold": 2,
@@ -9728,6 +9724,12 @@
       "total": 5,
       "sold": 2,
       "rate": 40
+    },
+    {
+      "state": "OR",
+      "total": 5,
+      "sold": 1,
+      "rate": 20
     },
     {
       "state": "IL",
