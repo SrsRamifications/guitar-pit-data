@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-03T16:05:05.866Z",
-  "totalLinks": 219,
-  "totalWithPrice": 215,
+  "generatedAt": "2026-04-03T17:46:50.162Z",
+  "totalLinks": 220,
+  "totalWithPrice": 216,
   "overall": {
-    "count": 215,
-    "sum": 919686.78,
-    "avg": 4278,
+    "count": 216,
+    "sum": 921936.78,
+    "avg": 4268,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 203,
-    "sum": 559211.79,
-    "avg": 2755,
+    "count": 204,
+    "sum": 561461.79,
+    "avg": 2752,
     "min": 26,
     "max": 8000,
     "median": 2500
   },
   "outliers": {
-    "thresholdHigh": 8650,
+    "thresholdHigh": 8620,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 84,
-      "sum": 310055.9,
+      "count": 85,
+      "sum": 312305.9,
       "min": 26,
       "max": 49000,
-      "avg": 3691
+      "avg": 3674
     },
     "2026-03": {
       "count": 131,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 192,
-      "sum": 676306.84,
+      "count": 193,
+      "sum": 678556.84,
       "min": 26,
       "max": 49000,
-      "avg": 3522
+      "avg": 3516
     },
     "marketplace": {
       "count": 23,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 192,
-      "sum": 676306.84,
+      "count": 193,
+      "sum": 678556.84,
       "min": 26,
       "max": 49000,
-      "avg": 3522
+      "avg": 3516
     },
     "chicagomusicexchange.com": {
       "count": 12,
@@ -224,6 +224,38 @@
     }
   },
   "byModel": {
+    "gretsch-cp-thornton-improv": {
+      "displayName": "Gretsch CP Thornton Improv",
+      "brand": "Gretsch",
+      "model": "CP Thornton Improv",
+      "variant": null,
+      "count": 1,
+      "sum": 2250,
+      "min": 2250,
+      "max": 2250,
+      "sightings": [
+        {
+          "price": 2250,
+          "date": "2026-04-03T17:46:36.371Z",
+          "year": 2012,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "CP Thornton Improv 2012 - Gretsch Orange",
+          "url": "https://reverb.com/item/95629505-cp-thornton-improv-2012-gretsch-orange",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2250,
+          "min": 2250,
+          "max": 2250,
+          "avg": 2250
+        }
+      },
+      "avg": 2250
+    },
     "jackson-soloist-custom-shop": {
       "displayName": "Jackson Soloist Custom Shop",
       "brand": "Jackson",
@@ -5965,21 +5997,6 @@
           "avg": 2100
         }
       },
-      "soldData": {
-        "count": 1,
-        "avg": 2100,
-        "min": 2100,
-        "max": 2100,
-        "prices": [
-          {
-            "price": 2100,
-            "askingPrice": 2100,
-            "date": "2026-03-29T00:06:51.431Z",
-            "title": "Ibanez DT155-BK Destroyer 1983 -1985 - Black",
-            "url": "https://reverb.com/item/94435224-ibanez-dt155-bk-destroyer-1983-1985-black"
-          }
-        ]
-      },
       "avg": 2100
     },
     "seymour-duncan-10s-spring-bh-quilted-maple": {
@@ -7239,13 +7256,27 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 54,
+      "sum": 154334.55999999997,
+      "sold": {
+        "count": 11,
+        "sum": 25163.78,
+        "avg": 2288,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2858,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 87,
       "sum": 347425.37,
       "sold": {
-        "count": 29,
-        "sum": 111230.4,
-        "avg": 3836,
+        "count": 28,
+        "sum": 109130.4,
+        "avg": 3898,
         "min": 275,
         "max": 35900
       },
@@ -7274,20 +7305,6 @@
       "avg": 4632,
       "min": 1050,
       "max": 10000
-    },
-    "Very Good": {
-      "count": 53,
-      "sum": 152084.55999999997,
-      "sold": {
-        "count": 11,
-        "sum": 25163.78,
-        "avg": 2288,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2870,
-      "min": 33,
-      "max": 16500
     },
     "Good": {
       "count": 27,
@@ -7357,8 +7374,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3691,
-      "count": 84
+      "avg": 3674,
+      "count": 85
     },
     "03": {
       "name": "Mar",
@@ -7512,7 +7529,7 @@
     "0-500": 8,
     "500-1k": 13,
     "1k-2k": 51,
-    "2k-3k": 58,
+    "2k-3k": 59,
     "3k-5k": 59,
     "5k-10k": 17,
     "10k+": 9
@@ -7521,12 +7538,17 @@
     "0-500": 8,
     "500-1k": 13,
     "1k-2k": 51,
-    "2k-3k": 58,
+    "2k-3k": 59,
     "3k-5k": 59,
     "5k-10k": 14,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gretsch": {
+      "sum": 4,
+      "count": 4,
+      "avg": 1
+    },
     "Jackson": {
       "sum": 39,
       "count": 8,
@@ -7542,13 +7564,8 @@
       "count": 1,
       "avg": 0
     },
-    "Gretsch": {
-      "sum": 4,
-      "count": 3,
-      "avg": 1
-    },
     "BC Rich": {
-      "sum": 69,
+      "sum": 70,
       "count": 15,
       "avg": 5
     },
@@ -7558,7 +7575,7 @@
       "avg": 3
     },
     "Gibson": {
-      "sum": 87,
+      "sum": 89,
       "count": 19,
       "avg": 5
     },
@@ -7578,7 +7595,7 @@
       "avg": 1
     },
     "Fender": {
-      "sum": 57,
+      "sum": 58,
       "count": 16,
       "avg": 4
     },
@@ -7628,9 +7645,9 @@
       "avg": 1
     },
     "ESP": {
-      "sum": 26,
+      "sum": 27,
       "count": 6,
-      "avg": 4
+      "avg": 5
     },
     "FGN": {
       "sum": 1,
@@ -7693,7 +7710,7 @@
       "avg": 2
     },
     "Echopark": {
-      "sum": 22,
+      "sum": 23,
       "count": 4,
       "avg": 6
     },
@@ -7849,7 +7866,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-03": 11,
+    "2026-04-03": 12,
     "2026-04-02": 41,
     "2026-04-01": 32,
     "2026-03-31": 17,
@@ -7860,14 +7877,14 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 192,
+    "reverb": 193,
     "marketplace": 27
   },
-  "activeModelsCount": 189,
+  "activeModelsCount": 190,
   "topPosters": [
     {
       "username": "GP",
-      "count": 92
+      "count": 93
     },
     {
       "username": "Beijing Bob",
@@ -7908,9 +7925,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3691,
+    "avg": 3674,
     "pctBelowAvg": 14,
-    "count": 84
+    "count": 85
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -7936,17 +7953,17 @@
     }
   },
   "soldPrices": {
-    "count": 61,
-    "avg": 3303,
+    "count": 60,
+    "avg": 3323,
     "min": 165,
     "max": 35900,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 402.40000000000003,
-      "count": 60,
-      "avgDays": 6.7
+      "totalDays": 355.50000000000006,
+      "count": 59,
+      "avgDays": 6
     },
     "byModel": {
       "fender-stratocaster": {
@@ -8293,14 +8310,6 @@
         "slowest": 1.9,
         "avgDays": 1.9
       },
-      "ibanez-dt155": {
-        "displayName": "Ibanez DT155",
-        "totalDays": 46.9,
-        "count": 1,
-        "fastest": 46.9,
-        "slowest": 46.9,
-        "avgDays": 46.9
-      },
       "fender-telecaster": {
         "displayName": "Fender Telecaster",
         "totalDays": 0.7,
@@ -8468,11 +8477,11 @@
         "avgDays": 53.4
       },
       "Ibanez": {
-        "totalDays": 54.2,
-        "count": 8,
+        "totalDays": 7.300000000000001,
+        "count": 7,
         "fastest": 0.1,
-        "slowest": 46.9,
-        "avgDays": 6.8
+        "slowest": 2.6,
+        "avgDays": 1
       },
       "Friedman": {
         "totalDays": 1.8,
@@ -8718,16 +8727,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 205,
-      "sold": 59,
+      "total": 206,
+      "sold": 58,
       "removed": 0,
       "fake": 0,
-      "live": 146,
-      "soldPct": 29,
+      "live": 148,
+      "soldPct": 28,
       "removedPct": 0,
-      "livePct": 71
+      "livePct": 72
     },
     "byBrand": {
+      "Gretsch": {
+        "total": 4,
+        "sold": 1,
+        "removed": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 25,
+        "removedPct": 0,
+        "livePct": 75
+      },
       "Jackson": {
         "total": 8,
         "sold": 2,
@@ -8757,16 +8776,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "Gretsch": {
-        "total": 3,
-        "sold": 1,
-        "removed": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "removedPct": 0,
-        "livePct": 67
       },
       "BC Rich": {
         "total": 13,
@@ -8810,13 +8819,13 @@
       },
       "Ibanez": {
         "total": 13,
-        "sold": 8,
+        "sold": 7,
         "removed": 0,
         "fake": 0,
-        "live": 5,
-        "soldPct": 62,
+        "live": 6,
+        "soldPct": 54,
         "removedPct": 0,
-        "livePct": 38
+        "livePct": 46
       },
       "Kay": {
         "total": 1,
@@ -9423,9 +9432,9 @@
   "watcherDemand": [
     {
       "label": "1–5",
-      "total": 10,
+      "total": 11,
       "sold": 2,
-      "rate": 20
+      "rate": 18
     },
     {
       "label": "6–15",
@@ -9453,9 +9462,9 @@
       "rate": 26
     },
     "off": {
-      "total": 33,
+      "total": 34,
       "sold": 12,
-      "rate": 36
+      "rate": 35
     }
   },
   "sellerType": {
@@ -9465,7 +9474,7 @@
       "rate": 15
     },
     "regular": {
-      "total": 74,
+      "total": 75,
       "sold": 20,
       "rate": 27
     }
@@ -9532,16 +9541,16 @@
       "rate": 0
     },
     {
+      "state": "MD",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "NC",
       "total": 4,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "MD",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "MI",
