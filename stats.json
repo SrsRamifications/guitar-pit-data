@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-03T11:39:16.401Z",
-  "totalLinks": 210,
-  "totalWithPrice": 206,
+  "generatedAt": "2026-04-03T14:43:52.803Z",
+  "totalLinks": 211,
+  "totalWithPrice": 207,
   "overall": {
-    "count": 206,
-    "sum": 881312.79,
-    "avg": 4278,
+    "count": 207,
+    "sum": 883907.78,
+    "avg": 4270,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 196,
-    "sum": 539837.8,
-    "avg": 2754,
+    "count": 197,
+    "sum": 542432.79,
+    "avg": 2753,
     "min": 26,
     "max": 8000,
-    "median": 2493
+    "median": 2500
   },
   "outliers": {
     "thresholdHigh": 8500,
@@ -105,40 +105,47 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 74,
-      "sum": 269481.9,
+      "count": 75,
+      "sum": 272076.9,
       "min": 26,
       "max": 49000,
-      "avg": 3642
+      "avg": 3628
     },
     "2026-03": {
       "count": 132,
-      "sum": 611830.89,
+      "sum": 611830.88,
       "min": 33,
       "max": 99000,
       "avg": 4635
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 17,
+      "sum": 221099.94,
+      "min": 899.98,
+      "max": 99000,
+      "avg": 13006
+    },
     "reverb": {
       "count": 190,
-      "sum": 662807.85,
+      "sum": 662807.84,
       "min": 26,
       "max": 49000,
       "avg": 3488
-    },
-    "marketplace": {
-      "count": 16,
-      "sum": 218504.94,
-      "min": 899.98,
-      "max": 99000,
-      "avg": 13657
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 6,
+      "sum": 179984,
+      "min": 2295,
+      "max": 99000,
+      "avg": 29997
+    },
     "reverb.com": {
       "count": 190,
-      "sum": 662807.85,
+      "sum": 662807.84,
       "min": 26,
       "max": 49000,
       "avg": 3488
@@ -163,13 +170,6 @@
       "min": 1899,
       "max": 1899,
       "avg": 1899
-    },
-    "chicagomusicexchange.com": {
-      "count": 5,
-      "sum": 177389,
-      "min": 2295,
-      "max": 99000,
-      "avg": 35478
     },
     "mcallen.craigslist.org": {
       "count": 1,
@@ -208,6 +208,38 @@
     }
   },
   "byModel": {
+    "suhr-classic": {
+      "displayName": "Suhr Classic",
+      "brand": "Suhr",
+      "model": "Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 2595,
+      "min": 2595,
+      "max": 2595,
+      "sightings": [
+        {
+          "price": 2595,
+          "date": "2026-04-03T14:43:37.331Z",
+          "year": 2018,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Classic T Antique Seafoam Green 2018",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/suhr-classic-t-antique-seafoam-green-2018-2529138",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2595,
+          "min": 2595,
+          "max": 2595,
+          "avg": 2595
+        }
+      },
+      "avg": 2595
+    },
     "ibanez-prestige-signature-mij": {
       "displayName": "Ibanez Prestige Signature Mij",
       "brand": "Ibanez",
@@ -5852,12 +5884,12 @@
       "model": "JM180",
       "variant": "Mij",
       "count": 1,
-      "sum": 2200,
-      "min": 2200,
-      "max": 2200,
+      "sum": 2199.99,
+      "min": 2199.99,
+      "max": 2199.99,
       "sightings": [
         {
-          "price": 2200,
+          "price": 2199.99,
           "date": "2026-03-27T20:07:22.514Z",
           "year": 2001,
           "modelYear": null,
@@ -5870,9 +5902,9 @@
       "byCondition": {
         "Very Good": {
           "count": 1,
-          "sum": 2200,
-          "min": 2200,
-          "max": 2200,
+          "sum": 2199.99,
+          "min": 2199.99,
+          "max": 2199.99,
           "avg": 2200
         }
       },
@@ -6975,6 +7007,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 8,
+      "sum": 118453.97,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 14807,
+      "min": 1169.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 86,
       "sum": 343926.37,
@@ -6991,7 +7034,7 @@
     },
     "Very Good": {
       "count": 53,
-      "sum": 152084.56999999998,
+      "sum": 152084.55999999997,
       "sold": {
         "count": 11,
         "sum": 25163.78,
@@ -7030,17 +7073,6 @@
       "avg": 5031,
       "min": 135,
       "max": 12280
-    },
-    "Used": {
-      "count": 7,
-      "sum": 115858.97,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 16551,
-      "min": 1169.99,
-      "max": 99000
     },
     "Mint": {
       "count": 4,
@@ -7093,8 +7125,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3642,
-      "count": 74
+      "avg": 3628,
+      "count": 75
     },
     "03": {
       "name": "Mar",
@@ -7248,7 +7280,7 @@
     "0-500": 8,
     "500-1k": 12,
     "1k-2k": 50,
-    "2k-3k": 56,
+    "2k-3k": 57,
     "3k-5k": 56,
     "5k-10k": 16,
     "10k+": 8
@@ -7257,31 +7289,36 @@
     "0-500": 8,
     "500-1k": 12,
     "1k-2k": 50,
-    "2k-3k": 56,
+    "2k-3k": 57,
     "3k-5k": 56,
     "5k-10k": 14,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Suhr": {
+      "sum": 6,
+      "count": 4,
+      "avg": 2
+    },
     "Ibanez": {
-      "sum": 55,
+      "sum": 57,
       "count": 13,
       "avg": 4
     },
     "Kay": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Gibson": {
-      "sum": 83,
+      "sum": 85,
       "count": 18,
       "avg": 5
     },
     "Fender": {
-      "sum": 53,
+      "sum": 56,
       "count": 16,
-      "avg": 3
+      "avg": 4
     },
     "Schecter": {
       "sum": 8,
@@ -7299,12 +7336,12 @@
       "avg": 4
     },
     "PRS": {
-      "sum": 69,
+      "sum": 73,
       "count": 21,
       "avg": 3
     },
     "Kiesel": {
-      "sum": 37,
+      "sum": 40,
       "count": 8,
       "avg": 5
     },
@@ -7314,12 +7351,7 @@
       "avg": 1
     },
     "Charvel": {
-      "sum": 6,
-      "count": 3,
-      "avg": 2
-    },
-    "Suhr": {
-      "sum": 6,
+      "sum": 7,
       "count": 3,
       "avg": 2
     },
@@ -7334,7 +7366,7 @@
       "avg": 1
     },
     "ESP": {
-      "sum": 25,
+      "sum": 26,
       "count": 6,
       "avg": 4
     },
@@ -7344,7 +7376,7 @@
       "avg": 1
     },
     "BC Rich": {
-      "sum": 73,
+      "sum": 74,
       "count": 15,
       "avg": 5
     },
@@ -7379,14 +7411,14 @@
       "avg": 2
     },
     "Epiphone": {
-      "sum": 13,
+      "sum": 14,
       "count": 3,
-      "avg": 4
+      "avg": 5
     },
     "Music Man": {
-      "sum": 20,
+      "sum": 21,
       "count": 6,
-      "avg": 3
+      "avg": 4
     },
     "Jackson": {
       "sum": 38,
@@ -7414,14 +7446,14 @@
       "avg": 6
     },
     "Millimetric": {
-      "sum": 9,
+      "sum": 11,
       "count": 3,
-      "avg": 3
+      "avg": 4
     },
     "Hamer": {
-      "sum": 10,
+      "sum": 11,
       "count": 2,
-      "avg": 5
+      "avg": 6
     },
     "Xotic": {
       "sum": 3,
@@ -7439,24 +7471,24 @@
       "avg": 4
     },
     "Cornish": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Knaggs": {
-      "sum": 6,
-      "count": 2,
-      "avg": 3
-    },
-    "Fano": {
       "sum": 8,
       "count": 2,
       "avg": 4
     },
+    "Fano": {
+      "sum": 9,
+      "count": 2,
+      "avg": 5
+    },
     "Martin": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Gretsch": {
       "sum": 4,
@@ -7464,7 +7496,7 @@
       "avg": 4
     },
     "Guild": {
-      "sum": 9,
+      "sum": 10,
       "count": 2,
       "avg": 5
     },
@@ -7484,9 +7516,9 @@
       "avg": 4
     },
     "Mayones": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Patrick James Eggle": {
       "sum": 13,
@@ -7529,9 +7561,9 @@
       "avg": 6
     },
     "Seymour Duncan": {
-      "sum": 6,
+      "sum": 7,
       "count": 1,
-      "avg": 6
+      "avg": 7
     },
     "Rick Toone": {
       "sum": 7,
@@ -7569,13 +7601,13 @@
       "avg": 8
     },
     "Danocaster": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     }
   },
   "listingsPerDay": {
-    "2026-04-03": 2,
+    "2026-04-03": 3,
     "2026-04-02": 40,
     "2026-04-01": 32,
     "2026-03-31": 17,
@@ -7586,10 +7618,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 190,
-    "marketplace": 20
+    "marketplace": 21,
+    "reverb": 190
   },
-  "activeModelsCount": 182,
+  "activeModelsCount": 183,
   "topPosters": [
     {
       "username": "GP",
@@ -7609,7 +7641,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 14
+      "count": 15
     },
     {
       "username": "Madero",
@@ -7634,9 +7666,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3642,
+    "avg": 3628,
     "pctBelowAvg": 15,
-    "count": 74
+    "count": 75
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8439,16 +8471,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 197,
+      "total": 198,
       "sold": 58,
       "removed": 0,
       "fake": 0,
-      "live": 139,
+      "live": 140,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Suhr": {
+        "total": 4,
+        "sold": 1,
+        "removed": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 25,
+        "removedPct": 0,
+        "livePct": 75
+      },
       "Ibanez": {
         "total": 13,
         "sold": 8,
@@ -8550,16 +8592,6 @@
         "livePct": 0
       },
       "Charvel": {
-        "total": 3,
-        "sold": 1,
-        "removed": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "removedPct": 0,
-        "livePct": 67
-      },
-      "Suhr": {
         "total": 3,
         "sold": 1,
         "removed": 0,
@@ -9142,9 +9174,9 @@
     },
     {
       "label": "16–30",
-      "total": 49,
+      "total": 48,
       "sold": 11,
-      "rate": 22
+      "rate": 23
     },
     {
       "label": "31+",
@@ -9167,7 +9199,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 72,
+      "total": 71,
       "sold": 9,
       "rate": 13
     },
@@ -9186,7 +9218,7 @@
     },
     {
       "state": "NY",
-      "total": 12,
+      "total": 11,
       "sold": 0,
       "rate": 0
     },
