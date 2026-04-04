@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-04T20:39:19.066Z",
-  "totalLinks": 245,
-  "totalWithPrice": 240,
+  "generatedAt": "2026-04-04T20:46:22.283Z",
+  "totalLinks": 246,
+  "totalWithPrice": 241,
   "overall": {
-    "count": 240,
-    "sum": 991522.25,
-    "avg": 4131,
+    "count": 241,
+    "sum": 994272.25,
+    "avg": 4126,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 228,
-    "sum": 631047.26,
+    "count": 229,
+    "sum": 633797.26,
     "avg": 2768,
     "min": 26,
     "max": 8000,
-    "median": 2493
+    "median": 2500
   },
   "outliers": {
-    "thresholdHigh": 8602,
+    "thresholdHigh": 8452,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 110,
-      "sum": 383497.89,
+      "count": 111,
+      "sum": 386247.89,
       "min": 26,
       "max": 49000,
-      "avg": 3486
+      "avg": 3480
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 217,
-      "sum": 747772.31,
+      "count": 218,
+      "sum": 750522.31,
       "min": 26,
       "max": 49000,
-      "avg": 3446
+      "avg": 3443
     },
     "marketplace": {
       "count": 23,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 217,
-      "sum": 747772.31,
+      "count": 218,
+      "sum": 750522.31,
       "min": 26,
       "max": 49000,
-      "avg": 3446
+      "avg": 3443
     },
     "guitarcenter.com": {
       "count": 5,
@@ -8105,6 +8105,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 62,
+      "sum": 175557.55999999997,
+      "sold": {
+        "count": 17,
+        "sum": 38733.78,
+        "avg": 2278,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2832,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 97,
       "sum": 376905.68,
@@ -8132,20 +8146,6 @@
       "avg": 4686,
       "min": 135,
       "max": 12280
-    },
-    "Very Good": {
-      "count": 61,
-      "sum": 172807.55999999997,
-      "sold": {
-        "count": 17,
-        "sum": 38733.78,
-        "avg": 2278,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2833,
-      "min": 33,
-      "max": 16500
     },
     "Fair": {
       "count": 6,
@@ -8226,8 +8226,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3486,
-      "count": 110
+      "avg": 3480,
+      "count": 111
     },
     "03": {
       "name": "Mar",
@@ -8381,7 +8381,7 @@
     "0-500": 8,
     "500-1k": 14,
     "1k-2k": 58,
-    "2k-3k": 67,
+    "2k-3k": 68,
     "3k-5k": 63,
     "5k-10k": 21,
     "10k+": 9
@@ -8390,7 +8390,7 @@
     "0-500": 8,
     "500-1k": 14,
     "1k-2k": 58,
-    "2k-3k": 67,
+    "2k-3k": 68,
     "3k-5k": 63,
     "5k-10k": 18,
     "10k+": 0
@@ -8733,7 +8733,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-04": 17,
+    "2026-04-04": 18,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8745,7 +8745,7 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 217,
+    "reverb": 218,
     "marketplace": 28
   },
   "activeModelsCount": 207,
@@ -8772,7 +8772,7 @@
     },
     {
       "username": "Madero",
-      "count": 9
+      "count": 10
     },
     {
       "username": "Modean",
@@ -8793,9 +8793,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3486,
+    "avg": 3480,
     "pctBelowAvg": 16,
-    "count": 110
+    "count": 111
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9737,16 +9737,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 231,
+      "total": 232,
       "sold": 71,
       "removed": 0,
       "fake": 0,
-      "live": 160,
+      "live": 161,
       "soldPct": 31,
       "removedPct": 0,
       "livePct": 69
     },
     "byBrand": {
+      "Collings": {
+        "total": 3,
+        "sold": 0,
+        "removed": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "Kramer": {
         "total": 1,
         "sold": 0,
@@ -10046,16 +10056,6 @@
         "soldPct": 33,
         "removedPct": 0,
         "livePct": 67
-      },
-      "Collings": {
-        "total": 2,
-        "sold": 0,
-        "removed": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "removedPct": 0,
-        "livePct": 100
       },
       "Washburn": {
         "total": 1,
@@ -10463,7 +10463,7 @@
     "withOffers": 59,
     "totalOffers": 117,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 59
+    "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -10484,9 +10484,9 @@
     },
     {
       "label": "6–15",
-      "total": 36,
+      "total": 37,
       "sold": 12,
-      "rate": 33
+      "rate": 32
     },
     {
       "label": "16–30",
@@ -10503,7 +10503,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 129,
+      "total": 130,
       "sold": 38,
       "rate": 29
     },
@@ -10520,9 +10520,9 @@
       "rate": 19
     },
     "regular": {
-      "total": 80,
+      "total": 81,
       "sold": 27,
-      "rate": 34
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -10534,9 +10534,9 @@
     },
     {
       "state": "TX",
-      "total": 14,
+      "total": 15,
       "sold": 8,
-      "rate": 57
+      "rate": 53
     },
     {
       "state": "NY",
