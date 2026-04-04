@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-04T19:39:16.891Z",
-  "totalLinks": 243,
-  "totalWithPrice": 238,
+  "generatedAt": "2026-04-04T20:23:45.737Z",
+  "totalLinks": 244,
+  "totalWithPrice": 239,
   "overall": {
-    "count": 238,
-    "sum": 988677.25,
-    "avg": 4154,
+    "count": 239,
+    "sum": 989672.25,
+    "avg": 4141,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 226,
-    "sum": 628202.26,
-    "avg": 2780,
+    "count": 227,
+    "sum": 629197.26,
+    "avg": 2772,
     "min": 26,
     "max": 8000,
     "median": 2500
   },
   "outliers": {
-    "thresholdHigh": 8602,
+    "thresholdHigh": 8620,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 108,
-      "sum": 380652.89,
+      "count": 109,
+      "sum": 381647.89,
       "min": 26,
       "max": 49000,
-      "avg": 3525
+      "avg": 3501
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 215,
-      "sum": 744927.31,
+      "count": 216,
+      "sum": 745922.31,
       "min": 26,
       "max": 49000,
-      "avg": 3465
+      "avg": 3453
     },
     "marketplace": {
       "count": 23,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 215,
-      "sum": 744927.31,
+      "count": 216,
+      "sum": 745922.31,
       "min": 26,
       "max": 49000,
-      "avg": 3465
+      "avg": 3453
     },
     "guitarcenter.com": {
       "count": 5,
@@ -217,6 +217,48 @@
     }
   },
   "byModel": {
+    "bc-rich-pt": {
+      "displayName": "BC Rich PT",
+      "brand": "BC Rich",
+      "model": "PT",
+      "variant": null,
+      "count": 2,
+      "sum": 2290.95,
+      "min": 995,
+      "max": 1295.95,
+      "sightings": [
+        {
+          "price": 1295.95,
+          "date": "2026-03-27T14:20:15.135Z",
+          "year": 2024,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "JR (Joey Rico, son of BC Rich founder Bernie Rico) Scepter 2024 - Matte Gray",
+          "url": "https://reverb.com/item/92029460-jr-joey-rico-son-of-bc-rich-founder-bernie-rico-scepter-2024-matte-gray?utm_source=rev-ios-app&utm_medium=ios-share&utm_campaign=listing&utm_content=92029460",
+          "condition": "Brand New"
+        },
+        {
+          "price": 995,
+          "date": "2026-04-04T20:23:31.399Z",
+          "year": 2024,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "JR (Joey Rico, son of BC Rich founder Bernie Rico) Scepter 2024 - Matte Gray",
+          "url": "https://reverb.com/item/92029460-jr-joey-rico-son-of-bc-rich-founder-bernie-rico-scepter-2024-matte-gray",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 2,
+          "sum": 2290.95,
+          "min": 995,
+          "max": 1295.95,
+          "avg": 1145
+        }
+      },
+      "avg": 1145
+    },
     "fender-stratocaster": {
       "displayName": "Fender Stratocaster",
       "brand": "Fender",
@@ -769,6 +811,21 @@
           "max": 1500,
           "avg": 1500
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1500,
+        "min": 1500,
+        "max": 1500,
+        "prices": [
+          {
+            "price": 1500,
+            "askingPrice": 1500,
+            "date": "2026-04-04T20:04:42.246Z",
+            "title": "Nash S-57 2018",
+            "url": "https://reverb.com/item/95678148-nash-s-57-2018"
+          }
+        ]
       },
       "avg": 1500
     },
@@ -6037,53 +6094,6 @@
       },
       "avg": 2900
     },
-    "ibanez-540p-magenta-solid": {
-      "displayName": "Ibanez 540P MAGENTA Solid",
-      "brand": "Ibanez",
-      "model": "540P MAGENTA Solid",
-      "variant": null,
-      "count": 1,
-      "sum": 1169.99,
-      "min": 1169.99,
-      "max": 1169.99,
-      "sightings": [
-        {
-          "price": 1169.99,
-          "date": "2026-03-28T21:52:41.341Z",
-          "year": null,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Ibanez 540P MAGENTA Solid Body Electric Guitar MAGENTA",
-          "url": "https://www.guitarcenter.com/Used/Ibanez/Used-Ibanez-540P-MAGENTA-Solid-Body-Electric-Guitar-120872311.gc?algoliaQueryID=a8792b336c717e0592b1ac8a8befc155&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1169.99,
-          "min": 1169.99,
-          "max": 1169.99,
-          "avg": 1170
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1170,
-        "min": 1169.99,
-        "max": 1169.99,
-        "prices": [
-          {
-            "price": 1169.99,
-            "askingPrice": 1169.99,
-            "date": "2026-03-29T00:08:05.130Z",
-            "title": "Used Ibanez 540P MAGENTA Solid Body Electric Guitar MAGENTA",
-            "url": "https://www.guitarcenter.com/Used/Ibanez/Used-Ibanez-540P-MAGENTA-Solid-Body-Electric-Guitar-120872311.gc?algoliaQueryID=a8792b336c717e0592b1ac8a8befc155&algoliaIndexName=pHL-guitarcenter"
-          }
-        ]
-      },
-      "avg": 1170
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez Metal Usa",
       "brand": "Ibanez",
@@ -6905,38 +6915,6 @@
         }
       },
       "avg": 525
-    },
-    "bc-rich-pt": {
-      "displayName": "BC Rich PT",
-      "brand": "BC Rich",
-      "model": "PT",
-      "variant": null,
-      "count": 1,
-      "sum": 1295.95,
-      "min": 1295.95,
-      "max": 1295.95,
-      "sightings": [
-        {
-          "price": 1295.95,
-          "date": "2026-03-27T14:20:15.135Z",
-          "year": 2024,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "JR (Joey Rico, son of BC Rich founder Bernie Rico) Scepter 2024 - Matte Gray",
-          "url": "https://reverb.com/item/92029460-jr-joey-rico-son-of-bc-rich-founder-bernie-rico-scepter-2024-matte-gray?utm_source=rev-ios-app&utm_medium=ios-share&utm_campaign=listing&utm_content=92029460",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 1295.95,
-          "min": 1295.95,
-          "max": 1295.95,
-          "avg": 1296
-        }
-      },
-      "avg": 1296
     },
     "greco-les-paul-custom-60": {
       "displayName": "Greco Les Paul Custom 60",
@@ -8045,9 +8023,70 @@
         ]
       },
       "avg": 1200
+    },
+    "ibanez-540p-magenta-solid": {
+      "displayName": "Ibanez 540P MAGENTA Solid",
+      "brand": "Ibanez",
+      "model": "540P MAGENTA Solid",
+      "variant": null,
+      "count": 1,
+      "sum": 1169.99,
+      "min": 1169.99,
+      "max": 1169.99,
+      "sightings": [
+        {
+          "price": 1169.99,
+          "date": "2026-03-28T21:52:41.341Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Ibanez 540P MAGENTA Solid Body Electric Guitar MAGENTA",
+          "url": "https://www.guitarcenter.com/Used/Ibanez/Used-Ibanez-540P-MAGENTA-Solid-Body-Electric-Guitar-120872311.gc?algoliaQueryID=a8792b336c717e0592b1ac8a8befc155&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1169.99,
+          "min": 1169.99,
+          "max": 1169.99,
+          "avg": 1170
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1170,
+        "min": 1169.99,
+        "max": 1169.99,
+        "prices": [
+          {
+            "price": 1169.99,
+            "askingPrice": 1169.99,
+            "date": "2026-03-29T00:08:05.130Z",
+            "title": "Used Ibanez 540P MAGENTA Solid Body Electric Guitar MAGENTA",
+            "url": "https://www.guitarcenter.com/Used/Ibanez/Used-Ibanez-540P-MAGENTA-Solid-Body-Electric-Guitar-120872311.gc?algoliaQueryID=a8792b336c717e0592b1ac8a8befc155&algoliaIndexName=pHL-guitarcenter"
+          }
+        ]
+      },
+      "avg": 1170
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 18,
+      "sum": 84342.12,
+      "sold": {
+        "count": 2,
+        "sum": 9147.17,
+        "avg": 4574,
+        "min": 4548.17,
+        "max": 4599
+      },
+      "avg": 4686,
+      "min": 135,
+      "max": 12280
+    },
     "Very Good": {
       "count": 61,
       "sum": 172807.55999999997,
@@ -8094,9 +8133,9 @@
       "count": 96,
       "sum": 375055.68,
       "sold": {
-        "count": 30,
-        "sum": 110830.4,
-        "avg": 3694,
+        "count": 31,
+        "sum": 112330.4,
+        "avg": 3624,
         "min": 275,
         "max": 35900
       },
@@ -8117,20 +8156,6 @@
       "avg": 2276,
       "min": 414,
       "max": 6500
-    },
-    "Brand New": {
-      "count": 17,
-      "sum": 83347.12,
-      "sold": {
-        "count": 2,
-        "sum": 9147.17,
-        "avg": 4574,
-        "min": 4548.17,
-        "max": 4599
-      },
-      "avg": 4903,
-      "min": 135,
-      "max": 12280
     },
     "Used": {
       "count": 15,
@@ -8169,8 +8194,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3525,
-      "count": 108
+      "avg": 3501,
+      "count": 109
     },
     "03": {
       "name": "Mar",
@@ -8322,7 +8347,7 @@
   ],
   "priceDistribution": {
     "0-500": 8,
-    "500-1k": 13,
+    "500-1k": 14,
     "1k-2k": 57,
     "2k-3k": 67,
     "3k-5k": 63,
@@ -8331,7 +8356,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 8,
-    "500-1k": 13,
+    "500-1k": 14,
     "1k-2k": 57,
     "2k-3k": 67,
     "3k-5k": 63,
@@ -8339,6 +8364,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 87,
+      "count": 18,
+      "avg": 5
+    },
     "Fender": {
       "sum": 75,
       "count": 20,
@@ -8383,11 +8413,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "BC Rich": {
-      "sum": 87,
-      "count": 17,
-      "avg": 5
     },
     "Ibanez": {
       "sum": 74,
@@ -8671,7 +8696,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-04": 15,
+    "2026-04-04": 16,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8683,7 +8708,7 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 215,
+    "reverb": 216,
     "marketplace": 28
   },
   "activeModelsCount": 206,
@@ -8706,7 +8731,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 18
+      "count": 19
     },
     {
       "username": "Madero",
@@ -8731,9 +8756,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3525,
+    "avg": 3501,
     "pctBelowAvg": 15,
-    "count": 108
+    "count": 109
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8764,17 +8789,17 @@
     }
   },
   "soldPrices": {
-    "count": 72,
-    "avg": 3154,
+    "count": 73,
+    "avg": 3131,
     "min": 165,
     "max": 35900,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 454.00000000000006,
-      "count": 71,
-      "avgDays": 6.4
+      "totalDays": 454.3,
+      "count": 72,
+      "avgDays": 6.3
     },
     "byModel": {
       "gibson-les-paul-custom-shop-murphy-lab": {
@@ -8784,6 +8809,14 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
+      },
+      "nash-s-57": {
+        "displayName": "Nash S-57",
+        "totalDays": 0.3,
+        "count": 1,
+        "fastest": 0.3,
+        "slowest": 0.3,
+        "avgDays": 0.3
       },
       "bc-rich-son-of-rich": {
         "displayName": "BC Rich Son Of Rich",
@@ -9153,14 +9186,6 @@
         "slowest": 0.8,
         "avgDays": 0.8
       },
-      "ibanez-540p-magenta-solid": {
-        "displayName": "Ibanez 540P MAGENTA Solid",
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
-      },
       "fender-telecaster": {
         "displayName": "Fender Telecaster",
         "totalDays": 0.7,
@@ -9288,6 +9313,14 @@
         "fastest": 4.3,
         "slowest": 4.3,
         "avgDays": 4.3
+      },
+      "ibanez-540p-magenta-solid": {
+        "displayName": "Ibanez 540P MAGENTA Solid",
+        "totalDays": 0.1,
+        "count": 1,
+        "fastest": 0.1,
+        "slowest": 0.1,
+        "avgDays": 0.1
       }
     },
     "byBrand": {
@@ -9297,6 +9330,13 @@
         "fastest": 0,
         "slowest": 5.9,
         "avgDays": 1.6
+      },
+      "Nash": {
+        "totalDays": 0.3,
+        "count": 1,
+        "fastest": 0.3,
+        "slowest": 0.3,
+        "avgDays": 0.3
       },
       "BC Rich": {
         "totalDays": 4.3,
@@ -9526,11 +9566,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 701.5897694797183,
-      "count": 41,
-      "avgPctDrop": 17.1
+      "totalPctDrop": 761.7100099606802,
+      "count": 42,
+      "avgPctDrop": 18.1
     },
     "byBrand": {
+      "BC Rich": {
+        "totalPctDrop": 120.53227991876909,
+        "count": 3,
+        "avgPctDrop": 40.2
+      },
       "Gibson": {
         "totalPctDrop": 103.05200072776373,
         "count": 6,
@@ -9636,11 +9681,6 @@
         "count": 1,
         "avgPctDrop": 26.1
       },
-      "BC Rich": {
-        "totalPctDrop": 60.41203943780717,
-        "count": 2,
-        "avgPctDrop": 30.2
-      },
       "Fractal Audio": {
         "totalPctDrop": 7.500346020761254,
         "count": 1,
@@ -9660,8 +9700,8 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 229,
-      "sold": 70,
+      "total": 230,
+      "sold": 71,
       "removed": 0,
       "fake": 0,
       "live": 159,
@@ -9670,6 +9710,16 @@
       "livePct": 69
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 16,
+        "sold": 2,
+        "removed": 0,
+        "fake": 0,
+        "live": 14,
+        "soldPct": 13,
+        "removedPct": 0,
+        "livePct": 88
+      },
       "Fender": {
         "total": 19,
         "sold": 5,
@@ -9722,13 +9772,13 @@
       },
       "Nash": {
         "total": 1,
-        "sold": 0,
+        "sold": 1,
         "removed": 0,
         "fake": 0,
-        "live": 1,
-        "soldPct": 0,
+        "live": 0,
+        "soldPct": 100,
         "removedPct": 0,
-        "livePct": 100
+        "livePct": 0
       },
       "Suhr": {
         "total": 5,
@@ -9759,16 +9809,6 @@
         "soldPct": 0,
         "removedPct": 0,
         "livePct": 100
-      },
-      "BC Rich": {
-        "total": 15,
-        "sold": 2,
-        "removed": 0,
-        "fake": 0,
-        "live": 13,
-        "soldPct": 13,
-        "removedPct": 0,
-        "livePct": 87
       },
       "Ibanez": {
         "total": 14,
@@ -10373,8 +10413,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 58,
-    "totalOffers": 115,
+    "withOffers": 59,
+    "totalOffers": 117,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 60
   },
@@ -10404,26 +10444,26 @@
     {
       "label": "16–30",
       "total": 57,
-      "sold": 16,
-      "rate": 28
+      "sold": 17,
+      "rate": 30
     },
     {
       "label": "31+",
-      "total": 49,
+      "total": 50,
       "sold": 8,
       "rate": 16
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 128,
+      "total": 129,
       "sold": 38,
-      "rate": 30
+      "rate": 29
     },
     "off": {
       "total": 45,
-      "sold": 15,
-      "rate": 33
+      "sold": 16,
+      "rate": 36
     }
   },
   "sellerType": {
@@ -10433,9 +10473,9 @@
       "rate": 19
     },
     "regular": {
-      "total": 78,
-      "sold": 26,
-      "rate": 33
+      "total": 79,
+      "sold": 27,
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -10448,8 +10488,8 @@
     {
       "state": "TX",
       "total": 14,
-      "sold": 7,
-      "rate": 50
+      "sold": 8,
+      "rate": 57
     },
     {
       "state": "NY",
@@ -10528,6 +10568,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "AZ",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "ID",
