@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-04T21:55:49.455Z",
-  "totalLinks": 248,
-  "totalWithPrice": 243,
+  "generatedAt": "2026-04-04T22:03:37.334Z",
+  "totalLinks": 249,
+  "totalWithPrice": 244,
   "overall": {
-    "count": 243,
-    "sum": 997717.25,
-    "avg": 4106,
+    "count": 244,
+    "sum": 999716.25,
+    "avg": 4097,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 231,
-    "sum": 637242.26,
-    "avg": 2759,
+    "count": 232,
+    "sum": 639241.26,
+    "avg": 2755,
     "min": 26,
     "max": 8000,
-    "median": 2485
+    "median": 2480
   },
   "outliers": {
-    "thresholdHigh": 8470,
+    "thresholdHigh": 8452,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 113,
-      "sum": 389692.89,
+      "count": 114,
+      "sum": 391691.89,
       "min": 26,
       "max": 49000,
-      "avg": 3449
+      "avg": 3436
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 220,
-      "sum": 753967.31,
+      "count": 221,
+      "sum": 755966.31,
       "min": 26,
       "max": 49000,
-      "avg": 3427
+      "avg": 3421
     },
     "marketplace": {
       "count": 23,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 220,
-      "sum": 753967.31,
+      "count": 221,
+      "sum": 755966.31,
       "min": 26,
       "max": 49000,
-      "avg": 3427
+      "avg": 3421
     },
     "guitarcenter.com": {
       "count": 5,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-standard-50s": {
+      "displayName": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "50s",
+      "count": 1,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-04-04T22:03:23.036Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
+          "url": "https://reverb.com/item/95695693-gibson-les-paul-standard-50s-2019-present-tobacco-burst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1999
+    },
     "ovation-uk-ii-ultra": {
       "displayName": "Ovation UK II Ultra Kaman 1219 1980-1982 - Sunburst",
       "brand": "Ovation",
@@ -5880,37 +5911,6 @@
       },
       "avg": 2659
     },
-    "jackson-dinky-usa": {
-      "displayName": "1996 Jackson USA DR2 Dinky with Original Case",
-      "brand": "Jackson",
-      "model": "Dinky",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 2099,
-      "min": 2099,
-      "max": 2099,
-      "sightings": [
-        {
-          "price": 2099,
-          "date": "2026-03-28T23:31:32.183Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1996 Jackson USA DR2 Dinky with Original Case",
-          "url": "https://reverb.com/item/95518322-1996-jackson-usa-dr2-dinky-with-original-case",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2099,
-          "min": 2099,
-          "max": 2099,
-          "avg": 2099
-        }
-      },
-      "avg": 2099
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8008,12 +8008,43 @@
         }
       },
       "avg": 1799
+    },
+    "jackson-dinky-usa": {
+      "displayName": "1996 Jackson USA DR2 Dinky with Original Case",
+      "brand": "Jackson",
+      "model": "Dinky",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2099,
+      "min": 2099,
+      "max": 2099,
+      "sightings": [
+        {
+          "price": 2099,
+          "date": "2026-03-28T23:31:32.183Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1996 Jackson USA DR2 Dinky with Original Case",
+          "url": "https://reverb.com/item/95518322-1996-jackson-usa-dr2-dinky-with-original-case",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2099,
+          "min": 2099,
+          "max": 2099,
+          "avg": 2099
+        }
+      },
+      "avg": 2099
     }
   },
   "byCondition": {
     "Very Good": {
-      "count": 64,
-      "sum": 179002.55999999997,
+      "count": 65,
+      "sum": 181001.55999999997,
       "sold": {
         "count": 17,
         "sum": 38733.78,
@@ -8021,7 +8052,7 @@
         "min": 165,
         "max": 3999.99
       },
-      "avg": 2797,
+      "avg": 2785,
       "min": 33,
       "max": 16500
     },
@@ -8132,8 +8163,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3449,
-      "count": 113
+      "avg": 3436,
+      "count": 114
     },
     "03": {
       "name": "Mar",
@@ -8286,7 +8317,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 59,
+    "1k-2k": 60,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 21,
@@ -8295,13 +8326,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 59,
+    "1k-2k": 60,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 155,
+      "count": 22,
+      "avg": 7
+    },
     "Ovation": {
       "sum": 0,
       "count": 1,
@@ -8336,11 +8372,6 @@
       "sum": 109,
       "count": 9,
       "avg": 12
-    },
-    "Gibson": {
-      "sum": 155,
-      "count": 21,
-      "avg": 7
     },
     "Nash": {
       "sum": 0,
@@ -8649,7 +8680,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-04": 20,
+    "2026-04-04": 21,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8661,14 +8692,14 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 220,
+    "reverb": 221,
     "marketplace": 28
   },
-  "activeModelsCount": 210,
+  "activeModelsCount": 211,
   "topPosters": [
     {
       "username": "GP",
-      "count": 103
+      "count": 104
     },
     {
       "username": "Beijing Bob",
@@ -8709,9 +8740,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3449,
+    "avg": 3436,
     "pctBelowAvg": 16,
-    "count": 113
+    "count": 114
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8722,10 +8753,10 @@
       "count": 18
     },
     "Gibson": {
-      "avgPrice": 3543,
+      "avgPrice": 3479,
       "retailEst": 800,
-      "avgDiscount": -342.9,
-      "count": 23
+      "avgDiscount": -334.8,
+      "count": 24
     },
     "PRS": {
       "avgPrice": 2998,
@@ -9658,14 +9689,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 234,
+      "total": 235,
       "sold": 71,
       "fake": 0,
-      "live": 163,
+      "live": 164,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
+      "Gibson": {
+        "total": 26,
+        "sold": 7,
+        "fake": 0,
+        "live": 19,
+        "soldPct": 27,
+        "livePct": 73
+      },
       "Ovation": {
         "total": 1,
         "sold": 0,
@@ -9729,14 +9768,6 @@
         "live": 5,
         "soldPct": 44,
         "livePct": 56
-      },
-      "Gibson": {
-        "total": 25,
-        "sold": 7,
-        "fake": 0,
-        "live": 18,
-        "soldPct": 28,
-        "livePct": 72
       },
       "Nash": {
         "total": 1,
@@ -10257,9 +10288,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 1,
+      "total": 2,
       "sold": 1,
-      "rate": 100
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -10288,7 +10319,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 132,
+      "total": 133,
       "sold": 38,
       "rate": 29
     },
@@ -10305,7 +10336,7 @@
       "rate": 19
     },
     "regular": {
-      "total": 81,
+      "total": 82,
       "sold": 27,
       "rate": 33
     }
@@ -10319,9 +10350,9 @@
     },
     {
       "state": "TX",
-      "total": 16,
+      "total": 17,
       "sold": 8,
-      "rate": 50
+      "rate": 47
     },
     {
       "state": "NY",
