@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-04T23:30:59.596Z",
-  "totalLinks": 250,
-  "totalWithPrice": 245,
+  "generatedAt": "2026-04-04T23:32:42.969Z",
+  "totalLinks": 251,
+  "totalWithPrice": 246,
   "overall": {
-    "count": 245,
-    "sum": 1000916.24,
-    "avg": 4085,
+    "count": 246,
+    "sum": 1002026.23,
+    "avg": 4073,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 233,
-    "sum": 640441.25,
-    "avg": 2749,
+    "count": 234,
+    "sum": 641551.24,
+    "avg": 2742,
     "min": 26,
     "max": 8000,
-    "median": 2475
+    "median": 2463
   },
   "outliers": {
-    "thresholdHigh": 8470,
+    "thresholdHigh": 8500,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 115,
-      "sum": 392891.88,
+      "count": 116,
+      "sum": 394001.87,
       "min": 26,
       "max": 49000,
-      "avg": 3416
+      "avg": 3397
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 24,
-      "sum": 244949.93,
+      "count": 25,
+      "sum": 246059.92,
       "min": 899.98,
       "max": 99000,
-      "avg": 10206
+      "avg": 9842
     },
     "reverb": {
       "count": 221,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "guitarcenter.com": {
-      "count": 6,
-      "sum": 13568.95,
-      "min": 1169.99,
+      "count": 7,
+      "sum": 14678.94,
+      "min": 1109.99,
       "max": 4999.99,
-      "avg": 2261
+      "avg": 2097
     },
     "reverb.com": {
       "count": 221,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "marshall-jvm210h-100w-tube": {
+      "displayName": "Used Marshall JVM210H 100W Tube Guitar Amp Head",
+      "brand": "Marshall",
+      "model": "JVM210H 100W Tube",
+      "variant": null,
+      "count": 1,
+      "sum": 1109.99,
+      "min": 1109.99,
+      "max": 1109.99,
+      "sightings": [
+        {
+          "price": 1109.99,
+          "date": "2026-04-04T23:32:27.955Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Marshall JVM210H 100W Tube Guitar Amp Head",
+          "url": "https://www.guitarcenter.com/Used/Marshall/Used-Marshall-JVM210H-100W-Tube-Guitar-Amp-Head-121512841.gc?algoliaQueryID=aa0f81414c25d877abb222e0a7c31130&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1109.99,
+          "min": 1109.99,
+          "max": 1109.99,
+          "avg": 1110
+        }
+      },
+      "avg": 1110
+    },
     "fender-pro-reverb-tube": {
       "displayName": "Vintage 1973 Fender PRO REVERB Tube Guitar Combo Amp",
       "brand": "Fender",
@@ -5864,52 +5895,6 @@
       },
       "avg": 1700
     },
-    "epiphone-epiphone-masterbilt-aj": {
-      "displayName": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
-      "brand": "Epiphone",
-      "model": "epiphone masterbilt aj",
-      "variant": null,
-      "count": 1,
-      "sum": 475,
-      "min": 475,
-      "max": 475,
-      "sightings": [
-        {
-          "price": 475,
-          "date": "2026-03-29T01:10:09.165Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
-          "url": "https://reverb.com/item/95316362-epiphone-epiphone-masterbilt-aj-500re-ns-2000-s-matte",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 475,
-          "min": 475,
-          "max": 475,
-          "avg": 475
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 475,
-        "min": 475,
-        "max": 475,
-        "prices": [
-          {
-            "price": 475,
-            "askingPrice": 475,
-            "date": "2026-04-04T11:38:14.227Z",
-            "title": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
-            "url": "https://reverb.com/item/95316362-epiphone-epiphone-masterbilt-aj-500re-ns-2000-s-matte"
-          }
-        ]
-      },
-      "avg": 475
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8070,18 +8055,64 @@
         }
       },
       "avg": 2659
+    },
+    "epiphone-epiphone-masterbilt-aj": {
+      "displayName": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
+      "brand": "Epiphone",
+      "model": "epiphone masterbilt aj",
+      "variant": null,
+      "count": 1,
+      "sum": 475,
+      "min": 475,
+      "max": 475,
+      "sightings": [
+        {
+          "price": 475,
+          "date": "2026-03-29T01:10:09.165Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
+          "url": "https://reverb.com/item/95316362-epiphone-epiphone-masterbilt-aj-500re-ns-2000-s-matte",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 475,
+          "min": 475,
+          "max": 475,
+          "avg": 475
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 475,
+        "min": 475,
+        "max": 475,
+        "prices": [
+          {
+            "price": 475,
+            "askingPrice": 475,
+            "date": "2026-04-04T11:38:14.227Z",
+            "title": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
+            "url": "https://reverb.com/item/95316362-epiphone-epiphone-masterbilt-aj-500re-ns-2000-s-matte"
+          }
+        ]
+      },
+      "avg": 475
     }
   },
   "byCondition": {
     "Used": {
-      "count": 16,
-      "sum": 143233.94999999998,
+      "count": 17,
+      "sum": 144343.94,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 8952,
-      "min": 1169.99,
+      "avg": 8491,
+      "min": 1109.99,
       "max": 99000
     },
     "Very Good": {
@@ -8194,8 +8225,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3416,
-      "count": 115
+      "avg": 3397,
+      "count": 116
     },
     "03": {
       "name": "Mar",
@@ -8348,7 +8379,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 61,
+    "1k-2k": 62,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 21,
@@ -8357,13 +8388,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 61,
+    "1k-2k": 62,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Marshall": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Fender": {
       "sum": 95,
       "count": 17,
@@ -8711,7 +8747,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-04": 22,
+    "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8723,10 +8759,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "marketplace": 29,
+    "marketplace": 30,
     "reverb": 221
   },
-  "activeModelsCount": 212,
+  "activeModelsCount": 213,
   "topPosters": [
     {
       "username": "GP",
@@ -8737,12 +8773,12 @@
       "count": 41
     },
     {
-      "username": "WontonGG",
+      "username": "Shteefe",
       "count": 24
     },
     {
-      "username": "Shteefe",
-      "count": 23
+      "username": "WontonGG",
+      "count": 24
     },
     {
       "username": "YellowJack6",
@@ -8771,9 +8807,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3416,
-    "pctBelowAvg": 16,
-    "count": 115
+    "avg": 3397,
+    "pctBelowAvg": 17,
+    "count": 116
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9190,14 +9226,6 @@
         "slowest": 0.7,
         "avgDays": 0.4
       },
-      "epiphone-epiphone-masterbilt-aj": {
-        "displayName": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
-        "totalDays": 12.6,
-        "count": 1,
-        "fastest": 12.6,
-        "slowest": 12.6,
-        "avgDays": 12.6
-      },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
         "totalDays": 0.7,
@@ -9341,6 +9369,14 @@
         "fastest": 0.8,
         "slowest": 0.8,
         "avgDays": 0.8
+      },
+      "epiphone-epiphone-masterbilt-aj": {
+        "displayName": "Epiphone epiphone masterbilt aj 500RE NS 2000's - matte",
+        "totalDays": 12.6,
+        "count": 1,
+        "fastest": 12.6,
+        "slowest": 12.6,
+        "avgDays": 12.6
       }
     },
     "byBrand": {
@@ -9720,14 +9756,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 236,
+      "total": 237,
       "sold": 71,
       "fake": 0,
-      "live": 165,
+      "live": 166,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
+      "Marshall": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Fender": {
         "total": 20,
         "sold": 5,
