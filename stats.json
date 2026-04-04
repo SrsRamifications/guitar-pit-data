@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-04T03:39:13.741Z",
-  "totalLinks": 228,
-  "totalWithPrice": 224,
+  "generatedAt": "2026-04-04T05:05:26.364Z",
+  "totalLinks": 229,
+  "totalWithPrice": 225,
   "overall": {
-    "count": 224,
-    "sum": 946605.24,
-    "avg": 4226,
+    "count": 225,
+    "sum": 948955.24,
+    "avg": 4218,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 212,
-    "sum": 586130.25,
-    "avg": 2765,
+    "count": 213,
+    "sum": 588480.25,
+    "avg": 2763,
     "min": 26,
     "max": 8000,
     "median": 2500
   },
   "outliers": {
-    "thresholdHigh": 8677,
+    "thresholdHigh": 8620,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 93,
-      "sum": 337650.89,
+      "count": 94,
+      "sum": 340000.89,
       "min": 26,
       "max": 49000,
-      "avg": 3631
+      "avg": 3617
     },
     "2026-03": {
       "count": 131,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 200,
-      "sum": 701925.31,
+      "count": 201,
+      "sum": 704275.31,
       "min": 26,
       "max": 49000,
-      "avg": 3510
+      "avg": 3504
     },
     "marketplace": {
       "count": 24,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 200,
-      "sum": 701925.31,
+      "count": 201,
+      "sum": 704275.31,
       "min": 26,
       "max": 49000,
-      "avg": 3510
+      "avg": 3504
     },
     "guitarcenter.com": {
       "count": 5,
@@ -224,6 +224,38 @@
     }
   },
   "byModel": {
+    "kauer-electroliner-verde-chiaro": {
+      "displayName": "Kauer Electroliner Verde Chiaro",
+      "brand": "Kauer",
+      "model": "Electroliner Verde Chiaro",
+      "variant": null,
+      "count": 1,
+      "sum": 2350,
+      "min": 2350,
+      "max": 2350,
+      "sightings": [
+        {
+          "price": 2350,
+          "date": "2026-04-04T05:05:12.492Z",
+          "year": 2025,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kauer Electroliner 2025 Verde Chiaro",
+          "url": "https://reverb.com/item/94512210-kauer-electroliner-2025-verde-chiaro",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2350,
+          "min": 2350,
+          "max": 2350,
+          "avg": 2350
+        }
+      },
+      "avg": 2350
+    },
     "prs-swamp-ash-special": {
       "displayName": "PRS Swamp Ash Special",
       "brand": "PRS",
@@ -7572,6 +7604,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 93,
+      "sum": 366743.68,
+      "sold": {
+        "count": 30,
+        "sum": 111580.4,
+        "avg": 3719,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3943,
+      "min": 26,
+      "max": 49000
+    },
     "Brand New": {
       "count": 17,
       "sum": 83347.12,
@@ -7596,20 +7642,6 @@
       "avg": 9469,
       "min": 1169.99,
       "max": 99000
-    },
-    "Excellent": {
-      "count": 92,
-      "sum": 364393.68,
-      "sold": {
-        "count": 30,
-        "sum": 111580.4,
-        "avg": 3719,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3961,
-      "min": 26,
-      "max": 49000
     },
     "Fair": {
       "count": 5,
@@ -7690,8 +7722,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3631,
-      "count": 93
+      "avg": 3617,
+      "count": 94
     },
     "03": {
       "name": "Mar",
@@ -7845,7 +7877,7 @@
     "0-500": 8,
     "500-1k": 13,
     "1k-2k": 54,
-    "2k-3k": 61,
+    "2k-3k": 62,
     "3k-5k": 60,
     "5k-10k": 19,
     "10k+": 9
@@ -7854,14 +7886,19 @@
     "0-500": 8,
     "500-1k": 13,
     "1k-2k": 54,
-    "2k-3k": 61,
+    "2k-3k": 62,
     "3k-5k": 60,
     "5k-10k": 16,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kauer": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "PRS": {
-      "sum": 77,
+      "sum": 78,
       "count": 23,
       "avg": 3
     },
@@ -7871,24 +7908,24 @@
       "avg": 5
     },
     "Gibson": {
-      "sum": 91,
+      "sum": 92,
       "count": 20,
       "avg": 5
     },
     "Fender": {
-      "sum": 61,
+      "sum": 62,
       "count": 17,
       "avg": 4
     },
     "Ibanez": {
-      "sum": 62,
+      "sum": 63,
       "count": 14,
-      "avg": 4
+      "avg": 5
     },
     "Jackson": {
-      "sum": 40,
+      "sum": 41,
       "count": 9,
-      "avg": 4
+      "avg": 5
     },
     "Gretsch": {
       "sum": 6,
@@ -7941,9 +7978,9 @@
       "avg": 5
     },
     "Mesa Boogie": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Charvel": {
       "sum": 9,
@@ -7991,9 +8028,9 @@
       "avg": 2
     },
     "Collings": {
-      "sum": 4,
+      "sum": 5,
       "count": 2,
-      "avg": 2
+      "avg": 3
     },
     "Washburn": {
       "sum": 2,
@@ -8071,9 +8108,9 @@
       "avg": 4
     },
     "Guild": {
-      "sum": 10,
+      "sum": 11,
       "count": 2,
-      "avg": 5
+      "avg": 6
     },
     "Vintage": {
       "sum": 13,
@@ -8182,6 +8219,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-04": 1,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8193,10 +8231,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 200,
+    "reverb": 201,
     "marketplace": 28
   },
-  "activeModelsCount": 196,
+  "activeModelsCount": 197,
   "topPosters": [
     {
       "username": "GP",
@@ -8220,7 +8258,7 @@
     },
     {
       "username": "Madero",
-      "count": 8
+      "count": 9
     },
     {
       "username": "Modean",
@@ -8241,9 +8279,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3631,
+    "avg": 3617,
     "pctBelowAvg": 14,
-    "count": 93
+    "count": 94
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8984,11 +9022,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 663.1791734532281,
-      "count": 39,
-      "avgPctDrop": 17
+      "totalPctDrop": 671.0223107081301,
+      "count": 40,
+      "avgPctDrop": 16.8
     },
     "byBrand": {
+      "Kauer": {
+        "totalPctDrop": 7.8431372549019605,
+        "count": 1,
+        "avgPctDrop": 7.8
+      },
       "Gretsch": {
         "totalPctDrop": 16.631929970821176,
         "count": 1,
@@ -9113,16 +9156,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 214,
+      "total": 215,
       "sold": 64,
       "removed": 0,
       "fake": 0,
-      "live": 150,
+      "live": 151,
       "soldPct": 30,
       "removedPct": 0,
       "livePct": 70
     },
     "byBrand": {
+      "Kauer": {
+        "total": 1,
+        "sold": 0,
+        "removed": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "removedPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 23,
         "sold": 8,
@@ -9809,7 +9862,7 @@
     "withOffers": 56,
     "totalOffers": 109,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 61
+    "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -9836,7 +9889,7 @@
     },
     {
       "label": "31+",
-      "total": 43,
+      "total": 44,
       "sold": 7,
       "rate": 16
     }
@@ -9848,9 +9901,9 @@
       "rate": 27
     },
     "off": {
-      "total": 37,
+      "total": 38,
       "sold": 15,
-      "rate": 41
+      "rate": 39
     }
   },
   "sellerType": {
@@ -9860,7 +9913,7 @@
       "rate": 15
     },
     "regular": {
-      "total": 73,
+      "total": 74,
       "sold": 25,
       "rate": 34
     }
@@ -9891,16 +9944,16 @@
       "rate": 25
     },
     {
+      "state": "WA",
+      "total": 7,
+      "sold": 1,
+      "rate": 14
+    },
+    {
       "state": "FL",
       "total": 7,
       "sold": 2,
       "rate": 29
-    },
-    {
-      "state": "WA",
-      "total": 6,
-      "sold": 1,
-      "rate": 17
     },
     {
       "state": "PA",
