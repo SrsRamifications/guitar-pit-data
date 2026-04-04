@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-04T16:42:17.310Z",
-  "totalLinks": 242,
+  "generatedAt": "2026-04-04T16:45:56.474Z",
+  "totalLinks": 243,
   "totalWithPrice": 238,
   "overall": {
     "count": 238,
-    "sum": 986807.24,
-    "avg": 4146,
+    "sum": 988277.25,
+    "avg": 4152,
     "min": 26,
     "max": 99000
   },
   "filtered": {
     "count": 226,
-    "sum": 626332.25,
-    "avg": 2771,
+    "sum": 627802.26,
+    "avg": 2778,
     "min": 26,
     "max": 8000,
     "median": 2500
   },
   "outliers": {
-    "thresholdHigh": 8620,
+    "thresholdHigh": 8602,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,43 +121,43 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 107,
-      "sum": 377852.89,
+      "count": 108,
+      "sum": 380252.89,
       "min": 26,
       "max": 49000,
-      "avg": 3531
+      "avg": 3521
     },
     "2026-03": {
-      "count": 131,
-      "sum": 608954.35,
+      "count": 130,
+      "sum": 608024.36,
       "min": 33,
       "max": 99000,
-      "avg": 4649
+      "avg": 4677
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 214,
-      "sum": 742127.31,
+      "count": 215,
+      "sum": 744527.31,
       "min": 26,
       "max": 49000,
-      "avg": 3468
+      "avg": 3463
     },
     "marketplace": {
-      "count": 24,
-      "sum": 244679.93,
+      "count": 23,
+      "sum": 243749.94,
       "min": 899.98,
       "max": 99000,
-      "avg": 10195
+      "avg": 10598
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 214,
-      "sum": 742127.31,
+      "count": 215,
+      "sum": 744527.31,
       "min": 26,
       "max": 49000,
-      "avg": 3468
+      "avg": 3463
     },
     "guitarcenter.com": {
       "count": 5,
@@ -194,13 +194,6 @@
       "max": 7900,
       "avg": 7900
     },
-    "sweetwater.com": {
-      "count": 1,
-      "sum": 929.99,
-      "min": 929.99,
-      "max": 929.99,
-      "avg": 930
-    },
     "tapestrymusic.com": {
       "count": 1,
       "sum": 10495,
@@ -224,6 +217,115 @@
     }
   },
   "byModel": {
+    "fender-stratocaster": {
+      "displayName": "Fender Stratocaster",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 5,
+      "sum": 92389,
+      "min": 1089,
+      "max": 49000,
+      "sightings": [
+        {
+          "price": 35900,
+          "date": "2026-03-29T02:53:43.437Z",
+          "year": 1964,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+          "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
+          "condition": "Excellent"
+        },
+        {
+          "price": 1089,
+          "date": "2026-04-02T20:56:45.202Z",
+          "year": 2025,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used 2025 Fender Richie Kotzen Stratocaster Transparent White Burst w/DiMarzio Pickupa #JD24030169",
+          "url": "https://reverb.com/item/95609454-used-2025-fender-richie-kotzen-stratocaster-transparent-white-burst-w-dimarzio-pickupa-jd24030169",
+          "condition": "Excellent"
+        },
+        {
+          "price": 49000,
+          "date": "2026-04-02T20:57:12.900Z",
+          "year": 1957,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1957 Fender Stratocaster",
+          "url": "https://reverb.com/item/95610311-1957-fender-stratocaster",
+          "condition": "Excellent"
+        },
+        {
+          "price": 4000,
+          "date": "2026-04-03T20:32:11.645Z",
+          "year": 1971,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "4 Bolt! 1971 Fender Stratocaster w/OHSC",
+          "url": "https://reverb.com/item/95592174-4-bolt-1971-fender-stratocaster-w-ohsc",
+          "condition": "Fair"
+        },
+        {
+          "price": 2400,
+          "date": "2026-04-04T16:45:42.582Z",
+          "year": 1979,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "*Video* 1979 Fender Stratocaster Ash Sienna Burst w/OHSC",
+          "url": "https://reverb.com/item/94763367-video-1979-fender-stratocaster-ash-sienna-burst-w-ohsc",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2400,
+          "min": 2400,
+          "max": 2400,
+          "avg": 2400
+        },
+        "Fair": {
+          "count": 1,
+          "sum": 4000,
+          "min": 4000,
+          "max": 4000,
+          "avg": 4000
+        },
+        "Excellent": {
+          "count": 3,
+          "sum": 85989,
+          "min": 1089,
+          "max": 49000,
+          "avg": 28663
+        }
+      },
+      "soldData": {
+        "count": 2,
+        "avg": 18495,
+        "min": 1089,
+        "max": 35900,
+        "prices": [
+          {
+            "price": 1089,
+            "askingPrice": 1089,
+            "date": "2026-04-03T15:34:50.108Z",
+            "title": "Used 2025 Fender Richie Kotzen Stratocaster Transparent White Burst w/DiMarzio Pickupa #JD24030169",
+            "url": "https://reverb.com/item/95609454-used-2025-fender-richie-kotzen-stratocaster-transparent-white-burst-w-dimarzio-pickupa-jd24030169"
+          },
+          {
+            "price": 35900,
+            "askingPrice": 35900,
+            "date": "2026-04-01T04:35:54.903Z",
+            "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
+            "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new"
+          }
+        ]
+      },
+      "avg": 18478,
+      "trends": {}
+    },
     "yamaha-l-31a-late-model": {
       "displayName": "Yamaha L-31A Late Model",
       "brand": "Yamaha",
@@ -991,98 +1093,6 @@
         }
       },
       "avg": 6067
-    },
-    "fender-stratocaster": {
-      "displayName": "Fender Stratocaster",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": null,
-      "count": 4,
-      "sum": 89989,
-      "min": 1089,
-      "max": 49000,
-      "sightings": [
-        {
-          "price": 35900,
-          "date": "2026-03-29T02:53:43.437Z",
-          "year": 1964,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
-          "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new",
-          "condition": "Excellent"
-        },
-        {
-          "price": 1089,
-          "date": "2026-04-02T20:56:45.202Z",
-          "year": 2025,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used 2025 Fender Richie Kotzen Stratocaster Transparent White Burst w/DiMarzio Pickupa #JD24030169",
-          "url": "https://reverb.com/item/95609454-used-2025-fender-richie-kotzen-stratocaster-transparent-white-burst-w-dimarzio-pickupa-jd24030169",
-          "condition": "Excellent"
-        },
-        {
-          "price": 49000,
-          "date": "2026-04-02T20:57:12.900Z",
-          "year": 1957,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1957 Fender Stratocaster",
-          "url": "https://reverb.com/item/95610311-1957-fender-stratocaster",
-          "condition": "Excellent"
-        },
-        {
-          "price": 4000,
-          "date": "2026-04-03T20:32:11.645Z",
-          "year": 1971,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "4 Bolt! 1971 Fender Stratocaster w/OHSC",
-          "url": "https://reverb.com/item/95592174-4-bolt-1971-fender-stratocaster-w-ohsc",
-          "condition": "Fair"
-        }
-      ],
-      "byCondition": {
-        "Fair": {
-          "count": 1,
-          "sum": 4000,
-          "min": 4000,
-          "max": 4000,
-          "avg": 4000
-        },
-        "Excellent": {
-          "count": 3,
-          "sum": 85989,
-          "min": 1089,
-          "max": 49000,
-          "avg": 28663
-        }
-      },
-      "soldData": {
-        "count": 2,
-        "avg": 18495,
-        "min": 1089,
-        "max": 35900,
-        "prices": [
-          {
-            "price": 1089,
-            "askingPrice": 1089,
-            "date": "2026-04-03T15:34:50.108Z",
-            "title": "Used 2025 Fender Richie Kotzen Stratocaster Transparent White Burst w/DiMarzio Pickupa #JD24030169",
-            "url": "https://reverb.com/item/95609454-used-2025-fender-richie-kotzen-stratocaster-transparent-white-burst-w-dimarzio-pickupa-jd24030169"
-          },
-          {
-            "price": 35900,
-            "askingPrice": 35900,
-            "date": "2026-04-01T04:35:54.903Z",
-            "title": "1964 Fender Stratocaster Sunburt (Factory NEW) !",
-            "url": "https://reverb.com/item/95520292-1964-fender-stratocaster-sunburt-factory-new"
-          }
-        ]
-      },
-      "avg": 22497,
-      "trends": {}
     },
     "ibanez-az2204nw-dark-tide": {
       "displayName": "Ibanez AZ2204NW Dark Tide",
@@ -7972,8 +7982,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 60,
-      "sum": 170107.55999999997,
+      "count": 61,
+      "sum": 172507.55999999997,
       "sold": {
         "count": 14,
         "sum": 29633.78,
@@ -7981,7 +7991,7 @@
         "min": 165,
         "max": 3999.99
       },
-      "avg": 2835,
+      "avg": 2828,
       "min": 33,
       "max": 16500
     },
@@ -8089,13 +8099,13 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3531,
-      "count": 107
+      "avg": 3521,
+      "count": 108
     },
     "03": {
       "name": "Mar",
-      "avg": 4649,
-      "count": 131
+      "avg": 4677,
+      "count": 130
     }
   },
   "recentDrops": [
@@ -8242,23 +8252,28 @@
   ],
   "priceDistribution": {
     "0-500": 8,
-    "500-1k": 14,
+    "500-1k": 13,
     "1k-2k": 57,
-    "2k-3k": 66,
+    "2k-3k": 67,
     "3k-5k": 63,
     "5k-10k": 21,
     "10k+": 9
   },
   "priceDistributionFiltered": {
     "0-500": 8,
-    "500-1k": 14,
+    "500-1k": 13,
     "1k-2k": 57,
-    "2k-3k": 66,
+    "2k-3k": 67,
     "3k-5k": 63,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 75,
+      "count": 20,
+      "avg": 4
+    },
     "Yamaha": {
       "sum": 9,
       "count": 4,
@@ -8267,11 +8282,6 @@
     "PRS": {
       "sum": 96,
       "count": 25,
-      "avg": 4
-    },
-    "Fender": {
-      "sum": 75,
-      "count": 19,
       "avg": 4
     },
     "Kiesel": {
@@ -8591,7 +8601,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-04": 14,
+    "2026-04-04": 15,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8603,7 +8613,7 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 214,
+    "reverb": 215,
     "marketplace": 28
   },
   "activeModelsCount": 206,
@@ -8614,7 +8624,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 40
+      "count": 41
     },
     {
       "username": "WontonGG",
@@ -8651,16 +8661,16 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3531,
+    "avg": 3521,
     "pctBelowAvg": 15,
-    "count": 107
+    "count": 108
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 7947,
-      "avgDiscount": -893.4,
-      "count": 19
+      "avgPrice": 7670,
+      "avgDiscount": -858.7,
+      "count": 20
     },
     "Gibson": {
       "avgPrice": 3543,
@@ -9541,16 +9551,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 228,
+      "total": 229,
       "sold": 65,
       "removed": 0,
       "fake": 0,
-      "live": 163,
-      "soldPct": 29,
+      "live": 164,
+      "soldPct": 28,
       "removedPct": 0,
-      "livePct": 71
+      "livePct": 72
     },
     "byBrand": {
+      "Fender": {
+        "total": 19,
+        "sold": 5,
+        "removed": 0,
+        "fake": 0,
+        "live": 14,
+        "soldPct": 26,
+        "removedPct": 0,
+        "livePct": 74
+      },
       "Yamaha": {
         "total": 4,
         "sold": 1,
@@ -9570,16 +9590,6 @@
         "soldPct": 36,
         "removedPct": 0,
         "livePct": 64
-      },
-      "Fender": {
-        "total": 18,
-        "sold": 5,
-        "removed": 0,
-        "fake": 0,
-        "live": 13,
-        "soldPct": 28,
-        "removedPct": 0,
-        "livePct": 72
       },
       "Kiesel": {
         "total": 9,
@@ -10284,7 +10294,7 @@
     },
     {
       "label": "16–30",
-      "total": 55,
+      "total": 56,
       "sold": 15,
       "rate": 27
     },
@@ -10302,14 +10312,14 @@
       "rate": 27
     },
     "off": {
-      "total": 44,
+      "total": 45,
       "sold": 15,
-      "rate": 34
+      "rate": 33
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 78,
+      "total": 79,
       "sold": 12,
       "rate": 15
     },
@@ -10409,6 +10419,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "ID",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "IA",
