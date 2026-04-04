@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-04T16:04:14.315Z",
-  "totalLinks": 237,
-  "totalWithPrice": 233,
+  "generatedAt": "2026-04-04T16:16:01.403Z",
+  "totalLinks": 238,
+  "totalWithPrice": 234,
   "overall": {
-    "count": 233,
-    "sum": 976312.24,
-    "avg": 4190,
+    "count": 234,
+    "sum": 978212.24,
+    "avg": 4180,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 221,
-    "sum": 615837.25,
-    "avg": 2787,
+    "count": 222,
+    "sum": 617737.25,
+    "avg": 2783,
     "min": 26,
     "max": 8000,
     "median": 2500
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 102,
-      "sum": 367357.89,
+      "count": 103,
+      "sum": 369257.89,
       "min": 26,
       "max": 49000,
-      "avg": 3602
+      "avg": 3585
     },
     "2026-03": {
       "count": 131,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 209,
-      "sum": 731632.31,
+      "count": 210,
+      "sum": 733532.31,
       "min": 26,
       "max": 49000,
-      "avg": 3501
+      "avg": 3493
     },
     "marketplace": {
       "count": 24,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 209,
-      "sum": 731632.31,
+      "count": 210,
+      "sum": 733532.31,
       "min": 26,
       "max": 49000,
-      "avg": 3501
+      "avg": 3493
     },
     "guitarcenter.com": {
       "count": 5,
@@ -224,6 +224,38 @@
     }
   },
   "byModel": {
+    "kiesel-zeus-multiscale": {
+      "displayName": "Kiesel Zeus Multiscale",
+      "brand": "Kiesel",
+      "model": "Zeus Multiscale",
+      "variant": null,
+      "count": 1,
+      "sum": 1900,
+      "min": 1900,
+      "max": 1900,
+      "sightings": [
+        {
+          "price": 1900,
+          "date": "2026-04-04T16:15:46.338Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Zeus Multiscale 7",
+          "url": "https://reverb.com/item/95682537-kiesel-zeus-multiscale-7",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1900,
+          "min": 1900,
+          "max": 1900,
+          "avg": 1900
+        }
+      },
+      "avg": 1900
+    },
     "gibson-es-335-reissue-murphy-lab": {
       "displayName": "Gibson ES-335 Reissue Murphy Lab",
       "brand": "Gibson",
@@ -6119,53 +6151,6 @@
       },
       "avg": 2550
     },
-    "gibson-sg-custom-shop-59": {
-      "displayName": "Gibson SG Custom Shop 59",
-      "brand": "Gibson",
-      "model": "SG",
-      "variant": "Custom Shop 59",
-      "count": 1,
-      "sum": 3500,
-      "min": 3500,
-      "max": 3500,
-      "sightings": [
-        {
-          "price": 3500,
-          "date": "2026-03-28T19:00:55.559Z",
-          "year": null,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Custom Shop 61/59 SG  VOS",
-          "url": "https://reverb.com/item/95515175-gibson-custom-shop-61-59-sg-vos",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3500,
-          "min": 3500,
-          "max": 3500,
-          "avg": 3500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3500,
-        "min": 3500,
-        "max": 3500,
-        "prices": [
-          {
-            "price": 3500,
-            "askingPrice": 3500,
-            "date": "2026-03-29T02:42:36.036Z",
-            "title": "Gibson Custom Shop 61/59 SG  VOS",
-            "url": "https://reverb.com/item/95515175-gibson-custom-shop-61-59-sg-vos"
-          }
-        ]
-      },
-      "avg": 3500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez Metal Usa",
       "brand": "Ibanez",
@@ -7836,9 +7821,70 @@
         }
       },
       "avg": 1999
+    },
+    "gibson-sg-custom-shop-59": {
+      "displayName": "Gibson SG Custom Shop 59",
+      "brand": "Gibson",
+      "model": "SG",
+      "variant": "Custom Shop 59",
+      "count": 1,
+      "sum": 3500,
+      "min": 3500,
+      "max": 3500,
+      "sightings": [
+        {
+          "price": 3500,
+          "date": "2026-03-28T19:00:55.559Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop 61/59 SG  VOS",
+          "url": "https://reverb.com/item/95515175-gibson-custom-shop-61-59-sg-vos",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3500,
+          "min": 3500,
+          "max": 3500,
+          "avg": 3500
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 3500,
+        "min": 3500,
+        "max": 3500,
+        "prices": [
+          {
+            "price": 3500,
+            "askingPrice": 3500,
+            "date": "2026-03-29T02:42:36.036Z",
+            "title": "Gibson Custom Shop 61/59 SG  VOS",
+            "url": "https://reverb.com/item/95515175-gibson-custom-shop-61-59-sg-vos"
+          }
+        ]
+      },
+      "avg": 3500
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 57,
+      "sum": 164112.55999999994,
+      "sold": {
+        "count": 14,
+        "sum": 29633.78,
+        "avg": 2117,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2879,
+      "min": 33,
+      "max": 16500
+    },
     "Mint": {
       "count": 7,
       "sum": 32905,
@@ -7877,20 +7923,6 @@
       "avg": 2276,
       "min": 414,
       "max": 6500
-    },
-    "Very Good": {
-      "count": 56,
-      "sum": 162212.55999999994,
-      "sold": {
-        "count": 14,
-        "sum": 29633.78,
-        "avg": 2117,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2897,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 17,
@@ -7957,8 +7989,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3602,
-      "count": 102
+      "avg": 3585,
+      "count": 103
     },
     "03": {
       "name": "Mar",
@@ -8111,7 +8143,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 13,
-    "1k-2k": 56,
+    "1k-2k": 57,
     "2k-3k": 64,
     "3k-5k": 62,
     "5k-10k": 21,
@@ -8120,13 +8152,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 13,
-    "1k-2k": 56,
+    "1k-2k": 57,
     "2k-3k": 64,
     "3k-5k": 62,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 49,
+      "count": 9,
+      "avg": 5
+    },
     "Gibson": {
       "sum": 107,
       "count": 23,
@@ -8163,7 +8200,7 @@
       "avg": 0
     },
     "BC Rich": {
-      "sum": 86,
+      "sum": 87,
       "count": 17,
       "avg": 5
     },
@@ -8211,11 +8248,6 @@
       "sum": 9,
       "count": 2,
       "avg": 5
-    },
-    "Kiesel": {
-      "sum": 49,
-      "count": 8,
-      "avg": 6
     },
     "Mesa Boogie": {
       "sum": 2,
@@ -8408,9 +8440,9 @@
       "avg": 7
     },
     "Milkman": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "Seymour Duncan": {
       "sum": 8,
@@ -8459,7 +8491,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-04": 9,
+    "2026-04-04": 10,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8471,14 +8503,14 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 209,
+    "reverb": 210,
     "marketplace": 28
   },
-  "activeModelsCount": 203,
+  "activeModelsCount": 204,
   "topPosters": [
     {
       "username": "GP",
-      "count": 99
+      "count": 100
     },
     {
       "username": "Beijing Bob",
@@ -8519,9 +8551,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3602,
+    "avg": 3585,
     "pctBelowAvg": 14,
-    "count": 102
+    "count": 103
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8957,14 +8989,6 @@
         "slowest": 1,
         "avgDays": 1
       },
-      "gibson-sg-custom-shop-59": {
-        "displayName": "Gibson SG Custom Shop 59",
-        "totalDays": 0.4,
-        "count": 1,
-        "fastest": 0.4,
-        "slowest": 0.4,
-        "avgDays": 0.4
-      },
       "fender-telecaster": {
         "displayName": "Fender Telecaster",
         "totalDays": 0.7,
@@ -9044,6 +9068,14 @@
         "fastest": 0.6,
         "slowest": 0.6,
         "avgDays": 0.6
+      },
+      "gibson-sg-custom-shop-59": {
+        "displayName": "Gibson SG Custom Shop 59",
+        "totalDays": 0.4,
+        "count": 1,
+        "fastest": 0.4,
+        "slowest": 0.4,
+        "avgDays": 0.4
       }
     },
     "byBrand": {
@@ -9409,16 +9441,26 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 223,
+      "total": 224,
       "sold": 65,
       "removed": 0,
       "fake": 0,
-      "live": 158,
+      "live": 159,
       "soldPct": 29,
       "removedPct": 0,
       "livePct": 71
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 9,
+        "sold": 4,
+        "removed": 0,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 44,
+        "removedPct": 0,
+        "livePct": 56
+      },
       "Gibson": {
         "total": 25,
         "sold": 6,
@@ -9585,16 +9627,6 @@
         "removed": 0,
         "fake": 0,
         "live": 1,
-        "soldPct": 50,
-        "removedPct": 0,
-        "livePct": 50
-      },
-      "Kiesel": {
-        "total": 8,
-        "sold": 4,
-        "removed": 0,
-        "fake": 0,
-        "live": 4,
         "soldPct": 50,
         "removedPct": 0,
         "livePct": 50
@@ -10134,7 +10166,7 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 0,
       "rate": 0
     },
@@ -10165,7 +10197,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 125,
+      "total": 126,
       "sold": 34,
       "rate": 27
     },
@@ -10177,7 +10209,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 75,
+      "total": 76,
       "sold": 12,
       "rate": 16
     },
@@ -10190,9 +10222,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 21,
+      "total": 22,
       "sold": 5,
-      "rate": 24
+      "rate": 23
     },
     {
       "state": "TX",
