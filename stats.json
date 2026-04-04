@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-04T22:28:23.165Z",
-  "totalLinks": 249,
-  "totalWithPrice": 244,
+  "generatedAt": "2026-04-04T23:30:59.596Z",
+  "totalLinks": 250,
+  "totalWithPrice": 245,
   "overall": {
-    "count": 244,
-    "sum": 999716.25,
-    "avg": 4097,
+    "count": 245,
+    "sum": 1000916.24,
+    "avg": 4085,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 232,
-    "sum": 639241.26,
-    "avg": 2755,
+    "count": 233,
+    "sum": 640441.25,
+    "avg": 2749,
     "min": 26,
     "max": 8000,
-    "median": 2480
+    "median": 2475
   },
   "outliers": {
-    "thresholdHigh": 8452,
+    "thresholdHigh": 8470,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 114,
-      "sum": 391691.89,
+      "count": 115,
+      "sum": 392891.88,
       "min": 26,
       "max": 49000,
-      "avg": 3436
+      "avg": 3416
     },
     "2026-03": {
       "count": 130,
@@ -136,35 +136,35 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 24,
+      "sum": 244949.93,
+      "min": 899.98,
+      "max": 99000,
+      "avg": 10206
+    },
     "reverb": {
       "count": 221,
       "sum": 755966.31,
       "min": 26,
       "max": 49000,
       "avg": 3421
-    },
-    "marketplace": {
-      "count": 23,
-      "sum": 243749.94,
-      "min": 899.98,
-      "max": 99000,
-      "avg": 10598
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 6,
+      "sum": 13568.95,
+      "min": 1169.99,
+      "max": 4999.99,
+      "avg": 2261
+    },
     "reverb.com": {
       "count": 221,
       "sum": 755966.31,
       "min": 26,
       "max": 49000,
       "avg": 3421
-    },
-    "guitarcenter.com": {
-      "count": 5,
-      "sum": 12368.96,
-      "min": 1169.99,
-      "max": 4999.99,
-      "avg": 2474
     },
     "chicagomusicexchange.com": {
       "count": 12,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "fender-pro-reverb-tube": {
+      "displayName": "Vintage 1973 Fender PRO REVERB Tube Guitar Combo Amp",
+      "brand": "Fender",
+      "model": "PRO REVERB Tube",
+      "variant": null,
+      "count": 1,
+      "sum": 1199.99,
+      "min": 1199.99,
+      "max": 1199.99,
+      "sightings": [
+        {
+          "price": 1199.99,
+          "date": "2026-04-04T23:30:43.840Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1973 Fender PRO REVERB Tube Guitar Combo Amp",
+          "url": "https://www.guitarcenter.com/Used/Fender/Vintage-Vintage-1973-Fender-PRO-REVERB-Tube-Guitar-Combo-Amp-122042337.gc?algoliaQueryID=aa0f81414c25d877abb222e0a7c31130&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1199.99,
+          "min": 1199.99,
+          "max": 1199.99,
+          "avg": 1200
+        }
+      },
+      "avg": 1200
+    },
     "gibson-les-paul-standard-50s": {
       "displayName": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
       "brand": "Gibson",
@@ -5879,69 +5910,6 @@
       },
       "avg": 475
     },
-    "patrick-james-eggle-macon-special-flame": {
-      "displayName": "Patrick James Eggle Macon Special Flame",
-      "brand": "Patrick James Eggle",
-      "model": "Macon Special Flame",
-      "variant": null,
-      "count": 1,
-      "sum": 2659,
-      "min": 2659,
-      "max": 2659,
-      "sightings": [
-        {
-          "price": 2659,
-          "date": "2026-03-28T23:35:42.396Z",
-          "year": 2025,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Patrick James Eggle Macon Special  2025 - Flame top - Mojo tone",
-          "url": "https://reverb.com/item/95518332-patrick-james-eggle-macon-special-2025-flame-top-mojo-tone",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2659,
-          "min": 2659,
-          "max": 2659,
-          "avg": 2659
-        }
-      },
-      "avg": 2659
-    },
-    "jackson-dinky-usa": {
-      "displayName": "1996 Jackson USA DR2 Dinky with Original Case",
-      "brand": "Jackson",
-      "model": "Dinky",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 2099,
-      "min": 2099,
-      "max": 2099,
-      "sightings": [
-        {
-          "price": 2099,
-          "date": "2026-03-28T23:31:32.183Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1996 Jackson USA DR2 Dinky with Original Case",
-          "url": "https://reverb.com/item/95518322-1996-jackson-usa-dr2-dinky-with-original-case",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2099,
-          "min": 2099,
-          "max": 2099,
-          "avg": 2099
-        }
-      },
-      "avg": 2099
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8039,9 +8007,83 @@
         }
       },
       "avg": 1799
+    },
+    "jackson-dinky-usa": {
+      "displayName": "1996 Jackson USA DR2 Dinky with Original Case",
+      "brand": "Jackson",
+      "model": "Dinky",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2099,
+      "min": 2099,
+      "max": 2099,
+      "sightings": [
+        {
+          "price": 2099,
+          "date": "2026-03-28T23:31:32.183Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1996 Jackson USA DR2 Dinky with Original Case",
+          "url": "https://reverb.com/item/95518322-1996-jackson-usa-dr2-dinky-with-original-case",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2099,
+          "min": 2099,
+          "max": 2099,
+          "avg": 2099
+        }
+      },
+      "avg": 2099
+    },
+    "patrick-james-eggle-macon-special-flame": {
+      "displayName": "Patrick James Eggle Macon Special Flame",
+      "brand": "Patrick James Eggle",
+      "model": "Macon Special Flame",
+      "variant": null,
+      "count": 1,
+      "sum": 2659,
+      "min": 2659,
+      "max": 2659,
+      "sightings": [
+        {
+          "price": 2659,
+          "date": "2026-03-28T23:35:42.396Z",
+          "year": 2025,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Patrick James Eggle Macon Special  2025 - Flame top - Mojo tone",
+          "url": "https://reverb.com/item/95518332-patrick-james-eggle-macon-special-2025-flame-top-mojo-tone",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2659,
+          "min": 2659,
+          "max": 2659,
+          "avg": 2659
+        }
+      },
+      "avg": 2659
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 16,
+      "sum": 143233.94999999998,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8952,
+      "min": 1169.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 65,
       "sum": 181001.55999999997,
@@ -8126,17 +8168,6 @@
       "min": 414,
       "max": 6500
     },
-    "Used": {
-      "count": 15,
-      "sum": 142033.96,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 9469,
-      "min": 1169.99,
-      "max": 99000
-    },
     "B-Stock": {
       "count": 1,
       "sum": 1039,
@@ -8163,8 +8194,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3436,
-      "count": 114
+      "avg": 3416,
+      "count": 115
     },
     "03": {
       "name": "Mar",
@@ -8293,13 +8324,6 @@
       "date": "2026-04-01T22:44:47.805Z"
     },
     {
-      "title": "Patrick James Eggle Macon Special  2025 - Flame top - Mojo tone",
-      "url": "https://reverb.com/item/95518332-patrick-james-eggle-macon-special-2025-flame-top-mojo-tone",
-      "oldPrice": "$2,799",
-      "newPrice": "$2,659",
-      "date": "2026-04-03T07:37:59.231Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -8312,12 +8336,19 @@
       "oldPrice": "$1,204.41",
       "newPrice": "$1,201.80",
       "date": "2026-03-27T23:42:48.757Z"
+    },
+    {
+      "title": "Fractal Audio AX8",
+      "url": "https://reverb.com/item/94215529-fractal-audio-ax8",
+      "oldPrice": "$672.36",
+      "newPrice": "$668.31",
+      "date": "2026-03-27T23:42:55.870Z"
     }
   ],
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 60,
+    "1k-2k": 61,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 21,
@@ -8326,13 +8357,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 60,
+    "1k-2k": 61,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 95,
+      "count": 17,
+      "avg": 6
+    },
     "Gibson": {
       "sum": 155,
       "count": 22,
@@ -8357,11 +8393,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "Fender": {
-      "sum": 95,
-      "count": 16,
-      "avg": 6
     },
     "Yamaha": {
       "sum": 82,
@@ -8578,11 +8609,6 @@
       "count": 1,
       "avg": 7
     },
-    "Patrick James Eggle": {
-      "sum": 15,
-      "count": 2,
-      "avg": 8
-    },
     "Languedoc": {
       "sum": 7,
       "count": 1,
@@ -8633,6 +8659,11 @@
       "count": 1,
       "avg": 8
     },
+    "Patrick James Eggle": {
+      "sum": 15,
+      "count": 2,
+      "avg": 8
+    },
     "Diamond": {
       "sum": 8,
       "count": 1,
@@ -8669,9 +8700,9 @@
       "avg": 7
     },
     "Powers Electric": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "Flaxwood": {
       "sum": 7,
@@ -8680,7 +8711,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-04": 21,
+    "2026-04-04": 22,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
@@ -8692,10 +8723,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 221,
-    "marketplace": 28
+    "marketplace": 29,
+    "reverb": 221
   },
-  "activeModelsCount": 211,
+  "activeModelsCount": 212,
   "topPosters": [
     {
       "username": "GP",
@@ -8711,7 +8742,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 22
+      "count": 23
     },
     {
       "username": "YellowJack6",
@@ -8740,17 +8771,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3436,
+    "avg": 3416,
     "pctBelowAvg": 16,
-    "count": 114
+    "count": 115
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 7928,
+      "avgPrice": 7574,
       "retailEst": 800,
-      "avgDiscount": -891,
-      "count": 18
+      "avgDiscount": -846.7,
+      "count": 19
     },
     "Gibson": {
       "avgPrice": 3479,
@@ -9655,11 +9686,6 @@
         "count": 2,
         "avgPctDrop": 25
       },
-      "Patrick James Eggle": {
-        "totalPctDrop": 16.90625,
-        "count": 1,
-        "avgPctDrop": 16.9
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -9684,19 +9710,32 @@
         "totalPctDrop": 14.955239599789364,
         "count": 1,
         "avgPctDrop": 15
+      },
+      "Patrick James Eggle": {
+        "totalPctDrop": 16.90625,
+        "count": 1,
+        "avgPctDrop": 16.9
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 235,
+      "total": 236,
       "sold": 71,
       "fake": 0,
-      "live": 164,
+      "live": 165,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
+      "Fender": {
+        "total": 20,
+        "sold": 5,
+        "fake": 0,
+        "live": 15,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "Gibson": {
         "total": 26,
         "sold": 7,
@@ -9744,14 +9783,6 @@
         "live": 14,
         "soldPct": 13,
         "livePct": 88
-      },
-      "Fender": {
-        "total": 19,
-        "sold": 5,
-        "fake": 0,
-        "live": 14,
-        "soldPct": 26,
-        "livePct": 74
       },
       "Yamaha": {
         "total": 4,
@@ -10113,14 +10144,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Patrick James Eggle": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -10200,6 +10223,14 @@
         "live": 0,
         "soldPct": 100,
         "livePct": 0
+      },
+      "Patrick James Eggle": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
       },
       "Diamond": {
         "total": 1,
@@ -10300,13 +10331,13 @@
     },
     {
       "label": "6–15",
-      "total": 37,
+      "total": 38,
       "sold": 12,
       "rate": 32
     },
     {
       "label": "16–30",
-      "total": 59,
+      "total": 58,
       "sold": 17,
       "rate": 29
     },
