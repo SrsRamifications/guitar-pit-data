@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-05T22:00:33.925Z",
-  "totalLinks": 271,
-  "totalWithPrice": 266,
+  "generatedAt": "2026-04-05T22:05:23.492Z",
+  "totalLinks": 272,
+  "totalWithPrice": 267,
   "overall": {
-    "count": 266,
-    "sum": 1063746.2,
-    "avg": 3999,
+    "count": 267,
+    "sum": 1064195.2,
+    "avg": 3986,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 253,
-    "sum": 693572.21,
-    "avg": 2741,
+    "count": 254,
+    "sum": 694021.21,
+    "avg": 2732,
     "min": 26,
     "max": 8000,
-    "median": 2425
+    "median": 2413
   },
   "outliers": {
     "thresholdHigh": 8500,
@@ -129,11 +129,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 136,
-      "sum": 455721.84,
+      "count": 137,
+      "sum": 456170.84,
       "min": 26,
       "max": 49000,
-      "avg": 3351
+      "avg": 3330
     },
     "2026-03": {
       "count": 130,
@@ -145,11 +145,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 238,
-      "sum": 813486.31,
+      "count": 239,
+      "sum": 813935.31,
       "min": 26,
       "max": 49000,
-      "avg": 3418
+      "avg": 3406
     },
     "marketplace": {
       "count": 28,
@@ -161,11 +161,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 238,
-      "sum": 813486.31,
+      "count": 239,
+      "sum": 813935.31,
       "min": 26,
       "max": 49000,
-      "avg": 3418
+      "avg": 3406
     },
     "guitarcenter.com": {
       "count": 10,
@@ -225,6 +225,37 @@
     }
   },
   "byModel": {
+    "hollow-lh": {
+      "displayName": "The Loar LH-301T-VS Hollow Body Electric Guitar",
+      "brand": null,
+      "model": "Hollow",
+      "variant": "Lh",
+      "count": 1,
+      "sum": 449,
+      "min": 449,
+      "max": 449,
+      "sightings": [
+        {
+          "price": 449,
+          "date": "2026-04-05T22:05:09.051Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "The Loar LH-301T-VS Hollow Body Electric Guitar",
+          "url": "https://reverb.com/item/95605808-the-loar-lh-301t-vs-hollow-body-electric-guitar",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 449,
+          "min": 449,
+          "max": 449,
+          "avg": 449
+        }
+      },
+      "avg": 449
+    },
     "bc-rich-series-warlock-yellow": {
       "displayName": "Vintage 1989 B.C. Rich U SERIES WARLOCK Vintage Yellow Solid Body Electric Guitar Vintage Yellow",
       "brand": "BC Rich",
@@ -5913,52 +5944,6 @@
       },
       "avg": 5000
     },
-    "music-man-luke-usa-hh": {
-      "displayName": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
-      "brand": "Music Man",
-      "model": "Luke",
-      "variant": "Usa Hh",
-      "count": 1,
-      "sum": 2100,
-      "min": 2100,
-      "max": 2100,
-      "sightings": [
-        {
-          "price": 2100,
-          "date": "2026-03-30T03:10:42.446Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
-          "url": "https://reverb.com/item/95534443-music-man-usa-steve-lukather-luke-4-hh-maple-top-2023-blue-dream-l4",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2100,
-          "min": 2100,
-          "max": 2100,
-          "avg": 2100
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2100,
-        "min": 2100,
-        "max": 2100,
-        "prices": [
-          {
-            "price": 2100,
-            "askingPrice": 2100,
-            "date": "2026-03-30T08:47:14.130Z",
-            "title": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
-            "url": "https://reverb.com/item/95534443-music-man-usa-steve-lukather-luke-4-hh-maple-top-2023-blue-dream-l4"
-          }
-        ]
-      },
-      "avg": 2100
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8631,9 +8616,69 @@
         }
       },
       "avg": 1600
+    },
+    "music-man-luke-usa-hh": {
+      "displayName": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
+      "brand": "Music Man",
+      "model": "Luke",
+      "variant": "Usa Hh",
+      "count": 1,
+      "sum": 2100,
+      "min": 2100,
+      "max": 2100,
+      "sightings": [
+        {
+          "price": 2100,
+          "date": "2026-03-30T03:10:42.446Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
+          "url": "https://reverb.com/item/95534443-music-man-usa-steve-lukather-luke-4-hh-maple-top-2023-blue-dream-l4",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2100,
+          "min": 2100,
+          "max": 2100,
+          "avg": 2100
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2100,
+        "min": 2100,
+        "max": 2100,
+        "prices": [
+          {
+            "price": 2100,
+            "askingPrice": 2100,
+            "date": "2026-03-30T08:47:14.130Z",
+            "title": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
+            "url": "https://reverb.com/item/95534443-music-man-usa-steve-lukather-luke-4-hh-maple-top-2023-blue-dream-l4"
+          }
+        ]
+      },
+      "avg": 2100
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 70,
+      "sum": 195479.55999999997,
+      "sold": {
+        "count": 19,
+        "sum": 42683.78,
+        "avg": 2247,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2793,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 105,
       "sum": 407742.68,
@@ -8672,20 +8717,6 @@
       "avg": 7427,
       "min": 1109.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 69,
-      "sum": 195030.55999999997,
-      "sold": {
-        "count": 19,
-        "sum": 42683.78,
-        "avg": 2247,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2827,
-      "min": 33,
-      "max": 16500
     },
     "Fair": {
       "count": 7,
@@ -8755,8 +8786,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3351,
-      "count": 136
+      "avg": 3330,
+      "count": 137
     },
     "03": {
       "name": "Mar",
@@ -8907,7 +8938,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 9,
+    "0-500": 10,
     "500-1k": 16,
     "1k-2k": 68,
     "2k-3k": 71,
@@ -8916,7 +8947,7 @@
     "10k+": 9
   },
   "priceDistributionFiltered": {
-    "0-500": 9,
+    "0-500": 10,
     "500-1k": 16,
     "1k-2k": 68,
     "2k-3k": 71,
@@ -9277,7 +9308,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 20,
+    "2026-04-05": 21,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -9290,10 +9321,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 238,
+    "reverb": 239,
     "marketplace": 33
   },
-  "activeModelsCount": 229,
+  "activeModelsCount": 230,
   "topPosters": [
     {
       "username": "GP",
@@ -9301,7 +9332,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 48
+      "count": 49
     },
     {
       "username": "WontonGG",
@@ -9338,9 +9369,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3351,
+    "avg": 3330,
     "pctBelowAvg": 16,
-    "count": 136
+    "count": 137
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9741,14 +9772,6 @@
         "slowest": 0.9,
         "avgDays": 0.9
       },
-      "music-man-luke-usa-hh": {
-        "displayName": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
-        "totalDays": 0.3,
-        "count": 1,
-        "fastest": 0.3,
-        "slowest": 0.3,
-        "avgDays": 0.3
-      },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
         "totalDays": 0.7,
@@ -9900,6 +9923,14 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
+      },
+      "music-man-luke-usa-hh": {
+        "displayName": "Music Man USA Steve Lukather  Luke 4 HH Maple Top 2023 - Blue Dream L4",
+        "totalDays": 0.3,
+        "count": 1,
+        "fastest": 0.3,
+        "slowest": 0.3,
+        "avgDays": 0.3
       }
     },
     "byBrand": {
@@ -10910,9 +10941,9 @@
     },
     {
       "label": "6–15",
-      "total": 45,
+      "total": 46,
       "sold": 13,
-      "rate": 29
+      "rate": 28
     },
     {
       "label": "16–30",
@@ -10934,14 +10965,14 @@
       "rate": 30
     },
     "off": {
-      "total": 51,
+      "total": 52,
       "sold": 17,
       "rate": 33
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 90,
+      "total": 91,
       "sold": 19,
       "rate": 21
     },
@@ -10995,6 +11026,12 @@
       "rate": 29
     },
     {
+      "state": "MD",
+      "total": 5,
+      "sold": 2,
+      "rate": 40
+    },
+    {
       "state": "NC",
       "total": 5,
       "sold": 2,
@@ -11023,12 +11060,6 @@
       "total": 4,
       "sold": 1,
       "rate": 25
-    },
-    {
-      "state": "MD",
-      "total": 4,
-      "sold": 2,
-      "rate": 50
     },
     {
       "state": "TN",
