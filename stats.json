@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-05T04:19:50.564Z",
-  "totalLinks": 255,
-  "totalWithPrice": 250,
+  "generatedAt": "2026-04-05T06:09:27.637Z",
+  "totalLinks": 256,
+  "totalWithPrice": 251,
   "overall": {
-    "count": 250,
-    "sum": 1010425.21,
-    "avg": 4042,
+    "count": 251,
+    "sum": 1011624.21,
+    "avg": 4030,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 238,
-    "sum": 649950.22,
-    "avg": 2731,
+    "count": 239,
+    "sum": 651149.22,
+    "avg": 2724,
     "min": 26,
     "max": 8000,
-    "median": 2438
+    "median": 2425
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 120,
-      "sum": 402400.85,
+      "count": 121,
+      "sum": 403599.85,
       "min": 26,
       "max": 49000,
-      "avg": 3353
+      "avg": 3336
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 223,
-      "sum": 761665.31,
+      "count": 224,
+      "sum": 762864.31,
       "min": 26,
       "max": 49000,
-      "avg": 3416
+      "avg": 3406
     },
     "marketplace": {
       "count": 27,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 223,
-      "sum": 761665.31,
+      "count": 224,
+      "sum": 762864.31,
       "min": 26,
       "max": 49000,
-      "avg": 3416
+      "avg": 3406
     },
     "guitarcenter.com": {
       "count": 9,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "kiesel-solo": {
+      "displayName": "Kiesel Solo - 7.61 LBS",
+      "brand": "Kiesel",
+      "model": "Solo",
+      "variant": null,
+      "count": 1,
+      "sum": 1199,
+      "min": 1199,
+      "max": 1199,
+      "sightings": [
+        {
+          "price": 1199,
+          "date": "2026-04-05T06:09:12.535Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Solo - 7.61 LBS",
+          "url": "https://reverb.com/item/92428670-kiesel-solo-7-61-lbs",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1199,
+          "min": 1199,
+          "max": 1199,
+          "avg": 1199
+        }
+      },
+      "avg": 1199
+    },
     "fano-alt-de-facto": {
       "displayName": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
       "brand": "Fano",
@@ -5834,37 +5865,6 @@
       },
       "avg": 4500
     },
-    "bc-rich-1980s-bc-rico": {
-      "displayName": "1980's B.C. Rich B.C. Rico RW-9C BC Rich BC Rico",
-      "brand": "BC Rich",
-      "model": "1980's B.C. Rico",
-      "variant": null,
-      "count": 1,
-      "sum": 1100,
-      "min": 1100,
-      "max": 1100,
-      "sightings": [
-        {
-          "price": 1100,
-          "date": "2026-03-29T11:52:26.086Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1980's B.C. Rich B.C. Rico RW-9C BC Rich BC Rico",
-          "url": "https://reverb.com/item/95521518-1980-s-b-c-rich-b-c-rico-rw-9c-bc-rich-bc-rico",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1100,
-          "min": 1100,
-          "max": 1100,
-          "avg": 1100
-        }
-      },
-      "avg": 1100
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8151,9 +8151,54 @@
         }
       },
       "avg": 1299
+    },
+    "bc-rich-1980s-bc-rico": {
+      "displayName": "1980's B.C. Rich B.C. Rico RW-9C BC Rich BC Rico",
+      "brand": "BC Rich",
+      "model": "1980's B.C. Rico",
+      "variant": null,
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-03-29T11:52:26.086Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1980's B.C. Rich B.C. Rico RW-9C BC Rich BC Rico",
+          "url": "https://reverb.com/item/95521518-1980-s-b-c-rich-b-c-rico-rw-9c-bc-rich-bc-rico",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 99,
+      "sum": 381603.68,
+      "sold": {
+        "count": 32,
+        "sum": 113925.4,
+        "avg": 3560,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3855,
+      "min": 26,
+      "max": 49000
+    },
     "Very Good": {
       "count": 66,
       "sum": 183201.55999999997,
@@ -8167,20 +8212,6 @@
       "avg": 2776,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 98,
-      "sum": 380404.68,
-      "sold": {
-        "count": 32,
-        "sum": 113925.4,
-        "avg": 3560,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3882,
-      "min": 26,
-      "max": 49000
     },
     "Used": {
       "count": 19,
@@ -8275,8 +8306,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3353,
-      "count": 120
+      "avg": 3336,
+      "count": 121
     },
     "03": {
       "name": "Mar",
@@ -8429,7 +8460,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 64,
+    "1k-2k": 65,
     "2k-3k": 70,
     "3k-5k": 64,
     "5k-10k": 21,
@@ -8438,7 +8469,7 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 64,
+    "1k-2k": 65,
     "2k-3k": 70,
     "3k-5k": 64,
     "5k-10k": 18,
@@ -8461,17 +8492,17 @@
       "avg": 0
     },
     "Mesa Boogie": {
-      "sum": 75,
+      "sum": 76,
       "count": 2,
       "avg": 38
     },
     "Fender": {
-      "sum": 97,
+      "sum": 100,
       "count": 17,
       "avg": 6
     },
     "Gibson": {
-      "sum": 157,
+      "sum": 162,
       "count": 22,
       "avg": 7
     },
@@ -8481,12 +8512,12 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 177,
+      "sum": 180,
       "count": 24,
-      "avg": 7
+      "avg": 8
     },
     "Collings": {
-      "sum": 29,
+      "sum": 30,
       "count": 3,
       "avg": 10
     },
@@ -8501,7 +8532,7 @@
       "avg": 27
     },
     "Kiesel": {
-      "sum": 111,
+      "sum": 112,
       "count": 9,
       "avg": 12
     },
@@ -8521,17 +8552,17 @@
       "avg": 6
     },
     "Kauer": {
-      "sum": 48,
+      "sum": 49,
       "count": 1,
-      "avg": 48
+      "avg": 49
     },
     "BC Rich": {
-      "sum": 97,
+      "sum": 99,
       "count": 15,
-      "avg": 6
+      "avg": 7
     },
     "Ibanez": {
-      "sum": 75,
+      "sum": 76,
       "count": 13,
       "avg": 6
     },
@@ -8591,7 +8622,7 @@
       "avg": 3
     },
     "ESP": {
-      "sum": 66,
+      "sum": 67,
       "count": 5,
       "avg": 13
     },
@@ -8631,7 +8662,7 @@
       "avg": 5
     },
     "Eastman": {
-      "sum": 9,
+      "sum": 10,
       "count": 2,
       "avg": 5
     },
@@ -8651,14 +8682,14 @@
       "avg": 5
     },
     "Novo": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Friedman": {
-      "sum": 10,
+      "sum": 11,
       "count": 2,
-      "avg": 5
+      "avg": 6
     },
     "Lollar": {
       "sum": 5,
@@ -8706,9 +8737,9 @@
       "avg": 8
     },
     "Fender Custom Shop": {
-      "sum": 16,
+      "sum": 17,
       "count": 2,
-      "avg": 8
+      "avg": 9
     },
     "Milkman": {
       "sum": 8,
@@ -8741,7 +8772,7 @@
       "avg": 8
     },
     "Patrick James Eggle": {
-      "sum": 15,
+      "sum": 16,
       "count": 2,
       "avg": 8
     },
@@ -8797,7 +8828,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 4,
+    "2026-04-05": 5,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -8810,10 +8841,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 223,
+    "reverb": 224,
     "marketplace": 32
   },
-  "activeModelsCount": 216,
+  "activeModelsCount": 217,
   "topPosters": [
     {
       "username": "GP",
@@ -8824,11 +8855,11 @@
       "count": 42
     },
     {
-      "username": "Shteefe",
-      "count": 24
+      "username": "WontonGG",
+      "count": 25
     },
     {
-      "username": "WontonGG",
+      "username": "Shteefe",
       "count": 24
     },
     {
@@ -8858,9 +8889,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3353,
+    "avg": 3336,
     "pctBelowAvg": 17,
-    "count": 120
+    "count": 121
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9634,11 +9665,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 767.5923629018566,
-      "count": 43,
-      "avgPctDrop": 17.9
+      "totalPctDrop": 781.8882885630431,
+      "count": 44,
+      "avgPctDrop": 17.8
     },
     "byBrand": {
+      "Kiesel": {
+        "totalPctDrop": 29.251165260975924,
+        "count": 2,
+        "avgPctDrop": 14.6
+      },
       "BC Rich": {
         "totalPctDrop": 120.53227991876909,
         "count": 3,
@@ -9754,11 +9790,6 @@
         "count": 2,
         "avgPctDrop": 31.3
       },
-      "Kiesel": {
-        "totalPctDrop": 14.955239599789364,
-        "count": 1,
-        "avgPctDrop": 15
-      },
       "Patrick James Eggle": {
         "totalPctDrop": 16.90625,
         "count": 1,
@@ -9768,14 +9799,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 241,
+      "total": 242,
       "sold": 68,
       "fake": 0,
-      "live": 173,
+      "live": 174,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 10,
+        "sold": 4,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 40,
+        "livePct": 60
+      },
       "Fano": {
         "total": 3,
         "sold": 0,
@@ -9871,14 +9910,6 @@
         "live": 3,
         "soldPct": 25,
         "livePct": 75
-      },
-      "Kiesel": {
-        "total": 9,
-        "sold": 4,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 44,
-        "livePct": 56
       },
       "Nash": {
         "total": 1,
@@ -10363,10 +10394,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 61,
-    "totalOffers": 119,
-    "avgOffersPerListing": 2,
-    "offersEnabledPct": 61
+    "withOffers": 62,
+    "totalOffers": 120,
+    "avgOffersPerListing": 1.9,
+    "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -10399,9 +10430,9 @@
     },
     {
       "label": "31+",
-      "total": 51,
+      "total": 52,
       "sold": 8,
-      "rate": 16
+      "rate": 15
     }
   ],
   "offersEffect": {
@@ -10411,14 +10442,14 @@
       "rate": 30
     },
     "off": {
-      "total": 46,
+      "total": 47,
       "sold": 16,
-      "rate": 35
+      "rate": 34
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 83,
+      "total": 84,
       "sold": 17,
       "rate": 20
     },
@@ -10514,14 +10545,14 @@
       "rate": 25
     },
     {
-      "state": "IN",
+      "state": "NJ",
       "total": 3,
       "sold": 0,
       "rate": 0
     },
     {
-      "state": "NJ",
-      "total": 2,
+      "state": "IN",
+      "total": 3,
       "sold": 0,
       "rate": 0
     },
