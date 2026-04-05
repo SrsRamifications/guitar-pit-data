@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-05T06:12:53.052Z",
-  "totalLinks": 257,
-  "totalWithPrice": 252,
+  "generatedAt": "2026-04-05T07:22:33.662Z",
+  "totalLinks": 258,
+  "totalWithPrice": 253,
   "overall": {
-    "count": 252,
-    "sum": 1013324.21,
-    "avg": 4021,
+    "count": 253,
+    "sum": 1016999.21,
+    "avg": 4020,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 240,
-    "sum": 652849.22,
-    "avg": 2720,
+    "count": 241,
+    "sum": 656524.22,
+    "avg": 2724,
     "min": 26,
     "max": 8000,
-    "median": 2413
+    "median": 2425
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8350,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 122,
-      "sum": 405299.85,
+      "count": 123,
+      "sum": 408974.85,
       "min": 26,
       "max": 49000,
-      "avg": 3322
+      "avg": 3325
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 225,
-      "sum": 764564.31,
+      "count": 226,
+      "sum": 768239.31,
       "min": 26,
       "max": 49000,
-      "avg": 3398
+      "avg": 3399
     },
     "marketplace": {
       "count": 27,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 225,
-      "sum": 764564.31,
+      "count": 226,
+      "sum": 768239.31,
       "min": 26,
       "max": 49000,
-      "avg": 3398
+      "avg": 3399
     },
     "guitarcenter.com": {
       "count": 9,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "prs-modern": {
+      "displayName": "PRS Modern Eagle V • 2023 • Antique White",
+      "brand": "PRS",
+      "model": "Modern",
+      "variant": null,
+      "count": 1,
+      "sum": 3675,
+      "min": 3675,
+      "max": 3675,
+      "sightings": [
+        {
+          "price": 3675,
+          "date": "2026-04-05T07:22:19.049Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Modern Eagle V • 2023 • Antique White",
+          "url": "https://reverb.com/item/95013799-prs-modern-eagle-v-2023-antique-white",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3675,
+          "min": 3675,
+          "max": 3675,
+          "avg": 3675
+        }
+      },
+      "avg": 3675
+    },
     "kiesel-sh-6-clear-gloss": {
       "displayName": "Kiesel Sh-6 2019 - Clear gloss",
       "brand": "Kiesel",
@@ -1035,19 +1066,19 @@
           "max": 2600,
           "avg": 2600
         },
-        "Mint": {
-          "count": 1,
-          "sum": 1050,
-          "min": 1050,
-          "max": 1050,
-          "avg": 1050
-        },
         "Unknown": {
           "count": 1,
           "sum": 10495,
           "min": 10495,
           "max": 10495,
           "avg": 10495
+        },
+        "Mint": {
+          "count": 1,
+          "sum": 1050,
+          "min": 1050,
+          "max": 1050,
+          "avg": 1050
         }
       },
       "soldData": {
@@ -8216,6 +8247,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 100,
+      "sum": 385278.68,
+      "sold": {
+        "count": 32,
+        "sum": 113925.4,
+        "avg": 3560,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3853,
+      "min": 26,
+      "max": 49000
+    },
     "Very Good": {
       "count": 67,
       "sum": 184901.55999999997,
@@ -8229,20 +8274,6 @@
       "avg": 2760,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 99,
-      "sum": 381603.68,
-      "sold": {
-        "count": 32,
-        "sum": 113925.4,
-        "avg": 3560,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3855,
-      "min": 26,
-      "max": 49000
     },
     "Used": {
       "count": 19,
@@ -8337,8 +8368,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3322,
-      "count": 122
+      "avg": 3325,
+      "count": 123
     },
     "03": {
       "name": "Mar",
@@ -8493,7 +8524,7 @@
     "500-1k": 14,
     "1k-2k": 66,
     "2k-3k": 70,
-    "3k-5k": 64,
+    "3k-5k": 65,
     "5k-10k": 21,
     "10k+": 9
   },
@@ -8502,11 +8533,16 @@
     "500-1k": 14,
     "1k-2k": 66,
     "2k-3k": 70,
-    "3k-5k": 64,
+    "3k-5k": 65,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 207,
+      "count": 25,
+      "avg": 8
+    },
     "Kiesel": {
       "sum": 145,
       "count": 10,
@@ -8533,7 +8569,7 @@
       "avg": 38
     },
     "Fender": {
-      "sum": 100,
+      "sum": 101,
       "count": 17,
       "avg": 6
     },
@@ -8547,13 +8583,8 @@
       "count": 1,
       "avg": 0
     },
-    "PRS": {
-      "sum": 180,
-      "count": 24,
-      "avg": 8
-    },
     "Collings": {
-      "sum": 30,
+      "sum": 31,
       "count": 3,
       "avg": 10
     },
@@ -8593,7 +8624,7 @@
       "avg": 7
     },
     "Ibanez": {
-      "sum": 76,
+      "sum": 77,
       "count": 13,
       "avg": 6
     },
@@ -8623,9 +8654,9 @@
       "avg": 3
     },
     "Schecter": {
-      "sum": 12,
+      "sum": 14,
       "count": 3,
-      "avg": 4
+      "avg": 5
     },
     "Castedosa": {
       "sum": 2,
@@ -8633,7 +8664,7 @@
       "avg": 2
     },
     "Anderson": {
-      "sum": 9,
+      "sum": 10,
       "count": 2,
       "avg": 5
     },
@@ -8673,9 +8704,9 @@
       "avg": 3
     },
     "Dean": {
-      "sum": 6,
+      "sum": 7,
       "count": 2,
-      "avg": 3
+      "avg": 4
     },
     "Washburn": {
       "sum": 3,
@@ -8743,9 +8774,9 @@
       "avg": 8
     },
     "Mayones": {
-      "sum": 6,
+      "sum": 7,
       "count": 1,
-      "avg": 6
+      "avg": 7
     },
     "Echopark": {
       "sum": 23,
@@ -8798,9 +8829,9 @@
       "avg": 8
     },
     "Parker": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Patrick James Eggle": {
       "sum": 16,
@@ -8833,14 +8864,14 @@
       "avg": 9
     },
     "Luxxtone": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "Dunable": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "Powers Electric": {
       "sum": 8,
@@ -8859,7 +8890,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 6,
+    "2026-04-05": 7,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -8872,10 +8903,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 225,
+    "reverb": 226,
     "marketplace": 32
   },
-  "activeModelsCount": 218,
+  "activeModelsCount": 219,
   "topPosters": [
     {
       "username": "GP",
@@ -8887,7 +8918,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 26
+      "count": 27
     },
     {
       "username": "Shteefe",
@@ -8920,9 +8951,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3322,
+    "avg": 3325,
     "pctBelowAvg": 17,
-    "count": 122
+    "count": 123
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -8939,10 +8970,10 @@
       "count": 24
     },
     "PRS": {
-      "avgPrice": 2998,
+      "avgPrice": 3023,
       "retailEst": 1000,
-      "avgDiscount": -199.8,
-      "count": 26
+      "avgDiscount": -202.3,
+      "count": 27
     },
     "Ibanez": {
       "avgPrice": 2800,
@@ -9696,11 +9727,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 807.9752450847823,
-      "count": 45,
-      "avgPctDrop": 18
+      "totalPctDrop": 814.937270401238,
+      "count": 46,
+      "avgPctDrop": 17.7
     },
     "byBrand": {
+      "PRS": {
+        "totalPctDrop": 46.470953887884264,
+        "count": 3,
+        "avgPctDrop": 15.5
+      },
       "Kiesel": {
         "totalPctDrop": 55.338121782715056,
         "count": 3,
@@ -9750,11 +9786,6 @@
         "totalPctDrop": 11.145510835913312,
         "count": 2,
         "avgPctDrop": 5.6
-      },
-      "PRS": {
-        "totalPctDrop": 39.50892857142857,
-        "count": 2,
-        "avgPctDrop": 19.8
       },
       "Music Man": {
         "totalPctDrop": 10.002632271650434,
@@ -9830,14 +9861,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 243,
+      "total": 244,
       "sold": 68,
       "fake": 0,
-      "live": 175,
+      "live": 176,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "PRS": {
+        "total": 27,
+        "sold": 11,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 41,
+        "livePct": 59
+      },
       "Kiesel": {
         "total": 11,
         "sold": 4,
@@ -9901,14 +9940,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 26,
-        "sold": 11,
-        "fake": 0,
-        "live": 15,
-        "soldPct": 42,
-        "livePct": 58
       },
       "Collings": {
         "total": 3,
@@ -10425,10 +10456,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 63,
-    "totalOffers": 122,
-    "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 60
+    "withOffers": 64,
+    "totalOffers": 125,
+    "avgOffersPerListing": 2,
+    "offersEnabledPct": 61
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -10455,9 +10486,9 @@
     },
     {
       "label": "16–30",
-      "total": 61,
+      "total": 62,
       "sold": 18,
-      "rate": 30
+      "rate": 29
     },
     {
       "label": "31+",
@@ -10468,7 +10499,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 136,
+      "total": 137,
       "sold": 40,
       "rate": 29
     },
@@ -10485,9 +10516,9 @@
       "rate": 20
     },
     "regular": {
-      "total": 83,
+      "total": 84,
       "sold": 27,
-      "rate": 33
+      "rate": 32
     }
   },
   "geoSellThrough": [
@@ -10576,6 +10607,12 @@
       "rate": 25
     },
     {
+      "state": "RI",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
+    },
+    {
       "state": "NJ",
       "total": 3,
       "sold": 0,
@@ -10637,12 +10674,6 @@
     },
     {
       "state": "MT",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
-    },
-    {
-      "state": "RI",
       "total": 2,
       "sold": 1,
       "rate": 50
