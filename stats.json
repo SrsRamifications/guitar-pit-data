@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-05T00:24:49.984Z",
-  "totalLinks": 253,
-  "totalWithPrice": 248,
+  "generatedAt": "2026-04-05T00:38:29.253Z",
+  "totalLinks": 254,
+  "totalWithPrice": 249,
   "overall": {
-    "count": 248,
-    "sum": 1004676.21,
-    "avg": 4051,
+    "count": 249,
+    "sum": 1008175.21,
+    "avg": 4049,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 236,
-    "sum": 644201.22,
-    "avg": 2730,
+    "count": 237,
+    "sum": 647700.22,
+    "avg": 2733,
     "min": 26,
     "max": 8000,
-    "median": 2438
+    "median": 2450
   },
   "outliers": {
-    "thresholdHigh": 8500,
+    "thresholdHigh": 8485,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 118,
-      "sum": 396651.85,
+      "count": 119,
+      "sum": 400150.85,
       "min": 26,
       "max": 49000,
-      "avg": 3361
+      "avg": 3363
     },
     "2026-03": {
       "count": 130,
@@ -136,35 +136,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 222,
+      "sum": 759415.31,
+      "min": 26,
+      "max": 49000,
+      "avg": 3421
+    },
     "marketplace": {
       "count": 27,
       "sum": 248759.9,
       "min": 899.98,
       "max": 99000,
       "avg": 9213
-    },
-    "reverb": {
-      "count": 221,
-      "sum": 755916.31,
-      "min": 26,
-      "max": 49000,
-      "avg": 3420
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 222,
+      "sum": 759415.31,
+      "min": 26,
+      "max": 49000,
+      "avg": 3421
+    },
     "guitarcenter.com": {
       "count": 9,
       "sum": 17378.92,
       "min": 1109.99,
       "max": 4999.99,
       "avg": 1931
-    },
-    "reverb.com": {
-      "count": 221,
-      "sum": 755916.31,
-      "min": 26,
-      "max": 49000,
-      "avg": 3420
     },
     "chicagomusicexchange.com": {
       "count": 12,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "knaggs-kenai-semi-hollow": {
+      "displayName": "Knaggs Kenai T HB Semi-Hollow Creme 2025 w/ OHSC - Bare Knuckle Mules, 7lb 5oz",
+      "brand": "Knaggs",
+      "model": "Kenai",
+      "variant": "Semi-hollow",
+      "count": 1,
+      "sum": 3499,
+      "min": 3499,
+      "max": 3499,
+      "sightings": [
+        {
+          "price": 3499,
+          "date": "2026-04-05T00:38:15.108Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Knaggs Kenai T HB Semi-Hollow Creme 2025 w/ OHSC - Bare Knuckle Mules, 7lb 5oz",
+          "url": "https://reverb.com/item/95576519-knaggs-kenai-t-hb-semi-hollow-creme-2025-w-ohsc-bare-knuckle-mules-7lb-5oz",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3499,
+          "min": 3499,
+          "max": 3499,
+          "avg": 3499
+        }
+      },
+      "avg": 3499
+    },
     "marshall-jvm410h-100w-tube": {
       "displayName": "Used Marshall JVM410H 100W Tube Guitar Amp Head Tube Guitar Amp Head",
       "brand": "Marshall",
@@ -5848,54 +5879,6 @@
       },
       "avg": 1299
     },
-    "bc-rich-mockingbird-metallic-refin": {
-      "displayName": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
-      "brand": "BC Rich",
-      "model": "Mockingbird Metallic Refin",
-      "variant": null,
-      "count": 2,
-      "sum": 4720,
-      "min": 2295,
-      "max": 2425,
-      "sightings": [
-        {
-          "price": 2295,
-          "date": "2026-03-28T15:23:54.504Z",
-          "year": null,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
-          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/bc-rich-mockingbird-metallic-blue-refin-1980s-2519934",
-          "condition": "Used"
-        },
-        {
-          "price": 2425,
-          "date": "2026-03-29T04:10:24.192Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
-          "url": "https://reverb.com/item/95491077-b-c-rich-mockingbird-metallic-blue-refin-1980s",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 2425,
-          "min": 2425,
-          "max": 2425,
-          "avg": 2425
-        },
-        "Used": {
-          "count": 1,
-          "sum": 2295,
-          "min": 2295,
-          "max": 2295,
-          "avg": 2295
-        }
-      },
-      "avg": 2360
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -5966,6 +5949,54 @@
         }
       },
       "avg": 2500
+    },
+    "bc-rich-mockingbird-metallic-refin": {
+      "displayName": "BC Rich Mockingbird Metallic Refin",
+      "brand": "BC Rich",
+      "model": "Mockingbird Metallic Refin",
+      "variant": null,
+      "count": 2,
+      "sum": 4720,
+      "min": 2295,
+      "max": 2425,
+      "sightings": [
+        {
+          "price": 2295,
+          "date": "2026-03-28T15:23:54.504Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/bc-rich-mockingbird-metallic-blue-refin-1980s-2519934",
+          "condition": "Used"
+        },
+        {
+          "price": 2425,
+          "date": "2026-03-29T04:10:24.192Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Mockingbird Metallic Blue Refin 1980s",
+          "url": "https://reverb.com/item/95491077-b-c-rich-mockingbird-metallic-blue-refin-1980s",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2295,
+          "min": 2295,
+          "max": 2295,
+          "avg": 2295
+        },
+        "Good": {
+          "count": 1,
+          "sum": 2425,
+          "min": 2425,
+          "max": 2425,
+          "avg": 2425
+        }
+      },
+      "avg": 2360
     },
     "languedoc-g2-zac-brown": {
       "displayName": "Languedoc G2 Zac Brown",
@@ -8106,6 +8137,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 98,
+      "sum": 380404.68,
+      "sold": {
+        "count": 31,
+        "sum": 112330.4,
+        "avg": 3624,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3882,
+      "min": 26,
+      "max": 49000
+    },
     "Used": {
       "count": 19,
       "sum": 147043.91999999998,
@@ -8130,20 +8175,6 @@
       "avg": 2784,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 97,
-      "sum": 376905.68,
-      "sold": {
-        "count": 31,
-        "sum": 112330.4,
-        "avg": 3624,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3886,
-      "min": 26,
-      "max": 49000
     },
     "Brand New": {
       "count": 18,
@@ -8227,8 +8258,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3361,
-      "count": 118
+      "avg": 3363,
+      "count": 119
     },
     "03": {
       "name": "Mar",
@@ -8383,7 +8414,7 @@
     "500-1k": 14,
     "1k-2k": 64,
     "2k-3k": 69,
-    "3k-5k": 63,
+    "3k-5k": 64,
     "5k-10k": 21,
     "10k+": 9
   },
@@ -8392,11 +8423,16 @@
     "500-1k": 14,
     "1k-2k": 64,
     "2k-3k": 69,
-    "3k-5k": 63,
+    "3k-5k": 64,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Knaggs": {
+      "sum": 48,
+      "count": 3,
+      "avg": 16
+    },
     "Marshall": {
       "sum": 0,
       "count": 2,
@@ -8423,7 +8459,7 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 171,
+      "sum": 172,
       "count": 24,
       "avg": 7
     },
@@ -8612,11 +8648,6 @@
       "count": 1,
       "avg": 20
     },
-    "Knaggs": {
-      "sum": 44,
-      "count": 2,
-      "avg": 22
-    },
     "Fano": {
       "sum": 11,
       "count": 2,
@@ -8749,7 +8780,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 2,
+    "2026-04-05": 3,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -8762,10 +8793,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "marketplace": 32,
-    "reverb": 221
+    "reverb": 222,
+    "marketplace": 32
   },
-  "activeModelsCount": 215,
+  "activeModelsCount": 216,
   "topPosters": [
     {
       "username": "GP",
@@ -8773,7 +8804,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 41
+      "count": 42
     },
     {
       "username": "Shteefe",
@@ -8810,9 +8841,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3361,
+    "avg": 3363,
     "pctBelowAvg": 17,
-    "count": 118
+    "count": 119
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9720,14 +9751,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 239,
+      "total": 240,
       "sold": 67,
       "fake": 0,
-      "live": 172,
+      "live": 173,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Knaggs": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Marshall": {
         "total": 2,
         "sold": 0,
@@ -10088,14 +10127,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Knaggs": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Fano": {
         "total": 2,
         "sold": 0,
@@ -10339,9 +10370,9 @@
     },
     {
       "label": "6–15",
-      "total": 36,
+      "total": 37,
       "sold": 12,
-      "rate": 33
+      "rate": 32
     },
     {
       "label": "16–30",
@@ -10358,9 +10389,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 133,
+      "total": 134,
       "sold": 38,
-      "rate": 29
+      "rate": 28
     },
     "off": {
       "total": 46,
@@ -10370,9 +10401,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 81,
+      "total": 82,
       "sold": 15,
-      "rate": 19
+      "rate": 18
     },
     "regular": {
       "total": 82,
@@ -10430,6 +10461,12 @@
       "rate": 40
     },
     {
+      "state": "MA",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "MI",
       "total": 4,
       "sold": 1,
@@ -10464,12 +10501,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "MA",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "NJ",
