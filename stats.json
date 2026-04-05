@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-05T22:28:13.048Z",
-  "totalLinks": 273,
-  "totalWithPrice": 268,
+  "generatedAt": "2026-04-05T23:14:56.265Z",
+  "totalLinks": 274,
+  "totalWithPrice": 269,
   "overall": {
-    "count": 268,
-    "sum": 1064265.2,
-    "avg": 3971,
+    "count": 269,
+    "sum": 1065514.2,
+    "avg": 3961,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 255,
-    "sum": 694091.21,
-    "avg": 2722,
+    "count": 256,
+    "sum": 695340.21,
+    "avg": 2716,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8500,
+    "thresholdHigh": 8495,
     "thresholdLow": 0,
     "count": 13,
     "items": [
@@ -129,11 +129,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 138,
-      "sum": 456240.84,
+      "count": 139,
+      "sum": 457489.84,
       "min": 26,
       "max": 49000,
-      "avg": 3306
+      "avg": 3291
     },
     "2026-03": {
       "count": 130,
@@ -145,11 +145,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 240,
-      "sum": 814005.31,
+      "count": 241,
+      "sum": 815254.31,
       "min": 26,
       "max": 49000,
-      "avg": 3392
+      "avg": 3383
     },
     "marketplace": {
       "count": 28,
@@ -161,11 +161,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 240,
-      "sum": 814005.31,
+      "count": 241,
+      "sum": 815254.31,
       "min": 26,
       "max": 49000,
-      "avg": 3392
+      "avg": 3383
     },
     "guitarcenter.com": {
       "count": 10,
@@ -225,6 +225,37 @@
     }
   },
   "byModel": {
+    "gibson-sg": {
+      "displayName": "2019 Gibson SG - 6.85 LBS",
+      "brand": "Gibson",
+      "model": "SG",
+      "variant": null,
+      "count": 1,
+      "sum": 1249,
+      "min": 1249,
+      "max": 1249,
+      "sightings": [
+        {
+          "price": 1249,
+          "date": "2026-04-05T23:14:41.733Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2019 Gibson SG - 6.85 LBS",
+          "url": "https://reverb.com/item/94910738-2019-gibson-sg-6-85-lbs",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1249,
+          "min": 1249,
+          "max": 1249,
+          "avg": 1249
+        }
+      },
+      "avg": 1249
+    },
     "hollow-lh": {
       "displayName": "The Loar LH-301T-VS Hollow Body Electric Guitar",
       "brand": null,
@@ -8665,6 +8696,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 71,
+      "sum": 196728.55999999997,
+      "sold": {
+        "count": 19,
+        "sum": 42683.78,
+        "avg": 2247,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2771,
+      "min": 33,
+      "max": 16500
+    },
     "Brand New": {
       "count": 21,
       "sum": 90911.12,
@@ -8678,20 +8723,6 @@
       "avg": 4329,
       "min": 70,
       "max": 12280
-    },
-    "Very Good": {
-      "count": 70,
-      "sum": 195479.55999999997,
-      "sold": {
-        "count": 19,
-        "sum": 42683.78,
-        "avg": 2247,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2793,
-      "min": 33,
-      "max": 16500
     },
     "Excellent": {
       "count": 105,
@@ -8786,8 +8817,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3306,
-      "count": 138
+      "avg": 3291,
+      "count": 139
     },
     "03": {
       "name": "Mar",
@@ -8940,7 +8971,7 @@
   "priceDistribution": {
     "0-500": 11,
     "500-1k": 16,
-    "1k-2k": 68,
+    "1k-2k": 69,
     "2k-3k": 71,
     "3k-5k": 69,
     "5k-10k": 24,
@@ -8949,13 +8980,18 @@
   "priceDistributionFiltered": {
     "0-500": 11,
     "500-1k": 16,
-    "1k-2k": 68,
+    "1k-2k": 69,
     "2k-3k": 71,
     "3k-5k": 69,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 252,
+      "count": 24,
+      "avg": 11
+    },
     "BC Rich": {
       "sum": 106,
       "count": 16,
@@ -8985,11 +9021,6 @@
       "sum": 36,
       "count": 3,
       "avg": 12
-    },
-    "Gibson": {
-      "sum": 224,
-      "count": 23,
-      "avg": 10
     },
     "Framus": {
       "sum": 17,
@@ -9287,9 +9318,9 @@
       "avg": 8
     },
     "Powers Electric": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Flaxwood": {
       "sum": 8,
@@ -9308,7 +9339,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 22,
+    "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -9321,10 +9352,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 240,
+    "reverb": 241,
     "marketplace": 33
   },
-  "activeModelsCount": 230,
+  "activeModelsCount": 231,
   "topPosters": [
     {
       "username": "GP",
@@ -9359,19 +9390,19 @@
       "count": 6
     },
     {
-      "username": "jazee_",
+      "username": "侍",
       "count": 4
     },
     {
-      "username": "David Hume",
+      "username": "jazee_",
       "count": 4
     }
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3306,
+    "avg": 3291,
     "pctBelowAvg": 17,
-    "count": 138
+    "count": 139
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9382,10 +9413,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 3519,
+      "avgPrice": 3432,
       "retailEst": 800,
-      "avgDiscount": -339.9,
-      "count": 25
+      "avgDiscount": -329,
+      "count": 26
     },
     "PRS": {
       "avgPrice": 3023,
@@ -10183,11 +10214,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 890.243566220893,
-      "count": 50,
-      "avgPctDrop": 17.8
+      "totalPctDrop": 900.9655104667828,
+      "count": 51,
+      "avgPctDrop": 17.7
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 113.77394497365364,
+        "count": 7,
+        "avgPctDrop": 16.3
+      },
       "Music Man": {
         "totalPctDrop": 14.004232911906536,
         "count": 2,
@@ -10217,11 +10253,6 @@
         "totalPctDrop": 120.53227991876909,
         "count": 3,
         "avgPctDrop": 40.2
-      },
-      "Gibson": {
-        "totalPctDrop": 103.05200072776373,
-        "count": 6,
-        "avgPctDrop": 17.2
       },
       "Kauer": {
         "totalPctDrop": 7.8431372549019605,
@@ -10322,14 +10353,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 253,
+      "total": 254,
       "sold": 72,
       "fake": 0,
-      "live": 181,
+      "live": 182,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 28,
+        "sold": 6,
+        "fake": 0,
+        "live": 22,
+        "soldPct": 21,
+        "livePct": 79
+      },
       "BC Rich": {
         "total": 17,
         "sold": 1,
@@ -10377,14 +10416,6 @@
         "live": 3,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 27,
-        "sold": 6,
-        "fake": 0,
-        "live": 21,
-        "soldPct": 22,
-        "livePct": 78
       },
       "Framus": {
         "total": 2,
@@ -10920,7 +10951,7 @@
     "withOffers": 69,
     "totalOffers": 134,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 60
+    "offersEnabledPct": 61
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -10953,16 +10984,16 @@
     },
     {
       "label": "31+",
-      "total": 59,
+      "total": 60,
       "sold": 9,
       "rate": 15
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 145,
+      "total": 146,
       "sold": 43,
-      "rate": 30
+      "rate": 29
     },
     "off": {
       "total": 53,
@@ -10972,7 +11003,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 91,
+      "total": 92,
       "sold": 19,
       "rate": 21
     },
@@ -11026,6 +11057,12 @@
       "rate": 29
     },
     {
+      "state": "NJ",
+      "total": 5,
+      "sold": 1,
+      "rate": 20
+    },
+    {
       "state": "MI",
       "total": 5,
       "sold": 1,
@@ -11048,12 +11085,6 @@
       "total": 5,
       "sold": 2,
       "rate": 40
-    },
-    {
-      "state": "NJ",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
     },
     {
       "state": "MA",
