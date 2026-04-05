@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-05T20:19:58.797Z",
-  "totalLinks": 268,
-  "totalWithPrice": 263,
+  "generatedAt": "2026-04-05T21:00:44.735Z",
+  "totalLinks": 269,
+  "totalWithPrice": 264,
   "overall": {
-    "count": 263,
-    "sum": 1053821.21,
-    "avg": 4007,
+    "count": 264,
+    "sum": 1055321.2,
+    "avg": 3997,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 250,
-    "sum": 683647.22,
-    "avg": 2735,
+    "count": 251,
+    "sum": 685147.21,
+    "avg": 2730,
     "min": 26,
     "max": 8000,
-    "median": 2438
+    "median": 2425
   },
   "outliers": {
     "thresholdHigh": 8500,
@@ -129,11 +129,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 133,
-      "sum": 445796.85,
+      "count": 134,
+      "sum": 447296.84,
       "min": 26,
       "max": 49000,
-      "avg": 3352
+      "avg": 3338
     },
     "2026-03": {
       "count": 130,
@@ -144,35 +144,35 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 28,
+      "sum": 250259.89,
+      "min": 899.98,
+      "max": 99000,
+      "avg": 8938
+    },
     "reverb": {
       "count": 236,
       "sum": 805061.31,
       "min": 26,
       "max": 49000,
       "avg": 3411
-    },
-    "marketplace": {
-      "count": 27,
-      "sum": 248759.9,
-      "min": 899.98,
-      "max": 99000,
-      "avg": 9213
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 10,
+      "sum": 18878.91,
+      "min": 1109.99,
+      "max": 4999.99,
+      "avg": 1888
+    },
     "reverb.com": {
       "count": 236,
       "sum": 805061.31,
       "min": 26,
       "max": 49000,
       "avg": 3411
-    },
-    "guitarcenter.com": {
-      "count": 9,
-      "sum": 17378.92,
-      "min": 1109.99,
-      "max": 4999.99,
-      "avg": 1931
     },
     "chicagomusicexchange.com": {
       "count": 12,
@@ -225,6 +225,37 @@
     }
   },
   "byModel": {
+    "bc-rich-series-warlock-yellow": {
+      "displayName": "Vintage 1989 B.C. Rich U SERIES WARLOCK Vintage Yellow Solid Body Electric Guitar Vintage Yellow",
+      "brand": "BC Rich",
+      "model": "SERIES WARLOCK Yellow",
+      "variant": null,
+      "count": 1,
+      "sum": 1499.99,
+      "min": 1499.99,
+      "max": 1499.99,
+      "sightings": [
+        {
+          "price": 1499.99,
+          "date": "2026-04-05T21:00:29.060Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1989 B.C. Rich U SERIES WARLOCK Vintage Yellow Solid Body Electric Guitar Vintage Yellow",
+          "url": "https://www.guitarcenter.com/Used/BC-Rich/Vintage-Vintage-1989-BC-Rich-U-SERIES-WARLOCK-Vintage-Yellow-Solid-Body-Electric-Guitar.gc?algoliaQueryID=bb408b64f0b4ac72650bc9503c2587df&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1499.99,
+          "min": 1499.99,
+          "max": 1499.99,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "music-man-majesty": {
       "displayName": "Ernie Ball Music Man Majesty 6 Her Majesty's Request",
       "brand": "Music Man",
@@ -1088,6 +1119,21 @@
           "max": 1850,
           "avg": 1850
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1850,
+        "min": 1850,
+        "max": 1850,
+        "prices": [
+          {
+            "price": 1850,
+            "askingPrice": 1850,
+            "date": "2026-04-05T20:45:49.688Z",
+            "title": "1986 Kramer American Stagemaster Custom • Flip Flop White • JBJ • OHSC",
+            "url": "https://reverb.com/item/95692718-1986-kramer-american-stagemaster-custom-flip-flop-white-jbj-ohsc"
+          }
+        ]
       },
       "avg": 1850
     },
@@ -5960,37 +6006,6 @@
       },
       "avg": 2599
     },
-    "fender-stratocaster-custom-shop-signature": {
-      "displayName": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": "Custom Shop Signature",
-      "count": 1,
-      "sum": 3600,
-      "min": 3600,
-      "max": 3600,
-      "sightings": [
-        {
-          "price": 3600,
-          "date": "2026-03-30T00:05:02.836Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
-          "url": "https://reverb.com/item/95516404",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3600,
-          "min": 3600,
-          "max": 3600,
-          "avg": 3600
-        }
-      },
-      "avg": 3600
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8555,9 +8570,51 @@
         }
       },
       "avg": 2700
+    },
+    "fender-stratocaster-custom-shop-signature": {
+      "displayName": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": "Custom Shop Signature",
+      "count": 1,
+      "sum": 3600,
+      "min": 3600,
+      "max": 3600,
+      "sightings": [
+        {
+          "price": 3600,
+          "date": "2026-03-30T00:05:02.836Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
+          "url": "https://reverb.com/item/95516404",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3600,
+          "min": 3600,
+          "max": 3600,
+          "avg": 3600
+        }
+      },
+      "avg": 3600
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 20,
+      "sum": 148543.90999999997,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7427,
+      "min": 1109.99,
+      "max": 99000
+    },
     "Brand New": {
       "count": 19,
       "sum": 88916.12,
@@ -8590,9 +8647,9 @@
       "count": 104,
       "sum": 401242.68,
       "sold": {
-        "count": 32,
-        "sum": 113925.4,
-        "avg": 3560,
+        "count": 33,
+        "sum": 115775.4,
+        "avg": 3508,
         "min": 275,
         "max": 35900
       },
@@ -8627,17 +8684,6 @@
       "avg": 2306,
       "min": 414,
       "max": 6500
-    },
-    "Used": {
-      "count": 19,
-      "sum": 147043.91999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7739,
-      "min": 1109.99,
-      "max": 99000
     },
     "Mint": {
       "count": 7,
@@ -8679,8 +8725,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3352,
-      "count": 133
+      "avg": 3338,
+      "count": 134
     },
     "03": {
       "name": "Mar",
@@ -8795,20 +8841,6 @@
       "date": "2026-04-02T23:23:26.545Z"
     },
     {
-      "title": "Valiant Guitars Soothsayer 2023 - Burning Grey, Near Mint!",
-      "url": "https://reverb.com/item/94397834-valiant-guitars-soothsayer-2023-burning-grey-near-mint",
-      "oldPrice": "$1,795",
-      "newPrice": "$1,595",
-      "date": "2026-04-01T17:43:32.667Z"
-    },
-    {
-      "title": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
-      "url": "https://reverb.com/item/95516404",
-      "oldPrice": "$3,800",
-      "newPrice": "$3,600",
-      "date": "2026-04-04T03:37:48.990Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -8828,12 +8860,26 @@
       "oldPrice": "$672.36",
       "newPrice": "$668.31",
       "date": "2026-03-27T23:42:55.870Z"
+    },
+    {
+      "title": "Patrick James Eggle Macon Special  2025 - Flame top - Mojo tone",
+      "url": "https://reverb.com/item/95518332-patrick-james-eggle-macon-special-2025-flame-top-mojo-tone",
+      "oldPrice": "$2,799",
+      "newPrice": "$2,659",
+      "date": "2026-04-03T07:37:59.231Z"
+    },
+    {
+      "title": "1984 Guild X-88 With Case",
+      "url": "https://reverb.com/item/95519984-1984-guild-x-88-with-case",
+      "oldPrice": "$2,000",
+      "newPrice": "$1,700",
+      "date": "2026-04-01T22:44:47.805Z"
     }
   ],
   "priceDistribution": {
     "0-500": 9,
     "500-1k": 16,
-    "1k-2k": 66,
+    "1k-2k": 67,
     "2k-3k": 71,
     "3k-5k": 69,
     "5k-10k": 23,
@@ -8842,13 +8888,18 @@
   "priceDistributionFiltered": {
     "0-500": 9,
     "500-1k": 16,
-    "1k-2k": 66,
+    "1k-2k": 67,
     "2k-3k": 71,
     "3k-5k": 69,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 106,
+      "count": 16,
+      "avg": 7
+    },
     "Music Man": {
       "sum": 76,
       "count": 5,
@@ -8935,7 +8986,7 @@
       "avg": 1
     },
     "Yamaha": {
-      "sum": 83,
+      "sum": 85,
       "count": 3,
       "avg": 28
     },
@@ -8953,11 +9004,6 @@
       "sum": 49,
       "count": 1,
       "avg": 49
-    },
-    "BC Rich": {
-      "sum": 106,
-      "count": 15,
-      "avg": 7
     },
     "Gretsch": {
       "sum": 10,
@@ -9201,7 +9247,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 17,
+    "2026-04-05": 18,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -9214,10 +9260,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 236,
-    "marketplace": 32
+    "marketplace": 33,
+    "reverb": 236
   },
-  "activeModelsCount": 228,
+  "activeModelsCount": 229,
   "topPosters": [
     {
       "username": "GP",
@@ -9237,7 +9283,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 19
+      "count": 20
     },
     {
       "username": "Madero",
@@ -9262,9 +9308,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3352,
+    "avg": 3338,
     "pctBelowAvg": 16,
-    "count": 133
+    "count": 134
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9300,17 +9346,17 @@
     }
   },
   "soldPrices": {
-    "count": 71,
-    "avg": 3140,
+    "count": 72,
+    "avg": 3122,
     "min": 165,
     "max": 35900,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 508.9,
-      "count": 69,
-      "avgDays": 7.4
+      "totalDays": 509.9,
+      "count": 70,
+      "avgDays": 7.3
     },
     "byModel": {
       "prs-custom-24": {
@@ -9320,6 +9366,14 @@
         "fastest": 0.2,
         "slowest": 1,
         "avgDays": 0.6
+      },
+      "kramer-american-stagemaster-flip": {
+        "displayName": "1986 Kramer American Stagemaster Custom • Flip Flop White • JBJ • OHSC",
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
       },
       "gibson-les-paul-custom-shop-murphy-lab": {
         "displayName": "8.25lb! Gibson Custom Shop Murphy Lab Les Paul R7 '57 Reissue Ultra Light Aged Goldtop 2025",
@@ -9810,6 +9864,13 @@
         "slowest": 56,
         "avgDays": 5.6
       },
+      "Kramer": {
+        "totalDays": 1,
+        "count": 1,
+        "fastest": 1,
+        "slowest": 1,
+        "avgDays": 1
+      },
       "Gibson": {
         "totalDays": 9.8,
         "count": 6,
@@ -10177,14 +10238,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 252,
-      "sold": 69,
+      "total": 253,
+      "sold": 70,
       "fake": 0,
       "live": 183,
-      "soldPct": 27,
-      "livePct": 73
+      "soldPct": 28,
+      "livePct": 72
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 17,
+        "sold": 1,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 6,
+        "livePct": 94
+      },
       "Music Man": {
         "total": 8,
         "sold": 4,
@@ -10315,19 +10384,11 @@
       },
       "Kramer": {
         "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "BC Rich": {
-        "total": 16,
         "sold": 1,
         "fake": 0,
-        "live": 15,
-        "soldPct": 6,
-        "livePct": 94
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
       },
       "Yamaha": {
         "total": 4,
@@ -10803,8 +10864,8 @@
     {
       "label": "16–30",
       "total": 61,
-      "sold": 18,
-      "rate": 30
+      "sold": 19,
+      "rate": 31
     },
     {
       "label": "31+",
@@ -10821,8 +10882,8 @@
     },
     "off": {
       "total": 50,
-      "sold": 16,
-      "rate": 32
+      "sold": 17,
+      "rate": 34
     }
   },
   "sellerType": {
@@ -10833,8 +10894,8 @@
     },
     "regular": {
       "total": 89,
-      "sold": 28,
-      "rate": 31
+      "sold": 29,
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -10895,8 +10956,8 @@
     {
       "state": "NJ",
       "total": 4,
-      "sold": 0,
-      "rate": 0
+      "sold": 1,
+      "rate": 25
     },
     {
       "state": "MA",
