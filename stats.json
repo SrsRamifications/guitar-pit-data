@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-05T22:05:23.492Z",
-  "totalLinks": 272,
-  "totalWithPrice": 267,
+  "generatedAt": "2026-04-05T22:28:13.048Z",
+  "totalLinks": 273,
+  "totalWithPrice": 268,
   "overall": {
-    "count": 267,
-    "sum": 1064195.2,
-    "avg": 3986,
+    "count": 268,
+    "sum": 1064265.2,
+    "avg": 3971,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 254,
-    "sum": 694021.21,
-    "avg": 2732,
+    "count": 255,
+    "sum": 694091.21,
+    "avg": 2722,
     "min": 26,
     "max": 8000,
-    "median": 2413
+    "median": 2400
   },
   "outliers": {
     "thresholdHigh": 8500,
@@ -129,11 +129,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 137,
-      "sum": 456170.84,
+      "count": 138,
+      "sum": 456240.84,
       "min": 26,
       "max": 49000,
-      "avg": 3330
+      "avg": 3306
     },
     "2026-03": {
       "count": 130,
@@ -145,11 +145,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 239,
-      "sum": 813935.31,
+      "count": 240,
+      "sum": 814005.31,
       "min": 26,
       "max": 49000,
-      "avg": 3406
+      "avg": 3392
     },
     "marketplace": {
       "count": 28,
@@ -161,11 +161,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 239,
-      "sum": 813935.31,
+      "count": 240,
+      "sum": 814005.31,
       "min": 26,
       "max": 49000,
-      "avg": 3406
+      "avg": 3392
     },
     "guitarcenter.com": {
       "count": 10,
@@ -5913,37 +5913,6 @@
       },
       "avg": 135
     },
-    "bedell-dreadnought-brazillian-adirondack-limited-edition": {
-      "displayName": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Natural",
-      "brand": "Bedell",
-      "model": "Dreadnought Brazillian Adirondack",
-      "variant": "Limited Edition",
-      "count": 1,
-      "sum": 5000,
-      "min": 5000,
-      "max": 5000,
-      "sightings": [
-        {
-          "price": 5000,
-          "date": "2026-03-30T03:11:51.288Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Natural",
-          "url": "https://reverb.com/item/34347457-2020-bedell-limited-edition-dreadnought-brazillian-adirondack-natural",
-          "condition": "Mint"
-        }
-      ],
-      "byCondition": {
-        "Mint": {
-          "count": 1,
-          "sum": 5000,
-          "min": 5000,
-          "max": 5000,
-          "avg": 5000
-        }
-      },
-      "avg": 5000
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8662,9 +8631,54 @@
         ]
       },
       "avg": 2100
+    },
+    "bedell-dreadnought-brazillian-adirondack-limited-edition": {
+      "displayName": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Natural",
+      "brand": "Bedell",
+      "model": "Dreadnought Brazillian Adirondack",
+      "variant": "Limited Edition",
+      "count": 1,
+      "sum": 5000,
+      "min": 5000,
+      "max": 5000,
+      "sightings": [
+        {
+          "price": 5000,
+          "date": "2026-03-30T03:11:51.288Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Natural",
+          "url": "https://reverb.com/item/34347457-2020-bedell-limited-edition-dreadnought-brazillian-adirondack-natural",
+          "condition": "Mint"
+        }
+      ],
+      "byCondition": {
+        "Mint": {
+          "count": 1,
+          "sum": 5000,
+          "min": 5000,
+          "max": 5000,
+          "avg": 5000
+        }
+      },
+      "avg": 5000
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 21,
+      "sum": 90911.12,
+      "sold": {
+        "count": 2,
+        "sum": 9147.17,
+        "avg": 4574,
+        "min": 4548.17,
+        "max": 4599
+      },
+      "avg": 4329,
+      "min": 70,
+      "max": 12280
+    },
     "Very Good": {
       "count": 70,
       "sum": 195479.55999999997,
@@ -8692,20 +8706,6 @@
       "avg": 3883,
       "min": 26,
       "max": 49000
-    },
-    "Brand New": {
-      "count": 20,
-      "sum": 90841.12,
-      "sold": {
-        "count": 2,
-        "sum": 9147.17,
-        "avg": 4574,
-        "min": 4548.17,
-        "max": 4599
-      },
-      "avg": 4542,
-      "min": 135,
-      "max": 12280
     },
     "Used": {
       "count": 20,
@@ -8786,8 +8786,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3330,
-      "count": 137
+      "avg": 3306,
+      "count": 138
     },
     "03": {
       "name": "Mar",
@@ -8938,7 +8938,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 10,
+    "0-500": 11,
     "500-1k": 16,
     "1k-2k": 68,
     "2k-3k": 71,
@@ -8947,7 +8947,7 @@
     "10k+": 9
   },
   "priceDistributionFiltered": {
-    "0-500": 10,
+    "0-500": 11,
     "500-1k": 16,
     "1k-2k": 68,
     "2k-3k": 71,
@@ -9308,7 +9308,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 21,
+    "2026-04-05": 22,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -9321,7 +9321,7 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 239,
+    "reverb": 240,
     "marketplace": 33
   },
   "activeModelsCount": 230,
@@ -9369,9 +9369,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3330,
-    "pctBelowAvg": 16,
-    "count": 137
+    "avg": 3306,
+    "pctBelowAvg": 17,
+    "count": 138
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10183,7 +10183,7 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 890.2435662208928,
+      "totalPctDrop": 890.243566220893,
       "count": 50,
       "avgPctDrop": 17.8
     },
@@ -10288,11 +10288,6 @@
         "count": 1,
         "avgPctDrop": 5
       },
-      "Bedell": {
-        "totalPctDrop": 13.644214162348877,
-        "count": 1,
-        "avgPctDrop": 13.6
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -10317,6 +10312,11 @@
         "totalPctDrop": 16.90625,
         "count": 1,
         "avgPctDrop": 16.9
+      },
+      "Bedell": {
+        "totalPctDrop": 13.644214162348877,
+        "count": 1,
+        "avgPctDrop": 13.6
       }
     }
   },
@@ -10746,14 +10746,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Bedell": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -10913,6 +10905,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Bedell": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       }
     }
   },
@@ -10920,7 +10920,7 @@
     "withOffers": 69,
     "totalOffers": 134,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 61
+    "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -10953,9 +10953,9 @@
     },
     {
       "label": "31+",
-      "total": 58,
+      "total": 59,
       "sold": 9,
-      "rate": 16
+      "rate": 15
     }
   ],
   "offersEffect": {
@@ -10965,9 +10965,9 @@
       "rate": 30
     },
     "off": {
-      "total": 52,
+      "total": 53,
       "sold": 17,
-      "rate": 33
+      "rate": 32
     }
   },
   "sellerType": {
@@ -10977,7 +10977,7 @@
       "rate": 21
     },
     "regular": {
-      "total": 90,
+      "total": 91,
       "sold": 29,
       "rate": 32
     }
@@ -11026,6 +11026,12 @@
       "rate": 29
     },
     {
+      "state": "MI",
+      "total": 5,
+      "sold": 1,
+      "rate": 20
+    },
+    {
       "state": "MD",
       "total": 5,
       "sold": 2,
@@ -11051,12 +11057,6 @@
     },
     {
       "state": "MA",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
-    },
-    {
-      "state": "MI",
       "total": 4,
       "sold": 1,
       "rate": 25
