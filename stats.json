@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-05T21:38:23.661Z",
-  "totalLinks": 270,
-  "totalWithPrice": 265,
+  "generatedAt": "2026-04-05T22:00:33.925Z",
+  "totalLinks": 271,
+  "totalWithPrice": 266,
   "overall": {
-    "count": 265,
-    "sum": 1057246.2,
-    "avg": 3990,
+    "count": 266,
+    "sum": 1063746.2,
+    "avg": 3999,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 252,
-    "sum": 687072.21,
-    "avg": 2726,
+    "count": 253,
+    "sum": 693572.21,
+    "avg": 2741,
     "min": 26,
     "max": 8000,
-    "median": 2413
+    "median": 2425
   },
   "outliers": {
-    "thresholdHigh": 8485,
+    "thresholdHigh": 8500,
     "thresholdLow": 0,
     "count": 13,
     "items": [
@@ -129,11 +129,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 135,
-      "sum": 449221.84,
+      "count": 136,
+      "sum": 455721.84,
       "min": 26,
       "max": 49000,
-      "avg": 3328
+      "avg": 3351
     },
     "2026-03": {
       "count": 130,
@@ -145,11 +145,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 237,
-      "sum": 806986.31,
+      "count": 238,
+      "sum": 813486.31,
       "min": 26,
       "max": 49000,
-      "avg": 3405
+      "avg": 3418
     },
     "marketplace": {
       "count": 28,
@@ -161,11 +161,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 237,
-      "sum": 806986.31,
+      "count": 238,
+      "sum": 813486.31,
       "min": 26,
       "max": 49000,
-      "avg": 3405
+      "avg": 3418
     },
     "guitarcenter.com": {
       "count": 10,
@@ -401,6 +401,21 @@
           "max": 3150,
           "avg": 3150
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 3150,
+        "min": 3150,
+        "max": 3150,
+        "prices": [
+          {
+            "price": 3150,
+            "askingPrice": 3150,
+            "date": "2026-04-05T21:45:20.076Z",
+            "title": "Novo Serus J Custom",
+            "url": "https://reverb.com/item/95704965"
+          }
+        ]
       },
       "avg": 3150
     },
@@ -5944,37 +5959,6 @@
       },
       "avg": 2100
     },
-    "gibson-heritage": {
-      "displayName": "Gibson Heritage acoustic",
-      "brand": "Gibson",
-      "model": "Heritage",
-      "variant": null,
-      "count": 1,
-      "sum": 1600,
-      "min": 1600,
-      "max": 1600,
-      "sightings": [
-        {
-          "price": 1600,
-          "date": "2026-03-30T03:04:03.109Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Heritage acoustic",
-          "url": "https://reverb.com/item/95141529-gibson-heritage-acoustic",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
-        }
-      },
-      "avg": 1600
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8616,9 +8600,54 @@
         ]
       },
       "avg": 2599
+    },
+    "gibson-heritage": {
+      "displayName": "Gibson Heritage acoustic",
+      "brand": "Gibson",
+      "model": "Heritage",
+      "variant": null,
+      "count": 1,
+      "sum": 1600,
+      "min": 1600,
+      "max": 1600,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-03-30T03:04:03.109Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Heritage acoustic",
+          "url": "https://reverb.com/item/95141529-gibson-heritage-acoustic",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 105,
+      "sum": 407742.68,
+      "sold": {
+        "count": 34,
+        "sum": 118925.4,
+        "avg": 3498,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3883,
+      "min": 26,
+      "max": 49000
+    },
     "Brand New": {
       "count": 20,
       "sum": 90841.12,
@@ -8657,20 +8686,6 @@
       "avg": 2827,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 104,
-      "sum": 401242.68,
-      "sold": {
-        "count": 33,
-        "sum": 115775.4,
-        "avg": 3508,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3858,
-      "min": 26,
-      "max": 49000
     },
     "Fair": {
       "count": 7,
@@ -8740,8 +8755,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3328,
-      "count": 135
+      "avg": 3351,
+      "count": 136
     },
     "03": {
       "name": "Mar",
@@ -8897,7 +8912,7 @@
     "1k-2k": 68,
     "2k-3k": 71,
     "3k-5k": 69,
-    "5k-10k": 23,
+    "5k-10k": 24,
     "10k+": 9
   },
   "priceDistributionFiltered": {
@@ -8906,7 +8921,7 @@
     "1k-2k": 68,
     "2k-3k": 71,
     "3k-5k": 69,
-    "5k-10k": 19,
+    "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
@@ -9262,7 +9277,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 19,
+    "2026-04-05": 20,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -9275,7 +9290,7 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 237,
+    "reverb": 238,
     "marketplace": 33
   },
   "activeModelsCount": 229,
@@ -9298,7 +9313,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 20
+      "count": 21
     },
     {
       "username": "Madero",
@@ -9323,9 +9338,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3328,
-    "pctBelowAvg": 17,
-    "count": 135
+    "avg": 3351,
+    "pctBelowAvg": 16,
+    "count": 136
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9361,7 +9376,7 @@
     }
   },
   "soldPrices": {
-    "count": 73,
+    "count": 74,
     "avg": 3106,
     "min": 165,
     "max": 35900,
@@ -9369,11 +9384,19 @@
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 511.1,
-      "count": 71,
-      "avgDays": 7.2
+      "totalDays": 511.20000000000005,
+      "count": 72,
+      "avgDays": 7.1
     },
     "byModel": {
+      "novo-serus-j-custom": {
+        "displayName": "Novo Serus J Custom",
+        "totalDays": 0.1,
+        "count": 1,
+        "fastest": 0.1,
+        "slowest": 0.1,
+        "avgDays": 0.1
+      },
       "prs-custom-24": {
         "displayName": "PRS Custom 24 1992 Gray Black",
         "totalDays": 1.2,
@@ -9880,6 +9903,13 @@
       }
     },
     "byBrand": {
+      "Novo": {
+        "totalDays": 0.1,
+        "count": 1,
+        "fastest": 0.1,
+        "slowest": 0.1,
+        "avgDays": 0.1
+      },
       "PRS": {
         "totalDays": 61.3,
         "count": 11,
@@ -10262,9 +10292,9 @@
   "sellThrough": {
     "overall": {
       "total": 253,
-      "sold": 71,
+      "sold": 72,
       "fake": 0,
-      "live": 182,
+      "live": 181,
       "soldPct": 28,
       "livePct": 72
     },
@@ -10295,11 +10325,11 @@
       },
       "Novo": {
         "total": 2,
-        "sold": 0,
+        "sold": 1,
         "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
       },
       "Ibanez": {
         "total": 15,
@@ -10887,21 +10917,21 @@
     {
       "label": "16–30",
       "total": 61,
-      "sold": 19,
-      "rate": 31
+      "sold": 20,
+      "rate": 33
     },
     {
       "label": "31+",
-      "total": 57,
+      "total": 58,
       "sold": 9,
       "rate": 16
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 144,
-      "sold": 42,
-      "rate": 29
+      "total": 145,
+      "sold": 43,
+      "rate": 30
     },
     "off": {
       "total": 51,
@@ -10911,9 +10941,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 89,
-      "sold": 18,
-      "rate": 20
+      "total": 90,
+      "sold": 19,
+      "rate": 21
     },
     "regular": {
       "total": 90,
@@ -10947,6 +10977,12 @@
       "rate": 20
     },
     {
+      "state": "WA",
+      "total": 8,
+      "sold": 1,
+      "rate": 13
+    },
+    {
       "state": "OH",
       "total": 8,
       "sold": 3,
@@ -10959,16 +10995,10 @@
       "rate": 29
     },
     {
-      "state": "WA",
-      "total": 7,
-      "sold": 1,
-      "rate": 14
-    },
-    {
       "state": "NC",
       "total": 5,
-      "sold": 1,
-      "rate": 20
+      "sold": 2,
+      "rate": 40
     },
     {
       "state": "PA",
