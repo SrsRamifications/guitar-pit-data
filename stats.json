@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-05T00:15:08.603Z",
-  "totalLinks": 251,
-  "totalWithPrice": 246,
+  "generatedAt": "2026-04-05T00:18:10.470Z",
+  "totalLinks": 252,
+  "totalWithPrice": 247,
   "overall": {
-    "count": 246,
-    "sum": 1001976.23,
-    "avg": 4073,
+    "count": 247,
+    "sum": 1003376.22,
+    "avg": 4062,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 234,
-    "sum": 641501.24,
-    "avg": 2741,
+    "count": 235,
+    "sum": 642901.23,
+    "avg": 2736,
     "min": 26,
     "max": 8000,
-    "median": 2463
+    "median": 2450
   },
   "outliers": {
     "thresholdHigh": 8500,
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 116,
-      "sum": 393951.87,
+      "count": 117,
+      "sum": 395351.86,
       "min": 26,
       "max": 49000,
-      "avg": 3396
+      "avg": 3379
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 25,
-      "sum": 246059.92,
+      "count": 26,
+      "sum": 247459.91,
       "min": 899.98,
       "max": 99000,
-      "avg": 9842
+      "avg": 9518
     },
     "reverb": {
       "count": 221,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "guitarcenter.com": {
-      "count": 7,
-      "sum": 14678.94,
+      "count": 8,
+      "sum": 16078.93,
       "min": 1109.99,
       "max": 4999.99,
-      "avg": 2097
+      "avg": 2010
     },
     "reverb.com": {
       "count": 221,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "mesa-boogie-axis": {
+      "displayName": "Used MESA/Boogie TRIAXIS Guitar Preamp",
+      "brand": "Mesa Boogie",
+      "model": "Axis",
+      "variant": null,
+      "count": 1,
+      "sum": 1399.99,
+      "min": 1399.99,
+      "max": 1399.99,
+      "sightings": [
+        {
+          "price": 1399.99,
+          "date": "2026-04-05T00:17:55.807Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used MESA/Boogie TRIAXIS Guitar Preamp",
+          "url": "https://www.guitarcenter.com/Used/MESA-Boogie/Used-MESA-Boogie-TRIAXIS-Guitar-Preamp-122139136.gc?algoliaQueryID=07035d136da8b16d020b88c7c272ba4a&algoliaIndexName=guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1399.99,
+          "min": 1399.99,
+          "max": 1399.99,
+          "avg": 1400
+        }
+      },
+      "avg": 1400
+    },
     "marshall-jvm210h-100w-tube": {
       "displayName": "Used Marshall JVM210H 100W Tube Guitar Amp Head",
       "brand": "Marshall",
@@ -5834,37 +5865,6 @@
       },
       "avg": 2360
     },
-    "guild-x-88-with-case": {
-      "displayName": "1984 Guild X-88 With Case",
-      "brand": "Guild",
-      "model": "X-88 With Case",
-      "variant": null,
-      "count": 1,
-      "sum": 1700,
-      "min": 1700,
-      "max": 1700,
-      "sightings": [
-        {
-          "price": 1700,
-          "date": "2026-03-29T02:19:02.153Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1984 Guild X-88 With Case",
-          "url": "https://reverb.com/item/95519984-1984-guild-x-88-with-case",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1700,
-          "min": 1700,
-          "max": 1700,
-          "avg": 1700
-        }
-      },
-      "avg": 1700
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8041,17 +8041,48 @@
         ]
       },
       "avg": 475
+    },
+    "guild-x-88-with-case": {
+      "displayName": "1984 Guild X-88 With Case",
+      "brand": "Guild",
+      "model": "X-88 With Case",
+      "variant": null,
+      "count": 1,
+      "sum": 1700,
+      "min": 1700,
+      "max": 1700,
+      "sightings": [
+        {
+          "price": 1700,
+          "date": "2026-03-29T02:19:02.153Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1984 Guild X-88 With Case",
+          "url": "https://reverb.com/item/95519984-1984-guild-x-88-with-case",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "avg": 1700
     }
   },
   "byCondition": {
     "Used": {
-      "count": 17,
-      "sum": 144343.94,
+      "count": 18,
+      "sum": 145743.93,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 8491,
+      "avg": 8097,
       "min": 1109.99,
       "max": 99000
     },
@@ -8165,8 +8196,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3396,
-      "count": 116
+      "avg": 3379,
+      "count": 117
     },
     "03": {
       "name": "Mar",
@@ -8295,13 +8326,6 @@
       "date": "2026-04-01T17:43:44.200Z"
     },
     {
-      "title": "1984 Guild X-88 With Case",
-      "url": "https://reverb.com/item/95519984-1984-guild-x-88-with-case",
-      "oldPrice": "$2,000",
-      "newPrice": "$1,700",
-      "date": "2026-04-01T22:44:47.805Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -8314,12 +8338,19 @@
       "oldPrice": "$1,204.41",
       "newPrice": "$1,201.80",
       "date": "2026-03-27T23:42:48.757Z"
+    },
+    {
+      "title": "Fractal Audio AX8",
+      "url": "https://reverb.com/item/94215529-fractal-audio-ax8",
+      "oldPrice": "$672.36",
+      "newPrice": "$668.31",
+      "date": "2026-03-27T23:42:55.870Z"
     }
   ],
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 62,
+    "1k-2k": 63,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 21,
@@ -8328,13 +8359,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 62,
+    "1k-2k": 63,
     "2k-3k": 69,
     "3k-5k": 63,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Mesa Boogie": {
+      "sum": 75,
+      "count": 2,
+      "avg": 38
+    },
     "Marshall": {
       "sum": 0,
       "count": 1,
@@ -8449,11 +8485,6 @@
       "sum": 9,
       "count": 2,
       "avg": 5
-    },
-    "Mesa Boogie": {
-      "sum": 75,
-      "count": 1,
-      "avg": 75
     },
     "Charvel": {
       "sum": 31,
@@ -8580,11 +8611,6 @@
       "count": 3,
       "avg": 8
     },
-    "Guild": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 7,
       "count": 1,
@@ -8684,9 +8710,15 @@
       "sum": 7,
       "count": 1,
       "avg": 7
+    },
+    "Guild": {
+      "sum": 7,
+      "count": 1,
+      "avg": 7
     }
   },
   "listingsPerDay": {
+    "2026-04-05": 1,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -8699,14 +8731,14 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "marketplace": 30,
+    "marketplace": 31,
     "reverb": 221
   },
-  "activeModelsCount": 213,
+  "activeModelsCount": 214,
   "topPosters": [
     {
       "username": "GP",
-      "count": 104
+      "count": 105
     },
     {
       "username": "Beijing Bob",
@@ -8747,9 +8779,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3396,
+    "avg": 3379,
     "pctBelowAvg": 17,
-    "count": 116
+    "count": 117
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9657,14 +9689,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 237,
+      "total": 238,
       "sold": 67,
       "fake": 0,
-      "live": 170,
+      "live": 171,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Mesa Boogie": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Marshall": {
         "total": 1,
         "sold": 0,
@@ -9848,14 +9888,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Mesa Boogie": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
       },
       "Charvel": {
         "total": 3,
