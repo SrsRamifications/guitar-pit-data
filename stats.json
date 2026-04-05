@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-05T19:33:10.946Z",
-  "totalLinks": 265,
-  "totalWithPrice": 260,
+  "generatedAt": "2026-04-05T19:44:47.908Z",
+  "totalLinks": 266,
+  "totalWithPrice": 261,
   "overall": {
-    "count": 260,
-    "sum": 1037219.21,
-    "avg": 3989,
+    "count": 261,
+    "sum": 1046918.21,
+    "avg": 4011,
     "min": 26,
     "max": 99000
   },
@@ -20,7 +20,7 @@
   "outliers": {
     "thresholdHigh": 8485,
     "thresholdLow": 0,
-    "count": 12,
+    "count": 13,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -94,6 +94,14 @@
         "postedAt": "2026-04-03T15:10:47.860Z"
       },
       {
+        "title": "Jackson Randy Rhoads Flying V   USA ultra-rare 1997",
+        "url": "https://reverb.com/item/95629406",
+        "price": "$9,699",
+        "image": "https://rvb-img.reverb.com/i/s--y0TAhsnz--/quality=medium-low,height=800,width=800,fit=contain/1cbf6fa6-154f-4396-8f8b-4bf96faab77f.jpg",
+        "condition": "Excellent",
+        "postedAt": "2026-04-05T19:44:33.593Z"
+      },
+      {
         "title": "Knaggs Kenai T T1 Quilt Maple 2026 Northerner Blue",
         "url": "https://reverb.com/item/94652312-knaggs-kenai-t-t1-quilt-maple-2026-northerner-blue",
         "price": "$9,500",
@@ -121,11 +129,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 130,
-      "sum": 429194.85,
+      "count": 131,
+      "sum": 438893.85,
       "min": 26,
       "max": 49000,
-      "avg": 3301
+      "avg": 3350
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +145,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 233,
-      "sum": 788459.31,
+      "count": 234,
+      "sum": 798158.31,
       "min": 26,
       "max": 49000,
-      "avg": 3384
+      "avg": 3411
     },
     "marketplace": {
       "count": 27,
@@ -153,11 +161,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 233,
-      "sum": 788459.31,
+      "count": 234,
+      "sum": 798158.31,
       "min": 26,
       "max": 49000,
-      "avg": 3384
+      "avg": 3411
     },
     "guitarcenter.com": {
       "count": 9,
@@ -217,6 +225,37 @@
     }
   },
   "byModel": {
+    "jackson-flying-v-usa-ultra": {
+      "displayName": "Jackson Randy Rhoads Flying V   USA ultra-rare 1997",
+      "brand": "Jackson",
+      "model": "Flying V",
+      "variant": "Usa Ultra",
+      "count": 1,
+      "sum": 9699,
+      "min": 9699,
+      "max": 9699,
+      "sightings": [
+        {
+          "price": 9699,
+          "date": "2026-04-05T19:44:33.593Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Jackson Randy Rhoads Flying V   USA ultra-rare 1997",
+          "url": "https://reverb.com/item/95629406",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 9699,
+          "min": 9699,
+          "max": 9699,
+          "avg": 9699
+        }
+      },
+      "avg": 9699
+    },
     "novo-serus-j-custom": {
       "displayName": "Novo Serus J Custom",
       "brand": "Novo",
@@ -5943,37 +5982,6 @@
       },
       "avg": 2700
     },
-    "prs-custom-22-artist": {
-      "displayName": "PRS Custom 22 Artist 2014",
-      "brand": "PRS",
-      "model": "Custom 22",
-      "variant": "Artist",
-      "count": 1,
-      "sum": 3699,
-      "min": 3699,
-      "max": 3699,
-      "sightings": [
-        {
-          "price": 3699,
-          "date": "2026-03-29T23:36:56.979Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Custom 22 Artist 2014",
-          "url": "https://reverb.com/item/95528777-prs-custom-22-artist-2014",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3699,
-          "min": 3699,
-          "max": 3699,
-          "avg": 3699
-        }
-      },
-      "avg": 3699
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8476,12 +8484,43 @@
         ]
       },
       "avg": 3599
+    },
+    "prs-custom-22-artist": {
+      "displayName": "PRS Custom 22 Artist 2014",
+      "brand": "PRS",
+      "model": "Custom 22",
+      "variant": "Artist",
+      "count": 1,
+      "sum": 3699,
+      "min": 3699,
+      "max": 3699,
+      "sightings": [
+        {
+          "price": 3699,
+          "date": "2026-03-29T23:36:56.979Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Custom 22 Artist 2014",
+          "url": "https://reverb.com/item/95528777-prs-custom-22-artist-2014",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3699,
+          "min": 3699,
+          "max": 3699,
+          "avg": 3699
+        }
+      },
+      "avg": 3699
     }
   },
   "byCondition": {
     "Excellent": {
-      "count": 103,
-      "sum": 391543.68,
+      "count": 104,
+      "sum": 401242.68,
       "sold": {
         "count": 32,
         "sum": 113925.4,
@@ -8489,7 +8528,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3801,
+      "avg": 3858,
       "min": 26,
       "max": 49000
     },
@@ -8600,8 +8639,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3301,
-      "count": 130
+      "avg": 3350,
+      "count": 131
     },
     "03": {
       "name": "Mar",
@@ -8757,7 +8796,7 @@
     "1k-2k": 66,
     "2k-3k": 70,
     "3k-5k": 68,
-    "5k-10k": 22,
+    "5k-10k": 23,
     "10k+": 9
   },
   "priceDistributionFiltered": {
@@ -8770,6 +8809,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Jackson": {
+      "sum": 57,
+      "count": 10,
+      "avg": 6
+    },
     "Novo": {
       "sum": 5,
       "count": 2,
@@ -8859,11 +8903,6 @@
       "sum": 16,
       "count": 5,
       "avg": 3
-    },
-    "Jackson": {
-      "sum": 57,
-      "count": 9,
-      "avg": 6
     },
     "Kauer": {
       "sum": 49,
@@ -9122,7 +9161,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 14,
+    "2026-04-05": 15,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -9135,10 +9174,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 233,
+    "reverb": 234,
     "marketplace": 32
   },
-  "activeModelsCount": 226,
+  "activeModelsCount": 227,
   "topPosters": [
     {
       "username": "GP",
@@ -9170,7 +9209,7 @@
     },
     {
       "username": "erparadox",
-      "count": 4
+      "count": 5
     },
     {
       "username": "jazee_",
@@ -9183,9 +9222,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3301,
-    "pctBelowAvg": 17,
-    "count": 130
+    "avg": 3350,
+    "pctBelowAvg": 16,
+    "count": 131
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9214,10 +9253,10 @@
       "count": 15
     },
     "Jackson": {
-      "avgPrice": 3380,
+      "avgPrice": 3954,
       "retailEst": 1000,
-      "avgDiscount": -238,
-      "count": 10
+      "avgDiscount": -295.4,
+      "count": 11
     }
   },
   "soldPrices": {
@@ -10098,14 +10137,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 249,
+      "total": 250,
       "sold": 69,
       "fake": 0,
-      "live": 180,
+      "live": 181,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Jackson": {
+        "total": 11,
+        "sold": 2,
+        "fake": 0,
+        "live": 9,
+        "soldPct": 18,
+        "livePct": 82
+      },
       "Novo": {
         "total": 2,
         "sold": 0,
@@ -10255,14 +10302,6 @@
         "sold": 1,
         "fake": 0,
         "live": 4,
-        "soldPct": 20,
-        "livePct": 80
-      },
-      "Jackson": {
-        "total": 10,
-        "sold": 2,
-        "fake": 0,
-        "live": 8,
         "soldPct": 20,
         "livePct": 80
       },
@@ -10717,9 +10756,9 @@
     },
     {
       "label": "6–15",
-      "total": 42,
+      "total": 43,
       "sold": 13,
-      "rate": 31
+      "rate": 30
     },
     {
       "label": "16–30",
@@ -10736,7 +10775,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 142,
+      "total": 143,
       "sold": 41,
       "rate": 29
     },
@@ -10753,9 +10792,9 @@
       "rate": 20
     },
     "regular": {
-      "total": 88,
+      "total": 89,
       "sold": 28,
-      "rate": 32
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -10814,6 +10853,12 @@
       "rate": 40
     },
     {
+      "state": "NJ",
+      "total": 4,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "MA",
       "total": 4,
       "sold": 1,
@@ -10860,12 +10905,6 @@
       "total": 3,
       "sold": 1,
       "rate": 33
-    },
-    {
-      "state": "NJ",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "IN",
