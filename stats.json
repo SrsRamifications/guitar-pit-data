@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-05T18:54:33.798Z",
-  "totalLinks": 261,
-  "totalWithPrice": 256,
+  "generatedAt": "2026-04-05T19:13:14.098Z",
+  "totalLinks": 262,
+  "totalWithPrice": 257,
   "overall": {
-    "count": 256,
-    "sum": 1025749.21,
-    "avg": 4007,
+    "count": 257,
+    "sum": 1030248.21,
+    "avg": 4009,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 244,
-    "sum": 665274.22,
-    "avg": 2727,
+    "count": 245,
+    "sum": 669773.22,
+    "avg": 2734,
     "min": 26,
     "max": 8000,
-    "median": 2413
+    "median": 2425
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 126,
-      "sum": 417724.85,
+      "count": 127,
+      "sum": 422223.85,
       "min": 26,
       "max": 49000,
-      "avg": 3315
+      "avg": 3325
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 229,
-      "sum": 776989.31,
+      "count": 230,
+      "sum": 781488.31,
       "min": 26,
       "max": 49000,
-      "avg": 3393
+      "avg": 3398
     },
     "marketplace": {
       "count": 27,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 229,
-      "sum": 776989.31,
+      "count": 230,
+      "sum": 781488.31,
       "min": 26,
       "max": 49000,
-      "avg": 3393
+      "avg": 3398
     },
     "guitarcenter.com": {
       "count": 9,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "gibson-es-175-p-90": {
+      "displayName": "1952 Gibson ES-175 P-90 Vintage Archtop Electric Guitar Sunburst w/ Case",
+      "brand": "Gibson",
+      "model": "ES-175",
+      "variant": "P-90",
+      "count": 1,
+      "sum": 4499,
+      "min": 4499,
+      "max": 4499,
+      "sightings": [
+        {
+          "price": 4499,
+          "date": "2026-04-05T19:12:59.381Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1952 Gibson ES-175 P-90 Vintage Archtop Electric Guitar Sunburst w/ Case",
+          "url": "https://reverb.com/item/94539534-1952-gibson-es-175-p-90-vintage-archtop-electric-guitar-sunburst-w-case",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 4499,
+          "min": 4499,
+          "max": 4499,
+          "avg": 4499
+        }
+      },
+      "avg": 4499
+    },
     "framus-diablo": {
       "displayName": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
       "brand": "Framus",
@@ -5927,37 +5958,6 @@
       },
       "avg": 2200
     },
-    "ibanez-jem7": {
-      "displayName": "Ibanez JEM7-RB 1988 - Root Beer",
-      "brand": "Ibanez",
-      "model": "JEM7",
-      "variant": null,
-      "count": 1,
-      "sum": 4250,
-      "min": 4250,
-      "max": 4250,
-      "sightings": [
-        {
-          "price": 4250,
-          "date": "2026-03-29T18:21:28.208Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez JEM7-RB 1988 - Root Beer",
-          "url": "https://reverb.com/item/95464810-ibanez-jem7-rb-1988-root-beer",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 4250,
-          "min": 4250,
-          "max": 4250,
-          "avg": 4250
-        }
-      },
-      "avg": 4250
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8337,12 +8337,43 @@
         ]
       },
       "avg": 4500
+    },
+    "ibanez-jem7": {
+      "displayName": "Ibanez JEM7-RB 1988 - Root Beer",
+      "brand": "Ibanez",
+      "model": "JEM7",
+      "variant": null,
+      "count": 1,
+      "sum": 4250,
+      "min": 4250,
+      "max": 4250,
+      "sightings": [
+        {
+          "price": 4250,
+          "date": "2026-03-29T18:21:28.208Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez JEM7-RB 1988 - Root Beer",
+          "url": "https://reverb.com/item/95464810-ibanez-jem7-rb-1988-root-beer",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4250,
+          "min": 4250,
+          "max": 4250,
+          "avg": 4250
+        }
+      },
+      "avg": 4250
     }
   },
   "byCondition": {
     "Good": {
-      "count": 29,
-      "sum": 64674.95,
+      "count": 30,
+      "sum": 69173.95,
       "sold": {
         "count": 8,
         "sum": 16900.46,
@@ -8350,7 +8381,7 @@
         "min": 540,
         "max": 4777.5
       },
-      "avg": 2230,
+      "avg": 2306,
       "min": 414,
       "max": 6500
     },
@@ -8461,8 +8492,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3315,
-      "count": 126
+      "avg": 3325,
+      "count": 127
     },
     "03": {
       "name": "Mar",
@@ -8584,13 +8615,6 @@
       "date": "2026-04-04T03:37:48.990Z"
     },
     {
-      "title": "Ibanez JEM7-RB 1988 - Root Beer",
-      "url": "https://reverb.com/item/95464810-ibanez-jem7-rb-1988-root-beer",
-      "oldPrice": "$5,000",
-      "newPrice": "$4,250",
-      "date": "2026-04-01T17:43:44.200Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -8610,6 +8634,13 @@
       "oldPrice": "$672.36",
       "newPrice": "$668.31",
       "date": "2026-03-27T23:42:55.870Z"
+    },
+    {
+      "title": "Patrick James Eggle Macon Special  2025 - Flame top - Mojo tone",
+      "url": "https://reverb.com/item/95518332-patrick-james-eggle-macon-special-2025-flame-top-mojo-tone",
+      "oldPrice": "$2,799",
+      "newPrice": "$2,659",
+      "date": "2026-04-03T07:37:59.231Z"
     }
   ],
   "priceDistribution": {
@@ -8617,7 +8648,7 @@
     "500-1k": 15,
     "1k-2k": 66,
     "2k-3k": 70,
-    "3k-5k": 65,
+    "3k-5k": 66,
     "5k-10k": 22,
     "10k+": 9
   },
@@ -8626,11 +8657,16 @@
     "500-1k": 15,
     "1k-2k": 66,
     "2k-3k": 70,
-    "3k-5k": 65,
+    "3k-5k": 66,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 224,
+      "count": 23,
+      "avg": 10
+    },
     "Framus": {
       "sum": 17,
       "count": 2,
@@ -8670,11 +8706,6 @@
       "sum": 112,
       "count": 17,
       "avg": 7
-    },
-    "Gibson": {
-      "sum": 177,
-      "count": 22,
-      "avg": 8
     },
     "Ovation": {
       "sum": 1,
@@ -8983,7 +9014,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 10,
+    "2026-04-05": 11,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -8996,10 +9027,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 229,
+    "reverb": 230,
     "marketplace": 32
   },
-  "activeModelsCount": 222,
+  "activeModelsCount": 223,
   "topPosters": [
     {
       "username": "GP",
@@ -9007,7 +9038,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 45
+      "count": 46
     },
     {
       "username": "WontonGG",
@@ -9044,9 +9075,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3315,
+    "avg": 3325,
     "pctBelowAvg": 17,
-    "count": 126
+    "count": 127
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9057,10 +9088,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 3479,
+      "avgPrice": 3519,
       "retailEst": 800,
-      "avgDiscount": -334.8,
-      "count": 24
+      "avgDiscount": -339.9,
+      "count": 25
     },
     "PRS": {
       "avgPrice": 3023,
@@ -9925,15 +9956,15 @@
         "count": 1,
         "avgPctDrop": 13.6
       },
-      "Ibanez": {
-        "totalPctDrop": 49.92401215805471,
-        "count": 2,
-        "avgPctDrop": 25
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
         "avgPctDrop": 10
+      },
+      "Ibanez": {
+        "totalPctDrop": 49.92401215805471,
+        "count": 2,
+        "avgPctDrop": 25
       },
       "Vintage": {
         "totalPctDrop": 26.130434782608695,
@@ -9959,14 +9990,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 245,
+      "total": 246,
       "sold": 68,
       "fake": 0,
-      "live": 177,
+      "live": 178,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 27,
+        "sold": 6,
+        "fake": 0,
+        "live": 21,
+        "soldPct": 22,
+        "livePct": 78
+      },
       "Framus": {
         "total": 2,
         "sold": 1,
@@ -10030,14 +10069,6 @@
         "live": 15,
         "soldPct": 25,
         "livePct": 75
-      },
-      "Gibson": {
-        "total": 26,
-        "sold": 6,
-        "fake": 0,
-        "live": 20,
-        "soldPct": 23,
-        "livePct": 77
       },
       "Ovation": {
         "total": 1,
@@ -10554,9 +10585,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 65,
-    "totalOffers": 127,
-    "avgOffersPerListing": 2,
+    "withOffers": 66,
+    "totalOffers": 128,
+    "avgOffersPerListing": 1.9,
     "offersEnabledPct": 60
   },
   "shippingInsights": {
@@ -10590,14 +10621,14 @@
     },
     {
       "label": "31+",
-      "total": 54,
+      "total": 55,
       "sold": 8,
       "rate": 15
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 138,
+      "total": 139,
       "sold": 40,
       "rate": 29
     },
@@ -10614,9 +10645,9 @@
       "rate": 20
     },
     "regular": {
-      "total": 85,
+      "total": 86,
       "sold": 27,
-      "rate": 32
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -10705,6 +10736,12 @@
       "rate": 25
     },
     {
+      "state": "UT",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "AZ",
       "total": 3,
       "sold": 0,
@@ -10730,12 +10767,6 @@
     },
     {
       "state": "TOKYO",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "UT",
       "total": 2,
       "sold": 0,
       "rate": 0
