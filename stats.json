@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-05T06:09:27.637Z",
-  "totalLinks": 256,
-  "totalWithPrice": 251,
+  "generatedAt": "2026-04-05T06:12:53.052Z",
+  "totalLinks": 257,
+  "totalWithPrice": 252,
   "overall": {
-    "count": 251,
-    "sum": 1011624.21,
-    "avg": 4030,
+    "count": 252,
+    "sum": 1013324.21,
+    "avg": 4021,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 239,
-    "sum": 651149.22,
-    "avg": 2724,
+    "count": 240,
+    "sum": 652849.22,
+    "avg": 2720,
     "min": 26,
     "max": 8000,
-    "median": 2425
+    "median": 2413
   },
   "outliers": {
     "thresholdHigh": 8485,
@@ -121,11 +121,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 121,
-      "sum": 403599.85,
+      "count": 122,
+      "sum": 405299.85,
       "min": 26,
       "max": 49000,
-      "avg": 3336
+      "avg": 3322
     },
     "2026-03": {
       "count": 130,
@@ -137,11 +137,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 224,
-      "sum": 762864.31,
+      "count": 225,
+      "sum": 764564.31,
       "min": 26,
       "max": 49000,
-      "avg": 3406
+      "avg": 3398
     },
     "marketplace": {
       "count": 27,
@@ -153,11 +153,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 224,
-      "sum": 762864.31,
+      "count": 225,
+      "sum": 764564.31,
       "min": 26,
       "max": 49000,
-      "avg": 3406
+      "avg": 3398
     },
     "guitarcenter.com": {
       "count": 9,
@@ -217,6 +217,37 @@
     }
   },
   "byModel": {
+    "kiesel-sh-6-clear-gloss": {
+      "displayName": "Kiesel Sh-6 2019 - Clear gloss",
+      "brand": "Kiesel",
+      "model": "Sh-6 Clear",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 1700,
+      "min": 1700,
+      "max": 1700,
+      "sightings": [
+        {
+          "price": 1700,
+          "date": "2026-04-05T06:12:38.570Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Sh-6 2019 - Clear gloss",
+          "url": "https://reverb.com/item/94777851-kiesel-sh-6-2019-clear-gloss",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "avg": 1700
+    },
     "kiesel-solo": {
       "displayName": "Kiesel Solo - 7.61 LBS",
       "brand": "Kiesel",
@@ -8185,6 +8216,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 67,
+      "sum": 184901.55999999997,
+      "sold": {
+        "count": 18,
+        "sum": 40783.78,
+        "avg": 2266,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2760,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 99,
       "sum": 381603.68,
@@ -8198,20 +8243,6 @@
       "avg": 3855,
       "min": 26,
       "max": 49000
-    },
-    "Very Good": {
-      "count": 66,
-      "sum": 183201.55999999997,
-      "sold": {
-        "count": 18,
-        "sum": 40783.78,
-        "avg": 2266,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2776,
-      "min": 33,
-      "max": 16500
     },
     "Used": {
       "count": 19,
@@ -8306,8 +8337,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3336,
-      "count": 121
+      "avg": 3322,
+      "count": 122
     },
     "03": {
       "name": "Mar",
@@ -8460,7 +8491,7 @@
   "priceDistribution": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 65,
+    "1k-2k": 66,
     "2k-3k": 70,
     "3k-5k": 64,
     "5k-10k": 21,
@@ -8469,13 +8500,18 @@
   "priceDistributionFiltered": {
     "0-500": 8,
     "500-1k": 14,
-    "1k-2k": 65,
+    "1k-2k": 66,
     "2k-3k": 70,
     "3k-5k": 64,
     "5k-10k": 18,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 145,
+      "count": 10,
+      "avg": 15
+    },
     "Fano": {
       "sum": 11,
       "count": 3,
@@ -8530,11 +8566,6 @@
       "sum": 82,
       "count": 3,
       "avg": 27
-    },
-    "Kiesel": {
-      "sum": 112,
-      "count": 9,
-      "avg": 12
     },
     "Nash": {
       "sum": 1,
@@ -8828,7 +8859,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-05": 5,
+    "2026-04-05": 6,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
@@ -8841,10 +8872,10 @@
     "2026-03-26": 7
   },
   "categoryDistribution": {
-    "reverb": 224,
+    "reverb": 225,
     "marketplace": 32
   },
-  "activeModelsCount": 217,
+  "activeModelsCount": 218,
   "topPosters": [
     {
       "username": "GP",
@@ -8856,7 +8887,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 25
+      "count": 26
     },
     {
       "username": "Shteefe",
@@ -8889,9 +8920,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3336,
+    "avg": 3322,
     "pctBelowAvg": 17,
-    "count": 121
+    "count": 122
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9665,15 +9696,15 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 781.8882885630431,
-      "count": 44,
-      "avgPctDrop": 17.8
+      "totalPctDrop": 807.9752450847823,
+      "count": 45,
+      "avgPctDrop": 18
     },
     "byBrand": {
       "Kiesel": {
-        "totalPctDrop": 29.251165260975924,
-        "count": 2,
-        "avgPctDrop": 14.6
+        "totalPctDrop": 55.338121782715056,
+        "count": 3,
+        "avgPctDrop": 18.4
       },
       "BC Rich": {
         "totalPctDrop": 120.53227991876909,
@@ -9799,21 +9830,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 242,
+      "total": 243,
       "sold": 68,
       "fake": 0,
-      "live": 174,
+      "live": 175,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
       "Kiesel": {
-        "total": 10,
+        "total": 11,
         "sold": 4,
         "fake": 0,
-        "live": 6,
-        "soldPct": 40,
-        "livePct": 60
+        "live": 7,
+        "soldPct": 36,
+        "livePct": 64
       },
       "Fano": {
         "total": 3,
@@ -10394,14 +10425,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 62,
-    "totalOffers": 120,
+    "withOffers": 63,
+    "totalOffers": 122,
     "avgOffersPerListing": 1.9,
     "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 99
+    "avgShippingCost": 100
   },
   "watcherDemand": [
     {
@@ -10430,16 +10461,16 @@
     },
     {
       "label": "31+",
-      "total": 52,
+      "total": 53,
       "sold": 8,
       "rate": 15
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 135,
+      "total": 136,
       "sold": 40,
-      "rate": 30
+      "rate": 29
     },
     "off": {
       "total": 47,
@@ -10454,7 +10485,7 @@
       "rate": 20
     },
     "regular": {
-      "total": 82,
+      "total": 83,
       "sold": 27,
       "rate": 33
     }
@@ -10553,6 +10584,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "UT",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
