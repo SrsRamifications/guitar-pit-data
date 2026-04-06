@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T04:30:52.077Z",
-  "totalLinks": 277,
-  "totalWithPrice": 272,
+  "generatedAt": "2026-04-06T05:29:09.119Z",
+  "totalLinks": 278,
+  "totalWithPrice": 273,
   "overall": {
-    "count": 272,
-    "sum": 1077252.2,
-    "avg": 3960,
+    "count": 273,
+    "sum": 1077952.2,
+    "avg": 3949,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 258,
-    "sum": 695578.21,
-    "avg": 2696,
+    "count": 259,
+    "sum": 696278.21,
+    "avg": 2688,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8495,
+    "thresholdHigh": 8400,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 142,
-      "sum": 471859.84,
+      "count": 143,
+      "sum": 472559.84,
       "min": 26,
       "max": 49000,
-      "avg": 3323
+      "avg": 3305
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 244,
-      "sum": 826992.31,
+      "count": 245,
+      "sum": 827692.31,
       "min": 26,
       "max": 49000,
-      "avg": 3389
+      "avg": 3378
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 244,
-      "sum": 826992.31,
+      "count": 245,
+      "sum": 827692.31,
       "min": 26,
       "max": 49000,
-      "avg": 3389
+      "avg": 3378
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "bc-rich-warlock-light": {
+      "displayName": "B.C. Rich Warlock - Light pink",
+      "brand": "BC Rich",
+      "model": "Warlock Light",
+      "variant": null,
+      "count": 1,
+      "sum": 700,
+      "min": 700,
+      "max": 700,
+      "sightings": [
+        {
+          "price": 700,
+          "date": "2026-04-06T05:28:54.626Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Warlock - Light pink",
+          "url": "https://reverb.com/item/95708621-b-c-rich-warlock-light-pink",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 700,
+          "min": 700,
+          "max": 700,
+          "avg": 700
+        }
+      },
+      "avg": 700
+    },
     "greco-1980s-tusk": {
       "displayName": "1980’s Greco Tusk",
       "brand": "Greco",
@@ -5974,52 +6005,6 @@
       },
       "avg": 2299
     },
-    "kiesel-delos-d6x-2020s-satin": {
-      "displayName": "Kiesel Delos D6X 2020s - Candy Red Satin",
-      "brand": "Kiesel",
-      "model": "Delos D6X 2020s",
-      "variant": "Satin",
-      "count": 1,
-      "sum": 1275,
-      "min": 1275,
-      "max": 1275,
-      "sightings": [
-        {
-          "price": 1275,
-          "date": "2026-03-30T11:30:30.037Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel Delos D6X 2020s - Candy Red Satin",
-          "url": "https://reverb.com/item/95535442-kiesel-delos-d6x-2020s-candy-red-satin",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1275,
-          "min": 1275,
-          "max": 1275,
-          "avg": 1275
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1275,
-        "min": 1275,
-        "max": 1275,
-        "prices": [
-          {
-            "price": 1275,
-            "askingPrice": 1275,
-            "date": "2026-03-30T22:48:07.268Z",
-            "title": "Kiesel Delos D6X 2020s - Candy Red Satin",
-            "url": "https://reverb.com/item/95535442-kiesel-delos-d6x-2020s-candy-red-satin"
-          }
-        ]
-      },
-      "avg": 1275
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8831,12 +8816,58 @@
         }
       },
       "avg": 414
+    },
+    "kiesel-delos-d6x-2020s-satin": {
+      "displayName": "Kiesel Delos D6X 2020s - Candy Red Satin",
+      "brand": "Kiesel",
+      "model": "Delos D6X 2020s",
+      "variant": "Satin",
+      "count": 1,
+      "sum": 1275,
+      "min": 1275,
+      "max": 1275,
+      "sightings": [
+        {
+          "price": 1275,
+          "date": "2026-03-30T11:30:30.037Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Delos D6X 2020s - Candy Red Satin",
+          "url": "https://reverb.com/item/95535442-kiesel-delos-d6x-2020s-candy-red-satin",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1275,
+          "min": 1275,
+          "max": 1275,
+          "avg": 1275
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1275,
+        "min": 1275,
+        "max": 1275,
+        "prices": [
+          {
+            "price": 1275,
+            "askingPrice": 1275,
+            "date": "2026-03-30T22:48:07.268Z",
+            "title": "Kiesel Delos D6X 2020s - Candy Red Satin",
+            "url": "https://reverb.com/item/95535442-kiesel-delos-d6x-2020s-candy-red-satin"
+          }
+        ]
+      },
+      "avg": 1275
     }
   },
   "byCondition": {
     "Very Good": {
-      "count": 73,
-      "sum": 199598.55999999997,
+      "count": 74,
+      "sum": 200298.55999999997,
       "sold": {
         "count": 20,
         "sum": 45083.78,
@@ -8844,7 +8875,7 @@
         "min": 165,
         "max": 3999.99
       },
-      "avg": 2734,
+      "avg": 2707,
       "min": 33,
       "max": 16500
     },
@@ -8955,8 +8986,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3323,
-      "count": 142
+      "avg": 3305,
+      "count": 143
     },
     "03": {
       "name": "Mar",
@@ -9108,7 +9139,7 @@
   ],
   "priceDistribution": {
     "0-500": 11,
-    "500-1k": 17,
+    "500-1k": 18,
     "1k-2k": 69,
     "2k-3k": 73,
     "3k-5k": 69,
@@ -9117,7 +9148,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 11,
-    "500-1k": 17,
+    "500-1k": 18,
     "1k-2k": 69,
     "2k-3k": 73,
     "3k-5k": 69,
@@ -9125,13 +9156,18 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 114,
+      "count": 17,
+      "avg": 7
+    },
     "Greco": {
       "sum": 14,
       "count": 3,
       "avg": 5
     },
     "Gibson": {
-      "sum": 254,
+      "sum": 258,
       "count": 24,
       "avg": 11
     },
@@ -9139,11 +9175,6 @@
       "sum": 4,
       "count": 1,
       "avg": 4
-    },
-    "BC Rich": {
-      "sum": 112,
-      "count": 16,
-      "avg": 7
     },
     "Music Man": {
       "sum": 77,
@@ -9156,12 +9187,12 @@
       "avg": 6
     },
     "Novo": {
-      "sum": 5,
+      "sum": 6,
       "count": 2,
       "avg": 3
     },
     "Ibanez": {
-      "sum": 88,
+      "sum": 89,
       "count": 14,
       "avg": 6
     },
@@ -9181,14 +9212,14 @@
       "avg": 1
     },
     "PRS": {
-      "sum": 225,
+      "sum": 226,
       "count": 25,
       "avg": 9
     },
     "Kiesel": {
-      "sum": 153,
+      "sum": 155,
       "count": 10,
-      "avg": 15
+      "avg": 16
     },
     "Fano": {
       "sum": 14,
@@ -9206,12 +9237,12 @@
       "avg": 1
     },
     "Mesa Boogie": {
-      "sum": 77,
+      "sum": 78,
       "count": 2,
       "avg": 39
     },
     "Fender": {
-      "sum": 115,
+      "sum": 117,
       "count": 17,
       "avg": 7
     },
@@ -9221,7 +9252,7 @@
       "avg": 1
     },
     "Collings": {
-      "sum": 32,
+      "sum": 33,
       "count": 3,
       "avg": 11
     },
@@ -9356,9 +9387,9 @@
       "avg": 6
     },
     "Friedman": {
-      "sum": 12,
+      "sum": 13,
       "count": 2,
-      "avg": 6
+      "avg": 7
     },
     "Lollar": {
       "sum": 6,
@@ -9391,9 +9422,9 @@
       "avg": 9
     },
     "Fender Custom Shop": {
-      "sum": 18,
+      "sum": 19,
       "count": 2,
-      "avg": 9
+      "avg": 10
     },
     "Milkman": {
       "sum": 9,
@@ -9431,7 +9462,7 @@
       "avg": 9
     },
     "Patrick James Eggle": {
-      "sum": 17,
+      "sum": 18,
       "count": 2,
       "avg": 9
     },
@@ -9487,7 +9518,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 3,
+    "2026-04-06": 4,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9501,10 +9532,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 244,
+    "reverb": 245,
     "marketplace": 33
   },
-  "activeModelsCount": 234,
+  "activeModelsCount": 235,
   "topPosters": [
     {
       "username": "GP",
@@ -9524,7 +9555,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 21
+      "count": 22
     },
     {
       "username": "Madero",
@@ -9549,9 +9580,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3323,
+    "avg": 3305,
     "pctBelowAvg": 16,
-    "count": 142
+    "count": 143
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9968,14 +9999,6 @@
         "slowest": 1.8,
         "avgDays": 1.8
       },
-      "kiesel-delos-d6x-2020s-satin": {
-        "displayName": "Kiesel Delos D6X 2020s - Candy Red Satin",
-        "totalDays": 0.9,
-        "count": 1,
-        "fastest": 0.9,
-        "slowest": 0.9,
-        "avgDays": 0.9
-      },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
         "totalDays": 1,
@@ -10127,6 +10150,14 @@
         "fastest": 0.3,
         "slowest": 0.3,
         "avgDays": 0.3
+      },
+      "kiesel-delos-d6x-2020s-satin": {
+        "displayName": "Kiesel Delos D6X 2020s - Candy Red Satin",
+        "totalDays": 0.9,
+        "count": 1,
+        "fastest": 0.9,
+        "slowest": 0.9,
+        "avgDays": 0.9
       }
     },
     "byBrand": {
@@ -10540,14 +10571,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 260,
+      "total": 261,
       "sold": 75,
       "fake": 0,
-      "live": 185,
+      "live": 186,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 18,
+        "sold": 1,
+        "fake": 0,
+        "live": 17,
+        "soldPct": 6,
+        "livePct": 94
+      },
       "Greco": {
         "total": 3,
         "sold": 0,
@@ -10579,14 +10618,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "BC Rich": {
-        "total": 17,
-        "sold": 1,
-        "fake": 0,
-        "live": 16,
-        "soldPct": 6,
-        "livePct": 94
       },
       "Music Man": {
         "total": 8,
@@ -11183,7 +11214,7 @@
     },
     {
       "label": "6–15",
-      "total": 46,
+      "total": 47,
       "sold": 14,
       "rate": 30
     },
@@ -11202,7 +11233,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 149,
+      "total": 150,
       "sold": 46,
       "rate": 31
     },
@@ -11219,9 +11250,9 @@
       "rate": 20
     },
     "regular": {
-      "total": 92,
+      "total": 93,
       "sold": 32,
-      "rate": 35
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -11336,6 +11367,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "DE",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
