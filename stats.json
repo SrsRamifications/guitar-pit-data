@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T21:54:23.683Z",
-  "totalLinks": 291,
-  "totalWithPrice": 286,
+  "generatedAt": "2026-04-06T21:56:17.882Z",
+  "totalLinks": 292,
+  "totalWithPrice": 287,
   "overall": {
-    "count": 286,
-    "sum": 1107757.2,
-    "avg": 3873,
+    "count": 287,
+    "sum": 1111756.2,
+    "avg": 3874,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 272,
-    "sum": 726083.21,
-    "avg": 2669,
+    "count": 273,
+    "sum": 730082.21,
+    "avg": 2674,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8492,
+    "thresholdHigh": 8627,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 156,
-      "sum": 502364.84,
+      "count": 157,
+      "sum": 506363.84,
       "min": 26,
       "max": 49000,
-      "avg": 3220
+      "avg": 3225
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 258,
-      "sum": 857497.31,
+      "count": 259,
+      "sum": 861496.31,
       "min": 26,
       "max": 49000,
-      "avg": 3324
+      "avg": 3326
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 258,
-      "sum": 857497.31,
+      "count": 259,
+      "sum": 861496.31,
       "min": 26,
       "max": 49000,
-      "avg": 3324
+      "avg": 3326
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "bc-rich-explorer-usa": {
+      "displayName": "B.C. Rich USA Custom Explorer Natural 1985",
+      "brand": "BC Rich",
+      "model": "Explorer",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 3999,
+      "min": 3999,
+      "max": 3999,
+      "sightings": [
+        {
+          "price": 3999,
+          "date": "2026-04-06T21:56:03.416Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich USA Custom Explorer Natural 1985",
+          "url": "https://reverb.com/item/91888011-b-c-rich-usa-custom-explorer-natural-1985",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3999,
+          "min": 3999,
+          "max": 3999,
+          "avg": 3999
+        }
+      },
+      "avg": 3999
+    },
     "gibson-sg-standard-custom-shop-reissue": {
       "displayName": "Gibson Custom Shop '61 Reissue Les Paul SG Standard '24",
       "brand": "Gibson",
@@ -5899,52 +5930,6 @@
       },
       "avg": 1350
     },
-    "prs-private-stock-studio-private-stock": {
-      "displayName": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
-      "brand": "PRS",
-      "model": "Private Stock Studio",
-      "variant": "Private Stock",
-      "count": 1,
-      "sum": 6999,
-      "min": 6999,
-      "max": 6999,
-      "sightings": [
-        {
-          "price": 6999,
-          "date": "2026-03-30T23:50:13.271Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
-          "url": "https://reverb.com/item/95554180-prs-private-stock-9725-studio-duvall-red-2022-w-ohsc-cocobolo-neck-korina-body",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 6999,
-          "min": 6999,
-          "max": 6999,
-          "avg": 6999
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 6999,
-        "min": 6999,
-        "max": 6999,
-        "prices": [
-          {
-            "price": 6999,
-            "askingPrice": 6999,
-            "date": "2026-03-31T02:42:59.333Z",
-            "title": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
-            "url": "https://reverb.com/item/95554180-prs-private-stock-9725-studio-duvall-red-2022-w-ohsc-cocobolo-neck-korina-body"
-          }
-        ]
-      },
-      "avg": 6999
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9295,9 +9280,69 @@
         }
       },
       "avg": 2199
+    },
+    "prs-private-stock-studio-private-stock": {
+      "displayName": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
+      "brand": "PRS",
+      "model": "Private Stock Studio",
+      "variant": "Private Stock",
+      "count": 1,
+      "sum": 6999,
+      "min": 6999,
+      "max": 6999,
+      "sightings": [
+        {
+          "price": 6999,
+          "date": "2026-03-30T23:50:13.271Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
+          "url": "https://reverb.com/item/95554180-prs-private-stock-9725-studio-duvall-red-2022-w-ohsc-cocobolo-neck-korina-body",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 6999,
+          "min": 6999,
+          "max": 6999,
+          "avg": 6999
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 6999,
+        "min": 6999,
+        "max": 6999,
+        "prices": [
+          {
+            "price": 6999,
+            "askingPrice": 6999,
+            "date": "2026-03-31T02:42:59.333Z",
+            "title": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
+            "url": "https://reverb.com/item/95554180-prs-private-stock-9725-studio-duvall-red-2022-w-ohsc-cocobolo-neck-korina-body"
+          }
+        ]
+      },
+      "avg": 6999
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 108,
+      "sum": 419942.68,
+      "sold": {
+        "count": 36,
+        "sum": 125275.4,
+        "avg": 3480,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3888,
+      "min": 26,
+      "max": 49000
+    },
     "Very Good": {
       "count": 80,
       "sum": 213108.55999999994,
@@ -9325,20 +9370,6 @@
       "avg": 2271,
       "min": 414,
       "max": 6500
-    },
-    "Excellent": {
-      "count": 107,
-      "sum": 415943.68,
-      "sold": {
-        "count": 36,
-        "sum": 125275.4,
-        "avg": 3480,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3887,
-      "min": 26,
-      "max": 49000
     },
     "Fair": {
       "count": 8,
@@ -9419,8 +9450,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3220,
-      "count": 156
+      "avg": 3225,
+      "count": 157
     },
     "03": {
       "name": "Mar",
@@ -9575,7 +9606,7 @@
     "500-1k": 19,
     "1k-2k": 74,
     "2k-3k": 75,
-    "3k-5k": 73,
+    "3k-5k": 74,
     "5k-10k": 23,
     "10k+": 10
   },
@@ -9584,7 +9615,7 @@
     "500-1k": 19,
     "1k-2k": 74,
     "2k-3k": 75,
-    "3k-5k": 73,
+    "3k-5k": 74,
     "5k-10k": 19,
     "10k+": 0
   },
@@ -9966,7 +9997,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 17,
+    "2026-04-06": 18,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9980,10 +10011,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 258,
+    "reverb": 259,
     "marketplace": 33
   },
-  "activeModelsCount": 248,
+  "activeModelsCount": 249,
   "topPosters": [
     {
       "username": "GP",
@@ -10003,7 +10034,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 22
+      "count": 23
     },
     {
       "username": "Madero",
@@ -10028,9 +10059,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3220,
+    "avg": 3225,
     "pctBelowAvg": 17,
-    "count": 156
+    "count": 157
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10399,14 +10430,6 @@
         "slowest": 2,
         "avgDays": 2
       },
-      "prs-private-stock-studio-private-stock": {
-        "displayName": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
-      },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
         "totalDays": 1,
@@ -10622,6 +10645,14 @@
         "fastest": 16.3,
         "slowest": 16.3,
         "avgDays": 16.3
+      },
+      "prs-private-stock-studio-private-stock": {
+        "displayName": "PRS Private Stock #9725 Studio Duvall Red 2022 w/ OHSC - Cocobolo Neck, Korina Body",
+        "totalDays": 0.1,
+        "count": 1,
+        "fastest": 0.1,
+        "slowest": 0.1,
+        "avgDays": 0.1
       }
     },
     "byBrand": {
@@ -10888,11 +10919,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 975.9704090989849,
-      "count": 55,
-      "avgPctDrop": 17.7
+      "totalPctDrop": 1028.9178146761114,
+      "count": 56,
+      "avgPctDrop": 18.4
     },
     "byBrand": {
+      "BC Rich": {
+        "totalPctDrop": 173.4796854958958,
+        "count": 4,
+        "avgPctDrop": 43.4
+      },
       "Echopark": {
         "totalPctDrop": 27.183436687337466,
         "count": 2,
@@ -10932,11 +10968,6 @@
         "totalPctDrop": 55.338121782715056,
         "count": 3,
         "avgPctDrop": 18.4
-      },
-      "BC Rich": {
-        "totalPctDrop": 120.53227991876909,
-        "count": 3,
-        "avgPctDrop": 40.2
       },
       "Kauer": {
         "totalPctDrop": 7.8431372549019605,
@@ -11042,14 +11073,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 274,
+      "total": 275,
       "sold": 77,
       "fake": 0,
-      "live": 197,
+      "live": 198,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 21,
+        "sold": 1,
+        "fake": 0,
+        "live": 20,
+        "soldPct": 5,
+        "livePct": 95
+      },
       "Gibson": {
         "total": 32,
         "sold": 7,
@@ -11097,14 +11136,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "BC Rich": {
-        "total": 20,
-        "sold": 1,
-        "fake": 0,
-        "live": 19,
-        "soldPct": 5,
-        "livePct": 95
       },
       "Novo": {
         "total": 3,
@@ -11685,8 +11716,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 73,
-    "totalOffers": 143,
+    "withOffers": 74,
+    "totalOffers": 147,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 61
   },
@@ -11721,14 +11752,14 @@
     },
     {
       "label": "31+",
-      "total": 66,
+      "total": 67,
       "sold": 11,
-      "rate": 17
+      "rate": 16
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 158,
+      "total": 159,
       "sold": 48,
       "rate": 30
     },
@@ -11745,7 +11776,7 @@
       "rate": 20
     },
     "regular": {
-      "total": 102,
+      "total": 103,
       "sold": 33,
       "rate": 32
     }
@@ -11753,9 +11784,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 27,
+      "total": 28,
       "sold": 6,
-      "rate": 22
+      "rate": 21
     },
     {
       "state": "TX",
