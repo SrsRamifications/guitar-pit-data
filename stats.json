@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T15:47:47.265Z",
-  "totalLinks": 283,
-  "totalWithPrice": 278,
+  "generatedAt": "2026-04-06T15:49:05.093Z",
+  "totalLinks": 284,
+  "totalWithPrice": 279,
   "overall": {
-    "count": 278,
-    "sum": 1090966.2,
-    "avg": 3924,
+    "count": 279,
+    "sum": 1091966.2,
+    "avg": 3914,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 264,
-    "sum": 709292.21,
-    "avg": 2687,
+    "count": 265,
+    "sum": 710292.21,
+    "avg": 2680,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8535,
+    "thresholdHigh": 8627,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 148,
-      "sum": 485573.84,
+      "count": 149,
+      "sum": 486573.84,
       "min": 26,
       "max": 49000,
-      "avg": 3281
+      "avg": 3266
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 250,
-      "sum": 840706.31,
+      "count": 251,
+      "sum": 841706.31,
       "min": 26,
       "max": 49000,
-      "avg": 3363
+      "avg": 3353
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 250,
-      "sum": 840706.31,
+      "count": 251,
+      "sum": 841706.31,
       "min": 26,
       "max": 49000,
-      "avg": 3363
+      "avg": 3353
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "edwards-e-k-130vp-dir-en-signature": {
+      "displayName": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
+      "brand": "Edwards",
+      "model": "E-K-130Vp DIR EN",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 1000,
+      "min": 1000,
+      "max": 1000,
+      "sightings": [
+        {
+          "price": 1000,
+          "date": "2026-04-06T15:48:50.335Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
+          "url": "https://reverb.com/item/94444911-edwards-e-k-130vp-dir-en-grey-signature-black-made-in-japan",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1000,
+          "min": 1000,
+          "max": 1000,
+          "avg": 1000
+        }
+      },
+      "avg": 1000
+    },
     "bc-rich-eagle": {
       "displayName": "B.C. Rich Eagle 1983 - White",
       "brand": "BC Rich",
@@ -5959,52 +5990,6 @@
       },
       "avg": 4699
     },
-    "eastman-sb54tv": {
-      "displayName": "Eastman SB54/TV, Gold",
-      "brand": "Eastman",
-      "model": "SB54/TV,",
-      "variant": null,
-      "count": 1,
-      "sum": 1600,
-      "min": 1600,
-      "max": 1600,
-      "sightings": [
-        {
-          "price": 1600,
-          "date": "2026-03-30T18:52:31.051Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman SB54/TV, Gold",
-          "url": "https://reverb.com/item/95549936-eastman-sb54-tv-gold",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1600,
-        "min": 1600,
-        "max": 1600,
-        "prices": [
-          {
-            "price": 1600,
-            "askingPrice": 1600,
-            "date": "2026-03-31T14:52:14.009Z",
-            "title": "Eastman SB54/TV, Gold",
-            "url": "https://reverb.com/item/95549936-eastman-sb54-tv-gold"
-          }
-        ]
-      },
-      "avg": 1600
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9047,12 +9032,58 @@
         }
       },
       "avg": 1529
+    },
+    "eastman-sb54tv": {
+      "displayName": "Eastman SB54/TV, Gold",
+      "brand": "Eastman",
+      "model": "SB54/TV,",
+      "variant": null,
+      "count": 1,
+      "sum": 1600,
+      "min": 1600,
+      "max": 1600,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-03-30T18:52:31.051Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB54/TV, Gold",
+          "url": "https://reverb.com/item/95549936-eastman-sb54-tv-gold",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1600,
+        "min": 1600,
+        "max": 1600,
+        "prices": [
+          {
+            "price": 1600,
+            "askingPrice": 1600,
+            "date": "2026-03-31T14:52:14.009Z",
+            "title": "Eastman SB54/TV, Gold",
+            "url": "https://reverb.com/item/95549936-eastman-sb54-tv-gold"
+          }
+        ]
+      },
+      "avg": 1600
     }
   },
   "byCondition": {
     "Very Good": {
-      "count": 76,
-      "sum": 204358.55999999994,
+      "count": 77,
+      "sum": 205358.55999999994,
       "sold": {
         "count": 21,
         "sum": 47382.78,
@@ -9060,7 +9091,7 @@
         "min": 165,
         "max": 3999.99
       },
-      "avg": 2689,
+      "avg": 2667,
       "min": 33,
       "max": 16500
     },
@@ -9171,8 +9202,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3281,
-      "count": 148
+      "avg": 3266,
+      "count": 149
     },
     "03": {
       "name": "Mar",
@@ -9325,7 +9356,7 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 70,
+    "1k-2k": 71,
     "2k-3k": 74,
     "3k-5k": 71,
     "5k-10k": 23,
@@ -9334,13 +9365,18 @@
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 70,
+    "1k-2k": 71,
     "2k-3k": 74,
     "3k-5k": 71,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Edwards": {
+      "sum": 1,
+      "count": 1,
+      "avg": 1
+    },
     "BC Rich": {
       "sum": 135,
       "count": 19,
@@ -9708,7 +9744,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 9,
+    "2026-04-06": 10,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9722,14 +9758,14 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 250,
+    "reverb": 251,
     "marketplace": 33
   },
-  "activeModelsCount": 240,
+  "activeModelsCount": 241,
   "topPosters": [
     {
       "username": "GP",
-      "count": 107
+      "count": 108
     },
     {
       "username": "Beijing Bob",
@@ -9770,9 +9806,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3281,
-    "pctBelowAvg": 16,
-    "count": 148
+    "avg": 3266,
+    "pctBelowAvg": 17,
+    "count": 149
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10181,14 +10217,6 @@
         "slowest": 5.9,
         "avgDays": 5.9
       },
-      "eastman-sb54tv": {
-        "displayName": "Eastman SB54/TV, Gold",
-        "totalDays": 0.9,
-        "count": 1,
-        "fastest": 0.9,
-        "slowest": 0.9,
-        "avgDays": 0.9
-      },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
         "totalDays": 1,
@@ -10364,6 +10392,14 @@
         "fastest": 121.4,
         "slowest": 121.4,
         "avgDays": 121.4
+      },
+      "eastman-sb54tv": {
+        "displayName": "Eastman SB54/TV, Gold",
+        "totalDays": 0.9,
+        "count": 1,
+        "fastest": 0.9,
+        "slowest": 0.9,
+        "avgDays": 0.9
       }
     },
     "byBrand": {
@@ -10549,13 +10585,6 @@
         "slowest": 2,
         "avgDays": 2
       },
-      "Eastman": {
-        "totalDays": 0.9,
-        "count": 1,
-        "fastest": 0.9,
-        "slowest": 0.9,
-        "avgDays": 0.9
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -10625,6 +10654,13 @@
         "fastest": 121.4,
         "slowest": 121.4,
         "avgDays": 121.4
+      },
+      "Eastman": {
+        "totalDays": 0.9,
+        "count": 1,
+        "fastest": 0.9,
+        "slowest": 0.9,
+        "avgDays": 0.9
       }
     }
   },
@@ -10784,14 +10820,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 266,
+      "total": 267,
       "sold": 77,
       "fake": 0,
-      "live": 189,
+      "live": 190,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Edwards": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "BC Rich": {
         "total": 20,
         "sold": 1,
@@ -11435,7 +11479,7 @@
     },
     {
       "label": "6–15",
-      "total": 46,
+      "total": 47,
       "sold": 14,
       "rate": 30
     },
@@ -11454,7 +11498,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 154,
+      "total": 155,
       "sold": 48,
       "rate": 31
     },
@@ -11466,7 +11510,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 94,
+      "total": 95,
       "sold": 20,
       "rate": 21
     },
@@ -11479,9 +11523,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 25,
+      "total": 26,
       "sold": 6,
-      "rate": 24
+      "rate": 23
     },
     {
       "state": "TX",
