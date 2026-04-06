@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-06T00:19:54.087Z",
-  "totalLinks": 274,
-  "totalWithPrice": 269,
+  "generatedAt": "2026-04-06T00:43:37.903Z",
+  "totalLinks": 275,
+  "totalWithPrice": 270,
   "overall": {
-    "count": 269,
-    "sum": 1065514.2,
-    "avg": 3961,
+    "count": 270,
+    "sum": 1077014.2,
+    "avg": 3989,
     "min": 26,
     "max": 99000
   },
@@ -18,9 +18,9 @@
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8495,
+    "thresholdHigh": 8510,
     "thresholdLow": 0,
-    "count": 13,
+    "count": 14,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -79,6 +79,14 @@
         "postedAt": "2026-04-02T21:09:14.902Z"
       },
       {
+        "title": "2018 Echopark Ancient Sinker Redwood Southsider",
+        "url": "https://reverb.com/item/37361458-2018-echopark-ancient-sinker-redwood-southsider",
+        "price": "$11,500",
+        "image": "https://rvb-img.reverb.com/i/s--H1KlJ5N9--/quality=medium-low,height=800,width=800,fit=contain/7b16d671-5ec2-4521-a7f6-08c120d6495f.jpeg",
+        "condition": "Mint",
+        "postedAt": "2026-04-06T00:43:23.206Z"
+      },
+      {
         "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
         "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
         "price": "$10,495",
@@ -129,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 139,
-      "sum": 457489.84,
+      "count": 140,
+      "sum": 468989.84,
       "min": 26,
       "max": 49000,
-      "avg": 3291
+      "avg": 3350
     },
     "2026-03": {
       "count": 130,
@@ -145,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 241,
-      "sum": 815254.31,
+      "count": 242,
+      "sum": 826754.31,
       "min": 26,
       "max": 49000,
-      "avg": 3383
+      "avg": 3416
     },
     "marketplace": {
       "count": 28,
@@ -161,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 241,
-      "sum": 815254.31,
+      "count": 242,
+      "sum": 826754.31,
       "min": 26,
       "max": 49000,
-      "avg": 3383
+      "avg": 3416
     },
     "guitarcenter.com": {
       "count": 10,
@@ -225,6 +233,37 @@
     }
   },
   "byModel": {
+    "echopark-ancient-sinker-redwood": {
+      "displayName": "2018 Echopark Ancient Sinker Redwood Southsider",
+      "brand": "Echopark",
+      "model": "Ancient Sinker Redwood",
+      "variant": null,
+      "count": 1,
+      "sum": 11500,
+      "min": 11500,
+      "max": 11500,
+      "sightings": [
+        {
+          "price": 11500,
+          "date": "2026-04-06T00:43:23.206Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2018 Echopark Ancient Sinker Redwood Southsider",
+          "url": "https://reverb.com/item/37361458-2018-echopark-ancient-sinker-redwood-southsider",
+          "condition": "Mint"
+        }
+      ],
+      "byCondition": {
+        "Mint": {
+          "count": 1,
+          "sum": 11500,
+          "min": 11500,
+          "max": 11500,
+          "avg": 11500
+        }
+      },
+      "avg": 11500
+    },
     "gibson-sg": {
       "displayName": "2019 Gibson SG - 6.85 LBS",
       "brand": "Gibson",
@@ -5920,37 +5959,6 @@
       },
       "avg": 414
     },
-    "gibson-nos-archtop-1960s-nos": {
-      "displayName": "NOS Gibson Archtop 1960s Brazilian Rosewood saddle / bridge • L5 Super 400 etc.",
-      "brand": "Gibson",
-      "model": "NOS Archtop 1960s",
-      "variant": "Nos",
-      "count": 1,
-      "sum": 135,
-      "min": 135,
-      "max": 135,
-      "sightings": [
-        {
-          "price": 135,
-          "date": "2026-03-30T03:27:12.365Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "NOS Gibson Archtop 1960s Brazilian Rosewood saddle / bridge • L5 Super 400 etc.",
-          "url": "https://reverb.com/item/88271107-nos-gibson-archtop-1960s-brazilian-rosewood-saddle-bridge-l5-super-400-etc",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 135,
-          "min": 135,
-          "max": 135,
-          "avg": 135
-        }
-      },
-      "avg": 135
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -8700,9 +8708,54 @@
         }
       },
       "avg": 5000
+    },
+    "gibson-nos-archtop-1960s-nos": {
+      "displayName": "NOS Gibson Archtop 1960s Brazilian Rosewood saddle / bridge • L5 Super 400 etc.",
+      "brand": "Gibson",
+      "model": "NOS Archtop 1960s",
+      "variant": "Nos",
+      "count": 1,
+      "sum": 135,
+      "min": 135,
+      "max": 135,
+      "sightings": [
+        {
+          "price": 135,
+          "date": "2026-03-30T03:27:12.365Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "NOS Gibson Archtop 1960s Brazilian Rosewood saddle / bridge • L5 Super 400 etc.",
+          "url": "https://reverb.com/item/88271107-nos-gibson-archtop-1960s-brazilian-rosewood-saddle-bridge-l5-super-400-etc",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 135,
+          "min": 135,
+          "max": 135,
+          "avg": 135
+        }
+      },
+      "avg": 135
     }
   },
   "byCondition": {
+    "Mint": {
+      "count": 8,
+      "sum": 44405,
+      "sold": {
+        "count": 1,
+        "sum": 4399,
+        "avg": 4399,
+        "min": 4399,
+        "max": 4399
+      },
+      "avg": 5551,
+      "min": 1050,
+      "max": 11500
+    },
     "Very Good": {
       "count": 71,
       "sum": 196728.55999999997,
@@ -8784,20 +8837,6 @@
       "min": 414,
       "max": 6500
     },
-    "Mint": {
-      "count": 7,
-      "sum": 32905,
-      "sold": {
-        "count": 1,
-        "sum": 4399,
-        "avg": 4399,
-        "min": 4399,
-        "max": 4399
-      },
-      "avg": 4701,
-      "min": 1050,
-      "max": 10000
-    },
     "B-Stock": {
       "count": 1,
       "sum": 1039,
@@ -8824,8 +8863,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3291,
-      "count": 139
+      "avg": 3350,
+      "count": 140
     },
     "03": {
       "name": "Mar",
@@ -8982,7 +9021,7 @@
     "2k-3k": 71,
     "3k-5k": 69,
     "5k-10k": 24,
-    "10k+": 9
+    "10k+": 10
   },
   "priceDistributionFiltered": {
     "0-500": 11,
@@ -9035,7 +9074,7 @@
       "avg": 9
     },
     "PRS": {
-      "sum": 218,
+      "sum": 219,
       "count": 25,
       "avg": 9
     },
@@ -9095,7 +9134,7 @@
       "avg": 1
     },
     "Suhr": {
-      "sum": 16,
+      "sum": 17,
       "count": 5,
       "avg": 3
     },
@@ -9346,6 +9385,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-06": 1,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9359,10 +9399,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 241,
+    "reverb": 242,
     "marketplace": 33
   },
-  "activeModelsCount": 231,
+  "activeModelsCount": 232,
   "topPosters": [
     {
       "username": "GP",
@@ -9386,7 +9426,7 @@
     },
     {
       "username": "Madero",
-      "count": 11
+      "count": 12
     },
     {
       "username": "Modean",
@@ -9407,9 +9447,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3291,
-    "pctBelowAvg": 17,
-    "count": 139
+    "avg": 3350,
+    "pctBelowAvg": 16,
+    "count": 140
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10360,14 +10400,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 254,
+      "total": 255,
       "sold": 73,
       "fake": 0,
-      "live": 181,
+      "live": 182,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Echopark": {
+        "total": 5,
+        "sold": 1,
+        "fake": 0,
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
+      },
       "Gibson": {
         "total": 28,
         "sold": 6,
@@ -10712,14 +10760,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Echopark": {
-        "total": 4,
-        "sold": 1,
-        "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
-      },
       "Hamer": {
         "total": 2,
         "sold": 0,
@@ -10955,8 +10995,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 69,
-    "totalOffers": 136,
+    "withOffers": 70,
+    "totalOffers": 138,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 61
   },
@@ -10991,14 +11031,14 @@
     },
     {
       "label": "31+",
-      "total": 61,
+      "total": 62,
       "sold": 9,
       "rate": 15
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 146,
+      "total": 147,
       "sold": 44,
       "rate": 30
     },
@@ -11010,9 +11050,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 92,
+      "total": 93,
       "sold": 19,
-      "rate": 21
+      "rate": 20
     },
     "regular": {
       "total": 91,
@@ -11132,6 +11172,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "CO",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
