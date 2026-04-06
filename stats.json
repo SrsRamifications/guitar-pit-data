@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-06T15:49:05.093Z",
-  "totalLinks": 284,
-  "totalWithPrice": 279,
+  "generatedAt": "2026-04-06T15:49:42.354Z",
+  "totalLinks": 285,
+  "totalWithPrice": 280,
   "overall": {
-    "count": 279,
-    "sum": 1091966.2,
-    "avg": 3914,
+    "count": 280,
+    "sum": 1092566.2,
+    "avg": 3902,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 265,
-    "sum": 710292.21,
-    "avg": 2680,
+    "count": 266,
+    "sum": 710892.21,
+    "avg": 2673,
     "min": 26,
     "max": 8000,
     "median": 2400
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 149,
-      "sum": 486573.84,
+      "count": 150,
+      "sum": 487173.84,
       "min": 26,
       "max": 49000,
-      "avg": 3266
+      "avg": 3248
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 251,
-      "sum": 841706.31,
+      "count": 252,
+      "sum": 842306.31,
       "min": 26,
       "max": 49000,
-      "avg": 3353
+      "avg": 3342
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 251,
-      "sum": 841706.31,
+      "count": 252,
+      "sum": 842306.31,
       "min": 26,
       "max": 49000,
-      "avg": 3353
+      "avg": 3342
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "ampeg-amg1-1990s-2000s-quilted": {
+      "displayName": "Ampeg AMG1 1990s-2000s - Quilted Sunburst",
+      "brand": "Ampeg",
+      "model": "AMG1 1990s-2000s Quilted",
+      "variant": null,
+      "count": 1,
+      "sum": 600,
+      "min": 600,
+      "max": 600,
+      "sightings": [
+        {
+          "price": 600,
+          "date": "2026-04-06T15:49:27.977Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ampeg AMG1 1990s-2000s - Quilted Sunburst",
+          "url": "https://reverb.com/item/95419807",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 600,
+          "min": 600,
+          "max": 600,
+          "avg": 600
+        }
+      },
+      "avg": 600
+    },
     "edwards-e-k-130vp-dir-en-signature": {
       "displayName": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
       "brand": "Edwards",
@@ -9081,6 +9112,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 31,
+      "sum": 69773.95000000001,
+      "sold": {
+        "count": 8,
+        "sum": 16900.46,
+        "avg": 2113,
+        "min": 540,
+        "max": 4777.5
+      },
+      "avg": 2251,
+      "min": 414,
+      "max": 6500
+    },
     "Very Good": {
       "count": 77,
       "sum": 205358.55999999994,
@@ -9162,20 +9207,6 @@
       "min": 1109.99,
       "max": 99000
     },
-    "Good": {
-      "count": 30,
-      "sum": 69173.95,
-      "sold": {
-        "count": 8,
-        "sum": 16900.46,
-        "avg": 2113,
-        "min": 540,
-        "max": 4777.5
-      },
-      "avg": 2306,
-      "min": 414,
-      "max": 6500
-    },
     "B-Stock": {
       "count": 1,
       "sum": 1039,
@@ -9202,8 +9233,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3266,
-      "count": 149
+      "avg": 3248,
+      "count": 150
     },
     "03": {
       "name": "Mar",
@@ -9355,7 +9386,7 @@
   ],
   "priceDistribution": {
     "0-500": 12,
-    "500-1k": 18,
+    "500-1k": 19,
     "1k-2k": 71,
     "2k-3k": 74,
     "3k-5k": 71,
@@ -9364,7 +9395,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 12,
-    "500-1k": 18,
+    "500-1k": 19,
     "1k-2k": 71,
     "2k-3k": 74,
     "3k-5k": 71,
@@ -9372,6 +9403,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ampeg": {
+      "sum": 12,
+      "count": 1,
+      "avg": 12
+    },
     "Edwards": {
       "sum": 1,
       "count": 1,
@@ -9744,7 +9780,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 10,
+    "2026-04-06": 11,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9758,10 +9794,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 251,
+    "reverb": 252,
     "marketplace": 33
   },
-  "activeModelsCount": 241,
+  "activeModelsCount": 242,
   "topPosters": [
     {
       "username": "GP",
@@ -9806,9 +9842,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3266,
+    "avg": 3248,
     "pctBelowAvg": 17,
-    "count": 149
+    "count": 150
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9852,7 +9888,7 @@
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 544.2,
+      "totalDays": 544.1999999999999,
       "count": 77,
       "avgDays": 7.1
     },
@@ -10820,14 +10856,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 267,
+      "total": 268,
       "sold": 77,
       "fake": 0,
-      "live": 190,
+      "live": 191,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Ampeg": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Edwards": {
         "total": 1,
         "sold": 0,
@@ -11455,8 +11499,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 72,
-    "totalOffers": 142,
+    "withOffers": 73,
+    "totalOffers": 143,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 62
   },
@@ -11479,9 +11523,9 @@
     },
     {
       "label": "6–15",
-      "total": 47,
+      "total": 48,
       "sold": 14,
-      "rate": 30
+      "rate": 29
     },
     {
       "label": "16–30",
@@ -11498,7 +11542,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 155,
+      "total": 156,
       "sold": 48,
       "rate": 31
     },
@@ -11515,9 +11559,9 @@
       "rate": 21
     },
     "regular": {
-      "total": 98,
+      "total": 99,
       "sold": 33,
-      "rate": 34
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -11564,16 +11608,16 @@
       "rate": 38
     },
     {
+      "state": "MA",
+      "total": 6,
+      "sold": 1,
+      "rate": 17
+    },
+    {
       "state": "TN",
       "total": 5,
       "sold": 2,
       "rate": 40
-    },
-    {
-      "state": "MA",
-      "total": 5,
-      "sold": 1,
-      "rate": 20
     },
     {
       "state": "NJ",
