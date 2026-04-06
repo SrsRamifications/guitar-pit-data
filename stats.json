@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T23:07:25.995Z",
-  "totalLinks": 301,
-  "totalWithPrice": 296,
+  "generatedAt": "2026-04-06T23:19:25.962Z",
+  "totalLinks": 302,
+  "totalWithPrice": 297,
   "overall": {
-    "count": 296,
-    "sum": 1134175.2,
-    "avg": 3832,
+    "count": 297,
+    "sum": 1136170.2,
+    "avg": 3825,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 282,
-    "sum": 752501.21,
-    "avg": 2668,
+    "count": 283,
+    "sum": 754496.21,
+    "avg": 2666,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8400,
+    "thresholdHigh": 8385,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 166,
-      "sum": 528782.84,
+      "count": 167,
+      "sum": 530777.84,
       "min": 26,
       "max": 49000,
-      "avg": 3185
+      "avg": 3178
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 268,
-      "sum": 883915.31,
+      "count": 269,
+      "sum": 885910.31,
       "min": 26,
       "max": 49000,
-      "avg": 3298
+      "avg": 3293
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 268,
-      "sum": 883915.31,
+      "count": 269,
+      "sum": 885910.31,
       "min": 26,
       "max": 49000,
-      "avg": 3298
+      "avg": 3293
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "gibson-melody-maker": {
+      "displayName": "Gibson Melody Maker Sparkling Burgundy 1968",
+      "brand": "Gibson",
+      "model": "Melody Maker",
+      "variant": null,
+      "count": 1,
+      "sum": 1995,
+      "min": 1995,
+      "max": 1995,
+      "sightings": [
+        {
+          "price": 1995,
+          "date": "2026-04-06T23:19:11.158Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Melody Maker Sparkling Burgundy 1968",
+          "url": "https://reverb.com/item/95714191-gibson-melody-maker-sparkling-burgundy-1968",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1995,
+          "min": 1995,
+          "max": 1995,
+          "avg": 1995
+        }
+      },
+      "avg": 1995
+    },
     "bc-rich-bc-platinum-series": {
       "displayName": "B.C. Rich bc Platinum Series Warlock Guitar - MIK Made In Korea - headstock repaired - Pink",
       "brand": "BC Rich",
@@ -5981,37 +6012,6 @@
       },
       "avg": 5319
     },
-    "fender-stratocaster-custom-shop-reissue": {
-      "displayName": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": "Custom Shop Reissue",
-      "count": 1,
-      "sum": 3684,
-      "min": 3684,
-      "max": 3684,
-      "sightings": [
-        {
-          "price": 3684,
-          "date": "2026-03-31T08:34:36.348Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
-          "url": "https://reverb.com/en-pt/item/91114676-fender-custom-shop-57-reissue-stratocaster-relic-aged-fiesta-red",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 3684,
-          "min": 3684,
-          "max": 3684,
-          "avg": 3684
-        }
-      },
-      "avg": 3684
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9599,9 +9599,54 @@
         ]
       },
       "avg": 600
+    },
+    "fender-stratocaster-custom-shop-reissue": {
+      "displayName": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": "Custom Shop Reissue",
+      "count": 1,
+      "sum": 3684,
+      "min": 3684,
+      "max": 3684,
+      "sightings": [
+        {
+          "price": 3684,
+          "date": "2026-03-31T08:34:36.348Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
+          "url": "https://reverb.com/en-pt/item/91114676-fender-custom-shop-57-reissue-stratocaster-relic-aged-fiesta-red",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 3684,
+          "min": 3684,
+          "max": 3684,
+          "avg": 3684
+        }
+      },
+      "avg": 3684
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 36,
+      "sum": 85029.95,
+      "sold": {
+        "count": 9,
+        "sum": 18699.46,
+        "avg": 2078,
+        "min": 540,
+        "max": 4777.5
+      },
+      "avg": 2362,
+      "min": 414,
+      "max": 6500
+    },
     "Fair": {
       "count": 9,
       "sum": 19957,
@@ -9643,20 +9688,6 @@
       "avg": 2635,
       "min": 33,
       "max": 16500
-    },
-    "Good": {
-      "count": 35,
-      "sum": 83034.95,
-      "sold": {
-        "count": 9,
-        "sum": 18699.46,
-        "avg": 2078,
-        "min": 540,
-        "max": 4777.5
-      },
-      "avg": 2372,
-      "min": 414,
-      "max": 6500
     },
     "Mint": {
       "count": 8,
@@ -9723,8 +9754,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3185,
-      "count": 166
+      "avg": 3178,
+      "count": 167
     },
     "03": {
       "name": "Mar",
@@ -9832,13 +9863,6 @@
       "date": "2026-04-02T23:22:27.116Z"
     },
     {
-      "title": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
-      "url": "https://reverb.com/en-pt/item/91114676-fender-custom-shop-57-reissue-stratocaster-relic-aged-fiesta-red",
-      "oldPrice": "$5,668",
-      "newPrice": "$3,684",
-      "date": "2026-04-06T03:01:24.177Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -9872,12 +9896,19 @@
       "oldPrice": "$2,000",
       "newPrice": "$1,700",
       "date": "2026-04-01T22:44:47.805Z"
+    },
+    {
+      "title": "Ibanez JEM7-RB 1988 - Root Beer",
+      "url": "https://reverb.com/item/95464810-ibanez-jem7-rb-1988-root-beer",
+      "oldPrice": "$5,000",
+      "newPrice": "$4,250",
+      "date": "2026-04-01T17:43:44.200Z"
     }
   ],
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 19,
-    "1k-2k": 77,
+    "1k-2k": 78,
     "2k-3k": 78,
     "3k-5k": 75,
     "5k-10k": 24,
@@ -9886,13 +9917,18 @@
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 19,
-    "1k-2k": 77,
+    "1k-2k": 78,
     "2k-3k": 78,
     "3k-5k": 75,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 278,
+      "count": 30,
+      "avg": 9
+    },
     "BC Rich": {
       "sum": 136,
       "count": 21,
@@ -9922,11 +9958,6 @@
       "sum": 243,
       "count": 27,
       "avg": 9
-    },
-    "Gibson": {
-      "sum": 278,
-      "count": 29,
-      "avg": 10
     },
     "Music Man": {
       "sum": 81,
@@ -10270,7 +10301,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 27,
+    "2026-04-06": 28,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -10284,10 +10315,10 @@
     "2026-03-30": 29
   },
   "categoryDistribution": {
-    "reverb": 268,
+    "reverb": 269,
     "marketplace": 33
   },
-  "activeModelsCount": 257,
+  "activeModelsCount": 258,
   "topPosters": [
     {
       "username": "GP",
@@ -10311,7 +10342,7 @@
     },
     {
       "username": "Madero",
-      "count": 14
+      "count": 15
     },
     {
       "username": "Modean",
@@ -10332,9 +10363,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3185,
+    "avg": 3178,
     "pctBelowAvg": 17,
-    "count": 166
+    "count": 167
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10345,10 +10376,10 @@
       "count": 20
     },
     "Gibson": {
-      "avgPrice": 3543,
+      "avgPrice": 3494,
       "retailEst": 800,
-      "avgDiscount": -342.9,
-      "count": 31
+      "avgDiscount": -336.8,
+      "count": 32
     },
     "PRS": {
       "avgPrice": 3031,
@@ -11354,14 +11385,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 284,
+      "total": 285,
       "sold": 78,
       "fake": 0,
-      "live": 206,
+      "live": 207,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 34,
+        "sold": 7,
+        "fake": 0,
+        "live": 27,
+        "soldPct": 21,
+        "livePct": 79
+      },
       "BC Rich": {
         "total": 23,
         "sold": 1,
@@ -11409,14 +11448,6 @@
         "live": 18,
         "soldPct": 38,
         "livePct": 62
-      },
-      "Gibson": {
-        "total": 33,
-        "sold": 7,
-        "fake": 0,
-        "live": 26,
-        "soldPct": 21,
-        "livePct": 79
       },
       "Music Man": {
         "total": 9,
@@ -12021,9 +12052,9 @@
     },
     {
       "label": "6–15",
-      "total": 52,
+      "total": 53,
       "sold": 14,
-      "rate": 27
+      "rate": 26
     },
     {
       "label": "16–30",
@@ -12040,7 +12071,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 166,
+      "total": 167,
       "sold": 48,
       "rate": 29
     },
@@ -12052,9 +12083,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 107,
+      "total": 108,
       "sold": 21,
-      "rate": 20
+      "rate": 19
     },
     "regular": {
       "total": 103,
@@ -12106,6 +12137,12 @@
       "rate": 13
     },
     {
+      "state": "IL",
+      "total": 7,
+      "sold": 1,
+      "rate": 14
+    },
+    {
       "state": "MA",
       "total": 7,
       "sold": 1,
@@ -12116,12 +12153,6 @@
       "total": 6,
       "sold": 2,
       "rate": 33
-    },
-    {
-      "state": "IL",
-      "total": 6,
-      "sold": 1,
-      "rate": 17
     },
     {
       "state": "NC",
