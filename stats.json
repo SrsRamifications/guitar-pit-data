@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-06T15:57:09.263Z",
-  "totalLinks": 286,
-  "totalWithPrice": 281,
+  "generatedAt": "2026-04-06T17:27:20.025Z",
+  "totalLinks": 287,
+  "totalWithPrice": 282,
   "overall": {
-    "count": 281,
-    "sum": 1094366.2,
-    "avg": 3895,
+    "count": 282,
+    "sum": 1097566.2,
+    "avg": 3892,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 267,
-    "sum": 712692.21,
-    "avg": 2669,
+    "count": 268,
+    "sum": 715892.21,
+    "avg": 2671,
     "min": 26,
     "max": 8000,
     "median": 2400
@@ -137,8 +137,8 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 151,
-      "sum": 488973.84,
+      "count": 152,
+      "sum": 492173.84,
       "min": 26,
       "max": 49000,
       "avg": 3238
@@ -153,8 +153,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 253,
-      "sum": 844106.31,
+      "count": 254,
+      "sum": 847306.31,
       "min": 26,
       "max": 49000,
       "avg": 3336
@@ -169,8 +169,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 253,
-      "sum": 844106.31,
+      "count": 254,
+      "sum": 847306.31,
       "min": 26,
       "max": 49000,
       "avg": 3336
@@ -203,13 +203,6 @@
       "max": 1899,
       "avg": 1899
     },
-    "mcallen.craigslist.org": {
-      "count": 1,
-      "sum": 7900,
-      "min": 7900,
-      "max": 7900,
-      "avg": 7900
-    },
     "tapestrymusic.com": {
       "count": 1,
       "sum": 10495,
@@ -230,9 +223,47 @@
       "min": 4324,
       "max": 4324,
       "avg": 4324
+    },
+    "mcallen.craigslist.org": {
+      "count": 1,
+      "sum": 7900,
+      "min": 7900,
+      "max": 7900,
+      "avg": 7900
     }
   },
   "byModel": {
+    "gibson-standard-custom-shop": {
+      "displayName": "2015 Gibson Custom Shop Johnny A Standard w/ COA Upgraded Rio Grande Texas BBQ Pickups (383)",
+      "brand": "Gibson",
+      "model": "Standard",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 3200,
+      "min": 3200,
+      "max": 3200,
+      "sightings": [
+        {
+          "price": 3200,
+          "date": "2026-04-06T17:27:05.129Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2015 Gibson Custom Shop Johnny A Standard w/ COA Upgraded Rio Grande Texas BBQ Pickups (383)",
+          "url": "https://reverb.com/item/95715305-2015-gibson-custom-shop-johnny-a-standard-w-coa-upgraded-rio-grande-texas-bbq-pickups-383",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3200,
+          "min": 3200,
+          "max": 3200,
+          "avg": 3200
+        }
+      },
+      "avg": 3200
+    },
     "washburn-nx6-ultra-rare-usa-ultra": {
       "displayName": "1996 Washburn NX6 USA Ultra Rare Stevens Extended Cutaway Very Good Condition (306)",
       "brand": "Washburn",
@@ -5913,53 +5944,6 @@
       },
       "avg": 2400
     },
-    "gibson-sg-custom": {
-      "displayName": "Gibson Les Paul SG Custom 1961 - White - musical instruments - by owner - sale - craigslist",
-      "brand": "Gibson",
-      "model": "SG Custom",
-      "variant": null,
-      "count": 2,
-      "sum": 10899,
-      "min": 2999,
-      "max": 7900,
-      "sightings": [
-        {
-          "price": 2999,
-          "date": "2026-03-28T00:03:54.119Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "GIBSON SG CUSTOM ELECTRIC GUITAR W/CASE - 1987",
-          "url": "https://reverb.com/item/94729284-gibson-sg-custom-electric-guitar-w-case-1987",
-          "condition": "Very Good"
-        },
-        {
-          "price": 7900,
-          "date": "2026-03-30T20:34:55.349Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul SG Custom 1961 - White - musical instruments - by owner - sale - craigslist",
-          "url": "https://mcallen.craigslist.org/msg/d/mcallen-gibson-les-paul-sg-custom-white/7923891511.html",
-          "condition": null
-        }
-      ],
-      "byCondition": {
-        "Unknown": {
-          "count": 1,
-          "sum": 7900,
-          "min": 7900,
-          "max": 7900,
-          "avg": 7900
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 2999,
-          "min": 2999,
-          "max": 2999,
-          "avg": 2999
-        }
-      },
-      "avg": 5450
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -6422,6 +6406,53 @@
         }
       },
       "avg": 2450
+    },
+    "gibson-sg-custom": {
+      "displayName": "GIBSON SG CUSTOM ELECTRIC GUITAR W/CASE - 1987",
+      "brand": "Gibson",
+      "model": "SG CUSTOM",
+      "variant": null,
+      "count": 2,
+      "sum": 10899,
+      "min": 2999,
+      "max": 7900,
+      "sightings": [
+        {
+          "price": 2999,
+          "date": "2026-03-28T00:03:54.119Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "GIBSON SG CUSTOM ELECTRIC GUITAR W/CASE - 1987",
+          "url": "https://reverb.com/item/94729284-gibson-sg-custom-electric-guitar-w-case-1987",
+          "condition": "Very Good"
+        },
+        {
+          "price": 7900,
+          "date": "2026-03-30T20:34:55.349Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul SG Custom 1961 - White - musical instruments - by owner - sale - craigslist",
+          "url": "https://mcallen.craigslist.org/msg/d/mcallen-gibson-les-paul-sg-custom-white/7923891511.html",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2999,
+          "min": 2999,
+          "max": 2999,
+          "avg": 2999
+        },
+        "Unknown": {
+          "count": 1,
+          "sum": 7900,
+          "min": 7900,
+          "max": 7900,
+          "avg": 7900
+        }
+      },
+      "avg": 5450
     },
     "echopark-deluxe-warcane-pickups-59": {
       "displayName": "2017 Echopark 59 Deluxe Cherry w/Arcane Pickups #1221C",
@@ -9144,8 +9175,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 78,
-      "sum": 207158.55999999994,
+      "count": 79,
+      "sum": 210358.55999999994,
       "sold": {
         "count": 21,
         "sum": 47382.78,
@@ -9153,7 +9184,7 @@
         "min": 165,
         "max": 3999.99
       },
-      "avg": 2656,
+      "avg": 2663,
       "min": 33,
       "max": 16500
     },
@@ -9265,7 +9296,7 @@
     "04": {
       "name": "Apr",
       "avg": 3238,
-      "count": 151
+      "count": 152
     },
     "03": {
       "name": "Mar",
@@ -9420,7 +9451,7 @@
     "500-1k": 19,
     "1k-2k": 72,
     "2k-3k": 74,
-    "3k-5k": 71,
+    "3k-5k": 72,
     "5k-10k": 23,
     "10k+": 10
   },
@@ -9429,11 +9460,16 @@
     "500-1k": 19,
     "1k-2k": 72,
     "2k-3k": 74,
-    "3k-5k": 71,
+    "3k-5k": 72,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 276,
+      "count": 26,
+      "avg": 11
+    },
     "Washburn": {
       "sum": 5,
       "count": 2,
@@ -9464,11 +9500,6 @@
       "count": 1,
       "avg": 25
     },
-    "Gibson": {
-      "sum": 275,
-      "count": 25,
-      "avg": 11
-    },
     "Greco": {
       "sum": 15,
       "count": 3,
@@ -9490,14 +9521,14 @@
       "avg": 7
     },
     "Ibanez": {
-      "sum": 98,
+      "sum": 99,
       "count": 14,
       "avg": 7
     },
     "Vintage": {
-      "sum": 37,
+      "sum": 38,
       "count": 3,
-      "avg": 12
+      "avg": 13
     },
     "Framus": {
       "sum": 19,
@@ -9505,9 +9536,9 @@
       "avg": 10
     },
     "Valley Arts": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "PRS": {
       "sum": 243,
@@ -9570,7 +9601,7 @@
       "avg": 2
     },
     "Suhr": {
-      "sum": 20,
+      "sum": 21,
       "count": 5,
       "avg": 4
     },
@@ -9630,7 +9661,7 @@
       "avg": 4
     },
     "ESP": {
-      "sum": 73,
+      "sum": 74,
       "count": 5,
       "avg": 15
     },
@@ -9640,9 +9671,9 @@
       "avg": 4
     },
     "Duesenberg": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Bilt": {
       "sum": 4,
@@ -9715,14 +9746,14 @@
       "avg": 9
     },
     "Fender Custom Shop": {
-      "sum": 19,
+      "sum": 20,
       "count": 2,
       "avg": 10
     },
     "Milkman": {
-      "sum": 9,
+      "sum": 10,
       "count": 1,
-      "avg": 9
+      "avg": 10
     },
     "Seymour Duncan": {
       "sum": 10,
@@ -9811,7 +9842,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 12,
+    "2026-04-06": 13,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9825,10 +9856,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 253,
+    "reverb": 254,
     "marketplace": 33
   },
-  "activeModelsCount": 243,
+  "activeModelsCount": 244,
   "topPosters": [
     {
       "username": "GP",
@@ -9844,7 +9875,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 25
+      "count": 26
     },
     {
       "username": "YellowJack6",
@@ -9875,7 +9906,7 @@
     "name": "Apr",
     "avg": 3238,
     "pctBelowAvg": 17,
-    "count": 151
+    "count": 152
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -9886,10 +9917,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 3464,
+      "avgPrice": 3455,
       "retailEst": 800,
-      "avgDiscount": -333,
-      "count": 27
+      "avgDiscount": -331.9,
+      "count": 28
     },
     "PRS": {
       "avgPrice": 3023,
@@ -10887,14 +10918,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 269,
+      "total": 270,
       "sold": 77,
       "fake": 0,
-      "live": 192,
+      "live": 193,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 30,
+        "sold": 7,
+        "fake": 0,
+        "live": 23,
+        "soldPct": 23,
+        "livePct": 77
+      },
       "Washburn": {
         "total": 2,
         "sold": 1,
@@ -10942,14 +10981,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 29,
-        "sold": 7,
-        "fake": 0,
-        "live": 22,
-        "soldPct": 24,
-        "livePct": 76
       },
       "Greco": {
         "total": 3,
@@ -11533,7 +11564,7 @@
     "withOffers": 73,
     "totalOffers": 143,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 62
+    "offersEnabledPct": 61
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -11554,7 +11585,7 @@
     },
     {
       "label": "6–15",
-      "total": 48,
+      "total": 49,
       "sold": 14,
       "rate": 29
     },
@@ -11578,9 +11609,9 @@
       "rate": 31
     },
     "off": {
-      "total": 55,
+      "total": 56,
       "sold": 17,
-      "rate": 31
+      "rate": 30
     }
   },
   "sellerType": {
@@ -11590,7 +11621,7 @@
       "rate": 21
     },
     "regular": {
-      "total": 100,
+      "total": 101,
       "sold": 33,
       "rate": 33
     }
@@ -11615,16 +11646,16 @@
       "rate": 8
     },
     {
-      "state": "FL",
+      "state": "OH",
       "total": 10,
       "sold": 3,
       "rate": 30
     },
     {
-      "state": "OH",
-      "total": 9,
+      "state": "FL",
+      "total": 10,
       "sold": 3,
-      "rate": 33
+      "rate": 30
     },
     {
       "state": "OR",
