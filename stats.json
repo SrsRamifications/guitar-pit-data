@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T15:53:30.500Z",
-  "totalLinks": 285,
-  "totalWithPrice": 280,
+  "generatedAt": "2026-04-06T15:57:09.263Z",
+  "totalLinks": 286,
+  "totalWithPrice": 281,
   "overall": {
-    "count": 280,
-    "sum": 1092566.2,
-    "avg": 3902,
+    "count": 281,
+    "sum": 1094366.2,
+    "avg": 3895,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 266,
-    "sum": 710892.21,
-    "avg": 2673,
+    "count": 267,
+    "sum": 712692.21,
+    "avg": 2669,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8627,
+    "thresholdHigh": 8492,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 150,
-      "sum": 487173.84,
+      "count": 151,
+      "sum": 488973.84,
       "min": 26,
       "max": 49000,
-      "avg": 3248
+      "avg": 3238
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 252,
-      "sum": 842306.31,
+      "count": 253,
+      "sum": 844106.31,
       "min": 26,
       "max": 49000,
-      "avg": 3342
+      "avg": 3336
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 252,
-      "sum": 842306.31,
+      "count": 253,
+      "sum": 844106.31,
       "min": 26,
       "max": 49000,
-      "avg": 3342
+      "avg": 3336
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "washburn-nx6-ultra-rare-usa-ultra": {
+      "displayName": "1996 Washburn NX6 USA Ultra Rare Stevens Extended Cutaway Very Good Condition (306)",
+      "brand": "Washburn",
+      "model": "NX6 Ultra Rare",
+      "variant": "Usa Ultra",
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-04-06T15:56:54.681Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1996 Washburn NX6 USA Ultra Rare Stevens Extended Cutaway Very Good Condition (306)",
+          "url": "https://reverb.com/item/95714347-1996-washburn-nx6-usa-ultra-rare-stevens-extended-cutaway-very-good-condition-306",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
+    },
     "ampeg-amg1-1990s-2000s-quilted": {
       "displayName": "Ampeg AMG1 1990s-2000s - Quilted Sunburst",
       "brand": "Ampeg",
@@ -5929,52 +5960,6 @@
       },
       "avg": 5450
     },
-    "gretsch-duo-jet-custom-shop": {
-      "displayName": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
-      "brand": "Gretsch",
-      "model": "Duo Jet",
-      "variant": "Custom Shop",
-      "count": 1,
-      "sum": 5999,
-      "min": 5999,
-      "max": 5999,
-      "sightings": [
-        {
-          "price": 5999,
-          "date": "2026-03-30T20:01:34.396Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
-          "url": "https://reverb.com/item/95551771-gretsch-custom-shop-g6128-cs-duo-jet-relic-stephen-stern-built",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 5999,
-          "min": 5999,
-          "max": 5999,
-          "avg": 5999
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 5999,
-        "min": 5999,
-        "max": 5999,
-        "prices": [
-          {
-            "price": 5999,
-            "askingPrice": 5999,
-            "date": "2026-04-03T03:37:09.750Z",
-            "title": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
-            "url": "https://reverb.com/item/95551771-gretsch-custom-shop-g6128-cs-duo-jet-relic-stephen-stern-built"
-          }
-        ]
-      },
-      "avg": 5999
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9109,9 +9094,69 @@
         ]
       },
       "avg": 4699
+    },
+    "gretsch-duo-jet-custom-shop": {
+      "displayName": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
+      "brand": "Gretsch",
+      "model": "Duo Jet",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 5999,
+      "min": 5999,
+      "max": 5999,
+      "sightings": [
+        {
+          "price": 5999,
+          "date": "2026-03-30T20:01:34.396Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
+          "url": "https://reverb.com/item/95551771-gretsch-custom-shop-g6128-cs-duo-jet-relic-stephen-stern-built",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 5999,
+          "min": 5999,
+          "max": 5999,
+          "avg": 5999
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 5999,
+        "min": 5999,
+        "max": 5999,
+        "prices": [
+          {
+            "price": 5999,
+            "askingPrice": 5999,
+            "date": "2026-04-03T03:37:09.750Z",
+            "title": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
+            "url": "https://reverb.com/item/95551771-gretsch-custom-shop-g6128-cs-duo-jet-relic-stephen-stern-built"
+          }
+        ]
+      },
+      "avg": 5999
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 78,
+      "sum": 207158.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 47382.78,
+        "avg": 2256,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2656,
+      "min": 33,
+      "max": 16500
+    },
     "Good": {
       "count": 31,
       "sum": 69773.95000000001,
@@ -9125,20 +9170,6 @@
       "avg": 2251,
       "min": 414,
       "max": 6500
-    },
-    "Very Good": {
-      "count": 77,
-      "sum": 205358.55999999994,
-      "sold": {
-        "count": 21,
-        "sum": 47382.78,
-        "avg": 2256,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2667,
-      "min": 33,
-      "max": 16500
     },
     "Excellent": {
       "count": 107,
@@ -9233,8 +9264,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3248,
-      "count": 150
+      "avg": 3238,
+      "count": 151
     },
     "03": {
       "name": "Mar",
@@ -9387,7 +9418,7 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 71,
+    "1k-2k": 72,
     "2k-3k": 74,
     "3k-5k": 71,
     "5k-10k": 23,
@@ -9396,13 +9427,18 @@
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 71,
+    "1k-2k": 72,
     "2k-3k": 74,
     "3k-5k": 71,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Washburn": {
+      "sum": 5,
+      "count": 2,
+      "avg": 3
+    },
     "Ampeg": {
       "sum": 12,
       "count": 1,
@@ -9618,11 +9654,6 @@
       "count": 2,
       "avg": 5
     },
-    "Washburn": {
-      "sum": 5,
-      "count": 1,
-      "avg": 5
-    },
     "Epiphone": {
       "sum": 44,
       "count": 3,
@@ -9780,7 +9811,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 11,
+    "2026-04-06": 12,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9794,10 +9825,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 252,
+    "reverb": 253,
     "marketplace": 33
   },
-  "activeModelsCount": 242,
+  "activeModelsCount": 243,
   "topPosters": [
     {
       "username": "GP",
@@ -9813,7 +9844,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 24
+      "count": 25
     },
     {
       "username": "YellowJack6",
@@ -9842,9 +9873,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3248,
+    "avg": 3238,
     "pctBelowAvg": 17,
-    "count": 150
+    "count": 151
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10237,14 +10268,6 @@
         "slowest": 18.3,
         "avgDays": 18.3
       },
-      "gretsch-duo-jet-custom-shop": {
-        "displayName": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
-        "totalDays": 3.3,
-        "count": 1,
-        "fastest": 3.3,
-        "slowest": 3.3,
-        "avgDays": 3.3
-      },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
         "totalDays": 1,
@@ -10436,6 +10459,14 @@
         "fastest": 5.9,
         "slowest": 5.9,
         "avgDays": 5.9
+      },
+      "gretsch-duo-jet-custom-shop": {
+        "displayName": "Gretsch Custom Shop G6128-CS Duo Jet Relic - Stephen Stern built!",
+        "totalDays": 3.3,
+        "count": 1,
+        "fastest": 3.3,
+        "slowest": 3.3,
+        "avgDays": 3.3
       }
     },
     "byBrand": {
@@ -10856,14 +10887,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 268,
+      "total": 269,
       "sold": 77,
       "fake": 0,
-      "live": 191,
+      "live": 192,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Washburn": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Ampeg": {
         "total": 1,
         "sold": 0,
@@ -11232,14 +11271,6 @@
         "soldPct": 33,
         "livePct": 67
       },
-      "Washburn": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Epiphone": {
         "total": 3,
         "sold": 2,
@@ -11517,9 +11548,9 @@
     },
     {
       "label": "1–5",
-      "total": 14,
+      "total": 15,
       "sold": 4,
-      "rate": 29
+      "rate": 27
     },
     {
       "label": "6–15",
@@ -11547,7 +11578,7 @@
       "rate": 31
     },
     "off": {
-      "total": 54,
+      "total": 55,
       "sold": 17,
       "rate": 31
     }
@@ -11559,7 +11590,7 @@
       "rate": 21
     },
     "regular": {
-      "total": 99,
+      "total": 100,
       "sold": 33,
       "rate": 33
     }
@@ -11590,6 +11621,12 @@
       "rate": 30
     },
     {
+      "state": "OH",
+      "total": 9,
+      "sold": 3,
+      "rate": 33
+    },
+    {
       "state": "OR",
       "total": 8,
       "sold": 3,
@@ -11600,12 +11637,6 @@
       "total": 8,
       "sold": 1,
       "rate": 13
-    },
-    {
-      "state": "OH",
-      "total": 8,
-      "sold": 3,
-      "rate": 38
     },
     {
       "state": "MA",
