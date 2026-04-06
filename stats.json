@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T17:27:20.025Z",
-  "totalLinks": 287,
-  "totalWithPrice": 282,
+  "generatedAt": "2026-04-06T19:14:42.648Z",
+  "totalLinks": 288,
+  "totalWithPrice": 283,
   "overall": {
-    "count": 282,
-    "sum": 1097566.2,
-    "avg": 3892,
+    "count": 283,
+    "sum": 1098686.2,
+    "avg": 3882,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 268,
-    "sum": 715892.21,
-    "avg": 2671,
+    "count": 269,
+    "sum": 717012.21,
+    "avg": 2665,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8492,
+    "thresholdHigh": 8550,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 152,
-      "sum": 492173.84,
+      "count": 153,
+      "sum": 493293.84,
       "min": 26,
       "max": 49000,
-      "avg": 3238
+      "avg": 3224
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 254,
-      "sum": 847306.31,
+      "count": 255,
+      "sum": 848426.31,
       "min": 26,
       "max": 49000,
-      "avg": 3336
+      "avg": 3327
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 254,
-      "sum": 847306.31,
+      "count": 255,
+      "sum": 848426.31,
       "min": 26,
       "max": 49000,
-      "avg": 3336
+      "avg": 3327
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "fender-pro-reverb-drip": {
+      "displayName": "Fender Pro Reverb \"Drip Edge\" 2-Channel 40-Watt 2x12\" Guitar Combo 1968 - 1969 - Silverface",
+      "brand": "Fender",
+      "model": "Pro Reverb \"Drip",
+      "variant": null,
+      "count": 1,
+      "sum": 1120,
+      "min": 1120,
+      "max": 1120,
+      "sightings": [
+        {
+          "price": 1120,
+          "date": "2026-04-06T19:14:27.271Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Pro Reverb \"Drip Edge\" 2-Channel 40-Watt 2x12\" Guitar Combo 1968 - 1969 - Silverface",
+          "url": "https://reverb.com/item/95717461-fender-pro-reverb-drip-edge-2-channel-40-watt-2x12-guitar-combo-1968-1969-silverface",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1120,
+          "min": 1120,
+          "max": 1120,
+          "avg": 1120
+        }
+      },
+      "avg": 1120
+    },
     "gibson-standard-custom-shop": {
       "displayName": "2015 Gibson Custom Shop Johnny A Standard w/ COA Upgraded Rio Grande Texas BBQ Pickups (383)",
       "brand": "Gibson",
@@ -9174,6 +9205,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 32,
+      "sum": 70893.95,
+      "sold": {
+        "count": 8,
+        "sum": 16900.46,
+        "avg": 2113,
+        "min": 540,
+        "max": 4777.5
+      },
+      "avg": 2215,
+      "min": 414,
+      "max": 6500
+    },
     "Very Good": {
       "count": 79,
       "sum": 210358.55999999994,
@@ -9187,20 +9232,6 @@
       "avg": 2663,
       "min": 33,
       "max": 16500
-    },
-    "Good": {
-      "count": 31,
-      "sum": 69773.95000000001,
-      "sold": {
-        "count": 8,
-        "sum": 16900.46,
-        "avg": 2113,
-        "min": 540,
-        "max": 4777.5
-      },
-      "avg": 2251,
-      "min": 414,
-      "max": 6500
     },
     "Excellent": {
       "count": 107,
@@ -9295,8 +9326,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3238,
-      "count": 152
+      "avg": 3224,
+      "count": 153
     },
     "03": {
       "name": "Mar",
@@ -9449,7 +9480,7 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 72,
+    "1k-2k": 73,
     "2k-3k": 74,
     "3k-5k": 72,
     "5k-10k": 23,
@@ -9458,15 +9489,20 @@
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 72,
+    "1k-2k": 73,
     "2k-3k": 74,
     "3k-5k": 72,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 129,
+      "count": 18,
+      "avg": 7
+    },
     "Gibson": {
-      "sum": 276,
+      "sum": 277,
       "count": 26,
       "avg": 11
     },
@@ -9486,7 +9522,7 @@
       "avg": 1
     },
     "BC Rich": {
-      "sum": 135,
+      "sum": 136,
       "count": 19,
       "avg": 7
     },
@@ -9521,12 +9557,12 @@
       "avg": 7
     },
     "Ibanez": {
-      "sum": 99,
+      "sum": 100,
       "count": 14,
       "avg": 7
     },
     "Vintage": {
-      "sum": 38,
+      "sum": 39,
       "count": 3,
       "avg": 13
     },
@@ -9569,11 +9605,6 @@
       "sum": 79,
       "count": 2,
       "avg": 40
-    },
-    "Fender": {
-      "sum": 129,
-      "count": 17,
-      "avg": 8
     },
     "Ovation": {
       "sum": 2,
@@ -9651,7 +9682,7 @@
       "avg": 7
     },
     "Charvel": {
-      "sum": 36,
+      "sum": 37,
       "count": 3,
       "avg": 12
     },
@@ -9661,7 +9692,7 @@
       "avg": 4
     },
     "ESP": {
-      "sum": 74,
+      "sum": 76,
       "count": 5,
       "avg": 15
     },
@@ -9676,9 +9707,9 @@
       "avg": 5
     },
     "Bilt": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Dean": {
       "sum": 10,
@@ -9711,7 +9742,7 @@
       "avg": 6
     },
     "Friedman": {
-      "sum": 13,
+      "sum": 14,
       "count": 2,
       "avg": 7
     },
@@ -9801,9 +9832,9 @@
       "avg": 10
     },
     "Fractal Audio": {
-      "sum": 10,
+      "sum": 11,
       "count": 1,
-      "avg": 10
+      "avg": 11
     },
     "Danocaster": {
       "sum": 11,
@@ -9842,7 +9873,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 13,
+    "2026-04-06": 14,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9856,10 +9887,10 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 254,
+    "reverb": 255,
     "marketplace": 33
   },
-  "activeModelsCount": 244,
+  "activeModelsCount": 245,
   "topPosters": [
     {
       "username": "GP",
@@ -9883,7 +9914,7 @@
     },
     {
       "username": "Madero",
-      "count": 13
+      "count": 14
     },
     {
       "username": "Modean",
@@ -9904,17 +9935,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3238,
+    "avg": 3224,
     "pctBelowAvg": 17,
-    "count": 152
+    "count": 153
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 7467,
+      "avgPrice": 7149,
       "retailEst": 800,
-      "avgDiscount": -833.3,
-      "count": 19
+      "avgDiscount": -793.7,
+      "count": 20
     },
     "Gibson": {
       "avgPrice": 3455,
@@ -10918,14 +10949,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 270,
+      "total": 271,
       "sold": 77,
       "fake": 0,
-      "live": 193,
-      "soldPct": 29,
-      "livePct": 71
+      "live": 194,
+      "soldPct": 28,
+      "livePct": 72
     },
     "byBrand": {
+      "Fender": {
+        "total": 21,
+        "sold": 6,
+        "fake": 0,
+        "live": 15,
+        "soldPct": 29,
+        "livePct": 71
+      },
       "Gibson": {
         "total": 30,
         "sold": 7,
@@ -11109,14 +11148,6 @@
         "live": 1,
         "soldPct": 50,
         "livePct": 50
-      },
-      "Fender": {
-        "total": 20,
-        "sold": 6,
-        "fake": 0,
-        "live": 14,
-        "soldPct": 30,
-        "livePct": 70
       },
       "Ovation": {
         "total": 1,
@@ -11564,7 +11595,7 @@
     "withOffers": 73,
     "totalOffers": 143,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 61
+    "offersEnabledPct": 62
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -11573,9 +11604,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 2,
-      "rate": 67
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -11604,7 +11635,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 156,
+      "total": 157,
       "sold": 48,
       "rate": 31
     },
@@ -11621,17 +11652,17 @@
       "rate": 21
     },
     "regular": {
-      "total": 101,
+      "total": 102,
       "sold": 33,
-      "rate": 33
+      "rate": 32
     }
   },
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 26,
+      "total": 27,
       "sold": 6,
-      "rate": 23
+      "rate": 22
     },
     {
       "state": "TX",
