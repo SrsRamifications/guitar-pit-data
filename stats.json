@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T22:43:12.157Z",
-  "totalLinks": 296,
-  "totalWithPrice": 291,
+  "generatedAt": "2026-04-06T22:49:29.633Z",
+  "totalLinks": 297,
+  "totalWithPrice": 292,
   "overall": {
-    "count": 291,
-    "sum": 1125372.2,
-    "avg": 3867,
+    "count": 292,
+    "sum": 1126972.2,
+    "avg": 3859,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 277,
-    "sum": 743698.21,
-    "avg": 2685,
+    "count": 278,
+    "sum": 745298.21,
+    "avg": 2681,
     "min": 26,
     "max": 8000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8627,
+    "thresholdHigh": 8535,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 161,
-      "sum": 519979.84,
+      "count": 162,
+      "sum": 521579.84,
       "min": 26,
       "max": 49000,
-      "avg": 3230
+      "avg": 3220
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 263,
-      "sum": 875112.31,
+      "count": 264,
+      "sum": 876712.31,
       "min": 26,
       "max": 49000,
-      "avg": 3327
+      "avg": 3321
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 263,
-      "sum": 875112.31,
+      "count": 264,
+      "sum": 876712.31,
       "min": 26,
       "max": 49000,
-      "avg": 3327
+      "avg": 3321
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "bc-rich-warlock": {
+      "displayName": "Used BC Rich Warlock 1988 - White",
+      "brand": "BC Rich",
+      "model": "Warlock",
+      "variant": null,
+      "count": 1,
+      "sum": 1600,
+      "min": 1600,
+      "max": 1600,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-04-06T22:49:15.337Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used BC Rich Warlock 1988 - White",
+          "url": "https://reverb.com/item/95723446-used-bc-rich-warlock-1988-white",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
+    },
     "yamaha-sa-90": {
       "displayName": "Yamaha SA-90",
       "brand": "Yamaha",
@@ -5980,37 +6011,6 @@
       },
       "avg": 600
     },
-    "knaggs-kenai": {
-      "displayName": "Knaggs Kenai T T1 Quilt Maple 2026 Northerner Blue",
-      "brand": "Knaggs",
-      "model": "Kenai",
-      "variant": null,
-      "count": 1,
-      "sum": 9500,
-      "min": 9500,
-      "max": 9500,
-      "sightings": [
-        {
-          "price": 9500,
-          "date": "2026-03-31T00:08:12.185Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Knaggs Kenai T T1 Quilt Maple 2026 Northerner Blue",
-          "url": "https://reverb.com/item/94652312-knaggs-kenai-t-t1-quilt-maple-2026-northerner-blue",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 9500,
-          "min": 9500,
-          "max": 9500,
-          "avg": 9500
-        }
-      },
-      "avg": 9500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9444,9 +9444,54 @@
         }
       },
       "avg": 3895
+    },
+    "knaggs-kenai": {
+      "displayName": "Knaggs Kenai T T1 Quilt Maple 2026 Northerner Blue",
+      "brand": "Knaggs",
+      "model": "Kenai",
+      "variant": null,
+      "count": 1,
+      "sum": 9500,
+      "min": 9500,
+      "max": 9500,
+      "sightings": [
+        {
+          "price": 9500,
+          "date": "2026-03-31T00:08:12.185Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Knaggs Kenai T T1 Quilt Maple 2026 Northerner Blue",
+          "url": "https://reverb.com/item/94652312-knaggs-kenai-t-t1-quilt-maple-2026-northerner-blue",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 9500,
+          "min": 9500,
+          "max": 9500,
+          "avg": 9500
+        }
+      },
+      "avg": 9500
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 81,
+      "sum": 214708.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 47382.77999999999,
+        "avg": 2256,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2651,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 111,
       "sum": 427738.68,
@@ -9474,20 +9519,6 @@
       "avg": 2372,
       "min": 414,
       "max": 6500
-    },
-    "Very Good": {
-      "count": 80,
-      "sum": 213108.55999999994,
-      "sold": {
-        "count": 21,
-        "sum": 47382.77999999999,
-        "avg": 2256,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2664,
-      "min": 33,
-      "max": 16500
     },
     "Fair": {
       "count": 8,
@@ -9568,8 +9599,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3230,
-      "count": 161
+      "avg": 3220,
+      "count": 162
     },
     "03": {
       "name": "Mar",
@@ -9722,7 +9753,7 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 75,
+    "1k-2k": 76,
     "2k-3k": 76,
     "3k-5k": 75,
     "5k-10k": 24,
@@ -9731,13 +9762,18 @@
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 75,
+    "1k-2k": 76,
     "2k-3k": 76,
     "3k-5k": 75,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 136,
+      "count": 20,
+      "avg": 7
+    },
     "Yamaha": {
       "sum": 97,
       "count": 4,
@@ -9777,11 +9813,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "BC Rich": {
-      "sum": 136,
-      "count": 19,
-      "avg": 7
     },
     "Novo": {
       "sum": 8,
@@ -10115,7 +10146,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 22,
+    "2026-04-06": 23,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -10129,10 +10160,10 @@
     "2026-03-30": 29
   },
   "categoryDistribution": {
-    "reverb": 263,
+    "reverb": 264,
     "marketplace": 33
   },
-  "activeModelsCount": 252,
+  "activeModelsCount": 253,
   "topPosters": [
     {
       "username": "GP",
@@ -10152,7 +10183,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 23
+      "count": 24
     },
     {
       "username": "Madero",
@@ -10177,9 +10208,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3230,
-    "pctBelowAvg": 16,
-    "count": 161
+    "avg": 3220,
+    "pctBelowAvg": 17,
+    "count": 162
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11199,14 +11230,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 279,
+      "total": 280,
       "sold": 78,
       "fake": 0,
-      "live": 201,
+      "live": 202,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 22,
+        "sold": 1,
+        "fake": 0,
+        "live": 21,
+        "soldPct": 5,
+        "livePct": 95
+      },
       "Yamaha": {
         "total": 5,
         "sold": 1,
@@ -11230,14 +11269,6 @@
         "live": 26,
         "soldPct": 21,
         "livePct": 79
-      },
-      "BC Rich": {
-        "total": 21,
-        "sold": 1,
-        "fake": 0,
-        "live": 20,
-        "soldPct": 5,
-        "livePct": 95
       },
       "Music Man": {
         "total": 9,
@@ -11854,9 +11885,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 5,
+      "total": 6,
       "sold": 3,
-      "rate": 60
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -11885,9 +11916,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 162,
+      "total": 163,
       "sold": 48,
-      "rate": 30
+      "rate": 29
     },
     "off": {
       "total": 59,
@@ -11897,9 +11928,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 102,
+      "total": 103,
       "sold": 21,
-      "rate": 21
+      "rate": 20
     },
     "regular": {
       "total": 103,
@@ -11951,6 +11982,12 @@
       "rate": 13
     },
     {
+      "state": "NC",
+      "total": 6,
+      "sold": 2,
+      "rate": 33
+    },
+    {
       "state": "PA",
       "total": 6,
       "sold": 3,
@@ -11982,12 +12019,6 @@
     },
     {
       "state": "MD",
-      "total": 5,
-      "sold": 2,
-      "rate": 40
-    },
-    {
-      "state": "NC",
       "total": 5,
       "sold": 2,
       "rate": 40
