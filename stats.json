@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-06T22:43:00.845Z",
-  "totalLinks": 295,
-  "totalWithPrice": 290,
+  "generatedAt": "2026-04-06T22:43:12.157Z",
+  "totalLinks": 296,
+  "totalWithPrice": 291,
   "overall": {
-    "count": 290,
-    "sum": 1123874.2,
-    "avg": 3875,
+    "count": 291,
+    "sum": 1125372.2,
+    "avg": 3867,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 276,
-    "sum": 742200.21,
-    "avg": 2689,
+    "count": 277,
+    "sum": 743698.21,
+    "avg": 2685,
     "min": 26,
     "max": 8000,
-    "median": 2413
+    "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8535,
+    "thresholdHigh": 8627,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 160,
-      "sum": 518481.84,
+      "count": 161,
+      "sum": 519979.84,
       "min": 26,
       "max": 49000,
-      "avg": 3241
+      "avg": 3230
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 262,
-      "sum": 873614.31,
+      "count": 263,
+      "sum": 875112.31,
       "min": 26,
       "max": 49000,
-      "avg": 3334
+      "avg": 3327
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 262,
-      "sum": 873614.31,
+      "count": 263,
+      "sum": 875112.31,
       "min": 26,
       "max": 49000,
-      "avg": 3334
+      "avg": 3327
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "yamaha-sa-90": {
+      "displayName": "Yamaha SA-90",
+      "brand": "Yamaha",
+      "model": "SA-90",
+      "variant": null,
+      "count": 1,
+      "sum": 1498,
+      "min": 1498,
+      "max": 1498,
+      "sightings": [
+        {
+          "price": 1498,
+          "date": "2026-04-06T22:42:57.886Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Yamaha SA-90",
+          "url": "https://reverb.com/item/95519062",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1498,
+          "min": 1498,
+          "max": 1498,
+          "avg": 1498
+        }
+      },
+      "avg": 1498
+    },
     "prs-mccarty-10-top": {
       "displayName": "Paul Reed Smith McCarty SC594 10 Top",
       "brand": "PRS",
@@ -5980,37 +6011,6 @@
       },
       "avg": 9500
     },
-    "knaggs-hollowbody-piezo": {
-      "displayName": "2024 Knaggs Guitars Chena A Hollowbody in Shell Pink w/ Fishman Piezo Pickup",
-      "brand": "Knaggs",
-      "model": "Hollowbody",
-      "variant": "Piezo",
-      "count": 1,
-      "sum": 3895,
-      "min": 3895,
-      "max": 3895,
-      "sightings": [
-        {
-          "price": 3895,
-          "date": "2026-03-31T00:02:07.408Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2024 Knaggs Guitars Chena A Hollowbody in Shell Pink w/ Fishman Piezo Pickup",
-          "url": "https://reverb.com/item/95551410-2024-knaggs-guitars-chena-a-hollowbody-in-shell-pink-w-fishman-piezo-pickup",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3895,
-          "min": 3895,
-          "max": 3895,
-          "avg": 3895
-        }
-      },
-      "avg": 3895
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9413,12 +9413,43 @@
         ]
       },
       "avg": 1350
+    },
+    "knaggs-hollowbody-piezo": {
+      "displayName": "2024 Knaggs Guitars Chena A Hollowbody in Shell Pink w/ Fishman Piezo Pickup",
+      "brand": "Knaggs",
+      "model": "Hollowbody",
+      "variant": "Piezo",
+      "count": 1,
+      "sum": 3895,
+      "min": 3895,
+      "max": 3895,
+      "sightings": [
+        {
+          "price": 3895,
+          "date": "2026-03-31T00:02:07.408Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2024 Knaggs Guitars Chena A Hollowbody in Shell Pink w/ Fishman Piezo Pickup",
+          "url": "https://reverb.com/item/95551410-2024-knaggs-guitars-chena-a-hollowbody-in-shell-pink-w-fishman-piezo-pickup",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3895,
+          "min": 3895,
+          "max": 3895,
+          "avg": 3895
+        }
+      },
+      "avg": 3895
     }
   },
   "byCondition": {
     "Excellent": {
-      "count": 110,
-      "sum": 426240.68,
+      "count": 111,
+      "sum": 427738.68,
       "sold": {
         "count": 36,
         "sum": 125275.4,
@@ -9426,7 +9457,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3875,
+      "avg": 3854,
       "min": 26,
       "max": 49000
     },
@@ -9537,8 +9568,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3241,
-      "count": 160
+      "avg": 3230,
+      "count": 161
     },
     "03": {
       "name": "Mar",
@@ -9691,7 +9722,7 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 74,
+    "1k-2k": 75,
     "2k-3k": 76,
     "3k-5k": 75,
     "5k-10k": 24,
@@ -9700,13 +9731,18 @@
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 74,
+    "1k-2k": 75,
     "2k-3k": 76,
     "3k-5k": 75,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Yamaha": {
+      "sum": 97,
+      "count": 4,
+      "avg": 24
+    },
     "PRS": {
       "sum": 243,
       "count": 27,
@@ -9831,11 +9867,6 @@
       "sum": 2,
       "count": 1,
       "avg": 2
-    },
-    "Yamaha": {
-      "sum": 88,
-      "count": 3,
-      "avg": 29
     },
     "Nash": {
       "sum": 2,
@@ -10084,7 +10115,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 21,
+    "2026-04-06": 22,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -10098,10 +10129,10 @@
     "2026-03-30": 29
   },
   "categoryDistribution": {
-    "reverb": 262,
+    "reverb": 263,
     "marketplace": 33
   },
-  "activeModelsCount": 251,
+  "activeModelsCount": 252,
   "topPosters": [
     {
       "username": "GP",
@@ -10136,19 +10167,19 @@
       "count": 6
     },
     {
-      "username": "侍",
-      "count": 4
+      "username": "jazee_",
+      "count": 5
     },
     {
-      "username": "jazee_",
+      "username": "侍",
       "count": 4
     }
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3241,
+    "avg": 3230,
     "pctBelowAvg": 16,
-    "count": 160
+    "count": 161
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11168,14 +11199,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 278,
+      "total": 279,
       "sold": 78,
       "fake": 0,
-      "live": 200,
+      "live": 201,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Yamaha": {
+        "total": 5,
+        "sold": 1,
+        "fake": 0,
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
+      },
       "PRS": {
         "total": 29,
         "sold": 11,
@@ -11391,14 +11430,6 @@
         "live": 0,
         "soldPct": 100,
         "livePct": 0
-      },
-      "Yamaha": {
-        "total": 4,
-        "sold": 1,
-        "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
       },
       "Nash": {
         "total": 1,
@@ -11811,10 +11842,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 74,
-    "totalOffers": 147,
+    "withOffers": 75,
+    "totalOffers": 148,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 61
+    "offersEnabledPct": 62
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -11841,7 +11872,7 @@
     },
     {
       "label": "16–30",
-      "total": 64,
+      "total": 65,
       "sold": 22,
       "rate": 34
     },
@@ -11854,7 +11885,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 161,
+      "total": 162,
       "sold": 48,
       "rate": 30
     },
@@ -11866,7 +11897,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 101,
+      "total": 102,
       "sold": 21,
       "rate": 21
     },
