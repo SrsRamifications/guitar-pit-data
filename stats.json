@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-06T21:11:45.378Z",
-  "totalLinks": 290,
-  "totalWithPrice": 285,
+  "generatedAt": "2026-04-06T21:54:23.683Z",
+  "totalLinks": 291,
+  "totalWithPrice": 286,
   "overall": {
-    "count": 285,
-    "sum": 1105007.2,
-    "avg": 3877,
+    "count": 286,
+    "sum": 1107757.2,
+    "avg": 3873,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 271,
-    "sum": 723333.21,
+    "count": 272,
+    "sum": 726083.21,
     "avg": 2669,
     "min": 26,
     "max": 8000,
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 155,
-      "sum": 499614.84,
+      "count": 156,
+      "sum": 502364.84,
       "min": 26,
       "max": 49000,
-      "avg": 3223
+      "avg": 3220
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 257,
-      "sum": 854747.31,
+      "count": 258,
+      "sum": 857497.31,
       "min": 26,
       "max": 49000,
-      "avg": 3326
+      "avg": 3324
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 257,
-      "sum": 854747.31,
+      "count": 258,
+      "sum": 857497.31,
       "min": 26,
       "max": 49000,
-      "avg": 3326
+      "avg": 3324
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "gibson-sg-standard-custom-shop-reissue": {
+      "displayName": "Gibson Custom Shop '61 Reissue Les Paul SG Standard '24",
+      "brand": "Gibson",
+      "model": "SG Standard",
+      "variant": "Custom Shop Reissue",
+      "count": 1,
+      "sum": 2750,
+      "min": 2750,
+      "max": 2750,
+      "sightings": [
+        {
+          "price": 2750,
+          "date": "2026-04-06T21:54:08.890Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop '61 Reissue Les Paul SG Standard '24",
+          "url": "https://reverb.com/item/95722321-gibson-custom-shop-61-reissue-les-paul-sg-standard-24",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2750,
+          "min": 2750,
+          "max": 2750,
+          "avg": 2750
+        }
+      },
+      "avg": 2750
+    },
     "gibson-les-paul-standard-historic-1958": {
       "displayName": "Gibson Custom Historic Collection 1958 Les Paul Standard Reissue HRM Double Dirty Lemon [8 8900] (04/06)",
       "brand": "Gibson",
@@ -5914,37 +5945,6 @@
       },
       "avg": 6999
     },
-    "kiesel-hf1-allan-holdsworth": {
-      "displayName": "Kiesel HF1 Allan Holdsworth Fatboy 2024 - Natural",
-      "brand": "Kiesel",
-      "model": "HF1 Allan Holdsworth",
-      "variant": null,
-      "count": 1,
-      "sum": 2199,
-      "min": 2199,
-      "max": 2199,
-      "sightings": [
-        {
-          "price": 2199,
-          "date": "2026-03-30T23:48:39.328Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel HF1 Allan Holdsworth Fatboy 2024 - Natural",
-          "url": "https://reverb.com/item/95075789-kiesel-hf1-allan-holdsworth-fatboy-2024-natural",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2199,
-          "min": 2199,
-          "max": 2199,
-          "avg": 2199
-        }
-      },
-      "avg": 2199
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9264,9 +9264,54 @@
         ]
       },
       "avg": 2700
+    },
+    "kiesel-hf1-allan-holdsworth": {
+      "displayName": "Kiesel HF1 Allan Holdsworth Fatboy 2024 - Natural",
+      "brand": "Kiesel",
+      "model": "HF1 Allan Holdsworth",
+      "variant": null,
+      "count": 1,
+      "sum": 2199,
+      "min": 2199,
+      "max": 2199,
+      "sightings": [
+        {
+          "price": 2199,
+          "date": "2026-03-30T23:48:39.328Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel HF1 Allan Holdsworth Fatboy 2024 - Natural",
+          "url": "https://reverb.com/item/95075789-kiesel-hf1-allan-holdsworth-fatboy-2024-natural",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2199,
+          "min": 2199,
+          "max": 2199,
+          "avg": 2199
+        }
+      },
+      "avg": 2199
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 80,
+      "sum": 213108.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 47382.78,
+        "avg": 2256,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2664,
+      "min": 33,
+      "max": 16500
+    },
     "Good": {
       "count": 34,
       "sum": 77214.95,
@@ -9280,20 +9325,6 @@
       "avg": 2271,
       "min": 414,
       "max": 6500
-    },
-    "Very Good": {
-      "count": 79,
-      "sum": 210358.55999999994,
-      "sold": {
-        "count": 21,
-        "sum": 47382.78,
-        "avg": 2256,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2663,
-      "min": 33,
-      "max": 16500
     },
     "Excellent": {
       "count": 107,
@@ -9388,8 +9419,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3223,
-      "count": 155
+      "avg": 3220,
+      "count": 156
     },
     "03": {
       "name": "Mar",
@@ -9543,7 +9574,7 @@
     "0-500": 12,
     "500-1k": 19,
     "1k-2k": 74,
-    "2k-3k": 74,
+    "2k-3k": 75,
     "3k-5k": 73,
     "5k-10k": 23,
     "10k+": 10
@@ -9552,7 +9583,7 @@
     "0-500": 12,
     "500-1k": 19,
     "1k-2k": 74,
-    "2k-3k": 74,
+    "2k-3k": 75,
     "3k-5k": 73,
     "5k-10k": 19,
     "10k+": 0
@@ -9560,7 +9591,7 @@
   "daysOnMarket": {
     "Gibson": {
       "sum": 278,
-      "count": 27,
+      "count": 28,
       "avg": 10
     },
     "Music Man": {
@@ -9935,7 +9966,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-06": 16,
+    "2026-04-06": 17,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
@@ -9949,14 +9980,14 @@
     "2026-03-29": 17
   },
   "categoryDistribution": {
-    "reverb": 257,
+    "reverb": 258,
     "marketplace": 33
   },
-  "activeModelsCount": 247,
+  "activeModelsCount": 248,
   "topPosters": [
     {
       "username": "GP",
-      "count": 109
+      "count": 110
     },
     {
       "username": "Beijing Bob",
@@ -9997,9 +10028,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3223,
+    "avg": 3220,
     "pctBelowAvg": 17,
-    "count": 155
+    "count": 156
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10010,10 +10041,10 @@
       "count": 20
     },
     "Gibson": {
-      "avgPrice": 3492,
+      "avgPrice": 3467,
       "retailEst": 800,
-      "avgDiscount": -336.5,
-      "count": 29
+      "avgDiscount": -333.4,
+      "count": 30
     },
     "PRS": {
       "avgPrice": 3023,
@@ -11011,21 +11042,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 273,
+      "total": 274,
       "sold": 77,
       "fake": 0,
-      "live": 196,
+      "live": 197,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
       "Gibson": {
-        "total": 31,
+        "total": 32,
         "sold": 7,
         "fake": 0,
-        "live": 24,
-        "soldPct": 23,
-        "livePct": 77
+        "live": 25,
+        "soldPct": 22,
+        "livePct": 78
       },
       "Music Man": {
         "total": 9,
@@ -11666,9 +11697,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 2,
-      "rate": 67
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -11702,16 +11733,16 @@
       "rate": 30
     },
     "off": {
-      "total": 57,
+      "total": 58,
       "sold": 17,
-      "rate": 30
+      "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 97,
+      "total": 98,
       "sold": 20,
-      "rate": 21
+      "rate": 20
     },
     "regular": {
       "total": 102,
@@ -11837,6 +11868,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "WI",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
