@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-07T14:22:46.894Z",
-  "totalLinks": 310,
-  "totalWithPrice": 305,
+  "generatedAt": "2026-04-07T14:51:57.789Z",
+  "totalLinks": 311,
+  "totalWithPrice": 306,
   "overall": {
-    "count": 305,
-    "sum": 1150307.2,
-    "avg": 3771,
+    "count": 306,
+    "sum": 1151302.2,
+    "avg": 3762,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 291,
-    "sum": 768633.21,
-    "avg": 2641,
+    "count": 292,
+    "sum": 769628.21,
+    "avg": 2636,
     "min": 26,
     "max": 8000,
     "median": 2400
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 175,
-      "sum": 544914.84,
+      "count": 176,
+      "sum": 545909.84,
       "min": 26,
       "max": 49000,
-      "avg": 3114
+      "avg": 3102
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 277,
-      "sum": 900047.31,
+      "count": 278,
+      "sum": 901042.31,
       "min": 26,
       "max": 49000,
-      "avg": 3249
+      "avg": 3241
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 277,
-      "sum": 900047.31,
+      "count": 278,
+      "sum": 901042.31,
       "min": 26,
       "max": 49000,
-      "avg": 3249
+      "avg": 3241
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "bc-rich-very-cool-mockingbird": {
+      "displayName": "Very Cool Vintage B.C. Rich Mockingbird Quilt Red Electric Guitar w/Bag",
+      "brand": "BC Rich",
+      "model": "Very Cool Mockingbird",
+      "variant": null,
+      "count": 1,
+      "sum": 995,
+      "min": 995,
+      "max": 995,
+      "sightings": [
+        {
+          "price": 995,
+          "date": "2026-04-07T14:51:42.224Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Very Cool Vintage B.C. Rich Mockingbird Quilt Red Electric Guitar w/Bag",
+          "url": "https://reverb.com/item/95732716-very-cool-vintage-b-c-rich-mockingbird-quilt-red-electric-guitar-w-bag",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 995,
+          "min": 995,
+          "max": 995,
+          "avg": 995
+        }
+      },
+      "avg": 995
+    },
     "gibson-les-paul-custom-70s": {
       "displayName": "Gibson Les Paul Custom '70s - Buttercream Top",
       "brand": "Gibson",
@@ -6054,52 +6085,6 @@
       },
       "avg": 2485
     },
-    "ibanez-jem": {
-      "displayName": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
-      "brand": "Ibanez",
-      "model": "JEM",
-      "variant": null,
-      "count": 1,
-      "sum": 3599,
-      "min": 3599,
-      "max": 3599,
-      "sightings": [
-        {
-          "price": 3599,
-          "date": "2026-03-31T21:02:37.814Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
-          "url": "https://reverb.com/item/95573183-ibanez-jem-777sk-1988-shocking-pink-repaint-read",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 3599,
-          "min": 3599,
-          "max": 3599,
-          "avg": 3599
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3599,
-        "min": 3599,
-        "max": 3599,
-        "prices": [
-          {
-            "price": 3599,
-            "askingPrice": 3599,
-            "date": "2026-04-01T13:47:11.397Z",
-            "title": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
-            "url": "https://reverb.com/item/95573183-ibanez-jem-777sk-1988-shocking-pink-repaint-read"
-          }
-        ]
-      },
-      "avg": 3599
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9856,9 +9841,69 @@
         }
       },
       "avg": 2592
+    },
+    "ibanez-jem": {
+      "displayName": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
+      "brand": "Ibanez",
+      "model": "JEM",
+      "variant": null,
+      "count": 1,
+      "sum": 3599,
+      "min": 3599,
+      "max": 3599,
+      "sightings": [
+        {
+          "price": 3599,
+          "date": "2026-03-31T21:02:37.814Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
+          "url": "https://reverb.com/item/95573183-ibanez-jem-777sk-1988-shocking-pink-repaint-read",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3599,
+          "min": 3599,
+          "max": 3599,
+          "avg": 3599
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 3599,
+        "min": 3599,
+        "max": 3599,
+        "prices": [
+          {
+            "price": 3599,
+            "askingPrice": 3599,
+            "date": "2026-04-01T13:47:11.397Z",
+            "title": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
+            "url": "https://reverb.com/item/95573183-ibanez-jem-777sk-1988-shocking-pink-repaint-read"
+          }
+        ]
+      },
+      "avg": 3599
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 85,
+      "sum": 220813.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 47382.77999999999,
+        "avg": 2256,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2598,
+      "min": 33,
+      "max": 16500
+    },
     "Brand New": {
       "count": 22,
       "sum": 92939.12,
@@ -9900,20 +9945,6 @@
       "avg": 3806,
       "min": 26,
       "max": 49000
-    },
-    "Very Good": {
-      "count": 84,
-      "sum": 219818.55999999994,
-      "sold": {
-        "count": 21,
-        "sum": 47382.77999999999,
-        "avg": 2256,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2617,
-      "min": 33,
-      "max": 16500
     },
     "Fair": {
       "count": 9,
@@ -9980,8 +10011,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3114,
-      "count": 175
+      "avg": 3102,
+      "count": 176
     },
     "03": {
       "name": "Mar",
@@ -10133,7 +10164,7 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 21,
+    "500-1k": 22,
     "1k-2k": 80,
     "2k-3k": 79,
     "3k-5k": 77,
@@ -10142,7 +10173,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 21,
+    "500-1k": 22,
     "1k-2k": 80,
     "2k-3k": 79,
     "3k-5k": 77,
@@ -10150,15 +10181,15 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 156,
+      "count": 23,
+      "avg": 7
+    },
     "Gibson": {
       "sum": 362,
       "count": 33,
       "avg": 11
-    },
-    "BC Rich": {
-      "sum": 156,
-      "count": 22,
-      "avg": 7
     },
     "ESP": {
       "sum": 90,
@@ -10206,7 +10237,7 @@
       "avg": 14
     },
     "Fender": {
-      "sum": 145,
+      "sum": 146,
       "count": 18,
       "avg": 8
     },
@@ -10527,7 +10558,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-07": 6,
+    "2026-04-07": 7,
     "2026-04-06": 30,
     "2026-04-05": 23,
     "2026-04-04": 23,
@@ -10542,10 +10573,10 @@
     "2026-03-30": 29
   },
   "categoryDistribution": {
-    "reverb": 277,
+    "reverb": 278,
     "marketplace": 33
   },
-  "activeModelsCount": 264,
+  "activeModelsCount": 265,
   "topPosters": [
     {
       "username": "GP",
@@ -10556,12 +10587,12 @@
       "count": 56
     },
     {
-      "username": "WontonGG",
+      "username": "YellowJack6",
       "count": 28
     },
     {
-      "username": "YellowJack6",
-      "count": 27
+      "username": "WontonGG",
+      "count": 28
     },
     {
       "username": "Shteefe",
@@ -10590,9 +10621,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3114,
-    "pctBelowAvg": 17,
-    "count": 175
+    "avg": 3102,
+    "pctBelowAvg": 18,
+    "count": 176
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10636,7 +10667,7 @@
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 544.3,
+      "totalDays": 544.3000000000001,
       "count": 78,
       "avgDays": 7
     },
@@ -10921,14 +10952,6 @@
         "slowest": 1.2,
         "avgDays": 1.2
       },
-      "ibanez-jem": {
-        "displayName": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
-        "totalDays": 0.7,
-        "count": 1,
-        "fastest": 0.7,
-        "slowest": 0.7,
-        "avgDays": 0.7
-      },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
         "totalDays": 1,
@@ -11192,6 +11215,14 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
+      },
+      "ibanez-jem": {
+        "displayName": "Ibanez Jem 777SK 1988 - Shocking Pink - repaint READ",
+        "totalDays": 0.7,
+        "count": 1,
+        "fastest": 0.7,
+        "slowest": 0.7,
+        "avgDays": 0.7
       }
     },
     "byBrand": {
@@ -11612,14 +11643,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 293,
+      "total": 294,
       "sold": 79,
       "fake": 0,
-      "live": 214,
+      "live": 215,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 25,
+        "sold": 1,
+        "fake": 0,
+        "live": 24,
+        "soldPct": 4,
+        "livePct": 96
+      },
       "Gibson": {
         "total": 37,
         "sold": 7,
@@ -11627,14 +11666,6 @@
         "live": 30,
         "soldPct": 19,
         "livePct": 81
-      },
-      "BC Rich": {
-        "total": 24,
-        "sold": 1,
-        "fake": 0,
-        "live": 23,
-        "soldPct": 4,
-        "livePct": 96
       },
       "ESP": {
         "total": 8,
@@ -12267,9 +12298,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 3,
-      "rate": 100
+      "rate": 75
     },
     {
       "label": "1–5",
@@ -12298,7 +12329,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 172,
+      "total": 173,
       "sold": 48,
       "rate": 28
     },
@@ -12310,7 +12341,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 111,
+      "total": 112,
       "sold": 22,
       "rate": 20
     },
@@ -12424,6 +12455,12 @@
       "rate": 0
     },
     {
+      "state": "MO",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
+    },
+    {
       "state": "SC",
       "total": 3,
       "sold": 1,
@@ -12500,12 +12537,6 @@
       "total": 2,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "MO",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
     },
     {
       "state": "VT",
