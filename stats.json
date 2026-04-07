@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-07T21:03:38.418Z",
-  "totalLinks": 316,
-  "totalWithPrice": 311,
+  "generatedAt": "2026-04-07T21:06:43.601Z",
+  "totalLinks": 317,
+  "totalWithPrice": 312,
   "overall": {
-    "count": 311,
-    "sum": 1596244.2,
-    "avg": 5133,
+    "count": 312,
+    "sum": 1601984.2,
+    "avg": 5135,
     "min": 26,
     "max": 436996
   },
   "filtered": {
-    "count": 296,
-    "sum": 778274.21,
-    "avg": 2629,
+    "count": 297,
+    "sum": 784014.21,
+    "avg": 2640,
     "min": 26,
     "max": 8000,
     "median": 2399
@@ -145,11 +145,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 181,
-      "sum": 990851.84,
+      "count": 182,
+      "sum": 996591.84,
       "min": 26,
       "max": 436996,
-      "avg": 5474
+      "avg": 5476
     },
     "2026-03": {
       "count": 130,
@@ -161,11 +161,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 283,
-      "sum": 1345984.31,
+      "count": 284,
+      "sum": 1351724.31,
       "min": 26,
       "max": 436996,
-      "avg": 4756
+      "avg": 4760
     },
     "marketplace": {
       "count": 28,
@@ -177,11 +177,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 283,
-      "sum": 1345984.31,
+      "count": 284,
+      "sum": 1351724.31,
       "min": 26,
       "max": 436996,
-      "avg": 4756
+      "avg": 4760
     },
     "guitarcenter.com": {
       "count": 10,
@@ -241,6 +241,37 @@
     }
   },
   "byModel": {
+    "prs-studio-mango-top-limited-edition": {
+      "displayName": "PRS Studio Mango Top Limited Edition - Cobalt Smokeburst (1 of 200)",
+      "brand": "PRS",
+      "model": "Studio Mango Top",
+      "variant": "Limited Edition",
+      "count": 1,
+      "sum": 5740,
+      "min": 5740,
+      "max": 5740,
+      "sightings": [
+        {
+          "price": 5740,
+          "date": "2026-04-07T21:06:28.842Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Studio Mango Top Limited Edition - Cobalt Smokeburst (1 of 200)",
+          "url": "https://reverb.com/item/95732968-prs-studio-mango-top-limited-edition-cobalt-smokeburst-1-of-200",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 5740,
+          "min": 5740,
+          "max": 5740,
+          "avg": 5740
+        }
+      },
+      "avg": 5740
+    },
     "prs-mccarty-usa": {
       "displayName": "Paul Reed Smith McCarty USA",
       "brand": "PRS",
@@ -6184,37 +6215,6 @@
       },
       "avg": 3900
     },
-    "millimetric-mgs3-purple": {
-      "displayName": "Millimetric MGS3 - Purple",
-      "brand": "Millimetric",
-      "model": "MGS3 Purple",
-      "variant": null,
-      "count": 1,
-      "sum": 3400,
-      "min": 3400,
-      "max": 3400,
-      "sightings": [
-        {
-          "price": 3400,
-          "date": "2026-04-01T01:49:58.754Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Millimetric MGS3 - Purple",
-          "url": "https://reverb.com/item/95578227-millimetric-mgs3-purple",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3400,
-          "min": 3400,
-          "max": 3400,
-          "avg": 3400
-        }
-      },
-      "avg": 3400
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10125,9 +10125,54 @@
         }
       },
       "avg": 1600
+    },
+    "millimetric-mgs3-purple": {
+      "displayName": "Millimetric MGS3 - Purple",
+      "brand": "Millimetric",
+      "model": "MGS3 Purple",
+      "variant": null,
+      "count": 1,
+      "sum": 3400,
+      "min": 3400,
+      "max": 3400,
+      "sightings": [
+        {
+          "price": 3400,
+          "date": "2026-04-01T01:49:58.754Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Millimetric MGS3 - Purple",
+          "url": "https://reverb.com/item/95578227-millimetric-mgs3-purple",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3400,
+          "min": 3400,
+          "max": 3400,
+          "avg": 3400
+        }
+      },
+      "avg": 3400
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 23,
+      "sum": 98679.12,
+      "sold": {
+        "count": 3,
+        "sum": 10142.17,
+        "avg": 3381,
+        "min": 995,
+        "max": 4599
+      },
+      "avg": 4290,
+      "min": 70,
+      "max": 12280
+    },
     "Very Good": {
       "count": 87,
       "sum": 659408.56,
@@ -10166,20 +10211,6 @@
       "avg": 3786,
       "min": 26,
       "max": 49000
-    },
-    "Brand New": {
-      "count": 22,
-      "sum": 92939.12,
-      "sold": {
-        "count": 3,
-        "sum": 10142.17,
-        "avg": 3381,
-        "min": 995,
-        "max": 4599
-      },
-      "avg": 4225,
-      "min": 70,
-      "max": 12280
     },
     "Good": {
       "count": 39,
@@ -10260,8 +10291,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5474,
-      "count": 181
+      "avg": 5476,
+      "count": 182
     },
     "03": {
       "name": "Mar",
@@ -10417,7 +10448,7 @@
     "1k-2k": 83,
     "2k-3k": 79,
     "3k-5k": 78,
-    "5k-10k": 24,
+    "5k-10k": 25,
     "10k+": 11
   },
   "priceDistributionFiltered": {
@@ -10426,14 +10457,14 @@
     "1k-2k": 83,
     "2k-3k": 79,
     "3k-5k": 78,
-    "5k-10k": 20,
+    "5k-10k": 21,
     "10k+": 0
   },
   "daysOnMarket": {
     "PRS": {
       "sum": 270,
-      "count": 28,
-      "avg": 10
+      "count": 29,
+      "avg": 9
     },
     "Fender": {
       "sum": 147,
@@ -10807,7 +10838,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-07": 12,
+    "2026-04-07": 13,
     "2026-04-06": 30,
     "2026-04-05": 23,
     "2026-04-04": 23,
@@ -10822,10 +10853,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 283,
+    "reverb": 284,
     "marketplace": 33
   },
-  "activeModelsCount": 270,
+  "activeModelsCount": 271,
   "topPosters": [
     {
       "username": "GP",
@@ -10837,7 +10868,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 29
+      "count": 30
     },
     {
       "username": "Shteefe",
@@ -10889,10 +10920,10 @@
       "count": 37
     },
     "PRS": {
-      "avgPrice": 2984,
+      "avgPrice": 3073,
       "retailEst": 1000,
-      "avgDiscount": -198.4,
-      "count": 30
+      "avgDiscount": -207.3,
+      "count": 31
     },
     "Ibanez": {
       "avgPrice": 2822,
@@ -11950,21 +11981,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 299,
+      "total": 300,
       "sold": 84,
       "fake": 0,
-      "live": 215,
+      "live": 216,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
       "PRS": {
-        "total": 30,
+        "total": 31,
         "sold": 12,
         "fake": 0,
-        "live": 18,
-        "soldPct": 40,
-        "livePct": 60
+        "live": 19,
+        "soldPct": 39,
+        "livePct": 61
       },
       "Fender": {
         "total": 22,
@@ -12611,9 +12642,9 @@
     },
     {
       "label": "1–5",
-      "total": 17,
+      "total": 18,
       "sold": 5,
-      "rate": 29
+      "rate": 28
     },
     {
       "label": "6–15",
@@ -12636,7 +12667,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 178,
       "sold": 52,
       "rate": 29
     },
@@ -12648,9 +12679,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 116,
+      "total": 117,
       "sold": 25,
-      "rate": 22
+      "rate": 21
     },
     "regular": {
       "total": 109,
