@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-07T02:00:39.981Z",
-  "totalLinks": 306,
-  "totalWithPrice": 301,
+  "generatedAt": "2026-04-07T02:03:02.227Z",
+  "totalLinks": 307,
+  "totalWithPrice": 302,
   "overall": {
-    "count": 301,
-    "sum": 1141584.2,
-    "avg": 3793,
+    "count": 302,
+    "sum": 1142684.2,
+    "avg": 3784,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 287,
-    "sum": 759910.21,
-    "avg": 2648,
+    "count": 288,
+    "sum": 761010.21,
+    "avg": 2642,
     "min": 26,
     "max": 8000,
     "median": 2400
@@ -137,11 +137,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 171,
-      "sum": 536191.84,
+      "count": 172,
+      "sum": 537291.84,
       "min": 26,
       "max": 49000,
-      "avg": 3136
+      "avg": 3124
     },
     "2026-03": {
       "count": 130,
@@ -153,11 +153,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 273,
-      "sum": 891324.31,
+      "count": 274,
+      "sum": 892424.31,
       "min": 26,
       "max": 49000,
-      "avg": 3265
+      "avg": 3257
     },
     "marketplace": {
       "count": 28,
@@ -169,11 +169,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 273,
-      "sum": 891324.31,
+      "count": 274,
+      "sum": 892424.31,
       "min": 26,
       "max": 49000,
-      "avg": 3265
+      "avg": 3257
     },
     "guitarcenter.com": {
       "count": 10,
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "esp-hybrid-ii": {
+      "displayName": "ESP Hybrid ii Black 1995 W/ OHSC",
+      "brand": "ESP",
+      "model": "Hybrid ii",
+      "variant": null,
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-04-07T02:02:47.501Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP Hybrid ii Black 1995 W/ OHSC",
+          "url": "https://reverb.com/item/95516139-esp-hybrid-ii-black-1995-w-ohsc",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
+    },
     "esp-standard": {
       "displayName": "ESP Standard Vintage Plus 2007 -  Antiqued Black",
       "brand": "ESP",
@@ -5990,37 +6021,6 @@
       },
       "avg": 2592
     },
-    "suhr-classic-sss": {
-      "displayName": "Suhr Classic Pro SSS with Maple Fretboard 2015 - 2017 - Fiesta Red",
-      "brand": "Suhr",
-      "model": "Classic",
-      "variant": "Sss",
-      "count": 1,
-      "sum": 2250,
-      "min": 2250,
-      "max": 2250,
-      "sightings": [
-        {
-          "price": 2250,
-          "date": "2026-03-31T17:52:42.024Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Suhr Classic Pro SSS with Maple Fretboard 2015 - 2017 - Fiesta Red",
-          "url": "https://reverb.com/item/95568720-suhr-classic-pro-sss-with-maple-fretboard-2015-2017-fiesta-red",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2250,
-          "min": 2250,
-          "max": 2250,
-          "avg": 2250
-        }
-      },
-      "avg": 2250
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9747,9 +9747,54 @@
         }
       },
       "avg": 2999
+    },
+    "suhr-classic-sss": {
+      "displayName": "Suhr Classic Pro SSS with Maple Fretboard 2015 - 2017 - Fiesta Red",
+      "brand": "Suhr",
+      "model": "Classic",
+      "variant": "Sss",
+      "count": 1,
+      "sum": 2250,
+      "min": 2250,
+      "max": 2250,
+      "sightings": [
+        {
+          "price": 2250,
+          "date": "2026-03-31T17:52:42.024Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Classic Pro SSS with Maple Fretboard 2015 - 2017 - Fiesta Red",
+          "url": "https://reverb.com/item/95568720-suhr-classic-pro-sss-with-maple-fretboard-2015-2017-fiesta-red",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2250,
+          "min": 2250,
+          "max": 2250,
+          "avg": 2250
+        }
+      },
+      "avg": 2250
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 84,
+      "sum": 219813.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 47382.77999999999,
+        "avg": 2256,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 2617,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 114,
       "sum": 434551.68,
@@ -9791,20 +9836,6 @@
       "avg": 2217,
       "min": 105,
       "max": 4799
-    },
-    "Very Good": {
-      "count": 83,
-      "sum": 218713.55999999994,
-      "sold": {
-        "count": 21,
-        "sum": 47382.77999999999,
-        "avg": 2256,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 2635,
-      "min": 33,
-      "max": 16500
     },
     "Mint": {
       "count": 8,
@@ -9871,8 +9902,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3136,
-      "count": 171
+      "avg": 3124,
+      "count": 172
     },
     "03": {
       "name": "Mar",
@@ -10025,7 +10056,7 @@
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 21,
-    "1k-2k": 79,
+    "1k-2k": 80,
     "2k-3k": 79,
     "3k-5k": 75,
     "5k-10k": 24,
@@ -10034,7 +10065,7 @@
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 21,
-    "1k-2k": 79,
+    "1k-2k": 80,
     "2k-3k": 79,
     "3k-5k": 75,
     "5k-10k": 20,
@@ -10042,9 +10073,9 @@
   },
   "daysOnMarket": {
     "ESP": {
-      "sum": 77,
-      "count": 6,
-      "avg": 13
+      "sum": 86,
+      "count": 7,
+      "avg": 12
     },
     "Gibson": {
       "sum": 299,
@@ -10192,9 +10223,9 @@
       "avg": 2
     },
     "Nash": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Kauer": {
       "sum": 50,
@@ -10418,7 +10449,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-07": 2,
+    "2026-04-07": 3,
     "2026-04-06": 30,
     "2026-04-05": 23,
     "2026-04-04": 23,
@@ -10433,10 +10464,10 @@
     "2026-03-30": 29
   },
   "categoryDistribution": {
-    "reverb": 273,
+    "reverb": 274,
     "marketplace": 33
   },
-  "activeModelsCount": 261,
+  "activeModelsCount": 262,
   "topPosters": [
     {
       "username": "GP",
@@ -10444,7 +10475,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 55
+      "count": 56
     },
     {
       "username": "WontonGG",
@@ -10481,9 +10512,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3136,
+    "avg": 3124,
     "pctBelowAvg": 17,
-    "count": 171
+    "count": 172
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11503,21 +11534,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 289,
+      "total": 290,
       "sold": 79,
       "fake": 0,
-      "live": 210,
+      "live": 211,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
       "ESP": {
-        "total": 7,
+        "total": 8,
         "sold": 1,
         "fake": 0,
-        "live": 6,
-        "soldPct": 14,
-        "livePct": 86
+        "live": 7,
+        "soldPct": 13,
+        "livePct": 88
       },
       "Gibson": {
         "total": 35,
@@ -12170,7 +12201,7 @@
     },
     {
       "label": "6–15",
-      "total": 55,
+      "total": 56,
       "sold": 15,
       "rate": 27
     },
@@ -12189,7 +12220,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 170,
+      "total": 171,
       "sold": 48,
       "rate": 28
     },
@@ -12201,7 +12232,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 108,
+      "total": 109,
       "sold": 22,
       "rate": 20
     },
@@ -12335,6 +12366,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "MN",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
