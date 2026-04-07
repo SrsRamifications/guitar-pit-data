@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-07T11:02:33.229Z",
-  "totalLinks": 307,
-  "totalWithPrice": 302,
+  "generatedAt": "2026-04-07T11:27:58.763Z",
+  "totalLinks": 308,
+  "totalWithPrice": 303,
   "overall": {
-    "count": 302,
-    "sum": 1142750.2,
-    "avg": 3784,
+    "count": 303,
+    "sum": 1145909.2,
+    "avg": 3782,
     "min": 26,
     "max": 99000
   },
   "filtered": {
-    "count": 288,
-    "sum": 761076.21,
-    "avg": 2643,
+    "count": 289,
+    "sum": 764235.21,
+    "avg": 2644,
     "min": 26,
     "max": 8000,
     "median": 2400
@@ -137,8 +137,8 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 172,
-      "sum": 537357.84,
+      "count": 173,
+      "sum": 540516.84,
       "min": 26,
       "max": 49000,
       "avg": 3124
@@ -153,8 +153,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 274,
-      "sum": 892490.31,
+      "count": 275,
+      "sum": 895649.31,
       "min": 26,
       "max": 49000,
       "avg": 3257
@@ -169,8 +169,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 274,
-      "sum": 892490.31,
+      "count": 275,
+      "sum": 895649.31,
       "min": 26,
       "max": 49000,
       "avg": 3257
@@ -233,6 +233,37 @@
     }
   },
   "byModel": {
+    "gibson-es-335": {
+      "displayName": "Gibson ES-335 Dot 2000 - Figured Cherry",
+      "brand": "Gibson",
+      "model": "ES-335",
+      "variant": null,
+      "count": 1,
+      "sum": 3159,
+      "min": 3159,
+      "max": 3159,
+      "sightings": [
+        {
+          "price": 3159,
+          "date": "2026-04-07T11:27:43.482Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson ES-335 Dot 2000 - Figured Cherry",
+          "url": "https://reverb.com/en-pt/item/95230949-gibson-es-335-dot-2000-figured-cherry",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3159,
+          "min": 3159,
+          "max": 3159,
+          "avg": 3159
+        }
+      },
+      "avg": 3159
+    },
     "esp-hybrid-ii": {
       "displayName": "ESP Hybrid ii Black 1995 W/ OHSC",
       "brand": "ESP",
@@ -5990,37 +6021,6 @@
       },
       "avg": 3599
     },
-    "xotic-classic": {
-      "displayName": "Xotic California Classic XSCPro-2 Aged Series Electric Guitar 2024 Lake Placid Blue w/Hard Case, Materials",
-      "brand": "Xotic",
-      "model": "Classic",
-      "variant": null,
-      "count": 1,
-      "sum": 2592,
-      "min": 2592,
-      "max": 2592,
-      "sightings": [
-        {
-          "price": 2592,
-          "date": "2026-03-31T17:53:48.177Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Xotic California Classic XSCPro-2 Aged Series Electric Guitar 2024 Lake Placid Blue w/Hard Case, Materials",
-          "url": "https://reverb.com/item/95568895-xotic-california-classic-xscpro-2-aged-series-electric-guitar-2024-lake-placid-blue-w-hard-case-materials",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2592,
-          "min": 2592,
-          "max": 2592,
-          "avg": 2592
-        }
-      },
-      "avg": 2592
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9778,9 +9778,54 @@
         }
       },
       "avg": 2250
+    },
+    "xotic-classic": {
+      "displayName": "Xotic California Classic XSCPro-2 Aged Series Electric Guitar 2024 Lake Placid Blue w/Hard Case, Materials",
+      "brand": "Xotic",
+      "model": "Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 2592,
+      "min": 2592,
+      "max": 2592,
+      "sightings": [
+        {
+          "price": 2592,
+          "date": "2026-03-31T17:53:48.177Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Xotic California Classic XSCPro-2 Aged Series Electric Guitar 2024 Lake Placid Blue w/Hard Case, Materials",
+          "url": "https://reverb.com/item/95568895-xotic-california-classic-xscpro-2-aged-series-electric-guitar-2024-lake-placid-blue-w-hard-case-materials",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2592,
+          "min": 2592,
+          "max": 2592,
+          "avg": 2592
+        }
+      },
+      "avg": 2592
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 115,
+      "sum": 437741.68,
+      "sold": {
+        "count": 37,
+        "sum": 125315.4,
+        "avg": 3387,
+        "min": 40,
+        "max": 35900
+      },
+      "avg": 3806,
+      "min": 26,
+      "max": 49000
+    },
     "Very Good": {
       "count": 84,
       "sum": 219818.55999999994,
@@ -9794,20 +9839,6 @@
       "avg": 2617,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 114,
-      "sum": 434582.68,
-      "sold": {
-        "count": 37,
-        "sum": 125315.4,
-        "avg": 3387,
-        "min": 40,
-        "max": 35900
-      },
-      "avg": 3812,
-      "min": 26,
-      "max": 49000
     },
     "Good": {
       "count": 38,
@@ -9903,7 +9934,7 @@
     "04": {
       "name": "Apr",
       "avg": 3124,
-      "count": 172
+      "count": 173
     },
     "03": {
       "name": "Mar",
@@ -9997,13 +10028,6 @@
       "date": "2026-04-06T07:31:54.872Z"
     },
     {
-      "title": "Xotic California Classic XSCPro-2 Aged Series Electric Guitar 2024 Lake Placid Blue w/Hard Case, Materials",
-      "url": "https://reverb.com/item/95568895-xotic-california-classic-xscpro-2-aged-series-electric-guitar-2024-lake-placid-blue-w-hard-case-materials",
-      "oldPrice": "$3,240",
-      "newPrice": "$2,592",
-      "date": "2026-04-06T03:01:15.102Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10051,6 +10075,13 @@
       "oldPrice": "$3,800",
       "newPrice": "$3,600",
       "date": "2026-04-04T03:37:48.990Z"
+    },
+    {
+      "title": "Valiant Guitars Soothsayer 2023 - Burning Grey, Near Mint!",
+      "url": "https://reverb.com/item/94397834-valiant-guitars-soothsayer-2023-burning-grey-near-mint",
+      "oldPrice": "$1,795",
+      "newPrice": "$1,595",
+      "date": "2026-04-01T17:43:32.667Z"
     }
   ],
   "priceDistribution": {
@@ -10058,7 +10089,7 @@
     "500-1k": 21,
     "1k-2k": 80,
     "2k-3k": 79,
-    "3k-5k": 75,
+    "3k-5k": 76,
     "5k-10k": 24,
     "10k+": 10
   },
@@ -10067,20 +10098,20 @@
     "500-1k": 21,
     "1k-2k": 80,
     "2k-3k": 79,
-    "3k-5k": 75,
+    "3k-5k": 76,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 339,
+      "count": 32,
+      "avg": 11
+    },
     "ESP": {
       "sum": 89,
       "count": 7,
       "avg": 13
-    },
-    "Gibson": {
-      "sum": 319,
-      "count": 31,
-      "avg": 10
     },
     "Ampeg": {
       "sum": 24,
@@ -10093,7 +10124,7 @@
       "avg": 4
     },
     "BC Rich": {
-      "sum": 154,
+      "sum": 155,
       "count": 21,
       "avg": 7
     },
@@ -10118,7 +10149,7 @@
       "avg": 25
     },
     "PRS": {
-      "sum": 263,
+      "sum": 264,
       "count": 27,
       "avg": 10
     },
@@ -10153,7 +10184,7 @@
       "avg": 25
     },
     "Greco": {
-      "sum": 17,
+      "sum": 18,
       "count": 3,
       "avg": 6
     },
@@ -10163,9 +10194,9 @@
       "avg": 5
     },
     "Jackson": {
-      "sum": 74,
+      "sum": 75,
       "count": 10,
-      "avg": 7
+      "avg": 8
     },
     "Ibanez": {
       "sum": 110,
@@ -10317,11 +10348,6 @@
       "count": 2,
       "avg": 9
     },
-    "Xotic": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 10,
       "count": 1,
@@ -10433,9 +10459,9 @@
       "avg": 8
     },
     "Martin": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "Cornish": {
       "sum": 23,
@@ -10446,10 +10472,15 @@
       "sum": 7,
       "count": 1,
       "avg": 7
+    },
+    "Xotic": {
+      "sum": 7,
+      "count": 1,
+      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-07": 3,
+    "2026-04-07": 4,
     "2026-04-06": 30,
     "2026-04-05": 23,
     "2026-04-04": 23,
@@ -10464,10 +10495,10 @@
     "2026-03-30": 29
   },
   "categoryDistribution": {
-    "reverb": 274,
+    "reverb": 275,
     "marketplace": 33
   },
-  "activeModelsCount": 262,
+  "activeModelsCount": 263,
   "topPosters": [
     {
       "username": "GP",
@@ -10502,19 +10533,19 @@
       "count": 6
     },
     {
-      "username": "jazee_",
+      "username": "侍",
       "count": 5
     },
     {
-      "username": "侍",
-      "count": 4
+      "username": "jazee_",
+      "count": 5
     }
   ],
   "bestMonth": {
     "name": "Apr",
     "avg": 3124,
     "pctBelowAvg": 17,
-    "count": 172
+    "count": 173
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10525,10 +10556,10 @@
       "count": 20
     },
     "Gibson": {
-      "avgPrice": 3473,
+      "avgPrice": 3463,
       "retailEst": 800,
-      "avgDiscount": -334.1,
-      "count": 33
+      "avgDiscount": -332.9,
+      "count": 34
     },
     "PRS": {
       "avgPrice": 3032,
@@ -11475,11 +11506,6 @@
         "count": 1,
         "avgPctDrop": 8.5
       },
-      "Xotic": {
-        "totalPctDrop": 20,
-        "count": 1,
-        "avgPctDrop": 20
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -11529,19 +11555,32 @@
         "totalPctDrop": 20,
         "count": 1,
         "avgPctDrop": 20
+      },
+      "Xotic": {
+        "totalPctDrop": 20,
+        "count": 1,
+        "avgPctDrop": 20
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 290,
+      "total": 291,
       "sold": 79,
       "fake": 0,
-      "live": 211,
+      "live": 212,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 36,
+        "sold": 7,
+        "fake": 0,
+        "live": 29,
+        "soldPct": 19,
+        "livePct": 81
+      },
       "ESP": {
         "total": 8,
         "sold": 1,
@@ -11549,14 +11588,6 @@
         "live": 7,
         "soldPct": 13,
         "livePct": 88
-      },
-      "Gibson": {
-        "total": 35,
-        "sold": 7,
-        "fake": 0,
-        "live": 28,
-        "soldPct": 20,
-        "livePct": 80
       },
       "Ampeg": {
         "total": 2,
@@ -11958,14 +11989,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Xotic": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12173,6 +12196,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Xotic": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       }
     }
   },
@@ -12201,9 +12232,9 @@
     },
     {
       "label": "6–15",
-      "total": 54,
+      "total": 55,
       "sold": 15,
-      "rate": 28
+      "rate": 27
     },
     {
       "label": "16–30",
@@ -12225,14 +12256,14 @@
       "rate": 28
     },
     "off": {
-      "total": 61,
+      "total": 62,
       "sold": 19,
       "rate": 31
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 109,
+      "total": 110,
       "sold": 22,
       "rate": 20
     },
@@ -12366,6 +12397,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "ENG",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
