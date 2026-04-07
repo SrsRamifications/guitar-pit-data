@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-07T21:00:57.250Z",
-  "totalLinks": 315,
-  "totalWithPrice": 310,
+  "generatedAt": "2026-04-07T21:03:38.418Z",
+  "totalLinks": 316,
+  "totalWithPrice": 311,
   "overall": {
-    "count": 310,
-    "sum": 1594645.2,
-    "avg": 5144,
+    "count": 311,
+    "sum": 1596244.2,
+    "avg": 5133,
     "min": 26,
     "max": 436996
   },
   "filtered": {
-    "count": 295,
-    "sum": 776675.21,
-    "avg": 2633,
+    "count": 296,
+    "sum": 778274.21,
+    "avg": 2629,
     "min": 26,
     "max": 8000,
     "median": 2399
@@ -145,11 +145,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 180,
-      "sum": 989252.84,
+      "count": 181,
+      "sum": 990851.84,
       "min": 26,
       "max": 436996,
-      "avg": 5496
+      "avg": 5474
     },
     "2026-03": {
       "count": 130,
@@ -161,11 +161,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 282,
-      "sum": 1344385.31,
+      "count": 283,
+      "sum": 1345984.31,
       "min": 26,
       "max": 436996,
-      "avg": 4767
+      "avg": 4756
     },
     "marketplace": {
       "count": 28,
@@ -177,11 +177,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 282,
-      "sum": 1344385.31,
+      "count": 283,
+      "sum": 1345984.31,
       "min": 26,
       "max": 436996,
-      "avg": 4767
+      "avg": 4756
     },
     "guitarcenter.com": {
       "count": 10,
@@ -241,6 +241,37 @@
     }
   },
   "byModel": {
+    "prs-mccarty-usa": {
+      "displayName": "Paul Reed Smith McCarty USA",
+      "brand": "PRS",
+      "model": "McCarty",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 1599,
+      "min": 1599,
+      "max": 1599,
+      "sightings": [
+        {
+          "price": 1599,
+          "date": "2026-04-07T21:03:23.468Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Paul Reed Smith McCarty USA",
+          "url": "https://reverb.com/item/95741789-paul-reed-smith-mccarty-usa",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1599,
+          "min": 1599,
+          "max": 1599,
+          "avg": 1599
+        }
+      },
+      "avg": 1599
+    },
     "fender-57-deluxe-2-channel": {
       "displayName": "Fender '57 Custom Deluxe 2-Channel 12-Watt 1x12\" Guitar Combo",
       "brand": "Fender",
@@ -10097,6 +10128,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 87,
+      "sum": 659408.56,
+      "sold": {
+        "count": 22,
+        "sum": 51232.77999999999,
+        "avg": 2329,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 7579,
+      "min": 33,
+      "max": 436996
+    },
     "Non Functioning": {
       "count": 1,
       "sum": 1100,
@@ -10121,20 +10166,6 @@
       "avg": 3786,
       "min": 26,
       "max": 49000
-    },
-    "Very Good": {
-      "count": 86,
-      "sum": 657809.56,
-      "sold": {
-        "count": 22,
-        "sum": 51232.77999999999,
-        "avg": 2329,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 7649,
-      "min": 33,
-      "max": 436996
     },
     "Brand New": {
       "count": 22,
@@ -10229,8 +10260,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5496,
-      "count": 180
+      "avg": 5474,
+      "count": 181
     },
     "03": {
       "name": "Mar",
@@ -10383,7 +10414,7 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 82,
+    "1k-2k": 83,
     "2k-3k": 79,
     "3k-5k": 78,
     "5k-10k": 24,
@@ -10392,13 +10423,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 82,
+    "1k-2k": 83,
     "2k-3k": 79,
     "3k-5k": 78,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 270,
+      "count": 28,
+      "avg": 10
+    },
     "Fender": {
       "sum": 147,
       "count": 19,
@@ -10453,11 +10489,6 @@
       "sum": 101,
       "count": 4,
       "avg": 25
-    },
-    "PRS": {
-      "sum": 270,
-      "count": 27,
-      "avg": 10
     },
     "Washburn": {
       "sum": 7,
@@ -10776,29 +10807,29 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-07": 11,
+    "2026-04-07": 12,
     "2026-04-06": 30,
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
     "2026-04-02": 41,
     "2026-04-01": 32,
-    "2026-03-31": 17,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
     "2026-03-29": 17,
-    "2026-03-30": 29
+    "2026-03-30": 29,
+    "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 282,
+    "reverb": 283,
     "marketplace": 33
   },
-  "activeModelsCount": 269,
+  "activeModelsCount": 270,
   "topPosters": [
     {
       "username": "GP",
-      "count": 116
+      "count": 117
     },
     {
       "username": "Beijing Bob",
@@ -10858,10 +10889,10 @@
       "count": 37
     },
     "PRS": {
-      "avgPrice": 3032,
+      "avgPrice": 2984,
       "retailEst": 1000,
-      "avgDiscount": -203.2,
-      "count": 29
+      "avgDiscount": -198.4,
+      "count": 30
     },
     "Ibanez": {
       "avgPrice": 2822,
@@ -11919,14 +11950,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 298,
+      "total": 299,
       "sold": 84,
       "fake": 0,
-      "live": 214,
+      "live": 215,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "PRS": {
+        "total": 30,
+        "sold": 12,
+        "fake": 0,
+        "live": 18,
+        "soldPct": 40,
+        "livePct": 60
+      },
       "Fender": {
         "total": 22,
         "sold": 6,
@@ -12014,14 +12053,6 @@
         "live": 4,
         "soldPct": 20,
         "livePct": 80
-      },
-      "PRS": {
-        "total": 29,
-        "sold": 12,
-        "fake": 0,
-        "live": 17,
-        "soldPct": 41,
-        "livePct": 59
       },
       "Washburn": {
         "total": 2,
@@ -12565,7 +12596,7 @@
     "withOffers": 83,
     "totalOffers": 160,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 62
+    "offersEnabledPct": 63
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -12580,9 +12611,9 @@
     },
     {
       "label": "1–5",
-      "total": 16,
+      "total": 17,
       "sold": 5,
-      "rate": 31
+      "rate": 29
     },
     {
       "label": "6–15",
@@ -12605,9 +12636,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 176,
+      "total": 177,
       "sold": 52,
-      "rate": 30
+      "rate": 29
     },
     "off": {
       "total": 64,
@@ -12617,7 +12648,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 115,
+      "total": 116,
       "sold": 25,
       "rate": 22
     },
@@ -12648,9 +12679,9 @@
     },
     {
       "state": "OH",
-      "total": 12,
+      "total": 13,
       "sold": 3,
-      "rate": 25
+      "rate": 23
     },
     {
       "state": "FL",
