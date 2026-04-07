@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-07T17:26:18.450Z",
-  "totalLinks": 312,
-  "totalWithPrice": 307,
+  "generatedAt": "2026-04-07T18:01:30.059Z",
+  "totalLinks": 313,
+  "totalWithPrice": 308,
   "overall": {
-    "count": 307,
-    "sum": 1587098.2,
-    "avg": 5170,
+    "count": 308,
+    "sum": 1591920.2,
+    "avg": 5169,
     "min": 26,
     "max": 436996
   },
   "filtered": {
-    "count": 292,
-    "sum": 769128.21,
-    "avg": 2634,
+    "count": 293,
+    "sum": 773950.21,
+    "avg": 2641,
     "min": 26,
     "max": 8000,
     "median": 2399
@@ -145,11 +145,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 177,
-      "sum": 981705.84,
+      "count": 178,
+      "sum": 986527.84,
       "min": 26,
       "max": 436996,
-      "avg": 5546
+      "avg": 5542
     },
     "2026-03": {
       "count": 130,
@@ -161,8 +161,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 279,
-      "sum": 1336838.31,
+      "count": 280,
+      "sum": 1341660.31,
       "min": 26,
       "max": 436996,
       "avg": 4792
@@ -177,8 +177,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 279,
-      "sum": 1336838.31,
+      "count": 280,
+      "sum": 1341660.31,
       "min": 26,
       "max": 436996,
       "avg": 4792
@@ -241,6 +241,37 @@
     }
   },
   "byModel": {
+    "gibson-es-359-custom-shop": {
+      "displayName": "Gibson Custom Shop ES-359 (2011) Ebony fingerboard - Sunburst",
+      "brand": "Gibson",
+      "model": "ES-359",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 4822,
+      "min": 4822,
+      "max": 4822,
+      "sightings": [
+        {
+          "price": 4822,
+          "date": "2026-04-07T18:01:15.301Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop ES-359 (2011) Ebony fingerboard - Sunburst",
+          "url": "https://reverb.com/item/86821317-gibson-custom-shop-es-359-2011-ebony-fingerboard-sunburst",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4822,
+          "min": 4822,
+          "max": 4822,
+          "avg": 4822
+        }
+      },
+      "avg": 4822
+    },
     "gibson-les-paul-standard-1960": {
       "displayName": "Gibson Les Paul Standard 1960 - Sunburst",
       "brand": "Gibson",
@@ -6062,37 +6093,6 @@
       },
       "avg": 1600
     },
-    "jackson-extreme-surfcaster-of-usa-custom-shop": {
-      "displayName": "2010 Jackson USA Custom Shop Extreme Surfcaster 1 of 1 Flip Flop Purple (123)",
-      "brand": "Jackson",
-      "model": "Extreme Surfcaster of",
-      "variant": "Usa Custom Shop",
-      "count": 1,
-      "sum": 6000,
-      "min": 6000,
-      "max": 6000,
-      "sightings": [
-        {
-          "price": 6000,
-          "date": "2026-03-31T21:05:56.326Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2010 Jackson USA Custom Shop Extreme Surfcaster 1 of 1 Flip Flop Purple (123)",
-          "url": "https://reverb.com/item/95575308-2010-jackson-usa-custom-shop-extreme-surfcaster-1-of-1-flip-flop-purple-123",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 6000,
-          "min": 6000,
-          "max": 6000,
-          "avg": 6000
-        }
-      },
-      "avg": 6000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9941,9 +9941,54 @@
         ]
       },
       "avg": 2485
+    },
+    "jackson-extreme-surfcaster-of-usa-custom-shop": {
+      "displayName": "2010 Jackson USA Custom Shop Extreme Surfcaster 1 of 1 Flip Flop Purple (123)",
+      "brand": "Jackson",
+      "model": "Extreme Surfcaster of",
+      "variant": "Usa Custom Shop",
+      "count": 1,
+      "sum": 6000,
+      "min": 6000,
+      "max": 6000,
+      "sightings": [
+        {
+          "price": 6000,
+          "date": "2026-03-31T21:05:56.326Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2010 Jackson USA Custom Shop Extreme Surfcaster 1 of 1 Flip Flop Purple (123)",
+          "url": "https://reverb.com/item/95575308-2010-jackson-usa-custom-shop-extreme-surfcaster-1-of-1-flip-flop-purple-123",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 6000,
+          "min": 6000,
+          "max": 6000,
+          "avg": 6000
+        }
+      },
+      "avg": 6000
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 116,
+      "sum": 441363.68,
+      "sold": {
+        "count": 38,
+        "sum": 125341.4,
+        "avg": 3298,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 3805,
+      "min": 26,
+      "max": 49000
+    },
     "Very Good": {
       "count": 86,
       "sum": 657809.56,
@@ -9985,20 +10030,6 @@
       "avg": 2224,
       "min": 399,
       "max": 6500
-    },
-    "Excellent": {
-      "count": 115,
-      "sum": 436541.68,
-      "sold": {
-        "count": 38,
-        "sum": 125341.4,
-        "avg": 3298,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 3796,
-      "min": 26,
-      "max": 49000
     },
     "Fair": {
       "count": 9,
@@ -10065,8 +10096,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5546,
-      "count": 177
+      "avg": 5542,
+      "count": 178
     },
     "03": {
       "name": "Mar",
@@ -10221,7 +10252,7 @@
     "500-1k": 22,
     "1k-2k": 80,
     "2k-3k": 79,
-    "3k-5k": 77,
+    "3k-5k": 78,
     "5k-10k": 24,
     "10k+": 11
   },
@@ -10230,23 +10261,23 @@
     "500-1k": 22,
     "1k-2k": 80,
     "2k-3k": 79,
-    "3k-5k": 77,
+    "3k-5k": 78,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
     "Gibson": {
-      "sum": 370,
+      "sum": 372,
       "count": 34,
       "avg": 11
     },
     "BC Rich": {
-      "sum": 156,
+      "sum": 157,
       "count": 23,
       "avg": 7
     },
     "ESP": {
-      "sum": 91,
+      "sum": 93,
       "count": 7,
       "avg": 13
     },
@@ -10431,7 +10462,7 @@
       "avg": 8
     },
     "Charvel": {
-      "sum": 39,
+      "sum": 40,
       "count": 3,
       "avg": 13
     },
@@ -10612,7 +10643,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-07": 8,
+    "2026-04-07": 9,
     "2026-04-06": 30,
     "2026-04-05": 23,
     "2026-04-04": 23,
@@ -10627,10 +10658,10 @@
     "2026-03-30": 29
   },
   "categoryDistribution": {
-    "reverb": 279,
+    "reverb": 280,
     "marketplace": 33
   },
-  "activeModelsCount": 266,
+  "activeModelsCount": 267,
   "topPosters": [
     {
       "username": "GP",
@@ -10641,11 +10672,11 @@
       "count": 56
     },
     {
-      "username": "YellowJack6",
-      "count": 28
+      "username": "WontonGG",
+      "count": 29
     },
     {
-      "username": "WontonGG",
+      "username": "YellowJack6",
       "count": 28
     },
     {
@@ -10688,10 +10719,10 @@
       "count": 20
     },
     "Gibson": {
-      "avgPrice": 15521,
+      "avgPrice": 15232,
       "retailEst": 800,
-      "avgDiscount": -1840.1,
-      "count": 36
+      "avgDiscount": -1804,
+      "count": 37
     },
     "PRS": {
       "avgPrice": 3032,
@@ -11551,11 +11582,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1057.367005935396,
-      "count": 59,
-      "avgPctDrop": 17.9
+      "totalPctDrop": 1065.414298078798,
+      "count": 60,
+      "avgPctDrop": 17.8
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 121.81761502725624,
+        "count": 8,
+        "avgPctDrop": 15.2
+      },
       "BC Rich": {
         "totalPctDrop": 182.5705945868049,
         "count": 5,
@@ -11565,11 +11601,6 @@
         "totalPctDrop": 27.183436687337466,
         "count": 2,
         "avgPctDrop": 13.6
-      },
-      "Gibson": {
-        "totalPctDrop": 113.77032288385425,
-        "count": 7,
-        "avgPctDrop": 16.3
       },
       "Music Man": {
         "totalPctDrop": 14.004232911906536,
@@ -11710,19 +11741,19 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 295,
+      "total": 296,
       "sold": 80,
       "fake": 0,
-      "live": 215,
+      "live": 216,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
       "Gibson": {
-        "total": 38,
+        "total": 39,
         "sold": 7,
         "fake": 0,
-        "live": 31,
+        "live": 32,
         "soldPct": 18,
         "livePct": 82
       },
@@ -12356,7 +12387,7 @@
     "withOffers": 81,
     "totalOffers": 155,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 62
+    "offersEnabledPct": 63
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -12383,9 +12414,9 @@
     },
     {
       "label": "16–30",
-      "total": 77,
+      "total": 78,
       "sold": 22,
-      "rate": 29
+      "rate": 28
     },
     {
       "label": "31+",
@@ -12396,9 +12427,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 174,
+      "total": 175,
       "sold": 48,
-      "rate": 28
+      "rate": 27
     },
     "off": {
       "total": 63,
@@ -12408,9 +12439,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 112,
+      "total": 113,
       "sold": 22,
-      "rate": 20
+      "rate": 19
     },
     "regular": {
       "total": 109,
@@ -12548,6 +12579,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "B",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
