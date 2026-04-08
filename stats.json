@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-08T13:56:56.408Z",
-  "totalLinks": 328,
-  "totalWithPrice": 323,
+  "generatedAt": "2026-04-08T13:57:21.318Z",
+  "totalLinks": 329,
+  "totalWithPrice": 324,
   "overall": {
-    "count": 323,
-    "sum": 1671927.2,
+    "count": 324,
+    "sum": 1677157.2,
     "avg": 5176,
     "min": 26,
     "max": 438280
   },
   "filtered": {
-    "count": 308,
-    "sum": 829433.21,
-    "avg": 2693,
+    "count": 309,
+    "sum": 834663.21,
+    "avg": 2701,
     "min": 26,
     "max": 8800,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8850,
+    "thresholdHigh": 8967,
     "thresholdLow": 0,
     "count": 15,
     "items": [
@@ -145,11 +145,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 193,
-      "sum": 1066534.84,
+      "count": 194,
+      "sum": 1071764.84,
       "min": 26,
       "max": 438280,
-      "avg": 5526
+      "avg": 5525
     },
     "2026-03": {
       "count": 130,
@@ -161,11 +161,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 295,
-      "sum": 1421667.31,
+      "count": 296,
+      "sum": 1426897.31,
       "min": 26,
       "max": 438280,
-      "avg": 4819
+      "avg": 4821
     },
     "marketplace": {
       "count": 28,
@@ -177,11 +177,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 295,
-      "sum": 1421667.31,
+      "count": 296,
+      "sum": 1426897.31,
       "min": 26,
       "max": 438280,
-      "avg": 4819
+      "avg": 4821
     },
     "guitarcenter.com": {
       "count": 10,
@@ -241,6 +241,37 @@
     }
   },
   "byModel": {
+    "prs-mccarty-594-limited-edition": {
+      "displayName": "PRS McCarty 594 Mango Top Limited Edition Solarflare #470",
+      "brand": "PRS",
+      "model": "McCarty 594",
+      "variant": "Limited Edition",
+      "count": 1,
+      "sum": 5230,
+      "min": 5230,
+      "max": 5230,
+      "sightings": [
+        {
+          "price": 5230,
+          "date": "2026-04-08T13:57:05.299Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 594 Mango Top Limited Edition Solarflare #470",
+          "url": "https://reverb.com/item/95734111-prs-mccarty-594-mango-top-limited-edition-solarflare-470",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 5230,
+          "min": 5230,
+          "max": 5230,
+          "avg": 5230
+        }
+      },
+      "avg": 5230
+    },
     "prs-semi-hollow-limited-edition": {
       "displayName": "PRS Special Semi-Hollow Mango Limited Edition Charcoal Purple Burst #334",
       "brand": "PRS",
@@ -6339,37 +6370,6 @@
       },
       "avg": 2000
     },
-    "eastman-sb56n-gd-goldtop-goldtop": {
-      "displayName": "Eastman SB56/N-GD - Goldtop",
-      "brand": "Eastman",
-      "model": "SB56/N-GD Goldtop",
-      "variant": "Goldtop",
-      "count": 1,
-      "sum": 1299,
-      "min": 1299,
-      "max": 1299,
-      "sightings": [
-        {
-          "price": 1299,
-          "date": "2026-04-01T15:28:44.403Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman SB56/N-GD - Goldtop",
-          "url": "https://reverb.com/item/95588529-eastman-sb56-n-gd-goldtop",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1299,
-          "min": 1299,
-          "max": 1299,
-          "avg": 1299
-        }
-      },
-      "avg": 1299
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10557,12 +10557,43 @@
         ]
       },
       "avg": 540
+    },
+    "eastman-sb56n-gd-goldtop-goldtop": {
+      "displayName": "Eastman SB56/N-GD - Goldtop",
+      "brand": "Eastman",
+      "model": "SB56/N-GD Goldtop",
+      "variant": "Goldtop",
+      "count": 1,
+      "sum": 1299,
+      "min": 1299,
+      "max": 1299,
+      "sightings": [
+        {
+          "price": 1299,
+          "date": "2026-04-01T15:28:44.403Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB56/N-GD - Goldtop",
+          "url": "https://reverb.com/item/95588529-eastman-sb56-n-gd-goldtop",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1299,
+          "min": 1299,
+          "max": 1299,
+          "avg": 1299
+        }
+      },
+      "avg": 1299
     }
   },
   "byCondition": {
     "Brand New": {
-      "count": 27,
-      "sum": 120131.12,
+      "count": 28,
+      "sum": 125361.12,
       "sold": {
         "count": 3,
         "sum": 10142.17,
@@ -10570,7 +10601,7 @@
         "min": 995,
         "max": 4599
       },
-      "avg": 4449,
+      "avg": 4477,
       "min": 70,
       "max": 12280
     },
@@ -10695,8 +10726,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5526,
-      "count": 193
+      "avg": 5525,
+      "count": 194
     },
     "03": {
       "name": "Mar",
@@ -10852,7 +10883,7 @@
     "1k-2k": 84,
     "2k-3k": 80,
     "3k-5k": 79,
-    "5k-10k": 30,
+    "5k-10k": 31,
     "10k+": 12
   },
   "priceDistributionFiltered": {
@@ -10861,13 +10892,13 @@
     "1k-2k": 84,
     "2k-3k": 80,
     "3k-5k": 79,
-    "5k-10k": 27,
+    "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
     "PRS": {
-      "sum": 302,
-      "count": 33,
+      "sum": 303,
+      "count": 34,
       "avg": 9
     },
     "Eastman": {
@@ -11247,7 +11278,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-08": 8,
+    "2026-04-08": 9,
     "2026-04-07": 16,
     "2026-04-06": 30,
     "2026-04-05": 23,
@@ -11263,10 +11294,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 295,
+    "reverb": 296,
     "marketplace": 33
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "GP",
@@ -11294,7 +11325,7 @@
     },
     {
       "username": "Modean",
-      "count": 10
+      "count": 11
     },
     {
       "username": "侍",
@@ -11330,10 +11361,10 @@
       "count": 37
     },
     "PRS": {
-      "avgPrice": 3334,
+      "avgPrice": 3387,
       "retailEst": 1000,
-      "avgDiscount": -233.4,
-      "count": 35
+      "avgDiscount": -238.7,
+      "count": 36
     },
     "Ibanez": {
       "avgPrice": 2822,
@@ -12482,21 +12513,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 310,
+      "total": 311,
       "sold": 93,
       "fake": 0,
-      "live": 217,
+      "live": 218,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
       "PRS": {
-        "total": 35,
+        "total": 36,
         "sold": 13,
         "fake": 0,
-        "live": 22,
-        "soldPct": 37,
-        "livePct": 63
+        "live": 23,
+        "soldPct": 36,
+        "livePct": 64
       },
       "Eastman": {
         "total": 3,
@@ -13151,9 +13182,9 @@
     },
     {
       "label": "1–5",
-      "total": 20,
+      "total": 21,
       "sold": 6,
-      "rate": 30
+      "rate": 29
     },
     {
       "label": "6–15",
@@ -13181,14 +13212,14 @@
       "rate": 32
     },
     "off": {
-      "total": 70,
+      "total": 71,
       "sold": 22,
       "rate": 31
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 126,
+      "total": 127,
       "sold": 30,
       "rate": 24
     },
@@ -13231,9 +13262,9 @@
     },
     {
       "state": "MD",
-      "total": 8,
+      "total": 9,
       "sold": 2,
-      "rate": 25
+      "rate": 22
     },
     {
       "state": "TN",
