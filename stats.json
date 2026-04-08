@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-08T13:57:21.318Z",
-  "totalLinks": 329,
-  "totalWithPrice": 324,
+  "generatedAt": "2026-04-08T14:02:04.362Z",
+  "totalLinks": 330,
+  "totalWithPrice": 325,
   "overall": {
-    "count": 324,
-    "sum": 1677157.2,
-    "avg": 5176,
+    "count": 325,
+    "sum": 1678756.2,
+    "avg": 5165,
     "min": 26,
     "max": 438280
   },
   "filtered": {
-    "count": 309,
-    "sum": 834663.21,
-    "avg": 2701,
+    "count": 310,
+    "sum": 836262.21,
+    "avg": 2698,
     "min": 26,
     "max": 8800,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 8967,
+    "thresholdHigh": 8850,
     "thresholdLow": 0,
     "count": 15,
     "items": [
@@ -145,11 +145,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 194,
-      "sum": 1071764.84,
+      "count": 195,
+      "sum": 1073363.84,
       "min": 26,
       "max": 438280,
-      "avg": 5525
+      "avg": 5504
     },
     "2026-03": {
       "count": 130,
@@ -161,11 +161,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 296,
-      "sum": 1426897.31,
+      "count": 297,
+      "sum": 1428496.31,
       "min": 26,
       "max": 438280,
-      "avg": 4821
+      "avg": 4810
     },
     "marketplace": {
       "count": 28,
@@ -177,11 +177,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 296,
-      "sum": 1426897.31,
+      "count": 297,
+      "sum": 1428496.31,
       "min": 26,
       "max": 438280,
-      "avg": 4821
+      "avg": 4810
     },
     "guitarcenter.com": {
       "count": 10,
@@ -241,6 +241,37 @@
     }
   },
   "byModel": {
+    "guild-x-50-granada-1957-": {
+      "displayName": "Guild X-50 Granada- 1957- Franz Pickup",
+      "brand": "Guild",
+      "model": "X-50 Granada- 1957-",
+      "variant": null,
+      "count": 1,
+      "sum": 1599,
+      "min": 1599,
+      "max": 1599,
+      "sightings": [
+        {
+          "price": 1599,
+          "date": "2026-04-08T14:01:48.766Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Guild X-50 Granada- 1957- Franz Pickup",
+          "url": "https://reverb.com/item/84312715-guild-x-50-granada-1957-franz-pickup",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1599,
+          "min": 1599,
+          "max": 1599,
+          "avg": 1599
+        }
+      },
+      "avg": 1599
+    },
     "prs-mccarty-594-limited-edition": {
       "displayName": "PRS McCarty 594 Mango Top Limited Edition Solarflare #470",
       "brand": "PRS",
@@ -6339,37 +6370,6 @@
       },
       "avg": 2400
     },
-    "music-man-tosin-abasi-kaizen-signature": {
-      "displayName": "Ernie Ball Music Man Tosin Abasi Signature Kaizen 6 2023 - Present - Mint",
-      "brand": "Music Man",
-      "model": "Tosin Abasi Kaizen",
-      "variant": "Signature",
-      "count": 1,
-      "sum": 2000,
-      "min": 2000,
-      "max": 2000,
-      "sightings": [
-        {
-          "price": 2000,
-          "date": "2026-04-01T15:28:44.403Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ernie Ball Music Man Tosin Abasi Signature Kaizen 6 2023 - Present - Mint",
-          "url": "https://reverb.com/item/95586573-ernie-ball-music-man-tosin-abasi-signature-kaizen-6-2023-present-mint",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2000,
-          "min": 2000,
-          "max": 2000,
-          "avg": 2000
-        }
-      },
-      "avg": 2000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10588,9 +10588,54 @@
         }
       },
       "avg": 1299
+    },
+    "music-man-tosin-abasi-kaizen-signature": {
+      "displayName": "Ernie Ball Music Man Tosin Abasi Signature Kaizen 6 2023 - Present - Mint",
+      "brand": "Music Man",
+      "model": "Tosin Abasi Kaizen",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 2000,
+      "min": 2000,
+      "max": 2000,
+      "sightings": [
+        {
+          "price": 2000,
+          "date": "2026-04-01T15:28:44.403Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man Tosin Abasi Signature Kaizen 6 2023 - Present - Mint",
+          "url": "https://reverb.com/item/95586573-ernie-ball-music-man-tosin-abasi-signature-kaizen-6-2023-present-mint",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2000,
+          "min": 2000,
+          "max": 2000,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 91,
+      "sum": 667045.56,
+      "sold": {
+        "count": 26,
+        "sum": 56933.77999999999,
+        "avg": 2190,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 7330,
+      "min": 33,
+      "max": 438280
+    },
     "Brand New": {
       "count": 28,
       "sum": 125361.12,
@@ -10604,20 +10649,6 @@
       "avg": 4477,
       "min": 70,
       "max": 12280
-    },
-    "Very Good": {
-      "count": 90,
-      "sum": 665446.56,
-      "sold": {
-        "count": 26,
-        "sum": 56933.77999999999,
-        "avg": 2190,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 7394,
-      "min": 33,
-      "max": 438280
     },
     "Excellent": {
       "count": 120,
@@ -10726,8 +10757,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5525,
-      "count": 194
+      "avg": 5504,
+      "count": 195
     },
     "03": {
       "name": "Mar",
@@ -10863,24 +10894,24 @@
       "date": "2026-04-06T07:31:54.872Z"
     },
     {
-      "title": "Ernie Ball Music Man Tosin Abasi Signature Kaizen 6 2023 - Present - Mint",
-      "url": "https://reverb.com/item/95586573-ernie-ball-music-man-tosin-abasi-signature-kaizen-6-2023-present-mint",
-      "oldPrice": "$2,150",
-      "newPrice": "$2,000",
-      "date": "2026-04-07T23:01:54.012Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
       "newPrice": "$5,521.80",
       "date": "2026-03-27T23:42:28.317Z"
+    },
+    {
+      "title": "Arnold Hoyer \"mod\" archtop guitar 1960s - worn / restored - player",
+      "url": "https://reverb.com/item/95479519-arnold-hoyer-mod-archtop-guitar-1960s-worn-restored-player?utm_source=rev-ios-app&utm_medium=ios-share&utm_campaign=listing&utm_content=95479519",
+      "oldPrice": "$1,204.41",
+      "newPrice": "$1,201.80",
+      "date": "2026-03-27T23:42:48.757Z"
     }
   ],
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 23,
-    "1k-2k": 84,
+    "1k-2k": 85,
     "2k-3k": 80,
     "3k-5k": 79,
     "5k-10k": 31,
@@ -10889,7 +10920,7 @@
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 23,
-    "1k-2k": 84,
+    "1k-2k": 85,
     "2k-3k": 80,
     "3k-5k": 79,
     "5k-10k": 28,
@@ -10907,7 +10938,7 @@
       "avg": 6
     },
     "Music Man": {
-      "sum": 93,
+      "sum": 94,
       "count": 8,
       "avg": 12
     },
@@ -11278,7 +11309,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-08": 9,
+    "2026-04-08": 10,
     "2026-04-07": 16,
     "2026-04-06": 30,
     "2026-04-05": 23,
@@ -11294,10 +11325,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 296,
+    "reverb": 297,
     "marketplace": 33
   },
-  "activeModelsCount": 280,
+  "activeModelsCount": 281,
   "topPosters": [
     {
       "username": "GP",
@@ -11305,7 +11336,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 56
+      "count": 57
     },
     {
       "username": "WontonGG",
@@ -12349,11 +12380,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1086.2333275927324,
-      "count": 62,
-      "avgPctDrop": 17.5
+      "totalPctDrop": 1094.8618990213038,
+      "count": 63,
+      "avgPctDrop": 17.4
     },
     "byBrand": {
+      "Guild": {
+        "totalPctDrop": 50.714885210164184,
+        "count": 3,
+        "avgPctDrop": 16.9
+      },
       "Gibson": {
         "totalPctDrop": 126.4149288324569,
         "count": 8,
@@ -12474,11 +12510,6 @@
         "count": 1,
         "avgPctDrop": 16.9
       },
-      "Guild": {
-        "totalPctDrop": 42.08631378159275,
-        "count": 2,
-        "avgPctDrop": 21
-      },
       "Bedell": {
         "totalPctDrop": 13.644214162348877,
         "count": 1,
@@ -12513,14 +12544,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 311,
+      "total": 312,
       "sold": 93,
       "fake": 0,
-      "live": 218,
+      "live": 219,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
+      "Guild": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 36,
         "sold": 13,
@@ -13081,14 +13120,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Guild": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Mayones": {
         "total": 1,
         "sold": 0,
@@ -13164,14 +13195,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 85,
-    "totalOffers": 162,
+    "withOffers": 86,
+    "totalOffers": 165,
     "avgOffersPerListing": 1.9,
     "offersEnabledPct": 62
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 97
+    "avgShippingCost": 98
   },
   "watcherDemand": [
     {
@@ -13200,14 +13231,14 @@
     },
     {
       "label": "31+",
-      "total": 77,
+      "total": 78,
       "sold": 15,
       "rate": 19
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 183,
+      "total": 184,
       "sold": 58,
       "rate": 32
     },
@@ -13219,9 +13250,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 127,
+      "total": 128,
       "sold": 30,
-      "rate": 24
+      "rate": 23
     },
     "regular": {
       "total": 111,
@@ -13267,6 +13298,12 @@
       "rate": 22
     },
     {
+      "state": "PA",
+      "total": 8,
+      "sold": 4,
+      "rate": 50
+    },
+    {
       "state": "TN",
       "total": 8,
       "sold": 3,
@@ -13295,12 +13332,6 @@
       "total": 8,
       "sold": 1,
       "rate": 13
-    },
-    {
-      "state": "PA",
-      "total": 7,
-      "sold": 4,
-      "rate": 57
     },
     {
       "state": "NC",
