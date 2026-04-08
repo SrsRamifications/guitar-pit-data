@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-08T11:02:26.381Z",
-  "totalLinks": 326,
-  "totalWithPrice": 321,
+  "generatedAt": "2026-04-08T13:56:34.773Z",
+  "totalLinks": 327,
+  "totalWithPrice": 322,
   "overall": {
-    "count": 321,
-    "sum": 1661097.2,
+    "count": 322,
+    "sum": 1666447.2,
     "avg": 5175,
     "min": 26,
     "max": 438280
   },
   "filtered": {
-    "count": 305,
-    "sum": 809803.21,
-    "avg": 2655,
+    "count": 306,
+    "sum": 815153.21,
+    "avg": 2664,
     "min": 26,
     "max": 8000,
-    "median": 2399
+    "median": 2400
   },
   "outliers": {
     "thresholdHigh": 8700,
@@ -153,11 +153,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 191,
-      "sum": 1055704.84,
+      "count": 192,
+      "sum": 1061054.84,
       "min": 26,
       "max": 438280,
-      "avg": 5527
+      "avg": 5526
     },
     "2026-03": {
       "count": 130,
@@ -169,11 +169,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 293,
-      "sum": 1410837.31,
+      "count": 294,
+      "sum": 1416187.31,
       "min": 26,
       "max": 438280,
-      "avg": 4815
+      "avg": 4817
     },
     "marketplace": {
       "count": 28,
@@ -185,11 +185,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 293,
-      "sum": 1410837.31,
+      "count": 294,
+      "sum": 1416187.31,
       "min": 26,
       "max": 438280,
-      "avg": 4815
+      "avg": 4817
     },
     "guitarcenter.com": {
       "count": 10,
@@ -249,6 +249,37 @@
     }
   },
   "byModel": {
+    "prs-325-limited-edition": {
+      "displayName": "PRS Studio Mango Top Limited Edition Cobalt Smokeburst #325",
+      "brand": "PRS",
+      "model": "325",
+      "variant": "Limited Edition",
+      "count": 1,
+      "sum": 5350,
+      "min": 5350,
+      "max": 5350,
+      "sightings": [
+        {
+          "price": 5350,
+          "date": "2026-04-08T13:56:19.111Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Studio Mango Top Limited Edition Cobalt Smokeburst #325",
+          "url": "https://reverb.com/item/95734302-prs-studio-mango-top-limited-edition-cobalt-smokeburst-325",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 5350,
+          "min": 5350,
+          "max": 5350,
+          "avg": 5350
+        }
+      },
+      "avg": 5350
+    },
     "eastman-single-cut": {
       "displayName": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
       "brand": "Eastman",
@@ -6316,52 +6347,6 @@
       },
       "avg": 1299
     },
-    "yamaha-fg-770s-all-solid": {
-      "displayName": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
-      "brand": "Yamaha",
-      "model": "FG-770S All Solid",
-      "variant": null,
-      "count": 1,
-      "sum": 540,
-      "min": 540,
-      "max": 540,
-      "sightings": [
-        {
-          "price": 540,
-          "date": "2026-04-01T14:17:21.163Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
-          "url": "https://reverb.com/item/94393754-1979-yamaha-fg-770s-all-solid-wood-acoustic-guitar",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 540,
-          "min": 540,
-          "max": 540,
-          "avg": 540
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 540,
-        "min": 540,
-        "max": 540,
-        "prices": [
-          {
-            "price": 540,
-            "askingPrice": 540,
-            "date": "2026-04-01T17:42:09.563Z",
-            "title": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
-            "url": "https://reverb.com/item/94393754-1979-yamaha-fg-770s-all-solid-wood-acoustic-guitar"
-          }
-        ]
-      },
-      "avg": 540
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10503,9 +10488,69 @@
         }
       },
       "avg": 1999
+    },
+    "yamaha-fg-770s-all-solid": {
+      "displayName": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
+      "brand": "Yamaha",
+      "model": "FG-770S All Solid",
+      "variant": null,
+      "count": 1,
+      "sum": 540,
+      "min": 540,
+      "max": 540,
+      "sightings": [
+        {
+          "price": 540,
+          "date": "2026-04-01T14:17:21.163Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
+          "url": "https://reverb.com/item/94393754-1979-yamaha-fg-770s-all-solid-wood-acoustic-guitar",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 540,
+          "min": 540,
+          "max": 540,
+          "avg": 540
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 540,
+        "min": 540,
+        "max": 540,
+        "prices": [
+          {
+            "price": 540,
+            "askingPrice": 540,
+            "date": "2026-04-01T17:42:09.563Z",
+            "title": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
+            "url": "https://reverb.com/item/94393754-1979-yamaha-fg-770s-all-solid-wood-acoustic-guitar"
+          }
+        ]
+      },
+      "avg": 540
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 26,
+      "sum": 114651.12,
+      "sold": {
+        "count": 3,
+        "sum": 10142.17,
+        "avg": 3381,
+        "min": 995,
+        "max": 4599
+      },
+      "avg": 4410,
+      "min": 70,
+      "max": 12280
+    },
     "Very Good": {
       "count": 90,
       "sum": 665446.56,
@@ -10533,20 +10578,6 @@
       "avg": 3778,
       "min": 26,
       "max": 49000
-    },
-    "Brand New": {
-      "count": 25,
-      "sum": 109301.12,
-      "sold": {
-        "count": 3,
-        "sum": 10142.17,
-        "avg": 3381,
-        "min": 995,
-        "max": 4599
-      },
-      "avg": 4372,
-      "min": 70,
-      "max": 12280
     },
     "Good": {
       "count": 40,
@@ -10641,8 +10672,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5527,
-      "count": 191
+      "avg": 5526,
+      "count": 192
     },
     "03": {
       "name": "Mar",
@@ -10798,7 +10829,7 @@
     "1k-2k": 84,
     "2k-3k": 80,
     "3k-5k": 79,
-    "5k-10k": 28,
+    "5k-10k": 29,
     "10k+": 12
   },
   "priceDistributionFiltered": {
@@ -10807,34 +10838,34 @@
     "1k-2k": 84,
     "2k-3k": 80,
     "3k-5k": 79,
-    "5k-10k": 24,
+    "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
-    "Eastman": {
-      "sum": 16,
-      "count": 3,
-      "avg": 5
-    },
     "PRS": {
-      "sum": 294,
-      "count": 31,
+      "sum": 301,
+      "count": 32,
       "avg": 9
     },
+    "Eastman": {
+      "sum": 17,
+      "count": 3,
+      "avg": 6
+    },
     "Music Man": {
-      "sum": 91,
+      "sum": 93,
       "count": 8,
-      "avg": 11
+      "avg": 12
     },
     "Matchless": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Fender": {
-      "sum": 167,
+      "sum": 171,
       "count": 20,
-      "avg": 8
+      "avg": 9
     },
     "Echopark": {
       "sum": 37,
@@ -10842,24 +10873,24 @@
       "avg": 7
     },
     "Gibson": {
-      "sum": 396,
+      "sum": 402,
       "count": 34,
       "avg": 12
     },
     "BC Rich": {
-      "sum": 177,
+      "sum": 179,
       "count": 23,
       "avg": 8
     },
     "ESP": {
-      "sum": 96,
+      "sum": 97,
       "count": 7,
       "avg": 14
     },
     "Ampeg": {
-      "sum": 26,
+      "sum": 28,
       "count": 2,
-      "avg": 13
+      "avg": 14
     },
     "Gretsch": {
       "sum": 21,
@@ -10872,7 +10903,7 @@
       "avg": 5
     },
     "Kiesel": {
-      "sum": 179,
+      "sum": 181,
       "count": 11,
       "avg": 16
     },
@@ -10882,7 +10913,7 @@
       "avg": 7
     },
     "Yamaha": {
-      "sum": 102,
+      "sum": 103,
       "count": 4,
       "avg": 26
     },
@@ -10897,17 +10928,17 @@
       "avg": 3
     },
     "Novo": {
-      "sum": 13,
+      "sum": 14,
       "count": 3,
-      "avg": 4
+      "avg": 5
     },
     "First Act": {
-      "sum": 26,
+      "sum": 27,
       "count": 1,
-      "avg": 26
+      "avg": 27
     },
     "Greco": {
-      "sum": 20,
+      "sum": 21,
       "count": 3,
       "avg": 7
     },
@@ -10917,12 +10948,12 @@
       "avg": 6
     },
     "Jackson": {
-      "sum": 84,
+      "sum": 85,
       "count": 10,
-      "avg": 8
+      "avg": 9
     },
     "Ibanez": {
-      "sum": 124,
+      "sum": 126,
       "count": 14,
       "avg": 9
     },
@@ -10942,9 +10973,9 @@
       "avg": 3
     },
     "Fano": {
-      "sum": 22,
+      "sum": 23,
       "count": 3,
-      "avg": 7
+      "avg": 8
     },
     "Knaggs": {
       "sum": 60,
@@ -10952,14 +10983,14 @@
       "avg": 20
     },
     "Marshall": {
-      "sum": 6,
+      "sum": 8,
       "count": 2,
-      "avg": 3
+      "avg": 4
     },
     "Mesa Boogie": {
-      "sum": 82,
+      "sum": 83,
       "count": 2,
-      "avg": 41
+      "avg": 42
     },
     "Ovation": {
       "sum": 4,
@@ -10967,9 +10998,9 @@
       "avg": 4
     },
     "Collings": {
-      "sum": 40,
+      "sum": 41,
       "count": 3,
-      "avg": 13
+      "avg": 14
     },
     "Kramer": {
       "sum": 4,
@@ -10997,7 +11028,7 @@
       "avg": 5
     },
     "Millimetric": {
-      "sum": 30,
+      "sum": 31,
       "count": 4,
       "avg": 8
     },
@@ -11047,7 +11078,7 @@
       "avg": 6
     },
     "Dean": {
-      "sum": 13,
+      "sum": 14,
       "count": 2,
       "avg": 7
     },
@@ -11082,9 +11113,9 @@
       "avg": 11
     },
     "Seymour Duncan": {
-      "sum": 11,
+      "sum": 12,
       "count": 1,
-      "avg": 11
+      "avg": 12
     },
     "Rick Toone": {
       "sum": 12,
@@ -11127,14 +11158,14 @@
       "avg": 12
     },
     "Hamer": {
-      "sum": 20,
+      "sum": 21,
       "count": 2,
-      "avg": 10
+      "avg": 11
     },
     "Danocaster": {
-      "sum": 12,
+      "sum": 13,
       "count": 1,
-      "avg": 12
+      "avg": 13
     },
     "Luxxtone": {
       "sum": 11,
@@ -11167,9 +11198,9 @@
       "avg": 9
     },
     "Martin": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Cornish": {
       "sum": 24,
@@ -11193,7 +11224,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-08": 6,
+    "2026-04-08": 7,
     "2026-04-07": 16,
     "2026-04-06": 30,
     "2026-04-05": 23,
@@ -11209,10 +11240,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 293,
+    "reverb": 294,
     "marketplace": 33
   },
-  "activeModelsCount": 277,
+  "activeModelsCount": 278,
   "topPosters": [
     {
       "username": "GP",
@@ -11240,7 +11271,7 @@
     },
     {
       "username": "Modean",
-      "count": 8
+      "count": 9
     },
     {
       "username": "侍",
@@ -11276,10 +11307,10 @@
       "count": 37
     },
     "PRS": {
-      "avgPrice": 3208,
+      "avgPrice": 3271,
       "retailEst": 1000,
-      "avgDiscount": -220.8,
-      "count": 33
+      "avgDiscount": -227.1,
+      "count": 34
     },
     "Ibanez": {
       "avgPrice": 2822,
@@ -11666,14 +11697,6 @@
         "slowest": 1.5,
         "avgDays": 1.5
       },
-      "yamaha-fg-770s-all-solid": {
-        "displayName": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
-        "totalDays": 53.4,
-        "count": 1,
-        "fastest": 53.4,
-        "slowest": 53.4,
-        "avgDays": 53.4
-      },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
         "totalDays": 1,
@@ -11977,6 +12000,14 @@
         "fastest": 5.4,
         "slowest": 5.4,
         "avgDays": 5.4
+      },
+      "yamaha-fg-770s-all-solid": {
+        "displayName": "1979 Yamaha FG-770S All Solid Wood Acoustic Guitar",
+        "totalDays": 53.4,
+        "count": 1,
+        "fastest": 53.4,
+        "slowest": 53.4,
+        "avgDays": 53.4
       }
     },
     "byBrand": {
@@ -12162,13 +12193,6 @@
         "slowest": 1.8,
         "avgDays": 1.7
       },
-      "Yamaha": {
-        "totalDays": 53.4,
-        "count": 1,
-        "fastest": 53.4,
-        "slowest": 53.4,
-        "avgDays": 53.4
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -12259,12 +12283,19 @@
         "fastest": 18.3,
         "slowest": 18.3,
         "avgDays": 18.3
+      },
+      "Yamaha": {
+        "totalDays": 53.4,
+        "count": 1,
+        "fastest": 53.4,
+        "slowest": 53.4,
+        "avgDays": 53.4
       }
     }
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1086.2333275927326,
+      "totalPctDrop": 1086.2333275927324,
       "count": 62,
       "avgPctDrop": 17.5
     },
@@ -12369,11 +12400,6 @@
         "count": 1,
         "avgPctDrop": 12
       },
-      "Yamaha": {
-        "totalPctDrop": 8.47457627118644,
-        "count": 1,
-        "avgPctDrop": 8.5
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -12423,19 +12449,32 @@
         "totalPctDrop": 20,
         "count": 1,
         "avgPctDrop": 20
+      },
+      "Yamaha": {
+        "totalPctDrop": 8.47457627118644,
+        "count": 1,
+        "avgPctDrop": 8.5
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 308,
+      "total": 309,
       "sold": 93,
       "fake": 0,
-      "live": 215,
+      "live": 216,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
+      "PRS": {
+        "total": 34,
+        "sold": 13,
+        "fake": 0,
+        "live": 21,
+        "soldPct": 38,
+        "livePct": 62
+      },
       "Eastman": {
         "total": 3,
         "sold": 1,
@@ -12443,14 +12482,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "PRS": {
-        "total": 33,
-        "sold": 13,
-        "fake": 0,
-        "live": 20,
-        "soldPct": 39,
-        "livePct": 61
       },
       "Music Man": {
         "total": 11,
@@ -13103,7 +13134,7 @@
     },
     {
       "label": "6–15",
-      "total": 58,
+      "total": 59,
       "sold": 18,
       "rate": 31
     },
@@ -13127,14 +13158,14 @@
       "rate": 32
     },
     "off": {
-      "total": 68,
+      "total": 69,
       "sold": 22,
       "rate": 32
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 124,
+      "total": 125,
       "sold": 30,
       "rate": 24
     },
@@ -13206,16 +13237,16 @@
       "rate": 13
     },
     {
+      "state": "MD",
+      "total": 7,
+      "sold": 2,
+      "rate": 29
+    },
+    {
       "state": "PA",
       "total": 7,
       "sold": 4,
       "rate": 57
-    },
-    {
-      "state": "MD",
-      "total": 6,
-      "sold": 2,
-      "rate": 33
     },
     {
       "state": "NC",
