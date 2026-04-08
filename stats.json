@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-08T04:01:46.185Z",
-  "totalLinks": 325,
-  "totalWithPrice": 320,
+  "generatedAt": "2026-04-08T04:28:58.007Z",
+  "totalLinks": 326,
+  "totalWithPrice": 321,
   "overall": {
-    "count": 320,
-    "sum": 1660540.2,
-    "avg": 5189,
+    "count": 321,
+    "sum": 1661539.2,
+    "avg": 5176,
     "min": 26,
     "max": 438280
   },
   "filtered": {
-    "count": 304,
-    "sum": 809246.21,
-    "avg": 2662,
+    "count": 305,
+    "sum": 810245.21,
+    "avg": 2657,
     "min": 26,
     "max": 8000,
-    "median": 2400
+    "median": 2399
   },
   "outliers": {
     "thresholdHigh": 8700,
@@ -153,11 +153,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 190,
-      "sum": 1055147.84,
+      "count": 191,
+      "sum": 1056146.84,
       "min": 26,
       "max": 438280,
-      "avg": 5553
+      "avg": 5530
     },
     "2026-03": {
       "count": 130,
@@ -169,11 +169,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 292,
-      "sum": 1410280.31,
+      "count": 293,
+      "sum": 1411279.31,
       "min": 26,
       "max": 438280,
-      "avg": 4830
+      "avg": 4817
     },
     "marketplace": {
       "count": 28,
@@ -185,11 +185,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 292,
-      "sum": 1410280.31,
+      "count": 293,
+      "sum": 1411279.31,
       "min": 26,
       "max": 438280,
-      "avg": 4830
+      "avg": 4817
     },
     "guitarcenter.com": {
       "count": 10,
@@ -249,6 +249,37 @@
     }
   },
   "byModel": {
+    "eastman-single-cut": {
+      "displayName": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
+      "brand": "Eastman",
+      "model": "Single Cut",
+      "variant": null,
+      "count": 1,
+      "sum": 999,
+      "min": 999,
+      "max": 999,
+      "sightings": [
+        {
+          "price": 999,
+          "date": "2026-04-08T04:28:43.755Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
+          "url": "https://reverb.com/item/95748362-eastman-sb59-sb-solid-body-single-cutaway-2010-present-sunburst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 999,
+          "min": 999,
+          "max": 999,
+          "avg": 999
+        }
+      },
+      "avg": 999
+    },
     "prs-custom-24-limited-edition": {
       "displayName": "PRS Custom 24 Mango Top Limited Edition Sprayer's Choice - Cobalt Smokeburst (1 of 1)",
       "brand": "PRS",
@@ -6331,37 +6362,6 @@
       },
       "avg": 540
     },
-    "morgan-standard-usa": {
-      "displayName": "Morgan Electrics New Standard Double Cut Pro, USA 2014 - 2 Tone Sunburst",
-      "brand": "Morgan",
-      "model": "Standard",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 1999,
-      "min": 1999,
-      "max": 1999,
-      "sightings": [
-        {
-          "price": 1999,
-          "date": "2026-04-01T13:43:35.179Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Morgan Electrics New Standard Double Cut Pro, USA 2014 - 2 Tone Sunburst",
-          "url": "https://reverb.com/item/94088927-morgan-electrics-new-standard-double-cut-pro-usa-2014-2-tone-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1999,
-          "min": 1999,
-          "max": 1999,
-          "avg": 1999
-        }
-      },
-      "avg": 1999
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10472,9 +10472,54 @@
         ]
       },
       "avg": 3500
+    },
+    "morgan-standard-usa": {
+      "displayName": "Morgan Electrics New Standard Double Cut Pro, USA 2014 - 2 Tone Sunburst",
+      "brand": "Morgan",
+      "model": "Standard",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-04-01T13:43:35.179Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Morgan Electrics New Standard Double Cut Pro, USA 2014 - 2 Tone Sunburst",
+          "url": "https://reverb.com/item/94088927-morgan-electrics-new-standard-double-cut-pro-usa-2014-2-tone-sunburst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1999
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 90,
+      "sum": 665446.56,
+      "sold": {
+        "count": 26,
+        "sum": 56933.77999999999,
+        "avg": 2190,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 7394,
+      "min": 33,
+      "max": 438280
+    },
     "Excellent": {
       "count": 120,
       "sum": 453827.68,
@@ -10502,20 +10547,6 @@
       "avg": 4372,
       "min": 70,
       "max": 12280
-    },
-    "Very Good": {
-      "count": 89,
-      "sum": 664447.56,
-      "sold": {
-        "count": 26,
-        "sum": 56933.77999999999,
-        "avg": 2190,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 7466,
-      "min": 33,
-      "max": 438280
     },
     "Good": {
       "count": 40,
@@ -10610,8 +10641,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5553,
-      "count": 190
+      "avg": 5530,
+      "count": 191
     },
     "03": {
       "name": "Mar",
@@ -10763,7 +10794,7 @@
   ],
   "priceDistribution": {
     "0-500": 15,
-    "500-1k": 22,
+    "500-1k": 23,
     "1k-2k": 84,
     "2k-3k": 80,
     "3k-5k": 79,
@@ -10772,7 +10803,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 15,
-    "500-1k": 22,
+    "500-1k": 23,
     "1k-2k": 84,
     "2k-3k": 80,
     "3k-5k": 79,
@@ -10780,8 +10811,13 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Eastman": {
+      "sum": 15,
+      "count": 3,
+      "avg": 5
+    },
     "PRS": {
-      "sum": 277,
+      "sum": 280,
       "count": 31,
       "avg": 9
     },
@@ -10796,7 +10832,7 @@
       "avg": 0
     },
     "Fender": {
-      "sum": 156,
+      "sum": 157,
       "count": 20,
       "avg": 8
     },
@@ -10816,7 +10852,7 @@
       "avg": 7
     },
     "ESP": {
-      "sum": 93,
+      "sum": 94,
       "count": 7,
       "avg": 13
     },
@@ -10826,7 +10862,7 @@
       "avg": 13
     },
     "Gretsch": {
-      "sum": 18,
+      "sum": 19,
       "count": 4,
       "avg": 5
     },
@@ -10836,7 +10872,7 @@
       "avg": 5
     },
     "Kiesel": {
-      "sum": 173,
+      "sum": 174,
       "count": 11,
       "avg": 16
     },
@@ -10876,9 +10912,9 @@
       "avg": 7
     },
     "The Loar": {
-      "sum": 5,
+      "sum": 6,
       "count": 1,
-      "avg": 5
+      "avg": 6
     },
     "Jackson": {
       "sum": 80,
@@ -10946,9 +10982,9 @@
       "avg": 4
     },
     "Kauer": {
-      "sum": 51,
+      "sum": 52,
       "count": 1,
-      "avg": 51
+      "avg": 52
     },
     "Bogner": {
       "sum": 5,
@@ -11019,16 +11055,6 @@
       "sum": 48,
       "count": 3,
       "avg": 16
-    },
-    "Eastman": {
-      "sum": 15,
-      "count": 2,
-      "avg": 8
-    },
-    "Morgan": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
     },
     "Languedoc": {
       "sum": 11,
@@ -11159,10 +11185,15 @@
       "sum": 8,
       "count": 1,
       "avg": 8
+    },
+    "Morgan": {
+      "sum": 7,
+      "count": 1,
+      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-08": 5,
+    "2026-04-08": 6,
     "2026-04-07": 16,
     "2026-04-06": 30,
     "2026-04-05": 23,
@@ -11178,14 +11209,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 292,
+    "reverb": 293,
     "marketplace": 33
   },
-  "activeModelsCount": 276,
+  "activeModelsCount": 277,
   "topPosters": [
     {
       "username": "GP",
-      "count": 123
+      "count": 124
     },
     {
       "username": "Beijing Bob",
@@ -12392,14 +12423,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 307,
+      "total": 308,
       "sold": 93,
       "fake": 0,
-      "live": 214,
+      "live": 215,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
+      "Eastman": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "PRS": {
         "total": 33,
         "sold": 13,
@@ -12800,22 +12839,6 @@
         "soldPct": 67,
         "livePct": 33
       },
-      "Eastman": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
-      },
-      "Morgan": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -13039,6 +13062,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Morgan": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       }
     }
   },
@@ -13050,7 +13081,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 97
   },
   "watcherDemand": [
     {
@@ -13067,9 +13098,9 @@
     },
     {
       "label": "6–15",
-      "total": 57,
+      "total": 58,
       "sold": 18,
-      "rate": 32
+      "rate": 31
     },
     {
       "label": "16–30",
@@ -13086,7 +13117,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 182,
+      "total": 183,
       "sold": 58,
       "rate": 32
     },
@@ -13098,7 +13129,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 123,
+      "total": 124,
       "sold": 30,
       "rate": 24
     },
@@ -13244,6 +13275,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "VA",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
