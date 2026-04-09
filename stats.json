@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-09T10:49:19.341Z",
-  "totalLinks": 370,
-  "totalWithPrice": 365,
+  "generatedAt": "2026-04-09T12:19:16.580Z",
+  "totalLinks": 371,
+  "totalWithPrice": 366,
   "overall": {
-    "count": 365,
-    "sum": 1973845.18,
-    "avg": 5408,
+    "count": 366,
+    "sum": 1978343.18,
+    "avg": 5405,
     "min": 26,
     "max": 442660
   },
   "filtered": {
-    "count": 348,
-    "sum": 924156.19,
-    "avg": 2656,
+    "count": 349,
+    "sum": 928654.19,
+    "avg": 2661,
     "min": 26,
     "max": 8800,
-    "median": 2374
+    "median": 2399
   },
   "outliers": {
     "thresholdHigh": 8900,
@@ -161,11 +161,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 235,
-      "sum": 1368452.82,
+      "count": 236,
+      "sum": 1372950.82,
       "min": 26,
       "max": 442660,
-      "avg": 5823
+      "avg": 5818
     },
     "2026-03": {
       "count": 130,
@@ -177,11 +177,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 335,
-      "sum": 1720610.31,
+      "count": 336,
+      "sum": 1725108.31,
       "min": 26,
       "max": 442660,
-      "avg": 5136
+      "avg": 5134
     },
     "marketplace": {
       "count": 30,
@@ -193,11 +193,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 335,
-      "sum": 1720610.31,
+      "count": 336,
+      "sum": 1725108.31,
       "min": 26,
       "max": 442660,
-      "avg": 5136
+      "avg": 5134
     },
     "musicgoround.com": {
       "count": 2,
@@ -264,6 +264,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-deluxe-goldtop": {
+      "displayName": "1971 Gibson Les Paul Deluxe – Goldtop",
+      "brand": "Gibson",
+      "model": "Les Paul Deluxe",
+      "variant": "Goldtop",
+      "count": 1,
+      "sum": 4498,
+      "min": 4498,
+      "max": 4498,
+      "sightings": [
+        {
+          "price": 4498,
+          "date": "2026-04-09T12:19:00.319Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1971 Gibson Les Paul Deluxe – Goldtop",
+          "url": "https://reverb.com/item/95397706-1971-gibson-les-paul-deluxe-goldtop",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 4498,
+          "min": 4498,
+          "max": 4498,
+          "avg": 4498
+        }
+      },
+      "avg": 4498
+    },
     "prs-silver-sky-se": {
       "displayName": "PRS SE CUSTOMIZED Silver Sky 2022 - 2025 - Stone Blue",
       "brand": "PRS",
@@ -11823,6 +11854,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 43,
+      "sum": 126660.95,
+      "sold": {
+        "count": 13,
+        "sum": 29664.46,
+        "avg": 2282,
+        "min": 540,
+        "max": 5820
+      },
+      "avg": 2946,
+      "min": 399,
+      "max": 32360
+    },
     "Very Good": {
       "count": 108,
       "sum": 714413.56,
@@ -11864,20 +11909,6 @@
       "avg": 4838,
       "min": 1050,
       "max": 11500
-    },
-    "Good": {
-      "count": 42,
-      "sum": 122162.95,
-      "sold": {
-        "count": 13,
-        "sum": 29664.46,
-        "avg": 2282,
-        "min": 540,
-        "max": 5820
-      },
-      "avg": 2909,
-      "min": 399,
-      "max": 32360
     },
     "Fair": {
       "count": 10,
@@ -11958,8 +11989,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5823,
-      "count": 235
+      "avg": 5818,
+      "count": 236
     },
     "03": {
       "name": "Mar",
@@ -12114,7 +12145,7 @@
     "500-1k": 28,
     "1k-2k": 96,
     "2k-3k": 89,
-    "3k-5k": 87,
+    "3k-5k": 88,
     "5k-10k": 34,
     "10k+": 13
   },
@@ -12123,13 +12154,18 @@
     "500-1k": 28,
     "1k-2k": 96,
     "2k-3k": 89,
-    "3k-5k": 87,
+    "3k-5k": 88,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 491,
+      "count": 37,
+      "avg": 13
+    },
     "PRS": {
-      "sum": 351,
+      "sum": 355,
       "count": 41,
       "avg": 9
     },
@@ -12153,18 +12189,13 @@
       "count": 5,
       "avg": 5
     },
-    "Gibson": {
-      "sum": 472,
-      "count": 36,
-      "avg": 13
-    },
     "ESP": {
       "sum": 107,
       "count": 8,
       "avg": 13
     },
     "Fender": {
-      "sum": 189,
+      "sum": 191,
       "count": 22,
       "avg": 9
     },
@@ -12174,12 +12205,12 @@
       "avg": 1
     },
     "Ibanez": {
-      "sum": 157,
+      "sum": 158,
       "count": 16,
       "avg": 10
     },
     "Jackson": {
-      "sum": 121,
+      "sum": 122,
       "count": 11,
       "avg": 11
     },
@@ -12189,12 +12220,12 @@
       "avg": 1
     },
     "BC Rich": {
-      "sum": 202,
+      "sum": 203,
       "count": 25,
       "avg": 8
     },
     "Greco": {
-      "sum": 26,
+      "sum": 27,
       "count": 5,
       "avg": 5
     },
@@ -12209,7 +12240,7 @@
       "avg": 1
     },
     "AXL": {
-      "sum": 13,
+      "sum": 14,
       "count": 2,
       "avg": 7
     },
@@ -12219,19 +12250,19 @@
       "avg": 12
     },
     "Matchless": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Echopark": {
-      "sum": 40,
+      "sum": 42,
       "count": 5,
       "avg": 8
     },
     "Ampeg": {
-      "sum": 28,
+      "sum": 30,
       "count": 2,
-      "avg": 14
+      "avg": 15
     },
     "Gretsch": {
       "sum": 25,
@@ -12244,7 +12275,7 @@
       "avg": 6
     },
     "Kiesel": {
-      "sum": 189,
+      "sum": 190,
       "count": 11,
       "avg": 17
     },
@@ -12294,9 +12325,9 @@
       "avg": 4
     },
     "Fano": {
-      "sum": 25,
+      "sum": 26,
       "count": 3,
-      "avg": 8
+      "avg": 9
     },
     "Knaggs": {
       "sum": 63,
@@ -12304,14 +12335,14 @@
       "avg": 21
     },
     "Marshall": {
-      "sum": 8,
+      "sum": 10,
       "count": 2,
-      "avg": 4
+      "avg": 5
     },
     "Mesa Boogie": {
-      "sum": 84,
+      "sum": 85,
       "count": 2,
-      "avg": 42
+      "avg": 43
     },
     "Ovation": {
       "sum": 5,
@@ -12419,9 +12450,9 @@
       "avg": 12
     },
     "Seymour Duncan": {
-      "sum": 12,
+      "sum": 13,
       "count": 1,
-      "avg": 12
+      "avg": 13
     },
     "Rick Toone": {
       "sum": 13,
@@ -12444,9 +12475,9 @@
       "avg": 13
     },
     "Patrick James Eggle": {
-      "sum": 24,
+      "sum": 25,
       "count": 2,
-      "avg": 12
+      "avg": 13
     },
     "Diamond": {
       "sum": 13,
@@ -12504,9 +12535,9 @@
       "avg": 10
     },
     "Martin": {
-      "sum": 9,
+      "sum": 10,
       "count": 1,
-      "avg": 9
+      "avg": 10
     },
     "Cornish": {
       "sum": 25,
@@ -12545,7 +12576,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-09": 9,
+    "2026-04-09": 10,
     "2026-04-08": 41,
     "2026-04-07": 16,
     "2026-04-06": 30,
@@ -12562,10 +12593,10 @@
     "2026-04-01": 32
   },
   "categoryDistribution": {
-    "reverb": 335,
+    "reverb": 336,
     "marketplace": 35
   },
-  "activeModelsCount": 313,
+  "activeModelsCount": 314,
   "topPosters": [
     {
       "username": "GP",
@@ -12623,10 +12654,10 @@
       "count": 24
     },
     "Gibson": {
-      "avgPrice": 14896,
+      "avgPrice": 14636,
       "retailEst": 800,
-      "avgDiscount": -1762,
-      "count": 39
+      "avgDiscount": -1729.5,
+      "count": 40
     },
     "PRS": {
       "avgPrice": 3494,
@@ -13861,14 +13892,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 348,
+      "total": 349,
       "sold": 101,
       "fake": 0,
-      "live": 247,
+      "live": 248,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 42,
+        "sold": 10,
+        "fake": 0,
+        "live": 32,
+        "soldPct": 24,
+        "livePct": 76
+      },
       "PRS": {
         "total": 44,
         "sold": 15,
@@ -13908,14 +13947,6 @@
         "live": 4,
         "soldPct": 20,
         "livePct": 80
-      },
-      "Gibson": {
-        "total": 41,
-        "sold": 10,
-        "fake": 0,
-        "live": 31,
-        "soldPct": 24,
-        "livePct": 76
       },
       "ESP": {
         "total": 9,
@@ -14578,13 +14609,13 @@
     },
     {
       "label": "1–5",
-      "total": 26,
+      "total": 25,
       "sold": 7,
-      "rate": 27
+      "rate": 28
     },
     {
       "label": "6–15",
-      "total": 79,
+      "total": 80,
       "sold": 18,
       "rate": 23
     },
@@ -14596,14 +14627,14 @@
     },
     {
       "label": "31+",
-      "total": 81,
+      "total": 82,
       "sold": 18,
       "rate": 22
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 204,
+      "total": 205,
       "sold": 61,
       "rate": 30
     },
@@ -14615,7 +14646,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 152,
+      "total": 153,
       "sold": 34,
       "rate": 22
     },
@@ -14628,7 +14659,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 43,
+      "total": 44,
       "sold": 10,
       "rate": 23
     },
