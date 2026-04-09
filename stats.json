@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-09T00:01:22.953Z",
-  "totalLinks": 362,
-  "totalWithPrice": 357,
+  "generatedAt": "2026-04-09T00:02:27.132Z",
+  "totalLinks": 363,
+  "totalWithPrice": 358,
   "overall": {
-    "count": 357,
-    "sum": 1951326.19,
-    "avg": 5466,
+    "count": 358,
+    "sum": 1952826.19,
+    "avg": 5455,
     "min": 26,
     "max": 438280
   },
   "filtered": {
-    "count": 340,
-    "sum": 906337.2,
-    "avg": 2666,
+    "count": 341,
+    "sum": 907837.2,
+    "avg": 2662,
     "min": 26,
     "max": 8800,
     "median": 2399
@@ -161,11 +161,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 227,
-      "sum": 1345933.83,
+      "count": 228,
+      "sum": 1347433.83,
       "min": 26,
       "max": 438280,
-      "avg": 5929
+      "avg": 5910
     },
     "2026-03": {
       "count": 130,
@@ -177,11 +177,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 328,
-      "sum": 1700691.31,
+      "count": 329,
+      "sum": 1702191.31,
       "min": 26,
       "max": 438280,
-      "avg": 5185
+      "avg": 5174
     },
     "marketplace": {
       "count": 29,
@@ -193,11 +193,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 328,
-      "sum": 1700691.31,
+      "count": 329,
+      "sum": 1702191.31,
       "min": 26,
       "max": 438280,
-      "avg": 5185
+      "avg": 5174
     },
     "musiciansfriend.com": {
       "count": 1,
@@ -264,6 +264,37 @@
     }
   },
   "byModel": {
+    "eastman-t64v-gb-antique-goldburst": {
+      "displayName": "Used Eastman T64/V-GB Antique Goldburst w/case TSS6915",
+      "brand": "Eastman",
+      "model": "T64/V-GB Antique Goldburst",
+      "variant": null,
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-04-09T00:02:12.169Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Eastman T64/V-GB Antique Goldburst w/case TSS6915",
+          "url": "https://reverb.com/item/95695914-used-eastman-t64-v-gb-antique-goldburst-w-case-tss6915",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "eastman-sb59v-redburst": {
       "displayName": "Eastman SB59/v - Redburst",
       "brand": "Eastman",
@@ -6584,37 +6615,6 @@
       },
       "avg": 906
     },
-    "ibanez-rg-lacs-custom-shop": {
-      "displayName": "Ibanez LACS RG + Case - Los Angeles Custom Shop",
-      "brand": "Ibanez",
-      "model": "RG",
-      "variant": "Lacs Custom Shop",
-      "count": 1,
-      "sum": 4800,
-      "min": 4800,
-      "max": 4800,
-      "sightings": [
-        {
-          "price": 4800,
-          "date": "2026-04-02T01:59:43.860Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez LACS RG + Case - Los Angeles Custom Shop",
-          "url": "https://reverb.com/item/95597298-ibanez-lacs-rg-case-los-angeles-custom-shop",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 4800,
-          "min": 4800,
-          "max": 4800,
-          "avg": 4800
-        }
-      },
-      "avg": 4800
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -11542,9 +11542,54 @@
         }
       },
       "avg": 2800
+    },
+    "ibanez-rg-lacs-custom-shop": {
+      "displayName": "Ibanez LACS RG + Case - Los Angeles Custom Shop",
+      "brand": "Ibanez",
+      "model": "RG",
+      "variant": "Lacs Custom Shop",
+      "count": 1,
+      "sum": 4800,
+      "min": 4800,
+      "max": 4800,
+      "sightings": [
+        {
+          "price": 4800,
+          "date": "2026-04-02T01:59:43.860Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez LACS RG + Case - Los Angeles Custom Shop",
+          "url": "https://reverb.com/item/95597298-ibanez-lacs-rg-case-los-angeles-custom-shop",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 4800,
+          "min": 4800,
+          "max": 4800,
+          "avg": 4800
+        }
+      },
+      "avg": 4800
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 104,
+      "sum": 703661.56,
+      "sold": {
+        "count": 27,
+        "sum": 58908.78,
+        "avg": 2182,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 6766,
+      "min": 33,
+      "max": 438280
+    },
     "Excellent": {
       "count": 131,
       "sum": 670727.6799999999,
@@ -11558,20 +11603,6 @@
       "avg": 5120,
       "min": 26,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 103,
-      "sum": 702161.56,
-      "sold": {
-        "count": 27,
-        "sum": 58908.78,
-        "avg": 2182,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 6817,
-      "min": 33,
-      "max": 438280
     },
     "Mint": {
       "count": 10,
@@ -11680,8 +11711,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5929,
-      "count": 227
+      "avg": 5910,
+      "count": 228
     },
     "03": {
       "name": "Mar",
@@ -11834,7 +11865,7 @@
   "priceDistribution": {
     "0-500": 18,
     "500-1k": 27,
-    "1k-2k": 94,
+    "1k-2k": 95,
     "2k-3k": 85,
     "3k-5k": 86,
     "5k-10k": 34,
@@ -11843,7 +11874,7 @@
   "priceDistributionFiltered": {
     "0-500": 18,
     "500-1k": 27,
-    "1k-2k": 94,
+    "1k-2k": 95,
     "2k-3k": 85,
     "3k-5k": 86,
     "5k-10k": 30,
@@ -11851,8 +11882,8 @@
   },
   "daysOnMarket": {
     "Eastman": {
-      "sum": 19,
-      "count": 4,
+      "sum": 23,
+      "count": 5,
       "avg": 5
     },
     "Gibson": {
@@ -12247,7 +12278,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-09": 1,
+    "2026-04-09": 2,
     "2026-04-08": 41,
     "2026-04-07": 16,
     "2026-04-06": 30,
@@ -12264,10 +12295,10 @@
     "2026-04-01": 32
   },
   "categoryDistribution": {
-    "reverb": 328,
+    "reverb": 329,
     "marketplace": 34
   },
-  "activeModelsCount": 306,
+  "activeModelsCount": 307,
   "topPosters": [
     {
       "username": "GP",
@@ -12275,7 +12306,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 65
+      "count": 66
     },
     {
       "username": "WontonGG",
@@ -13520,21 +13551,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 338,
+      "total": 339,
       "sold": 98,
       "fake": 0,
-      "live": 240,
+      "live": 241,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
       "Eastman": {
-        "total": 4,
+        "total": 5,
         "sold": 1,
         "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
       },
       "Gibson": {
         "total": 41,
@@ -14190,7 +14221,7 @@
     "withOffers": 90,
     "totalOffers": 170,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 61
+    "offersEnabledPct": 60
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -14211,7 +14242,7 @@
     },
     {
       "label": "6–15",
-      "total": 72,
+      "total": 73,
       "sold": 18,
       "rate": 25
     },
@@ -14235,14 +14266,14 @@
       "rate": 30
     },
     "off": {
-      "total": 87,
+      "total": 88,
       "sold": 24,
-      "rate": 28
+      "rate": 27
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 148,
+      "total": 149,
       "sold": 33,
       "rate": 22
     },
@@ -14267,9 +14298,9 @@
     },
     {
       "state": "TX",
-      "total": 18,
+      "total": 19,
       "sold": 10,
-      "rate": 56
+      "rate": 53
     },
     {
       "state": "OH",
