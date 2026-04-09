@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-09T05:09:16.765Z",
-  "totalLinks": 366,
-  "totalWithPrice": 361,
+  "generatedAt": "2026-04-09T05:44:52.015Z",
+  "totalLinks": 367,
+  "totalWithPrice": 362,
   "overall": {
-    "count": 361,
-    "sum": 1966147.18,
-    "avg": 5446,
+    "count": 362,
+    "sum": 1968647.18,
+    "avg": 5438,
     "min": 26,
     "max": 442660
   },
   "filtered": {
-    "count": 344,
-    "sum": 916458.19,
+    "count": 345,
+    "sum": 918958.19,
     "avg": 2664,
     "min": 26,
     "max": 8800,
@@ -161,11 +161,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 231,
-      "sum": 1360754.82,
+      "count": 232,
+      "sum": 1363254.82,
       "min": 26,
       "max": 442660,
-      "avg": 5891
+      "avg": 5876
     },
     "2026-03": {
       "count": 130,
@@ -177,11 +177,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 331,
-      "sum": 1712912.31,
+      "count": 332,
+      "sum": 1715412.31,
       "min": 26,
       "max": 442660,
-      "avg": 5175
+      "avg": 5167
     },
     "marketplace": {
       "count": 30,
@@ -193,11 +193,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 331,
-      "sum": 1712912.31,
+      "count": 332,
+      "sum": 1715412.31,
       "min": 26,
       "max": 442660,
-      "avg": 5175
+      "avg": 5167
     },
     "musicgoround.com": {
       "count": 2,
@@ -264,6 +264,37 @@
     }
   },
   "byModel": {
+    "prs-kl-380-korina": {
+      "displayName": "PRS KL 380-Korina 2009",
+      "brand": "PRS",
+      "model": "KL 380-Korina",
+      "variant": null,
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-04-09T05:44:37.012Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS KL 380-Korina 2009",
+          "url": "https://reverb.com/item/95793288-prs-kl-380-korina-2009",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "prs-semi-hollow-limited-edition": {
       "displayName": "MINTY! 2013 PRS Custom Figured Walnut Limited Edition Semi-Hollow Electric Guitar w/ Brazilian Board + OHSC (6098)",
       "brand": "PRS",
@@ -6569,52 +6600,6 @@
       },
       "avg": 2500
     },
-    "dean-cadillac-time-capsule-usa": {
-      "displayName": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
-      "brand": "Dean",
-      "model": "Cadillac Time Capsule",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 4599,
-      "min": 4599,
-      "max": 4599,
-      "sightings": [
-        {
-          "price": 4599,
-          "date": "2026-04-02T03:48:18.026Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
-          "url": "https://reverb.com/item/95598559-dean-usa-cadillac-time-capsule-2026-trans-cherry",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 4599,
-          "min": 4599,
-          "max": 4599,
-          "avg": 4599
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 4599,
-        "min": 4599,
-        "max": 4599,
-        "prices": [
-          {
-            "price": 4599,
-            "askingPrice": 4599,
-            "date": "2026-04-02T19:30:33.293Z",
-            "title": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
-            "url": "https://reverb.com/item/95598559-dean-usa-cadillac-time-capsule-2026-trans-cherry"
-          }
-        ]
-      },
-      "avg": 4599
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -11696,12 +11681,58 @@
         ]
       },
       "avg": 26
+    },
+    "dean-cadillac-time-capsule-usa": {
+      "displayName": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
+      "brand": "Dean",
+      "model": "Cadillac Time Capsule",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 4599,
+      "min": 4599,
+      "max": 4599,
+      "sightings": [
+        {
+          "price": 4599,
+          "date": "2026-04-02T03:48:18.026Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
+          "url": "https://reverb.com/item/95598559-dean-usa-cadillac-time-capsule-2026-trans-cherry",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 4599,
+          "min": 4599,
+          "max": 4599,
+          "avg": 4599
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 4599,
+        "min": 4599,
+        "max": 4599,
+        "prices": [
+          {
+            "price": 4599,
+            "askingPrice": 4599,
+            "date": "2026-04-02T19:30:33.293Z",
+            "title": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
+            "url": "https://reverb.com/item/95598559-dean-usa-cadillac-time-capsule-2026-trans-cherry"
+          }
+        ]
+      },
+      "avg": 4599
     }
   },
   "byCondition": {
     "Excellent": {
-      "count": 132,
-      "sum": 675520.6799999999,
+      "count": 133,
+      "sum": 678020.6799999999,
       "sold": {
         "count": 43,
         "sum": 139272.40000000002,
@@ -11709,7 +11740,7 @@
         "min": 26,
         "max": 35900
       },
-      "avg": 5118,
+      "avg": 5098,
       "min": 26,
       "max": 190000
     },
@@ -11834,8 +11865,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5891,
-      "count": 231
+      "avg": 5876,
+      "count": 232
     },
     "03": {
       "name": "Mar",
@@ -11989,7 +12020,7 @@
     "0-500": 18,
     "500-1k": 28,
     "1k-2k": 95,
-    "2k-3k": 86,
+    "2k-3k": 87,
     "3k-5k": 87,
     "5k-10k": 34,
     "10k+": 13
@@ -11998,7 +12029,7 @@
     "0-500": 18,
     "500-1k": 28,
     "1k-2k": 95,
-    "2k-3k": 86,
+    "2k-3k": 87,
     "3k-5k": 87,
     "5k-10k": 30,
     "10k+": 0
@@ -12006,8 +12037,8 @@
   "daysOnMarket": {
     "PRS": {
       "sum": 334,
-      "count": 39,
-      "avg": 9
+      "count": 40,
+      "avg": 8
     },
     "Aristides": {
       "sum": 1,
@@ -12020,7 +12051,7 @@
       "avg": 5
     },
     "Gibson": {
-      "sum": 454,
+      "sum": 456,
       "count": 36,
       "avg": 13
     },
@@ -12055,7 +12086,7 @@
       "avg": 0
     },
     "BC Rich": {
-      "sum": 191,
+      "sum": 193,
       "count": 25,
       "avg": 8
     },
@@ -12110,7 +12141,7 @@
       "avg": 6
     },
     "Kiesel": {
-      "sum": 186,
+      "sum": 187,
       "count": 11,
       "avg": 17
     },
@@ -12264,11 +12295,6 @@
       "count": 1,
       "avg": 7
     },
-    "Dean": {
-      "sum": 14,
-      "count": 2,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 12,
       "count": 1,
@@ -12408,10 +12434,15 @@
       "sum": 8,
       "count": 1,
       "avg": 8
+    },
+    "Dean": {
+      "sum": 14,
+      "count": 2,
+      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-09": 5,
+    "2026-04-09": 6,
     "2026-04-08": 41,
     "2026-04-07": 16,
     "2026-04-06": 30,
@@ -12428,14 +12459,14 @@
     "2026-04-01": 32
   },
   "categoryDistribution": {
-    "reverb": 331,
+    "reverb": 332,
     "marketplace": 35
   },
-  "activeModelsCount": 309,
+  "activeModelsCount": 310,
   "topPosters": [
     {
       "username": "GP",
-      "count": 134
+      "count": 135
     },
     {
       "username": "Beijing Bob",
@@ -12495,10 +12526,10 @@
       "count": 39
     },
     "PRS": {
-      "avgPrice": 3577,
+      "avgPrice": 3552,
       "retailEst": 1000,
-      "avgDiscount": -257.7,
-      "count": 42
+      "avgDiscount": -255.2,
+      "count": 43
     },
     "Ibanez": {
       "avgPrice": 2532,
@@ -12528,7 +12559,7 @@
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 951.0999999999998,
+      "totalDays": 951.0999999999997,
       "count": 100,
       "avgDays": 9.5
     },
@@ -12836,14 +12867,6 @@
         "fastest": 6.5,
         "slowest": 6.5,
         "avgDays": 6.5
-      },
-      "dean-cadillac-time-capsule-usa": {
-        "displayName": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
-        "totalDays": 0.8,
-        "count": 1,
-        "fastest": 0.8,
-        "slowest": 0.8,
-        "avgDays": 0.8
       },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
@@ -13252,6 +13275,14 @@
         "fastest": 5.7,
         "slowest": 5.7,
         "avgDays": 5.7
+      },
+      "dean-cadillac-time-capsule-usa": {
+        "displayName": "Dean USA Cadillac Time Capsule 2026 - Trans-Cherry",
+        "totalDays": 0.8,
+        "count": 1,
+        "fastest": 0.8,
+        "slowest": 0.8,
+        "avgDays": 0.8
       }
     },
     "byBrand": {
@@ -13416,13 +13447,6 @@
         "slowest": 0.1,
         "avgDays": 0.1
       },
-      "Dean": {
-        "totalDays": 0.8,
-        "count": 1,
-        "fastest": 0.8,
-        "slowest": 0.8,
-        "avgDays": 0.8
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -13548,6 +13572,13 @@
         "fastest": 4,
         "slowest": 4,
         "avgDays": 4
+      },
+      "Dean": {
+        "totalDays": 0.8,
+        "count": 1,
+        "fastest": 0.8,
+        "slowest": 0.8,
+        "avgDays": 0.8
       }
     }
   },
@@ -13722,21 +13753,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 344,
+      "total": 345,
       "sold": 101,
       "fake": 0,
-      "live": 243,
+      "live": 244,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
       "PRS": {
-        "total": 42,
+        "total": 43,
         "sold": 15,
         "fake": 0,
-        "live": 27,
-        "soldPct": 36,
-        "livePct": 64
+        "live": 28,
+        "soldPct": 35,
+        "livePct": 65
       },
       "Aristides": {
         "total": 2,
@@ -14170,14 +14201,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Dean": {
-        "total": 3,
-        "sold": 1,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "livePct": 67
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -14401,6 +14424,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Dean": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       }
     }
   },
@@ -14408,7 +14439,7 @@
     "withOffers": 92,
     "totalOffers": 172,
     "avgOffersPerListing": 1.9,
-    "offersEnabledPct": 60
+    "offersEnabledPct": 61
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -14429,7 +14460,7 @@
     },
     {
       "label": "6–15",
-      "total": 78,
+      "total": 79,
       "sold": 18,
       "rate": 23
     },
@@ -14448,9 +14479,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 200,
+      "total": 201,
       "sold": 61,
-      "rate": 31
+      "rate": 30
     },
     "off": {
       "total": 89,
@@ -14460,7 +14491,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 150,
+      "total": 151,
       "sold": 34,
       "rate": 23
     },
@@ -14580,6 +14611,12 @@
       "rate": 0
     },
     {
+      "state": "CO",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "AL",
       "total": 3,
       "sold": 0,
@@ -14656,12 +14693,6 @@
       "total": 2,
       "sold": 1,
       "rate": 50
-    },
-    {
-      "state": "CO",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "NE",
