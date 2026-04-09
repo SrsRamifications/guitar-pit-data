@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-09T05:44:52.015Z",
-  "totalLinks": 367,
-  "totalWithPrice": 362,
+  "generatedAt": "2026-04-09T05:45:47.021Z",
+  "totalLinks": 368,
+  "totalWithPrice": 363,
   "overall": {
-    "count": 362,
-    "sum": 1968647.18,
-    "avg": 5438,
+    "count": 363,
+    "sum": 1970946.18,
+    "avg": 5430,
     "min": 26,
     "max": 442660
   },
   "filtered": {
-    "count": 345,
-    "sum": 918958.19,
-    "avg": 2664,
+    "count": 346,
+    "sum": 921257.19,
+    "avg": 2663,
     "min": 26,
     "max": 8800,
     "median": 2399
@@ -161,11 +161,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 232,
-      "sum": 1363254.82,
+      "count": 233,
+      "sum": 1365553.82,
       "min": 26,
       "max": 442660,
-      "avg": 5876
+      "avg": 5861
     },
     "2026-03": {
       "count": 130,
@@ -177,11 +177,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 332,
-      "sum": 1715412.31,
+      "count": 333,
+      "sum": 1717711.31,
       "min": 26,
       "max": 442660,
-      "avg": 5167
+      "avg": 5158
     },
     "marketplace": {
       "count": 30,
@@ -193,11 +193,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 332,
-      "sum": 1715412.31,
+      "count": 333,
+      "sum": 1717711.31,
       "min": 26,
       "max": 442660,
-      "avg": 5167
+      "avg": 5158
     },
     "musicgoround.com": {
       "count": 2,
@@ -264,6 +264,37 @@
     }
   },
   "byModel": {
+    "teisco-waterslide-coodercaster-bel": {
+      "displayName": "Waterslide Coodercaster 2021 - Bel Air Blue",
+      "brand": "Teisco",
+      "model": "Waterslide Coodercaster Bel",
+      "variant": null,
+      "count": 1,
+      "sum": 2299,
+      "min": 2299,
+      "max": 2299,
+      "sightings": [
+        {
+          "price": 2299,
+          "date": "2026-04-09T05:45:32.413Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Waterslide Coodercaster 2021 - Bel Air Blue",
+          "url": "https://reverb.com/item/95794231-waterslide-coodercaster-2021-bel-air-blue",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2299,
+          "min": 2299,
+          "max": 2299,
+          "avg": 2299
+        }
+      },
+      "avg": 2299
+    },
     "prs-kl-380-korina": {
       "displayName": "PRS KL 380-Korina 2009",
       "brand": "PRS",
@@ -6569,37 +6600,6 @@
       },
       "avg": 1975
     },
-    "bilt-relevator-ls": {
-      "displayName": "Bilt Relevator LS",
-      "brand": "Bilt",
-      "model": "Relevator LS",
-      "variant": null,
-      "count": 1,
-      "sum": 2500,
-      "min": 2500,
-      "max": 2500,
-      "sightings": [
-        {
-          "price": 2500,
-          "date": "2026-04-02T06:38:51.812Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Bilt Relevator LS",
-          "url": "https://reverb.com/item/95600385-bilt-relevator-ls",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2500,
-          "min": 2500,
-          "max": 2500,
-          "avg": 2500
-        }
-      },
-      "avg": 2500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -11727,9 +11727,54 @@
         ]
       },
       "avg": 4599
+    },
+    "bilt-relevator-ls": {
+      "displayName": "Bilt Relevator LS",
+      "brand": "Bilt",
+      "model": "Relevator LS",
+      "variant": null,
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-04-02T06:38:51.812Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Bilt Relevator LS",
+          "url": "https://reverb.com/item/95600385-bilt-relevator-ls",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 106,
+      "sum": 711314.56,
+      "sold": {
+        "count": 28,
+        "sum": 61408.78,
+        "avg": 2193,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 6711,
+      "min": 33,
+      "max": 442660
+    },
     "Excellent": {
       "count": 133,
       "sum": 678020.6799999999,
@@ -11743,20 +11788,6 @@
       "avg": 5098,
       "min": 26,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 105,
-      "sum": 709015.56,
-      "sold": {
-        "count": 28,
-        "sum": 61408.78,
-        "avg": 2193,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 6753,
-      "min": 33,
-      "max": 442660
     },
     "Mint": {
       "count": 10,
@@ -11865,8 +11896,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5876,
-      "count": 232
+      "avg": 5861,
+      "count": 233
     },
     "03": {
       "name": "Mar",
@@ -12020,7 +12051,7 @@
     "0-500": 18,
     "500-1k": 28,
     "1k-2k": 95,
-    "2k-3k": 87,
+    "2k-3k": 88,
     "3k-5k": 87,
     "5k-10k": 34,
     "10k+": 13
@@ -12029,12 +12060,17 @@
     "0-500": 18,
     "500-1k": 28,
     "1k-2k": 95,
-    "2k-3k": 87,
+    "2k-3k": 88,
     "3k-5k": 87,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Teisco": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "PRS": {
       "sum": 334,
       "count": 40,
@@ -12290,11 +12326,6 @@
       "count": 1,
       "avg": 7
     },
-    "Bilt": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 12,
       "count": 1,
@@ -12439,10 +12470,15 @@
       "sum": 14,
       "count": 2,
       "avg": 7
+    },
+    "Bilt": {
+      "sum": 7,
+      "count": 1,
+      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-09": 6,
+    "2026-04-09": 7,
     "2026-04-08": 41,
     "2026-04-07": 16,
     "2026-04-06": 30,
@@ -12459,14 +12495,14 @@
     "2026-04-01": 32
   },
   "categoryDistribution": {
-    "reverb": 332,
+    "reverb": 333,
     "marketplace": 35
   },
-  "activeModelsCount": 310,
+  "activeModelsCount": 311,
   "topPosters": [
     {
       "username": "GP",
-      "count": 135
+      "count": 136
     },
     {
       "username": "Beijing Bob",
@@ -13753,14 +13789,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 345,
+      "total": 346,
       "sold": 101,
       "fake": 0,
-      "live": 244,
+      "live": 245,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Teisco": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 43,
         "sold": 15,
@@ -14193,14 +14237,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Bilt": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -14432,6 +14468,14 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
+      },
+      "Bilt": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       }
     }
   },
@@ -14454,9 +14498,9 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 25,
       "sold": 7,
-      "rate": 29
+      "rate": 28
     },
     {
       "label": "6–15",
@@ -14479,7 +14523,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 201,
+      "total": 202,
       "sold": 61,
       "rate": 30
     },
@@ -14496,9 +14540,9 @@
       "rate": 23
     },
     "regular": {
-      "total": 123,
+      "total": 124,
       "sold": 40,
-      "rate": 33
+      "rate": 32
     }
   },
   "geoSellThrough": [
@@ -14516,9 +14560,9 @@
     },
     {
       "state": "TX",
-      "total": 19,
+      "total": 20,
       "sold": 10,
-      "rate": 53
+      "rate": 50
     },
     {
       "state": "OH",
