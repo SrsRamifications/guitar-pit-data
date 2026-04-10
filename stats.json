@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-10T02:22:39.411Z",
+  "generatedAt": "2026-04-10T02:33:52.773Z",
   "totalLinks": 191,
   "totalWithPrice": 191,
   "overall": {
     "count": 191,
-    "sum": 1236480.91,
-    "avg": 6474,
+    "sum": 1232277.91,
+    "avg": 6452,
     "min": 40,
     "max": 442698
   },
   "filtered": {
     "count": 182,
-    "sum": 482645.92,
-    "avg": 2652,
+    "sum": 478442.92,
+    "avg": 2629,
     "min": 40,
     "max": 9000,
     "median": 2250
@@ -99,19 +99,19 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 1236480.91,
+      "sum": 1232277.91,
       "min": 40,
       "max": 442698,
-      "avg": 6474
+      "avg": 6452
     }
   },
   "byCategory": {
     "reverb": {
       "count": 175,
-      "sum": 1173821,
+      "sum": 1169618,
       "min": 40,
       "max": 442698,
-      "avg": 6708
+      "avg": 6684
     },
     "marketplace": {
       "count": 16,
@@ -124,10 +124,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 175,
-      "sum": 1173821,
+      "sum": 1169618,
       "min": 40,
       "max": 442698,
-      "avg": 6708
+      "avg": 6684
     },
     "guitarcenter.com": {
       "count": 7,
@@ -159,6 +159,37 @@
     }
   },
   "byModel": {
+    "nash-telecaster": {
+      "displayName": "Nash Telecaster Early 2000s - Relic'd",
+      "brand": "Nash",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 1,
+      "sum": 2038,
+      "min": 2038,
+      "max": 2038,
+      "sightings": [
+        {
+          "price": 2038,
+          "date": "2026-04-10T02:33:38.776Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash Telecaster Early 2000s - Relic'd",
+          "url": "https://reverb.com/item/95354797",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2038,
+          "min": 2038,
+          "max": 2038,
+          "avg": 2038
+        }
+      },
+      "avg": 2038
+    },
     "echopark-esperanto": {
       "displayName": "Echopark Esperanto 313 Red Sunburst",
       "brand": "Echopark",
@@ -6126,57 +6157,12 @@
         }
       },
       "avg": 12280
-    },
-    "castedosa-guitars-abi": {
-      "displayName": "Castedosa Guitars ABI",
-      "brand": "Castedosa",
-      "model": "Guitars ABI",
-      "variant": null,
-      "count": 1,
-      "sum": 6241,
-      "min": 6241,
-      "max": 6241,
-      "sightings": [
-        {
-          "price": 6241,
-          "date": "2026-04-02T21:09:14.902Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Castedosa Guitars ABI",
-          "url": "https://reverb.com/item/95610126-castedosa-guitars-abi",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 6241,
-          "min": 6241,
-          "max": 6241,
-          "avg": 6241
-        }
-      },
-      "avg": 6241
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 65,
-      "sum": 590376,
-      "sold": {
-        "count": 11,
-        "sum": 17974.989999999998,
-        "avg": 1634,
-        "min": 700,
-        "max": 2500
-      },
-      "avg": 9083,
-      "min": 250,
-      "max": 442698
-    },
     "Excellent": {
-      "count": 58,
-      "sum": 383689,
+      "count": 59,
+      "sum": 385727,
       "sold": {
         "count": 14,
         "sum": 33572,
@@ -6184,9 +6170,23 @@
         "min": 40,
         "max": 4057
       },
-      "avg": 6615,
+      "avg": 6538,
       "min": 40,
       "max": 190000
+    },
+    "Very Good": {
+      "count": 64,
+      "sum": 584135,
+      "sold": {
+        "count": 11,
+        "sum": 17974.989999999998,
+        "avg": 1634,
+        "min": 700,
+        "max": 2500
+      },
+      "avg": 9127,
+      "min": 250,
+      "max": 442698
     },
     "Mint": {
       "count": 7,
@@ -6273,7 +6273,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 6474,
+      "avg": 6452,
       "count": 191
     }
   },
@@ -6354,34 +6354,32 @@
       "oldPrice": "$3,209.78",
       "newPrice": "$3,204",
       "date": "2026-04-02T23:19:37.527Z"
-    },
-    {
-      "title": "Castedosa Guitars ABI",
-      "url": "https://reverb.com/item/95610126-castedosa-guitars-abi",
-      "oldPrice": "$6,569",
-      "newPrice": "$6,241",
-      "date": "2026-04-08T19:01:04.570Z"
     }
   ],
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 18,
     "1k-2k": 52,
-    "2k-3k": 36,
+    "2k-3k": 37,
     "3k-5k": 44,
-    "5k-10k": 21,
+    "5k-10k": 20,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 18,
     "1k-2k": 52,
-    "2k-3k": 36,
+    "2k-3k": 37,
     "3k-5k": 44,
-    "5k-10k": 20,
+    "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Nash": {
+      "sum": 23,
+      "count": 2,
+      "avg": 12
+    },
     "Echopark": {
       "sum": 4,
       "count": 3,
@@ -6428,7 +6426,7 @@
       "avg": 4
     },
     "Washburn": {
-      "sum": 3,
+      "sum": 4,
       "count": 2,
       "avg": 2
     },
@@ -6607,11 +6605,6 @@
       "count": 1,
       "avg": 5
     },
-    "Nash": {
-      "sum": 6,
-      "count": 1,
-      "avg": 6
-    },
     "Kauer": {
       "sum": 53,
       "count": 1,
@@ -6641,15 +6634,10 @@
       "sum": 7,
       "count": 1,
       "avg": 7
-    },
-    "Castedosa": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-10": 3,
+    "2026-04-10": 4,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -6657,7 +6645,7 @@
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
-    "2026-04-02": 6
+    "2026-04-02": 5
   },
   "categoryDistribution": {
     "reverb": 175,
@@ -6667,7 +6655,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 54
+      "count": 53
     },
     {
       "username": "Beijing Bob",
@@ -6708,7 +6696,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 6474,
+    "avg": 6452,
     "pctBelowAvg": 0,
     "count": 191
   },
@@ -7232,11 +7220,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 449.07727691518,
+      "totalPctDrop": 449.06537774674587,
       "count": 29,
       "avgPctDrop": 15.5
     },
     "byBrand": {
+      "Nash": {
+        "totalPctDrop": 9.982332155477032,
+        "count": 1,
+        "avgPctDrop": 10
+      },
       "PRS": {
         "totalPctDrop": 33.40104853943699,
         "count": 3,
@@ -7326,11 +7319,6 @@
         "totalPctDrop": 16.631929970821176,
         "count": 1,
         "avgPctDrop": 16.6
-      },
-      "Castedosa": {
-        "totalPctDrop": 9.994231323911162,
-        "count": 1,
-        "avgPctDrop": 10
       }
     }
   },
@@ -7344,6 +7332,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Nash": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Echopark": {
         "total": 5,
         "sold": 0,
@@ -7728,14 +7724,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Nash": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Kauer": {
         "total": 1,
         "sold": 0,
@@ -7785,24 +7773,24 @@
         "livePct": 0
       },
       "Castedosa": {
-        "total": 2,
+        "total": 1,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 1,
         "soldPct": 0,
         "livePct": 100
       }
     }
   },
   "offerActivity": {
-    "withOffers": 45,
-    "totalOffers": 71,
+    "withOffers": 44,
+    "totalOffers": 70,
     "avgOffersPerListing": 1.6,
     "offersEnabledPct": 65
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 103
+    "avgShippingCost": 104
   },
   "watcherDemand": [
     {
@@ -7850,12 +7838,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 105,
+      "total": 104,
       "sold": 20,
       "rate": 19
     },
     "regular": {
-      "total": 70,
+      "total": 71,
       "sold": 17,
       "rate": 24
     }
@@ -7990,6 +7978,12 @@
     {
       "state": "OR",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "BC",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
