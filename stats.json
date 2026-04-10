@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-04-10T01:16:21.397Z",
+  "generatedAt": "2026-04-10T01:55:25.153Z",
   "totalLinks": 191,
   "totalWithPrice": 191,
   "overall": {
     "count": 191,
-    "sum": 1291300.91,
-    "avg": 6761,
+    "sum": 1241450.91,
+    "avg": 6500,
     "min": 40,
     "max": 442698
   },
   "filtered": {
-    "count": 181,
-    "sum": 485965.92,
-    "avg": 2685,
+    "count": 182,
+    "sum": 487615.92,
+    "avg": 2679,
     "min": 40,
     "max": 9000,
-    "median": 2299
+    "median": 2275
   },
   "outliers": {
-    "thresholdHigh": 9400,
+    "thresholdHigh": 9397,
     "thresholdLow": 0,
-    "count": 10,
+    "count": 9,
     "items": [
       {
         "title": "Gibson Les Paul Standard 1960 - Sunburst",
@@ -37,14 +37,6 @@
         "image": "https://rvb-img.reverb.com/i/s--FrrhVERm--/quality=medium-low,height=800,width=800,fit=contain/4ce36948-0396-42fd-b7cb-e8c5882739bc.jpg",
         "condition": "Excellent",
         "postedAt": "2026-04-08T21:30:11.220Z"
-      },
-      {
-        "title": "1957 Fender Stratocaster",
-        "url": "https://reverb.com/item/95610311-1957-fender-stratocaster",
-        "price": "$51,500",
-        "image": "https://rvb-img.reverb.com/i/s--1NM3CCQU--/quality=medium-low,height=800,width=800,fit=contain/3bae3fad-0b57-4402-9305-4d6eb022fddf.jpg",
-        "condition": "Excellent",
-        "postedAt": "2026-04-02T20:57:12.900Z"
       },
       {
         "title": "Fender Stratocaster 1958 - Sonic Blue Refinish",
@@ -107,19 +99,19 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 1291300.91,
+      "sum": 1241450.91,
       "min": 40,
       "max": 442698,
-      "avg": 6761
+      "avg": 6500
     }
   },
   "byCategory": {
     "reverb": {
       "count": 175,
-      "sum": 1228641,
+      "sum": 1178791,
       "min": 40,
       "max": 442698,
-      "avg": 7021
+      "avg": 6736
     },
     "marketplace": {
       "count": 16,
@@ -132,10 +124,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 175,
-      "sum": 1228641,
+      "sum": 1178791,
       "min": 40,
       "max": 442698,
-      "avg": 7021
+      "avg": 6736
     },
     "guitarcenter.com": {
       "count": 7,
@@ -167,6 +159,37 @@
     }
   },
   "byModel": {
+    "heritage-standard": {
+      "displayName": "Heritage Standard Collection H-530 Hollow '26",
+      "brand": "Heritage",
+      "model": "Standard",
+      "variant": null,
+      "count": 1,
+      "sum": 1650,
+      "min": 1650,
+      "max": 1650,
+      "sightings": [
+        {
+          "price": 1650,
+          "date": "2026-04-10T01:55:10.552Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Heritage Standard Collection H-530 Hollow '26",
+          "url": "https://reverb.com/item/95824361-heritage-standard-collection-h-530-hollow-26",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1650,
+          "min": 1650,
+          "max": 1650,
+          "avg": 1650
+        }
+      },
+      "avg": 1650
+    },
     "martin-c-2": {
       "displayName": "1933 Martin C-2 Conversion to 0-42 Style Flat Top — Joel Whitehead / Brazilian Rosewood — Excellent",
       "brand": "Martin",
@@ -249,20 +272,11 @@
       "brand": "Fender",
       "model": "Stratocaster",
       "variant": null,
-      "count": 4,
-      "sum": 59850,
+      "count": 3,
+      "sum": 8350,
       "min": 1950,
-      "max": 51500,
+      "max": 4000,
       "sightings": [
-        {
-          "price": 51500,
-          "date": "2026-04-02T20:57:12.900Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1957 Fender Stratocaster",
-          "url": "https://reverb.com/item/95610311-1957-fender-stratocaster",
-          "condition": "Excellent"
-        },
         {
           "price": 4000,
           "date": "2026-04-03T20:32:11.645Z",
@@ -293,11 +307,11 @@
       ],
       "byCondition": {
         "Excellent": {
-          "count": 2,
-          "sum": 53450,
+          "count": 1,
+          "sum": 1950,
           "min": 1950,
-          "max": 51500,
-          "avg": 26725
+          "max": 1950,
+          "avg": 1950
         },
         "Very Good": {
           "count": 1,
@@ -314,7 +328,7 @@
           "avg": 4000
         }
       },
-      "avg": 14963,
+      "avg": 2783,
       "trends": {}
     },
     "parker-spanish-fly-1998-2002": {
@@ -6137,9 +6151,23 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 64,
+      "sum": 587951,
+      "sold": {
+        "count": 11,
+        "sum": 17974.989999999998,
+        "avg": 1634,
+        "min": 700,
+        "max": 2500
+      },
+      "avg": 9187,
+      "min": 250,
+      "max": 442698
+    },
     "Excellent": {
-      "count": 59,
-      "sum": 435189,
+      "count": 58,
+      "sum": 383689,
       "sold": {
         "count": 14,
         "sum": 33572,
@@ -6147,7 +6175,7 @@
         "min": 40,
         "max": 4057
       },
-      "avg": 7376,
+      "avg": 6615,
       "min": 40,
       "max": 190000
     },
@@ -6164,20 +6192,6 @@
       "avg": 6003,
       "min": 1397,
       "max": 11500
-    },
-    "Very Good": {
-      "count": 63,
-      "sum": 586301,
-      "sold": {
-        "count": 11,
-        "sum": 17974.989999999998,
-        "avg": 1634,
-        "min": 700,
-        "max": 2500
-      },
-      "avg": 9306,
-      "min": 250,
-      "max": 442698
     },
     "Good": {
       "count": 21,
@@ -6250,7 +6264,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 6761,
+      "avg": 6500,
       "count": 191
     }
   },
@@ -6343,22 +6357,27 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 50,
+    "1k-2k": 51,
     "2k-3k": 36,
     "3k-5k": 44,
     "5k-10k": 22,
-    "10k+": 9
+    "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 50,
+    "1k-2k": 51,
     "2k-3k": 36,
     "3k-5k": 44,
     "5k-10k": 21,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Heritage": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Martin": {
       "sum": 71,
       "count": 1,
@@ -6370,8 +6389,8 @@
       "avg": 11
     },
     "Fender": {
-      "sum": 92,
-      "count": 14,
+      "sum": 85,
+      "count": 13,
       "avg": 7
     },
     "Parker": {
@@ -6621,6 +6640,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-10": 1,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -6628,21 +6648,21 @@
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
-    "2026-04-02": 9
+    "2026-04-02": 8
   },
   "categoryDistribution": {
     "reverb": 175,
     "marketplace": 16
   },
-  "activeModelsCount": 168,
+  "activeModelsCount": 169,
   "topPosters": [
     {
       "username": "GP",
-      "count": 57
+      "count": 56
     },
     {
       "username": "Beijing Bob",
-      "count": 35
+      "count": 36
     },
     {
       "username": "Shteefe",
@@ -6679,17 +6699,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 6761,
+    "avg": 6500,
     "pctBelowAvg": 0,
     "count": 191
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 9613,
+      "avgPrice": 6391,
       "retailEst": 800,
-      "avgDiscount": -1101.6,
-      "count": 14
+      "avgDiscount": -698.9,
+      "count": 13
     },
     "Gibson": {
       "avgPrice": 22432,
@@ -7315,6 +7335,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Heritage": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Martin": {
         "total": 1,
         "sold": 1,
@@ -7332,12 +7360,12 @@
         "livePct": 80
       },
       "Fender": {
-        "total": 14,
+        "total": 13,
         "sold": 3,
         "fake": 0,
-        "live": 11,
-        "soldPct": 21,
-        "livePct": 79
+        "live": 10,
+        "soldPct": 23,
+        "livePct": 77
       },
       "Parker": {
         "total": 1,
@@ -7909,10 +7937,10 @@
       "rate": 50
     },
     {
-      "state": "MN",
+      "state": "WI",
       "total": 3,
-      "sold": 1,
-      "rate": 33
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "TOKYO",
@@ -7963,6 +7991,12 @@
       "rate": 0
     },
     {
+      "state": "MN",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
+    },
+    {
       "state": "NV",
       "total": 2,
       "sold": 0,
@@ -7982,12 +8016,6 @@
     },
     {
       "state": "B",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "WI",
       "total": 2,
       "sold": 0,
       "rate": 0
