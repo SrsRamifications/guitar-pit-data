@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-10T20:13:31.233Z",
-  "totalLinks": 393,
-  "totalBeforeFilter": 429,
+  "generatedAt": "2026-04-10T20:21:24.189Z",
+  "totalLinks": 394,
+  "totalBeforeFilter": 430,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 387,
+  "totalWithPrice": 388,
   "overall": {
-    "count": 387,
-    "sum": 2080769.17,
-    "avg": 5377,
+    "count": 388,
+    "sum": 2081969.17,
+    "avg": 5366,
     "min": 26,
     "max": 442698
   },
   "filtered": {
-    "count": 366,
-    "sum": 983972.19,
-    "avg": 2688,
+    "count": 367,
+    "sum": 985172.19,
+    "avg": 2684,
     "min": 26,
     "max": 8800,
     "median": 2399
@@ -196,11 +196,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 257,
-      "sum": 1477575.82,
+      "count": 258,
+      "sum": 1478775.82,
       "min": 26,
       "max": 442698,
-      "avg": 5749
+      "avg": 5732
     },
     "2026-03": {
       "count": 130,
@@ -212,11 +212,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 360,
-      "sum": 1814019.3,
+      "count": 361,
+      "sum": 1815219.3,
       "min": 26,
       "max": 442698,
-      "avg": 5039
+      "avg": 5028
     },
     "marketplace": {
       "count": 27,
@@ -228,11 +228,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 360,
-      "sum": 1814019.3,
+      "count": 361,
+      "sum": 1815219.3,
       "min": 26,
       "max": 442698,
-      "avg": 5039
+      "avg": 5028
     },
     "guitarcenter.com": {
       "count": 10,
@@ -299,6 +299,37 @@
     }
   },
   "byModel": {
+    "schecter-tempest": {
+      "displayName": "Schecter 50th Anniversary Tempest",
+      "brand": "Schecter",
+      "model": "Tempest",
+      "variant": null,
+      "count": 1,
+      "sum": 1200,
+      "min": 1200,
+      "max": 1200,
+      "sightings": [
+        {
+          "price": 1200,
+          "date": "2026-04-10T20:21:09.040Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Schecter 50th Anniversary Tempest",
+          "url": "https://reverb.com/item/95855816-schecter-50th-anniversary-tempest",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1200,
+          "min": 1200,
+          "max": 1200,
+          "avg": 1200
+        }
+      },
+      "avg": 1200
+    },
     "vintage-baldwin-jazz-split": {
       "displayName": "Baldwin Jazz Split Sound 1966 Sunburst Guitar",
       "brand": "Vintage",
@@ -6487,37 +6518,6 @@
       },
       "avg": 1750
     },
-    "jackson-soloist-usa-signature": {
-      "displayName": "Jackson USA Signature Chris Broderick Soloist HT6 Devil & Flames Graphic by Mike Learn 2015 w/OHSC",
-      "brand": "Jackson",
-      "model": "Soloist",
-      "variant": "Usa Signature",
-      "count": 1,
-      "sum": 6000,
-      "min": 6000,
-      "max": 6000,
-      "sightings": [
-        {
-          "price": 6000,
-          "date": "2026-04-03T19:26:39.763Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Jackson USA Signature Chris Broderick Soloist HT6 Devil & Flames Graphic by Mike Learn 2015 w/OHSC",
-          "url": "https://reverb.com/item/93198709-jackson-usa-signature-chris-broderick-soloist-ht6-devil-flames-graphic-by-mike-learn-2015-w-ohsc",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 6000,
-          "min": 6000,
-          "max": 6000,
-          "avg": 6000
-        }
-      },
-      "avg": 6000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -12526,12 +12526,43 @@
         ]
       },
       "avg": 2250
+    },
+    "jackson-soloist-usa-signature": {
+      "displayName": "Jackson USA Signature Chris Broderick Soloist HT6 Devil & Flames Graphic by Mike Learn 2015 w/OHSC",
+      "brand": "Jackson",
+      "model": "Soloist",
+      "variant": "Usa Signature",
+      "count": 1,
+      "sum": 6000,
+      "min": 6000,
+      "max": 6000,
+      "sightings": [
+        {
+          "price": 6000,
+          "date": "2026-04-03T19:26:39.763Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Jackson USA Signature Chris Broderick Soloist HT6 Devil & Flames Graphic by Mike Learn 2015 w/OHSC",
+          "url": "https://reverb.com/item/93198709-jackson-usa-signature-chris-broderick-soloist-ht6-devil-flames-graphic-by-mike-learn-2015-w-ohsc",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 6000,
+          "min": 6000,
+          "max": 6000,
+          "avg": 6000
+        }
+      },
+      "avg": 6000
     }
   },
   "byCondition": {
     "Very Good": {
-      "count": 114,
-      "sum": 758886.55,
+      "count": 115,
+      "sum": 760086.55,
       "sold": {
         "count": 32,
         "sum": 67732.76999999999,
@@ -12539,7 +12570,7 @@
         "min": 165,
         "max": 3999.99
       },
-      "avg": 6657,
+      "avg": 6609,
       "min": 33,
       "max": 442698
     },
@@ -12664,8 +12695,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5749,
-      "count": 257
+      "avg": 5732,
+      "count": 258
     },
     "03": {
       "name": "Mar",
@@ -12818,7 +12849,7 @@
   "priceDistribution": {
     "0-500": 20,
     "500-1k": 30,
-    "1k-2k": 98,
+    "1k-2k": 99,
     "2k-3k": 91,
     "3k-5k": 94,
     "5k-10k": 38,
@@ -12827,13 +12858,18 @@
   "priceDistributionFiltered": {
     "0-500": 20,
     "500-1k": 30,
-    "1k-2k": 98,
+    "1k-2k": 99,
     "2k-3k": 91,
     "3k-5k": 94,
     "5k-10k": 33,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Schecter": {
+      "sum": 21,
+      "count": 3,
+      "avg": 7
+    },
     "Gibson": {
       "sum": 558,
       "count": 36,
@@ -13144,11 +13180,6 @@
       "count": 1,
       "avg": 13
     },
-    "Schecter": {
-      "sum": 21,
-      "count": 2,
-      "avg": 11
-    },
     "Anderson": {
       "sum": 13,
       "count": 1,
@@ -13246,7 +13277,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-10": 20,
+    "2026-04-10": 21,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -13264,14 +13295,14 @@
     "2026-04-02": 29
   },
   "categoryDistribution": {
-    "reverb": 360,
+    "reverb": 361,
     "marketplace": 33
   },
-  "activeModelsCount": 331,
+  "activeModelsCount": 332,
   "topPosters": [
     {
       "username": "GP",
-      "count": 143
+      "count": 144
     },
     {
       "username": "Beijing Bob",
@@ -14661,14 +14692,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 367,
+      "total": 368,
       "sold": 108,
       "fake": 0,
-      "live": 259,
+      "live": 260,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Schecter": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Vintage": {
         "total": 5,
         "sold": 0,
@@ -15189,14 +15228,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Schecter": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Anderson": {
         "total": 1,
         "sold": 0,
@@ -15365,9 +15396,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 98,
+        "total": 99,
         "sold": 32,
-        "rate": 33
+        "rate": 32
       },
       {
         "label": "$2k–3k",
@@ -15396,7 +15427,7 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 114,
+        "total": 115,
         "sold": 33,
         "rate": 29
       },
@@ -15460,9 +15491,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 5,
+      "total": 6,
       "sold": 5,
-      "rate": 100
+      "rate": 83
     },
     {
       "label": "1–5",
@@ -15491,7 +15522,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 220,
+      "total": 221,
       "sold": 70,
       "rate": 32
     },
@@ -15503,7 +15534,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 165,
+      "total": 166,
       "sold": 40,
       "rate": 24
     },
@@ -15533,6 +15564,12 @@
       "rate": 11
     },
     {
+      "state": "WA",
+      "total": 13,
+      "sold": 1,
+      "rate": 8
+    },
+    {
       "state": "IL",
       "total": 13,
       "sold": 4,
@@ -15555,12 +15592,6 @@
       "total": 12,
       "sold": 4,
       "rate": 33
-    },
-    {
-      "state": "WA",
-      "total": 12,
-      "sold": 1,
-      "rate": 8
     },
     {
       "state": "MD",
