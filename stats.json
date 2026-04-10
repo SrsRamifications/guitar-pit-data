@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-10T21:37:36.284Z",
-  "totalLinks": 398,
-  "totalBeforeFilter": 434,
+  "generatedAt": "2026-04-10T21:54:24.357Z",
+  "totalLinks": 399,
+  "totalBeforeFilter": 435,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 392,
+  "totalWithPrice": 393,
   "overall": {
-    "count": 392,
-    "sum": 2126341.17,
-    "avg": 5424,
+    "count": 393,
+    "sum": 2128241.17,
+    "avg": 5415,
     "min": 26,
     "max": 442698
   },
   "filtered": {
-    "count": 370,
-    "sum": 993044.19,
-    "avg": 2684,
+    "count": 371,
+    "sum": 994944.19,
+    "avg": 2682,
     "min": 26,
     "max": 8800,
     "median": 2399
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 262,
-      "sum": 1523147.82,
+      "count": 263,
+      "sum": 1525047.82,
       "min": 26,
       "max": 442698,
-      "avg": 5814
+      "avg": 5799
     },
     "2026-03": {
       "count": 130,
@@ -220,11 +220,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 365,
-      "sum": 1859591.3,
+      "count": 366,
+      "sum": 1861491.3,
       "min": 26,
       "max": 442698,
-      "avg": 5095
+      "avg": 5086
     },
     "marketplace": {
       "count": 27,
@@ -236,11 +236,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 365,
-      "sum": 1859591.3,
+      "count": 366,
+      "sum": 1861491.3,
       "min": 26,
       "max": 442698,
-      "avg": 5095
+      "avg": 5086
     },
     "guitarcenter.com": {
       "count": 10,
@@ -307,6 +307,37 @@
     }
   },
   "byModel": {
+    "music-man-jp-ball-family-reserve": {
+      "displayName": "Ernie Ball Music Man Ball Family Reserve John Petrucci JPX6 Barolo 2010 w/OHSC",
+      "brand": "Music Man",
+      "model": "JP",
+      "variant": "Ball Family Reserve",
+      "count": 1,
+      "sum": 1900,
+      "min": 1900,
+      "max": 1900,
+      "sightings": [
+        {
+          "price": 1900,
+          "date": "2026-04-10T21:54:09.238Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man Ball Family Reserve John Petrucci JPX6 Barolo 2010 w/OHSC",
+          "url": "https://reverb.com/item/95830142-ernie-ball-music-man-ball-family-reserve-john-petrucci-jpx6-barolo-2010-w-ohsc",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1900,
+          "min": 1900,
+          "max": 1900,
+          "avg": 1900
+        }
+      },
+      "avg": 1900
+    },
     "gibson-les-paul-custom-black-beauty-custom-shop": {
       "displayName": "1999 Gibson Les Paul Custom Black Beauty – Custom Shop – Ebony – OHSC + COA – Excellent Condition",
       "brand": "Gibson",
@@ -6472,37 +6503,6 @@
       },
       "avg": 1300
     },
-    "bc-rich-bich-little-sister-usa": {
-      "displayName": "B.C. Rich Bich \"Little Sister\" Son of Rich 1980 Cherry Sunburst Vintage USA w/ OHSC",
-      "brand": "BC Rich",
-      "model": "Bich \"Little Sister\"",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 2995,
-      "min": 2995,
-      "max": 2995,
-      "sightings": [
-        {
-          "price": 2995,
-          "date": "2026-04-03T22:44:59.160Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich Bich \"Little Sister\" Son of Rich 1980 Cherry Sunburst Vintage USA w/ OHSC",
-          "url": "https://reverb.com/item/95646081-b-c-rich-bich-little-sister-son-of-rich-1980-cherry-sunburst-vintage-usa-w-ohsc",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2995,
-          "min": 2995,
-          "max": 2995,
-          "avg": 2995
-        }
-      },
-      "avg": 2995
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -12665,12 +12665,43 @@
         }
       },
       "avg": 6163
+    },
+    "bc-rich-bich-little-sister-usa": {
+      "displayName": "B.C. Rich Bich \"Little Sister\" Son of Rich 1980 Cherry Sunburst Vintage USA w/ OHSC",
+      "brand": "BC Rich",
+      "model": "Bich \"Little Sister\"",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2995,
+      "min": 2995,
+      "max": 2995,
+      "sightings": [
+        {
+          "price": 2995,
+          "date": "2026-04-03T22:44:59.160Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Bich \"Little Sister\" Son of Rich 1980 Cherry Sunburst Vintage USA w/ OHSC",
+          "url": "https://reverb.com/item/95646081-b-c-rich-bich-little-sister-son-of-rich-1980-cherry-sunburst-vintage-usa-w-ohsc",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2995,
+          "min": 2995,
+          "max": 2995,
+          "avg": 2995
+        }
+      },
+      "avg": 2995
     }
   },
   "byCondition": {
     "Excellent": {
-      "count": 143,
-      "sum": 720180.6799999999,
+      "count": 144,
+      "sum": 722080.6799999999,
       "sold": {
         "count": 48,
         "sum": 156081.40000000002,
@@ -12678,7 +12709,7 @@
         "min": 26,
         "max": 35900
       },
-      "avg": 5036,
+      "avg": 5014,
       "min": 26,
       "max": 190000
     },
@@ -12803,8 +12834,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5814,
-      "count": 262
+      "avg": 5799,
+      "count": 263
     },
     "03": {
       "name": "Mar",
@@ -12957,7 +12988,7 @@
   "priceDistribution": {
     "0-500": 20,
     "500-1k": 30,
-    "1k-2k": 100,
+    "1k-2k": 101,
     "2k-3k": 91,
     "3k-5k": 96,
     "5k-10k": 38,
@@ -12966,13 +12997,18 @@
   "priceDistributionFiltered": {
     "0-500": 20,
     "500-1k": 30,
-    "1k-2k": 100,
+    "1k-2k": 101,
     "2k-3k": 91,
     "3k-5k": 96,
     "5k-10k": 33,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Music Man": {
+      "sum": 111,
+      "count": 9,
+      "avg": 12
+    },
     "Gibson": {
       "sum": 595,
       "count": 37,
@@ -13034,7 +13070,7 @@
       "avg": 8
     },
     "Fender": {
-      "sum": 197,
+      "sum": 198,
       "count": 22,
       "avg": 9
     },
@@ -13122,11 +13158,6 @@
       "sum": 16,
       "count": 2,
       "avg": 8
-    },
-    "Music Man": {
-      "sum": 111,
-      "count": 8,
-      "avg": 14
     },
     "Matchless": {
       "sum": 3,
@@ -13390,7 +13421,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-10": 25,
+    "2026-04-10": 26,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -13408,14 +13439,14 @@
     "2026-04-02": 29
   },
   "categoryDistribution": {
-    "reverb": 365,
+    "reverb": 366,
     "marketplace": 33
   },
-  "activeModelsCount": 335,
+  "activeModelsCount": 336,
   "topPosters": [
     {
       "username": "GP",
-      "count": 146
+      "count": 147
     },
     {
       "username": "Beijing Bob",
@@ -13493,10 +13524,10 @@
       "count": 13
     },
     "Music Man": {
-      "avgPrice": 2398,
+      "avgPrice": 2356,
       "retailEst": 1500,
-      "avgDiscount": -59.8,
-      "count": 11
+      "avgDiscount": -57.1,
+      "count": 12
     },
     "Kiesel": {
       "avgPrice": 1926,
@@ -14810,14 +14841,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 371,
+      "total": 372,
       "sold": 109,
       "fake": 0,
-      "live": 262,
+      "live": 263,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Music Man": {
+        "total": 12,
+        "sold": 7,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 58,
+        "livePct": 42
+      },
       "Gibson": {
         "total": 43,
         "sold": 11,
@@ -15081,14 +15120,6 @@
         "live": 3,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Music Man": {
-        "total": 11,
-        "sold": 7,
-        "fake": 0,
-        "live": 4,
-        "soldPct": 64,
-        "livePct": 36
       },
       "Matchless": {
         "total": 1,
@@ -15522,7 +15553,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 100,
+        "total": 101,
         "sold": 32,
         "rate": 32
       },
@@ -15553,7 +15584,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 143,
+        "total": 144,
         "sold": 52,
         "rate": 36
       },
@@ -15629,7 +15660,7 @@
     },
     {
       "label": "6–15",
-      "total": 88,
+      "total": 89,
       "sold": 21,
       "rate": 24
     },
@@ -15648,7 +15679,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 224,
+      "total": 225,
       "sold": 72,
       "rate": 32
     },
@@ -15660,7 +15691,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 168,
+      "total": 169,
       "sold": 41,
       "rate": 24
     },
@@ -15691,7 +15722,7 @@
     },
     {
       "state": "WA",
-      "total": 14,
+      "total": 15,
       "sold": 1,
       "rate": 7
     },
