@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-10T18:22:39.276Z",
-  "totalLinks": 391,
-  "totalBeforeFilter": 427,
+  "generatedAt": "2026-04-10T19:28:27.683Z",
+  "totalLinks": 392,
+  "totalBeforeFilter": 428,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 385,
+  "totalWithPrice": 386,
   "overall": {
-    "count": 385,
-    "sum": 2042670.17,
-    "avg": 5306,
+    "count": 386,
+    "sum": 2045770.17,
+    "avg": 5300,
     "min": 26,
     "max": 442698
   },
   "filtered": {
-    "count": 365,
-    "sum": 980872.19,
-    "avg": 2687,
+    "count": 366,
+    "sum": 983972.19,
+    "avg": 2688,
     "min": 26,
     "max": 8800,
     "median": 2399
@@ -188,11 +188,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 255,
-      "sum": 1439476.82,
+      "count": 256,
+      "sum": 1442576.82,
       "min": 26,
       "max": 442698,
-      "avg": 5645
+      "avg": 5635
     },
     "2026-03": {
       "count": 130,
@@ -204,11 +204,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 358,
-      "sum": 1775920.3,
+      "count": 359,
+      "sum": 1779020.3,
       "min": 26,
       "max": 442698,
-      "avg": 4961
+      "avg": 4955
     },
     "marketplace": {
       "count": 27,
@@ -220,11 +220,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 358,
-      "sum": 1775920.3,
+      "count": 359,
+      "sum": 1779020.3,
       "min": 26,
       "max": 442698,
-      "avg": 4961
+      "avg": 4955
     },
     "guitarcenter.com": {
       "count": 10,
@@ -291,6 +291,37 @@
     }
   },
   "byModel": {
+    "vintage-baldwin-jazz-split": {
+      "displayName": "Baldwin Jazz Split Sound 1966 Sunburst Guitar",
+      "brand": "Vintage",
+      "model": "Baldwin Jazz Split",
+      "variant": null,
+      "count": 1,
+      "sum": 3100,
+      "min": 3100,
+      "max": 3100,
+      "sightings": [
+        {
+          "price": 3100,
+          "date": "2026-04-10T19:28:12.533Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Baldwin Jazz Split Sound 1966 Sunburst Guitar",
+          "url": "https://reverb.com/item/92430002-baldwin-jazz-split-sound-1966-sunburst-guitar",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3100,
+          "min": 3100,
+          "max": 3100,
+          "avg": 3100
+        }
+      },
+      "avg": 3100
+    },
     "gibson-les-paul-standard-custom-shop-59": {
       "displayName": "Gibson 2025 Custom Shop '59 Les Paul Standard Reissue - Dirty Lemon VOS",
       "brand": "Gibson",
@@ -6525,37 +6556,6 @@
       },
       "avg": 2250
     },
-    "jackson-soloist-custom-shop": {
-      "displayName": "2025 Jackson Custom Shop Soloist SL2H-V Music Zoo Exclusive - Cherry Aniline Dye",
-      "brand": "Jackson",
-      "model": "Soloist",
-      "variant": "Custom Shop",
-      "count": 1,
-      "sum": 3499,
-      "min": 3499,
-      "max": 3499,
-      "sightings": [
-        {
-          "price": 3499,
-          "date": "2026-04-03T16:04:52.061Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2025 Jackson Custom Shop Soloist SL2H-V Music Zoo Exclusive - Cherry Aniline Dye",
-          "url": "https://reverb.com/item/95629638-2025-jackson-custom-shop-soloist-sl2h-v-music-zoo-exclusive-cherry-aniline-dye",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3499,
-          "min": 3499,
-          "max": 3499,
-          "avg": 3499
-        }
-      },
-      "avg": 3499
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -12487,12 +12487,43 @@
         ]
       },
       "avg": 1295
+    },
+    "jackson-soloist-custom-shop": {
+      "displayName": "2025 Jackson Custom Shop Soloist SL2H-V Music Zoo Exclusive - Cherry Aniline Dye",
+      "brand": "Jackson",
+      "model": "Soloist",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 3499,
+      "min": 3499,
+      "max": 3499,
+      "sightings": [
+        {
+          "price": 3499,
+          "date": "2026-04-03T16:04:52.061Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2025 Jackson Custom Shop Soloist SL2H-V Music Zoo Exclusive - Cherry Aniline Dye",
+          "url": "https://reverb.com/item/95629638-2025-jackson-custom-shop-soloist-sl2h-v-music-zoo-exclusive-cherry-aniline-dye",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3499,
+          "min": 3499,
+          "max": 3499,
+          "avg": 3499
+        }
+      },
+      "avg": 3499
     }
   },
   "byCondition": {
     "Excellent": {
-      "count": 139,
-      "sum": 673685.6799999999,
+      "count": 140,
+      "sum": 676785.6799999999,
       "sold": {
         "count": 47,
         "sum": 152782.40000000002,
@@ -12500,7 +12531,7 @@
         "min": 26,
         "max": 35900
       },
-      "avg": 4847,
+      "avg": 4834,
       "min": 26,
       "max": 190000
     },
@@ -12625,8 +12656,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5645,
-      "count": 255
+      "avg": 5635,
+      "count": 256
     },
     "03": {
       "name": "Mar",
@@ -12781,7 +12812,7 @@
     "500-1k": 30,
     "1k-2k": 98,
     "2k-3k": 91,
-    "3k-5k": 93,
+    "3k-5k": 94,
     "5k-10k": 38,
     "10k+": 15
   },
@@ -12790,15 +12821,15 @@
     "500-1k": 30,
     "1k-2k": 98,
     "2k-3k": 91,
-    "3k-5k": 93,
+    "3k-5k": 94,
     "5k-10k": 33,
     "10k+": 0
   },
   "daysOnMarket": {
     "Gibson": {
-      "sum": 557,
+      "sum": 558,
       "count": 36,
-      "avg": 15
+      "avg": 16
     },
     "FGN": {
       "sum": 14,
@@ -12821,7 +12852,7 @@
       "avg": 41
     },
     "Vintage": {
-      "sum": 75,
+      "sum": 76,
       "count": 4,
       "avg": 19
     },
@@ -12876,9 +12907,9 @@
       "avg": 5
     },
     "Ibanez": {
-      "sum": 178,
+      "sum": 179,
       "count": 17,
-      "avg": 10
+      "avg": 11
     },
     "Dean": {
       "sum": 19,
@@ -13207,7 +13238,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-10": 18,
+    "2026-04-10": 19,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -13225,10 +13256,10 @@
     "2026-04-02": 29
   },
   "categoryDistribution": {
-    "reverb": 358,
+    "reverb": 359,
     "marketplace": 33
   },
-  "activeModelsCount": 330,
+  "activeModelsCount": 331,
   "topPosters": [
     {
       "username": "GP",
@@ -13240,7 +13271,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 35
+      "count": 36
     },
     {
       "username": "YellowJack6",
@@ -13274,7 +13305,7 @@
   "bestMonth": {
     "name": "Mar",
     "avg": 4640,
-    "pctBelowAvg": 13,
+    "pctBelowAvg": 12,
     "count": 130
   },
   "topVoted": [],
@@ -14622,14 +14653,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 366,
+      "total": 367,
       "sold": 108,
       "fake": 0,
-      "live": 258,
-      "soldPct": 30,
-      "livePct": 70
+      "live": 259,
+      "soldPct": 29,
+      "livePct": 71
     },
     "byBrand": {
+      "Vintage": {
+        "total": 5,
+        "sold": 0,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 42,
         "sold": 11,
@@ -14675,14 +14714,6 @@
         "sold": 0,
         "fake": 0,
         "live": 3,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Vintage": {
-        "total": 4,
-        "sold": 0,
-        "fake": 0,
-        "live": 4,
         "soldPct": 0,
         "livePct": 100
       },
@@ -15338,7 +15369,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 93,
+        "total": 94,
         "sold": 28,
         "rate": 30
       },
@@ -15357,7 +15388,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 139,
+        "total": 140,
         "sold": 50,
         "rate": 36
       },
@@ -15427,9 +15458,9 @@
     },
     {
       "label": "1–5",
-      "total": 27,
+      "total": 28,
       "sold": 11,
-      "rate": 41
+      "rate": 39
     },
     {
       "label": "6–15",
@@ -15452,7 +15483,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 218,
+      "total": 219,
       "sold": 69,
       "rate": 32
     },
@@ -15464,7 +15495,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 163,
+      "total": 164,
       "sold": 39,
       "rate": 24
     },
@@ -15506,6 +15537,12 @@
       "rate": 31
     },
     {
+      "state": "FL",
+      "total": 12,
+      "sold": 6,
+      "rate": 50
+    },
+    {
       "state": "TN",
       "total": 12,
       "sold": 4,
@@ -15522,12 +15559,6 @@
       "total": 11,
       "sold": 2,
       "rate": 18
-    },
-    {
-      "state": "FL",
-      "total": 11,
-      "sold": 6,
-      "rate": 55
     },
     {
       "state": "PA",
