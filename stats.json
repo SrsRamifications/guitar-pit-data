@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-10T16:23:01.243Z",
-  "totalLinks": 388,
-  "totalBeforeFilter": 424,
+  "generatedAt": "2026-04-10T17:06:42.586Z",
+  "totalLinks": 389,
+  "totalBeforeFilter": 425,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 382,
+  "totalWithPrice": 383,
   "overall": {
-    "count": 382,
-    "sum": 2033872.17,
-    "avg": 5324,
+    "count": 383,
+    "sum": 2034870.17,
+    "avg": 5313,
     "min": 26,
     "max": 442698
   },
   "filtered": {
-    "count": 362,
-    "sum": 972074.19,
-    "avg": 2685,
+    "count": 363,
+    "sum": 973072.19,
+    "avg": 2681,
     "min": 26,
     "max": 8800,
     "median": 2399
@@ -188,11 +188,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 252,
-      "sum": 1430678.82,
+      "count": 253,
+      "sum": 1431676.82,
       "min": 26,
       "max": 442698,
-      "avg": 5677
+      "avg": 5659
     },
     "2026-03": {
       "count": 130,
@@ -204,11 +204,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 355,
-      "sum": 1767122.3,
+      "count": 356,
+      "sum": 1768120.3,
       "min": 26,
       "max": 442698,
-      "avg": 4978
+      "avg": 4967
     },
     "marketplace": {
       "count": 27,
@@ -220,11 +220,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 355,
-      "sum": 1767122.3,
+      "count": 356,
+      "sum": 1768120.3,
       "min": 26,
       "max": 442698,
-      "avg": 4978
+      "avg": 4967
     },
     "guitarcenter.com": {
       "count": 10,
@@ -291,6 +291,37 @@
     }
   },
   "byModel": {
+    "fgn-dt870-mij": {
+      "displayName": "Ibanez DT870  Destroyer Bass 1984 MIJ Fujigen",
+      "brand": "FGN",
+      "model": "DT870",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 998,
+      "min": 998,
+      "max": 998,
+      "sightings": [
+        {
+          "price": 998,
+          "date": "2026-04-10T17:06:26.495Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez DT870  Destroyer Bass 1984 MIJ Fujigen",
+          "url": "https://reverb.com/item/95537539-ibanez-dt870-destroyer-bass-1984-mij-fujigen",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 998,
+          "min": 998,
+          "max": 998,
+          "avg": 998
+        }
+      },
+      "avg": 998
+    },
     "prs-custom-24-wood-library-piezo": {
       "displayName": "PRS Wood Library Custom 24 Piezo 10-Top Gray Black Fade w/ Cobalt Microburst #068",
       "brand": "PRS",
@@ -6510,37 +6541,6 @@
       },
       "avg": 2795
     },
-    "gretsch-stephen-stern-masterbuilt-custom-shop": {
-      "displayName": "Gretsch Custom Shop Stephen Stern Masterbuilt G6136-CST Red 2013 - Zac",
-      "brand": "Gretsch",
-      "model": "Stephen Stern Masterbuilt",
-      "variant": "Custom Shop",
-      "count": 1,
-      "sum": 9000,
-      "min": 9000,
-      "max": 9000,
-      "sightings": [
-        {
-          "price": 9000,
-          "date": "2026-04-03T15:13:30.641Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gretsch Custom Shop Stephen Stern Masterbuilt G6136-CST Red 2013 - Zac",
-          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gretsch-custom-shop-stephen-stern-masterbuilt-g6136-cst-2500238",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 9000,
-          "min": 9000,
-          "max": 9000,
-          "avg": 9000
-        }
-      },
-      "avg": 9000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -12364,9 +12364,54 @@
         }
       },
       "avg": 10000
+    },
+    "gretsch-stephen-stern-masterbuilt-custom-shop": {
+      "displayName": "Gretsch Custom Shop Stephen Stern Masterbuilt G6136-CST Red 2013 - Zac",
+      "brand": "Gretsch",
+      "model": "Stephen Stern Masterbuilt",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 9000,
+      "min": 9000,
+      "max": 9000,
+      "sightings": [
+        {
+          "price": 9000,
+          "date": "2026-04-03T15:13:30.641Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch Custom Shop Stephen Stern Masterbuilt G6136-CST Red 2013 - Zac",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gretsch-custom-shop-stephen-stern-masterbuilt-g6136-cst-2500238",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 9000,
+          "min": 9000,
+          "max": 9000,
+          "avg": 9000
+        }
+      },
+      "avg": 9000
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 113,
+      "sum": 723887.55,
+      "sold": {
+        "count": 31,
+        "sum": 64982.76999999999,
+        "avg": 2096,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 6406,
+      "min": 33,
+      "max": 442698
+    },
     "Brand New": {
       "count": 35,
       "sum": 158073.12,
@@ -12380,20 +12425,6 @@
       "avg": 4516,
       "min": 70,
       "max": 10900
-    },
-    "Very Good": {
-      "count": 112,
-      "sum": 722889.55,
-      "sold": {
-        "count": 31,
-        "sum": 64982.76999999999,
-        "avg": 2096,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 6454,
-      "min": 33,
-      "max": 442698
     },
     "Mint": {
       "count": 12,
@@ -12502,8 +12533,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5677,
-      "count": 252
+      "avg": 5659,
+      "count": 253
     },
     "03": {
       "name": "Mar",
@@ -12655,7 +12686,7 @@
   ],
   "priceDistribution": {
     "0-500": 20,
-    "500-1k": 29,
+    "500-1k": 30,
     "1k-2k": 98,
     "2k-3k": 90,
     "3k-5k": 93,
@@ -12664,7 +12695,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 20,
-    "500-1k": 29,
+    "500-1k": 30,
     "1k-2k": 98,
     "2k-3k": 90,
     "3k-5k": 93,
@@ -12672,6 +12703,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "FGN": {
+      "sum": 13,
+      "count": 2,
+      "avg": 7
+    },
     "PRS": {
       "sum": 398,
       "count": 44,
@@ -12688,7 +12724,7 @@
       "avg": 41
     },
     "Vintage": {
-      "sum": 74,
+      "sum": 75,
       "count": 4,
       "avg": 19
     },
@@ -12698,7 +12734,7 @@
       "avg": 11
     },
     "Nash": {
-      "sum": 23,
+      "sum": 24,
       "count": 2,
       "avg": 12
     },
@@ -12802,11 +12838,6 @@
       "count": 5,
       "avg": 6
     },
-    "FGN": {
-      "sum": 2,
-      "count": 1,
-      "avg": 2
-    },
     "AXL": {
       "sum": 16,
       "count": 2,
@@ -12833,9 +12864,9 @@
       "avg": 7
     },
     "Suhr": {
-      "sum": 37,
+      "sum": 38,
       "count": 5,
-      "avg": 7
+      "avg": 8
     },
     "Dunable": {
       "sum": 17,
@@ -13068,9 +13099,9 @@
       "avg": 8
     },
     "Duesenberg": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Mojotone": {
       "sum": 8,
@@ -13084,7 +13115,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-10": 15,
+    "2026-04-10": 16,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -13102,10 +13133,10 @@
     "2026-04-02": 29
   },
   "categoryDistribution": {
-    "marketplace": 33,
-    "reverb": 355
+    "reverb": 356,
+    "marketplace": 33
   },
-  "activeModelsCount": 328,
+  "activeModelsCount": 329,
   "topPosters": [
     {
       "username": "GP",
@@ -13113,7 +13144,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 71
+      "count": 72
     },
     {
       "username": "WontonGG",
@@ -14294,11 +14325,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1198.6843157296344,
-      "count": 74,
-      "avgPctDrop": 16.2
+      "totalPctDrop": 1221.7967964692336,
+      "count": 75,
+      "avgPctDrop": 16.3
     },
     "byBrand": {
+      "FGN": {
+        "totalPctDrop": 33.13818768047342,
+        "count": 2,
+        "avgPctDrop": 16.6
+      },
       "BC Rich": {
         "totalPctDrop": 160.9237579499771,
         "count": 6,
@@ -14444,11 +14480,6 @@
         "count": 1,
         "avgPctDrop": 12
       },
-      "FGN": {
-        "totalPctDrop": 10.025706940874036,
-        "count": 1,
-        "avgPctDrop": 10
-      },
       "Suhr": {
         "totalPctDrop": 6.521739130434782,
         "count": 1,
@@ -14468,14 +14499,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 363,
+      "total": 364,
       "sold": 105,
       "fake": 0,
-      "live": 258,
+      "live": 259,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "FGN": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Fender": {
         "total": 26,
         "sold": 7,
@@ -14699,14 +14738,6 @@
         "live": 4,
         "soldPct": 20,
         "livePct": 80
-      },
-      "FGN": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
       },
       "AXL": {
         "total": 2,
@@ -15166,9 +15197,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 29,
+        "total": 30,
         "sold": 9,
-        "rate": 31
+        "rate": 30
       },
       {
         "label": "$1k–2k",
@@ -15202,15 +15233,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 113,
+        "sold": 31,
+        "rate": 27
+      },
       "Brand New": {
         "total": 35,
         "sold": 4,
         "rate": 11
-      },
-      "Very Good": {
-        "total": 112,
-        "sold": 31,
-        "rate": 28
       },
       "Mint": {
         "total": 12,
@@ -15291,9 +15322,9 @@
     },
     {
       "label": "31+",
-      "total": 87,
+      "total": 88,
       "sold": 18,
-      "rate": 21
+      "rate": 20
     }
   ],
   "offersEffect": {
@@ -15303,7 +15334,7 @@
       "rate": 31
     },
     "off": {
-      "total": 95,
+      "total": 96,
       "sold": 25,
       "rate": 26
     }
@@ -15315,7 +15346,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 136,
+      "total": 137,
       "sold": 44,
       "rate": 32
     }
