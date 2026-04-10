@@ -1,6 +1,9 @@
 {
-  "generatedAt": "2026-04-10T04:55:08.689Z",
+  "generatedAt": "2026-04-10T04:59:29.208Z",
   "totalLinks": 190,
+  "totalBeforeFilter": 200,
+  "fakeCount": 1,
+  "removedCount": 0,
   "totalWithPrice": 190,
   "overall": {
     "count": 190,
@@ -6314,7 +6317,7 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 260,
+      "sum": 261,
       "count": 20,
       "avg": 13
     },
@@ -6429,9 +6432,9 @@
       "avg": 18
     },
     "Edwards": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Novo": {
       "sum": 8,
@@ -6587,6 +6590,12 @@
       "retailEst": 1000,
       "avgDiscount": -306.4,
       "count": 27
+    },
+    "BC Rich": {
+      "avgPrice": 1660,
+      "retailEst": 200,
+      "avgDiscount": -730.1,
+      "count": 18
     }
   },
   "soldPrices": {
@@ -7585,6 +7594,92 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      }
+    },
+    "byPriceRange": [
+      {
+        "label": "Under $500",
+        "total": 12,
+        "sold": 1,
+        "rate": 8
+      },
+      {
+        "label": "$500–1k",
+        "total": 17,
+        "sold": 4,
+        "rate": 24
+      },
+      {
+        "label": "$1k–2k",
+        "total": 51,
+        "sold": 15,
+        "rate": 29
+      },
+      {
+        "label": "$2k–3k",
+        "total": 36,
+        "sold": 9,
+        "rate": 25
+      },
+      {
+        "label": "$3k–5k",
+        "total": 42,
+        "sold": 7,
+        "rate": 17
+      },
+      {
+        "label": "$5k–10k",
+        "total": 23,
+        "sold": 1,
+        "rate": 4
+      },
+      {
+        "label": "$10k+",
+        "total": 9,
+        "sold": 1,
+        "rate": 11
+      }
+    ],
+    "byCondition": {
+      "Brand New": {
+        "total": 20,
+        "sold": 1,
+        "rate": 5
+      },
+      "Mint": {
+        "total": 8,
+        "sold": 1,
+        "rate": 13
+      },
+      "Very Good": {
+        "total": 63,
+        "sold": 11,
+        "rate": 17
+      },
+      "Excellent": {
+        "total": 58,
+        "sold": 16,
+        "rate": 28
+      },
+      "Good": {
+        "total": 20,
+        "sold": 5,
+        "rate": 25
+      },
+      "Fair": {
+        "total": 7,
+        "sold": 1,
+        "rate": 14
+      },
+      "Used": {
+        "total": 11,
+        "sold": 1,
+        "rate": 9
+      },
+      "Non Functioning": {
+        "total": 1,
+        "sold": 1,
+        "rate": 100
       }
     }
   },
