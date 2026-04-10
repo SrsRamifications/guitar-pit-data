@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-04-10T03:50:27.712Z",
+  "generatedAt": "2026-04-10T03:58:57.392Z",
   "totalLinks": 191,
   "totalWithPrice": 191,
   "overall": {
     "count": 191,
-    "sum": 1232442.91,
-    "avg": 6453,
+    "sum": 1235037.91,
+    "avg": 6466,
     "min": 40,
     "max": 442698
   },
   "filtered": {
     "count": 182,
-    "sum": 480637.92,
-    "avg": 2641,
+    "sum": 483232.92,
+    "avg": 2655,
     "min": 40,
     "max": 9000,
     "median": 2250
@@ -99,19 +99,19 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 1232442.91,
+      "sum": 1235037.91,
       "min": 40,
       "max": 442698,
-      "avg": 6453
+      "avg": 6466
     }
   },
   "byCategory": {
     "reverb": {
       "count": 175,
-      "sum": 1169783,
+      "sum": 1172378,
       "min": 40,
       "max": 442698,
-      "avg": 6684
+      "avg": 6699
     },
     "marketplace": {
       "count": 16,
@@ -124,10 +124,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 175,
-      "sum": 1169783,
+      "sum": 1172378,
       "min": 40,
       "max": 442698,
-      "avg": 6684
+      "avg": 6699
     },
     "guitarcenter.com": {
       "count": 7,
@@ -159,6 +159,37 @@
     }
   },
   "byModel": {
+    "vintage-shabat-lion-gb": {
+      "displayName": "Shabat Lion GB - NAMM 2026 Vintage White #484",
+      "brand": "Vintage",
+      "model": "Shabat Lion GB",
+      "variant": null,
+      "count": 1,
+      "sum": 3895,
+      "min": 3895,
+      "max": 3895,
+      "sightings": [
+        {
+          "price": 3895,
+          "date": "2026-04-10T03:58:43.517Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Shabat Lion GB - NAMM 2026 Vintage White #484",
+          "url": "https://reverb.com/item/94843329-shabat-lion-gb-namm-2026-vintage-white-484",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 3895,
+          "min": 3895,
+          "max": 3895,
+          "avg": 3895
+        }
+      },
+      "avg": 3895
+    },
     "jackson-soloist-usa-custom-shop": {
       "displayName": "Jackson USA Custom Shop SL HSS FR Soloist Platinum Pink Nitro Relic-Tour 2024 w/OHSC",
       "brand": "Jackson",
@@ -6080,40 +6111,23 @@
         }
       },
       "avg": 985
-    },
-    "gibson-dobrolektric-2000s-orange": {
-      "displayName": "Gibson Dobrolektric 2000’s - Orange Sunburst",
-      "brand": "Gibson",
-      "model": "Dobrolektric 2000’s Orange",
-      "variant": null,
-      "count": 1,
-      "sum": 1300,
-      "min": 1300,
-      "max": 1300,
-      "sightings": [
-        {
-          "price": 1300,
-          "date": "2026-04-02T23:16:44.636Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Dobrolektric 2000’s - Orange Sunburst",
-          "url": "https://reverb.com/item/95610091-gibson-dobrolektric-2000-s-orange-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1300,
-          "min": 1300,
-          "max": 1300,
-          "avg": 1300
-        }
-      },
-      "avg": 1300
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 16,
+      "sum": 59035,
+      "sold": {
+        "count": 1,
+        "sum": 995,
+        "avg": 995,
+        "min": 995,
+        "max": 995
+      },
+      "avg": 3690,
+      "min": 70,
+      "max": 5781
+    },
     "Mint": {
       "count": 8,
       "sum": 47523,
@@ -6129,8 +6143,8 @@
       "max": 11500
     },
     "Very Good": {
-      "count": 65,
-      "sum": 587634,
+      "count": 64,
+      "sum": 586334,
       "sold": {
         "count": 11,
         "sum": 17974.989999999998,
@@ -6138,7 +6152,7 @@
         "min": 700,
         "max": 2500
       },
-      "avg": 9041,
+      "avg": 9161,
       "min": 250,
       "max": 442698
     },
@@ -6195,20 +6209,6 @@
       "min": 1109.99,
       "max": 26999.99
     },
-    "Brand New": {
-      "count": 15,
-      "sum": 55140,
-      "sold": {
-        "count": 1,
-        "sum": 995,
-        "avg": 995,
-        "min": 995,
-        "max": 995
-      },
-      "avg": 3676,
-      "min": 70,
-      "max": 5781
-    },
     "Non Functioning": {
       "count": 1,
       "sum": 1100,
@@ -6227,7 +6227,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 6453,
+      "avg": 6466,
       "count": 191
     }
   },
@@ -6306,22 +6306,27 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 52,
+    "1k-2k": 51,
     "2k-3k": 37,
-    "3k-5k": 43,
+    "3k-5k": 44,
     "5k-10k": 21,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 52,
+    "1k-2k": 51,
     "2k-3k": 37,
-    "3k-5k": 43,
+    "3k-5k": 44,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 62,
+      "count": 3,
+      "avg": 21
+    },
     "Jackson": {
       "sum": 46,
       "count": 5,
@@ -6343,7 +6348,7 @@
       "avg": 1
     },
     "Fender": {
-      "sum": 80,
+      "sum": 81,
       "count": 13,
       "avg": 6
     },
@@ -6373,9 +6378,9 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 273,
-      "count": 22,
-      "avg": 12
+      "sum": 266,
+      "count": 21,
+      "avg": 13
     },
     "Washburn": {
       "sum": 4,
@@ -6441,11 +6446,6 @@
       "sum": 8,
       "count": 3,
       "avg": 3
-    },
-    "Vintage": {
-      "sum": 27,
-      "count": 2,
-      "avg": 14
     },
     "FGN": {
       "sum": 2,
@@ -6579,7 +6579,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-10": 7,
+    "2026-04-10": 8,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -6587,7 +6587,7 @@
     "2026-04-05": 23,
     "2026-04-04": 23,
     "2026-04-03": 20,
-    "2026-04-02": 2
+    "2026-04-02": 1
   },
   "categoryDistribution": {
     "reverb": 175,
@@ -6597,11 +6597,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 54
+      "count": 55
     },
     {
       "username": "Beijing Bob",
-      "count": 37
+      "count": 36
     },
     {
       "username": "Shteefe",
@@ -6638,7 +6638,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 6453,
+    "avg": 6466,
     "pctBelowAvg": 0,
     "count": 191
   },
@@ -6651,10 +6651,10 @@
       "count": 13
     },
     "Gibson": {
-      "avgPrice": 22432,
+      "avgPrice": 23351,
       "retailEst": 800,
-      "avgDiscount": -2704.1,
-      "count": 24
+      "avgDiscount": -2818.9,
+      "count": 23
     },
     "PRS": {
       "avgPrice": 4064,
@@ -7259,6 +7259,14 @@
       "livePct": 78
     },
     "byBrand": {
+      "Vintage": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Jackson": {
         "total": 6,
         "sold": 0,
@@ -7340,10 +7348,10 @@
         "livePct": 0
       },
       "Gibson": {
-        "total": 24,
+        "total": 23,
         "sold": 4,
         "fake": 0,
-        "live": 20,
+        "live": 19,
         "soldPct": 17,
         "livePct": 83
       },
@@ -7466,14 +7474,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Vintage": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
       },
       "FGN": {
         "total": 1,
@@ -7694,9 +7694,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 43,
-    "totalOffers": 67,
-    "avgOffersPerListing": 1.6,
+    "withOffers": 44,
+    "totalOffers": 68,
+    "avgOffersPerListing": 1.5,
     "offersEnabledPct": 65
   },
   "shippingInsights": {
@@ -7762,7 +7762,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 27,
+      "total": 26,
       "sold": 5,
       "rate": 19
     },
@@ -7839,6 +7839,12 @@
       "rate": 40
     },
     {
+      "state": "CO",
+      "total": 4,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "AZ",
       "total": 4,
       "sold": 2,
@@ -7858,12 +7864,6 @@
     },
     {
       "state": "ON",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "CO",
       "total": 3,
       "sold": 0,
       "rate": 0
