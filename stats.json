@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-10T14:33:26.820Z",
-  "totalLinks": 386,
-  "totalBeforeFilter": 422,
+  "generatedAt": "2026-04-10T15:58:43.620Z",
+  "totalLinks": 387,
+  "totalBeforeFilter": 423,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 381,
+  "totalWithPrice": 382,
   "overall": {
-    "count": 381,
-    "sum": 2027220.17,
-    "avg": 5321,
+    "count": 382,
+    "sum": 2033872.17,
+    "avg": 5324,
     "min": 26,
     "max": 442698
   },
   "filtered": {
-    "count": 361,
-    "sum": 965422.19,
-    "avg": 2674,
+    "count": 362,
+    "sum": 972074.19,
+    "avg": 2685,
     "min": 26,
     "max": 8800,
     "median": 2399
@@ -188,11 +188,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 251,
-      "sum": 1424026.82,
+      "count": 252,
+      "sum": 1430678.82,
       "min": 26,
       "max": 442698,
-      "avg": 5673
+      "avg": 5677
     },
     "2026-03": {
       "count": 130,
@@ -204,11 +204,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 354,
-      "sum": 1760470.3,
+      "count": 355,
+      "sum": 1767122.3,
       "min": 26,
       "max": 442698,
-      "avg": 4973
+      "avg": 4978
     },
     "marketplace": {
       "count": 27,
@@ -220,11 +220,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 354,
-      "sum": 1760470.3,
+      "count": 355,
+      "sum": 1767122.3,
       "min": 26,
       "max": 442698,
-      "avg": 4973
+      "avg": 4978
     },
     "guitarcenter.com": {
       "count": 10,
@@ -291,6 +291,37 @@
     }
   },
   "byModel": {
+    "prs-custom-24-wood-library-piezo": {
+      "displayName": "PRS Wood Library Custom 24 Piezo 10-Top Gray Black Fade w/ Cobalt Microburst #068",
+      "brand": "PRS",
+      "model": "Custom 24",
+      "variant": "Wood Library Piezo",
+      "count": 1,
+      "sum": 6652,
+      "min": 6652,
+      "max": 6652,
+      "sightings": [
+        {
+          "price": 6652,
+          "date": "2026-04-10T15:58:28.807Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Wood Library Custom 24 Piezo 10-Top Gray Black Fade w/ Cobalt Microburst #068",
+          "url": "https://reverb.com/item/95845515-prs-wood-library-custom-24-piezo-10-top-gray-black-fade-w-cobalt-microburst-068",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 6652,
+          "min": 6652,
+          "max": 6652,
+          "avg": 6652
+        }
+      },
+      "avg": 6652
+    },
     "bc-rich-warlock-late-1980s": {
       "displayName": "B.C. Rich Warlock - Late 1980s - White",
       "brand": "BC Rich",
@@ -6510,37 +6541,6 @@
       },
       "avg": 9000
     },
-    "gretsch-duo-jet-custom-shop-masterbuilt": {
-      "displayName": "Gretsch Noir '55 Penguin Custom Shop Masterbuilt Chad duo jet",
-      "brand": "Gretsch",
-      "model": "duo jet",
-      "variant": "Custom Shop Masterbuilt",
-      "count": 1,
-      "sum": 10000,
-      "min": 10000,
-      "max": 10000,
-      "sightings": [
-        {
-          "price": 10000,
-          "date": "2026-04-03T15:10:47.860Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gretsch Noir '55 Penguin Custom Shop Masterbuilt Chad duo jet",
-          "url": "https://reverb.com/item/93194016-gretsch-noir-55-penguin-custom-shop-masterbuilt-chad-duo-jet",
-          "condition": "Mint"
-        }
-      ],
-      "byCondition": {
-        "Mint": {
-          "count": 1,
-          "sum": 10000,
-          "min": 10000,
-          "max": 10000,
-          "avg": 10000
-        }
-      },
-      "avg": 10000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -12333,9 +12333,54 @@
         }
       },
       "avg": 4300
+    },
+    "gretsch-duo-jet-custom-shop-masterbuilt": {
+      "displayName": "Gretsch Noir '55 Penguin Custom Shop Masterbuilt Chad duo jet",
+      "brand": "Gretsch",
+      "model": "duo jet",
+      "variant": "Custom Shop Masterbuilt",
+      "count": 1,
+      "sum": 10000,
+      "min": 10000,
+      "max": 10000,
+      "sightings": [
+        {
+          "price": 10000,
+          "date": "2026-04-03T15:10:47.860Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch Noir '55 Penguin Custom Shop Masterbuilt Chad duo jet",
+          "url": "https://reverb.com/item/93194016-gretsch-noir-55-penguin-custom-shop-masterbuilt-chad-duo-jet",
+          "condition": "Mint"
+        }
+      ],
+      "byCondition": {
+        "Mint": {
+          "count": 1,
+          "sum": 10000,
+          "min": 10000,
+          "max": 10000,
+          "avg": 10000
+        }
+      },
+      "avg": 10000
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 35,
+      "sum": 158073.12,
+      "sold": {
+        "count": 3,
+        "sum": 10142.17,
+        "avg": 3381,
+        "min": 995,
+        "max": 4599
+      },
+      "avg": 4516,
+      "min": 70,
+      "max": 10900
+    },
     "Very Good": {
       "count": 112,
       "sum": 722889.55,
@@ -12349,20 +12394,6 @@
       "avg": 6454,
       "min": 33,
       "max": 442698
-    },
-    "Brand New": {
-      "count": 34,
-      "sum": 151421.12,
-      "sold": {
-        "count": 3,
-        "sum": 10142.17,
-        "avg": 3381,
-        "min": 995,
-        "max": 4599
-      },
-      "avg": 4454,
-      "min": 70,
-      "max": 10900
     },
     "Mint": {
       "count": 12,
@@ -12471,8 +12502,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5673,
-      "count": 251
+      "avg": 5677,
+      "count": 252
     },
     "03": {
       "name": "Mar",
@@ -12628,7 +12659,7 @@
     "1k-2k": 98,
     "2k-3k": 90,
     "3k-5k": 93,
-    "5k-10k": 36,
+    "5k-10k": 37,
     "10k+": 15
   },
   "priceDistributionFiltered": {
@@ -12637,10 +12668,15 @@
     "1k-2k": 98,
     "2k-3k": 90,
     "3k-5k": 93,
-    "5k-10k": 31,
+    "5k-10k": 32,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 398,
+      "count": 44,
+      "avg": 9
+    },
     "BC Rich": {
       "sum": 228,
       "count": 27,
@@ -12657,14 +12693,9 @@
       "avg": 19
     },
     "Jackson": {
-      "sum": 135,
+      "sum": 137,
       "count": 12,
       "avg": 11
-    },
-    "PRS": {
-      "sum": 396,
-      "count": 43,
-      "avg": 9
     },
     "Nash": {
       "sum": 23,
@@ -12677,7 +12708,7 @@
       "avg": 8
     },
     "Fender": {
-      "sum": 195,
+      "sum": 197,
       "count": 22,
       "avg": 9
     },
@@ -12692,7 +12723,7 @@
       "avg": 42
     },
     "Kiesel": {
-      "sum": 205,
+      "sum": 206,
       "count": 12,
       "avg": 17
     },
@@ -12707,7 +12738,7 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 501,
+      "sum": 503,
       "count": 35,
       "avg": 14
     },
@@ -12717,7 +12748,7 @@
       "avg": 5
     },
     "Ibanez": {
-      "sum": 177,
+      "sum": 178,
       "count": 17,
       "avg": 10
     },
@@ -12737,9 +12768,9 @@
       "avg": 1
     },
     "Teisco": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Aristides": {
       "sum": 5,
@@ -12752,9 +12783,9 @@
       "avg": 7
     },
     "ESP": {
-      "sum": 101,
+      "sum": 103,
       "count": 7,
-      "avg": 14
+      "avg": 15
     },
     "Bigsby": {
       "sum": 2,
@@ -12782,7 +12813,7 @@
       "avg": 8
     },
     "Music Man": {
-      "sum": 110,
+      "sum": 111,
       "count": 8,
       "avg": 14
     },
@@ -13053,7 +13084,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-10": 13,
+    "2026-04-10": 14,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
@@ -13071,14 +13102,14 @@
     "2026-04-02": 29
   },
   "categoryDistribution": {
-    "reverb": 354,
+    "reverb": 355,
     "marketplace": 32
   },
-  "activeModelsCount": 326,
+  "activeModelsCount": 327,
   "topPosters": [
     {
       "username": "GP",
-      "count": 142
+      "count": 143
     },
     {
       "username": "Beijing Bob",
@@ -13138,10 +13169,10 @@
       "count": 38
     },
     "PRS": {
-      "avgPrice": 3667,
+      "avgPrice": 3731,
       "retailEst": 1000,
-      "avgDiscount": -266.7,
-      "count": 46
+      "avgDiscount": -273.1,
+      "count": 47
     },
     "Ibanez": {
       "avgPrice": 2579,
@@ -14358,11 +14389,6 @@
         "count": 1,
         "avgPctDrop": 11.8
       },
-      "Gretsch": {
-        "totalPctDrop": 16.631929970821176,
-        "count": 1,
-        "avgPctDrop": 16.6
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -14432,19 +14458,32 @@
         "totalPctDrop": 4.49438202247191,
         "count": 1,
         "avgPctDrop": 4.5
+      },
+      "Gretsch": {
+        "totalPctDrop": 16.631929970821176,
+        "count": 1,
+        "avgPctDrop": 16.6
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 361,
+      "total": 362,
       "sold": 105,
       "fake": 0,
-      "live": 256,
+      "live": 257,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "PRS": {
+        "total": 47,
+        "sold": 14,
+        "fake": 0,
+        "live": 33,
+        "soldPct": 30,
+        "livePct": 70
+      },
       "BC Rich": {
         "total": 29,
         "sold": 5,
@@ -14476,14 +14515,6 @@
         "live": 11,
         "soldPct": 15,
         "livePct": 85
-      },
-      "PRS": {
-        "total": 46,
-        "sold": 14,
-        "fake": 0,
-        "live": 32,
-        "soldPct": 30,
-        "livePct": 70
       },
       "Nash": {
         "total": 2,
@@ -15159,7 +15190,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 36,
+        "total": 37,
         "sold": 3,
         "rate": 8
       },
@@ -15171,15 +15202,15 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 35,
+        "sold": 4,
+        "rate": 11
+      },
       "Very Good": {
         "total": 112,
         "sold": 31,
         "rate": 28
-      },
-      "Brand New": {
-        "total": 34,
-        "sold": 4,
-        "rate": 12
       },
       "Mint": {
         "total": 12,
@@ -15227,7 +15258,7 @@
     "withOffers": 96,
     "totalOffers": 176,
     "avgOffersPerListing": 1.8,
-    "offersEnabledPct": 62
+    "offersEnabledPct": 61
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -15236,9 +15267,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 5,
+      "total": 6,
       "sold": 5,
-      "rate": 100
+      "rate": 83
     },
     {
       "label": "1–5",
@@ -15272,14 +15303,14 @@
       "rate": 31
     },
     "off": {
-      "total": 94,
+      "total": 95,
       "sold": 25,
-      "rate": 27
+      "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 160,
+      "total": 161,
       "sold": 37,
       "rate": 23
     },
@@ -15333,6 +15364,12 @@
       "rate": 8
     },
     {
+      "state": "MD",
+      "total": 11,
+      "sold": 2,
+      "rate": 18
+    },
+    {
       "state": "FL",
       "total": 11,
       "sold": 6,
@@ -15343,12 +15380,6 @@
       "total": 10,
       "sold": 4,
       "rate": 40
-    },
-    {
-      "state": "MD",
-      "total": 10,
-      "sold": 2,
-      "rate": 20
     },
     {
       "state": "MA",
