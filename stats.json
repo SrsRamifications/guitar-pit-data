@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-11T14:33:39.624Z",
-  "totalLinks": 428,
-  "totalBeforeFilter": 466,
+  "generatedAt": "2026-04-11T15:36:53.914Z",
+  "totalLinks": 429,
+  "totalBeforeFilter": 467,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 422,
+  "totalWithPrice": 423,
   "overall": {
-    "count": 422,
-    "sum": 2224537.13,
-    "avg": 5271,
+    "count": 423,
+    "sum": 2226712.13,
+    "avg": 5264,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 401,
-    "sum": 1098991.15,
-    "avg": 2741,
+    "count": 402,
+    "sum": 1101166.15,
+    "avg": 2739,
     "min": 26,
     "max": 9000,
     "median": 2400
@@ -196,11 +196,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 292,
-      "sum": 1621343.78,
+      "count": 293,
+      "sum": 1623518.78,
       "min": 26,
       "max": 443302,
-      "avg": 5553
+      "avg": 5541
     },
     "2026-03": {
       "count": 130,
@@ -212,11 +212,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 390,
-      "sum": 1945189.3,
+      "count": 391,
+      "sum": 1947364.3,
       "min": 26,
       "max": 443302,
-      "avg": 4988
+      "avg": 4980
     },
     "marketplace": {
       "count": 32,
@@ -228,11 +228,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 390,
-      "sum": 1945189.3,
+      "count": 391,
+      "sum": 1947364.3,
       "min": 26,
       "max": 443302,
-      "avg": 4988
+      "avg": 4980
     },
     "guitarcenter.com": {
       "count": 14,
@@ -306,6 +306,37 @@
     }
   },
   "byModel": {
+    "prs-mccarty-2002": {
+      "displayName": "PRS McCarty 2002 - McCarty Sunburst",
+      "brand": "PRS",
+      "model": "McCarty 2002",
+      "variant": null,
+      "count": 1,
+      "sum": 2175,
+      "min": 2175,
+      "max": 2175,
+      "sightings": [
+        {
+          "price": 2175,
+          "date": "2026-04-11T15:36:39.103Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 2002 - McCarty Sunburst",
+          "url": "https://reverb.com/item/95866066-prs-mccarty-2002-mccarty-sunburst",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2175,
+          "min": 2175,
+          "max": 2175,
+          "avg": 2175
+        }
+      },
+      "avg": 2175
+    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1970 - 1985 - Ebony",
       "brand": "Gibson",
@@ -6547,37 +6578,6 @@
       },
       "avg": 2433,
       "trends": {}
-    },
-    "marshall-jvm410h-100w-tube": {
-      "displayName": "Used Marshall JVM410H 100W Tube Guitar Amp Head Tube Guitar Amp Head",
-      "brand": "Marshall",
-      "model": "JVM410H 100W Tube",
-      "variant": null,
-      "count": 1,
-      "sum": 1299.99,
-      "min": 1299.99,
-      "max": 1299.99,
-      "sightings": [
-        {
-          "price": 1299.99,
-          "date": "2026-04-05T00:19:15.378Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Marshall JVM410H 100W Tube Guitar Amp Head Tube Guitar Amp Head",
-          "url": "https://www.guitarcenter.com/Used/Marshall/Used-Marshall-JVM410H-100W-Tube-Guitar-Amp-Head-Tube-Guitar-Amp-Head.gc",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1299.99,
-          "min": 1299.99,
-          "max": 1299.99,
-          "avg": 1300
-        }
-      },
-      "avg": 1300
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13617,9 +13617,54 @@
         }
       },
       "avg": 1400
+    },
+    "marshall-jvm410h-100w-tube": {
+      "displayName": "Used Marshall JVM410H 100W Tube Guitar Amp Head Tube Guitar Amp Head",
+      "brand": "Marshall",
+      "model": "JVM410H 100W Tube",
+      "variant": null,
+      "count": 1,
+      "sum": 1299.99,
+      "min": 1299.99,
+      "max": 1299.99,
+      "sightings": [
+        {
+          "price": 1299.99,
+          "date": "2026-04-05T00:19:15.378Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Marshall JVM410H 100W Tube Guitar Amp Head Tube Guitar Amp Head",
+          "url": "https://www.guitarcenter.com/Used/Marshall/Used-Marshall-JVM410H-100W-Tube-Guitar-Amp-Head-Tube-Guitar-Amp-Head.gc",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1299.99,
+          "min": 1299.99,
+          "max": 1299.99,
+          "avg": 1300
+        }
+      },
+      "avg": 1300
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 153,
+      "sum": 752005.6799999999,
+      "sold": {
+        "count": 50,
+        "sum": 164228.39,
+        "avg": 3285,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 4915,
+      "min": 26,
+      "max": 190000
+    },
     "Very Good": {
       "count": 128,
       "sum": 804678.55,
@@ -13633,20 +13678,6 @@
       "avg": 6287,
       "min": 33,
       "max": 443302
-    },
-    "Excellent": {
-      "count": 152,
-      "sum": 749830.6799999999,
-      "sold": {
-        "count": 50,
-        "sum": 164228.39,
-        "avg": 3285,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 4933,
-      "min": 26,
-      "max": 190000
     },
     "Good": {
       "count": 50,
@@ -13755,8 +13786,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5553,
-      "count": 292
+      "avg": 5541,
+      "count": 293
     },
     "03": {
       "name": "Mar",
@@ -13910,7 +13941,7 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 93,
+    "2k-3k": 94,
     "3k-5k": 107,
     "5k-10k": 42,
     "10k+": 17
@@ -13919,14 +13950,19 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 93,
+    "2k-3k": 94,
     "3k-5k": 107,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 441,
+      "count": 45,
+      "avg": 10
+    },
     "Gibson": {
-      "sum": 811,
+      "sum": 812,
       "count": 46,
       "avg": 18
     },
@@ -13956,9 +13992,9 @@
       "avg": 9
     },
     "Fender": {
-      "sum": 217,
+      "sum": 220,
       "count": 23,
-      "avg": 9
+      "avg": 10
     },
     "Ibanez": {
       "sum": 195,
@@ -13966,7 +14002,7 @@
       "avg": 11
     },
     "Music Man": {
-      "sum": 119,
+      "sum": 120,
       "count": 9,
       "avg": 13
     },
@@ -13990,11 +14026,6 @@
       "count": 2,
       "avg": 8
     },
-    "PRS": {
-      "sum": 440,
-      "count": 44,
-      "avg": 10
-    },
     "Castedosa": {
       "sum": 83,
       "count": 2,
@@ -14006,7 +14037,7 @@
       "avg": 20
     },
     "Jackson": {
-      "sum": 147,
+      "sum": 148,
       "count": 12,
       "avg": 12
     },
@@ -14031,7 +14062,7 @@
       "avg": 43
     },
     "Kiesel": {
-      "sum": 217,
+      "sum": 218,
       "count": 12,
       "avg": 18
     },
@@ -14061,9 +14092,9 @@
       "avg": 20
     },
     "Teisco": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Aristides": {
       "sum": 7,
@@ -14154,11 +14185,6 @@
       "sum": 32,
       "count": 3,
       "avg": 11
-    },
-    "Marshall": {
-      "sum": 14,
-      "count": 2,
-      "avg": 7
     },
     "Languedoc": {
       "sum": 14,
@@ -14344,10 +14370,15 @@
       "sum": 7,
       "count": 1,
       "avg": 7
+    },
+    "Marshall": {
+      "sum": 14,
+      "count": 2,
+      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 26,
+    "2026-04-11": 27,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14366,10 +14397,10 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 390,
+    "reverb": 391,
     "marketplace": 38
   },
-  "activeModelsCount": 361,
+  "activeModelsCount": 362,
   "topPosters": [
     {
       "username": "GP",
@@ -14377,7 +14408,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 75
+      "count": 76
     },
     {
       "username": "YellowJack6",
@@ -14433,10 +14464,10 @@
       "count": 53
     },
     "PRS": {
-      "avgPrice": 3773,
+      "avgPrice": 3740,
       "retailEst": 1000,
-      "avgDiscount": -277.3,
-      "count": 47
+      "avgDiscount": -274,
+      "count": 48
     },
     "Ibanez": {
       "avgPrice": 2500,
@@ -15843,14 +15874,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 401,
+      "total": 402,
       "sold": 115,
       "fake": 0,
-      "live": 286,
+      "live": 287,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "PRS": {
+        "total": 48,
+        "sold": 15,
+        "fake": 0,
+        "live": 33,
+        "soldPct": 31,
+        "livePct": 69
+      },
       "Gibson": {
         "total": 55,
         "sold": 12,
@@ -15978,14 +16017,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "PRS": {
-        "total": 47,
-        "sold": 15,
-        "fake": 0,
-        "live": 32,
-        "soldPct": 32,
-        "livePct": 68
       },
       "Castedosa": {
         "total": 3,
@@ -16242,14 +16273,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Marshall": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Languedoc": {
         "total": 1,
@@ -16546,6 +16569,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Marshall": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
       }
     },
     "byPriceRange": [
@@ -16569,7 +16600,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 93,
+        "total": 94,
         "sold": 31,
         "rate": 33
       },
@@ -16593,15 +16624,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 153,
+        "sold": 54,
+        "rate": 35
+      },
       "Very Good": {
         "total": 128,
         "sold": 36,
         "rate": 28
-      },
-      "Excellent": {
-        "total": 152,
-        "sold": 54,
-        "rate": 36
       },
       "Good": {
         "total": 50,
@@ -16658,9 +16689,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 5,
+      "total": 6,
       "sold": 5,
-      "rate": 100
+      "rate": 83
     },
     {
       "label": "1–5",
@@ -16689,7 +16720,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 244,
+      "total": 245,
       "sold": 76,
       "rate": 31
     },
@@ -16701,9 +16732,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 179,
+      "total": 180,
       "sold": 44,
-      "rate": 25
+      "rate": 24
     },
     "regular": {
       "total": 153,
@@ -16821,6 +16852,12 @@
       "rate": 60
     },
     {
+      "state": "NH",
+      "total": 4,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "SC",
       "total": 4,
       "sold": 2,
@@ -16837,12 +16874,6 @@
       "total": 4,
       "sold": 1,
       "rate": 25
-    },
-    {
-      "state": "NH",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "KY",
