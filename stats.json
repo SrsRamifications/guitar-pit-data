@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-11T00:49:16.188Z",
-  "totalLinks": 406,
-  "totalBeforeFilter": 442,
+  "generatedAt": "2026-04-11T00:51:08.392Z",
+  "totalLinks": 407,
+  "totalBeforeFilter": 443,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 400,
+  "totalWithPrice": 401,
   "overall": {
-    "count": 400,
-    "sum": 2141830.15,
-    "avg": 5355,
+    "count": 401,
+    "sum": 2143530.14,
+    "avg": 5345,
     "min": 26,
     "max": 442698
   },
   "filtered": {
-    "count": 378,
-    "sum": 1008533.17,
-    "avg": 2668,
+    "count": 379,
+    "sum": 1010233.16,
+    "avg": 2666,
     "min": 26,
     "max": 8800,
-    "median": 2374
+    "median": 2349
   },
   "outliers": {
     "thresholdHigh": 8997,
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 270,
-      "sum": 1538636.8,
+      "count": 271,
+      "sum": 1540336.79,
       "min": 26,
       "max": 442698,
-      "avg": 5699
+      "avg": 5684
     },
     "2026-03": {
       "count": 130,
@@ -220,11 +220,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 30,
-      "sum": 275248.85,
+      "count": 31,
+      "sum": 276948.84,
       "min": 374.99,
       "max": 99000,
-      "avg": 9175
+      "avg": 8934
     },
     "reverb": {
       "count": 370,
@@ -236,11 +236,11 @@
   },
   "byDomain": {
     "guitarcenter.com": {
-      "count": 12,
-      "sum": 50478.89,
+      "count": 13,
+      "sum": 52178.88,
       "min": 1109.99,
       "max": 26999.99,
-      "avg": 4207
+      "avg": 4014
     },
     "themusiczoo.com": {
       "count": 1,
@@ -314,6 +314,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-stratocaster-artist": {
+      "displayName": "Used Fender Artist Series Yngwie Malmsteen Stratocaster Olympic White Solid Body Electric Guitar Olympic White",
+      "brand": "Rickenbacker",
+      "model": "Stratocaster",
+      "variant": "Artist",
+      "count": 1,
+      "sum": 1699.99,
+      "min": 1699.99,
+      "max": 1699.99,
+      "sightings": [
+        {
+          "price": 1699.99,
+          "date": "2026-04-11T00:50:52.345Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Fender Artist Series Yngwie Malmsteen Stratocaster Olympic White Solid Body Electric Guitar Olympic White",
+          "url": "https://www.guitarcenter.com/Used/Fender/Used-Fender-Artist-Series-Yngwie-Malmsteen-Stratocaster-Olympic-White-Solid-Body-Electric-Guitar-121800888.gc?algoliaQueryID=9931dab78a79e127c0b67a0cd0cc44ca&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1699.99,
+          "min": 1699.99,
+          "max": 1699.99,
+          "avg": 1700
+        }
+      },
+      "avg": 1700
+    },
     "rickenbacker-sl1": {
       "displayName": "Used Jackson SL1 Soloist Eerie Dess Swirl Solid Body Electric Guitar Eerie Dess Swirl",
       "brand": "Rickenbacker",
@@ -6554,37 +6585,6 @@
         ]
       },
       "avg": 1500
-    },
-    "fender-telecaster-american-ultra-roasted-maple": {
-      "displayName": "Fender American Ultra Telecaster with Roasted Maple Neck 2022 - Texas Tea",
-      "brand": "Fender",
-      "model": "Telecaster",
-      "variant": "American Ultra Roasted Maple",
-      "count": 1,
-      "sum": 1100,
-      "min": 1100,
-      "max": 1100,
-      "sightings": [
-        {
-          "price": 1100,
-          "date": "2026-04-04T15:00:48.161Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender American Ultra Telecaster with Roasted Maple Neck 2022 - Texas Tea",
-          "url": "https://reverb.com/item/95320289-fender-american-ultra-telecaster-with-roasted-maple-neck-2022-texas-tea",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1100,
-          "min": 1100,
-          "max": 1100,
-          "avg": 1100
-        }
-      },
-      "avg": 1100
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -12935,17 +12935,48 @@
         }
       },
       "avg": 5681
+    },
+    "fender-telecaster-american-ultra-roasted-maple": {
+      "displayName": "Fender American Ultra Telecaster with Roasted Maple Neck 2022 - Texas Tea",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": "American Ultra Roasted Maple",
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-04-04T15:00:48.161Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender American Ultra Telecaster with Roasted Maple Neck 2022 - Texas Tea",
+          "url": "https://reverb.com/item/95320289-fender-american-ultra-telecaster-with-roasted-maple-neck-2022-texas-tea",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
     }
   },
   "byCondition": {
     "Used": {
-      "count": 19,
-      "sum": 169558.88999999996,
+      "count": 20,
+      "sum": 171258.87999999995,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 8924,
+      "avg": 8563,
       "min": 1109.99,
       "max": 99000
     },
@@ -13073,8 +13104,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5699,
-      "count": 270
+      "avg": 5684,
+      "count": 271
     },
     "03": {
       "name": "Mar",
@@ -13227,7 +13258,7 @@
   "priceDistribution": {
     "0-500": 21,
     "500-1k": 32,
-    "1k-2k": 103,
+    "1k-2k": 104,
     "2k-3k": 92,
     "3k-5k": 97,
     "5k-10k": 38,
@@ -13236,7 +13267,7 @@
   "priceDistributionFiltered": {
     "0-500": 21,
     "500-1k": 32,
-    "1k-2k": 103,
+    "1k-2k": 104,
     "2k-3k": 92,
     "3k-5k": 97,
     "5k-10k": 33,
@@ -13245,8 +13276,8 @@
   "daysOnMarket": {
     "Rickenbacker": {
       "sum": 129,
-      "count": 11,
-      "avg": 12
+      "count": 12,
+      "avg": 11
     },
     "Ibanez": {
       "sum": 180,
@@ -13289,7 +13320,7 @@
       "avg": 9
     },
     "BC Rich": {
-      "sum": 231,
+      "sum": 232,
       "count": 27,
       "avg": 9
     },
@@ -13660,7 +13691,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 4,
+    "2026-04-11": 5,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -13679,10 +13710,10 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "marketplace": 36,
+    "marketplace": 37,
     "reverb": 370
   },
-  "activeModelsCount": 342,
+  "activeModelsCount": 343,
   "topPosters": [
     {
       "username": "GP",
@@ -13698,7 +13729,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 34
+      "count": 35
     },
     {
       "username": "YellowJack6",
@@ -13782,10 +13813,10 @@
       "count": 29
     },
     "Rickenbacker": {
-      "avgPrice": 6997,
+      "avgPrice": 6556,
       "retailEst": 1500,
-      "avgDiscount": -366.5,
-      "count": 11
+      "avgDiscount": -337,
+      "count": 12
     }
   },
   "soldPrices": {
@@ -15110,21 +15141,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 379,
+      "total": 380,
       "sold": 111,
       "fake": 0,
-      "live": 268,
+      "live": 269,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
       "Rickenbacker": {
-        "total": 11,
+        "total": 12,
         "sold": 1,
         "fake": 0,
-        "live": 10,
-        "soldPct": 9,
-        "livePct": 91
+        "live": 11,
+        "soldPct": 8,
+        "livePct": 92
       },
       "Ibanez": {
         "total": 20,
@@ -15822,7 +15853,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 103,
+        "total": 104,
         "sold": 32,
         "rate": 31
       },
@@ -15853,7 +15884,7 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 19,
+        "total": 20,
         "sold": 1,
         "rate": 5
       },
