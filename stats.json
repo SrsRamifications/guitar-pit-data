@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-11T14:16:13.757Z",
-  "totalLinks": 425,
-  "totalBeforeFilter": 463,
+  "generatedAt": "2026-04-11T14:28:16.763Z",
+  "totalLinks": 426,
+  "totalBeforeFilter": 464,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 419,
+  "totalWithPrice": 420,
   "overall": {
-    "count": 419,
-    "sum": 2213687.13,
-    "avg": 5283,
+    "count": 420,
+    "sum": 2217687.13,
+    "avg": 5280,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 398,
-    "sum": 1088141.15,
-    "avg": 2734,
+    "count": 399,
+    "sum": 1092141.15,
+    "avg": 2737,
     "min": 26,
     "max": 9000,
     "median": 2399
@@ -196,11 +196,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 289,
-      "sum": 1610493.78,
+      "count": 290,
+      "sum": 1614493.78,
       "min": 26,
       "max": 443302,
-      "avg": 5573
+      "avg": 5567
     },
     "2026-03": {
       "count": 130,
@@ -211,35 +211,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 388,
+      "sum": 1938339.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 4996
+    },
     "marketplace": {
       "count": 32,
       "sum": 279347.83,
       "min": 374.99,
       "max": 99000,
       "avg": 8730
-    },
-    "reverb": {
-      "count": 387,
-      "sum": 1934339.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 4998
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 388,
+      "sum": 1938339.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 4996
+    },
     "guitarcenter.com": {
       "count": 14,
       "sum": 54577.87,
       "min": 1109.99,
       "max": 26999.99,
       "avg": 3898
-    },
-    "reverb.com": {
-      "count": 387,
-      "sum": 1934339.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 4998
     },
     "themusiczoo.com": {
       "count": 1,
@@ -306,6 +306,37 @@
     }
   },
   "byModel": {
+    "gibson-firebird": {
+      "displayName": "1966 Gibson Firebird III Black w/HSC",
+      "brand": "Gibson",
+      "model": "Firebird",
+      "variant": null,
+      "count": 1,
+      "sum": 4000,
+      "min": 4000,
+      "max": 4000,
+      "sightings": [
+        {
+          "price": 4000,
+          "date": "2026-04-11T14:28:01.210Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1966 Gibson Firebird III Black w/HSC",
+          "url": "https://reverb.com/item/95865216-1966-gibson-firebird-iii-black-w-hsc",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 4000,
+          "min": 4000,
+          "max": 4000,
+          "avg": 4000
+        }
+      },
+      "avg": 4000
+    },
     "rickenbacker-metal": {
       "displayName": "Used 2024 Caparison Guitars TAT-SPECIAL FX METAL MACHINE Black Solid Body Electric Guitar Black",
       "brand": "Rickenbacker",
@@ -6562,37 +6593,6 @@
         }
       },
       "avg": 1110
-    },
-    "fender-pro-reverb-tube": {
-      "displayName": "Vintage 1973 Fender PRO REVERB Tube Guitar Combo Amp",
-      "brand": "Fender",
-      "model": "PRO REVERB Tube",
-      "variant": null,
-      "count": 1,
-      "sum": 1199.99,
-      "min": 1199.99,
-      "max": 1199.99,
-      "sightings": [
-        {
-          "price": 1199.99,
-          "date": "2026-04-04T23:30:43.840Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Vintage 1973 Fender PRO REVERB Tube Guitar Combo Amp",
-          "url": "https://www.guitarcenter.com/Used/Fender/Vintage-Vintage-1973-Fender-PRO-REVERB-Tube-Guitar-Combo-Amp-122042337.gc?algoliaQueryID=aa0f81414c25d877abb222e0a7c31130&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1199.99,
-          "min": 1199.99,
-          "max": 1199.99,
-          "avg": 1200
-        }
-      },
-      "avg": 1200
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13539,12 +13539,57 @@
         }
       },
       "avg": 1999
+    },
+    "fender-pro-reverb-tube": {
+      "displayName": "Vintage 1973 Fender PRO REVERB Tube Guitar Combo Amp",
+      "brand": "Fender",
+      "model": "PRO REVERB Tube",
+      "variant": null,
+      "count": 1,
+      "sum": 1199.99,
+      "min": 1199.99,
+      "max": 1199.99,
+      "sightings": [
+        {
+          "price": 1199.99,
+          "date": "2026-04-04T23:30:43.840Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1973 Fender PRO REVERB Tube Guitar Combo Amp",
+          "url": "https://www.guitarcenter.com/Used/Fender/Vintage-Vintage-1973-Fender-PRO-REVERB-Tube-Guitar-Combo-Amp-122042337.gc?algoliaQueryID=aa0f81414c25d877abb222e0a7c31130&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1199.99,
+          "min": 1199.99,
+          "max": 1199.99,
+          "avg": 1200
+        }
+      },
+      "avg": 1200
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 50,
+      "sum": 142437.95,
+      "sold": {
+        "count": 13,
+        "sum": 28505.27,
+        "avg": 2193,
+        "min": 540,
+        "max": 5820
+      },
+      "avg": 2849,
+      "min": 99,
+      "max": 32407
+    },
     "Used": {
       "count": 21,
-      "sum": 173657.86999999997,
+      "sum": 173657.86999999994,
       "sold": {
         "count": 0,
         "sum": 0
@@ -13566,20 +13611,6 @@
       "avg": 6302,
       "min": 33,
       "max": 443302
-    },
-    "Good": {
-      "count": 49,
-      "sum": 138437.95,
-      "sold": {
-        "count": 13,
-        "sum": 28505.27,
-        "avg": 2193,
-        "min": 540,
-        "max": 5820
-      },
-      "avg": 2825,
-      "min": 99,
-      "max": 32407
     },
     "Excellent": {
       "count": 151,
@@ -13677,8 +13708,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5573,
-      "count": 289
+      "avg": 5567,
+      "count": 290
     },
     "03": {
       "name": "Mar",
@@ -13833,7 +13864,7 @@
     "500-1k": 34,
     "1k-2k": 108,
     "2k-3k": 92,
-    "3k-5k": 105,
+    "3k-5k": 106,
     "5k-10k": 42,
     "10k+": 17
   },
@@ -13842,20 +13873,20 @@
     "500-1k": 34,
     "1k-2k": 108,
     "2k-3k": 92,
-    "3k-5k": 105,
+    "3k-5k": 106,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 811,
+      "count": 45,
+      "avg": 18
+    },
     "Rickenbacker": {
       "sum": 180,
       "count": 15,
       "avg": 12
-    },
-    "Gibson": {
-      "sum": 811,
-      "count": 44,
-      "avg": 18
     },
     "G&L": {
       "sum": 3,
@@ -14264,7 +14295,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 23,
+    "2026-04-11": 24,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14283,14 +14314,14 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "marketplace": 38,
-    "reverb": 387
+    "reverb": 388,
+    "marketplace": 38
   },
-  "activeModelsCount": 359,
+  "activeModelsCount": 360,
   "topPosters": [
     {
       "username": "GP",
-      "count": 154
+      "count": 155
     },
     {
       "username": "Beijing Bob",
@@ -14344,10 +14375,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 12431,
+      "avgPrice": 12269,
       "retailEst": 800,
-      "avgDiscount": -1453.9,
-      "count": 51
+      "avgDiscount": -1433.6,
+      "count": 52
     },
     "PRS": {
       "avgPrice": 3773,
@@ -15755,14 +15786,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 398,
+      "total": 399,
       "sold": 115,
       "fake": 0,
-      "live": 283,
+      "live": 284,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 54,
+        "sold": 12,
+        "fake": 0,
+        "live": 42,
+        "soldPct": 22,
+        "livePct": 78
+      },
       "Rickenbacker": {
         "total": 15,
         "sold": 1,
@@ -15770,14 +15809,6 @@
         "live": 14,
         "soldPct": 7,
         "livePct": 93
-      },
-      "Gibson": {
-        "total": 53,
-        "sold": 12,
-        "fake": 0,
-        "live": 41,
-        "soldPct": 23,
-        "livePct": 77
       },
       "G&L": {
         "total": 2,
@@ -16479,7 +16510,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 105,
+        "total": 106,
         "sold": 32,
         "rate": 30
       },
@@ -16497,6 +16528,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 50,
+        "sold": 13,
+        "rate": 26
+      },
       "Used": {
         "total": 21,
         "sold": 1,
@@ -16506,11 +16542,6 @@
         "total": 127,
         "sold": 36,
         "rate": 28
-      },
-      "Good": {
-        "total": 49,
-        "sold": 13,
-        "rate": 27
       },
       "Excellent": {
         "total": 151,
@@ -16550,8 +16581,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 108,
-    "totalOffers": 223,
+    "withOffers": 109,
+    "totalOffers": 224,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 62
   },
@@ -16580,7 +16611,7 @@
     },
     {
       "label": "16–30",
-      "total": 102,
+      "total": 103,
       "sold": 32,
       "rate": 31
     },
@@ -16593,9 +16624,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 241,
+      "total": 242,
       "sold": 76,
-      "rate": 32
+      "rate": 31
     },
     "off": {
       "total": 104,
@@ -16610,7 +16641,7 @@
       "rate": 25
     },
     "regular": {
-      "total": 150,
+      "total": 151,
       "sold": 48,
       "rate": 32
     }
@@ -16743,6 +16774,12 @@
       "rate": 25
     },
     {
+      "state": "NH",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "KY",
       "total": 3,
       "sold": 0,
@@ -16798,12 +16835,6 @@
     },
     {
       "state": "BC",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "NH",
       "total": 2,
       "sold": 0,
       "rate": 0
