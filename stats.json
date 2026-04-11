@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-11T15:42:21.151Z",
-  "totalLinks": 431,
-  "totalBeforeFilter": 469,
+  "generatedAt": "2026-04-11T16:24:59.933Z",
+  "totalLinks": 432,
+  "totalBeforeFilter": 470,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 425,
+  "totalWithPrice": 426,
   "overall": {
-    "count": 425,
-    "sum": 2241707.13,
-    "avg": 5275,
+    "count": 426,
+    "sum": 2243757.13,
+    "avg": 5267,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 403,
-    "sum": 1104661.15,
-    "avg": 2741,
+    "count": 404,
+    "sum": 1106711.15,
+    "avg": 2739,
     "min": 26,
     "max": 9000,
     "median": 2400
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 295,
-      "sum": 1638513.78,
+      "count": 296,
+      "sum": 1640563.78,
       "min": 26,
       "max": 443302,
-      "avg": 5554
+      "avg": 5542
     },
     "2026-03": {
       "count": 130,
@@ -220,11 +220,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 393,
-      "sum": 1962359.3,
+      "count": 394,
+      "sum": 1964409.3,
       "min": 26,
       "max": 443302,
-      "avg": 4993
+      "avg": 4986
     },
     "marketplace": {
       "count": 32,
@@ -236,11 +236,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 393,
-      "sum": 1962359.3,
+      "count": 394,
+      "sum": 1964409.3,
       "min": 26,
       "max": 443302,
-      "avg": 4993
+      "avg": 4986
     },
     "guitarcenter.com": {
       "count": 14,
@@ -314,6 +314,37 @@
     }
   },
   "byModel": {
+    "prs-mccarty-1994": {
+      "displayName": "PRS McCarty 1994 - 2007 - Teal Black",
+      "brand": "PRS",
+      "model": "McCarty 1994",
+      "variant": null,
+      "count": 1,
+      "sum": 2050,
+      "min": 2050,
+      "max": 2050,
+      "sightings": [
+        {
+          "price": 2050,
+          "date": "2026-04-11T16:24:45.235Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - Teal Black",
+          "url": "https://reverb.com/item/95865460-prs-mccarty-1994-2007-teal-black",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2050,
+          "min": 2050,
+          "max": 2050,
+          "avg": 2050
+        }
+      },
+      "avg": 2050
+    },
     "prs-herman-li-chleo-limited-edition-signature": {
       "displayName": "PRS Limited Edition Herman Li Signature Chleo 2025 - Present - Orchid Dusk",
       "brand": "PRS",
@@ -1594,6 +1625,21 @@
           "max": 1200,
           "avg": 1200
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1200,
+        "min": 1200,
+        "max": 1200,
+        "prices": [
+          {
+            "price": 1200,
+            "askingPrice": 1200,
+            "date": "2026-04-11T16:10:03.115Z",
+            "title": "Schecter 50th Anniversary Tempest",
+            "url": "https://reverb.com/item/95855816-schecter-50th-anniversary-tempest"
+          }
+        ]
       },
       "avg": 1200
     },
@@ -6530,37 +6576,6 @@
         }
       },
       "avg": 1700
-    },
-    "kiesel-solo": {
-      "displayName": "Kiesel Solo - 7.61 LBS",
-      "brand": "Kiesel",
-      "model": "Solo",
-      "variant": null,
-      "count": 1,
-      "sum": 1199,
-      "min": 1199,
-      "max": 1199,
-      "sightings": [
-        {
-          "price": 1199,
-          "date": "2026-04-05T06:09:12.535Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel Solo - 7.61 LBS",
-          "url": "https://reverb.com/item/92428670-kiesel-solo-7-61-lbs",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1199,
-          "min": 1199,
-          "max": 1199,
-          "avg": 1199
-        }
-      },
-      "avg": 1199
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13703,26 +13718,43 @@
         }
       },
       "avg": 1300
+    },
+    "kiesel-solo": {
+      "displayName": "Kiesel Solo - 7.61 LBS",
+      "brand": "Kiesel",
+      "model": "Solo",
+      "variant": null,
+      "count": 1,
+      "sum": 1199,
+      "min": 1199,
+      "max": 1199,
+      "sightings": [
+        {
+          "price": 1199,
+          "date": "2026-04-05T06:09:12.535Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Solo - 7.61 LBS",
+          "url": "https://reverb.com/item/92428670-kiesel-solo-7-61-lbs",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1199,
+          "min": 1199,
+          "max": 1199,
+          "avg": 1199
+        }
+      },
+      "avg": 1199
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 129,
-      "sum": 816178.55,
-      "sold": {
-        "count": 35,
-        "sum": 76076.76999999999,
-        "avg": 2174,
-        "min": 165,
-        "max": 4750
-      },
-      "avg": 6327,
-      "min": 33,
-      "max": 443302
-    },
     "Good": {
-      "count": 51,
-      "sum": 145932.95,
+      "count": 52,
+      "sum": 147982.95,
       "sold": {
         "count": 13,
         "sum": 28505.27,
@@ -13730,9 +13762,23 @@
         "min": 540,
         "max": 5820
       },
-      "avg": 2861,
+      "avg": 2846,
       "min": 99,
       "max": 32407
+    },
+    "Very Good": {
+      "count": 129,
+      "sum": 816178.55,
+      "sold": {
+        "count": 36,
+        "sum": 77276.76999999999,
+        "avg": 2147,
+        "min": 165,
+        "max": 4750
+      },
+      "avg": 6327,
+      "min": 33,
+      "max": 443302
     },
     "Excellent": {
       "count": 153,
@@ -13841,8 +13887,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5554,
-      "count": 295
+      "avg": 5542,
+      "count": 296
     },
     "03": {
       "name": "Mar",
@@ -13996,7 +14042,7 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 94,
+    "2k-3k": 95,
     "3k-5k": 108,
     "5k-10k": 42,
     "10k+": 18
@@ -14005,7 +14051,7 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 94,
+    "2k-3k": 95,
     "3k-5k": 108,
     "5k-10k": 38,
     "10k+": 0
@@ -14013,8 +14059,8 @@
   "daysOnMarket": {
     "PRS": {
       "sum": 487,
-      "count": 46,
-      "avg": 11
+      "count": 47,
+      "avg": 10
     },
     "Anderson": {
       "sum": 14,
@@ -14022,7 +14068,7 @@
       "avg": 7
     },
     "Gibson": {
-      "sum": 813,
+      "sum": 814,
       "count": 46,
       "avg": 18
     },
@@ -14037,7 +14083,7 @@
       "avg": 12
     },
     "G&L": {
-      "sum": 3,
+      "sum": 4,
       "count": 2,
       "avg": 2
     },
@@ -14057,7 +14103,7 @@
       "avg": 10
     },
     "Ibanez": {
-      "sum": 195,
+      "sum": 196,
       "count": 18,
       "avg": 11
     },
@@ -14067,7 +14113,7 @@
       "avg": 13
     },
     "ESP": {
-      "sum": 110,
+      "sum": 111,
       "count": 8,
       "avg": 14
     },
@@ -14237,9 +14283,9 @@
       "avg": 15
     },
     "Valley Arts": {
-      "sum": 6,
+      "sum": 7,
       "count": 1,
-      "avg": 6
+      "avg": 7
     },
     "Languedoc": {
       "sum": 14,
@@ -14262,14 +14308,14 @@
       "avg": 14
     },
     "Fender Custom Shop": {
-      "sum": 29,
+      "sum": 30,
       "count": 2,
       "avg": 15
     },
     "Milkman": {
-      "sum": 14,
+      "sum": 15,
       "count": 1,
-      "avg": 14
+      "avg": 15
     },
     "Seymour Duncan": {
       "sum": 15,
@@ -14433,7 +14479,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 29,
+    "2026-04-11": 30,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14452,14 +14498,14 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 393,
+    "reverb": 394,
     "marketplace": 38
   },
-  "activeModelsCount": 363,
+  "activeModelsCount": 364,
   "topPosters": [
     {
       "username": "GP",
-      "count": 157
+      "count": 158
     },
     {
       "username": "Beijing Bob",
@@ -14519,10 +14565,10 @@
       "count": 53
     },
     "PRS": {
-      "avgPrice": 3898,
+      "avgPrice": 3862,
       "retailEst": 1000,
-      "avgDiscount": -289.8,
-      "count": 49
+      "avgDiscount": -286.2,
+      "count": 50
     },
     "Ibanez": {
       "avgPrice": 2500,
@@ -14562,17 +14608,17 @@
     }
   },
   "soldPrices": {
-    "count": 120,
-    "avg": 3510,
+    "count": 121,
+    "avg": 3491,
     "min": 26,
     "max": 36500,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 1262.5,
-      "count": 113,
-      "avgDays": 11.2
+      "totalDays": 1263.3,
+      "count": 114,
+      "avgDays": 11.1
     },
     "byModel": {
       "ibanez-sf470": {
@@ -14598,6 +14644,14 @@
         "fastest": 16.4,
         "slowest": 16.4,
         "avgDays": 16.4
+      },
+      "schecter-tempest": {
+        "displayName": "Schecter 50th Anniversary Tempest",
+        "totalDays": 0.8,
+        "count": 1,
+        "fastest": 0.8,
+        "slowest": 0.8,
+        "avgDays": 0.8
       },
       "parker-spanish-fly-1998-2002": {
         "displayName": "Parker Spanish Fly 1998-2002 - Butterscotch",
@@ -15430,6 +15484,13 @@
         "slowest": 16.4,
         "avgDays": 16.4
       },
+      "Schecter": {
+        "totalDays": 0.8,
+        "count": 1,
+        "fastest": 0.8,
+        "slowest": 0.8,
+        "avgDays": 0.8
+      },
       "Parker": {
         "totalDays": 0.1,
         "count": 2,
@@ -15735,7 +15796,7 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1449.4774031278328,
+      "totalPctDrop": 1449.477403127833,
       "count": 89,
       "avgPctDrop": 16.3
     },
@@ -15846,7 +15907,7 @@
         "avgPctDrop": 55.6
       },
       "Kiesel": {
-        "totalPctDrop": 55.338121782715056,
+        "totalPctDrop": 55.33812178271505,
         "count": 3,
         "avgPctDrop": 18.4
       },
@@ -15929,21 +15990,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 404,
-      "sold": 115,
+      "total": 405,
+      "sold": 116,
       "fake": 0,
       "live": 289,
-      "soldPct": 28,
-      "livePct": 72
+      "soldPct": 29,
+      "livePct": 71
     },
     "byBrand": {
       "PRS": {
-        "total": 49,
+        "total": 50,
         "sold": 15,
         "fake": 0,
-        "live": 34,
-        "soldPct": 31,
-        "livePct": 69
+        "live": 35,
+        "soldPct": 30,
+        "livePct": 70
       },
       "Anderson": {
         "total": 2,
@@ -16059,11 +16120,11 @@
       },
       "Schecter": {
         "total": 3,
-        "sold": 0,
+        "sold": 1,
         "fake": 0,
-        "live": 3,
-        "soldPct": 0,
-        "livePct": 100
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Vintage": {
         "total": 5,
@@ -16650,12 +16711,12 @@
       {
         "label": "$1k–2k",
         "total": 108,
-        "sold": 33,
+        "sold": 34,
         "rate": 31
       },
       {
         "label": "$2k–3k",
-        "total": 94,
+        "total": 95,
         "sold": 31,
         "rate": 33
       },
@@ -16679,15 +16740,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 129,
-        "sold": 36,
-        "rate": 28
-      },
       "Good": {
-        "total": 51,
+        "total": 52,
         "sold": 13,
         "rate": 25
+      },
+      "Very Good": {
+        "total": 129,
+        "sold": 37,
+        "rate": 29
       },
       "Excellent": {
         "total": 153,
@@ -16756,15 +16817,15 @@
     },
     {
       "label": "6–15",
-      "total": 89,
+      "total": 90,
       "sold": 23,
       "rate": 26
     },
     {
       "label": "16–30",
       "total": 103,
-      "sold": 32,
-      "rate": 31
+      "sold": 33,
+      "rate": 32
     },
     {
       "label": "31+",
@@ -16775,8 +16836,8 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 247,
-      "sold": 76,
+      "total": 248,
+      "sold": 77,
       "rate": 31
     },
     "off": {
@@ -16788,11 +16849,11 @@
   "sellerType": {
     "preferred": {
       "total": 181,
-      "sold": 44,
-      "rate": 24
+      "sold": 45,
+      "rate": 25
     },
     "regular": {
-      "total": 154,
+      "total": 155,
       "sold": 48,
       "rate": 31
     }
@@ -16819,8 +16880,8 @@
     {
       "state": "WA",
       "total": 17,
-      "sold": 2,
-      "rate": 12
+      "sold": 3,
+      "rate": 18
     },
     {
       "state": "TN",
@@ -16847,16 +16908,16 @@
       "rate": 31
     },
     {
+      "state": "PA",
+      "total": 12,
+      "sold": 4,
+      "rate": 33
+    },
+    {
       "state": "MD",
       "total": 12,
       "sold": 3,
       "rate": 25
-    },
-    {
-      "state": "PA",
-      "total": 11,
-      "sold": 4,
-      "rate": 36
     },
     {
       "state": "MI",
