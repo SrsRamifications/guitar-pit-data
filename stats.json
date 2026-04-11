@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-11T01:14:09.455Z",
-  "totalLinks": 407,
-  "totalBeforeFilter": 443,
+  "generatedAt": "2026-04-11T02:39:52.643Z",
+  "totalLinks": 408,
+  "totalBeforeFilter": 444,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 401,
+  "totalWithPrice": 402,
   "overall": {
-    "count": 401,
-    "sum": 2146028.14,
-    "avg": 5352,
+    "count": 402,
+    "sum": 2149061.14,
+    "avg": 5346,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 379,
-    "sum": 1012083.16,
-    "avg": 2670,
+    "count": 380,
+    "sum": 1015116.16,
+    "avg": 2671,
     "min": 26,
     "max": 8800,
-    "median": 2349
+    "median": 2374
   },
   "outliers": {
     "thresholdHigh": 8997,
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 271,
-      "sum": 1542834.79,
+      "count": 272,
+      "sum": 1545867.79,
       "min": 26,
       "max": 443302,
-      "avg": 5693
+      "avg": 5683
     },
     "2026-03": {
       "count": 130,
@@ -219,22 +219,29 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 371,
+      "sum": 1872112.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 5046
+    },
     "marketplace": {
       "count": 31,
       "sum": 276948.84,
       "min": 374.99,
       "max": 99000,
       "avg": 8934
-    },
-    "reverb": {
-      "count": 370,
-      "sum": 1869079.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 5052
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 371,
+      "sum": 1872112.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 5046
+    },
     "guitarcenter.com": {
       "count": 13,
       "sum": 52178.88,
@@ -248,13 +255,6 @@
       "min": 999,
       "max": 999,
       "avg": 999
-    },
-    "reverb.com": {
-      "count": 370,
-      "sum": 1869079.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 5052
     },
     "musicgoround.com": {
       "count": 2,
@@ -314,6 +314,37 @@
     }
   },
   "byModel": {
+    "fender-stratocaster-custom-shop-59": {
+      "displayName": "Fender Custom Shop '59 Reissue Stratocaster Relic",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": "Custom Shop 59",
+      "count": 1,
+      "sum": 3033,
+      "min": 3033,
+      "max": 3033,
+      "sightings": [
+        {
+          "price": 3033,
+          "date": "2026-04-11T02:39:37.159Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop '59 Reissue Stratocaster Relic",
+          "url": "https://reverb.com/item/95861787-fender-custom-shop-59-reissue-stratocaster-relic",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3033,
+          "min": 3033,
+          "max": 3033,
+          "avg": 3033
+        }
+      },
+      "avg": 3033
+    },
     "rickenbacker-stratocaster-artist": {
       "displayName": "Used Fender Artist Series Yngwie Malmsteen Stratocaster Olympic White Solid Body Electric Guitar Olympic White",
       "brand": "Rickenbacker",
@@ -6554,52 +6585,6 @@
         ]
       },
       "avg": 4399
-    },
-    "nash-s-57": {
-      "displayName": "Nash S-57 2018",
-      "brand": "Nash",
-      "model": "S-57",
-      "variant": null,
-      "count": 1,
-      "sum": 1500,
-      "min": 1500,
-      "max": 1500,
-      "sightings": [
-        {
-          "price": 1500,
-          "date": "2026-04-04T15:00:48.161Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Nash S-57 2018",
-          "url": "https://reverb.com/item/95678148-nash-s-57-2018",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1500,
-          "min": 1500,
-          "max": 1500,
-          "avg": 1500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1500,
-        "min": 1500,
-        "max": 1500,
-        "prices": [
-          {
-            "price": 1500,
-            "askingPrice": 1500,
-            "date": "2026-04-04T20:04:42.246Z",
-            "title": "Nash S-57 2018",
-            "url": "https://reverb.com/item/95678148-nash-s-57-2018"
-          }
-        ]
-      },
-      "avg": 1500
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -12981,9 +12966,69 @@
         }
       },
       "avg": 1100
+    },
+    "nash-s-57": {
+      "displayName": "Nash S-57 2018",
+      "brand": "Nash",
+      "model": "S-57",
+      "variant": null,
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-04-04T15:00:48.161Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash S-57 2018",
+          "url": "https://reverb.com/item/95678148-nash-s-57-2018",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1500,
+        "min": 1500,
+        "max": 1500,
+        "prices": [
+          {
+            "price": 1500,
+            "askingPrice": 1500,
+            "date": "2026-04-04T20:04:42.246Z",
+            "title": "Nash S-57 2018",
+            "url": "https://reverb.com/item/95678148-nash-s-57-2018"
+          }
+        ]
+      },
+      "avg": 1500
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 145,
+      "sum": 725139.6799999999,
+      "sold": {
+        "count": 49,
+        "sum": 159581.39,
+        "avg": 3257,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 5001,
+      "min": 26,
+      "max": 190000
+    },
     "Used": {
       "count": 20,
       "sum": 171258.87999999995,
@@ -13022,20 +13067,6 @@
       "avg": 6444,
       "min": 33,
       "max": 443302
-    },
-    "Excellent": {
-      "count": 144,
-      "sum": 722106.6799999999,
-      "sold": {
-        "count": 49,
-        "sum": 159581.39,
-        "avg": 3257,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 5015,
-      "min": 26,
-      "max": 190000
     },
     "Brand New": {
       "count": 35,
@@ -13119,8 +13150,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5693,
-      "count": 271
+      "avg": 5683,
+      "count": 272
     },
     "03": {
       "name": "Mar",
@@ -13275,7 +13306,7 @@
     "500-1k": 33,
     "1k-2k": 103,
     "2k-3k": 91,
-    "3k-5k": 98,
+    "3k-5k": 99,
     "5k-10k": 38,
     "10k+": 17
   },
@@ -13284,13 +13315,18 @@
     "500-1k": 33,
     "1k-2k": 103,
     "2k-3k": 91,
-    "3k-5k": 98,
+    "3k-5k": 99,
     "5k-10k": 33,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 198,
+      "count": 23,
+      "avg": 9
+    },
     "Rickenbacker": {
-      "sum": 129,
+      "sum": 131,
       "count": 12,
       "avg": 11
     },
@@ -13300,7 +13336,7 @@
       "avg": 10
     },
     "Music Man": {
-      "sum": 111,
+      "sum": 112,
       "count": 9,
       "avg": 12
     },
@@ -13335,7 +13371,7 @@
       "avg": 9
     },
     "BC Rich": {
-      "sum": 232,
+      "sum": 234,
       "count": 27,
       "avg": 9
     },
@@ -13355,19 +13391,14 @@
       "avg": 11
     },
     "Nash": {
-      "sum": 24,
+      "sum": 25,
       "count": 2,
-      "avg": 12
+      "avg": 13
     },
     "Echopark": {
       "sum": 48,
       "count": 6,
       "avg": 8
-    },
-    "Fender": {
-      "sum": 198,
-      "count": 22,
-      "avg": 9
     },
     "Heritage": {
       "sum": 1,
@@ -13380,7 +13411,7 @@
       "avg": 42
     },
     "Kiesel": {
-      "sum": 206,
+      "sum": 207,
       "count": 12,
       "avg": 17
     },
@@ -13395,7 +13426,7 @@
       "avg": 1
     },
     "Washburn": {
-      "sum": 14,
+      "sum": 15,
       "count": 3,
       "avg": 5
     },
@@ -13555,9 +13586,9 @@
       "avg": 19
     },
     "LSL": {
-      "sum": 13,
+      "sum": 14,
       "count": 1,
-      "avg": 13
+      "avg": 14
     },
     "Fender Custom Shop": {
       "sum": 28,
@@ -13585,9 +13616,9 @@
       "avg": 14
     },
     "Diamond": {
-      "sum": 14,
+      "sum": 15,
       "count": 1,
-      "avg": 14
+      "avg": 15
     },
     "Hoyer": {
       "sum": 15,
@@ -13680,9 +13711,9 @@
       "avg": 9
     },
     "Mojotone": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Cort": {
       "sum": 9,
@@ -13706,7 +13737,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 5,
+    "2026-04-11": 6,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -13725,14 +13756,14 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "marketplace": 37,
-    "reverb": 370
+    "reverb": 371,
+    "marketplace": 37
   },
-  "activeModelsCount": 343,
+  "activeModelsCount": 344,
   "topPosters": [
     {
       "username": "GP",
-      "count": 147
+      "count": 148
     },
     {
       "username": "Beijing Bob",
@@ -13780,10 +13811,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6176,
+      "avgPrice": 6060,
       "retailEst": 800,
-      "avgDiscount": -672,
-      "count": 26
+      "avgDiscount": -657.5,
+      "count": 27
     },
     "Gibson": {
       "avgPrice": 14535,
@@ -14143,14 +14174,6 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
-      },
-      "nash-s-57": {
-        "displayName": "Nash S-57 2018",
-        "totalDays": 0.3,
-        "count": 1,
-        "fastest": 0.3,
-        "slowest": 0.3,
-        "avgDays": 0.3
       },
       "prs-mccarty-594": {
         "displayName": "PRS McCarty 594 Soapbar",
@@ -14663,6 +14686,14 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
+      },
+      "nash-s-57": {
+        "displayName": "Nash S-57 2018",
+        "totalDays": 0.3,
+        "count": 1,
+        "fastest": 0.3,
+        "slowest": 0.3,
+        "avgDays": 0.3
       }
     },
     "byBrand": {
@@ -14820,13 +14851,6 @@
         "slowest": 16.3,
         "avgDays": 7
       },
-      "Nash": {
-        "totalDays": 0.3,
-        "count": 1,
-        "fastest": 0.3,
-        "slowest": 0.3,
-        "avgDays": 0.3
-      },
       "Hoyer": {
         "totalDays": 1,
         "count": 1,
@@ -14980,6 +15004,13 @@
         "fastest": 4.3,
         "slowest": 4.3,
         "avgDays": 4.3
+      },
+      "Nash": {
+        "totalDays": 0.3,
+        "count": 1,
+        "fastest": 0.3,
+        "slowest": 0.3,
+        "avgDays": 0.3
       }
     }
   },
@@ -15174,14 +15205,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 380,
+      "total": 381,
       "sold": 112,
       "fake": 0,
-      "live": 268,
+      "live": 269,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Fender": {
+        "total": 29,
+        "sold": 7,
+        "fake": 0,
+        "live": 22,
+        "soldPct": 24,
+        "livePct": 76
+      },
       "Rickenbacker": {
         "total": 12,
         "sold": 1,
@@ -15205,14 +15244,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 28,
-        "sold": 7,
-        "fake": 0,
-        "live": 21,
-        "soldPct": 25,
-        "livePct": 75
       },
       "Yamaha": {
         "total": 7,
@@ -15898,9 +15929,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 98,
+        "total": 99,
         "sold": 30,
-        "rate": 31
+        "rate": 30
       },
       {
         "label": "$5k–10k",
@@ -15916,6 +15947,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 145,
+        "sold": 53,
+        "rate": 37
+      },
       "Used": {
         "total": 20,
         "sold": 1,
@@ -15930,11 +15966,6 @@
         "total": 119,
         "sold": 34,
         "rate": 29
-      },
-      "Excellent": {
-        "total": 144,
-        "sold": 53,
-        "rate": 37
       },
       "Brand New": {
         "total": 35,
@@ -15981,9 +16012,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 5,
+      "total": 6,
       "sold": 5,
-      "rate": 100
+      "rate": 83
     },
     {
       "label": "1–5",
@@ -16012,7 +16043,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 229,
+      "total": 230,
       "sold": 74,
       "rate": 32
     },
@@ -16029,7 +16060,7 @@
       "rate": 25
     },
     "regular": {
-      "total": 143,
+      "total": 144,
       "sold": 47,
       "rate": 33
     }
@@ -16060,6 +16091,12 @@
       "rate": 13
     },
     {
+      "state": "TN",
+      "total": 13,
+      "sold": 4,
+      "rate": 31
+    },
+    {
       "state": "FL",
       "total": 13,
       "sold": 6,
@@ -16076,12 +16113,6 @@
       "total": 13,
       "sold": 4,
       "rate": 31
-    },
-    {
-      "state": "TN",
-      "total": 12,
-      "sold": 4,
-      "rate": 33
     },
     {
       "state": "MD",
