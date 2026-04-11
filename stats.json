@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-11T16:32:08.031Z",
-  "totalLinks": 433,
-  "totalBeforeFilter": 471,
+  "generatedAt": "2026-04-11T16:39:26.286Z",
+  "totalLinks": 434,
+  "totalBeforeFilter": 472,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 427,
+  "totalWithPrice": 428,
   "overall": {
-    "count": 427,
-    "sum": 2245257.13,
-    "avg": 5258,
+    "count": 428,
+    "sum": 2247757.13,
+    "avg": 5252,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 405,
-    "sum": 1108211.15,
+    "count": 406,
+    "sum": 1110711.15,
     "avg": 2736,
     "min": 26,
     "max": 9000,
-    "median": 2399
+    "median": 2400
   },
   "outliers": {
     "thresholdHigh": 9171,
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 297,
-      "sum": 1642063.78,
+      "count": 298,
+      "sum": 1644563.78,
       "min": 26,
       "max": 443302,
-      "avg": 5529
+      "avg": 5519
     },
     "2026-03": {
       "count": 130,
@@ -220,11 +220,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 395,
-      "sum": 1965909.3,
+      "count": 396,
+      "sum": 1968409.3,
       "min": 26,
       "max": 443302,
-      "avg": 4977
+      "avg": 4971
     },
     "marketplace": {
       "count": 32,
@@ -236,11 +236,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 395,
-      "sum": 1965909.3,
+      "count": 396,
+      "sum": 1968409.3,
       "min": 26,
       "max": 443302,
-      "avg": 4977
+      "avg": 4971
     },
     "guitarcenter.com": {
       "count": 14,
@@ -314,6 +314,37 @@
     }
   },
   "byModel": {
+    "bc-rich-ironbird-2024ish": {
+      "displayName": "B.C. Rich Ironbird 2024ish",
+      "brand": "BC Rich",
+      "model": "Ironbird 2024ish",
+      "variant": null,
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-04-11T16:39:11.710Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Ironbird 2024ish",
+          "url": "https://reverb.com/item/95862828-b-c-rich-ironbird-2024ish",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "prs-mccarty-1994": {
       "displayName": "PRS McCarty 1994 - 2007 - Teal Black",
       "brand": "PRS",
@@ -6514,37 +6545,6 @@
         ]
       },
       "avg": 40
-    },
-    "prs-modern": {
-      "displayName": "PRS Modern Eagle V • 2023 • Antique White",
-      "brand": "PRS",
-      "model": "Modern",
-      "variant": null,
-      "count": 1,
-      "sum": 3675,
-      "min": 3675,
-      "max": 3675,
-      "sightings": [
-        {
-          "price": 3675,
-          "date": "2026-04-05T07:22:19.049Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Modern Eagle V • 2023 • Antique White",
-          "url": "https://reverb.com/item/95013799-prs-modern-eagle-v-2023-antique-white",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3675,
-          "min": 3675,
-          "max": 3675,
-          "avg": 3675
-        }
-      },
-      "avg": 3675
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13749,9 +13749,54 @@
         }
       },
       "avg": 1700
+    },
+    "prs-modern": {
+      "displayName": "PRS Modern Eagle V • 2023 • Antique White",
+      "brand": "PRS",
+      "model": "Modern",
+      "variant": null,
+      "count": 1,
+      "sum": 3675,
+      "min": 3675,
+      "max": 3675,
+      "sightings": [
+        {
+          "price": 3675,
+          "date": "2026-04-05T07:22:19.049Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Modern Eagle V • 2023 • Antique White",
+          "url": "https://reverb.com/item/95013799-prs-modern-eagle-v-2023-antique-white",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3675,
+          "min": 3675,
+          "max": 3675,
+          "avg": 3675
+        }
+      },
+      "avg": 3675
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 154,
+      "sum": 754505.6799999999,
+      "sold": {
+        "count": 50,
+        "sum": 164228.39,
+        "avg": 3285,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 4899,
+      "min": 26,
+      "max": 190000
+    },
     "Very Good": {
       "count": 130,
       "sum": 817678.55,
@@ -13779,20 +13824,6 @@
       "avg": 2846,
       "min": 99,
       "max": 32407
-    },
-    "Excellent": {
-      "count": 153,
-      "sum": 752005.6799999999,
-      "sold": {
-        "count": 50,
-        "sum": 164228.39,
-        "avg": 3285,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 4915,
-      "min": 26,
-      "max": 190000
     },
     "Used": {
       "count": 21,
@@ -13887,8 +13918,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5529,
-      "count": 297
+      "avg": 5519,
+      "count": 298
     },
     "03": {
       "name": "Mar",
@@ -14042,7 +14073,7 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 109,
-    "2k-3k": 95,
+    "2k-3k": 96,
     "3k-5k": 108,
     "5k-10k": 42,
     "10k+": 18
@@ -14051,12 +14082,17 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 109,
-    "2k-3k": 95,
+    "2k-3k": 96,
     "3k-5k": 108,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 257,
+      "count": 30,
+      "avg": 9
+    },
     "PRS": {
       "sum": 487,
       "count": 47,
@@ -14091,11 +14127,6 @@
       "sum": 43,
       "count": 6,
       "avg": 7
-    },
-    "BC Rich": {
-      "sum": 257,
-      "count": 29,
-      "avg": 9
     },
     "Fender": {
       "sum": 220,
@@ -14479,7 +14510,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 31,
+    "2026-04-11": 32,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14498,10 +14529,10 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 395,
+    "reverb": 396,
     "marketplace": 38
   },
-  "activeModelsCount": 364,
+  "activeModelsCount": 365,
   "topPosters": [
     {
       "username": "GP",
@@ -14513,7 +14544,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 38
+      "count": 39
     },
     {
       "username": "WontonGG",
@@ -14595,10 +14626,10 @@
       "count": 13
     },
     "BC Rich": {
-      "avgPrice": 1839,
+      "avgPrice": 1860,
       "retailEst": 200,
-      "avgDiscount": -819.5,
-      "count": 31
+      "avgDiscount": -829.8,
+      "count": 32
     },
     "Rickenbacker": {
       "avgPrice": 5805,
@@ -15990,14 +16021,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 405,
+      "total": 406,
       "sold": 116,
       "fake": 0,
-      "live": 289,
+      "live": 290,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 32,
+        "sold": 5,
+        "fake": 0,
+        "live": 27,
+        "soldPct": 16,
+        "livePct": 84
+      },
       "PRS": {
         "total": 50,
         "sold": 15,
@@ -16053,14 +16092,6 @@
         "live": 4,
         "soldPct": 33,
         "livePct": 67
-      },
-      "BC Rich": {
-        "total": 31,
-        "sold": 5,
-        "fake": 0,
-        "live": 26,
-        "soldPct": 16,
-        "livePct": 84
       },
       "Fender": {
         "total": 29,
@@ -16716,9 +16747,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 95,
+        "total": 96,
         "sold": 31,
-        "rate": 33
+        "rate": 32
       },
       {
         "label": "$3k–5k",
@@ -16740,6 +16771,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 154,
+        "sold": 54,
+        "rate": 35
+      },
       "Very Good": {
         "total": 130,
         "sold": 37,
@@ -16749,11 +16785,6 @@
         "total": 52,
         "sold": 13,
         "rate": 25
-      },
-      "Excellent": {
-        "total": 153,
-        "sold": 54,
-        "rate": 35
       },
       "Used": {
         "total": 21,
@@ -16793,8 +16824,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 111,
-    "totalOffers": 227,
+    "withOffers": 112,
+    "totalOffers": 228,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 63
   },
@@ -16817,9 +16848,9 @@
     },
     {
       "label": "6–15",
-      "total": 90,
+      "total": 91,
       "sold": 23,
-      "rate": 26
+      "rate": 25
     },
     {
       "label": "16–30",
@@ -16836,7 +16867,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 249,
+      "total": 250,
       "sold": 77,
       "rate": 31
     },
@@ -16853,7 +16884,7 @@
       "rate": 25
     },
     "regular": {
-      "total": 155,
+      "total": 156,
       "sold": 48,
       "rate": 31
     }
@@ -16962,6 +16993,12 @@
       "rate": 29
     },
     {
+      "state": "CO",
+      "total": 5,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "AZ",
       "total": 5,
       "sold": 3,
@@ -16978,12 +17015,6 @@
       "total": 4,
       "sold": 2,
       "rate": 50
-    },
-    {
-      "state": "CO",
-      "total": 4,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "TOKYO",
