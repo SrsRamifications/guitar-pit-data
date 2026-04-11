@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-11T02:39:52.643Z",
-  "totalLinks": 408,
-  "totalBeforeFilter": 444,
+  "generatedAt": "2026-04-11T03:22:53.696Z",
+  "totalLinks": 409,
+  "totalBeforeFilter": 445,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 402,
+  "totalWithPrice": 403,
   "overall": {
-    "count": 402,
-    "sum": 2149061.14,
-    "avg": 5346,
+    "count": 403,
+    "sum": 2154161.14,
+    "avg": 5345,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 380,
-    "sum": 1015116.16,
-    "avg": 2671,
+    "count": 381,
+    "sum": 1020216.16,
+    "avg": 2678,
     "min": 26,
     "max": 8800,
-    "median": 2374
+    "median": 2399
   },
   "outliers": {
     "thresholdHigh": 8997,
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 272,
-      "sum": 1545867.79,
+      "count": 273,
+      "sum": 1550967.79,
       "min": 26,
       "max": 443302,
-      "avg": 5683
+      "avg": 5681
     },
     "2026-03": {
       "count": 130,
@@ -220,8 +220,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 371,
-      "sum": 1872112.3,
+      "count": 372,
+      "sum": 1877212.3,
       "min": 26,
       "max": 443302,
       "avg": 5046
@@ -236,8 +236,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 371,
-      "sum": 1872112.3,
+      "count": 372,
+      "sum": 1877212.3,
       "min": 26,
       "max": 443302,
       "avg": 5046
@@ -314,6 +314,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom-custom-shop": {
+      "displayName": "Gibson Custom Shop '68 Les Paul Custom 70th Anniversary 2022",
+      "brand": "Gibson",
+      "model": "Les Paul Custom",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 5100,
+      "min": 5100,
+      "max": 5100,
+      "sightings": [
+        {
+          "price": 5100,
+          "date": "2026-04-11T03:22:39.053Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop '68 Les Paul Custom 70th Anniversary 2022",
+          "url": "https://reverb.com/item/94538910-gibson-custom-shop-68-les-paul-custom-70th-anniversary-2022",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 5100,
+          "min": 5100,
+          "max": 5100,
+          "avg": 5100
+        }
+      },
+      "avg": 5100
+    },
     "fender-stratocaster-custom-shop-59": {
       "displayName": "Fender Custom Shop '59 Reissue Stratocaster Relic",
       "brand": "Fender",
@@ -13015,6 +13046,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 120,
+      "sum": 771881.55,
+      "sold": {
+        "count": 33,
+        "sum": 69931.76999999999,
+        "avg": 2119,
+        "min": 165,
+        "max": 3999.99
+      },
+      "avg": 6432,
+      "min": 33,
+      "max": 443302
+    },
     "Excellent": {
       "count": 145,
       "sum": 725139.6799999999,
@@ -13053,20 +13098,6 @@
       "avg": 2853,
       "min": 99,
       "max": 32407
-    },
-    "Very Good": {
-      "count": 119,
-      "sum": 766781.55,
-      "sold": {
-        "count": 33,
-        "sum": 69931.76999999999,
-        "avg": 2119,
-        "min": 165,
-        "max": 3999.99
-      },
-      "avg": 6444,
-      "min": 33,
-      "max": 443302
     },
     "Brand New": {
       "count": 35,
@@ -13150,8 +13181,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5683,
-      "count": 272
+      "avg": 5681,
+      "count": 273
     },
     "03": {
       "name": "Mar",
@@ -13307,7 +13338,7 @@
     "1k-2k": 103,
     "2k-3k": 91,
     "3k-5k": 99,
-    "5k-10k": 38,
+    "5k-10k": 39,
     "10k+": 17
   },
   "priceDistributionFiltered": {
@@ -13316,12 +13347,17 @@
     "1k-2k": 103,
     "2k-3k": 91,
     "3k-5k": 99,
-    "5k-10k": 33,
+    "5k-10k": 34,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 650,
+      "count": 38,
+      "avg": 17
+    },
     "Fender": {
-      "sum": 198,
+      "sum": 200,
       "count": 23,
       "avg": 9
     },
@@ -13331,7 +13367,7 @@
       "avg": 11
     },
     "Ibanez": {
-      "sum": 180,
+      "sum": 181,
       "count": 18,
       "avg": 10
     },
@@ -13339,11 +13375,6 @@
       "sum": 112,
       "count": 9,
       "avg": 12
-    },
-    "Gibson": {
-      "sum": 597,
-      "count": 37,
-      "avg": 16
     },
     "ESP": {
       "sum": 105,
@@ -13356,22 +13387,22 @@
       "avg": 16
     },
     "Schecter": {
-      "sum": 21,
+      "sum": 22,
       "count": 3,
       "avg": 7
     },
     "FGN": {
-      "sum": 14,
+      "sum": 15,
       "count": 2,
-      "avg": 7
+      "avg": 8
     },
     "PRS": {
-      "sum": 399,
+      "sum": 403,
       "count": 44,
       "avg": 9
     },
     "BC Rich": {
-      "sum": 234,
+      "sum": 238,
       "count": 27,
       "avg": 9
     },
@@ -13386,9 +13417,9 @@
       "avg": 19
     },
     "Jackson": {
-      "sum": 137,
+      "sum": 139,
       "count": 12,
-      "avg": 11
+      "avg": 12
     },
     "Nash": {
       "sum": 25,
@@ -13456,7 +13487,7 @@
       "avg": 3
     },
     "Eastman": {
-      "sum": 33,
+      "sum": 34,
       "count": 5,
       "avg": 7
     },
@@ -13471,14 +13502,14 @@
       "avg": 2
     },
     "Greco": {
-      "sum": 34,
+      "sum": 35,
       "count": 5,
       "avg": 7
     },
     "AXL": {
-      "sum": 16,
+      "sum": 17,
       "count": 2,
-      "avg": 8
+      "avg": 9
     },
     "Matchless": {
       "sum": 3,
@@ -13491,9 +13522,9 @@
       "avg": 16
     },
     "Gretsch": {
-      "sum": 29,
+      "sum": 30,
       "count": 4,
-      "avg": 7
+      "avg": 8
     },
     "Suhr": {
       "sum": 39,
@@ -13571,17 +13602,17 @@
       "avg": 6
     },
     "Languedoc": {
-      "sum": 13,
+      "sum": 14,
       "count": 1,
-      "avg": 13
+      "avg": 14
     },
     "Frank": {
-      "sum": 13,
+      "sum": 14,
       "count": 1,
-      "avg": 13
+      "avg": 14
     },
     "Epiphone": {
-      "sum": 56,
+      "sum": 57,
       "count": 3,
       "avg": 19
     },
@@ -13666,14 +13697,14 @@
       "avg": 11
     },
     "Millimetric": {
-      "sum": 32,
+      "sum": 33,
       "count": 3,
       "avg": 11
     },
     "Charvel": {
-      "sum": 49,
+      "sum": 50,
       "count": 3,
-      "avg": 16
+      "avg": 17
     },
     "Cornish": {
       "sum": 26,
@@ -13721,14 +13752,14 @@
       "avg": 9
     },
     "Nik Huber": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "Bogner": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "Kauer": {
       "sum": 54,
@@ -13737,7 +13768,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 6,
+    "2026-04-11": 7,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -13756,14 +13787,14 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "reverb": 371,
+    "reverb": 372,
     "marketplace": 37
   },
-  "activeModelsCount": 344,
+  "activeModelsCount": 345,
   "topPosters": [
     {
       "username": "GP",
-      "count": 148
+      "count": 149
     },
     {
       "username": "Beijing Bob",
@@ -13817,10 +13848,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 14535,
+      "avgPrice": 14311,
       "retailEst": 800,
-      "avgDiscount": -1716.9,
-      "count": 41
+      "avgDiscount": -1688.8,
+      "count": 42
     },
     "PRS": {
       "avgPrice": 3773,
@@ -15205,14 +15236,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 381,
+      "total": 382,
       "sold": 112,
       "fake": 0,
-      "live": 269,
+      "live": 270,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 44,
+        "sold": 11,
+        "fake": 0,
+        "live": 33,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "Fender": {
         "total": 29,
         "sold": 7,
@@ -15260,14 +15299,6 @@
         "live": 5,
         "soldPct": 58,
         "livePct": 42
-      },
-      "Gibson": {
-        "total": 43,
-        "sold": 11,
-        "fake": 0,
-        "live": 32,
-        "soldPct": 26,
-        "livePct": 74
       },
       "ESP": {
         "total": 9,
@@ -15935,9 +15966,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 38,
+        "total": 39,
         "sold": 4,
-        "rate": 11
+        "rate": 10
       },
       {
         "label": "$10k+",
@@ -15947,6 +15978,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 120,
+        "sold": 34,
+        "rate": 28
+      },
       "Excellent": {
         "total": 145,
         "sold": 53,
@@ -15961,11 +15997,6 @@
         "total": 48,
         "sold": 13,
         "rate": 27
-      },
-      "Very Good": {
-        "total": 119,
-        "sold": 34,
-        "rate": 29
       },
       "Brand New": {
         "total": 35,
@@ -16024,7 +16055,7 @@
     },
     {
       "label": "6–15",
-      "total": 88,
+      "total": 89,
       "sold": 22,
       "rate": 25
     },
@@ -16043,7 +16074,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 230,
+      "total": 231,
       "sold": 74,
       "rate": 32
     },
@@ -16055,7 +16086,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 169,
+      "total": 170,
       "sold": 42,
       "rate": 25
     },
@@ -16074,9 +16105,9 @@
     },
     {
       "state": "TX",
-      "total": 21,
+      "total": 22,
       "sold": 12,
-      "rate": 57
+      "rate": 55
     },
     {
       "state": "NY",
