@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-11T14:28:16.763Z",
-  "totalLinks": 426,
-  "totalBeforeFilter": 464,
+  "generatedAt": "2026-04-11T14:29:15.690Z",
+  "totalLinks": 427,
+  "totalBeforeFilter": 465,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 420,
+  "totalWithPrice": 421,
   "overall": {
-    "count": 420,
-    "sum": 2217687.13,
-    "avg": 5280,
+    "count": 421,
+    "sum": 2220237.13,
+    "avg": 5274,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 399,
-    "sum": 1092141.15,
+    "count": 400,
+    "sum": 1094691.15,
     "avg": 2737,
     "min": 26,
     "max": 9000,
-    "median": 2399
+    "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 9171,
+    "thresholdHigh": 9087,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -196,11 +196,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 290,
-      "sum": 1614493.78,
+      "count": 291,
+      "sum": 1617043.78,
       "min": 26,
       "max": 443302,
-      "avg": 5567
+      "avg": 5557
     },
     "2026-03": {
       "count": 130,
@@ -212,11 +212,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 388,
-      "sum": 1938339.3,
+      "count": 389,
+      "sum": 1940889.3,
       "min": 26,
       "max": 443302,
-      "avg": 4996
+      "avg": 4989
     },
     "marketplace": {
       "count": 32,
@@ -228,11 +228,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 388,
-      "sum": 1938339.3,
+      "count": 389,
+      "sum": 1940889.3,
       "min": 26,
       "max": 443302,
-      "avg": 4996
+      "avg": 4989
     },
     "guitarcenter.com": {
       "count": 14,
@@ -306,6 +306,37 @@
     }
   },
   "byModel": {
+    "floyd-rose-luxxtone-choppa-rexx": {
+      "displayName": "Luxxtone Choppa T Rexx",
+      "brand": "Floyd Rose",
+      "model": "Luxxtone Choppa Rexx",
+      "variant": null,
+      "count": 1,
+      "sum": 2550,
+      "min": 2550,
+      "max": 2550,
+      "sightings": [
+        {
+          "price": 2550,
+          "date": "2026-04-11T14:29:00.311Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Luxxtone Choppa T Rexx",
+          "url": "https://reverb.com/item/95289875-luxxtone-choppa-t-rexx",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2550,
+          "min": 2550,
+          "max": 2550,
+          "avg": 2550
+        }
+      },
+      "avg": 2550
+    },
     "gibson-firebird": {
       "displayName": "1966 Gibson Firebird III Black w/HSC",
       "brand": "Gibson",
@@ -6562,37 +6593,6 @@
         }
       },
       "avg": 1400
-    },
-    "marshall-jvm210h-100w-tube": {
-      "displayName": "Used Marshall JVM210H 100W Tube Guitar Amp Head",
-      "brand": "Marshall",
-      "model": "JVM210H 100W Tube",
-      "variant": null,
-      "count": 1,
-      "sum": 1109.99,
-      "min": 1109.99,
-      "max": 1109.99,
-      "sightings": [
-        {
-          "price": 1109.99,
-          "date": "2026-04-04T23:32:27.955Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Marshall JVM210H 100W Tube Guitar Amp Head",
-          "url": "https://www.guitarcenter.com/Used/Marshall/Used-Marshall-JVM210H-100W-Tube-Guitar-Amp-Head-121512841.gc?algoliaQueryID=aa0f81414c25d877abb222e0a7c31130&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1109.99,
-          "min": 1109.99,
-          "max": 1109.99,
-          "avg": 1110
-        }
-      },
-      "avg": 1110
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13570,9 +13570,54 @@
         }
       },
       "avg": 1200
+    },
+    "marshall-jvm210h-100w-tube": {
+      "displayName": "Used Marshall JVM210H 100W Tube Guitar Amp Head",
+      "brand": "Marshall",
+      "model": "JVM210H 100W Tube",
+      "variant": null,
+      "count": 1,
+      "sum": 1109.99,
+      "min": 1109.99,
+      "max": 1109.99,
+      "sightings": [
+        {
+          "price": 1109.99,
+          "date": "2026-04-04T23:32:27.955Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Marshall JVM210H 100W Tube Guitar Amp Head",
+          "url": "https://www.guitarcenter.com/Used/Marshall/Used-Marshall-JVM210H-100W-Tube-Guitar-Amp-Head-121512841.gc?algoliaQueryID=aa0f81414c25d877abb222e0a7c31130&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1109.99,
+          "min": 1109.99,
+          "max": 1109.99,
+          "avg": 1110
+        }
+      },
+      "avg": 1110
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 152,
+      "sum": 749830.6799999999,
+      "sold": {
+        "count": 50,
+        "sum": 164228.39,
+        "avg": 3285,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 4933,
+      "min": 26,
+      "max": 190000
+    },
     "Good": {
       "count": 50,
       "sum": 142437.95,
@@ -13611,20 +13656,6 @@
       "avg": 6302,
       "min": 33,
       "max": 443302
-    },
-    "Excellent": {
-      "count": 151,
-      "sum": 747280.6799999999,
-      "sold": {
-        "count": 50,
-        "sum": 164228.39,
-        "avg": 3285,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 4949,
-      "min": 26,
-      "max": 190000
     },
     "Mint": {
       "count": 13,
@@ -13708,8 +13739,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5567,
-      "count": 290
+      "avg": 5557,
+      "count": 291
     },
     "03": {
       "name": "Mar",
@@ -13863,7 +13894,7 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 92,
+    "2k-3k": 93,
     "3k-5k": 106,
     "5k-10k": 42,
     "10k+": 17
@@ -13872,12 +13903,17 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 92,
+    "2k-3k": 93,
     "3k-5k": 106,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Floyd Rose": {
+      "sum": 21,
+      "count": 1,
+      "avg": 21
+    },
     "Gibson": {
       "sum": 811,
       "count": 45,
@@ -13939,7 +13975,7 @@
       "avg": 8
     },
     "PRS": {
-      "sum": 439,
+      "sum": 440,
       "count": 44,
       "avg": 10
     },
@@ -14295,14 +14331,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 24,
+    "2026-04-11": 25,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
     "2026-04-06": 30,
     "2026-04-05": 23,
-    "2026-04-04": 23,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -14311,17 +14346,18 @@
     "2026-03-31": 17,
     "2026-04-01": 32,
     "2026-04-02": 29,
-    "2026-04-03": 15
+    "2026-04-03": 15,
+    "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 388,
+    "reverb": 389,
     "marketplace": 38
   },
-  "activeModelsCount": 360,
+  "activeModelsCount": 361,
   "topPosters": [
     {
       "username": "GP",
-      "count": 155
+      "count": 156
     },
     {
       "username": "Beijing Bob",
@@ -15597,11 +15633,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1381.9180810939345,
-      "count": 87,
+      "totalPctDrop": 1395.4774031278325,
+      "count": 88,
       "avgPctDrop": 15.9
     },
     "byBrand": {
+      "Floyd Rose": {
+        "totalPctDrop": 13.559322033898304,
+        "count": 1,
+        "avgPctDrop": 13.6
+      },
       "Gibson": {
         "totalPctDrop": 232.6149066447367,
         "count": 15,
@@ -15786,14 +15827,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 399,
+      "total": 400,
       "sold": 115,
       "fake": 0,
-      "live": 284,
+      "live": 285,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Floyd Rose": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 54,
         "sold": 12,
@@ -16504,9 +16553,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 92,
+        "total": 93,
         "sold": 31,
-        "rate": 34
+        "rate": 33
       },
       {
         "label": "$3k–5k",
@@ -16528,6 +16577,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 152,
+        "sold": 54,
+        "rate": 36
+      },
       "Good": {
         "total": 50,
         "sold": 13,
@@ -16542,11 +16596,6 @@
         "total": 127,
         "sold": 36,
         "rate": 28
-      },
-      "Excellent": {
-        "total": 151,
-        "sold": 54,
-        "rate": 36
       },
       "Mint": {
         "total": 13,
@@ -16581,9 +16630,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 109,
-    "totalOffers": 224,
-    "avgOffersPerListing": 2.1,
+    "withOffers": 110,
+    "totalOffers": 225,
+    "avgOffersPerListing": 2,
     "offersEnabledPct": 62
   },
   "shippingInsights": {
@@ -16617,14 +16666,14 @@
     },
     {
       "label": "31+",
-      "total": 102,
+      "total": 103,
       "sold": 20,
-      "rate": 20
+      "rate": 19
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 242,
+      "total": 243,
       "sold": 76,
       "rate": 31
     },
@@ -16641,7 +16690,7 @@
       "rate": 25
     },
     "regular": {
-      "total": 151,
+      "total": 152,
       "sold": 48,
       "rate": 32
     }
@@ -16818,6 +16867,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "VA",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
