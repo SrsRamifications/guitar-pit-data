@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-11T04:41:46.830Z",
-  "totalLinks": 417,
+  "generatedAt": "2026-04-11T04:53:45.216Z",
+  "totalLinks": 418,
   "totalBeforeFilter": 454,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 411,
+  "totalWithPrice": 412,
   "overall": {
-    "count": 411,
-    "sum": 2190550.14,
-    "avg": 5330,
+    "count": 412,
+    "sum": 2195050.14,
+    "avg": 5328,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 391,
-    "sum": 1074604.16,
-    "avg": 2748,
+    "count": 392,
+    "sum": 1079104.16,
+    "avg": 2753,
     "min": 26,
     "max": 9000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 9171,
+    "thresholdHigh": 9300,
     "thresholdLow": 0,
     "count": 20,
     "items": [
@@ -188,11 +188,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 281,
-      "sum": 1587356.79,
+      "count": 282,
+      "sum": 1591856.79,
       "min": 26,
       "max": 443302,
-      "avg": 5649
+      "avg": 5645
     },
     "2026-03": {
       "count": 130,
@@ -204,11 +204,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 380,
-      "sum": 1913601.3,
+      "count": 381,
+      "sum": 1918101.3,
       "min": 26,
       "max": 443302,
-      "avg": 5036
+      "avg": 5034
     },
     "marketplace": {
       "count": 31,
@@ -220,11 +220,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 380,
-      "sum": 1913601.3,
+      "count": 381,
+      "sum": 1918101.3,
       "min": 26,
       "max": 443302,
-      "avg": 5036
+      "avg": 5034
     },
     "guitarcenter.com": {
       "count": 13,
@@ -298,6 +298,37 @@
     }
   },
   "byModel": {
+    "gibson-es-335-custom-shop-murphy-lab": {
+      "displayName": "Gibson Custom Shop Murphy Lab '59 ES-335 Reissue Ultra Light Aged",
+      "brand": "Gibson",
+      "model": "ES-335",
+      "variant": "Custom Shop Murphy Lab",
+      "count": 1,
+      "sum": 4500,
+      "min": 4500,
+      "max": 4500,
+      "sightings": [
+        {
+          "price": 4500,
+          "date": "2026-04-11T04:53:31.576Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop Murphy Lab '59 ES-335 Reissue Ultra Light Aged",
+          "url": "https://reverb.com/item/94225545-gibson-custom-shop-murphy-lab-59-es-335-reissue-ultra-light-aged",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4500,
+          "min": 4500,
+          "max": 4500,
+          "avg": 4500
+        }
+      },
+      "avg": 4500
+    },
     "gl-legacy-custom-shop": {
       "displayName": "G&L Custom Shop Legacy",
       "brand": "G&L",
@@ -13271,6 +13302,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 149,
+      "sum": 744930.6799999999,
+      "sold": {
+        "count": 49,
+        "sum": 159581.39,
+        "avg": 3257,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 5000,
+      "min": 26,
+      "max": 190000
+    },
     "Very Good": {
       "count": 124,
       "sum": 787980.55,
@@ -13284,20 +13329,6 @@
       "avg": 6355,
       "min": 33,
       "max": 443302
-    },
-    "Excellent": {
-      "count": 148,
-      "sum": 740430.6799999999,
-      "sold": {
-        "count": 49,
-        "sum": 159581.39,
-        "avg": 3257,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 5003,
-      "min": 26,
-      "max": 190000
     },
     "Mint": {
       "count": 13,
@@ -13406,8 +13437,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5649,
-      "count": 281
+      "avg": 5645,
+      "count": 282
     },
     "03": {
       "name": "Mar",
@@ -13562,7 +13593,7 @@
     "500-1k": 33,
     "1k-2k": 104,
     "2k-3k": 91,
-    "3k-5k": 104,
+    "3k-5k": 105,
     "5k-10k": 41,
     "10k+": 17
   },
@@ -13571,11 +13602,16 @@
     "500-1k": 33,
     "1k-2k": 104,
     "2k-3k": 91,
-    "3k-5k": 104,
+    "3k-5k": 105,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 659,
+      "count": 41,
+      "avg": 16
+    },
     "G&L": {
       "sum": 2,
       "count": 2,
@@ -13585,11 +13621,6 @@
       "sum": 40,
       "count": 6,
       "avg": 7
-    },
-    "Gibson": {
-      "sum": 654,
-      "count": 40,
-      "avg": 16
     },
     "BC Rich": {
       "sum": 240,
@@ -13602,7 +13633,7 @@
       "avg": 12
     },
     "Fender": {
-      "sum": 202,
+      "sum": 204,
       "count": 23,
       "avg": 9
     },
@@ -13697,9 +13728,9 @@
       "avg": 5
     },
     "Dean": {
-      "sum": 19,
+      "sum": 20,
       "count": 3,
-      "avg": 6
+      "avg": 7
     },
     "Knaggs": {
       "sum": 76,
@@ -13732,7 +13763,7 @@
       "avg": 2
     },
     "Greco": {
-      "sum": 35,
+      "sum": 36,
       "count": 5,
       "avg": 7
     },
@@ -13772,7 +13803,7 @@
       "avg": 5
     },
     "Novo": {
-      "sum": 20,
+      "sum": 21,
       "count": 3,
       "avg": 7
     },
@@ -13993,7 +14024,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 15,
+    "2026-04-11": 16,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14012,14 +14043,14 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "reverb": 380,
+    "reverb": 381,
     "marketplace": 37
   },
-  "activeModelsCount": 352,
+  "activeModelsCount": 353,
   "topPosters": [
     {
       "username": "GP",
-      "count": 152
+      "count": 153
     },
     {
       "username": "Beijing Bob",
@@ -14073,10 +14104,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 13661,
+      "avgPrice": 13462,
       "retailEst": 800,
-      "avgDiscount": -1607.6,
-      "count": 45
+      "avgDiscount": -1582.7,
+      "count": 46
     },
     "PRS": {
       "avgPrice": 3773,
@@ -15469,14 +15500,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 390,
+      "total": 391,
       "sold": 113,
       "fake": 0,
-      "live": 277,
+      "live": 278,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 48,
+        "sold": 11,
+        "fake": 0,
+        "live": 37,
+        "soldPct": 23,
+        "livePct": 77
+      },
       "G&L": {
         "total": 2,
         "sold": 0,
@@ -15492,14 +15531,6 @@
         "live": 4,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Gibson": {
-        "total": 47,
-        "sold": 11,
-        "fake": 0,
-        "live": 36,
-        "soldPct": 23,
-        "livePct": 77
       },
       "BC Rich": {
         "total": 31,
@@ -16193,7 +16224,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 104,
+        "total": 105,
         "sold": 31,
         "rate": 30
       },
@@ -16211,15 +16242,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 149,
+        "sold": 53,
+        "rate": 36
+      },
       "Very Good": {
         "total": 124,
         "sold": 35,
         "rate": 28
-      },
-      "Excellent": {
-        "total": 148,
-        "sold": 53,
-        "rate": 36
       },
       "Mint": {
         "total": 13,
@@ -16294,7 +16325,7 @@
     },
     {
       "label": "16–30",
-      "total": 96,
+      "total": 97,
       "sold": 30,
       "rate": 31
     },
@@ -16307,7 +16338,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 236,
+      "total": 237,
       "sold": 75,
       "rate": 32
     },
@@ -16324,7 +16355,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 146,
+      "total": 147,
       "sold": 48,
       "rate": 33
     }
@@ -16338,9 +16369,9 @@
     },
     {
       "state": "TX",
-      "total": 24,
+      "total": 25,
       "sold": 12,
-      "rate": 50
+      "rate": 48
     },
     {
       "state": "NY",
