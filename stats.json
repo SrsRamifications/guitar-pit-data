@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-11T18:33:08.131Z",
-  "totalLinks": 436,
-  "totalBeforeFilter": 474,
+  "generatedAt": "2026-04-11T18:33:30.662Z",
+  "totalLinks": 437,
+  "totalBeforeFilter": 475,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 430,
+  "totalWithPrice": 431,
   "overall": {
-    "count": 430,
-    "sum": 2260776.13,
-    "avg": 5258,
+    "count": 431,
+    "sum": 2261941.13,
+    "avg": 5248,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 407,
-    "sum": 1113906.15,
-    "avg": 2737,
+    "count": 408,
+    "sum": 1115071.15,
+    "avg": 2733,
     "min": 26,
     "max": 9000,
     "median": 2400
@@ -212,11 +212,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 300,
-      "sum": 1657582.78,
+      "count": 301,
+      "sum": 1658747.78,
       "min": 26,
       "max": 443302,
-      "avg": 5525
+      "avg": 5511
     },
     "2026-03": {
       "count": 130,
@@ -228,11 +228,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 398,
-      "sum": 1981428.3,
+      "count": 399,
+      "sum": 1982593.3,
       "min": 26,
       "max": 443302,
-      "avg": 4978
+      "avg": 4969
     },
     "marketplace": {
       "count": 32,
@@ -244,11 +244,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 398,
-      "sum": 1981428.3,
+      "count": 399,
+      "sum": 1982593.3,
       "min": 26,
       "max": 443302,
-      "avg": 4978
+      "avg": 4969
     },
     "guitarcenter.com": {
       "count": 14,
@@ -322,6 +322,37 @@
     }
   },
   "byModel": {
+    "fgn-les-paul-custom": {
+      "displayName": "History GH-LCV, 2010, Fujigen Japan made, Heritage wood. ( Gibson Les Paul Custom copy)",
+      "brand": "FGN",
+      "model": "Les Paul Custom",
+      "variant": null,
+      "count": 1,
+      "sum": 1165,
+      "min": 1165,
+      "max": 1165,
+      "sightings": [
+        {
+          "price": 1165,
+          "date": "2026-04-11T18:33:15.804Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "History GH-LCV, 2010, Fujigen Japan made, Heritage wood. ( Gibson Les Paul Custom copy)",
+          "url": "https://reverb.com/item/95869733-history-gh-lcv-2010-fujigen-japan-made-heritage-wood-gibson-les-paul-custom-copy",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1165,
+          "min": 1165,
+          "max": 1165,
+          "avg": 1165
+        }
+      },
+      "avg": 1165
+    },
     "vintage-lelah-37t-white": {
       "displayName": "Lelah 37T - Olympic White. NEW (Authorized Dealer)",
       "brand": "Vintage",
@@ -6553,52 +6584,6 @@
         }
       },
       "avg": 4499
-    },
-    "framus-diablo": {
-      "displayName": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
-      "brand": "Framus",
-      "model": "DIABLO",
-      "variant": null,
-      "count": 1,
-      "sum": 950,
-      "min": 950,
-      "max": 950,
-      "sightings": [
-        {
-          "price": 950,
-          "date": "2026-04-05T18:54:19.365Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
-          "url": "https://reverb.com/item/93982888-framus-diablo-custom-2005-tobacco-sunburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 950,
-          "min": 950,
-          "max": 950,
-          "avg": 950
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 950,
-        "min": 950,
-        "max": 950,
-        "prices": [
-          {
-            "price": 950,
-            "askingPrice": 950,
-            "date": "2026-04-07T22:59:14.033Z",
-            "title": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
-            "url": "https://reverb.com/item/93982888-framus-diablo-custom-2005-tobacco-sunburst"
-          }
-        ]
-      },
-      "avg": 950
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13880,9 +13865,69 @@
         }
       },
       "avg": 7800
+    },
+    "framus-diablo": {
+      "displayName": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
+      "brand": "Framus",
+      "model": "DIABLO",
+      "variant": null,
+      "count": 1,
+      "sum": 950,
+      "min": 950,
+      "max": 950,
+      "sightings": [
+        {
+          "price": 950,
+          "date": "2026-04-05T18:54:19.365Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
+          "url": "https://reverb.com/item/93982888-framus-diablo-custom-2005-tobacco-sunburst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 950,
+          "min": 950,
+          "max": 950,
+          "avg": 950
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 950,
+        "min": 950,
+        "max": 950,
+        "prices": [
+          {
+            "price": 950,
+            "askingPrice": 950,
+            "date": "2026-04-07T22:59:14.033Z",
+            "title": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
+            "url": "https://reverb.com/item/93982888-framus-diablo-custom-2005-tobacco-sunburst"
+          }
+        ]
+      },
+      "avg": 950
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 156,
+      "sum": 765494.6799999999,
+      "sold": {
+        "count": 50,
+        "sum": 164228.39,
+        "avg": 3285,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 4907,
+      "min": 26,
+      "max": 190000
+    },
     "Brand New": {
       "count": 36,
       "sum": 161281.12,
@@ -13896,20 +13941,6 @@
       "avg": 4480,
       "min": 70,
       "max": 10900
-    },
-    "Excellent": {
-      "count": 155,
-      "sum": 764329.6799999999,
-      "sold": {
-        "count": 50,
-        "sum": 164228.39,
-        "avg": 3285,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 4931,
-      "min": 26,
-      "max": 190000
     },
     "Very Good": {
       "count": 130,
@@ -14018,8 +14049,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5525,
-      "count": 300
+      "avg": 5511,
+      "count": 301
     },
     "03": {
       "name": "Mar",
@@ -14172,7 +14203,7 @@
   "priceDistribution": {
     "0-500": 21,
     "500-1k": 34,
-    "1k-2k": 109,
+    "1k-2k": 110,
     "2k-3k": 96,
     "3k-5k": 109,
     "5k-10k": 43,
@@ -14181,13 +14212,18 @@
   "priceDistributionFiltered": {
     "0-500": 21,
     "500-1k": 34,
-    "1k-2k": 109,
+    "1k-2k": 110,
     "2k-3k": 96,
     "3k-5k": 109,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "FGN": {
+      "sum": 16,
+      "count": 3,
+      "avg": 5
+    },
     "Vintage": {
       "sum": 79,
       "count": 5,
@@ -14266,11 +14302,6 @@
     "Schecter": {
       "sum": 24,
       "count": 3,
-      "avg": 8
-    },
-    "FGN": {
-      "sum": 16,
-      "count": 2,
       "avg": 8
     },
     "Castedosa": {
@@ -14408,11 +14439,6 @@
       "count": 1,
       "avg": 9
     },
-    "Framus": {
-      "sum": 29,
-      "count": 2,
-      "avg": 15
-    },
     "Languedoc": {
       "sum": 14,
       "count": 1,
@@ -14472,6 +14498,11 @@
       "sum": 16,
       "count": 1,
       "avg": 16
+    },
+    "Framus": {
+      "sum": 29,
+      "count": 2,
+      "avg": 15
     },
     "Luxxtone": {
       "sum": 14,
@@ -14610,7 +14641,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 34,
+    "2026-04-11": 35,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14629,14 +14660,14 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 398,
+    "reverb": 399,
     "marketplace": 38
   },
-  "activeModelsCount": 366,
+  "activeModelsCount": 367,
   "topPosters": [
     {
       "username": "GP",
-      "count": 158
+      "count": 159
     },
     {
       "username": "Beijing Bob",
@@ -14747,7 +14778,7 @@
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 1276.4,
+      "totalDays": 1276.3999999999999,
       "count": 117,
       "avgDays": 10.9
     },
@@ -15023,14 +15054,6 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
-      },
-      "framus-diablo": {
-        "displayName": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
-        "totalDays": 9.1,
-        "count": 1,
-        "fastest": 9.1,
-        "slowest": 9.1,
-        "avgDays": 9.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -15615,6 +15638,14 @@
         "fastest": 3.1,
         "slowest": 3.1,
         "avgDays": 3.1
+      },
+      "framus-diablo": {
+        "displayName": "Framus DIABLO CUSTOM 2005 - Tobacco sunburst",
+        "totalDays": 9.1,
+        "count": 1,
+        "fastest": 9.1,
+        "slowest": 9.1,
+        "avgDays": 9.1
       }
     },
     "byBrand": {
@@ -15765,13 +15796,6 @@
         "slowest": 0.1,
         "avgDays": 0.1
       },
-      "Framus": {
-        "totalDays": 10.1,
-        "count": 2,
-        "fastest": 1,
-        "slowest": 9.1,
-        "avgDays": 5.1
-      },
       "Hoyer": {
         "totalDays": 1,
         "count": 1,
@@ -15785,6 +15809,13 @@
         "fastest": 1.5,
         "slowest": 1.8,
         "avgDays": 1.7
+      },
+      "Framus": {
+        "totalDays": 10.1,
+        "count": 2,
+        "fastest": 1,
+        "slowest": 9.1,
+        "avgDays": 5.1
       },
       "Rickenbacker": {
         "totalDays": 0.6,
@@ -16051,11 +16082,6 @@
         "count": 1,
         "avgPctDrop": 10
       },
-      "Framus": {
-        "totalPctDrop": 5,
-        "count": 1,
-        "avgPctDrop": 5
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -16140,19 +16166,32 @@
         "totalPctDrop": 55.55555555555556,
         "count": 1,
         "avgPctDrop": 55.6
+      },
+      "Framus": {
+        "totalPctDrop": 5,
+        "count": 1,
+        "avgPctDrop": 5
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 408,
+      "total": 409,
       "sold": 119,
       "fake": 0,
-      "live": 289,
+      "live": 290,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "FGN": {
+        "total": 4,
+        "sold": 1,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "Vintage": {
         "total": 6,
         "sold": 0,
@@ -16282,14 +16321,6 @@
         "livePct": 0
       },
       "Schecter": {
-        "total": 3,
-        "sold": 1,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "livePct": 67
-      },
-      "FGN": {
         "total": 3,
         "sold": 1,
         "fake": 0,
@@ -16521,14 +16552,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Framus": {
-        "total": 2,
-        "sold": 2,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -16624,6 +16647,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Framus": {
+        "total": 2,
+        "sold": 2,
+        "fake": 0,
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
       },
       "Luxxtone": {
         "total": 1,
@@ -16865,7 +16896,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 109,
+        "total": 110,
         "sold": 35,
         "rate": 32
       },
@@ -16895,15 +16926,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 156,
+        "sold": 54,
+        "rate": 35
+      },
       "Brand New": {
         "total": 36,
         "sold": 5,
         "rate": 14
-      },
-      "Excellent": {
-        "total": 155,
-        "sold": 54,
-        "rate": 35
       },
       "Very Good": {
         "total": 130,
@@ -16955,7 +16986,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 103
+    "avgShippingCost": 102
   },
   "watcherDemand": [
     {
@@ -16966,9 +16997,9 @@
     },
     {
       "label": "1–5",
-      "total": 34,
+      "total": 35,
       "sold": 12,
-      "rate": 35
+      "rate": 34
     },
     {
       "label": "6–15",
@@ -16996,16 +17027,16 @@
       "rate": 31
     },
     "off": {
-      "total": 105,
+      "total": 106,
       "sold": 30,
-      "rate": 29
+      "rate": 28
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 184,
+      "total": 185,
       "sold": 47,
-      "rate": 26
+      "rate": 25
     },
     "regular": {
       "total": 156,
@@ -17016,9 +17047,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 47,
+      "total": 48,
       "sold": 12,
-      "rate": 26
+      "rate": 25
     },
     {
       "state": "TX",
