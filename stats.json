@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-11T04:11:04.102Z",
-  "totalLinks": 416,
-  "totalBeforeFilter": 452,
+  "generatedAt": "2026-04-11T04:25:11.881Z",
+  "totalLinks": 417,
+  "totalBeforeFilter": 453,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 410,
+  "totalWithPrice": 411,
   "overall": {
-    "count": 410,
-    "sum": 2189050.14,
-    "avg": 5339,
+    "count": 411,
+    "sum": 2190550.14,
+    "avg": 5330,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 390,
-    "sum": 1073104.16,
-    "avg": 2752,
+    "count": 391,
+    "sum": 1074604.16,
+    "avg": 2748,
     "min": 26,
     "max": 9000,
     "median": 2400
@@ -188,11 +188,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 280,
-      "sum": 1585856.79,
+      "count": 281,
+      "sum": 1587356.79,
       "min": 26,
       "max": 443302,
-      "avg": 5664
+      "avg": 5649
     },
     "2026-03": {
       "count": 130,
@@ -204,11 +204,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 379,
-      "sum": 1912101.3,
+      "count": 380,
+      "sum": 1913601.3,
       "min": 26,
       "max": 443302,
-      "avg": 5045
+      "avg": 5036
     },
     "marketplace": {
       "count": 31,
@@ -220,11 +220,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 379,
-      "sum": 1912101.3,
+      "count": 380,
+      "sum": 1913601.3,
       "min": 26,
       "max": 443302,
-      "avg": 5045
+      "avg": 5036
     },
     "guitarcenter.com": {
       "count": 13,
@@ -298,6 +298,37 @@
     }
   },
   "byModel": {
+    "gl-legacy-custom-shop": {
+      "displayName": "G&L Custom Shop Legacy",
+      "brand": "G&L",
+      "model": "Legacy",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-04-11T04:24:54.915Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "G&L Custom Shop Legacy",
+          "url": "https://reverb.com/item/95860692-g-l-custom-shop-legacy",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "suhr-pete-thorn-hss-signature-hss": {
       "displayName": "Suhr Pete Thorn Signature Custom HSS - Red Sparkle",
       "brand": "Suhr",
@@ -13240,6 +13271,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 124,
+      "sum": 787980.55,
+      "sold": {
+        "count": 34,
+        "sum": 74681.76999999999,
+        "avg": 2197,
+        "min": 165,
+        "max": 4750
+      },
+      "avg": 6355,
+      "min": 33,
+      "max": 443302
+    },
     "Excellent": {
       "count": 148,
       "sum": 740430.6799999999,
@@ -13267,20 +13312,6 @@
       "avg": 5053,
       "min": 1050,
       "max": 11500
-    },
-    "Very Good": {
-      "count": 123,
-      "sum": 786480.55,
-      "sold": {
-        "count": 34,
-        "sum": 74681.76999999999,
-        "avg": 2197,
-        "min": 165,
-        "max": 4750
-      },
-      "avg": 6394,
-      "min": 33,
-      "max": 443302
     },
     "Used": {
       "count": 20,
@@ -13375,8 +13406,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5664,
-      "count": 280
+      "avg": 5649,
+      "count": 281
     },
     "03": {
       "name": "Mar",
@@ -13529,7 +13560,7 @@
   "priceDistribution": {
     "0-500": 21,
     "500-1k": 33,
-    "1k-2k": 103,
+    "1k-2k": 104,
     "2k-3k": 91,
     "3k-5k": 104,
     "5k-10k": 41,
@@ -13538,13 +13569,18 @@
   "priceDistributionFiltered": {
     "0-500": 21,
     "500-1k": 33,
-    "1k-2k": 103,
+    "1k-2k": 104,
     "2k-3k": 91,
     "3k-5k": 104,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "G&L": {
+      "sum": 2,
+      "count": 2,
+      "avg": 1
+    },
     "Suhr": {
       "sum": 40,
       "count": 6,
@@ -13561,12 +13597,12 @@
       "avg": 8
     },
     "Rickenbacker": {
-      "sum": 153,
+      "sum": 154,
       "count": 13,
       "avg": 12
     },
     "Fender": {
-      "sum": 201,
+      "sum": 202,
       "count": 23,
       "avg": 9
     },
@@ -13601,7 +13637,7 @@
       "avg": 8
     },
     "PRS": {
-      "sum": 408,
+      "sum": 411,
       "count": 44,
       "avg": 9
     },
@@ -13669,11 +13705,6 @@
       "sum": 76,
       "count": 4,
       "avg": 19
-    },
-    "G&L": {
-      "sum": 2,
-      "count": 1,
-      "avg": 2
     },
     "Teisco": {
       "sum": 2,
@@ -13751,9 +13782,9 @@
       "avg": 29
     },
     "The Loar": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Framus": {
       "sum": 28,
@@ -13956,13 +13987,13 @@
       "avg": 8
     },
     "Kauer": {
-      "sum": 54,
+      "sum": 55,
       "count": 1,
-      "avg": 54
+      "avg": 55
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 14,
+    "2026-04-11": 15,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -13981,14 +14012,14 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "reverb": 379,
+    "reverb": 380,
     "marketplace": 37
   },
-  "activeModelsCount": 351,
+  "activeModelsCount": 352,
   "topPosters": [
     {
       "username": "GP",
-      "count": 151
+      "count": 152
     },
     {
       "username": "Beijing Bob",
@@ -15438,14 +15469,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 389,
+      "total": 390,
       "sold": 113,
       "fake": 0,
-      "live": 276,
+      "live": 277,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "G&L": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Suhr": {
         "total": 6,
         "sold": 2,
@@ -15661,14 +15700,6 @@
         "live": 2,
         "soldPct": 50,
         "livePct": 50
-      },
-      "G&L": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Teisco": {
         "total": 1,
@@ -16150,7 +16181,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 103,
+        "total": 104,
         "sold": 32,
         "rate": 31
       },
@@ -16180,6 +16211,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 124,
+        "sold": 35,
+        "rate": 28
+      },
       "Excellent": {
         "total": 148,
         "sold": 53,
@@ -16189,11 +16225,6 @@
         "total": 13,
         "sold": 2,
         "rate": 15
-      },
-      "Very Good": {
-        "total": 123,
-        "sold": 35,
-        "rate": 28
       },
       "Used": {
         "total": 20,
@@ -16257,7 +16288,7 @@
     },
     {
       "label": "6–15",
-      "total": 92,
+      "total": 93,
       "sold": 23,
       "rate": 25
     },
@@ -16276,7 +16307,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 235,
+      "total": 236,
       "sold": 75,
       "rate": 32
     },
@@ -16288,7 +16319,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 175,
+      "total": 176,
       "sold": 42,
       "rate": 24
     },
@@ -16301,7 +16332,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 45,
+      "total": 46,
       "sold": 11,
       "rate": 24
     },
@@ -16516,12 +16547,6 @@
       "rate": 50
     },
     {
-      "state": "ID",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
       "state": "MT",
       "total": 2,
       "sold": 1,
@@ -16538,6 +16563,12 @@
       "total": 2,
       "sold": 2,
       "rate": 100
+    },
+    {
+      "state": "ID",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     }
   ],
   "archiveYears": [
