@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-11T18:38:56.948Z",
-  "totalLinks": 439,
-  "totalBeforeFilter": 477,
+  "generatedAt": "2026-04-11T18:51:07.565Z",
+  "totalLinks": 440,
+  "totalBeforeFilter": 478,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 433,
+  "totalWithPrice": 434,
   "overall": {
-    "count": 433,
-    "sum": 2265291.13,
-    "avg": 5232,
+    "count": 434,
+    "sum": 2269486.13,
+    "avg": 5229,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 410,
-    "sum": 1118421.15,
-    "avg": 2728,
+    "count": 411,
+    "sum": 1122616.15,
+    "avg": 2731,
     "min": 26,
     "max": 9000,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9087,
+    "thresholdHigh": 9171,
     "thresholdLow": 0,
     "count": 23,
     "items": [
@@ -212,11 +212,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 303,
-      "sum": 1662097.78,
+      "count": 304,
+      "sum": 1666292.78,
       "min": 26,
       "max": 443302,
-      "avg": 5485
+      "avg": 5481
     },
     "2026-03": {
       "count": 130,
@@ -227,22 +227,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 33,
+      "sum": 283542.83,
+      "min": 374.99,
+      "max": 99000,
+      "avg": 8592
+    },
     "reverb": {
       "count": 401,
       "sum": 1985943.3,
       "min": 26,
       "max": 443302,
       "avg": 4952
-    },
-    "marketplace": {
-      "count": 32,
-      "sum": 279347.83,
-      "min": 374.99,
-      "max": 99000,
-      "avg": 8730
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 10,
+      "sum": 195874,
+      "min": 1200,
+      "max": 99000,
+      "avg": 19587
+    },
     "reverb.com": {
       "count": 401,
       "sum": 1985943.3,
@@ -277,13 +284,6 @@
       "min": 374.99,
       "max": 374.99,
       "avg": 375
-    },
-    "chicagomusicexchange.com": {
-      "count": 9,
-      "sum": 191679,
-      "min": 1200,
-      "max": 99000,
-      "avg": 21298
     },
     "tapestrymusic.com": {
       "count": 1,
@@ -322,6 +322,53 @@
     }
   },
   "byModel": {
+    "echopark-esperanto": {
+      "displayName": "Echopark Esperanto 313 Red Sunburst",
+      "brand": "Echopark",
+      "model": "Esperanto",
+      "variant": null,
+      "count": 2,
+      "sum": 8620,
+      "min": 4195,
+      "max": 4425,
+      "sightings": [
+        {
+          "price": 4425,
+          "date": "2026-04-10T02:22:25.493Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark Esperanto 313 Red Sunburst",
+          "url": "https://reverb.com/item/95822271-echopark-esperanto-313-red-sunburst",
+          "condition": "Very Good"
+        },
+        {
+          "price": 4195,
+          "date": "2026-04-11T18:50:51.138Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark Esperanto 313 Red Sunburst",
+          "url": "https://www.chicagomusicexchange.com/collections/echopark/products/echopark-esperanto-313-red-sunburst-2532135",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 4195,
+          "min": 4195,
+          "max": 4195,
+          "avg": 4195
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 4425,
+          "min": 4425,
+          "max": 4425,
+          "avg": 4425
+        }
+      },
+      "avg": 4310
+    },
     "charvel-special-deluxe-transparent": {
       "displayName": "Charvel 475 Special / Deluxe 1989 - 1991 - Transparent Purple",
       "brand": "Charvel",
@@ -1201,6 +1248,21 @@
           "max": 5900,
           "avg": 5900
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 5900,
+        "min": 5900,
+        "max": 5900,
+        "prices": [
+          {
+            "price": 5900,
+            "askingPrice": 5900,
+            "date": "2026-04-11T18:39:53.686Z",
+            "title": "B.C. Rich Warlock Supreme - USA made 1984 - \"Extremely Rare\"",
+            "url": "https://reverb.com/item/95857470-b-c-rich-warlock-supreme-usa-made-1984-extremely-rare"
+          }
+        ]
       },
       "avg": 5900
     },
@@ -2240,37 +2302,6 @@
         }
       },
       "avg": 2038
-    },
-    "echopark-esperanto": {
-      "displayName": "Echopark Esperanto 313 Red Sunburst",
-      "brand": "Echopark",
-      "model": "Esperanto",
-      "variant": null,
-      "count": 1,
-      "sum": 4425,
-      "min": 4425,
-      "max": 4425,
-      "sightings": [
-        {
-          "price": 4425,
-          "date": "2026-04-10T02:22:25.493Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Echopark Esperanto 313 Red Sunburst",
-          "url": "https://reverb.com/item/95822271-echopark-esperanto-313-red-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 4425,
-          "min": 4425,
-          "max": 4425,
-          "avg": 4425
-        }
-      },
-      "avg": 4425
     },
     "fender-stratocaster": {
       "displayName": "1992 Fender Stratocaster Plus Natural",
@@ -6538,52 +6569,6 @@
         ]
       },
       "avg": 3150
-    },
-    "ibanez-jem777-limited-edition": {
-      "displayName": "Ibanez JEM777-LG Steve Vai 30th Anniversary Limited Edition with Pink Pickups 2017 - Loch Ness Green",
-      "brand": "Ibanez",
-      "model": "JEM777",
-      "variant": "Limited Edition",
-      "count": 1,
-      "sum": 3115,
-      "min": 3115,
-      "max": 3115,
-      "sightings": [
-        {
-          "price": 3115,
-          "date": "2026-04-05T19:30:28.514Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez JEM777-LG Steve Vai 30th Anniversary Limited Edition with Pink Pickups 2017 - Loch Ness Green",
-          "url": "https://reverb.com/item/95705719",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3115,
-          "min": 3115,
-          "max": 3115,
-          "avg": 3115
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3115,
-        "min": 3115,
-        "max": 3115,
-        "prices": [
-          {
-            "price": 3115,
-            "askingPrice": 3115,
-            "date": "2026-04-05T19:30:28.514Z",
-            "title": "Ibanez JEM777-LG Steve Vai 30th Anniversary Limited Edition with Pink Pickups 2017 - Loch Ness Green",
-            "url": "https://reverb.com/item/95705719"
-          }
-        ]
-      },
-      "avg": 3115
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13973,9 +13958,66 @@
         }
       },
       "avg": 4499
+    },
+    "ibanez-jem777-limited-edition": {
+      "displayName": "Ibanez JEM777-LG Steve Vai 30th Anniversary Limited Edition with Pink Pickups 2017 - Loch Ness Green",
+      "brand": "Ibanez",
+      "model": "JEM777",
+      "variant": "Limited Edition",
+      "count": 1,
+      "sum": 3115,
+      "min": 3115,
+      "max": 3115,
+      "sightings": [
+        {
+          "price": 3115,
+          "date": "2026-04-05T19:30:28.514Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez JEM777-LG Steve Vai 30th Anniversary Limited Edition with Pink Pickups 2017 - Loch Ness Green",
+          "url": "https://reverb.com/item/95705719",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3115,
+          "min": 3115,
+          "max": 3115,
+          "avg": 3115
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 3115,
+        "min": 3115,
+        "max": 3115,
+        "prices": [
+          {
+            "price": 3115,
+            "askingPrice": 3115,
+            "date": "2026-04-05T19:30:28.514Z",
+            "title": "Ibanez JEM777-LG Steve Vai 30th Anniversary Limited Edition with Pink Pickups 2017 - Loch Ness Green",
+            "url": "https://reverb.com/item/95705719"
+          }
+        ]
+      },
+      "avg": 3115
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 22,
+      "sum": 177852.86999999994,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8084,
+      "min": 1109.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 157,
       "sum": 766994.6799999999,
@@ -13994,11 +14036,11 @@
       "count": 131,
       "sum": 819528.55,
       "sold": {
-        "count": 37,
-        "sum": 78956.76999999999,
-        "avg": 2134,
+        "count": 38,
+        "sum": 84856.77,
+        "avg": 2233,
         "min": 165,
-        "max": 4750
+        "max": 5900
       },
       "avg": 6256,
       "min": 33,
@@ -14031,17 +14073,6 @@
       "avg": 2846,
       "min": 99,
       "max": 32407
-    },
-    "Used": {
-      "count": 21,
-      "sum": 173657.86999999994,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 8269,
-      "min": 1109.99,
-      "max": 99000
     },
     "Mint": {
       "count": 13,
@@ -14111,8 +14142,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5485,
-      "count": 303
+      "avg": 5481,
+      "count": 304
     },
     "03": {
       "name": "Mar",
@@ -14267,7 +14298,7 @@
     "500-1k": 34,
     "1k-2k": 112,
     "2k-3k": 96,
-    "3k-5k": 109,
+    "3k-5k": 110,
     "5k-10k": 43,
     "10k+": 18
   },
@@ -14276,11 +14307,16 @@
     "500-1k": 34,
     "1k-2k": 112,
     "2k-3k": 96,
-    "3k-5k": 109,
+    "3k-5k": 110,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 54,
+      "count": 7,
+      "avg": 8
+    },
     "Charvel": {
       "sum": 138,
       "count": 5,
@@ -14347,7 +14383,7 @@
       "avg": 10
     },
     "Ibanez": {
-      "sum": 196,
+      "sum": 197,
       "count": 18,
       "avg": 11
     },
@@ -14385,11 +14421,6 @@
       "sum": 26,
       "count": 2,
       "avg": 13
-    },
-    "Echopark": {
-      "sum": 54,
-      "count": 6,
-      "avg": 9
     },
     "Heritage": {
       "sum": 2,
@@ -14703,7 +14734,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 37,
+    "2026-04-11": 38,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14722,8 +14753,8 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 401,
-    "marketplace": 38
+    "marketplace": 39,
+    "reverb": 401
   },
   "activeModelsCount": 369,
   "topPosters": [
@@ -14741,7 +14772,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 37
+      "count": 38
     },
     {
       "username": "Shteefe",
@@ -14818,6 +14849,12 @@
       "avgDiscount": -92.6,
       "count": 13
     },
+    "Echopark": {
+      "avgPrice": 4779,
+      "retailEst": 2500,
+      "avgDiscount": -91.1,
+      "count": 10
+    },
     "BC Rich": {
       "avgPrice": 1860,
       "retailEst": 200,
@@ -14832,19 +14869,27 @@
     }
   },
   "soldPrices": {
-    "count": 124,
-    "avg": 3464,
+    "count": 125,
+    "avg": 3484,
     "min": 26,
     "max": 36500,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 1276.3999999999999,
-      "count": 117,
-      "avgDays": 10.9
+      "totalDays": 1277.2999999999997,
+      "count": 118,
+      "avgDays": 10.8
     },
     "byModel": {
+      "bc-rich-warlock-supreme-made-usa": {
+        "displayName": "B.C. Rich Warlock Supreme - USA made 1984 - \"Extremely Rare\"",
+        "totalDays": 0.9,
+        "count": 1,
+        "fastest": 0.9,
+        "slowest": 0.9,
+        "avgDays": 0.9
+      },
       "ibanez-sf470": {
         "displayName": "1992 Ibanez SF470 Transparent Cherry #F152251",
         "totalDays": 0,
@@ -15711,6 +15756,13 @@
       }
     },
     "byBrand": {
+      "BC Rich": {
+        "totalDays": 236.39999999999998,
+        "count": 7,
+        "fastest": 0.1,
+        "slowest": 219.2,
+        "avgDays": 33.8
+      },
       "Ibanez": {
         "totalDays": 6.499999999999999,
         "count": 8,
@@ -15759,13 +15811,6 @@
         "fastest": 0.1,
         "slowest": 0.2,
         "avgDays": 0.2
-      },
-      "BC Rich": {
-        "totalDays": 235.5,
-        "count": 6,
-        "fastest": 0.1,
-        "slowest": 219.2,
-        "avgDays": 39.3
       },
       "Knaggs": {
         "totalDays": 19.700000000000003,
@@ -16238,14 +16283,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 411,
-      "sold": 119,
+      "total": 412,
+      "sold": 120,
       "fake": 0,
       "live": 292,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Echopark": {
+        "total": 10,
+        "sold": 1,
+        "fake": 0,
+        "live": 9,
+        "soldPct": 10,
+        "livePct": 90
+      },
       "Charvel": {
         "total": 5,
         "sold": 2,
@@ -16280,11 +16333,11 @@
       },
       "BC Rich": {
         "total": 32,
-        "sold": 6,
+        "sold": 7,
         "fake": 0,
-        "live": 26,
-        "soldPct": 19,
-        "livePct": 81
+        "live": 25,
+        "soldPct": 22,
+        "livePct": 78
       },
       "PRS": {
         "total": 50,
@@ -16421,14 +16474,6 @@
         "live": 1,
         "soldPct": 50,
         "livePct": 50
-      },
-      "Echopark": {
-        "total": 9,
-        "sold": 1,
-        "fake": 0,
-        "live": 8,
-        "soldPct": 11,
-        "livePct": 89
       },
       "Heritage": {
         "total": 1,
@@ -16970,15 +17015,15 @@
       },
       {
         "label": "$3k–5k",
-        "total": 109,
+        "total": 110,
         "sold": 32,
         "rate": 29
       },
       {
         "label": "$5k–10k",
         "total": 43,
-        "sold": 5,
-        "rate": 12
+        "sold": 6,
+        "rate": 14
       },
       {
         "label": "$10k+",
@@ -16988,6 +17033,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 22,
+        "sold": 1,
+        "rate": 5
+      },
       "Excellent": {
         "total": 157,
         "sold": 54,
@@ -16995,8 +17045,8 @@
       },
       "Very Good": {
         "total": 131,
-        "sold": 38,
-        "rate": 29
+        "sold": 39,
+        "rate": 30
       },
       "Brand New": {
         "total": 36,
@@ -17007,11 +17057,6 @@
         "total": 52,
         "sold": 14,
         "rate": 27
-      },
-      "Used": {
-        "total": 21,
-        "sold": 1,
-        "rate": 5
       },
       "Mint": {
         "total": 13,
@@ -17072,8 +17117,8 @@
     {
       "label": "16–30",
       "total": 103,
-      "sold": 35,
-      "rate": 34
+      "sold": 36,
+      "rate": 35
     },
     {
       "label": "31+",
@@ -17085,7 +17130,7 @@
   "offersEffect": {
     "on": {
       "total": 253,
-      "sold": 78,
+      "sold": 79,
       "rate": 31
     },
     "off": {
@@ -17097,8 +17142,8 @@
   "sellerType": {
     "preferred": {
       "total": 185,
-      "sold": 47,
-      "rate": 25
+      "sold": 48,
+      "rate": 26
     },
     "regular": {
       "total": 158,
@@ -17296,8 +17341,8 @@
     {
       "state": "KS",
       "total": 2,
-      "sold": 0,
-      "rate": 0
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "OK",
@@ -17330,13 +17375,13 @@
       "rate": 50
     },
     {
-      "state": "NE",
+      "state": "MT",
       "total": 2,
       "sold": 1,
       "rate": 50
     },
     {
-      "state": "MT",
+      "state": "NE",
       "total": 2,
       "sold": 1,
       "rate": 50
