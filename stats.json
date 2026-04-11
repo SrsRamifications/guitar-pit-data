@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-11T15:40:57.776Z",
-  "totalLinks": 430,
-  "totalBeforeFilter": 468,
+  "generatedAt": "2026-04-11T15:42:21.151Z",
+  "totalLinks": 431,
+  "totalBeforeFilter": 469,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 424,
+  "totalWithPrice": 425,
   "overall": {
-    "count": 424,
-    "sum": 2230207.13,
-    "avg": 5260,
+    "count": 425,
+    "sum": 2241707.13,
+    "avg": 5275,
     "min": 26,
     "max": 443302
   },
@@ -23,7 +23,7 @@
   "outliers": {
     "thresholdHigh": 9171,
     "thresholdLow": 0,
-    "count": 21,
+    "count": 22,
     "items": [
       {
         "title": "Gibson Les Paul Standard 1960 - Sunburst",
@@ -122,6 +122,14 @@
         "postedAt": "2026-03-27T21:56:25.171Z"
       },
       {
+        "title": "PRS Limited Edition Herman Li Signature Chleo 2025 - Present - Orchid Dusk",
+        "url": "https://reverb.com/item/94671215",
+        "price": "$11,500",
+        "image": "https://rvb-img.reverb.com/i/s--4lqo7zox--/quality=medium-low,height=800,width=800,fit=contain/5213884c-6ec5-4f03-938a-5077ffe15c16.jpeg",
+        "condition": "Very Good",
+        "postedAt": "2026-04-11T15:42:06.479Z"
+      },
+      {
         "title": "2018 Echopark Ancient Sinker Redwood Southsider",
         "url": "https://reverb.com/item/37361458-2018-echopark-ancient-sinker-redwood-southsider",
         "price": "$11,500",
@@ -196,11 +204,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 294,
-      "sum": 1627013.78,
+      "count": 295,
+      "sum": 1638513.78,
       "min": 26,
       "max": 443302,
-      "avg": 5534
+      "avg": 5554
     },
     "2026-03": {
       "count": 130,
@@ -212,11 +220,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 392,
-      "sum": 1950859.3,
+      "count": 393,
+      "sum": 1962359.3,
       "min": 26,
       "max": 443302,
-      "avg": 4977
+      "avg": 4993
     },
     "marketplace": {
       "count": 32,
@@ -228,11 +236,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 392,
-      "sum": 1950859.3,
+      "count": 393,
+      "sum": 1962359.3,
       "min": 26,
       "max": 443302,
-      "avg": 4977
+      "avg": 4993
     },
     "guitarcenter.com": {
       "count": 14,
@@ -306,6 +314,53 @@
     }
   },
   "byModel": {
+    "prs-herman-li-chleo-limited-edition-signature": {
+      "displayName": "PRS Limited Edition Herman Li Signature Chleo 2025 - Present - Orchid Dusk",
+      "brand": "PRS",
+      "model": "Herman Li Chleo",
+      "variant": "Limited Edition Signature",
+      "count": 2,
+      "sum": 21750,
+      "min": 10250,
+      "max": 11500,
+      "sightings": [
+        {
+          "price": 10250,
+          "date": "2026-04-10T03:49:27.723Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Limited Edition Herman Li Signature Chleo - Charcoal Purple Burst",
+          "url": "https://reverb.com/item/95831782-prs-limited-edition-herman-li-signature-chleo-charcoal-purple-burst",
+          "condition": "Excellent"
+        },
+        {
+          "price": 11500,
+          "date": "2026-04-11T15:42:06.479Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Limited Edition Herman Li Signature Chleo 2025 - Present - Orchid Dusk",
+          "url": "https://reverb.com/item/94671215",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 11500,
+          "min": 11500,
+          "max": 11500,
+          "avg": 11500
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 10250,
+          "min": 10250,
+          "max": 10250,
+          "avg": 10250
+        }
+      },
+      "avg": 10875
+    },
     "anderson-guitarworks-cobra-trans": {
       "displayName": "Tom Anderson Guitarworks Cobra S 2008 - Trans green burst with binding",
       "brand": "Anderson",
@@ -1898,37 +1953,6 @@
         }
       },
       "avg": 5500
-    },
-    "prs-herman-li-chleo-limited-edition-signature": {
-      "displayName": "PRS Limited Edition Herman Li Signature Chleo - Charcoal Purple Burst",
-      "brand": "PRS",
-      "model": "Herman Li Chleo",
-      "variant": "Limited Edition Signature",
-      "count": 1,
-      "sum": 10250,
-      "min": 10250,
-      "max": 10250,
-      "sightings": [
-        {
-          "price": 10250,
-          "date": "2026-04-10T03:49:27.723Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Limited Edition Herman Li Signature Chleo - Charcoal Purple Burst",
-          "url": "https://reverb.com/item/95831782-prs-limited-edition-herman-li-signature-chleo-charcoal-purple-burst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 10250,
-          "min": 10250,
-          "max": 10250,
-          "avg": 10250
-        }
-      },
-      "avg": 10250
     },
     "nash-telecaster": {
       "displayName": "Nash Telecaster Early 2000s - Relic'd",
@@ -6538,78 +6562,6 @@
       },
       "avg": 1199
     },
-    "fano-alt-de-facto": {
-      "displayName": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
-      "brand": "Fano",
-      "model": "Alt De Facto",
-      "variant": null,
-      "count": 3,
-      "sum": 7299,
-      "min": 2250,
-      "max": 2650,
-      "sightings": [
-        {
-          "price": 2399,
-          "date": "2026-03-29T22:23:07.965Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2024 Fano Alt de Facto TC6 - Sunburst",
-          "url": "https://reverb.com/item/95527935-2024-fano-alt-de-facto-tc6-sunburst",
-          "condition": "Excellent"
-        },
-        {
-          "price": 2650,
-          "date": "2026-03-30T23:53:19.638Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fano Alt De Facto PX6",
-          "url": "https://reverb.com/item/95545630-fano-alt-de-facto-px6",
-          "condition": "Very Good"
-        },
-        {
-          "price": 2250,
-          "date": "2026-04-05T01:21:35.021Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
-          "url": "https://reverb.com/item/95695663-fano-alt-de-facto-gf6-2010s-tobacco-burst-relic",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 2,
-          "sum": 4900,
-          "min": 2250,
-          "max": 2650,
-          "avg": 2450
-        },
-        "Excellent": {
-          "count": 1,
-          "sum": 2399,
-          "min": 2399,
-          "max": 2399,
-          "avg": 2399
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2250,
-        "min": 2250,
-        "max": 2250,
-        "prices": [
-          {
-            "price": 2250,
-            "askingPrice": 2250,
-            "date": "2026-04-08T02:59:29.532Z",
-            "title": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
-            "url": "https://reverb.com/item/95695663-fano-alt-de-facto-gf6-2010s-tobacco-burst-relic"
-          }
-        ]
-      },
-      "avg": 2433,
-      "trends": {}
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9205,6 +9157,78 @@
         ]
       },
       "avg": 3599
+    },
+    "fano-alt-de-facto": {
+      "displayName": "2024 Fano Alt de Facto TC6 - Sunburst",
+      "brand": "Fano",
+      "model": "Alt de Facto",
+      "variant": null,
+      "count": 3,
+      "sum": 7299,
+      "min": 2250,
+      "max": 2650,
+      "sightings": [
+        {
+          "price": 2399,
+          "date": "2026-03-29T22:23:07.965Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2024 Fano Alt de Facto TC6 - Sunburst",
+          "url": "https://reverb.com/item/95527935-2024-fano-alt-de-facto-tc6-sunburst",
+          "condition": "Excellent"
+        },
+        {
+          "price": 2650,
+          "date": "2026-03-30T23:53:19.638Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fano Alt De Facto PX6",
+          "url": "https://reverb.com/item/95545630-fano-alt-de-facto-px6",
+          "condition": "Very Good"
+        },
+        {
+          "price": 2250,
+          "date": "2026-04-05T01:21:35.021Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
+          "url": "https://reverb.com/item/95695663-fano-alt-de-facto-gf6-2010s-tobacco-burst-relic",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2399,
+          "min": 2399,
+          "max": 2399,
+          "avg": 2399
+        },
+        "Very Good": {
+          "count": 2,
+          "sum": 4900,
+          "min": 2250,
+          "max": 2650,
+          "avg": 2450
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2250,
+        "min": 2250,
+        "max": 2250,
+        "prices": [
+          {
+            "price": 2250,
+            "askingPrice": 2250,
+            "date": "2026-04-08T02:59:29.532Z",
+            "title": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
+            "url": "https://reverb.com/item/95695663-fano-alt-de-facto-gf6-2010s-tobacco-burst-relic"
+          }
+        ]
+      },
+      "avg": 2433,
+      "trends": {}
     },
     "prs-custom-22-artist": {
       "displayName": "PRS Custom 22 Artist 2014",
@@ -13682,6 +13706,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 129,
+      "sum": 816178.55,
+      "sold": {
+        "count": 35,
+        "sum": 76076.76999999999,
+        "avg": 2174,
+        "min": 165,
+        "max": 4750
+      },
+      "avg": 6327,
+      "min": 33,
+      "max": 443302
+    },
     "Good": {
       "count": 51,
       "sum": 145932.95,
@@ -13709,20 +13747,6 @@
       "avg": 4915,
       "min": 26,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 128,
-      "sum": 804678.55,
-      "sold": {
-        "count": 35,
-        "sum": 76076.76999999999,
-        "avg": 2174,
-        "min": 165,
-        "max": 4750
-      },
-      "avg": 6287,
-      "min": 33,
-      "max": 443302
     },
     "Used": {
       "count": 21,
@@ -13817,8 +13841,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5534,
-      "count": 294
+      "avg": 5554,
+      "count": 295
     },
     "03": {
       "name": "Mar",
@@ -13975,7 +13999,7 @@
     "2k-3k": 94,
     "3k-5k": 108,
     "5k-10k": 42,
-    "10k+": 17
+    "10k+": 18
   },
   "priceDistributionFiltered": {
     "0-500": 21,
@@ -13987,15 +14011,15 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 487,
+      "count": 46,
+      "avg": 11
+    },
     "Anderson": {
       "sum": 14,
       "count": 2,
       "avg": 7
-    },
-    "PRS": {
-      "sum": 442,
-      "count": 45,
-      "avg": 10
     },
     "Gibson": {
       "sum": 813,
@@ -14043,7 +14067,7 @@
       "avg": 13
     },
     "ESP": {
-      "sum": 109,
+      "sum": 110,
       "count": 8,
       "avg": 14
     },
@@ -14217,11 +14241,6 @@
       "count": 1,
       "avg": 6
     },
-    "Fano": {
-      "sum": 32,
-      "count": 3,
-      "avg": 11
-    },
     "Languedoc": {
       "sum": 14,
       "count": 1,
@@ -14301,6 +14320,11 @@
       "sum": 14,
       "count": 1,
       "avg": 14
+    },
+    "Fano": {
+      "sum": 32,
+      "count": 3,
+      "avg": 11
     },
     "Mayones": {
       "sum": 13,
@@ -14409,7 +14433,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 28,
+    "2026-04-11": 29,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14428,7 +14452,7 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 392,
+    "reverb": 393,
     "marketplace": 38
   },
   "activeModelsCount": 363,
@@ -14466,11 +14490,11 @@
       "count": 10
     },
     {
-      "username": "HanSwolo",
-      "count": 6
+      "username": "erparadox",
+      "count": 7
     },
     {
-      "username": "Does it slap tho?",
+      "username": "HanSwolo",
       "count": 6
     }
   ],
@@ -14495,10 +14519,10 @@
       "count": 53
     },
     "PRS": {
-      "avgPrice": 3740,
+      "avgPrice": 3898,
       "retailEst": 1000,
-      "avgDiscount": -274,
-      "count": 48
+      "avgDiscount": -289.8,
+      "count": 49
     },
     "Ibanez": {
       "avgPrice": 2500,
@@ -14798,14 +14822,6 @@
         "fastest": 9.1,
         "slowest": 9.1,
         "avgDays": 9.1
-      },
-      "fano-alt-de-facto": {
-        "displayName": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
-        "totalDays": 3.1,
-        "count": 1,
-        "fastest": 3.1,
-        "slowest": 3.1,
-        "avgDays": 3.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -15382,6 +15398,14 @@
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
+      },
+      "fano-alt-de-facto": {
+        "displayName": "Fano Alt De Facto GF6 2010s - Tobacco Burst Relic",
+        "totalDays": 3.1,
+        "count": 1,
+        "fastest": 3.1,
+        "slowest": 3.1,
+        "avgDays": 3.1
       }
     },
     "byBrand": {
@@ -15524,13 +15548,6 @@
         "fastest": 1,
         "slowest": 9.1,
         "avgDays": 5.1
-      },
-      "Fano": {
-        "totalDays": 3.1,
-        "count": 1,
-        "fastest": 3.1,
-        "slowest": 3.1,
-        "avgDays": 3.1
       },
       "Hoyer": {
         "totalDays": 1,
@@ -15706,16 +15723,28 @@
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
+      },
+      "Fano": {
+        "totalDays": 3.1,
+        "count": 1,
+        "fastest": 3.1,
+        "slowest": 3.1,
+        "avgDays": 3.1
       }
     }
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1395.4774031278325,
-      "count": 88,
-      "avgPctDrop": 15.9
+      "totalPctDrop": 1449.4774031278328,
+      "count": 89,
+      "avgPctDrop": 16.3
     },
     "byBrand": {
+      "PRS": {
+        "totalPctDrop": 126.90997711086557,
+        "count": 6,
+        "avgPctDrop": 21.2
+      },
       "Floyd Rose": {
         "totalPctDrop": 13.559322033898304,
         "count": 1,
@@ -15750,11 +15779,6 @@
         "totalPctDrop": 10.022075055187637,
         "count": 1,
         "avgPctDrop": 10
-      },
-      "PRS": {
-        "totalPctDrop": 72.90997711086557,
-        "count": 5,
-        "avgPctDrop": 14.6
       },
       "Knaggs": {
         "totalPctDrop": 11.431837667905116,
@@ -15905,14 +15929,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 403,
+      "total": 404,
       "sold": 115,
       "fake": 0,
-      "live": 288,
-      "soldPct": 29,
-      "livePct": 71
+      "live": 289,
+      "soldPct": 28,
+      "livePct": 72
     },
     "byBrand": {
+      "PRS": {
+        "total": 49,
+        "sold": 15,
+        "fake": 0,
+        "live": 34,
+        "soldPct": 31,
+        "livePct": 69
+      },
       "Anderson": {
         "total": 2,
         "sold": 0,
@@ -15920,14 +15952,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 48,
-        "sold": 15,
-        "fake": 0,
-        "live": 33,
-        "soldPct": 31,
-        "livePct": 69
       },
       "Gibson": {
         "total": 55,
@@ -16305,14 +16329,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Fano": {
-        "total": 3,
-        "sold": 1,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "livePct": 67
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -16432,6 +16448,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Fano": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Mayones": {
         "total": 1,
@@ -16649,12 +16673,17 @@
       },
       {
         "label": "$10k+",
-        "total": 17,
+        "total": 18,
         "sold": 5,
-        "rate": 29
+        "rate": 28
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 129,
+        "sold": 36,
+        "rate": 28
+      },
       "Good": {
         "total": 51,
         "sold": 13,
@@ -16664,11 +16693,6 @@
         "total": 153,
         "sold": 54,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 128,
-        "sold": 36,
-        "rate": 28
       },
       "Used": {
         "total": 21,
@@ -16708,8 +16732,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 110,
-    "totalOffers": 225,
+    "withOffers": 111,
+    "totalOffers": 227,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 63
   },
@@ -16744,14 +16768,14 @@
     },
     {
       "label": "31+",
-      "total": 103,
+      "total": 104,
       "sold": 20,
       "rate": 19
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 246,
+      "total": 247,
       "sold": 76,
       "rate": 31
     },
@@ -16768,7 +16792,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 153,
+      "total": 154,
       "sold": 48,
       "rate": 31
     }
@@ -16823,16 +16847,16 @@
       "rate": 31
     },
     {
+      "state": "MD",
+      "total": 12,
+      "sold": 3,
+      "rate": 25
+    },
+    {
       "state": "PA",
       "total": 11,
       "sold": 4,
       "rate": 36
-    },
-    {
-      "state": "MD",
-      "total": 11,
-      "sold": 3,
-      "rate": 27
     },
     {
       "state": "MI",
