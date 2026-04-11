@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-11T05:48:23.585Z",
-  "totalLinks": 422,
-  "totalBeforeFilter": 459,
+  "generatedAt": "2026-04-11T05:48:51.193Z",
+  "totalLinks": 423,
+  "totalBeforeFilter": 460,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 416,
+  "totalWithPrice": 417,
   "overall": {
-    "count": 416,
-    "sum": 2208400.14,
-    "avg": 5309,
+    "count": 417,
+    "sum": 2209900.14,
+    "avg": 5300,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 395,
-    "sum": 1082854.16,
-    "avg": 2741,
+    "count": 396,
+    "sum": 1084354.16,
+    "avg": 2738,
     "min": 26,
     "max": 9000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 9300,
+    "thresholdHigh": 9171,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -196,11 +196,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 286,
-      "sum": 1605206.79,
+      "count": 287,
+      "sum": 1606706.79,
       "min": 26,
       "max": 443302,
-      "avg": 5613
+      "avg": 5598
     },
     "2026-03": {
       "count": 130,
@@ -212,11 +212,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 385,
-      "sum": 1931451.3,
+      "count": 386,
+      "sum": 1932951.3,
       "min": 26,
       "max": 443302,
-      "avg": 5017
+      "avg": 5008
     },
     "marketplace": {
       "count": 31,
@@ -228,11 +228,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 385,
-      "sum": 1931451.3,
+      "count": 386,
+      "sum": 1932951.3,
       "min": 26,
       "max": 443302,
-      "avg": 5017
+      "avg": 5008
     },
     "guitarcenter.com": {
       "count": 13,
@@ -306,6 +306,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-les-paul-classic": {
+      "displayName": "2019 Gibson Les Paul Classic Honeyburst Electric Guitar",
+      "brand": "Rickenbacker",
+      "model": "Les Paul Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-04-11T05:48:36.645Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2019 Gibson Les Paul Classic Honeyburst Electric Guitar",
+          "url": "https://reverb.com/item/95454729-2019-gibson-les-paul-classic-honeyburst-electric-guitar",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "gibson-les-paul-classic": {
       "displayName": "Gibson Les Paul Classic 2015 - Vintage Sunburst",
       "brand": "Gibson",
@@ -6532,37 +6563,6 @@
         }
       },
       "avg": 1249
-    },
-    "collings-waterloo-wl-14x-tr": {
-      "displayName": "Waterloo WL-14X TR X-Braced Parlor Guitar",
-      "brand": "Collings",
-      "model": "Waterloo WL-14X TR",
-      "variant": null,
-      "count": 1,
-      "sum": 2750,
-      "min": 2750,
-      "max": 2750,
-      "sightings": [
-        {
-          "price": 2750,
-          "date": "2026-04-04T20:46:07.922Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Waterloo WL-14X TR X-Braced Parlor Guitar",
-          "url": "https://reverb.com/item/95689867-waterloo-wl-14x-tr-x-braced-parlor-guitar",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2750,
-          "min": 2750,
-          "max": 2750,
-          "avg": 2750
-        }
-      },
-      "avg": 2750
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13416,9 +13416,54 @@
         ]
       },
       "avg": 1850
+    },
+    "collings-waterloo-wl-14x-tr": {
+      "displayName": "Waterloo WL-14X TR X-Braced Parlor Guitar",
+      "brand": "Collings",
+      "model": "Waterloo WL-14X TR",
+      "variant": null,
+      "count": 1,
+      "sum": 2750,
+      "min": 2750,
+      "max": 2750,
+      "sightings": [
+        {
+          "price": 2750,
+          "date": "2026-04-04T20:46:07.922Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Waterloo WL-14X TR X-Braced Parlor Guitar",
+          "url": "https://reverb.com/item/95689867-waterloo-wl-14x-tr-x-braced-parlor-guitar",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2750,
+          "min": 2750,
+          "max": 2750,
+          "avg": 2750
+        }
+      },
+      "avg": 2750
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 49,
+      "sum": 138437.95,
+      "sold": {
+        "count": 13,
+        "sum": 28505.27,
+        "avg": 2193,
+        "min": 540,
+        "max": 5820
+      },
+      "avg": 2825,
+      "min": 99,
+      "max": 32407
+    },
     "Very Good": {
       "count": 126,
       "sum": 798980.55,
@@ -13471,20 +13516,6 @@
       "avg": 8563,
       "min": 1109.99,
       "max": 99000
-    },
-    "Good": {
-      "count": 48,
-      "sum": 136937.95,
-      "sold": {
-        "count": 13,
-        "sum": 28505.27,
-        "avg": 2193,
-        "min": 540,
-        "max": 5820
-      },
-      "avg": 2853,
-      "min": 99,
-      "max": 32407
     },
     "Brand New": {
       "count": 35,
@@ -13554,8 +13585,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5613,
-      "count": 286
+      "avg": 5598,
+      "count": 287
     },
     "03": {
       "name": "Mar",
@@ -13708,7 +13739,7 @@
   "priceDistribution": {
     "0-500": 21,
     "500-1k": 34,
-    "1k-2k": 106,
+    "1k-2k": 107,
     "2k-3k": 91,
     "3k-5k": 105,
     "5k-10k": 42,
@@ -13717,13 +13748,18 @@
   "priceDistributionFiltered": {
     "0-500": 21,
     "500-1k": 34,
-    "1k-2k": 106,
+    "1k-2k": 107,
     "2k-3k": 91,
     "3k-5k": 105,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 170,
+      "count": 14,
+      "avg": 12
+    },
     "Gibson": {
       "sum": 784,
       "count": 44,
@@ -13743,11 +13779,6 @@
       "sum": 241,
       "count": 29,
       "avg": 8
-    },
-    "Rickenbacker": {
-      "sum": 155,
-      "count": 13,
-      "avg": 12
     },
     "Fender": {
       "sum": 206,
@@ -13964,11 +13995,6 @@
       "count": 1,
       "avg": 6
     },
-    "Collings": {
-      "sum": 48,
-      "count": 3,
-      "avg": 16
-    },
     "Languedoc": {
       "sum": 14,
       "count": 1,
@@ -14099,6 +14125,11 @@
       "count": 1,
       "avg": 10
     },
+    "Collings": {
+      "sum": 48,
+      "count": 3,
+      "avg": 16
+    },
     "Bilt": {
       "sum": 9,
       "count": 1,
@@ -14141,7 +14172,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 20,
+    "2026-04-11": 21,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14160,10 +14191,10 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "reverb": 385,
+    "reverb": 386,
     "marketplace": 37
   },
-  "activeModelsCount": 356,
+  "activeModelsCount": 357,
   "topPosters": [
     {
       "username": "GP",
@@ -14175,7 +14206,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 36
+      "count": 37
     },
     {
       "username": "WontonGG",
@@ -14209,7 +14240,7 @@
   "bestMonth": {
     "name": "Mar",
     "avg": 4640,
-    "pctBelowAvg": 13,
+    "pctBelowAvg": 12,
     "count": 130
   },
   "topVoted": [],
@@ -14263,10 +14294,10 @@
       "count": 31
     },
     "Rickenbacker": {
-      "avgPrice": 6398,
+      "avgPrice": 6048,
       "retailEst": 1500,
-      "avgDiscount": -326.5,
-      "count": 13
+      "avgDiscount": -303.2,
+      "count": 14
     }
   },
   "soldPrices": {
@@ -15617,14 +15648,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 395,
+      "total": 396,
       "sold": 113,
       "fake": 0,
-      "live": 282,
+      "live": 283,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 14,
+        "sold": 1,
+        "fake": 0,
+        "live": 13,
+        "soldPct": 7,
+        "livePct": 93
+      },
       "Gibson": {
         "total": 52,
         "sold": 11,
@@ -15656,14 +15695,6 @@
         "live": 26,
         "soldPct": 16,
         "livePct": 84
-      },
-      "Rickenbacker": {
-        "total": 13,
-        "sold": 1,
-        "fake": 0,
-        "live": 12,
-        "soldPct": 8,
-        "livePct": 92
       },
       "Fender": {
         "total": 29,
@@ -16033,14 +16064,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Collings": {
-        "total": 3,
-        "sold": 1,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "livePct": 67
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -16249,6 +16272,14 @@
         "soldPct": 0,
         "livePct": 100
       },
+      "Collings": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Bilt": {
         "total": 1,
         "sold": 0,
@@ -16329,7 +16360,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 106,
+        "total": 107,
         "sold": 32,
         "rate": 30
       },
@@ -16359,6 +16390,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 49,
+        "sold": 13,
+        "rate": 27
+      },
       "Very Good": {
         "total": 126,
         "sold": 35,
@@ -16378,11 +16414,6 @@
         "total": 20,
         "sold": 1,
         "rate": 5
-      },
-      "Good": {
-        "total": 48,
-        "sold": 13,
-        "rate": 27
       },
       "Brand New": {
         "total": 35,
@@ -16415,7 +16446,7 @@
     "withOffers": 106,
     "totalOffers": 220,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 63
+    "offersEnabledPct": 62
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -16442,7 +16473,7 @@
     },
     {
       "label": "16–30",
-      "total": 99,
+      "total": 100,
       "sold": 30,
       "rate": 30
     },
@@ -16460,14 +16491,14 @@
       "rate": 31
     },
     "off": {
-      "total": 102,
+      "total": 103,
       "sold": 27,
       "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 177,
+      "total": 178,
       "sold": 42,
       "rate": 24
     },
@@ -16480,9 +16511,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 46,
+      "total": 47,
       "sold": 11,
-      "rate": 24
+      "rate": 23
     },
     {
       "state": "TX",
