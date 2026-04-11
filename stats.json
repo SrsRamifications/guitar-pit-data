@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-11T14:29:15.690Z",
-  "totalLinks": 427,
-  "totalBeforeFilter": 465,
+  "generatedAt": "2026-04-11T14:33:39.624Z",
+  "totalLinks": 428,
+  "totalBeforeFilter": 466,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 421,
+  "totalWithPrice": 422,
   "overall": {
-    "count": 421,
-    "sum": 2220237.13,
-    "avg": 5274,
+    "count": 422,
+    "sum": 2224537.13,
+    "avg": 5271,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 400,
-    "sum": 1094691.15,
-    "avg": 2737,
+    "count": 401,
+    "sum": 1098991.15,
+    "avg": 2741,
     "min": 26,
     "max": 9000,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 9087,
+    "thresholdHigh": 9171,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -196,11 +196,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 291,
-      "sum": 1617043.78,
+      "count": 292,
+      "sum": 1621343.78,
       "min": 26,
       "max": 443302,
-      "avg": 5557
+      "avg": 5553
     },
     "2026-03": {
       "count": 130,
@@ -212,11 +212,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 389,
-      "sum": 1940889.3,
+      "count": 390,
+      "sum": 1945189.3,
       "min": 26,
       "max": 443302,
-      "avg": 4989
+      "avg": 4988
     },
     "marketplace": {
       "count": 32,
@@ -228,11 +228,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 389,
-      "sum": 1940889.3,
+      "count": 390,
+      "sum": 1945189.3,
       "min": 26,
       "max": 443302,
-      "avg": 4989
+      "avg": 4988
     },
     "guitarcenter.com": {
       "count": 14,
@@ -306,6 +306,87 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom": {
+      "displayName": "Gibson Les Paul Custom 1970 - 1985 - Ebony",
+      "brand": "Gibson",
+      "model": "Les Paul Custom",
+      "variant": null,
+      "count": 4,
+      "sum": 21320,
+      "min": 4300,
+      "max": 6500,
+      "sightings": [
+        {
+          "price": 6500,
+          "date": "2026-03-28T16:41:22.453Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
+          "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
+          "condition": "Good"
+        },
+        {
+          "price": 4700,
+          "date": "2026-03-28T23:29:44.450Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom Lite 1987 - 1988 - Metallic Sunset",
+          "url": "https://reverb.com/item/95518343-gibson-les-paul-custom-lite-1987-1988-metallic-sunset",
+          "condition": "Good"
+        },
+        {
+          "price": 5820,
+          "date": "2026-04-06T22:40:04.449Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom 1979 - Silverburst",
+          "url": "https://reverb.com/item/95721863-gibson-les-paul-custom-1979-silverburst",
+          "condition": "Good"
+        },
+        {
+          "price": 4300,
+          "date": "2026-04-11T14:33:25.013Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom 1970 - 1985 - Ebony",
+          "url": "https://reverb.com/item/95865777-gibson-les-paul-custom-1970-1985-ebony",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4300,
+          "min": 4300,
+          "max": 4300,
+          "avg": 4300
+        },
+        "Good": {
+          "count": 3,
+          "sum": 17020,
+          "min": 4700,
+          "max": 6500,
+          "avg": 5673
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 5820,
+        "min": 5820,
+        "max": 5820,
+        "prices": [
+          {
+            "price": 5820,
+            "askingPrice": 5820,
+            "date": "2026-04-08T21:07:38.715Z",
+            "title": "Gibson Les Paul Custom 1979 - Silverburst",
+            "url": "https://reverb.com/item/95721863-gibson-les-paul-custom-1979-silverburst"
+          }
+        ]
+      },
+      "avg": 5330,
+      "trends": {}
+    },
     "floyd-rose-luxxtone-choppa-rexx": {
       "displayName": "Luxxtone Choppa T Rexx",
       "brand": "Floyd Rose",
@@ -5243,71 +5324,6 @@
       },
       "avg": 3299
     },
-    "gibson-les-paul-custom": {
-      "displayName": "Gibson Les Paul Custom 1979 - Silverburst",
-      "brand": "Gibson",
-      "model": "Les Paul Custom",
-      "variant": null,
-      "count": 3,
-      "sum": 17020,
-      "min": 4700,
-      "max": 6500,
-      "sightings": [
-        {
-          "price": 6500,
-          "date": "2026-03-28T16:41:22.453Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
-          "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
-          "condition": "Good"
-        },
-        {
-          "price": 4700,
-          "date": "2026-03-28T23:29:44.450Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Custom Lite 1987 - 1988 - Metallic Sunset",
-          "url": "https://reverb.com/item/95518343-gibson-les-paul-custom-lite-1987-1988-metallic-sunset",
-          "condition": "Good"
-        },
-        {
-          "price": 5820,
-          "date": "2026-04-06T22:40:04.449Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Custom 1979 - Silverburst",
-          "url": "https://reverb.com/item/95721863-gibson-les-paul-custom-1979-silverburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 3,
-          "sum": 17020,
-          "min": 4700,
-          "max": 6500,
-          "avg": 5673
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 5820,
-        "min": 5820,
-        "max": 5820,
-        "prices": [
-          {
-            "price": 5820,
-            "askingPrice": 5820,
-            "date": "2026-04-08T21:07:38.715Z",
-            "title": "Gibson Les Paul Custom 1979 - Silverburst",
-            "url": "https://reverb.com/item/95721863-gibson-les-paul-custom-1979-silverburst"
-          }
-        ]
-      },
-      "avg": 5673,
-      "trends": {}
-    },
     "bc-rich-explorer-usa": {
       "displayName": "B.C. Rich USA Custom Explorer Natural 1985",
       "brand": "BC Rich",
@@ -6562,37 +6578,6 @@
         }
       },
       "avg": 1300
-    },
-    "mesa-boogie-axis": {
-      "displayName": "Used MESA/Boogie TRIAXIS Guitar Preamp",
-      "brand": "Mesa Boogie",
-      "model": "Axis",
-      "variant": null,
-      "count": 1,
-      "sum": 1399.99,
-      "min": 1399.99,
-      "max": 1399.99,
-      "sightings": [
-        {
-          "price": 1399.99,
-          "date": "2026-04-05T00:17:55.807Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used MESA/Boogie TRIAXIS Guitar Preamp",
-          "url": "https://www.guitarcenter.com/Used/MESA-Boogie/Used-MESA-Boogie-TRIAXIS-Guitar-Preamp-122139136.gc?algoliaQueryID=07035d136da8b16d020b88c7c272ba4a&algoliaIndexName=guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1399.99,
-          "min": 1399.99,
-          "max": 1399.99,
-          "avg": 1400
-        }
-      },
-      "avg": 1400
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13601,9 +13586,54 @@
         }
       },
       "avg": 1110
+    },
+    "mesa-boogie-axis": {
+      "displayName": "Used MESA/Boogie TRIAXIS Guitar Preamp",
+      "brand": "Mesa Boogie",
+      "model": "Axis",
+      "variant": null,
+      "count": 1,
+      "sum": 1399.99,
+      "min": 1399.99,
+      "max": 1399.99,
+      "sightings": [
+        {
+          "price": 1399.99,
+          "date": "2026-04-05T00:17:55.807Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used MESA/Boogie TRIAXIS Guitar Preamp",
+          "url": "https://www.guitarcenter.com/Used/MESA-Boogie/Used-MESA-Boogie-TRIAXIS-Guitar-Preamp-122139136.gc?algoliaQueryID=07035d136da8b16d020b88c7c272ba4a&algoliaIndexName=guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1399.99,
+          "min": 1399.99,
+          "max": 1399.99,
+          "avg": 1400
+        }
+      },
+      "avg": 1400
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 128,
+      "sum": 804678.55,
+      "sold": {
+        "count": 35,
+        "sum": 76076.76999999999,
+        "avg": 2174,
+        "min": 165,
+        "max": 4750
+      },
+      "avg": 6287,
+      "min": 33,
+      "max": 443302
+    },
     "Excellent": {
       "count": 152,
       "sum": 749830.6799999999,
@@ -13642,20 +13672,6 @@
       "avg": 8269,
       "min": 1109.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 127,
-      "sum": 800378.55,
-      "sold": {
-        "count": 35,
-        "sum": 76076.76999999999,
-        "avg": 2174,
-        "min": 165,
-        "max": 4750
-      },
-      "avg": 6302,
-      "min": 33,
-      "max": 443302
     },
     "Mint": {
       "count": 13,
@@ -13739,8 +13755,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5557,
-      "count": 291
+      "avg": 5553,
+      "count": 292
     },
     "03": {
       "name": "Mar",
@@ -13895,7 +13911,7 @@
     "500-1k": 34,
     "1k-2k": 108,
     "2k-3k": 93,
-    "3k-5k": 106,
+    "3k-5k": 107,
     "5k-10k": 42,
     "10k+": 17
   },
@@ -13904,20 +13920,20 @@
     "500-1k": 34,
     "1k-2k": 108,
     "2k-3k": 93,
-    "3k-5k": 106,
+    "3k-5k": 107,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 811,
+      "count": 46,
+      "avg": 18
+    },
     "Floyd Rose": {
       "sum": 21,
       "count": 1,
       "avg": 21
-    },
-    "Gibson": {
-      "sum": 811,
-      "count": 45,
-      "avg": 18
     },
     "Rickenbacker": {
       "sum": 180,
@@ -13935,7 +13951,7 @@
       "avg": 7
     },
     "BC Rich": {
-      "sum": 256,
+      "sum": 257,
       "count": 29,
       "avg": 9
     },
@@ -14144,11 +14160,6 @@
       "count": 2,
       "avg": 7
     },
-    "Mesa Boogie": {
-      "sum": 89,
-      "count": 2,
-      "avg": 45
-    },
     "Languedoc": {
       "sum": 14,
       "count": 1,
@@ -14304,6 +14315,11 @@
       "count": 1,
       "avg": 9
     },
+    "Mesa Boogie": {
+      "sum": 89,
+      "count": 2,
+      "avg": 45
+    },
     "Nik Huber": {
       "sum": 8,
       "count": 1,
@@ -14331,7 +14347,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 25,
+    "2026-04-11": 26,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14350,14 +14366,14 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 389,
+    "reverb": 390,
     "marketplace": 38
   },
   "activeModelsCount": 361,
   "topPosters": [
     {
       "username": "GP",
-      "count": 156
+      "count": 157
     },
     {
       "username": "Beijing Bob",
@@ -14411,10 +14427,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 12269,
+      "avgPrice": 12119,
       "retailEst": 800,
-      "avgDiscount": -1433.6,
-      "count": 52
+      "avgDiscount": -1414.8,
+      "count": 53
     },
     "PRS": {
       "avgPrice": 3773,
@@ -15827,14 +15843,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 400,
+      "total": 401,
       "sold": 115,
       "fake": 0,
-      "live": 285,
+      "live": 286,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 55,
+        "sold": 12,
+        "fake": 0,
+        "live": 43,
+        "soldPct": 22,
+        "livePct": 78
+      },
       "Floyd Rose": {
         "total": 1,
         "sold": 0,
@@ -15842,14 +15866,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 54,
-        "sold": 12,
-        "fake": 0,
-        "live": 42,
-        "soldPct": 22,
-        "livePct": 78
       },
       "Rickenbacker": {
         "total": 15,
@@ -16235,14 +16251,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Mesa Boogie": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -16491,6 +16499,14 @@
         "soldPct": 100,
         "livePct": 0
       },
+      "Mesa Boogie": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Nik Huber": {
         "total": 1,
         "sold": 0,
@@ -16559,7 +16575,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 106,
+        "total": 107,
         "sold": 32,
         "rate": 30
       },
@@ -16577,6 +16593,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 128,
+        "sold": 36,
+        "rate": 28
+      },
       "Excellent": {
         "total": 152,
         "sold": 54,
@@ -16591,11 +16612,6 @@
         "total": 21,
         "sold": 1,
         "rate": 5
-      },
-      "Very Good": {
-        "total": 127,
-        "sold": 36,
-        "rate": 28
       },
       "Mint": {
         "total": 13,
@@ -16633,7 +16649,7 @@
     "withOffers": 110,
     "totalOffers": 225,
     "avgOffersPerListing": 2,
-    "offersEnabledPct": 62
+    "offersEnabledPct": 63
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -16648,9 +16664,9 @@
     },
     {
       "label": "1–5",
-      "total": 31,
+      "total": 32,
       "sold": 12,
-      "rate": 39
+      "rate": 38
     },
     {
       "label": "6–15",
@@ -16673,7 +16689,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 243,
+      "total": 244,
       "sold": 76,
       "rate": 31
     },
@@ -16690,9 +16706,9 @@
       "rate": 25
     },
     "regular": {
-      "total": 152,
+      "total": 153,
       "sold": 48,
-      "rate": 32
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -16757,16 +16773,16 @@
       "rate": 27
     },
     {
-      "state": "MA",
+      "state": "MI",
       "total": 10,
       "sold": 4,
       "rate": 40
     },
     {
-      "state": "MI",
-      "total": 9,
+      "state": "MA",
+      "total": 10,
       "sold": 4,
-      "rate": 44
+      "rate": 40
     },
     {
       "state": "NJ",
