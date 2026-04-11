@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-11T18:19:51.912Z",
-  "totalLinks": 435,
-  "totalBeforeFilter": 473,
+  "generatedAt": "2026-04-11T18:33:08.131Z",
+  "totalLinks": 436,
+  "totalBeforeFilter": 474,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 429,
+  "totalWithPrice": 430,
   "overall": {
-    "count": 429,
-    "sum": 2257581.13,
-    "avg": 5262,
+    "count": 430,
+    "sum": 2260776.13,
+    "avg": 5258,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 406,
-    "sum": 1110711.15,
-    "avg": 2736,
+    "count": 407,
+    "sum": 1113906.15,
+    "avg": 2737,
     "min": 26,
     "max": 9000,
     "median": 2400
@@ -212,11 +212,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 299,
-      "sum": 1654387.78,
+      "count": 300,
+      "sum": 1657582.78,
       "min": 26,
       "max": 443302,
-      "avg": 5533
+      "avg": 5525
     },
     "2026-03": {
       "count": 130,
@@ -228,11 +228,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 397,
-      "sum": 1978233.3,
+      "count": 398,
+      "sum": 1981428.3,
       "min": 26,
       "max": 443302,
-      "avg": 4983
+      "avg": 4978
     },
     "marketplace": {
       "count": 32,
@@ -244,11 +244,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 397,
-      "sum": 1978233.3,
+      "count": 398,
+      "sum": 1981428.3,
       "min": 26,
       "max": 443302,
-      "avg": 4983
+      "avg": 4978
     },
     "guitarcenter.com": {
       "count": 14,
@@ -322,6 +322,37 @@
     }
   },
   "byModel": {
+    "vintage-lelah-37t-white": {
+      "displayName": "Lelah 37T - Olympic White. NEW (Authorized Dealer)",
+      "brand": "Vintage",
+      "model": "Lelah 37T White.",
+      "variant": null,
+      "count": 1,
+      "sum": 3195,
+      "min": 3195,
+      "max": 3195,
+      "sightings": [
+        {
+          "price": 3195,
+          "date": "2026-04-11T18:32:53.397Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Lelah 37T - Olympic White. NEW (Authorized Dealer)",
+          "url": "https://reverb.com/item/95867417-lelah-37t-olympic-white-new-authorized-dealer",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 3195,
+          "min": 3195,
+          "max": 3195,
+          "avg": 3195
+        }
+      },
+      "avg": 3195
+    },
     "yamaha-sg": {
       "displayName": "Yamaha Japanese SG-25s Anniversary *50 Worldwide* Royal Black w/ OHSC 1991",
       "brand": "Yamaha",
@@ -6568,37 +6599,6 @@
         ]
       },
       "avg": 950
-    },
-    "valley-arts-stratocaster-sss": {
-      "displayName": "Valley Arts Stratocaster SSS 78 - Natural",
-      "brand": "Valley Arts",
-      "model": "Stratocaster",
-      "variant": "Sss",
-      "count": 1,
-      "sum": 7800,
-      "min": 7800,
-      "max": 7800,
-      "sightings": [
-        {
-          "price": 7800,
-          "date": "2026-04-05T15:49:45.767Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Valley Arts Stratocaster SSS 78 - Natural",
-          "url": "https://reverb.com/item/95698497-valley-arts-stratocaster-sss-78-natural",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 7800,
-          "min": 7800,
-          "max": 7800,
-          "avg": 7800
-        }
-      },
-      "avg": 7800
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13849,9 +13849,54 @@
         ]
       },
       "avg": 40
+    },
+    "valley-arts-stratocaster-sss": {
+      "displayName": "Valley Arts Stratocaster SSS 78 - Natural",
+      "brand": "Valley Arts",
+      "model": "Stratocaster",
+      "variant": "Sss",
+      "count": 1,
+      "sum": 7800,
+      "min": 7800,
+      "max": 7800,
+      "sightings": [
+        {
+          "price": 7800,
+          "date": "2026-04-05T15:49:45.767Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Valley Arts Stratocaster SSS 78 - Natural",
+          "url": "https://reverb.com/item/95698497-valley-arts-stratocaster-sss-78-natural",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 7800,
+          "min": 7800,
+          "max": 7800,
+          "avg": 7800
+        }
+      },
+      "avg": 7800
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 36,
+      "sum": 161281.12,
+      "sold": {
+        "count": 4,
+        "sum": 15232.17,
+        "avg": 3808,
+        "min": 995,
+        "max": 5090
+      },
+      "avg": 4480,
+      "min": 70,
+      "max": 10900
+    },
     "Excellent": {
       "count": 155,
       "sum": 764329.6799999999,
@@ -13919,20 +13964,6 @@
       "min": 1050,
       "max": 11500
     },
-    "Brand New": {
-      "count": 35,
-      "sum": 158086.12,
-      "sold": {
-        "count": 4,
-        "sum": 15232.17,
-        "avg": 3808,
-        "min": 995,
-        "max": 5090
-      },
-      "avg": 4517,
-      "min": 70,
-      "max": 10900
-    },
     "Fair": {
       "count": 11,
       "sum": 24933,
@@ -13987,8 +14018,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5533,
-      "count": 299
+      "avg": 5525,
+      "count": 300
     },
     "03": {
       "name": "Mar",
@@ -14143,7 +14174,7 @@
     "500-1k": 34,
     "1k-2k": 109,
     "2k-3k": 96,
-    "3k-5k": 108,
+    "3k-5k": 109,
     "5k-10k": 43,
     "10k+": 18
   },
@@ -14152,11 +14183,16 @@
     "500-1k": 34,
     "1k-2k": 109,
     "2k-3k": 96,
-    "3k-5k": 108,
+    "3k-5k": 109,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 79,
+      "count": 5,
+      "avg": 16
+    },
     "Yamaha": {
       "sum": 115,
       "count": 5,
@@ -14241,11 +14277,6 @@
       "sum": 83,
       "count": 2,
       "avg": 42
-    },
-    "Vintage": {
-      "sum": 79,
-      "count": 4,
-      "avg": 20
     },
     "Jackson": {
       "sum": 149,
@@ -14381,11 +14412,6 @@
       "sum": 29,
       "count": 2,
       "avg": 15
-    },
-    "Valley Arts": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
     },
     "Languedoc": {
       "sum": 14,
@@ -14576,10 +14602,15 @@
       "sum": 14,
       "count": 2,
       "avg": 7
+    },
+    "Valley Arts": {
+      "sum": 7,
+      "count": 1,
+      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 33,
+    "2026-04-11": 34,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14598,10 +14629,10 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "reverb": 397,
+    "reverb": 398,
     "marketplace": 38
   },
-  "activeModelsCount": 365,
+  "activeModelsCount": 366,
   "topPosters": [
     {
       "username": "GP",
@@ -14625,7 +14656,7 @@
     },
     {
       "username": "Madero",
-      "count": 20
+      "count": 21
     },
     {
       "username": "Modean",
@@ -16114,14 +16145,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 407,
+      "total": 408,
       "sold": 119,
       "fake": 0,
-      "live": 288,
+      "live": 289,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Vintage": {
+        "total": 6,
+        "sold": 0,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Yamaha": {
         "total": 8,
         "sold": 1,
@@ -16249,14 +16288,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Vintage": {
-        "total": 5,
-        "sold": 0,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 0,
-        "livePct": 100
       },
       "FGN": {
         "total": 3,
@@ -16497,14 +16528,6 @@
         "live": 0,
         "soldPct": 100,
         "livePct": 0
-      },
-      "Valley Arts": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Languedoc": {
         "total": 1,
@@ -16817,6 +16840,14 @@
         "live": 0,
         "soldPct": 100,
         "livePct": 0
+      },
+      "Valley Arts": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       }
     },
     "byPriceRange": [
@@ -16846,9 +16877,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 108,
+        "total": 109,
         "sold": 32,
-        "rate": 30
+        "rate": 29
       },
       {
         "label": "$5k–10k",
@@ -16864,6 +16895,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 36,
+        "sold": 5,
+        "rate": 14
+      },
       "Excellent": {
         "total": 155,
         "sold": 54,
@@ -16888,11 +16924,6 @@
         "total": 13,
         "sold": 2,
         "rate": 15
-      },
-      "Brand New": {
-        "total": 35,
-        "sold": 5,
-        "rate": 14
       },
       "Fair": {
         "total": 11,
@@ -16935,9 +16966,9 @@
     },
     {
       "label": "1–5",
-      "total": 33,
+      "total": 34,
       "sold": 12,
-      "rate": 36
+      "rate": 35
     },
     {
       "label": "6–15",
@@ -16960,7 +16991,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 250,
+      "total": 251,
       "sold": 78,
       "rate": 31
     },
@@ -16972,7 +17003,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 183,
+      "total": 184,
       "sold": 47,
       "rate": 26
     },
@@ -16997,7 +17028,7 @@
     },
     {
       "state": "NY",
-      "total": 22,
+      "total": 23,
       "sold": 2,
       "rate": 9
     },
