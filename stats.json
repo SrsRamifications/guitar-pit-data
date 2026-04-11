@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-11T13:14:25.961Z",
-  "totalLinks": 424,
-  "totalBeforeFilter": 462,
+  "generatedAt": "2026-04-11T14:16:13.757Z",
+  "totalLinks": 425,
+  "totalBeforeFilter": 463,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 418,
+  "totalWithPrice": 419,
   "overall": {
-    "count": 418,
-    "sum": 2211288.14,
-    "avg": 5290,
+    "count": 419,
+    "sum": 2213687.13,
+    "avg": 5283,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 397,
-    "sum": 1085742.16,
-    "avg": 2735,
+    "count": 398,
+    "sum": 1088141.15,
+    "avg": 2734,
     "min": 26,
     "max": 9000,
     "median": 2399
@@ -196,11 +196,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 288,
-      "sum": 1608094.79,
+      "count": 289,
+      "sum": 1610493.78,
       "min": 26,
       "max": 443302,
-      "avg": 5584
+      "avg": 5573
     },
     "2026-03": {
       "count": 130,
@@ -211,35 +211,35 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 32,
+      "sum": 279347.83,
+      "min": 374.99,
+      "max": 99000,
+      "avg": 8730
+    },
     "reverb": {
       "count": 387,
       "sum": 1934339.3,
       "min": 26,
       "max": 443302,
       "avg": 4998
-    },
-    "marketplace": {
-      "count": 31,
-      "sum": 276948.84,
-      "min": 374.99,
-      "max": 99000,
-      "avg": 8934
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 14,
+      "sum": 54577.87,
+      "min": 1109.99,
+      "max": 26999.99,
+      "avg": 3898
+    },
     "reverb.com": {
       "count": 387,
       "sum": 1934339.3,
       "min": 26,
       "max": 443302,
       "avg": 4998
-    },
-    "guitarcenter.com": {
-      "count": 13,
-      "sum": 52178.88,
-      "min": 1109.99,
-      "max": 26999.99,
-      "avg": 4014
     },
     "themusiczoo.com": {
       "count": 1,
@@ -306,6 +306,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-metal": {
+      "displayName": "Used 2024 Caparison Guitars TAT-SPECIAL FX METAL MACHINE Black Solid Body Electric Guitar Black",
+      "brand": "Rickenbacker",
+      "model": "METAL",
+      "variant": null,
+      "count": 1,
+      "sum": 2398.99,
+      "min": 2398.99,
+      "max": 2398.99,
+      "sightings": [
+        {
+          "price": 2398.99,
+          "date": "2026-04-11T14:15:58.859Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used 2024 Caparison Guitars TAT-SPECIAL FX METAL MACHINE Black Solid Body Electric Guitar Black",
+          "url": "https://www.guitarcenter.com/Used/Caparison-Guitars/Used-2024-Caparison-Guitars-TAT-SPECIAL-FX-METAL-MACHINE-Black-Solid-Body-Electric-Guitar.gc?algoliaQueryID=2069170403953eb2df47b4727600db95&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2398.99,
+          "min": 2398.99,
+          "max": 2398.99,
+          "avg": 2399
+        }
+      },
+      "avg": 2399
+    },
     "gibson-les-paul-classic-limited-edition": {
       "displayName": "Gibson Les Paul Classic Limited Edition 2018 Manhattan Midnight UPGRADED",
       "brand": "Gibson",
@@ -6562,37 +6593,6 @@
         }
       },
       "avg": 1200
-    },
-    "gibson-les-paul-standard-50s": {
-      "displayName": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
-      "brand": "Gibson",
-      "model": "Les Paul Standard",
-      "variant": "50s",
-      "count": 1,
-      "sum": 1999,
-      "min": 1999,
-      "max": 1999,
-      "sightings": [
-        {
-          "price": 1999,
-          "date": "2026-04-04T22:03:23.036Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
-          "url": "https://reverb.com/item/95695693-gibson-les-paul-standard-50s-2019-present-tobacco-burst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1999,
-          "min": 1999,
-          "max": 1999,
-          "avg": 1999
-        }
-      },
-      "avg": 1999
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13508,9 +13508,51 @@
         }
       },
       "avg": 1249
+    },
+    "gibson-les-paul-standard-50s": {
+      "displayName": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "50s",
+      "count": 1,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-04-04T22:03:23.036Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
+          "url": "https://reverb.com/item/95695693-gibson-les-paul-standard-50s-2019-present-tobacco-burst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1999
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 21,
+      "sum": 173657.86999999997,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8269,
+      "min": 1109.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 127,
       "sum": 800378.55,
@@ -13566,17 +13608,6 @@
       "avg": 5053,
       "min": 1050,
       "max": 11500
-    },
-    "Used": {
-      "count": 20,
-      "sum": 171258.87999999995,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 8563,
-      "min": 1109.99,
-      "max": 99000
     },
     "Brand New": {
       "count": 35,
@@ -13646,8 +13677,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5584,
-      "count": 288
+      "avg": 5573,
+      "count": 289
     },
     "03": {
       "name": "Mar",
@@ -13801,7 +13832,7 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 91,
+    "2k-3k": 92,
     "3k-5k": 105,
     "5k-10k": 42,
     "10k+": 17
@@ -13810,19 +13841,19 @@
     "0-500": 21,
     "500-1k": 34,
     "1k-2k": 108,
-    "2k-3k": 91,
+    "2k-3k": 92,
     "3k-5k": 105,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
     "Rickenbacker": {
-      "sum": 177,
-      "count": 14,
-      "avg": 13
+      "sum": 180,
+      "count": 15,
+      "avg": 12
     },
     "Gibson": {
-      "sum": 809,
+      "sum": 811,
       "count": 44,
       "avg": 18
     },
@@ -13837,22 +13868,22 @@
       "avg": 7
     },
     "BC Rich": {
-      "sum": 255,
+      "sum": 256,
       "count": 29,
       "avg": 9
     },
     "Fender": {
-      "sum": 216,
+      "sum": 217,
       "count": 23,
       "avg": 9
     },
     "Ibanez": {
-      "sum": 194,
+      "sum": 195,
       "count": 18,
       "avg": 11
     },
     "Music Man": {
-      "sum": 116,
+      "sum": 119,
       "count": 9,
       "avg": 13
     },
@@ -13877,7 +13908,7 @@
       "avg": 8
     },
     "PRS": {
-      "sum": 437,
+      "sum": 439,
       "count": 44,
       "avg": 10
     },
@@ -13917,7 +13948,7 @@
       "avg": 43
     },
     "Kiesel": {
-      "sum": 215,
+      "sum": 217,
       "count": 12,
       "avg": 18
     },
@@ -13937,7 +13968,7 @@
       "avg": 6
     },
     "Dean": {
-      "sum": 21,
+      "sum": 22,
       "count": 3,
       "avg": 7
     },
@@ -13952,9 +13983,9 @@
       "avg": 2
     },
     "Aristides": {
-      "sum": 6,
+      "sum": 7,
       "count": 2,
-      "avg": 3
+      "avg": 4
     },
     "Eastman": {
       "sum": 38,
@@ -14012,14 +14043,14 @@
       "avg": 6
     },
     "Novo": {
-      "sum": 22,
+      "sum": 23,
       "count": 3,
-      "avg": 7
+      "avg": 8
     },
     "First Act": {
-      "sum": 29,
+      "sum": 30,
       "count": 1,
-      "avg": 29
+      "avg": 30
     },
     "The Loar": {
       "sum": 9,
@@ -14132,9 +14163,9 @@
       "avg": 14
     },
     "Guild": {
-      "sum": 13,
+      "sum": 14,
       "count": 1,
-      "avg": 13
+      "avg": 14
     },
     "Mayones": {
       "sum": 13,
@@ -14182,9 +14213,9 @@
       "avg": 10
     },
     "Collings": {
-      "sum": 49,
+      "sum": 50,
       "count": 3,
-      "avg": 16
+      "avg": 17
     },
     "Bilt": {
       "sum": 9,
@@ -14233,7 +14264,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 22,
+    "2026-04-11": 23,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14252,14 +14283,14 @@
     "2026-04-03": 15
   },
   "categoryDistribution": {
-    "reverb": 387,
-    "marketplace": 37
+    "marketplace": 38,
+    "reverb": 387
   },
-  "activeModelsCount": 358,
+  "activeModelsCount": 359,
   "topPosters": [
     {
       "username": "GP",
-      "count": 153
+      "count": 154
     },
     {
       "username": "Beijing Bob",
@@ -14355,10 +14386,10 @@
       "count": 31
     },
     "Rickenbacker": {
-      "avgPrice": 6048,
+      "avgPrice": 5805,
       "retailEst": 1500,
-      "avgDiscount": -303.2,
-      "count": 14
+      "avgDiscount": -287,
+      "count": 15
     }
   },
   "soldPrices": {
@@ -15724,14 +15755,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 397,
+      "total": 398,
       "sold": 115,
       "fake": 0,
-      "live": 282,
+      "live": 283,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 15,
+        "sold": 1,
+        "fake": 0,
+        "live": 14,
+        "soldPct": 7,
+        "livePct": 93
+      },
       "Gibson": {
         "total": 53,
         "sold": 12,
@@ -15739,14 +15778,6 @@
         "live": 41,
         "soldPct": 23,
         "livePct": 77
-      },
-      "Rickenbacker": {
-        "total": 14,
-        "sold": 1,
-        "fake": 0,
-        "live": 13,
-        "soldPct": 7,
-        "livePct": 93
       },
       "G&L": {
         "total": 2,
@@ -16442,7 +16473,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 91,
+        "total": 92,
         "sold": 31,
         "rate": 34
       },
@@ -16466,6 +16497,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 21,
+        "sold": 1,
+        "rate": 5
+      },
       "Very Good": {
         "total": 127,
         "sold": 36,
@@ -16485,11 +16521,6 @@
         "total": 13,
         "sold": 2,
         "rate": 15
-      },
-      "Used": {
-        "total": 20,
-        "sold": 1,
-        "rate": 5
       },
       "Brand New": {
         "total": 35,
