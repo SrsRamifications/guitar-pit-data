@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-11T19:54:08.630Z",
-  "totalLinks": 441,
-  "totalBeforeFilter": 480,
+  "generatedAt": "2026-04-11T19:59:50.951Z",
+  "totalLinks": 442,
+  "totalBeforeFilter": 481,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 435,
+  "totalWithPrice": 436,
   "overall": {
-    "count": 435,
-    "sum": 2280481.13,
-    "avg": 5242,
+    "count": 436,
+    "sum": 2285976.13,
+    "avg": 5243,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 411,
-    "sum": 1122616.15,
-    "avg": 2731,
+    "count": 412,
+    "sum": 1128111.15,
+    "avg": 2738,
     "min": 26,
     "max": 9000,
-    "median": 2399
+    "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 9300,
+    "thresholdHigh": 9420,
     "thresholdLow": 0,
     "count": 24,
     "items": [
@@ -220,8 +220,8 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 305,
-      "sum": 1677287.78,
+      "count": 306,
+      "sum": 1682782.78,
       "min": 26,
       "max": 443302,
       "avg": 5499
@@ -235,35 +235,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 402,
+      "sum": 1991438.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 4954
+    },
     "marketplace": {
       "count": 34,
       "sum": 294537.83,
       "min": 374.99,
       "max": 99000,
       "avg": 8663
-    },
-    "reverb": {
-      "count": 401,
-      "sum": 1985943.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 4952
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 402,
+      "sum": 1991438.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 4954
+    },
     "chicagomusicexchange.com": {
       "count": 11,
       "sum": 206869,
       "min": 1200,
       "max": 99000,
       "avg": 18806
-    },
-    "reverb.com": {
-      "count": 401,
-      "sum": 1985943.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 4952
     },
     "guitarcenter.com": {
       "count": 14,
@@ -330,6 +330,85 @@
     }
   },
   "byModel": {
+    "echopark-esperanto": {
+      "displayName": "Echopark Esperanto Custom Black USED",
+      "brand": "Echopark",
+      "model": "Esperanto",
+      "variant": null,
+      "count": 3,
+      "sum": 14115,
+      "min": 4195,
+      "max": 5495,
+      "sightings": [
+        {
+          "price": 4425,
+          "date": "2026-04-10T02:22:25.493Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark Esperanto 313 Red Sunburst",
+          "url": "https://reverb.com/item/95822271-echopark-esperanto-313-red-sunburst",
+          "condition": "Very Good"
+        },
+        {
+          "price": 4195,
+          "date": "2026-04-11T18:50:51.138Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark Esperanto 313 Red Sunburst",
+          "url": "https://www.chicagomusicexchange.com/collections/echopark/products/echopark-esperanto-313-red-sunburst-2532135",
+          "condition": "Used"
+        },
+        {
+          "price": 5495,
+          "date": "2026-04-11T19:59:35.937Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark Esperanto Custom Black USED",
+          "url": "https://reverb.com/item/35812704-echopark-esperanto-custom-black-used",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 2,
+          "sum": 9920,
+          "min": 4425,
+          "max": 5495,
+          "avg": 4960
+        },
+        "Used": {
+          "count": 1,
+          "sum": 4195,
+          "min": 4195,
+          "max": 4195,
+          "avg": 4195
+        }
+      },
+      "soldData": {
+        "count": 2,
+        "avg": 4960,
+        "min": 4425,
+        "max": 5495,
+        "prices": [
+          {
+            "price": 5495,
+            "askingPrice": 5495,
+            "date": "2026-04-11T19:59:35.937Z",
+            "title": "Echopark Esperanto Custom Black USED",
+            "url": "https://reverb.com/item/35812704-echopark-esperanto-custom-black-used"
+          },
+          {
+            "price": 4425,
+            "askingPrice": 4425,
+            "date": "2026-04-11T19:10:52.703Z",
+            "title": "Echopark Esperanto 313 Red Sunburst",
+            "url": "https://reverb.com/item/95822271-echopark-esperanto-313-red-sunburst"
+          }
+        ]
+      },
+      "avg": 4705,
+      "trends": {}
+    },
     "fender-stratocaster": {
       "displayName": "Fender Stratocaster Sunburst 1969",
       "brand": "Fender",
@@ -442,68 +521,6 @@
       },
       "avg": 9424,
       "trends": {}
-    },
-    "echopark-esperanto": {
-      "displayName": "Echopark Esperanto 313 Red Sunburst",
-      "brand": "Echopark",
-      "model": "Esperanto",
-      "variant": null,
-      "count": 2,
-      "sum": 8620,
-      "min": 4195,
-      "max": 4425,
-      "sightings": [
-        {
-          "price": 4425,
-          "date": "2026-04-10T02:22:25.493Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Echopark Esperanto 313 Red Sunburst",
-          "url": "https://reverb.com/item/95822271-echopark-esperanto-313-red-sunburst",
-          "condition": "Very Good"
-        },
-        {
-          "price": 4195,
-          "date": "2026-04-11T18:50:51.138Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Echopark Esperanto 313 Red Sunburst",
-          "url": "https://www.chicagomusicexchange.com/collections/echopark/products/echopark-esperanto-313-red-sunburst-2532135",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 4195,
-          "min": 4195,
-          "max": 4195,
-          "avg": 4195
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 4425,
-          "min": 4425,
-          "max": 4425,
-          "avg": 4425
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 4425,
-        "min": 4425,
-        "max": 4425,
-        "prices": [
-          {
-            "price": 4425,
-            "askingPrice": 4425,
-            "date": "2026-04-11T19:10:52.703Z",
-            "title": "Echopark Esperanto 313 Red Sunburst",
-            "url": "https://reverb.com/item/95822271-echopark-esperanto-313-red-sunburst"
-          }
-        ]
-      },
-      "avg": 4310
     },
     "charvel-special-deluxe-transparent": {
       "displayName": "Charvel 475 Special / Deluxe 1989 - 1991 - Transparent Purple",
@@ -6492,61 +6509,6 @@
       },
       "avg": 4649
     },
-    "music-man-jp-signature": {
-      "displayName": "Ernie Ball Music Man John Petrucci Signature Monarchy Series Majesty 6 2017 - Royal Red",
-      "brand": "Music Man",
-      "model": "JP",
-      "variant": "Signature",
-      "count": 2,
-      "sum": 4599,
-      "min": 2200,
-      "max": 2399,
-      "sightings": [
-        {
-          "price": 2200,
-          "date": "2026-03-31T03:10:19.945Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
-          "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt",
-          "condition": "Very Good"
-        },
-        {
-          "price": 2399,
-          "date": "2026-04-05T19:51:41.384Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ernie Ball Music Man John Petrucci Signature Monarchy Series Majesty 6 2017 - Royal Red",
-          "url": "https://reverb.com/item/94475757",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 2,
-          "sum": 4599,
-          "min": 2200,
-          "max": 2399,
-          "avg": 2300
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2200,
-        "min": 2200,
-        "max": 2200,
-        "prices": [
-          {
-            "price": 2200,
-            "askingPrice": 2200,
-            "date": "2026-04-04T19:37:32.551Z",
-            "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
-            "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt"
-          }
-        ]
-      },
-      "avg": 2300
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10341,6 +10303,61 @@
       },
       "avg": 600
     },
+    "music-man-jp-signature": {
+      "displayName": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
+      "brand": "Music Man",
+      "model": "JP",
+      "variant": "Signature",
+      "count": 2,
+      "sum": 4599,
+      "min": 2200,
+      "max": 2399,
+      "sightings": [
+        {
+          "price": 2200,
+          "date": "2026-03-31T03:10:19.945Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
+          "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt",
+          "condition": "Very Good"
+        },
+        {
+          "price": 2399,
+          "date": "2026-04-05T19:51:41.384Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man John Petrucci Signature Monarchy Series Majesty 6 2017 - Royal Red",
+          "url": "https://reverb.com/item/94475757",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 2,
+          "sum": 4599,
+          "min": 2200,
+          "max": 2399,
+          "avg": 2300
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2200,
+        "min": 2200,
+        "max": 2200,
+        "prices": [
+          {
+            "price": 2200,
+            "askingPrice": 2200,
+            "date": "2026-04-04T19:37:32.551Z",
+            "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
+            "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt"
+          }
+        ]
+      },
+      "avg": 2300
+    },
     "fender-stratocaster-custom-shop-reissue": {
       "displayName": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
       "brand": "Fender",
@@ -14061,6 +14078,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 132,
+      "sum": 825023.55,
+      "sold": {
+        "count": 39,
+        "sum": 89281.77,
+        "avg": 2289,
+        "min": 165,
+        "max": 5900
+      },
+      "avg": 6250,
+      "min": 33,
+      "max": 443302
+    },
     "Good": {
       "count": 53,
       "sum": 158977.95,
@@ -14099,20 +14130,6 @@
       "avg": 4885,
       "min": 26,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 131,
-      "sum": 819528.55,
-      "sold": {
-        "count": 39,
-        "sum": 89281.77,
-        "avg": 2289,
-        "min": 165,
-        "max": 5900
-      },
-      "avg": 6256,
-      "min": 33,
-      "max": 443302
     },
     "Brand New": {
       "count": 36,
@@ -14197,7 +14214,7 @@
     "04": {
       "name": "Apr",
       "avg": 5499,
-      "count": 305
+      "count": 306
     },
     "03": {
       "name": "Mar",
@@ -14353,7 +14370,7 @@
     "1k-2k": 112,
     "2k-3k": 96,
     "3k-5k": 110,
-    "5k-10k": 43,
+    "5k-10k": 44,
     "10k+": 19
   },
   "priceDistributionFiltered": {
@@ -14362,7 +14379,7 @@
     "1k-2k": 112,
     "2k-3k": 96,
     "3k-5k": 110,
-    "5k-10k": 38,
+    "5k-10k": 39,
     "10k+": 0
   },
   "daysOnMarket": {
@@ -14788,7 +14805,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-11": 39,
+    "2026-04-11": 40,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
@@ -14807,8 +14824,8 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "marketplace": 40,
-    "reverb": 401
+    "reverb": 402,
+    "marketplace": 40
   },
   "activeModelsCount": 369,
   "topPosters": [
@@ -14830,7 +14847,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 36
+      "count": 37
     },
     {
       "username": "Madero",
@@ -14856,7 +14873,7 @@
   "bestMonth": {
     "name": "Mar",
     "avg": 4640,
-    "pctBelowAvg": 11,
+    "pctBelowAvg": 12,
     "count": 130
   },
   "topVoted": [],
@@ -14904,10 +14921,10 @@
       "count": 13
     },
     "Echopark": {
-      "avgPrice": 4779,
+      "avgPrice": 4844,
       "retailEst": 2500,
-      "avgDiscount": -91.1,
-      "count": 10
+      "avgDiscount": -93.8,
+      "count": 11
     },
     "BC Rich": {
       "avgPrice": 1860,
@@ -14923,8 +14940,8 @@
     }
   },
   "soldPrices": {
-    "count": 127,
-    "avg": 3479,
+    "count": 128,
+    "avg": 3494,
     "min": 26,
     "max": 36500,
     "avgDiscount": 11
@@ -16249,11 +16266,6 @@
         "count": 2,
         "avgPctDrop": 13.6
       },
-      "Music Man": {
-        "totalPctDrop": 20.980977097953048,
-        "count": 3,
-        "avgPctDrop": 7
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -16304,6 +16316,11 @@
         "count": 1,
         "avgPctDrop": 8.5
       },
+      "Music Man": {
+        "totalPctDrop": 20.980977097953044,
+        "count": 3,
+        "avgPctDrop": 7
+      },
       "Duesenberg": {
         "totalPctDrop": 12,
         "count": 1,
@@ -16353,14 +16370,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 413,
-      "sold": 122,
+      "total": 414,
+      "sold": 123,
       "fake": 0,
       "live": 291,
       "soldPct": 30,
       "livePct": 70
     },
     "byBrand": {
+      "Echopark": {
+        "total": 11,
+        "sold": 3,
+        "fake": 0,
+        "live": 8,
+        "soldPct": 27,
+        "livePct": 73
+      },
       "Fender": {
         "total": 30,
         "sold": 7,
@@ -16368,14 +16393,6 @@
         "live": 23,
         "soldPct": 23,
         "livePct": 77
-      },
-      "Echopark": {
-        "total": 10,
-        "sold": 2,
-        "fake": 0,
-        "live": 8,
-        "soldPct": 20,
-        "livePct": 80
       },
       "Charvel": {
         "total": 5,
@@ -17091,9 +17108,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 43,
-        "sold": 6,
-        "rate": 14
+        "total": 44,
+        "sold": 7,
+        "rate": 16
       },
       {
         "label": "$10k+",
@@ -17103,6 +17120,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 132,
+        "sold": 41,
+        "rate": 31
+      },
       "Good": {
         "total": 53,
         "sold": 14,
@@ -17117,11 +17139,6 @@
         "total": 157,
         "sold": 55,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 131,
-        "sold": 40,
-        "rate": 31
       },
       "Brand New": {
         "total": 36,
@@ -17180,8 +17197,8 @@
     },
     {
       "label": "6–15",
-      "total": 94,
-      "sold": 24,
+      "total": 95,
+      "sold": 25,
       "rate": 26
     },
     {
@@ -17199,8 +17216,8 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 253,
-      "sold": 81,
+      "total": 254,
+      "sold": 82,
       "rate": 32
     },
     "off": {
@@ -17211,8 +17228,8 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 185,
-      "sold": 50,
+      "total": 186,
+      "sold": 51,
       "rate": 27
     },
     "regular": {
@@ -17247,6 +17264,12 @@
       "rate": 24
     },
     {
+      "state": "IL",
+      "total": 14,
+      "sold": 7,
+      "rate": 50
+    },
+    {
       "state": "TN",
       "total": 13,
       "sold": 4,
@@ -17257,12 +17280,6 @@
       "total": 13,
       "sold": 7,
       "rate": 54
-    },
-    {
-      "state": "IL",
-      "total": 13,
-      "sold": 6,
-      "rate": 46
     },
     {
       "state": "OH",
