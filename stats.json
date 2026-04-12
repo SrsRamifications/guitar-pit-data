@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-12T23:19:27.589Z",
-  "totalLinks": 456,
-  "totalBeforeFilter": 495,
+  "generatedAt": "2026-04-12T23:21:54.628Z",
+  "totalLinks": 457,
+  "totalBeforeFilter": 496,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 450,
+  "totalWithPrice": 451,
   "overall": {
-    "count": 450,
-    "sum": 2319694.13,
-    "avg": 5155,
+    "count": 451,
+    "sum": 2326489.13,
+    "avg": 5159,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 426,
-    "sum": 1161829.15,
-    "avg": 2727,
+    "count": 427,
+    "sum": 1168624.15,
+    "avg": 2737,
     "min": 26,
     "max": 9000,
-    "median": 2374
+    "median": 2398.99
   },
   "outliers": {
-    "thresholdHigh": 9171,
+    "thresholdHigh": 9300,
     "thresholdLow": 0,
     "count": 24,
     "items": [
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 320,
-      "sum": 1716500.78,
+      "count": 321,
+      "sum": 1723295.78,
       "min": 26,
       "max": 443302,
-      "avg": 5364
+      "avg": 5369
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 411,
-      "sum": 2010390.3,
+      "count": 412,
+      "sum": 2017185.3,
       "min": 26,
       "max": 443302,
-      "avg": 4891
+      "avg": 4896
     },
     "marketplace": {
       "count": 39,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 411,
-      "sum": 2010390.3,
+      "count": 412,
+      "sum": 2017185.3,
       "min": 26,
       "max": 443302,
-      "avg": 4891
+      "avg": 4896
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -330,6 +330,46 @@
     }
   },
   "byModel": {
+    "bc-rich-eagle": {
+      "displayName": "B.C. Rich Eagle 1983",
+      "brand": "BC Rich",
+      "model": "Eagle",
+      "variant": null,
+      "count": 2,
+      "sum": 8395,
+      "min": 1600,
+      "max": 6795,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-04-06T15:47:32.667Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Eagle 1983 - White",
+          "url": "https://reverb.com/item/94330735-b-c-rich-eagle-1983-white",
+          "condition": "Very Good"
+        },
+        {
+          "price": 6795,
+          "date": "2026-04-12T23:21:39.843Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Eagle 1983",
+          "url": "https://reverb.com/item/95928076-b-c-rich-eagle-1983",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 2,
+          "sum": 8395,
+          "min": 1600,
+          "max": 6795,
+          "avg": 4198
+        }
+      },
+      "avg": 4198
+    },
     "prs-modern": {
       "displayName": "PRS Modern Eagle I 06’ Faded Blue Jean",
       "brand": "PRS",
@@ -6723,37 +6763,6 @@
         }
       },
       "avg": 1800
-    },
-    "edwards-e-k-130vp-dir-en-signature": {
-      "displayName": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
-      "brand": "Edwards",
-      "model": "E-K-130Vp DIR EN",
-      "variant": "Signature",
-      "count": 1,
-      "sum": 900,
-      "min": 900,
-      "max": 900,
-      "sightings": [
-        {
-          "price": 900,
-          "date": "2026-04-06T15:48:50.335Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
-          "url": "https://reverb.com/item/94444911-edwards-e-k-130vp-dir-en-grey-signature-black-made-in-japan",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 900,
-          "min": 900,
-          "max": 900,
-          "avg": 900
-        }
-      },
-      "avg": 900
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14546,39 +14555,53 @@
       },
       "avg": 4349
     },
-    "bc-rich-eagle": {
-      "displayName": "B.C. Rich Eagle 1983 - White",
-      "brand": "BC Rich",
-      "model": "Eagle",
-      "variant": null,
+    "edwards-e-k-130vp-dir-en-signature": {
+      "displayName": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
+      "brand": "Edwards",
+      "model": "E-K-130Vp DIR EN",
+      "variant": "Signature",
       "count": 1,
-      "sum": 1600,
-      "min": 1600,
-      "max": 1600,
+      "sum": 900,
+      "min": 900,
+      "max": 900,
       "sightings": [
         {
-          "price": 1600,
-          "date": "2026-04-06T15:47:32.667Z",
+          "price": 900,
+          "date": "2026-04-06T15:48:50.335Z",
           "modelYear": null,
           "isReissue": false,
-          "title": "B.C. Rich Eagle 1983 - White",
-          "url": "https://reverb.com/item/94330735-b-c-rich-eagle-1983-white",
+          "title": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
+          "url": "https://reverb.com/item/94444911-edwards-e-k-130vp-dir-en-grey-signature-black-made-in-japan",
           "condition": "Very Good"
         }
       ],
       "byCondition": {
         "Very Good": {
           "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
+          "sum": 900,
+          "min": 900,
+          "max": 900,
+          "avg": 900
         }
       },
-      "avg": 1600
+      "avg": 900
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 138,
+      "sum": 838347.55,
+      "sold": {
+        "count": 40,
+        "sum": 91031.77,
+        "avg": 2276,
+        "min": 165,
+        "max": 5900
+      },
+      "avg": 6075,
+      "min": 33,
+      "max": 443302
+    },
     "Good": {
       "count": 55,
       "sum": 170573.95,
@@ -14592,20 +14615,6 @@
       "avg": 3101,
       "min": 99,
       "max": 32407
-    },
-    "Very Good": {
-      "count": 137,
-      "sum": 831552.55,
-      "sold": {
-        "count": 40,
-        "sum": 91031.77,
-        "avg": 2276,
-        "min": 165,
-        "max": 5900
-      },
-      "avg": 6070,
-      "min": 33,
-      "max": 443302
     },
     "Excellent": {
       "count": 160,
@@ -14714,8 +14723,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5364,
-      "count": 320
+      "avg": 5369,
+      "count": 321
     },
     "03": {
       "name": "Mar",
@@ -14765,13 +14774,6 @@
       "oldPrice": "$1,120",
       "newPrice": "$1,075",
       "date": "2026-04-08T18:58:57.925Z"
-    },
-    {
-      "title": "Edwards E-K-130Vp DIR EN GREY Signature Black made in Japan",
-      "url": "https://reverb.com/item/94444911-edwards-e-k-130vp-dir-en-grey-signature-black-made-in-japan",
-      "oldPrice": "$1,000",
-      "newPrice": "$900",
-      "date": "2026-04-11T01:12:54.560Z"
     },
     {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
@@ -14863,6 +14865,13 @@
       "oldPrice": "$5,668",
       "newPrice": "$3,684",
       "date": "2026-04-06T03:01:24.177Z"
+    },
+    {
+      "title": "SHABAT Lion Deluxe Mahogany Neck and Body Black",
+      "url": "https://reverb.com/item/95558873-shabat-lion-deluxe-mahogany-neck-and-body-black",
+      "oldPrice": "$5,354.46",
+      "newPrice": "$5,319",
+      "date": "2026-04-02T23:22:27.116Z"
     }
   ],
   "priceDistribution": {
@@ -14871,7 +14880,7 @@
     "1k-2k": 116,
     "2k-3k": 100,
     "3k-5k": 111,
-    "5k-10k": 46,
+    "5k-10k": 47,
     "10k+": 19
   },
   "priceDistributionFiltered": {
@@ -14880,10 +14889,15 @@
     "1k-2k": 116,
     "2k-3k": 100,
     "3k-5k": 111,
-    "5k-10k": 41,
+    "5k-10k": 42,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 289,
+      "count": 31,
+      "avg": 9
+    },
     "PRS": {
       "sum": 534,
       "count": 48,
@@ -14978,11 +14992,6 @@
       "sum": 122,
       "count": 5,
       "avg": 24
-    },
-    "BC Rich": {
-      "sum": 289,
-      "count": 30,
-      "avg": 10
     },
     "Anderson": {
       "sum": 16,
@@ -15118,11 +15127,6 @@
       "sum": 37,
       "count": 4,
       "avg": 9
-    },
-    "Edwards": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
     },
     "Languedoc": {
       "sum": 15,
@@ -15313,10 +15317,15 @@
       "sum": 31,
       "count": 1,
       "avg": 31
+    },
+    "Edwards": {
+      "sum": 7,
+      "count": 1,
+      "avg": 7
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 13,
+    "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15336,7 +15345,7 @@
     "2026-04-05": 22
   },
   "categoryDistribution": {
-    "reverb": 411,
+    "reverb": 412,
     "marketplace": 45
   },
   "activeModelsCount": 379,
@@ -15351,7 +15360,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 42
+      "count": 43
     },
     {
       "username": "YellowJack6",
@@ -15439,10 +15448,10 @@
       "count": 11
     },
     "BC Rich": {
-      "avgPrice": 1858,
+      "avgPrice": 2008,
       "retailEst": 200,
-      "avgDiscount": -829,
-      "count": 32
+      "avgDiscount": -903.8,
+      "count": 33
     },
     "Rickenbacker": {
       "avgPrice": 5473,
@@ -16854,11 +16863,6 @@
         "count": 3,
         "avgPctDrop": 16.9
       },
-      "Edwards": {
-        "totalPctDrop": 10,
-        "count": 1,
-        "avgPctDrop": 10
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -16963,19 +16967,32 @@
         "totalPctDrop": 4.396570674873598,
         "count": 1,
         "avgPctDrop": 4.4
+      },
+      "Edwards": {
+        "totalPctDrop": 10,
+        "count": 1,
+        "avgPctDrop": 10
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 427,
+      "total": 428,
       "sold": 133,
       "fake": 0,
-      "live": 294,
+      "live": 295,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 33,
+        "sold": 8,
+        "fake": 0,
+        "live": 25,
+        "soldPct": 24,
+        "livePct": 76
+      },
       "PRS": {
         "total": 51,
         "sold": 17,
@@ -17127,14 +17144,6 @@
         "live": 7,
         "soldPct": 13,
         "livePct": 88
-      },
-      "BC Rich": {
-        "total": 32,
-        "sold": 8,
-        "fake": 0,
-        "live": 24,
-        "soldPct": 25,
-        "livePct": 75
       },
       "Anderson": {
         "total": 2,
@@ -17375,14 +17384,6 @@
         "live": 3,
         "soldPct": 40,
         "livePct": 60
-      },
-      "Edwards": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Languedoc": {
         "total": 1,
@@ -17687,6 +17688,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Edwards": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       }
     },
     "byPriceRange": [
@@ -17722,7 +17731,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 46,
+        "total": 47,
         "sold": 8,
         "rate": 17
       },
@@ -17734,14 +17743,14 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 138,
+        "sold": 43,
+        "rate": 31
+      },
       "Good": {
         "total": 55,
         "sold": 17,
-        "rate": 31
-      },
-      "Very Good": {
-        "total": 137,
-        "sold": 43,
         "rate": 31
       },
       "Excellent": {
@@ -17799,9 +17808,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 6,
+      "total": 7,
       "sold": 5,
-      "rate": 83
+      "rate": 71
     },
     {
       "label": "1–5",
@@ -17830,7 +17839,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 263,
+      "total": 264,
       "sold": 90,
       "rate": 34
     },
@@ -17847,7 +17856,7 @@
       "rate": 30
     },
     "regular": {
-      "total": 165,
+      "total": 166,
       "sold": 53,
       "rate": 32
     }
@@ -18024,6 +18033,12 @@
     {
       "state": "IN",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "QC",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
