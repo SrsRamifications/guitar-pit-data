@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-12T17:14:15.471Z",
-  "totalLinks": 453,
-  "totalBeforeFilter": 492,
+  "generatedAt": "2026-04-12T20:10:16.665Z",
+  "totalLinks": 454,
+  "totalBeforeFilter": 493,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 447,
+  "totalWithPrice": 448,
   "overall": {
-    "count": 447,
-    "sum": 2307695.13,
-    "avg": 5163,
+    "count": 448,
+    "sum": 2309895.13,
+    "avg": 5156,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 423,
-    "sum": 1149830.15,
-    "avg": 2718,
+    "count": 424,
+    "sum": 1152030.15,
+    "avg": 2717,
     "min": 26,
     "max": 9000,
     "median": 2399
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 317,
-      "sum": 1704501.78,
+      "count": 318,
+      "sum": 1706701.78,
       "min": 26,
       "max": 443302,
-      "avg": 5377
+      "avg": 5367
     },
     "2026-03": {
       "count": 130,
@@ -235,35 +235,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 409,
+      "sum": 2000591.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 4891
+    },
     "marketplace": {
       "count": 39,
       "sum": 309303.83,
       "min": 374.99,
       "max": 99000,
       "avg": 7931
-    },
-    "reverb": {
-      "count": 408,
-      "sum": 1998391.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 4898
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 409,
+      "sum": 2000591.3,
+      "min": 26,
+      "max": 443302,
+      "avg": 4891
+    },
     "chicagomusicexchange.com": {
       "count": 16,
       "sum": 221635,
       "min": 1200,
       "max": 99000,
       "avg": 13852
-    },
-    "reverb.com": {
-      "count": 408,
-      "sum": 1998391.3,
-      "min": 26,
-      "max": 443302,
-      "avg": 4898
     },
     "guitarcenter.com": {
       "count": 14,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "vigier-excalibur-indus": {
+      "displayName": "Vigier Excalibur Indus",
+      "brand": "Vigier",
+      "model": "Excalibur Indus",
+      "variant": null,
+      "count": 1,
+      "sum": 2200,
+      "min": 2200,
+      "max": 2200,
+      "sightings": [
+        {
+          "price": 2200,
+          "date": "2026-04-12T20:10:01.864Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vigier Excalibur Indus",
+          "url": "https://reverb.com/item/95157286-vigier-excalibur-indus",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2200,
+          "min": 2200,
+          "max": 2200,
+          "avg": 2200
+        }
+      },
+      "avg": 2200
+    },
     "dunable-r2-usa": {
       "displayName": "Dunable USA R2 Black",
       "brand": "Dunable",
@@ -6646,37 +6677,6 @@
         }
       },
       "avg": 2500
-    },
-    "bc-rich-ironbird-gig-bag": {
-      "displayName": "Vintage B.C. Rich Ironbird Gig bag Soft case 80-90s",
-      "brand": "BC Rich",
-      "model": "Ironbird Gig bag",
-      "variant": null,
-      "count": 1,
-      "sum": 79,
-      "min": 79,
-      "max": 79,
-      "sightings": [
-        {
-          "price": 79,
-          "date": "2026-04-06T15:39:27.671Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Vintage B.C. Rich Ironbird Gig bag Soft case 80-90s",
-          "url": "https://reverb.com/item/95715580-vintage-b-c-rich-ironbird-gig-bag-soft-case-80-90s",
-          "condition": "Fair"
-        }
-      ],
-      "byCondition": {
-        "Fair": {
-          "count": 1,
-          "sum": 79,
-          "min": 79,
-          "max": 79,
-          "avg": 79
-        }
-      },
-      "avg": 79
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14461,9 +14461,54 @@
         }
       },
       "avg": 4100
+    },
+    "bc-rich-ironbird-gig-bag": {
+      "displayName": "Vintage B.C. Rich Ironbird Gig bag Soft case 80-90s",
+      "brand": "BC Rich",
+      "model": "Ironbird Gig bag",
+      "variant": null,
+      "count": 1,
+      "sum": 79,
+      "min": 79,
+      "max": 79,
+      "sightings": [
+        {
+          "price": 79,
+          "date": "2026-04-06T15:39:27.671Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage B.C. Rich Ironbird Gig bag Soft case 80-90s",
+          "url": "https://reverb.com/item/95715580-vintage-b-c-rich-ironbird-gig-bag-soft-case-80-90s",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 79,
+          "min": 79,
+          "max": 79,
+          "avg": 79
+        }
+      },
+      "avg": 79
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 160,
+      "sum": 771417.6799999999,
+      "sold": {
+        "count": 54,
+        "sum": 171328.38,
+        "avg": 3173,
+        "min": 26,
+        "max": 35900
+      },
+      "avg": 4821,
+      "min": 26,
+      "max": 190000
+    },
     "Used": {
       "count": 25,
       "sum": 187423.86999999994,
@@ -14516,20 +14561,6 @@
       "avg": 4402,
       "min": 70,
       "max": 10900
-    },
-    "Excellent": {
-      "count": 159,
-      "sum": 769217.6799999999,
-      "sold": {
-        "count": 54,
-        "sum": 171328.38,
-        "avg": 3173,
-        "min": 26,
-        "max": 35900
-      },
-      "avg": 4838,
-      "min": 26,
-      "max": 190000
     },
     "Mint": {
       "count": 13,
@@ -14599,8 +14630,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5377,
-      "count": 317
+      "avg": 5367,
+      "count": 318
     },
     "03": {
       "name": "Mar",
@@ -14664,13 +14695,6 @@
       "oldPrice": "$4,549",
       "newPrice": "$4,349",
       "date": "2026-04-08T10:58:42.881Z"
-    },
-    {
-      "title": "Vintage B.C. Rich Ironbird Gig bag Soft case 80-90s",
-      "url": "https://reverb.com/item/95715580-vintage-b-c-rich-ironbird-gig-bag-soft-case-80-90s",
-      "oldPrice": "$89",
-      "newPrice": "$79",
-      "date": "2026-04-11T13:13:38.166Z"
     },
     {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
@@ -14748,13 +14772,20 @@
       "oldPrice": "$2,527.63",
       "newPrice": "$2,509",
       "date": "2026-04-02T23:23:17.482Z"
+    },
+    {
+      "title": "Millimetric MGS3 2018 - Blue with Nanuk 990 Case",
+      "url": "https://reverb.com/item/95541279-millimetric-mgs3-2018-blue-with-nanuk-990-case",
+      "oldPrice": "$3,800",
+      "newPrice": "$3,600",
+      "date": "2026-04-03T23:37:27.242Z"
     }
   ],
   "priceDistribution": {
     "0-500": 22,
     "500-1k": 36,
     "1k-2k": 115,
-    "2k-3k": 99,
+    "2k-3k": 100,
     "3k-5k": 111,
     "5k-10k": 45,
     "10k+": 19
@@ -14763,12 +14794,17 @@
     "0-500": 22,
     "500-1k": 36,
     "1k-2k": 115,
-    "2k-3k": 99,
+    "2k-3k": 100,
     "3k-5k": 111,
     "5k-10k": 40,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Vigier": {
+      "sum": 25,
+      "count": 1,
+      "avg": 25
+    },
     "Dunable": {
       "sum": 21,
       "count": 3,
@@ -14800,7 +14836,7 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 862,
+      "sum": 865,
       "count": 48,
       "avg": 18
     },
@@ -14810,7 +14846,7 @@
       "avg": 7
     },
     "Fano": {
-      "sum": 106,
+      "sum": 107,
       "count": 5,
       "avg": 21
     },
@@ -14825,17 +14861,17 @@
       "avg": 9
     },
     "Charvel": {
-      "sum": 142,
+      "sum": 143,
       "count": 5,
-      "avg": 28
+      "avg": 29
     },
     "FGN": {
-      "sum": 18,
+      "sum": 19,
       "count": 3,
       "avg": 6
     },
     "Vintage": {
-      "sum": 84,
+      "sum": 85,
       "count": 5,
       "avg": 17
     },
@@ -14845,7 +14881,7 @@
       "avg": 24
     },
     "BC Rich": {
-      "sum": 287,
+      "sum": 288,
       "count": 30,
       "avg": 10
     },
@@ -14875,7 +14911,7 @@
       "avg": 8
     },
     "Ibanez": {
-      "sum": 214,
+      "sum": 215,
       "count": 18,
       "avg": 12
     },
@@ -14885,7 +14921,7 @@
       "avg": 14
     },
     "ESP": {
-      "sum": 119,
+      "sum": 121,
       "count": 8,
       "avg": 15
     },
@@ -15060,9 +15096,9 @@
       "avg": 16
     },
     "Fractal Audio": {
-      "sum": 16,
+      "sum": 17,
       "count": 1,
-      "avg": 16
+      "avg": 17
     },
     "Framus": {
       "sum": 31,
@@ -15095,7 +15131,7 @@
       "avg": 14
     },
     "Friedman": {
-      "sum": 25,
+      "sum": 26,
       "count": 2,
       "avg": 13
     },
@@ -15125,9 +15161,9 @@
       "avg": 12
     },
     "Morgan": {
-      "sum": 11,
+      "sum": 12,
       "count": 1,
-      "avg": 11
+      "avg": 12
     },
     "Collings": {
       "sum": 53,
@@ -15135,9 +15171,9 @@
       "avg": 18
     },
     "Bilt": {
-      "sum": 10,
+      "sum": 11,
       "count": 1,
-      "avg": 10
+      "avg": 11
     },
     "Duesenberg": {
       "sum": 11,
@@ -15150,9 +15186,9 @@
       "avg": 10
     },
     "Cort": {
-      "sum": 10,
+      "sum": 11,
       "count": 1,
-      "avg": 10
+      "avg": 11
     },
     "Mesa Boogie": {
       "sum": 91,
@@ -15196,7 +15232,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 9,
+    "2026-04-12": 10,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15216,10 +15252,10 @@
     "2026-04-05": 23
   },
   "categoryDistribution": {
-    "marketplace": 45,
-    "reverb": 408
+    "reverb": 409,
+    "marketplace": 45
   },
-  "activeModelsCount": 377,
+  "activeModelsCount": 378,
   "topPosters": [
     {
       "username": "GP",
@@ -15227,7 +15263,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 82
+      "count": 83
     },
     {
       "username": "Shteefe",
@@ -16616,11 +16652,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1487.5149147341729,
-      "count": 93,
+      "totalPctDrop": 1499.5149147341729,
+      "count": 94,
       "avgPctDrop": 16
     },
     "byBrand": {
+      "Vigier": {
+        "totalPctDrop": 12,
+        "count": 1,
+        "avgPctDrop": 12
+      },
       "Epiphone": {
         "totalPctDrop": 8.352668213457076,
         "count": 1,
@@ -16820,14 +16861,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 424,
+      "total": 425,
       "sold": 130,
       "fake": 0,
-      "live": 294,
+      "live": 295,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Vigier": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Dunable": {
         "total": 3,
         "sold": 1,
@@ -17554,7 +17603,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 99,
+        "total": 100,
         "sold": 33,
         "rate": 33
       },
@@ -17578,6 +17627,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 160,
+        "sold": 58,
+        "rate": 36
+      },
       "Used": {
         "total": 25,
         "sold": 3,
@@ -17597,11 +17651,6 @@
         "total": 37,
         "sold": 5,
         "rate": 14
-      },
-      "Excellent": {
-        "total": 159,
-        "sold": 58,
-        "rate": 36
       },
       "Mint": {
         "total": 13,
@@ -17631,8 +17680,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 117,
-    "totalOffers": 235,
+    "withOffers": 118,
+    "totalOffers": 236,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 64
   },
@@ -17661,9 +17710,9 @@
     },
     {
       "label": "16–30",
-      "total": 110,
+      "total": 111,
       "sold": 38,
-      "rate": 35
+      "rate": 34
     },
     {
       "label": "31+",
@@ -17674,7 +17723,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 260,
+      "total": 261,
       "sold": 88,
       "rate": 34
     },
@@ -17691,7 +17740,7 @@
       "rate": 28
     },
     "regular": {
-      "total": 162,
+      "total": 163,
       "sold": 53,
       "rate": 33
     }
@@ -17699,9 +17748,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 50,
+      "total": 51,
       "sold": 13,
-      "rate": 26
+      "rate": 25
     },
     {
       "state": "TX",
