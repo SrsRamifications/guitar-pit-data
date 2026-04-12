@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-12T13:14:12.452Z",
-  "totalLinks": 450,
-  "totalBeforeFilter": 489,
+  "generatedAt": "2026-04-12T13:51:44.004Z",
+  "totalLinks": 451,
+  "totalBeforeFilter": 490,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 444,
+  "totalWithPrice": 445,
   "overall": {
-    "count": 444,
-    "sum": 2301249.13,
-    "avg": 5183,
+    "count": 445,
+    "sum": 2303224.13,
+    "avg": 5176,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 420,
-    "sum": 1143384.15,
-    "avg": 2722,
+    "count": 421,
+    "sum": 1145359.15,
+    "avg": 2721,
     "min": 26,
     "max": 9000,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9300,
+    "thresholdHigh": 9171,
     "thresholdLow": 0,
     "count": 24,
     "items": [
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 314,
-      "sum": 1698055.78,
+      "count": 315,
+      "sum": 1700030.78,
       "min": 26,
       "max": 443302,
-      "avg": 5408
+      "avg": 5397
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 407,
-      "sum": 1996516.3,
+      "count": 408,
+      "sum": 1998491.3,
       "min": 26,
       "max": 443302,
-      "avg": 4905
+      "avg": 4898
     },
     "marketplace": {
       "count": 37,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 407,
-      "sum": 1996516.3,
+      "count": 408,
+      "sum": 1998491.3,
       "min": 26,
       "max": 443302,
-      "avg": 4905
+      "avg": 4898
     },
     "chicagomusicexchange.com": {
       "count": 14,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "epiphone-century-e422t": {
+      "displayName": "Epiphone Century E422T 1961 - 1969 - Sunburst",
+      "brand": "Epiphone",
+      "model": "Century E422T",
+      "variant": null,
+      "count": 1,
+      "sum": 1975,
+      "min": 1975,
+      "max": 1975,
+      "sightings": [
+        {
+          "price": 1975,
+          "date": "2026-04-12T13:51:29.173Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Epiphone Century E422T 1961 - 1969 - Sunburst",
+          "url": "https://reverb.com/item/95518564-epiphone-century-e422t-1961-1969-sunburst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1975,
+          "min": 1975,
+          "max": 1975,
+          "avg": 1975
+        }
+      },
+      "avg": 1975
+    },
     "rickenbacker-rks-wave-elect": {
       "displayName": "RKS Wave Electric Guitar Black",
       "brand": "Rickenbacker",
@@ -6669,37 +6700,6 @@
         }
       },
       "avg": 990
-    },
-    "echopark-original-60": {
-      "displayName": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Shell Case",
-      "brand": "Echopark",
-      "model": "Original",
-      "variant": "60",
-      "count": 1,
-      "sum": 2610,
-      "min": 2610,
-      "max": 2610,
-      "sightings": [
-        {
-          "price": 2610,
-          "date": "2026-04-06T00:44:37.713Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Shell Case",
-          "url": "https://reverb.com/item/91948632-pre-owned-echopark-echocaster-r-60-white-with-original-hard-shell-case",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2610,
-          "min": 2610,
-          "max": 2610,
-          "avg": 2610
-        }
-      },
-      "avg": 2610
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14376,12 +14376,43 @@
         }
       },
       "avg": 11500
+    },
+    "echopark-original-60": {
+      "displayName": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Shell Case",
+      "brand": "Echopark",
+      "model": "Original",
+      "variant": "60",
+      "count": 1,
+      "sum": 2610,
+      "min": 2610,
+      "max": 2610,
+      "sightings": [
+        {
+          "price": 2610,
+          "date": "2026-04-06T00:44:37.713Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Shell Case",
+          "url": "https://reverb.com/item/91948632-pre-owned-echopark-echocaster-r-60-white-with-original-hard-shell-case",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2610,
+          "min": 2610,
+          "max": 2610,
+          "avg": 2610
+        }
+      },
+      "avg": 2610
     }
   },
   "byCondition": {
     "Very Good": {
-      "count": 135,
-      "sum": 827778.55,
+      "count": 136,
+      "sum": 829753.55,
       "sold": {
         "count": 39,
         "sum": 89281.77,
@@ -14389,7 +14420,7 @@
         "min": 165,
         "max": 5900
       },
-      "avg": 6132,
+      "avg": 6101,
       "min": 33,
       "max": 443302
     },
@@ -14514,8 +14545,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5408,
-      "count": 314
+      "avg": 5397,
+      "count": 315
     },
     "03": {
       "name": "Mar",
@@ -14588,13 +14619,6 @@
       "date": "2026-04-12T09:13:51.899Z"
     },
     {
-      "title": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Shell Case",
-      "url": "https://reverb.com/item/91948632-pre-owned-echopark-echocaster-r-60-white-with-original-hard-shell-case",
-      "oldPrice": "$2,900",
-      "newPrice": "$2,610",
-      "date": "2026-04-06T02:57:34.444Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -14663,12 +14687,19 @@
       "oldPrice": "$1,028.56",
       "newPrice": "$1,029.98",
       "date": "2026-03-31T02:43:27.300Z"
+    },
+    {
+      "title": "SHABAT GUITARS LION II Vintage White [018] (03/30)",
+      "url": "https://reverb.com/item/95536468-shabat-guitars-lion-ii-vintage-white-018-03-30",
+      "oldPrice": "$2,527.63",
+      "newPrice": "$2,509",
+      "date": "2026-04-02T23:23:17.482Z"
     }
   ],
   "priceDistribution": {
     "0-500": 22,
     "500-1k": 36,
-    "1k-2k": 114,
+    "1k-2k": 115,
     "2k-3k": 97,
     "3k-5k": 111,
     "5k-10k": 45,
@@ -14677,15 +14708,20 @@
   "priceDistributionFiltered": {
     "0-500": 22,
     "500-1k": 36,
-    "1k-2k": 114,
+    "1k-2k": 115,
     "2k-3k": 97,
     "3k-5k": 111,
     "5k-10k": 40,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Epiphone": {
+      "sum": 77,
+      "count": 4,
+      "avg": 19
+    },
     "Rickenbacker": {
-      "sum": 192,
+      "sum": 195,
       "count": 16,
       "avg": 12
     },
@@ -14695,12 +14731,12 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 856,
+      "sum": 859,
       "count": 48,
       "avg": 18
     },
     "Eastman": {
-      "sum": 43,
+      "sum": 44,
       "count": 6,
       "avg": 7
     },
@@ -14710,7 +14746,7 @@
       "avg": 21
     },
     "Fender": {
-      "sum": 240,
+      "sum": 241,
       "count": 24,
       "avg": 10
     },
@@ -14720,7 +14756,7 @@
       "avg": 9
     },
     "Charvel": {
-      "sum": 141,
+      "sum": 142,
       "count": 5,
       "avg": 28
     },
@@ -14740,12 +14776,12 @@
       "avg": 24
     },
     "BC Rich": {
-      "sum": 285,
+      "sum": 286,
       "count": 30,
       "avg": 10
     },
     "PRS": {
-      "sum": 529,
+      "sum": 531,
       "count": 47,
       "avg": 11
     },
@@ -14770,12 +14806,12 @@
       "avg": 8
     },
     "Ibanez": {
-      "sum": 212,
+      "sum": 213,
       "count": 18,
       "avg": 12
     },
     "Music Man": {
-      "sum": 125,
+      "sum": 127,
       "count": 9,
       "avg": 14
     },
@@ -14820,7 +14856,7 @@
       "avg": 44
     },
     "Kiesel": {
-      "sum": 227,
+      "sum": 228,
       "count": 12,
       "avg": 19
     },
@@ -14840,7 +14876,7 @@
       "avg": 7
     },
     "Dean": {
-      "sum": 24,
+      "sum": 25,
       "count": 3,
       "avg": 8
     },
@@ -14855,9 +14891,9 @@
       "avg": 3
     },
     "Aristides": {
-      "sum": 8,
+      "sum": 9,
       "count": 2,
-      "avg": 4
+      "avg": 5
     },
     "Bigsby": {
       "sum": 4,
@@ -14910,9 +14946,9 @@
       "avg": 8
     },
     "First Act": {
-      "sum": 30,
+      "sum": 31,
       "count": 1,
-      "avg": 30
+      "avg": 31
     },
     "Languedoc": {
       "sum": 15,
@@ -14923,11 +14959,6 @@
       "sum": 15,
       "count": 1,
       "avg": 15
-    },
-    "Epiphone": {
-      "sum": 62,
-      "count": 3,
-      "avg": 21
     },
     "LSL": {
       "sum": 15,
@@ -15040,9 +15071,9 @@
       "avg": 11
     },
     "Collings": {
-      "sum": 52,
+      "sum": 53,
       "count": 3,
-      "avg": 17
+      "avg": 18
     },
     "Bilt": {
       "sum": 10,
@@ -15111,7 +15142,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 5,
+    "2026-04-12": 6,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15131,10 +15162,10 @@
     "2026-04-05": 23
   },
   "categoryDistribution": {
-    "reverb": 407,
+    "reverb": 408,
     "marketplace": 43
   },
-  "activeModelsCount": 375,
+  "activeModelsCount": 376,
   "topPosters": [
     {
       "username": "GP",
@@ -15142,7 +15173,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 81
+      "count": 82
     },
     {
       "username": "YellowJack6",
@@ -16531,11 +16562,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1479.1622465207156,
-      "count": 92,
-      "avgPctDrop": 16.1
+      "totalPctDrop": 1487.5149147341726,
+      "count": 93,
+      "avgPctDrop": 16
     },
     "byBrand": {
+      "Epiphone": {
+        "totalPctDrop": 8.352668213457076,
+        "count": 1,
+        "avgPctDrop": 8.4
+      },
       "Fano": {
         "totalPctDrop": 14.545454545454545,
         "count": 1,
@@ -16621,11 +16657,6 @@
         "count": 1,
         "avgPctDrop": 4.4
       },
-      "Echopark": {
-        "totalPctDrop": 27.183436687337466,
-        "count": 2,
-        "avgPctDrop": 13.6
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -16670,6 +16701,11 @@
         "totalPctDrop": 20,
         "count": 1,
         "avgPctDrop": 20
+      },
+      "Echopark": {
+        "totalPctDrop": 27.183436687337466,
+        "count": 2,
+        "avgPctDrop": 13.6
       },
       "Yamaha": {
         "totalPctDrop": 8.47457627118644,
@@ -16730,14 +16766,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 421,
+      "total": 422,
       "sold": 129,
       "fake": 0,
-      "live": 292,
+      "live": 293,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Epiphone": {
+        "total": 4,
+        "sold": 2,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Rickenbacker": {
         "total": 16,
         "sold": 1,
@@ -17138,14 +17182,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Epiphone": {
-        "total": 3,
-        "sold": 2,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 67,
-        "livePct": 33
-      },
       "LSL": {
         "total": 1,
         "sold": 0,
@@ -17458,9 +17494,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 114,
+        "total": 115,
         "sold": 36,
-        "rate": 32
+        "rate": 31
       },
       {
         "label": "$2k–3k",
@@ -17489,7 +17525,7 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 135,
+        "total": 136,
         "sold": 41,
         "rate": 30
       },
@@ -17571,7 +17607,7 @@
     },
     {
       "label": "16–30",
-      "total": 111,
+      "total": 112,
       "sold": 38,
       "rate": 34
     },
@@ -17584,9 +17620,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 259,
+      "total": 260,
       "sold": 87,
-      "rate": 34
+      "rate": 33
     },
     "off": {
       "total": 106,
@@ -17601,7 +17637,7 @@
       "rate": 28
     },
     "regular": {
-      "total": 161,
+      "total": 162,
       "sold": 52,
       "rate": 32
     }
@@ -17680,6 +17716,12 @@
       "rate": 40
     },
     {
+      "state": "UT",
+      "total": 8,
+      "sold": 2,
+      "rate": 25
+    },
+    {
       "state": "MO",
       "total": 8,
       "sold": 2,
@@ -17690,12 +17732,6 @@
       "total": 8,
       "sold": 1,
       "rate": 13
-    },
-    {
-      "state": "UT",
-      "total": 7,
-      "sold": 2,
-      "rate": 29
     },
     {
       "state": "NC",
