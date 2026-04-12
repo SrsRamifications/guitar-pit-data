@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T20:10:16.665Z",
+  "generatedAt": "2026-04-12T21:14:14.690Z",
   "totalLinks": 454,
   "totalBeforeFilter": 493,
   "fakeCount": 4,
@@ -467,6 +467,21 @@
           "max": 2655,
           "avg": 2655
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2655,
+        "min": 2655,
+        "max": 2655,
+        "prices": [
+          {
+            "price": 2655,
+            "askingPrice": 2655,
+            "date": "2026-04-12T21:14:00.705Z",
+            "title": "Nik Huber Krautster II Black 2020",
+            "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/nik-huber-krautster-ii-black-2020-2501812"
+          }
+        ]
       },
       "avg": 2655
     },
@@ -14538,10 +14553,10 @@
       "count": 54,
       "sum": 162573.95,
       "sold": {
-        "count": 16,
-        "sum": 37402.270000000004,
-        "avg": 2338,
-        "min": 399,
+        "count": 17,
+        "sum": 37501.270000000004,
+        "avg": 2206,
+        "min": 99,
         "max": 5820
       },
       "avg": 3011,
@@ -14836,7 +14851,7 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 865,
+      "sum": 867,
       "count": 48,
       "avg": 18
     },
@@ -14876,7 +14891,7 @@
       "avg": 17
     },
     "Yamaha": {
-      "sum": 120,
+      "sum": 122,
       "count": 5,
       "avg": 24
     },
@@ -15368,19 +15383,27 @@
     }
   },
   "soldPrices": {
-    "count": 136,
-    "avg": 3470,
+    "count": 138,
+    "avg": 3440,
     "min": 26,
     "max": 36500,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 1302.5,
-      "count": 128,
-      "avgDays": 10.2
+      "totalDays": 1305.6999999999998,
+      "count": 130,
+      "avgDays": 10
     },
     "byModel": {
+      "nik-huber-krautster-ii": {
+        "displayName": "Nik Huber Krautster II Black 2020",
+        "totalDays": 0.2,
+        "count": 1,
+        "fastest": 0.2,
+        "slowest": 0.2,
+        "avgDays": 0.2
+      },
       "gibson-original": {
         "displayName": "1967 Gibson LG-1 Original Case and Artifacts!",
         "totalDays": 1,
@@ -16319,6 +16342,13 @@
       }
     },
     "byBrand": {
+      "Nik Huber": {
+        "totalDays": 0.2,
+        "count": 1,
+        "fastest": 0.2,
+        "slowest": 0.2,
+        "avgDays": 0.2
+      },
       "Gibson": {
         "totalDays": 321.5,
         "count": 14,
@@ -16862,9 +16892,9 @@
   "sellThrough": {
     "overall": {
       "total": 425,
-      "sold": 130,
+      "sold": 131,
       "fake": 0,
-      "live": 295,
+      "live": 294,
       "soldPct": 31,
       "livePct": 69
     },
@@ -16895,11 +16925,11 @@
       },
       "Nik Huber": {
         "total": 1,
-        "sold": 0,
+        "sold": 1,
         "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
       },
       "Epiphone": {
         "total": 4,
@@ -17586,8 +17616,8 @@
       {
         "label": "Under $500",
         "total": 22,
-        "sold": 7,
-        "rate": 32
+        "sold": 8,
+        "rate": 36
       },
       {
         "label": "$500–1k",
@@ -17604,8 +17634,8 @@
       {
         "label": "$2k–3k",
         "total": 100,
-        "sold": 33,
-        "rate": 33
+        "sold": 34,
+        "rate": 34
       },
       {
         "label": "$3k–5k",
@@ -17634,8 +17664,8 @@
       },
       "Used": {
         "total": 25,
-        "sold": 3,
-        "rate": 12
+        "sold": 4,
+        "rate": 16
       },
       "Very Good": {
         "total": 136,
@@ -17644,8 +17674,8 @@
       },
       "Good": {
         "total": 54,
-        "sold": 16,
-        "rate": 30
+        "sold": 17,
+        "rate": 31
       },
       "Brand New": {
         "total": 37,
@@ -17699,8 +17729,8 @@
     {
       "label": "1–5",
       "total": 34,
-      "sold": 13,
-      "rate": 38
+      "sold": 14,
+      "rate": 41
     },
     {
       "label": "6–15",
@@ -17710,21 +17740,21 @@
     },
     {
       "label": "16–30",
-      "total": 111,
+      "total": 110,
       "sold": 38,
-      "rate": 34
+      "rate": 35
     },
     {
       "label": "31+",
-      "total": 112,
+      "total": 113,
       "sold": 23,
-      "rate": 21
+      "rate": 20
     }
   ],
   "offersEffect": {
     "on": {
       "total": 261,
-      "sold": 88,
+      "sold": 89,
       "rate": 34
     },
     "off": {
@@ -17736,8 +17766,8 @@
   "sellerType": {
     "preferred": {
       "total": 188,
-      "sold": 53,
-      "rate": 28
+      "sold": 54,
+      "rate": 29
     },
     "regular": {
       "total": 163,
@@ -17779,8 +17809,8 @@
     {
       "state": "TN",
       "total": 14,
-      "sold": 5,
-      "rate": 36
+      "sold": 6,
+      "rate": 43
     },
     {
       "state": "IL",
