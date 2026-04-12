@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T13:51:44.004Z",
+  "generatedAt": "2026-04-12T15:59:10.813Z",
   "totalLinks": 451,
   "totalBeforeFilter": 490,
   "fakeCount": 4,
@@ -7,15 +7,15 @@
   "totalWithPrice": 445,
   "overall": {
     "count": 445,
-    "sum": 2303224.13,
-    "avg": 5176,
+    "sum": 2303084.13,
+    "avg": 5175,
     "min": 26,
     "max": 443302
   },
   "filtered": {
     "count": 421,
-    "sum": 1145359.15,
-    "avg": 2721,
+    "sum": 1145219.15,
+    "avg": 2720,
     "min": 26,
     "max": 9000,
     "median": 2399
@@ -221,10 +221,10 @@
   "byMonth": {
     "2026-04": {
       "count": 315,
-      "sum": 1700030.78,
+      "sum": 1699890.78,
       "min": 26,
       "max": 443302,
-      "avg": 5397
+      "avg": 5396
     },
     "2026-03": {
       "count": 130,
@@ -235,35 +235,35 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 37,
+      "sum": 304592.83,
+      "min": 374.99,
+      "max": 99000,
+      "avg": 8232
+    },
     "reverb": {
       "count": 408,
       "sum": 1998491.3,
       "min": 26,
       "max": 443302,
       "avg": 4898
-    },
-    "marketplace": {
-      "count": 37,
-      "sum": 304732.83,
-      "min": 374.99,
-      "max": 99000,
-      "avg": 8236
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 14,
+      "sum": 216924,
+      "min": 1200,
+      "max": 99000,
+      "avg": 15495
+    },
     "reverb.com": {
       "count": 408,
       "sum": 1998491.3,
       "min": 26,
       "max": 443302,
       "avg": 4898
-    },
-    "chicagomusicexchange.com": {
-      "count": 14,
-      "sum": 217064,
-      "min": 1200,
-      "max": 99000,
-      "avg": 15505
     },
     "guitarcenter.com": {
       "count": 14,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "nik-huber-krautster-ii": {
+      "displayName": "Nik Huber Krautster II Black 2020",
+      "brand": "Nik Huber",
+      "model": "Krautster II",
+      "variant": null,
+      "count": 1,
+      "sum": 2655,
+      "min": 2655,
+      "max": 2655,
+      "sightings": [
+        {
+          "price": 2655,
+          "date": "2026-04-12T15:58:54.562Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nik Huber Krautster II Black 2020",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/nik-huber-krautster-ii-black-2020-2501812",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2655,
+          "min": 2655,
+          "max": 2655,
+          "avg": 2655
+        }
+      },
+      "avg": 2655
+    },
     "epiphone-century-e422t": {
       "displayName": "Epiphone Century E422T 1961 - 1969 - Sunburst",
       "brand": "Epiphone",
@@ -462,11 +493,18 @@
         }
       },
       "soldData": {
-        "count": 1,
-        "avg": 1800,
-        "min": 1800,
+        "count": 2,
+        "avg": 1775,
+        "min": 1750,
         "max": 1800,
         "prices": [
+          {
+            "price": 1750,
+            "askingPrice": 1750,
+            "date": "2026-04-12T14:39:03.387Z",
+            "title": "1967 Gibson LG-1 Original Case and Artifacts!",
+            "url": "https://reverb.com/item/95884259-1967-gibson-lg-1-original-case-and-artifacts"
+          },
           {
             "price": 1800,
             "askingPrice": 1800,
@@ -6670,37 +6708,6 @@
       },
       "avg": 700
     },
-    "greco-1980s-tusk": {
-      "displayName": "1980’s Greco Tusk",
-      "brand": "Greco",
-      "model": "1980’s Tusk",
-      "variant": null,
-      "count": 1,
-      "sum": 990,
-      "min": 990,
-      "max": 990,
-      "sightings": [
-        {
-          "price": 990,
-          "date": "2026-04-06T04:30:37.525Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1980’s Greco Tusk",
-          "url": "https://reverb.com/item/95707288-1980-s-greco-tusk",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 990,
-          "min": 990,
-          "max": 990,
-          "avg": 990
-        }
-      },
-      "avg": 990
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -12741,37 +12748,6 @@
       },
       "avg": 9000
     },
-    "nik-huber-krautster-ii": {
-      "displayName": "Nik Huber Krautster II Black 2020",
-      "brand": "Nik Huber",
-      "model": "Krautster II",
-      "variant": null,
-      "count": 1,
-      "sum": 2795,
-      "min": 2795,
-      "max": 2795,
-      "sightings": [
-        {
-          "price": 2795,
-          "date": "2026-04-03T15:16:49.605Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Nik Huber Krautster II Black 2020",
-          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/nik-huber-krautster-ii-black-2020-2501812",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 2795,
-          "min": 2795,
-          "max": 2795,
-          "avg": 2795
-        }
-      },
-      "avg": 2795
-    },
     "bogner-shiva-2-channel-80-watt": {
       "displayName": "Bogner Shiva 2-Channel 80-Watt Guitar Amp Head",
       "brand": "Bogner",
@@ -14407,16 +14383,58 @@
         }
       },
       "avg": 2610
+    },
+    "greco-1980s-tusk": {
+      "displayName": "1980’s Greco Tusk",
+      "brand": "Greco",
+      "model": "1980’s Tusk",
+      "variant": null,
+      "count": 1,
+      "sum": 990,
+      "min": 990,
+      "max": 990,
+      "sightings": [
+        {
+          "price": 990,
+          "date": "2026-04-06T04:30:37.525Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1980’s Greco Tusk",
+          "url": "https://reverb.com/item/95707288-1980-s-greco-tusk",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 990,
+          "min": 990,
+          "max": 990,
+          "avg": 990
+        }
+      },
+      "avg": 990
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 23,
+      "sum": 182712.86999999994,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7944,
+      "min": 1109.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 136,
       "sum": 829753.55,
       "sold": {
-        "count": 39,
-        "sum": 89281.77,
-        "avg": 2289,
+        "count": 40,
+        "sum": 91031.77,
+        "avg": 2276,
         "min": 165,
         "max": 5900
       },
@@ -14465,17 +14483,6 @@
       "avg": 4838,
       "min": 26,
       "max": 190000
-    },
-    "Used": {
-      "count": 23,
-      "sum": 182852.86999999994,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7950,
-      "min": 1109.99,
-      "max": 99000
     },
     "Mint": {
       "count": 13,
@@ -14545,7 +14552,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5397,
+      "avg": 5396,
       "count": 315
     },
     "03": {
@@ -14715,6 +14722,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Nik Huber": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Epiphone": {
       "sum": 77,
       "count": 4,
@@ -14731,7 +14743,7 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 859,
+      "sum": 862,
       "count": 48,
       "avg": 18
     },
@@ -14746,7 +14758,7 @@
       "avg": 21
     },
     "Fender": {
-      "sum": 241,
+      "sum": 244,
       "count": 24,
       "avg": 10
     },
@@ -14776,12 +14788,12 @@
       "avg": 24
     },
     "BC Rich": {
-      "sum": 286,
+      "sum": 287,
       "count": 30,
       "avg": 10
     },
     "PRS": {
-      "sum": 531,
+      "sum": 534,
       "count": 47,
       "avg": 11
     },
@@ -14801,22 +14813,22 @@
       "avg": 3
     },
     "Suhr": {
-      "sum": 48,
+      "sum": 49,
       "count": 6,
       "avg": 8
     },
     "Ibanez": {
-      "sum": 213,
+      "sum": 214,
       "count": 18,
       "avg": 12
     },
     "Music Man": {
-      "sum": 127,
+      "sum": 129,
       "count": 9,
       "avg": 14
     },
     "ESP": {
-      "sum": 117,
+      "sum": 119,
       "count": 8,
       "avg": 15
     },
@@ -14836,7 +14848,7 @@
       "avg": 43
     },
     "Jackson": {
-      "sum": 159,
+      "sum": 161,
       "count": 12,
       "avg": 13
     },
@@ -14856,7 +14868,7 @@
       "avg": 44
     },
     "Kiesel": {
-      "sum": 228,
+      "sum": 230,
       "count": 12,
       "avg": 19
     },
@@ -14886,9 +14898,9 @@
       "avg": 21
     },
     "Teisco": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Aristides": {
       "sum": 9,
@@ -14941,9 +14953,9 @@
       "avg": 7
     },
     "Novo": {
-      "sum": 25,
+      "sum": 26,
       "count": 3,
-      "avg": 8
+      "avg": 9
     },
     "First Act": {
       "sum": 31,
@@ -15026,9 +15038,9 @@
       "avg": 15
     },
     "Guild": {
-      "sum": 14,
+      "sum": 15,
       "count": 1,
-      "avg": 14
+      "avg": 15
     },
     "Mayones": {
       "sum": 14,
@@ -15100,11 +15112,6 @@
       "count": 2,
       "avg": 46
     },
-    "Nik Huber": {
-      "sum": 9,
-      "count": 1,
-      "avg": 9
-    },
     "Bogner": {
       "sum": 9,
       "count": 1,
@@ -15142,7 +15149,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 6,
+    "2026-04-12": 7,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15157,13 +15164,13 @@
     "2026-03-31": 17,
     "2026-04-01": 32,
     "2026-04-02": 29,
-    "2026-04-03": 15,
+    "2026-04-03": 14,
     "2026-04-04": 23,
     "2026-04-05": 23
   },
   "categoryDistribution": {
-    "reverb": 408,
-    "marketplace": 43
+    "marketplace": 43,
+    "reverb": 408
   },
   "activeModelsCount": 376,
   "topPosters": [
@@ -15278,19 +15285,27 @@
     }
   },
   "soldPrices": {
-    "count": 135,
-    "avg": 3483,
+    "count": 136,
+    "avg": 3470,
     "min": 26,
     "max": 36500,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 1301.8999999999999,
-      "count": 127,
-      "avgDays": 10.3
+      "totalDays": 1302.5,
+      "count": 128,
+      "avgDays": 10.2
     },
     "byModel": {
+      "gibson-original": {
+        "displayName": "1967 Gibson LG-1 Original Case and Artifacts!",
+        "totalDays": 1,
+        "count": 2,
+        "fastest": 0.4,
+        "slowest": 0.6,
+        "avgDays": 0.5
+      },
       "fano-dennis-fano-master-fireglo": {
         "displayName": "Fano Dennis Fano Master Built Fireglo",
         "totalDays": 0.1,
@@ -15955,14 +15970,6 @@
         "slowest": 3,
         "avgDays": 3
       },
-      "gibson-original": {
-        "displayName": "1991 Gibson M-III Deluxe 100% Original Very Good Condition (226)",
-        "totalDays": 0.4,
-        "count": 1,
-        "fastest": 0.4,
-        "slowest": 0.4,
-        "avgDays": 0.4
-      },
       "charvel-so-cal-sparkle-custom-shop": {
         "displayName": "Charvel So Cal Custom Shop - Green Sparkle",
         "totalDays": 5.4,
@@ -16229,6 +16236,13 @@
       }
     },
     "byBrand": {
+      "Gibson": {
+        "totalDays": 321.5,
+        "count": 14,
+        "fastest": 0,
+        "slowest": 268,
+        "avgDays": 23
+      },
       "Fano": {
         "totalDays": 3.2,
         "count": 2,
@@ -16249,13 +16263,6 @@
         "fastest": 0.1,
         "slowest": 219.2,
         "avgDays": 29.6
-      },
-      "Gibson": {
-        "totalDays": 320.9,
-        "count": 13,
-        "fastest": 0,
-        "slowest": 268,
-        "avgDays": 24.7
       },
       "Ibanez": {
         "totalDays": 6.499999999999999,
@@ -16767,13 +16774,21 @@
   "sellThrough": {
     "overall": {
       "total": 422,
-      "sold": 129,
+      "sold": 130,
       "fake": 0,
-      "live": 293,
+      "live": 292,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Nik Huber": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Epiphone": {
         "total": 4,
         "sold": 2,
@@ -16800,11 +16815,11 @@
       },
       "Gibson": {
         "total": 57,
-        "sold": 14,
+        "sold": 15,
         "fake": 0,
-        "live": 43,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 42,
+        "soldPct": 26,
+        "livePct": 74
       },
       "Eastman": {
         "total": 6,
@@ -17406,14 +17421,6 @@
         "soldPct": 50,
         "livePct": 50
       },
-      "Nik Huber": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Bogner": {
         "total": 1,
         "sold": 1,
@@ -17495,8 +17502,8 @@
       {
         "label": "$1k–2k",
         "total": 115,
-        "sold": 36,
-        "rate": 31
+        "sold": 37,
+        "rate": 32
       },
       {
         "label": "$2k–3k",
@@ -17524,10 +17531,15 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 23,
+        "sold": 3,
+        "rate": 13
+      },
       "Very Good": {
         "total": 136,
-        "sold": 41,
-        "rate": 30
+        "sold": 42,
+        "rate": 31
       },
       "Good": {
         "total": 54,
@@ -17543,11 +17555,6 @@
         "total": 159,
         "sold": 58,
         "rate": 36
-      },
-      "Used": {
-        "total": 23,
-        "sold": 3,
-        "rate": 13
       },
       "Mint": {
         "total": 13,
@@ -17596,8 +17603,8 @@
     {
       "label": "1–5",
       "total": 35,
-      "sold": 12,
-      "rate": 34
+      "sold": 13,
+      "rate": 37
     },
     {
       "label": "6–15",
@@ -17621,8 +17628,8 @@
   "offersEffect": {
     "on": {
       "total": 260,
-      "sold": 87,
-      "rate": 33
+      "sold": 88,
+      "rate": 34
     },
     "off": {
       "total": 106,
@@ -17638,8 +17645,8 @@
     },
     "regular": {
       "total": 162,
-      "sold": 52,
-      "rate": 32
+      "sold": 53,
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -17670,8 +17677,8 @@
     {
       "state": "FL",
       "total": 14,
-      "sold": 7,
-      "rate": 50
+      "sold": 8,
+      "rate": 57
     },
     {
       "state": "TN",
