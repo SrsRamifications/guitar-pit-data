@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-12T01:17:14.759Z",
-  "totalLinks": 446,
-  "totalBeforeFilter": 485,
+  "generatedAt": "2026-04-12T01:24:44.365Z",
+  "totalLinks": 447,
+  "totalBeforeFilter": 486,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 440,
+  "totalWithPrice": 441,
   "overall": {
-    "count": 440,
-    "sum": 2294898.13,
-    "avg": 5216,
+    "count": 441,
+    "sum": 2298494.13,
+    "avg": 5212,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 416,
-    "sum": 1137033.15,
-    "avg": 2733,
+    "count": 417,
+    "sum": 1140629.15,
+    "avg": 2735,
     "min": 26,
     "max": 9000,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9420,
+    "thresholdHigh": 9300,
     "thresholdLow": 0,
     "count": 24,
     "items": [
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 310,
-      "sum": 1691704.78,
+      "count": 311,
+      "sum": 1695300.78,
       "min": 26,
       "max": 443302,
-      "avg": 5457
+      "avg": 5451
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 36,
-      "sum": 301136.83,
+      "count": 37,
+      "sum": 304732.83,
       "min": 374.99,
       "max": 99000,
-      "avg": 8365
+      "avg": 8236
     },
     "reverb": {
       "count": 404,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 13,
-      "sum": 213468,
+      "count": 14,
+      "sum": 217064,
       "min": 1200,
       "max": 99000,
-      "avg": 16421
+      "avg": 15505
     },
     "reverb.com": {
       "count": 404,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "gibson-es-330": {
+      "displayName": "Gibson ES-330 Cherry 1960s",
+      "brand": "Gibson",
+      "model": "ES-330",
+      "variant": null,
+      "count": 1,
+      "sum": 3596,
+      "min": 3596,
+      "max": 3596,
+      "sightings": [
+        {
+          "price": 3596,
+          "date": "2026-04-12T01:24:28.121Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson ES-330 Cherry 1960s",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-hollow-body/products/gibson-es-330-cherry-1960s-2362055",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 3596,
+          "min": 3596,
+          "max": 3596,
+          "avg": 3596
+        }
+      },
+      "avg": 3596
+    },
     "eastman-hollow": {
       "displayName": "Eastman T58 Hollow-Body Gold",
       "brand": "Eastman",
@@ -6599,37 +6630,6 @@
         }
       },
       "avg": 1249
-    },
-    "the-loar-hollow-lh": {
-      "displayName": "The Loar LH-301T-VS Hollow Body Electric Guitar",
-      "brand": "The Loar",
-      "model": "Hollow",
-      "variant": "Lh",
-      "count": 1,
-      "sum": 449,
-      "min": 449,
-      "max": 449,
-      "sightings": [
-        {
-          "price": 449,
-          "date": "2026-04-05T22:05:09.051Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "The Loar LH-301T-VS Hollow Body Electric Guitar",
-          "url": "https://reverb.com/item/95605808-the-loar-lh-301t-vs-hollow-body-electric-guitar",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 449,
-          "min": 449,
-          "max": 449,
-          "avg": 449
-        }
-      },
-      "avg": 449
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14259,9 +14259,54 @@
         }
       },
       "avg": 1500
+    },
+    "the-loar-hollow-lh": {
+      "displayName": "The Loar LH-301T-VS Hollow Body Electric Guitar",
+      "brand": "The Loar",
+      "model": "Hollow",
+      "variant": "Lh",
+      "count": 1,
+      "sum": 449,
+      "min": 449,
+      "max": 449,
+      "sightings": [
+        {
+          "price": 449,
+          "date": "2026-04-05T22:05:09.051Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "The Loar LH-301T-VS Hollow Body Electric Guitar",
+          "url": "https://reverb.com/item/95605808-the-loar-lh-301t-vs-hollow-body-electric-guitar",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 449,
+          "min": 449,
+          "max": 449,
+          "avg": 449
+        }
+      },
+      "avg": 449
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 54,
+      "sum": 162573.95,
+      "sold": {
+        "count": 16,
+        "sum": 37402.270000000004,
+        "avg": 2338,
+        "min": 399,
+        "max": 5820
+      },
+      "avg": 3011,
+      "min": 99,
+      "max": 32407
+    },
     "Brand New": {
       "count": 37,
       "sum": 162880.12,
@@ -14314,20 +14359,6 @@
       "avg": 6250,
       "min": 33,
       "max": 443302
-    },
-    "Good": {
-      "count": 53,
-      "sum": 158977.95,
-      "sold": {
-        "count": 16,
-        "sum": 37402.270000000004,
-        "avg": 2338,
-        "min": 399,
-        "max": 5820
-      },
-      "avg": 3000,
-      "min": 99,
-      "max": 32407
     },
     "Mint": {
       "count": 13,
@@ -14397,8 +14428,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5457,
-      "count": 310
+      "avg": 5451,
+      "count": 311
     },
     "03": {
       "name": "Mar",
@@ -14553,7 +14584,7 @@
     "500-1k": 34,
     "1k-2k": 113,
     "2k-3k": 97,
-    "3k-5k": 110,
+    "3k-5k": 111,
     "5k-10k": 45,
     "10k+": 19
   },
@@ -14562,11 +14593,16 @@
     "500-1k": 34,
     "1k-2k": 113,
     "2k-3k": 97,
-    "3k-5k": 110,
+    "3k-5k": 111,
     "5k-10k": 40,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 822,
+      "count": 47,
+      "avg": 17
+    },
     "Eastman": {
       "sum": 38,
       "count": 6,
@@ -14621,11 +14657,6 @@
       "sum": 14,
       "count": 2,
       "avg": 7
-    },
-    "Gibson": {
-      "sum": 822,
-      "count": 46,
-      "avg": 18
     },
     "Floyd Rose": {
       "sum": 21,
@@ -14792,11 +14823,6 @@
       "count": 1,
       "avg": 30
     },
-    "The Loar": {
-      "sum": 9,
-      "count": 1,
-      "avg": 9
-    },
     "Languedoc": {
       "sum": 14,
       "count": 1,
@@ -14938,9 +14964,9 @@
       "avg": 10
     },
     "Mojotone": {
-      "sum": 9,
+      "sum": 10,
       "count": 1,
-      "avg": 9
+      "avg": 10
     },
     "Cort": {
       "sum": 10,
@@ -14986,10 +15012,15 @@
       "sum": 7,
       "count": 1,
       "avg": 7
+    },
+    "The Loar": {
+      "sum": 9,
+      "count": 1,
+      "avg": 9
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 1,
+    "2026-04-12": 2,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15009,10 +15040,10 @@
     "2026-04-04": 23
   },
   "categoryDistribution": {
-    "marketplace": 42,
+    "marketplace": 43,
     "reverb": 404
   },
-  "activeModelsCount": 372,
+  "activeModelsCount": 373,
   "topPosters": [
     {
       "username": "GP",
@@ -15028,7 +15059,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 39
+      "count": 40
     },
     {
       "username": "WontonGG",
@@ -15070,10 +15101,10 @@
       "count": 28
     },
     "Gibson": {
-      "avgPrice": 12118,
+      "avgPrice": 11960,
       "retailEst": 800,
-      "avgDiscount": -1414.7,
-      "count": 53
+      "avgDiscount": -1395,
+      "count": 54
     },
     "PRS": {
       "avgPrice": 3859,
@@ -16600,14 +16631,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 417,
+      "total": 418,
       "sold": 129,
       "fake": 0,
-      "live": 288,
+      "live": 289,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Gibson": {
+        "total": 56,
+        "sold": 14,
+        "fake": 0,
+        "live": 42,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "Eastman": {
         "total": 6,
         "sold": 2,
@@ -16695,14 +16734,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 55,
-        "sold": 14,
-        "fake": 0,
-        "live": 41,
-        "soldPct": 25,
-        "livePct": 75
       },
       "Floyd Rose": {
         "total": 1,
@@ -16983,14 +17014,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "The Loar": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Languedoc": {
         "total": 1,
@@ -17303,6 +17326,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "The Loar": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       }
     },
     "byPriceRange": [
@@ -17332,9 +17363,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 110,
+        "total": 111,
         "sold": 36,
-        "rate": 33
+        "rate": 32
       },
       {
         "label": "$5k–10k",
@@ -17350,6 +17381,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 54,
+        "sold": 16,
+        "rate": 30
+      },
       "Brand New": {
         "total": 37,
         "sold": 5,
@@ -17369,11 +17405,6 @@
         "total": 132,
         "sold": 41,
         "rate": 31
-      },
-      "Good": {
-        "total": 53,
-        "sold": 16,
-        "rate": 30
       },
       "Mint": {
         "total": 13,
