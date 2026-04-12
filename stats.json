@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-12T22:07:16.221Z",
-  "totalLinks": 454,
-  "totalBeforeFilter": 493,
+  "generatedAt": "2026-04-12T22:31:38.211Z",
+  "totalLinks": 455,
+  "totalBeforeFilter": 494,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 448,
+  "totalWithPrice": 449,
   "overall": {
-    "count": 448,
-    "sum": 2309795.13,
-    "avg": 5156,
+    "count": 449,
+    "sum": 2311694.13,
+    "avg": 5149,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 424,
-    "sum": 1151930.15,
-    "avg": 2717,
+    "count": 425,
+    "sum": 1153829.15,
+    "avg": 2715,
     "min": 26,
     "max": 9000,
-    "median": 2374
+    "median": 2350
   },
   "outliers": {
-    "thresholdHigh": 9171,
+    "thresholdHigh": 9087,
     "thresholdLow": 0,
     "count": 24,
     "items": [
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 318,
-      "sum": 1706601.78,
+      "count": 319,
+      "sum": 1708500.78,
       "min": 26,
       "max": 443302,
-      "avg": 5367
+      "avg": 5356
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 409,
-      "sum": 2000491.3,
+      "count": 410,
+      "sum": 2002390.3,
       "min": 26,
       "max": 443302,
-      "avg": 4891
+      "avg": 4884
     },
     "marketplace": {
       "count": 39,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 409,
-      "sum": 2000491.3,
+      "count": 410,
+      "sum": 2002390.3,
       "min": 26,
       "max": 443302,
-      "avg": 4891
+      "avg": 4884
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "friedman-cali": {
+      "displayName": "Friedman Cali 2018 - Red",
+      "brand": "Friedman",
+      "model": "Cali",
+      "variant": null,
+      "count": 1,
+      "sum": 1899,
+      "min": 1899,
+      "max": 1899,
+      "sightings": [
+        {
+          "price": 1899,
+          "date": "2026-04-12T22:31:23.497Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Friedman Cali 2018 - Red",
+          "url": "https://reverb.com/item/95926118-friedman-cali-2018-red",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1899,
+          "min": 1899,
+          "max": 1899,
+          "avg": 1899
+        }
+      },
+      "avg": 1899
+    },
     "music-man-jp-signature": {
       "displayName": "Ernie Ball Music Man John Petrucci Signature Monarchy Series Majesty 6 2017 - Royal Red",
       "brand": "Music Man",
@@ -6692,37 +6723,6 @@
         }
       },
       "avg": 1600
-    },
-    "novo-dealer-chambered-serus-limited": {
-      "displayName": "Novo Dealer limited 2026 chambered serus H2 2025 - Faded Cherry Burst",
-      "brand": "Novo",
-      "model": "Dealer chambered serus",
-      "variant": "Limited",
-      "count": 1,
-      "sum": 4349,
-      "min": 4349,
-      "max": 4349,
-      "sightings": [
-        {
-          "price": 4349,
-          "date": "2026-04-06T15:45:56.049Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Novo Dealer limited 2026 chambered serus H2 2025 - Faded Cherry Burst",
-          "url": "https://reverb.com/item/95708968-novo-dealer-limited-2026-chambered-serus-h2-2025-faded-cherry-burst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4349,
-          "min": 4349,
-          "max": 4349,
-          "avg": 4349
-        }
-      },
-      "avg": 4349
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14514,12 +14514,43 @@
         }
       },
       "avg": 2500
+    },
+    "novo-dealer-chambered-serus-limited": {
+      "displayName": "Novo Dealer limited 2026 chambered serus H2 2025 - Faded Cherry Burst",
+      "brand": "Novo",
+      "model": "Dealer chambered serus",
+      "variant": "Limited",
+      "count": 1,
+      "sum": 4349,
+      "min": 4349,
+      "max": 4349,
+      "sightings": [
+        {
+          "price": 4349,
+          "date": "2026-04-06T15:45:56.049Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Novo Dealer limited 2026 chambered serus H2 2025 - Faded Cherry Burst",
+          "url": "https://reverb.com/item/95708968-novo-dealer-limited-2026-chambered-serus-h2-2025-faded-cherry-burst",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4349,
+          "min": 4349,
+          "max": 4349,
+          "avg": 4349
+        }
+      },
+      "avg": 4349
     }
   },
   "byCondition": {
     "Very Good": {
-      "count": 136,
-      "sum": 829653.55,
+      "count": 137,
+      "sum": 831552.55,
       "sold": {
         "count": 40,
         "sum": 91031.77,
@@ -14527,7 +14558,7 @@
         "min": 165,
         "max": 5900
       },
-      "avg": 6100,
+      "avg": 6070,
       "min": 33,
       "max": 443302
     },
@@ -14652,8 +14683,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5367,
-      "count": 318
+      "avg": 5356,
+      "count": 319
     },
     "03": {
       "name": "Mar",
@@ -14710,13 +14741,6 @@
       "oldPrice": "$1,000",
       "newPrice": "$900",
       "date": "2026-04-11T01:12:54.560Z"
-    },
-    {
-      "title": "Novo Dealer limited 2026 chambered serus H2 2025 - Faded Cherry Burst",
-      "url": "https://reverb.com/item/95708968-novo-dealer-limited-2026-chambered-serus-h2-2025-faded-cherry-burst",
-      "oldPrice": "$4,549",
-      "newPrice": "$4,349",
-      "date": "2026-04-08T10:58:42.881Z"
     },
     {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
@@ -14801,12 +14825,19 @@
       "oldPrice": "$3,800",
       "newPrice": "$3,600",
       "date": "2026-04-03T23:37:27.242Z"
+    },
+    {
+      "title": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
+      "url": "https://reverb.com/en-pt/item/91114676-fender-custom-shop-57-reissue-stratocaster-relic-aged-fiesta-red",
+      "oldPrice": "$5,668",
+      "newPrice": "$3,684",
+      "date": "2026-04-06T03:01:24.177Z"
     }
   ],
   "priceDistribution": {
     "0-500": 22,
     "500-1k": 36,
-    "1k-2k": 115,
+    "1k-2k": 116,
     "2k-3k": 100,
     "3k-5k": 111,
     "5k-10k": 45,
@@ -14815,13 +14846,18 @@
   "priceDistributionFiltered": {
     "0-500": 22,
     "500-1k": 36,
-    "1k-2k": 115,
+    "1k-2k": 116,
     "2k-3k": 100,
     "3k-5k": 111,
     "5k-10k": 40,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Friedman": {
+      "sum": 26,
+      "count": 3,
+      "avg": 9
+    },
     "Music Man": {
       "sum": 129,
       "count": 9,
@@ -15057,11 +15093,6 @@
       "count": 1,
       "avg": 7
     },
-    "Novo": {
-      "sum": 26,
-      "count": 3,
-      "avg": 9
-    },
     "Languedoc": {
       "sum": 15,
       "count": 1,
@@ -15147,11 +15178,6 @@
       "count": 1,
       "avg": 14
     },
-    "Friedman": {
-      "sum": 26,
-      "count": 2,
-      "avg": 13
-    },
     "Millimetric": {
       "sum": 38,
       "count": 3,
@@ -15166,6 +15192,11 @@
       "sum": 12,
       "count": 1,
       "avg": 12
+    },
+    "Novo": {
+      "sum": 26,
+      "count": 3,
+      "avg": 9
     },
     "Xotic": {
       "sum": 12,
@@ -15254,7 +15285,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 11,
+    "2026-04-12": 12,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15274,14 +15305,14 @@
     "2026-04-05": 22
   },
   "categoryDistribution": {
-    "reverb": 409,
+    "reverb": 410,
     "marketplace": 45
   },
-  "activeModelsCount": 378,
+  "activeModelsCount": 379,
   "topPosters": [
     {
       "username": "GP",
-      "count": 159
+      "count": 160
     },
     {
       "username": "Beijing Bob",
@@ -16789,11 +16820,6 @@
         "count": 1,
         "avgPctDrop": 10
       },
-      "Novo": {
-        "totalPctDrop": 4.396570674873598,
-        "count": 1,
-        "avgPctDrop": 4.4
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -16893,19 +16919,32 @@
         "totalPctDrop": 10.038119440914867,
         "count": 1,
         "avgPctDrop": 10
+      },
+      "Novo": {
+        "totalPctDrop": 4.396570674873598,
+        "count": 1,
+        "avgPctDrop": 4.4
       }
     }
   },
   "sellThrough": {
     "overall": {
-      "total": 425,
+      "total": 426,
       "sold": 132,
       "fake": 0,
-      "live": 293,
+      "live": 294,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Friedman": {
+        "total": 3,
+        "sold": 2,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 67,
+        "livePct": 33
+      },
       "Music Man": {
         "total": 12,
         "sold": 9,
@@ -17306,14 +17345,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Novo": {
-        "total": 3,
-        "sold": 1,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "livePct": 67
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -17450,14 +17481,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Friedman": {
-        "total": 2,
-        "sold": 2,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Millimetric": {
         "total": 3,
         "sold": 1,
@@ -17481,6 +17504,14 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Novo": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Xotic": {
         "total": 1,
@@ -17634,7 +17665,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 115,
+        "total": 116,
         "sold": 37,
         "rate": 32
       },
@@ -17665,9 +17696,9 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 136,
+        "total": 137,
         "sold": 43,
-        "rate": 32
+        "rate": 31
       },
       "Excellent": {
         "total": 160,
@@ -17729,9 +17760,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 5,
+      "total": 6,
       "sold": 5,
-      "rate": 100
+      "rate": 83
     },
     {
       "label": "1–5",
@@ -17760,7 +17791,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 261,
+      "total": 262,
       "sold": 90,
       "rate": 34
     },
@@ -17777,9 +17808,9 @@
       "rate": 29
     },
     "regular": {
-      "total": 163,
+      "total": 164,
       "sold": 53,
-      "rate": 33
+      "rate": 32
     }
   },
   "geoSellThrough": [
@@ -17887,9 +17918,9 @@
     },
     {
       "state": "CO",
-      "total": 5,
+      "total": 6,
       "sold": 2,
-      "rate": 40
+      "rate": 33
     },
     {
       "state": "AZ",
