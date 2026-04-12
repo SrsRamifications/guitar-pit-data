@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-12T22:31:38.211Z",
-  "totalLinks": 455,
-  "totalBeforeFilter": 494,
+  "generatedAt": "2026-04-12T23:19:27.589Z",
+  "totalLinks": 456,
+  "totalBeforeFilter": 495,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 449,
+  "totalWithPrice": 450,
   "overall": {
-    "count": 449,
-    "sum": 2311694.13,
-    "avg": 5149,
+    "count": 450,
+    "sum": 2319694.13,
+    "avg": 5155,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 425,
-    "sum": 1153829.15,
-    "avg": 2715,
+    "count": 426,
+    "sum": 1161829.15,
+    "avg": 2727,
     "min": 26,
     "max": 9000,
-    "median": 2350
+    "median": 2374
   },
   "outliers": {
-    "thresholdHigh": 9087,
+    "thresholdHigh": 9171,
     "thresholdLow": 0,
     "count": 24,
     "items": [
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 319,
-      "sum": 1708500.78,
+      "count": 320,
+      "sum": 1716500.78,
       "min": 26,
       "max": 443302,
-      "avg": 5356
+      "avg": 5364
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 410,
-      "sum": 2002390.3,
+      "count": 411,
+      "sum": 2010390.3,
       "min": 26,
       "max": 443302,
-      "avg": 4884
+      "avg": 4891
     },
     "marketplace": {
       "count": 39,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 410,
-      "sum": 2002390.3,
+      "count": 411,
+      "sum": 2010390.3,
       "min": 26,
       "max": 443302,
-      "avg": 4884
+      "avg": 4891
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -330,6 +330,53 @@
     }
   },
   "byModel": {
+    "prs-modern": {
+      "displayName": "PRS Modern Eagle I 06’ Faded Blue Jean",
+      "brand": "PRS",
+      "model": "Modern",
+      "variant": null,
+      "count": 2,
+      "sum": 11675,
+      "min": 3675,
+      "max": 8000,
+      "sightings": [
+        {
+          "price": 3675,
+          "date": "2026-04-05T07:22:19.049Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Modern Eagle V • 2023 • Antique White",
+          "url": "https://reverb.com/item/95013799-prs-modern-eagle-v-2023-antique-white",
+          "condition": "Excellent"
+        },
+        {
+          "price": 8000,
+          "date": "2026-04-12T23:19:12.651Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Modern Eagle I 06’ Faded Blue Jean",
+          "url": "https://reverb.com/item/95924373-prs-modern-eagle-i-06-faded-blue-jean",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 8000,
+          "min": 8000,
+          "max": 8000,
+          "avg": 8000
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 3675,
+          "min": 3675,
+          "max": 3675,
+          "avg": 3675
+        }
+      },
+      "avg": 5838
+    },
     "friedman-cali": {
       "displayName": "Friedman Cali 2018 - Red",
       "brand": "Friedman",
@@ -1216,6 +1263,21 @@
           "max": 1185,
           "avg": 1185
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1185,
+        "min": 1185,
+        "max": 1185,
+        "prices": [
+          {
+            "price": 1185,
+            "askingPrice": 1185,
+            "date": "2026-04-12T22:39:14.784Z",
+            "title": "History GH-LCV, 2010, Fujigen Japan made, Heritage wood. ( Gibson Les Paul Custom copy)",
+            "url": "https://reverb.com/item/95869733-history-gh-lcv-2010-fujigen-japan-made-heritage-wood-gibson-les-paul-custom-copy"
+          }
+        ]
       },
       "avg": 1185
     },
@@ -6692,37 +6754,6 @@
         }
       },
       "avg": 900
-    },
-    "bc-rich-eagle": {
-      "displayName": "B.C. Rich Eagle 1983 - White",
-      "brand": "BC Rich",
-      "model": "Eagle",
-      "variant": null,
-      "count": 1,
-      "sum": 1600,
-      "min": 1600,
-      "max": 1600,
-      "sightings": [
-        {
-          "price": 1600,
-          "date": "2026-04-06T15:47:32.667Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich Eagle 1983 - White",
-          "url": "https://reverb.com/item/94330735-b-c-rich-eagle-1983-white",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
-        }
-      },
-      "avg": 1600
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -13820,37 +13851,6 @@
       },
       "avg": 1700
     },
-    "prs-modern": {
-      "displayName": "PRS Modern Eagle V • 2023 • Antique White",
-      "brand": "PRS",
-      "model": "Modern",
-      "variant": null,
-      "count": 1,
-      "sum": 3675,
-      "min": 3675,
-      "max": 3675,
-      "sightings": [
-        {
-          "price": 3675,
-          "date": "2026-04-05T07:22:19.049Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Modern Eagle V • 2023 • Antique White",
-          "url": "https://reverb.com/item/95013799-prs-modern-eagle-v-2023-antique-white",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3675,
-          "min": 3675,
-          "max": 3675,
-          "avg": 3675
-        }
-      },
-      "avg": 3675
-    },
     "big-joe-b-302-usa": {
       "displayName": "Big Joe Stomp Box Company B-302 Rock Distortion - Made in USA",
       "brand": "Big Joe",
@@ -14545,9 +14545,54 @@
         }
       },
       "avg": 4349
+    },
+    "bc-rich-eagle": {
+      "displayName": "B.C. Rich Eagle 1983 - White",
+      "brand": "BC Rich",
+      "model": "Eagle",
+      "variant": null,
+      "count": 1,
+      "sum": 1600,
+      "min": 1600,
+      "max": 1600,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-04-06T15:47:32.667Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Eagle 1983 - White",
+          "url": "https://reverb.com/item/94330735-b-c-rich-eagle-1983-white",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 55,
+      "sum": 170573.95,
+      "sold": {
+        "count": 17,
+        "sum": 37501.270000000004,
+        "avg": 2206,
+        "min": 99,
+        "max": 5820
+      },
+      "avg": 3101,
+      "min": 99,
+      "max": 32407
+    },
     "Very Good": {
       "count": 137,
       "sum": 831552.55,
@@ -14566,9 +14611,9 @@
       "count": 160,
       "sum": 771417.6799999999,
       "sold": {
-        "count": 54,
-        "sum": 171328.38,
-        "avg": 3173,
+        "count": 55,
+        "sum": 172513.38,
+        "avg": 3137,
         "min": 26,
         "max": 35900
       },
@@ -14586,20 +14631,6 @@
       "avg": 7497,
       "min": 1109.99,
       "max": 99000
-    },
-    "Good": {
-      "count": 54,
-      "sum": 162573.95,
-      "sold": {
-        "count": 17,
-        "sum": 37501.270000000004,
-        "avg": 2206,
-        "min": 99,
-        "max": 5820
-      },
-      "avg": 3011,
-      "min": 99,
-      "max": 32407
     },
     "Brand New": {
       "count": 37,
@@ -14683,8 +14714,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5356,
-      "count": 319
+      "avg": 5364,
+      "count": 320
     },
     "03": {
       "name": "Mar",
@@ -14840,7 +14871,7 @@
     "1k-2k": 116,
     "2k-3k": 100,
     "3k-5k": 111,
-    "5k-10k": 45,
+    "5k-10k": 46,
     "10k+": 19
   },
   "priceDistributionFiltered": {
@@ -14849,10 +14880,15 @@
     "1k-2k": 116,
     "2k-3k": 100,
     "3k-5k": 111,
-    "5k-10k": 40,
+    "5k-10k": 41,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 534,
+      "count": 48,
+      "avg": 11
+    },
     "Friedman": {
       "sum": 26,
       "count": 3,
@@ -14944,14 +14980,9 @@
       "avg": 24
     },
     "BC Rich": {
-      "sum": 288,
+      "sum": 289,
       "count": 30,
       "avg": 10
-    },
-    "PRS": {
-      "sum": 534,
-      "count": 47,
-      "avg": 11
     },
     "Anderson": {
       "sum": 16,
@@ -15159,9 +15190,9 @@
       "avg": 15
     },
     "Powers Electric": {
-      "sum": 15,
+      "sum": 16,
       "count": 1,
-      "avg": 15
+      "avg": 16
     },
     "Flaxwood": {
       "sum": 15,
@@ -15285,7 +15316,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 12,
+    "2026-04-12": 13,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15305,7 +15336,7 @@
     "2026-04-05": 22
   },
   "categoryDistribution": {
-    "reverb": 410,
+    "reverb": 411,
     "marketplace": 45
   },
   "activeModelsCount": 379,
@@ -15320,7 +15351,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 41
+      "count": 42
     },
     {
       "username": "YellowJack6",
@@ -15372,10 +15403,10 @@
       "count": 55
     },
     "PRS": {
-      "avgPrice": 3859,
+      "avgPrice": 3940,
       "retailEst": 1000,
-      "avgDiscount": -285.9,
-      "count": 50
+      "avgDiscount": -294,
+      "count": 51
     },
     "Ibanez": {
       "avgPrice": 2500,
@@ -15421,16 +15452,16 @@
     }
   },
   "soldPrices": {
-    "count": 139,
-    "avg": 3431,
+    "count": 140,
+    "avg": 3415,
     "min": 26,
     "max": 36500,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 1305.6999999999998,
-      "count": 130,
+      "totalDays": 1306.8999999999999,
+      "count": 131,
       "avgDays": 10
     },
     "byModel": {
@@ -15473,6 +15504,14 @@
         "fastest": 0.1,
         "slowest": 1.8,
         "avgDays": 1
+      },
+      "fgn-les-paul-custom": {
+        "displayName": "History GH-LCV, 2010, Fujigen Japan made, Heritage wood. ( Gibson Les Paul Custom copy)",
+        "totalDays": 1.2,
+        "count": 1,
+        "fastest": 1.2,
+        "slowest": 1.2,
+        "avgDays": 1.2
       },
       "bc-rich-ironbird-2024ish": {
         "displayName": "B.C. Rich Ironbird 2024ish",
@@ -16408,6 +16447,13 @@
         "slowest": 1.8,
         "avgDays": 1.2
       },
+      "FGN": {
+        "totalDays": 139.2,
+        "count": 2,
+        "fastest": 1.2,
+        "slowest": 138,
+        "avgDays": 69.6
+      },
       "BC Rich": {
         "totalDays": 236.79999999999998,
         "count": 8,
@@ -16667,13 +16713,6 @@
         "slowest": 0.1,
         "avgDays": 0.1
       },
-      "FGN": {
-        "totalDays": 138,
-        "count": 1,
-        "fastest": 138,
-        "slowest": 138,
-        "avgDays": 138
-      },
       "Cort": {
         "totalDays": 4,
         "count": 1,
@@ -16929,14 +16968,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 426,
-      "sold": 132,
+      "total": 427,
+      "sold": 133,
       "fake": 0,
       "live": 294,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "PRS": {
+        "total": 51,
+        "sold": 17,
+        "fake": 0,
+        "live": 34,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Friedman": {
         "total": 3,
         "sold": 2,
@@ -17059,11 +17106,11 @@
       },
       "FGN": {
         "total": 4,
-        "sold": 1,
+        "sold": 2,
         "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 2,
+        "soldPct": 50,
+        "livePct": 50
       },
       "Vintage": {
         "total": 6,
@@ -17088,14 +17135,6 @@
         "live": 24,
         "soldPct": 25,
         "livePct": 75
-      },
-      "PRS": {
-        "total": 50,
-        "sold": 17,
-        "fake": 0,
-        "live": 33,
-        "soldPct": 34,
-        "livePct": 66
       },
       "Anderson": {
         "total": 2,
@@ -17666,8 +17705,8 @@
       {
         "label": "$1k–2k",
         "total": 116,
-        "sold": 37,
-        "rate": 32
+        "sold": 38,
+        "rate": 33
       },
       {
         "label": "$2k–3k",
@@ -17683,9 +17722,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 45,
+        "total": 46,
         "sold": 8,
-        "rate": 18
+        "rate": 17
       },
       {
         "label": "$10k+",
@@ -17695,6 +17734,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 55,
+        "sold": 17,
+        "rate": 31
+      },
       "Very Good": {
         "total": 137,
         "sold": 43,
@@ -17702,18 +17746,13 @@
       },
       "Excellent": {
         "total": 160,
-        "sold": 58,
-        "rate": 36
+        "sold": 59,
+        "rate": 37
       },
       "Used": {
         "total": 25,
         "sold": 4,
         "rate": 16
-      },
-      "Good": {
-        "total": 54,
-        "sold": 17,
-        "rate": 31
       },
       "Brand New": {
         "total": 37,
@@ -17766,9 +17805,9 @@
     },
     {
       "label": "1–5",
-      "total": 34,
+      "total": 35,
       "sold": 14,
-      "rate": 41
+      "rate": 40
     },
     {
       "label": "6–15",
@@ -17779,7 +17818,7 @@
     {
       "label": "16–30",
       "total": 110,
-      "sold": 38,
+      "sold": 39,
       "rate": 35
     },
     {
@@ -17791,24 +17830,24 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 262,
+      "total": 263,
       "sold": 90,
       "rate": 34
     },
     "off": {
       "total": 106,
-      "sold": 30,
-      "rate": 28
+      "sold": 31,
+      "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
       "total": 188,
-      "sold": 55,
-      "rate": 29
+      "sold": 56,
+      "rate": 30
     },
     "regular": {
-      "total": 164,
+      "total": 165,
       "sold": 53,
       "rate": 32
     }
@@ -17817,8 +17856,8 @@
     {
       "state": "CA",
       "total": 51,
-      "sold": 13,
-      "rate": 25
+      "sold": 14,
+      "rate": 27
     },
     {
       "state": "TX",
@@ -17905,6 +17944,12 @@
       "rate": 13
     },
     {
+      "state": "CO",
+      "total": 7,
+      "sold": 2,
+      "rate": 29
+    },
+    {
       "state": "NC",
       "total": 7,
       "sold": 2,
@@ -17915,12 +17960,6 @@
       "total": 7,
       "sold": 2,
       "rate": 29
-    },
-    {
-      "state": "CO",
-      "total": 6,
-      "sold": 2,
-      "rate": 33
     },
     {
       "state": "AZ",
