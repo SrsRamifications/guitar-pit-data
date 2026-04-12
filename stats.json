@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-04-12T15:59:10.813Z",
-  "totalLinks": 451,
-  "totalBeforeFilter": 490,
+  "generatedAt": "2026-04-12T16:24:02.398Z",
+  "totalLinks": 452,
+  "totalBeforeFilter": 491,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 445,
+  "totalWithPrice": 446,
   "overall": {
-    "count": 445,
-    "sum": 2303084.13,
-    "avg": 5175,
+    "count": 446,
+    "sum": 2305600.13,
+    "avg": 5170,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 421,
-    "sum": 1145219.15,
+    "count": 422,
+    "sum": 1147735.15,
     "avg": 2720,
     "min": 26,
     "max": 9000,
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 315,
-      "sum": 1699890.78,
+      "count": 316,
+      "sum": 1702406.78,
       "min": 26,
       "max": 443302,
-      "avg": 5396
+      "avg": 5387
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 37,
-      "sum": 304592.83,
+      "count": 38,
+      "sum": 307108.83,
       "min": 374.99,
       "max": 99000,
-      "avg": 8232
+      "avg": 8082
     },
     "reverb": {
       "count": 408,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 14,
-      "sum": 216924,
+      "count": 15,
+      "sum": 219440,
       "min": 1200,
       "max": 99000,
-      "avg": 15495
+      "avg": 14629
     },
     "reverb.com": {
       "count": 408,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "jackson-dinky-custom-shop": {
+      "displayName": "Jackson Custom Shop Dinky HSH FR Black",
+      "brand": "Jackson",
+      "model": "Dinky",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 2516,
+      "min": 2516,
+      "max": 2516,
+      "sightings": [
+        {
+          "price": 2516,
+          "date": "2026-04-12T16:23:45.570Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Jackson Custom Shop Dinky HSH FR Black",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/jackson-custom-shop-dinky-hsh-fr-black-2488494",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2516,
+          "min": 2516,
+          "max": 2516,
+          "avg": 2516
+        }
+      },
+      "avg": 2516
+    },
     "nik-huber-krautster-ii": {
       "displayName": "Nik Huber Krautster II Black 2020",
       "brand": "Nik Huber",
@@ -6661,52 +6692,6 @@
         }
       },
       "avg": 4100
-    },
-    "bc-rich-warlock-light": {
-      "displayName": "B.C. Rich Warlock - Light pink",
-      "brand": "BC Rich",
-      "model": "Warlock Light",
-      "variant": null,
-      "count": 1,
-      "sum": 700,
-      "min": 700,
-      "max": 700,
-      "sightings": [
-        {
-          "price": 700,
-          "date": "2026-04-06T05:28:54.626Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich Warlock - Light pink",
-          "url": "https://reverb.com/item/95708621-b-c-rich-warlock-light-pink",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 700,
-          "min": 700,
-          "max": 700,
-          "avg": 700
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 700,
-        "min": 700,
-        "max": 700,
-        "prices": [
-          {
-            "price": 700,
-            "askingPrice": 700,
-            "date": "2026-04-07T21:28:46.385Z",
-            "title": "B.C. Rich Warlock - Light pink",
-            "url": "https://reverb.com/item/95708621-b-c-rich-warlock-light-pink"
-          }
-        ]
-      },
-      "avg": 700
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14414,17 +14399,63 @@
         }
       },
       "avg": 990
+    },
+    "bc-rich-warlock-light": {
+      "displayName": "B.C. Rich Warlock - Light pink",
+      "brand": "BC Rich",
+      "model": "Warlock Light",
+      "variant": null,
+      "count": 1,
+      "sum": 700,
+      "min": 700,
+      "max": 700,
+      "sightings": [
+        {
+          "price": 700,
+          "date": "2026-04-06T05:28:54.626Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Warlock - Light pink",
+          "url": "https://reverb.com/item/95708621-b-c-rich-warlock-light-pink",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 700,
+          "min": 700,
+          "max": 700,
+          "avg": 700
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 700,
+        "min": 700,
+        "max": 700,
+        "prices": [
+          {
+            "price": 700,
+            "askingPrice": 700,
+            "date": "2026-04-07T21:28:46.385Z",
+            "title": "B.C. Rich Warlock - Light pink",
+            "url": "https://reverb.com/item/95708621-b-c-rich-warlock-light-pink"
+          }
+        ]
+      },
+      "avg": 700
     }
   },
   "byCondition": {
     "Used": {
-      "count": 23,
-      "sum": 182712.86999999994,
+      "count": 24,
+      "sum": 185228.86999999994,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 7944,
+      "avg": 7718,
       "min": 1109.99,
       "max": 99000
     },
@@ -14552,8 +14583,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5396,
-      "count": 315
+      "avg": 5387,
+      "count": 316
     },
     "03": {
       "name": "Mar",
@@ -14707,7 +14738,7 @@
     "0-500": 22,
     "500-1k": 36,
     "1k-2k": 115,
-    "2k-3k": 97,
+    "2k-3k": 98,
     "3k-5k": 111,
     "5k-10k": 45,
     "10k+": 19
@@ -14716,12 +14747,17 @@
     "0-500": 22,
     "500-1k": 36,
     "1k-2k": 115,
-    "2k-3k": 97,
+    "2k-3k": 98,
     "3k-5k": 111,
     "5k-10k": 40,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Jackson": {
+      "sum": 161,
+      "count": 13,
+      "avg": 12
+    },
     "Nik Huber": {
       "sum": 0,
       "count": 1,
@@ -14733,7 +14769,7 @@
       "avg": 19
     },
     "Rickenbacker": {
-      "sum": 195,
+      "sum": 196,
       "count": 16,
       "avg": 12
     },
@@ -14808,7 +14844,7 @@
       "avg": 22
     },
     "G&L": {
-      "sum": 5,
+      "sum": 6,
       "count": 2,
       "avg": 3
     },
@@ -14846,11 +14882,6 @@
       "sum": 85,
       "count": 2,
       "avg": 43
-    },
-    "Jackson": {
-      "sum": 161,
-      "count": 12,
-      "avg": 13
     },
     "Nash": {
       "sum": 27,
@@ -14978,14 +15009,14 @@
       "avg": 15
     },
     "Fender Custom Shop": {
-      "sum": 31,
+      "sum": 32,
       "count": 2,
       "avg": 16
     },
     "Milkman": {
-      "sum": 15,
+      "sum": 16,
       "count": 1,
-      "avg": 15
+      "avg": 16
     },
     "Seymour Duncan": {
       "sum": 16,
@@ -15138,9 +15169,9 @@
       "avg": 8
     },
     "Valley Arts": {
-      "sum": 7,
+      "sum": 8,
       "count": 1,
-      "avg": 7
+      "avg": 8
     },
     "The Loar": {
       "sum": 10,
@@ -15149,7 +15180,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-12": 7,
+    "2026-04-12": 8,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
@@ -15169,10 +15200,10 @@
     "2026-04-05": 23
   },
   "categoryDistribution": {
-    "marketplace": 43,
+    "marketplace": 44,
     "reverb": 408
   },
-  "activeModelsCount": 376,
+  "activeModelsCount": 377,
   "topPosters": [
     {
       "username": "GP",
@@ -15183,12 +15214,12 @@
       "count": 82
     },
     {
-      "username": "YellowJack6",
+      "username": "Shteefe",
       "count": 41
     },
     {
-      "username": "Shteefe",
-      "count": 40
+      "username": "YellowJack6",
+      "count": 41
     },
     {
       "username": "WontonGG",
@@ -15248,10 +15279,10 @@
       "count": 20
     },
     "Jackson": {
-      "avgPrice": 4080,
+      "avgPrice": 3969,
       "retailEst": 1000,
-      "avgDiscount": -308,
-      "count": 13
+      "avgDiscount": -296.9,
+      "count": 14
     },
     "Music Man": {
       "avgPrice": 2357,
@@ -15633,14 +15664,6 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
-      },
-      "bc-rich-warlock-light": {
-        "displayName": "B.C. Rich Warlock - Light pink",
-        "totalDays": 1.9,
-        "count": 1,
-        "fastest": 1.9,
-        "slowest": 1.9,
-        "avgDays": 1.9
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -16233,6 +16256,14 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
+      },
+      "bc-rich-warlock-light": {
+        "displayName": "B.C. Rich Warlock - Light pink",
+        "totalDays": 1.9,
+        "count": 1,
+        "fastest": 1.9,
+        "slowest": 1.9,
+        "avgDays": 1.9
       }
     },
     "byBrand": {
@@ -16773,14 +16804,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 422,
+      "total": 423,
       "sold": 130,
       "fake": 0,
-      "live": 292,
+      "live": 293,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Jackson": {
+        "total": 14,
+        "sold": 2,
+        "fake": 0,
+        "live": 12,
+        "soldPct": 14,
+        "livePct": 86
+      },
       "Nik Huber": {
         "total": 1,
         "sold": 0,
@@ -16988,14 +17027,6 @@
         "live": 3,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Jackson": {
-        "total": 13,
-        "sold": 2,
-        "fake": 0,
-        "live": 11,
-        "soldPct": 15,
-        "livePct": 85
       },
       "Nash": {
         "total": 2,
@@ -17507,7 +17538,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 97,
+        "total": 98,
         "sold": 33,
         "rate": 34
       },
@@ -17532,7 +17563,7 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 23,
+        "total": 24,
         "sold": 3,
         "rate": 13
       },
