@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T15:19:59.792Z",
+  "generatedAt": "2026-04-13T15:26:38.032Z",
   "totalLinks": 329,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 323,
   "overall": {
     "count": 323,
-    "sum": 1955079.26,
-    "avg": 6053,
+    "sum": 1957910.26,
+    "avg": 6062,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 304,
-    "sum": 847513.28,
-    "avg": 2788,
+    "sum": 850344.28,
+    "avg": 2797,
     "min": 33,
     "max": 9699,
-    "median": 2325
+    "median": 2374
   },
   "outliers": {
     "thresholdHigh": 9750,
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 193,
-      "sum": 1351885.91,
+      "sum": 1354716.91,
       "min": 80,
       "max": 443302,
-      "avg": 7005
+      "avg": 7019
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 294,
-      "sum": 1668979.36,
+      "sum": 1671810.36,
       "min": 33,
       "max": 443302,
-      "avg": 5677
+      "avg": 5686
     },
     "marketplace": {
       "count": 29,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 294,
-      "sum": 1668979.36,
+      "sum": 1671810.36,
       "min": 33,
       "max": 443302,
-      "avg": 5677
+      "avg": 5686
     },
     "guitarcenter.com": {
       "count": 9,
@@ -283,6 +283,37 @@
     }
   },
   "byModel": {
+    "esp-horizion-iii-maziora-floyd-rose": {
+      "displayName": "ESP Horizion III Maziora Color Shift Andromeda, Near-Mint w/ Seymour Duncan & Floyd Rose",
+      "brand": "ESP",
+      "model": "Horizion III Maziora",
+      "variant": "Floyd Rose",
+      "count": 1,
+      "sum": 3330,
+      "min": 3330,
+      "max": 3330,
+      "sightings": [
+        {
+          "price": 3330,
+          "date": "2026-04-13T15:26:23.356Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP Horizion III Maziora Color Shift Andromeda, Near-Mint w/ Seymour Duncan & Floyd Rose",
+          "url": "https://reverb.com/item/91923730-esp-horizion-iii-maziora-color-shift-andromeda-near-mint-w-seymour-duncan-floyd-rose",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3330,
+          "min": 3330,
+          "max": 3330,
+          "avg": 3330
+        }
+      },
+      "avg": 3330
+    },
     "gibson-les-paul-custom-shop-murphy-lab": {
       "displayName": "Gibson Custom Shop Murphy Lab '59 Les Paul Heavy Aged - Green Lemon Fade",
       "brand": "Gibson",
@@ -6597,37 +6628,6 @@
       },
       "avg": 1995
     },
-    "bc-rich-bc-platinum-series": {
-      "displayName": "B.C. Rich bc Platinum Series Warlock Guitar - MIK Made In Korea - headstock repaired - Pink",
-      "brand": "BC Rich",
-      "model": "bc Platinum Series",
-      "variant": null,
-      "count": 1,
-      "sum": 499,
-      "min": 499,
-      "max": 499,
-      "sightings": [
-        {
-          "price": 499,
-          "date": "2026-04-06T22:54:21.814Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich bc Platinum Series Warlock Guitar - MIK Made In Korea - headstock repaired - Pink",
-          "url": "https://reverb.com/item/95719262-b-c-rich-bc-platinum-series-warlock-guitar-mik-made-in-korea-headstock-repaired-pink",
-          "condition": "Fair"
-        }
-      ],
-      "byCondition": {
-        "Fair": {
-          "count": 1,
-          "sum": 499,
-          "min": 499,
-          "max": 499,
-          "avg": 499
-        }
-      },
-      "avg": 499
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10590,8 +10590,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 112,
-      "sum": 627226.73,
+      "count": 113,
+      "sum": 630556.73,
       "sold": {
         "count": 40,
         "sum": 140255.43,
@@ -10599,7 +10599,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 5600,
+      "avg": 5580,
       "min": 80,
       "max": 190000
     },
@@ -10668,8 +10668,8 @@
       "max": 6800
     },
     "Fair": {
-      "count": 6,
-      "sum": 12747,
+      "count": 5,
+      "sum": 12248,
       "sold": {
         "count": 1,
         "sum": 4699,
@@ -10677,7 +10677,7 @@
         "min": 4699,
         "max": 4699
       },
-      "avg": 2125,
+      "avg": 2450,
       "min": 250,
       "max": 4750
     },
@@ -10721,7 +10721,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 7005,
+      "avg": 7019,
       "count": 193
     },
     "03": {
@@ -10873,20 +10873,20 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 18,
+    "0-500": 17,
     "500-1k": 23,
     "1k-2k": 84,
     "2k-3k": 71,
-    "3k-5k": 72,
+    "3k-5k": 73,
     "5k-10k": 38,
     "10k+": 17
   },
   "priceDistributionFiltered": {
-    "0-500": 18,
+    "0-500": 17,
     "500-1k": 23,
     "1k-2k": 84,
     "2k-3k": 71,
-    "3k-5k": 72,
+    "3k-5k": 73,
     "5k-10k": 36,
     "10k+": 0
   },
@@ -10897,7 +10897,7 @@
       "avg": 19
     },
     "PRS": {
-      "sum": 337,
+      "sum": 338,
       "count": 31,
       "avg": 11
     },
@@ -10922,8 +10922,8 @@
       "avg": 8
     },
     "BC Rich": {
-      "sum": 201,
-      "count": 20,
+      "sum": 194,
+      "count": 19,
       "avg": 10
     },
     "Friedman": {
@@ -11248,14 +11248,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 18,
+    "2026-04-13": 19,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
-    "2026-04-06": 4,
+    "2026-04-06": 3,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11283,11 +11283,11 @@
     },
     {
       "username": "YellowJack6",
-      "count": 29
+      "count": 28
     },
     {
       "username": "WontonGG",
-      "count": 26
+      "count": 27
     },
     {
       "username": "Madero",
@@ -11343,10 +11343,10 @@
       "count": 16
     },
     "BC Rich": {
-      "avgPrice": 2210,
+      "avgPrice": 2300,
       "retailEst": 200,
-      "avgDiscount": -1005,
-      "count": 20
+      "avgDiscount": -1050,
+      "count": 19
     },
     "Rickenbacker": {
       "avgPrice": 4684,
@@ -12282,20 +12282,20 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1053.5622707013995,
-      "count": 62,
-      "avgPctDrop": 17
+      "totalPctDrop": 1063.5622707013995,
+      "count": 63,
+      "avgPctDrop": 16.9
     },
     "byBrand": {
+      "ESP": {
+        "totalPctDrop": 32.629258994519894,
+        "count": 3,
+        "avgPctDrop": 10.9
+      },
       "Gibson": {
         "totalPctDrop": 175.26675584505344,
         "count": 12,
         "avgPctDrop": 14.6
-      },
-      "ESP": {
-        "totalPctDrop": 22.629258994519894,
-        "count": 2,
-        "avgPctDrop": 11.3
       },
       "Reverend": {
         "totalPctDrop": 6.0606060606060606,
@@ -12444,6 +12444,14 @@
       "livePct": 71
     },
     "byBrand": {
+      "ESP": {
+        "total": 8,
+        "sold": 3,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 38,
+        "livePct": 63
+      },
       "Gibson": {
         "total": 47,
         "sold": 9,
@@ -12476,14 +12484,6 @@
         "soldPct": 29,
         "livePct": 71
       },
-      "ESP": {
-        "total": 7,
-        "sold": 3,
-        "fake": 0,
-        "live": 4,
-        "soldPct": 43,
-        "livePct": 57
-      },
       "Reverend": {
         "total": 1,
         "sold": 0,
@@ -12501,12 +12501,12 @@
         "livePct": 76
       },
       "BC Rich": {
-        "total": 20,
+        "total": 19,
         "sold": 5,
         "fake": 0,
-        "live": 15,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 14,
+        "soldPct": 26,
+        "livePct": 74
       },
       "Friedman": {
         "total": 3,
@@ -13040,9 +13040,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 18,
+        "total": 17,
         "sold": 5,
-        "rate": 28
+        "rate": 29
       },
       {
         "label": "$500–1k",
@@ -13064,9 +13064,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 72,
+        "total": 73,
         "sold": 25,
-        "rate": 35
+        "rate": 34
       },
       {
         "label": "$5k–10k",
@@ -13083,7 +13083,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 112,
+        "total": 113,
         "sold": 43,
         "rate": 38
       },
@@ -13113,9 +13113,9 @@
         "rate": 0
       },
       "Fair": {
-        "total": 6,
+        "total": 5,
         "sold": 1,
-        "rate": 17
+        "rate": 20
       },
       "Non Functioning": {
         "total": 1,
@@ -13142,7 +13142,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 103
+    "avgShippingCost": 104
   },
   "watcherDemand": [
     {
@@ -13220,6 +13220,12 @@
       "rate": 6
     },
     {
+      "state": "WA",
+      "total": 13,
+      "sold": 4,
+      "rate": 31
+    },
+    {
       "state": "IL",
       "total": 13,
       "sold": 6,
@@ -13230,12 +13236,6 @@
       "total": 12,
       "sold": 5,
       "rate": 42
-    },
-    {
-      "state": "WA",
-      "total": 12,
-      "sold": 4,
-      "rate": 33
     },
     {
       "state": "FL",
@@ -13256,16 +13256,16 @@
       "rate": 25
     },
     {
-      "state": "MD",
-      "total": 8,
-      "sold": 1,
-      "rate": 13
-    },
-    {
       "state": "MO",
       "total": 7,
       "sold": 2,
       "rate": 29
+    },
+    {
+      "state": "MD",
+      "total": 7,
+      "sold": 1,
+      "rate": 14
     },
     {
       "state": "CO",
