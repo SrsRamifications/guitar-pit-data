@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T13:42:21.070Z",
+  "generatedAt": "2026-04-13T13:44:40.893Z",
   "totalLinks": 328,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 322,
   "overall": {
     "count": 322,
-    "sum": 1945592.26,
-    "avg": 6042,
+    "sum": 1946764.26,
+    "avg": 6046,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 301,
-    "sum": 818727.28,
-    "avg": 2720,
+    "sum": 819899.28,
+    "avg": 2724,
     "min": 33,
     "max": 9500,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 9600,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 192,
-      "sum": 1342398.91,
+      "sum": 1343570.91,
       "min": 80,
       "max": 443302,
-      "avg": 6992
+      "avg": 6998
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 293,
-      "sum": 1659492.36,
+      "sum": 1660664.36,
       "min": 33,
       "max": 443302,
-      "avg": 5664
+      "avg": 5668
     },
     "marketplace": {
       "count": 29,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 293,
-      "sum": 1659492.36,
+      "sum": 1660664.36,
       "min": 33,
       "max": 443302,
-      "avg": 5664
+      "avg": 5668
     },
     "guitarcenter.com": {
       "count": 9,
@@ -299,6 +299,37 @@
     }
   },
   "byModel": {
+    "prs-standard-satin": {
+      "displayName": "Paul Reed Smith (PRS) 2006 Standard 22 Satin Vintage Orange Wide Thin Neck [6 108530] (02/20)",
+      "brand": "PRS",
+      "model": "Standard",
+      "variant": "Satin",
+      "count": 1,
+      "sum": 2852,
+      "min": 2852,
+      "max": 2852,
+      "sightings": [
+        {
+          "price": 2852,
+          "date": "2026-04-13T13:44:25.797Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Paul Reed Smith (PRS) 2006 Standard 22 Satin Vintage Orange Wide Thin Neck [6 108530] (02/20)",
+          "url": "https://reverb.com/item/94581216-paul-reed-smith-prs-2006-standard-22-satin-vintage-orange-wide-thin-neck-6-108530-02-20",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2852,
+          "min": 2852,
+          "max": 2852,
+          "avg": 2852
+        }
+      },
+      "avg": 2852
+    },
     "rickenbacker-stratocaster-american-professional-evertune": {
       "displayName": "Fender American Professional II Stratocaster Miami Blue , Evertune Bridge System",
       "brand": "Rickenbacker",
@@ -6612,52 +6643,6 @@
       },
       "avg": 2699
     },
-    "kiesel-hyperdrive-purple": {
-      "displayName": "Kiesel Hyperdrive 6 Purple Sunburst",
-      "brand": "Kiesel",
-      "model": "Hyperdrive Purple",
-      "variant": null,
-      "count": 1,
-      "sum": 1680,
-      "min": 1680,
-      "max": 1680,
-      "sightings": [
-        {
-          "price": 1680,
-          "date": "2026-04-06T22:52:51.823Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel Hyperdrive 6 Purple Sunburst",
-          "url": "https://reverb.com/item/95714289-kiesel-hyperdrive-6-purple-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1680,
-          "min": 1680,
-          "max": 1680,
-          "avg": 1680
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1680,
-        "min": 1680,
-        "max": 1680,
-        "prices": [
-          {
-            "price": 1680,
-            "askingPrice": 1680,
-            "date": "2026-04-11T17:13:19.316Z",
-            "title": "Kiesel Hyperdrive 6 Purple Sunburst",
-            "url": "https://reverb.com/item/95714289-kiesel-hyperdrive-6-purple-sunburst"
-          }
-        ]
-      },
-      "avg": 1680
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10619,17 +10604,31 @@
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 97,
-      "sum": 734239.56,
+    "Good": {
+      "count": 41,
+      "sum": 137452.95,
       "sold": {
-        "count": 28,
-        "sum": 63695.780000000006,
-        "avg": 2275,
+        "count": 10,
+        "sum": 23442.27,
+        "avg": 2344,
+        "min": 99,
+        "max": 4777.5
+      },
+      "avg": 3353,
+      "min": 99,
+      "max": 32407
+    },
+    "Very Good": {
+      "count": 96,
+      "sum": 732559.56,
+      "sold": {
+        "count": 27,
+        "sum": 62015.780000000006,
+        "avg": 2297,
         "min": 475,
         "max": 5900
       },
-      "avg": 7569,
+      "avg": 7631,
       "min": 33,
       "max": 443302
     },
@@ -10671,20 +10670,6 @@
       "avg": 5564,
       "min": 80,
       "max": 190000
-    },
-    "Good": {
-      "count": 40,
-      "sum": 134600.95,
-      "sold": {
-        "count": 10,
-        "sum": 23442.27,
-        "avg": 2344,
-        "min": 99,
-        "max": 4777.5
-      },
-      "avg": 3365,
-      "min": 99,
-      "max": 32407
     },
     "Mint": {
       "count": 7,
@@ -10751,7 +10736,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 6992,
+      "avg": 6998,
       "count": 192
     },
     "03": {
@@ -10905,8 +10890,8 @@
   "priceDistribution": {
     "0-500": 18,
     "500-1k": 23,
-    "1k-2k": 85,
-    "2k-3k": 71,
+    "1k-2k": 84,
+    "2k-3k": 72,
     "3k-5k": 71,
     "5k-10k": 37,
     "10k+": 17
@@ -10914,15 +10899,20 @@
   "priceDistributionFiltered": {
     "0-500": 18,
     "500-1k": 23,
-    "1k-2k": 85,
-    "2k-3k": 71,
+    "1k-2k": 84,
+    "2k-3k": 72,
     "3k-5k": 71,
     "5k-10k": 33,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 336,
+      "count": 31,
+      "avg": 11
+    },
     "Rickenbacker": {
-      "sum": 213,
+      "sum": 214,
       "count": 20,
       "avg": 11
     },
@@ -10950,11 +10940,6 @@
       "sum": 200,
       "count": 20,
       "avg": 10
-    },
-    "PRS": {
-      "sum": 284,
-      "count": 30,
-      "avg": 9
     },
     "Friedman": {
       "sum": 28,
@@ -11087,9 +11072,9 @@
       "avg": 45
     },
     "Kiesel": {
-      "sum": 162,
-      "count": 9,
-      "avg": 18
+      "sum": 155,
+      "count": 8,
+      "avg": 19
     },
     "Parker": {
       "sum": 21,
@@ -11278,14 +11263,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 15,
+    "2026-04-13": 16,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
-    "2026-04-06": 6,
+    "2026-04-06": 5,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11301,7 +11286,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 105
+      "count": 104
     },
     {
       "username": "Beijing Bob",
@@ -11361,10 +11346,10 @@
       "count": 43
     },
     "PRS": {
-      "avgPrice": 4716,
+      "avgPrice": 4660,
       "retailEst": 1000,
-      "avgDiscount": -371.6,
-      "count": 32
+      "avgDiscount": -366,
+      "count": 33
     },
     "Ibanez": {
       "avgPrice": 2500,
@@ -11386,16 +11371,16 @@
     }
   },
   "soldPrices": {
-    "count": 97,
-    "avg": 3888,
+    "count": 96,
+    "avg": 3911,
     "min": 99,
     "max": 36500,
     "avgDiscount": 10
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 429.40000000000003,
-      "count": 90,
+      "totalDays": 424.59999999999997,
+      "count": 89,
       "avgDays": 4.8
     },
     "byModel": {
@@ -11734,14 +11719,6 @@
         "fastest": 1.2,
         "slowest": 1.2,
         "avgDays": 1.2
-      },
-      "kiesel-hyperdrive-purple": {
-        "displayName": "Kiesel Hyperdrive 6 Purple Sunburst",
-        "totalDays": 4.8,
-        "count": 1,
-        "fastest": 4.8,
-        "slowest": 4.8,
-        "avgDays": 4.8
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -12233,19 +12210,19 @@
         "slowest": 1.2,
         "avgDays": 1.2
       },
-      "Kiesel": {
-        "totalDays": 38.5,
-        "count": 5,
-        "fastest": 0.6,
-        "slowest": 16.3,
-        "avgDays": 7.7
-      },
       "Hoyer": {
         "totalDays": 1,
         "count": 1,
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
+      },
+      "Kiesel": {
+        "totalDays": 33.7,
+        "count": 4,
+        "fastest": 0.6,
+        "slowest": 16.3,
+        "avgDays": 8.4
       },
       "Jackson": {
         "totalDays": 1.8,
@@ -12490,13 +12467,21 @@
   "sellThrough": {
     "overall": {
       "total": 307,
-      "sold": 90,
+      "sold": 89,
       "fake": 0,
-      "live": 217,
+      "live": 218,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
+      "PRS": {
+        "total": 33,
+        "sold": 9,
+        "fake": 0,
+        "live": 24,
+        "soldPct": 27,
+        "livePct": 73
+      },
       "Rickenbacker": {
         "total": 21,
         "sold": 1,
@@ -12552,14 +12537,6 @@
         "live": 15,
         "soldPct": 25,
         "livePct": 75
-      },
-      "PRS": {
-        "total": 32,
-        "sold": 9,
-        "fake": 0,
-        "live": 23,
-        "soldPct": 28,
-        "livePct": 72
       },
       "Friedman": {
         "total": 3,
@@ -12770,12 +12747,12 @@
         "livePct": 0
       },
       "Kiesel": {
-        "total": 9,
-        "sold": 5,
+        "total": 8,
+        "sold": 4,
         "fake": 0,
         "live": 4,
-        "soldPct": 56,
-        "livePct": 44
+        "soldPct": 50,
+        "livePct": 50
       },
       "Parker": {
         "total": 2,
@@ -13105,13 +13082,13 @@
       },
       {
         "label": "$1k–2k",
-        "total": 85,
-        "sold": 25,
+        "total": 84,
+        "sold": 24,
         "rate": 29
       },
       {
         "label": "$2k–3k",
-        "total": 71,
+        "total": 72,
         "sold": 25,
         "rate": 35
       },
@@ -13135,10 +13112,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 41,
+        "sold": 10,
+        "rate": 24
+      },
       "Very Good": {
-        "total": 97,
-        "sold": 31,
-        "rate": 32
+        "total": 96,
+        "sold": 30,
+        "rate": 31
       },
       "Brand New": {
         "total": 33,
@@ -13154,11 +13136,6 @@
         "total": 112,
         "sold": 44,
         "rate": 39
-      },
-      "Good": {
-        "total": 40,
-        "sold": 10,
-        "rate": 25
       },
       "Mint": {
         "total": 7,
@@ -13212,15 +13189,15 @@
     },
     {
       "label": "6–15",
-      "total": 69,
+      "total": 70,
       "sold": 17,
-      "rate": 25
+      "rate": 24
     },
     {
       "label": "16–30",
-      "total": 74,
-      "sold": 29,
-      "rate": 39
+      "total": 73,
+      "sold": 28,
+      "rate": 38
     },
     {
       "label": "31+",
@@ -13232,7 +13209,7 @@
   "offersEffect": {
     "on": {
       "total": 185,
-      "sold": 65,
+      "sold": 64,
       "rate": 35
     },
     "off": {
@@ -13244,8 +13221,8 @@
   "sellerType": {
     "preferred": {
       "total": 130,
-      "sold": 38,
-      "rate": 29
+      "sold": 37,
+      "rate": 28
     },
     "regular": {
       "total": 108,
@@ -13273,16 +13250,16 @@
       "rate": 6
     },
     {
-      "state": "IL",
-      "total": 13,
-      "sold": 7,
-      "rate": 54
-    },
-    {
       "state": "TN",
       "total": 12,
       "sold": 5,
       "rate": 42
+    },
+    {
+      "state": "IL",
+      "total": 12,
+      "sold": 6,
+      "rate": 50
     },
     {
       "state": "WA",
@@ -13357,6 +13334,12 @@
       "rate": 0
     },
     {
+      "state": "TOKYO",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
+    },
+    {
       "state": "NH",
       "total": 3,
       "sold": 1,
@@ -13418,12 +13401,6 @@
     },
     {
       "state": "MN",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
-    },
-    {
-      "state": "TOKYO",
       "total": 2,
       "sold": 1,
       "rate": 50
