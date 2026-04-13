@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-04-13T05:14:09.361Z",
-  "totalLinks": 468,
-  "totalBeforeFilter": 507,
+  "generatedAt": "2026-04-13T05:22:00.453Z",
+  "totalLinks": 469,
+  "totalBeforeFilter": 508,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 462,
+  "totalWithPrice": 463,
   "overall": {
-    "count": 462,
-    "sum": 2346612.12,
-    "avg": 5079,
+    "count": 463,
+    "sum": 2348212.11,
+    "avg": 5072,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 438,
-    "sum": 1188747.14,
-    "avg": 2714,
+    "count": 439,
+    "sum": 1190347.13,
+    "avg": 2711,
     "min": 26,
     "max": 9000,
     "median": 2300
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 332,
-      "sum": 1743418.77,
+      "count": 333,
+      "sum": 1745018.76,
       "min": 26,
       "max": 443302,
-      "avg": 5251
+      "avg": 5240
     },
     "2026-03": {
       "count": 130,
@@ -235,35 +235,35 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 41,
+      "sum": 313203.81,
+      "min": 374.99,
+      "max": 99000,
+      "avg": 7639
+    },
     "reverb": {
       "count": 422,
       "sum": 2035008.3,
       "min": 26,
       "max": 443302,
       "avg": 4822
-    },
-    "marketplace": {
-      "count": 40,
-      "sum": 311603.82,
-      "min": 374.99,
-      "max": 99000,
-      "avg": 7790
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 16,
+      "sum": 58477.85,
+      "min": 1109.99,
+      "max": 26999.99,
+      "avg": 3655
+    },
     "reverb.com": {
       "count": 422,
       "sum": 2035008.3,
       "min": 26,
       "max": 443302,
       "avg": 4822
-    },
-    "guitarcenter.com": {
-      "count": 15,
-      "sum": 56877.86,
-      "min": 1109.99,
-      "max": 26999.99,
-      "avg": 3792
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-taylor-solid-body": {
+      "displayName": "Used 2007 Taylor Solid Body Koa Solid Body Electric Guitar Koa",
+      "brand": "Rickenbacker",
+      "model": "Taylor Solid Body",
+      "variant": null,
+      "count": 1,
+      "sum": 1599.99,
+      "min": 1599.99,
+      "max": 1599.99,
+      "sightings": [
+        {
+          "price": 1599.99,
+          "date": "2026-04-13T05:21:44.686Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used 2007 Taylor Solid Body Koa Solid Body Electric Guitar Koa",
+          "url": "https://www.guitarcenter.com/Used/Taylor/Used-2007-Taylor-Solid-Body-Koa-Solid-Body-Electric-Guitar.gc?source=4WWRWXGP&utm_id=22041530336&utm_creative=736454622928&utm_marketing_tactic=guitar&gad_source=4&gad_campaignid=22041530336&gbraid=0AAAAADtcCuz__GaUS_OIpRYdmnVceJvN5",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1599.99,
+          "min": 1599.99,
+          "max": 1599.99,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
+    },
     "reverend-commando-usa": {
       "displayName": "1999 USA Reverend Commando",
       "brand": "Reverend",
@@ -6890,37 +6921,6 @@
         }
       },
       "avg": 1510
-    },
-    "prs-mccarty-10-top": {
-      "displayName": "Paul Reed Smith McCarty SC594 10 Top",
-      "brand": "PRS",
-      "model": "McCarty",
-      "variant": "10 Top",
-      "count": 1,
-      "sum": 2852,
-      "min": 2852,
-      "max": 2852,
-      "sightings": [
-        {
-          "price": 2852,
-          "date": "2026-04-06T22:42:46.379Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Paul Reed Smith McCarty SC594 10 Top",
-          "url": "https://reverb.com/item/95722510-paul-reed-smith-mccarty-sc594-10-top",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2852,
-          "min": 2852,
-          "max": 2852,
-          "avg": 2852
-        }
-      },
-      "avg": 2852
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14919,9 +14919,51 @@
         ]
       },
       "avg": 3299
+    },
+    "prs-mccarty-10-top": {
+      "displayName": "Paul Reed Smith McCarty SC594 10 Top",
+      "brand": "PRS",
+      "model": "McCarty",
+      "variant": "10 Top",
+      "count": 1,
+      "sum": 2852,
+      "min": 2852,
+      "max": 2852,
+      "sightings": [
+        {
+          "price": 2852,
+          "date": "2026-04-06T22:42:46.379Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Paul Reed Smith McCarty SC594 10 Top",
+          "url": "https://reverb.com/item/95722510-paul-reed-smith-mccarty-sc594-10-top",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2852,
+          "min": 2852,
+          "max": 2852,
+          "avg": 2852
+        }
+      },
+      "avg": 2852
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 27,
+      "sum": 191323.84999999992,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7086,
+      "min": 1109.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 164,
       "sum": 779587.6799999999,
@@ -14977,17 +15019,6 @@
       "avg": 5971,
       "min": 33,
       "max": 443302
-    },
-    "Used": {
-      "count": 26,
-      "sum": 189723.85999999993,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7297,
-      "min": 1109.99,
-      "max": 99000
     },
     "Mint": {
       "count": 13,
@@ -15057,8 +15088,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5251,
-      "count": 332
+      "avg": 5240,
+      "count": 333
     },
     "03": {
       "name": "Mar",
@@ -15094,13 +15125,6 @@
       "oldPrice": "$4,836",
       "newPrice": "$4,647",
       "date": "2026-04-08T06:57:39.914Z"
-    },
-    {
-      "title": "Paul Reed Smith McCarty SC594 10 Top",
-      "url": "https://reverb.com/item/95722510-paul-reed-smith-mccarty-sc594-10-top",
-      "oldPrice": "$2,999",
-      "newPrice": "$2,852",
-      "date": "2026-04-11T21:13:27.929Z"
     },
     {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
@@ -15206,12 +15230,19 @@
       "oldPrice": "$3,240",
       "newPrice": "$2,592",
       "date": "2026-04-06T03:01:15.102Z"
+    },
+    {
+      "title": "Ernie Ball Music Man Tosin Abasi Signature Kaizen 6 2023 - Present - Mint",
+      "url": "https://reverb.com/item/95586573-ernie-ball-music-man-tosin-abasi-signature-kaizen-6-2023-present-mint",
+      "oldPrice": "$2,150",
+      "newPrice": "$2,000",
+      "date": "2026-04-07T23:01:54.012Z"
     }
   ],
   "priceDistribution": {
     "0-500": 24,
     "500-1k": 37,
-    "1k-2k": 121,
+    "1k-2k": 122,
     "2k-3k": 102,
     "3k-5k": 111,
     "5k-10k": 48,
@@ -15220,13 +15251,18 @@
   "priceDistributionFiltered": {
     "0-500": 24,
     "500-1k": 37,
-    "1k-2k": 121,
+    "1k-2k": 122,
     "2k-3k": 102,
     "3k-5k": 111,
     "5k-10k": 43,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 201,
+      "count": 19,
+      "avg": 11
+    },
     "Reverend": {
       "sum": 7,
       "count": 1,
@@ -15242,18 +15278,13 @@
       "count": 26,
       "avg": 10
     },
-    "Rickenbacker": {
-      "sum": 201,
-      "count": 18,
-      "avg": 11
-    },
     "Gibson": {
       "sum": 880,
       "count": 52,
       "avg": 17
     },
     "BC Rich": {
-      "sum": 300,
+      "sum": 301,
       "count": 31,
       "avg": 10
     },
@@ -15664,7 +15695,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 11,
+    "2026-04-13": 12,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
@@ -15685,10 +15716,10 @@
     "2026-04-05": 22
   },
   "categoryDistribution": {
-    "reverb": 422,
-    "marketplace": 46
+    "marketplace": 47,
+    "reverb": 422
   },
-  "activeModelsCount": 388,
+  "activeModelsCount": 389,
   "topPosters": [
     {
       "username": "GP",
@@ -15794,10 +15825,10 @@
       "count": 33
     },
     "Rickenbacker": {
-      "avgPrice": 5014,
+      "avgPrice": 4843,
       "retailEst": 1500,
-      "avgDiscount": -234.3,
-      "count": 19
+      "avgDiscount": -222.9,
+      "count": 20
     }
   },
   "soldPrices": {
@@ -17124,7 +17155,7 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1544.5975713327855,
+      "totalPctDrop": 1544.5975713327857,
       "count": 97,
       "avgPctDrop": 15.9
     },
@@ -17343,14 +17374,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 439,
+      "total": 440,
       "sold": 135,
       "fake": 0,
-      "live": 304,
+      "live": 305,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 20,
+        "sold": 1,
+        "fake": 0,
+        "live": 19,
+        "soldPct": 5,
+        "livePct": 95
+      },
       "Reverend": {
         "total": 1,
         "sold": 0,
@@ -17374,14 +17413,6 @@
         "live": 25,
         "soldPct": 22,
         "livePct": 78
-      },
-      "Rickenbacker": {
-        "total": 19,
-        "sold": 1,
-        "fake": 0,
-        "live": 18,
-        "soldPct": 5,
-        "livePct": 95
       },
       "Gibson": {
         "total": 61,
@@ -18087,7 +18118,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 121,
+        "total": 122,
         "sold": 39,
         "rate": 32
       },
@@ -18117,6 +18148,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 27,
+        "sold": 4,
+        "rate": 15
+      },
       "Excellent": {
         "total": 164,
         "sold": 59,
@@ -18136,11 +18172,6 @@
         "total": 141,
         "sold": 45,
         "rate": 32
-      },
-      "Used": {
-        "total": 26,
-        "sold": 4,
-        "rate": 15
       },
       "Mint": {
         "total": 13,
