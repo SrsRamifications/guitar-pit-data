@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T13:14:08.545Z",
+  "generatedAt": "2026-04-13T13:42:21.070Z",
   "totalLinks": 328,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 322,
   "overall": {
     "count": 322,
-    "sum": 1946417.26,
-    "avg": 6045,
+    "sum": 1945592.26,
+    "avg": 6042,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 301,
-    "sum": 819552.28,
-    "avg": 2723,
+    "sum": 818727.28,
+    "avg": 2720,
     "min": 33,
     "max": 9500,
-    "median": 2300
+    "median": 2299.99
   },
   "outliers": {
     "thresholdHigh": 9600,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 192,
-      "sum": 1343223.91,
+      "sum": 1342398.91,
       "min": 80,
       "max": 443302,
-      "avg": 6996
+      "avg": 6992
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 293,
-      "sum": 1660317.36,
+      "sum": 1659492.36,
       "min": 33,
       "max": 443302,
-      "avg": 5667
+      "avg": 5664
     },
     "marketplace": {
       "count": 29,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 293,
-      "sum": 1660317.36,
+      "sum": 1659492.36,
       "min": 33,
       "max": 443302,
-      "avg": 5667
+      "avg": 5664
     },
     "guitarcenter.com": {
       "count": 9,
@@ -299,6 +299,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-stratocaster-american-professional-evertune": {
+      "displayName": "Fender American Professional II Stratocaster Miami Blue , Evertune Bridge System",
+      "brand": "Rickenbacker",
+      "model": "Stratocaster",
+      "variant": "American Professional Evertune",
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-04-13T13:42:06.376Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender American Professional II Stratocaster Miami Blue , Evertune Bridge System",
+          "url": "https://reverb.com/item/95925225-fender-american-professional-ii-stratocaster-miami-blue-evertune-bridge-system",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "eastman-t486-goldburst": {
       "displayName": "Eastman T486 - Goldburst",
       "brand": "Eastman",
@@ -987,20 +1018,11 @@
       "brand": "Dunable",
       "model": "R2",
       "variant": "Usa",
-      "count": 2,
-      "sum": 4520,
+      "count": 1,
+      "sum": 2195,
       "min": 2195,
-      "max": 2325,
+      "max": 2195,
       "sightings": [
-        {
-          "price": 2325,
-          "date": "2026-04-06T22:52:51.823Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Dunable USA R2 Black",
-          "url": "https://reverb.com/item/95714306-dunable-usa-r2-black",
-          "condition": "Very Good"
-        },
         {
           "price": 2195,
           "date": "2026-04-12T16:32:33.029Z",
@@ -1018,16 +1040,9 @@
           "min": 2195,
           "max": 2195,
           "avg": 2195
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 2325,
-          "min": 2325,
-          "max": 2325,
-          "avg": 2325
         }
       },
-      "avg": 2260
+      "avg": 2195
     },
     "jackson-dinky-custom-shop": {
       "displayName": "Jackson Custom Shop Dinky HSH FR Black",
@@ -10604,6 +10619,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 97,
+      "sum": 734239.56,
+      "sold": {
+        "count": 28,
+        "sum": 63695.780000000006,
+        "avg": 2275,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 7569,
+      "min": 33,
+      "max": 443302
+    },
     "Brand New": {
       "count": 33,
       "sum": 144181.12,
@@ -10656,20 +10685,6 @@
       "avg": 3365,
       "min": 99,
       "max": 32407
-    },
-    "Very Good": {
-      "count": 97,
-      "sum": 735064.56,
-      "sold": {
-        "count": 28,
-        "sum": 63695.780000000006,
-        "avg": 2275,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 7578,
-      "min": 33,
-      "max": 443302
     },
     "Mint": {
       "count": 7,
@@ -10736,7 +10751,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 6996,
+      "avg": 6992,
       "count": 192
     },
     "03": {
@@ -10890,8 +10905,8 @@
   "priceDistribution": {
     "0-500": 18,
     "500-1k": 23,
-    "1k-2k": 84,
-    "2k-3k": 72,
+    "1k-2k": 85,
+    "2k-3k": 71,
     "3k-5k": 71,
     "5k-10k": 37,
     "10k+": 17
@@ -10899,21 +10914,21 @@
   "priceDistributionFiltered": {
     "0-500": 18,
     "500-1k": 23,
-    "1k-2k": 84,
-    "2k-3k": 72,
+    "1k-2k": 85,
+    "2k-3k": 71,
     "3k-5k": 71,
     "5k-10k": 33,
     "10k+": 0
   },
   "daysOnMarket": {
-    "Eastman": {
-      "sum": 79,
-      "count": 7,
+    "Rickenbacker": {
+      "sum": 213,
+      "count": 20,
       "avg": 11
     },
-    "Rickenbacker": {
-      "sum": 210,
-      "count": 19,
+    "Eastman": {
+      "sum": 80,
+      "count": 7,
       "avg": 11
     },
     "Reverend": {
@@ -10922,22 +10937,22 @@
       "avg": 8
     },
     "Fender": {
-      "sum": 112,
+      "sum": 113,
       "count": 15,
-      "avg": 7
+      "avg": 8
     },
     "Gibson": {
-      "sum": 676,
+      "sum": 680,
       "count": 37,
       "avg": 18
     },
     "BC Rich": {
-      "sum": 199,
+      "sum": 200,
       "count": 20,
       "avg": 10
     },
     "PRS": {
-      "sum": 283,
+      "sum": 284,
       "count": 30,
       "avg": 9
     },
@@ -10947,9 +10962,9 @@
       "avg": 9
     },
     "Music Man": {
-      "sum": 115,
+      "sum": 116,
       "count": 7,
-      "avg": 16
+      "avg": 17
     },
     "Vigier": {
       "sum": 26,
@@ -10957,9 +10972,9 @@
       "avg": 26
     },
     "Dunable": {
-      "sum": 24,
-      "count": 3,
-      "avg": 8
+      "sum": 17,
+      "count": 2,
+      "avg": 9
     },
     "Jackson": {
       "sum": 133,
@@ -10992,9 +11007,9 @@
       "avg": 10
     },
     "Charvel": {
-      "sum": 103,
+      "sum": 104,
       "count": 3,
-      "avg": 34
+      "avg": 35
     },
     "FGN": {
       "sum": 21,
@@ -11072,7 +11087,7 @@
       "avg": 45
     },
     "Kiesel": {
-      "sum": 161,
+      "sum": 162,
       "count": 9,
       "avg": 18
     },
@@ -11263,14 +11278,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 14,
+    "2026-04-13": 15,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
-    "2026-04-06": 7,
+    "2026-04-06": 6,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11282,11 +11297,11 @@
     "reverb": 293,
     "marketplace": 35
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "GP",
-      "count": 106
+      "count": 105
     },
     {
       "username": "Beijing Bob",
@@ -11364,10 +11379,10 @@
       "count": 20
     },
     "Rickenbacker": {
-      "avgPrice": 4843,
+      "avgPrice": 4684,
       "retailEst": 1500,
-      "avgDiscount": -222.9,
-      "count": 20
+      "avgDiscount": -212.3,
+      "count": 21
     }
   },
   "soldPrices": {
@@ -12482,6 +12497,14 @@
       "livePct": 71
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 21,
+        "sold": 1,
+        "fake": 0,
+        "live": 20,
+        "soldPct": 5,
+        "livePct": 95
+      },
       "Eastman": {
         "total": 7,
         "sold": 2,
@@ -12497,14 +12520,6 @@
         "live": 4,
         "soldPct": 43,
         "livePct": 57
-      },
-      "Rickenbacker": {
-        "total": 20,
-        "sold": 1,
-        "fake": 0,
-        "live": 19,
-        "soldPct": 5,
-        "livePct": 95
       },
       "Reverend": {
         "total": 1,
@@ -12571,12 +12586,12 @@
         "livePct": 100
       },
       "Dunable": {
-        "total": 3,
+        "total": 2,
         "sold": 1,
         "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "livePct": 67
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
       },
       "Jackson": {
         "total": 9,
@@ -13090,13 +13105,13 @@
       },
       {
         "label": "$1k–2k",
-        "total": 84,
+        "total": 85,
         "sold": 25,
-        "rate": 30
+        "rate": 29
       },
       {
         "label": "$2k–3k",
-        "total": 72,
+        "total": 71,
         "sold": 25,
         "rate": 35
       },
@@ -13120,6 +13135,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 97,
+        "sold": 31,
+        "rate": 32
+      },
       "Brand New": {
         "total": 33,
         "sold": 3,
@@ -13139,11 +13159,6 @@
         "total": 40,
         "sold": 10,
         "rate": 25
-      },
-      "Very Good": {
-        "total": 97,
-        "sold": 31,
-        "rate": 32
       },
       "Mint": {
         "total": 7,
@@ -13197,7 +13212,7 @@
     },
     {
       "label": "6–15",
-      "total": 68,
+      "total": 69,
       "sold": 17,
       "rate": 25
     },
@@ -13209,9 +13224,9 @@
     },
     {
       "label": "31+",
-      "total": 64,
+      "total": 63,
       "sold": 13,
-      "rate": 20
+      "rate": 21
     }
   ],
   "offersEffect": {
@@ -13228,14 +13243,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 131,
+      "total": 130,
       "sold": 38,
       "rate": 29
     },
     "regular": {
-      "total": 107,
+      "total": 108,
       "sold": 34,
-      "rate": 32
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -13259,9 +13274,9 @@
     },
     {
       "state": "IL",
-      "total": 14,
+      "total": 13,
       "sold": 7,
-      "rate": 50
+      "rate": 54
     },
     {
       "state": "TN",
