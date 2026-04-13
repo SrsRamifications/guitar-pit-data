@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-13T01:32:37.612Z",
-  "totalLinks": 463,
-  "totalBeforeFilter": 502,
+  "generatedAt": "2026-04-13T01:35:12.989Z",
+  "totalLinks": 464,
+  "totalBeforeFilter": 503,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 457,
+  "totalWithPrice": 458,
   "overall": {
-    "count": 457,
-    "sum": 2335143.12,
-    "avg": 5110,
+    "count": 458,
+    "sum": 2337142.12,
+    "avg": 5103,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 433,
-    "sum": 1177278.14,
-    "avg": 2719,
+    "count": 434,
+    "sum": 1179277.14,
+    "avg": 2717,
     "min": 26,
     "max": 9000,
-    "median": 2325
+    "median": 2313
   },
   "outliers": {
     "thresholdHigh": 9087,
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 327,
-      "sum": 1731949.77,
+      "count": 328,
+      "sum": 1733948.77,
       "min": 26,
       "max": 443302,
-      "avg": 5296
+      "avg": 5286
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 417,
-      "sum": 2023539.3,
+      "count": 418,
+      "sum": 2025538.3,
       "min": 26,
       "max": 443302,
-      "avg": 4853
+      "avg": 4846
     },
     "marketplace": {
       "count": 40,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 417,
-      "sum": 2023539.3,
+      "count": 418,
+      "sum": 2025538.3,
       "min": 26,
       "max": 443302,
-      "avg": 4853
+      "avg": 4846
     },
     "guitarcenter.com": {
       "count": 15,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "gibson-es-320td": {
+      "displayName": "Vintage Gibson ES-320TD 1971 - 1975 - Natural",
+      "brand": "Gibson",
+      "model": "ES-320TD",
+      "variant": null,
+      "count": 1,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-04-13T01:34:58.037Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage Gibson ES-320TD 1971 - 1975 - Natural",
+          "url": "https://reverb.com/item/95885227-vintage-gibson-es-320td-1971-1975-natural",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1999
+    },
     "fender-telecaster": {
       "displayName": "Telecaster body- Natural",
       "brand": "Fender",
@@ -6889,37 +6920,6 @@
         ]
       },
       "avg": 2750
-    },
-    "gibson-les-paul-standard-historic-1958": {
-      "displayName": "Gibson Custom Historic Collection 1958 Les Paul Standard Reissue HRM Double Dirty Lemon [8 8900] (04/06)",
-      "brand": "Gibson",
-      "model": "Les Paul Standard",
-      "variant": "Historic 1958",
-      "count": 1,
-      "sum": 4536,
-      "min": 4536,
-      "max": 4536,
-      "sightings": [
-        {
-          "price": 4536,
-          "date": "2026-04-06T21:11:30.508Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Custom Historic Collection 1958 Les Paul Standard Reissue HRM Double Dirty Lemon [8 8900] (04/06)",
-          "url": "https://reverb.com/item/95709986-gibson-custom-historic-collection-1958-les-paul-standard-reissue-hrm-double-dirty-lemon-8-8900-04-06",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 4536,
-          "min": 4536,
-          "max": 4536,
-          "avg": 4536
-        }
-      },
-      "avg": 4536
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14764,9 +14764,54 @@
         ]
       },
       "avg": 1799
+    },
+    "gibson-les-paul-standard-historic-1958": {
+      "displayName": "Gibson Custom Historic Collection 1958 Les Paul Standard Reissue HRM Double Dirty Lemon [8 8900] (04/06)",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "Historic 1958",
+      "count": 1,
+      "sum": 4536,
+      "min": 4536,
+      "max": 4536,
+      "sightings": [
+        {
+          "price": 4536,
+          "date": "2026-04-06T21:11:30.508Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Historic Collection 1958 Les Paul Standard Reissue HRM Double Dirty Lemon [8 8900] (04/06)",
+          "url": "https://reverb.com/item/95709986-gibson-custom-historic-collection-1958-les-paul-standard-reissue-hrm-double-dirty-lemon-8-8900-04-06",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 4536,
+          "min": 4536,
+          "max": 4536,
+          "avg": 4536
+        }
+      },
+      "avg": 4536
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 57,
+      "sum": 174471.95,
+      "sold": {
+        "count": 17,
+        "sum": 37501.270000000004,
+        "avg": 2206,
+        "min": 99,
+        "max": 5820
+      },
+      "avg": 3061,
+      "min": 99,
+      "max": 32407
+    },
     "Very Good": {
       "count": 141,
       "sum": 841902.55,
@@ -14794,20 +14839,6 @@
       "avg": 4797,
       "min": 26,
       "max": 190000
-    },
-    "Good": {
-      "count": 56,
-      "sum": 172472.95,
-      "sold": {
-        "count": 17,
-        "sum": 37501.270000000004,
-        "avg": 2206,
-        "min": 99,
-        "max": 5820
-      },
-      "avg": 3080,
-      "min": 99,
-      "max": 32407
     },
     "Used": {
       "count": 26,
@@ -14902,8 +14933,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5296,
-      "count": 327
+      "avg": 5286,
+      "count": 328
     },
     "03": {
       "name": "Mar",
@@ -15056,7 +15087,7 @@
   "priceDistribution": {
     "0-500": 23,
     "500-1k": 37,
-    "1k-2k": 119,
+    "1k-2k": 120,
     "2k-3k": 101,
     "3k-5k": 111,
     "5k-10k": 47,
@@ -15065,22 +15096,22 @@
   "priceDistributionFiltered": {
     "0-500": 23,
     "500-1k": 37,
-    "1k-2k": 119,
+    "1k-2k": 120,
     "2k-3k": 101,
     "3k-5k": 111,
     "5k-10k": 42,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 873,
+      "count": 52,
+      "avg": 17
+    },
     "Fender": {
       "sum": 245,
       "count": 25,
       "avg": 10
-    },
-    "Gibson": {
-      "sum": 872,
-      "count": 51,
-      "avg": 17
     },
     "Rickenbacker": {
       "sum": 196,
@@ -15133,9 +15164,9 @@
       "avg": 19
     },
     "Seagull": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Eastman": {
       "sum": 44,
@@ -15504,7 +15535,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 6,
+    "2026-04-13": 7,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
@@ -15525,10 +15556,10 @@
     "2026-04-05": 22
   },
   "categoryDistribution": {
-    "reverb": 417,
+    "reverb": 418,
     "marketplace": 46
   },
-  "activeModelsCount": 383,
+  "activeModelsCount": 384,
   "topPosters": [
     {
       "username": "GP",
@@ -15536,7 +15567,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 88
+      "count": 89
     },
     {
       "username": "Shteefe",
@@ -15586,10 +15617,10 @@
       "count": 29
     },
     "Gibson": {
-      "avgPrice": 11266,
+      "avgPrice": 11109,
       "retailEst": 800,
-      "avgDiscount": -1308.2,
-      "count": 58
+      "avgDiscount": -1288.6,
+      "count": 59
     },
     "PRS": {
       "avgPrice": 3940,
@@ -17173,14 +17204,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 434,
+      "total": 435,
       "sold": 135,
       "fake": 0,
-      "live": 299,
+      "live": 300,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Gibson": {
+        "total": 61,
+        "sold": 15,
+        "fake": 0,
+        "live": 46,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "Fender": {
         "total": 31,
         "sold": 7,
@@ -17188,14 +17227,6 @@
         "live": 24,
         "soldPct": 23,
         "livePct": 77
-      },
-      "Gibson": {
-        "total": 60,
-        "sold": 15,
-        "fake": 0,
-        "live": 45,
-        "soldPct": 25,
-        "livePct": 75
       },
       "Rickenbacker": {
         "total": 18,
@@ -17909,7 +17940,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 119,
+        "total": 120,
         "sold": 39,
         "rate": 33
       },
@@ -17939,6 +17970,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 57,
+        "sold": 17,
+        "rate": 30
+      },
       "Very Good": {
         "total": 141,
         "sold": 45,
@@ -17948,11 +17984,6 @@
         "total": 161,
         "sold": 59,
         "rate": 37
-      },
-      "Good": {
-        "total": 56,
-        "sold": 17,
-        "rate": 30
       },
       "Used": {
         "total": 26,
@@ -17999,7 +18030,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 102
+    "avgShippingCost": 103
   },
   "watcherDemand": [
     {
@@ -18022,9 +18053,9 @@
     },
     {
       "label": "16–30",
-      "total": 109,
+      "total": 110,
       "sold": 39,
-      "rate": 36
+      "rate": 35
     },
     {
       "label": "31+",
@@ -18035,7 +18066,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 268,
+      "total": 269,
       "sold": 91,
       "rate": 34
     },
@@ -18047,9 +18078,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 189,
+      "total": 190,
       "sold": 56,
-      "rate": 30
+      "rate": 29
     },
     "regular": {
       "total": 170,
@@ -18084,9 +18115,9 @@
     },
     {
       "state": "FL",
-      "total": 14,
+      "total": 15,
       "sold": 9,
-      "rate": 64
+      "rate": 60
     },
     {
       "state": "TN",
