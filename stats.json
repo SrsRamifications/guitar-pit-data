@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T15:57:04.571Z",
+  "generatedAt": "2026-04-13T16:45:20.153Z",
   "totalLinks": 329,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 323,
   "overall": {
     "count": 323,
-    "sum": 1978580.25,
-    "avg": 6126,
+    "sum": 1978005.25,
+    "avg": 6124,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 304,
-    "sum": 869739.27,
-    "avg": 2861,
+    "sum": 869164.27,
+    "avg": 2859,
     "min": 33,
     "max": 9824,
-    "median": 2400
+    "median": 2399
   },
   "outliers": {
     "thresholdHigh": 9972,
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 193,
-      "sum": 1375386.9,
+      "sum": 1374811.9,
       "min": 80,
       "max": 443302,
-      "avg": 7126
+      "avg": 7123
     },
     "2026-03": {
       "count": 130,
@@ -195,35 +195,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 291,
+      "sum": 1667940.36,
+      "min": 33,
+      "max": 443302,
+      "avg": 5732
+    },
     "marketplace": {
       "count": 32,
       "sum": 310064.89,
       "min": 374.99,
       "max": 99000,
       "avg": 9690
-    },
-    "reverb": {
-      "count": 291,
-      "sum": 1668515.36,
-      "min": 33,
-      "max": 443302,
-      "avg": 5734
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 291,
+      "sum": 1667940.36,
+      "min": 33,
+      "max": 443302,
+      "avg": 5732
+    },
     "chicagomusicexchange.com": {
       "count": 16,
       "sum": 234104.99,
       "min": 1599,
       "max": 99000,
       "avg": 14632
-    },
-    "reverb.com": {
-      "count": 291,
-      "sum": 1668515.36,
-      "min": 33,
-      "max": 443302,
-      "avg": 5734
     },
     "guitarcenter.com": {
       "count": 9,
@@ -283,6 +283,37 @@
     }
   },
   "byModel": {
+    "epiphone-casinofactory-installed-bigsby-usa": {
+      "displayName": "Epiphone USA Casino/Factory installed Bigsby vibrato",
+      "brand": "Epiphone",
+      "model": "Casino/Factory installed Bigsby",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2175,
+      "min": 2175,
+      "max": 2175,
+      "sightings": [
+        {
+          "price": 2175,
+          "date": "2026-04-13T16:45:05.645Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Epiphone USA Casino/Factory installed Bigsby vibrato",
+          "url": "https://reverb.com/item/95932215-epiphone-usa-casino-factory-installed-bigsby-vibrato",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2175,
+          "min": 2175,
+          "max": 2175,
+          "avg": 2175
+        }
+      },
+      "avg": 2175
+    },
     "gibson-les-paul-standard-custom-shop-1959": {
       "displayName": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Tobacco Burst Mur",
       "brand": "Gibson",
@@ -482,6 +513,21 @@
           "max": 5300,
           "avg": 5300
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 4214,
+        "min": 4214,
+        "max": 4214,
+        "prices": [
+          {
+            "price": 4214,
+            "askingPrice": 4214,
+            "date": "2026-04-13T16:00:46.483Z",
+            "title": "Gibson Custom Shop '59 Les Paul Standard Reissue 2023 Dirty Lemon VOS/DEMO",
+            "url": "https://reverb.com/item/95973928-gibson-custom-shop-59-les-paul-standard-reissue-2023-dirty-lemon-vos-demo"
+          }
+        ]
       },
       "avg": 4757
     },
@@ -6582,37 +6628,6 @@
       },
       "avg": 1364
     },
-    "gibson-sg-limited-gloss": {
-      "displayName": "Gibson SG Limited Run Naked 2016 - Walnut Vintage Gloss",
-      "brand": "Gibson",
-      "model": "SG",
-      "variant": "Limited Gloss",
-      "count": 1,
-      "sum": 2750,
-      "min": 2750,
-      "max": 2750,
-      "sightings": [
-        {
-          "price": 2750,
-          "date": "2026-04-07T01:55:15.424Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson SG Limited Run Naked 2016 - Walnut Vintage Gloss",
-          "url": "https://reverb.com/item/95120630-gibson-sg-limited-run-naked-2016-walnut-vintage-gloss",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2750,
-          "min": 2750,
-          "max": 2750,
-          "avg": 2750
-        }
-      },
-      "avg": 2750
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10574,6 +10589,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 113,
+      "sum": 629981.73,
+      "sold": {
+        "count": 40,
+        "sum": 140255.43,
+        "avg": 3506,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 5575,
+      "min": 80,
+      "max": 190000
+    },
     "Brand New": {
       "count": 35,
       "sum": 161180.11000000002,
@@ -10599,27 +10628,13 @@
       "min": 1169.99,
       "max": 99000
     },
-    "Excellent": {
-      "count": 113,
-      "sum": 630556.73,
-      "sold": {
-        "count": 40,
-        "sum": 140255.43,
-        "avg": 3506,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 5580,
-      "min": 80,
-      "max": 190000
-    },
     "Very Good": {
       "count": 97,
       "sum": 736773.56,
       "sold": {
-        "count": 27,
-        "sum": 62015.780000000006,
-        "avg": 2297,
+        "count": 28,
+        "sum": 66229.78,
+        "avg": 2365,
         "min": 475,
         "max": 5900
       },
@@ -10706,7 +10721,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 7126,
+      "avg": 7123,
       "count": 193
     },
     "03": {
@@ -10876,13 +10891,18 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Epiphone": {
+      "sum": 54,
+      "count": 4,
+      "avg": 14
+    },
     "Gibson": {
-      "sum": 716,
-      "count": 39,
+      "sum": 689,
+      "count": 38,
       "avg": 18
     },
     "Rickenbacker": {
-      "sum": 214,
+      "sum": 215,
       "count": 21,
       "avg": 10
     },
@@ -10892,7 +10912,7 @@
       "avg": 13
     },
     "PRS": {
-      "sum": 338,
+      "sum": 339,
       "count": 31,
       "avg": 11
     },
@@ -10941,11 +10961,6 @@
       "count": 1,
       "avg": 1
     },
-    "Epiphone": {
-      "sum": 54,
-      "count": 3,
-      "avg": 18
-    },
     "Seagull": {
       "sum": 2,
       "count": 1,
@@ -10972,9 +10987,9 @@
       "avg": 7
     },
     "Vintage": {
-      "sum": 61,
+      "sum": 62,
       "count": 4,
-      "avg": 15
+      "avg": 16
     },
     "Yamaha": {
       "sum": 17,
@@ -10992,7 +11007,7 @@
       "avg": 23
     },
     "G&L": {
-      "sum": 7,
+      "sum": 8,
       "count": 2,
       "avg": 4
     },
@@ -11002,7 +11017,7 @@
       "avg": 8
     },
     "Ibanez": {
-      "sum": 189,
+      "sum": 190,
       "count": 14,
       "avg": 14
     },
@@ -11027,9 +11042,9 @@
       "avg": 44
     },
     "Nash": {
-      "sum": 20,
+      "sum": 21,
       "count": 1,
-      "avg": 20
+      "avg": 21
     },
     "Heritage": {
       "sum": 4,
@@ -11122,14 +11137,14 @@
       "avg": 16
     },
     "Fender Custom Shop": {
-      "sum": 33,
+      "sum": 34,
       "count": 2,
       "avg": 17
     },
     "Milkman": {
-      "sum": 16,
+      "sum": 17,
       "count": 1,
-      "avg": 16
+      "avg": 17
     },
     "Seymour Duncan": {
       "sum": 17,
@@ -11228,13 +11243,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 22,
+    "2026-04-13": 23,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
-    "2026-04-07": 16,
+    "2026-04-07": 15,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11243,8 +11258,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 38,
-    "reverb": 291
+    "reverb": 291,
+    "marketplace": 38
   },
   "activeModelsCount": 280,
   "topPosters": [
@@ -11304,10 +11319,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 13649,
+      "avgPrice": 13897,
       "retailEst": 800,
-      "avgDiscount": -1606.1,
-      "count": 45
+      "avgDiscount": -1637.1,
+      "count": 44
     },
     "PRS": {
       "avgPrice": 4660,
@@ -11341,8 +11356,8 @@
     }
   },
   "soldPrices": {
-    "count": 94,
-    "avg": 3945,
+    "count": 95,
+    "avg": 3947,
     "min": 99,
     "max": 36500,
     "avgDiscount": 10
@@ -11350,10 +11365,18 @@
   "timeToSell": {
     "overall": {
       "totalDays": 422.5,
-      "count": 87,
-      "avgDays": 4.9
+      "count": 88,
+      "avgDays": 4.8
     },
     "byModel": {
+      "gibson-les-paul-standard-custom-shop-59": {
+        "displayName": "Gibson Custom Shop '59 Les Paul Standard Reissue 2023 Dirty Lemon VOS/DEMO",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
       "friedman-cali": {
         "displayName": "Friedman Cali 2018 - Red",
         "totalDays": 0,
@@ -11996,6 +12019,13 @@
       }
     },
     "byBrand": {
+      "Gibson": {
+        "totalDays": 52.89999999999999,
+        "count": 8,
+        "fastest": 0,
+        "slowest": 18.3,
+        "avgDays": 6.6
+      },
       "Friedman": {
         "totalDays": 1.8,
         "count": 3,
@@ -12009,13 +12039,6 @@
         "fastest": 0.2,
         "slowest": 0.2,
         "avgDays": 0.2
-      },
-      "Gibson": {
-        "totalDays": 52.89999999999999,
-        "count": 7,
-        "fastest": 0.4,
-        "slowest": 18.3,
-        "avgDays": 7.6
       },
       "Fano": {
         "totalDays": 0.1,
@@ -12414,20 +12437,28 @@
   "sellThrough": {
     "overall": {
       "total": 308,
-      "sold": 87,
+      "sold": 88,
       "fake": 0,
-      "live": 221,
-      "soldPct": 28,
-      "livePct": 72
+      "live": 220,
+      "soldPct": 29,
+      "livePct": 71
     },
     "byBrand": {
-      "Gibson": {
-        "total": 47,
-        "sold": 8,
+      "Epiphone": {
+        "total": 4,
+        "sold": 1,
         "fake": 0,
-        "live": 39,
-        "soldPct": 17,
-        "livePct": 83
+        "live": 3,
+        "soldPct": 25,
+        "livePct": 75
+      },
+      "Gibson": {
+        "total": 46,
+        "sold": 9,
+        "fake": 0,
+        "live": 37,
+        "soldPct": 20,
+        "livePct": 80
       },
       "Rickenbacker": {
         "total": 22,
@@ -12532,14 +12563,6 @@
         "live": 0,
         "soldPct": 100,
         "livePct": 0
-      },
-      "Epiphone": {
-        "total": 3,
-        "sold": 1,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 33,
-        "livePct": 67
       },
       "Seagull": {
         "total": 1,
@@ -13034,8 +13057,8 @@
       {
         "label": "$3k–5k",
         "total": 73,
-        "sold": 25,
-        "rate": 34
+        "sold": 26,
+        "rate": 36
       },
       {
         "label": "$5k–10k",
@@ -13051,6 +13074,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 113,
+        "sold": 43,
+        "rate": 38
+      },
       "Brand New": {
         "total": 35,
         "sold": 3,
@@ -13061,15 +13089,10 @@
         "sold": 3,
         "rate": 17
       },
-      "Excellent": {
-        "total": 113,
-        "sold": 43,
-        "rate": 38
-      },
       "Very Good": {
         "total": 97,
-        "sold": 30,
-        "rate": 31
+        "sold": 31,
+        "rate": 32
       },
       "Good": {
         "total": 38,
@@ -13104,8 +13127,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 79,
-    "totalOffers": 173,
+    "withOffers": 78,
+    "totalOffers": 172,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 63
   },
@@ -13123,12 +13146,12 @@
     {
       "label": "1–5",
       "total": 30,
-      "sold": 10,
-      "rate": 33
+      "sold": 11,
+      "rate": 37
     },
     {
       "label": "6–15",
-      "total": 67,
+      "total": 68,
       "sold": 17,
       "rate": 25
     },
@@ -13140,41 +13163,41 @@
     },
     {
       "label": "31+",
-      "total": 62,
+      "total": 61,
       "sold": 12,
-      "rate": 19
+      "rate": 20
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 184,
-      "sold": 62,
+      "total": 183,
+      "sold": 63,
       "rate": 34
     },
     "off": {
-      "total": 65,
+      "total": 66,
       "sold": 16,
-      "rate": 25
+      "rate": 24
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 128,
+      "total": 129,
       "sold": 35,
       "rate": 27
     },
     "regular": {
-      "total": 108,
-      "sold": 34,
-      "rate": 31
+      "total": 107,
+      "sold": 35,
+      "rate": 33
     }
   },
   "geoSellThrough": [
     {
       "state": "CA",
       "total": 36,
-      "sold": 10,
-      "rate": 28
+      "sold": 11,
+      "rate": 31
     },
     {
       "state": "TX",
@@ -13243,16 +13266,16 @@
       "rate": 50
     },
     {
-      "state": "UT",
-      "total": 6,
-      "sold": 2,
-      "rate": 33
-    },
-    {
       "state": "MI",
       "total": 6,
       "sold": 4,
       "rate": 67
+    },
+    {
+      "state": "UT",
+      "total": 5,
+      "sold": 2,
+      "rate": 40
     },
     {
       "state": "ON",
@@ -13293,6 +13316,12 @@
     {
       "state": "AL",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "NV",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
