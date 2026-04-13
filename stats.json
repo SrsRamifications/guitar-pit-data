@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T15:37:08.891Z",
+  "generatedAt": "2026-04-13T15:42:41.679Z",
   "totalLinks": 329,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 323,
   "overall": {
     "count": 323,
-    "sum": 1961815.25,
-    "avg": 6074,
+    "sum": 1968081.25,
+    "avg": 6093,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 305,
-    "sum": 864073.27,
-    "avg": 2833,
+    "sum": 870339.27,
+    "avg": 2854,
     "min": 33,
     "max": 9824,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9897,
+    "thresholdHigh": 9900,
     "thresholdLow": 0,
     "count": 18,
     "items": [
@@ -173,10 +173,10 @@
   "byMonth": {
     "2026-04": {
       "count": 193,
-      "sum": 1358621.9,
+      "sum": 1364887.9,
       "min": 80,
       "max": 443302,
-      "avg": 7039
+      "avg": 7072
     },
     "2026-03": {
       "count": 130,
@@ -188,34 +188,34 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 30,
-      "sum": 291999.89,
+      "count": 31,
+      "sum": 298965.89,
       "min": 374.99,
       "max": 99000,
-      "avg": 9733
+      "avg": 9644
     },
     "reverb": {
-      "count": 293,
-      "sum": 1669815.36,
+      "count": 292,
+      "sum": 1669115.36,
       "min": 33,
       "max": 443302,
-      "avg": 5699
+      "avg": 5716
     }
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 14,
-      "sum": 216039.99,
+      "count": 15,
+      "sum": 223005.99,
       "min": 1599,
       "max": 99000,
-      "avg": 15431
+      "avg": 14867
     },
     "reverb.com": {
-      "count": 293,
-      "sum": 1669815.36,
+      "count": 292,
+      "sum": 1669115.36,
       "min": 33,
       "max": 443302,
-      "avg": 5699
+      "avg": 5716
     },
     "guitarcenter.com": {
       "count": 9,
@@ -275,6 +275,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-prs-pauls-guitar": {
+      "displayName": "PRS Paul's Guitar 1985 Electric Tiger Glow 2020",
+      "brand": "Rickenbacker",
+      "model": "PRS Paul's Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 6966,
+      "min": 6966,
+      "max": 6966,
+      "sightings": [
+        {
+          "price": 6966,
+          "date": "2026-04-13T15:42:25.761Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Paul's Guitar 1985 Electric Tiger Glow 2020",
+          "url": "https://www.chicagomusicexchange.com/products/prs-pauls-guitar-1985-electric-tiger-glow-2020-2429219",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 6966,
+          "min": 6966,
+          "max": 6966,
+          "avg": 6966
+        }
+      },
+      "avg": 6966
+    },
     "jackson-dinky-custom-shop-nitro": {
       "displayName": "Jackson Custom Shop 1982 Dinky Nitro Relic Studio Rosso Dino",
       "brand": "Jackson",
@@ -6574,37 +6605,6 @@
       },
       "avg": 600
     },
-    "gretsch-corvette-60": {
-      "displayName": "Gretsch Corvette early to min-60's ish? - mahogany",
-      "brand": "Gretsch",
-      "model": "Corvette",
-      "variant": "60",
-      "count": 1,
-      "sum": 700,
-      "min": 700,
-      "max": 700,
-      "sightings": [
-        {
-          "price": 700,
-          "date": "2026-04-06T23:41:49.988Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gretsch Corvette early to min-60's ish? - mahogany",
-          "url": "https://reverb.com/item/95720119-gretsch-corvette-early-to-min-60-s-ish-mahogany",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 700,
-          "min": 700,
-          "max": 700,
-          "avg": 700
-        }
-      },
-      "avg": 700
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10566,6 +10566,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 18,
+      "sum": 173984.91999999998,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 9666,
+      "min": 1169.99,
+      "max": 99000
+    },
     "Brand New": {
       "count": 34,
       "sum": 150081.11,
@@ -10609,8 +10620,8 @@
       "max": 443302
     },
     "Good": {
-      "count": 40,
-      "sum": 135457.95,
+      "count": 39,
+      "sum": 134757.95,
       "sold": {
         "count": 9,
         "sum": 21447.27,
@@ -10618,20 +10629,9 @@
         "min": 99,
         "max": 4777.5
       },
-      "avg": 3386,
+      "avg": 3455,
       "min": 99,
       "max": 32407
-    },
-    "Used": {
-      "count": 17,
-      "sum": 167018.91999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 9825,
-      "min": 1169.99,
-      "max": 99000
     },
     "Mint": {
       "count": 7,
@@ -10698,7 +10698,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 7039,
+      "avg": 7072,
       "count": 193
     },
     "03": {
@@ -10851,23 +10851,28 @@
   ],
   "priceDistribution": {
     "0-500": 17,
-    "500-1k": 23,
+    "500-1k": 22,
     "1k-2k": 83,
     "2k-3k": 71,
     "3k-5k": 73,
-    "5k-10k": 39,
+    "5k-10k": 40,
     "10k+": 17
   },
   "priceDistributionFiltered": {
     "0-500": 17,
-    "500-1k": 23,
+    "500-1k": 22,
     "1k-2k": 83,
     "2k-3k": 71,
     "3k-5k": 73,
-    "5k-10k": 38,
+    "5k-10k": 39,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 214,
+      "count": 21,
+      "avg": 10
+    },
     "Jackson": {
       "sum": 134,
       "count": 10,
@@ -10881,11 +10886,6 @@
     "PRS": {
       "sum": 338,
       "count": 31,
-      "avg": 11
-    },
-    "Rickenbacker": {
-      "sum": 214,
-      "count": 20,
       "avg": 11
     },
     "Eastman": {
@@ -10989,7 +10989,7 @@
       "avg": 4
     },
     "Suhr": {
-      "sum": 15,
+      "sum": 16,
       "count": 2,
       "avg": 8
     },
@@ -10999,7 +10999,7 @@
       "avg": 14
     },
     "ESP": {
-      "sum": 69,
+      "sum": 70,
       "count": 6,
       "avg": 12
     },
@@ -11103,11 +11103,6 @@
       "count": 1,
       "avg": 19
     },
-    "Gretsch": {
-      "sum": 21,
-      "count": 2,
-      "avg": 11
-    },
     "Languedoc": {
       "sum": 16,
       "count": 1,
@@ -11198,6 +11193,11 @@
       "count": 2,
       "avg": 14
     },
+    "Gretsch": {
+      "sum": 14,
+      "count": 1,
+      "avg": 14
+    },
     "Cornish": {
       "sum": 29,
       "count": 1,
@@ -11225,14 +11225,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 20,
+    "2026-04-13": 21,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
-    "2026-04-06": 2,
+    "2026-04-06": 1,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11241,8 +11241,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 36,
-    "reverb": 293
+    "marketplace": 37,
+    "reverb": 292
   },
   "activeModelsCount": 280,
   "topPosters": [
@@ -11332,10 +11332,10 @@
       "count": 19
     },
     "Rickenbacker": {
-      "avgPrice": 4684,
+      "avgPrice": 4788,
       "retailEst": 1500,
-      "avgDiscount": -212.3,
-      "count": 21
+      "avgDiscount": -219.2,
+      "count": 22
     }
   },
   "soldPrices": {
@@ -12419,6 +12419,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 22,
+        "sold": 1,
+        "fake": 0,
+        "live": 21,
+        "soldPct": 5,
+        "livePct": 95
+      },
       "Jackson": {
         "total": 10,
         "sold": 1,
@@ -12450,14 +12458,6 @@
         "live": 24,
         "soldPct": 27,
         "livePct": 73
-      },
-      "Rickenbacker": {
-        "total": 21,
-        "sold": 1,
-        "fake": 0,
-        "live": 20,
-        "soldPct": 5,
-        "livePct": 95
       },
       "Eastman": {
         "total": 7,
@@ -12819,14 +12819,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Gretsch": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12971,6 +12963,14 @@
         "soldPct": 50,
         "livePct": 50
       },
+      "Gretsch": {
+        "total": 1,
+        "sold": 1,
+        "fake": 0,
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
+      },
       "Cornish": {
         "total": 1,
         "sold": 1,
@@ -13021,9 +13021,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 23,
+        "total": 22,
         "sold": 6,
-        "rate": 26
+        "rate": 27
       },
       {
         "label": "$1k–2k",
@@ -13045,7 +13045,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 39,
+        "total": 40,
         "sold": 6,
         "rate": 15
       },
@@ -13057,6 +13057,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 18,
+        "sold": 3,
+        "rate": 17
+      },
       "Brand New": {
         "total": 34,
         "sold": 3,
@@ -13073,14 +13078,9 @@
         "rate": 31
       },
       "Good": {
-        "total": 40,
+        "total": 39,
         "sold": 9,
         "rate": 23
-      },
-      "Used": {
-        "total": 17,
-        "sold": 3,
-        "rate": 18
       },
       "Mint": {
         "total": 7,
@@ -13146,7 +13146,7 @@
     },
     {
       "label": "31+",
-      "total": 63,
+      "total": 62,
       "sold": 12,
       "rate": 19
     }
@@ -13158,9 +13158,9 @@
       "rate": 34
     },
     "off": {
-      "total": 66,
+      "total": 65,
       "sold": 16,
-      "rate": 24
+      "rate": 25
     }
   },
   "sellerType": {
@@ -13170,7 +13170,7 @@
       "rate": 27
     },
     "regular": {
-      "total": 110,
+      "total": 109,
       "sold": 34,
       "rate": 31
     }
@@ -13261,12 +13261,6 @@
       "rate": 67
     },
     {
-      "state": "OH",
-      "total": 5,
-      "sold": 2,
-      "rate": 40
-    },
-    {
       "state": "ON",
       "total": 4,
       "sold": 0,
@@ -13277,6 +13271,12 @@
       "total": 4,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "OH",
+      "total": 4,
+      "sold": 2,
+      "rate": 50
     },
     {
       "state": "TOKYO",
