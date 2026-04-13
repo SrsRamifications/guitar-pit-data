@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-12T23:21:54.628Z",
-  "totalLinks": 457,
-  "totalBeforeFilter": 496,
+  "generatedAt": "2026-04-13T00:04:15.810Z",
+  "totalLinks": 458,
+  "totalBeforeFilter": 497,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 451,
+  "totalWithPrice": 452,
   "overall": {
-    "count": 451,
-    "sum": 2326489.13,
-    "avg": 5159,
+    "count": 452,
+    "sum": 2328789.12,
+    "avg": 5152,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 427,
-    "sum": 1168624.15,
-    "avg": 2737,
+    "count": 428,
+    "sum": 1170924.14,
+    "avg": 2736,
     "min": 26,
     "max": 9000,
-    "median": 2398.99
+    "median": 2374
   },
   "outliers": {
     "thresholdHigh": 9300,
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 321,
-      "sum": 1723295.78,
+      "count": 322,
+      "sum": 1725595.77,
       "min": 26,
       "max": 443302,
-      "avg": 5369
+      "avg": 5359
     },
     "2026-03": {
       "count": 130,
@@ -235,22 +235,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 40,
+      "sum": 311603.82,
+      "min": 374.99,
+      "max": 99000,
+      "avg": 7790
+    },
     "reverb": {
       "count": 412,
       "sum": 2017185.3,
       "min": 26,
       "max": 443302,
       "avg": 4896
-    },
-    "marketplace": {
-      "count": 39,
-      "sum": 309303.83,
-      "min": 374.99,
-      "max": 99000,
-      "avg": 7931
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 15,
+      "sum": 56877.86,
+      "min": 1109.99,
+      "max": 26999.99,
+      "avg": 3792
+    },
     "reverb.com": {
       "count": 412,
       "sum": 2017185.3,
@@ -264,13 +271,6 @@
       "min": 1200,
       "max": 99000,
       "avg": 13852
-    },
-    "guitarcenter.com": {
-      "count": 14,
-      "sum": 54577.87,
-      "min": 1109.99,
-      "max": 26999.99,
-      "avg": 3898
     },
     "themusiczoo.com": {
       "count": 1,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "gibson-ga-79-rt-tube-guitar": {
+      "displayName": "Vintage 1962 Gibson GA-79-RT Tube Guitar Combo Amp",
+      "brand": "Gibson",
+      "model": "GA-79-RT Tube Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 2299.99,
+      "min": 2299.99,
+      "max": 2299.99,
+      "sightings": [
+        {
+          "price": 2299.99,
+          "date": "2026-04-13T00:03:59.872Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1962 Gibson GA-79-RT Tube Guitar Combo Amp",
+          "url": "https://www.guitarcenter.com/Used/Gibson/Vintage-Vintage-1962-Gibson-GA-79-RT-Tube-Guitar-Combo-Amp.gc?algoliaQueryID=f78a5b1930ba0a539b1008581c61e557&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2299.99,
+          "min": 2299.99,
+          "max": 2299.99,
+          "avg": 2300
+        }
+      },
+      "avg": 2300
+    },
     "bc-rich-eagle": {
       "displayName": "B.C. Rich Eagle 1983",
       "brand": "BC Rich",
@@ -445,6 +476,21 @@
           "max": 1899,
           "avg": 1899
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1899,
+        "min": 1899,
+        "max": 1899,
+        "prices": [
+          {
+            "price": 1899,
+            "askingPrice": 1899,
+            "date": "2026-04-12T23:39:00.986Z",
+            "title": "Friedman Cali 2018 - Red",
+            "url": "https://reverb.com/item/95926118-friedman-cali-2018-red"
+          }
+        ]
       },
       "avg": 1899
     },
@@ -14588,13 +14634,24 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 26,
+      "sum": 189723.85999999993,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7297,
+      "min": 1109.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 138,
       "sum": 838347.55,
       "sold": {
-        "count": 40,
-        "sum": 91031.77,
-        "avg": 2276,
+        "count": 41,
+        "sum": 92930.77,
+        "avg": 2267,
         "min": 165,
         "max": 5900
       },
@@ -14629,17 +14686,6 @@
       "avg": 4821,
       "min": 26,
       "max": 190000
-    },
-    "Used": {
-      "count": 25,
-      "sum": 187423.86999999994,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7497,
-      "min": 1109.99,
-      "max": 99000
     },
     "Brand New": {
       "count": 37,
@@ -14723,8 +14769,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5369,
-      "count": 321
+      "avg": 5359,
+      "count": 322
     },
     "03": {
       "name": "Mar",
@@ -14878,7 +14924,7 @@
     "0-500": 22,
     "500-1k": 36,
     "1k-2k": 116,
-    "2k-3k": 100,
+    "2k-3k": 101,
     "3k-5k": 111,
     "5k-10k": 47,
     "10k+": 19
@@ -14887,12 +14933,17 @@
     "0-500": 22,
     "500-1k": 36,
     "1k-2k": 116,
-    "2k-3k": 100,
+    "2k-3k": 101,
     "3k-5k": 111,
     "5k-10k": 42,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 869,
+      "count": 49,
+      "avg": 18
+    },
     "BC Rich": {
       "sum": 289,
       "count": 31,
@@ -14947,11 +14998,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Gibson": {
-      "sum": 868,
-      "count": 48,
-      "avg": 18
     },
     "Eastman": {
       "sum": 44,
@@ -15224,9 +15270,9 @@
       "avg": 28
     },
     "Lollar": {
-      "sum": 12,
+      "sum": 13,
       "count": 1,
-      "avg": 12
+      "avg": 13
     },
     "Novo": {
       "sum": 26,
@@ -15325,6 +15371,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-13": 1,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
@@ -15345,10 +15392,10 @@
     "2026-04-05": 22
   },
   "categoryDistribution": {
-    "reverb": 412,
-    "marketplace": 45
+    "marketplace": 46,
+    "reverb": 412
   },
-  "activeModelsCount": 379,
+  "activeModelsCount": 380,
   "topPosters": [
     {
       "username": "GP",
@@ -15360,7 +15407,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 43
+      "count": 44
     },
     {
       "username": "YellowJack6",
@@ -15406,10 +15453,10 @@
       "count": 28
     },
     "Gibson": {
-      "avgPrice": 11772,
+      "avgPrice": 11602,
       "retailEst": 800,
-      "avgDiscount": -1371.4,
-      "count": 55
+      "avgDiscount": -1350.3,
+      "count": 56
     },
     "PRS": {
       "avgPrice": 3940,
@@ -15461,8 +15508,8 @@
     }
   },
   "soldPrices": {
-    "count": 140,
-    "avg": 3415,
+    "count": 141,
+    "avg": 3405,
     "min": 26,
     "max": 36500,
     "avgDiscount": 11
@@ -15470,10 +15517,18 @@
   "timeToSell": {
     "overall": {
       "totalDays": 1306.8999999999999,
-      "count": 131,
-      "avgDays": 10
+      "count": 132,
+      "avgDays": 9.9
     },
     "byModel": {
+      "friedman-cali": {
+        "displayName": "Friedman Cali 2018 - Red",
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
+      },
       "nik-huber-krautster-ii": {
         "displayName": "Nik Huber Krautster II Black 2020",
         "totalDays": 0.2,
@@ -16428,6 +16483,13 @@
       }
     },
     "byBrand": {
+      "Friedman": {
+        "totalDays": 1.8,
+        "count": 3,
+        "fastest": 0,
+        "slowest": 1.8,
+        "avgDays": 0.6
+      },
       "Nik Huber": {
         "totalDays": 0.2,
         "count": 1,
@@ -16644,13 +16706,6 @@
         "fastest": 12.6,
         "slowest": 16.1,
         "avgDays": 14.4
-      },
-      "Friedman": {
-        "totalDays": 1.8,
-        "count": 2,
-        "fastest": 0,
-        "slowest": 1.8,
-        "avgDays": 0.9
       },
       "Tokai": {
         "totalDays": 121.4,
@@ -16977,14 +17032,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 428,
-      "sold": 133,
+      "total": 429,
+      "sold": 134,
       "fake": 0,
       "live": 295,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Gibson": {
+        "total": 58,
+        "sold": 15,
+        "fake": 0,
+        "live": 43,
+        "soldPct": 26,
+        "livePct": 74
+      },
       "BC Rich": {
         "total": 33,
         "sold": 8,
@@ -17003,11 +17066,11 @@
       },
       "Friedman": {
         "total": 3,
-        "sold": 2,
+        "sold": 3,
         "fake": 0,
-        "live": 1,
-        "soldPct": 67,
-        "livePct": 33
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
       },
       "Music Man": {
         "total": 12,
@@ -17072,14 +17135,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 57,
-        "sold": 15,
-        "fake": 0,
-        "live": 42,
-        "soldPct": 26,
-        "livePct": 74
       },
       "Eastman": {
         "total": 6,
@@ -17714,12 +17769,12 @@
       {
         "label": "$1k–2k",
         "total": 116,
-        "sold": 38,
-        "rate": 33
+        "sold": 39,
+        "rate": 34
       },
       {
         "label": "$2k–3k",
-        "total": 100,
+        "total": 101,
         "sold": 35,
         "rate": 35
       },
@@ -17743,10 +17798,15 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 26,
+        "sold": 4,
+        "rate": 15
+      },
       "Very Good": {
         "total": 138,
-        "sold": 43,
-        "rate": 31
+        "sold": 44,
+        "rate": 32
       },
       "Good": {
         "total": 55,
@@ -17757,11 +17817,6 @@
         "total": 160,
         "sold": 59,
         "rate": 37
-      },
-      "Used": {
-        "total": 25,
-        "sold": 4,
-        "rate": 16
       },
       "Brand New": {
         "total": 37,
@@ -17809,8 +17864,8 @@
     {
       "label": "0",
       "total": 7,
-      "sold": 5,
-      "rate": 71
+      "sold": 6,
+      "rate": 86
     },
     {
       "label": "1–5",
@@ -17840,7 +17895,7 @@
   "offersEffect": {
     "on": {
       "total": 264,
-      "sold": 90,
+      "sold": 91,
       "rate": 34
     },
     "off": {
@@ -17857,8 +17912,8 @@
     },
     "regular": {
       "total": 166,
-      "sold": 53,
-      "rate": 32
+      "sold": 54,
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -17955,8 +18010,8 @@
     {
       "state": "CO",
       "total": 7,
-      "sold": 2,
-      "rate": 29
+      "sold": 3,
+      "rate": 43
     },
     {
       "state": "NC",
