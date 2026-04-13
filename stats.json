@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T20:00:52.639Z",
+  "generatedAt": "2026-04-13T21:44:03.467Z",
   "totalLinks": 328,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 322,
   "overall": {
     "count": 322,
-    "sum": 1972056.25,
-    "avg": 6124,
+    "sum": 1975456.25,
+    "avg": 6135,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 303,
-    "sum": 863215.27,
-    "avg": 2849,
+    "sum": 866615.27,
+    "avg": 2860,
     "min": 33,
     "max": 9824,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9900,
+    "thresholdHigh": 9914,
     "thresholdLow": 0,
     "count": 19,
     "items": [
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 192,
-      "sum": 1368862.9,
+      "sum": 1372262.9,
       "min": 80,
       "max": 443302,
-      "avg": 7129
+      "avg": 7147
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 290,
-      "sum": 1661991.36,
+      "sum": 1665391.36,
       "min": 33,
       "max": 443302,
-      "avg": 5731
+      "avg": 5743
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 290,
-      "sum": 1661991.36,
+      "sum": 1665391.36,
       "min": 33,
       "max": 443302,
-      "avg": 5731
+      "avg": 5743
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -283,6 +283,37 @@
     }
   },
   "byModel": {
+    "huss-dalton-statesboro-sc": {
+      "displayName": "Huss and Dalton Statesboro SC 2020",
+      "brand": "Huss & Dalton",
+      "model": "Statesboro SC",
+      "variant": null,
+      "count": 1,
+      "sum": 4500,
+      "min": 4500,
+      "max": 4500,
+      "sightings": [
+        {
+          "price": 4500,
+          "date": "2026-04-13T21:43:49.028Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Huss and Dalton Statesboro SC 2020",
+          "url": "https://reverb.com/item/95979215-huss-and-dalton-statesboro-sc-2020",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4500,
+          "min": 4500,
+          "max": 4500,
+          "avg": 4500
+        }
+      },
+      "avg": 4500
+    },
     "gibson-dove-reissue": {
       "displayName": "Epiphone Inspired by Gibson '63 Dove Reissue '25",
       "brand": "Gibson",
@@ -6596,37 +6627,6 @@
       },
       "avg": 399
     },
-    "esp-hybrid-ii": {
-      "displayName": "ESP Hybrid ii Black 1995 W/ OHSC",
-      "brand": "ESP",
-      "model": "Hybrid ii",
-      "variant": null,
-      "count": 1,
-      "sum": 1100,
-      "min": 1100,
-      "max": 1100,
-      "sightings": [
-        {
-          "price": 1100,
-          "date": "2026-04-07T02:02:47.501Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "ESP Hybrid ii Black 1995 W/ OHSC",
-          "url": "https://reverb.com/item/95516139-esp-hybrid-ii-black-1995-w-ohsc",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1100,
-          "min": 1100,
-          "max": 1100,
-          "avg": 1100
-        }
-      },
-      "avg": 1100
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10588,23 +10588,9 @@
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 98,
-      "sum": 737668.56,
-      "sold": {
-        "count": 28,
-        "sum": 66229.78,
-        "avg": 2365,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 7527,
-      "min": 33,
-      "max": 443302
-    },
     "Excellent": {
-      "count": 112,
-      "sum": 628617.73,
+      "count": 113,
+      "sum": 633117.73,
       "sold": {
         "count": 40,
         "sum": 140255.43,
@@ -10612,9 +10598,23 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 5613,
+      "avg": 5603,
       "min": 80,
       "max": 190000
+    },
+    "Very Good": {
+      "count": 97,
+      "sum": 736568.56,
+      "sold": {
+        "count": 28,
+        "sum": 66229.78,
+        "avg": 2365,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 7593,
+      "min": 33,
+      "max": 443302
     },
     "Brand New": {
       "count": 34,
@@ -10720,7 +10720,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 7129,
+      "avg": 7147,
       "count": 192
     },
     "03": {
@@ -10874,24 +10874,29 @@
   "priceDistribution": {
     "0-500": 17,
     "500-1k": 22,
-    "1k-2k": 82,
+    "1k-2k": 81,
     "2k-3k": 71,
-    "3k-5k": 73,
+    "3k-5k": 74,
     "5k-10k": 39,
     "10k+": 18
   },
   "priceDistributionFiltered": {
     "0-500": 17,
     "500-1k": 22,
-    "1k-2k": 82,
+    "1k-2k": 81,
     "2k-3k": 71,
-    "3k-5k": 73,
+    "3k-5k": 74,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Huss & Dalton": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Gibson": {
-      "sum": 690,
+      "sum": 692,
       "count": 39,
       "avg": 18
     },
@@ -10991,7 +10996,7 @@
       "avg": 16
     },
     "Yamaha": {
-      "sum": 17,
+      "sum": 18,
       "count": 2,
       "avg": 9
     },
@@ -11021,9 +11026,9 @@
       "avg": 14
     },
     "ESP": {
-      "sum": 64,
-      "count": 5,
-      "avg": 13
+      "sum": 48,
+      "count": 4,
+      "avg": 12
     },
     "Burny": {
       "sum": 19,
@@ -11242,13 +11247,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 24,
+    "2026-04-13": 25,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 40,
-    "2026-04-07": 14,
+    "2026-04-07": 13,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11264,11 +11269,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 104
+      "count": 105
     },
     {
       "username": "Beijing Bob",
-      "count": 67
+      "count": 66
     },
     {
       "username": "Shteefe",
@@ -12451,6 +12456,14 @@
       "livePct": 71
     },
     "byBrand": {
+      "Huss & Dalton": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 47,
         "sold": 9,
@@ -12484,12 +12497,12 @@
         "livePct": 90
       },
       "ESP": {
-        "total": 7,
+        "total": 6,
         "sold": 3,
         "fake": 0,
-        "live": 4,
-        "soldPct": 43,
-        "livePct": 57
+        "live": 3,
+        "soldPct": 50,
+        "livePct": 50
       },
       "PRS": {
         "total": 32,
@@ -13051,7 +13064,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 82,
+        "total": 81,
         "sold": 23,
         "rate": 28
       },
@@ -13063,9 +13076,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 73,
+        "total": 74,
         "sold": 26,
-        "rate": 36
+        "rate": 35
       },
       {
         "label": "$5k–10k",
@@ -13081,15 +13094,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 98,
-        "sold": 31,
-        "rate": 32
-      },
       "Excellent": {
-        "total": 112,
+        "total": 113,
         "sold": 43,
         "rate": 38
+      },
+      "Very Good": {
+        "total": 97,
+        "sold": 31,
+        "rate": 32
       },
       "Brand New": {
         "total": 34,
@@ -13146,9 +13159,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 3,
-      "rate": 100
+      "rate": 75
     },
     {
       "label": "1–5",
@@ -13164,7 +13177,7 @@
     },
     {
       "label": "16–30",
-      "total": 75,
+      "total": 74,
       "sold": 27,
       "rate": 36
     },
@@ -13189,12 +13202,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 129,
+      "total": 128,
       "sold": 35,
       "rate": 27
     },
     "regular": {
-      "total": 106,
+      "total": 107,
       "sold": 36,
       "rate": 34
     }
@@ -13279,6 +13292,12 @@
       "rate": 67
     },
     {
+      "state": "NJ",
+      "total": 5,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "UT",
       "total": 5,
       "sold": 2,
@@ -13289,12 +13308,6 @@
       "total": 4,
       "sold": 1,
       "rate": 25
-    },
-    {
-      "state": "NJ",
-      "total": 4,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "OH",
@@ -13376,12 +13389,6 @@
     },
     {
       "state": "NC",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
-    },
-    {
-      "state": "MN",
       "total": 2,
       "sold": 1,
       "rate": 50
