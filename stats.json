@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-13T01:56:58.278Z",
-  "totalLinks": 465,
-  "totalBeforeFilter": 504,
+  "generatedAt": "2026-04-13T03:52:10.913Z",
+  "totalLinks": 466,
+  "totalBeforeFilter": 505,
   "fakeCount": 4,
   "removedCount": 0,
-  "totalWithPrice": 459,
+  "totalWithPrice": 460,
   "overall": {
-    "count": 459,
-    "sum": 2342437.12,
-    "avg": 5103,
+    "count": 460,
+    "sum": 2342862.12,
+    "avg": 5093,
     "min": 26,
     "max": 443302
   },
   "filtered": {
-    "count": 435,
-    "sum": 1184572.14,
-    "avg": 2723,
+    "count": 436,
+    "sum": 1184997.14,
+    "avg": 2718,
     "min": 26,
     "max": 9000,
-    "median": 2325
+    "median": 2313
   },
   "outliers": {
     "thresholdHigh": 9171,
@@ -220,11 +220,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 329,
-      "sum": 1739243.77,
+      "count": 330,
+      "sum": 1739668.77,
       "min": 26,
       "max": 443302,
-      "avg": 5286
+      "avg": 5272
     },
     "2026-03": {
       "count": 130,
@@ -236,11 +236,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 419,
-      "sum": 2030833.3,
+      "count": 420,
+      "sum": 2031258.3,
       "min": 26,
       "max": 443302,
-      "avg": 4847
+      "avg": 4836
     },
     "marketplace": {
       "count": 40,
@@ -252,11 +252,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 419,
-      "sum": 2030833.3,
+      "count": 420,
+      "sum": 2031258.3,
       "min": 26,
       "max": 443302,
-      "avg": 4847
+      "avg": 4836
     },
     "guitarcenter.com": {
       "count": 15,
@@ -330,6 +330,37 @@
     }
   },
   "byModel": {
+    "fender-telecaster-heavy-aged": {
+      "displayName": "Fender Relic Replacement Allparts Rosewood Telecaster TRO-C Heavy Aged",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": "Heavy Aged",
+      "count": 1,
+      "sum": 425,
+      "min": 425,
+      "max": 425,
+      "sightings": [
+        {
+          "price": 425,
+          "date": "2026-04-13T03:51:56.181Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Relic Replacement Allparts Rosewood Telecaster TRO-C Heavy Aged",
+          "url": "https://reverb.com/item/95929851-fender-relic-replacement-allparts-rosewood-telecaster-tro-c-heavy-aged",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 425,
+          "min": 425,
+          "max": 425,
+          "avg": 425
+        }
+      },
+      "avg": 425
+    },
     "rickenbacker-nik-huber-krautster-7-string-flame-maple": {
       "displayName": "Nik Huber Krautster III K-III 7 String Electric Guitar Flame Maple Grey Burst #1 Prototype",
       "brand": "Rickenbacker",
@@ -6874,37 +6905,6 @@
         ]
       },
       "avg": 3299
-    },
-    "bc-rich-explorer-usa": {
-      "displayName": "B.C. Rich USA Custom Explorer Natural 1985",
-      "brand": "BC Rich",
-      "model": "Explorer",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 3999,
-      "min": 3999,
-      "max": 3999,
-      "sightings": [
-        {
-          "price": 3999,
-          "date": "2026-04-06T21:56:03.416Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich USA Custom Explorer Natural 1985",
-          "url": "https://reverb.com/item/91888011-b-c-rich-usa-custom-explorer-natural-1985",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3999,
-          "min": 3999,
-          "max": 3999,
-          "avg": 3999
-        }
-      },
-      "avg": 3999
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -14826,12 +14826,43 @@
         ]
       },
       "avg": 2750
+    },
+    "bc-rich-explorer-usa": {
+      "displayName": "B.C. Rich USA Custom Explorer Natural 1985",
+      "brand": "BC Rich",
+      "model": "Explorer",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 3999,
+      "min": 3999,
+      "max": 3999,
+      "sightings": [
+        {
+          "price": 3999,
+          "date": "2026-04-06T21:56:03.416Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich USA Custom Explorer Natural 1985",
+          "url": "https://reverb.com/item/91888011-b-c-rich-usa-custom-explorer-natural-1985",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3999,
+          "min": 3999,
+          "max": 3999,
+          "avg": 3999
+        }
+      },
+      "avg": 3999
     }
   },
   "byCondition": {
     "Excellent": {
-      "count": 162,
-      "sum": 777612.6799999999,
+      "count": 163,
+      "sum": 778037.6799999999,
       "sold": {
         "count": 55,
         "sum": 172513.38,
@@ -14839,7 +14870,7 @@
         "min": 26,
         "max": 35900
       },
-      "avg": 4800,
+      "avg": 4773,
       "min": 26,
       "max": 190000
     },
@@ -14964,8 +14995,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 5286,
-      "count": 329
+      "avg": 5272,
+      "count": 330
     },
     "03": {
       "name": "Mar",
@@ -15116,7 +15147,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 23,
+    "0-500": 24,
     "500-1k": 37,
     "1k-2k": 120,
     "2k-3k": 101,
@@ -15125,7 +15156,7 @@
     "10k+": 19
   },
   "priceDistributionFiltered": {
-    "0-500": 23,
+    "0-500": 24,
     "500-1k": 37,
     "1k-2k": 120,
     "2k-3k": 101,
@@ -15134,28 +15165,28 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 247,
+      "count": 26,
+      "avg": 10
+    },
     "Rickenbacker": {
-      "sum": 196,
+      "sum": 199,
       "count": 18,
       "avg": 11
     },
     "Gibson": {
-      "sum": 873,
+      "sum": 875,
       "count": 52,
       "avg": 17
     },
-    "Fender": {
-      "sum": 245,
-      "count": 25,
+    "BC Rich": {
+      "sum": 300,
+      "count": 31,
       "avg": 10
     },
-    "BC Rich": {
-      "sum": 291,
-      "count": 31,
-      "avg": 9
-    },
     "PRS": {
-      "sum": 535,
+      "sum": 544,
       "count": 48,
       "avg": 11
     },
@@ -15180,9 +15211,9 @@
       "avg": 7
     },
     "Jackson": {
-      "sum": 161,
+      "sum": 164,
       "count": 13,
-      "avg": 12
+      "avg": 13
     },
     "Nik Huber": {
       "sum": 0,
@@ -15190,9 +15221,9 @@
       "avg": 0
     },
     "Epiphone": {
-      "sum": 77,
+      "sum": 78,
       "count": 4,
-      "avg": 19
+      "avg": 20
     },
     "Seagull": {
       "sum": 2,
@@ -15200,9 +15231,9 @@
       "avg": 2
     },
     "Eastman": {
-      "sum": 44,
+      "sum": 45,
       "count": 6,
-      "avg": 7
+      "avg": 8
     },
     "Fano": {
       "sum": 107,
@@ -15215,17 +15246,17 @@
       "avg": 9
     },
     "Charvel": {
-      "sum": 143,
+      "sum": 144,
       "count": 5,
       "avg": 29
     },
     "FGN": {
-      "sum": 19,
+      "sum": 20,
       "count": 3,
-      "avg": 6
+      "avg": 7
     },
     "Vintage": {
-      "sum": 85,
+      "sum": 86,
       "count": 5,
       "avg": 17
     },
@@ -15235,9 +15266,9 @@
       "avg": 24
     },
     "Anderson": {
-      "sum": 16,
+      "sum": 17,
       "count": 2,
-      "avg": 8
+      "avg": 9
     },
     "Floyd Rose": {
       "sum": 22,
@@ -15255,7 +15286,7 @@
       "avg": 9
     },
     "Ibanez": {
-      "sum": 216,
+      "sum": 218,
       "count": 18,
       "avg": 12
     },
@@ -15270,7 +15301,7 @@
       "avg": 18
     },
     "Schecter": {
-      "sum": 27,
+      "sum": 28,
       "count": 3,
       "avg": 9
     },
@@ -15280,9 +15311,9 @@
       "avg": 43
     },
     "Nash": {
-      "sum": 28,
+      "sum": 29,
       "count": 2,
-      "avg": 14
+      "avg": 15
     },
     "Heritage": {
       "sum": 3,
@@ -15295,7 +15326,7 @@
       "avg": 44
     },
     "Kiesel": {
-      "sum": 230,
+      "sum": 231,
       "count": 12,
       "avg": 19
     },
@@ -15310,7 +15341,7 @@
       "avg": 3
     },
     "Washburn": {
-      "sum": 20,
+      "sum": 21,
       "count": 3,
       "avg": 7
     },
@@ -15345,14 +15376,14 @@
       "avg": 4
     },
     "Greco": {
-      "sum": 44,
+      "sum": 45,
       "count": 5,
       "avg": 9
     },
     "AXL": {
-      "sum": 20,
+      "sum": 21,
       "count": 2,
-      "avg": 10
+      "avg": 11
     },
     "Matchless": {
       "sum": 5,
@@ -15365,19 +15396,19 @@
       "avg": 18
     },
     "Gretsch": {
-      "sum": 37,
+      "sum": 38,
       "count": 4,
-      "avg": 9
+      "avg": 10
     },
     "Languedoc": {
-      "sum": 15,
+      "sum": 16,
       "count": 1,
-      "avg": 15
+      "avg": 16
     },
     "Frank": {
-      "sum": 15,
+      "sum": 16,
       "count": 1,
-      "avg": 15
+      "avg": 16
     },
     "LSL": {
       "sum": 16,
@@ -15410,9 +15441,9 @@
       "avg": 16
     },
     "Diamond": {
-      "sum": 16,
+      "sum": 17,
       "count": 1,
-      "avg": 16
+      "avg": 17
     },
     "Hoyer": {
       "sum": 17,
@@ -15425,7 +15456,7 @@
       "avg": 17
     },
     "Framus": {
-      "sum": 31,
+      "sum": 32,
       "count": 2,
       "avg": 16
     },
@@ -15455,14 +15486,14 @@
       "avg": 14
     },
     "Millimetric": {
-      "sum": 38,
+      "sum": 39,
       "count": 3,
       "avg": 13
     },
     "Cornish": {
-      "sum": 28,
+      "sum": 29,
       "count": 1,
-      "avg": 28
+      "avg": 29
     },
     "Lollar": {
       "sum": 13,
@@ -15475,9 +15506,9 @@
       "avg": 9
     },
     "Xotic": {
-      "sum": 12,
+      "sum": 13,
       "count": 1,
-      "avg": 12
+      "avg": 13
     },
     "Hamer": {
       "sum": 12,
@@ -15520,9 +15551,9 @@
       "avg": 46
     },
     "Bogner": {
-      "sum": 9,
+      "sum": 10,
       "count": 1,
-      "avg": 9
+      "avg": 10
     },
     "Kauer": {
       "sum": 56,
@@ -15566,7 +15597,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 8,
+    "2026-04-13": 9,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
@@ -15587,10 +15618,10 @@
     "2026-04-05": 22
   },
   "categoryDistribution": {
-    "reverb": 419,
+    "reverb": 420,
     "marketplace": 46
   },
-  "activeModelsCount": 385,
+  "activeModelsCount": 386,
   "topPosters": [
     {
       "username": "GP",
@@ -15598,7 +15629,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 89
+      "count": 90
     },
     {
       "username": "Shteefe",
@@ -15642,10 +15673,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6031,
+      "avgPrice": 5844,
       "retailEst": 800,
-      "avgDiscount": -653.8,
-      "count": 29
+      "avgDiscount": -630.5,
+      "count": 30
     },
     "Gibson": {
       "avgPrice": 11109,
@@ -17026,7 +17057,7 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1528.5165153744288,
+      "totalPctDrop": 1528.5165153744292,
       "count": 95,
       "avgPctDrop": 16.1
     },
@@ -17235,14 +17266,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 436,
+      "total": 437,
       "sold": 135,
       "fake": 0,
-      "live": 301,
+      "live": 302,
       "soldPct": 31,
       "livePct": 69
     },
     "byBrand": {
+      "Fender": {
+        "total": 32,
+        "sold": 7,
+        "fake": 0,
+        "live": 25,
+        "soldPct": 22,
+        "livePct": 78
+      },
       "Rickenbacker": {
         "total": 19,
         "sold": 1,
@@ -17258,14 +17297,6 @@
         "live": 46,
         "soldPct": 25,
         "livePct": 75
-      },
-      "Fender": {
-        "total": 31,
-        "sold": 7,
-        "fake": 0,
-        "live": 24,
-        "soldPct": 23,
-        "livePct": 77
       },
       "BC Rich": {
         "total": 33,
@@ -17959,9 +17990,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 23,
+        "total": 24,
         "sold": 8,
-        "rate": 35
+        "rate": 33
       },
       {
         "label": "$500–1k",
@@ -18002,7 +18033,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 162,
+        "total": 163,
         "sold": 59,
         "rate": 36
       },
@@ -18078,7 +18109,7 @@
     },
     {
       "label": "6–15",
-      "total": 93,
+      "total": 94,
       "sold": 27,
       "rate": 29
     },
@@ -18102,7 +18133,7 @@
       "rate": 34
     },
     "off": {
-      "total": 107,
+      "total": 108,
       "sold": 32,
       "rate": 30
     }
@@ -18114,7 +18145,7 @@
       "rate": 29
     },
     "regular": {
-      "total": 170,
+      "total": 171,
       "sold": 55,
       "rate": 32
     }
@@ -18146,9 +18177,9 @@
     },
     {
       "state": "FL",
-      "total": 15,
+      "total": 16,
       "sold": 9,
-      "rate": 60
+      "rate": 56
     },
     {
       "state": "TN",
