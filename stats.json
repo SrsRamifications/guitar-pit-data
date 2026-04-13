@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T09:26:19.858Z",
+  "generatedAt": "2026-04-13T09:35:34.185Z",
   "totalLinks": 328,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 322,
   "overall": {
     "count": 322,
-    "sum": 1946146.26,
-    "avg": 6044,
+    "sum": 1946417.26,
+    "avg": 6045,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 301,
-    "sum": 819281.28,
-    "avg": 2722,
+    "sum": 819552.28,
+    "avg": 2723,
     "min": 33,
     "max": 9500,
     "median": 2300
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 192,
-      "sum": 1342952.91,
+      "sum": 1343223.91,
       "min": 80,
       "max": 443302,
-      "avg": 6995
+      "avg": 6996
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 293,
-      "sum": 1660046.36,
+      "sum": 1660317.36,
       "min": 33,
       "max": 443302,
-      "avg": 5666
+      "avg": 5667
     },
     "marketplace": {
       "count": 29,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 293,
-      "sum": 1660046.36,
+      "sum": 1660317.36,
       "min": 33,
       "max": 443302,
-      "avg": 5666
+      "avg": 5667
     },
     "guitarcenter.com": {
       "count": 9,
@@ -299,6 +299,37 @@
     }
   },
   "byModel": {
+    "eastman-t486-goldburst": {
+      "displayName": "Eastman T486 - Goldburst",
+      "brand": "Eastman",
+      "model": "T486 Goldburst",
+      "variant": null,
+      "count": 1,
+      "sum": 1871,
+      "min": 1871,
+      "max": 1871,
+      "sightings": [
+        {
+          "price": 1871,
+          "date": "2026-04-13T09:35:19.626Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman T486 - Goldburst",
+          "url": "https://reverb.com/item/94532219-eastman-t486-goldburst",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1871,
+          "min": 1871,
+          "max": 1871,
+          "avg": 1871
+        }
+      },
+      "avg": 1871
+    },
     "esp-ltd-esp-ltd-baritone": {
       "displayName": "ESP LTD ESP LTD TE-1007 BARITONE BLACK BLAST 2025",
       "brand": "ESP",
@@ -6597,37 +6628,6 @@
       },
       "avg": 1680
     },
-    "bc-rich-warlock": {
-      "displayName": "Used BC Rich Warlock 1988 - White",
-      "brand": "BC Rich",
-      "model": "Warlock",
-      "variant": null,
-      "count": 1,
-      "sum": 1600,
-      "min": 1600,
-      "max": 1600,
-      "sightings": [
-        {
-          "price": 1600,
-          "date": "2026-04-06T22:49:15.337Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used BC Rich Warlock 1988 - White",
-          "url": "https://reverb.com/item/95723446-used-bc-rich-warlock-1988-white",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
-        }
-      },
-      "avg": 1600
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10590,8 +10590,8 @@
   },
   "byCondition": {
     "Brand New": {
-      "count": 32,
-      "sum": 142310.12,
+      "count": 33,
+      "sum": 144181.12,
       "sold": {
         "count": 2,
         "sum": 9638.17,
@@ -10599,7 +10599,7 @@
         "min": 4548.17,
         "max": 5090
       },
-      "avg": 4447,
+      "avg": 4369,
       "min": 135,
       "max": 10900
     },
@@ -10643,8 +10643,8 @@
       "max": 32407
     },
     "Very Good": {
-      "count": 98,
-      "sum": 736664.56,
+      "count": 97,
+      "sum": 735064.56,
       "sold": {
         "count": 28,
         "sum": 63695.780000000006,
@@ -10652,7 +10652,7 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 7517,
+      "avg": 7578,
       "min": 33,
       "max": 443302
     },
@@ -10721,7 +10721,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 6995,
+      "avg": 6996,
       "count": 192
     },
     "03": {
@@ -10891,6 +10891,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Eastman": {
+      "sum": 77,
+      "count": 7,
+      "avg": 11
+    },
     "Rickenbacker": {
       "sum": 202,
       "count": 19,
@@ -10900,11 +10905,6 @@
       "sum": 7,
       "count": 1,
       "avg": 7
-    },
-    "Eastman": {
-      "sum": 57,
-      "count": 6,
-      "avg": 10
     },
     "Fender": {
       "sum": 106,
@@ -10917,8 +10917,8 @@
       "avg": 18
     },
     "BC Rich": {
-      "sum": 202,
-      "count": 21,
+      "sum": 196,
+      "count": 20,
       "avg": 10
     },
     "PRS": {
@@ -11037,9 +11037,9 @@
       "avg": 10
     },
     "Castedosa": {
-      "sum": 86,
+      "sum": 87,
       "count": 2,
-      "avg": 43
+      "avg": 44
     },
     "Nash": {
       "sum": 20,
@@ -11248,14 +11248,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 13,
+    "2026-04-13": 14,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
-    "2026-04-06": 8,
+    "2026-04-06": 7,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11283,11 +11283,11 @@
     },
     {
       "username": "YellowJack6",
-      "count": 30
+      "count": 29
     },
     {
       "username": "WontonGG",
-      "count": 24
+      "count": 25
     },
     {
       "username": "Madero",
@@ -11343,10 +11343,10 @@
       "count": 16
     },
     "BC Rich": {
-      "avgPrice": 2181,
+      "avgPrice": 2210,
       "retailEst": 200,
-      "avgDiscount": -990.5,
-      "count": 21
+      "avgDiscount": -1005,
+      "count": 20
     },
     "Rickenbacker": {
       "avgPrice": 4843,
@@ -12459,6 +12459,14 @@
       "livePct": 71
     },
     "byBrand": {
+      "Eastman": {
+        "total": 7,
+        "sold": 2,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 29,
+        "livePct": 71
+      },
       "ESP": {
         "total": 7,
         "sold": 3,
@@ -12483,14 +12491,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Eastman": {
-        "total": 6,
-        "sold": 2,
-        "fake": 0,
-        "live": 4,
-        "soldPct": 33,
-        "livePct": 67
-      },
       "Fender": {
         "total": 21,
         "sold": 5,
@@ -12508,12 +12508,12 @@
         "livePct": 82
       },
       "BC Rich": {
-        "total": 21,
+        "total": 20,
         "sold": 5,
         "fake": 0,
-        "live": 16,
-        "soldPct": 24,
-        "livePct": 76
+        "live": 15,
+        "soldPct": 25,
+        "livePct": 75
       },
       "PRS": {
         "total": 32,
@@ -13098,7 +13098,7 @@
     ],
     "byCondition": {
       "Brand New": {
-        "total": 32,
+        "total": 33,
         "sold": 3,
         "rate": 9
       },
@@ -13118,7 +13118,7 @@
         "rate": 25
       },
       "Very Good": {
-        "total": 98,
+        "total": 97,
         "sold": 31,
         "rate": 32
       },
@@ -13150,8 +13150,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 80,
-    "totalOffers": 165,
+    "withOffers": 79,
+    "totalOffers": 164,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 63
   },
@@ -13168,9 +13168,9 @@
     },
     {
       "label": "1–5",
-      "total": 29,
+      "total": 30,
       "sold": 10,
-      "rate": 34
+      "rate": 33
     },
     {
       "label": "6–15",
@@ -13180,9 +13180,9 @@
     },
     {
       "label": "16–30",
-      "total": 75,
+      "total": 74,
       "sold": 28,
-      "rate": 37
+      "rate": 38
     },
     {
       "label": "31+",
@@ -13193,14 +13193,14 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 186,
+      "total": 185,
       "sold": 64,
-      "rate": 34
+      "rate": 35
     },
     "off": {
-      "total": 65,
+      "total": 66,
       "sold": 16,
-      "rate": 25
+      "rate": 24
     }
   },
   "sellerType": {
@@ -13331,14 +13331,14 @@
       "rate": 0
     },
     {
-      "state": "NC",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
-    },
-    {
       "state": "AL",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "ENG",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
@@ -13371,6 +13371,12 @@
       "total": 2,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "NC",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "MN",
