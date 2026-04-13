@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T18:36:01.040Z",
+  "generatedAt": "2026-04-13T20:00:52.639Z",
   "totalLinks": 328,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 322,
   "overall": {
     "count": 322,
-    "sum": 1972525.25,
-    "avg": 6126,
+    "sum": 1972056.25,
+    "avg": 6124,
     "min": 33,
     "max": 443302
   },
   "filtered": {
     "count": 303,
-    "sum": 863684.27,
-    "avg": 2850,
+    "sum": 863215.27,
+    "avg": 2849,
     "min": 33,
     "max": 9824,
     "median": 2399
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 192,
-      "sum": 1369331.9,
+      "sum": 1368862.9,
       "min": 80,
       "max": 443302,
-      "avg": 7132
+      "avg": 7129
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 290,
-      "sum": 1662460.36,
+      "sum": 1661991.36,
       "min": 33,
       "max": 443302,
-      "avg": 5733
+      "avg": 5731
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 290,
-      "sum": 1662460.36,
+      "sum": 1661991.36,
       "min": 33,
       "max": 443302,
-      "avg": 5733
+      "avg": 5731
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -283,6 +283,37 @@
     }
   },
   "byModel": {
+    "gibson-dove-reissue": {
+      "displayName": "Epiphone Inspired by Gibson '63 Dove Reissue '25",
+      "brand": "Gibson",
+      "model": "Dove",
+      "variant": "Reissue",
+      "count": 1,
+      "sum": 895,
+      "min": 895,
+      "max": 895,
+      "sightings": [
+        {
+          "price": 895,
+          "date": "2026-04-13T20:00:38.226Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Epiphone Inspired by Gibson '63 Dove Reissue '25",
+          "url": "https://reverb.com/item/95977808-epiphone-inspired-by-gibson-63-dove-reissue-25",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 895,
+          "min": 895,
+          "max": 895,
+          "avg": 895
+        }
+      },
+      "avg": 895
+    },
     "epiphone-casinofactory-installed-bigsby-usa": {
       "displayName": "Epiphone USA Casino/Factory installed Bigsby vibrato",
       "brand": "Epiphone",
@@ -6596,37 +6627,6 @@
       },
       "avg": 1100
     },
-    "esp-standard": {
-      "displayName": "ESP Standard Vintage Plus 2007 -  Antiqued Black",
-      "brand": "ESP",
-      "model": "Standard",
-      "variant": null,
-      "count": 1,
-      "sum": 1364,
-      "min": 1364,
-      "max": 1364,
-      "sightings": [
-        {
-          "price": 1364,
-          "date": "2026-04-07T02:00:25.177Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "ESP Standard Vintage Plus 2007 -  Antiqued Black",
-          "url": "https://reverb.com/item/95703795-esp-standard-vintage-plus-2007-antiqued-black",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1364,
-          "min": 1364,
-          "max": 1364,
-          "avg": 1364
-        }
-      },
-      "avg": 1364
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10588,9 +10588,23 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 98,
+      "sum": 737668.56,
+      "sold": {
+        "count": 28,
+        "sum": 66229.78,
+        "avg": 2365,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 7527,
+      "min": 33,
+      "max": 443302
+    },
     "Excellent": {
-      "count": 113,
-      "sum": 629981.73,
+      "count": 112,
+      "sum": 628617.73,
       "sold": {
         "count": 40,
         "sum": 140255.43,
@@ -10598,7 +10612,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 5575,
+      "avg": 5613,
       "min": 80,
       "max": 190000
     },
@@ -10626,20 +10640,6 @@
       "avg": 9666,
       "min": 1169.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 97,
-      "sum": 736773.56,
-      "sold": {
-        "count": 28,
-        "sum": 66229.78,
-        "avg": 2365,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 7596,
-      "min": 33,
-      "max": 443302
     },
     "Good": {
       "count": 38,
@@ -10720,7 +10720,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 7132,
+      "avg": 7129,
       "count": 192
     },
     "03": {
@@ -10873,8 +10873,8 @@
   ],
   "priceDistribution": {
     "0-500": 17,
-    "500-1k": 21,
-    "1k-2k": 83,
+    "500-1k": 22,
+    "1k-2k": 82,
     "2k-3k": 71,
     "3k-5k": 73,
     "5k-10k": 39,
@@ -10882,23 +10882,23 @@
   },
   "priceDistributionFiltered": {
     "0-500": 17,
-    "500-1k": 21,
-    "1k-2k": 83,
+    "500-1k": 22,
+    "1k-2k": 82,
     "2k-3k": 71,
     "3k-5k": 73,
     "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
-    "Epiphone": {
-      "sum": 54,
-      "count": 4,
-      "avg": 14
-    },
     "Gibson": {
       "sum": 690,
-      "count": 38,
+      "count": 39,
       "avg": 18
+    },
+    "Epiphone": {
+      "sum": 55,
+      "count": 4,
+      "avg": 14
     },
     "Rickenbacker": {
       "sum": 216,
@@ -11016,14 +11016,14 @@
       "avg": 8
     },
     "Ibanez": {
-      "sum": 190,
+      "sum": 191,
       "count": 14,
       "avg": 14
     },
     "ESP": {
-      "sum": 72,
-      "count": 6,
-      "avg": 12
+      "sum": 64,
+      "count": 5,
+      "avg": 13
     },
     "Burny": {
       "sum": 19,
@@ -11242,13 +11242,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-13": 23,
+    "2026-04-13": 24,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 40,
-    "2026-04-07": 15,
+    "2026-04-07": 14,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11318,10 +11318,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 13897,
+      "avgPrice": 13608,
       "retailEst": 800,
-      "avgDiscount": -1637.1,
-      "count": 44
+      "avgDiscount": -1601,
+      "count": 45
     },
     "PRS": {
       "avgPrice": 4634,
@@ -12451,6 +12451,14 @@
       "livePct": 71
     },
     "byBrand": {
+      "Gibson": {
+        "total": 47,
+        "sold": 9,
+        "fake": 0,
+        "live": 38,
+        "soldPct": 19,
+        "livePct": 81
+      },
       "Epiphone": {
         "total": 4,
         "sold": 1,
@@ -12458,14 +12466,6 @@
         "live": 3,
         "soldPct": 25,
         "livePct": 75
-      },
-      "Gibson": {
-        "total": 46,
-        "sold": 9,
-        "fake": 0,
-        "live": 37,
-        "soldPct": 20,
-        "livePct": 80
       },
       "Rickenbacker": {
         "total": 22,
@@ -12484,12 +12484,12 @@
         "livePct": 90
       },
       "ESP": {
-        "total": 8,
+        "total": 7,
         "sold": 3,
         "fake": 0,
-        "live": 5,
-        "soldPct": 38,
-        "livePct": 63
+        "live": 4,
+        "soldPct": 43,
+        "livePct": 57
       },
       "PRS": {
         "total": 32,
@@ -13045,13 +13045,13 @@
       },
       {
         "label": "$500–1k",
-        "total": 21,
+        "total": 22,
         "sold": 6,
-        "rate": 29
+        "rate": 27
       },
       {
         "label": "$1k–2k",
-        "total": 83,
+        "total": 82,
         "sold": 23,
         "rate": 28
       },
@@ -13081,8 +13081,13 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 98,
+        "sold": 31,
+        "rate": 32
+      },
       "Excellent": {
-        "total": 113,
+        "total": 112,
         "sold": 43,
         "rate": 38
       },
@@ -13095,11 +13100,6 @@
         "total": 18,
         "sold": 3,
         "rate": 17
-      },
-      "Very Good": {
-        "total": 97,
-        "sold": 31,
-        "rate": 32
       },
       "Good": {
         "total": 38,
@@ -13152,9 +13152,9 @@
     },
     {
       "label": "1–5",
-      "total": 27,
+      "total": 28,
       "sold": 11,
-      "rate": 41
+      "rate": 39
     },
     {
       "label": "6–15",
@@ -13170,31 +13170,31 @@
     },
     {
       "label": "31+",
-      "total": 62,
+      "total": 61,
       "sold": 13,
       "rate": 21
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 183,
+      "total": 182,
       "sold": 64,
       "rate": 35
     },
     "off": {
-      "total": 65,
+      "total": 66,
       "sold": 16,
-      "rate": 25
+      "rate": 24
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 128,
+      "total": 129,
       "sold": 35,
       "rate": 27
     },
     "regular": {
-      "total": 107,
+      "total": 106,
       "sold": 36,
       "rate": 34
     }
@@ -13327,6 +13327,12 @@
       "rate": 0
     },
     {
+      "state": "WI",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "NV",
       "total": 2,
       "sold": 0,
@@ -13379,12 +13385,6 @@
       "total": 2,
       "sold": 1,
       "rate": 50
-    },
-    {
-      "state": "AZ",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "RI",
