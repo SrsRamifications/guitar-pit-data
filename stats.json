@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T02:48:05.943Z",
+  "generatedAt": "2026-04-14T02:57:05.518Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1524233.25,
-    "avg": 4763,
+    "sum": 1496017.25,
+    "avg": 4675,
     "min": 33,
     "max": 190000
   },
   "filtered": {
     "count": 301,
-    "sum": 848775.27,
-    "avg": 2820,
+    "sum": 843341.27,
+    "avg": 2802,
     "min": 33,
-    "max": 9699,
+    "max": 9600,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9747,
+    "thresholdHigh": 9645,
     "thresholdLow": 0,
     "count": 19,
     "items": [
@@ -72,14 +72,6 @@
         "image": "https://rvb-img.reverb.com/i/s--D03JzPXQ--/quality=medium-low,height=800,width=800,fit=contain/c078c732-c255-4310-b4f3-ca21cd847176.jpg",
         "condition": "Very Good",
         "postedAt": "2026-04-10T20:13:16.103Z"
-      },
-      {
-        "title": "Fender Stratocaster 1958 - Sonic Blue Refinish",
-        "url": "https://reverb.com/item/95582195-fender-stratocaster-1958-sonic-blue-refinish",
-        "price": "$32,481",
-        "image": "https://rvb-img.reverb.com/i/s--chrQDLrR--/quality=medium-low,height=800,width=800,fit=contain/f3e20477-468a-4f0b-a0a8-b7622f1343f9.jpg",
-        "condition": "Good",
-        "postedAt": "2026-04-07T21:44:31.286Z"
       },
       {
         "title": "Hamer Custom Shop Vector V #2 Rick Nielsen Signature/Artist Signed Black & White Checkerboard 1983 w/OHSC",
@@ -175,16 +167,24 @@
         "image": "https://rvb-img.reverb.com/i/s--990DvfZc--/quality=medium-low,height=800,width=800,fit=contain/bd45ccc3-0dfd-4f6a-adb6-04b415b5e029.jpg",
         "condition": "Excellent",
         "postedAt": "2026-04-11T18:19:37.063Z"
+      },
+      {
+        "title": "Castedosa Conchers Baritone - Aged Burnt Marshmallow #503",
+        "url": "https://reverb.com/item/95416746-castedosa-conchers-baritone-aged-burnt-marshmallow-503",
+        "price": "$9,699",
+        "image": "https://rvb-img.reverb.com/i/s--vE4WrxST--/quality=medium-low,height=800,width=800,fit=contain/3ecf8fd5-53bd-44a0-9dee-6e51496e9618.jpg",
+        "condition": "Brand New",
+        "postedAt": "2026-04-10T04:08:35.253Z"
       }
     ]
   },
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 921039.9,
+      "sum": 892823.9,
       "min": 80,
       "max": 190000,
-      "avg": 4848
+      "avg": 4699
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1214168.36,
+      "sum": 1185952.36,
       "min": 33,
       "max": 190000,
-      "avg": 4216
+      "avg": 4118
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1214168.36,
+      "sum": 1185952.36,
       "min": 33,
       "max": 190000,
-      "avg": 4216
+      "avg": 4118
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -283,6 +283,53 @@
     }
   },
   "byModel": {
+    "gibson-es-335": {
+      "displayName": "Gibson ES-335 Big Block Retro LTD Wood Rose",
+      "brand": "Gibson",
+      "model": "ES-335",
+      "variant": null,
+      "count": 2,
+      "sum": 6815,
+      "min": 2550,
+      "max": 4265,
+      "sightings": [
+        {
+          "price": 2550,
+          "date": "2026-04-10T18:04:23.042Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson ES-335TD 1976 - Walnut",
+          "url": "https://reverb.com/ca/item/94543202-gibson-es-335td-1976-walnut",
+          "condition": "Good"
+        },
+        {
+          "price": 4265,
+          "date": "2026-04-14T02:56:51.180Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson ES-335 Big Block Retro LTD Wood Rose",
+          "url": "https://reverb.com/item/93962330-gibson-es-335-big-block-retro-ltd-wood-rose",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4265,
+          "min": 4265,
+          "max": 4265,
+          "avg": 4265
+        },
+        "Good": {
+          "count": 1,
+          "sum": 2550,
+          "min": 2550,
+          "max": 2550,
+          "avg": 2550
+        }
+      },
+      "avg": 3408
+    },
     "collings": {
       "displayName": "Collings 290",
       "brand": "Collings",
@@ -3827,37 +3874,6 @@
       },
       "avg": 3100
     },
-    "gibson-es-335": {
-      "displayName": "Gibson ES-335TD 1976 - Walnut",
-      "brand": "Gibson",
-      "model": "ES-335",
-      "variant": null,
-      "count": 1,
-      "sum": 2550,
-      "min": 2550,
-      "max": 2550,
-      "sightings": [
-        {
-          "price": 2550,
-          "date": "2026-04-10T18:04:23.042Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson ES-335TD 1976 - Walnut",
-          "url": "https://reverb.com/ca/item/94543202-gibson-es-335td-1976-walnut",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 2550,
-          "min": 2550,
-          "max": 2550,
-          "avg": 2550
-        }
-      },
-      "avg": 2550
-    },
     "fgn-dt870-mij": {
       "displayName": "Ibanez DT870  Destroyer Bass 1984 MIJ Fujigen",
       "brand": "FGN",
@@ -6432,37 +6448,6 @@
         ]
       },
       "avg": 2500
-    },
-    "fender-stratocaster-1958": {
-      "displayName": "Fender Stratocaster 1958 - Sonic Blue Refinish",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": "1958",
-      "count": 1,
-      "sum": 32481,
-      "min": 32481,
-      "max": 32481,
-      "sightings": [
-        {
-          "price": 32481,
-          "date": "2026-04-07T21:44:31.286Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender Stratocaster 1958 - Sonic Blue Refinish",
-          "url": "https://reverb.com/item/95582195-fender-stratocaster-1958-sonic-blue-refinish",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 32481,
-          "min": 32481,
-          "max": 32481,
-          "avg": 32481
-        }
-      },
-      "avg": 32481
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -10457,6 +10442,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 97,
+      "sum": 300165.55999999994,
+      "sold": {
+        "count": 27,
+        "sum": 64630.780000000006,
+        "avg": 2394,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3094,
+      "min": 33,
+      "max": 34999
+    },
     "Excellent": {
       "count": 114,
       "sum": 630315.73,
@@ -10471,23 +10470,9 @@
       "min": 80,
       "max": 190000
     },
-    "Very Good": {
-      "count": 96,
-      "sum": 295900.55999999994,
-      "sold": {
-        "count": 27,
-        "sum": 64630.780000000006,
-        "avg": 2394,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3082,
-      "min": 33,
-      "max": 34999
-    },
     "Good": {
-      "count": 39,
-      "sum": 137269.95,
+      "count": 38,
+      "sum": 104788.95,
       "sold": {
         "count": 9,
         "sum": 23615.27,
@@ -10495,9 +10480,9 @@
         "min": 99,
         "max": 4777.5
       },
-      "avg": 3520,
+      "avg": 2758,
       "min": 99,
-      "max": 32481
+      "max": 10995
     },
     "Brand New": {
       "count": 32,
@@ -10575,7 +10560,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4848,
+      "avg": 4699,
       "count": 190
     },
     "03": {
@@ -10731,17 +10716,17 @@
     "500-1k": 21,
     "1k-2k": 82,
     "2k-3k": 73,
-    "3k-5k": 74,
+    "3k-5k": 75,
     "5k-10k": 37,
-    "10k+": 17
+    "10k+": 16
   },
   "priceDistributionFiltered": {
     "0-500": 16,
     "500-1k": 21,
     "1k-2k": 82,
     "2k-3k": 73,
-    "3k-5k": 74,
-    "5k-10k": 35,
+    "3k-5k": 75,
+    "5k-10k": 34,
     "10k+": 0
   },
   "daysOnMarket": {
@@ -10771,12 +10756,12 @@
       "avg": 0
     },
     "Epiphone": {
-      "sum": 55,
+      "sum": 56,
       "count": 4,
       "avg": 14
     },
     "Gibson": {
-      "sum": 543,
+      "sum": 544,
       "count": 34,
       "avg": 16
     },
@@ -10786,7 +10771,7 @@
       "avg": 13
     },
     "PRS": {
-      "sum": 322,
+      "sum": 323,
       "count": 28,
       "avg": 12
     },
@@ -10801,12 +10786,12 @@
       "avg": 8
     },
     "Fender": {
-      "sum": 110,
-      "count": 14,
-      "avg": 8
+      "sum": 97,
+      "count": 13,
+      "avg": 7
     },
     "BC Rich": {
-      "sum": 186,
+      "sum": 188,
       "count": 17,
       "avg": 11
     },
@@ -10856,9 +10841,9 @@
       "avg": 35
     },
     "FGN": {
-      "sum": 22,
+      "sum": 23,
       "count": 3,
-      "avg": 7
+      "avg": 8
     },
     "Vintage": {
       "sum": 62,
@@ -10981,7 +10966,7 @@
       "avg": 5
     },
     "Greco": {
-      "sum": 29,
+      "sum": 30,
       "count": 3,
       "avg": 10
     },
@@ -11112,14 +11097,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 8,
+    "2026-04-14": 9,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 40,
-    "2026-04-07": 1,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11131,7 +11115,7 @@
     "reverb": 288,
     "marketplace": 38
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 278,
   "topPosters": [
     {
       "username": "GP",
@@ -11143,11 +11127,11 @@
     },
     {
       "username": "Shteefe",
-      "count": 33
+      "count": 32
     },
     {
       "username": "WontonGG",
-      "count": 25
+      "count": 26
     },
     {
       "username": "YellowJack6",
@@ -11177,22 +11161,22 @@
   "bestMonth": {
     "name": "Mar",
     "avg": 4640,
-    "pctBelowAvg": 3,
+    "pctBelowAvg": 1,
     "count": 130
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 7948,
+      "avgPrice": 6505,
       "retailEst": 800,
-      "avgDiscount": -893.5,
-      "count": 18
+      "avgDiscount": -713.1,
+      "count": 17
     },
     "Gibson": {
-      "avgPrice": 3907,
+      "avgPrice": 3916,
       "retailEst": 800,
-      "avgDiscount": -388.4,
-      "count": 40
+      "avgDiscount": -389.5,
+      "count": 41
     },
     "PRS": {
       "avgPrice": 4697,
@@ -12300,6 +12284,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 43,
+        "sold": 8,
+        "fake": 0,
+        "live": 35,
+        "soldPct": 19,
+        "livePct": 81
+      },
       "Collings": {
         "total": 2,
         "sold": 0,
@@ -12356,14 +12348,6 @@
         "soldPct": 25,
         "livePct": 75
       },
-      "Gibson": {
-        "total": 42,
-        "sold": 8,
-        "fake": 0,
-        "live": 34,
-        "soldPct": 19,
-        "livePct": 81
-      },
       "Jackson": {
         "total": 10,
         "sold": 1,
@@ -12405,12 +12389,12 @@
         "livePct": 100
       },
       "Fender": {
-        "total": 20,
+        "total": 19,
         "sold": 5,
         "fake": 0,
-        "live": 15,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 14,
+        "soldPct": 26,
+        "livePct": 74
       },
       "BC Rich": {
         "total": 17,
@@ -12944,9 +12928,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 74,
+        "total": 75,
         "sold": 25,
-        "rate": 34
+        "rate": 33
       },
       {
         "label": "$5k–10k",
@@ -12956,24 +12940,24 @@
       },
       {
         "label": "$10k+",
-        "total": 17,
+        "total": 16,
         "sold": 6,
-        "rate": 35
+        "rate": 38
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 97,
+        "sold": 30,
+        "rate": 31
+      },
       "Excellent": {
         "total": 114,
         "sold": 41,
         "rate": 36
       },
-      "Very Good": {
-        "total": 96,
-        "sold": 30,
-        "rate": 31
-      },
       "Good": {
-        "total": 39,
+        "total": 38,
         "sold": 10,
         "rate": 26
       },
@@ -13010,8 +12994,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 79,
-    "totalOffers": 173,
+    "withOffers": 80,
+    "totalOffers": 175,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 64
   },
@@ -13065,12 +13049,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 124,
+      "total": 125,
       "sold": 31,
       "rate": 25
     },
     "regular": {
-      "total": 109,
+      "total": 108,
       "sold": 35,
       "rate": 32
     }
@@ -13237,12 +13221,6 @@
       "total": 2,
       "sold": 1,
       "rate": 50
-    },
-    {
-      "state": "AL",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "RI",
