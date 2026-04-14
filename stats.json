@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T20:33:05.217Z",
+  "generatedAt": "2026-04-14T22:43:11.629Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1489154.25,
-    "avg": 4654,
+    "sum": 1488354.25,
+    "avg": 4651,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 299,
-    "sum": 817378.27,
-    "avg": 2734,
+    "sum": 816578.27,
+    "avg": 2731,
     "min": 7,
     "max": 8699,
     "median": 2394
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 885960.9,
+      "sum": 885160.9,
       "min": 7,
       "max": 190000,
-      "avg": 4663
+      "avg": 4659
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1175814.36,
+      "sum": 1175014.36,
       "min": 7,
       "max": 190000,
-      "avg": 4083
+      "avg": 4080
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1175814.36,
+      "sum": 1175014.36,
       "min": 7,
       "max": 190000,
-      "avg": 4083
+      "avg": 4080
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "classic": {
+      "displayName": "John Page Classic Ashburn - Daphne Blue w/OGB",
+      "brand": null,
+      "model": "Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 700,
+      "min": 700,
+      "max": 700,
+      "sightings": [
+        {
+          "price": 700,
+          "date": "2026-04-14T22:42:56.776Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "John Page Classic Ashburn - Daphne Blue w/OGB",
+          "url": "https://reverb.com/item/96029146-john-page-classic-ashburn-daphne-blue-w-ogb",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 700,
+          "min": 700,
+          "max": 700,
+          "avg": 700
+        }
+      },
+      "avg": 700
+    },
     "ibanez-les-paul-nebula-7-string": {
       "displayName": "Ibanez Alpha Series A527-NSH Nebula Shift Multi-Scale 7-String #911",
       "brand": "Ibanez",
@@ -6445,37 +6476,6 @@
       },
       "avg": 201
     },
-    "tokai-1990s-love-rock-p90": {
-      "displayName": "1990s Tokai Love Rock Model made in Japan, customized Seymour Duncan P90, Gotoh gold hard ware",
-      "brand": "Tokai",
-      "model": "1990s Love Rock",
-      "variant": "P90",
-      "count": 1,
-      "sum": 1500,
-      "min": 1500,
-      "max": 1500,
-      "sightings": [
-        {
-          "price": 1500,
-          "date": "2026-04-08T20:04:10.837Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1990s Tokai Love Rock Model made in Japan, customized Seymour Duncan P90, Gotoh gold hard ware",
-          "url": "https://reverb.com/item/95776259-1990s-tokai-love-rock-model-made-in-japan-customized-seymour-duncan-p90-gotoh-gold-hard-ware",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1500,
-          "min": 1500,
-          "max": 1500,
-          "avg": 1500
-        }
-      },
-      "avg": 1500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10469,6 +10469,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 120,
+      "sum": 642789.73,
+      "sold": {
+        "count": 38,
+        "sum": 132600.43,
+        "avg": 3489,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 5357,
+      "min": 200,
+      "max": 190000
+    },
     "Brand New": {
       "count": 30,
       "sum": 129673.10999999999,
@@ -10483,23 +10497,9 @@
       "min": 135,
       "max": 11099
     },
-    "Excellent": {
-      "count": 119,
-      "sum": 642089.73,
-      "sold": {
-        "count": 38,
-        "sum": 132600.43,
-        "avg": 3489,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 5396,
-      "min": 200,
-      "max": 190000
-    },
     "Very Good": {
-      "count": 94,
-      "sum": 295591.55999999994,
+      "count": 93,
+      "sum": 294091.55999999994,
       "sold": {
         "count": 25,
         "sum": 61098.78,
@@ -10507,7 +10507,7 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 3145,
+      "avg": 3162,
       "min": 7,
       "max": 34999
     },
@@ -10587,7 +10587,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4663,
+      "avg": 4659,
       "count": 190
     },
     "03": {
@@ -10740,8 +10740,8 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 20,
-    "1k-2k": 87,
+    "500-1k": 21,
+    "1k-2k": 86,
     "2k-3k": 73,
     "3k-5k": 77,
     "5k-10k": 33,
@@ -10749,8 +10749,8 @@
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 20,
-    "1k-2k": 87,
+    "500-1k": 21,
+    "1k-2k": 86,
     "2k-3k": 73,
     "3k-5k": 77,
     "5k-10k": 28,
@@ -10773,7 +10773,7 @@
       "avg": 7
     },
     "Gibson": {
-      "sum": 690,
+      "sum": 692,
       "count": 37,
       "avg": 19
     },
@@ -10818,9 +10818,9 @@
       "avg": 1
     },
     "Greco": {
-      "sum": 52,
+      "sum": 53,
       "count": 2,
-      "avg": 26
+      "avg": 27
     },
     "Collings": {
       "sum": 28,
@@ -11002,11 +11002,6 @@
       "count": 1,
       "avg": 6
     },
-    "Tokai": {
-      "sum": 6,
-      "count": 1,
-      "avg": 6
-    },
     "Languedoc": {
       "sum": 17,
       "count": 1,
@@ -11073,9 +11068,9 @@
       "avg": 17
     },
     "Powers Electric": {
-      "sum": 17,
+      "sum": 18,
       "count": 1,
-      "avg": 17
+      "avg": 18
     },
     "Flaxwood": {
       "sum": 17,
@@ -11124,13 +11119,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 32,
+    "2026-04-14": 33,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 17,
+    "2026-04-08": 16,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11146,7 +11141,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 103
+      "count": 102
     },
     {
       "username": "Beijing Bob",
@@ -11174,7 +11169,7 @@
     },
     {
       "username": "Modean",
-      "count": 7
+      "count": 8
     },
     {
       "username": "HanSwolo",
@@ -12295,10 +12290,10 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 306,
+      "total": 305,
       "sold": 82,
       "fake": 0,
-      "live": 224,
+      "live": 223,
       "soldPct": 27,
       "livePct": 73
     },
@@ -12719,14 +12714,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Tokai": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12871,6 +12858,14 @@
         "soldPct": 0,
         "livePct": 100
       },
+      "Tokai": {
+        "total": 1,
+        "sold": 1,
+        "fake": 0,
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
+      },
       "Millimetric": {
         "total": 2,
         "sold": 1,
@@ -12929,13 +12924,13 @@
       },
       {
         "label": "$500–1k",
-        "total": 20,
+        "total": 21,
         "sold": 5,
-        "rate": 25
+        "rate": 24
       },
       {
         "label": "$1k–2k",
-        "total": 87,
+        "total": 86,
         "sold": 21,
         "rate": 24
       },
@@ -12965,18 +12960,18 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 120,
+        "sold": 41,
+        "rate": 34
+      },
       "Brand New": {
         "total": 30,
         "sold": 2,
         "rate": 7
       },
-      "Excellent": {
-        "total": 119,
-        "sold": 41,
-        "rate": 34
-      },
       "Very Good": {
-        "total": 94,
+        "total": 93,
         "sold": 28,
         "rate": 30
       },
@@ -13016,7 +13011,7 @@
     "withOffers": 80,
     "totalOffers": 178,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 64
+    "offersEnabledPct": 65
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13031,13 +13026,13 @@
     },
     {
       "label": "1–5",
-      "total": 23,
+      "total": 24,
       "sold": 9,
-      "rate": 39
+      "rate": 38
     },
     {
       "label": "6–15",
-      "total": 70,
+      "total": 69,
       "sold": 14,
       "rate": 20
     },
@@ -13056,12 +13051,12 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 185,
+      "total": 186,
       "sold": 57,
       "rate": 31
     },
     "off": {
-      "total": 61,
+      "total": 60,
       "sold": 15,
       "rate": 25
     }
@@ -13081,7 +13076,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 34,
+      "total": 33,
       "sold": 7,
       "rate": 21
     },
@@ -13093,9 +13088,9 @@
     },
     {
       "state": "WA",
-      "total": 15,
+      "total": 16,
       "sold": 4,
-      "rate": 27
+      "rate": 25
     },
     {
       "state": "FL",
