@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T20:17:40.732Z",
+  "generatedAt": "2026-04-14T20:33:05.217Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1490154.25,
-    "avg": 4657,
+    "sum": 1489154.25,
+    "avg": 4654,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 299,
-    "sum": 818378.27,
-    "avg": 2737,
+    "sum": 817378.27,
+    "avg": 2734,
     "min": 7,
     "max": 8699,
-    "median": 2398.99
+    "median": 2394
   },
   "outliers": {
     "thresholdHigh": 9397,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 886960.9,
+      "sum": 885960.9,
       "min": 7,
       "max": 190000,
-      "avg": 4668
+      "avg": 4663
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1176814.36,
+      "sum": 1175814.36,
       "min": 7,
       "max": 190000,
-      "avg": 4086
+      "avg": 4083
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1176814.36,
+      "sum": 1175814.36,
       "min": 7,
       "max": 190000,
-      "avg": 4086
+      "avg": 4083
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "ibanez-les-paul-nebula-7-string": {
+      "displayName": "Ibanez Alpha Series A527-NSH Nebula Shift Multi-Scale 7-String #911",
+      "brand": "Ibanez",
+      "model": "Les Paul",
+      "variant": "Nebula 7-string",
+      "count": 1,
+      "sum": 1900,
+      "min": 1900,
+      "max": 1900,
+      "sightings": [
+        {
+          "price": 1900,
+          "date": "2026-04-14T20:32:50.588Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez Alpha Series A527-NSH Nebula Shift Multi-Scale 7-String #911",
+          "url": "https://reverb.com/item/96021069-ibanez-alpha-series-a527-nsh-nebula-shift-multi-scale-7-string-911",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1900,
+          "min": 1900,
+          "max": 1900,
+          "avg": 1900
+        }
+      },
+      "avg": 1900
+    },
     "rickenbacker-gretsch-g6134tg-paisley-limited-edition-bigsby": {
       "displayName": "2025 Gretsch G6134TG Limited Edition Paisley Penguin w/ Bigsby Electric Guitar & Case! RARE! VERY NICE!!!",
       "brand": "Rickenbacker",
@@ -10438,9 +10469,23 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 30,
+      "sum": 129673.10999999999,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4322,
+      "min": 135,
+      "max": 11099
+    },
     "Excellent": {
-      "count": 120,
-      "sum": 644989.73,
+      "count": 119,
+      "sum": 642089.73,
       "sold": {
         "count": 38,
         "sum": 132600.43,
@@ -10448,7 +10493,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 5375,
+      "avg": 5396,
       "min": 200,
       "max": 190000
     },
@@ -10465,20 +10510,6 @@
       "avg": 3145,
       "min": 7,
       "max": 34999
-    },
-    "Brand New": {
-      "count": 29,
-      "sum": 127773.10999999999,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4406,
-      "min": 135,
-      "max": 11099
     },
     "Used": {
       "count": 19,
@@ -10556,7 +10587,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4668,
+      "avg": 4663,
       "count": 190
     },
     "03": {
@@ -10710,8 +10741,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 20,
-    "1k-2k": 86,
-    "2k-3k": 74,
+    "1k-2k": 87,
+    "2k-3k": 73,
     "3k-5k": 77,
     "5k-10k": 33,
     "10k+": 16
@@ -10719,13 +10750,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 20,
-    "1k-2k": 86,
-    "2k-3k": 74,
+    "1k-2k": 87,
+    "2k-3k": 73,
     "3k-5k": 77,
     "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 200,
+      "count": 15,
+      "avg": 13
+    },
     "Rickenbacker": {
       "sum": 243,
       "count": 28,
@@ -10780,11 +10816,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Ibanez": {
-      "sum": 200,
-      "count": 14,
-      "avg": 14
     },
     "Greco": {
       "sum": 52,
@@ -10887,7 +10918,7 @@
       "avg": 20
     },
     "Yamaha": {
-      "sum": 19,
+      "sum": 20,
       "count": 2,
       "avg": 10
     },
@@ -11093,13 +11124,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 31,
+    "2026-04-14": 32,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 18,
+    "2026-04-08": 17,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11111,7 +11142,7 @@
     "reverb": 288,
     "marketplace": 38
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "GP",
@@ -11135,7 +11166,7 @@
     },
     {
       "username": "Madero",
-      "count": 13
+      "count": 12
     },
     {
       "username": "jazee_",
@@ -11143,7 +11174,7 @@
     },
     {
       "username": "Modean",
-      "count": 6
+      "count": 7
     },
     {
       "username": "HanSwolo",
@@ -11181,10 +11212,10 @@
       "count": 27
     },
     "Ibanez": {
-      "avgPrice": 2556,
+      "avgPrice": 2518,
       "retailEst": 1000,
-      "avgDiscount": -155.6,
-      "count": 16
+      "avgDiscount": -151.8,
+      "count": 17
     },
     "Jackson": {
       "avgPrice": 3801,
@@ -12264,14 +12295,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 305,
+      "total": 306,
       "sold": 82,
       "fake": 0,
-      "live": 223,
+      "live": 224,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 17,
+        "sold": 5,
+        "fake": 0,
+        "live": 12,
+        "soldPct": 29,
+        "livePct": 71
+      },
       "Rickenbacker": {
         "total": 30,
         "sold": 2,
@@ -12367,14 +12406,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Ibanez": {
-        "total": 16,
-        "sold": 5,
-        "fake": 0,
-        "live": 11,
-        "soldPct": 31,
-        "livePct": 69
       },
       "Greco": {
         "total": 2,
@@ -12904,15 +12935,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 86,
+        "total": 87,
         "sold": 21,
         "rate": 24
       },
       {
         "label": "$2k–3k",
-        "total": 74,
+        "total": 73,
         "sold": 24,
-        "rate": 32
+        "rate": 33
       },
       {
         "label": "$3k–5k",
@@ -12934,8 +12965,13 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 30,
+        "sold": 2,
+        "rate": 7
+      },
       "Excellent": {
-        "total": 120,
+        "total": 119,
         "sold": 41,
         "rate": 34
       },
@@ -12943,11 +12979,6 @@
         "total": 94,
         "sold": 28,
         "rate": 30
-      },
-      "Brand New": {
-        "total": 29,
-        "sold": 2,
-        "rate": 7
       },
       "Used": {
         "total": 19,
@@ -13000,13 +13031,13 @@
     },
     {
       "label": "1–5",
-      "total": 22,
+      "total": 23,
       "sold": 9,
-      "rate": 41
+      "rate": 39
     },
     {
       "label": "6–15",
-      "total": 71,
+      "total": 70,
       "sold": 14,
       "rate": 20
     },
@@ -13067,12 +13098,6 @@
       "rate": 27
     },
     {
-      "state": "NY",
-      "total": 11,
-      "sold": 1,
-      "rate": 9
-    },
-    {
       "state": "FL",
       "total": 11,
       "sold": 6,
@@ -13083,6 +13108,12 @@
       "total": 10,
       "sold": 4,
       "rate": 40
+    },
+    {
+      "state": "NY",
+      "total": 10,
+      "sold": 1,
+      "rate": 10
     },
     {
       "state": "IL",
@@ -13101,6 +13132,12 @@
       "total": 8,
       "sold": 2,
       "rate": 25
+    },
+    {
+      "state": "MD",
+      "total": 6,
+      "sold": 1,
+      "rate": 17
     },
     {
       "state": "NJ",
@@ -13125,12 +13162,6 @@
       "total": 6,
       "sold": 4,
       "rate": 67
-    },
-    {
-      "state": "MD",
-      "total": 5,
-      "sold": 1,
-      "rate": 20
     },
     {
       "state": "UT",
