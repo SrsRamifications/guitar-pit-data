@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T00:22:15.063Z",
+  "generatedAt": "2026-04-14T00:24:03.176Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1534895.25,
-    "avg": 4782,
+    "sum": 1531598.25,
+    "avg": 4771,
     "min": 33,
     "max": 190000
   },
   "filtered": {
     "count": 302,
-    "sum": 859532.27,
-    "avg": 2846,
+    "sum": 856235.27,
+    "avg": 2835,
     "min": 33,
     "max": 9699,
-    "median": 2400
+    "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9710,
+    "thresholdHigh": 9747,
     "thresholdLow": 0,
     "count": 19,
     "items": [
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 931701.9,
+      "sum": 928404.9,
       "min": 80,
       "max": 190000,
-      "avg": 4878
+      "avg": 4861
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 1224830.36,
+      "sum": 1221533.36,
       "min": 33,
       "max": 190000,
-      "avg": 4238
+      "avg": 4227
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 1224830.36,
+      "sum": 1221533.36,
       "min": 33,
       "max": 190000,
-      "avg": 4238
+      "avg": 4227
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -283,6 +283,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-telecaster-american-ultra-premium": {
+      "displayName": "Fender American Ultra Telecaster w/ Premium Molded Hardshell Case-  Rosewood fretboard- Texas Tea",
+      "brand": "Rickenbacker",
+      "model": "Telecaster",
+      "variant": "American Ultra Premium",
+      "count": 1,
+      "sum": 1350,
+      "min": 1350,
+      "max": 1350,
+      "sightings": [
+        {
+          "price": 1350,
+          "date": "2026-04-14T00:23:48.308Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender American Ultra Telecaster w/ Premium Molded Hardshell Case-  Rosewood fretboard- Texas Tea",
+          "url": "https://reverb.com/item/94221379-fender-american-ultra-telecaster-w-premium-molded-hardshell-case-rosewood-fretboard-texas-tea",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1350,
+          "min": 1350,
+          "max": 1350,
+          "avg": 1350
+        }
+      },
+      "avg": 1350
+    },
     "rickenbacker-esp-elect-guitar": {
       "displayName": "ESP Electric Guitar in Yellow",
       "brand": "Rickenbacker",
@@ -6533,52 +6564,6 @@
       },
       "avg": 1735
     },
-    "gibson-es-359-custom-shop": {
-      "displayName": "Gibson Custom Shop ES-359 (2011) Ebony fingerboard - Sunburst",
-      "brand": "Gibson",
-      "model": "ES-359",
-      "variant": "Custom Shop",
-      "count": 1,
-      "sum": 4647,
-      "min": 4647,
-      "max": 4647,
-      "sightings": [
-        {
-          "price": 4647,
-          "date": "2026-04-07T18:01:15.301Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Custom Shop ES-359 (2011) Ebony fingerboard - Sunburst",
-          "url": "https://reverb.com/item/86821317-gibson-custom-shop-es-359-2011-ebony-fingerboard-sunburst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4647,
-          "min": 4647,
-          "max": 4647,
-          "avg": 4647
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 4647,
-        "min": 4647,
-        "max": 4647,
-        "prices": [
-          {
-            "price": 4647,
-            "askingPrice": 4647,
-            "date": "2026-04-11T13:12:36.054Z",
-            "title": "Gibson Custom Shop ES-359 (2011) Ebony fingerboard - Sunburst",
-            "url": "https://reverb.com/item/86821317-gibson-custom-shop-es-359-2011-ebony-fingerboard-sunburst"
-          }
-        ]
-      },
-      "avg": 4647
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10572,6 +10557,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 115,
+      "sum": 635505.73,
+      "sold": {
+        "count": 39,
+        "sum": 135608.43,
+        "avg": 3477,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 5526,
+      "min": 80,
+      "max": 190000
+    },
     "Good": {
       "count": 39,
       "sum": 137202.95,
@@ -10585,20 +10584,6 @@
       "avg": 3518,
       "min": 99,
       "max": 32407
-    },
-    "Excellent": {
-      "count": 115,
-      "sum": 638802.73,
-      "sold": {
-        "count": 40,
-        "sum": 140255.43,
-        "avg": 3506,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 5555,
-      "min": 80,
-      "max": 190000
     },
     "Brand New": {
       "count": 33,
@@ -10704,7 +10689,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4878,
+      "avg": 4861,
       "count": 191
     },
     "03": {
@@ -10748,13 +10733,6 @@
       "oldPrice": "$2,299",
       "newPrice": "$2,199",
       "date": "2026-04-10T21:10:15.012Z"
-    },
-    {
-      "title": "Gibson Custom Shop ES-359 (2011) Ebony fingerboard - Sunburst",
-      "url": "https://reverb.com/item/86821317-gibson-custom-shop-es-359-2011-ebony-fingerboard-sunburst",
-      "oldPrice": "$4,836",
-      "newPrice": "$4,647",
-      "date": "2026-04-08T06:57:39.914Z"
     },
     {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
@@ -10853,31 +10831,38 @@
       "oldPrice": "$5,354.46",
       "newPrice": "$5,319",
       "date": "2026-04-02T23:22:27.116Z"
+    },
+    {
+      "title": "Xotic California Classic XSCPro-2 Aged Series Electric Guitar 2024 Lake Placid Blue w/Hard Case, Materials",
+      "url": "https://reverb.com/item/95568895-xotic-california-classic-xscpro-2-aged-series-electric-guitar-2024-lake-placid-blue-w-hard-case-materials",
+      "oldPrice": "$3,240",
+      "newPrice": "$2,592",
+      "date": "2026-04-06T03:01:15.102Z"
     }
   ],
   "priceDistribution": {
     "0-500": 16,
     "500-1k": 20,
-    "1k-2k": 83,
+    "1k-2k": 84,
     "2k-3k": 72,
-    "3k-5k": 74,
+    "3k-5k": 73,
     "5k-10k": 39,
     "10k+": 17
   },
   "priceDistributionFiltered": {
     "0-500": 16,
     "500-1k": 20,
-    "1k-2k": 83,
+    "1k-2k": 84,
     "2k-3k": 72,
-    "3k-5k": 74,
+    "3k-5k": 73,
     "5k-10k": 37,
     "10k+": 0
   },
   "daysOnMarket": {
     "Rickenbacker": {
       "sum": 216,
-      "count": 25,
-      "avg": 9
+      "count": 26,
+      "avg": 8
     },
     "K-Line": {
       "sum": 0,
@@ -11236,14 +11221,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 2,
+    "2026-04-14": 3,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 40,
-    "2026-04-07": 8,
+    "2026-04-07": 7,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11259,7 +11244,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 107
+      "count": 108
     },
     {
       "username": "Beijing Bob",
@@ -11271,7 +11256,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 27
+      "count": 26
     },
     {
       "username": "YellowJack6",
@@ -11313,10 +11298,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 3925,
+      "avgPrice": 3907,
       "retailEst": 800,
-      "avgDiscount": -390.7,
-      "count": 41
+      "avgDiscount": -388.4,
+      "count": 40
     },
     "PRS": {
       "avgPrice": 4634,
@@ -11343,15 +11328,15 @@
       "count": 17
     },
     "Rickenbacker": {
-      "avgPrice": 4462,
+      "avgPrice": 4347,
       "retailEst": 1500,
-      "avgDiscount": -197.5,
-      "count": 26
+      "avgDiscount": -189.8,
+      "count": 27
     }
   },
   "soldPrices": {
-    "count": 95,
-    "avg": 3970,
+    "count": 94,
+    "avg": 3963,
     "min": 99,
     "max": 36500,
     "avgDiscount": 10
@@ -12276,9 +12261,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1070.228937368066,
-      "count": 64,
-      "avgPctDrop": 16.7
+      "totalPctDrop": 1057.5785614282165,
+      "count": 63,
+      "avgPctDrop": 16.8
     },
     "byBrand": {
       "ESP": {
@@ -12287,9 +12272,9 @@
         "avgPctDrop": 10.9
       },
       "Gibson": {
-        "totalPctDrop": 175.26675584505344,
-        "count": 12,
-        "avgPctDrop": 14.6
+        "totalPctDrop": 162.61637990520381,
+        "count": 11,
+        "avgPctDrop": 14.8
       },
       "Reverend": {
         "totalPctDrop": 6.0606060606060606,
@@ -12436,18 +12421,18 @@
   "sellThrough": {
     "overall": {
       "total": 306,
-      "sold": 88,
+      "sold": 87,
       "fake": 0,
-      "live": 218,
-      "soldPct": 29,
-      "livePct": 71
+      "live": 219,
+      "soldPct": 28,
+      "livePct": 72
     },
     "byBrand": {
       "Rickenbacker": {
-        "total": 26,
+        "total": 27,
         "sold": 1,
         "fake": 0,
-        "live": 25,
+        "live": 26,
         "soldPct": 4,
         "livePct": 96
       },
@@ -12476,12 +12461,12 @@
         "livePct": 75
       },
       "Gibson": {
-        "total": 43,
-        "sold": 9,
+        "total": 42,
+        "sold": 8,
         "fake": 0,
         "live": 34,
-        "soldPct": 21,
-        "livePct": 79
+        "soldPct": 19,
+        "livePct": 81
       },
       "Jackson": {
         "total": 10,
@@ -13059,9 +13044,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 83,
+        "total": 84,
         "sold": 23,
-        "rate": 28
+        "rate": 27
       },
       {
         "label": "$2k–3k",
@@ -13071,9 +13056,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 74,
-        "sold": 26,
-        "rate": 35
+        "total": 73,
+        "sold": 25,
+        "rate": 34
       },
       {
         "label": "$5k–10k",
@@ -13089,15 +13074,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 115,
+        "sold": 42,
+        "rate": 37
+      },
       "Good": {
         "total": 39,
         "sold": 9,
         "rate": 23
-      },
-      "Excellent": {
-        "total": 115,
-        "sold": 43,
-        "rate": 37
       },
       "Brand New": {
         "total": 33,
@@ -13142,8 +13127,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 78,
-    "totalOffers": 173,
+    "withOffers": 79,
+    "totalOffers": 175,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 63
   },
@@ -13166,15 +13151,15 @@
     },
     {
       "label": "6–15",
-      "total": 68,
+      "total": 69,
       "sold": 17,
       "rate": 25
     },
     {
       "label": "16–30",
-      "total": 70,
-      "sold": 26,
-      "rate": 37
+      "total": 69,
+      "sold": 25,
+      "rate": 36
     },
     {
       "label": "31+",
@@ -13185,24 +13170,24 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 182,
-      "sold": 64,
+      "total": 181,
+      "sold": 63,
       "rate": 35
     },
     "off": {
-      "total": 65,
+      "total": 66,
       "sold": 15,
       "rate": 23
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 128,
-      "sold": 35,
+      "total": 127,
+      "sold": 34,
       "rate": 27
     },
     "regular": {
-      "total": 106,
+      "total": 107,
       "sold": 35,
       "rate": 33
     }
@@ -13216,9 +13201,9 @@
     },
     {
       "state": "TX",
-      "total": 16,
+      "total": 17,
       "sold": 5,
-      "rate": 31
+      "rate": 29
     },
     {
       "state": "NY",
