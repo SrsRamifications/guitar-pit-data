@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T00:13:50.519Z",
+  "generatedAt": "2026-04-14T00:22:15.063Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,32 +7,24 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1976398.25,
-    "avg": 6157,
+    "sum": 1534895.25,
+    "avg": 4782,
     "min": 33,
-    "max": 443302
+    "max": 190000
   },
   "filtered": {
-    "count": 301,
-    "sum": 857733.27,
-    "avg": 2850,
+    "count": 302,
+    "sum": 859532.27,
+    "avg": 2846,
     "min": 33,
     "max": 9699,
     "median": 2400
   },
   "outliers": {
-    "thresholdHigh": 9782,
+    "thresholdHigh": 9710,
     "thresholdLow": 0,
-    "count": 20,
+    "count": 19,
     "items": [
-      {
-        "title": "Gibson Les Paul Standard 1960 - Sunburst",
-        "url": "https://reverb.com/item/95582242-gibson-les-paul-standard-1960-sunburst",
-        "price": "$443,302",
-        "image": "https://rvb-img.reverb.com/i/s--A3pB5fHi--/quality=medium-low,height=800,width=800,fit=contain/8c0c5511-dd3f-484c-843a-dd10629e0f2b.jpg",
-        "condition": "Very Good",
-        "postedAt": "2026-04-07T17:26:02.477Z"
-      },
       {
         "title": "Bigsby  Electric Tenor Guitar Owned and played by Smokey Stoltenberg Electric Guitar (1949), ser. #10149, original black hard shell case.",
         "url": "https://reverb.com/item/95780435-bigsby-electric-tenor-guitar-owned-and-played-by-smokey-stoltenberg-electric-guitar-1949-ser-10149-original-black-hard-shell-case",
@@ -189,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 1373204.9,
+      "sum": 931701.9,
       "min": 80,
-      "max": 443302,
-      "avg": 7190
+      "max": 190000,
+      "avg": 4878
     },
     "2026-03": {
       "count": 130,
@@ -205,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 1666333.36,
+      "sum": 1224830.36,
       "min": 33,
-      "max": 443302,
-      "avg": 5766
+      "max": 190000,
+      "avg": 4238
     },
     "marketplace": {
       "count": 32,
@@ -221,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 1666333.36,
+      "sum": 1224830.36,
       "min": 33,
-      "max": 443302,
-      "avg": 5766
+      "max": 190000,
+      "avg": 4238
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -291,6 +283,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-esp-elect-guitar": {
+      "displayName": "ESP Electric Guitar in Yellow",
+      "brand": "Rickenbacker",
+      "model": "ESP Elect Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 1799,
+      "min": 1799,
+      "max": 1799,
+      "sightings": [
+        {
+          "price": 1799,
+          "date": "2026-04-14T00:22:00.729Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP Electric Guitar in Yellow",
+          "url": "https://reverb.com/item/95980773-esp-electric-guitar-in-yellow",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1799,
+          "min": 1799,
+          "max": 1799,
+          "avg": 1799
+        }
+      },
+      "avg": 1799
+    },
     "rickenbacker-asher-redd-volkaert-signature": {
       "displayName": "2012 Asher Redd Volkaert Signature T-Deluxe RV #3 of 10 Electric Guitar Blonde + OGB",
       "brand": "Rickenbacker",
@@ -6556,37 +6579,6 @@
       },
       "avg": 4647
     },
-    "gibson-les-paul-standard-1960": {
-      "displayName": "Gibson Les Paul Standard 1960 - Sunburst",
-      "brand": "Gibson",
-      "model": "Les Paul Standard",
-      "variant": "1960",
-      "count": 1,
-      "sum": 443302,
-      "min": 443302,
-      "max": 443302,
-      "sightings": [
-        {
-          "price": 443302,
-          "date": "2026-04-07T17:26:02.477Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Standard 1960 - Sunburst",
-          "url": "https://reverb.com/item/95582242-gibson-les-paul-standard-1960-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 443302,
-          "min": 443302,
-          "max": 443302,
-          "avg": 443302
-        }
-      },
-      "avg": 443302
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10580,6 +10572,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 39,
+      "sum": 137202.95,
+      "sold": {
+        "count": 9,
+        "sum": 23615.27,
+        "avg": 2624,
+        "min": 99,
+        "max": 4777.5
+      },
+      "avg": 3518,
+      "min": 99,
+      "max": 32407
+    },
     "Excellent": {
       "count": 115,
       "sum": 638802.73,
@@ -10593,20 +10599,6 @@
       "avg": 5555,
       "min": 80,
       "max": 190000
-    },
-    "Good": {
-      "count": 38,
-      "sum": 135403.95,
-      "sold": {
-        "count": 9,
-        "sum": 23615.27,
-        "avg": 2624,
-        "min": 99,
-        "max": 4777.5
-      },
-      "avg": 3563,
-      "min": 99,
-      "max": 32407
     },
     "Brand New": {
       "count": 33,
@@ -10634,8 +10626,8 @@
       "max": 99000
     },
     "Very Good": {
-      "count": 95,
-      "sum": 734578.56,
+      "count": 94,
+      "sum": 291276.55999999994,
       "sold": {
         "count": 28,
         "sum": 66229.78,
@@ -10643,9 +10635,9 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 7732,
+      "avg": 3099,
       "min": 33,
-      "max": 443302
+      "max": 34999
     },
     "Mint": {
       "count": 7,
@@ -10712,7 +10704,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 7190,
+      "avg": 4878,
       "count": 191
     },
     "03": {
@@ -10866,16 +10858,16 @@
   "priceDistribution": {
     "0-500": 16,
     "500-1k": 20,
-    "1k-2k": 82,
+    "1k-2k": 83,
     "2k-3k": 72,
     "3k-5k": 74,
     "5k-10k": 39,
-    "10k+": 18
+    "10k+": 17
   },
   "priceDistributionFiltered": {
     "0-500": 16,
     "500-1k": 20,
-    "1k-2k": 82,
+    "1k-2k": 83,
     "2k-3k": 72,
     "3k-5k": 74,
     "5k-10k": 37,
@@ -10884,7 +10876,7 @@
   "daysOnMarket": {
     "Rickenbacker": {
       "sum": 216,
-      "count": 24,
+      "count": 25,
       "avg": 9
     },
     "K-Line": {
@@ -10903,8 +10895,8 @@
       "avg": 14
     },
     "Gibson": {
-      "sum": 554,
-      "count": 35,
+      "sum": 541,
+      "count": 34,
       "avg": 16
     },
     "Jackson": {
@@ -11244,14 +11236,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 1,
+    "2026-04-14": 2,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 40,
-    "2026-04-07": 9,
+    "2026-04-07": 8,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11267,7 +11259,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 106
+      "count": 107
     },
     {
       "username": "Beijing Bob",
@@ -11309,7 +11301,7 @@
   "bestMonth": {
     "name": "Mar",
     "avg": 4640,
-    "pctBelowAvg": 25,
+    "pctBelowAvg": 3,
     "count": 130
   },
   "topVoted": [],
@@ -11321,10 +11313,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 14387,
+      "avgPrice": 3925,
       "retailEst": 800,
-      "avgDiscount": -1698.3,
-      "count": 42
+      "avgDiscount": -390.7,
+      "count": 41
     },
     "PRS": {
       "avgPrice": 4634,
@@ -11351,10 +11343,10 @@
       "count": 17
     },
     "Rickenbacker": {
-      "avgPrice": 4569,
+      "avgPrice": 4462,
       "retailEst": 1500,
-      "avgDiscount": -204.6,
-      "count": 25
+      "avgDiscount": -197.5,
+      "count": 26
     }
   },
   "soldPrices": {
@@ -12452,10 +12444,10 @@
     },
     "byBrand": {
       "Rickenbacker": {
-        "total": 25,
+        "total": 26,
         "sold": 1,
         "fake": 0,
-        "live": 24,
+        "live": 25,
         "soldPct": 4,
         "livePct": 96
       },
@@ -12484,12 +12476,12 @@
         "livePct": 75
       },
       "Gibson": {
-        "total": 44,
+        "total": 43,
         "sold": 9,
         "fake": 0,
-        "live": 35,
-        "soldPct": 20,
-        "livePct": 80
+        "live": 34,
+        "soldPct": 21,
+        "livePct": 79
       },
       "Jackson": {
         "total": 10,
@@ -13067,7 +13059,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 82,
+        "total": 83,
         "sold": 23,
         "rate": 28
       },
@@ -13091,21 +13083,21 @@
       },
       {
         "label": "$10k+",
-        "total": 18,
+        "total": 17,
         "sold": 5,
-        "rate": 28
+        "rate": 29
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 39,
+        "sold": 9,
+        "rate": 23
+      },
       "Excellent": {
         "total": 115,
         "sold": 43,
         "rate": 37
-      },
-      "Good": {
-        "total": 38,
-        "sold": 9,
-        "rate": 24
       },
       "Brand New": {
         "total": 33,
@@ -13118,7 +13110,7 @@
         "rate": 17
       },
       "Very Good": {
-        "total": 95,
+        "total": 94,
         "sold": 31,
         "rate": 33
       },
@@ -13150,8 +13142,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 79,
-    "totalOffers": 174,
+    "withOffers": 78,
+    "totalOffers": 173,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 63
   },
@@ -13174,7 +13166,7 @@
     },
     {
       "label": "6–15",
-      "total": 67,
+      "total": 68,
       "sold": 17,
       "rate": 25
     },
@@ -13186,7 +13178,7 @@
     },
     {
       "label": "31+",
-      "total": 63,
+      "total": 62,
       "sold": 13,
       "rate": 21
     }
@@ -13205,12 +13197,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 127,
+      "total": 128,
       "sold": 35,
-      "rate": 28
+      "rate": 27
     },
     "regular": {
-      "total": 107,
+      "total": 106,
       "sold": 35,
       "rate": 33
     }
@@ -13319,6 +13311,12 @@
       "rate": 50
     },
     {
+      "state": "OK",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "CT",
       "total": 3,
       "sold": 1,
@@ -13338,12 +13336,6 @@
     },
     {
       "state": "KY",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "AL",
       "total": 3,
       "sold": 0,
       "rate": 0
@@ -13373,16 +13365,16 @@
       "rate": 50
     },
     {
-      "state": "OK",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
       "state": "NC",
       "total": 2,
       "sold": 1,
       "rate": 50
+    },
+    {
+      "state": "AL",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "RI",
