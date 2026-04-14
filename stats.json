@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-04-14T04:22:35.342Z",
-  "totalLinks": 326,
+  "generatedAt": "2026-04-14T04:33:16.161Z",
+  "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
-  "removedCount": 2,
-  "totalWithPrice": 320,
+  "removedCount": 1,
+  "totalWithPrice": 321,
   "overall": {
-    "count": 320,
-    "sum": 1495768.25,
-    "avg": 4674,
+    "count": 321,
+    "sum": 1495667.25,
+    "avg": 4659,
     "min": 33,
     "max": 190000
   },
   "filtered": {
     "count": 300,
-    "sum": 833492.27,
-    "avg": 2778,
+    "sum": 823891.27,
+    "avg": 2746,
     "min": 33,
-    "max": 9500,
-    "median": 2399
+    "max": 8699,
+    "median": 2396
   },
   "outliers": {
-    "thresholdHigh": 9560,
+    "thresholdHigh": 9410,
     "thresholdLow": 0,
-    "count": 20,
+    "count": 21,
     "items": [
       {
         "title": "Bigsby  Electric Tenor Guitar Owned and played by Smokey Stoltenberg Electric Guitar (1949), ser. #10149, original black hard shell case.",
@@ -183,16 +183,24 @@
         "image": "https://rvb-img.reverb.com/i/s--Zks488sm--/quality=medium-low,height=800,width=800,fit=contain/ebe20146-80bd-4ad1-b2ec-bace4a548c84.jpeg",
         "condition": "Very Good",
         "postedAt": "2026-04-11T05:11:02.654Z"
+      },
+      {
+        "title": "Knaggs Kenai T T1 Quilt Maple 2026 Northerner Blue",
+        "url": "https://reverb.com/item/94652312-knaggs-kenai-t-t1-quilt-maple-2026-northerner-blue",
+        "price": "$9,500",
+        "image": "https://rvb-img.reverb.com/i/s--8-4992VF--/quality=medium-low,height=800,width=800,fit=contain/61bc17d1-21d5-4951-81b4-6c8a271b4945.png",
+        "condition": "Brand New",
+        "postedAt": "2026-03-31T00:08:12.185Z"
       }
     ]
   },
   "byMonth": {
     "2026-04": {
-      "count": 190,
-      "sum": 892574.9,
+      "count": 191,
+      "sum": 892473.9,
       "min": 99,
       "max": 190000,
-      "avg": 4698
+      "avg": 4673
     },
     "2026-03": {
       "count": 130,
@@ -204,11 +212,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 288,
-      "sum": 1185703.36,
+      "count": 289,
+      "sum": 1185602.36,
       "min": 33,
       "max": 190000,
-      "avg": 4117
+      "avg": 4102
     },
     "marketplace": {
       "count": 32,
@@ -220,11 +228,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 288,
-      "sum": 1185703.36,
+      "count": 289,
+      "sum": 1185602.36,
       "min": 33,
       "max": 190000,
-      "avg": 4117
+      "avg": 4102
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -291,6 +299,68 @@
     }
   },
   "byModel": {
+    "suhr-modern": {
+      "displayName": "Suhr Modern 2024 - Quilt Maple Trans Purple",
+      "brand": "Suhr",
+      "model": "Modern",
+      "variant": null,
+      "count": 1,
+      "sum": 3350,
+      "min": 3350,
+      "max": 3350,
+      "sightings": [
+        {
+          "price": 3350,
+          "date": "2026-04-14T04:32:56.041Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Modern 2024 - Quilt Maple Trans Purple",
+          "url": "https://reverb.com/item/95990400-suhr-modern-2024-quilt-maple-trans-purple",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3350,
+          "min": 3350,
+          "max": 3350,
+          "avg": 3350
+        }
+      },
+      "avg": 3350
+    },
+    "abasi-guitars-emi-": {
+      "displayName": "Abasi Guitars Emi 6 // Legion // 2025 - Bell Garden Green",
+      "brand": "ABASI",
+      "model": "Guitars Emi //",
+      "variant": null,
+      "count": 1,
+      "sum": 1899,
+      "min": 1899,
+      "max": 1899,
+      "sightings": [
+        {
+          "price": 1899,
+          "date": "2026-04-14T04:33:01.427Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Abasi Guitars Emi 6 // Legion // 2025 - Bell Garden Green",
+          "url": "https://reverb.com/item/95992885-abasi-guitars-emi-6-legion-2025-bell-garden-green",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1899,
+          "min": 1899,
+          "max": 1899,
+          "avg": 1899
+        }
+      },
+      "avg": 1899
+    },
     "prs-sc-violin": {
       "displayName": "PRS SC 245 2007 - 2009 - Violin Amber Sunburst",
       "brand": "PRS",
@@ -6443,37 +6513,6 @@
       },
       "avg": 5230
     },
-    "prs-325-limited-edition": {
-      "displayName": "PRS Studio Mango Top Limited Edition Cobalt Smokeburst #325",
-      "brand": "PRS",
-      "model": "325",
-      "variant": "Limited Edition",
-      "count": 1,
-      "sum": 5350,
-      "min": 5350,
-      "max": 5350,
-      "sightings": [
-        {
-          "price": 5350,
-          "date": "2026-04-08T13:56:19.111Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Studio Mango Top Limited Edition Cobalt Smokeburst #325",
-          "url": "https://reverb.com/item/95734302-prs-studio-mango-top-limited-edition-cobalt-smokeburst-325",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 5350,
-          "min": 5350,
-          "max": 5350,
-          "avg": 5350
-        }
-      },
-      "avg": 5350
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10467,6 +10506,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 116,
+      "sum": 637484.73,
+      "sold": {
+        "count": 38,
+        "sum": 133873.43,
+        "avg": 3523,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 5496,
+      "min": 200,
+      "max": 190000
+    },
     "Very Good": {
       "count": 98,
       "sum": 307162.55999999994,
@@ -10480,20 +10533,6 @@
       "avg": 3134,
       "min": 33,
       "max": 34999
-    },
-    "Excellent": {
-      "count": 114,
-      "sum": 632235.73,
-      "sold": {
-        "count": 38,
-        "sum": 133873.43,
-        "avg": 3523,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 5546,
-      "min": 200,
-      "max": 190000
     },
     "Good": {
       "count": 39,
@@ -10510,8 +10549,8 @@
       "max": 10995
     },
     "Brand New": {
-      "count": 30,
-      "sum": 135295.11,
+      "count": 29,
+      "sum": 129945.10999999999,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -10519,7 +10558,7 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 4510,
+      "avg": 4481,
       "min": 135,
       "max": 11099
     },
@@ -10585,8 +10624,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4698,
-      "count": 190
+      "avg": 4673,
+      "count": 191
     },
     "03": {
       "name": "Mar",
@@ -10739,25 +10778,35 @@
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 83,
+    "1k-2k": 84,
     "2k-3k": 74,
-    "3k-5k": 77,
-    "5k-10k": 35,
+    "3k-5k": 78,
+    "5k-10k": 34,
     "10k+": 16
   },
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 83,
+    "1k-2k": 84,
     "2k-3k": 74,
-    "3k-5k": 77,
-    "5k-10k": 31,
+    "3k-5k": 78,
+    "5k-10k": 29,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Suhr": {
+      "sum": 17,
+      "count": 3,
+      "avg": 6
+    },
+    "ABASI": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "PRS": {
-      "sum": 315,
-      "count": 27,
+      "sum": 309,
+      "count": 26,
       "avg": 12
     },
     "Ibanez": {
@@ -10811,7 +10860,7 @@
       "avg": 14
     },
     "Jackson": {
-      "sum": 135,
+      "sum": 136,
       "count": 10,
       "avg": 14
     },
@@ -10851,7 +10900,7 @@
       "avg": 27
     },
     "Dunable": {
-      "sum": 17,
+      "sum": 18,
       "count": 2,
       "avg": 9
     },
@@ -10909,11 +10958,6 @@
       "sum": 8,
       "count": 2,
       "avg": 4
-    },
-    "Suhr": {
-      "sum": 17,
-      "count": 2,
-      "avg": 9
     },
     "ESP": {
       "sum": 48,
@@ -11117,13 +11161,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 15,
+    "2026-04-14": 17,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 34,
+    "2026-04-08": 33,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11132,14 +11176,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 288,
+    "reverb": 289,
     "marketplace": 38
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "GP",
-      "count": 102
+      "count": 104
     },
     {
       "username": "Beijing Bob",
@@ -11167,7 +11211,7 @@
     },
     {
       "username": "Modean",
-      "count": 8
+      "count": 7
     },
     {
       "username": "HanSwolo",
@@ -11181,7 +11225,7 @@
   "bestMonth": {
     "name": "Mar",
     "avg": 4640,
-    "pctBelowAvg": 1,
+    "pctBelowAvg": 0,
     "count": 130
   },
   "topVoted": [],
@@ -11199,10 +11243,10 @@
       "count": 43
     },
     "PRS": {
-      "avgPrice": 4575,
+      "avgPrice": 4547,
       "retailEst": 1000,
-      "avgDiscount": -357.5,
-      "count": 29
+      "avgDiscount": -354.7,
+      "count": 28
     },
     "Ibanez": {
       "avgPrice": 2471,
@@ -12288,21 +12332,37 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 305,
+      "total": 306,
       "sold": 84,
       "fake": 0,
-      "live": 221,
-      "soldPct": 28,
-      "livePct": 72
+      "live": 222,
+      "soldPct": 27,
+      "livePct": 73
     },
     "byBrand": {
+      "Suhr": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
+      "ABASI": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
-        "total": 29,
+        "total": 28,
         "sold": 7,
         "fake": 0,
-        "live": 22,
-        "soldPct": 24,
-        "livePct": 76
+        "live": 21,
+        "soldPct": 25,
+        "livePct": 75
       },
       "Ibanez": {
         "total": 17,
@@ -12553,14 +12613,6 @@
         "livePct": 100
       },
       "G&L": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Suhr": {
         "total": 2,
         "sold": 0,
         "fake": 0,
@@ -12920,7 +12972,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 83,
+        "total": 84,
         "sold": 21,
         "rate": 25
       },
@@ -12932,15 +12984,15 @@
       },
       {
         "label": "$3k–5k",
-        "total": 77,
+        "total": 78,
         "sold": 25,
         "rate": 32
       },
       {
         "label": "$5k–10k",
-        "total": 35,
+        "total": 34,
         "sold": 5,
-        "rate": 14
+        "rate": 15
       },
       {
         "label": "$10k+",
@@ -12950,15 +13002,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 116,
+        "sold": 41,
+        "rate": 35
+      },
       "Very Good": {
         "total": 98,
         "sold": 29,
         "rate": 30
-      },
-      "Excellent": {
-        "total": 114,
-        "sold": 41,
-        "rate": 36
       },
       "Good": {
         "total": 39,
@@ -12966,7 +13018,7 @@
         "rate": 28
       },
       "Brand New": {
-        "total": 30,
+        "total": 29,
         "sold": 2,
         "rate": 7
       },
@@ -13010,9 +13062,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 2,
-      "rate": 67
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -13041,9 +13093,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 184,
+      "total": 185,
       "sold": 60,
-      "rate": 33
+      "rate": 32
     },
     "off": {
       "total": 62,
@@ -13053,14 +13105,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 123,
+      "total": 122,
       "sold": 31,
       "rate": 25
     },
     "regular": {
-      "total": 110,
+      "total": 112,
       "sold": 34,
-      "rate": 31
+      "rate": 30
     }
   },
   "geoSellThrough": [
@@ -13125,16 +13177,16 @@
       "rate": 29
     },
     {
-      "state": "CO",
-      "total": 6,
-      "sold": 3,
-      "rate": 50
-    },
-    {
       "state": "MD",
       "total": 6,
       "sold": 1,
       "rate": 17
+    },
+    {
+      "state": "CO",
+      "total": 6,
+      "sold": 3,
+      "rate": 50
     },
     {
       "state": "MI",
@@ -13153,6 +13205,12 @@
       "total": 5,
       "sold": 2,
       "rate": 40
+    },
+    {
+      "state": "NC",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
     },
     {
       "state": "OR",
@@ -13222,12 +13280,6 @@
     },
     {
       "state": "SC",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
-    },
-    {
-      "state": "NC",
       "total": 2,
       "sold": 1,
       "rate": 50
