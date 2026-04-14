@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T08:17:29.393Z",
+  "generatedAt": "2026-04-14T11:36:53.883Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1493987.24,
-    "avg": 4654,
+    "sum": 1495146.24,
+    "avg": 4658,
     "min": 33,
     "max": 190000
   },
   "filtered": {
     "count": 300,
-    "sum": 822211.26,
-    "avg": 2741,
+    "sum": 823370.26,
+    "avg": 2745,
     "min": 33,
     "max": 8699,
-    "median": 2396
+    "median": 2399
   },
   "outliers": {
     "thresholdHigh": 9407,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 890793.89,
+      "sum": 891952.89,
       "min": 99,
       "max": 190000,
-      "avg": 4664
+      "avg": 4670
     },
     "2026-03": {
       "count": 130,
@@ -211,35 +211,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 288,
+      "sum": 1181431.36,
+      "min": 33,
+      "max": 190000,
+      "avg": 4102
+    },
     "marketplace": {
       "count": 33,
       "sum": 313714.88,
       "min": 374.99,
       "max": 99000,
       "avg": 9507
-    },
-    "reverb": {
-      "count": 288,
-      "sum": 1180272.36,
-      "min": 33,
-      "max": 190000,
-      "avg": 4098
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 288,
+      "sum": 1181431.36,
+      "min": 33,
+      "max": 190000,
+      "avg": 4102
+    },
     "guitarcenter.com": {
       "count": 10,
       "sum": 49317.91,
       "min": 1169.99,
       "max": 26999.99,
       "avg": 4932
-    },
-    "reverb.com": {
-      "count": 288,
-      "sum": 1180272.36,
-      "min": 33,
-      "max": 190000,
-      "avg": 4098
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -299,6 +299,37 @@
     }
   },
   "byModel": {
+    "fgn-classic-custom-shop-heavy-relic": {
+      "displayName": "FGN Neo Classic Custom Shop - Heavy Relic",
+      "brand": "FGN",
+      "model": "Classic",
+      "variant": "Custom Shop Heavy Relic",
+      "count": 1,
+      "sum": 2758,
+      "min": 2758,
+      "max": 2758,
+      "sightings": [
+        {
+          "price": 2758,
+          "date": "2026-04-14T11:36:39.367Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "FGN Neo Classic Custom Shop - Heavy Relic",
+          "url": "https://reverb.com/item/91979281-fgn-neo-classic-custom-shop-heavy-relic",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 2758,
+          "min": 2758,
+          "max": 2758,
+          "avg": 2758
+        }
+      },
+      "avg": 2758
+    },
     "rickenbacker-les-paul-custom": {
       "displayName": "Used Gibson Les Paul Custom Black Solid Body Electric Guitar Black",
       "brand": "Rickenbacker",
@@ -6482,37 +6513,6 @@
       },
       "avg": 250
     },
-    "guild-x-50-granada-1957-": {
-      "displayName": "Guild X-50 Granada- 1957- Franz Pickup",
-      "brand": "Guild",
-      "model": "X-50 Granada- 1957-",
-      "variant": null,
-      "count": 1,
-      "sum": 1599,
-      "min": 1599,
-      "max": 1599,
-      "sightings": [
-        {
-          "price": 1599,
-          "date": "2026-04-08T14:01:48.766Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Guild X-50 Granada- 1957- Franz Pickup",
-          "url": "https://reverb.com/item/84312715-guild-x-50-granada-1957-franz-pickup",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1599,
-          "min": 1599,
-          "max": 1599,
-          "avg": 1599
-        }
-      },
-      "avg": 1599
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10506,6 +10506,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 29,
+      "sum": 127473.10999999999,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4396,
+      "min": 135,
+      "max": 11099
+    },
     "Used": {
       "count": 19,
       "sum": 177634.90999999997,
@@ -10532,8 +10546,8 @@
       "max": 190000
     },
     "Very Good": {
-      "count": 98,
-      "sum": 307162.55999999994,
+      "count": 97,
+      "sum": 305563.55999999994,
       "sold": {
         "count": 26,
         "sum": 62177.780000000006,
@@ -10541,7 +10555,7 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 3134,
+      "avg": 3150,
       "min": 33,
       "max": 34999
     },
@@ -10558,20 +10572,6 @@
       "avg": 2725,
       "min": 99,
       "max": 10995
-    },
-    "Brand New": {
-      "count": 28,
-      "sum": 124715.10999999999,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4454,
-      "min": 135,
-      "max": 11099
     },
     "Mint": {
       "count": 7,
@@ -10624,7 +10624,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4664,
+      "avg": 4670,
       "count": 191
     },
     "03": {
@@ -10778,8 +10778,8 @@
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 84,
-    "2k-3k": 74,
+    "1k-2k": 83,
+    "2k-3k": 75,
     "3k-5k": 79,
     "5k-10k": 33,
     "10k+": 16
@@ -10787,17 +10787,17 @@
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 84,
-    "2k-3k": 74,
+    "1k-2k": 83,
+    "2k-3k": 75,
     "3k-5k": 79,
     "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
     "Rickenbacker": {
-      "sum": 223,
+      "sum": 233,
       "count": 27,
-      "avg": 8
+      "avg": 9
     },
     "Suhr": {
       "sum": 17,
@@ -10810,17 +10810,17 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 310,
+      "sum": 317,
       "count": 25,
-      "avg": 12
+      "avg": 13
     },
     "Ibanez": {
-      "sum": 197,
+      "sum": 201,
       "count": 15,
       "avg": 13
     },
     "Kiesel": {
-      "sum": 159,
+      "sum": 161,
       "count": 9,
       "avg": 18
     },
@@ -10830,12 +10830,12 @@
       "avg": 16
     },
     "Gibson": {
-      "sum": 620,
+      "sum": 631,
       "count": 36,
-      "avg": 17
+      "avg": 18
     },
     "Collings": {
-      "sum": 27,
+      "sum": 28,
       "count": 2,
       "avg": 14
     },
@@ -10845,54 +10845,54 @@
       "avg": 8
     },
     "K-Line": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Huss & Dalton": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Epiphone": {
-      "sum": 56,
+      "sum": 57,
       "count": 4,
       "avg": 14
     },
     "Jackson": {
-      "sum": 136,
+      "sum": 141,
       "count": 10,
       "avg": 14
     },
     "Eastman": {
-      "sum": 78,
+      "sum": 79,
       "count": 6,
       "avg": 13
     },
     "Reverend": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Fender": {
-      "sum": 101,
+      "sum": 106,
       "count": 13,
       "avg": 8
     },
     "BC Rich": {
-      "sum": 192,
+      "sum": 197,
       "count": 17,
-      "avg": 11
+      "avg": 12
     },
     "Friedman": {
-      "sum": 30,
+      "sum": 31,
       "count": 3,
       "avg": 10
     },
     "Music Man": {
-      "sum": 107,
+      "sum": 109,
       "count": 5,
-      "avg": 21
+      "avg": 22
     },
     "Vigier": {
       "sum": 27,
@@ -10915,17 +10915,17 @@
       "avg": 3
     },
     "Fano": {
-      "sum": 103,
+      "sum": 106,
       "count": 4,
-      "avg": 26
+      "avg": 27
     },
     "Echopark": {
-      "sum": 57,
+      "sum": 61,
       "count": 5,
-      "avg": 11
+      "avg": 12
     },
     "Charvel": {
-      "sum": 105,
+      "sum": 106,
       "count": 3,
       "avg": 35
     },
@@ -10935,7 +10935,7 @@
       "avg": 8
     },
     "Vintage": {
-      "sum": 64,
+      "sum": 65,
       "count": 4,
       "avg": 16
     },
@@ -10960,24 +10960,24 @@
       "avg": 4
     },
     "ESP": {
-      "sum": 48,
+      "sum": 49,
       "count": 4,
       "avg": 12
     },
     "Burny": {
-      "sum": 19,
+      "sum": 20,
       "count": 1,
-      "avg": 19
+      "avg": 20
     },
     "Schecter": {
-      "sum": 20,
+      "sum": 21,
       "count": 2,
-      "avg": 10
+      "avg": 11
     },
     "Castedosa": {
-      "sum": 87,
+      "sum": 89,
       "count": 2,
-      "avg": 44
+      "avg": 45
     },
     "Nash": {
       "sum": 21,
@@ -10990,24 +10990,24 @@
       "avg": 5
     },
     "Martin": {
-      "sum": 89,
+      "sum": 90,
       "count": 2,
       "avg": 45
     },
     "Parker": {
-      "sum": 22,
+      "sum": 23,
       "count": 2,
-      "avg": 11
+      "avg": 12
     },
     "Tyler": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Washburn": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Dean": {
       "sum": 5,
@@ -11015,9 +11015,9 @@
       "avg": 5
     },
     "Knaggs": {
-      "sum": 76,
+      "sum": 78,
       "count": 3,
-      "avg": 25
+      "avg": 26
     },
     "Teisco": {
       "sum": 5,
@@ -11030,9 +11030,9 @@
       "avg": 6
     },
     "Bigsby": {
-      "sum": 5,
+      "sum": 6,
       "count": 1,
-      "avg": 5
+      "avg": 6
     },
     "Tokai": {
       "sum": 6,
@@ -11040,7 +11040,7 @@
       "avg": 6
     },
     "AXL": {
-      "sum": 23,
+      "sum": 24,
       "count": 2,
       "avg": 12
     },
@@ -11075,7 +11075,7 @@
       "avg": 17
     },
     "B.C. Rich": {
-      "sum": 53,
+      "sum": 54,
       "count": 3,
       "avg": 18
     },
@@ -11115,9 +11115,9 @@
       "avg": 17
     },
     "Flaxwood": {
-      "sum": 16,
+      "sum": 17,
       "count": 1,
-      "avg": 16
+      "avg": 17
     },
     "Guild": {
       "sum": 16,
@@ -11130,7 +11130,7 @@
       "avg": 16
     },
     "Millimetric": {
-      "sum": 29,
+      "sum": 30,
       "count": 2,
       "avg": 15
     },
@@ -11155,19 +11155,19 @@
       "avg": 14
     },
     "Hamer": {
-      "sum": 13,
+      "sum": 14,
       "count": 1,
-      "avg": 13
+      "avg": 14
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 18,
+    "2026-04-14": 19,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 32,
+    "2026-04-08": 31,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11176,8 +11176,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 39,
-    "reverb": 288
+    "reverb": 288,
+    "marketplace": 39
   },
   "activeModelsCount": 280,
   "topPosters": [
@@ -12168,9 +12168,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1064.478914244115,
-      "count": 64,
-      "avgPctDrop": 16.6
+      "totalPctDrop": 1055.8503428155436,
+      "count": 63,
+      "avgPctDrop": 16.8
     },
     "byBrand": {
       "Collings": {
@@ -12278,11 +12278,6 @@
         "count": 1,
         "avgPctDrop": 6.1
       },
-      "Guild": {
-        "totalPctDrop": 50.714885210164184,
-        "count": 3,
-        "avgPctDrop": 16.9
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -12302,6 +12297,11 @@
         "totalPctDrop": 14.955239599789364,
         "count": 1,
         "avgPctDrop": 15
+      },
+      "Guild": {
+        "totalPctDrop": 42.08631378159275,
+        "count": 2,
+        "avgPctDrop": 21
       },
       "Bedell": {
         "totalPctDrop": 13.644214162348877,
@@ -12340,6 +12340,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "FGN": {
+        "total": 4,
+        "sold": 2,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Rickenbacker": {
         "total": 28,
         "sold": 1,
@@ -12572,14 +12580,6 @@
         "soldPct": 33,
         "livePct": 67
       },
-      "FGN": {
-        "total": 3,
-        "sold": 2,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 67,
-        "livePct": 33
-      },
       "Vintage": {
         "total": 5,
         "sold": 0,
@@ -12764,14 +12764,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Guild": {
-        "total": 3,
-        "sold": 0,
-        "fake": 0,
-        "live": 3,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12892,6 +12884,14 @@
         "soldPct": 0,
         "livePct": 100
       },
+      "Guild": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Mayones": {
         "total": 1,
         "sold": 0,
@@ -12972,13 +12972,13 @@
       },
       {
         "label": "$1k–2k",
-        "total": 84,
+        "total": 83,
         "sold": 21,
         "rate": 25
       },
       {
         "label": "$2k–3k",
-        "total": 74,
+        "total": 75,
         "sold": 24,
         "rate": 32
       },
@@ -13002,6 +13002,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 29,
+        "sold": 2,
+        "rate": 7
+      },
       "Used": {
         "total": 19,
         "sold": 3,
@@ -13013,7 +13018,7 @@
         "rate": 35
       },
       "Very Good": {
-        "total": 98,
+        "total": 97,
         "sold": 29,
         "rate": 30
       },
@@ -13021,11 +13026,6 @@
         "total": 39,
         "sold": 11,
         "rate": 28
-      },
-      "Brand New": {
-        "total": 28,
-        "sold": 2,
-        "rate": 7
       },
       "Mint": {
         "total": 7,
@@ -13050,8 +13050,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 79,
-    "totalOffers": 174,
+    "withOffers": 78,
+    "totalOffers": 171,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 64
   },
@@ -13074,7 +13074,7 @@
     },
     {
       "label": "6–15",
-      "total": 67,
+      "total": 68,
       "sold": 15,
       "rate": 22
     },
@@ -13086,7 +13086,7 @@
     },
     {
       "label": "31+",
-      "total": 65,
+      "total": 64,
       "sold": 13,
       "rate": 20
     }
@@ -13166,9 +13166,9 @@
     },
     {
       "state": "PA",
-      "total": 9,
+      "total": 8,
       "sold": 2,
-      "rate": 22
+      "rate": 25
     },
     {
       "state": "MO",
