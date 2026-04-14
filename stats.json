@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T22:43:11.629Z",
+  "generatedAt": "2026-04-14T23:28:09.328Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1488354.25,
-    "avg": 4651,
+    "sum": 1489503.25,
+    "avg": 4655,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 299,
-    "sum": 816578.27,
-    "avg": 2731,
+    "sum": 817727.27,
+    "avg": 2735,
     "min": 7,
     "max": 8699,
     "median": 2394
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 885160.9,
+      "sum": 886309.9,
       "min": 7,
       "max": 190000,
-      "avg": 4659
+      "avg": 4665
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1175014.36,
+      "sum": 1176163.36,
       "min": 7,
       "max": 190000,
-      "avg": 4080
+      "avg": 4084
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1175014.36,
+      "sum": 1176163.36,
       "min": 7,
       "max": 190000,
-      "avg": 4080
+      "avg": 4084
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,68 @@
     }
   },
   "byModel": {
+    "bc-rich-legacy": {
+      "displayName": "B.C. Rich Rich B Legacy Exotic Electric Guitar - Natural Koa (RichBLKoad2)",
+      "brand": "BC Rich",
+      "model": "Legacy",
+      "variant": null,
+      "count": 2,
+      "sum": 2345,
+      "min": 995,
+      "max": 1350,
+      "sightings": [
+        {
+          "price": 995,
+          "date": "2026-04-09T20:39:56.225Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Ironbird MK1 Legacy Kahler Black",
+          "url": "https://reverb.com/item/95826216-b-c-rich-ironbird-mk1-legacy-kahler-black",
+          "condition": "Very Good"
+        },
+        {
+          "price": 1350,
+          "date": "2026-04-14T23:27:55.269Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Rich B Legacy Exotic Electric Guitar - Natural Koa (RichBLKoad2)",
+          "url": "https://reverb.com/item/96022305-b-c-rich-rich-b-legacy-exotic-electric-guitar-natural-koa-richblkoad2",
+          "condition": "B-Stock"
+        }
+      ],
+      "byCondition": {
+        "B-Stock": {
+          "count": 1,
+          "sum": 1350,
+          "min": 1350,
+          "max": 1350,
+          "avg": 1350
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 995,
+          "min": 995,
+          "max": 995,
+          "avg": 995
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 995,
+        "min": 995,
+        "max": 995,
+        "prices": [
+          {
+            "price": 995,
+            "askingPrice": 995,
+            "date": "2026-04-09T22:43:50.426Z",
+            "title": "B.C. Rich Ironbird MK1 Legacy Kahler Black",
+            "url": "https://reverb.com/item/95826216-b-c-rich-ironbird-mk1-legacy-kahler-black"
+          }
+        ]
+      },
+      "avg": 1173
+    },
     "classic": {
       "displayName": "John Page Classic Ashburn - Daphne Blue w/OGB",
       "brand": null,
@@ -5287,52 +5349,6 @@
       },
       "avg": 2974
     },
-    "bc-rich-legacy": {
-      "displayName": "B.C. Rich Ironbird MK1 Legacy Kahler Black",
-      "brand": "BC Rich",
-      "model": "Legacy",
-      "variant": null,
-      "count": 1,
-      "sum": 995,
-      "min": 995,
-      "max": 995,
-      "sightings": [
-        {
-          "price": 995,
-          "date": "2026-04-09T20:39:56.225Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich Ironbird MK1 Legacy Kahler Black",
-          "url": "https://reverb.com/item/95826216-b-c-rich-ironbird-mk1-legacy-kahler-black",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 995,
-          "min": 995,
-          "max": 995,
-          "avg": 995
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 995,
-        "min": 995,
-        "max": 995,
-        "prices": [
-          {
-            "price": 995,
-            "askingPrice": 995,
-            "date": "2026-04-09T22:43:50.426Z",
-            "title": "B.C. Rich Ironbird MK1 Legacy Kahler Black",
-            "url": "https://reverb.com/item/95826216-b-c-rich-ironbird-mk1-legacy-kahler-black"
-          }
-        ]
-      },
-      "avg": 995
-    },
     "ibanez-jem": {
       "displayName": "1989 Ibanez JEM777VBK Steve Vai",
       "brand": "Ibanez",
@@ -6444,37 +6460,6 @@
         }
       },
       "avg": 8500
-    },
-    "national-big-ear-pedals": {
-      "displayName": "BIG EAR Pedals SLICE OF PIE Fuzz - FREE INTERNATIONAL SHIPPING",
-      "brand": "National",
-      "model": "BIG EAR Pedals",
-      "variant": null,
-      "count": 1,
-      "sum": 201,
-      "min": 201,
-      "max": 201,
-      "sightings": [
-        {
-          "price": 201,
-          "date": "2026-04-08T20:13:24.641Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "BIG EAR Pedals SLICE OF PIE Fuzz - FREE INTERNATIONAL SHIPPING",
-          "url": "https://reverb.com/item/92772107-big-ear-pedals-slice-of-pie-fuzz-free-international-shipping",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 201,
-          "min": 201,
-          "max": 201,
-          "avg": 201
-        }
-      },
-      "avg": 201
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -10469,9 +10454,20 @@
     }
   },
   "byCondition": {
+    "B-Stock": {
+      "count": 2,
+      "sum": 2389,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 1195,
+      "min": 1039,
+      "max": 1350
+    },
     "Excellent": {
-      "count": 120,
-      "sum": 642789.73,
+      "count": 119,
+      "sum": 642588.73,
       "sold": {
         "count": 38,
         "sum": 132600.43,
@@ -10479,7 +10475,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 5357,
+      "avg": 5400,
       "min": 200,
       "max": 190000
     },
@@ -10561,17 +10557,6 @@
       "min": 250,
       "max": 4699
     },
-    "B-Stock": {
-      "count": 1,
-      "sum": 1039,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 1039,
-      "min": 1039,
-      "max": 1039
-    },
     "New": {
       "count": 1,
       "sum": 4324,
@@ -10587,7 +10572,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4659,
+      "avg": 4665,
       "count": 190
     },
     "03": {
@@ -10739,24 +10724,29 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 14,
+    "0-500": 13,
     "500-1k": 21,
-    "1k-2k": 86,
+    "1k-2k": 87,
     "2k-3k": 73,
     "3k-5k": 77,
     "5k-10k": 33,
     "10k+": 16
   },
   "priceDistributionFiltered": {
-    "0-500": 14,
+    "0-500": 13,
     "500-1k": 21,
-    "1k-2k": 86,
+    "1k-2k": 87,
     "2k-3k": 73,
     "3k-5k": 77,
     "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 188,
+      "count": 17,
+      "avg": 11
+    },
     "Ibanez": {
       "sum": 200,
       "count": 15,
@@ -10796,11 +10786,6 @@
       "sum": 167,
       "count": 10,
       "avg": 17
-    },
-    "BC Rich": {
-      "sum": 188,
-      "count": 16,
-      "avg": 12
     },
     "Alvarez": {
       "sum": 79,
@@ -11119,13 +11104,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 33,
+    "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 16,
+    "2026-04-08": 15,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11137,7 +11122,7 @@
     "reverb": 288,
     "marketplace": 38
   },
-  "activeModelsCount": 280,
+  "activeModelsCount": 279,
   "topPosters": [
     {
       "username": "GP",
@@ -11153,7 +11138,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 28
+      "count": 29
     },
     {
       "username": "WontonGG",
@@ -11173,7 +11158,7 @@
     },
     {
       "username": "HanSwolo",
-      "count": 6
+      "count": 5
     },
     {
       "username": "erparadox",
@@ -11225,10 +11210,10 @@
       "count": 10
     },
     "BC Rich": {
-      "avgPrice": 2445,
+      "avgPrice": 2384,
       "retailEst": 200,
-      "avgDiscount": -1122.4,
-      "count": 17
+      "avgDiscount": -1092,
+      "count": 18
     },
     "Rickenbacker": {
       "avgPrice": 4171,
@@ -12116,9 +12101,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1199.5389402964327,
-      "count": 69,
-      "avgPctDrop": 17.4
+      "totalPctDrop": 1193.4641739412925,
+      "count": 68,
+      "avgPctDrop": 17.6
     },
     "byBrand": {
       "Music Man": {
@@ -12231,11 +12216,6 @@
         "count": 3,
         "avgPctDrop": 24.2
       },
-      "National": {
-        "totalPctDrop": 6.074766355140187,
-        "count": 1,
-        "avgPctDrop": 6.1
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -12298,6 +12278,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 18,
+        "sold": 5,
+        "fake": 0,
+        "live": 13,
+        "soldPct": 28,
+        "livePct": 72
+      },
       "Ibanez": {
         "total": 17,
         "sold": 5,
@@ -12345,14 +12333,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "BC Rich": {
-        "total": 17,
-        "sold": 5,
-        "fake": 0,
-        "live": 12,
-        "soldPct": 29,
-        "livePct": 71
       },
       "PRS": {
         "total": 27,
@@ -12706,14 +12686,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "National": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12918,9 +12890,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 14,
+        "total": 13,
         "sold": 4,
-        "rate": 29
+        "rate": 31
       },
       {
         "label": "$500–1k",
@@ -12930,7 +12902,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 86,
+        "total": 87,
         "sold": 21,
         "rate": 24
       },
@@ -12960,8 +12932,13 @@
       }
     ],
     "byCondition": {
+      "B-Stock": {
+        "total": 2,
+        "sold": 0,
+        "rate": 0
+      },
       "Excellent": {
-        "total": 120,
+        "total": 119,
         "sold": 41,
         "rate": 34
       },
@@ -12995,11 +12972,6 @@
         "sold": 1,
         "rate": 20
       },
-      "B-Stock": {
-        "total": 1,
-        "sold": 0,
-        "rate": 0
-      },
       "New": {
         "total": 1,
         "sold": 0,
@@ -13026,9 +12998,9 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 25,
       "sold": 9,
-      "rate": 38
+      "rate": 36
     },
     {
       "label": "6–15",
@@ -13044,9 +13016,9 @@
     },
     {
       "label": "31+",
-      "total": 66,
+      "total": 65,
       "sold": 14,
-      "rate": 21
+      "rate": 22
     }
   ],
   "offersEffect": {
@@ -13063,14 +13035,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 118,
+      "total": 119,
       "sold": 28,
       "rate": 24
     },
     "regular": {
-      "total": 115,
+      "total": 114,
       "sold": 35,
-      "rate": 30
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -13183,6 +13155,12 @@
       "rate": 25
     },
     {
+      "state": "IN",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "ON",
       "total": 3,
       "sold": 1,
@@ -13253,12 +13231,6 @@
       "total": 2,
       "sold": 1,
       "rate": 50
-    },
-    {
-      "state": "IN",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
     }
   ],
   "archiveYears": [
