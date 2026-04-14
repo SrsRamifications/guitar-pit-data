@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T15:26:51.805Z",
+  "generatedAt": "2026-04-14T15:29:18.744Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1491481.25,
-    "avg": 4661,
+    "sum": 1492105.25,
+    "avg": 4663,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 299,
-    "sum": 819705.27,
-    "avg": 2741,
+    "sum": 820329.27,
+    "avg": 2744,
     "min": 7,
     "max": 8699,
     "median": 2398.99
   },
   "outliers": {
-    "thresholdHigh": 9410,
+    "thresholdHigh": 9402,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 888287.9,
+      "sum": 888911.9,
       "min": 7,
       "max": 190000,
-      "avg": 4675
+      "avg": 4678
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1178141.36,
+      "sum": 1178765.36,
       "min": 7,
       "max": 190000,
-      "avg": 4091
+      "avg": 4093
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1178141.36,
+      "sum": 1178765.36,
       "min": 7,
       "max": 190000,
-      "avg": 4091
+      "avg": 4093
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "music-man-stingray-signature": {
+      "displayName": "Ernie Ball Music Man Dustin Kensrue Signature StingRay Guitar 2022 - Present - TV Blonde",
+      "brand": "Music Man",
+      "model": "StingRay",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-04-14T15:29:04.254Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man Dustin Kensrue Signature StingRay Guitar 2022 - Present - TV Blonde",
+          "url": "https://reverb.com/item/94765005-ernie-ball-music-man-dustin-kensrue-signature-stingray-guitar-2022-present-tv-blonde",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1999
+    },
     "rickenbacker-les-paul": {
       "displayName": "Gibson Q200 Alpine White 1985 Vintage Electric Guitar",
       "brand": "Rickenbacker",
@@ -6414,37 +6445,6 @@
       },
       "avg": 4750
     },
-    "greco-goii750-electric-guitar": {
-      "displayName": "1979 Greco GOII750 Electric Guitar w/ Neck Through Construction, Versatile Electronics, Hybrid Bone/Brass Nut Gigbag",
-      "brand": "Greco",
-      "model": "GOII750 Electric Guitar",
-      "variant": null,
-      "count": 1,
-      "sum": 1375,
-      "min": 1375,
-      "max": 1375,
-      "sightings": [
-        {
-          "price": 1375,
-          "date": "2026-04-08T17:20:38.281Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1979 Greco GOII750 Electric Guitar w/ Neck Through Construction, Versatile Electronics, Hybrid Bone/Brass Nut Gigbag",
-          "url": "https://reverb.com/item/95761052-1979-greco-goii750-electric-guitar-w-neck-through-construction-versatile-electronics-hybrid-bone-brass-nut-gigbag",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1375,
-          "min": 1375,
-          "max": 1375,
-          "avg": 1375
-        }
-      },
-      "avg": 1375
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10438,23 +10438,9 @@
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 96,
-      "sum": 302366.55999999994,
-      "sold": {
-        "count": 25,
-        "sum": 61098.78,
-        "avg": 2444,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3150,
-      "min": 7,
-      "max": 34999
-    },
     "Excellent": {
-      "count": 118,
-      "sum": 639491.73,
+      "count": 119,
+      "sum": 641490.73,
       "sold": {
         "count": 38,
         "sum": 131224.43,
@@ -10462,9 +10448,23 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 5419,
+      "avg": 5391,
       "min": 200,
       "max": 190000
+    },
+    "Very Good": {
+      "count": 95,
+      "sum": 300991.55999999994,
+      "sold": {
+        "count": 25,
+        "sum": 61098.78,
+        "avg": 2444,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3168,
+      "min": 7,
+      "max": 34999
     },
     "Brand New": {
       "count": 29,
@@ -10556,7 +10556,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4675,
+      "avg": 4678,
       "count": 190
     },
     "03": {
@@ -10726,6 +10726,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Music Man": {
+      "sum": 155,
+      "count": 6,
+      "avg": 26
+    },
     "Dean": {
       "sum": 14,
       "count": 2,
@@ -10772,9 +10777,9 @@
       "avg": 14
     },
     "Greco": {
-      "sum": 58,
-      "count": 3,
-      "avg": 19
+      "sum": 52,
+      "count": 2,
+      "avg": 26
     },
     "Gibson": {
       "sum": 642,
@@ -10830,11 +10835,6 @@
       "sum": 31,
       "count": 3,
       "avg": 10
-    },
-    "Music Man": {
-      "sum": 112,
-      "count": 5,
-      "avg": 22
     },
     "Vigier": {
       "sum": 27,
@@ -11093,13 +11093,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 27,
+    "2026-04-14": 28,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 22,
+    "2026-04-08": 21,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -12083,11 +12083,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1199.858871458297,
-      "count": 68,
-      "avgPctDrop": 17.6
+      "totalPctDrop": 1204.6683952678206,
+      "count": 69,
+      "avgPctDrop": 17.5
     },
     "byBrand": {
+      "Music Man": {
+        "totalPctDrop": 12.812725090036015,
+        "count": 2,
+        "avgPctDrop": 6.4
+      },
       "Rickenbacker": {
         "totalPctDrop": 152.20655685617004,
         "count": 7,
@@ -12137,11 +12142,6 @@
         "totalPctDrop": 78.11300682256743,
         "count": 5,
         "avgPctDrop": 15.6
-      },
-      "Music Man": {
-        "totalPctDrop": 8.003201280512204,
-        "count": 1,
-        "avgPctDrop": 8
       },
       "Vigier": {
         "totalPctDrop": 12,
@@ -12265,6 +12265,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Music Man": {
+        "total": 7,
+        "sold": 6,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 86,
+        "livePct": 14
+      },
       "Rickenbacker": {
         "total": 29,
         "sold": 2,
@@ -12346,10 +12354,10 @@
         "livePct": 65
       },
       "Greco": {
-        "total": 3,
+        "total": 2,
         "sold": 0,
         "fake": 0,
-        "live": 3,
+        "live": 2,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12452,14 +12460,6 @@
       "Friedman": {
         "total": 3,
         "sold": 3,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
-      "Music Man": {
-        "total": 6,
-        "sold": 6,
         "fake": 0,
         "live": 0,
         "soldPct": 100,
@@ -12927,15 +12927,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 119,
+        "sold": 41,
+        "rate": 34
+      },
       "Very Good": {
-        "total": 96,
+        "total": 95,
         "sold": 28,
         "rate": 29
-      },
-      "Excellent": {
-        "total": 118,
-        "sold": 41,
-        "rate": 35
       },
       "Brand New": {
         "total": 29,
@@ -12999,15 +12999,15 @@
     },
     {
       "label": "6–15",
-      "total": 69,
+      "total": 68,
       "sold": 14,
-      "rate": 20
+      "rate": 21
     },
     {
       "label": "16–30",
-      "total": 70,
+      "total": 71,
       "sold": 25,
-      "rate": 36
+      "rate": 35
     },
     {
       "label": "31+",
@@ -13030,12 +13030,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 119,
+      "total": 118,
       "sold": 29,
-      "rate": 24
+      "rate": 25
     },
     "regular": {
-      "total": 114,
+      "total": 115,
       "sold": 34,
       "rate": 30
     }
@@ -13055,13 +13055,13 @@
     },
     {
       "state": "WA",
-      "total": 14,
+      "total": 15,
       "sold": 4,
-      "rate": 29
+      "rate": 27
     },
     {
       "state": "NY",
-      "total": 13,
+      "total": 12,
       "sold": 1,
       "rate": 8
     },
