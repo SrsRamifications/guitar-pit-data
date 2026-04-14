@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T16:17:40.680Z",
+  "generatedAt": "2026-04-14T18:03:03.451Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1489654.25,
-    "avg": 4655,
+    "sum": 1489004.25,
+    "avg": 4653,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 299,
-    "sum": 817878.27,
-    "avg": 2735,
+    "sum": 817228.27,
+    "avg": 2733,
     "min": 7,
     "max": 8699,
     "median": 2398.99
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 886460.9,
+      "sum": 885810.9,
       "min": 7,
       "max": 190000,
-      "avg": 4666
+      "avg": 4662
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1176314.36,
+      "sum": 1175664.36,
       "min": 7,
       "max": 190000,
-      "avg": 4084
+      "avg": 4082
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1176314.36,
+      "sum": 1175664.36,
       "min": 7,
       "max": 190000,
-      "avg": 4084
+      "avg": 4082
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "anderson-cobra-transparent-plum": {
+      "displayName": "Pre-Owned Anderson Cobra S - Transparent Plum to Black Burst with Hardshell Case",
+      "brand": "Anderson",
+      "model": "Cobra Transparent Plum",
+      "variant": null,
+      "count": 1,
+      "sum": 3000,
+      "min": 3000,
+      "max": 3000,
+      "sightings": [
+        {
+          "price": 3000,
+          "date": "2026-04-14T18:02:48.693Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Pre-Owned Anderson Cobra S - Transparent Plum to Black Burst with Hardshell Case",
+          "url": "https://reverb.com/item/96022940-pre-owned-anderson-cobra-s-transparent-plum-to-black-burst-with-hardshell-case",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3000,
+          "min": 3000,
+          "max": 3000,
+          "avg": 3000
+        }
+      },
+      "avg": 3000
+    },
     "gibson-les-paul-standard-limited": {
       "displayName": "Gibson Les Paul Standard Limited 2010 - 2012 - Fireball",
       "brand": "Gibson",
@@ -6414,37 +6445,6 @@
       },
       "avg": 999
     },
-    "prs-santana": {
-      "displayName": "PRS DC22 (Santana Stoptail) - Livingston Lemondrop - One-piece Top",
-      "brand": "PRS",
-      "model": "Santana",
-      "variant": null,
-      "count": 1,
-      "sum": 3650,
-      "min": 3650,
-      "max": 3650,
-      "sightings": [
-        {
-          "price": 3650,
-          "date": "2026-04-08T19:36:26.613Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS DC22 (Santana Stoptail) - Livingston Lemondrop - One-piece Top",
-          "url": "https://reverb.com/item/95771918-prs-dc22-santana-stoptail-livingston-lemondrop-one-piece-top",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 3650,
-          "min": 3650,
-          "max": 3650,
-          "avg": 3650
-        }
-      },
-      "avg": 3650
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10438,6 +10438,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 94,
+      "sum": 295591.55999999994,
+      "sold": {
+        "count": 25,
+        "sum": 61098.78,
+        "avg": 2444,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3145,
+      "min": 7,
+      "max": 34999
+    },
     "Excellent": {
       "count": 120,
       "sum": 643789.73,
@@ -10451,20 +10465,6 @@
       "avg": 5365,
       "min": 200,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 94,
-      "sum": 296241.55999999994,
-      "sold": {
-        "count": 25,
-        "sum": 61098.78,
-        "avg": 2444,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3152,
-      "min": 7,
-      "max": 34999
     },
     "Brand New": {
       "count": 29,
@@ -10556,7 +10556,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4666,
+      "avg": 4662,
       "count": 190
     },
     "03": {
@@ -10726,8 +10726,13 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Anderson": {
+      "sum": 20,
+      "count": 3,
+      "avg": 7
+    },
     "Gibson": {
-      "sum": 689,
+      "sum": 690,
       "count": 37,
       "avg": 19
     },
@@ -10742,9 +10747,9 @@
       "avg": 7
     },
     "PRS": {
-      "sum": 321,
-      "count": 26,
-      "avg": 12
+      "sum": 316,
+      "count": 25,
+      "avg": 13
     },
     "Kiesel": {
       "sum": 166,
@@ -10752,7 +10757,7 @@
       "avg": 17
     },
     "BC Rich": {
-      "sum": 187,
+      "sum": 188,
       "count": 16,
       "avg": 12
     },
@@ -10762,7 +10767,7 @@
       "avg": 79
     },
     "Rickenbacker": {
-      "sum": 240,
+      "sum": 243,
       "count": 27,
       "avg": 9
     },
@@ -10772,9 +10777,9 @@
       "avg": 6
     },
     "ABASI": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Ibanez": {
       "sum": 205,
@@ -10857,7 +10862,7 @@
       "avg": 3
     },
     "Fano": {
-      "sum": 106,
+      "sum": 107,
       "count": 4,
       "avg": 27
     },
@@ -10872,22 +10877,17 @@
       "avg": 36
     },
     "FGN": {
-      "sum": 18,
-      "count": 2,
-      "avg": 9
-    },
-    "Vintage": {
-      "sum": 58,
-      "count": 3,
-      "avg": 19
-    },
-    "Yamaha": {
       "sum": 19,
       "count": 2,
       "avg": 10
     },
-    "Anderson": {
-      "sum": 20,
+    "Vintage": {
+      "sum": 59,
+      "count": 3,
+      "avg": 20
+    },
+    "Yamaha": {
+      "sum": 19,
       "count": 2,
       "avg": 10
     },
@@ -10902,7 +10902,7 @@
       "avg": 5
     },
     "ESP": {
-      "sum": 50,
+      "sum": 52,
       "count": 4,
       "avg": 13
     },
@@ -10922,9 +10922,9 @@
       "avg": 45
     },
     "Nash": {
-      "sum": 21,
+      "sum": 22,
       "count": 1,
-      "avg": 21
+      "avg": 22
     },
     "Heritage": {
       "sum": 5,
@@ -10992,7 +10992,7 @@
       "avg": 17
     },
     "Fender Custom Shop": {
-      "sum": 35,
+      "sum": 36,
       "count": 2,
       "avg": 18
     },
@@ -11093,13 +11093,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 29,
+    "2026-04-14": 30,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 20,
+    "2026-04-08": 19,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11175,10 +11175,10 @@
       "count": 44
     },
     "PRS": {
-      "avgPrice": 4417,
+      "avgPrice": 4446,
       "retailEst": 1000,
-      "avgDiscount": -341.7,
-      "count": 28
+      "avgDiscount": -344.6,
+      "count": 27
     },
     "Ibanez": {
       "avgPrice": 2465,
@@ -12265,6 +12265,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Anderson": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 46,
         "sold": 8,
@@ -12306,12 +12314,12 @@
         "livePct": 71
       },
       "PRS": {
-        "total": 28,
+        "total": 27,
         "sold": 7,
         "fake": 0,
-        "live": 21,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 20,
+        "soldPct": 26,
+        "livePct": 74
       },
       "Kiesel": {
         "total": 10,
@@ -12534,14 +12542,6 @@
         "sold": 0,
         "fake": 0,
         "live": 4,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Anderson": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12927,15 +12927,15 @@
       }
     ],
     "byCondition": {
-      "Excellent": {
-        "total": 120,
-        "sold": 41,
-        "rate": 34
-      },
       "Very Good": {
         "total": 94,
         "sold": 28,
         "rate": 30
+      },
+      "Excellent": {
+        "total": 120,
+        "sold": 41,
+        "rate": 34
       },
       "Brand New": {
         "total": 29,
@@ -12978,11 +12978,11 @@
     "withOffers": 79,
     "totalOffers": 177,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 65
+    "offersEnabledPct": 64
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 104
+    "avgShippingCost": 103
   },
   "watcherDemand": [
     {
@@ -12993,9 +12993,9 @@
     },
     {
       "label": "1–5",
-      "total": 23,
+      "total": 24,
       "sold": 9,
-      "rate": 39
+      "rate": 38
     },
     {
       "label": "6–15",
@@ -13005,9 +13005,9 @@
     },
     {
       "label": "16–30",
-      "total": 71,
+      "total": 70,
       "sold": 25,
-      "rate": 35
+      "rate": 36
     },
     {
       "label": "31+",
@@ -13018,34 +13018,34 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 186,
+      "total": 185,
       "sold": 57,
       "rate": 31
     },
     "off": {
-      "total": 60,
+      "total": 61,
       "sold": 15,
       "rate": 25
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 117,
+      "total": 118,
       "sold": 29,
       "rate": 25
     },
     "regular": {
-      "total": 116,
+      "total": 115,
       "sold": 34,
-      "rate": 29
+      "rate": 30
     }
   },
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 35,
+      "total": 34,
       "sold": 8,
-      "rate": 23
+      "rate": 24
     },
     {
       "state": "TX",
@@ -13132,6 +13132,12 @@
       "rate": 40
     },
     {
+      "state": "OR",
+      "total": 4,
+      "sold": 2,
+      "rate": 50
+    },
+    {
       "state": "NC",
       "total": 4,
       "sold": 1,
@@ -13142,12 +13148,6 @@
       "total": 4,
       "sold": 1,
       "rate": 25
-    },
-    {
-      "state": "OR",
-      "total": 3,
-      "sold": 2,
-      "rate": 67
     },
     {
       "state": "ON",
