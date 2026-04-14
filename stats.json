@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T02:36:04.182Z",
+  "generatedAt": "2026-04-14T02:48:05.943Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1525489.25,
-    "avg": 4767,
+    "sum": 1524233.25,
+    "avg": 4763,
     "min": 33,
     "max": 190000
   },
   "filtered": {
     "count": 301,
-    "sum": 850031.27,
-    "avg": 2824,
+    "sum": 848775.27,
+    "avg": 2820,
     "min": 33,
     "max": 9699,
     "median": 2399
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 922295.9,
+      "sum": 921039.9,
       "min": 80,
       "max": 190000,
-      "avg": 4854
+      "avg": 4848
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1215424.36,
+      "sum": 1214168.36,
       "min": 33,
       "max": 190000,
-      "avg": 4220
+      "avg": 4216
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1215424.36,
+      "sum": 1214168.36,
       "min": 33,
       "max": 190000,
-      "avg": 4220
+      "avg": 4216
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -283,6 +283,37 @@
     }
   },
   "byModel": {
+    "collings": {
+      "displayName": "Collings 290",
+      "brand": "Collings",
+      "model": null,
+      "variant": null,
+      "count": 1,
+      "sum": 2884,
+      "min": 2884,
+      "max": 2884,
+      "sightings": [
+        {
+          "price": 2884,
+          "date": "2026-04-14T02:47:51.760Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Collings 290",
+          "url": "https://reverb.com/item/95171729-collings-290",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2884,
+          "min": 2884,
+          "max": 2884,
+          "avg": 2884
+        }
+      },
+      "avg": 2884
+    },
     "collings-290": {
       "displayName": "2008 Collings 290, Sunburst",
       "brand": "Collings",
@@ -6433,37 +6464,6 @@
       },
       "avg": 32481
     },
-    "echopark-la-carne-koa": {
-      "displayName": "used 2017 Echopark La Carne Custom Koa in Sunburst, Excellent Condition with OHSC",
-      "brand": "Echopark",
-      "model": "La Carne Koa",
-      "variant": null,
-      "count": 1,
-      "sum": 4140,
-      "min": 4140,
-      "max": 4140,
-      "sightings": [
-        {
-          "price": 4140,
-          "date": "2026-04-07T21:08:42.358Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "used 2017 Echopark La Carne Custom Koa in Sunburst, Excellent Condition with OHSC",
-          "url": "https://reverb.com/item/95742804-used-2017-echopark-la-carne-custom-koa-in-sunburst-excellent-condition-with-ohsc",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4140,
-          "min": 4140,
-          "max": 4140,
-          "avg": 4140
-        }
-      },
-      "avg": 4140
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10457,6 +10457,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 114,
+      "sum": 630315.73,
+      "sold": {
+        "count": 38,
+        "sum": 133873.43,
+        "avg": 3523,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 5529,
+      "min": 80,
+      "max": 190000
+    },
     "Very Good": {
       "count": 96,
       "sum": 295900.55999999994,
@@ -10470,20 +10484,6 @@
       "avg": 3082,
       "min": 33,
       "max": 34999
-    },
-    "Excellent": {
-      "count": 114,
-      "sum": 631571.73,
-      "sold": {
-        "count": 38,
-        "sum": 133873.43,
-        "avg": 3523,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 5540,
-      "min": 80,
-      "max": 190000
     },
     "Good": {
       "count": 39,
@@ -10575,7 +10575,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4854,
+      "avg": 4848,
       "count": 190
     },
     "03": {
@@ -10730,8 +10730,8 @@
     "0-500": 16,
     "500-1k": 21,
     "1k-2k": 82,
-    "2k-3k": 72,
-    "3k-5k": 75,
+    "2k-3k": 73,
+    "3k-5k": 74,
     "5k-10k": 37,
     "10k+": 17
   },
@@ -10739,16 +10739,16 @@
     "0-500": 16,
     "500-1k": 21,
     "1k-2k": 82,
-    "2k-3k": 72,
-    "3k-5k": 75,
+    "2k-3k": 73,
+    "3k-5k": 74,
     "5k-10k": 35,
     "10k+": 0
   },
   "daysOnMarket": {
     "Collings": {
-      "sum": 0,
-      "count": 1,
-      "avg": 0
+      "sum": 26,
+      "count": 2,
+      "avg": 13
     },
     "Gretsch": {
       "sum": 14,
@@ -10846,9 +10846,9 @@
       "avg": 26
     },
     "Echopark": {
-      "sum": 62,
-      "count": 6,
-      "avg": 10
+      "sum": 56,
+      "count": 5,
+      "avg": 11
     },
     "Charvel": {
       "sum": 104,
@@ -11036,9 +11036,9 @@
       "avg": 17
     },
     "Diamond": {
-      "sum": 17,
+      "sum": 18,
       "count": 1,
-      "avg": 17
+      "avg": 18
     },
     "Hoyer": {
       "sum": 18,
@@ -11112,14 +11112,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 7,
+    "2026-04-14": 8,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
     "2026-04-08": 40,
-    "2026-04-07": 2,
+    "2026-04-07": 1,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11135,11 +11135,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 105
+      "count": 104
     },
     {
       "username": "Beijing Bob",
-      "count": 70
+      "count": 71
     },
     {
       "username": "Shteefe",
@@ -12128,11 +12128,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1057.511172308631,
-      "count": 63,
-      "avgPctDrop": 16.8
+      "totalPctDrop": 1064.478914244115,
+      "count": 64,
+      "avgPctDrop": 16.6
     },
     "byBrand": {
+      "Collings": {
+        "totalPctDrop": 6.96774193548387,
+        "count": 1,
+        "avgPctDrop": 7
+      },
       "ESP": {
         "totalPctDrop": 32.629258994519894,
         "count": 3,
@@ -12296,10 +12301,10 @@
     },
     "byBrand": {
       "Collings": {
-        "total": 1,
+        "total": 2,
         "sold": 0,
         "fake": 0,
-        "live": 1,
+        "live": 2,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12472,12 +12477,12 @@
         "livePct": 75
       },
       "Echopark": {
-        "total": 7,
+        "total": 6,
         "sold": 4,
         "fake": 0,
-        "live": 3,
-        "soldPct": 57,
-        "livePct": 43
+        "live": 2,
+        "soldPct": 67,
+        "livePct": 33
       },
       "Charvel": {
         "total": 3,
@@ -12933,15 +12938,15 @@
       },
       {
         "label": "$2k–3k",
-        "total": 72,
+        "total": 73,
         "sold": 25,
-        "rate": 35
+        "rate": 34
       },
       {
         "label": "$3k–5k",
-        "total": 75,
+        "total": 74,
         "sold": 25,
-        "rate": 33
+        "rate": 34
       },
       {
         "label": "$5k–10k",
@@ -12957,15 +12962,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 96,
-        "sold": 30,
-        "rate": 31
-      },
       "Excellent": {
         "total": 114,
         "sold": 41,
         "rate": 36
+      },
+      "Very Good": {
+        "total": 96,
+        "sold": 30,
+        "rate": 31
       },
       "Good": {
         "total": 39,
@@ -13008,11 +13013,11 @@
     "withOffers": 79,
     "totalOffers": 173,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 63
+    "offersEnabledPct": 64
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 104
+    "avgShippingCost": 103
   },
   "watcherDemand": [
     {
@@ -13029,15 +13034,15 @@
     },
     {
       "label": "6–15",
-      "total": 72,
+      "total": 71,
       "sold": 16,
-      "rate": 22
+      "rate": 23
     },
     {
       "label": "16–30",
-      "total": 69,
+      "total": 70,
       "sold": 24,
-      "rate": 35
+      "rate": 34
     },
     {
       "label": "31+",
@@ -13048,12 +13053,12 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 182,
+      "total": 183,
       "sold": 61,
-      "rate": 34
+      "rate": 33
     },
     "off": {
-      "total": 64,
+      "total": 63,
       "sold": 14,
       "rate": 22
     }
@@ -13102,16 +13107,16 @@
       "rate": 33
     },
     {
-      "state": "TN",
-      "total": 11,
-      "sold": 5,
-      "rate": 45
-    },
-    {
       "state": "FL",
       "total": 11,
       "sold": 6,
       "rate": 55
+    },
+    {
+      "state": "TN",
+      "total": 10,
+      "sold": 5,
+      "rate": 50
     },
     {
       "state": "PA",
@@ -13121,9 +13126,9 @@
     },
     {
       "state": "MA",
-      "total": 8,
+      "total": 9,
       "sold": 2,
-      "rate": 25
+      "rate": 22
     },
     {
       "state": "CO",
