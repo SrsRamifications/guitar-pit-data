@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T04:33:16.161Z",
+  "generatedAt": "2026-04-14T05:34:11.969Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1495667.25,
-    "avg": 4659,
+    "sum": 1494087.24,
+    "avg": 4654,
     "min": 33,
     "max": 190000
   },
   "filtered": {
     "count": 300,
-    "sum": 823891.27,
-    "avg": 2746,
+    "sum": 822311.26,
+    "avg": 2741,
     "min": 33,
     "max": 8699,
     "median": 2396
   },
   "outliers": {
-    "thresholdHigh": 9410,
+    "thresholdHigh": 9407,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 892473.9,
+      "sum": 890893.89,
       "min": 99,
       "max": 190000,
-      "avg": 4673
+      "avg": 4664
     },
     "2026-03": {
       "count": 130,
@@ -211,28 +211,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 289,
-      "sum": 1185602.36,
-      "min": 33,
-      "max": 190000,
-      "avg": 4102
-    },
     "marketplace": {
-      "count": 32,
-      "sum": 310064.89,
+      "count": 33,
+      "sum": 313714.88,
       "min": 374.99,
       "max": 99000,
-      "avg": 9690
+      "avg": 9507
+    },
+    "reverb": {
+      "count": 288,
+      "sum": 1180372.36,
+      "min": 33,
+      "max": 190000,
+      "avg": 4099
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 10,
+      "sum": 49317.91,
+      "min": 1169.99,
+      "max": 26999.99,
+      "avg": 4932
+    },
     "reverb.com": {
-      "count": 289,
-      "sum": 1185602.36,
+      "count": 288,
+      "sum": 1180372.36,
       "min": 33,
       "max": 190000,
-      "avg": 4102
+      "avg": 4099
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -240,13 +247,6 @@
       "min": 1599,
       "max": 99000,
       "avg": 14632
-    },
-    "guitarcenter.com": {
-      "count": 9,
-      "sum": 45667.92,
-      "min": 1169.99,
-      "max": 26999.99,
-      "avg": 5074
     },
     "themusiczoo.com": {
       "count": 1,
@@ -299,6 +299,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-les-paul-custom": {
+      "displayName": "Used Gibson Les Paul Custom Black Solid Body Electric Guitar Black",
+      "brand": "Rickenbacker",
+      "model": "Les Paul Custom",
+      "variant": null,
+      "count": 1,
+      "sum": 3649.99,
+      "min": 3649.99,
+      "max": 3649.99,
+      "sightings": [
+        {
+          "price": 3649.99,
+          "date": "2026-04-14T05:33:57.250Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Gibson Les Paul Custom Black Solid Body Electric Guitar Black",
+          "url": "https://www.guitarcenter.com/Used/Gibson/Used-Gibson-Les-Paul-Custom-Black-Solid-Body-Electric-Guitar-122168144.gc",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 3649.99,
+          "min": 3649.99,
+          "max": 3649.99,
+          "avg": 3650
+        }
+      },
+      "avg": 3650
+    },
     "suhr-modern": {
       "displayName": "Suhr Modern 2024 - Quilt Maple Trans Purple",
       "brand": "Suhr",
@@ -6482,37 +6513,6 @@
       },
       "avg": 1599
     },
-    "prs-mccarty-594-limited-edition": {
-      "displayName": "PRS McCarty 594 Mango Top Limited Edition Solarflare #470",
-      "brand": "PRS",
-      "model": "McCarty 594",
-      "variant": "Limited Edition",
-      "count": 1,
-      "sum": 5230,
-      "min": 5230,
-      "max": 5230,
-      "sightings": [
-        {
-          "price": 5230,
-          "date": "2026-04-08T13:57:05.299Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 594 Mango Top Limited Edition Solarflare #470",
-          "url": "https://reverb.com/item/95734111-prs-mccarty-594-mango-top-limited-edition-solarflare-470",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 5230,
-          "min": 5230,
-          "max": 5230,
-          "avg": 5230
-        }
-      },
-      "avg": 5230
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10506,6 +10506,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 19,
+      "sum": 177634.90999999997,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 9349,
+      "min": 1169.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 116,
       "sum": 637484.73,
@@ -10549,8 +10560,8 @@
       "max": 10995
     },
     "Brand New": {
-      "count": 29,
-      "sum": 129945.10999999999,
+      "count": 28,
+      "sum": 124715.10999999999,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -10558,20 +10569,9 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 4481,
+      "avg": 4454,
       "min": 135,
       "max": 11099
-    },
-    "Used": {
-      "count": 18,
-      "sum": 173984.91999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 9666,
-      "min": 1169.99,
-      "max": 99000
     },
     "Mint": {
       "count": 7,
@@ -10624,7 +10624,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4673,
+      "avg": 4664,
       "count": 191
     },
     "03": {
@@ -10780,8 +10780,8 @@
     "500-1k": 20,
     "1k-2k": 84,
     "2k-3k": 74,
-    "3k-5k": 78,
-    "5k-10k": 34,
+    "3k-5k": 79,
+    "5k-10k": 33,
     "10k+": 16
   },
   "priceDistributionFiltered": {
@@ -10789,11 +10789,16 @@
     "500-1k": 20,
     "1k-2k": 84,
     "2k-3k": 74,
-    "3k-5k": 78,
-    "5k-10k": 29,
+    "3k-5k": 79,
+    "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 222,
+      "count": 27,
+      "avg": 8
+    },
     "Suhr": {
       "sum": 17,
       "count": 3,
@@ -10805,27 +10810,27 @@
       "avg": 0
     },
     "PRS": {
-      "sum": 309,
-      "count": 26,
+      "sum": 303,
+      "count": 25,
       "avg": 12
     },
     "Ibanez": {
-      "sum": 194,
+      "sum": 195,
       "count": 15,
       "avg": 13
     },
     "Kiesel": {
-      "sum": 158,
+      "sum": 159,
       "count": 9,
       "avg": 18
     },
     "Greco": {
-      "sum": 64,
+      "sum": 65,
       "count": 4,
       "avg": 16
     },
     "Gibson": {
-      "sum": 613,
+      "sum": 615,
       "count": 36,
       "avg": 17
     },
@@ -10835,14 +10840,9 @@
       "avg": 14
     },
     "Gretsch": {
-      "sum": 14,
+      "sum": 15,
       "count": 2,
-      "avg": 7
-    },
-    "Rickenbacker": {
-      "sum": 221,
-      "count": 26,
-      "avg": 9
+      "avg": 8
     },
     "K-Line": {
       "sum": 0,
@@ -10865,9 +10865,9 @@
       "avg": 14
     },
     "Eastman": {
-      "sum": 74,
+      "sum": 75,
       "count": 6,
-      "avg": 12
+      "avg": 13
     },
     "Reverend": {
       "sum": 8,
@@ -10875,17 +10875,17 @@
       "avg": 8
     },
     "Fender": {
-      "sum": 98,
+      "sum": 99,
       "count": 13,
       "avg": 8
     },
     "BC Rich": {
-      "sum": 190,
+      "sum": 191,
       "count": 17,
       "avg": 11
     },
     "Friedman": {
-      "sum": 29,
+      "sum": 30,
       "count": 3,
       "avg": 10
     },
@@ -10925,7 +10925,7 @@
       "avg": 11
     },
     "Charvel": {
-      "sum": 104,
+      "sum": 105,
       "count": 3,
       "avg": 35
     },
@@ -11010,9 +11010,9 @@
       "avg": 4
     },
     "Dean": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Knaggs": {
       "sum": 75,
@@ -11060,9 +11060,9 @@
       "avg": 17
     },
     "Fender Custom Shop": {
-      "sum": 34,
+      "sum": 35,
       "count": 2,
-      "avg": 17
+      "avg": 18
     },
     "Milkman": {
       "sum": 17,
@@ -11145,9 +11145,9 @@
       "avg": 14
     },
     "Novo": {
-      "sum": 13,
+      "sum": 14,
       "count": 1,
-      "avg": 13
+      "avg": 14
     },
     "Xotic": {
       "sum": 14,
@@ -11161,13 +11161,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-14": 17,
+    "2026-04-14": 18,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 33,
+    "2026-04-08": 32,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11176,8 +11176,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 289,
-    "marketplace": 38
+    "marketplace": 39,
+    "reverb": 288
   },
   "activeModelsCount": 280,
   "topPosters": [
@@ -11211,7 +11211,7 @@
     },
     {
       "username": "Modean",
-      "count": 7
+      "count": 6
     },
     {
       "username": "HanSwolo",
@@ -11243,10 +11243,10 @@
       "count": 43
     },
     "PRS": {
-      "avgPrice": 4547,
+      "avgPrice": 4522,
       "retailEst": 1000,
-      "avgDiscount": -354.7,
-      "count": 28
+      "avgDiscount": -352.2,
+      "count": 27
     },
     "Ibanez": {
       "avgPrice": 2471,
@@ -11267,10 +11267,10 @@
       "count": 17
     },
     "Rickenbacker": {
-      "avgPrice": 4347,
+      "avgPrice": 4322,
       "retailEst": 1500,
-      "avgDiscount": -189.8,
-      "count": 27
+      "avgDiscount": -188.1,
+      "count": 28
     }
   },
   "soldPrices": {
@@ -12340,6 +12340,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 28,
+        "sold": 1,
+        "fake": 0,
+        "live": 27,
+        "soldPct": 4,
+        "livePct": 96
+      },
       "Suhr": {
         "total": 3,
         "sold": 0,
@@ -12357,12 +12365,12 @@
         "livePct": 100
       },
       "PRS": {
-        "total": 28,
+        "total": 27,
         "sold": 7,
         "fake": 0,
-        "live": 21,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 20,
+        "soldPct": 26,
+        "livePct": 74
       },
       "Ibanez": {
         "total": 17,
@@ -12419,14 +12427,6 @@
         "live": 1,
         "soldPct": 50,
         "livePct": 50
-      },
-      "Rickenbacker": {
-        "total": 27,
-        "sold": 1,
-        "fake": 0,
-        "live": 26,
-        "soldPct": 4,
-        "livePct": 96
       },
       "K-Line": {
         "total": 1,
@@ -12984,13 +12984,13 @@
       },
       {
         "label": "$3k–5k",
-        "total": 78,
+        "total": 79,
         "sold": 25,
         "rate": 32
       },
       {
         "label": "$5k–10k",
-        "total": 34,
+        "total": 33,
         "sold": 5,
         "rate": 15
       },
@@ -13002,6 +13002,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 19,
+        "sold": 3,
+        "rate": 16
+      },
       "Excellent": {
         "total": 116,
         "sold": 41,
@@ -13018,14 +13023,9 @@
         "rate": 28
       },
       "Brand New": {
-        "total": 29,
+        "total": 28,
         "sold": 2,
         "rate": 7
-      },
-      "Used": {
-        "total": 18,
-        "sold": 3,
-        "rate": 17
       },
       "Mint": {
         "total": 7,
@@ -13068,9 +13068,9 @@
     },
     {
       "label": "1–5",
-      "total": 26,
+      "total": 25,
       "sold": 10,
-      "rate": 38
+      "rate": 40
     },
     {
       "label": "6–15",
@@ -13098,16 +13098,16 @@
       "rate": 32
     },
     "off": {
-      "total": 62,
+      "total": 61,
       "sold": 14,
       "rate": 23
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 122,
+      "total": 121,
       "sold": 31,
-      "rate": 25
+      "rate": 26
     },
     "regular": {
       "total": 112,
@@ -13177,12 +13177,6 @@
       "rate": 29
     },
     {
-      "state": "MD",
-      "total": 6,
-      "sold": 1,
-      "rate": 17
-    },
-    {
       "state": "CO",
       "total": 6,
       "sold": 3,
@@ -13193,6 +13187,12 @@
       "total": 6,
       "sold": 4,
       "rate": 67
+    },
+    {
+      "state": "MD",
+      "total": 5,
+      "sold": 1,
+      "rate": 20
     },
     {
       "state": "NJ",
