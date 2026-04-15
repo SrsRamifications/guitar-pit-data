@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-15T17:46:22.818Z",
-  "totalLinks": 325,
-  "totalBeforeFilter": 348,
+  "generatedAt": "2026-04-15T18:19:45.041Z",
+  "totalLinks": 326,
+  "totalBeforeFilter": 349,
   "fakeCount": 2,
   "removedCount": 4,
-  "totalWithPrice": 319,
+  "totalWithPrice": 320,
   "overall": {
-    "count": 319,
-    "sum": 1295333.26,
-    "avg": 4061,
+    "count": 320,
+    "sum": 1297532.26,
+    "avg": 4055,
     "min": 7,
     "max": 99000
   },
   "filtered": {
-    "count": 299,
-    "sum": 794782.27,
-    "avg": 2658,
+    "count": 300,
+    "sum": 796981.27,
+    "avg": 2657,
     "min": 7,
     "max": 8495,
-    "median": 2299
+    "median": 2297
   },
   "outliers": {
-    "thresholdHigh": 8495,
+    "thresholdHigh": 8660,
     "thresholdLow": 0,
     "count": 20,
     "items": [
@@ -189,26 +189,26 @@
   "byMonth": {
     "2026-04": {
       "count": 189,
-      "sum": 692139.91,
+      "sum": 689939.91,
       "min": 7,
       "max": 47011,
-      "avg": 3662
+      "avg": 3650
     },
     "2026-03": {
-      "count": 130,
-      "sum": 603193.35,
+      "count": 131,
+      "sum": 607592.35,
       "min": 33,
       "max": 99000,
-      "avg": 4640
+      "avg": 4638
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 288,
-      "sum": 1011218.36,
+      "count": 289,
+      "sum": 1013417.36,
       "min": 7,
       "max": 47011,
-      "avg": 3511
+      "avg": 3507
     },
     "marketplace": {
       "count": 31,
@@ -220,11 +220,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 288,
-      "sum": 1011218.36,
+      "count": 289,
+      "sum": 1013417.36,
       "min": 7,
       "max": 47011,
-      "avg": 3511
+      "avg": 3507
     },
     "guitarcenter.com": {
       "count": 10,
@@ -277,6 +277,37 @@
     }
   },
   "byModel": {
+    "gibson-melody-maker": {
+      "displayName": "1965 Gibson Melody Maker Cherry Pre-Owned",
+      "brand": "Gibson",
+      "model": "Melody Maker",
+      "variant": null,
+      "count": 1,
+      "sum": 1499,
+      "min": 1499,
+      "max": 1499,
+      "sightings": [
+        {
+          "price": 1499,
+          "date": "2026-04-15T18:19:30.750Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1965 Gibson Melody Maker Cherry Pre-Owned",
+          "url": "https://reverb.com/item/96057374-1965-gibson-melody-maker-cherry-pre-owned",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1499,
+          "min": 1499,
+          "max": 1499,
+          "avg": 1499
+        }
+      },
+      "avg": 1499
+    },
     "ibanez-uv777p-bk-steve-vai-signature": {
       "displayName": "Ibanez UV777P-BK Steve Vai Signature Universe 2000",
       "brand": "Ibanez",
@@ -6138,10 +6169,19 @@
       "model": "Custom 24",
       "variant": null,
       "count": 3,
-      "sum": 10849,
+      "sum": 11549,
       "min": 2300,
       "max": 4850,
       "sightings": [
+        {
+          "price": 4399,
+          "date": "2026-03-27T15:53:06.714Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Custom 24 1990 - Tiger's Eye burst",
+          "url": "https://reverb.com/item/95436813-prs-custom-24-1990-tiger-s-eye-burst",
+          "condition": "Excellent"
+        },
         {
           "price": 2300,
           "date": "2026-03-28T19:21:10.393Z",
@@ -6150,15 +6190,6 @@
           "title": "PRS Custom 24 Charcoal Smokeburst 2017 w/ Tremonti bridge pickup",
           "url": "https://reverb.com/item/95516114-prs-custom-24-charcoal-smokeburst-2017-w-tremonti-bridge-pickup",
           "condition": "Very Good"
-        },
-        {
-          "price": 3699,
-          "date": "2026-04-09T18:59:11.938Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Custom 24 1990 - Tiger's Eye burst",
-          "url": "https://reverb.com/item/95436813-prs-custom-24-1990-tiger-s-eye-burst",
-          "condition": "Excellent"
         },
         {
           "price": 4850,
@@ -6180,10 +6211,10 @@
         },
         "Excellent": {
           "count": 1,
-          "sum": 3699,
-          "min": 3699,
-          "max": 3699,
-          "avg": 3699
+          "sum": 4399,
+          "min": 4399,
+          "max": 4399,
+          "avg": 4399
         }
       },
       "soldData": {
@@ -6201,7 +6232,7 @@
           }
         ]
       },
-      "avg": 3616,
+      "avg": 3850,
       "trends": {}
     },
     "washburn-boden-usa": {
@@ -10319,6 +10350,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 93,
+      "sum": 285502.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 53639.79,
+        "avg": 2332,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3070,
+      "min": 7,
+      "max": 34999
+    },
     "Good": {
       "count": 40,
       "sum": 104613.95,
@@ -10349,7 +10394,7 @@
     },
     "Excellent": {
       "count": 122,
-      "sum": 455913.73,
+      "sum": 456613.73,
       "sold": {
         "count": 39,
         "sum": 134935.43,
@@ -10357,23 +10402,9 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 3737,
+      "avg": 3743,
       "min": 200,
       "max": 36500
-    },
-    "Very Good": {
-      "count": 92,
-      "sum": 284003.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 53639.79,
-        "avg": 2332,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3087,
-      "min": 7,
-      "max": 34999
     },
     "Mint": {
       "count": 5,
@@ -10437,13 +10468,13 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3662,
+      "avg": 3650,
       "count": 189
     },
     "03": {
       "name": "Mar",
-      "avg": 4640,
-      "count": 130
+      "avg": 4638,
+      "count": 131
     }
   },
   "recentDrops": [
@@ -10591,7 +10622,7 @@
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 19,
-    "1k-2k": 93,
+    "1k-2k": 94,
     "2k-3k": 77,
     "3k-5k": 70,
     "5k-10k": 32,
@@ -10600,13 +10631,18 @@
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 19,
-    "1k-2k": 93,
+    "1k-2k": 94,
     "2k-3k": 77,
     "3k-5k": 70,
     "5k-10k": 27,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 797,
+      "count": 39,
+      "avg": 20
+    },
     "Ibanez": {
       "sum": 191,
       "count": 15,
@@ -10616,11 +10652,6 @@
       "sum": 161,
       "count": 7,
       "avg": 23
-    },
-    "Gibson": {
-      "sum": 796,
-      "count": 38,
-      "avg": 21
     },
     "Kiesel": {
       "sum": 177,
@@ -10638,7 +10669,7 @@
       "avg": 23
     },
     "Rickenbacker": {
-      "sum": 272,
+      "sum": 273,
       "count": 31,
       "avg": 9
     },
@@ -10648,7 +10679,7 @@
       "avg": 1
     },
     "PRS": {
-      "sum": 278,
+      "sum": 277,
       "count": 19,
       "avg": 15
     },
@@ -10678,7 +10709,7 @@
       "avg": 10
     },
     "BC Rich": {
-      "sum": 189,
+      "sum": 190,
       "count": 16,
       "avg": 12
     },
@@ -10738,9 +10769,9 @@
       "avg": 10
     },
     "Friedman": {
-      "sum": 34,
+      "sum": 35,
       "count": 3,
-      "avg": 11
+      "avg": 12
     },
     "Vigier": {
       "sum": 28,
@@ -10798,9 +10829,9 @@
       "avg": 5
     },
     "ESP": {
-      "sum": 43,
+      "sum": 45,
       "count": 3,
-      "avg": 14
+      "avg": 15
     },
     "Burny": {
       "sum": 21,
@@ -10893,9 +10924,9 @@
       "avg": 19
     },
     "Fractal Audio": {
-      "sum": 19,
+      "sum": 20,
       "count": 1,
-      "avg": 19
+      "avg": 20
     },
     "Framus": {
       "sum": 20,
@@ -10959,25 +10990,25 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 31,
+    "2026-04-15": 32,
     "2026-04-14": 34,
     "2026-04-13": 26,
     "2026-04-12": 14,
     "2026-04-11": 42,
     "2026-04-10": 29,
-    "2026-04-09": 14,
+    "2026-04-09": 13,
     "2026-03-28": 35,
-    "2026-03-27": 30,
+    "2026-03-27": 31,
     "2026-03-26": 7,
     "2026-03-29": 17,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 288,
+    "reverb": 289,
     "marketplace": 37
   },
-  "activeModelsCount": 274,
+  "activeModelsCount": 275,
   "topPosters": [
     {
       "username": "GP",
@@ -10988,11 +11019,11 @@
       "count": 72
     },
     {
-      "username": "YellowJack6",
-      "count": 31
+      "username": "Shteefe",
+      "count": 32
     },
     {
-      "username": "Shteefe",
+      "username": "YellowJack6",
       "count": 31
     },
     {
@@ -11001,7 +11032,7 @@
     },
     {
       "username": "Madero",
-      "count": 12
+      "count": 13
     },
     {
       "username": "Modean",
@@ -11022,7 +11053,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3662,
+    "avg": 3650,
     "pctBelowAvg": 10,
     "count": 189
   },
@@ -11035,15 +11066,15 @@
       "count": 17
     },
     "Gibson": {
-      "avgPrice": 3594,
+      "avgPrice": 3550,
       "retailEst": 800,
-      "avgDiscount": -349.2,
-      "count": 47
+      "avgDiscount": -343.8,
+      "count": 48
     },
     "PRS": {
-      "avgPrice": 4428,
+      "avgPrice": 4463,
       "retailEst": 1000,
-      "avgDiscount": -342.8,
+      "avgDiscount": -346.3,
       "count": 20
     },
     "Ibanez": {
@@ -11912,8 +11943,8 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1308.0153147072174,
-      "count": 73,
+      "totalPctDrop": 1292.1026072737097,
+      "count": 72,
       "avgPctDrop": 17.9
     },
     "byBrand": {
@@ -12003,9 +12034,9 @@
         "avgPctDrop": 14.5
       },
       "PRS": {
-        "totalPctDrop": 105.72825621399542,
-        "count": 4,
-        "avgPctDrop": 26.4
+        "totalPctDrop": 89.8155487804878,
+        "count": 3,
+        "avgPctDrop": 29.9
       },
       "Floyd Rose": {
         "totalPctDrop": 13.559322033898304,
@@ -12076,14 +12107,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 305,
+      "total": 306,
       "sold": 80,
       "fake": 0,
-      "live": 225,
+      "live": 226,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Gibson": {
+        "total": 50,
+        "sold": 7,
+        "fake": 0,
+        "live": 43,
+        "soldPct": 14,
+        "livePct": 86
+      },
       "Ibanez": {
         "total": 15,
         "sold": 5,
@@ -12107,14 +12146,6 @@
         "live": 1,
         "soldPct": 88,
         "livePct": 13
-      },
-      "Gibson": {
-        "total": 49,
-        "sold": 7,
-        "fake": 0,
-        "live": 42,
-        "soldPct": 14,
-        "livePct": 86
       },
       "Kiesel": {
         "total": 12,
@@ -12700,9 +12731,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 93,
+        "total": 94,
         "sold": 20,
-        "rate": 22
+        "rate": 21
       },
       {
         "label": "$2k–3k",
@@ -12730,6 +12761,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 93,
+        "sold": 26,
+        "rate": 28
+      },
       "Good": {
         "total": 40,
         "sold": 10,
@@ -12744,11 +12780,6 @@
         "total": 122,
         "sold": 42,
         "rate": 34
-      },
-      "Very Good": {
-        "total": 92,
-        "sold": 26,
-        "rate": 28
       },
       "Mint": {
         "total": 5,
@@ -12781,11 +12812,11 @@
     "withOffers": 85,
     "totalOffers": 191,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 66
+    "offersEnabledPct": 65
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 100
   },
   "watcherDemand": [
     {
@@ -12796,15 +12827,15 @@
     },
     {
       "label": "1–5",
-      "total": 21,
+      "total": 22,
       "sold": 10,
-      "rate": 48
+      "rate": 45
     },
     {
       "label": "6–15",
-      "total": 69,
+      "total": 68,
       "sold": 12,
-      "rate": 17
+      "rate": 18
     },
     {
       "label": "16–30",
@@ -12833,12 +12864,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 115,
+      "total": 116,
       "sold": 27,
       "rate": 23
     },
     "regular": {
-      "total": 118,
+      "total": 117,
       "sold": 35,
       "rate": 30
     }
@@ -12899,16 +12930,16 @@
       "rate": 29
     },
     {
+      "state": "OH",
+      "total": 6,
+      "sold": 1,
+      "rate": 17
+    },
+    {
       "state": "MI",
       "total": 6,
       "sold": 4,
       "rate": 67
-    },
-    {
-      "state": "OH",
-      "total": 5,
-      "sold": 1,
-      "rate": 20
     },
     {
       "state": "MD",
@@ -13026,12 +13057,6 @@
     },
     {
       "state": "OK",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "NV",
       "total": 2,
       "sold": 0,
       "rate": 0
