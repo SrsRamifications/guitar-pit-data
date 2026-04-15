@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T02:34:53.814Z",
+  "generatedAt": "2026-04-15T02:36:44.554Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1299429.25,
-    "avg": 4048,
+    "sum": 1299034.25,
+    "avg": 4047,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 301,
-    "sum": 817593.27,
-    "avg": 2716,
+    "sum": 817198.27,
+    "avg": 2715,
     "min": 7,
     "max": 8699,
-    "median": 2394
+    "median": 2350
   },
   "outliers": {
     "thresholdHigh": 8800,
@@ -189,10 +189,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 696235.9,
+      "sum": 695840.9,
       "min": 7,
       "max": 36500,
-      "avg": 3645
+      "avg": 3643
     },
     "2026-03": {
       "count": 130,
@@ -205,10 +205,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 986089.36,
+      "sum": 985694.36,
       "min": 7,
       "max": 36500,
-      "avg": 3412
+      "avg": 3411
     },
     "marketplace": {
       "count": 32,
@@ -221,10 +221,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 986089.36,
+      "sum": 985694.36,
       "min": 7,
       "max": 36500,
-      "avg": 3412
+      "avg": 3411
     },
     "guitarcenter.com": {
       "count": 10,
@@ -284,6 +284,70 @@
     }
   },
   "byModel": {
+    "gibson-dove": {
+      "displayName": "Gibson Dove 1976 - Natural",
+      "brand": "Gibson",
+      "model": "Dove",
+      "variant": null,
+      "count": 3,
+      "sum": 10300,
+      "min": 2100,
+      "max": 5500,
+      "sightings": [
+        {
+          "price": 2700,
+          "date": "2026-04-15T02:33:06.975Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Dove 1993 - Ebony",
+          "url": "https://reverb.com/item/94966483-gibson-dove-1993-ebony",
+          "condition": "Very Good"
+        },
+        {
+          "price": 5500,
+          "date": "2026-04-15T02:34:39.287Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Dove 1968 - Cherry Sunburst",
+          "url": "https://reverb.com/item/94982380-gibson-dove-1968-cherry-sunburst",
+          "condition": "Excellent"
+        },
+        {
+          "price": 2100,
+          "date": "2026-04-15T02:36:28.679Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Dove 1976 - Natural",
+          "url": "https://reverb.com/item/72133398-gibson-dove-1976-natural",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2100,
+          "min": 2100,
+          "max": 2100,
+          "avg": 2100
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 5500,
+          "min": 5500,
+          "max": 5500,
+          "avg": 5500
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 2700,
+          "min": 2700,
+          "max": 2700,
+          "avg": 2700
+        }
+      },
+      "avg": 3433,
+      "trends": {}
+    },
     "modulus-1990s-alvarez-dana-floyd": {
       "displayName": "1990's Alvarez Dana Scoop Black Floyd Modulus Graphite Neck",
       "brand": "Modulus",
@@ -314,53 +378,6 @@
         }
       },
       "avg": 1800
-    },
-    "gibson-dove": {
-      "displayName": "Gibson Dove 1968 - Cherry Sunburst",
-      "brand": "Gibson",
-      "model": "Dove",
-      "variant": null,
-      "count": 2,
-      "sum": 8200,
-      "min": 2700,
-      "max": 5500,
-      "sightings": [
-        {
-          "price": 2700,
-          "date": "2026-04-15T02:33:06.975Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Dove 1993 - Ebony",
-          "url": "https://reverb.com/item/94966483-gibson-dove-1993-ebony",
-          "condition": "Very Good"
-        },
-        {
-          "price": 5500,
-          "date": "2026-04-15T02:34:39.287Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Dove 1968 - Cherry Sunburst",
-          "url": "https://reverb.com/item/94982380-gibson-dove-1968-cherry-sunburst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 5500,
-          "min": 5500,
-          "max": 5500,
-          "avg": 5500
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 2700,
-          "min": 2700,
-          "max": 2700,
-          "avg": 2700
-        }
-      },
-      "avg": 4100
     },
     "alvarez-nashville": {
       "displayName": "Dana Nashville Scoop Butterscotch 2014",
@@ -6406,37 +6423,6 @@
       },
       "avg": 1650
     },
-    "fender-showmaster-neck-thru-custom-shop": {
-      "displayName": "2003 Fender Custom Shop Showmaster Neck Thru Electric Guitar Birdseye Blue Quilt + OHSC",
-      "brand": "Fender",
-      "model": "Showmaster Neck Thru",
-      "variant": "Custom Shop",
-      "count": 1,
-      "sum": 2495,
-      "min": 2495,
-      "max": 2495,
-      "sightings": [
-        {
-          "price": 2495,
-          "date": "2026-04-08T22:04:18.646Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2003 Fender Custom Shop Showmaster Neck Thru Electric Guitar Birdseye Blue Quilt + OHSC",
-          "url": "https://reverb.com/item/95781866-2003-fender-custom-shop-showmaster-neck-thru-electric-guitar-birdseye-blue-quilt-ohsc",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2495,
-          "min": 2495,
-          "max": 2495,
-          "avg": 2495
-        }
-      },
-      "avg": 2495
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10476,9 +10462,23 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 38,
+      "sum": 105226.95,
+      "sold": {
+        "count": 9,
+        "sum": 23060.27,
+        "avg": 2562,
+        "min": 99,
+        "max": 4777.5
+      },
+      "avg": 2769,
+      "min": 99,
+      "max": 10995
+    },
     "Very Good": {
-      "count": 98,
-      "sum": 306540.55999999994,
+      "count": 97,
+      "sum": 304045.55999999994,
       "sold": {
         "count": 25,
         "sum": 61098.78,
@@ -10486,7 +10486,7 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 3128,
+      "avg": 3134,
       "min": 7,
       "max": 34999
     },
@@ -10540,20 +10540,6 @@
       "min": 1169.99,
       "max": 99000
     },
-    "Good": {
-      "count": 37,
-      "sum": 103126.95,
-      "sold": {
-        "count": 9,
-        "sum": 23060.27,
-        "avg": 2562,
-        "min": 99,
-        "max": 4777.5
-      },
-      "avg": 2787,
-      "min": 99,
-      "max": 10995
-    },
     "Mint": {
       "count": 5,
       "sum": 23349,
@@ -10594,7 +10580,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3645,
+      "avg": 3643,
       "count": 191
     },
     "03": {
@@ -10880,8 +10866,8 @@
       "avg": 9
     },
     "Fender": {
-      "sum": 104,
-      "count": 12,
+      "sum": 98,
+      "count": 11,
       "avg": 9
     },
     "Friedman": {
@@ -11126,14 +11112,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 11,
+    "2026-04-15": 12,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 5,
+    "2026-04-08": 4,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11145,11 +11131,11 @@
     "reverb": 289,
     "marketplace": 38
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 278,
   "topPosters": [
     {
       "username": "GP",
-      "count": 101
+      "count": 100
     },
     {
       "username": "Beijing Bob",
@@ -11190,23 +11176,23 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3645,
+    "avg": 3643,
     "pctBelowAvg": 10,
     "count": 191
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6772,
+      "avgPrice": 7058,
       "retailEst": 800,
-      "avgDiscount": -746.6,
-      "count": 16
+      "avgDiscount": -782.2,
+      "count": 15
     },
     "Gibson": {
-      "avgPrice": 3904,
+      "avgPrice": 3865,
       "retailEst": 800,
-      "avgDiscount": -388,
-      "count": 46
+      "avgDiscount": -383.2,
+      "count": 47
     },
     "PRS": {
       "avgPrice": 4287,
@@ -12134,15 +12120,15 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1202.596208278939,
-      "count": 68,
-      "avgPctDrop": 17.7
+      "totalPctDrop": 1224.818430501161,
+      "count": 69,
+      "avgPctDrop": 17.8
     },
     "byBrand": {
       "Gibson": {
-        "totalPctDrop": 168.20111807147882,
-        "count": 11,
-        "avgPctDrop": 15.3
+        "totalPctDrop": 190.42334029370105,
+        "count": 12,
+        "avgPctDrop": 15.9
       },
       "Music Man": {
         "totalPctDrop": 12.812725090036015,
@@ -12311,6 +12297,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 49,
+        "sold": 8,
+        "fake": 0,
+        "live": 41,
+        "soldPct": 16,
+        "livePct": 84
+      },
       "Modulus": {
         "total": 1,
         "sold": 0,
@@ -12318,14 +12312,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 48,
-        "sold": 8,
-        "fake": 0,
-        "live": 40,
-        "soldPct": 17,
-        "livePct": 83
       },
       "Alvarez": {
         "total": 2,
@@ -12528,12 +12514,12 @@
         "livePct": 100
       },
       "Fender": {
-        "total": 18,
+        "total": 17,
         "sold": 4,
         "fake": 0,
-        "live": 14,
-        "soldPct": 22,
-        "livePct": 78
+        "live": 13,
+        "soldPct": 24,
+        "livePct": 76
       },
       "Friedman": {
         "total": 3,
@@ -12973,8 +12959,13 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 38,
+        "sold": 10,
+        "rate": 26
+      },
       "Very Good": {
-        "total": 98,
+        "total": 97,
         "sold": 28,
         "rate": 29
       },
@@ -12998,11 +12989,6 @@
         "sold": 3,
         "rate": 16
       },
-      "Good": {
-        "total": 37,
-        "sold": 10,
-        "rate": 27
-      },
       "Mint": {
         "total": 5,
         "sold": 0,
@@ -13021,14 +13007,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 84,
-    "totalOffers": 184,
+    "withOffers": 85,
+    "totalOffers": 189,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 100
+    "avgShippingCost": 101
   },
   "watcherDemand": [
     {
@@ -13045,7 +13031,7 @@
     },
     {
       "label": "6–15",
-      "total": 71,
+      "total": 70,
       "sold": 15,
       "rate": 21
     },
@@ -13057,31 +13043,31 @@
     },
     {
       "label": "31+",
-      "total": 63,
+      "total": 64,
       "sold": 14,
       "rate": 22
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 190,
+      "total": 191,
       "sold": 58,
-      "rate": 31
+      "rate": 30
     },
     "off": {
-      "total": 57,
+      "total": 56,
       "sold": 16,
-      "rate": 28
+      "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 119,
+      "total": 118,
       "sold": 30,
       "rate": 25
     },
     "regular": {
-      "total": 115,
+      "total": 116,
       "sold": 35,
       "rate": 30
     }
@@ -13089,9 +13075,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 31,
+      "total": 30,
       "sold": 9,
-      "rate": 29
+      "rate": 30
     },
     {
       "state": "TX",
@@ -13101,9 +13087,9 @@
     },
     {
       "state": "WA",
-      "total": 16,
+      "total": 17,
       "sold": 4,
-      "rate": 25
+      "rate": 24
     },
     {
       "state": "NY",
