@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T02:31:23.665Z",
+  "generatedAt": "2026-04-15T02:33:21.163Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1483337.25,
-    "avg": 4621,
+    "sum": 1484629.25,
+    "avg": 4625,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 300,
-    "sum": 811501.27,
-    "avg": 2705,
+    "sum": 812793.27,
+    "avg": 2709,
     "min": 7,
     "max": 8699,
-    "median": 2372
+    "median": 2396
   },
   "outliers": {
     "thresholdHigh": 8800,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 880143.9,
+      "sum": 881435.9,
       "min": 7,
       "max": 190000,
-      "avg": 4608
+      "avg": 4615
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 1169997.36,
+      "sum": 1171289.36,
       "min": 7,
       "max": 190000,
-      "avg": 4048
+      "avg": 4053
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 1169997.36,
+      "sum": 1171289.36,
       "min": 7,
       "max": 190000,
-      "avg": 4048
+      "avg": 4053
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "gibson-dove": {
+      "displayName": "Gibson Dove 1993 - Ebony",
+      "brand": "Gibson",
+      "model": "Dove",
+      "variant": null,
+      "count": 1,
+      "sum": 2700,
+      "min": 2700,
+      "max": 2700,
+      "sightings": [
+        {
+          "price": 2700,
+          "date": "2026-04-15T02:33:06.975Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Dove 1993 - Ebony",
+          "url": "https://reverb.com/item/94966483-gibson-dove-1993-ebony",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2700,
+          "min": 2700,
+          "max": 2700,
+          "avg": 2700
+        }
+      },
+      "avg": 2700
+    },
     "alvarez-nashville": {
       "displayName": "Dana Nashville Scoop Butterscotch 2014",
       "brand": "Alvarez",
@@ -6445,37 +6476,6 @@
       },
       "avg": 2100
     },
-    "ibanez-s470": {
-      "displayName": "Ibanez S470 1997 Japan *MINT*",
-      "brand": "Ibanez",
-      "model": "S470",
-      "variant": null,
-      "count": 1,
-      "sum": 1408,
-      "min": 1408,
-      "max": 1408,
-      "sightings": [
-        {
-          "price": 1408,
-          "date": "2026-04-08T21:24:56.562Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez S470 1997 Japan *MINT*",
-          "url": "https://reverb.com/item/86407766-ibanez-s470-1997-japan-mint",
-          "condition": "Mint"
-        }
-      ],
-      "byCondition": {
-        "Mint": {
-          "count": 1,
-          "sum": 1408,
-          "min": 1408,
-          "max": 1408,
-          "avg": 1408
-        }
-      },
-      "avg": 1408
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10484,6 +10484,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 97,
+      "sum": 304740.55999999994,
+      "sold": {
+        "count": 25,
+        "sum": 61098.78,
+        "avg": 2444,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3142,
+      "min": 7,
+      "max": 34999
+    },
     "Excellent": {
       "count": 122,
       "sum": 642178.73,
@@ -10497,20 +10511,6 @@
       "avg": 5264,
       "min": 200,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 96,
-      "sum": 302040.55999999994,
-      "sold": {
-        "count": 25,
-        "sum": 61098.78,
-        "avg": 2444,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3146,
-      "min": 7,
-      "max": 34999
     },
     "B-Stock": {
       "count": 2,
@@ -10563,13 +10563,13 @@
       "max": 10995
     },
     "Mint": {
-      "count": 7,
-      "sum": 27257,
+      "count": 6,
+      "sum": 25849,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 3894,
+      "avg": 4308,
       "min": 1050,
       "max": 6800
     },
@@ -10602,7 +10602,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4608,
+      "avg": 4615,
       "count": 191
     },
     "03": {
@@ -10756,8 +10756,8 @@
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 20,
-    "1k-2k": 88,
-    "2k-3k": 77,
+    "1k-2k": 87,
+    "2k-3k": 78,
     "3k-5k": 76,
     "5k-10k": 31,
     "10k+": 16
@@ -10765,22 +10765,22 @@
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 20,
-    "1k-2k": 88,
-    "2k-3k": 77,
+    "1k-2k": 87,
+    "2k-3k": 78,
     "3k-5k": 76,
     "5k-10k": 26,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 726,
+      "count": 38,
+      "avg": 19
+    },
     "Knaggs": {
       "sum": 108,
       "count": 4,
       "avg": 27
-    },
-    "Gibson": {
-      "sum": 691,
-      "count": 37,
-      "avg": 19
     },
     "Taylor": {
       "sum": 75,
@@ -11139,14 +11139,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 8,
+    "2026-04-15": 9,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 8,
+    "2026-04-08": 7,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11178,7 +11178,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 24
+      "count": 23
     },
     {
       "username": "Madero",
@@ -11203,7 +11203,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 4608,
+    "avg": 4615,
     "pctBelowAvg": 0,
     "count": 191
   },
@@ -11216,10 +11216,10 @@
       "count": 16
     },
     "Gibson": {
-      "avgPrice": 3895,
+      "avgPrice": 3868,
       "retailEst": 800,
-      "avgDiscount": -386.8,
-      "count": 44
+      "avgDiscount": -383.5,
+      "count": 45
     },
     "PRS": {
       "avgPrice": 4287,
@@ -11228,10 +11228,10 @@
       "count": 24
     },
     "Ibanez": {
-      "avgPrice": 2622,
+      "avgPrice": 2703,
       "retailEst": 1000,
-      "avgDiscount": -162.2,
-      "count": 16
+      "avgDiscount": -170.3,
+      "count": 15
     },
     "Kiesel": {
       "avgPrice": 1706,
@@ -12147,11 +12147,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1182.0079729848214,
-      "count": 67,
-      "avgPctDrop": 17.6
+      "totalPctDrop": 1202.596208278939,
+      "count": 68,
+      "avgPctDrop": 17.7
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 168.20111807147882,
+        "count": 11,
+        "avgPctDrop": 15.3
+      },
       "Music Man": {
         "totalPctDrop": 12.812725090036015,
         "count": 2,
@@ -12186,11 +12191,6 @@
         "totalPctDrop": 32.629258994519894,
         "count": 3,
         "avgPctDrop": 10.9
-      },
-      "Gibson": {
-        "totalPctDrop": 147.6128827773612,
-        "count": 10,
-        "avgPctDrop": 14.8
       },
       "Reverend": {
         "totalPctDrop": 6.0606060606060606,
@@ -12324,6 +12324,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 47,
+        "sold": 8,
+        "fake": 0,
+        "live": 39,
+        "soldPct": 17,
+        "livePct": 83
+      },
       "Alvarez": {
         "total": 2,
         "sold": 0,
@@ -12339,14 +12347,6 @@
         "live": 3,
         "soldPct": 25,
         "livePct": 75
-      },
-      "Gibson": {
-        "total": 46,
-        "sold": 8,
-        "fake": 0,
-        "live": 38,
-        "soldPct": 17,
-        "livePct": 83
       },
       "Taylor": {
         "total": 3,
@@ -12373,12 +12373,12 @@
         "livePct": 72
       },
       "Ibanez": {
-        "total": 16,
+        "total": 15,
         "sold": 5,
         "fake": 0,
-        "live": 11,
-        "soldPct": 31,
-        "livePct": 69
+        "live": 10,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Rickenbacker": {
         "total": 30,
@@ -12956,15 +12956,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 88,
+        "total": 87,
         "sold": 21,
         "rate": 24
       },
       {
         "label": "$2k–3k",
-        "total": 77,
+        "total": 78,
         "sold": 26,
-        "rate": 34
+        "rate": 33
       },
       {
         "label": "$3k–5k",
@@ -12986,15 +12986,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 97,
+        "sold": 28,
+        "rate": 29
+      },
       "Excellent": {
         "total": 122,
         "sold": 43,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 96,
-        "sold": 28,
-        "rate": 29
       },
       "B-Stock": {
         "total": 2,
@@ -13017,7 +13017,7 @@
         "rate": 27
       },
       "Mint": {
-        "total": 7,
+        "total": 6,
         "sold": 0,
         "rate": 0
       },
@@ -13064,15 +13064,15 @@
     },
     {
       "label": "16–30",
-      "total": 70,
+      "total": 71,
       "sold": 25,
-      "rate": 36
+      "rate": 35
     },
     {
       "label": "31+",
-      "total": 63,
+      "total": 62,
       "sold": 14,
-      "rate": 22
+      "rate": 23
     }
   ],
   "offersEffect": {
@@ -13102,9 +13102,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 30,
+      "total": 31,
       "sold": 9,
-      "rate": 30
+      "rate": 29
     },
     {
       "state": "TX",
