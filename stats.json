@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T04:50:52.064Z",
+  "generatedAt": "2026-04-15T05:27:01.931Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,14 +7,14 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1291607.25,
-    "avg": 4024,
+    "sum": 1291427.25,
+    "avg": 4023,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 302,
-    "sum": 819766.27,
+    "sum": 819586.27,
     "avg": 2714,
     "min": 7,
     "max": 8699,
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 688413.9,
+      "sum": 688233.9,
       "min": 7,
       "max": 36500,
-      "avg": 3604
+      "avg": 3603
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 978267.36,
+      "sum": 978087.36,
       "min": 7,
       "max": 36500,
-      "avg": 3385
+      "avg": 3384
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 978267.36,
+      "sum": 978087.36,
       "min": 7,
       "max": 36500,
-      "avg": 3385
+      "avg": 3384
     },
     "guitarcenter.com": {
       "count": 10,
@@ -276,6 +276,37 @@
     }
   },
   "byModel": {
+    "prs-fiore-iris": {
+      "displayName": "PRS Fiore Black Iris",
+      "brand": "PRS",
+      "model": "Fiore Iris",
+      "variant": null,
+      "count": 1,
+      "sum": 1420,
+      "min": 1420,
+      "max": 1420,
+      "sightings": [
+        {
+          "price": 1420,
+          "date": "2026-04-15T05:26:47.786Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Fiore Black Iris",
+          "url": "https://reverb.com/item/96039034-prs-fiore-black-iris",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1420,
+          "min": 1420,
+          "max": 1420,
+          "avg": 1420
+        }
+      },
+      "avg": 1420
+    },
     "eastman-t486-bk-16-thinline": {
       "displayName": "Eastman T486-BK 16\" Thinline, Seymour Duncan Pickups in Black with Case #P2302468",
       "brand": "Eastman",
@@ -6413,37 +6444,6 @@
       },
       "avg": 1500
     },
-    "eastman-sb59v-redburst": {
-      "displayName": "Eastman SB59/v - Redburst",
-      "brand": "Eastman",
-      "model": "SB59/v Redburst",
-      "variant": null,
-      "count": 1,
-      "sum": 1600,
-      "min": 1600,
-      "max": 1600,
-      "sightings": [
-        {
-          "price": 1600,
-          "date": "2026-04-09T00:01:08.231Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman SB59/v - Redburst",
-          "url": "https://reverb.com/item/95720486-eastman-sb59-v-redburst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
-        }
-      },
-      "avg": 1600
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10483,6 +10483,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 96,
+      "sum": 292400.55999999994,
+      "sold": {
+        "count": 25,
+        "sum": 61098.78,
+        "avg": 2444,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3046,
+      "min": 7,
+      "max": 34999
+    },
     "Brand New": {
       "count": 28,
       "sum": 122946.10999999999,
@@ -10498,8 +10512,8 @@
       "max": 11099
     },
     "Excellent": {
-      "count": 123,
-      "sum": 461665.73,
+      "count": 122,
+      "sum": 460065.73,
       "sold": {
         "count": 39,
         "sum": 135644.43,
@@ -10507,7 +10521,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 3753,
+      "avg": 3771,
       "min": 200,
       "max": 36500
     },
@@ -10524,20 +10538,6 @@
       "avg": 2769,
       "min": 99,
       "max": 10995
-    },
-    "Very Good": {
-      "count": 95,
-      "sum": 290980.55999999994,
-      "sold": {
-        "count": 25,
-        "sum": 61098.78,
-        "avg": 2444,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3063,
-      "min": 7,
-      "max": 34999
     },
     "B-Stock": {
       "count": 2,
@@ -10601,7 +10601,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3604,
+      "avg": 3603,
       "count": 191
     },
     "03": {
@@ -10771,13 +10771,18 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 289,
+      "count": 23,
+      "avg": 13
+    },
     "Eastman": {
-      "sum": 81,
-      "count": 7,
+      "sum": 73,
+      "count": 6,
       "avg": 12
     },
     "Gibson": {
-      "sum": 783,
+      "sum": 784,
       "count": 39,
       "avg": 20
     },
@@ -10802,7 +10807,7 @@
       "avg": 10
     },
     "BC Rich": {
-      "sum": 194,
+      "sum": 195,
       "count": 17,
       "avg": 11
     },
@@ -10812,12 +10817,12 @@
       "avg": 13
     },
     "Rickenbacker": {
-      "sum": 248,
+      "sum": 249,
       "count": 28,
       "avg": 9
     },
     "Anderson": {
-      "sum": 21,
+      "sum": 22,
       "count": 3,
       "avg": 7
     },
@@ -10831,13 +10836,8 @@
       "count": 2,
       "avg": 8
     },
-    "PRS": {
-      "sum": 288,
-      "count": 22,
-      "avg": 13
-    },
     "Kiesel": {
-      "sum": 168,
+      "sum": 169,
       "count": 10,
       "avg": 17
     },
@@ -10862,9 +10862,9 @@
       "avg": 27
     },
     "Gretsch": {
-      "sum": 16,
+      "sum": 17,
       "count": 2,
-      "avg": 8
+      "avg": 9
     },
     "K-Line": {
       "sum": 1,
@@ -10897,7 +10897,7 @@
       "avg": 9
     },
     "Friedman": {
-      "sum": 32,
+      "sum": 33,
       "count": 3,
       "avg": 11
     },
@@ -10932,7 +10932,7 @@
       "avg": 12
     },
     "Charvel": {
-      "sum": 107,
+      "sum": 108,
       "count": 3,
       "avg": 36
     },
@@ -11032,9 +11032,9 @@
       "avg": 18
     },
     "Fender Custom Shop": {
-      "sum": 36,
+      "sum": 37,
       "count": 2,
-      "avg": 18
+      "avg": 19
     },
     "Milkman": {
       "sum": 18,
@@ -11133,13 +11133,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 16,
+    "2026-04-15": 17,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
-    "2026-04-09": 29,
+    "2026-04-09": 28,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11155,11 +11155,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 99
+      "count": 100
     },
     {
       "username": "Beijing Bob",
-      "count": 77
+      "count": 76
     },
     {
       "username": "Shteefe",
@@ -11196,7 +11196,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3604,
+    "avg": 3603,
     "pctBelowAvg": 10,
     "count": 191
   },
@@ -11215,10 +11215,10 @@
       "count": 48
     },
     "PRS": {
-      "avgPrice": 4343,
+      "avgPrice": 4221,
       "retailEst": 1000,
-      "avgDiscount": -334.3,
-      "count": 23
+      "avgDiscount": -322.1,
+      "count": 24
     },
     "Ibanez": {
       "avgPrice": 2718,
@@ -12317,13 +12317,21 @@
       "livePct": 73
     },
     "byBrand": {
+      "PRS": {
+        "total": 24,
+        "sold": 8,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Eastman": {
-        "total": 7,
+        "total": 6,
         "sold": 2,
         "fake": 0,
-        "live": 5,
-        "soldPct": 29,
-        "livePct": 71
+        "live": 4,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Gibson": {
         "total": 50,
@@ -12428,14 +12436,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 23,
-        "sold": 8,
-        "fake": 0,
-        "live": 15,
-        "soldPct": 35,
-        "livePct": 65
       },
       "Kiesel": {
         "total": 10,
@@ -12979,24 +12979,24 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 96,
+        "sold": 28,
+        "rate": 29
+      },
       "Brand New": {
         "total": 28,
         "sold": 2,
         "rate": 7
       },
       "Excellent": {
-        "total": 123,
+        "total": 122,
         "sold": 42,
         "rate": 34
       },
       "Good": {
         "total": 38,
         "sold": 11,
-        "rate": 29
-      },
-      "Very Good": {
-        "total": 95,
-        "sold": 28,
         "rate": 29
       },
       "B-Stock": {
@@ -13082,12 +13082,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 117,
+      "total": 116,
       "sold": 30,
       "rate": 26
     },
     "regular": {
-      "total": 117,
+      "total": 118,
       "sold": 35,
       "rate": 30
     }
@@ -13101,9 +13101,9 @@
     },
     {
       "state": "TX",
-      "total": 20,
+      "total": 21,
       "sold": 6,
-      "rate": 30
+      "rate": 29
     },
     {
       "state": "WA",
@@ -13142,12 +13142,6 @@
       "rate": 33
     },
     {
-      "state": "PA",
-      "total": 7,
-      "sold": 2,
-      "rate": 29
-    },
-    {
       "state": "MD",
       "total": 6,
       "sold": 1,
@@ -13158,6 +13152,12 @@
       "total": 6,
       "sold": 4,
       "rate": 67
+    },
+    {
+      "state": "PA",
+      "total": 6,
+      "sold": 2,
+      "rate": 33
     },
     {
       "state": "MI",
