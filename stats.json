@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T05:28:46.207Z",
+  "generatedAt": "2026-04-15T05:29:44.823Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1291127.25,
-    "avg": 4022,
+    "sum": 1298623.25,
+    "avg": 4046,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 302,
-    "sum": 819286.27,
-    "avg": 2713,
+    "sum": 826782.27,
+    "avg": 2738,
     "min": 7,
     "max": 8699,
-    "median": 2325
+    "median": 2372
   },
   "outliers": {
-    "thresholdHigh": 8797,
+    "thresholdHigh": 8800,
     "thresholdLow": 0,
     "count": 19,
     "items": [
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 687933.9,
+      "sum": 695429.9,
       "min": 7,
       "max": 36500,
-      "avg": 3602
+      "avg": 3641
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 977787.36,
+      "sum": 985283.36,
       "min": 7,
       "max": 36500,
-      "avg": 3383
+      "avg": 3409
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 977787.36,
+      "sum": 985283.36,
       "min": 7,
       "max": 36500,
-      "avg": 3383
+      "avg": 3409
     },
     "guitarcenter.com": {
       "count": 10,
@@ -276,6 +276,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-teuffel-niwa-elect": {
+      "displayName": "Teuffel Niwa Electric Guitar – Ulrich Teuffel Design – Excellent Condition, Flight Case",
+      "brand": "Rickenbacker",
+      "model": "Teuffel Niwa Elect",
+      "variant": null,
+      "count": 1,
+      "sum": 8495,
+      "min": 8495,
+      "max": 8495,
+      "sightings": [
+        {
+          "price": 8495,
+          "date": "2026-04-15T05:29:30.761Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Teuffel Niwa Electric Guitar – Ulrich Teuffel Design – Excellent Condition, Flight Case",
+          "url": "https://reverb.com/item/96036597-teuffel-niwa-electric-guitar-ulrich-teuffel-design-excellent-condition-flight-case",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 8495,
+          "min": 8495,
+          "max": 8495,
+          "avg": 8495
+        }
+      },
+      "avg": 8495
+    },
     "kiesel-v220-koa-wood": {
       "displayName": "Carvin V220 - Koa Wood, Ebony Fretboard, Kahler Bridge- General Lee-Project",
       "brand": "Kiesel",
@@ -10468,6 +10499,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 123,
+      "sum": 468560.73,
+      "sold": {
+        "count": 39,
+        "sum": 135644.43,
+        "avg": 3478,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 3809,
+      "min": 200,
+      "max": 36500
+    },
     "Good": {
       "count": 39,
       "sum": 106426.95,
@@ -10483,8 +10528,8 @@
       "max": 10995
     },
     "Very Good": {
-      "count": 95,
-      "sum": 290900.55999999994,
+      "count": 94,
+      "sum": 289901.55999999994,
       "sold": {
         "count": 24,
         "sum": 59598.79,
@@ -10492,7 +10537,7 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 3062,
+      "avg": 3084,
       "min": 7,
       "max": 34999
     },
@@ -10509,20 +10554,6 @@
       "avg": 4391,
       "min": 135,
       "max": 11099
-    },
-    "Excellent": {
-      "count": 122,
-      "sum": 460065.73,
-      "sold": {
-        "count": 39,
-        "sum": 135644.43,
-        "avg": 3478,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 3771,
-      "min": 200,
-      "max": 36500
     },
     "B-Stock": {
       "count": 2,
@@ -10586,7 +10617,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3602,
+      "avg": 3641,
       "count": 191
     },
     "03": {
@@ -10739,23 +10770,28 @@
   ],
   "priceDistribution": {
     "0-500": 13,
-    "500-1k": 19,
+    "500-1k": 18,
     "1k-2k": 90,
     "2k-3k": 77,
     "3k-5k": 76,
-    "5k-10k": 31,
+    "5k-10k": 32,
     "10k+": 15
   },
   "priceDistributionFiltered": {
     "0-500": 13,
-    "500-1k": 19,
+    "500-1k": 18,
     "1k-2k": 90,
     "2k-3k": 77,
     "3k-5k": 76,
-    "5k-10k": 27,
+    "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 249,
+      "count": 29,
+      "avg": 9
+    },
     "Kiesel": {
       "sum": 169,
       "count": 11,
@@ -10805,11 +10841,6 @@
       "sum": 180,
       "count": 14,
       "avg": 13
-    },
-    "Rickenbacker": {
-      "sum": 249,
-      "count": 28,
-      "avg": 9
     },
     "Anderson": {
       "sum": 22,
@@ -11118,13 +11149,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 18,
+    "2026-04-15": 19,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
-    "2026-04-09": 27,
+    "2026-04-09": 26,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11136,15 +11167,15 @@
     "reverb": 289,
     "marketplace": 38
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "GP",
-      "count": 101
+      "count": 102
     },
     {
       "username": "Beijing Bob",
-      "count": 75
+      "count": 74
     },
     {
       "username": "Shteefe",
@@ -11181,7 +11212,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3602,
+    "avg": 3641,
     "pctBelowAvg": 10,
     "count": 191
   },
@@ -11224,10 +11255,10 @@
       "count": 18
     },
     "Rickenbacker": {
-      "avgPrice": 4171,
+      "avgPrice": 4311,
       "retailEst": 1500,
-      "avgDiscount": -178.1,
-      "count": 30
+      "avgDiscount": -187.4,
+      "count": 31
     }
   },
   "soldPrices": {
@@ -12286,14 +12317,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 306,
+      "total": 307,
       "sold": 83,
       "fake": 0,
-      "live": 223,
+      "live": 224,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 31,
+        "sold": 4,
+        "fake": 0,
+        "live": 27,
+        "soldPct": 13,
+        "livePct": 87
+      },
       "Kiesel": {
         "total": 11,
         "sold": 5,
@@ -12389,14 +12428,6 @@
         "live": 9,
         "soldPct": 36,
         "livePct": 64
-      },
-      "Rickenbacker": {
-        "total": 30,
-        "sold": 4,
-        "fake": 0,
-        "live": 26,
-        "soldPct": 13,
-        "livePct": 87
       },
       "Anderson": {
         "total": 3,
@@ -12920,9 +12951,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 19,
+        "total": 18,
         "sold": 5,
-        "rate": 26
+        "rate": 28
       },
       {
         "label": "$1k–2k",
@@ -12944,7 +12975,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 31,
+        "total": 32,
         "sold": 6,
         "rate": 19
       },
@@ -12956,25 +12987,25 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 123,
+        "sold": 42,
+        "rate": 34
+      },
       "Good": {
         "total": 39,
         "sold": 11,
         "rate": 28
       },
       "Very Good": {
-        "total": 95,
+        "total": 94,
         "sold": 27,
-        "rate": 28
+        "rate": 29
       },
       "Brand New": {
         "total": 28,
         "sold": 2,
         "rate": 7
-      },
-      "Excellent": {
-        "total": 122,
-        "sold": 42,
-        "rate": 34
       },
       "B-Stock": {
         "total": 2,
@@ -13022,13 +13053,13 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 23,
       "sold": 9,
-      "rate": 38
+      "rate": 39
     },
     {
       "label": "6–15",
-      "total": 69,
+      "total": 70,
       "sold": 14,
       "rate": 20
     },
