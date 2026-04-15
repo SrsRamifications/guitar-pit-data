@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T19:22:21.133Z",
+  "generatedAt": "2026-04-15T21:06:43.990Z",
   "totalLinks": 326,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1307872.26,
-    "avg": 4087,
+    "sum": 1307298.26,
+    "avg": 4085,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 300,
-    "sum": 807021.27,
-    "avg": 2690,
+    "sum": 806447.27,
+    "avg": 2688,
     "min": 7,
     "max": 8699,
     "median": 2299
@@ -189,10 +189,10 @@
   "byMonth": {
     "2026-04": {
       "count": 189,
-      "sum": 700279.91,
+      "sum": 699705.91,
       "min": 7,
       "max": 47011,
-      "avg": 3705
+      "avg": 3702
     },
     "2026-03": {
       "count": 131,
@@ -205,10 +205,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 1023757.36,
+      "sum": 1023183.36,
       "min": 7,
       "max": 47011,
-      "avg": 3542
+      "avg": 3540
     },
     "marketplace": {
       "count": 31,
@@ -221,10 +221,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 1023757.36,
+      "sum": 1023183.36,
       "min": 7,
       "max": 47011,
-      "avg": 3542
+      "avg": 3540
     },
     "guitarcenter.com": {
       "count": 10,
@@ -277,6 +277,37 @@
     }
   },
   "byModel": {
+    "aristides-020": {
+      "displayName": "Aristides 020",
+      "brand": "Aristides",
+      "model": "020",
+      "variant": null,
+      "count": 1,
+      "sum": 2400,
+      "min": 2400,
+      "max": 2400,
+      "sightings": [
+        {
+          "price": 2400,
+          "date": "2026-04-15T21:06:29.161Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Aristides 020",
+          "url": "https://reverb.com/item/96060728-aristides-020",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2400,
+          "min": 2400,
+          "max": 2400,
+          "avg": 2400
+        }
+      },
+      "avg": 2400
+    },
     "music-man-jp15": {
       "displayName": "RARE Music Man JP15-7 Eclipse Sparkle  - Sweetwater Exclusive",
       "brand": "Music Man",
@@ -6343,52 +6374,6 @@
       "avg": 3850,
       "trends": {}
     },
-    "washburn-boden-usa": {
-      "displayName": "Washburn Custom USA Strandberg Misha Mansoor Boden 6 #4/11",
-      "brand": "Washburn",
-      "model": "Boden",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 2974,
-      "min": 2974,
-      "max": 2974,
-      "sightings": [
-        {
-          "price": 2974,
-          "date": "2026-04-09T22:40:03.901Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Washburn Custom USA Strandberg Misha Mansoor Boden 6 #4/11",
-          "url": "https://reverb.com/item/95827813-washburn-custom-usa-strandberg-misha-mansoor-boden-6-4-11",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2974,
-          "min": 2974,
-          "max": 2974,
-          "avg": 2974
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2974,
-        "min": 2974,
-        "max": 2974,
-        "prices": [
-          {
-            "price": 2974,
-            "askingPrice": 2974,
-            "date": "2026-04-09T23:04:36.453Z",
-            "title": "Washburn Custom USA Strandberg Misha Mansoor Boden 6 #4/11",
-            "url": "https://reverb.com/item/95827813-washburn-custom-usa-strandberg-misha-mansoor-boden-6-4-11"
-          }
-        ]
-      },
-      "avg": 2974
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10398,15 +10383,15 @@
   "byCondition": {
     "Excellent": {
       "count": 125,
-      "sum": 473010.73,
+      "sum": 472436.73,
       "sold": {
-        "count": 39,
-        "sum": 134935.43,
-        "avg": 3460,
+        "count": 38,
+        "sum": 131961.43,
+        "avg": 3473,
         "min": 200,
         "max": 35900
       },
-      "avg": 3784,
+      "avg": 3779,
       "min": 200,
       "max": 36500
     },
@@ -10514,7 +10499,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3705,
+      "avg": 3702,
       "count": 189
     },
     "03": {
@@ -10684,6 +10669,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Aristides": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Music Man": {
       "sum": 161,
       "count": 8,
@@ -10695,7 +10685,7 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 798,
+      "sum": 799,
       "count": 40,
       "avg": 20
     },
@@ -10710,7 +10700,7 @@
       "avg": 13
     },
     "Kiesel": {
-      "sum": 177,
+      "sum": 178,
       "count": 12,
       "avg": 15
     },
@@ -10725,7 +10715,7 @@
       "avg": 23
     },
     "Rickenbacker": {
-      "sum": 273,
+      "sum": 274,
       "count": 31,
       "avg": 9
     },
@@ -10810,7 +10800,7 @@
       "avg": 2
     },
     "Epiphone": {
-      "sum": 62,
+      "sum": 63,
       "count": 4,
       "avg": 16
     },
@@ -10870,7 +10860,7 @@
       "avg": 21
     },
     "Yamaha": {
-      "sum": 21,
+      "sum": 22,
       "count": 2,
       "avg": 11
     },
@@ -10920,11 +10910,6 @@
       "avg": 13
     },
     "Tyler": {
-      "sum": 6,
-      "count": 1,
-      "avg": 6
-    },
-    "Washburn": {
       "sum": 6,
       "count": 1,
       "avg": 6
@@ -11041,13 +11026,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 36,
+    "2026-04-15": 37,
     "2026-04-14": 34,
     "2026-04-13": 26,
     "2026-04-12": 14,
     "2026-04-11": 42,
     "2026-04-10": 29,
-    "2026-04-09": 9,
+    "2026-04-09": 8,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11070,11 +11055,11 @@
       "count": 71
     },
     {
-      "username": "Shteefe",
-      "count": 31
+      "username": "YellowJack6",
+      "count": 30
     },
     {
-      "username": "YellowJack6",
+      "username": "Shteefe",
       "count": 30
     },
     {
@@ -11098,13 +11083,13 @@
       "count": 6
     },
     {
-      "username": "ᜁᜃ᜔ᜐᜒᜇᜒᜂᜐ᜔",
+      "username": "scottcorgan",
       "count": 4
     }
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3705,
+    "avg": 3702,
     "pctBelowAvg": 9,
     "count": 189
   },
@@ -11154,17 +11139,17 @@
     }
   },
   "soldPrices": {
-    "count": 85,
-    "avg": 4235,
+    "count": 84,
+    "avg": 4250,
     "min": 99,
     "max": 36500,
     "avgDiscount": 7
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 396.99999999999994,
-      "count": 79,
-      "avgDays": 5
+      "totalDays": 396.9,
+      "count": 78,
+      "avgDays": 5.1
     },
     "byModel": {
       "music-man-jp-signature": {
@@ -11422,14 +11407,6 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
-      },
-      "washburn-boden-usa": {
-        "displayName": "Washburn Custom USA Strandberg Misha Mansoor Boden 6 #4/11",
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11891,13 +11868,6 @@
         "slowest": 0,
         "avgDays": 0
       },
-      "Washburn": {
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
-      },
       "Hoyer": {
         "totalDays": 1,
         "count": 1,
@@ -12151,13 +12121,21 @@
   "sellThrough": {
     "overall": {
       "total": 307,
-      "sold": 79,
+      "sold": 78,
       "fake": 0,
-      "live": 228,
-      "soldPct": 26,
-      "livePct": 74
+      "live": 229,
+      "soldPct": 25,
+      "livePct": 75
     },
     "byBrand": {
+      "Aristides": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Music Man": {
         "total": 9,
         "sold": 7,
@@ -12566,14 +12544,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Washburn": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12789,8 +12759,8 @@
       {
         "label": "$2k–3k",
         "total": 75,
-        "sold": 21,
-        "rate": 28
+        "sold": 20,
+        "rate": 27
       },
       {
         "label": "$3k–5k",
@@ -12814,8 +12784,8 @@
     "byCondition": {
       "Excellent": {
         "total": 125,
-        "sold": 42,
-        "rate": 34
+        "sold": 41,
+        "rate": 33
       },
       "Very Good": {
         "total": 93,
@@ -12879,8 +12849,8 @@
     {
       "label": "1–5",
       "total": 22,
-      "sold": 8,
-      "rate": 36
+      "sold": 7,
+      "rate": 32
     },
     {
       "label": "6–15",
@@ -12904,8 +12874,8 @@
   "offersEffect": {
     "on": {
       "total": 189,
-      "sold": 52,
-      "rate": 28
+      "sold": 51,
+      "rate": 27
     },
     "off": {
       "total": 57,
@@ -12915,14 +12885,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 114,
+      "total": 115,
       "sold": 26,
       "rate": 23
     },
     "regular": {
-      "total": 119,
-      "sold": 34,
-      "rate": 29
+      "total": 118,
+      "sold": 33,
+      "rate": 28
     }
   },
   "geoSellThrough": [
@@ -12957,16 +12927,16 @@
       "rate": 17
     },
     {
+      "state": "MA",
+      "total": 11,
+      "sold": 2,
+      "rate": 18
+    },
+    {
       "state": "TN",
       "total": 10,
       "sold": 4,
       "rate": 40
-    },
-    {
-      "state": "MA",
-      "total": 10,
-      "sold": 2,
-      "rate": 20
     },
     {
       "state": "IL",
@@ -12985,12 +12955,6 @@
       "total": 6,
       "sold": 1,
       "rate": 17
-    },
-    {
-      "state": "MI",
-      "total": 6,
-      "sold": 4,
-      "rate": 67
     },
     {
       "state": "NJ",
@@ -13021,6 +12985,12 @@
       "total": 5,
       "sold": 2,
       "rate": 40
+    },
+    {
+      "state": "MI",
+      "total": 5,
+      "sold": 3,
+      "rate": 60
     },
     {
       "state": "CT",
