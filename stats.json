@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T06:03:31.742Z",
+  "generatedAt": "2026-04-15T06:27:40.951Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1290787.25,
-    "avg": 4034,
+    "sum": 1290083.25,
+    "avg": 4032,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 301,
-    "sum": 818946.27,
-    "avg": 2721,
+    "sum": 818242.27,
+    "avg": 2718,
     "min": 7,
     "max": 8699,
     "median": 2300
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 687593.9,
+      "sum": 686889.9,
       "min": 7,
       "max": 36500,
-      "avg": 3619
+      "avg": 3615
     },
     "2026-03": {
       "count": 130,
@@ -195,35 +195,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 288,
+      "sum": 978968.36,
+      "min": 7,
+      "max": 36500,
+      "avg": 3399
+    },
     "marketplace": {
       "count": 32,
       "sum": 311114.89,
       "min": 374.99,
       "max": 99000,
       "avg": 9722
-    },
-    "reverb": {
-      "count": 288,
-      "sum": 979672.36,
-      "min": 7,
-      "max": 36500,
-      "avg": 3402
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 288,
+      "sum": 978968.36,
+      "min": 7,
+      "max": 36500,
+      "avg": 3399
+    },
     "guitarcenter.com": {
       "count": 11,
       "sum": 49692.9,
       "min": 374.99,
       "max": 26999.99,
       "avg": 4518
-    },
-    "reverb.com": {
-      "count": 288,
-      "sum": 979672.36,
-      "min": 7,
-      "max": 36500,
-      "avg": 3402
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -269,6 +269,37 @@
     }
   },
   "byModel": {
+    "balaguer-growler-t-bar-baritone": {
+      "displayName": "Balaguer Growler T-BAR Baritone, Metallic Cool Green!",
+      "brand": "Balaguer",
+      "model": "Growler T-BAR Baritone,",
+      "variant": null,
+      "count": 1,
+      "sum": 1495,
+      "min": 1495,
+      "max": 1495,
+      "sightings": [
+        {
+          "price": 1495,
+          "date": "2026-04-15T06:27:26.557Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Balaguer Growler T-BAR Baritone, Metallic Cool Green!",
+          "url": "https://reverb.com/item/96039546-balaguer-growler-t-bar-baritone-metallic-cool-green",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1495,
+          "min": 1495,
+          "max": 1495,
+          "avg": 1495
+        }
+      },
+      "avg": 1495
+    },
     "rickenbacker-jazzmaster-classic-vibe-60s": {
       "displayName": "Squier Classic Vibe '60s Jazzmaster Limited-Edition Electric Guitar - Daphne Blue",
       "brand": "Rickenbacker",
@@ -6324,52 +6355,6 @@
       },
       "avg": 2099
     },
-    "teisco-waterslide-coodercaster-bel": {
-      "displayName": "Waterslide Coodercaster 2021 - Bel Air Blue",
-      "brand": "Teisco",
-      "model": "Waterslide Coodercaster Bel",
-      "variant": null,
-      "count": 1,
-      "sum": 2199,
-      "min": 2199,
-      "max": 2199,
-      "sightings": [
-        {
-          "price": 2199,
-          "date": "2026-04-09T05:45:32.413Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Waterslide Coodercaster 2021 - Bel Air Blue",
-          "url": "https://reverb.com/item/95794231-waterslide-coodercaster-2021-bel-air-blue",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2199,
-          "min": 2199,
-          "max": 2199,
-          "avg": 2199
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2199,
-        "min": 2199,
-        "max": 2199,
-        "prices": [
-          {
-            "price": 2199,
-            "askingPrice": 2199,
-            "date": "2026-04-10T22:10:23.085Z",
-            "title": "Waterslide Coodercaster 2021 - Bel Air Blue",
-            "url": "https://reverb.com/item/95794231-waterslide-coodercaster-2021-bel-air-blue"
-          }
-        ]
-      },
-      "avg": 2199
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10409,6 +10394,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 122,
+      "sum": 462944.73,
+      "sold": {
+        "count": 38,
+        "sum": 133144.43,
+        "avg": 3504,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 3795,
+      "min": 200,
+      "max": 36500
+    },
     "Used": {
       "count": 20,
       "sum": 178009.89999999997,
@@ -10421,32 +10420,18 @@
       "max": 99000
     },
     "Very Good": {
-      "count": 95,
-      "sum": 291401.55999999994,
+      "count": 94,
+      "sum": 289202.55999999994,
       "sold": {
-        "count": 24,
-        "sum": 59598.79,
-        "avg": 2483,
+        "count": 23,
+        "sum": 57399.79,
+        "avg": 2496,
         "min": 475,
         "max": 5900
       },
-      "avg": 3067,
+      "avg": 3077,
       "min": 7,
       "max": 34999
-    },
-    "Excellent": {
-      "count": 121,
-      "sum": 461449.73,
-      "sold": {
-        "count": 38,
-        "sum": 133144.43,
-        "avg": 3504,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 3814,
-      "min": 200,
-      "max": 36500
     },
     "Good": {
       "count": 39,
@@ -10527,7 +10512,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3619,
+      "avg": 3615,
       "count": 190
     },
     "03": {
@@ -10608,13 +10593,6 @@
       "date": "2026-04-13T09:11:37.573Z"
     },
     {
-      "title": "Waterslide Coodercaster 2021 - Bel Air Blue",
-      "url": "https://reverb.com/item/95794231-waterslide-coodercaster-2021-bel-air-blue",
-      "oldPrice": "$2,299",
-      "newPrice": "$2,199",
-      "date": "2026-04-10T21:10:15.012Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10676,13 +10654,20 @@
       "oldPrice": "$417.18",
       "newPrice": "$414",
       "date": "2026-04-02T23:23:26.545Z"
+    },
+    {
+      "title": "Tokai ST55 Springy Sound Stratocaster 1980 - Metallic Red Matching Headstock",
+      "url": "https://reverb.com/item/93357830-tokai-st55-springy-sound-stratocaster-1980-metallic-red-matching-headstock",
+      "oldPrice": "$1,028.56",
+      "newPrice": "$1,029.98",
+      "date": "2026-03-31T02:43:27.300Z"
     }
   ],
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 91,
-    "2k-3k": 75,
+    "1k-2k": 92,
+    "2k-3k": 74,
     "3k-5k": 75,
     "5k-10k": 32,
     "10k+": 15
@@ -10690,15 +10675,20 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 91,
-    "2k-3k": 75,
+    "1k-2k": 92,
+    "2k-3k": 74,
     "3k-5k": 75,
     "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Balaguer": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Rickenbacker": {
-      "sum": 249,
+      "sum": 250,
       "count": 30,
       "avg": 8
     },
@@ -10713,7 +10703,7 @@
       "avg": 15
     },
     "PRS": {
-      "sum": 277,
+      "sum": 278,
       "count": 21,
       "avg": 13
     },
@@ -10723,14 +10713,14 @@
       "avg": 13
     },
     "Gibson": {
-      "sum": 786,
+      "sum": 787,
       "count": 39,
       "avg": 20
     },
     "FGN": {
-      "sum": 55,
+      "sum": 56,
       "count": 3,
-      "avg": 18
+      "avg": 19
     },
     "Knaggs": {
       "sum": 108,
@@ -10918,7 +10908,7 @@
       "avg": 46
     },
     "Parker": {
-      "sum": 23,
+      "sum": 24,
       "count": 2,
       "avg": 12
     },
@@ -10931,11 +10921,6 @@
       "sum": 5,
       "count": 1,
       "avg": 5
-    },
-    "Teisco": {
-      "sum": 6,
-      "count": 1,
-      "avg": 6
     },
     "Languedoc": {
       "sum": 18,
@@ -11054,13 +11039,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 21,
+    "2026-04-15": 22,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
-    "2026-04-09": 23,
+    "2026-04-09": 22,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11069,8 +11054,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 38,
-    "reverb": 288
+    "reverb": 288,
+    "marketplace": 38
   },
   "activeModelsCount": 278,
   "topPosters": [
@@ -11117,7 +11102,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3619,
+    "avg": 3615,
     "pctBelowAvg": 10,
     "count": 190
   },
@@ -11167,16 +11152,16 @@
     }
   },
   "soldPrices": {
-    "count": 88,
-    "avg": 4240,
+    "count": 87,
+    "avg": 4263,
     "min": 99,
     "max": 36500,
     "avgDiscount": 7
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 430.99999999999994,
-      "count": 82,
+      "totalDays": 429.2,
+      "count": 81,
       "avgDays": 5.3
     },
     "byModel": {
@@ -11451,14 +11436,6 @@
         "fastest": 17.7,
         "slowest": 17.7,
         "avgDays": 17.7
-      },
-      "teisco-waterslide-coodercaster-bel": {
-        "displayName": "Waterslide Coodercaster 2021 - Bel Air Blue",
-        "totalDays": 1.8,
-        "count": 1,
-        "fastest": 1.8,
-        "slowest": 1.8,
-        "avgDays": 1.8
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11928,13 +11905,6 @@
         "slowest": 9.8,
         "avgDays": 9.8
       },
-      "Teisco": {
-        "totalDays": 1.8,
-        "count": 1,
-        "fastest": 1.8,
-        "slowest": 1.8,
-        "avgDays": 1.8
-      },
       "Hoyer": {
         "totalDays": 1,
         "count": 1,
@@ -12030,9 +12000,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1277.3684064194263,
-      "count": 72,
-      "avgPctDrop": 17.7
+      "totalPctDrop": 1273.0186891510489,
+      "count": 71,
+      "avgPctDrop": 17.9
     },
     "byBrand": {
       "Gibson": {
@@ -12140,11 +12110,6 @@
         "count": 1,
         "avgPctDrop": 5.7
       },
-      "Teisco": {
-        "totalPctDrop": 4.349717268377556,
-        "count": 1,
-        "avgPctDrop": 4.3
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -12205,13 +12170,21 @@
   "sellThrough": {
     "overall": {
       "total": 306,
-      "sold": 81,
+      "sold": 80,
       "fake": 0,
-      "live": 225,
+      "live": 226,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Balaguer": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Rickenbacker": {
         "total": 32,
         "sold": 4,
@@ -12612,14 +12585,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Teisco": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12836,15 +12801,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 91,
+        "total": 92,
         "sold": 19,
         "rate": 21
       },
       {
         "label": "$2k–3k",
-        "total": 75,
-        "sold": 24,
-        "rate": 32
+        "total": 74,
+        "sold": 23,
+        "rate": 31
       },
       {
         "label": "$3k–5k",
@@ -12866,20 +12831,20 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 122,
+        "sold": 41,
+        "rate": 34
+      },
       "Used": {
         "total": 20,
         "sold": 3,
         "rate": 15
       },
       "Very Good": {
-        "total": 95,
-        "sold": 27,
+        "total": 94,
+        "sold": 26,
         "rate": 28
-      },
-      "Excellent": {
-        "total": 121,
-        "sold": 41,
-        "rate": 34
       },
       "Good": {
         "total": 39,
@@ -12914,8 +12879,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 84,
-    "totalOffers": 192,
+    "withOffers": 83,
+    "totalOffers": 191,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 67
   },
@@ -12939,8 +12904,8 @@
     {
       "label": "6–15",
       "total": 70,
-      "sold": 14,
-      "rate": 20
+      "sold": 13,
+      "rate": 19
     },
     {
       "label": "16–30",
@@ -12958,8 +12923,8 @@
   "offersEffect": {
     "on": {
       "total": 192,
-      "sold": 57,
-      "rate": 30
+      "sold": 56,
+      "rate": 29
     },
     "off": {
       "total": 54,
@@ -12969,14 +12934,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 115,
+      "total": 116,
       "sold": 28,
       "rate": 24
     },
     "regular": {
-      "total": 118,
-      "sold": 35,
-      "rate": 30
+      "total": 117,
+      "sold": 34,
+      "rate": 29
     }
   },
   "geoSellThrough": [
@@ -12988,9 +12953,9 @@
     },
     {
       "state": "TX",
-      "total": 20,
-      "sold": 5,
-      "rate": 25
+      "total": 19,
+      "sold": 4,
+      "rate": 21
     },
     {
       "state": "WA",
@@ -13133,6 +13098,12 @@
     {
       "state": "KY",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "AZ",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
