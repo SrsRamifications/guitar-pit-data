@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T12:27:55.362Z",
+  "generatedAt": "2026-04-15T12:55:49.431Z",
   "totalLinks": 325,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 319,
   "overall": {
     "count": 319,
-    "sum": 1329896.25,
-    "avg": 4169,
+    "sum": 1329581.25,
+    "avg": 4168,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 299,
-    "sum": 811044.27,
-    "avg": 2713,
+    "sum": 810729.27,
+    "avg": 2711,
     "min": 7,
     "max": 8699,
     "median": 2300
@@ -189,10 +189,10 @@
   "byMonth": {
     "2026-04": {
       "count": 189,
-      "sum": 726702.9,
+      "sum": 726387.9,
       "min": 7,
       "max": 47011,
-      "avg": 3845
+      "avg": 3843
     },
     "2026-03": {
       "count": 130,
@@ -205,10 +205,10 @@
   "byCategory": {
     "reverb": {
       "count": 287,
-      "sum": 1018781.36,
+      "sum": 1018466.36,
       "min": 7,
       "max": 47011,
-      "avg": 3550
+      "avg": 3549
     },
     "marketplace": {
       "count": 32,
@@ -221,10 +221,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 287,
-      "sum": 1018781.36,
+      "sum": 1018466.36,
       "min": 7,
       "max": 47011,
-      "avg": 3550
+      "avg": 3549
     },
     "guitarcenter.com": {
       "count": 11,
@@ -277,6 +277,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-early-80s-bc": {
+      "displayName": "Early '80s BC Rich B NJ Guitar Made in Japan",
+      "brand": "Rickenbacker",
+      "model": "Early '80s BC",
+      "variant": null,
+      "count": 1,
+      "sum": 685,
+      "min": 685,
+      "max": 685,
+      "sightings": [
+        {
+          "price": 685,
+          "date": "2026-04-15T12:55:35.118Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Early '80s BC Rich B NJ Guitar Made in Japan",
+          "url": "https://reverb.com/item/96040546-early-80s-bc-rich-b-nj-guitar-made-in-japan",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 685,
+          "min": 685,
+          "max": 685,
+          "avg": 685
+        }
+      },
+      "avg": 685
+    },
     "fender-stratocaster-custom-shop-limited-edition": {
       "displayName": "Fender Custom Shop Limited Edition 1 of 1 \"La Florita\" Stratocaster Electric Guitar with Matching Amp",
       "brand": "Fender",
@@ -6331,37 +6362,6 @@
       },
       "avg": 4498
     },
-    "prs-silver-sky-se": {
-      "displayName": "PRS SE CUSTOMIZED Silver Sky 2022 - 2025 - Stone Blue",
-      "brand": "PRS",
-      "model": "Silver Sky",
-      "variant": "Se",
-      "count": 1,
-      "sum": 1000,
-      "min": 1000,
-      "max": 1000,
-      "sightings": [
-        {
-          "price": 1000,
-          "date": "2026-04-09T05:52:45.583Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS SE CUSTOMIZED Silver Sky 2022 - 2025 - Stone Blue",
-          "url": "https://reverb.com/item/95794655-prs-se-customized-silver-sky-2022-2025-stone-blue",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1000,
-          "min": 1000,
-          "max": 1000,
-          "avg": 1000
-        }
-      },
-      "avg": 1000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10401,6 +10401,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 40,
+      "sum": 107111.95,
+      "sold": {
+        "count": 10,
+        "sum": 31060.27,
+        "avg": 3106,
+        "min": 99,
+        "max": 8000
+      },
+      "avg": 2678,
+      "min": 99,
+      "max": 10995
+    },
     "Mint": {
       "count": 5,
       "sum": 65361,
@@ -10438,8 +10452,8 @@
       "max": 99000
     },
     "Very Good": {
-      "count": 93,
-      "sum": 287003.55999999994,
+      "count": 92,
+      "sum": 286003.55999999994,
       "sold": {
         "count": 24,
         "sum": 58389.79,
@@ -10447,23 +10461,9 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 3086,
+      "avg": 3109,
       "min": 7,
       "max": 34999
-    },
-    "Good": {
-      "count": 39,
-      "sum": 106426.95,
-      "sold": {
-        "count": 10,
-        "sum": 31060.27,
-        "avg": 3106,
-        "min": 99,
-        "max": 8000
-      },
-      "avg": 2729,
-      "min": 99,
-      "max": 10995
     },
     "Brand New": {
       "count": 28,
@@ -10519,7 +10519,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3845,
+      "avg": 3843,
       "count": 189
     },
     "03": {
@@ -10672,8 +10672,8 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 18,
-    "1k-2k": 92,
+    "500-1k": 19,
+    "1k-2k": 91,
     "2k-3k": 73,
     "3k-5k": 74,
     "5k-10k": 32,
@@ -10681,14 +10681,19 @@
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 18,
-    "1k-2k": 92,
+    "500-1k": 19,
+    "1k-2k": 91,
     "2k-3k": 73,
     "3k-5k": 74,
     "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 265,
+      "count": 31,
+      "avg": 9
+    },
     "Fender": {
       "sum": 106,
       "count": 13,
@@ -10699,19 +10704,14 @@
       "count": 1,
       "avg": 0
     },
-    "Rickenbacker": {
-      "sum": 261,
-      "count": 30,
-      "avg": 9
-    },
     "Kiesel": {
       "sum": 171,
       "count": 11,
       "avg": 16
     },
     "PRS": {
-      "sum": 286,
-      "count": 21,
+      "sum": 280,
+      "count": 20,
       "avg": 14
     },
     "Eastman": {
@@ -10720,7 +10720,7 @@
       "avg": 13
     },
     "Gibson": {
-      "sum": 797,
+      "sum": 799,
       "count": 38,
       "avg": 21
     },
@@ -10750,7 +10750,7 @@
       "avg": 12
     },
     "Ibanez": {
-      "sum": 185,
+      "sum": 187,
       "count": 14,
       "avg": 13
     },
@@ -10870,9 +10870,9 @@
       "avg": 11
     },
     "Floyd Rose": {
-      "sum": 24,
+      "sum": 25,
       "count": 1,
-      "avg": 24
+      "avg": 25
     },
     "G&L": {
       "sum": 5,
@@ -10910,9 +10910,9 @@
       "avg": 6
     },
     "Martin": {
-      "sum": 92,
+      "sum": 93,
       "count": 2,
-      "avg": 46
+      "avg": 47
     },
     "Parker": {
       "sum": 25,
@@ -11046,13 +11046,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 23,
+    "2026-04-15": 24,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 42,
     "2026-04-10": 29,
-    "2026-04-09": 21,
+    "2026-04-09": 20,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11068,7 +11068,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 101
+      "count": 100
     },
     {
       "username": "Beijing Bob",
@@ -11080,7 +11080,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 29
+      "count": 30
     },
     {
       "username": "WontonGG",
@@ -11109,7 +11109,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3845,
+    "avg": 3843,
     "pctBelowAvg": 8,
     "count": 189
   },
@@ -11128,10 +11128,10 @@
       "count": 47
     },
     "PRS": {
-      "avgPrice": 4287,
+      "avgPrice": 4443,
       "retailEst": 1000,
-      "avgDiscount": -328.7,
-      "count": 22
+      "avgDiscount": -344.3,
+      "count": 21
     },
     "Ibanez": {
       "avgPrice": 2718,
@@ -11152,10 +11152,10 @@
       "count": 18
     },
     "Rickenbacker": {
-      "avgPrice": 4188,
+      "avgPrice": 4081,
       "retailEst": 1500,
-      "avgDiscount": -179.2,
-      "count": 32
+      "avgDiscount": -172.1,
+      "count": 33
     }
   },
   "soldPrices": {
@@ -12207,6 +12207,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 33,
+        "sold": 4,
+        "fake": 0,
+        "live": 29,
+        "soldPct": 12,
+        "livePct": 88
+      },
       "Fender": {
         "total": 19,
         "sold": 4,
@@ -12223,14 +12231,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Rickenbacker": {
-        "total": 32,
-        "sold": 4,
-        "fake": 0,
-        "live": 28,
-        "soldPct": 13,
-        "livePct": 88
-      },
       "Kiesel": {
         "total": 11,
         "sold": 5,
@@ -12240,12 +12240,12 @@
         "livePct": 55
       },
       "PRS": {
-        "total": 22,
+        "total": 21,
         "sold": 7,
         "fake": 0,
-        "live": 15,
-        "soldPct": 32,
-        "livePct": 68
+        "live": 14,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Eastman": {
         "total": 5,
@@ -12825,13 +12825,13 @@
       },
       {
         "label": "$500–1k",
-        "total": 18,
+        "total": 19,
         "sold": 6,
-        "rate": 33
+        "rate": 32
       },
       {
         "label": "$1k–2k",
-        "total": 92,
+        "total": 91,
         "sold": 20,
         "rate": 22
       },
@@ -12861,6 +12861,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 40,
+        "sold": 11,
+        "rate": 28
+      },
       "Mint": {
         "total": 5,
         "sold": 0,
@@ -12877,14 +12882,9 @@
         "rate": 15
       },
       "Very Good": {
-        "total": 93,
+        "total": 92,
         "sold": 27,
         "rate": 29
-      },
-      "Good": {
-        "total": 39,
-        "sold": 11,
-        "rate": 28
       },
       "Brand New": {
         "total": 28,
@@ -12916,7 +12916,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 102
   },
   "watcherDemand": [
     {
@@ -12927,15 +12927,15 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 23,
       "sold": 10,
-      "rate": 42
+      "rate": 43
     },
     {
       "label": "6–15",
-      "total": 70,
+      "total": 71,
       "sold": 13,
-      "rate": 19
+      "rate": 18
     },
     {
       "label": "16–30",
@@ -12977,15 +12977,15 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 28,
+      "total": 29,
       "sold": 9,
-      "rate": 32
+      "rate": 31
     },
     {
       "state": "TX",
-      "total": 19,
+      "total": 18,
       "sold": 4,
-      "rate": 21
+      "rate": 22
     },
     {
       "state": "WA",
