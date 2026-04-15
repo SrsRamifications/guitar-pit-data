@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T05:27:01.931Z",
+  "generatedAt": "2026-04-15T05:28:46.207Z",
   "totalLinks": 327,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 321,
   "overall": {
     "count": 321,
-    "sum": 1291427.25,
-    "avg": 4023,
+    "sum": 1291127.25,
+    "avg": 4022,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 302,
-    "sum": 819586.27,
-    "avg": 2714,
+    "sum": 819286.27,
+    "avg": 2713,
     "min": 7,
     "max": 8699,
     "median": 2325
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 191,
-      "sum": 688233.9,
+      "sum": 687933.9,
       "min": 7,
       "max": 36500,
-      "avg": 3603
+      "avg": 3602
     },
     "2026-03": {
       "count": 130,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 978087.36,
+      "sum": 977787.36,
       "min": 7,
       "max": 36500,
-      "avg": 3384
+      "avg": 3383
     },
     "marketplace": {
       "count": 32,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 978087.36,
+      "sum": 977787.36,
       "min": 7,
       "max": 36500,
-      "avg": 3384
+      "avg": 3383
     },
     "guitarcenter.com": {
       "count": 10,
@@ -276,6 +276,37 @@
     }
   },
   "byModel": {
+    "kiesel-v220-koa-wood": {
+      "displayName": "Carvin V220 - Koa Wood, Ebony Fretboard, Kahler Bridge- General Lee-Project",
+      "brand": "Kiesel",
+      "model": "V220 Koa Wood,",
+      "variant": null,
+      "count": 1,
+      "sum": 1200,
+      "min": 1200,
+      "max": 1200,
+      "sightings": [
+        {
+          "price": 1200,
+          "date": "2026-04-15T05:28:32.183Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Carvin V220 - Koa Wood, Ebony Fretboard, Kahler Bridge- General Lee-Project",
+          "url": "https://reverb.com/item/96039510-carvin-v220-koa-wood-ebony-fretboard-kahler-bridge-general-lee-project",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1200,
+          "min": 1200,
+          "max": 1200,
+          "avg": 1200
+        }
+      },
+      "avg": 1200
+    },
     "prs-fiore-iris": {
       "displayName": "PRS Fiore Black Iris",
       "brand": "PRS",
@@ -6398,52 +6429,6 @@
       },
       "avg": 2600
     },
-    "eastman-t64v-gb-antique-goldburst": {
-      "displayName": "Used Eastman T64/V-GB Antique Goldburst w/case TSS6915",
-      "brand": "Eastman",
-      "model": "T64/V-GB Antique Goldburst",
-      "variant": null,
-      "count": 1,
-      "sum": 1500,
-      "min": 1500,
-      "max": 1500,
-      "sightings": [
-        {
-          "price": 1500,
-          "date": "2026-04-09T00:02:12.169Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Eastman T64/V-GB Antique Goldburst w/case TSS6915",
-          "url": "https://reverb.com/item/95695914-used-eastman-t64-v-gb-antique-goldburst-w-case-tss6915",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1500,
-          "min": 1500,
-          "max": 1500,
-          "avg": 1500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1500,
-        "min": 1499.99,
-        "max": 1499.99,
-        "prices": [
-          {
-            "price": 1499.99,
-            "askingPrice": 1500,
-            "date": "2026-04-09T15:13:59.987Z",
-            "title": "Used Eastman T64/V-GB Antique Goldburst w/case TSS6915",
-            "url": "https://reverb.com/item/95695914-used-eastman-t64-v-gb-antique-goldburst-w-case-tss6915"
-          }
-        ]
-      },
-      "avg": 1500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10483,17 +10468,31 @@
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 96,
-      "sum": 292400.55999999994,
+    "Good": {
+      "count": 39,
+      "sum": 106426.95,
       "sold": {
-        "count": 25,
-        "sum": 61098.78,
-        "avg": 2444,
+        "count": 10,
+        "sum": 31060.27,
+        "avg": 3106,
+        "min": 99,
+        "max": 8000
+      },
+      "avg": 2729,
+      "min": 99,
+      "max": 10995
+    },
+    "Very Good": {
+      "count": 95,
+      "sum": 290900.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 59598.79,
+        "avg": 2483,
         "min": 475,
         "max": 5900
       },
-      "avg": 3046,
+      "avg": 3062,
       "min": 7,
       "max": 34999
     },
@@ -10524,20 +10523,6 @@
       "avg": 3771,
       "min": 200,
       "max": 36500
-    },
-    "Good": {
-      "count": 38,
-      "sum": 105226.95,
-      "sold": {
-        "count": 10,
-        "sum": 31060.27,
-        "avg": 3106,
-        "min": 99,
-        "max": 8000
-      },
-      "avg": 2769,
-      "min": 99,
-      "max": 10995
     },
     "B-Stock": {
       "count": 2,
@@ -10601,7 +10586,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3603,
+      "avg": 3602,
       "count": 191
     },
     "03": {
@@ -10771,15 +10756,20 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 169,
+      "count": 11,
+      "avg": 15
+    },
     "PRS": {
       "sum": 289,
       "count": 23,
       "avg": 13
     },
     "Eastman": {
-      "sum": 73,
-      "count": 6,
-      "avg": 12
+      "sum": 63,
+      "count": 5,
+      "avg": 13
     },
     "Gibson": {
       "sum": 784,
@@ -10835,11 +10825,6 @@
       "sum": 16,
       "count": 2,
       "avg": 8
-    },
-    "Kiesel": {
-      "sum": 169,
-      "count": 10,
-      "avg": 17
     },
     "Alvarez": {
       "sum": 79,
@@ -11133,13 +11118,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 17,
+    "2026-04-15": 18,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
-    "2026-04-09": 28,
+    "2026-04-09": 27,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11155,11 +11140,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 100
+      "count": 101
     },
     {
       "username": "Beijing Bob",
-      "count": 76
+      "count": 75
     },
     {
       "username": "Shteefe",
@@ -11196,7 +11181,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3603,
+    "avg": 3602,
     "pctBelowAvg": 10,
     "count": 191
   },
@@ -11227,10 +11212,10 @@
       "count": 14
     },
     "Kiesel": {
-      "avgPrice": 1706,
+      "avgPrice": 1660,
       "retailEst": 1000,
-      "avgDiscount": -70.6,
-      "count": 10
+      "avgDiscount": -66,
+      "count": 11
     },
     "BC Rich": {
       "avgPrice": 2386,
@@ -11246,16 +11231,16 @@
     }
   },
   "soldPrices": {
-    "count": 91,
-    "avg": 4172,
+    "count": 90,
+    "avg": 4202,
     "min": 99,
     "max": 36500,
     "avgDiscount": 7
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 438.59999999999997,
-      "count": 85,
+      "totalDays": 433.9,
+      "count": 84,
       "avgDays": 5.2
     },
     "byModel": {
@@ -11554,14 +11539,6 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
-      },
-      "eastman-t64v-gb-antique-goldburst": {
-        "displayName": "Used Eastman T64/V-GB Antique Goldburst w/case TSS6915",
-        "totalDays": 4.7,
-        "count": 1,
-        "fastest": 4.7,
-        "slowest": 4.7,
-        "avgDays": 4.7
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -12045,13 +12022,6 @@
         "slowest": 0,
         "avgDays": 0
       },
-      "Eastman": {
-        "totalDays": 5.6000000000000005,
-        "count": 2,
-        "fastest": 0.9,
-        "slowest": 4.7,
-        "avgDays": 2.8
-      },
       "Hoyer": {
         "totalDays": 1,
         "count": 1,
@@ -12100,6 +12070,13 @@
         "fastest": 121.4,
         "slowest": 121.4,
         "avgDays": 121.4
+      },
+      "Eastman": {
+        "totalDays": 0.9,
+        "count": 1,
+        "fastest": 0.9,
+        "slowest": 0.9,
+        "avgDays": 0.9
       },
       "Gretsch": {
         "totalDays": 3.3,
@@ -12310,13 +12287,21 @@
   "sellThrough": {
     "overall": {
       "total": 306,
-      "sold": 84,
+      "sold": 83,
       "fake": 0,
-      "live": 222,
+      "live": 223,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 11,
+        "sold": 5,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 45,
+        "livePct": 55
+      },
       "PRS": {
         "total": 24,
         "sold": 8,
@@ -12326,12 +12311,12 @@
         "livePct": 67
       },
       "Eastman": {
-        "total": 6,
-        "sold": 2,
+        "total": 5,
+        "sold": 1,
         "fake": 0,
         "live": 4,
-        "soldPct": 33,
-        "livePct": 67
+        "soldPct": 20,
+        "livePct": 80
       },
       "Gibson": {
         "total": 50,
@@ -12436,14 +12421,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Kiesel": {
-        "total": 10,
-        "sold": 5,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 50,
-        "livePct": 50
       },
       "Suhr": {
         "total": 3,
@@ -12950,8 +12927,8 @@
       {
         "label": "$1k–2k",
         "total": 90,
-        "sold": 20,
-        "rate": 22
+        "sold": 19,
+        "rate": 21
       },
       {
         "label": "$2k–3k",
@@ -12979,10 +12956,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 39,
+        "sold": 11,
+        "rate": 28
+      },
       "Very Good": {
-        "total": 96,
-        "sold": 28,
-        "rate": 29
+        "total": 95,
+        "sold": 27,
+        "rate": 28
       },
       "Brand New": {
         "total": 28,
@@ -12993,11 +12975,6 @@
         "total": 122,
         "sold": 42,
         "rate": 34
-      },
-      "Good": {
-        "total": 38,
-        "sold": 11,
-        "rate": 29
       },
       "B-Stock": {
         "total": 2,
@@ -13039,9 +13016,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 2,
-      "rate": 67
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -13051,9 +13028,9 @@
     },
     {
       "label": "6–15",
-      "total": 70,
-      "sold": 15,
-      "rate": 21
+      "total": 69,
+      "sold": 14,
+      "rate": 20
     },
     {
       "label": "16–30",
@@ -13070,21 +13047,21 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 191,
+      "total": 192,
       "sold": 58,
       "rate": 30
     },
     "off": {
-      "total": 56,
-      "sold": 16,
-      "rate": 29
+      "total": 55,
+      "sold": 15,
+      "rate": 27
     }
   },
   "sellerType": {
     "preferred": {
       "total": 116,
-      "sold": 30,
-      "rate": 26
+      "sold": 29,
+      "rate": 25
     },
     "regular": {
       "total": 118,
@@ -13101,9 +13078,9 @@
     },
     {
       "state": "TX",
-      "total": 21,
-      "sold": 6,
-      "rate": 29
+      "total": 20,
+      "sold": 5,
+      "rate": 25
     },
     {
       "state": "WA",
@@ -13112,16 +13089,16 @@
       "rate": 24
     },
     {
+      "state": "FL",
+      "total": 12,
+      "sold": 5,
+      "rate": 42
+    },
+    {
       "state": "NY",
       "total": 12,
       "sold": 1,
       "rate": 8
-    },
-    {
-      "state": "FL",
-      "total": 11,
-      "sold": 5,
-      "rate": 45
     },
     {
       "state": "TN",
