@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T23:12:42.474Z",
+  "generatedAt": "2026-04-15T23:16:11.595Z",
   "totalLinks": 326,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1312835.26,
-    "avg": 4103,
+    "sum": 1314535.26,
+    "avg": 4108,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 300,
-    "sum": 811984.27,
-    "avg": 2707,
+    "sum": 813684.27,
+    "avg": 2712,
     "min": 7,
     "max": 8699,
     "median": 2300
@@ -189,10 +189,10 @@
   "byMonth": {
     "2026-04": {
       "count": 189,
-      "sum": 705242.91,
+      "sum": 706942.91,
       "min": 7,
       "max": 47011,
-      "avg": 3731
+      "avg": 3740
     },
     "2026-03": {
       "count": 131,
@@ -205,10 +205,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 1028720.36,
+      "sum": 1030420.36,
       "min": 7,
       "max": 47011,
-      "avg": 3560
+      "avg": 3565
     },
     "marketplace": {
       "count": 31,
@@ -221,10 +221,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 1028720.36,
+      "sum": 1030420.36,
       "min": 7,
       "max": 47011,
-      "avg": 3560
+      "avg": 3565
     },
     "guitarcenter.com": {
       "count": 10,
@@ -277,6 +277,37 @@
     }
   },
   "byModel": {
+    "fodera-imperial": {
+      "displayName": "Fodera Imperial Custom",
+      "brand": "Fodera",
+      "model": "Imperial",
+      "variant": null,
+      "count": 1,
+      "sum": 8500,
+      "min": 8500,
+      "max": 8500,
+      "sightings": [
+        {
+          "price": 8500,
+          "date": "2026-04-15T23:15:57.318Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fodera Imperial Custom",
+          "url": "https://reverb.com/item/95619581-fodera-imperial-custom",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 8500,
+          "min": 8500,
+          "max": 8500,
+          "avg": 8500
+        }
+      },
+      "avg": 8500
+    },
     "bc-rich-ironbird-mk1-candy-custom-shop": {
       "displayName": "B.C. Rich Custom Shop Ironbird Mk1 2026 - Candy Tangerine Orange",
       "brand": "BC Rich",
@@ -6348,37 +6379,6 @@
       },
       "avg": 4057
     },
-    "gibson-les-paul-standard-custom-shop-vos": {
-      "displayName": "Gibson Custom Shop 1957 Les Paul Standard TRG Stinger Series 1-Hum Gecko Green Sparkle VOS 2025 w/OHSC",
-      "brand": "Gibson",
-      "model": "Les Paul Standard",
-      "variant": "Custom Shop Vos",
-      "count": 1,
-      "sum": 6800,
-      "min": 6800,
-      "max": 6800,
-      "sightings": [
-        {
-          "price": 6800,
-          "date": "2026-04-09T22:44:02.577Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Custom Shop 1957 Les Paul Standard TRG Stinger Series 1-Hum Gecko Green Sparkle VOS 2025 w/OHSC",
-          "url": "https://reverb.com/item/95826330-gibson-custom-shop-1957-les-paul-standard-trg-stinger-series-1-hum-gecko-green-sparkle-vos-2025-w-ohsc",
-          "condition": "Mint"
-        }
-      ],
-      "byCondition": {
-        "Mint": {
-          "count": 1,
-          "sum": 6800,
-          "min": 6800,
-          "max": 6800,
-          "avg": 6800
-        }
-      },
-      "avg": 6800
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10448,6 +10448,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 126,
+      "sum": 480892.73,
+      "sold": {
+        "count": 38,
+        "sum": 131961.43,
+        "avg": 3473,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 3817,
+      "min": 200,
+      "max": 36500
+    },
     "Brand New": {
       "count": 31,
       "sum": 135427.11,
@@ -10476,20 +10490,6 @@
       "min": 7,
       "max": 34999
     },
-    "Excellent": {
-      "count": 125,
-      "sum": 472392.73,
-      "sold": {
-        "count": 38,
-        "sum": 131961.43,
-        "avg": 3473,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 3779,
-      "min": 200,
-      "max": 36500
-    },
     "Good": {
       "count": 36,
       "sum": 95952.95,
@@ -10505,13 +10505,13 @@
       "max": 10995
     },
     "Mint": {
-      "count": 5,
-      "sum": 65361,
+      "count": 4,
+      "sum": 58561,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 13072,
+      "avg": 14640,
       "min": 1050,
       "max": 47011
     },
@@ -10566,7 +10566,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3731,
+      "avg": 3740,
       "count": 189
     },
     "03": {
@@ -10736,6 +10736,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fodera": {
+      "sum": 13,
+      "count": 1,
+      "avg": 13
+    },
     "BC Rich": {
       "sum": 179,
       "count": 15,
@@ -10762,8 +10767,8 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 799,
-      "count": 40,
+      "sum": 793,
+      "count": 39,
       "avg": 20
     },
     "Castedosa": {
@@ -11093,13 +11098,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 39,
+    "2026-04-15": 40,
     "2026-04-14": 34,
     "2026-04-13": 26,
     "2026-04-12": 14,
     "2026-04-11": 42,
     "2026-04-10": 29,
-    "2026-04-09": 6,
+    "2026-04-09": 5,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11115,7 +11120,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 105
+      "count": 104
     },
     {
       "username": "Beijing Bob",
@@ -11156,7 +11161,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3731,
+    "avg": 3740,
     "pctBelowAvg": 9,
     "count": 189
   },
@@ -11169,10 +11174,10 @@
       "count": 17
     },
     "Gibson": {
-      "avgPrice": 3563,
+      "avgPrice": 3496,
       "retailEst": 800,
-      "avgDiscount": -345.4,
-      "count": 49
+      "avgDiscount": -337,
+      "count": 48
     },
     "PRS": {
       "avgPrice": 4441,
@@ -12208,6 +12213,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Fodera": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "BC Rich": {
         "total": 17,
         "sold": 3,
@@ -12249,10 +12262,10 @@
         "livePct": 100
       },
       "Gibson": {
-        "total": 51,
+        "total": 50,
         "sold": 7,
         "fake": 0,
-        "live": 44,
+        "live": 43,
         "soldPct": 14,
         "livePct": 86
       },
@@ -12862,6 +12875,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 126,
+        "sold": 41,
+        "rate": 33
+      },
       "Brand New": {
         "total": 31,
         "sold": 2,
@@ -12872,18 +12890,13 @@
         "sold": 25,
         "rate": 27
       },
-      "Excellent": {
-        "total": 125,
-        "sold": 41,
-        "rate": 33
-      },
       "Good": {
         "total": 36,
         "sold": 9,
         "rate": 25
       },
       "Mint": {
-        "total": 5,
+        "total": 4,
         "sold": 0,
         "rate": 0
       },
@@ -12910,14 +12923,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 82,
-    "totalOffers": 189,
+    "withOffers": 83,
+    "totalOffers": 195,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 65
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 102
+    "avgShippingCost": 103
   },
   "watcherDemand": [
     {
@@ -12940,15 +12953,15 @@
     },
     {
       "label": "16–30",
-      "total": 72,
+      "total": 71,
       "sold": 25,
       "rate": 35
     },
     {
       "label": "31+",
-      "total": 68,
+      "total": 69,
       "sold": 12,
-      "rate": 18
+      "rate": 17
     }
   ],
   "offersEffect": {
@@ -12965,12 +12978,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 116,
+      "total": 115,
       "sold": 25,
       "rate": 22
     },
     "regular": {
-      "total": 117,
+      "total": 118,
       "sold": 34,
       "rate": 29
     }
@@ -12990,9 +13003,9 @@
     },
     {
       "state": "WA",
-      "total": 17,
+      "total": 16,
       "sold": 4,
-      "rate": 24
+      "rate": 25
     },
     {
       "state": "FL",
@@ -13013,13 +13026,13 @@
       "rate": 18
     },
     {
-      "state": "TN",
-      "total": 9,
+      "state": "IL",
+      "total": 10,
       "sold": 3,
-      "rate": 33
+      "rate": 30
     },
     {
-      "state": "IL",
+      "state": "TN",
       "total": 9,
       "sold": 3,
       "rate": 33
