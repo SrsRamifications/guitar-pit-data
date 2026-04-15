@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T01:19:13.446Z",
+  "generatedAt": "2026-04-15T01:48:22.763Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1482337.25,
-    "avg": 4632,
+    "sum": 1480688.25,
+    "avg": 4627,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 299,
-    "sum": 810501.27,
-    "avg": 2711,
+    "sum": 808852.27,
+    "avg": 2705,
     "min": 7,
     "max": 8699,
-    "median": 2350
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 9100,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 879143.9,
+      "sum": 877494.9,
       "min": 7,
       "max": 190000,
-      "avg": 4627
+      "avg": 4618
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1168997.36,
+      "sum": 1167348.36,
       "min": 7,
       "max": 190000,
-      "avg": 4059
+      "avg": 4053
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1168997.36,
+      "sum": 1167348.36,
       "min": 7,
       "max": 190000,
-      "avg": 4059
+      "avg": 4053
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "gibson-ridge-brazilian-rosewood": {
+      "displayName": "1968 Gibson Blue Ridge, Brazilian Rosewood",
+      "brand": "Gibson",
+      "model": "Ridge, Brazilian Rosewood",
+      "variant": null,
+      "count": 1,
+      "sum": 1850,
+      "min": 1850,
+      "max": 1850,
+      "sightings": [
+        {
+          "price": 1850,
+          "date": "2026-04-15T01:48:08.193Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1968 Gibson Blue Ridge, Brazilian Rosewood",
+          "url": "https://reverb.com/item/94764860-1968-gibson-blue-ridge-brazilian-rosewood",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1850,
+          "min": 1850,
+          "max": 1850,
+          "avg": 1850
+        }
+      },
+      "avg": 1850
+    },
     "taylor-075": {
       "displayName": "Taylor 2019 Builder's Edition 517e WHB w/OHSC (075) USED",
       "brand": "Taylor",
@@ -6414,37 +6445,6 @@
       },
       "avg": 4500
     },
-    "prs-mccarty-58-flame-maple": {
-      "displayName": "2010 PRS MC-58 McCarty Flame Maple Artist Top - Fire Red Burst",
-      "brand": "PRS",
-      "model": "McCarty",
-      "variant": "58 Flame Maple",
-      "count": 1,
-      "sum": 3499,
-      "min": 3499,
-      "max": 3499,
-      "sightings": [
-        {
-          "price": 3499,
-          "date": "2026-04-08T20:34:56.246Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2010 PRS MC-58 McCarty Flame Maple Artist Top - Fire Red Burst",
-          "url": "https://reverb.com/item/95747982-2010-prs-mc-58-mccarty-flame-maple-artist-top-fire-red-burst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3499,
-          "min": 3499,
-          "max": 3499,
-          "avg": 3499
-        }
-      },
-      "avg": 3499
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10484,23 +10484,9 @@
     }
   },
   "byCondition": {
-    "Excellent": {
-      "count": 121,
-      "sum": 640178.73,
-      "sold": {
-        "count": 39,
-        "sum": 134799.43,
-        "avg": 3456,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 5291,
-      "min": 200,
-      "max": 190000
-    },
     "Very Good": {
-      "count": 94,
-      "sum": 297690.55999999994,
+      "count": 95,
+      "sum": 299540.55999999994,
       "sold": {
         "count": 25,
         "sum": 61098.78,
@@ -10508,9 +10494,23 @@
         "min": 475,
         "max": 5900
       },
-      "avg": 3167,
+      "avg": 3153,
       "min": 7,
       "max": 34999
+    },
+    "Excellent": {
+      "count": 120,
+      "sum": 636679.73,
+      "sold": {
+        "count": 39,
+        "sum": 134799.43,
+        "avg": 3456,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 5306,
+      "min": 200,
+      "max": 190000
     },
     "B-Stock": {
       "count": 2,
@@ -10602,7 +10602,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4627,
+      "avg": 4618,
       "count": 190
     },
     "03": {
@@ -10756,22 +10756,27 @@
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 21,
-    "1k-2k": 87,
+    "1k-2k": 88,
     "2k-3k": 74,
-    "3k-5k": 78,
+    "3k-5k": 77,
     "5k-10k": 31,
     "10k+": 16
   },
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 21,
-    "1k-2k": 87,
+    "1k-2k": 88,
     "2k-3k": 74,
-    "3k-5k": 78,
+    "3k-5k": 77,
     "5k-10k": 26,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 690,
+      "count": 37,
+      "avg": 19
+    },
     "Taylor": {
       "sum": 75,
       "count": 3,
@@ -10802,11 +10807,6 @@
       "count": 3,
       "avg": 7
     },
-    "Gibson": {
-      "sum": 647,
-      "count": 36,
-      "avg": 18
-    },
     "Music Man": {
       "sum": 155,
       "count": 6,
@@ -10818,9 +10818,9 @@
       "avg": 8
     },
     "PRS": {
-      "sum": 296,
-      "count": 24,
-      "avg": 12
+      "sum": 289,
+      "count": 23,
+      "avg": 13
     },
     "Kiesel": {
       "sum": 167,
@@ -10908,9 +10908,9 @@
       "avg": 2
     },
     "Seagull": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Fano": {
       "sum": 107,
@@ -11139,14 +11139,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-15": 4,
+    "2026-04-15": 5,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 11,
+    "2026-04-08": 10,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11166,7 +11166,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 72
+      "count": 73
     },
     {
       "username": "Shteefe",
@@ -11178,7 +11178,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 25
+      "count": 24
     },
     {
       "username": "Madero",
@@ -11203,7 +11203,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 4627,
+    "avg": 4618,
     "pctBelowAvg": 0,
     "count": 190
   },
@@ -11216,16 +11216,16 @@
       "count": 16
     },
     "Gibson": {
-      "avgPrice": 3942,
+      "avgPrice": 3895,
       "retailEst": 800,
-      "avgDiscount": -392.8,
-      "count": 43
+      "avgDiscount": -386.8,
+      "count": 44
     },
     "PRS": {
-      "avgPrice": 4255,
+      "avgPrice": 4287,
       "retailEst": 1000,
-      "avgDiscount": -325.5,
-      "count": 25
+      "avgDiscount": -328.7,
+      "count": 24
     },
     "Ibanez": {
       "avgPrice": 2518,
@@ -12322,6 +12322,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 46,
+        "sold": 8,
+        "fake": 0,
+        "live": 38,
+        "soldPct": 17,
+        "livePct": 83
+      },
       "Taylor": {
         "total": 3,
         "sold": 0,
@@ -12370,14 +12378,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Gibson": {
-        "total": 45,
-        "sold": 8,
-        "fake": 0,
-        "live": 37,
-        "soldPct": 18,
-        "livePct": 82
-      },
       "Music Man": {
         "total": 7,
         "sold": 6,
@@ -12395,12 +12395,12 @@
         "livePct": 100
       },
       "PRS": {
-        "total": 25,
+        "total": 24,
         "sold": 7,
         "fake": 0,
-        "live": 18,
-        "soldPct": 28,
-        "livePct": 72
+        "live": 17,
+        "soldPct": 29,
+        "livePct": 71
       },
       "Kiesel": {
         "total": 10,
@@ -12954,7 +12954,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 87,
+        "total": 88,
         "sold": 21,
         "rate": 24
       },
@@ -12966,7 +12966,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 78,
+        "total": 77,
         "sold": 24,
         "rate": 31
       },
@@ -12984,15 +12984,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 95,
+        "sold": 28,
+        "rate": 29
+      },
       "Excellent": {
-        "total": 121,
+        "total": 120,
         "sold": 42,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 94,
-        "sold": 28,
-        "rate": 30
       },
       "B-Stock": {
         "total": 2,
@@ -13056,7 +13056,7 @@
     },
     {
       "label": "6–15",
-      "total": 71,
+      "total": 70,
       "sold": 15,
       "rate": 21
     },
@@ -13068,7 +13068,7 @@
     },
     {
       "label": "31+",
-      "total": 63,
+      "total": 64,
       "sold": 14,
       "rate": 22
     }
@@ -13118,9 +13118,9 @@
     },
     {
       "state": "FL",
-      "total": 11,
+      "total": 12,
       "sold": 6,
-      "rate": 55
+      "rate": 50
     },
     {
       "state": "TN",
@@ -13148,9 +13148,9 @@
     },
     {
       "state": "PA",
-      "total": 8,
+      "total": 7,
       "sold": 2,
-      "rate": 25
+      "rate": 29
     },
     {
       "state": "MD",
