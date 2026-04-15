@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T00:17:37.645Z",
+  "generatedAt": "2026-04-15T00:21:11.758Z",
   "totalLinks": 326,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1489607.25,
-    "avg": 4655,
+    "sum": 1484602.25,
+    "avg": 4639,
     "min": 7,
     "max": 190000
   },
   "filtered": {
     "count": 299,
-    "sum": 817771.27,
-    "avg": 2735,
+    "sum": 812766.27,
+    "avg": 2718,
     "min": 7,
     "max": 8699,
     "median": 2394
   },
   "outliers": {
-    "thresholdHigh": 9397,
+    "thresholdHigh": 9385,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 190,
-      "sum": 886413.9,
+      "sum": 881408.9,
       "min": 7,
       "max": 190000,
-      "avg": 4665
+      "avg": 4639
     },
     "2026-03": {
       "count": 130,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 288,
-      "sum": 1176267.36,
+      "sum": 1171262.36,
       "min": 7,
       "max": 190000,
-      "avg": 4084
+      "avg": 4067
     },
     "marketplace": {
       "count": 32,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 288,
-      "sum": 1176267.36,
+      "sum": 1171262.36,
       "min": 7,
       "max": 190000,
-      "avg": 4084
+      "avg": 4067
     },
     "guitarcenter.com": {
       "count": 10,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "collings-cl-city-limits": {
+      "displayName": "Collings CL City Limits",
+      "brand": "Collings",
+      "model": "CL City Limits",
+      "variant": null,
+      "count": 1,
+      "sum": 3495,
+      "min": 3495,
+      "max": 3495,
+      "sightings": [
+        {
+          "price": 3495,
+          "date": "2026-04-15T00:20:57.075Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Collings CL City Limits",
+          "url": "https://reverb.com/item/96034843-collings-cl-city-limits",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3495,
+          "min": 3495,
+          "max": 3495,
+          "avg": 3495
+        }
+      },
+      "avg": 3495
+    },
     "bc-rich-legacy": {
       "displayName": "B.C. Rich Rich B Legacy Exotic Electric Guitar - Natural Koa (RichBLKoad2)",
       "brand": "BC Rich",
@@ -6430,37 +6461,6 @@
       },
       "avg": 2200
     },
-    "prs-custom-24-private-stock": {
-      "displayName": "PRS Private Stock Custom 24 2025 - Supernova #12059",
-      "brand": "PRS",
-      "model": "Custom 24",
-      "variant": "Private Stock",
-      "count": 1,
-      "sum": 8500,
-      "min": 8500,
-      "max": 8500,
-      "sightings": [
-        {
-          "price": 8500,
-          "date": "2026-04-08T20:24:13.008Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Private Stock Custom 24 2025 - Supernova #12059",
-          "url": "https://reverb.com/item/95383730-prs-private-stock-custom-24-2025-supernova-12059",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 8500,
-          "min": 8500,
-          "max": 8500,
-          "avg": 8500
-        }
-      },
-      "avg": 8500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10454,6 +10454,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 94,
+      "sum": 297690.55999999994,
+      "sold": {
+        "count": 25,
+        "sum": 61098.78,
+        "avg": 2444,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3167,
+      "min": 7,
+      "max": 34999
+    },
     "B-Stock": {
       "count": 2,
       "sum": 2389,
@@ -10466,8 +10480,8 @@
       "max": 1350
     },
     "Excellent": {
-      "count": 119,
-      "sum": 642534.73,
+      "count": 118,
+      "sum": 634034.73,
       "sold": {
         "count": 38,
         "sum": 132600.43,
@@ -10475,7 +10489,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 5399,
+      "avg": 5373,
       "min": 200,
       "max": 190000
     },
@@ -10492,20 +10506,6 @@
       "avg": 4323,
       "min": 135,
       "max": 11099
-    },
-    "Very Good": {
-      "count": 93,
-      "sum": 294195.55999999994,
-      "sold": {
-        "count": 25,
-        "sum": 61098.78,
-        "avg": 2444,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3163,
-      "min": 7,
-      "max": 34999
     },
     "Used": {
       "count": 19,
@@ -10572,7 +10572,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 4665,
+      "avg": 4639,
       "count": 190
     },
     "03": {
@@ -10728,8 +10728,8 @@
     "500-1k": 21,
     "1k-2k": 87,
     "2k-3k": 73,
-    "3k-5k": 77,
-    "5k-10k": 33,
+    "3k-5k": 78,
+    "5k-10k": 32,
     "10k+": 16
   },
   "priceDistributionFiltered": {
@@ -10737,11 +10737,16 @@
     "500-1k": 21,
     "1k-2k": 87,
     "2k-3k": 73,
-    "3k-5k": 77,
-    "5k-10k": 28,
+    "3k-5k": 78,
+    "5k-10k": 27,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Collings": {
+      "sum": 28,
+      "count": 3,
+      "avg": 9
+    },
     "BC Rich": {
       "sum": 188,
       "count": 17,
@@ -10778,9 +10783,9 @@
       "avg": 7
     },
     "PRS": {
-      "sum": 316,
-      "count": 25,
-      "avg": 13
+      "sum": 295,
+      "count": 24,
+      "avg": 12
     },
     "Kiesel": {
       "sum": 167,
@@ -10806,11 +10811,6 @@
       "sum": 53,
       "count": 2,
       "avg": 27
-    },
-    "Collings": {
-      "sum": 28,
-      "count": 2,
-      "avg": 14
     },
     "Gretsch": {
       "sum": 16,
@@ -11104,13 +11104,14 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-15": 1,
     "2026-04-14": 34,
     "2026-04-13": 27,
     "2026-04-12": 14,
     "2026-04-11": 43,
     "2026-04-10": 29,
     "2026-04-09": 29,
-    "2026-04-08": 15,
+    "2026-04-08": 14,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -11126,7 +11127,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 102
+      "count": 103
     },
     {
       "username": "Beijing Bob",
@@ -11142,7 +11143,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 28
+      "count": 27
     },
     {
       "username": "Madero",
@@ -11166,10 +11167,10 @@
     }
   ],
   "bestMonth": {
-    "name": "Mar",
-    "avg": 4640,
+    "name": "Apr",
+    "avg": 4639,
     "pctBelowAvg": 0,
-    "count": 130
+    "count": 190
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11186,10 +11187,10 @@
       "count": 44
     },
     "PRS": {
-      "avgPrice": 4442,
+      "avgPrice": 4286,
       "retailEst": 1000,
-      "avgDiscount": -344.2,
-      "count": 27
+      "avgDiscount": -328.6,
+      "count": 26
     },
     "Ibanez": {
       "avgPrice": 2518,
@@ -12101,9 +12102,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1193.4433796833857,
-      "count": 68,
-      "avgPctDrop": 17.6
+      "totalPctDrop": 1182.9170638939122,
+      "count": 67,
+      "avgPctDrop": 17.7
     },
     "byBrand": {
       "Music Man": {
@@ -12177,9 +12178,9 @@
         "avgPctDrop": 14.5
       },
       "PRS": {
-        "totalPctDrop": 116.25457200346911,
-        "count": 5,
-        "avgPctDrop": 23.3
+        "totalPctDrop": 105.72825621399542,
+        "count": 4,
+        "avgPctDrop": 26.4
       },
       "Floyd Rose": {
         "totalPctDrop": 13.559322033898304,
@@ -12278,6 +12279,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Collings": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "BC Rich": {
         "total": 18,
         "sold": 5,
@@ -12335,12 +12344,12 @@
         "livePct": 100
       },
       "PRS": {
-        "total": 27,
+        "total": 26,
         "sold": 7,
         "fake": 0,
-        "live": 20,
-        "soldPct": 26,
-        "livePct": 74
+        "live": 19,
+        "soldPct": 27,
+        "livePct": 73
       },
       "Kiesel": {
         "total": 10,
@@ -12383,14 +12392,6 @@
         "livePct": 100
       },
       "Greco": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Collings": {
         "total": 2,
         "sold": 0,
         "fake": 0,
@@ -12914,15 +12915,15 @@
       },
       {
         "label": "$3k–5k",
-        "total": 77,
+        "total": 78,
         "sold": 24,
         "rate": 31
       },
       {
         "label": "$5k–10k",
-        "total": 33,
+        "total": 32,
         "sold": 5,
-        "rate": 15
+        "rate": 16
       },
       {
         "label": "$10k+",
@@ -12932,25 +12933,25 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 94,
+        "sold": 28,
+        "rate": 30
+      },
       "B-Stock": {
         "total": 2,
         "sold": 0,
         "rate": 0
       },
       "Excellent": {
-        "total": 119,
+        "total": 118,
         "sold": 41,
-        "rate": 34
+        "rate": 35
       },
       "Brand New": {
         "total": 30,
         "sold": 2,
         "rate": 7
-      },
-      "Very Good": {
-        "total": 93,
-        "sold": 28,
-        "rate": 30
       },
       "Used": {
         "total": 19,
@@ -12998,9 +12999,9 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 25,
       "sold": 9,
-      "rate": 38
+      "rate": 36
     },
     {
       "label": "6–15",
@@ -13016,41 +13017,41 @@
     },
     {
       "label": "31+",
-      "total": 66,
+      "total": 65,
       "sold": 14,
-      "rate": 21
+      "rate": 22
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 186,
+      "total": 187,
       "sold": 57,
-      "rate": 31
+      "rate": 30
     },
     "off": {
-      "total": 60,
+      "total": 59,
       "sold": 15,
       "rate": 25
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 119,
+      "total": 118,
       "sold": 28,
       "rate": 24
     },
     "regular": {
-      "total": 114,
+      "total": 115,
       "sold": 35,
-      "rate": 31
+      "rate": 30
     }
   },
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 33,
+      "total": 32,
       "sold": 7,
-      "rate": 21
+      "rate": 22
     },
     {
       "state": "TX",
@@ -13195,6 +13196,12 @@
       "total": 3,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "VA",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "ENG",
