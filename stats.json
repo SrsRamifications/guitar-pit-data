@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T14:19:33.499Z",
+  "generatedAt": "2026-04-16T14:43:21.685Z",
   "totalLinks": 326,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,23 +7,23 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1279852.25,
-    "avg": 4000,
+    "sum": 1271915.25,
+    "avg": 3975,
     "min": 7,
     "max": 99000
   },
   "filtered": {
-    "count": 297,
-    "sum": 760932.26,
-    "avg": 2562,
+    "count": 298,
+    "sum": 763895.26,
+    "avg": 2563,
     "min": 7,
     "max": 7950,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 7997,
+    "thresholdHigh": 7952,
     "thresholdLow": 0,
-    "count": 23,
+    "count": 22,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -130,14 +130,6 @@
         "postedAt": "2026-04-11T19:52:06.812Z"
       },
       {
-        "title": "Castedosa Guitars Halcón Standard - Aged 3-Tone Sunburst #389",
-        "url": "https://reverb.com/item/92151199-castedosa-guitars-halcon-standard-aged-3-tone-sunburst-389",
-        "price": "$10,900",
-        "image": "https://rvb-img.reverb.com/i/s--G0qVR0M6--/quality=medium-low,height=800,width=800,fit=contain/vlide3hcfkddhhalqrpy.jpg",
-        "condition": "Brand New",
-        "postedAt": "2026-04-10T04:15:29.447Z"
-      },
-      {
         "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
         "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
         "price": "$10,495",
@@ -213,10 +205,10 @@
   "byMonth": {
     "2026-04": {
       "count": 189,
-      "sum": 672259.9,
+      "sum": 664322.9,
       "min": 7,
       "max": 46972,
-      "avg": 3557
+      "avg": 3515
     },
     "2026-03": {
       "count": 131,
@@ -227,35 +219,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 287,
+      "sum": 985625.36,
+      "min": 7,
+      "max": 46972,
+      "avg": 3434
+    },
     "marketplace": {
       "count": 33,
       "sum": 286289.89,
       "min": 374.99,
       "max": 99000,
       "avg": 8675
-    },
-    "reverb": {
-      "count": 287,
-      "sum": 993562.36,
-      "min": 7,
-      "max": 46972,
-      "avg": 3462
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 287,
+      "sum": 985625.36,
+      "min": 7,
+      "max": 46972,
+      "avg": 3434
+    },
     "losangeles.craigslist.org": {
       "count": 1,
       "sum": 1375,
       "min": 1375,
       "max": 1375,
       "avg": 1375
-    },
-    "reverb.com": {
-      "count": 287,
-      "sum": 993562.36,
-      "min": 7,
-      "max": 46972,
-      "avg": 3462
     },
     "guitarcenter.com": {
       "count": 11,
@@ -308,6 +300,37 @@
     }
   },
   "byModel": {
+    "echopark-de-leon-guitar": {
+      "displayName": "Echopark De Leon 2 Guitar #07",
+      "brand": "Echopark",
+      "model": "De Leon Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 2963,
+      "min": 2963,
+      "max": 2963,
+      "sightings": [
+        {
+          "price": 2963,
+          "date": "2026-04-16T14:43:06.378Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark De Leon 2 Guitar #07",
+          "url": "https://reverb.com/item/96083093-echopark-de-leon-2-guitar-07",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2963,
+          "min": 2963,
+          "max": 2963,
+          "avg": 2963
+        }
+      },
+      "avg": 2963
+    },
     "gibson-les-paul": {
       "displayName": "Gibson Studio Les Paul & Roland GR-55 Synth Guitar - musical instruments - by owner - sale - craigslist",
       "brand": "Gibson",
@@ -6490,37 +6513,6 @@
       },
       "avg": 745
     },
-    "castedosa-standard": {
-      "displayName": "Castedosa Guitars Halcón Standard - Aged 3-Tone Sunburst #389",
-      "brand": "Castedosa",
-      "model": "Standard",
-      "variant": null,
-      "count": 1,
-      "sum": 10900,
-      "min": 10900,
-      "max": 10900,
-      "sightings": [
-        {
-          "price": 10900,
-          "date": "2026-04-10T04:15:29.447Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Castedosa Guitars Halcón Standard - Aged 3-Tone Sunburst #389",
-          "url": "https://reverb.com/item/92151199-castedosa-guitars-halcon-standard-aged-3-tone-sunburst-389",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 10900,
-          "min": 10900,
-          "max": 10900,
-          "avg": 10900
-        }
-      },
-      "avg": 10900
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10591,8 +10583,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 124,
-      "sum": 468954.73,
+      "count": 125,
+      "sum": 471917.73,
       "sold": {
         "count": 40,
         "sum": 137709.43,
@@ -10600,7 +10592,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 3782,
+      "avg": 3775,
       "min": 200,
       "max": 36500
     },
@@ -10630,8 +10622,8 @@
       "max": 34999
     },
     "Brand New": {
-      "count": 28,
-      "sum": 110231.10999999999,
+      "count": 27,
+      "sum": 99331.11,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -10639,7 +10631,7 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 3937,
+      "avg": 3679,
       "min": 135,
       "max": 11099
     },
@@ -10708,7 +10700,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3557,
+      "avg": 3515,
       "count": 189
     },
     "03": {
@@ -10863,28 +10855,33 @@
     "0-500": 13,
     "500-1k": 19,
     "1k-2k": 96,
-    "2k-3k": 78,
+    "2k-3k": 79,
     "3k-5k": 68,
     "5k-10k": 31,
-    "10k+": 15
+    "10k+": 14
   },
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 19,
     "1k-2k": 96,
-    "2k-3k": 78,
+    "2k-3k": 79,
     "3k-5k": 68,
     "5k-10k": 23,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 64,
+      "count": 5,
+      "avg": 13
+    },
     "Gibson": {
-      "sum": 826,
+      "sum": 827,
       "count": 40,
       "avg": 21
     },
     "Fender": {
-      "sum": 171,
+      "sum": 172,
       "count": 12,
       "avg": 14
     },
@@ -11083,11 +11080,6 @@
       "count": 4,
       "avg": 29
     },
-    "Echopark": {
-      "sum": 64,
-      "count": 4,
-      "avg": 16
-    },
     "Charvel": {
       "sum": 113,
       "count": 3,
@@ -11235,13 +11227,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-16": 15,
+    "2026-04-16": 16,
     "2026-04-15": 41,
     "2026-04-14": 34,
     "2026-04-13": 26,
     "2026-04-12": 14,
     "2026-04-11": 42,
-    "2026-04-10": 18,
+    "2026-04-10": 17,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11250,8 +11242,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 39,
-    "reverb": 287
+    "reverb": 287,
+    "marketplace": 39
   },
   "activeModelsCount": 283,
   "topPosters": [
@@ -11298,8 +11290,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3557,
-    "pctBelowAvg": 11,
+    "avg": 3515,
+    "pctBelowAvg": 12,
     "count": 189
   },
   "topVoted": [],
@@ -12403,6 +12395,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Echopark": {
+        "total": 7,
+        "sold": 3,
+        "fake": 0,
+        "live": 4,
+        "soldPct": 43,
+        "livePct": 57
+      },
       "Gibson": {
         "total": 51,
         "sold": 8,
@@ -12434,14 +12434,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Echopark": {
-        "total": 6,
-        "sold": 3,
-        "fake": 0,
-        "live": 3,
-        "soldPct": 50,
-        "livePct": 50
       },
       "Gold Tone": {
         "total": 1,
@@ -12532,10 +12524,10 @@
         "livePct": 100
       },
       "Castedosa": {
-        "total": 2,
+        "total": 1,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 1,
         "soldPct": 0,
         "livePct": 100
       },
@@ -13033,7 +13025,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 78,
+        "total": 79,
         "sold": 21,
         "rate": 27
       },
@@ -13051,14 +13043,14 @@
       },
       {
         "label": "$10k+",
-        "total": 15,
+        "total": 14,
         "sold": 5,
-        "rate": 33
+        "rate": 36
       }
     ],
     "byCondition": {
       "Excellent": {
-        "total": 124,
+        "total": 125,
         "sold": 42,
         "rate": 34
       },
@@ -13073,7 +13065,7 @@
         "rate": 28
       },
       "Brand New": {
-        "total": 28,
+        "total": 27,
         "sold": 2,
         "rate": 7
       },
@@ -13117,9 +13109,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 3,
-      "rate": 100
+      "rate": 75
     },
     {
       "label": "1–5",
@@ -13141,21 +13133,21 @@
     },
     {
       "label": "31+",
-      "total": 67,
+      "total": 66,
       "sold": 13,
-      "rate": 19
+      "rate": 20
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 189,
+      "total": 190,
       "sold": 51,
       "rate": 27
     },
     "off": {
-      "total": 55,
+      "total": 54,
       "sold": 20,
-      "rate": 36
+      "rate": 37
     }
   },
   "sellerType": {
@@ -13226,16 +13218,16 @@
       "rate": 38
     },
     {
-      "state": "PA",
-      "total": 7,
-      "sold": 2,
-      "rate": 29
-    },
-    {
       "state": "MD",
       "total": 6,
       "sold": 1,
       "rate": 17
+    },
+    {
+      "state": "PA",
+      "total": 6,
+      "sold": 2,
+      "rate": 33
     },
     {
       "state": "OR",
@@ -13248,6 +13240,12 @@
       "total": 5,
       "sold": 2,
       "rate": 40
+    },
+    {
+      "state": "NC",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
     },
     {
       "state": "NJ",
@@ -13296,12 +13294,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "NC",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "MI",
