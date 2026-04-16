@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-04-16T01:52:33.645Z",
-  "totalLinks": 326,
+  "generatedAt": "2026-04-16T01:56:05.146Z",
+  "totalLinks": 327,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
   "removedCount": 4,
-  "totalWithPrice": 320,
+  "totalWithPrice": 321,
   "overall": {
-    "count": 320,
-    "sum": 1312074.25,
-    "avg": 4100,
+    "count": 321,
+    "sum": 1313494.25,
+    "avg": 4092,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 299,
-    "sum": 806199.26,
-    "avg": 2696,
+    "sum": 798920.26,
+    "avg": 2672,
     "min": 7,
-    "max": 8699,
+    "max": 8500,
     "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 8787,
+    "thresholdHigh": 8660,
     "thresholdLow": 0,
-    "count": 21,
+    "count": 22,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -191,16 +191,24 @@
         "image": "https://rvb-img.reverb.com/i/s--tgZqWvA3--/quality=medium-low,height=800,width=800,fit=contain/478c9bb5-a7a7-4c0d-9934-a4aad1338955.jpeg",
         "condition": "Excellent",
         "postedAt": "2026-04-15T18:24:33.784Z"
+      },
+      {
+        "title": "Castedosa Marianna Thinline in Aged Dirty Blonde",
+        "url": "https://reverb.com/item/94362196-castedosa-marianna-thinline-in-aged-dirty-blonde",
+        "price": "$8,699",
+        "image": "https://rvb-img.reverb.com/i/s--KsYlOgbp--/quality=medium-low,height=800,width=800,fit=contain/9a30a696-3c94-45e5-ad66-4c1e368e93b2.jpg",
+        "condition": "Brand New",
+        "postedAt": "2026-04-10T04:07:29.444Z"
       }
     ]
   },
   "byMonth": {
     "2026-04": {
-      "count": 189,
-      "sum": 704481.9,
+      "count": 190,
+      "sum": 705901.9,
       "min": 7,
       "max": 46972,
-      "avg": 3727
+      "avg": 3715
     },
     "2026-03": {
       "count": 131,
@@ -211,35 +219,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 289,
+      "sum": 1028579.36,
+      "min": 7,
+      "max": 46972,
+      "avg": 3559
+    },
     "marketplace": {
       "count": 32,
       "sum": 284914.89,
       "min": 374.99,
       "max": 99000,
       "avg": 8904
-    },
-    "reverb": {
-      "count": 288,
-      "sum": 1027159.36,
-      "min": 7,
-      "max": 46972,
-      "avg": 3567
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 289,
+      "sum": 1028579.36,
+      "min": 7,
+      "max": 46972,
+      "avg": 3559
+    },
     "guitarcenter.com": {
       "count": 11,
       "sum": 23492.9,
       "min": 374.99,
       "max": 4999.99,
       "avg": 2136
-    },
-    "reverb.com": {
-      "count": 288,
-      "sum": 1027159.36,
-      "min": 7,
-      "max": 46972,
-      "avg": 3567
     },
     "chicagomusicexchange.com": {
       "count": 16,
@@ -285,6 +293,37 @@
     }
   },
   "byModel": {
+    "kiesel-ct7-string-7-string": {
+      "displayName": "Carvin CT7 - 7 string",
+      "brand": "Kiesel",
+      "model": "CT7 string",
+      "variant": "7 String",
+      "count": 1,
+      "sum": 1420,
+      "min": 1420,
+      "max": 1420,
+      "sightings": [
+        {
+          "price": 1420,
+          "date": "2026-04-16T01:55:50.915Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Carvin CT7 - 7 string",
+          "url": "https://reverb.com/item/96069829-carvin-ct7-7-string",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1420,
+          "min": 1420,
+          "max": 1420,
+          "avg": 1420
+        }
+      },
+      "avg": 1420
+    },
     "rickenbacker-electrophonic-innovations-model": {
       "displayName": "Used Electrophonic Innovations MODEL ONE Black Solid Body Electric Guitar Black",
       "brand": "Rickenbacker",
@@ -10463,6 +10502,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 96,
+      "sum": 290202.55999999994,
+      "sold": {
+        "count": 22,
+        "sum": 52644.79,
+        "avg": 2393,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3023,
+      "min": 7,
+      "max": 34999
+    },
     "Used": {
       "count": 20,
       "sum": 151809.89999999997,
@@ -10487,20 +10540,6 @@
       "avg": 3859,
       "min": 200,
       "max": 36500
-    },
-    "Very Good": {
-      "count": 95,
-      "sum": 288782.55999999994,
-      "sold": {
-        "count": 22,
-        "sum": 52644.79,
-        "avg": 2393,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3040,
-      "min": 7,
-      "max": 34999
     },
     "Brand New": {
       "count": 31,
@@ -10581,8 +10620,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3727,
-      "count": 189
+      "avg": 3715,
+      "count": 190
     },
     "03": {
       "name": "Mar",
@@ -10735,7 +10774,7 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 94,
+    "1k-2k": 95,
     "2k-3k": 76,
     "3k-5k": 69,
     "5k-10k": 34,
@@ -10744,13 +10783,18 @@
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 19,
-    "1k-2k": 94,
+    "1k-2k": 95,
     "2k-3k": 76,
     "3k-5k": 69,
-    "5k-10k": 29,
+    "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 173,
+      "count": 12,
+      "avg": 14
+    },
     "Rickenbacker": {
       "sum": 275,
       "count": 34,
@@ -10810,11 +10854,6 @@
       "sum": 186,
       "count": 14,
       "avg": 13
-    },
-    "Kiesel": {
-      "sum": 173,
-      "count": 11,
-      "avg": 16
     },
     "Fender": {
       "sum": 170,
@@ -11113,7 +11152,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-16": 4,
+    "2026-04-16": 5,
     "2026-04-15": 41,
     "2026-04-14": 34,
     "2026-04-13": 26,
@@ -11128,14 +11167,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 38,
-    "reverb": 288
+    "reverb": 289,
+    "marketplace": 38
   },
-  "activeModelsCount": 281,
+  "activeModelsCount": 282,
   "topPosters": [
     {
       "username": "GP",
-      "count": 104
+      "count": 105
     },
     {
       "username": "Beijing Bob",
@@ -11176,9 +11215,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3727,
+    "avg": 3715,
     "pctBelowAvg": 9,
-    "count": 189
+    "count": 190
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11207,10 +11246,10 @@
       "count": 14
     },
     "Kiesel": {
-      "avgPrice": 1651,
+      "avgPrice": 1631,
       "retailEst": 1000,
-      "avgDiscount": -65.1,
-      "count": 11
+      "avgDiscount": -63.1,
+      "count": 12
     },
     "BC Rich": {
       "avgPrice": 2887,
@@ -12213,14 +12252,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 308,
+      "total": 309,
       "sold": 78,
       "fake": 0,
-      "live": 230,
+      "live": 231,
       "soldPct": 25,
       "livePct": 75
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 12,
+        "sold": 6,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Rickenbacker": {
         "total": 36,
         "sold": 5,
@@ -12316,14 +12363,6 @@
         "live": 9,
         "soldPct": 36,
         "livePct": 64
-      },
-      "Kiesel": {
-        "total": 11,
-        "sold": 6,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 55,
-        "livePct": 45
       },
       "Fender": {
         "total": 18,
@@ -12853,7 +12892,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 94,
+        "total": 95,
         "sold": 21,
         "rate": 22
       },
@@ -12883,6 +12922,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 96,
+        "sold": 25,
+        "rate": 26
+      },
       "Used": {
         "total": 20,
         "sold": 3,
@@ -12892,11 +12936,6 @@
         "total": 123,
         "sold": 40,
         "rate": 33
-      },
-      "Very Good": {
-        "total": 95,
-        "sold": 25,
-        "rate": 26
       },
       "Brand New": {
         "total": 31,
@@ -12943,9 +12982,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 2,
+      "total": 3,
       "sold": 2,
-      "rate": 100
+      "rate": 67
     },
     {
       "label": "1–5",
@@ -12979,7 +13018,7 @@
       "rate": 27
     },
     "off": {
-      "total": 60,
+      "total": 61,
       "sold": 17,
       "rate": 28
     }
@@ -12991,7 +13030,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 117,
+      "total": 118,
       "sold": 33,
       "rate": 28
     }
@@ -13052,6 +13091,12 @@
       "rate": 29
     },
     {
+      "state": "MD",
+      "total": 6,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "OH",
       "total": 6,
       "sold": 1,
@@ -13059,12 +13104,6 @@
     },
     {
       "state": "NJ",
-      "total": 5,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "MD",
       "total": 5,
       "sold": 0,
       "rate": 0
