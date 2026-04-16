@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T23:24:21.782Z",
+  "generatedAt": "2026-04-16T00:13:18.783Z",
   "totalLinks": 326,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 320,
   "overall": {
     "count": 320,
-    "sum": 1321548.26,
-    "avg": 4130,
+    "sum": 1319078.26,
+    "avg": 4122,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 299,
-    "sum": 809627.27,
-    "avg": 2708,
+    "sum": 807157.27,
+    "avg": 2700,
     "min": 7,
     "max": 8699,
-    "median": 2299.99
+    "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 8785,
+    "thresholdHigh": 8787,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 189,
-      "sum": 713955.91,
+      "sum": 711485.91,
       "min": 7,
       "max": 47011,
-      "avg": 3778
+      "avg": 3764
     },
     "2026-03": {
       "count": 131,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 289,
-      "sum": 1037433.36,
+      "sum": 1034963.36,
       "min": 7,
       "max": 47011,
-      "avg": 3590
+      "avg": 3581
     },
     "marketplace": {
       "count": 31,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 289,
-      "sum": 1037433.36,
+      "sum": 1034963.36,
       "min": 7,
       "max": 47011,
-      "avg": 3590
+      "avg": 3581
     },
     "guitarcenter.com": {
       "count": 10,
@@ -285,6 +285,37 @@
     }
   },
   "byModel": {
+    "guild-s-60": {
+      "displayName": "Guild S-60 1979 - Natural",
+      "brand": "Guild",
+      "model": "S-60",
+      "variant": null,
+      "count": 1,
+      "sum": 1349,
+      "min": 1349,
+      "max": 1349,
+      "sightings": [
+        {
+          "price": 1349,
+          "date": "2026-04-16T00:13:04.511Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Guild S-60 1979 - Natural",
+          "url": "https://reverb.com/item/96062615-guild-s-60-1979-natural",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1349,
+          "min": 1349,
+          "max": 1349,
+          "avg": 1349
+        }
+      },
+      "avg": 1349
+    },
     "rickenbacker-stratocaster-custom-shop-usa": {
       "displayName": "Jackson Mike Shannon Soloist Master Built Signed 1 of 50 Custom Shop Made In USA Masterbuilt American Pre-Fender San Dimas SL1 HSS Super Stratocaster",
       "brand": "Rickenbacker",
@@ -6326,52 +6357,6 @@
       },
       "avg": 1500
     },
-    "parker-spanish-fly-1998-2002": {
-      "displayName": "Parker Spanish Fly 1998-2002 - Butterscotch",
-      "brand": "Parker",
-      "model": "Spanish Fly 1998-2002",
-      "variant": null,
-      "count": 1,
-      "sum": 3819,
-      "min": 3819,
-      "max": 3819,
-      "sightings": [
-        {
-          "price": 3819,
-          "date": "2026-04-09T22:45:10.919Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Parker Spanish Fly 1998-2002 - Butterscotch",
-          "url": "https://reverb.com/item/95828458-parker-spanish-fly-1998-2002-butterscotch",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3819,
-          "min": 3819,
-          "max": 3819,
-          "avg": 3819
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3819,
-        "min": 3819,
-        "max": 3819,
-        "prices": [
-          {
-            "price": 3819,
-            "askingPrice": 3819,
-            "date": "2026-04-09T23:04:24.913Z",
-            "title": "Parker Spanish Fly 1998-2002 - Butterscotch",
-            "url": "https://reverb.com/item/95828458-parker-spanish-fly-1998-2002-butterscotch"
-          }
-        ]
-      },
-      "avg": 3819
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10441,17 +10426,31 @@
     }
   },
   "byCondition": {
-    "Excellent": {
-      "count": 126,
-      "sum": 487905.73,
+    "Very Good": {
+      "count": 94,
+      "sum": 287086.55999999994,
       "sold": {
-        "count": 37,
-        "sum": 127904.43,
-        "avg": 3457,
+        "count": 22,
+        "sum": 52644.79,
+        "avg": 2393,
+        "min": 475,
+        "max": 5900
+      },
+      "avg": 3054,
+      "min": 7,
+      "max": 34999
+    },
+    "Excellent": {
+      "count": 125,
+      "sum": 484086.73,
+      "sold": {
+        "count": 36,
+        "sum": 124085.43,
+        "avg": 3447,
         "min": 200,
         "max": 35900
       },
-      "avg": 3872,
+      "avg": 3873,
       "min": 200,
       "max": 36500
     },
@@ -10468,20 +10467,6 @@
       "avg": 4369,
       "min": 135,
       "max": 11099
-    },
-    "Very Good": {
-      "count": 93,
-      "sum": 285737.55999999994,
-      "sold": {
-        "count": 22,
-        "sum": 52644.79,
-        "avg": 2393,
-        "min": 475,
-        "max": 5900
-      },
-      "avg": 3072,
-      "min": 7,
-      "max": 34999
     },
     "Good": {
       "count": 36,
@@ -10559,7 +10544,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3778,
+      "avg": 3764,
       "count": 189
     },
     "03": {
@@ -10713,22 +10698,27 @@
   "priceDistribution": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 94,
+    "1k-2k": 95,
     "2k-3k": 76,
-    "3k-5k": 70,
+    "3k-5k": 69,
     "5k-10k": 34,
     "10k+": 16
   },
   "priceDistributionFiltered": {
     "0-500": 12,
     "500-1k": 18,
-    "1k-2k": 94,
+    "1k-2k": 95,
     "2k-3k": 76,
-    "3k-5k": 70,
+    "3k-5k": 69,
     "5k-10k": 29,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Guild": {
+      "sum": 18,
+      "count": 2,
+      "avg": 9
+    },
     "Rickenbacker": {
       "sum": 275,
       "count": 32,
@@ -10780,7 +10770,7 @@
       "avg": 13
     },
     "Kiesel": {
-      "sum": 178,
+      "sum": 179,
       "count": 12,
       "avg": 15
     },
@@ -10969,11 +10959,6 @@
       "count": 2,
       "avg": 47
     },
-    "Parker": {
-      "sum": 25,
-      "count": 2,
-      "avg": 13
-    },
     "Languedoc": {
       "sum": 18,
       "count": 1,
@@ -11005,6 +10990,11 @@
       "avg": 19
     },
     "MJT": {
+      "sum": 19,
+      "count": 1,
+      "avg": 19
+    },
+    "Parker": {
       "sum": 19,
       "count": 1,
       "avg": 19
@@ -11044,11 +11034,6 @@
       "count": 1,
       "avg": 18
     },
-    "Guild": {
-      "sum": 18,
-      "count": 1,
-      "avg": 18
-    },
     "Mayones": {
       "sum": 17,
       "count": 1,
@@ -11065,9 +11050,9 @@
       "avg": 31
     },
     "Lollar": {
-      "sum": 15,
+      "sum": 16,
       "count": 1,
-      "avg": 15
+      "avg": 16
     },
     "Novo": {
       "sum": 15,
@@ -11086,13 +11071,14 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-16": 1,
     "2026-04-15": 41,
     "2026-04-14": 34,
     "2026-04-13": 26,
     "2026-04-12": 14,
     "2026-04-11": 42,
     "2026-04-10": 29,
-    "2026-04-09": 4,
+    "2026-04-09": 3,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11108,11 +11094,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 103
+      "count": 102
     },
     {
       "username": "Beijing Bob",
-      "count": 71
+      "count": 72
     },
     {
       "username": "YellowJack6",
@@ -11149,7 +11135,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3778,
+    "avg": 3764,
     "pctBelowAvg": 9,
     "count": 189
   },
@@ -11199,8 +11185,8 @@
     }
   },
   "soldPrices": {
-    "count": 83,
-    "avg": 4260,
+    "count": 82,
+    "avg": 4265,
     "min": 200,
     "max": 36500,
     "avgDiscount": 7
@@ -11208,8 +11194,8 @@
   "timeToSell": {
     "overall": {
       "totalDays": 394.49999999999994,
-      "count": 77,
-      "avgDays": 5.1
+      "count": 76,
+      "avgDays": 5.2
     },
     "byModel": {
       "music-man-jp-signature": {
@@ -11459,14 +11445,6 @@
         "fastest": 13.8,
         "slowest": 13.8,
         "avgDays": 13.8
-      },
-      "parker-spanish-fly-1998-2002": {
-        "displayName": "Parker Spanish Fly 1998-2002 - Butterscotch",
-        "totalDays": 0,
-        "count": 1,
-        "fastest": 0,
-        "slowest": 0,
-        "avgDays": 0
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11916,8 +11894,8 @@
       },
       "Parker": {
         "totalDays": 0.1,
-        "count": 2,
-        "fastest": 0,
+        "count": 1,
+        "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
       },
@@ -12179,13 +12157,21 @@
   "sellThrough": {
     "overall": {
       "total": 308,
-      "sold": 78,
+      "sold": 77,
       "fake": 0,
-      "live": 230,
+      "live": 231,
       "soldPct": 25,
       "livePct": 75
     },
     "byBrand": {
+      "Guild": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Rickenbacker": {
         "total": 34,
         "sold": 5,
@@ -12594,14 +12580,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Parker": {
-        "total": 2,
-        "sold": 2,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12658,6 +12636,14 @@
         "soldPct": 0,
         "livePct": 100
       },
+      "Parker": {
+        "total": 1,
+        "sold": 1,
+        "fake": 0,
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
+      },
       "Diamond": {
         "total": 1,
         "sold": 0,
@@ -12711,14 +12697,6 @@
         "sold": 0,
         "fake": 0,
         "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Guild": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12810,7 +12788,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 94,
+        "total": 95,
         "sold": 21,
         "rate": 22
       },
@@ -12822,9 +12800,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 70,
-        "sold": 21,
-        "rate": 30
+        "total": 69,
+        "sold": 20,
+        "rate": 29
       },
       {
         "label": "$5k–10k",
@@ -12840,20 +12818,20 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 94,
+        "sold": 25,
+        "rate": 27
+      },
       "Excellent": {
-        "total": 126,
-        "sold": 40,
-        "rate": 32
+        "total": 125,
+        "sold": 39,
+        "rate": 31
       },
       "Brand New": {
         "total": 31,
         "sold": 2,
         "rate": 6
-      },
-      "Very Good": {
-        "total": 93,
-        "sold": 25,
-        "rate": 27
       },
       "Good": {
         "total": 36,
@@ -12900,15 +12878,15 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 4,
-      "sold": 3,
-      "rate": 75
+      "total": 3,
+      "sold": 2,
+      "rate": 67
     },
     {
       "label": "1–5",
-      "total": 17,
+      "total": 18,
       "sold": 5,
-      "rate": 29
+      "rate": 28
     },
     {
       "label": "6–15",
@@ -12932,8 +12910,8 @@
   "offersEffect": {
     "on": {
       "total": 188,
-      "sold": 50,
-      "rate": 27
+      "sold": 49,
+      "rate": 26
     },
     "off": {
       "total": 58,
@@ -12949,16 +12927,16 @@
     },
     "regular": {
       "total": 118,
-      "sold": 33,
-      "rate": 28
+      "sold": 32,
+      "rate": 27
     }
   },
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 30,
+      "total": 31,
       "sold": 9,
-      "rate": 30
+      "rate": 29
     },
     {
       "state": "TX",
@@ -13069,12 +13047,6 @@
       "rate": 25
     },
     {
-      "state": "MI",
-      "total": 4,
-      "sold": 2,
-      "rate": 50
-    },
-    {
       "state": "AZ",
       "total": 3,
       "sold": 0,
@@ -13082,6 +13054,12 @@
     },
     {
       "state": "WI",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
+    },
+    {
+      "state": "MI",
       "total": 3,
       "sold": 1,
       "rate": 33
