@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T03:25:23.430Z",
+  "generatedAt": "2026-04-17T03:31:13.822Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1201745.23,
-    "avg": 3815,
+    "sum": 1199945.24,
+    "avg": 3809,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 292,
-    "sum": 740218.24,
-    "avg": 2535,
+    "sum": 738418.25,
+    "avg": 2529,
     "min": 7,
     "max": 6999,
     "median": 2297
   },
   "outliers": {
-    "thresholdHigh": 7878,
+    "thresholdHigh": 7800,
     "thresholdLow": 0,
     "count": 23,
     "items": [
@@ -213,10 +213,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 594152.88,
+      "sum": 592352.89,
       "min": 7,
       "max": 47024,
-      "avg": 3229
+      "avg": 3219
     },
     "2026-03": {
       "count": 131,
@@ -228,34 +228,34 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 281,
-      "sum": 915114.36,
+      "count": 282,
+      "sum": 918314.36,
       "min": 7,
       "max": 47024,
-      "avg": 3257
+      "avg": 3256
     },
     "marketplace": {
-      "count": 34,
-      "sum": 286630.87,
+      "count": 33,
+      "sum": 281630.88,
       "min": 139.99,
       "max": 99000,
-      "avg": 8430
+      "avg": 8534
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 281,
-      "sum": 915114.36,
+      "count": 282,
+      "sum": 918314.36,
       "min": 7,
       "max": 47024,
-      "avg": 3257
+      "avg": 3256
     },
     "guitarcenter.com": {
-      "count": 13,
-      "sum": 24832.88,
+      "count": 12,
+      "sum": 19832.89,
       "min": 139.99,
-      "max": 4999.99,
-      "avg": 1910
+      "max": 3649.99,
+      "avg": 1653
     },
     "losangeles.craigslist.org": {
       "count": 1,
@@ -301,6 +301,37 @@
     }
   },
   "byModel": {
+    "frank-brothers-arcade-piano": {
+      "displayName": "Frank Brothers Arcade 2019  - Piano Black",
+      "brand": "Frank",
+      "model": "Brothers Arcade Piano",
+      "variant": null,
+      "count": 1,
+      "sum": 3200,
+      "min": 3200,
+      "max": 3200,
+      "sightings": [
+        {
+          "price": 3200,
+          "date": "2026-04-17T03:31:00.644Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Frank Brothers Arcade 2019  - Piano Black",
+          "url": "https://reverb.com/item/96105667-frank-brothers-arcade-2019-piano-black",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 3200,
+          "min": 3200,
+          "max": 3200,
+          "avg": 3200
+        }
+      },
+      "avg": 3200
+    },
     "kramer-stainless-frets-baretta": {
       "displayName": "*STAINLESS FRETS* Kramer Baretta I 1986 - White with Hardshell Case",
       "brand": "Kramer",
@@ -6328,37 +6359,6 @@
       },
       "avg": 2500
     },
-    "rickenbacker-m-ii-floyd-rose": {
-      "displayName": "Used ESP M-II with Floyd Rose hellfire Solid Body Electric Guitar hellfire",
-      "brand": "Rickenbacker",
-      "model": "M-II",
-      "variant": "Floyd Rose",
-      "count": 1,
-      "sum": 4999.99,
-      "min": 4999.99,
-      "max": 4999.99,
-      "sightings": [
-        {
-          "price": 4999.99,
-          "date": "2026-04-11T00:48:27.543Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used ESP M-II with Floyd Rose hellfire Solid Body Electric Guitar hellfire",
-          "url": "https://www.guitarcenter.com/Used/ESP/Used-ESP-M-II-with-Floyd-Rose-hellfire-Solid-Body-Electric-Guitar.gc?algoliaQueryID=1311729233246f51e711f1c05415aa35&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 4999.99,
-          "min": 4999.99,
-          "max": 4999.99,
-          "avg": 5000
-        }
-      },
-      "avg": 5000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10428,6 +10428,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 36,
+      "sum": 97310.95,
+      "sold": {
+        "count": 8,
+        "sum": 23736.48,
+        "avg": 2967,
+        "min": 685,
+        "max": 8000
+      },
+      "avg": 2703,
+      "min": 414,
+      "max": 10995
+    },
     "Very Good": {
       "count": 92,
       "sum": 266022.55999999994,
@@ -10457,13 +10471,13 @@
       "max": 35900
     },
     "Used": {
-      "count": 22,
-      "sum": 153149.87999999998,
+      "count": 21,
+      "sum": 148149.88999999998,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 6961,
+      "avg": 7055,
       "min": 139.99,
       "max": 99000
     },
@@ -10494,20 +10508,6 @@
       "avg": 1930,
       "min": 850,
       "max": 4699
-    },
-    "Good": {
-      "count": 35,
-      "sum": 94110.95,
-      "sold": {
-        "count": 8,
-        "sum": 23736.48,
-        "avg": 2967,
-        "min": 685,
-        "max": 8000
-      },
-      "avg": 2689,
-      "min": 414,
-      "max": 10995
     },
     "Mint": {
       "count": 4,
@@ -10546,7 +10546,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3229,
+      "avg": 3219,
       "count": 184
     },
     "03": {
@@ -10716,6 +10716,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Frank": {
+      "sum": 20,
+      "count": 2,
+      "avg": 10
+    },
     "Kramer": {
       "sum": 37,
       "count": 2,
@@ -10742,8 +10747,8 @@
       "avg": 19
     },
     "Rickenbacker": {
-      "sum": 312,
-      "count": 35,
+      "sum": 306,
+      "count": 34,
       "avg": 9
     },
     "Charvel": {
@@ -10966,11 +10971,6 @@
       "count": 1,
       "avg": 20
     },
-    "Frank": {
-      "sum": 20,
-      "count": 1,
-      "avg": 20
-    },
     "Fender Custom Shop": {
       "sum": 40,
       "count": 2,
@@ -11017,9 +11017,9 @@
       "avg": 21
     },
     "Framus": {
-      "sum": 21,
+      "sum": 22,
       "count": 1,
-      "avg": 21
+      "avg": 22
     },
     "Luxxtone": {
       "sum": 19,
@@ -11052,9 +11052,9 @@
       "avg": 17
     },
     "Cornish": {
-      "sum": 32,
+      "sum": 33,
       "count": 1,
-      "avg": 32
+      "avg": 33
     },
     "Lollar": {
       "sum": 17,
@@ -11078,13 +11078,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-17": 10,
+    "2026-04-17": 11,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 32,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 40,
+    "2026-04-11": 39,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11093,8 +11093,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 281,
-    "marketplace": 39
+    "reverb": 282,
+    "marketplace": 38
   },
   "activeModelsCount": 279,
   "topPosters": [
@@ -11112,7 +11112,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 27
+      "count": 26
     },
     {
       "username": "WontonGG",
@@ -11120,7 +11120,7 @@
     },
     {
       "username": "Madero",
-      "count": 14
+      "count": 15
     },
     {
       "username": "Pabst Blue Wizard",
@@ -11141,7 +11141,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3229,
+    "avg": 3219,
     "pctBelowAvg": 15,
     "count": 184
   },
@@ -11190,10 +11190,10 @@
       "count": 15
     },
     "Rickenbacker": {
-      "avgPrice": 4040,
+      "avgPrice": 4013,
       "retailEst": 1500,
-      "avgDiscount": -169.3,
-      "count": 37
+      "avgDiscount": -167.5,
+      "count": 36
     }
   },
   "soldPrices": {
@@ -12213,6 +12213,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Frank": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Kramer": {
         "total": 2,
         "sold": 0,
@@ -12254,12 +12262,12 @@
         "livePct": 82
       },
       "Rickenbacker": {
-        "total": 37,
+        "total": 36,
         "sold": 6,
         "fake": 0,
-        "live": 31,
-        "soldPct": 16,
-        "livePct": 84
+        "live": 30,
+        "soldPct": 17,
+        "livePct": 83
       },
       "Charvel": {
         "total": 4,
@@ -12637,14 +12645,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Frank": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Fender Custom Shop": {
         "total": 2,
         "sold": 0,
@@ -12867,6 +12867,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 36,
+        "sold": 9,
+        "rate": 25
+      },
       "Very Good": {
         "total": 92,
         "sold": 26,
@@ -12878,7 +12883,7 @@
         "rate": 32
       },
       "Used": {
-        "total": 22,
+        "total": 21,
         "sold": 3,
         "rate": 14
       },
@@ -12891,11 +12896,6 @@
         "total": 5,
         "sold": 1,
         "rate": 20
-      },
-      "Good": {
-        "total": 35,
-        "sold": 9,
-        "rate": 26
       },
       "Mint": {
         "total": 4,
@@ -13205,7 +13205,7 @@
         "condition": "Mint",
         "watchers": 78,
         "views": 3250,
-        "daysListed": 2121,
+        "daysListed": 2122,
         "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -14389,9 +14389,9 @@
     },
     {
       "label": "1–5",
-      "total": 20,
+      "total": 21,
       "sold": 4,
-      "rate": 20
+      "rate": 19
     },
     {
       "label": "6–15",
@@ -14414,7 +14414,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 191,
+      "total": 192,
       "sold": 49,
       "rate": 26
     },
@@ -14426,9 +14426,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 106,
+      "total": 107,
       "sold": 24,
-      "rate": 23
+      "rate": 22
     },
     "regular": {
       "total": 119,
@@ -14480,6 +14480,12 @@
       "rate": 33
     },
     {
+      "state": "PA",
+      "total": 8,
+      "sold": 2,
+      "rate": 25
+    },
+    {
       "state": "OH",
       "total": 8,
       "sold": 2,
@@ -14490,12 +14496,6 @@
       "total": 8,
       "sold": 3,
       "rate": 38
-    },
-    {
-      "state": "PA",
-      "total": 7,
-      "sold": 2,
-      "rate": 29
     },
     {
       "state": "NC",
