@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T22:42:43.719Z",
+  "generatedAt": "2026-04-17T23:18:59.421Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,14 +7,14 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1218944.25,
+    "sum": 1218843.25,
     "avg": 3857,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 291,
-    "sum": 731938.26,
+    "sum": 731837.26,
     "avg": 2515,
     "min": 7,
     "max": 6999,
@@ -229,10 +229,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 611351.9,
+      "sum": 611250.9,
       "min": 7,
       "max": 47024,
-      "avg": 3305
+      "avg": 3304
     },
     "2026-03": {
       "count": 131,
@@ -245,10 +245,10 @@
   "byCategory": {
     "reverb": {
       "count": 282,
-      "sum": 930835.36,
+      "sum": 930734.36,
       "min": 7,
       "max": 47024,
-      "avg": 3301
+      "avg": 3300
     },
     "marketplace": {
       "count": 34,
@@ -261,10 +261,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 282,
-      "sum": 930835.36,
+      "sum": 930734.36,
       "min": 7,
       "max": 47024,
-      "avg": 3301
+      "avg": 3300
     },
     "gibson.com": {
       "count": 1,
@@ -324,6 +324,37 @@
     }
   },
   "byModel": {
+    "tokai-love-rock": {
+      "displayName": "Tokai Love Rock  - Ebony",
+      "brand": "Tokai",
+      "model": "Love Rock",
+      "variant": null,
+      "count": 1,
+      "sum": 1299,
+      "min": 1299,
+      "max": 1299,
+      "sightings": [
+        {
+          "price": 1299,
+          "date": "2026-04-17T23:18:45.497Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Tokai Love Rock  - Ebony",
+          "url": "https://reverb.com/item/96132304-tokai-love-rock-ebony",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1299,
+          "min": 1299,
+          "max": 1299,
+          "avg": 1299
+        }
+      },
+      "avg": 1299
+    },
     "gibson-les-paul-standard-custom-shop-murphy-lab": {
       "displayName": "Gibson Custom Shop 1957 Les Paul Standard Mahogany Top Walnut Murphy Lab Heavy Aged (Serial #75824)",
       "brand": "Gibson",
@@ -6400,20 +6431,11 @@
       "brand": "Gibson",
       "model": "Les Paul Classic",
       "variant": null,
-      "count": 2,
-      "sum": 2800,
+      "count": 1,
+      "sum": 1400,
       "min": 1400,
       "max": 1400,
       "sightings": [
-        {
-          "price": 1400,
-          "date": "2026-04-11T05:47:55.357Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Classic 2019 - Present - Heritage Cherry Sunburst",
-          "url": "https://reverb.com/item/81528732-gibson-les-paul-classic-2019-present-heritage-cherry-sunburst",
-          "condition": "Excellent"
-        },
         {
           "price": 1400,
           "date": "2026-04-11T05:48:09.115Z",
@@ -6426,13 +6448,6 @@
       ],
       "byCondition": {
         "Very Good": {
-          "count": 1,
-          "sum": 1400,
-          "min": 1400,
-          "max": 1400,
-          "avg": 1400
-        },
-        "Excellent": {
           "count": 1,
           "sum": 1400,
           "min": 1400,
@@ -10511,9 +10526,23 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 90,
+      "sum": 243289.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 54287.79,
+        "avg": 2262,
+        "min": 475,
+        "max": 4214
+      },
+      "avg": 2703,
+      "min": 7,
+      "max": 16500
+    },
     "Excellent": {
-      "count": 123,
-      "sum": 444511.73,
+      "count": 122,
+      "sum": 443111.73,
       "sold": {
         "count": 39,
         "sum": 136183.43,
@@ -10521,7 +10550,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 3614,
+      "avg": 3632,
       "min": 200,
       "max": 35900
     },
@@ -10538,20 +10567,6 @@
       "avg": 2809,
       "min": 414,
       "max": 10995
-    },
-    "Very Good": {
-      "count": 89,
-      "sum": 241990.55999999994,
-      "sold": {
-        "count": 24,
-        "sum": 54287.79,
-        "avg": 2262,
-        "min": 475,
-        "max": 4214
-      },
-      "avg": 2719,
-      "min": 7,
-      "max": 16500
     },
     "Used": {
       "count": 20,
@@ -10629,7 +10644,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3305,
+      "avg": 3304,
       "count": 185
     },
     "03": {
@@ -10799,6 +10814,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Tokai": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Gibson": {
       "sum": 795,
       "count": 41,
@@ -10875,7 +10895,7 @@
       "avg": 12
     },
     "Fender": {
-      "sum": 175,
+      "sum": 176,
       "count": 10,
       "avg": 18
     },
@@ -11161,13 +11181,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-17": 27,
+    "2026-04-17": 28,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 25,
+    "2026-04-11": 24,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11179,11 +11199,11 @@
     "reverb": 282,
     "marketplace": 39
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "GP",
-      "count": 97
+      "count": 98
     },
     {
       "username": "Beijing Bob",
@@ -11191,7 +11211,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 28
+      "count": 27
     },
     {
       "username": "WontonGG",
@@ -11224,7 +11244,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3305,
+    "avg": 3304,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11237,10 +11257,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 3331,
+      "avgPrice": 3372,
       "retailEst": 800,
-      "avgDiscount": -316.4,
-      "count": 48
+      "avgDiscount": -321.5,
+      "count": 47
     },
     "PRS": {
       "avgPrice": 4063,
@@ -12167,15 +12187,15 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1302.055129948222,
-      "count": 74,
-      "avgPctDrop": 17.6
+      "totalPctDrop": 1279.8329077259998,
+      "count": 73,
+      "avgPctDrop": 17.5
     },
     "byBrand": {
       "Gibson": {
-        "totalPctDrop": 215.97288379814444,
-        "count": 14,
-        "avgPctDrop": 15.4
+        "totalPctDrop": 193.7506615759222,
+        "count": 13,
+        "avgPctDrop": 14.9
       },
       "PRS": {
         "totalPctDrop": 122.58056346687337,
@@ -12339,11 +12359,19 @@
       "livePct": 72
     },
     "byBrand": {
+      "Tokai": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Gibson": {
-        "total": 50,
+        "total": 49,
         "sold": 9,
         "fake": 0,
-        "live": 41,
+        "live": 40,
         "soldPct": 18,
         "livePct": 82
       },
@@ -12875,14 +12903,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Tokai": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Millimetric": {
         "total": 2,
         "sold": 1,
@@ -12993,8 +13013,13 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 90,
+        "sold": 26,
+        "rate": 29
+      },
       "Excellent": {
-        "total": 123,
+        "total": 122,
         "sold": 40,
         "rate": 33
       },
@@ -13002,11 +13027,6 @@
         "total": 37,
         "sold": 11,
         "rate": 30
-      },
-      "Very Good": {
-        "total": 89,
-        "sold": 26,
-        "rate": 29
       },
       "Used": {
         "total": 20,
@@ -13165,20 +13185,6 @@
     ],
     "highCompetition": [
       {
-        "title": "Gibson Les Paul Classic 2019 - Present - Heritage Cherry Sunburst",
-        "url": "https://reverb.com/item/81528732-gibson-les-paul-classic-2019-present-heritage-cherry-sunburst",
-        "price": "$1,400",
-        "priceNum": 1400,
-        "brand": "Gibson",
-        "condition": "Excellent",
-        "watchers": 293,
-        "views": 13742,
-        "daysListed": 734,
-        "image": "https://rvb-img.reverb.com/i/s--omVKcSSW--/quality=medium-low,height=800,width=800,fit=contain/cx6lkuvhwvpqq7zyiap2.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Gibson  Les Paul Custom 2021 - Black",
         "url": "https://reverb.com/item/92538934-gibson-les-paul-custom-2021-black",
         "price": "$3,438",
@@ -13273,7 +13279,7 @@
         "condition": "Excellent",
         "watchers": 93,
         "views": 1181,
-        "daysListed": 1,
+        "daysListed": 2,
         "image": "https://rvb-img.reverb.com/i/s--vTvluJvE--/quality=medium-low,height=800,width=800,fit=contain/83d5e409-c5f6-4a18-84ba-46237264b624.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13303,6 +13309,20 @@
         "views": 3250,
         "daysListed": 2122,
         "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "2008 Ibanez EGEN18-TVF Herman Li Signature Transparent Violet Fla",
+        "url": "https://reverb.com/item/94650763",
+        "price": "$2,600",
+        "priceNum": 2600,
+        "brand": "Ibanez",
+        "condition": "Excellent",
+        "watchers": 70,
+        "views": 1063,
+        "daysListed": 52,
+        "image": "https://rvb-img.reverb.com/i/s--OZVeU_gm--/quality=medium-low,height=800,width=800,fit=contain/c11340ed-6dff-40ef-9a20-85dbc4a28128.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -13362,20 +13382,6 @@
         "views": 1261,
         "daysListed": 749,
         "image": "https://rvb-img.reverb.com/i/s--c5GxADkW--/quality=medium-low,height=800,width=800,fit=contain/vztcb7uwzzhmw2uvsp16.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "Gibson Les Paul Classic 2019 - Present - Heritage Cherry Sunburst",
-        "url": "https://reverb.com/item/81528732-gibson-les-paul-classic-2019-present-heritage-cherry-sunburst",
-        "price": "$1,400",
-        "priceNum": 1400,
-        "brand": "Gibson",
-        "condition": "Excellent",
-        "watchers": 293,
-        "views": 13742,
-        "daysListed": 734,
-        "image": "https://rvb-img.reverb.com/i/s--omVKcSSW--/quality=medium-low,height=800,width=800,fit=contain/cx6lkuvhwvpqq7zyiap2.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       },
@@ -13519,6 +13525,20 @@
         "image": "https://rvb-img.reverb.com/i/s--cCR9Sy-4--/quality=medium-low,height=800,width=800,fit=contain/ib3ze5skrzxhse4ruhre.jpg",
         "modelAvg": null,
         "pctVsAvg": null
+      },
+      {
+        "title": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Sh",
+        "url": "https://reverb.com/item/91948632-pre-owned-echopark-echocaster-r-60-white-with-original-hard-shell-case",
+        "price": "$2,900",
+        "priceNum": 2900,
+        "brand": "Echopark",
+        "condition": "Very Good",
+        "watchers": 30,
+        "views": 888,
+        "daysListed": 235,
+        "image": "https://rvb-img.reverb.com/i/s--P23aH4NZ--/quality=medium-low,height=800,width=800,fit=contain/eq1gmrzmgxetih3vj9oz.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -13567,7 +13587,7 @@
       "soldAvg": 4647,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 94.5,
+      "totalDays": 94.6,
       "soldCount": 5,
       "avgDaysToSell": 18.9
     },
@@ -13575,19 +13595,19 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 37,
-      "sum": 95417.98999999999,
-      "avg": 2579,
+      "count": 36,
+      "sum": 94017.98999999999,
+      "avg": 2612,
       "min": 135,
       "max": 7900,
       "sold": 4,
       "soldSum": 10749,
       "soldAvg": 2687,
-      "live": 33,
+      "live": 32,
       "sellRate": 11,
-      "totalDays": 42.5,
+      "totalDays": 42.6,
       "soldCount": 4,
-      "avgDaysToSell": 10.6
+      "avgDaysToSell": 10.7
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13621,7 +13641,7 @@
       "soldAvg": 3275,
       "live": 8,
       "sellRate": 47,
-      "totalDays": 90.8,
+      "totalDays": 91,
       "soldCount": 7,
       "avgDaysToSell": 13
     },
@@ -13761,9 +13781,9 @@
       "soldAvg": 3200,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 1,
+      "totalDays": 1.1,
       "soldCount": 1,
-      "avgDaysToSell": 1
+      "avgDaysToSell": 1.1
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13779,7 +13799,7 @@
       "soldAvg": 4430,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 25.2,
+      "totalDays": 25.3,
       "soldCount": 3,
       "avgDaysToSell": 8.4
     },
@@ -13797,9 +13817,9 @@
       "soldAvg": 19130,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 46.900000000000006,
+      "totalDays": 47,
       "soldCount": 3,
-      "avgDaysToSell": 15.6
+      "avgDaysToSell": 15.7
     },
     "Jackson|Jackson MJ": {
       "brand": "Jackson",
@@ -13849,7 +13869,7 @@
       "soldAvg": 1568,
       "live": 4,
       "sellRate": 60,
-      "totalDays": 92.5,
+      "totalDays": 92.6,
       "soldCount": 6,
       "avgDaysToSell": 15.4
     },
@@ -13884,7 +13904,7 @@
       "soldAvg": 1936,
       "live": 8,
       "sellRate": 33,
-      "totalDays": 13.1,
+      "totalDays": 13.2,
       "soldCount": 4,
       "avgDaysToSell": 3.3
     },
@@ -13989,7 +14009,7 @@
       "soldAvg": 2449,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 103.09999999999998,
+      "totalDays": 103.19999999999999,
       "soldCount": 4,
       "avgDaysToSell": 25.8
     },
@@ -14075,9 +14095,9 @@
       "soldAvg": 3495,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 2.9,
+      "totalDays": 3,
       "soldCount": 1,
-      "avgDaysToSell": 2.9
+      "avgDaysToSell": 3
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -14231,9 +14251,9 @@
       "soldAvg": 2098,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 40.9,
+      "totalDays": 41,
       "soldCount": 3,
-      "avgDaysToSell": 13.6
+      "avgDaysToSell": 13.7
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -14388,9 +14408,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 212,
+      "totalDays": 212.1,
       "soldCount": 2,
-      "avgDaysToSell": 106
+      "avgDaysToSell": 106.1
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -14480,9 +14500,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 85,
-    "totalOffers": 211,
-    "avgOffersPerListing": 2.5,
+    "withOffers": 84,
+    "totalOffers": 191,
+    "avgOffersPerListing": 2.3,
     "offersEnabledPct": 68
   },
   "shippingInsights": {
@@ -14498,9 +14518,9 @@
     },
     {
       "label": "1–5",
-      "total": 23,
+      "total": 24,
       "sold": 5,
-      "rate": 22
+      "rate": 21
     },
     {
       "label": "6–15",
@@ -14516,7 +14536,7 @@
     },
     {
       "label": "31+",
-      "total": 66,
+      "total": 65,
       "sold": 13,
       "rate": 20
     }
@@ -14548,9 +14568,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 29,
+      "total": 30,
       "sold": 10,
-      "rate": 34
+      "rate": 33
     },
     {
       "state": "TX",
@@ -14577,12 +14597,6 @@
       "rate": 42
     },
     {
-      "state": "PA",
-      "total": 10,
-      "sold": 3,
-      "rate": 30
-    },
-    {
       "state": "MA",
       "total": 10,
       "sold": 4,
@@ -14590,6 +14604,12 @@
     },
     {
       "state": "IL",
+      "total": 9,
+      "sold": 3,
+      "rate": 33
+    },
+    {
+      "state": "PA",
       "total": 9,
       "sold": 3,
       "rate": 33
