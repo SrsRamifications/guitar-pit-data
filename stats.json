@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T02:15:44.614Z",
+  "generatedAt": "2026-04-17T02:26:04.267Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1202729.24,
-    "avg": 3818,
+    "sum": 1200129.24,
+    "avg": 3810,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 292,
-    "sum": 741202.25,
-    "avg": 2538,
+    "sum": 738602.25,
+    "avg": 2529,
     "min": 7,
     "max": 6999,
-    "median": 2290
+    "median": 2267
   },
   "outliers": {
     "thresholdHigh": 7878,
@@ -213,10 +213,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 595136.89,
+      "sum": 592536.89,
       "min": 7,
       "max": 47024,
-      "avg": 3234
+      "avg": 3220
     },
     "2026-03": {
       "count": 131,
@@ -227,35 +227,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 281,
+      "sum": 912639.36,
+      "min": 7,
+      "max": 47024,
+      "avg": 3248
+    },
     "marketplace": {
       "count": 34,
       "sum": 287489.88,
       "min": 374.99,
       "max": 99000,
       "avg": 8456
-    },
-    "reverb": {
-      "count": 281,
-      "sum": 915239.36,
-      "min": 7,
-      "max": 47024,
-      "avg": 3257
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 281,
+      "sum": 912639.36,
+      "min": 7,
+      "max": 47024,
+      "avg": 3248
+    },
     "guitarcenter.com": {
       "count": 12,
       "sum": 24692.89,
       "min": 374.99,
       "max": 4999.99,
       "avg": 2058
-    },
-    "reverb.com": {
-      "count": 281,
-      "sum": 915239.36,
-      "min": 7,
-      "max": 47024,
-      "avg": 3257
     },
     "losangeles.craigslist.org": {
       "count": 1,
@@ -308,6 +308,37 @@
     }
   },
   "byModel": {
+    "gibson-l-00": {
+      "displayName": "Gibson L-00 Studio 2019 - Walnut Burst",
+      "brand": "Gibson",
+      "model": "L-00",
+      "variant": null,
+      "count": 1,
+      "sum": 900,
+      "min": 900,
+      "max": 900,
+      "sightings": [
+        {
+          "price": 900,
+          "date": "2026-04-17T02:25:50.591Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson L-00 Studio 2019 - Walnut Burst",
+          "url": "https://reverb.com/item/94976200-gibson-l-00-studio-2019-walnut-burst",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 900,
+          "min": 900,
+          "max": 900,
+          "avg": 900
+        }
+      },
+      "avg": 900
+    },
     "rickenbacker-hollow": {
       "displayName": "Used Gibson N-225 FADED CHERRY Hollow Body Electric Guitar FADED CHERRY",
       "brand": "Rickenbacker",
@@ -6411,52 +6442,6 @@
       },
       "avg": 3423
     },
-    "esp-m-ii-usa-custom-shop": {
-      "displayName": "ESP USA Custom Shop M-II NTB FR Flame Maple Top Dark Purple Sunburst 2023 w/OHSC",
-      "brand": "ESP",
-      "model": "M-II",
-      "variant": "Usa Custom Shop",
-      "count": 1,
-      "sum": 3500,
-      "min": 3500,
-      "max": 3500,
-      "sightings": [
-        {
-          "price": 3500,
-          "date": "2026-04-10T21:34:59.491Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "ESP USA Custom Shop M-II NTB FR Flame Maple Top Dark Purple Sunburst 2023 w/OHSC",
-          "url": "https://reverb.com/item/95826806-esp-usa-custom-shop-m-ii-ntb-fr-flame-maple-top-dark-purple-sunburst-2023-w-ohsc",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3500,
-          "min": 3500,
-          "max": 3500,
-          "avg": 3500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3500,
-        "min": 3499.99,
-        "max": 3499.99,
-        "prices": [
-          {
-            "price": 3499.99,
-            "askingPrice": 3500,
-            "date": "2026-04-10T23:39:07.953Z",
-            "title": "ESP USA Custom Shop M-II NTB FR Flame Maple Top Dark Purple Sunburst 2023 w/OHSC",
-            "url": "https://reverb.com/item/95826806-esp-usa-custom-shop-m-ii-ntb-fr-flame-maple-top-dark-purple-sunburst-2023-w-ohsc"
-          }
-        ]
-      },
-      "avg": 3500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10526,6 +10511,20 @@
     }
   },
   "byCondition": {
+    "Fair": {
+      "count": 5,
+      "sum": 9648,
+      "sold": {
+        "count": 1,
+        "sum": 4699,
+        "avg": 4699,
+        "min": 4699,
+        "max": 4699
+      },
+      "avg": 1930,
+      "min": 850,
+      "max": 4699
+    },
     "Used": {
       "count": 21,
       "sum": 153009.88999999998,
@@ -10538,11 +10537,11 @@
       "max": 99000
     },
     "Excellent": {
-      "count": 122,
-      "sum": 430774.73,
+      "count": 121,
+      "sum": 427274.73,
       "sold": {
-        "count": 40,
-        "sum": 140484.41999999998,
+        "count": 39,
+        "sum": 136984.43,
         "avg": 3512,
         "min": 200,
         "max": 35900
@@ -10550,20 +10549,6 @@
       "avg": 3531,
       "min": 200,
       "max": 35900
-    },
-    "Fair": {
-      "count": 4,
-      "sum": 8748,
-      "sold": {
-        "count": 1,
-        "sum": 4699,
-        "avg": 4699,
-        "min": 4699,
-        "max": 4699
-      },
-      "avg": 2187,
-      "min": 850,
-      "max": 4699
     },
     "Brand New": {
       "count": 27,
@@ -10644,7 +10629,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3234,
+      "avg": 3220,
       "count": 184
     },
     "03": {
@@ -10797,25 +10782,30 @@
   ],
   "priceDistribution": {
     "0-500": 12,
-    "500-1k": 17,
+    "500-1k": 18,
     "1k-2k": 94,
     "2k-3k": 80,
-    "3k-5k": 70,
+    "3k-5k": 69,
     "5k-10k": 30,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 12,
-    "500-1k": 17,
+    "500-1k": 18,
     "1k-2k": 94,
     "2k-3k": 80,
-    "3k-5k": 70,
+    "3k-5k": 69,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 813,
+      "count": 41,
+      "avg": 20
+    },
     "Rickenbacker": {
-      "sum": 309,
+      "sum": 311,
       "count": 35,
       "avg": 9
     },
@@ -10824,18 +10814,13 @@
       "count": 4,
       "avg": 28
     },
-    "Gibson": {
-      "sum": 776,
-      "count": 40,
-      "avg": 19
-    },
     "PRS": {
       "sum": 301,
       "count": 17,
       "avg": 18
     },
     "Echopark": {
-      "sum": 65,
+      "sum": 66,
       "count": 6,
       "avg": 11
     },
@@ -11044,11 +11029,6 @@
       "count": 1,
       "avg": 6
     },
-    "ESP": {
-      "sum": 48,
-      "count": 3,
-      "avg": 16
-    },
     "Languedoc": {
       "sum": 19,
       "count": 1,
@@ -11102,6 +11082,11 @@
     "Fractal Audio": {
       "sum": 21,
       "count": 1,
+      "avg": 21
+    },
+    "ESP": {
+      "sum": 42,
+      "count": 2,
       "avg": 21
     },
     "Framus": {
@@ -11166,14 +11151,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-17": 2,
+    "2026-04-17": 3,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 32,
     "2026-04-13": 25,
     "2026-04-12": 14,
     "2026-04-11": 42,
-    "2026-04-10": 6,
+    "2026-04-10": 5,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11182,14 +11167,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 39,
-    "reverb": 281
+    "reverb": 281,
+    "marketplace": 39
   },
   "activeModelsCount": 281,
   "topPosters": [
     {
       "username": "GP",
-      "count": 99
+      "count": 98
     },
     {
       "username": "Beijing Bob",
@@ -11216,11 +11201,11 @@
       "count": 8
     },
     {
-      "username": "scottcorgan",
-      "count": 6
+      "username": "Pabst Blue Wizard",
+      "count": 7
     },
     {
-      "username": "Pabst Blue Wizard",
+      "username": "scottcorgan",
       "count": 6
     },
     {
@@ -11230,7 +11215,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3234,
+    "avg": 3220,
     "pctBelowAvg": 15,
     "count": 184
   },
@@ -11243,10 +11228,10 @@
       "count": 15
     },
     "Gibson": {
-      "avgPrice": 3445,
+      "avgPrice": 3394,
       "retailEst": 800,
-      "avgDiscount": -330.7,
-      "count": 48
+      "avgDiscount": -324.2,
+      "count": 49
     },
     "PRS": {
       "avgPrice": 4250,
@@ -11286,17 +11271,17 @@
     }
   },
   "soldPrices": {
-    "count": 85,
-    "avg": 3325,
+    "count": 84,
+    "avg": 3323,
     "min": 200,
     "max": 35900,
     "avgDiscount": 7
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 650.3,
-      "count": 82,
-      "avgDays": 7.9
+      "totalDays": 650.1999999999999,
+      "count": 81,
+      "avgDays": 8
     },
     "byModel": {
       "charvel-music-zoo-exclusive-usa-custom-shop": {
@@ -11594,14 +11579,6 @@
         "fastest": 0.9,
         "slowest": 0.9,
         "avgDays": 0.9
-      },
-      "esp-m-ii-usa-custom-shop": {
-        "displayName": "ESP USA Custom Shop M-II NTB FR Flame Maple Top Dark Purple Sunburst 2023 w/OHSC",
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -12049,13 +12026,6 @@
         "slowest": 1.2,
         "avgDays": 0.5
       },
-      "ESP": {
-        "totalDays": 0.1,
-        "count": 2,
-        "fastest": 0,
-        "slowest": 0.1,
-        "avgDays": 0.1
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -12069,6 +12039,13 @@
         "fastest": 1,
         "slowest": 1,
         "avgDays": 1
+      },
+      "ESP": {
+        "totalDays": 0,
+        "count": 1,
+        "fastest": 0,
+        "slowest": 0,
+        "avgDays": 0
       },
       "Jackson": {
         "totalDays": 1.8,
@@ -12144,11 +12121,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1283.1714868771855,
-      "count": 73,
-      "avgPctDrop": 17.6
+      "totalPctDrop": 1293.1714868771853,
+      "count": 74,
+      "avgPctDrop": 17.5
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 225.61156688178974,
+        "count": 14,
+        "avgPctDrop": 16.1
+      },
       "Guild": {
         "totalPctDrop": 71.25298044825942,
         "count": 3,
@@ -12173,11 +12155,6 @@
         "totalPctDrop": 25.02980859742705,
         "count": 2,
         "avgPctDrop": 12.5
-      },
-      "Gibson": {
-        "totalPctDrop": 215.61156688178974,
-        "count": 13,
-        "avgPctDrop": 16.6
       },
       "FGN": {
         "totalPctDrop": 11.11934766493699,
@@ -12314,13 +12291,21 @@
   "sellThrough": {
     "overall": {
       "total": 302,
-      "sold": 82,
+      "sold": 81,
       "fake": 0,
-      "live": 220,
+      "live": 221,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 51,
+        "sold": 9,
+        "fake": 0,
+        "live": 42,
+        "soldPct": 18,
+        "livePct": 82
+      },
       "Rickenbacker": {
         "total": 37,
         "sold": 6,
@@ -12344,14 +12329,6 @@
         "live": 4,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 50,
-        "sold": 9,
-        "fake": 0,
-        "live": 41,
-        "soldPct": 18,
-        "livePct": 82
       },
       "PRS": {
         "total": 18,
@@ -12626,12 +12603,12 @@
         "livePct": 75
       },
       "ESP": {
-        "total": 5,
-        "sold": 2,
+        "total": 4,
+        "sold": 1,
         "fake": 0,
         "live": 3,
-        "soldPct": 40,
-        "livePct": 60
+        "soldPct": 25,
+        "livePct": 75
       },
       "Reverend": {
         "total": 1,
@@ -12931,9 +12908,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 17,
+        "total": 18,
         "sold": 5,
-        "rate": 29
+        "rate": 28
       },
       {
         "label": "$1k–2k",
@@ -12949,9 +12926,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 70,
-        "sold": 23,
-        "rate": 33
+        "total": 69,
+        "sold": 22,
+        "rate": 32
       },
       {
         "label": "$5k–10k",
@@ -12967,20 +12944,20 @@
       }
     ],
     "byCondition": {
+      "Fair": {
+        "total": 5,
+        "sold": 1,
+        "rate": 20
+      },
       "Used": {
         "total": 21,
         "sold": 3,
         "rate": 14
       },
       "Excellent": {
-        "total": 122,
-        "sold": 41,
-        "rate": 34
-      },
-      "Fair": {
-        "total": 4,
-        "sold": 1,
-        "rate": 25
+        "total": 121,
+        "sold": 40,
+        "rate": 33
       },
       "Brand New": {
         "total": 27,
@@ -13527,6 +13504,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 36,
+      "sum": 99820.98999999999,
+      "avg": 2773,
+      "min": 135,
+      "max": 9600,
+      "sold": 4,
+      "soldSum": 9100,
+      "soldAvg": 2275,
+      "live": 32,
+      "sellRate": 11,
+      "totalDays": 53.099999999999994,
+      "soldCount": 4,
+      "avgDaysToSell": 13.3
+    },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
       "brandLine": "Charvel USA Custom Shop",
@@ -13599,24 +13594,6 @@
       "soldCount": 3,
       "avgDaysToSell": 7.8
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 35,
-      "sum": 98920.98999999999,
-      "avg": 2826,
-      "min": 135,
-      "max": 9600,
-      "sold": 4,
-      "soldSum": 9100,
-      "soldAvg": 2275,
-      "live": 31,
-      "sellRate": 11,
-      "totalDays": 53,
-      "soldCount": 4,
-      "avgDaysToSell": 13.3
-    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -13683,7 +13660,7 @@
       "soldAvg": 1568,
       "live": 4,
       "sellRate": 60,
-      "totalDays": 87.3,
+      "totalDays": 87.4,
       "soldCount": 6,
       "avgDaysToSell": 14.6
     },
@@ -13718,7 +13695,7 @@
       "soldAvg": 1936,
       "live": 8,
       "sellRate": 33,
-      "totalDays": 9.6,
+      "totalDays": 9.7,
       "soldCount": 4,
       "avgDaysToSell": 2.4
     },
@@ -13893,9 +13870,9 @@
       "soldAvg": 1600,
       "live": 4,
       "sellRate": 20,
-      "totalDays": 17.3,
+      "totalDays": 17.4,
       "soldCount": 1,
-      "avgDaysToSell": 17.3
+      "avgDaysToSell": 17.4
     },
     "Modulus|Modulus": {
       "brand": "Modulus",
@@ -14075,19 +14052,18 @@
       "brand": "ESP",
       "brandLine": "ESP Custom Shop",
       "tier": "ultra",
-      "count": 2,
-      "sum": 6830,
-      "avg": 3415,
+      "count": 1,
+      "sum": 3330,
+      "avg": 3330,
       "min": 3330,
-      "max": 3500,
-      "sold": 1,
-      "soldSum": 3499.99,
-      "soldAvg": 3500,
+      "max": 3330,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
       "live": 1,
-      "sellRate": 50,
-      "totalDays": 6.2,
-      "soldCount": 1,
-      "avgDaysToSell": 6.2
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
     },
     "ESP|LTD": {
       "brand": "ESP",
@@ -14438,14 +14414,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 81,
-    "totalOffers": 195,
+    "withOffers": 82,
+    "totalOffers": 200,
     "avgOffersPerListing": 2.4,
     "offersEnabledPct": 68
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 98
+    "avgShippingCost": 99
   },
   "watcherDemand": [
     {
@@ -14456,9 +14432,9 @@
     },
     {
       "label": "1–5",
-      "total": 20,
-      "sold": 5,
-      "rate": 25
+      "total": 19,
+      "sold": 4,
+      "rate": 21
     },
     {
       "label": "6–15",
@@ -14474,7 +14450,7 @@
     },
     {
       "label": "31+",
-      "total": 65,
+      "total": 66,
       "sold": 13,
       "rate": 20
     }
@@ -14482,8 +14458,8 @@
   "offersEffect": {
     "on": {
       "total": 191,
-      "sold": 51,
-      "rate": 27
+      "sold": 50,
+      "rate": 26
     },
     "off": {
       "total": 47,
@@ -14493,12 +14469,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 107,
-      "sold": 26,
+      "total": 106,
+      "sold": 25,
       "rate": 24
     },
     "regular": {
-      "total": 118,
+      "total": 119,
       "sold": 34,
       "rate": 29
     }
@@ -14518,9 +14494,9 @@
     },
     {
       "state": "WA",
-      "total": 15,
-      "sold": 4,
-      "rate": 27
+      "total": 14,
+      "sold": 3,
+      "rate": 21
     },
     {
       "state": "FL",
@@ -14601,6 +14577,12 @@
       "rate": 75
     },
     {
+      "state": "VA",
+      "total": 3,
+      "sold": 2,
+      "rate": 67
+    },
+    {
       "state": "SC",
       "total": 3,
       "sold": 3,
@@ -14677,12 +14659,6 @@
       "total": 2,
       "sold": 1,
       "rate": 50
-    },
-    {
-      "state": "VA",
-      "total": 2,
-      "sold": 2,
-      "rate": 100
     },
     {
       "state": "SOM",
