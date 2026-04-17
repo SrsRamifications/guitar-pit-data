@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T02:27:14.091Z",
+  "generatedAt": "2026-04-17T02:28:37.961Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,14 +7,14 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1198255.24,
+    "sum": 1198284.24,
     "avg": 3804,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 744628.25,
+    "sum": 744657.25,
     "avg": 2541,
     "min": 7,
     "max": 7900,
@@ -205,7 +205,7 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 590662.89,
+      "sum": 590691.89,
       "min": 7,
       "max": 47024,
       "avg": 3210
@@ -221,7 +221,7 @@
   "byCategory": {
     "reverb": {
       "count": 281,
-      "sum": 910765.36,
+      "sum": 910794.36,
       "min": 7,
       "max": 47024,
       "avg": 3241
@@ -237,7 +237,7 @@
   "byDomain": {
     "reverb.com": {
       "count": 281,
-      "sum": 910765.36,
+      "sum": 910794.36,
       "min": 7,
       "max": 47024,
       "avg": 3241
@@ -300,6 +300,37 @@
     }
   },
   "byModel": {
+    "eastman-e10oossv-antique-varnish": {
+      "displayName": "Eastman E10OOSS/V Antique Varnish OO model",
+      "brand": "Eastman",
+      "model": "E10OOSS/V Antique Varnish",
+      "variant": null,
+      "count": 1,
+      "sum": 1929,
+      "min": 1929,
+      "max": 1929,
+      "sightings": [
+        {
+          "price": 1929,
+          "date": "2026-04-17T02:28:24.668Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman E10OOSS/V Antique Varnish OO model",
+          "url": "https://reverb.com/item/95010180-eastman-e10ooss-v-antique-varnish-oo-model",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1929,
+          "min": 1929,
+          "max": 1929,
+          "avg": 1929
+        }
+      },
+      "avg": 1929
+    },
     "gibson-l-00": {
       "displayName": "Gibson L-00 Studio Walnut 2020 - 2024 - Walnut Burst",
       "brand": "Gibson",
@@ -6373,52 +6404,6 @@
       },
       "avg": 900
     },
-    "music-man-jp-ball-family-reserve": {
-      "displayName": "Ernie Ball Music Man Ball Family Reserve John Petrucci JPX6 Barolo 2010 w/OHSC",
-      "brand": "Music Man",
-      "model": "JP",
-      "variant": "Ball Family Reserve",
-      "count": 1,
-      "sum": 1900,
-      "min": 1900,
-      "max": 1900,
-      "sightings": [
-        {
-          "price": 1900,
-          "date": "2026-04-10T21:54:09.238Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ernie Ball Music Man Ball Family Reserve John Petrucci JPX6 Barolo 2010 w/OHSC",
-          "url": "https://reverb.com/item/95830142-ernie-ball-music-man-ball-family-reserve-john-petrucci-jpx6-barolo-2010-w-ohsc",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1900,
-          "min": 1900,
-          "max": 1900,
-          "avg": 1900
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1900,
-        "min": 1899.99,
-        "max": 1899.99,
-        "prices": [
-          {
-            "price": 1899.99,
-            "askingPrice": 1900,
-            "date": "2026-04-11T19:10:13.988Z",
-            "title": "Ernie Ball Music Man Ball Family Reserve John Petrucci JPX6 Barolo 2010 w/OHSC",
-            "url": "https://reverb.com/item/95830142-ernie-ball-music-man-ball-family-reserve-john-petrucci-jpx6-barolo-2010-w-ohsc"
-          }
-        ]
-      },
-      "avg": 1900
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10488,17 +10473,31 @@
     }
   },
   "byCondition": {
-    "Excellent": {
-      "count": 121,
-      "sum": 425400.73,
+    "Brand New": {
+      "count": 28,
+      "sum": 98018.11,
       "sold": {
-        "count": 39,
-        "sum": 136984.43,
-        "avg": 3512,
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 3501,
+      "min": 135,
+      "max": 11099
+    },
+    "Excellent": {
+      "count": 120,
+      "sum": 423500.73,
+      "sold": {
+        "count": 38,
+        "sum": 135084.44,
+        "avg": 3555,
         "min": 200,
         "max": 35900
       },
-      "avg": 3516,
+      "avg": 3529,
       "min": 200,
       "max": 35900
     },
@@ -10526,20 +10525,6 @@
       "avg": 7286,
       "min": 374.99,
       "max": 99000
-    },
-    "Brand New": {
-      "count": 27,
-      "sum": 96089.11,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 3559,
-      "min": 135,
-      "max": 11099
     },
     "Good": {
       "count": 36,
@@ -10776,6 +10761,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Eastman": {
+      "sum": 107,
+      "count": 6,
+      "avg": 18
+    },
     "Gibson": {
       "sum": 795,
       "count": 41,
@@ -10857,9 +10847,9 @@
       "avg": 1
     },
     "Music Man": {
-      "sum": 124,
-      "count": 7,
-      "avg": 18
+      "sum": 118,
+      "count": 6,
+      "avg": 20
     },
     "Navigator": {
       "sum": 1,
@@ -10885,11 +10875,6 @@
       "sum": 2,
       "count": 1,
       "avg": 2
-    },
-    "Eastman": {
-      "sum": 72,
-      "count": 5,
-      "avg": 14
     },
     "FGN": {
       "sum": 43,
@@ -11128,14 +11113,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-17": 4,
+    "2026-04-17": 5,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 32,
     "2026-04-13": 25,
     "2026-04-12": 14,
     "2026-04-11": 42,
-    "2026-04-10": 4,
+    "2026-04-10": 3,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11151,7 +11136,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 98
+      "count": 97
     },
     {
       "username": "Beijing Bob",
@@ -11175,7 +11160,7 @@
     },
     {
       "username": "Pabst Blue Wizard",
-      "count": 8
+      "count": 9
     },
     {
       "username": "Modean",
@@ -11248,17 +11233,17 @@
     }
   },
   "soldPrices": {
-    "count": 84,
-    "avg": 3323,
+    "count": 83,
+    "avg": 3340,
     "min": 200,
     "max": 35900,
     "avgDiscount": 7
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 650.1999999999999,
-      "count": 81,
-      "avgDays": 8
+      "totalDays": 649.3,
+      "count": 80,
+      "avgDays": 8.1
     },
     "byModel": {
       "charvel-music-zoo-exclusive-usa-custom-shop": {
@@ -11548,14 +11533,6 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
-      },
-      "music-man-jp-ball-family-reserve": {
-        "displayName": "Ernie Ball Music Man Ball Family Reserve John Petrucci JPX6 Barolo 2010 w/OHSC",
-        "totalDays": 0.9,
-        "count": 1,
-        "fastest": 0.9,
-        "slowest": 0.9,
-        "avgDays": 0.9
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11899,11 +11876,11 @@
         "avgDays": 0.7
       },
       "Music Man": {
-        "totalDays": 6.1000000000000005,
-        "count": 5,
+        "totalDays": 5.2,
+        "count": 4,
         "fastest": 0.1,
         "slowest": 4.7,
-        "avgDays": 1.2
+        "avgDays": 1.3
       },
       "PRS": {
         "totalDays": 6.2,
@@ -12268,13 +12245,21 @@
   "sellThrough": {
     "overall": {
       "total": 302,
-      "sold": 81,
+      "sold": 80,
       "fake": 0,
-      "live": 221,
-      "soldPct": 27,
-      "livePct": 73
+      "live": 222,
+      "soldPct": 26,
+      "livePct": 74
     },
     "byBrand": {
+      "Eastman": {
+        "total": 6,
+        "sold": 1,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 17,
+        "livePct": 83
+      },
       "Gibson": {
         "total": 51,
         "sold": 9,
@@ -12404,12 +12389,12 @@
         "livePct": 0
       },
       "Music Man": {
-        "total": 8,
-        "sold": 7,
+        "total": 7,
+        "sold": 6,
         "fake": 0,
         "live": 1,
-        "soldPct": 88,
-        "livePct": 13
+        "soldPct": 86,
+        "livePct": 14
       },
       "Navigator": {
         "total": 1,
@@ -12450,14 +12435,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Eastman": {
-        "total": 5,
-        "sold": 1,
-        "fake": 0,
-        "live": 4,
-        "soldPct": 20,
-        "livePct": 80
       },
       "FGN": {
         "total": 3,
@@ -12892,8 +12869,8 @@
       {
         "label": "$1k–2k",
         "total": 95,
-        "sold": 22,
-        "rate": 23
+        "sold": 21,
+        "rate": 22
       },
       {
         "label": "$2k–3k",
@@ -12921,9 +12898,14 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 28,
+        "sold": 2,
+        "rate": 7
+      },
       "Excellent": {
-        "total": 121,
-        "sold": 40,
+        "total": 120,
+        "sold": 39,
         "rate": 33
       },
       "Fair": {
@@ -12935,11 +12917,6 @@
         "total": 21,
         "sold": 3,
         "rate": 14
-      },
-      "Brand New": {
-        "total": 27,
-        "sold": 2,
-        "rate": 7
       },
       "Good": {
         "total": 36,
@@ -13481,6 +13458,24 @@
     ]
   },
   "byBrandLine": {
+    "Eastman|Eastman": {
+      "brand": "Eastman",
+      "brandLine": "Eastman",
+      "tier": "mid",
+      "count": 6,
+      "sum": 10705,
+      "avg": 1784,
+      "min": 1599,
+      "max": 2216,
+      "sold": 1,
+      "soldSum": 1600,
+      "soldAvg": 1600,
+      "live": 5,
+      "sellRate": 17,
+      "totalDays": 17.4,
+      "soldCount": 1,
+      "avgDaysToSell": 17.4
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13531,9 +13526,9 @@
       "soldAvg": 4647,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 90.2,
+      "totalDays": 90.3,
       "soldCount": 5,
-      "avgDaysToSell": 18
+      "avgDaysToSell": 18.1
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13832,24 +13827,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Eastman|Eastman": {
-      "brand": "Eastman",
-      "brandLine": "Eastman",
-      "tier": "mid",
-      "count": 5,
-      "sum": 8776,
-      "avg": 1755,
-      "min": 1599,
-      "max": 2216,
-      "sold": 1,
-      "soldSum": 1600,
-      "soldAvg": 1600,
-      "live": 4,
-      "sellRate": 20,
-      "totalDays": 17.4,
-      "soldCount": 1,
-      "avgDaysToSell": 17.4
     },
     "Modulus|Modulus": {
       "brand": "Modulus",
@@ -14198,24 +14175,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Music Man|Music Man BFR": {
-      "brand": "Music Man",
-      "brandLine": "Music Man BFR",
-      "tier": "ultra",
-      "count": 3,
-      "sum": 6698.99,
-      "avg": 2233,
-      "min": 1900,
-      "max": 2599,
-      "sold": 3,
-      "soldSum": 6698.98,
-      "soldAvg": 2233,
-      "live": 0,
-      "sellRate": 100,
-      "totalDays": 216.5,
-      "soldCount": 3,
-      "avgDaysToSell": 72.2
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -14301,6 +14260,24 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
+    },
+    "Music Man|Music Man BFR": {
+      "brand": "Music Man",
+      "brandLine": "Music Man BFR",
+      "tier": "ultra",
+      "count": 2,
+      "sum": 4798.99,
+      "avg": 2399,
+      "min": 2199.99,
+      "max": 2599,
+      "sold": 2,
+      "soldSum": 4798.99,
+      "soldAvg": 2399,
+      "live": 0,
+      "sellRate": 100,
+      "totalDays": 210.3,
+      "soldCount": 2,
+      "avgDaysToSell": 105.2
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -14409,9 +14386,9 @@
     },
     {
       "label": "1–5",
-      "total": 19,
+      "total": 20,
       "sold": 4,
-      "rate": 21
+      "rate": 20
     },
     {
       "label": "6–15",
@@ -14427,15 +14404,15 @@
     },
     {
       "label": "31+",
-      "total": 65,
-      "sold": 13,
-      "rate": 20
+      "total": 64,
+      "sold": 12,
+      "rate": 19
     }
   ],
   "offersEffect": {
     "on": {
       "total": 191,
-      "sold": 50,
+      "sold": 49,
       "rate": 26
     },
     "off": {
@@ -14447,8 +14424,8 @@
   "sellerType": {
     "preferred": {
       "total": 106,
-      "sold": 25,
-      "rate": 24
+      "sold": 24,
+      "rate": 23
     },
     "regular": {
       "total": 119,
@@ -14471,9 +14448,9 @@
     },
     {
       "state": "WA",
-      "total": 14,
-      "sold": 3,
-      "rate": 21
+      "total": 13,
+      "sold": 2,
+      "rate": 15
     },
     {
       "state": "FL",
@@ -14552,6 +14529,12 @@
       "total": 4,
       "sold": 3,
       "rate": 75
+    },
+    {
+      "state": "NH",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
     },
     {
       "state": "VA",
@@ -14648,12 +14631,6 @@
       "total": 2,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "NH",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
     },
     {
       "state": "RI",
