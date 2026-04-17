@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T17:02:32.905Z",
+  "generatedAt": "2026-04-17T17:09:03.760Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1217719.25,
-    "avg": 3866,
+    "sum": 1218388.25,
+    "avg": 3868,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 720913.26,
-    "avg": 2495,
+    "sum": 721582.26,
+    "avg": 2497,
     "min": 7,
     "max": 6999,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 7852,
+    "thresholdHigh": 7850,
     "thresholdLow": 0,
     "count": 26,
     "items": [
@@ -237,10 +237,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 610126.9,
+      "sum": 610795.9,
       "min": 7,
       "max": 47024,
-      "avg": 3316
+      "avg": 3320
     },
     "2026-03": {
       "count": 131,
@@ -251,35 +251,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 282,
+      "sum": 932878.36,
+      "min": 7,
+      "max": 47024,
+      "avg": 3308
+    },
     "marketplace": {
       "count": 33,
       "sum": 285509.89,
       "min": 139.99,
       "max": 99000,
       "avg": 8652
-    },
-    "reverb": {
-      "count": 282,
-      "sum": 932209.36,
-      "min": 7,
-      "max": 47024,
-      "avg": 3306
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 282,
+      "sum": 932878.36,
+      "min": 7,
+      "max": 47024,
+      "avg": 3308
+    },
     "guitarcenter.com": {
       "count": 11,
       "sum": 17032.9,
       "min": 139.99,
       "max": 3649.99,
       "avg": 1548
-    },
-    "reverb.com": {
-      "count": 282,
-      "sum": 932209.36,
-      "min": 7,
-      "max": 47024,
-      "avg": 3306
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -325,6 +325,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-standard-50s": {
+      "displayName": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "50s",
+      "count": 1,
+      "sum": 1999,
+      "min": 1999,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-04-17T17:08:50.314Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Standard '50s 2019 - Present - Tobacco Burst",
+          "url": "https://reverb.com/item/95695693-gibson-les-paul-standard-50s-2019-present-tobacco-burst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1999
+    },
     "rickenbacker-les-paul-traditional-satin": {
       "displayName": "Used 2020 Gibson Les Paul Traditional Pro V Mahogany satin Solid Body Electric Guitar Mahogany satin",
       "brand": "Rickenbacker",
@@ -6351,37 +6382,6 @@
       },
       "avg": 4400
     },
-    "gl-legacy-custom-shop": {
-      "displayName": "G&L Custom Shop Legacy",
-      "brand": "G&L",
-      "model": "Legacy",
-      "variant": "Custom Shop",
-      "count": 1,
-      "sum": 1330,
-      "min": 1330,
-      "max": 1330,
-      "sightings": [
-        {
-          "price": 1330,
-          "date": "2026-04-11T04:24:54.915Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "G&L Custom Shop Legacy",
-          "url": "https://reverb.com/item/95860692-g-l-custom-shop-legacy",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1330,
-          "min": 1330,
-          "max": 1330,
-          "avg": 1330
-        }
-      },
-      "avg": 1330
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10451,6 +10451,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 90,
+      "sum": 251590.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 52712.79,
+        "avg": 2292,
+        "min": 475,
+        "max": 4214
+      },
+      "avg": 2795,
+      "min": 7,
+      "max": 16500
+    },
     "Used": {
       "count": 20,
       "sum": 145349.9,
@@ -10461,20 +10475,6 @@
       "avg": 7267,
       "min": 139.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 90,
-      "sum": 250921.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 52712.79,
-        "avg": 2292,
-        "min": 475,
-        "max": 4214
-      },
-      "avg": 2788,
-      "min": 7,
-      "max": 16500
     },
     "Excellent": {
       "count": 123,
@@ -10569,7 +10569,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3316,
+      "avg": 3320,
       "count": 184
     },
     "03": {
@@ -10671,13 +10671,6 @@
       "date": "2026-04-12T17:09:46.899Z"
     },
     {
-      "title": "G&L Custom Shop Legacy",
-      "url": "https://reverb.com/item/95860692-g-l-custom-shop-legacy",
-      "oldPrice": "$1,400",
-      "newPrice": "$1,330",
-      "date": "2026-04-15T04:15:33.100Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10718,6 +10711,13 @@
       "oldPrice": "$5,000",
       "newPrice": "$4,250",
       "date": "2026-04-01T17:43:44.200Z"
+    },
+    {
+      "title": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
+      "url": "https://reverb.com/item/95516404",
+      "oldPrice": "$3,800",
+      "newPrice": "$3,600",
+      "date": "2026-04-04T03:37:48.990Z"
     }
   ],
   "priceDistribution": {
@@ -10739,6 +10739,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 776,
+      "count": 41,
+      "avg": 19
+    },
     "Rickenbacker": {
       "sum": 289,
       "count": 32,
@@ -10758,11 +10763,6 @@
       "sum": 258,
       "count": 15,
       "avg": 17
-    },
-    "Gibson": {
-      "sum": 763,
-      "count": 40,
-      "avg": 19
     },
     "Yamaha": {
       "sum": 106,
@@ -10984,11 +10984,6 @@
       "count": 1,
       "avg": 27
     },
-    "G&L": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 20,
       "count": 1,
@@ -11106,13 +11101,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-17": 22,
+    "2026-04-17": 23,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 29,
+    "2026-04-11": 28,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11121,14 +11116,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 38,
-    "reverb": 282
+    "reverb": 282,
+    "marketplace": 38
   },
   "activeModelsCount": 278,
   "topPosters": [
     {
       "username": "GP",
-      "count": 99
+      "count": 98
     },
     {
       "username": "Beijing Bob",
@@ -11148,7 +11143,7 @@
     },
     {
       "username": "Madero",
-      "count": 12
+      "count": 13
     },
     {
       "username": "Modean",
@@ -11169,7 +11164,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3316,
+    "avg": 3320,
     "pctBelowAvg": 14,
     "count": 184
   },
@@ -11182,10 +11177,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 3347,
+      "avgPrice": 3319,
       "retailEst": 800,
-      "avgDiscount": -318.3,
-      "count": 47
+      "avgDiscount": -314.8,
+      "count": 48
     },
     "PRS": {
       "avgPrice": 4063,
@@ -12089,9 +12084,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1289.2104410287736,
-      "count": 74,
-      "avgPctDrop": 17.4
+      "totalPctDrop": 1277.8771076954404,
+      "count": 73,
+      "avgPctDrop": 17.5
     },
     "byBrand": {
       "PRS": {
@@ -12209,11 +12204,6 @@
         "count": 1,
         "avgPctDrop": 13.6
       },
-      "G&L": {
-        "totalPctDrop": 11.333333333333332,
-        "count": 1,
-        "avgPctDrop": 11.3
-      },
       "Ibanez": {
         "totalPctDrop": 49.92401215805471,
         "count": 2,
@@ -12266,6 +12256,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 50,
+        "sold": 9,
+        "fake": 0,
+        "live": 41,
+        "soldPct": 18,
+        "livePct": 82
+      },
       "Rickenbacker": {
         "total": 34,
         "sold": 6,
@@ -12297,14 +12295,6 @@
         "live": 10,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Gibson": {
-        "total": 49,
-        "sold": 9,
-        "fake": 0,
-        "live": 40,
-        "soldPct": 18,
-        "livePct": 82
       },
       "Yamaha": {
         "total": 4,
@@ -12682,14 +12672,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "G&L": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12928,15 +12910,15 @@
       }
     ],
     "byCondition": {
-      "Used": {
-        "total": 20,
-        "sold": 3,
-        "rate": 15
-      },
       "Very Good": {
         "total": 90,
         "sold": 25,
         "rate": 28
+      },
+      "Used": {
+        "total": 20,
+        "sold": 3,
+        "rate": 15
       },
       "Excellent": {
         "total": 123,
@@ -13488,6 +13470,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 38,
+      "sum": 103368.98999999999,
+      "avg": 2720,
+      "min": 135,
+      "max": 9600,
+      "sold": 4,
+      "soldSum": 9100,
+      "soldAvg": 2275,
+      "live": 34,
+      "sellRate": 11,
+      "totalDays": 55.5,
+      "soldCount": 4,
+      "avgDaysToSell": 13.9
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -13646,24 +13646,6 @@
       "soldCount": 1,
       "avgDaysToSell": 18
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 37,
-      "sum": 101369.98999999999,
-      "avg": 2740,
-      "min": 135,
-      "max": 9600,
-      "sold": 4,
-      "soldSum": 9100,
-      "soldAvg": 2275,
-      "live": 33,
-      "sellRate": 11,
-      "totalDays": 55.5,
-      "soldCount": 4,
-      "avgDaysToSell": 13.9
-    },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
       "brandLine": "Charvel USA Custom Shop",
@@ -13766,7 +13748,7 @@
       "soldAvg": 1568,
       "live": 4,
       "sellRate": 60,
-      "totalDays": 91,
+      "totalDays": 91.1,
       "soldCount": 6,
       "avgDaysToSell": 15.2
     },
@@ -13853,9 +13835,9 @@
       "soldAvg": 3999,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 239.8,
+      "totalDays": 239.9,
       "soldCount": 1,
-      "avgDaysToSell": 239.8
+      "avgDaysToSell": 239.9
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -14222,23 +14204,6 @@
       "soldCount": 1,
       "avgDaysToSell": 5.7
     },
-    "G&L|G&L USA": {
-      "brand": "G&L",
-      "brandLine": "G&L USA",
-      "tier": "high",
-      "count": 1,
-      "sum": 1330,
-      "avg": 1330,
-      "min": 1330,
-      "max": 1330,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -14432,14 +14397,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 83,
-    "totalOffers": 207,
+    "withOffers": 84,
+    "totalOffers": 208,
     "avgOffersPerListing": 2.5,
     "offersEnabledPct": 69
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 100
   },
   "watcherDemand": [
     {
@@ -14456,15 +14421,15 @@
     },
     {
       "label": "6–15",
-      "total": 69,
+      "total": 70,
       "sold": 17,
-      "rate": 25
+      "rate": 24
     },
     {
       "label": "16–30",
-      "total": 68,
+      "total": 67,
       "sold": 22,
-      "rate": 32
+      "rate": 33
     },
     {
       "label": "31+",
@@ -14487,12 +14452,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 105,
+      "total": 104,
       "sold": 25,
       "rate": 24
     },
     "regular": {
-      "total": 121,
+      "total": 122,
       "sold": 35,
       "rate": 29
     }
@@ -14500,15 +14465,15 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 30,
+      "total": 29,
       "sold": 10,
-      "rate": 33
+      "rate": 34
     },
     {
       "state": "TX",
-      "total": 15,
+      "total": 16,
       "sold": 5,
-      "rate": 33
+      "rate": 31
     },
     {
       "state": "WA",
