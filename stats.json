@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T21:00:44.363Z",
+  "generatedAt": "2026-04-17T21:27:36.496Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1211430.25,
-    "avg": 3846,
+    "sum": 1213079.25,
+    "avg": 3851,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 290,
-    "sum": 724224.26,
-    "avg": 2497,
+    "sum": 725873.26,
+    "avg": 2503,
     "min": 7,
     "max": 6999,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 7852,
+    "thresholdHigh": 7850,
     "thresholdLow": 0,
     "count": 25,
     "items": [
@@ -229,10 +229,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 603837.9,
+      "sum": 605486.9,
       "min": 7,
       "max": 47024,
-      "avg": 3282
+      "avg": 3291
     },
     "2026-03": {
       "count": 131,
@@ -243,28 +243,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 282,
-      "sum": 925920.36,
-      "min": 7,
-      "max": 47024,
-      "avg": 3283
-    },
     "marketplace": {
-      "count": 33,
-      "sum": 285509.89,
+      "count": 34,
+      "sum": 288108.89,
       "min": 139.99,
       "max": 99000,
-      "avg": 8652
+      "avg": 8474
+    },
+    "reverb": {
+      "count": 281,
+      "sum": 924970.36,
+      "min": 7,
+      "max": 47024,
+      "avg": 3292
     }
   },
   "byDomain": {
+    "gibson.com": {
+      "count": 1,
+      "sum": 2599,
+      "min": 2599,
+      "max": 2599,
+      "avg": 2599
+    },
     "reverb.com": {
-      "count": 282,
-      "sum": 925920.36,
+      "count": 281,
+      "sum": 924970.36,
       "min": 7,
       "max": 47024,
-      "avg": 3283
+      "avg": 3292
     },
     "guitarcenter.com": {
       "count": 11,
@@ -317,6 +324,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-standard-60s": {
+      "displayName": "Gibson Les Paul Standard 60s, Dark Walnut, Exclusive",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "60s",
+      "count": 1,
+      "sum": 2599,
+      "min": 2599,
+      "max": 2599,
+      "sightings": [
+        {
+          "price": 2599,
+          "date": "2026-04-17T21:27:20.609Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Standard 60s, Dark Walnut, Exclusive",
+          "url": "https://www.gibson.com/products/gibson-les-paul-standard-60s-plain-top-exclusive-dark-walnut?variant=44236822839475&gad_source=4&gad_campaignid=22233952483&gbraid=0AAAAABmT-XFJo1JZpTUgehQgUxzSfLjW_",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 2599,
+          "min": 2599,
+          "max": 2599,
+          "avg": 2599
+        }
+      },
+      "avg": 2599
+    },
     "charvel-pt-so-cal": {
       "displayName": "Charvel Pro Mod So-Cal Style SC2 2H 24 2PT BODY & HARDWARE Gotoh 510 Natural Ash",
       "brand": "Charvel",
@@ -6343,52 +6381,6 @@
       },
       "avg": 1400
     },
-    "gibson-les-paul-studio": {
-      "displayName": "Gibson Les Paul Studio Faded T 2016 - Worn Brown",
-      "brand": "Gibson",
-      "model": "Les Paul Studio",
-      "variant": null,
-      "count": 1,
-      "sum": 950,
-      "min": 950,
-      "max": 950,
-      "sightings": [
-        {
-          "price": 950,
-          "date": "2026-04-11T05:32:59.034Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Studio Faded T 2016 - Worn Brown",
-          "url": "https://reverb.com/item/95649346-gibson-les-paul-studio-faded-t-2016-worn-brown",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 950,
-          "min": 950,
-          "max": 950,
-          "avg": 950
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 950,
-        "min": 950,
-        "max": 950,
-        "prices": [
-          {
-            "price": 950,
-            "askingPrice": 950,
-            "date": "2026-04-13T13:10:15.028Z",
-            "title": "Gibson Les Paul Studio Faded T 2016 - Worn Brown",
-            "url": "https://reverb.com/item/95649346-gibson-les-paul-studio-faded-t-2016-worn-brown"
-          }
-        ]
-      },
-      "avg": 950
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10459,16 +10451,16 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 123,
-      "sum": 439596.73,
+      "count": 122,
+      "sum": 438646.73,
       "sold": {
-        "count": 40,
-        "sum": 137133.43,
-        "avg": 3428,
+        "count": 39,
+        "sum": 136183.43,
+        "avg": 3492,
         "min": 200,
         "max": 35900
       },
-      "avg": 3574,
+      "avg": 3595,
       "min": 200,
       "max": 35900
     },
@@ -10576,7 +10568,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3282,
+      "avg": 3291,
       "count": 184
     },
     "03": {
@@ -10729,32 +10721,32 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 17,
+    "500-1k": 16,
     "1k-2k": 93,
-    "2k-3k": 82,
+    "2k-3k": 83,
     "3k-5k": 65,
     "5k-10k": 30,
     "10k+": 14
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 17,
+    "500-1k": 16,
     "1k-2k": 93,
-    "2k-3k": 82,
+    "2k-3k": 83,
     "3k-5k": 65,
     "5k-10k": 19,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 795,
+      "count": 41,
+      "avg": 19
+    },
     "Charvel": {
       "sum": 117,
       "count": 5,
       "avg": 23
-    },
-    "Gibson": {
-      "sum": 809,
-      "count": 41,
-      "avg": 20
     },
     "Rickenbacker": {
       "sum": 294,
@@ -11108,13 +11100,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-17": 25,
+    "2026-04-17": 26,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 26,
+    "2026-04-11": 25,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11123,8 +11115,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 282,
-    "marketplace": 38
+    "marketplace": 39,
+    "reverb": 281
   },
   "activeModelsCount": 278,
   "topPosters": [
@@ -11171,7 +11163,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3282,
+    "avg": 3291,
     "pctBelowAvg": 15,
     "count": 184
   },
@@ -11184,9 +11176,9 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 3238,
+      "avgPrice": 3273,
       "retailEst": 800,
-      "avgDiscount": -304.7,
+      "avgDiscount": -309.1,
       "count": 47
     },
     "PRS": {
@@ -11227,16 +11219,16 @@
     }
   },
   "soldPrices": {
-    "count": 85,
-    "avg": 3265,
+    "count": 84,
+    "avg": 3293,
     "min": 200,
     "max": 35900,
     "avgDiscount": 7
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 656.4,
-      "count": 82,
+      "totalDays": 646.8,
+      "count": 81,
       "avgDays": 8
     },
     "byModel": {
@@ -11535,14 +11527,6 @@
         "fastest": 0.4,
         "slowest": 0.4,
         "avgDays": 0.4
-      },
-      "gibson-les-paul-studio": {
-        "displayName": "Gibson Les Paul Studio Faded T 2016 - Worn Brown",
-        "totalDays": 9.6,
-        "count": 1,
-        "fastest": 9.6,
-        "slowest": 9.6,
-        "avgDays": 9.6
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11872,11 +11856,11 @@
         "avgDays": 0.6
       },
       "Gibson": {
-        "totalDays": 79.3,
-        "count": 9,
+        "totalDays": 69.7,
+        "count": 8,
         "fastest": 0,
         "slowest": 44,
-        "avgDays": 8.8
+        "avgDays": 8.7
       },
       "Kiesel": {
         "totalDays": 34.5,
@@ -12271,13 +12255,21 @@
   "sellThrough": {
     "overall": {
       "total": 300,
-      "sold": 82,
+      "sold": 81,
       "fake": 0,
-      "live": 218,
+      "live": 219,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 49,
+        "sold": 8,
+        "fake": 0,
+        "live": 41,
+        "soldPct": 16,
+        "livePct": 84
+      },
       "Charvel": {
         "total": 5,
         "sold": 2,
@@ -12285,14 +12277,6 @@
         "live": 3,
         "soldPct": 40,
         "livePct": 60
-      },
-      "Gibson": {
-        "total": 49,
-        "sold": 9,
-        "fake": 0,
-        "live": 40,
-        "soldPct": 18,
-        "livePct": 82
       },
       "Rickenbacker": {
         "total": 34,
@@ -12896,9 +12880,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 17,
-        "sold": 4,
-        "rate": 24
+        "total": 16,
+        "sold": 3,
+        "rate": 19
       },
       {
         "label": "$1k–2k",
@@ -12908,7 +12892,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 82,
+        "total": 83,
         "sold": 23,
         "rate": 28
       },
@@ -12933,8 +12917,8 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 123,
-        "sold": 41,
+        "total": 122,
+        "sold": 40,
         "rate": 33
       },
       "Good": {
@@ -13492,6 +13476,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 37,
+      "sum": 95417.98999999999,
+      "avg": 2579,
+      "min": 135,
+      "max": 7900,
+      "sold": 3,
+      "soldSum": 8150,
+      "soldAvg": 2717,
+      "live": 34,
+      "sellRate": 8,
+      "totalDays": 42.3,
+      "soldCount": 3,
+      "avgDaysToSell": 14.1
+    },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
       "brandLine": "Charvel Pro-Mod",
@@ -13506,9 +13508,9 @@
       "soldAvg": 4778,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 17.9,
+      "totalDays": 18,
       "soldCount": 1,
-      "avgDaysToSell": 17.9
+      "avgDaysToSell": 18
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13528,24 +13530,6 @@
       "soldCount": 5,
       "avgDaysToSell": 18.8
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 37,
-      "sum": 93768.98999999999,
-      "avg": 2534,
-      "min": 135,
-      "max": 7900,
-      "sold": 4,
-      "soldSum": 9100,
-      "soldAvg": 2275,
-      "live": 33,
-      "sellRate": 11,
-      "totalDays": 56.1,
-      "soldCount": 4,
-      "avgDaysToSell": 14
-    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -13560,7 +13544,7 @@
       "soldAvg": 3558,
       "live": 9,
       "sellRate": 40,
-      "totalDays": 87,
+      "totalDays": 87.1,
       "soldCount": 6,
       "avgDaysToSell": 14.5
     },
@@ -13578,7 +13562,7 @@
       "soldAvg": 3146,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 57.2,
+      "totalDays": 57.3,
       "soldCount": 4,
       "avgDaysToSell": 14.3
     },
@@ -13596,9 +13580,9 @@
       "soldAvg": 4500,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 19.2,
+      "totalDays": 19.3,
       "soldCount": 1,
-      "avgDaysToSell": 19.2
+      "avgDaysToSell": 19.3
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -13736,7 +13720,7 @@
       "soldAvg": 19130,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 46.7,
+      "totalDays": 46.8,
       "soldCount": 3,
       "avgDaysToSell": 15.6
     },
@@ -13910,9 +13894,9 @@
       "soldAvg": 2400,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 2,
+      "totalDays": 2.1,
       "soldCount": 1,
-      "avgDaysToSell": 2
+      "avgDaysToSell": 2.1
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -13928,7 +13912,7 @@
       "soldAvg": 2449,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 102.8,
+      "totalDays": 102.89999999999999,
       "soldCount": 4,
       "avgDaysToSell": 25.7
     },
@@ -14170,7 +14154,7 @@
       "soldAvg": 2098,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 40.7,
+      "totalDays": 40.8,
       "soldCount": 3,
       "avgDaysToSell": 13.6
     },
@@ -14362,9 +14346,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 18,
+      "totalDays": 18.1,
       "soldCount": 1,
-      "avgDaysToSell": 18
+      "avgDaysToSell": 18.1
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -14449,9 +14433,9 @@
     },
     {
       "label": "16–30",
-      "total": 68,
-      "sold": 23,
-      "rate": 34
+      "total": 67,
+      "sold": 22,
+      "rate": 33
     },
     {
       "label": "31+",
@@ -14462,8 +14446,8 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 193,
-      "sold": 52,
+      "total": 192,
+      "sold": 51,
       "rate": 27
     },
     "off": {
@@ -14479,9 +14463,9 @@
       "rate": 24
     },
     "regular": {
-      "total": 121,
-      "sold": 36,
-      "rate": 30
+      "total": 120,
+      "sold": 35,
+      "rate": 29
     }
   },
   "geoSellThrough": [
@@ -14570,12 +14554,6 @@
       "rate": 25
     },
     {
-      "state": "MI",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
-    },
-    {
       "state": "NC",
       "total": 4,
       "sold": 1,
@@ -14604,6 +14582,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "MI",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "VA",
