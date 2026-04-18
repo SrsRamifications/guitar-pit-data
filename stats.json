@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T16:46:29.792Z",
+  "generatedAt": "2026-04-18T16:49:53.377Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1228334.18,
-    "avg": 3887,
+    "sum": 1229139.17,
+    "avg": 3890,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 292,
-    "sum": 746652.19,
-    "avg": 2557,
+    "sum": 747457.18,
+    "avg": 2560,
     "min": 7,
     "max": 6999,
     "median": 2290
@@ -221,10 +221,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 620741.83,
+      "sum": 621546.82,
       "min": 7,
       "max": 47042,
-      "avg": 3355
+      "avg": 3360
     },
     "2026-03": {
       "count": 131,
@@ -237,10 +237,10 @@
   "byCategory": {
     "marketplace": {
       "count": 44,
-      "sum": 330944.82,
+      "sum": 331749.81,
       "min": 139.99,
       "max": 99000,
-      "avg": 7521
+      "avg": 7540
     },
     "reverb": {
       "count": 272,
@@ -251,6 +251,13 @@
     }
   },
   "byDomain": {
+    "tapestrymusic.com": {
+      "count": 2,
+      "sum": 15494.99,
+      "min": 4999.99,
+      "max": 10495,
+      "avg": 7747
+    },
     "guitarcenter.com": {
       "count": 18,
       "sum": 32583.83,
@@ -259,11 +266,11 @@
       "avg": 1810
     },
     "chicagomusicexchange.com": {
-      "count": 20,
-      "sum": 268068.99,
+      "count": 19,
+      "sum": 263873.99,
       "min": 1599,
       "max": 99000,
-      "avg": 13403
+      "avg": 13888
     },
     "reverb.com": {
       "count": 272,
@@ -285,13 +292,6 @@
       "min": 1375,
       "max": 1375,
       "avg": 1375
-    },
-    "tapestrymusic.com": {
-      "count": 1,
-      "sum": 10495,
-      "min": 10495,
-      "max": 10495,
-      "avg": 10495
     },
     "wildwoodguitars.com": {
       "count": 1,
@@ -316,6 +316,46 @@
     }
   },
   "byModel": {
+    "gibson-les-paul": {
+      "displayName": "Gibson Les Paul LP-295 Guitar of the Month USED | Tapestry Music",
+      "brand": "Gibson",
+      "model": "Les Paul",
+      "variant": null,
+      "count": 2,
+      "sum": 6374.99,
+      "min": 1375,
+      "max": 4999.99,
+      "sightings": [
+        {
+          "price": 1375,
+          "date": "2026-04-16T14:19:18.820Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Studio Les Paul & Roland GR-55 Synth Guitar - musical instruments - by owner - sale - craigslist",
+          "url": "https://losangeles.craigslist.org/sfv/msg/d/tarzana-gibson-studio-les-paul-roland/7926480589.html",
+          "condition": null
+        },
+        {
+          "price": 4999.99,
+          "date": "2026-04-18T16:49:39.014Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul LP-295 Guitar of the Month USED | Tapestry Music",
+          "url": "https://www.tapestrymusic.com/p-25061-gibson-les-paul-lp-295-guitar-of-the-month-used.aspx",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 2,
+          "sum": 6374.99,
+          "min": 1375,
+          "max": 4999.99,
+          "avg": 3187
+        }
+      },
+      "avg": 3187
+    },
     "rickenbacker-prs-mcarty-solid": {
       "displayName": "Used PRS mcarty 594 Black Solid Body Electric Guitar Black",
       "brand": "Rickenbacker",
@@ -1962,37 +2002,6 @@
         }
       },
       "avg": 2963
-    },
-    "gibson-les-paul": {
-      "displayName": "Gibson Studio Les Paul & Roland GR-55 Synth Guitar - musical instruments - by owner - sale - craigslist",
-      "brand": "Gibson",
-      "model": "Les Paul",
-      "variant": null,
-      "count": 1,
-      "sum": 1375,
-      "min": 1375,
-      "max": 1375,
-      "sightings": [
-        {
-          "price": 1375,
-          "date": "2026-04-16T14:19:18.820Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Studio Les Paul & Roland GR-55 Synth Guitar - musical instruments - by owner - sale - craigslist",
-          "url": "https://losangeles.craigslist.org/sfv/msg/d/tarzana-gibson-studio-les-paul-roland/7926480589.html",
-          "condition": null
-        }
-      ],
-      "byCondition": {
-        "Unknown": {
-          "count": 1,
-          "sum": 1375,
-          "min": 1375,
-          "max": 1375,
-          "avg": 1375
-        }
-      },
-      "avg": 1375
     },
     "fender-jaguar-baritone": {
       "displayName": "Fender Jaguar Baritone Custom 2004 - 2006 Sunburst",
@@ -6319,20 +6328,11 @@
       "brand": "Echopark",
       "model": "Esperanto",
       "variant": null,
-      "count": 2,
-      "sum": 9690,
-      "min": 4195,
+      "count": 1,
+      "sum": 5495,
+      "min": 5495,
       "max": 5495,
       "sightings": [
-        {
-          "price": 4195,
-          "date": "2026-04-11T18:50:51.138Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Echopark Esperanto 313 Red Sunburst",
-          "url": "https://www.chicagomusicexchange.com/collections/echopark/products/echopark-esperanto-313-red-sunburst-2532135",
-          "condition": "Used"
-        },
         {
           "price": 5495,
           "date": "2026-04-11T19:59:35.937Z",
@@ -6350,19 +6350,12 @@
           "min": 5495,
           "max": 5495,
           "avg": 5495
-        },
-        "Used": {
-          "count": 1,
-          "sum": 4195,
-          "min": 4195,
-          "max": 4195,
-          "avg": 4195
         }
       },
       "soldData": {
-        "count": 2,
-        "avg": 4845,
-        "min": 4195,
+        "count": 1,
+        "avg": 5495,
+        "min": 5495,
         "max": 5495,
         "prices": [
           {
@@ -6371,17 +6364,10 @@
             "date": "2026-04-11T19:59:35.937Z",
             "title": "Echopark Esperanto Custom Black USED",
             "url": "https://reverb.com/item/35812704-echopark-esperanto-custom-black-used"
-          },
-          {
-            "price": 4195,
-            "askingPrice": 4195,
-            "date": "2026-04-11T21:14:19.886Z",
-            "title": "Echopark Esperanto 313 Red Sunburst",
-            "url": "https://www.chicagomusicexchange.com/collections/echopark/products/echopark-esperanto-313-red-sunburst-2532135"
           }
         ]
       },
-      "avg": 4845
+      "avg": 5495
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -10484,13 +10470,13 @@
   },
   "byCondition": {
     "Used": {
-      "count": 27,
-      "sum": 160900.83,
+      "count": 26,
+      "sum": 156705.83,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 5959,
+      "avg": 6027,
       "min": 139.99,
       "max": 99000
     },
@@ -10601,7 +10587,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3355,
+      "avg": 3360,
       "count": 185
     },
     "03": {
@@ -10771,6 +10757,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 825,
+      "count": 43,
+      "avg": 19
+    },
     "Rickenbacker": {
       "sum": 293,
       "count": 37,
@@ -10781,14 +10772,9 @@
       "count": 12,
       "avg": 15
     },
-    "Gibson": {
-      "sum": 825,
-      "count": 42,
-      "avg": 20
-    },
     "Echopark": {
-      "sum": 77,
-      "count": 8,
+      "sum": 70,
+      "count": 7,
       "avg": 10
     },
     "Anderson": {
@@ -11133,14 +11119,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 17,
+    "2026-04-18": 18,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 6,
+    "2026-04-11": 5,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11168,7 +11154,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 24
+      "count": 23
     },
     {
       "username": "YellowJack6",
@@ -11191,13 +11177,13 @@
       "count": 9
     },
     {
-      "username": "ᜁᜃ᜔ᜐᜒᜇᜒᜂᜐ᜔",
+      "username": "jazee_",
       "count": 6
     }
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3355,
+    "avg": 3360,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11210,10 +11196,10 @@
       "count": 14
     },
     "Gibson": {
-      "avgPrice": 3436,
+      "avgPrice": 3468,
       "retailEst": 800,
-      "avgDiscount": -329.5,
-      "count": 47
+      "avgDiscount": -333.5,
+      "count": 48
     },
     "PRS": {
       "avgPrice": 3852,
@@ -11239,12 +11225,6 @@
       "avgDiscount": -62.3,
       "count": 12
     },
-    "Echopark": {
-      "avgPrice": 3759,
-      "retailEst": 2500,
-      "avgDiscount": -50.4,
-      "count": 10
-    },
     "BC Rich": {
       "avgPrice": 2741,
       "retailEst": 200,
@@ -11259,17 +11239,17 @@
     }
   },
   "soldPrices": {
-    "count": 84,
-    "avg": 3262,
+    "count": 83,
+    "avg": 3250,
     "min": 200,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 628.4000000000001,
-      "count": 80,
-      "avgDays": 7.9
+      "totalDays": 628.3000000000001,
+      "count": 79,
+      "avgDays": 8
     },
     "byModel": {
       "gibson-les-paul-standard-60s": {
@@ -11551,14 +11531,6 @@
         "fastest": 2.3,
         "slowest": 3.1,
         "avgDays": 2.7
-      },
-      "echopark-esperanto": {
-        "displayName": "Echopark Esperanto 313 Red Sunburst",
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -12006,13 +11978,6 @@
         "slowest": 3.1,
         "avgDays": 1.7
       },
-      "Echopark": {
-        "totalDays": 1.9000000000000001,
-        "count": 2,
-        "fastest": 0.1,
-        "slowest": 1.8,
-        "avgDays": 1
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -12068,6 +12033,13 @@
         "fastest": 12.6,
         "slowest": 12.6,
         "avgDays": 12.6
+      },
+      "Echopark": {
+        "totalDays": 1.8,
+        "count": 1,
+        "fastest": 1.8,
+        "slowest": 1.8,
+        "avgDays": 1.8
       },
       "Tokai": {
         "totalDays": 121.4,
@@ -12273,13 +12245,21 @@
   "sellThrough": {
     "overall": {
       "total": 301,
-      "sold": 81,
+      "sold": 80,
       "fake": 0,
-      "live": 220,
+      "live": 221,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 50,
+        "sold": 9,
+        "fake": 0,
+        "live": 41,
+        "soldPct": 18,
+        "livePct": 82
+      },
       "Rickenbacker": {
         "total": 39,
         "sold": 6,
@@ -12296,21 +12276,13 @@
         "soldPct": 27,
         "livePct": 73
       },
-      "Gibson": {
-        "total": 49,
-        "sold": 9,
-        "fake": 0,
-        "live": 40,
-        "soldPct": 18,
-        "livePct": 82
-      },
       "Echopark": {
-        "total": 10,
-        "sold": 3,
+        "total": 9,
+        "sold": 2,
         "fake": 0,
         "live": 7,
-        "soldPct": 30,
-        "livePct": 70
+        "soldPct": 22,
+        "livePct": 78
       },
       "Anderson": {
         "total": 3,
@@ -12909,8 +12881,8 @@
       {
         "label": "$3k–5k",
         "total": 61,
-        "sold": 22,
-        "rate": 36
+        "sold": 21,
+        "rate": 34
       },
       {
         "label": "$5k–10k",
@@ -12927,9 +12899,9 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 27,
-        "sold": 3,
-        "rate": 11
+        "total": 26,
+        "sold": 2,
+        "rate": 8
       },
       "Good": {
         "total": 36,
@@ -13479,6 +13451,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 37,
+      "sum": 101969.98,
+      "avg": 2756,
+      "min": 135,
+      "max": 7900,
+      "sold": 4,
+      "soldSum": 8399,
+      "soldAvg": 2100,
+      "live": 33,
+      "sellRate": 11,
+      "totalDays": 77.3,
+      "soldCount": 4,
+      "avgDaysToSell": 19.3
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -13497,41 +13487,23 @@
       "soldCount": 3,
       "avgDaysToSell": 16.4
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 36,
-      "sum": 96969.98999999999,
-      "avg": 2694,
-      "min": 135,
-      "max": 7900,
-      "sold": 4,
-      "soldSum": 8399,
-      "soldAvg": 2100,
-      "live": 32,
-      "sellRate": 11,
-      "totalDays": 77.3,
-      "soldCount": 4,
-      "avgDaysToSell": 19.3
-    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
       "tier": "premium",
-      "count": 9,
-      "sum": 33943,
-      "avg": 3771,
+      "count": 8,
+      "sum": 29748,
+      "avg": 3719,
       "min": 2799,
       "max": 6200,
-      "sold": 3,
-      "soldSum": 13289,
-      "soldAvg": 4430,
+      "sold": 2,
+      "soldSum": 9094,
+      "soldAvg": 4547,
       "live": 6,
-      "sellRate": 33,
-      "totalDays": 26.700000000000003,
-      "soldCount": 3,
-      "avgDaysToSell": 8.9
+      "sellRate": 25,
+      "totalDays": 19.8,
+      "soldCount": 2,
+      "avgDaysToSell": 9.9
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
