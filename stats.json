@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T16:37:01.883Z",
+  "generatedAt": "2026-04-18T16:40:10.194Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1227084.2,
+    "sum": 1226934.19,
     "avg": 3883,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 753302.21,
-    "avg": 2571,
+    "sum": 753152.2,
+    "avg": 2570,
     "min": 7,
     "max": 7900,
     "median": 2284.16
@@ -213,10 +213,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 619491.85,
+      "sum": 619341.84,
       "min": 7,
       "max": 47042,
-      "avg": 3349
+      "avg": 3348
     },
     "2026-03": {
       "count": 131,
@@ -228,27 +228,27 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 42,
-      "sum": 326344.84,
+      "count": 43,
+      "sum": 328044.83,
       "min": 139.99,
       "max": 99000,
-      "avg": 7770
+      "avg": 7629
     },
     "reverb": {
-      "count": 274,
-      "sum": 900739.36,
+      "count": 273,
+      "sum": 898889.36,
       "min": 7,
       "max": 47042,
-      "avg": 3287
+      "avg": 3293
     }
   },
   "byDomain": {
     "guitarcenter.com": {
-      "count": 16,
-      "sum": 27983.85,
+      "count": 17,
+      "sum": 29683.84,
       "min": 139.99,
       "max": 5499.99,
-      "avg": 1749
+      "avg": 1746
     },
     "chicagomusicexchange.com": {
       "count": 20,
@@ -258,11 +258,11 @@
       "avg": 13403
     },
     "reverb.com": {
-      "count": 274,
-      "sum": 900739.36,
+      "count": 273,
+      "sum": 898889.36,
       "min": 7,
       "max": 47042,
-      "avg": 3287
+      "avg": 3293
     },
     "gibson.com": {
       "count": 1,
@@ -308,6 +308,37 @@
     }
   },
   "byModel": {
+    "fender-tone-master-100w": {
+      "displayName": "Used Fender Tone Master 100W Tube Guitar Amp Head",
+      "brand": "Fender",
+      "model": "Tone Master 100W",
+      "variant": null,
+      "count": 1,
+      "sum": 1699.99,
+      "min": 1699.99,
+      "max": 1699.99,
+      "sightings": [
+        {
+          "price": 1699.99,
+          "date": "2026-04-18T16:39:55.485Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Fender Tone Master 100W Tube Guitar Amp Head",
+          "url": "https://www.guitarcenter.com/Used/Fender/Used-Fender-Tone-Master-100W-Tube-Guitar-Amp-Head-122182777.gc?algoliaQueryID=5c2afaa52b3b19f1f512704a587a93dc&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1699.99,
+          "min": 1699.99,
+          "max": 1699.99,
+          "avg": 1700
+        }
+      },
+      "avg": 1700
+    },
     "rickenbacker-pelliccia-tango-mottled": {
       "displayName": "Used Pelliccia Tango I Mottled Foil Solid Body Electric Guitar Mottled Foil",
       "brand": "Rickenbacker",
@@ -6344,37 +6375,6 @@
       },
       "avg": 1500
     },
-    "charvel-model-hss-with-hss": {
-      "displayName": "Charvel Model 6 HSS with Rosewood Fretboard 1986 - 1989 - Pearl White",
-      "brand": "Charvel",
-      "model": "Model HSS with",
-      "variant": "Hss",
-      "count": 1,
-      "sum": 1850,
-      "min": 1850,
-      "max": 1850,
-      "sightings": [
-        {
-          "price": 1850,
-          "date": "2026-04-11T18:38:41.169Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Charvel Model 6 HSS with Rosewood Fretboard 1986 - 1989 - Pearl White",
-          "url": "https://reverb.com/item/94257834-charvel-model-6-hss-with-rosewood-fretboard-1986-1989-pearl-white",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1850,
-          "min": 1850,
-          "max": 1850,
-          "avg": 1850
-        }
-      },
-      "avg": 1850
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10476,13 +10476,13 @@
   },
   "byCondition": {
     "Used": {
-      "count": 25,
-      "sum": 156300.84999999998,
+      "count": 26,
+      "sum": 158000.84,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 6252,
+      "avg": 6077,
       "min": 139.99,
       "max": 99000
     },
@@ -10515,8 +10515,8 @@
       "max": 35900
     },
     "Very Good": {
-      "count": 87,
-      "sum": 227192.55999999994,
+      "count": 86,
+      "sum": 225342.55999999994,
       "sold": {
         "count": 24,
         "sum": 54287.79,
@@ -10524,7 +10524,7 @@
         "min": 475,
         "max": 4214
       },
-      "avg": 2611,
+      "avg": 2620,
       "min": 7,
       "max": 16500
     },
@@ -10593,7 +10593,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3349,
+      "avg": 3348,
       "count": 185
     },
     "03": {
@@ -10763,15 +10763,15 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 184,
+      "count": 12,
+      "avg": 15
+    },
     "Rickenbacker": {
       "sum": 293,
       "count": 36,
       "avg": 8
-    },
-    "Fender": {
-      "sum": 184,
-      "count": 11,
-      "avg": 17
     },
     "Gibson": {
       "sum": 825,
@@ -10799,9 +10799,9 @@
       "avg": 1
     },
     "Charvel": {
-      "sum": 122,
-      "count": 5,
-      "avg": 24
+      "sum": 42,
+      "count": 4,
+      "avg": 11
     },
     "PRS": {
       "sum": 285,
@@ -11125,14 +11125,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 15,
+    "2026-04-18": 16,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 8,
+    "2026-04-11": 7,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11141,8 +11141,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 47,
-    "reverb": 274
+    "marketplace": 48,
+    "reverb": 273
   },
   "activeModelsCount": 280,
   "topPosters": [
@@ -11156,7 +11156,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 31
+      "count": 32
     },
     {
       "username": "WontonGG",
@@ -11164,7 +11164,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 23
+      "count": 22
     },
     {
       "username": "Madero",
@@ -11189,17 +11189,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3349,
+    "avg": 3348,
     "pctBelowAvg": 14,
     "count": 185
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 10761,
+      "avgPrice": 10114,
       "retailEst": 800,
-      "avgDiscount": -1245.2,
-      "count": 13
+      "avgDiscount": -1164.3,
+      "count": 14
     },
     "Gibson": {
       "avgPrice": 3436,
@@ -12272,6 +12272,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Fender": {
+        "total": 15,
+        "sold": 4,
+        "fake": 0,
+        "live": 11,
+        "soldPct": 27,
+        "livePct": 73
+      },
       "Rickenbacker": {
         "total": 38,
         "sold": 6,
@@ -12279,14 +12287,6 @@
         "live": 32,
         "soldPct": 16,
         "livePct": 84
-      },
-      "Fender": {
-        "total": 14,
-        "sold": 4,
-        "fake": 0,
-        "live": 10,
-        "soldPct": 29,
-        "livePct": 71
       },
       "Gibson": {
         "total": 49,
@@ -12329,12 +12329,12 @@
         "livePct": 50
       },
       "Charvel": {
-        "total": 5,
+        "total": 4,
         "sold": 2,
         "fake": 0,
-        "live": 3,
-        "soldPct": 40,
-        "livePct": 60
+        "live": 2,
+        "soldPct": 50,
+        "livePct": 50
       },
       "PRS": {
         "total": 16,
@@ -12919,7 +12919,7 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 25,
+        "total": 26,
         "sold": 3,
         "rate": 12
       },
@@ -12934,7 +12934,7 @@
         "rate": 32
       },
       "Very Good": {
-        "total": 87,
+        "total": 86,
         "sold": 26,
         "rate": 30
       },
@@ -13645,9 +13645,9 @@
       "soldAvg": 4500,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 20,
+      "totalDays": 20.1,
       "soldCount": 1,
-      "avgDaysToSell": 20
+      "avgDaysToSell": 20.1
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -13923,9 +13923,9 @@
       "soldAvg": 2400,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 2.8,
+      "totalDays": 2.9,
       "soldCount": 1,
-      "avgDaysToSell": 2.8
+      "avgDaysToSell": 2.9
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -14434,14 +14434,14 @@
     },
     {
       "label": "31+",
-      "total": 60,
+      "total": 59,
       "sold": 13,
       "rate": 22
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 187,
+      "total": 186,
       "sold": 50,
       "rate": 27
     },
@@ -14458,7 +14458,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 117,
+      "total": 116,
       "sold": 35,
       "rate": 30
     }
@@ -14466,9 +14466,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 28,
+      "total": 27,
       "sold": 9,
-      "rate": 32
+      "rate": 33
     },
     {
       "state": "TX",
