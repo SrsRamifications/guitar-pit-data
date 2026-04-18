@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T00:22:27.623Z",
+  "generatedAt": "2026-04-18T00:36:28.265Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1219893.25,
-    "avg": 3860,
+    "sum": 1221294.25,
+    "avg": 3865,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 291,
-    "sum": 732887.26,
-    "avg": 2519,
+    "sum": 734288.26,
+    "avg": 2523,
     "min": 7,
     "max": 6999,
-    "median": 2284.16
+    "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 7800,
+    "thresholdHigh": 7760,
     "thresholdLow": 0,
     "count": 25,
     "items": [
@@ -229,10 +229,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 612300.9,
+      "sum": 613701.9,
       "min": 7,
       "max": 47024,
-      "avg": 3310
+      "avg": 3317
     },
     "2026-03": {
       "count": 131,
@@ -245,10 +245,10 @@
   "byCategory": {
     "reverb": {
       "count": 282,
-      "sum": 931784.36,
+      "sum": 933185.36,
       "min": 7,
       "max": 47024,
-      "avg": 3304
+      "avg": 3309
     },
     "marketplace": {
       "count": 34,
@@ -261,10 +261,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 282,
-      "sum": 931784.36,
+      "sum": 933185.36,
       "min": 7,
       "max": 47024,
-      "avg": 3304
+      "avg": 3309
     },
     "gibson.com": {
       "count": 1,
@@ -324,6 +324,37 @@
     }
   },
   "byModel": {
+    "echopark-downtowner-johnny-2bags-signature": {
+      "displayName": "2015 Echopark Downtowner Johnny 2bags Signature  Gold",
+      "brand": "Echopark",
+      "model": "Downtowner Johnny 2bags",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 2799,
+      "min": 2799,
+      "max": 2799,
+      "sightings": [
+        {
+          "price": 2799,
+          "date": "2026-04-18T00:36:14.573Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2015 Echopark Downtowner Johnny 2bags Signature  Gold",
+          "url": "https://reverb.com/item/96131483-2015-echopark-downtowner-johnny-2bags-signature-gold",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2799,
+          "min": 2799,
+          "max": 2799,
+          "avg": 2799
+        }
+      },
+      "avg": 2799
+    },
     "novo-idris-royal-olive": {
       "displayName": "Novo Idris 2025 - Royal Olive",
       "brand": "Novo",
@@ -6426,37 +6457,6 @@
       },
       "avg": 2399
     },
-    "gibson-les-paul-classic-limited-edition": {
-      "displayName": "Gibson Les Paul Classic Limited Edition 2018 Manhattan Midnight UPGRADED",
-      "brand": "Gibson",
-      "model": "Les Paul Classic",
-      "variant": "Limited Edition",
-      "count": 1,
-      "sum": 1398,
-      "min": 1398,
-      "max": 1398,
-      "sightings": [
-        {
-          "price": 1398,
-          "date": "2026-04-11T05:48:51.541Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Classic Limited Edition 2018 Manhattan Midnight UPGRADED",
-          "url": "https://reverb.com/item/91418036-gibson-les-paul-classic-limited-edition-2018-manhattan-midnight-upgraded",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1398,
-          "min": 1398,
-          "max": 1398,
-          "avg": 1398
-        }
-      },
-      "avg": 1398
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10526,6 +10526,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 90,
+      "sum": 244390.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 54287.79,
+        "avg": 2262,
+        "min": 475,
+        "max": 4214
+      },
+      "avg": 2715,
+      "min": 7,
+      "max": 16500
+    },
     "Excellent": {
       "count": 123,
       "sum": 445961.73,
@@ -10539,20 +10553,6 @@
       "avg": 3626,
       "min": 200,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 90,
-      "sum": 242989.55999999994,
-      "sold": {
-        "count": 24,
-        "sum": 54287.79,
-        "avg": 2262,
-        "min": 475,
-        "max": 4214
-      },
-      "avg": 2700,
-      "min": 7,
-      "max": 16500
     },
     "Good": {
       "count": 36,
@@ -10644,7 +10644,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3310,
+      "avg": 3317,
       "count": 185
     },
     "03": {
@@ -10798,8 +10798,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 92,
-    "2k-3k": 84,
+    "1k-2k": 91,
+    "2k-3k": 85,
     "3k-5k": 65,
     "5k-10k": 31,
     "10k+": 14
@@ -10807,13 +10807,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 92,
-    "2k-3k": 84,
+    "1k-2k": 91,
+    "2k-3k": 85,
     "3k-5k": 65,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 71,
+      "count": 7,
+      "avg": 10
+    },
     "Novo": {
       "sum": 72,
       "count": 2,
@@ -10893,11 +10898,6 @@
       "sum": 113,
       "count": 6,
       "avg": 19
-    },
-    "Echopark": {
-      "sum": 71,
-      "count": 6,
-      "avg": 12
     },
     "Fender": {
       "sum": 176,
@@ -11181,14 +11181,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 1,
+    "2026-04-18": 2,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 22,
+    "2026-04-11": 21,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11216,7 +11216,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 25
+      "count": 24
     },
     {
       "username": "Shteefe",
@@ -11224,7 +11224,7 @@
     },
     {
       "username": "Madero",
-      "count": 13
+      "count": 14
     },
     {
       "username": "scottcorgan",
@@ -11245,7 +11245,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3310,
+    "avg": 3317,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11258,10 +11258,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 3366,
+      "avgPrice": 3408,
       "retailEst": 800,
-      "avgDiscount": -320.7,
-      "count": 47
+      "avgDiscount": -326,
+      "count": 46
     },
     "PRS": {
       "avgPrice": 4063,
@@ -12188,8 +12188,8 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1297.166241059333,
-      "count": 73,
+      "totalPctDrop": 1279.5469128330515,
+      "count": 72,
       "avgPctDrop": 17.8
     },
     "byBrand": {
@@ -12199,9 +12199,9 @@
         "avgPctDrop": 24
       },
       "Gibson": {
-        "totalPctDrop": 187.08399490925555,
-        "count": 12,
-        "avgPctDrop": 15.6
+        "totalPctDrop": 169.46466668297387,
+        "count": 11,
+        "avgPctDrop": 15.4
       },
       "PRS": {
         "totalPctDrop": 122.58056346687337,
@@ -12365,6 +12365,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Echopark": {
+        "total": 9,
+        "sold": 3,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Novo": {
         "total": 2,
         "sold": 0,
@@ -12374,12 +12382,12 @@
         "livePct": 100
       },
       "Gibson": {
-        "total": 49,
+        "total": 48,
         "sold": 9,
         "fake": 0,
-        "live": 40,
-        "soldPct": 18,
-        "livePct": 82
+        "live": 39,
+        "soldPct": 19,
+        "livePct": 81
       },
       "Tokai": {
         "total": 2,
@@ -12508,14 +12516,6 @@
         "live": 4,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Echopark": {
-        "total": 8,
-        "sold": 3,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 38,
-        "livePct": 63
       },
       "Fender": {
         "total": 13,
@@ -12989,15 +12989,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 92,
+        "total": 91,
         "sold": 23,
         "rate": 25
       },
       {
         "label": "$2k–3k",
-        "total": 84,
+        "total": 85,
         "sold": 24,
-        "rate": 29
+        "rate": 28
       },
       {
         "label": "$3k–5k",
@@ -13019,15 +13019,15 @@
       }
     ],
     "byCondition": {
-      "Excellent": {
-        "total": 123,
-        "sold": 40,
-        "rate": 33
-      },
       "Very Good": {
         "total": 90,
         "sold": 26,
         "rate": 29
+      },
+      "Excellent": {
+        "total": 123,
+        "sold": 40,
+        "rate": 33
       },
       "Good": {
         "total": 36,
@@ -13291,20 +13291,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "Gibson Les Paul Classic Limited Edition 2018 Manhattan Midnight U",
-        "url": "https://reverb.com/item/91418036-gibson-les-paul-classic-limited-edition-2018-manhattan-midnight-upgraded",
-        "price": "$1,398",
-        "priceNum": 1398,
-        "brand": "Gibson",
-        "condition": "Very Good",
-        "watchers": 89,
-        "views": 2685,
-        "daysListed": 276,
-        "image": "https://rvb-img.reverb.com/i/s--hk0dGkgk--/quality=medium-low,height=800,width=800,fit=contain/vtfowcy5t2ddhqri7gc1.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Nat",
         "url": "https://reverb.com/item/34347457-2020-bedell-limited-edition-dreadnought-brazillian-adirondack-natural",
         "price": "$5,000",
@@ -13329,6 +13315,20 @@
         "views": 1164,
         "daysListed": 55,
         "image": "https://rvb-img.reverb.com/i/s--JPbEPDpU--/quality=medium-low,height=800,width=800,fit=contain/60c3b474-9254-4d89-8afb-b396ef718799.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "2008 Ibanez EGEN18-TVF Herman Li Signature Transparent Violet Fla",
+        "url": "https://reverb.com/item/94650763",
+        "price": "$2,600",
+        "priceNum": 2600,
+        "brand": "Ibanez",
+        "condition": "Excellent",
+        "watchers": 70,
+        "views": 1063,
+        "daysListed": 52,
+        "image": "https://rvb-img.reverb.com/i/s--OZVeU_gm--/quality=medium-low,height=800,width=800,fit=contain/c11340ed-6dff-40ef-9a20-85dbc4a28128.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -13477,20 +13477,6 @@
         "savings": 2885
       },
       {
-        "title": "Gibson Les Paul Classic Limited Edition 2018 Manhattan Midnight U",
-        "url": "https://reverb.com/item/91418036-gibson-les-paul-classic-limited-edition-2018-manhattan-midnight-upgraded",
-        "price": "$1,398",
-        "priceNum": 1398,
-        "brand": "Gibson",
-        "condition": "Very Good",
-        "watchers": 89,
-        "views": 2685,
-        "daysListed": 276,
-        "image": "https://rvb-img.reverb.com/i/s--hk0dGkgk--/quality=medium-low,height=800,width=800,fit=contain/vtfowcy5t2ddhqri7gc1.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Gibson Q200 Alpine White 1985 Vintage Electric Guitar",
         "url": "https://reverb.com/item/91628026-gibson-q200-alpine-white-1985-vintage-electric-guitar",
         "price": "$1,912",
@@ -13545,6 +13531,20 @@
         "image": "https://rvb-img.reverb.com/i/s--P23aH4NZ--/quality=medium-low,height=800,width=800,fit=contain/eq1gmrzmgxetih3vj9oz.jpg",
         "modelAvg": null,
         "pctVsAvg": null
+      },
+      {
+        "title": "FGN Neo Classic Custom Shop - Heavy Relic",
+        "url": "https://reverb.com/item/91979281-fgn-neo-classic-custom-shop-heavy-relic",
+        "price": "$2,772",
+        "priceNum": 2772,
+        "brand": "FGN",
+        "condition": "Brand New",
+        "watchers": 6,
+        "views": 484,
+        "daysListed": 233,
+        "image": "https://rvb-img.reverb.com/i/s--6sNzwfxp--/quality=medium-low,height=800,width=800,fit=contain/wa8d7xmq8rrzfytufze7.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -13579,6 +13579,24 @@
     ]
   },
   "byBrandLine": {
+    "Echopark|Echopark": {
+      "brand": "Echopark",
+      "brandLine": "Echopark",
+      "tier": "premium",
+      "count": 8,
+      "sum": 27743,
+      "avg": 3468,
+      "min": 2799,
+      "max": 5495,
+      "sold": 3,
+      "soldSum": 13289,
+      "soldAvg": 4430,
+      "live": 5,
+      "sellRate": 38,
+      "totalDays": 25.3,
+      "soldCount": 3,
+      "avgDaysToSell": 8.4
+    },
     "Novo|Novo": {
       "brand": "Novo",
       "brandLine": "Novo",
@@ -13600,15 +13618,15 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 36,
-      "sum": 93717.98999999999,
-      "avg": 2603,
+      "count": 35,
+      "sum": 92319.98999999999,
+      "avg": 2638,
       "min": 135,
       "max": 7900,
       "sold": 4,
       "soldSum": 10749,
       "soldAvg": 2687,
-      "live": 32,
+      "live": 31,
       "sellRate": 11,
       "totalDays": 42.8,
       "soldCount": 4,
@@ -13628,7 +13646,7 @@
       "soldAvg": 4647,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 94.89999999999999,
+      "totalDays": 95,
       "soldCount": 5,
       "avgDaysToSell": 19
     },
@@ -13664,7 +13682,7 @@
       "soldAvg": 3275,
       "live": 8,
       "sellRate": 47,
-      "totalDays": 91.2,
+      "totalDays": 91.3,
       "soldCount": 7,
       "avgDaysToSell": 13
     },
@@ -13682,7 +13700,7 @@
       "soldAvg": 3146,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 57.800000000000004,
+      "totalDays": 58,
       "soldCount": 4,
       "avgDaysToSell": 14.5
     },
@@ -13807,24 +13825,6 @@
       "totalDays": 1.1,
       "soldCount": 1,
       "avgDaysToSell": 1.1
-    },
-    "Echopark|Echopark": {
-      "brand": "Echopark",
-      "brandLine": "Echopark",
-      "tier": "premium",
-      "count": 7,
-      "sum": 24944,
-      "avg": 3563,
-      "min": 2829,
-      "max": 5495,
-      "sold": 3,
-      "soldSum": 13289,
-      "soldAvg": 4430,
-      "live": 4,
-      "sellRate": 43,
-      "totalDays": 25.3,
-      "soldCount": 3,
-      "avgDaysToSell": 8.4
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -14032,9 +14032,9 @@
       "soldAvg": 2449,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 103.30000000000001,
+      "totalDays": 103.4,
       "soldCount": 4,
-      "avgDaysToSell": 25.8
+      "avgDaysToSell": 25.9
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -14309,9 +14309,9 @@
       "soldAvg": 2655,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.3,
+      "totalDays": 5.4,
       "soldCount": 1,
-      "avgDaysToSell": 5.3
+      "avgDaysToSell": 5.4
     },
     "Seagull|Seagull": {
       "brand": "Seagull",
@@ -14344,9 +14344,9 @@
       "soldAvg": 5000,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 6,
+      "totalDays": 6.1,
       "soldCount": 1,
-      "avgDaysToSell": 6
+      "avgDaysToSell": 6.1
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -14509,7 +14509,7 @@
     "withOffers": 84,
     "totalOffers": 182,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 68
+    "offersEnabledPct": 69
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -14524,9 +14524,9 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 25,
       "sold": 5,
-      "rate": 21
+      "rate": 20
     },
     {
       "label": "6–15",
@@ -14542,21 +14542,21 @@
     },
     {
       "label": "31+",
-      "total": 64,
+      "total": 63,
       "sold": 13,
-      "rate": 20
+      "rate": 21
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 193,
+      "total": 194,
       "sold": 51,
       "rate": 26
     },
     "off": {
-      "total": 46,
+      "total": 45,
       "sold": 19,
-      "rate": 41
+      "rate": 42
     }
   },
   "sellerType": {
@@ -14591,12 +14591,6 @@
       "rate": 15
     },
     {
-      "state": "NY",
-      "total": 12,
-      "sold": 1,
-      "rate": 8
-    },
-    {
       "state": "FL",
       "total": 12,
       "sold": 5,
@@ -14604,9 +14598,15 @@
     },
     {
       "state": "PA",
-      "total": 10,
+      "total": 11,
       "sold": 3,
-      "rate": 30
+      "rate": 27
+    },
+    {
+      "state": "NY",
+      "total": 11,
+      "sold": 1,
+      "rate": 9
     },
     {
       "state": "MA",
