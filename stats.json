@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T17:27:45.181Z",
+  "generatedAt": "2026-04-18T17:52:20.192Z",
   "totalLinks": 322,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 317,
   "overall": {
     "count": 317,
-    "sum": 1222044.13,
-    "avg": 3855,
+    "sum": 1221143.13,
+    "avg": 3852,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 294,
-    "sum": 751357.14,
-    "avg": 2556,
+    "sum": 750456.14,
+    "avg": 2553,
     "min": 7,
     "max": 6999,
     "median": 2267
@@ -213,10 +213,10 @@
   "byMonth": {
     "2026-04": {
       "count": 186,
-      "sum": 614451.78,
+      "sum": 613550.78,
       "min": 7,
       "max": 47042,
-      "avg": 3304
+      "avg": 3299
     },
     "2026-03": {
       "count": 131,
@@ -227,22 +227,29 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 269,
+      "sum": 888443.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3303
+    },
     "marketplace": {
       "count": 48,
       "sum": 332699.77,
       "min": 139.99,
       "max": 99000,
       "avg": 6931
-    },
-    "reverb": {
-      "count": 269,
-      "sum": 889344.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3306
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 269,
+      "sum": 888443.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3303
+    },
     "chicagomusicexchange.com": {
       "count": 19,
       "sum": 253223.99,
@@ -263,13 +270,6 @@
       "min": 4999.99,
       "max": 10495,
       "avg": 7747
-    },
-    "reverb.com": {
-      "count": 269,
-      "sum": 889344.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3306
     },
     "gibson.com": {
       "count": 1,
@@ -308,6 +308,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-stratocaster-american-standard": {
+      "displayName": "Fender American Standard Stratocaster with Rosewood Fretboard.",
+      "brand": "Rickenbacker",
+      "model": "Stratocaster",
+      "variant": "American Standard",
+      "count": 1,
+      "sum": 849,
+      "min": 849,
+      "max": 849,
+      "sightings": [
+        {
+          "price": 849,
+          "date": "2026-04-18T17:52:06.646Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender American Standard Stratocaster with Rosewood Fretboard.",
+          "url": "https://reverb.com/item/96102167-fender-american-standard-stratocaster-with-rosewood-fretboard",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 849,
+          "min": 849,
+          "max": 849,
+          "avg": 849
+        }
+      },
+      "avg": 849
+    },
     "fender-57-bandmaster-2-channel-reissue": {
       "displayName": "Fender '57 Bandmaster Reissue 2-Channel 26-Watt 3x10\" Guitar Combo",
       "brand": "Fender",
@@ -1219,6 +1250,21 @@
           "max": 1100,
           "avg": 1100
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1100,
+        "min": 1099.99,
+        "max": 1099.99,
+        "prices": [
+          {
+            "price": 1099.99,
+            "askingPrice": 1100,
+            "date": "2026-04-18T17:37:29.307Z",
+            "title": "Gibson Les Paul 60s Tribute - Gold Top",
+            "url": "https://reverb.com/item/96130106-gibson-les-paul-60s-tribute-gold-top"
+          }
+        ]
       },
       "avg": 1100
     },
@@ -6339,52 +6385,6 @@
       },
       "avg": 555
     },
-    "gibson-original": {
-      "displayName": "1967 Gibson LG-1 Original Case and Artifacts!",
-      "brand": "Gibson",
-      "model": "Original",
-      "variant": null,
-      "count": 1,
-      "sum": 1750,
-      "min": 1750,
-      "max": 1750,
-      "sightings": [
-        {
-          "price": 1750,
-          "date": "2026-04-12T02:02:22.592Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1967 Gibson LG-1 Original Case and Artifacts!",
-          "url": "https://reverb.com/item/95884259-1967-gibson-lg-1-original-case-and-artifacts",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1750,
-          "min": 1750,
-          "max": 1750,
-          "avg": 1750
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1750,
-        "min": 1750,
-        "max": 1750,
-        "prices": [
-          {
-            "price": 1750,
-            "askingPrice": 1750,
-            "date": "2026-04-12T14:39:03.387Z",
-            "title": "1967 Gibson LG-1 Original Case and Artifacts!",
-            "url": "https://reverb.com/item/95884259-1967-gibson-lg-1-original-case-and-artifacts"
-          }
-        ]
-      },
-      "avg": 1750
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10439,6 +10439,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 85,
+      "sum": 218946.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 53637.77999999999,
+        "avg": 2235,
+        "min": 475,
+        "max": 4214
+      },
+      "avg": 2576,
+      "min": 7,
+      "max": 16500
+    },
     "Used": {
       "count": 33,
       "sum": 173845.78999999998,
@@ -10477,20 +10491,6 @@
       "avg": 3691,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 85,
-      "sum": 219847.55999999994,
-      "sold": {
-        "count": 24,
-        "sum": 54287.79,
-        "avg": 2262,
-        "min": 475,
-        "max": 4214
-      },
-      "avg": 2586,
-      "min": 7,
-      "max": 16500
     },
     "New": {
       "count": 2,
@@ -10557,7 +10557,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3304,
+      "avg": 3299,
       "count": 186
     },
     "03": {
@@ -10710,8 +10710,8 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 17,
-    "1k-2k": 94,
+    "500-1k": 18,
+    "1k-2k": 93,
     "2k-3k": 83,
     "3k-5k": 62,
     "5k-10k": 34,
@@ -10719,14 +10719,19 @@
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 17,
-    "1k-2k": 94,
+    "500-1k": 18,
+    "1k-2k": 93,
     "2k-3k": 83,
     "3k-5k": 62,
     "5k-10k": 24,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 297,
+      "count": 42,
+      "avg": 7
+    },
     "Fender": {
       "sum": 177,
       "count": 12,
@@ -10736,11 +10741,6 @@
       "sum": 130,
       "count": 7,
       "avg": 19
-    },
-    "Rickenbacker": {
-      "sum": 294,
-      "count": 41,
-      "avg": 7
     },
     "Squier": {
       "sum": 0,
@@ -10753,9 +10753,9 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 818,
-      "count": 42,
-      "avg": 19
+      "sum": 812,
+      "count": 41,
+      "avg": 20
     },
     "Echopark": {
       "sum": 70,
@@ -11023,9 +11023,9 @@
       "avg": 22
     },
     "ESP": {
-      "sum": 44,
+      "sum": 46,
       "count": 2,
-      "avg": 22
+      "avg": 23
     },
     "Framus": {
       "sum": 23,
@@ -11099,13 +11099,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 26,
+    "2026-04-18": 27,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
-    "2026-04-12": 12,
+    "2026-04-12": 11,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11114,8 +11114,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 53,
-    "reverb": 269
+    "reverb": 269,
+    "marketplace": 53
   },
   "activeModelsCount": 281,
   "topPosters": [
@@ -11162,7 +11162,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3304,
+    "avg": 3299,
     "pctBelowAvg": 14,
     "count": 186
   },
@@ -11175,10 +11175,10 @@
       "count": 14
     },
     "Gibson": {
-      "avgPrice": 3466,
+      "avgPrice": 3503,
       "retailEst": 800,
-      "avgDiscount": -333.2,
-      "count": 47
+      "avgDiscount": -337.9,
+      "count": 46
     },
     "PRS": {
       "avgPrice": 3852,
@@ -11211,26 +11211,34 @@
       "count": 13
     },
     "Rickenbacker": {
-      "avgPrice": 3741,
+      "avgPrice": 3675,
       "retailEst": 1500,
-      "avgDiscount": -149.4,
-      "count": 43
+      "avgDiscount": -145,
+      "count": 44
     }
   },
   "soldPrices": {
     "count": 79,
-    "avg": 3140,
+    "avg": 3132,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 625.6,
+      "totalDays": 625.9,
       "count": 76,
       "avgDays": 8.2
     },
     "byModel": {
+      "gibson-les-paul-60s-gold-top": {
+        "displayName": "Gibson Les Paul 60s Tribute - Gold Top",
+        "totalDays": 0.9,
+        "count": 1,
+        "fastest": 0.9,
+        "slowest": 0.9,
+        "avgDays": 0.9
+      },
       "gibson-les-paul-standard-60s": {
         "displayName": "Gibson Les Paul Standard 60s, Dark Walnut, Exclusive",
         "totalDays": 0.1,
@@ -11478,14 +11486,6 @@
         "fastest": 0.2,
         "slowest": 0.2,
         "avgDays": 0.2
-      },
-      "gibson-original": {
-        "displayName": "1967 Gibson LG-1 Original Case and Artifacts!",
-        "totalDays": 0.6,
-        "count": 1,
-        "fastest": 0.6,
-        "slowest": 0.6,
-        "avgDays": 0.6
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11802,7 +11802,7 @@
     },
     "byBrand": {
       "Gibson": {
-        "totalDays": 69.4,
+        "totalDays": 69.7,
         "count": 8,
         "fastest": 0,
         "slowest": 44,
@@ -12203,6 +12203,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 44,
+        "sold": 6,
+        "fake": 0,
+        "live": 38,
+        "soldPct": 14,
+        "livePct": 86
+      },
       "Fender": {
         "total": 15,
         "sold": 3,
@@ -12218,14 +12226,6 @@
         "live": 2,
         "soldPct": 75,
         "livePct": 25
-      },
-      "Rickenbacker": {
-        "total": 43,
-        "sold": 6,
-        "fake": 0,
-        "live": 37,
-        "soldPct": 14,
-        "livePct": 86
       },
       "Squier": {
         "total": 1,
@@ -12244,12 +12244,12 @@
         "livePct": 100
       },
       "Gibson": {
-        "total": 49,
+        "total": 48,
         "sold": 9,
         "fake": 0,
-        "live": 40,
-        "soldPct": 18,
-        "livePct": 82
+        "live": 39,
+        "soldPct": 19,
+        "livePct": 81
       },
       "Echopark": {
         "total": 8,
@@ -12829,13 +12829,13 @@
       },
       {
         "label": "$500–1k",
-        "total": 17,
+        "total": 18,
         "sold": 3,
-        "rate": 18
+        "rate": 17
       },
       {
         "label": "$1k–2k",
-        "total": 94,
+        "total": 93,
         "sold": 24,
         "rate": 26
       },
@@ -12865,6 +12865,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 85,
+        "sold": 25,
+        "rate": 29
+      },
       "Used": {
         "total": 33,
         "sold": 1,
@@ -12879,11 +12884,6 @@
         "total": 119,
         "sold": 38,
         "rate": 32
-      },
-      "Very Good": {
-        "total": 85,
-        "sold": 25,
-        "rate": 29
       },
       "New": {
         "total": 2,
@@ -13122,6 +13122,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "Fender American Standard Stratocaster with Rosewood Fretboard.",
+        "url": "https://reverb.com/item/96102167-fender-american-standard-stratocaster-with-rosewood-fretboard",
+        "price": "$849",
+        "priceNum": 849,
+        "brand": "Rickenbacker",
+        "condition": "Very Good",
+        "watchers": 80,
+        "views": 772,
+        "daysListed": 2,
+        "image": "https://rvb-img.reverb.com/i/s--kUL3wr5k--/quality=medium-low,height=800,width=800,fit=contain/86f9b952-2443-4016-9c67-34f52087f025.jpeg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Nat",
         "url": "https://reverb.com/item/34347457-2020-bedell-limited-edition-dreadnought-brazillian-adirondack-natural",
         "price": "$5,000",
@@ -13146,20 +13160,6 @@
         "views": 1234,
         "daysListed": 56,
         "image": "https://rvb-img.reverb.com/i/s--JPbEPDpU--/quality=medium-low,height=800,width=800,fit=contain/60c3b474-9254-4d89-8afb-b396ef718799.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "2008 Ibanez EGEN18-TVF Herman Li Signature Transparent Violet Fla",
-        "url": "https://reverb.com/item/94650763",
-        "price": "$2,600",
-        "priceNum": 2600,
-        "brand": "Ibanez",
-        "condition": "Excellent",
-        "watchers": 70,
-        "views": 1107,
-        "daysListed": 53,
-        "image": "https://rvb-img.reverb.com/i/s--OZVeU_gm--/quality=medium-low,height=800,width=800,fit=contain/c11340ed-6dff-40ef-9a20-85dbc4a28128.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -13417,7 +13417,7 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 213.5,
+      "totalDays": 213.6,
       "soldCount": 2,
       "avgDaysToSell": 106.8
     },
@@ -13459,19 +13459,19 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 36,
-      "sum": 98373.98,
-      "avg": 2733,
+      "count": 35,
+      "sum": 96623.98,
+      "avg": 2761,
       "min": 135,
       "max": 7900,
       "sold": 4,
-      "soldSum": 8399,
-      "soldAvg": 2100,
-      "live": 32,
+      "soldSum": 7748.99,
+      "soldAvg": 1937,
+      "live": 31,
       "sellRate": 11,
-      "totalDays": 77.3,
+      "totalDays": 71.6,
       "soldCount": 4,
-      "avgDaysToSell": 19.3
+      "avgDaysToSell": 17.9
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13487,7 +13487,7 @@
       "soldAvg": 23198,
       "live": 7,
       "sellRate": 22,
-      "totalDays": 42.3,
+      "totalDays": 42.400000000000006,
       "soldCount": 2,
       "avgDaysToSell": 21.2
     },
@@ -13593,7 +13593,7 @@
       "soldAvg": 3275,
       "live": 5,
       "sellRate": 58,
-      "totalDays": 96.30000000000001,
+      "totalDays": 96.4,
       "soldCount": 7,
       "avgDaysToSell": 13.8
     },
@@ -13785,7 +13785,7 @@
       "soldAvg": 1573,
       "live": 3,
       "sellRate": 70,
-      "totalDays": 101.6,
+      "totalDays": 101.7,
       "soldCount": 7,
       "avgDaysToSell": 14.5
     },
@@ -13820,7 +13820,7 @@
       "soldAvg": 1936,
       "live": 7,
       "sellRate": 36,
-      "totalDays": 16.2,
+      "totalDays": 16.3,
       "soldCount": 4,
       "avgDaysToSell": 4.1
     },
@@ -13925,7 +13925,7 @@
       "soldAvg": 2449,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 106.19999999999999,
+      "totalDays": 106.30000000000001,
       "soldCount": 4,
       "avgDaysToSell": 26.6
     },
@@ -14363,8 +14363,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 78,
-    "totalOffers": 175,
+    "withOffers": 79,
+    "totalOffers": 176,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 68
   },
@@ -14381,9 +14381,9 @@
     },
     {
       "label": "1–5",
-      "total": 26,
-      "sold": 5,
-      "rate": 19
+      "total": 25,
+      "sold": 4,
+      "rate": 16
     },
     {
       "label": "6–15",
@@ -14399,41 +14399,41 @@
     },
     {
       "label": "31+",
-      "total": 58,
-      "sold": 13,
-      "rate": 22
+      "total": 59,
+      "sold": 14,
+      "rate": 24
     }
   ],
   "offersEffect": {
     "on": {
       "total": 182,
-      "sold": 48,
+      "sold": 47,
       "rate": 26
     },
     "off": {
       "total": 44,
-      "sold": 18,
-      "rate": 41
+      "sold": 19,
+      "rate": 43
     }
   },
   "sellerType": {
     "preferred": {
       "total": 100,
-      "sold": 23,
-      "rate": 23
+      "sold": 24,
+      "rate": 24
     },
     "regular": {
       "total": 113,
-      "sold": 34,
-      "rate": 30
+      "sold": 33,
+      "rate": 29
     }
   },
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 26,
+      "total": 27,
       "sold": 9,
-      "rate": 35
+      "rate": 33
     },
     {
       "state": "TX",
@@ -14449,15 +14449,15 @@
     },
     {
       "state": "FL",
-      "total": 12,
-      "sold": 5,
-      "rate": 42
+      "total": 11,
+      "sold": 4,
+      "rate": 36
     },
     {
       "state": "PA",
       "total": 10,
-      "sold": 3,
-      "rate": 30
+      "sold": 4,
+      "rate": 40
     },
     {
       "state": "MA",
