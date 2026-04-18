@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T20:30:29.412Z",
+  "generatedAt": "2026-04-18T22:16:35.522Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1228133.13,
-    "avg": 3886,
+    "sum": 1228484.13,
+    "avg": 3888,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 294,
-    "sum": 765346.14,
-    "avg": 2603,
+    "sum": 765697.14,
+    "avg": 2604,
     "min": 7,
     "max": 7900,
     "median": 2299
@@ -205,10 +205,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 620540.78,
+      "sum": 620891.78,
       "min": 7,
       "max": 47042,
-      "avg": 3354
+      "avg": 3356
     },
     "2026-03": {
       "count": 131,
@@ -219,35 +219,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 268,
+      "sum": 893644.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3334
+    },
     "marketplace": {
       "count": 48,
       "sum": 334839.77,
       "min": 139.99,
       "max": 99000,
       "avg": 6976
-    },
-    "reverb": {
-      "count": 268,
-      "sum": 893293.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3333
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 268,
+      "sum": 893644.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3334
+    },
     "chicagomusicexchange.com": {
       "count": 19,
       "sum": 255363.99,
       "min": 350,
       "max": 99000,
       "avg": 13440
-    },
-    "reverb.com": {
-      "count": 268,
-      "sum": 893293.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3333
     },
     "guitarcenter.com": {
       "count": 22,
@@ -300,6 +300,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-original-semi-hollow": {
+      "displayName": "Nash  Wayfarer W-3 Semi-Hollow Body Electric Guitar (2017), ser. #NG-3573, original brown hard shell case.",
+      "brand": "Rickenbacker",
+      "model": "original",
+      "variant": "Semi-hollow",
+      "count": 1,
+      "sum": 2250,
+      "min": 2250,
+      "max": 2250,
+      "sightings": [
+        {
+          "price": 2250,
+          "date": "2026-04-18T22:16:21.290Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash  Wayfarer W-3 Semi-Hollow Body Electric Guitar (2017), ser. #NG-3573, original brown hard shell case.",
+          "url": "https://reverb.com/item/96150345-nash-wayfarer-w-3-semi-hollow-body-electric-guitar-2017-ser-ng-3573-original-brown-hard-shell-case",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2250,
+          "min": 2250,
+          "max": 2250,
+          "avg": 2250
+        }
+      },
+      "avg": 2250
+    },
     "yamaha-fs9": {
       "displayName": "Yamaha FS9 R Natural",
       "brand": "Yamaha",
@@ -6299,52 +6330,6 @@
       },
       "avg": 8000
     },
-    "friedman-cali": {
-      "displayName": "Friedman Cali 2018 - Red",
-      "brand": "Friedman",
-      "model": "Cali",
-      "variant": null,
-      "count": 1,
-      "sum": 1899,
-      "min": 1899,
-      "max": 1899,
-      "sightings": [
-        {
-          "price": 1899,
-          "date": "2026-04-12T22:31:23.497Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Friedman Cali 2018 - Red",
-          "url": "https://reverb.com/item/95926118-friedman-cali-2018-red",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1899,
-          "min": 1899,
-          "max": 1899,
-          "avg": 1899
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1899,
-        "min": 1899,
-        "max": 1899,
-        "prices": [
-          {
-            "price": 1899,
-            "askingPrice": 1899,
-            "date": "2026-04-12T23:39:00.986Z",
-            "title": "Friedman Cali 2018 - Red",
-            "url": "https://reverb.com/item/95926118-friedman-cali-2018-red"
-          }
-        ]
-      },
-      "avg": 1899
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10399,6 +10384,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 121,
+      "sum": 443257.73,
+      "sold": {
+        "count": 37,
+        "sum": 134722.43,
+        "avg": 3641,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3663,
+      "min": 275,
+      "max": 35900
+    },
     "Used": {
       "count": 33,
       "sum": 175985.78999999998,
@@ -10421,20 +10420,6 @@
       "min": 1050,
       "max": 47042
     },
-    "Excellent": {
-      "count": 120,
-      "sum": 441007.73,
-      "sold": {
-        "count": 37,
-        "sum": 134722.43,
-        "avg": 3641,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3675,
-      "min": 275,
-      "max": 35900
-    },
     "Brand New": {
       "count": 28,
       "sum": 108819.10999999999,
@@ -10450,16 +10435,16 @@
       "max": 12280
     },
     "Very Good": {
-      "count": 81,
-      "sum": 213707.55999999994,
+      "count": 80,
+      "sum": 211808.55999999994,
       "sold": {
-        "count": 24,
-        "sum": 53637.77999999999,
-        "avg": 2235,
+        "count": 23,
+        "sum": 51738.77999999999,
+        "avg": 2250,
         "min": 475,
         "max": 4214
       },
-      "avg": 2638,
+      "avg": 2648,
       "min": 7,
       "max": 16500
     },
@@ -10517,7 +10502,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3354,
+      "avg": 3356,
       "count": 185
     },
     "03": {
@@ -10671,8 +10656,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 93,
-    "2k-3k": 81,
+    "1k-2k": 92,
+    "2k-3k": 82,
     "3k-5k": 65,
     "5k-10k": 34,
     "10k+": 13
@@ -10680,13 +10665,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 93,
-    "2k-3k": 81,
+    "1k-2k": 92,
+    "2k-3k": 82,
     "3k-5k": 65,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 293,
+      "count": 42,
+      "avg": 7
+    },
     "Yamaha": {
       "sum": 104,
       "count": 4,
@@ -10698,7 +10688,7 @@
       "avg": 10
     },
     "Jackson": {
-      "sum": 153,
+      "sum": 154,
       "count": 12,
       "avg": 13
     },
@@ -10707,13 +10697,8 @@
       "count": 4,
       "avg": 27
     },
-    "Rickenbacker": {
-      "sum": 292,
-      "count": 41,
-      "avg": 7
-    },
     "Fender": {
-      "sum": 177,
+      "sum": 178,
       "count": 12,
       "avg": 15
     },
@@ -10803,7 +10788,7 @@
       "avg": 13
     },
     "Eastman": {
-      "sum": 111,
+      "sum": 112,
       "count": 5,
       "avg": 22
     },
@@ -10893,9 +10878,9 @@
       "avg": 5
     },
     "Greco": {
-      "sum": 60,
+      "sum": 61,
       "count": 2,
-      "avg": 30
+      "avg": 31
     },
     "Gretsch": {
       "sum": 24,
@@ -10916,11 +10901,6 @@
       "sum": 13,
       "count": 1,
       "avg": 13
-    },
-    "Friedman": {
-      "sum": 44,
-      "count": 3,
-      "avg": 15
     },
     "Languedoc": {
       "sum": 21,
@@ -11007,6 +10987,11 @@
       "count": 1,
       "avg": 20
     },
+    "Friedman": {
+      "sum": 38,
+      "count": 2,
+      "avg": 19
+    },
     "Vintage": {
       "sum": 20,
       "count": 1,
@@ -11044,13 +11029,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 34,
+    "2026-04-18": 35,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
-    "2026-04-12": 3,
+    "2026-04-12": 2,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11059,8 +11044,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 53,
-    "reverb": 268
+    "reverb": 268,
+    "marketplace": 53
   },
   "activeModelsCount": 279,
   "topPosters": [
@@ -11107,7 +11092,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3354,
+    "avg": 3356,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11156,15 +11141,15 @@
       "count": 13
     },
     "Rickenbacker": {
-      "avgPrice": 3749,
+      "avgPrice": 3715,
       "retailEst": 1500,
-      "avgDiscount": -149.9,
-      "count": 43
+      "avgDiscount": -147.6,
+      "count": 44
     }
   },
   "soldPrices": {
-    "count": 80,
-    "avg": 3200,
+    "count": 79,
+    "avg": 3216,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
@@ -11172,8 +11157,8 @@
   "timeToSell": {
     "overall": {
       "totalDays": 629,
-      "count": 78,
-      "avgDays": 8.1
+      "count": 77,
+      "avgDays": 8.2
     },
     "byModel": {
       "gibson-les-paul": {
@@ -11439,14 +11424,6 @@
         "fastest": 2.2,
         "slowest": 2.2,
         "avgDays": 2.2
-      },
-      "friedman-cali": {
-        "displayName": "Friedman Cali 2018 - Red",
-        "totalDays": 0,
-        "count": 1,
-        "fastest": 0,
-        "slowest": 0,
-        "avgDays": 0
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11874,13 +11851,6 @@
         "slowest": 0.2,
         "avgDays": 0.2
       },
-      "Friedman": {
-        "totalDays": 1.8,
-        "count": 3,
-        "fastest": 0,
-        "slowest": 1.8,
-        "avgDays": 0.6
-      },
       "Fender": {
         "totalDays": 4.5,
         "count": 3,
@@ -11950,6 +11920,13 @@
         "fastest": 1.8,
         "slowest": 1.8,
         "avgDays": 1.8
+      },
+      "Friedman": {
+        "totalDays": 1.8,
+        "count": 2,
+        "fastest": 0,
+        "slowest": 1.8,
+        "avgDays": 0.9
       },
       "Tokai": {
         "totalDays": 121.4,
@@ -12140,13 +12117,21 @@
   "sellThrough": {
     "overall": {
       "total": 300,
-      "sold": 78,
+      "sold": 77,
       "fake": 0,
-      "live": 222,
+      "live": 223,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 44,
+        "sold": 6,
+        "fake": 0,
+        "live": 38,
+        "soldPct": 14,
+        "livePct": 86
+      },
       "Yamaha": {
         "total": 4,
         "sold": 0,
@@ -12186,14 +12171,6 @@
         "live": 4,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Rickenbacker": {
-        "total": 43,
-        "sold": 6,
-        "fake": 0,
-        "live": 37,
-        "soldPct": 14,
-        "livePct": 86
       },
       "Fender": {
         "total": 15,
@@ -12547,14 +12524,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Friedman": {
-        "total": 3,
-        "sold": 3,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12691,6 +12660,14 @@
         "soldPct": 0,
         "livePct": 100
       },
+      "Friedman": {
+        "total": 2,
+        "sold": 2,
+        "fake": 0,
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
+      },
       "Vintage": {
         "total": 1,
         "sold": 0,
@@ -12763,15 +12740,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 93,
-        "sold": 24,
-        "rate": 26
+        "total": 92,
+        "sold": 23,
+        "rate": 25
       },
       {
         "label": "$2k–3k",
-        "total": 81,
+        "total": 82,
         "sold": 20,
-        "rate": 25
+        "rate": 24
       },
       {
         "label": "$3k–5k",
@@ -12793,6 +12770,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 121,
+        "sold": 39,
+        "rate": 32
+      },
       "Used": {
         "total": 33,
         "sold": 0,
@@ -12803,20 +12785,15 @@
         "sold": 0,
         "rate": 0
       },
-      "Excellent": {
-        "total": 120,
-        "sold": 39,
-        "rate": 33
-      },
       "Brand New": {
         "total": 28,
         "sold": 2,
         "rate": 7
       },
       "Very Good": {
-        "total": 81,
-        "sold": 24,
-        "rate": 30
+        "total": 80,
+        "sold": 23,
+        "rate": 29
       },
       "Good": {
         "total": 34,
@@ -13352,13 +13329,6 @@
     ],
     "sweetSpots": [
       {
-        "brand": "Friedman",
-        "avgPrice": 2098,
-        "sellRate": 100,
-        "count": 3,
-        "sold": 3
-      },
-      {
         "brand": "Kiesel",
         "avgPrice": 1630,
         "sellRate": 67,
@@ -13430,9 +13400,9 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 213.8,
+      "totalDays": 213.9,
       "soldCount": 2,
-      "avgDaysToSell": 106.9
+      "avgDaysToSell": 107
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -13482,7 +13452,7 @@
       "soldAvg": 3007,
       "live": 29,
       "sellRate": 17,
-      "totalDays": 72.6,
+      "totalDays": 72.7,
       "soldCount": 6,
       "avgDaysToSell": 12.1
     },
@@ -13500,9 +13470,9 @@
       "soldAvg": 23198,
       "live": 7,
       "sellRate": 22,
-      "totalDays": 42.599999999999994,
+      "totalDays": 42.7,
       "soldCount": 2,
-      "avgDaysToSell": 21.3
+      "avgDaysToSell": 21.4
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13518,9 +13488,9 @@
       "soldAvg": 3599,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 19.9,
+      "totalDays": 20,
       "soldCount": 1,
-      "avgDaysToSell": 19.9
+      "avgDaysToSell": 20
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13570,9 +13540,9 @@
       "soldAvg": 4647,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 99.10000000000001,
+      "totalDays": 99.5,
       "soldCount": 5,
-      "avgDaysToSell": 19.8
+      "avgDaysToSell": 19.9
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13588,9 +13558,9 @@
       "soldAvg": 4778,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 18.9,
+      "totalDays": 19,
       "soldCount": 1,
-      "avgDaysToSell": 18.9
+      "avgDaysToSell": 19
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13606,9 +13576,9 @@
       "soldAvg": 3275,
       "live": 5,
       "sellRate": 58,
-      "totalDays": 97.19999999999999,
+      "totalDays": 97.7,
       "soldCount": 7,
-      "avgDaysToSell": 13.9
+      "avgDaysToSell": 14
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13624,9 +13594,9 @@
       "soldAvg": 3146,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 61.2,
+      "totalDays": 61.6,
       "soldCount": 4,
-      "avgDaysToSell": 15.3
+      "avgDaysToSell": 15.4
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -13642,9 +13612,9 @@
       "soldAvg": 4500,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 20.2,
+      "totalDays": 20.3,
       "soldCount": 1,
-      "avgDaysToSell": 20.2
+      "avgDaysToSell": 20.3
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -13728,9 +13698,9 @@
       "soldAvg": 1600,
       "live": 4,
       "sellRate": 20,
-      "totalDays": 19.1,
+      "totalDays": 19.2,
       "soldCount": 1,
-      "avgDaysToSell": 19.1
+      "avgDaysToSell": 19.2
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13746,9 +13716,9 @@
       "soldAvg": 3200,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 1.9,
+      "totalDays": 2,
       "soldCount": 1,
-      "avgDaysToSell": 1.9
+      "avgDaysToSell": 2
     },
     "Jackson|Jackson MJ": {
       "brand": "Jackson",
@@ -13781,9 +13751,9 @@
       "soldAvg": 1573,
       "live": 3,
       "sellRate": 70,
-      "totalDays": 102.4,
+      "totalDays": 103,
       "soldCount": 7,
-      "avgDaysToSell": 14.6
+      "avgDaysToSell": 14.7
     },
     "Melancon|Melancon": {
       "brand": "Melancon",
@@ -13816,9 +13786,9 @@
       "soldAvg": 1936,
       "live": 7,
       "sellRate": 36,
-      "totalDays": 16.700000000000003,
+      "totalDays": 17,
       "soldCount": 4,
-      "avgDaysToSell": 4.2
+      "avgDaysToSell": 4.3
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -13868,9 +13838,9 @@
       "soldAvg": 3999,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 241,
+      "totalDays": 241.1,
       "soldCount": 1,
-      "avgDaysToSell": 241
+      "avgDaysToSell": 241.1
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -13903,9 +13873,9 @@
       "soldAvg": 2400,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 3,
+      "totalDays": 3.1,
       "soldCount": 1,
-      "avgDaysToSell": 3
+      "avgDaysToSell": 3.1
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -13921,9 +13891,9 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 44.8,
+      "totalDays": 45.099999999999994,
       "soldCount": 4,
-      "avgDaysToSell": 11.2
+      "avgDaysToSell": 11.3
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -13990,9 +13960,9 @@
       "soldAvg": 3495,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 3.8,
+      "totalDays": 3.9,
       "soldCount": 1,
-      "avgDaysToSell": 3.8
+      "avgDaysToSell": 3.9
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -14025,9 +13995,9 @@
       "soldAvg": 1645,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.9,
+      "totalDays": 5,
       "soldCount": 1,
-      "avgDaysToSell": 4.9
+      "avgDaysToSell": 5
     },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
@@ -14043,9 +14013,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 27,
+      "totalDays": 27.1,
       "soldCount": 1,
-      "avgDaysToSell": 27
+      "avgDaysToSell": 27.1
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -14115,24 +14085,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Friedman|Friedman": {
-      "brand": "Friedman",
-      "brandLine": "Friedman",
-      "tier": "premium",
-      "count": 3,
-      "sum": 6293,
-      "avg": 2098,
-      "min": 1899,
-      "max": 2299,
-      "sold": 3,
-      "soldSum": 6293,
-      "soldAvg": 2098,
-      "live": 0,
-      "sellRate": 100,
-      "totalDays": 43.6,
-      "soldCount": 3,
-      "avgDaysToSell": 14.5
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -14164,9 +14116,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 18.9,
+      "totalDays": 19,
       "soldCount": 1,
-      "avgDaysToSell": 18.9
+      "avgDaysToSell": 19
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -14236,6 +14188,24 @@
       "totalDays": 0,
       "soldCount": 0
     },
+    "Friedman|Friedman": {
+      "brand": "Friedman",
+      "brandLine": "Friedman",
+      "tier": "premium",
+      "count": 2,
+      "sum": 4394,
+      "avg": 2197,
+      "min": 2095,
+      "max": 2299,
+      "sold": 2,
+      "soldSum": 4394,
+      "soldAvg": 2197,
+      "live": 0,
+      "sellRate": 100,
+      "totalDays": 37.9,
+      "soldCount": 2,
+      "avgDaysToSell": 19
+    },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
       "brandLine": "Gretsch Custom Shop",
@@ -14250,9 +14220,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 19,
+      "totalDays": 19.1,
       "soldCount": 1,
-      "avgDaysToSell": 19
+      "avgDaysToSell": 19.1
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -14297,14 +14267,14 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 102
   },
   "watcherDemand": [
     {
       "label": "0",
       "total": 3,
-      "sold": 3,
-      "rate": 100
+      "sold": 2,
+      "rate": 67
     },
     {
       "label": "1–5",
@@ -14334,7 +14304,7 @@
   "offersEffect": {
     "on": {
       "total": 179,
-      "sold": 47,
+      "sold": 46,
       "rate": 26
     },
     "off": {
@@ -14345,13 +14315,13 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 100,
+      "total": 101,
       "sold": 23,
       "rate": 23
     },
     "regular": {
-      "total": 112,
-      "sold": 34,
+      "total": 111,
+      "sold": 33,
       "rate": 30
     }
   },
@@ -14393,6 +14363,12 @@
       "rate": 30
     },
     {
+      "state": "NY",
+      "total": 9,
+      "sold": 1,
+      "rate": 11
+    },
+    {
       "state": "TN",
       "total": 8,
       "sold": 3,
@@ -14403,12 +14379,6 @@
       "total": 8,
       "sold": 2,
       "rate": 25
-    },
-    {
-      "state": "NY",
-      "total": 8,
-      "sold": 1,
-      "rate": 13
     },
     {
       "state": "OH",
@@ -14441,12 +14411,6 @@
       "rate": 25
     },
     {
-      "state": "CO",
-      "total": 4,
-      "sold": 3,
-      "rate": 75
-    },
-    {
       "state": "NC",
       "total": 4,
       "sold": 2,
@@ -14469,6 +14433,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "CO",
+      "total": 3,
+      "sold": 2,
+      "rate": 67
     },
     {
       "state": "TOKYO",
