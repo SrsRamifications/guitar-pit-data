@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T00:36:28.265Z",
+  "generatedAt": "2026-04-18T01:05:24.163Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1221294.25,
-    "avg": 3865,
+    "sum": 1220545.26,
+    "avg": 3862,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 291,
-    "sum": 734288.26,
-    "avg": 2523,
+    "sum": 733539.27,
+    "avg": 2521,
     "min": 7,
     "max": 6999,
-    "median": 2295
+    "median": 2284.16
   },
   "outliers": {
     "thresholdHigh": 7760,
@@ -229,10 +229,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 613701.9,
+      "sum": 612952.91,
       "min": 7,
       "max": 47024,
-      "avg": 3317
+      "avg": 3313
     },
     "2026-03": {
       "count": 131,
@@ -244,27 +244,27 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 282,
-      "sum": 933185.36,
+      "count": 283,
+      "sum": 934835.36,
       "min": 7,
       "max": 47024,
-      "avg": 3309
+      "avg": 3303
     },
     "marketplace": {
-      "count": 34,
-      "sum": 288108.89,
+      "count": 33,
+      "sum": 285709.9,
       "min": 139.99,
       "max": 99000,
-      "avg": 8474
+      "avg": 8658
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 282,
-      "sum": 933185.36,
+      "count": 283,
+      "sum": 934835.36,
       "min": 7,
       "max": 47024,
-      "avg": 3309
+      "avg": 3303
     },
     "gibson.com": {
       "count": 1,
@@ -274,11 +274,11 @@
       "avg": 2599
     },
     "guitarcenter.com": {
-      "count": 11,
-      "sum": 17032.9,
+      "count": 10,
+      "sum": 14633.91,
       "min": 139.99,
       "max": 3649.99,
-      "avg": 1548
+      "avg": 1463
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -324,6 +324,52 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-classic": {
+      "displayName": "Gibson Les Paul Classic 2021 Ebony",
+      "brand": "Gibson",
+      "model": "Les Paul Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 1650,
+      "min": 1650,
+      "max": 1650,
+      "sightings": [
+        {
+          "price": 1650,
+          "date": "2026-04-18T01:05:10.606Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Classic 2021 Ebony",
+          "url": "https://reverb.com/item/94949553-gibson-les-paul-classic-2021-ebony",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1650,
+          "min": 1650,
+          "max": 1650,
+          "avg": 1650
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1650,
+        "min": 1650,
+        "max": 1650,
+        "prices": [
+          {
+            "price": 1650,
+            "askingPrice": 1650,
+            "date": "2026-04-18T01:05:10.606Z",
+            "title": "Gibson Les Paul Classic 2021 Ebony",
+            "url": "https://reverb.com/item/94949553-gibson-les-paul-classic-2021-ebony"
+          }
+        ]
+      },
+      "avg": 1650
+    },
     "echopark-downtowner-johnny-2bags-signature": {
       "displayName": "2015 Echopark Downtowner Johnny 2bags Signature  Gold",
       "brand": "Echopark",
@@ -6426,37 +6472,6 @@
       },
       "avg": 4000
     },
-    "rickenbacker-metal": {
-      "displayName": "Used 2024 Caparison Guitars TAT-SPECIAL FX METAL MACHINE Black Solid Body Electric Guitar Black",
-      "brand": "Rickenbacker",
-      "model": "METAL",
-      "variant": null,
-      "count": 1,
-      "sum": 2398.99,
-      "min": 2398.99,
-      "max": 2398.99,
-      "sightings": [
-        {
-          "price": 2398.99,
-          "date": "2026-04-11T14:15:58.859Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used 2024 Caparison Guitars TAT-SPECIAL FX METAL MACHINE Black Solid Body Electric Guitar Black",
-          "url": "https://www.guitarcenter.com/Used/Caparison-Guitars/Used-2024-Caparison-Guitars-TAT-SPECIAL-FX-METAL-MACHINE-Black-Solid-Body-Electric-Guitar.gc?algoliaQueryID=2069170403953eb2df47b4727600db95&algoliaIndexName=cD-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 2398.99,
-          "min": 2398.99,
-          "max": 2398.99,
-          "avg": 2399
-        }
-      },
-      "avg": 2399
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10526,6 +10541,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 124,
+      "sum": 447611.73,
+      "sold": {
+        "count": 39,
+        "sum": 136183.43,
+        "avg": 3492,
+        "min": 200,
+        "max": 35900
+      },
+      "avg": 3610,
+      "min": 200,
+      "max": 35900
+    },
     "Very Good": {
       "count": 90,
       "sum": 244390.55999999994,
@@ -10539,20 +10568,6 @@
       "avg": 2715,
       "min": 7,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 123,
-      "sum": 445961.73,
-      "sold": {
-        "count": 39,
-        "sum": 136183.43,
-        "avg": 3492,
-        "min": 200,
-        "max": 35900
-      },
-      "avg": 3626,
-      "min": 200,
-      "max": 35900
     },
     "Good": {
       "count": 36,
@@ -10569,13 +10584,13 @@
       "max": 10995
     },
     "Used": {
-      "count": 20,
-      "sum": 145349.9,
+      "count": 19,
+      "sum": 142950.90999999997,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 7267,
+      "avg": 7524,
       "min": 139.99,
       "max": 99000
     },
@@ -10644,7 +10659,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3317,
+      "avg": 3313,
       "count": 185
     },
     "03": {
@@ -10798,8 +10813,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 91,
-    "2k-3k": 85,
+    "1k-2k": 92,
+    "2k-3k": 84,
     "3k-5k": 65,
     "5k-10k": 31,
     "10k+": 14
@@ -10807,13 +10822,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 91,
-    "2k-3k": 85,
+    "1k-2k": 92,
+    "2k-3k": 84,
     "3k-5k": 65,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 800,
+      "count": 42,
+      "avg": 19
+    },
     "Echopark": {
       "sum": 71,
       "count": 7,
@@ -10823,11 +10843,6 @@
       "sum": 72,
       "count": 2,
       "avg": 36
-    },
-    "Gibson": {
-      "sum": 761,
-      "count": 41,
-      "avg": 19
     },
     "Tokai": {
       "sum": 0,
@@ -10840,12 +10855,12 @@
       "avg": 23
     },
     "Rickenbacker": {
-      "sum": 272,
-      "count": 31,
+      "sum": 266,
+      "count": 30,
       "avg": 9
     },
     "PRS": {
-      "sum": 333,
+      "sum": 334,
       "count": 18,
       "avg": 19
     },
@@ -10870,7 +10885,7 @@
       "avg": 12
     },
     "BC Rich": {
-      "sum": 206,
+      "sum": 207,
       "count": 12,
       "avg": 17
     },
@@ -10990,9 +11005,9 @@
       "avg": 10
     },
     "Dean": {
-      "sum": 12,
+      "sum": 13,
       "count": 1,
-      "avg": 12
+      "avg": 13
     },
     "Alvarez": {
       "sum": 82,
@@ -11035,9 +11050,9 @@
       "avg": 14
     },
     "Vigier": {
-      "sum": 30,
+      "sum": 31,
       "count": 1,
-      "avg": 30
+      "avg": 31
     },
     "Dunable": {
       "sum": 25,
@@ -11181,14 +11196,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 2,
+    "2026-04-18": 3,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 21,
+    "2026-04-11": 20,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11197,14 +11212,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 282,
-    "marketplace": 39
+    "reverb": 283,
+    "marketplace": 38
   },
   "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "GP",
-      "count": 99
+      "count": 98
     },
     {
       "username": "Beijing Bob",
@@ -11245,7 +11260,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3317,
+    "avg": 3313,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11258,10 +11273,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 3408,
+      "avgPrice": 3371,
       "retailEst": 800,
-      "avgDiscount": -326,
-      "count": 46
+      "avgDiscount": -321.4,
+      "count": 47
     },
     "PRS": {
       "avgPrice": 4063,
@@ -11294,15 +11309,15 @@
       "count": 14
     },
     "Rickenbacker": {
-      "avgPrice": 4102,
+      "avgPrice": 4156,
       "retailEst": 1500,
-      "avgDiscount": -173.5,
-      "count": 33
+      "avgDiscount": -177,
+      "count": 32
     }
   },
   "soldPrices": {
-    "count": 86,
-    "avg": 3265,
+    "count": 87,
+    "avg": 3246,
     "min": 200,
     "max": 35900,
     "avgDiscount": 7
@@ -12188,20 +12203,20 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1279.5469128330515,
-      "count": 72,
-      "avgPctDrop": 17.8
+      "totalPctDrop": 1285.261198547337,
+      "count": 73,
+      "avgPctDrop": 17.6
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 175.1789523972596,
+        "count": 12,
+        "avgPctDrop": 14.6
+      },
       "Novo": {
         "totalPctDrop": 24,
         "count": 1,
         "avgPctDrop": 24
-      },
-      "Gibson": {
-        "totalPctDrop": 169.46466668297387,
-        "count": 11,
-        "avgPctDrop": 15.4
       },
       "PRS": {
         "totalPctDrop": 122.58056346687337,
@@ -12358,13 +12373,21 @@
   "sellThrough": {
     "overall": {
       "total": 301,
-      "sold": 83,
+      "sold": 84,
       "fake": 0,
-      "live": 218,
+      "live": 217,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 49,
+        "sold": 10,
+        "fake": 0,
+        "live": 39,
+        "soldPct": 20,
+        "livePct": 80
+      },
       "Echopark": {
         "total": 9,
         "sold": 3,
@@ -12380,14 +12403,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 48,
-        "sold": 9,
-        "fake": 0,
-        "live": 39,
-        "soldPct": 19,
-        "livePct": 81
       },
       "Tokai": {
         "total": 2,
@@ -12406,12 +12421,12 @@
         "livePct": 60
       },
       "Rickenbacker": {
-        "total": 33,
+        "total": 32,
         "sold": 6,
         "fake": 0,
-        "live": 27,
-        "soldPct": 18,
-        "livePct": 82
+        "live": 26,
+        "soldPct": 19,
+        "livePct": 81
       },
       "PRS": {
         "total": 19,
@@ -12989,15 +13004,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 91,
-        "sold": 23,
-        "rate": 25
+        "total": 92,
+        "sold": 24,
+        "rate": 26
       },
       {
         "label": "$2k–3k",
-        "total": 85,
+        "total": 84,
         "sold": 24,
-        "rate": 28
+        "rate": 29
       },
       {
         "label": "$3k–5k",
@@ -13019,15 +13034,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 124,
+        "sold": 41,
+        "rate": 33
+      },
       "Very Good": {
         "total": 90,
         "sold": 26,
         "rate": 29
-      },
-      "Excellent": {
-        "total": 123,
-        "sold": 40,
-        "rate": 33
       },
       "Good": {
         "total": 36,
@@ -13035,9 +13050,9 @@
         "rate": 31
       },
       "Used": {
-        "total": 20,
+        "total": 19,
         "sold": 3,
-        "rate": 15
+        "rate": 16
       },
       "New": {
         "total": 2,
@@ -13579,6 +13594,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 36,
+      "sum": 93969.98999999999,
+      "avg": 2610,
+      "min": 135,
+      "max": 7900,
+      "sold": 5,
+      "soldSum": 12399,
+      "soldAvg": 2480,
+      "live": 31,
+      "sellRate": 14,
+      "totalDays": 81.10000000000001,
+      "soldCount": 5,
+      "avgDaysToSell": 16.2
+    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
@@ -13593,9 +13626,9 @@
       "soldAvg": 4430,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 25.3,
+      "totalDays": 25.400000000000002,
       "soldCount": 3,
-      "avgDaysToSell": 8.4
+      "avgDaysToSell": 8.5
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -13613,24 +13646,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 35,
-      "sum": 92319.98999999999,
-      "avg": 2638,
-      "min": 135,
-      "max": 7900,
-      "sold": 4,
-      "soldSum": 10749,
-      "soldAvg": 2687,
-      "live": 31,
-      "sellRate": 11,
-      "totalDays": 42.8,
-      "soldCount": 4,
-      "avgDaysToSell": 10.7
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13682,9 +13697,9 @@
       "soldAvg": 3275,
       "live": 8,
       "sellRate": 47,
-      "totalDays": 91.3,
+      "totalDays": 91.5,
       "soldCount": 7,
-      "avgDaysToSell": 13
+      "avgDaysToSell": 13.1
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13840,7 +13855,7 @@
       "soldAvg": 19130,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 47.099999999999994,
+      "totalDays": 47.2,
       "soldCount": 3,
       "avgDaysToSell": 15.7
     },
@@ -13892,7 +13907,7 @@
       "soldAvg": 1568,
       "live": 4,
       "sellRate": 60,
-      "totalDays": 92.9,
+      "totalDays": 93.1,
       "soldCount": 6,
       "avgDaysToSell": 15.5
     },
@@ -13927,7 +13942,7 @@
       "soldAvg": 1936,
       "live": 7,
       "sellRate": 36,
-      "totalDays": 13.399999999999999,
+      "totalDays": 13.499999999999998,
       "soldCount": 4,
       "avgDaysToSell": 3.4
     },
@@ -14032,7 +14047,7 @@
       "soldAvg": 2449,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 103.4,
+      "totalDays": 103.5,
       "soldCount": 4,
       "avgDaysToSell": 25.9
     },
@@ -14188,9 +14203,9 @@
       "soldAvg": 475,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 26.1,
+      "totalDays": 26.2,
       "soldCount": 1,
-      "avgDaysToSell": 26.1
+      "avgDaysToSell": 26.2
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -14379,9 +14394,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 18,
+      "totalDays": 18.1,
       "soldCount": 1,
-      "avgDaysToSell": 18
+      "avgDaysToSell": 18.1
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -14431,7 +14446,7 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 212.1,
+      "totalDays": 212.2,
       "soldCount": 2,
       "avgDaysToSell": 106.1
     },
@@ -14506,8 +14521,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 84,
-    "totalOffers": 182,
+    "withOffers": 85,
+    "totalOffers": 185,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 69
   },
@@ -14542,16 +14557,16 @@
     },
     {
       "label": "31+",
-      "total": 63,
-      "sold": 13,
-      "rate": 21
+      "total": 64,
+      "sold": 14,
+      "rate": 22
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 194,
-      "sold": 51,
-      "rate": 26
+      "total": 195,
+      "sold": 52,
+      "rate": 27
     },
     "off": {
       "total": 45,
@@ -14566,9 +14581,9 @@
       "rate": 24
     },
     "regular": {
-      "total": 120,
-      "sold": 36,
-      "rate": 30
+      "total": 121,
+      "sold": 37,
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -14639,6 +14654,12 @@
       "rate": 0
     },
     {
+      "state": "CO",
+      "total": 5,
+      "sold": 4,
+      "rate": 80
+    },
+    {
       "state": "OR",
       "total": 5,
       "sold": 2,
@@ -14667,12 +14688,6 @@
       "total": 4,
       "sold": 1,
       "rate": 25
-    },
-    {
-      "state": "CO",
-      "total": 4,
-      "sold": 3,
-      "rate": 75
     },
     {
       "state": "TOKYO",
