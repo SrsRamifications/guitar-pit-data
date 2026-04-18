@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T01:05:24.163Z",
+  "generatedAt": "2026-04-18T01:26:43.703Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1220545.26,
-    "avg": 3862,
+    "sum": 1218545.25,
+    "avg": 3856,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 291,
-    "sum": 733539.27,
-    "avg": 2521,
+    "sum": 731539.26,
+    "avg": 2514,
     "min": 7,
     "max": 6999,
-    "median": 2284.16
+    "median": 2250
   },
   "outliers": {
     "thresholdHigh": 7760,
@@ -229,10 +229,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 612952.91,
+      "sum": 610952.9,
       "min": 7,
       "max": 47024,
-      "avg": 3313
+      "avg": 3302
     },
     "2026-03": {
       "count": 131,
@@ -243,28 +243,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 283,
-      "sum": 934835.36,
-      "min": 7,
-      "max": 47024,
-      "avg": 3303
-    },
     "marketplace": {
-      "count": 33,
-      "sum": 285709.9,
+      "count": 34,
+      "sum": 287709.89,
       "min": 139.99,
       "max": 99000,
-      "avg": 8658
+      "avg": 8462
+    },
+    "reverb": {
+      "count": 282,
+      "sum": 930835.36,
+      "min": 7,
+      "max": 47024,
+      "avg": 3301
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 11,
+      "sum": 16633.9,
+      "min": 139.99,
+      "max": 3649.99,
+      "avg": 1512
+    },
     "reverb.com": {
-      "count": 283,
-      "sum": 934835.36,
+      "count": 282,
+      "sum": 930835.36,
       "min": 7,
       "max": 47024,
-      "avg": 3303
+      "avg": 3301
     },
     "gibson.com": {
       "count": 1,
@@ -272,13 +279,6 @@
       "min": 2599,
       "max": 2599,
       "avg": 2599
-    },
-    "guitarcenter.com": {
-      "count": 10,
-      "sum": 14633.91,
-      "min": 139.99,
-      "max": 3649.99,
-      "avg": 1463
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -324,6 +324,46 @@
     }
   },
   "byModel": {
+    "rickenbacker-hollow": {
+      "displayName": "Used Yamaha SA2200 SUNBURST Hollow Body Electric Guitar SUNBURST",
+      "brand": "Rickenbacker",
+      "model": "Hollow",
+      "variant": null,
+      "count": 2,
+      "sum": 3199.98,
+      "min": 1199.99,
+      "max": 1999.99,
+      "sightings": [
+        {
+          "price": 1199.99,
+          "date": "2026-04-17T02:15:30.561Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Gibson N-225 FADED CHERRY Hollow Body Electric Guitar FADED CHERRY",
+          "url": "https://www.guitarcenter.com/Used/Gibson/Used-Gibson-N-225-FADED-CHERRY-Hollow-Body-Electric-Guitar.gc?customer_id=221-965-2806&source=4WWRWXGP&utm_id=22041530336&utm_creative=736454622928&utm_marketing_tactic=guitar&gad_source=1&gad_campaignid=22041530336&gbraid=0AAAAADtcCuyuhZdynQslNpskdT8Pz1sTj",
+          "condition": "Used"
+        },
+        {
+          "price": 1999.99,
+          "date": "2026-04-18T01:26:29.886Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Yamaha SA2200 SUNBURST Hollow Body Electric Guitar SUNBURST",
+          "url": "https://www.guitarcenter.com/Used/Yamaha/Used-Yamaha-SA2200-SUNBURST-Hollow-Body-Electric-Guitar-122191348.gc?algoliaQueryID=be24ead17b75aa825f61cc6e25fafcd4&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 2,
+          "sum": 3199.98,
+          "min": 1199.99,
+          "max": 1999.99,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
+    },
     "gibson-les-paul-classic": {
       "displayName": "Gibson Les Paul Classic 2021 Ebony",
       "brand": "Gibson",
@@ -1236,37 +1276,6 @@
         }
       },
       "avg": 1225
-    },
-    "rickenbacker-hollow": {
-      "displayName": "Used Gibson N-225 FADED CHERRY Hollow Body Electric Guitar FADED CHERRY",
-      "brand": "Rickenbacker",
-      "model": "Hollow",
-      "variant": null,
-      "count": 1,
-      "sum": 1199.99,
-      "min": 1199.99,
-      "max": 1199.99,
-      "sightings": [
-        {
-          "price": 1199.99,
-          "date": "2026-04-17T02:15:30.561Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Gibson N-225 FADED CHERRY Hollow Body Electric Guitar FADED CHERRY",
-          "url": "https://www.guitarcenter.com/Used/Gibson/Used-Gibson-N-225-FADED-CHERRY-Hollow-Body-Electric-Guitar.gc?customer_id=221-965-2806&source=4WWRWXGP&utm_id=22041530336&utm_creative=736454622928&utm_marketing_tactic=guitar&gad_source=1&gad_campaignid=22041530336&gbraid=0AAAAADtcCuyuhZdynQslNpskdT8Pz1sTj",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1199.99,
-          "min": 1199.99,
-          "max": 1199.99,
-          "avg": 1200
-        }
-      },
-      "avg": 1200
     },
     "charvel-music-zoo-exclusive-usa-custom-shop": {
       "displayName": "Charvel USA Custom Shop Music Zoo Exclusive San Dimas HS FR Koa Natural Series Oiled 2025 w/OHSC",
@@ -6426,52 +6435,6 @@
       },
       "avg": 2550
     },
-    "gibson-firebird": {
-      "displayName": "1966 Gibson Firebird III Black w/HSC",
-      "brand": "Gibson",
-      "model": "Firebird",
-      "variant": null,
-      "count": 1,
-      "sum": 4000,
-      "min": 4000,
-      "max": 4000,
-      "sightings": [
-        {
-          "price": 4000,
-          "date": "2026-04-11T14:28:01.210Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1966 Gibson Firebird III Black w/HSC",
-          "url": "https://reverb.com/item/95865216-1966-gibson-firebird-iii-black-w-hsc",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 4000,
-          "min": 4000,
-          "max": 4000,
-          "avg": 4000
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 4000,
-        "min": 4000,
-        "max": 4000,
-        "prices": [
-          {
-            "price": 4000,
-            "askingPrice": 4000,
-            "date": "2026-04-11T21:39:28.494Z",
-            "title": "1966 Gibson Firebird III Black w/HSC",
-            "url": "https://reverb.com/item/95865216-1966-gibson-firebird-iii-black-w-hsc"
-          }
-        ]
-      },
-      "avg": 4000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10541,6 +10504,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 20,
+      "sum": 144950.9,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7248,
+      "min": 139.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 124,
       "sum": 447611.73,
@@ -10570,29 +10544,18 @@
       "max": 16500
     },
     "Good": {
-      "count": 36,
-      "sum": 102432.95,
+      "count": 35,
+      "sum": 98432.95,
       "sold": {
-        "count": 10,
-        "sum": 28936.48,
-        "avg": 2894,
+        "count": 9,
+        "sum": 24936.48,
+        "avg": 2771,
         "min": 685,
         "max": 8000
       },
-      "avg": 2845,
+      "avg": 2812,
       "min": 414,
       "max": 10995
-    },
-    "Used": {
-      "count": 19,
-      "sum": 142950.90999999997,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7524,
-      "min": 139.99,
-      "max": 99000
     },
     "New": {
       "count": 2,
@@ -10659,7 +10622,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3313,
+      "avg": 3302,
       "count": 185
     },
     "03": {
@@ -10813,25 +10776,30 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 92,
+    "1k-2k": 93,
     "2k-3k": 84,
-    "3k-5k": 65,
+    "3k-5k": 64,
     "5k-10k": 31,
     "10k+": 14
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 16,
-    "1k-2k": 92,
+    "1k-2k": 93,
     "2k-3k": 84,
-    "3k-5k": 65,
+    "3k-5k": 64,
     "5k-10k": 20,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 266,
+      "count": 31,
+      "avg": 9
+    },
     "Gibson": {
-      "sum": 800,
-      "count": 42,
+      "sum": 793,
+      "count": 41,
       "avg": 19
     },
     "Echopark": {
@@ -10853,11 +10821,6 @@
       "sum": 117,
       "count": 5,
       "avg": 23
-    },
-    "Rickenbacker": {
-      "sum": 266,
-      "count": 30,
-      "avg": 9
     },
     "PRS": {
       "sum": 334,
@@ -11020,7 +10983,7 @@
       "avg": 4
     },
     "Greco": {
-      "sum": 59,
+      "sum": 60,
       "count": 2,
       "avg": 30
     },
@@ -11120,9 +11083,9 @@
       "avg": 21
     },
     "Hoyer": {
-      "sum": 21,
+      "sum": 22,
       "count": 1,
-      "avg": 21
+      "avg": 22
     },
     "Fractal Audio": {
       "sum": 22,
@@ -11196,14 +11159,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 3,
+    "2026-04-18": 4,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 20,
+    "2026-04-11": 19,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11212,18 +11175,22 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 283,
-    "marketplace": 38
+    "marketplace": 39,
+    "reverb": 282
   },
-  "activeModelsCount": 280,
+  "activeModelsCount": 279,
   "topPosters": [
     {
       "username": "GP",
-      "count": 98
+      "count": 97
     },
     {
       "username": "Beijing Bob",
       "count": 71
+    },
+    {
+      "username": "Shteefe",
+      "count": 25
     },
     {
       "username": "WontonGG",
@@ -11231,10 +11198,6 @@
     },
     {
       "username": "YellowJack6",
-      "count": 24
-    },
-    {
-      "username": "Shteefe",
       "count": 24
     },
     {
@@ -11260,7 +11223,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3313,
+    "avg": 3302,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11273,10 +11236,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 3371,
+      "avgPrice": 3357,
       "retailEst": 800,
-      "avgDiscount": -321.4,
-      "count": 47
+      "avgDiscount": -319.6,
+      "count": 46
     },
     "PRS": {
       "avgPrice": 4063,
@@ -11309,24 +11272,24 @@
       "count": 14
     },
     "Rickenbacker": {
-      "avgPrice": 4156,
+      "avgPrice": 4090,
       "retailEst": 1500,
-      "avgDiscount": -177,
-      "count": 32
+      "avgDiscount": -172.7,
+      "count": 33
     }
   },
   "soldPrices": {
-    "count": 87,
-    "avg": 3246,
+    "count": 86,
+    "avg": 3238,
     "min": 200,
     "max": 35900,
     "avgDiscount": 7
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 650.3000000000001,
-      "count": 83,
-      "avgDays": 7.8
+      "totalDays": 649.9000000000001,
+      "count": 82,
+      "avgDays": 7.9
     },
     "byModel": {
       "gibson-les-paul-standard-60s": {
@@ -11632,14 +11595,6 @@
         "fastest": 23.8,
         "slowest": 23.8,
         "avgDays": 23.8
-      },
-      "gibson-firebird": {
-        "displayName": "1966 Gibson Firebird III Black w/HSC",
-        "totalDays": 0.4,
-        "count": 1,
-        "fastest": 0.4,
-        "slowest": 0.4,
-        "avgDays": 0.4
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11948,11 +11903,11 @@
     },
     "byBrand": {
       "Gibson": {
-        "totalDays": 69.8,
-        "count": 9,
+        "totalDays": 69.4,
+        "count": 8,
         "fastest": 0,
         "slowest": 44,
-        "avgDays": 7.8
+        "avgDays": 8.7
       },
       "Frank": {
         "totalDays": 0.4,
@@ -12373,20 +12328,28 @@
   "sellThrough": {
     "overall": {
       "total": 301,
-      "sold": 84,
+      "sold": 83,
       "fake": 0,
-      "live": 217,
+      "live": 218,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 33,
+        "sold": 6,
+        "fake": 0,
+        "live": 27,
+        "soldPct": 18,
+        "livePct": 82
+      },
       "Gibson": {
-        "total": 49,
-        "sold": 10,
+        "total": 48,
+        "sold": 9,
         "fake": 0,
         "live": 39,
-        "soldPct": 20,
-        "livePct": 80
+        "soldPct": 19,
+        "livePct": 81
       },
       "Echopark": {
         "total": 9,
@@ -12419,14 +12382,6 @@
         "live": 3,
         "soldPct": 40,
         "livePct": 60
-      },
-      "Rickenbacker": {
-        "total": 32,
-        "sold": 6,
-        "fake": 0,
-        "live": 26,
-        "soldPct": 19,
-        "livePct": 81
       },
       "PRS": {
         "total": 19,
@@ -13004,7 +12959,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 92,
+        "total": 93,
         "sold": 24,
         "rate": 26
       },
@@ -13016,9 +12971,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 65,
-        "sold": 23,
-        "rate": 35
+        "total": 64,
+        "sold": 22,
+        "rate": 34
       },
       {
         "label": "$5k–10k",
@@ -13034,6 +12989,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 20,
+        "sold": 3,
+        "rate": 15
+      },
       "Excellent": {
         "total": 124,
         "sold": 41,
@@ -13045,14 +13005,9 @@
         "rate": 29
       },
       "Good": {
-        "total": 36,
-        "sold": 11,
-        "rate": 31
-      },
-      "Used": {
-        "total": 19,
-        "sold": 3,
-        "rate": 16
+        "total": 35,
+        "sold": 10,
+        "rate": 29
       },
       "New": {
         "total": 2,
@@ -13286,7 +13241,7 @@
         "condition": "Very Good",
         "watchers": 117,
         "views": 4661,
-        "daysListed": 202,
+        "daysListed": 203,
         "image": "https://rvb-img.reverb.com/i/s--1hjjQ3di--/quality=medium-low,height=800,width=800,fit=contain/r2grqvigicjil7urxier.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13415,7 +13370,7 @@
         "condition": "Excellent",
         "watchers": 60,
         "views": 1976,
-        "daysListed": 651,
+        "daysListed": 652,
         "image": "https://rvb-img.reverb.com/i/s--2M5mI7nB--/quality=medium-low,height=800,width=800,fit=contain/f7trwwugbccfyi6ohlzc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13598,19 +13553,19 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 36,
-      "sum": 93969.98999999999,
-      "avg": 2610,
+      "count": 35,
+      "sum": 89969.98999999999,
+      "avg": 2571,
       "min": 135,
       "max": 7900,
-      "sold": 5,
-      "soldSum": 12399,
-      "soldAvg": 2480,
+      "sold": 4,
+      "soldSum": 8399,
+      "soldAvg": 2100,
       "live": 31,
-      "sellRate": 14,
-      "totalDays": 81.10000000000001,
-      "soldCount": 5,
-      "avgDaysToSell": 16.2
+      "sellRate": 11,
+      "totalDays": 74.8,
+      "soldCount": 4,
+      "avgDaysToSell": 18.7
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13626,7 +13581,7 @@
       "soldAvg": 4430,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 25.400000000000002,
+      "totalDays": 25.5,
       "soldCount": 3,
       "avgDaysToSell": 8.5
     },
@@ -13661,7 +13616,7 @@
       "soldAvg": 4647,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 95,
+      "totalDays": 95.1,
       "soldCount": 5,
       "avgDaysToSell": 19
     },
@@ -13697,7 +13652,7 @@
       "soldAvg": 3275,
       "live": 8,
       "sellRate": 47,
-      "totalDays": 91.5,
+      "totalDays": 91.6,
       "soldCount": 7,
       "avgDaysToSell": 13.1
     },
@@ -13942,7 +13897,7 @@
       "soldAvg": 1936,
       "live": 7,
       "sellRate": 36,
-      "totalDays": 13.499999999999998,
+      "totalDays": 13.6,
       "soldCount": 4,
       "avgDaysToSell": 3.4
     },
@@ -14521,8 +14476,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 85,
-    "totalOffers": 185,
+    "withOffers": 84,
+    "totalOffers": 184,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 69
   },
@@ -14557,16 +14512,16 @@
     },
     {
       "label": "31+",
-      "total": 64,
-      "sold": 14,
-      "rate": 22
+      "total": 63,
+      "sold": 13,
+      "rate": 21
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 195,
-      "sold": 52,
-      "rate": 27
+      "total": 194,
+      "sold": 51,
+      "rate": 26
     },
     "off": {
       "total": 45,
@@ -14581,9 +14536,9 @@
       "rate": 24
     },
     "regular": {
-      "total": 121,
-      "sold": 37,
-      "rate": 31
+      "total": 120,
+      "sold": 36,
+      "rate": 30
     }
   },
   "geoSellThrough": [
@@ -14672,12 +14627,6 @@
       "rate": 40
     },
     {
-      "state": "NH",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
-    },
-    {
       "state": "NC",
       "total": 4,
       "sold": 2,
@@ -14688,6 +14637,12 @@
       "total": 4,
       "sold": 1,
       "rate": 25
+    },
+    {
+      "state": "NH",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "TOKYO",
