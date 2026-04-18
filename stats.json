@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T15:02:32.370Z",
+  "generatedAt": "2026-04-18T15:16:18.618Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,23 +7,23 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1233876.24,
-    "avg": 3905,
+    "sum": 1236876.23,
+    "avg": 3914,
     "min": 7,
     "max": 99000
   },
   "filtered": {
-    "count": 291,
-    "sum": 742282.25,
-    "avg": 2551,
+    "count": 292,
+    "sum": 753182.24,
+    "avg": 2579,
     "min": 7,
-    "max": 6999,
-    "median": 2295
+    "max": 7900,
+    "median": 2297
   },
   "outliers": {
-    "thresholdHigh": 7862,
+    "thresholdHigh": 7907,
     "thresholdLow": 0,
-    "count": 25,
+    "count": 24,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -215,24 +215,16 @@
         "image": "https://rvb-img.reverb.com/i/s--CghKmyio--/quality=medium-low,height=800,width=800,fit=contain/89fef6c7-21d0-4a20-b3ea-72ca2227b842.jpg",
         "condition": "Brand New",
         "postedAt": "2026-04-15T23:12:28.023Z"
-      },
-      {
-        "title": "Gibson Les Paul SG Custom 1961 - White - musical instruments - by owner - sale - craigslist",
-        "url": "https://mcallen.craigslist.org/msg/d/mcallen-gibson-les-paul-sg-custom-white/7923891511.html",
-        "price": "$7,900",
-        "image": "https://images.craigslist.org/00909_4cf592uZOJ6_0hb0pO_600x450.jpg",
-        "condition": null,
-        "postedAt": "2026-03-30T20:34:55.349Z"
       }
     ]
   },
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 626283.89,
+      "sum": 629283.88,
       "min": 7,
       "max": 47042,
-      "avg": 3385
+      "avg": 3402
     },
     "2026-03": {
       "count": 131,
@@ -244,21 +236,28 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 38,
-      "sum": 316344.88,
+      "count": 39,
+      "sum": 321844.87,
       "min": 139.99,
       "max": 99000,
-      "avg": 8325
+      "avg": 8252
     },
     "reverb": {
-      "count": 278,
-      "sum": 917531.36,
+      "count": 277,
+      "sum": 915031.36,
       "min": 7,
       "max": 47042,
-      "avg": 3300
+      "avg": 3303
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 13,
+      "sum": 23483.88,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1806
+    },
     "chicagomusicexchange.com": {
       "count": 20,
       "sum": 268068.99,
@@ -267,18 +266,11 @@
       "avg": 13403
     },
     "reverb.com": {
-      "count": 278,
-      "sum": 917531.36,
+      "count": 277,
+      "sum": 915031.36,
       "min": 7,
       "max": 47042,
-      "avg": 3300
-    },
-    "guitarcenter.com": {
-      "count": 12,
-      "sum": 17983.89,
-      "min": 139.99,
-      "max": 3649.99,
-      "avg": 1499
+      "avg": 3303
     },
     "gibson.com": {
       "count": 1,
@@ -324,6 +316,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-taylor-gs-sinker": {
+      "displayName": "Used Taylor GS Custom Sinker Redwood and Cocobolo Acoustic Electric Guitar Sinker Redwood and Cocobolo",
+      "brand": "Rickenbacker",
+      "model": "Taylor GS Sinker",
+      "variant": null,
+      "count": 1,
+      "sum": 5499.99,
+      "min": 5499.99,
+      "max": 5499.99,
+      "sightings": [
+        {
+          "price": 5499.99,
+          "date": "2026-04-18T15:16:04.345Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Taylor GS Custom Sinker Redwood and Cocobolo Acoustic Electric Guitar Sinker Redwood and Cocobolo",
+          "url": "https://www.guitarcenter.com/Used/Taylor/Used-Taylor-GS-Custom-Sinker-Redwood-and-Cocobolo-Acoustic-Electric-Guitar.gc?algoliaQueryID=12b23ecb1ad45a507c6201b2e2650447&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 5499.99,
+          "min": 5499.99,
+          "max": 5499.99,
+          "avg": 5500
+        }
+      },
+      "avg": 5500
+    },
     "fender-jazzmaster": {
       "displayName": "Fender Jazzmaster Lake Placid Blue 1967",
       "brand": "Fender",
@@ -6391,52 +6414,6 @@
       },
       "avg": 5606
     },
-    "bc-rich-ironbird-2024ish": {
-      "displayName": "B.C. Rich Ironbird 2024ish",
-      "brand": "BC Rich",
-      "model": "Ironbird 2024ish",
-      "variant": null,
-      "count": 1,
-      "sum": 2500,
-      "min": 2500,
-      "max": 2500,
-      "sightings": [
-        {
-          "price": 2500,
-          "date": "2026-04-11T16:39:11.710Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich Ironbird 2024ish",
-          "url": "https://reverb.com/item/95862828-b-c-rich-ironbird-2024ish",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2500,
-          "min": 2500,
-          "max": 2500,
-          "avg": 2500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2500,
-        "min": 2500,
-        "max": 2500,
-        "prices": [
-          {
-            "price": 2500,
-            "askingPrice": 2500,
-            "date": "2026-04-12T00:39:12.465Z",
-            "title": "B.C. Rich Ironbird 2024ish",
-            "url": "https://reverb.com/item/95862828-b-c-rich-ironbird-2024ish"
-          }
-        ]
-      },
-      "avg": 2500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10506,6 +10483,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 22,
+      "sum": 151800.88,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 6900,
+      "min": 139.99,
+      "max": 99000
+    },
     "Good": {
       "count": 36,
       "sum": 120318.95,
@@ -10521,29 +10509,18 @@
       "max": 15995
     },
     "Excellent": {
-      "count": 125,
-      "sum": 456863.73,
+      "count": 124,
+      "sum": 454363.73,
       "sold": {
-        "count": 39,
-        "sum": 135408.43,
-        "avg": 3472,
+        "count": 38,
+        "sum": 132908.43,
+        "avg": 3498,
         "min": 200,
         "max": 35900
       },
-      "avg": 3655,
+      "avg": 3664,
       "min": 200,
       "max": 35900
-    },
-    "Used": {
-      "count": 21,
-      "sum": 146300.88999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 6967,
-      "min": 139.99,
-      "max": 99000
     },
     "Very Good": {
       "count": 87,
@@ -10624,7 +10601,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3385,
+      "avg": 3402,
       "count": 185
     },
     "03": {
@@ -10779,28 +10756,33 @@
     "0-500": 14,
     "500-1k": 16,
     "1k-2k": 92,
-    "2k-3k": 83,
+    "2k-3k": 82,
     "3k-5k": 62,
-    "5k-10k": 35,
+    "5k-10k": 36,
     "10k+": 14
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 16,
     "1k-2k": 92,
-    "2k-3k": 83,
+    "2k-3k": 82,
     "3k-5k": 62,
-    "5k-10k": 24,
+    "5k-10k": 26,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 292,
+      "count": 33,
+      "avg": 9
+    },
     "Fender": {
       "sum": 183,
       "count": 11,
       "avg": 17
     },
     "Gibson": {
-      "sum": 823,
+      "sum": 824,
       "count": 42,
       "avg": 20
     },
@@ -10813,11 +10795,6 @@
       "sum": 25,
       "count": 3,
       "avg": 8
-    },
-    "Rickenbacker": {
-      "sum": 292,
-      "count": 32,
-      "avg": 9
     },
     "Novo": {
       "sum": 74,
@@ -10855,14 +10832,14 @@
       "avg": 28
     },
     "Jackson": {
-      "sum": 158,
+      "sum": 159,
       "count": 12,
       "avg": 13
     },
     "BC Rich": {
-      "sum": 217,
-      "count": 12,
-      "avg": 18
+      "sum": 210,
+      "count": 11,
+      "avg": 19
     },
     "Frank": {
       "sum": 23,
@@ -11156,14 +11133,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 11,
+    "2026-04-18": 12,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 12,
+    "2026-04-11": 11,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11172,8 +11149,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 43,
-    "reverb": 278
+    "marketplace": 44,
+    "reverb": 277
   },
   "activeModelsCount": 279,
   "topPosters": [
@@ -11187,7 +11164,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 27
+      "count": 28
     },
     {
       "username": "WontonGG",
@@ -11195,7 +11172,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 24
+      "count": 23
     },
     {
       "username": "Madero",
@@ -11220,7 +11197,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3385,
+    "avg": 3402,
     "pctBelowAvg": 13,
     "count": 185
   },
@@ -11269,30 +11246,30 @@
       "count": 10
     },
     "BC Rich": {
-      "avgPrice": 2723,
+      "avgPrice": 2741,
       "retailEst": 200,
-      "avgDiscount": -1261.7,
-      "count": 14
+      "avgDiscount": -1270.3,
+      "count": 13
     },
     "Rickenbacker": {
-      "avgPrice": 4010,
+      "avgPrice": 4053,
       "retailEst": 1500,
-      "avgDiscount": -167.4,
-      "count": 34
+      "avgDiscount": -170.2,
+      "count": 35
     }
   },
   "soldPrices": {
-    "count": 86,
-    "avg": 3229,
+    "count": 85,
+    "avg": 3237,
     "min": 200,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 630.0000000000001,
-      "count": 82,
-      "avgDays": 7.7
+      "totalDays": 629.6000000000001,
+      "count": 81,
+      "avgDays": 7.8
     },
     "byModel": {
       "gibson-les-paul-standard-60s": {
@@ -11590,14 +11567,6 @@
         "fastest": 1.2,
         "slowest": 1.2,
         "avgDays": 1.2
-      },
-      "bc-rich-ironbird-2024ish": {
-        "displayName": "B.C. Rich Ironbird 2024ish",
-        "totalDays": 0.4,
-        "count": 1,
-        "fastest": 0.4,
-        "slowest": 0.4,
-        "avgDays": 0.4
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11990,11 +11959,11 @@
         "avgDays": 1.5
       },
       "BC Rich": {
-        "totalDays": 245.1,
-        "count": 4,
-        "fastest": 0.4,
+        "totalDays": 244.7,
+        "count": 3,
+        "fastest": 2.2,
         "slowest": 238.2,
-        "avgDays": 61.3
+        "avgDays": 81.6
       },
       "ABASI": {
         "totalDays": 3.6,
@@ -12319,13 +12288,21 @@
   "sellThrough": {
     "overall": {
       "total": 301,
-      "sold": 83,
+      "sold": 82,
       "fake": 0,
-      "live": 218,
-      "soldPct": 28,
-      "livePct": 72
+      "live": 219,
+      "soldPct": 27,
+      "livePct": 73
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 35,
+        "sold": 6,
+        "fake": 0,
+        "live": 29,
+        "soldPct": 17,
+        "livePct": 83
+      },
       "Fender": {
         "total": 14,
         "sold": 4,
@@ -12357,14 +12334,6 @@
         "live": 3,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Rickenbacker": {
-        "total": 34,
-        "sold": 6,
-        "fake": 0,
-        "live": 28,
-        "soldPct": 18,
-        "livePct": 82
       },
       "Novo": {
         "total": 2,
@@ -12439,12 +12408,12 @@
         "livePct": 92
       },
       "BC Rich": {
-        "total": 14,
-        "sold": 4,
+        "total": 13,
+        "sold": 3,
         "fake": 0,
         "live": 10,
-        "soldPct": 29,
-        "livePct": 71
+        "soldPct": 23,
+        "livePct": 77
       },
       "Frank": {
         "total": 2,
@@ -12948,9 +12917,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 83,
-        "sold": 23,
-        "rate": 28
+        "total": 82,
+        "sold": 22,
+        "rate": 27
       },
       {
         "label": "$3k–5k",
@@ -12960,7 +12929,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 35,
+        "total": 36,
         "sold": 6,
         "rate": 17
       },
@@ -12972,20 +12941,20 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 22,
+        "sold": 3,
+        "rate": 14
+      },
       "Good": {
         "total": 36,
         "sold": 10,
         "rate": 28
       },
       "Excellent": {
-        "total": 125,
-        "sold": 41,
-        "rate": 33
-      },
-      "Used": {
-        "total": 21,
-        "sold": 3,
-        "rate": 14
+        "total": 124,
+        "sold": 40,
+        "rate": 32
       },
       "Very Good": {
         "total": 87,
@@ -13546,7 +13515,7 @@
       "soldAvg": 19130,
       "live": 7,
       "sellRate": 30,
-      "totalDays": 48.900000000000006,
+      "totalDays": 49,
       "soldCount": 3,
       "avgDaysToSell": 16.3
     },
@@ -13582,9 +13551,9 @@
       "soldAvg": 4430,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 26.5,
+      "totalDays": 26.6,
       "soldCount": 3,
-      "avgDaysToSell": 8.8
+      "avgDaysToSell": 8.9
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13670,9 +13639,9 @@
       "soldAvg": 3275,
       "live": 5,
       "sellRate": 58,
-      "totalDays": 95.49999999999999,
+      "totalDays": 95.70000000000002,
       "soldCount": 7,
-      "avgDaysToSell": 13.6
+      "avgDaysToSell": 13.7
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13862,7 +13831,7 @@
       "soldAvg": 1573,
       "live": 3,
       "sellRate": 70,
-      "totalDays": 100.9,
+      "totalDays": 101,
       "soldCount": 7,
       "avgDaysToSell": 14.4
     },
@@ -13897,7 +13866,7 @@
       "soldAvg": 1936,
       "live": 7,
       "sellRate": 36,
-      "totalDays": 15.799999999999999,
+      "totalDays": 15.899999999999999,
       "soldCount": 4,
       "avgDaysToSell": 4
     },
@@ -14002,7 +13971,7 @@
       "soldAvg": 2449,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 105.80000000000001,
+      "totalDays": 105.9,
       "soldCount": 4,
       "avgDaysToSell": 26.5
     },
@@ -14384,7 +14353,7 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 213.3,
+      "totalDays": 213.4,
       "soldCount": 2,
       "avgDaysToSell": 106.7
     },
@@ -14459,8 +14428,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 81,
-    "totalOffers": 179,
+    "withOffers": 80,
+    "totalOffers": 178,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 68
   },
@@ -14483,9 +14452,9 @@
     },
     {
       "label": "6–15",
-      "total": 68,
-      "sold": 17,
-      "rate": 25
+      "total": 67,
+      "sold": 16,
+      "rate": 24
     },
     {
       "label": "16–30",
@@ -14502,8 +14471,8 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 189,
-      "sold": 51,
+      "total": 188,
+      "sold": 50,
       "rate": 27
     },
     "off": {
@@ -14519,9 +14488,9 @@
       "rate": 24
     },
     "regular": {
-      "total": 118,
-      "sold": 36,
-      "rate": 31
+      "total": 117,
+      "sold": 35,
+      "rate": 30
     }
   },
   "geoSellThrough": [
@@ -14592,12 +14561,6 @@
       "rate": 0
     },
     {
-      "state": "CO",
-      "total": 5,
-      "sold": 4,
-      "rate": 80
-    },
-    {
       "state": "OR",
       "total": 5,
       "sold": 2,
@@ -14608,6 +14571,12 @@
       "total": 4,
       "sold": 1,
       "rate": 25
+    },
+    {
+      "state": "CO",
+      "total": 4,
+      "sold": 3,
+      "rate": 75
     },
     {
       "state": "NC",
