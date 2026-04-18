@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:39:35.333Z",
+  "generatedAt": "2026-04-18T13:41:56.444Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1215761.24,
-    "avg": 3847,
+    "sum": 1218836.24,
+    "avg": 3857,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 291,
-    "sum": 728662.25,
-    "avg": 2504,
+    "sum": 731737.25,
+    "avg": 2515,
     "min": 7,
     "max": 6999,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 7650,
+    "thresholdHigh": 7800,
     "thresholdLow": 0,
     "count": 25,
     "items": [
@@ -229,10 +229,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 608168.89,
+      "sum": 611243.89,
       "min": 7,
       "max": 47042,
-      "avg": 3287
+      "avg": 3304
     },
     "2026-03": {
       "count": 131,
@@ -245,10 +245,10 @@
   "byCategory": {
     "reverb": {
       "count": 281,
-      "sum": 926701.36,
+      "sum": 929776.36,
       "min": 7,
       "max": 47042,
-      "avg": 3298
+      "avg": 3309
     },
     "marketplace": {
       "count": 35,
@@ -261,10 +261,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 281,
-      "sum": 926701.36,
+      "sum": 929776.36,
       "min": 7,
       "max": 47042,
-      "avg": 3298
+      "avg": 3309
     },
     "guitarcenter.com": {
       "count": 12,
@@ -324,6 +324,37 @@
     }
   },
   "byModel": {
+    "anderson-guitarworks-top-fire": {
+      "displayName": "Tom Anderson Guitarworks Top T 2024 - Fire WakeSurf",
+      "brand": "Anderson",
+      "model": "Guitarworks Top Fire",
+      "variant": null,
+      "count": 1,
+      "sum": 5250,
+      "min": 5250,
+      "max": 5250,
+      "sightings": [
+        {
+          "price": 5250,
+          "date": "2026-04-18T13:41:42.875Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Tom Anderson Guitarworks Top T 2024 - Fire WakeSurf",
+          "url": "https://reverb.com/item/96140404-tom-anderson-guitarworks-top-t-2024-fire-wakesurf",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 5250,
+          "min": 5250,
+          "max": 5250,
+          "avg": 5250
+        }
+      },
+      "avg": 5250
+    },
     "rg-limited-edition": {
       "displayName": "Hallmark Barris Krest Limited Edition Prototype-Autographed by George Barris",
       "brand": null,
@@ -6419,37 +6450,6 @@
       },
       "avg": 3495
     },
-    "prs-mccarty-2002": {
-      "displayName": "PRS McCarty 2002 - McCarty Sunburst",
-      "brand": "PRS",
-      "model": "McCarty 2002",
-      "variant": null,
-      "count": 1,
-      "sum": 2175,
-      "min": 2175,
-      "max": 2175,
-      "sightings": [
-        {
-          "price": 2175,
-          "date": "2026-04-11T15:36:39.103Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 2002 - McCarty Sunburst",
-          "url": "https://reverb.com/item/95866066-prs-mccarty-2002-mccarty-sunburst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2175,
-          "min": 2175,
-          "max": 2175,
-          "avg": 2175
-        }
-      },
-      "avg": 2175
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10521,7 +10521,7 @@
   "byCondition": {
     "Excellent": {
       "count": 124,
-      "sum": 447588.73,
+      "sum": 450663.73,
       "sold": {
         "count": 39,
         "sum": 135408.43,
@@ -10529,7 +10529,7 @@
         "min": 200,
         "max": 35900
       },
-      "avg": 3610,
+      "avg": 3634,
       "min": 200,
       "max": 35900
     },
@@ -10637,7 +10637,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3287,
+      "avg": 3304,
       "count": 185
     },
     "03": {
@@ -10792,21 +10792,26 @@
     "0-500": 14,
     "500-1k": 16,
     "1k-2k": 94,
-    "2k-3k": 84,
+    "2k-3k": 83,
     "3k-5k": 63,
-    "5k-10k": 31,
+    "5k-10k": 32,
     "10k+": 14
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 16,
     "1k-2k": 94,
-    "2k-3k": 84,
+    "2k-3k": 83,
     "3k-5k": 63,
-    "5k-10k": 20,
+    "5k-10k": 21,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Anderson": {
+      "sum": 32,
+      "count": 4,
+      "avg": 8
+    },
     "Rickenbacker": {
       "sum": 288,
       "count": 32,
@@ -10838,9 +10843,9 @@
       "avg": 24
     },
     "PRS": {
-      "sum": 348,
-      "count": 18,
-      "avg": 19
+      "sum": 341,
+      "count": 17,
+      "avg": 20
     },
     "Padalka": {
       "sum": 1,
@@ -10976,11 +10981,6 @@
       "sum": 40,
       "count": 3,
       "avg": 13
-    },
-    "Anderson": {
-      "sum": 32,
-      "count": 3,
-      "avg": 11
     },
     "Dean": {
       "sum": 13,
@@ -11169,14 +11169,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 6,
+    "2026-04-18": 7,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
     "2026-04-12": 14,
-    "2026-04-11": 17,
+    "2026-04-11": 16,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11192,11 +11192,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 96
+      "count": 97
     },
     {
       "username": "Beijing Bob",
-      "count": 72
+      "count": 71
     },
     {
       "username": "Shteefe",
@@ -11233,8 +11233,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3287,
-    "pctBelowAvg": 15,
+    "avg": 3304,
+    "pctBelowAvg": 14,
     "count": 185
   },
   "topVoted": [],
@@ -11252,10 +11252,10 @@
       "count": 45
     },
     "PRS": {
-      "avgPrice": 4066,
+      "avgPrice": 4171,
       "retailEst": 1000,
-      "avgDiscount": -306.6,
-      "count": 19
+      "avgDiscount": -317.1,
+      "count": 18
     },
     "Ibanez": {
       "avgPrice": 3480,
@@ -12333,6 +12333,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Anderson": {
+        "total": 4,
+        "sold": 0,
+        "fake": 0,
+        "live": 4,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Rickenbacker": {
         "total": 34,
         "sold": 6,
@@ -12382,12 +12390,12 @@
         "livePct": 60
       },
       "PRS": {
-        "total": 19,
+        "total": 18,
         "sold": 8,
         "fake": 0,
-        "live": 11,
-        "soldPct": 42,
-        "livePct": 58
+        "live": 10,
+        "soldPct": 44,
+        "livePct": 56
       },
       "Padalka": {
         "total": 1,
@@ -12620,14 +12628,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Anderson": {
-        "total": 3,
-        "sold": 0,
-        "fake": 0,
-        "live": 3,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Dean": {
         "total": 1,
@@ -12955,9 +12955,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 84,
+        "total": 83,
         "sold": 23,
-        "rate": 27
+        "rate": 28
       },
       {
         "label": "$3k–5k",
@@ -12967,7 +12967,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 31,
+        "total": 32,
         "sold": 6,
         "rate": 19
       },
@@ -13539,6 +13539,23 @@
     ]
   },
   "byBrandLine": {
+    "Anderson|Tom Anderson": {
+      "brand": "Anderson",
+      "brandLine": "Tom Anderson",
+      "tier": "premium",
+      "count": 4,
+      "sum": 14295,
+      "avg": 3574,
+      "min": 2550,
+      "max": 5250,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 4,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13632,16 +13649,16 @@
       "brand": "PRS",
       "brandLine": "PRS Core",
       "tier": "premium",
-      "count": 15,
-      "sum": 58864.17,
-      "avg": 3924,
+      "count": 14,
+      "sum": 56689.17,
+      "avg": 4049,
       "min": 699,
       "max": 11500,
       "sold": 7,
       "soldSum": 22922.17,
       "soldAvg": 3275,
-      "live": 8,
-      "sellRate": 47,
+      "live": 7,
+      "sellRate": 50,
       "totalDays": 95.2,
       "soldCount": 7,
       "avgDaysToSell": 13.6
@@ -14082,23 +14099,6 @@
       "soldCount": 1,
       "avgDaysToSell": 3.6
     },
-    "Anderson|Tom Anderson": {
-      "brand": "Anderson",
-      "brandLine": "Tom Anderson",
-      "tier": "premium",
-      "count": 3,
-      "sum": 9045,
-      "avg": 3015,
-      "min": 2550,
-      "max": 3495,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 3,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
       "brandLine": "Alvarez",
@@ -14466,8 +14466,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 83,
-    "totalOffers": 186,
+    "withOffers": 82,
+    "totalOffers": 184,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 68
   },
@@ -14484,9 +14484,9 @@
     },
     {
       "label": "1–5",
-      "total": 25,
+      "total": 26,
       "sold": 5,
-      "rate": 20
+      "rate": 19
     },
     {
       "label": "6–15",
@@ -14502,9 +14502,9 @@
     },
     {
       "label": "31+",
-      "total": 64,
+      "total": 63,
       "sold": 13,
-      "rate": 20
+      "rate": 21
     }
   ],
   "offersEffect": {
@@ -14629,10 +14629,10 @@
       "rate": 25
     },
     {
-      "state": "NH",
+      "state": "VA",
       "total": 3,
-      "sold": 0,
-      "rate": 0
+      "sold": 1,
+      "rate": 33
     },
     {
       "state": "TOKYO",
@@ -14683,6 +14683,12 @@
       "rate": 33
     },
     {
+      "state": "NH",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "OK",
       "total": 2,
       "sold": 0,
@@ -14693,12 +14699,6 @@
       "total": 2,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "VA",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
     },
     {
       "state": "AL",
