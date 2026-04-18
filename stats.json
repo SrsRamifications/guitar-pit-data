@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T20:07:01.149Z",
+  "generatedAt": "2026-04-18T20:23:37.252Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1225442.13,
-    "avg": 3878,
+    "sum": 1227437.13,
+    "avg": 3884,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 294,
-    "sum": 762655.14,
-    "avg": 2594,
+    "sum": 764650.14,
+    "avg": 2601,
     "min": 7,
     "max": 7900,
-    "median": 2297
+    "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 7915,
+    "thresholdHigh": 7918,
     "thresholdLow": 0,
     "count": 22,
     "items": [
@@ -205,10 +205,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 617849.78,
+      "sum": 619844.78,
       "min": 7,
       "max": 47042,
-      "avg": 3340
+      "avg": 3351
     },
     "2026-03": {
       "count": 131,
@@ -219,35 +219,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 270,
-      "sum": 897592.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3324
-    },
     "marketplace": {
-      "count": 46,
-      "sum": 327849.77,
+      "count": 47,
+      "sum": 331844.77,
       "min": 139.99,
       "max": 99000,
-      "avg": 7127
+      "avg": 7061
+    },
+    "reverb": {
+      "count": 269,
+      "sum": 895592.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3329
     }
   },
   "byDomain": {
-    "reverb.com": {
-      "count": 270,
-      "sum": 897592.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3324
-    },
     "chicagomusicexchange.com": {
-      "count": 17,
-      "sum": 248373.99,
+      "count": 18,
+      "sum": 252368.99,
       "min": 350,
       "max": 99000,
-      "avg": 14610
+      "avg": 14020
+    },
+    "reverb.com": {
+      "count": 269,
+      "sum": 895592.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3329
     },
     "guitarcenter.com": {
       "count": 22,
@@ -300,6 +300,37 @@
     }
   },
   "byModel": {
+    "martin-standard": {
+      "displayName": "Martin Standard Series D-42 Natural 2021",
+      "brand": "Martin",
+      "model": "Standard",
+      "variant": null,
+      "count": 1,
+      "sum": 3995,
+      "min": 3995,
+      "max": 3995,
+      "sightings": [
+        {
+          "price": 3995,
+          "date": "2026-04-18T20:23:21.231Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Martin Standard Series D-42 Natural 2021",
+          "url": "https://www.chicagomusicexchange.com/collections/new-arrivals/products/martin-standard-series-d-42-natural-2021-2540947",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 3995,
+          "min": 3995,
+          "max": 3995,
+          "avg": 3995
+        }
+      },
+      "avg": 3995
+    },
     "double-cut-8-string": {
       "displayName": "Seger Double Cut 8 String 2020 - Sunburst",
       "brand": null,
@@ -6300,37 +6331,6 @@
       },
       "avg": 1899
     },
-    "vigier-excalibur-indus": {
-      "displayName": "Vigier Excalibur Indus",
-      "brand": "Vigier",
-      "model": "Excalibur Indus",
-      "variant": null,
-      "count": 1,
-      "sum": 2000,
-      "min": 2000,
-      "max": 2000,
-      "sightings": [
-        {
-          "price": 2000,
-          "date": "2026-04-12T20:10:01.864Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Vigier Excalibur Indus",
-          "url": "https://reverb.com/item/95157286-vigier-excalibur-indus",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2000,
-          "min": 2000,
-          "max": 2000,
-          "avg": 2000
-        }
-      },
-      "avg": 2000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10385,6 +10385,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 32,
+      "sum": 172990.78999999995,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 5406,
+      "min": 139.99,
+      "max": 99000
+    },
     "Mint": {
       "count": 5,
       "sum": 60227,
@@ -10396,20 +10407,9 @@
       "min": 1050,
       "max": 47042
     },
-    "Used": {
-      "count": 31,
-      "sum": 168995.78999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 5451,
-      "min": 139.99,
-      "max": 99000
-    },
     "Excellent": {
-      "count": 121,
-      "sum": 443007.73,
+      "count": 120,
+      "sum": 441007.73,
       "sold": {
         "count": 37,
         "sum": 134722.43,
@@ -10417,7 +10417,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3661,
+      "avg": 3675,
       "min": 275,
       "max": 35900
     },
@@ -10503,7 +10503,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3340,
+      "avg": 3351,
       "count": 185
     },
     "03": {
@@ -10598,13 +10598,6 @@
       "date": "2026-04-14T12:13:24.681Z"
     },
     {
-      "title": "Vigier Excalibur Indus",
-      "url": "https://reverb.com/item/95157286-vigier-excalibur-indus",
-      "oldPrice": "$2,200",
-      "newPrice": "$2,000",
-      "date": "2026-04-15T17:43:52.302Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10652,14 +10645,21 @@
       "oldPrice": "$3,800",
       "newPrice": "$3,600",
       "date": "2026-04-04T03:37:48.990Z"
+    },
+    {
+      "title": "Valiant Guitars Soothsayer 2023 - Burning Grey, Near Mint!",
+      "url": "https://reverb.com/item/94397834-valiant-guitars-soothsayer-2023-burning-grey-near-mint",
+      "oldPrice": "$1,795",
+      "newPrice": "$1,595",
+      "date": "2026-04-01T17:43:32.667Z"
     }
   ],
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 16,
     "1k-2k": 93,
-    "2k-3k": 82,
-    "3k-5k": 64,
+    "2k-3k": 81,
+    "3k-5k": 65,
     "5k-10k": 34,
     "10k+": 13
   },
@@ -10667,12 +10667,17 @@
     "0-500": 14,
     "500-1k": 16,
     "1k-2k": 93,
-    "2k-3k": 82,
-    "3k-5k": 64,
+    "2k-3k": 81,
+    "3k-5k": 65,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Martin": {
+      "sum": 19,
+      "count": 2,
+      "avg": 10
+    },
     "Jackson": {
       "sum": 153,
       "count": 12,
@@ -10754,9 +10759,9 @@
       "avg": 18
     },
     "Yamaha": {
-      "sum": 103,
+      "sum": 104,
       "count": 3,
-      "avg": 34
+      "avg": 35
     },
     "BC Rich": {
       "sum": 211,
@@ -10799,7 +10804,7 @@
       "avg": 3
     },
     "Kiesel": {
-      "sum": 207,
+      "sum": 208,
       "count": 12,
       "avg": 17
     },
@@ -10903,11 +10908,6 @@
       "count": 3,
       "avg": 15
     },
-    "Vigier": {
-      "sum": 31,
-      "count": 1,
-      "avg": 31
-    },
     "Languedoc": {
       "sum": 21,
       "count": 1,
@@ -11003,11 +11003,6 @@
       "count": 2,
       "avg": 19
     },
-    "Martin": {
-      "sum": 19,
-      "count": 1,
-      "avg": 19
-    },
     "Cornish": {
       "sum": 34,
       "count": 1,
@@ -11035,13 +11030,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-18": 32,
+    "2026-04-18": 33,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
     "2026-04-13": 25,
-    "2026-04-12": 5,
+    "2026-04-12": 4,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11050,8 +11045,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 270,
-    "marketplace": 51
+    "marketplace": 52,
+    "reverb": 269
   },
   "activeModelsCount": 278,
   "topPosters": [
@@ -11061,11 +11056,11 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 69
+      "count": 68
     },
     {
       "username": "Shteefe",
-      "count": 33
+      "count": 34
     },
     {
       "username": "WontonGG",
@@ -11098,7 +11093,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3340,
+    "avg": 3351,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11981,9 +11976,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1232.806361141212,
-      "count": 71,
-      "avgPctDrop": 17.4
+      "totalPctDrop": 1212.806361141212,
+      "count": 70,
+      "avgPctDrop": 17.3
     },
     "byBrand": {
       "TopHat": {
@@ -12091,11 +12086,6 @@
         "count": 1,
         "avgPctDrop": 8
       },
-      "Vigier": {
-        "totalPctDrop": 20,
-        "count": 1,
-        "avgPctDrop": 20
-      },
       "Ibanez": {
         "totalPctDrop": 49.92401215805471,
         "count": 2,
@@ -12148,6 +12138,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Martin": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Jackson": {
         "total": 12,
         "sold": 1,
@@ -12548,14 +12546,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Vigier": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12708,14 +12698,6 @@
         "soldPct": 50,
         "livePct": 50
       },
-      "Martin": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Cornish": {
         "total": 1,
         "sold": 1,
@@ -12778,15 +12760,15 @@
       },
       {
         "label": "$2k–3k",
-        "total": 82,
+        "total": 81,
         "sold": 21,
         "rate": 26
       },
       {
         "label": "$3k–5k",
-        "total": 64,
+        "total": 65,
         "sold": 23,
-        "rate": 36
+        "rate": 35
       },
       {
         "label": "$5k–10k",
@@ -12802,20 +12784,20 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 32,
+        "sold": 0,
+        "rate": 0
+      },
       "Mint": {
         "total": 5,
         "sold": 0,
         "rate": 0
       },
-      "Used": {
-        "total": 31,
-        "sold": 0,
-        "rate": 0
-      },
       "Excellent": {
-        "total": 121,
+        "total": 120,
         "sold": 39,
-        "rate": 32
+        "rate": 33
       },
       "Brand New": {
         "total": 28,
@@ -13491,9 +13473,9 @@
       "soldAvg": 3007,
       "live": 29,
       "sellRate": 17,
-      "totalDays": 72.3,
+      "totalDays": 72.4,
       "soldCount": 6,
-      "avgDaysToSell": 12
+      "avgDaysToSell": 12.1
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13930,9 +13912,9 @@
       "soldAvg": 2599,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 109.7,
+      "totalDays": 109.8,
       "soldCount": 5,
-      "avgDaysToSell": 21.9
+      "avgDaysToSell": 22
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -14142,23 +14124,6 @@
       "soldCount": 3,
       "avgDaysToSell": 14.5
     },
-    "Vigier|Vigier": {
-      "brand": "Vigier",
-      "brandLine": "Vigier",
-      "tier": "premium",
-      "count": 1,
-      "sum": 2000,
-      "avg": 2000,
-      "min": 2000,
-      "max": 2000,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -14316,8 +14281,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 80,
-    "totalOffers": 178,
+    "withOffers": 79,
+    "totalOffers": 177,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 67
   },
@@ -14346,9 +14311,9 @@
     },
     {
       "label": "16–30",
-      "total": 62,
+      "total": 61,
       "sold": 23,
-      "rate": 37
+      "rate": 38
     },
     {
       "label": "31+",
@@ -14359,7 +14324,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 181,
+      "total": 180,
       "sold": 48,
       "rate": 27
     },
@@ -14376,7 +14341,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 113,
+      "total": 112,
       "sold": 34,
       "rate": 30
     }
@@ -14384,9 +14349,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 27,
+      "total": 26,
       "sold": 9,
-      "rate": 33
+      "rate": 35
     },
     {
       "state": "WA",
