@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T15:37:36.203Z",
+  "generatedAt": "2026-04-19T15:43:23.618Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1222361.14,
-    "avg": 3881,
+    "sum": 1221399.14,
+    "avg": 3877,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 294,
-    "sum": 767574.15,
-    "avg": 2611,
+    "sum": 766612.15,
+    "avg": 2608,
     "min": 7,
     "max": 7900,
     "median": 2300
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 614768.79,
+      "sum": 613806.79,
       "min": 7,
       "max": 47042,
-      "avg": 3341
+      "avg": 3336
     },
     "2026-03": {
       "count": 131,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 268,
-      "sum": 889821.36,
+      "sum": 888859.36,
       "min": 7,
       "max": 47042,
-      "avg": 3320
+      "avg": 3317
     },
     "marketplace": {
       "count": 47,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 268,
-      "sum": 889821.36,
+      "sum": 888859.36,
       "min": 7,
       "max": 47042,
-      "avg": 3320
+      "avg": 3317
     },
     "chicagomusicexchange.com": {
       "count": 19,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-stratocaster-signature-mij": {
+      "displayName": "Fender STR RK Richie Kotzen Signature Stratocaster MIJ 2024 - Present - See Thru White",
+      "brand": "Rickenbacker",
+      "model": "Stratocaster",
+      "variant": "Signature Mij",
+      "count": 1,
+      "sum": 1259,
+      "min": 1259,
+      "max": 1259,
+      "sightings": [
+        {
+          "price": 1259,
+          "date": "2026-04-19T15:43:09.087Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender STR RK Richie Kotzen Signature Stratocaster MIJ 2024 - Present - See Thru White",
+          "url": "https://reverb.com/item/96167476-fender-str-rk-richie-kotzen-signature-stratocaster-mij-2024-present-see-thru-white",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1259,
+          "min": 1259,
+          "max": 1259,
+          "avg": 1259
+        }
+      },
+      "avg": 1259
+    },
     "eastman-sb56n-gd-goldtop-goldtop": {
       "displayName": "Eastman SB56/N-GD 2021 - Goldtop",
       "brand": "Eastman",
@@ -1613,6 +1644,21 @@
           "max": 2495,
           "avg": 2495
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2495,
+        "min": 2495,
+        "max": 2495,
+        "prices": [
+          {
+            "price": 2495,
+            "askingPrice": 2495,
+            "date": "2026-04-19T15:37:57.038Z",
+            "title": "Hallmark Barris Krest Limited Edition Prototype-Autographed by George Barris",
+            "url": "https://reverb.com/item/95880778-hallmark-barris-krest-limited-edition-prototype-autographed-by-george-barris"
+          }
+        ]
       },
       "avg": 2495
     },
@@ -6255,37 +6301,6 @@
       },
       "avg": 1500
     },
-    "eastman-t59v-sb-thinline-antique": {
-      "displayName": "Eastman T59/v-SB Thinline Antique Sunburst - SN# P2400455 - NEW",
-      "brand": "Eastman",
-      "model": "T59/v-SB Thinline Antique",
-      "variant": null,
-      "count": 1,
-      "sum": 2221,
-      "min": 2221,
-      "max": 2221,
-      "sightings": [
-        {
-          "price": 2221,
-          "date": "2026-04-13T04:23:01.888Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman T59/v-SB Thinline Antique Sunburst - SN# P2400455 - NEW",
-          "url": "https://reverb.com/item/95312218-eastman-t59-v-sb-thinline-antique-sunburst-sn-p2400455-new",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 2221,
-          "min": 2221,
-          "max": 2221,
-          "avg": 2221
-        }
-      },
-      "avg": 2221
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10403,16 +10418,16 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 121,
-      "sum": 446575.73,
+      "count": 122,
+      "sum": 447834.73,
       "sold": {
-        "count": 41,
-        "sum": 142981.43,
-        "avg": 3487,
+        "count": 42,
+        "sum": 145476.43,
+        "avg": 3464,
         "min": 275,
         "max": 35900
       },
-      "avg": 3691,
+      "avg": 3671,
       "min": 275,
       "max": 35900
     },
@@ -10467,8 +10482,8 @@
       "max": 47042
     },
     "Brand New": {
-      "count": 28,
-      "sum": 108819.10999999999,
+      "count": 27,
+      "sum": 106598.10999999999,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -10476,7 +10491,7 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 3886,
+      "avg": 3948,
       "min": 135,
       "max": 12280
     },
@@ -10520,7 +10535,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3341,
+      "avg": 3336,
       "count": 184
     },
     "03": {
@@ -10674,8 +10689,8 @@
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 15,
-    "1k-2k": 93,
-    "2k-3k": 82,
+    "1k-2k": 94,
+    "2k-3k": 81,
     "3k-5k": 66,
     "5k-10k": 33,
     "10k+": 13
@@ -10683,17 +10698,22 @@
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 15,
-    "1k-2k": 93,
-    "2k-3k": 82,
+    "1k-2k": 94,
+    "2k-3k": 81,
     "3k-5k": 66,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 316,
+      "count": 41,
+      "avg": 8
+    },
     "Eastman": {
-      "sum": 116,
-      "count": 6,
-      "avg": 19
+      "sum": 88,
+      "count": 5,
+      "avg": 18
     },
     "Ibanez": {
       "sum": 328,
@@ -10719,11 +10739,6 @@
       "sum": 26,
       "count": 3,
       "avg": 9
-    },
-    "Rickenbacker": {
-      "sum": 316,
-      "count": 40,
-      "avg": 8
     },
     "Yamaha": {
       "sum": 107,
@@ -11052,13 +11067,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-19": 8,
+    "2026-04-19": 9,
     "2026-04-18": 37,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 30,
-    "2026-04-13": 17,
+    "2026-04-13": 16,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11074,7 +11089,7 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 98
+      "count": 99
     },
     {
       "username": "Beijing Bob",
@@ -11086,7 +11101,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 24
+      "count": 23
     },
     {
       "username": "YellowJack6",
@@ -11115,7 +11130,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3341,
+    "avg": 3336,
     "pctBelowAvg": 14,
     "count": 184
   },
@@ -11164,24 +11179,24 @@
       "count": 12
     },
     "Rickenbacker": {
-      "avgPrice": 3806,
+      "avgPrice": 3745,
       "retailEst": 1500,
-      "avgDiscount": -153.7,
-      "count": 41
+      "avgDiscount": -149.7,
+      "count": 42
     }
   },
   "soldPrices": {
-    "count": 85,
-    "avg": 3069,
+    "count": 86,
+    "avg": 3062,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 735.1999999999999,
-      "count": 83,
-      "avgDays": 8.9
+      "totalDays": 736.2999999999998,
+      "count": 84,
+      "avgDays": 8.8
     },
     "byModel": {
       "jackson-dinky-custom-shop": {
@@ -11215,6 +11230,14 @@
         "fastest": 0.2,
         "slowest": 0.2,
         "avgDays": 0.2
+      },
+      "rg-limited-edition": {
+        "displayName": "Hallmark Barris Krest Limited Edition Prototype-Autographed by George Barris",
+        "totalDays": 1.1,
+        "count": 1,
+        "fastest": 1.1,
+        "slowest": 1.1,
+        "avgDays": 1.1
       },
       "novo-idris-royal-olive": {
         "displayName": "Novo Idris 2025 - Royal Olive",
@@ -12029,9 +12052,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1226.337158346298,
-      "count": 71,
-      "avgPctDrop": 17.3
+      "totalPctDrop": 1216.3290546185833,
+      "count": 70,
+      "avgPctDrop": 17.4
     },
     "byBrand": {
       "Ibanez": {
@@ -12135,9 +12158,9 @@
         "avgPctDrop": 12.1
       },
       "Eastman": {
-        "totalPctDrop": 19.383103727714747,
-        "count": 2,
-        "avgPctDrop": 9.7
+        "totalPctDrop": 9.375,
+        "count": 1,
+        "avgPctDrop": 9.4
       },
       "Reverend": {
         "totalPctDrop": 9.090909090909092,
@@ -12186,13 +12209,21 @@
       "livePct": 72
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 42,
+        "sold": 6,
+        "fake": 0,
+        "live": 36,
+        "soldPct": 14,
+        "livePct": 86
+      },
       "Eastman": {
-        "total": 6,
+        "total": 5,
         "sold": 1,
         "fake": 0,
-        "live": 5,
-        "soldPct": 17,
-        "livePct": 83
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
       },
       "Ibanez": {
         "total": 18,
@@ -12241,14 +12272,6 @@
         "live": 3,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Rickenbacker": {
-        "total": 41,
-        "sold": 6,
-        "fake": 0,
-        "live": 35,
-        "soldPct": 15,
-        "livePct": 85
       },
       "Yamaha": {
         "total": 4,
@@ -12810,15 +12833,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 93,
+        "total": 94,
         "sold": 26,
         "rate": 28
       },
       {
         "label": "$2k–3k",
-        "total": 82,
-        "sold": 24,
-        "rate": 29
+        "total": 81,
+        "sold": 25,
+        "rate": 31
       },
       {
         "label": "$3k–5k",
@@ -12841,8 +12864,8 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 121,
-        "sold": 43,
+        "total": 122,
+        "sold": 44,
         "rate": 36
       },
       "Very Good": {
@@ -12866,7 +12889,7 @@
         "rate": 0
       },
       "Brand New": {
-        "total": 28,
+        "total": 27,
         "sold": 2,
         "rate": 7
       },
@@ -13391,20 +13414,38 @@
     ]
   },
   "byBrandLine": {
+    "Rickenbacker|Rickenbacker": {
+      "brand": "Rickenbacker",
+      "brandLine": "Rickenbacker",
+      "tier": "high",
+      "count": 11,
+      "sum": 31721,
+      "avg": 2884,
+      "min": 1259,
+      "max": 11108,
+      "sold": 4,
+      "soldSum": 7743,
+      "soldAvg": 1936,
+      "live": 7,
+      "sellRate": 36,
+      "totalDays": 19.9,
+      "soldCount": 4,
+      "avgDaysToSell": 5
+    },
     "Eastman|Eastman": {
       "brand": "Eastman",
       "brandLine": "Eastman",
       "tier": "mid",
-      "count": 6,
-      "sum": 10367,
-      "avg": 1728,
+      "count": 5,
+      "sum": 8146,
+      "avg": 1629,
       "min": 1250,
-      "max": 2221,
+      "max": 1933,
       "sold": 1,
       "soldSum": 1600,
       "soldAvg": 1600,
-      "live": 5,
-      "sellRate": 17,
+      "live": 4,
+      "sellRate": 20,
       "totalDays": 19.9,
       "soldCount": 1,
       "avgDaysToSell": 19.9
@@ -13458,7 +13499,7 @@
       "soldAvg": 2487,
       "live": 6,
       "sellRate": 50,
-      "totalDays": 96,
+      "totalDays": 96.1,
       "soldCount": 6,
       "avgDaysToSell": 16
     },
@@ -13616,9 +13657,9 @@
       "soldAvg": 2763,
       "live": 24,
       "sellRate": 23,
-      "totalDays": 89.8,
+      "totalDays": 90,
       "soldCount": 7,
-      "avgDaysToSell": 12.8
+      "avgDaysToSell": 12.9
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13687,7 +13728,7 @@
       "soldAvg": 4647,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 103,
+      "totalDays": 103.1,
       "soldCount": 5,
       "avgDaysToSell": 20.6
     },
@@ -13846,24 +13887,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Rickenbacker|Rickenbacker": {
-      "brand": "Rickenbacker",
-      "brandLine": "Rickenbacker",
-      "tier": "high",
-      "count": 10,
-      "sum": 30462,
-      "avg": 3046,
-      "min": 1350,
-      "max": 11108,
-      "sold": 4,
-      "soldSum": 7743,
-      "soldAvg": 1936,
-      "live": 6,
-      "sellRate": 40,
-      "totalDays": 19.9,
-      "soldCount": 4,
-      "avgDaysToSell": 5
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -14308,7 +14331,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 102
+    "avgShippingCost": 101
   },
   "watcherDemand": [
     {
@@ -14326,8 +14349,8 @@
     {
       "label": "6–15",
       "total": 62,
-      "sold": 16,
-      "rate": 26
+      "sold": 17,
+      "rate": 27
     },
     {
       "label": "16–30",
@@ -14350,19 +14373,19 @@
     },
     "off": {
       "total": 48,
-      "sold": 19,
-      "rate": 40
+      "sold": 20,
+      "rate": 42
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 102,
+      "total": 101,
       "sold": 25,
       "rate": 25
     },
     "regular": {
-      "total": 110,
-      "sold": 35,
+      "total": 111,
+      "sold": 36,
       "rate": 32
     }
   },
@@ -14393,9 +14416,9 @@
     },
     {
       "state": "NY",
-      "total": 10,
+      "total": 11,
       "sold": 1,
-      "rate": 10
+      "rate": 9
     },
     {
       "state": "MA",
