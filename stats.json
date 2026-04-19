@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T02:30:43.861Z",
+  "generatedAt": "2026-04-19T02:32:14.976Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1218605.14,
-    "avg": 3856,
+    "sum": 1223729.14,
+    "avg": 3873,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 763818.15,
-    "avg": 2589,
+    "sum": 768942.15,
+    "avg": 2607,
     "min": 7,
     "max": 7900,
-    "median": 2299
+    "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 7902,
+    "thresholdHigh": 7947,
     "thresholdLow": 0,
     "count": 21,
     "items": [
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 611012.79,
+      "sum": 616136.79,
       "min": 7,
       "max": 47042,
-      "avg": 3303
+      "avg": 3330
     },
     "2026-03": {
       "count": 131,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 269,
-      "sum": 886065.36,
+      "sum": 891189.36,
       "min": 7,
       "max": 47042,
-      "avg": 3294
+      "avg": 3313
     },
     "marketplace": {
       "count": 47,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 269,
-      "sum": 886065.36,
+      "sum": 891189.36,
       "min": 7,
       "max": 47042,
-      "avg": 3294
+      "avg": 3313
     },
     "chicagomusicexchange.com": {
       "count": 19,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "james-tyler-ultimate-weapon-blackturquoise": {
+      "displayName": "James Tyler Ultimate Weapon - Black/Turquoise",
+      "brand": "James Tyler",
+      "model": "Ultimate Weapon Black/Turquoise",
+      "variant": null,
+      "count": 1,
+      "sum": 6900,
+      "min": 6900,
+      "max": 6900,
+      "sightings": [
+        {
+          "price": 6900,
+          "date": "2026-04-19T02:32:01.058Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "James Tyler Ultimate Weapon - Black/Turquoise",
+          "url": "https://reverb.com/item/96153184-james-tyler-ultimate-weapon-black-turquoise",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 6900,
+          "min": 6900,
+          "max": 6900,
+          "avg": 6900
+        }
+      },
+      "avg": 6900
+    },
     "prs-single-cut-platinum": {
       "displayName": "PRS Singlecut 2003 Platinum Metallic",
       "brand": "PRS",
@@ -6321,37 +6352,6 @@
       "avg": 3935,
       "trends": {}
     },
-    "gibson-sg": {
-      "displayName": "Gibson SG-100 1971 - 1972 - Walnut - Video!",
-      "brand": "Gibson",
-      "model": "SG",
-      "variant": null,
-      "count": 1,
-      "sum": 1776,
-      "min": 1776,
-      "max": 1776,
-      "sightings": [
-        {
-          "price": 1776,
-          "date": "2026-04-13T01:01:59.545Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson SG-100 1971 - 1972 - Walnut - Video!",
-          "url": "https://reverb.com/item/95857229-gibson-sg-100-1971-1972-walnut-video",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1776,
-          "min": 1776,
-          "max": 1776,
-          "avg": 1776
-        }
-      },
-      "avg": 1776
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10406,6 +10406,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 121,
+      "sum": 449313.73,
+      "sold": {
+        "count": 38,
+        "sum": 137606.43,
+        "avg": 3621,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3713,
+      "min": 275,
+      "max": 35900
+    },
     "Good": {
       "count": 35,
       "sum": 100577.95,
@@ -10421,8 +10435,8 @@
       "max": 15995
     },
     "Very Good": {
-      "count": 81,
-      "sum": 210223.55999999994,
+      "count": 80,
+      "sum": 208447.55999999994,
       "sold": {
         "count": 23,
         "sum": 51738.77999999999,
@@ -10430,23 +10444,9 @@
         "min": 475,
         "max": 4214
       },
-      "avg": 2595,
+      "avg": 2606,
       "min": 7,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 120,
-      "sum": 442413.73,
-      "sold": {
-        "count": 38,
-        "sum": 137606.43,
-        "avg": 3621,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3687,
-      "min": 275,
-      "max": 35900
     },
     "Used": {
       "count": 32,
@@ -10524,7 +10524,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3303,
+      "avg": 3330,
       "count": 185
     },
     "03": {
@@ -10678,22 +10678,27 @@
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 15,
-    "1k-2k": 93,
+    "1k-2k": 92,
     "2k-3k": 82,
     "3k-5k": 66,
-    "5k-10k": 32,
+    "5k-10k": 33,
     "10k+": 13
   },
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 15,
-    "1k-2k": 93,
+    "1k-2k": 92,
     "2k-3k": 82,
     "3k-5k": 66,
-    "5k-10k": 24,
+    "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
+    "James Tyler": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "PRS": {
       "sum": 280,
       "count": 15,
@@ -10755,8 +10760,8 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 804,
-      "count": 39,
+      "sum": 796,
+      "count": 38,
       "avg": 21
     },
     "Echopark": {
@@ -11051,13 +11056,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-19": 4,
+    "2026-04-19": 5,
     "2026-04-18": 37,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
-    "2026-04-13": 21,
+    "2026-04-13": 20,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11073,11 +11078,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 97
+      "count": 98
     },
     {
       "username": "Beijing Bob",
-      "count": 66
+      "count": 65
     },
     {
       "username": "Shteefe",
@@ -11114,7 +11119,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3303,
+    "avg": 3330,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11127,10 +11132,10 @@
       "count": 15
     },
     "Gibson": {
-      "avgPrice": 3570,
+      "avgPrice": 3612,
       "retailEst": 800,
-      "avgDiscount": -346.3,
-      "count": 44
+      "avgDiscount": -351.5,
+      "count": 43
     },
     "PRS": {
       "avgPrice": 3446,
@@ -12162,6 +12167,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "James Tyler": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 16,
         "sold": 7,
@@ -12275,10 +12288,10 @@
         "livePct": 100
       },
       "Gibson": {
-        "total": 46,
+        "total": 45,
         "sold": 11,
         "fake": 0,
-        "live": 35,
+        "live": 34,
         "soldPct": 24,
         "livePct": 76
       },
@@ -12778,7 +12791,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 93,
+        "total": 92,
         "sold": 23,
         "rate": 25
       },
@@ -12796,9 +12809,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 32,
+        "total": 33,
         "sold": 4,
-        "rate": 13
+        "rate": 12
       },
       {
         "label": "$10k+",
@@ -12808,20 +12821,20 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 121,
+        "sold": 40,
+        "rate": 33
+      },
       "Good": {
         "total": 35,
         "sold": 9,
         "rate": 26
       },
       "Very Good": {
-        "total": 81,
+        "total": 80,
         "sold": 23,
-        "rate": 28
-      },
-      "Excellent": {
-        "total": 120,
-        "sold": 40,
-        "rate": 33
+        "rate": 29
       },
       "Used": {
         "total": 32,
@@ -13390,6 +13403,23 @@
     ]
   },
   "byBrandLine": {
+    "James Tyler|James Tyler Custom / Special Edition": {
+      "brand": "James Tyler",
+      "brandLine": "James Tyler Custom / Special Edition",
+      "tier": "ultra",
+      "count": 1,
+      "sum": 6900,
+      "avg": 6900,
+      "min": 6900,
+      "max": 6900,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -13570,16 +13600,16 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 33,
-      "sum": 92574.98999999999,
-      "avg": 2805,
+      "count": 32,
+      "sum": 90798.98999999999,
+      "avg": 2837,
       "min": 135,
       "max": 7900,
       "sold": 6,
       "soldSum": 18043.98,
       "soldAvg": 3007,
-      "live": 27,
-      "sellRate": 18,
+      "live": 26,
+      "sellRate": 19,
       "totalDays": 73.9,
       "soldCount": 6,
       "avgDaysToSell": 12.3
@@ -14317,13 +14347,13 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 25,
       "sold": 4,
-      "rate": 17
+      "rate": 16
     },
     {
       "label": "6–15",
-      "total": 64,
+      "total": 63,
       "sold": 14,
       "rate": 22
     },
@@ -14462,12 +14492,6 @@
       "rate": 50
     },
     {
-      "state": "CT",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
-    },
-    {
       "state": "VA",
       "total": 3,
       "sold": 1,
@@ -14498,10 +14522,22 @@
       "rate": 0
     },
     {
+      "state": "CT",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
+    },
+    {
       "state": "IN",
       "total": 3,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "CO",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "NH",
