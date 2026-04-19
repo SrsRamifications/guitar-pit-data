@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T17:55:19.461Z",
+  "generatedAt": "2026-04-19T18:02:49.121Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,18 +7,18 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1221293.15,
-    "avg": 3877,
+    "sum": 1223082.15,
+    "avg": 3883,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 294,
-    "sum": 766506.16,
-    "avg": 2607,
+    "sum": 768295.16,
+    "avg": 2613,
     "min": 7,
     "max": 7900,
-    "median": 2300
+    "median": 2347
   },
   "outliers": {
     "thresholdHigh": 7947,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 613700.8,
+      "sum": 615489.8,
       "min": 7,
       "max": 47042,
-      "avg": 3335
+      "avg": 3345
     },
     "2026-03": {
       "count": 131,
@@ -211,35 +211,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 268,
+      "sum": 891147.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3325
+    },
     "marketplace": {
       "count": 47,
       "sum": 331934.79,
       "min": 139.99,
       "max": 99000,
       "avg": 7062
-    },
-    "reverb": {
-      "count": 268,
-      "sum": 889358.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3319
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 268,
+      "sum": 891147.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3325
+    },
     "chicagomusicexchange.com": {
       "count": 20,
       "sum": 256358.99,
       "min": 350,
       "max": 99000,
       "avg": 12818
-    },
-    "reverb.com": {
-      "count": 268,
-      "sum": 889358.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3319
     },
     "guitarcenter.com": {
       "count": 20,
@@ -292,6 +292,105 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom": {
+      "displayName": "Gibson Les Paul Custom 2019 - Present - Ebony",
+      "brand": "Gibson",
+      "model": "Les Paul Custom",
+      "variant": null,
+      "count": 6,
+      "sum": 29578,
+      "min": 3500,
+      "max": 6500,
+      "sightings": [
+        {
+          "price": 6500,
+          "date": "2026-03-28T16:41:22.453Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
+          "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
+          "condition": "Good"
+        },
+        {
+          "price": 4700,
+          "date": "2026-03-28T23:29:44.450Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom Lite 1987 - 1988 - Metallic Sunset",
+          "url": "https://reverb.com/item/95518343-gibson-les-paul-custom-lite-1987-1988-metallic-sunset",
+          "condition": "Good"
+        },
+        {
+          "price": 3588,
+          "date": "2026-04-15T03:01:22.131Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson  Les Paul Custom 2021 - Black",
+          "url": "https://reverb.com/item/92538934-gibson-les-paul-custom-2021-black",
+          "condition": "Excellent"
+        },
+        {
+          "price": 5295,
+          "date": "2026-04-18T14:06:01.978Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom 25/50 Anniversary Natural 1979",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gibson-les-paul-custom-2550-anniversary-natural-1979-2525739",
+          "condition": "Good"
+        },
+        {
+          "price": 5995,
+          "date": "2026-04-18T14:21:40.869Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom Natural 1978",
+          "url": "https://www.chicagomusicexchange.com/en-ca/products/gibson-les-paul-custom-natural-1978-2532735",
+          "condition": "Good"
+        },
+        {
+          "price": 3500,
+          "date": "2026-04-19T18:02:34.792Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom 2019 - Present - Ebony",
+          "url": "https://reverb.com/item/96170715-gibson-les-paul-custom-2019-present-ebony",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 2,
+          "sum": 7088,
+          "min": 3500,
+          "max": 3588,
+          "avg": 3544
+        },
+        "Good": {
+          "count": 4,
+          "sum": 22490,
+          "min": 4700,
+          "max": 6500,
+          "avg": 5623
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 5295,
+        "min": 5295,
+        "max": 5295,
+        "prices": [
+          {
+            "price": 5295,
+            "askingPrice": 5295,
+            "date": "2026-04-18T18:42:11.257Z",
+            "title": "Gibson Les Paul Custom 25/50 Anniversary Natural 1979",
+            "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gibson-les-paul-custom-2550-anniversary-natural-1979-2525739"
+          }
+        ]
+      },
+      "avg": 4930,
+      "trends": {}
+    },
     "ibanez-ar100-artist": {
       "displayName": "Ibanez AR100 Artist Cherry Sunburst 1980",
       "brand": "Ibanez",
@@ -1525,96 +1624,6 @@
         }
       },
       "avg": 15995
-    },
-    "gibson-les-paul-custom": {
-      "displayName": "Gibson Les Paul Custom Natural 1978",
-      "brand": "Gibson",
-      "model": "Les Paul Custom",
-      "variant": null,
-      "count": 5,
-      "sum": 26078,
-      "min": 3588,
-      "max": 6500,
-      "sightings": [
-        {
-          "price": 6500,
-          "date": "2026-03-28T16:41:22.453Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
-          "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
-          "condition": "Good"
-        },
-        {
-          "price": 4700,
-          "date": "2026-03-28T23:29:44.450Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Custom Lite 1987 - 1988 - Metallic Sunset",
-          "url": "https://reverb.com/item/95518343-gibson-les-paul-custom-lite-1987-1988-metallic-sunset",
-          "condition": "Good"
-        },
-        {
-          "price": 3588,
-          "date": "2026-04-15T03:01:22.131Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson  Les Paul Custom 2021 - Black",
-          "url": "https://reverb.com/item/92538934-gibson-les-paul-custom-2021-black",
-          "condition": "Excellent"
-        },
-        {
-          "price": 5295,
-          "date": "2026-04-18T14:06:01.978Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Custom 25/50 Anniversary Natural 1979",
-          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gibson-les-paul-custom-2550-anniversary-natural-1979-2525739",
-          "condition": "Good"
-        },
-        {
-          "price": 5995,
-          "date": "2026-04-18T14:21:40.869Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Custom Natural 1978",
-          "url": "https://www.chicagomusicexchange.com/en-ca/products/gibson-les-paul-custom-natural-1978-2532735",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 4,
-          "sum": 22490,
-          "min": 4700,
-          "max": 6500,
-          "avg": 5623
-        },
-        "Excellent": {
-          "count": 1,
-          "sum": 3588,
-          "min": 3588,
-          "max": 3588,
-          "avg": 3588
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 5295,
-        "min": 5295,
-        "max": 5295,
-        "prices": [
-          {
-            "price": 5295,
-            "askingPrice": 5295,
-            "date": "2026-04-18T18:42:11.257Z",
-            "title": "Gibson Les Paul Custom 25/50 Anniversary Natural 1979",
-            "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gibson-les-paul-custom-2550-anniversary-natural-1979-2525739"
-          }
-        ]
-      },
-      "avg": 5216,
-      "trends": {}
     },
     "echopark-008": {
       "displayName": "Echopark Clarence Custom, Case Study (Serial # X4 008)",
@@ -6239,37 +6248,6 @@
       },
       "avg": 1500
     },
-    "eastman-t486-goldburst": {
-      "displayName": "Eastman T486 - Goldburst",
-      "brand": "Eastman",
-      "model": "T486 Goldburst",
-      "variant": null,
-      "count": 1,
-      "sum": 1711,
-      "min": 1711,
-      "max": 1711,
-      "sightings": [
-        {
-          "price": 1711,
-          "date": "2026-04-13T09:35:19.626Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman T486 - Goldburst",
-          "url": "https://reverb.com/item/94532219-eastman-t486-goldburst",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 1711,
-          "min": 1711,
-          "max": 1711,
-          "avg": 1711
-        }
-      },
-      "avg": 1711
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10386,6 +10364,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 123,
+      "sum": 451934.73,
+      "sold": {
+        "count": 42,
+        "sum": 145476.43,
+        "avg": 3464,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3674,
+      "min": 275,
+      "max": 35900
+    },
     "Used": {
       "count": 32,
       "sum": 173080.80999999997,
@@ -10396,20 +10388,6 @@
       "avg": 5409,
       "min": 139.99,
       "max": 99000
-    },
-    "Excellent": {
-      "count": 122,
-      "sum": 448434.73,
-      "sold": {
-        "count": 42,
-        "sum": 145476.43,
-        "avg": 3464,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3676,
-      "min": 275,
-      "max": 35900
     },
     "Very Good": {
       "count": 81,
@@ -10451,8 +10429,8 @@
       "max": 47042
     },
     "Brand New": {
-      "count": 26,
-      "sum": 105399.10999999999,
+      "count": 25,
+      "sum": 103688.11,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -10460,7 +10438,7 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 4054,
+      "avg": 4148,
       "min": 135,
       "max": 12280
     },
@@ -10504,7 +10482,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3335,
+      "avg": 3345,
       "count": 184
     },
     "03": {
@@ -10585,13 +10563,6 @@
       "date": "2026-04-19T14:41:03.784Z"
     },
     {
-      "title": "Eastman T486 - Goldburst",
-      "url": "https://reverb.com/item/94532219-eastman-t486-goldburst",
-      "oldPrice": "$1,887",
-      "newPrice": "$1,711",
-      "date": "2026-04-15T17:43:22.796Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10653,27 +10624,39 @@
       "oldPrice": "$417.18",
       "newPrice": "$414",
       "date": "2026-04-02T23:23:26.545Z"
+    },
+    {
+      "title": "Tokai ST55 Springy Sound Stratocaster 1980 - Metallic Red Matching Headstock",
+      "url": "https://reverb.com/item/93357830-tokai-st55-springy-sound-stratocaster-1980-metallic-red-matching-headstock",
+      "oldPrice": "$1,028.56",
+      "newPrice": "$1,029.98",
+      "date": "2026-03-31T02:43:27.300Z"
     }
   ],
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 16,
-    "1k-2k": 92,
+    "1k-2k": 91,
     "2k-3k": 82,
-    "3k-5k": 66,
+    "3k-5k": 67,
     "5k-10k": 33,
     "10k+": 13
   },
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 16,
-    "1k-2k": 92,
+    "1k-2k": 91,
     "2k-3k": 82,
-    "3k-5k": 66,
+    "3k-5k": 67,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 822,
+      "count": 38,
+      "avg": 22
+    },
     "Ibanez": {
       "sum": 329,
       "count": 18,
@@ -10690,9 +10673,9 @@
       "avg": 8
     },
     "Eastman": {
-      "sum": 88,
-      "count": 5,
-      "avg": 18
+      "sum": 62,
+      "count": 4,
+      "avg": 16
     },
     "James Tyler": {
       "sum": 1,
@@ -10744,11 +10727,6 @@
       "count": 1,
       "avg": 1
     },
-    "Gibson": {
-      "sum": 822,
-      "count": 37,
-      "avg": 22
-    },
     "Echopark": {
       "sum": 77,
       "count": 7,
@@ -10780,9 +10758,9 @@
       "avg": 2
     },
     "BC Rich": {
-      "sum": 214,
+      "sum": 215,
       "count": 10,
-      "avg": 21
+      "avg": 22
     },
     "Frank": {
       "sum": 25,
@@ -11031,13 +11009,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-19": 12,
+    "2026-04-19": 13,
     "2026-04-18": 37,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 30,
-    "2026-04-13": 13,
+    "2026-04-13": 12,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11046,14 +11024,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 52,
-    "reverb": 268
+    "reverb": 268,
+    "marketplace": 52
   },
-  "activeModelsCount": 277,
+  "activeModelsCount": 276,
   "topPosters": [
     {
       "username": "GP",
-      "count": 100
+      "count": 101
     },
     {
       "username": "Beijing Bob",
@@ -11065,7 +11043,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 23
+      "count": 22
     },
     {
       "username": "YellowJack6",
@@ -11094,7 +11072,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3335,
+    "avg": 3345,
     "pctBelowAvg": 14,
     "count": 184
   },
@@ -11107,10 +11085,10 @@
       "count": 14
     },
     "Gibson": {
-      "avgPrice": 3644,
+      "avgPrice": 3640,
       "retailEst": 800,
-      "avgDiscount": -355.5,
-      "count": 42
+      "avgDiscount": -355,
+      "count": 43
     },
     "PRS": {
       "avgPrice": 3446,
@@ -12016,9 +11994,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1192.942219866488,
-      "count": 68,
-      "avgPctDrop": 17.5
+      "totalPctDrop": 1183.567219866488,
+      "count": 67,
+      "avgPctDrop": 17.7
     },
     "byBrand": {
       "Ibanez": {
@@ -12121,11 +12099,6 @@
         "count": 1,
         "avgPctDrop": 10
       },
-      "Eastman": {
-        "totalPctDrop": 9.375,
-        "count": 1,
-        "avgPctDrop": 9.4
-      },
       "Fractal Audio": {
         "totalPctDrop": 7.500346020761254,
         "count": 1,
@@ -12168,6 +12141,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Gibson": {
+        "total": 45,
+        "sold": 12,
+        "fake": 0,
+        "live": 33,
+        "soldPct": 27,
+        "livePct": 73
+      },
       "Ibanez": {
         "total": 19,
         "sold": 5,
@@ -12193,12 +12174,12 @@
         "livePct": 85
       },
       "Eastman": {
-        "total": 5,
+        "total": 4,
         "sold": 1,
         "fake": 0,
-        "live": 4,
-        "soldPct": 20,
-        "livePct": 80
+        "live": 3,
+        "soldPct": 25,
+        "livePct": 75
       },
       "James Tyler": {
         "total": 1,
@@ -12295,14 +12276,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 44,
-        "sold": 12,
-        "fake": 0,
-        "live": 32,
-        "soldPct": 27,
-        "livePct": 73
       },
       "Echopark": {
         "total": 8,
@@ -12784,9 +12757,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 92,
+        "total": 91,
         "sold": 27,
-        "rate": 29
+        "rate": 30
       },
       {
         "label": "$2k–3k",
@@ -12796,9 +12769,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 66,
+        "total": 67,
         "sold": 23,
-        "rate": 35
+        "rate": 34
       },
       {
         "label": "$5k–10k",
@@ -12814,15 +12787,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 123,
+        "sold": 44,
+        "rate": 36
+      },
       "Used": {
         "total": 32,
         "sold": 2,
         "rate": 6
-      },
-      "Excellent": {
-        "total": 122,
-        "sold": 44,
-        "rate": 36
       },
       "Very Good": {
         "total": 81,
@@ -12840,7 +12813,7 @@
         "rate": 0
       },
       "Brand New": {
-        "total": 26,
+        "total": 25,
         "sold": 2,
         "rate": 8
       },
@@ -12909,6 +12882,21 @@
         "savings": 1333
       },
       {
+        "title": "Gibson Les Paul Custom 2019 - Present - Ebony",
+        "url": "https://reverb.com/item/96170715-gibson-les-paul-custom-2019-present-ebony",
+        "price": "$3,500",
+        "priceNum": 3500,
+        "brand": "Gibson",
+        "condition": "Excellent",
+        "watchers": 2,
+        "views": 14,
+        "daysListed": 0,
+        "image": "https://rvb-img.reverb.com/i/s--MGWfbSsn--/quality=medium-low,height=800,width=800,fit=contain/cfab3b1a-138f-48b7-9e39-6f61278051b2.jpeg",
+        "modelAvg": 4930,
+        "pctVsAvg": -29,
+        "savings": 1430
+      },
+      {
         "title": "Gibson  Les Paul Custom 2021 - Black",
         "url": "https://reverb.com/item/92538934-gibson-les-paul-custom-2021-black",
         "price": "$3,588",
@@ -12919,9 +12907,9 @@
         "views": 4147,
         "daysListed": 187,
         "image": "https://rvb-img.reverb.com/i/s--5HtdnjJA--/quality=medium-low,height=800,width=800,fit=contain/kkbux9annkhlwnpv0cx4.jpg",
-        "modelAvg": 5216,
-        "pctVsAvg": -31,
-        "savings": 1628
+        "modelAvg": 4930,
+        "pctVsAvg": -27,
+        "savings": 1342
       },
       {
         "title": "Gibson Dove 1993 - Ebony",
@@ -12979,8 +12967,8 @@
         "views": 0,
         "daysListed": 22,
         "image": "https://rvb-img.reverb.com/i/s--iVtWd1Vf--/quality=medium-low,height=800,width=800,fit=contain/qckwnrsuqgfu4sgwd5ik.jpg",
-        "modelAvg": 5216,
-        "pctVsAvg": 25
+        "modelAvg": 4930,
+        "pctVsAvg": 32
       }
     ],
     "highCompetition": [
@@ -12995,9 +12983,9 @@
         "views": 4147,
         "daysListed": 187,
         "image": "https://rvb-img.reverb.com/i/s--5HtdnjJA--/quality=medium-low,height=800,width=800,fit=contain/kkbux9annkhlwnpv0cx4.jpg",
-        "modelAvg": 5216,
-        "pctVsAvg": -31,
-        "savings": 1628
+        "modelAvg": 4930,
+        "pctVsAvg": -27,
+        "savings": 1342
       },
       {
         "title": "Guild T-100 Slim Jim with P90 1958 - 1964 - Sunburst w/ added hum",
@@ -13365,6 +13353,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 32,
+      "sum": 92029.98999999999,
+      "avg": 2876,
+      "min": 135,
+      "max": 7900,
+      "sold": 7,
+      "soldSum": 19343.98,
+      "soldAvg": 2763,
+      "live": 25,
+      "sellRate": 22,
+      "totalDays": 90.69999999999999,
+      "soldCount": 7,
+      "avgDaysToSell": 13
+    },
     "Music Man|Music Man BFR": {
       "brand": "Music Man",
       "brandLine": "Music Man BFR",
@@ -13405,16 +13411,16 @@
       "brand": "Eastman",
       "brandLine": "Eastman",
       "tier": "mid",
-      "count": 5,
-      "sum": 8146,
-      "avg": 1629,
+      "count": 4,
+      "sum": 6435,
+      "avg": 1609,
       "min": 1250,
       "max": 1933,
       "sold": 1,
       "soldSum": 1600,
       "soldAvg": 1600,
-      "live": 4,
-      "sellRate": 20,
+      "live": 3,
+      "sellRate": 25,
       "totalDays": 20,
       "soldCount": 1,
       "avgDaysToSell": 20
@@ -13594,24 +13600,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 31,
-      "sum": 88529.98999999999,
-      "avg": 2856,
-      "min": 135,
-      "max": 7900,
-      "sold": 7,
-      "soldSum": 19343.98,
-      "soldAvg": 2763,
-      "live": 24,
-      "sellRate": 23,
-      "totalDays": 90.5,
-      "soldCount": 7,
-      "avgDaysToSell": 12.9
-    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
@@ -13679,7 +13667,7 @@
       "soldAvg": 4647,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 103.50000000000001,
+      "totalDays": 103.60000000000001,
       "soldCount": 5,
       "avgDaysToSell": 20.7
     },
@@ -13940,7 +13928,7 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 48.3,
+      "totalDays": 48.4,
       "soldCount": 4,
       "avgDaysToSell": 12.1
     },
@@ -14259,13 +14247,13 @@
     },
     {
       "label": "1–5",
-      "total": 24,
+      "total": 25,
       "sold": 4,
-      "rate": 17
+      "rate": 16
     },
     {
       "label": "6–15",
-      "total": 63,
+      "total": 62,
       "sold": 18,
       "rate": 29
     },
@@ -14284,24 +14272,24 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 176,
+      "total": 177,
       "sold": 51,
       "rate": 29
     },
     "off": {
-      "total": 49,
+      "total": 48,
       "sold": 20,
-      "rate": 41
+      "rate": 42
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 101,
+      "total": 100,
       "sold": 25,
       "rate": 25
     },
     "regular": {
-      "total": 111,
+      "total": 112,
       "sold": 37,
       "rate": 33
     }
@@ -14314,16 +14302,16 @@
       "rate": 38
     },
     {
-      "state": "TX",
+      "state": "PA",
       "total": 15,
       "sold": 5,
       "rate": 33
     },
     {
-      "state": "PA",
-      "total": 14,
+      "state": "TX",
+      "total": 15,
       "sold": 5,
-      "rate": 36
+      "rate": 33
     },
     {
       "state": "WA",
@@ -14386,12 +14374,6 @@
       "rate": 40
     },
     {
-      "state": "ENG",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
-    },
-    {
       "state": "AZ",
       "total": 4,
       "sold": 1,
@@ -14408,6 +14390,12 @@
       "total": 4,
       "sold": 2,
       "rate": 50
+    },
+    {
+      "state": "ENG",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
     },
     {
       "state": "VA",
