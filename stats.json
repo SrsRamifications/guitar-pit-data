@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T02:25:29.093Z",
+  "generatedAt": "2026-04-19T02:26:17.937Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1215905.14,
-    "avg": 3848,
+    "sum": 1218005.14,
+    "avg": 3854,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 761118.15,
-    "avg": 2580,
+    "sum": 763218.15,
+    "avg": 2587,
     "min": 7,
     "max": 7900,
-    "median": 2295
+    "median": 2299
   },
   "outliers": {
     "thresholdHigh": 7902,
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 608312.79,
+      "sum": 610412.79,
       "min": 7,
       "max": 47042,
-      "avg": 3288
+      "avg": 3300
     },
     "2026-03": {
       "count": 131,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 269,
-      "sum": 883365.36,
+      "sum": 885465.36,
       "min": 7,
       "max": 47042,
-      "avg": 3284
+      "avg": 3292
     },
     "marketplace": {
       "count": 47,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 269,
-      "sum": 883365.36,
+      "sum": 885465.36,
       "min": 7,
       "max": 47042,
-      "avg": 3284
+      "avg": 3292
     },
     "chicagomusicexchange.com": {
       "count": 19,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "fender-coronado": {
+      "displayName": "1967 Fender Coronado II  Antigua",
+      "brand": "Fender",
+      "model": "Coronado",
+      "variant": null,
+      "count": 1,
+      "sum": 3599,
+      "min": 3599,
+      "max": 3599,
+      "sightings": [
+        {
+          "price": 3599,
+          "date": "2026-04-19T02:26:04.310Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1967 Fender Coronado II  Antigua",
+          "url": "https://reverb.com/item/96131370-1967-fender-coronado-ii-antigua",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3599,
+          "min": 3599,
+          "max": 3599,
+          "avg": 3599
+        }
+      },
+      "avg": 3599
+    },
     "ibanez-ar-super-antique": {
       "displayName": "1986 Ibanez AR 300 Super Edition  Antique violin",
       "brand": "Ibanez",
@@ -6321,37 +6352,6 @@
       },
       "avg": 900
     },
-    "rickenbacker-es-175-mij-70s": {
-      "displayName": "1970s Ibanez FA-100BS Vintage Sunburst Hollow Body Jazz Archtop Electric Guitar || ES-175 Lawsuit MIJ Japan '70s",
-      "brand": "Rickenbacker",
-      "model": "ES-175",
-      "variant": "Mij 70s",
-      "count": 1,
-      "sum": 1499,
-      "min": 1499,
-      "max": 1499,
-      "sightings": [
-        {
-          "price": 1499,
-          "date": "2026-04-13T00:53:53.573Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1970s Ibanez FA-100BS Vintage Sunburst Hollow Body Jazz Archtop Electric Guitar || ES-175 Lawsuit MIJ Japan '70s",
-          "url": "https://reverb.com/item/95918787-1970s-ibanez-fa-100bs-vintage-sunburst-hollow-body-jazz-archtop-electric-guitar-es-175-lawsuit-mij-japan-70s",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1499,
-          "min": 1499,
-          "max": 1499,
-          "avg": 1499
-        }
-      },
-      "avg": 1499
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10406,6 +10406,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 81,
+      "sum": 210223.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 51738.77999999999,
+        "avg": 2250,
+        "min": 475,
+        "max": 4214
+      },
+      "avg": 2595,
+      "min": 7,
+      "max": 16500
+    },
     "Good": {
       "count": 34,
       "sum": 99077.95,
@@ -10419,20 +10433,6 @@
       "avg": 2914,
       "min": 414,
       "max": 15995
-    },
-    "Very Good": {
-      "count": 81,
-      "sum": 208123.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 51738.77999999999,
-        "avg": 2250,
-        "min": 475,
-        "max": 4214
-      },
-      "avg": 2569,
-      "min": 7,
-      "max": 16500
     },
     "Excellent": {
       "count": 121,
@@ -10524,7 +10524,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3288,
+      "avg": 3300,
       "count": 185
     },
     "03": {
@@ -10678,22 +10678,27 @@
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 16,
-    "1k-2k": 93,
+    "1k-2k": 92,
     "2k-3k": 82,
-    "3k-5k": 65,
+    "3k-5k": 66,
     "5k-10k": 32,
     "10k+": 13
   },
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 16,
-    "1k-2k": 93,
+    "1k-2k": 92,
     "2k-3k": 82,
-    "3k-5k": 65,
+    "3k-5k": 66,
     "5k-10k": 24,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 180,
+      "count": 13,
+      "avg": 14
+    },
     "Ibanez": {
       "sum": 301,
       "count": 16,
@@ -10705,8 +10710,8 @@
       "avg": 8
     },
     "Rickenbacker": {
-      "sum": 294,
-      "count": 42,
+      "sum": 288,
+      "count": 41,
       "avg": 7
     },
     "Yamaha": {
@@ -10728,11 +10733,6 @@
       "sum": 106,
       "count": 4,
       "avg": 27
-    },
-    "Fender": {
-      "sum": 179,
-      "count": 12,
-      "avg": 15
     },
     "Music Man": {
       "sum": 65,
@@ -10790,7 +10790,7 @@
       "avg": 2
     },
     "BC Rich": {
-      "sum": 207,
+      "sum": 208,
       "count": 10,
       "avg": 21
     },
@@ -11051,13 +11051,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-19": 2,
+    "2026-04-19": 3,
     "2026-04-18": 37,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
-    "2026-04-13": 23,
+    "2026-04-13": 22,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11077,7 +11077,7 @@
     },
     {
       "username": "Beijing Bob",
-      "count": 68
+      "count": 67
     },
     {
       "username": "Shteefe",
@@ -11093,7 +11093,7 @@
     },
     {
       "username": "Madero",
-      "count": 14
+      "count": 15
     },
     {
       "username": "Modean",
@@ -11114,17 +11114,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3288,
-    "pctBelowAvg": 15,
+    "avg": 3300,
+    "pctBelowAvg": 14,
     "count": 185
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 9514,
+      "avgPrice": 9120,
       "retailEst": 800,
-      "avgDiscount": -1089.3,
-      "count": 14
+      "avgDiscount": -1040,
+      "count": 15
     },
     "Gibson": {
       "avgPrice": 3570,
@@ -11163,10 +11163,10 @@
       "count": 12
     },
     "Rickenbacker": {
-      "avgPrice": 3715,
+      "avgPrice": 3766,
       "retailEst": 1500,
-      "avgDiscount": -147.6,
-      "count": 44
+      "avgDiscount": -151.1,
+      "count": 43
     }
   },
   "soldPrices": {
@@ -12162,6 +12162,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Fender": {
+        "total": 16,
+        "sold": 4,
+        "fake": 0,
+        "live": 12,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "Ibanez": {
         "total": 17,
         "sold": 5,
@@ -12187,10 +12195,10 @@
         "livePct": 100
       },
       "Rickenbacker": {
-        "total": 44,
+        "total": 43,
         "sold": 6,
         "fake": 0,
-        "live": 38,
+        "live": 37,
         "soldPct": 14,
         "livePct": 86
       },
@@ -12233,14 +12241,6 @@
         "live": 4,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 15,
-        "sold": 4,
-        "fake": 0,
-        "live": 11,
-        "soldPct": 27,
-        "livePct": 73
       },
       "Music Man": {
         "total": 7,
@@ -12778,7 +12778,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 93,
+        "total": 92,
         "sold": 23,
         "rate": 25
       },
@@ -12790,7 +12790,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 65,
+        "total": 66,
         "sold": 23,
         "rate": 35
       },
@@ -12808,15 +12808,15 @@
       }
     ],
     "byCondition": {
-      "Good": {
-        "total": 34,
-        "sold": 9,
-        "rate": 26
-      },
       "Very Good": {
         "total": 81,
         "sold": 23,
         "rate": 28
+      },
+      "Good": {
+        "total": 34,
+        "sold": 9,
+        "rate": 26
       },
       "Excellent": {
         "total": 121,
@@ -13390,6 +13390,24 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 10,
+      "sum": 127893,
+      "avg": 12789,
+      "min": 1400,
+      "max": 47042,
+      "sold": 2,
+      "soldSum": 46395,
+      "soldAvg": 23198,
+      "live": 8,
+      "sellRate": 20,
+      "totalDays": 43.1,
+      "soldCount": 2,
+      "avgDaysToSell": 21.6
+    },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez J.Custom",
@@ -13547,24 +13565,6 @@
       "totalDays": 73.9,
       "soldCount": 6,
       "avgDaysToSell": 12.3
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 9,
-      "sum": 124294,
-      "avg": 13810,
-      "min": 1400,
-      "max": 47042,
-      "sold": 2,
-      "soldSum": 46395,
-      "soldAvg": 23198,
-      "live": 7,
-      "sellRate": 22,
-      "totalDays": 43.1,
-      "soldCount": 2,
-      "avgDaysToSell": 21.6
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13832,16 +13832,16 @@
       "brand": "Rickenbacker",
       "brandLine": "Rickenbacker",
       "tier": "high",
-      "count": 11,
-      "sum": 31961,
-      "avg": 2906,
+      "count": 10,
+      "sum": 30462,
+      "avg": 3046,
       "min": 1350,
       "max": 11108,
       "sold": 4,
       "soldSum": 7743,
       "soldAvg": 1936,
-      "live": 7,
-      "sellRate": 36,
+      "live": 6,
+      "sellRate": 40,
       "totalDays": 17.700000000000003,
       "soldCount": 4,
       "avgDaysToSell": 4.4
@@ -14354,14 +14354,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 104,
+      "total": 105,
       "sold": 24,
       "rate": 23
     },
     "regular": {
-      "total": 109,
+      "total": 108,
       "sold": 32,
-      "rate": 29
+      "rate": 30
     }
   },
   "geoSellThrough": [
@@ -14385,9 +14385,9 @@
     },
     {
       "state": "PA",
-      "total": 12,
+      "total": 13,
       "sold": 4,
-      "rate": 33
+      "rate": 31
     },
     {
       "state": "MA",
@@ -14502,12 +14502,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "CO",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
     },
     {
       "state": "NH",
