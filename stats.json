@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T02:26:17.937Z",
+  "generatedAt": "2026-04-19T02:30:43.861Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1218005.14,
-    "avg": 3854,
+    "sum": 1218605.14,
+    "avg": 3856,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 763218.15,
-    "avg": 2587,
+    "sum": 763818.15,
+    "avg": 2589,
     "min": 7,
     "max": 7900,
     "median": 2299
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 610412.79,
+      "sum": 611012.79,
       "min": 7,
       "max": 47042,
-      "avg": 3300
+      "avg": 3303
     },
     "2026-03": {
       "count": 131,
@@ -213,10 +213,10 @@
   "byCategory": {
     "reverb": {
       "count": 269,
-      "sum": 885465.36,
+      "sum": 886065.36,
       "min": 7,
       "max": 47042,
-      "avg": 3292
+      "avg": 3294
     },
     "marketplace": {
       "count": 47,
@@ -229,10 +229,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 269,
-      "sum": 885465.36,
+      "sum": 886065.36,
       "min": 7,
       "max": 47042,
-      "avg": 3292
+      "avg": 3294
     },
     "chicagomusicexchange.com": {
       "count": 19,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "prs-single-cut-platinum": {
+      "displayName": "PRS Singlecut 2003 Platinum Metallic",
+      "brand": "PRS",
+      "model": "Single Cut",
+      "variant": "Platinum",
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-04-19T02:30:30.382Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Singlecut 2003 Platinum Metallic",
+          "url": "https://reverb.com/item/96155449-prs-singlecut-2003-platinum-metallic",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "fender-coronado": {
       "displayName": "1967 Fender Coronado II  Antigua",
       "brand": "Fender",
@@ -6321,37 +6352,6 @@
       },
       "avg": 1776
     },
-    "rickenbacker-stratocaster-p90": {
-      "displayName": "1979 Tokai Silver Star Strat Style Electric Guitar - Dakota Red - Warmoth Neck - SS Frets - P90 Pickups - Callaham Bridge/Saddles - Custom Wood Pickguard",
-      "brand": "Rickenbacker",
-      "model": "Stratocaster",
-      "variant": "P90",
-      "count": 1,
-      "sum": 900,
-      "min": 900,
-      "max": 900,
-      "sightings": [
-        {
-          "price": 900,
-          "date": "2026-04-13T00:58:58.457Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1979 Tokai Silver Star Strat Style Electric Guitar - Dakota Red - Warmoth Neck - SS Frets - P90 Pickups - Callaham Bridge/Saddles - Custom Wood Pickguard",
-          "url": "https://reverb.com/item/83381502-1979-tokai-silver-star-strat-style-electric-guitar-dakota-red-warmoth-neck-ss-frets-p90-pickups-callaham-bridge-saddles-custom-wood-pickguard",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 900,
-          "min": 900,
-          "max": 900,
-          "avg": 900
-        }
-      },
-      "avg": 900
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10406,6 +10406,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 35,
+      "sum": 100577.95,
+      "sold": {
+        "count": 8,
+        "sum": 16936.48,
+        "avg": 2117,
+        "min": 685,
+        "max": 4777.5
+      },
+      "avg": 2874,
+      "min": 414,
+      "max": 15995
+    },
     "Very Good": {
       "count": 81,
       "sum": 210223.55999999994,
@@ -10420,23 +10434,9 @@
       "min": 7,
       "max": 16500
     },
-    "Good": {
-      "count": 34,
-      "sum": 99077.95,
-      "sold": {
-        "count": 8,
-        "sum": 16936.48,
-        "avg": 2117,
-        "min": 685,
-        "max": 4777.5
-      },
-      "avg": 2914,
-      "min": 414,
-      "max": 15995
-    },
     "Excellent": {
-      "count": 121,
-      "sum": 443313.73,
+      "count": 120,
+      "sum": 442413.73,
       "sold": {
         "count": 38,
         "sum": 137606.43,
@@ -10444,7 +10444,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3664,
+      "avg": 3687,
       "min": 275,
       "max": 35900
     },
@@ -10524,7 +10524,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3300,
+      "avg": 3303,
       "count": 185
     },
     "03": {
@@ -10677,8 +10677,8 @@
   ],
   "priceDistribution": {
     "0-500": 15,
-    "500-1k": 16,
-    "1k-2k": 92,
+    "500-1k": 15,
+    "1k-2k": 93,
     "2k-3k": 82,
     "3k-5k": 66,
     "5k-10k": 32,
@@ -10686,14 +10686,19 @@
   },
   "priceDistributionFiltered": {
     "0-500": 15,
-    "500-1k": 16,
-    "1k-2k": 92,
+    "500-1k": 15,
+    "1k-2k": 93,
     "2k-3k": 82,
     "3k-5k": 66,
     "5k-10k": 24,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 280,
+      "count": 15,
+      "avg": 19
+    },
     "Fender": {
       "sum": 180,
       "count": 13,
@@ -10778,11 +10783,6 @@
       "sum": 22,
       "count": 3,
       "avg": 7
-    },
-    "PRS": {
-      "sum": 280,
-      "count": 14,
-      "avg": 20
     },
     "Padalka": {
       "sum": 2,
@@ -11051,13 +11051,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-19": 3,
+    "2026-04-19": 4,
     "2026-04-18": 37,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 31,
-    "2026-04-13": 22,
+    "2026-04-13": 21,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11073,11 +11073,11 @@
   "topPosters": [
     {
       "username": "GP",
-      "count": 96
+      "count": 97
     },
     {
       "username": "Beijing Bob",
-      "count": 67
+      "count": 66
     },
     {
       "username": "Shteefe",
@@ -11114,7 +11114,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3300,
+    "avg": 3303,
     "pctBelowAvg": 14,
     "count": 185
   },
@@ -11133,10 +11133,10 @@
       "count": 44
     },
     "PRS": {
-      "avgPrice": 3576,
+      "avgPrice": 3446,
       "retailEst": 1000,
-      "avgDiscount": -257.6,
-      "count": 15
+      "avgDiscount": -244.6,
+      "count": 16
     },
     "Ibanez": {
       "avgPrice": 3262,
@@ -11163,10 +11163,10 @@
       "count": 12
     },
     "Rickenbacker": {
-      "avgPrice": 3766,
+      "avgPrice": 3835,
       "retailEst": 1500,
-      "avgDiscount": -151.1,
-      "count": 43
+      "avgDiscount": -155.6,
+      "count": 42
     }
   },
   "soldPrices": {
@@ -12005,9 +12005,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1256.771842996836,
-      "count": 71,
-      "avgPctDrop": 17.7
+      "totalPctDrop": 1231.771842996836,
+      "count": 70,
+      "avgPctDrop": 17.6
     },
     "byBrand": {
       "Ibanez": {
@@ -12081,9 +12081,9 @@
         "avgPctDrop": 11.1
       },
       "Rickenbacker": {
-        "totalPctDrop": 158.8243436400424,
-        "count": 7,
-        "avgPctDrop": 22.7
+        "totalPctDrop": 133.8243436400424,
+        "count": 6,
+        "avgPctDrop": 22.3
       },
       "Dean": {
         "totalPctDrop": 17.362270450751254,
@@ -12162,6 +12162,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "PRS": {
+        "total": 16,
+        "sold": 7,
+        "fake": 0,
+        "live": 9,
+        "soldPct": 44,
+        "livePct": 56
+      },
       "Fender": {
         "total": 16,
         "sold": 4,
@@ -12195,10 +12203,10 @@
         "livePct": 100
       },
       "Rickenbacker": {
-        "total": 43,
+        "total": 42,
         "sold": 6,
         "fake": 0,
-        "live": 37,
+        "live": 36,
         "soldPct": 14,
         "livePct": 86
       },
@@ -12313,14 +12321,6 @@
         "live": 1,
         "soldPct": 67,
         "livePct": 33
-      },
-      "PRS": {
-        "total": 15,
-        "sold": 7,
-        "fake": 0,
-        "live": 8,
-        "soldPct": 47,
-        "livePct": 53
       },
       "Padalka": {
         "total": 1,
@@ -12772,13 +12772,13 @@
       },
       {
         "label": "$500–1k",
-        "total": 16,
+        "total": 15,
         "sold": 3,
-        "rate": 19
+        "rate": 20
       },
       {
         "label": "$1k–2k",
-        "total": 92,
+        "total": 93,
         "sold": 23,
         "rate": 25
       },
@@ -12808,18 +12808,18 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 35,
+        "sold": 9,
+        "rate": 26
+      },
       "Very Good": {
         "total": 81,
         "sold": 23,
         "rate": 28
       },
-      "Good": {
-        "total": 34,
-        "sold": 9,
-        "rate": 26
-      },
       "Excellent": {
-        "total": 121,
+        "total": 120,
         "sold": 40,
         "rate": 33
       },
@@ -13224,20 +13224,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "1979 Tokai Silver Star Strat Style Electric Guitar - Dakota Red -",
-        "url": "https://reverb.com/item/83381502-1979-tokai-silver-star-strat-style-electric-guitar-dakota-red-warmoth-neck-ss-frets-p90-pickups-callaham-bridge-saddles-custom-wood-pickguard",
-        "price": "$900",
-        "priceNum": 900,
-        "brand": "Rickenbacker",
-        "condition": "Excellent",
-        "watchers": 60,
-        "views": 1986,
-        "daysListed": 653,
-        "image": "https://rvb-img.reverb.com/i/s--2M5mI7nB--/quality=medium-low,height=800,width=800,fit=contain/f7trwwugbccfyi6ohlzc.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Guild T-100 Slim Jim with P90 1958 - 1964 - Sunburst w/ added hum",
         "url": "https://reverb.com/item/86223557-guild-t-100-slim-jim-with-p90-1958-1964-sunburst-w-added-humbucker-and-ohc",
         "price": "$1,529",
@@ -13363,6 +13349,20 @@
         "image": "https://rvb-img.reverb.com/i/s--cCR9Sy-4--/quality=medium-low,height=800,width=800,fit=contain/ib3ze5skrzxhse4ruhre.jpg",
         "modelAvg": null,
         "pctVsAvg": null
+      },
+      {
+        "title": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Sh",
+        "url": "https://reverb.com/item/91948632-pre-owned-echopark-echocaster-r-60-white-with-original-hard-shell-case",
+        "price": "$2,900",
+        "priceNum": 2900,
+        "brand": "Echopark",
+        "condition": "Very Good",
+        "watchers": 30,
+        "views": 916,
+        "daysListed": 236,
+        "image": "https://rvb-img.reverb.com/i/s--P23aH4NZ--/quality=medium-low,height=800,width=800,fit=contain/eq1gmrzmgxetih3vj9oz.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -13390,6 +13390,24 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 12,
+      "sum": 36739.17,
+      "avg": 3062,
+      "min": 699,
+      "max": 9126,
+      "sold": 6,
+      "soldSum": 14922.17,
+      "soldAvg": 2487,
+      "live": 6,
+      "sellRate": 50,
+      "totalDays": 92.7,
+      "soldCount": 6,
+      "avgDaysToSell": 15.5
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -13632,9 +13650,9 @@
       "soldAvg": 4647,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 100.2,
+      "totalDays": 100.4,
       "soldCount": 5,
-      "avgDaysToSell": 20
+      "avgDaysToSell": 20.1
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13653,24 +13671,6 @@
       "totalDays": 19.2,
       "soldCount": 1,
       "avgDaysToSell": 19.2
-    },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 11,
-      "sum": 35239.17,
-      "avg": 3204,
-      "min": 699,
-      "max": 9126,
-      "sold": 6,
-      "soldSum": 14922.17,
-      "soldAvg": 2487,
-      "live": 5,
-      "sellRate": 55,
-      "totalDays": 92.7,
-      "soldCount": 6,
-      "avgDaysToSell": 15.5
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -14051,9 +14051,9 @@
       "soldAvg": 1645,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.1,
+      "totalDays": 5.2,
       "soldCount": 1,
-      "avgDaysToSell": 5.1
+      "avgDaysToSell": 5.2
     },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
@@ -14241,9 +14241,9 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 38.2,
+      "totalDays": 38.3,
       "soldCount": 2,
-      "avgDaysToSell": 19.1
+      "avgDaysToSell": 19.2
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -14302,7 +14302,7 @@
     "withOffers": 77,
     "totalOffers": 174,
     "avgOffersPerListing": 2.3,
-    "offersEnabledPct": 66
+    "offersEnabledPct": 67
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -14323,7 +14323,7 @@
     },
     {
       "label": "6–15",
-      "total": 63,
+      "total": 64,
       "sold": 14,
       "rate": 22
     },
@@ -14335,19 +14335,19 @@
     },
     {
       "label": "31+",
-      "total": 63,
+      "total": 62,
       "sold": 14,
-      "rate": 22
+      "rate": 23
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 178,
+      "total": 179,
       "sold": 46,
       "rate": 26
     },
     "off": {
-      "total": 48,
+      "total": 47,
       "sold": 19,
       "rate": 40
     }
@@ -14367,21 +14367,21 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 26,
+      "total": 25,
       "sold": 9,
-      "rate": 35
+      "rate": 36
+    },
+    {
+      "state": "TX",
+      "total": 15,
+      "sold": 5,
+      "rate": 33
     },
     {
       "state": "WA",
       "total": 14,
       "sold": 2,
       "rate": 14
-    },
-    {
-      "state": "TX",
-      "total": 14,
-      "sold": 5,
-      "rate": 36
     },
     {
       "state": "PA",
