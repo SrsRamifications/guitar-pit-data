@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T17:49:55.736Z",
+  "generatedAt": "2026-04-19T17:55:19.461Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1221497.15,
-    "avg": 3878,
+    "sum": 1221293.15,
+    "avg": 3877,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 294,
-    "sum": 766710.16,
-    "avg": 2608,
+    "sum": 766506.16,
+    "avg": 2607,
     "min": 7,
     "max": 7900,
     "median": 2300
@@ -197,10 +197,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 613904.8,
+      "sum": 613700.8,
       "min": 7,
       "max": 47042,
-      "avg": 3336
+      "avg": 3335
     },
     "2026-03": {
       "count": 131,
@@ -211,35 +211,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 269,
-      "sum": 890557.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3311
-    },
     "marketplace": {
-      "count": 46,
-      "sum": 330939.79,
+      "count": 47,
+      "sum": 331934.79,
       "min": 139.99,
       "max": 99000,
-      "avg": 7194
+      "avg": 7062
+    },
+    "reverb": {
+      "count": 268,
+      "sum": 889358.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3319
     }
   },
   "byDomain": {
-    "reverb.com": {
-      "count": 269,
-      "sum": 890557.36,
-      "min": 7,
-      "max": 47042,
-      "avg": 3311
-    },
     "chicagomusicexchange.com": {
-      "count": 19,
-      "sum": 255363.99,
+      "count": 20,
+      "sum": 256358.99,
       "min": 350,
       "max": 99000,
-      "avg": 13440
+      "avg": 12818
+    },
+    "reverb.com": {
+      "count": 268,
+      "sum": 889358.36,
+      "min": 7,
+      "max": 47042,
+      "avg": 3319
     },
     "guitarcenter.com": {
       "count": 20,
@@ -292,6 +292,37 @@
     }
   },
   "byModel": {
+    "ibanez-ar100-artist": {
+      "displayName": "Ibanez AR100 Artist Cherry Sunburst 1980",
+      "brand": "Ibanez",
+      "model": "AR100",
+      "variant": "Artist",
+      "count": 1,
+      "sum": 995,
+      "min": 995,
+      "max": 995,
+      "sightings": [
+        {
+          "price": 995,
+          "date": "2026-04-19T17:55:04.223Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez AR100 Artist Cherry Sunburst 1980",
+          "url": "https://www.chicagomusicexchange.com/products/ibanez-ar100-artist-cherry-sunburst-1980-2525834",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 995,
+          "min": 995,
+          "max": 995,
+          "avg": 995
+        }
+      },
+      "avg": 995
+    },
     "music-man-jp6-ball-family-reserve": {
       "displayName": "Music Man JP6 Ball Family Reserve 2013 - Bahama Blue Burst",
       "brand": "Music Man",
@@ -6239,37 +6270,6 @@
       },
       "avg": 1711
     },
-    "esp-ltd-esp-ltd-baritone": {
-      "displayName": "ESP LTD ESP LTD TE-1007 BARITONE BLACK BLAST 2025",
-      "brand": "ESP",
-      "model": "LTD ESP LTD",
-      "variant": "Baritone",
-      "count": 1,
-      "sum": 1199,
-      "min": 1199,
-      "max": 1199,
-      "sightings": [
-        {
-          "price": 1199,
-          "date": "2026-04-13T09:26:04.670Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "ESP LTD ESP LTD TE-1007 BARITONE BLACK BLAST 2025",
-          "url": "https://reverb.com/en-se/item/93225199-esp-ltd-esp-ltd-te-1007-baritone-black-blast-2025",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 1199,
-          "min": 1199,
-          "max": 1199,
-          "avg": 1199
-        }
-      },
-      "avg": 1199
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10386,6 +10386,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 32,
+      "sum": 173080.80999999997,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 5409,
+      "min": 139.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 122,
       "sum": 448434.73,
@@ -10428,17 +10439,6 @@
       "min": 414,
       "max": 15995
     },
-    "Used": {
-      "count": 31,
-      "sum": 172085.80999999997,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 5551,
-      "min": 139.99,
-      "max": 99000
-    },
     "Mint": {
       "count": 5,
       "sum": 60227,
@@ -10451,8 +10451,8 @@
       "max": 47042
     },
     "Brand New": {
-      "count": 27,
-      "sum": 106598.10999999999,
+      "count": 26,
+      "sum": 105399.10999999999,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -10460,7 +10460,7 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 3948,
+      "avg": 4054,
       "min": 135,
       "max": 12280
     },
@@ -10504,7 +10504,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3336,
+      "avg": 3335,
       "count": 184
     },
     "03": {
@@ -10657,8 +10657,8 @@
   ],
   "priceDistribution": {
     "0-500": 13,
-    "500-1k": 15,
-    "1k-2k": 93,
+    "500-1k": 16,
+    "1k-2k": 92,
     "2k-3k": 82,
     "3k-5k": 66,
     "5k-10k": 33,
@@ -10666,14 +10666,19 @@
   },
   "priceDistributionFiltered": {
     "0-500": 13,
-    "500-1k": 15,
-    "1k-2k": 93,
+    "500-1k": 16,
+    "1k-2k": 92,
     "2k-3k": 82,
     "3k-5k": 66,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 329,
+      "count": 18,
+      "avg": 18
+    },
     "Music Man": {
       "sum": 71,
       "count": 7,
@@ -10688,11 +10693,6 @@
       "sum": 88,
       "count": 5,
       "avg": 18
-    },
-    "Ibanez": {
-      "sum": 329,
-      "count": 17,
-      "avg": 19
     },
     "James Tyler": {
       "sum": 1,
@@ -10745,7 +10745,7 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 821,
+      "sum": 822,
       "count": 37,
       "avg": 22
     },
@@ -11031,13 +11031,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-19": 11,
+    "2026-04-19": 12,
     "2026-04-18": 37,
     "2026-04-17": 29,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 30,
-    "2026-04-13": 14,
+    "2026-04-13": 13,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11046,8 +11046,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 269,
-    "marketplace": 51
+    "marketplace": 52,
+    "reverb": 268
   },
   "activeModelsCount": 277,
   "topPosters": [
@@ -11076,6 +11076,10 @@
       "count": 16
     },
     {
+      "username": "Modean",
+      "count": 9
+    },
+    {
       "username": "scottcorgan",
       "count": 9
     },
@@ -11084,17 +11088,13 @@
       "count": 9
     },
     {
-      "username": "Modean",
-      "count": 8
-    },
-    {
       "username": "jazee_",
       "count": 7
     }
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3336,
+    "avg": 3335,
     "pctBelowAvg": 14,
     "count": 184
   },
@@ -11119,10 +11119,10 @@
       "count": 16
     },
     "Ibanez": {
-      "avgPrice": 3175,
+      "avgPrice": 3060,
       "retailEst": 1000,
-      "avgDiscount": -217.5,
-      "count": 18
+      "avgDiscount": -206,
+      "count": 19
     },
     "Jackson": {
       "avgPrice": 3642,
@@ -12016,8 +12016,8 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1207.2381455276743,
-      "count": 69,
+      "totalPctDrop": 1192.942219866488,
+      "count": 68,
       "avgPctDrop": 17.5
     },
     "byBrand": {
@@ -12117,9 +12117,9 @@
         "avgPctDrop": 7
       },
       "ESP": {
-        "totalPctDrop": 24.295925661186562,
-        "count": 2,
-        "avgPctDrop": 12.1
+        "totalPctDrop": 10,
+        "count": 1,
+        "avgPctDrop": 10
       },
       "Eastman": {
         "totalPctDrop": 9.375,
@@ -12168,6 +12168,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 19,
+        "sold": 5,
+        "fake": 0,
+        "live": 14,
+        "soldPct": 26,
+        "livePct": 74
+      },
       "Music Man": {
         "total": 8,
         "sold": 6,
@@ -12191,14 +12199,6 @@
         "live": 4,
         "soldPct": 20,
         "livePct": 80
-      },
-      "Ibanez": {
-        "total": 18,
-        "sold": 5,
-        "fake": 0,
-        "live": 13,
-        "soldPct": 28,
-        "livePct": 72
       },
       "James Tyler": {
         "total": 1,
@@ -12561,12 +12561,12 @@
         "livePct": 67
       },
       "ESP": {
-        "total": 4,
+        "total": 3,
         "sold": 1,
         "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Languedoc": {
         "total": 1,
@@ -12778,13 +12778,13 @@
       },
       {
         "label": "$500–1k",
-        "total": 15,
+        "total": 16,
         "sold": 3,
-        "rate": 20
+        "rate": 19
       },
       {
         "label": "$1k–2k",
-        "total": 93,
+        "total": 92,
         "sold": 27,
         "rate": 29
       },
@@ -12814,6 +12814,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 32,
+        "sold": 2,
+        "rate": 6
+      },
       "Excellent": {
         "total": 122,
         "sold": 44,
@@ -12829,20 +12834,15 @@
         "sold": 9,
         "rate": 26
       },
-      "Used": {
-        "total": 31,
-        "sold": 2,
-        "rate": 6
-      },
       "Mint": {
         "total": 5,
         "sold": 0,
         "rate": 0
       },
       "Brand New": {
-        "total": 27,
+        "total": 26,
         "sold": 2,
-        "rate": 7
+        "rate": 8
       },
       "New": {
         "total": 2,
@@ -13608,7 +13608,7 @@
       "soldAvg": 2763,
       "live": 24,
       "sellRate": 23,
-      "totalDays": 90.4,
+      "totalDays": 90.5,
       "soldCount": 7,
       "avgDaysToSell": 12.9
     },
@@ -14083,23 +14083,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "ESP|LTD": {
-      "brand": "ESP",
-      "brandLine": "LTD",
-      "tier": "budget",
-      "count": 1,
-      "sum": 1199,
-      "avg": 1199,
-      "min": 1199,
-      "max": 1199,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -14258,8 +14241,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 78,
-    "totalOffers": 178,
+    "withOffers": 77,
+    "totalOffers": 177,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 66
   },
@@ -14294,14 +14277,14 @@
     },
     {
       "label": "31+",
-      "total": 65,
+      "total": 64,
       "sold": 16,
       "rate": 25
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 176,
       "sold": 51,
       "rate": 29
     },
@@ -14318,7 +14301,7 @@
       "rate": 25
     },
     "regular": {
-      "total": 112,
+      "total": 111,
       "sold": 37,
       "rate": 33
     }
@@ -14367,12 +14350,6 @@
       "rate": 44
     },
     {
-      "state": "TN",
-      "total": 8,
-      "sold": 4,
-      "rate": 50
-    },
-    {
       "state": "IL",
       "total": 8,
       "sold": 2,
@@ -14383,6 +14360,12 @@
       "total": 8,
       "sold": 2,
       "rate": 25
+    },
+    {
+      "state": "TN",
+      "total": 7,
+      "sold": 4,
+      "rate": 57
     },
     {
       "state": "NJ",
