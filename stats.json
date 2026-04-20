@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T19:24:20.511Z",
+  "generatedAt": "2026-04-20T19:33:11.621Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,23 +7,23 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1202952.16,
-    "avg": 3819,
+    "sum": 1199142.16,
+    "avg": 3807,
     "min": 7,
     "max": 99000
   },
   "filtered": {
-    "count": 296,
-    "sum": 767214.17,
-    "avg": 2592,
+    "count": 297,
+    "sum": 771403.17,
+    "avg": 2597,
     "min": 7,
-    "max": 7950,
+    "max": 7999,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 7994,
+    "thresholdHigh": 8031,
     "thresholdLow": 0,
-    "count": 19,
+    "count": 18,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -167,24 +167,16 @@
         "image": "https://rvb-img.reverb.com/i/s--Q1sMg5eq--/quality=medium-low,height=800,width=800,fit=contain/b98304ba-091a-44b3-b535-9c44c54c4de5.jpeg",
         "condition": "Excellent",
         "postedAt": "2026-04-15T23:15:57.318Z"
-      },
-      {
-        "title": "Fender Custom Shop '67 Set Neck Telecaster Masterbuilt Austin MacNutt Relic Black 2025",
-        "url": "https://reverb.com/item/95448950-fender-custom-shop-67-set-neck-telecaster-masterbuilt-austin-macnutt-relic-black-2025",
-        "price": "$7,999",
-        "image": "https://rvb-img.reverb.com/i/s--cHdGhx6t--/quality=medium-low,height=800,width=800,fit=contain/dab34418-44a1-4181-9d8a-d8f6b2661462.jpg",
-        "condition": "Excellent",
-        "postedAt": "2026-03-27T17:05:17.894Z"
       }
     ]
   },
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 595359.81,
+      "sum": 591549.81,
       "min": 7,
       "max": 47042,
-      "avg": 3236
+      "avg": 3215
     },
     "2026-03": {
       "count": 131,
@@ -197,10 +189,10 @@
   "byCategory": {
     "reverb": {
       "count": 271,
-      "sum": 894982.36,
+      "sum": 891172.36,
       "min": 7,
       "max": 47042,
-      "avg": 3303
+      "avg": 3288
     },
     "marketplace": {
       "count": 44,
@@ -213,10 +205,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 271,
-      "sum": 894982.36,
+      "sum": 891172.36,
       "min": 7,
       "max": 47042,
-      "avg": 3303
+      "avg": 3288
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -276,6 +268,37 @@
     }
   },
   "byModel": {
+    "kiesel-ae185-gloss": {
+      "displayName": "Carvin AE185 Mid-90’s - Natural/ gloss",
+      "brand": "Kiesel",
+      "model": "AE185",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 650,
+      "min": 650,
+      "max": 650,
+      "sightings": [
+        {
+          "price": 650,
+          "date": "2026-04-20T19:32:56.779Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Carvin AE185 Mid-90’s - Natural/ gloss",
+          "url": "https://reverb.com/item/95778586-carvin-ae185-mid-90-s-natural-gloss",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 650,
+          "min": 650,
+          "max": 650,
+          "avg": 650
+        }
+      },
+      "avg": 650
+    },
     "kiesel-dc127": {
       "displayName": "Kiesel-Carvin DC127 Cherryburst Flame",
       "brand": "Kiesel",
@@ -10319,9 +10342,23 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 32,
+      "sum": 92358.95,
+      "sold": {
+        "count": 8,
+        "sum": 16791.48,
+        "avg": 2099,
+        "min": 685,
+        "max": 4777.5
+      },
+      "avg": 2886,
+      "min": 414,
+      "max": 15995
+    },
     "Excellent": {
-      "count": 125,
-      "sum": 452314.73,
+      "count": 124,
+      "sum": 447854.73,
       "sold": {
         "count": 43,
         "sum": 143213.85,
@@ -10329,7 +10366,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3619,
+      "avg": 3612,
       "min": 190,
       "max": 35900
     },
@@ -10394,20 +10431,6 @@
       "min": 139.99,
       "max": 99000
     },
-    "Good": {
-      "count": 31,
-      "sum": 91708.95,
-      "sold": {
-        "count": 8,
-        "sum": 16791.48,
-        "avg": 2099,
-        "min": 685,
-        "max": 4777.5
-      },
-      "avg": 2958,
-      "min": 414,
-      "max": 15995
-    },
     "New": {
       "count": 2,
       "sum": 11003,
@@ -10448,7 +10471,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3236,
+      "avg": 3215,
       "count": 184
     },
     "03": {
@@ -10601,27 +10624,27 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 17,
+    "500-1k": 18,
     "1k-2k": 97,
     "2k-3k": 79,
-    "3k-5k": 63,
+    "3k-5k": 62,
     "5k-10k": 33,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 17,
+    "500-1k": 18,
     "1k-2k": 97,
     "2k-3k": 79,
-    "3k-5k": 63,
-    "5k-10k": 26,
+    "3k-5k": 62,
+    "5k-10k": 27,
     "10k+": 0
   },
   "daysOnMarket": {
     "Kiesel": {
-      "sum": 231,
-      "count": 13,
-      "avg": 18
+      "sum": 242,
+      "count": 14,
+      "avg": 17
     },
     "Warmoth": {
       "sum": 28,
@@ -11020,13 +11043,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-20": 8,
+    "2026-04-20": 9,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 22,
     "2026-04-15": 41,
-    "2026-04-14": 27,
+    "2026-04-14": 26,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11038,7 +11061,7 @@
     "reverb": 271,
     "marketplace": 49
   },
-  "activeModelsCount": 272,
+  "activeModelsCount": 273,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -11125,8 +11148,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3236,
-    "pctBelowAvg": 15,
+    "avg": 3215,
+    "pctBelowAvg": 16,
     "count": 184
   },
   "topVoted": [],
@@ -11162,10 +11185,10 @@
       "count": 12
     },
     "Kiesel": {
-      "avgPrice": 1585,
+      "avgPrice": 1518,
       "retailEst": 1000,
-      "avgDiscount": -58.5,
-      "count": 13
+      "avgDiscount": -51.8,
+      "count": 14
     },
     "BC Rich": {
       "avgPrice": 2299,
@@ -12242,21 +12265,21 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 302,
+      "total": 303,
       "sold": 87,
       "fake": 0,
-      "live": 215,
+      "live": 216,
       "soldPct": 29,
       "livePct": 71
     },
     "byBrand": {
       "Kiesel": {
-        "total": 13,
+        "total": 14,
         "sold": 9,
         "fake": 0,
-        "live": 4,
-        "soldPct": 69,
-        "livePct": 31
+        "live": 5,
+        "soldPct": 64,
+        "livePct": 36
       },
       "Charvel": {
         "total": 5,
@@ -12932,9 +12955,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 17,
+        "total": 18,
         "sold": 4,
-        "rate": 24
+        "rate": 22
       },
       {
         "label": "$1k–2k",
@@ -12950,7 +12973,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 63,
+        "total": 62,
         "sold": 23,
         "rate": 37
       },
@@ -12968,8 +12991,13 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 32,
+        "sold": 9,
+        "rate": 28
+      },
       "Excellent": {
-        "total": 125,
+        "total": 124,
         "sold": 45,
         "rate": 36
       },
@@ -12997,11 +13025,6 @@
         "total": 31,
         "sold": 3,
         "rate": 10
-      },
-      "Good": {
-        "total": 31,
-        "sold": 9,
-        "rate": 29
       },
       "New": {
         "total": 2,
@@ -13584,9 +13607,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1585,
-        "sellRate": 69,
-        "count": 13,
+        "avgPrice": 1507,
+        "sellRate": 64,
+        "count": 14,
         "sold": 9
       },
       {
@@ -13610,17 +13633,17 @@
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
       "tier": "premium",
-      "count": 11,
-      "sum": 17432,
-      "avg": 1585,
-      "min": 1199,
+      "count": 12,
+      "sum": 18082,
+      "avg": 1507,
+      "min": 650,
       "max": 2700,
       "sold": 8,
       "soldSum": 12234,
       "soldAvg": 1529,
-      "live": 3,
-      "sellRate": 73,
-      "totalDays": 121.4,
+      "live": 4,
+      "sellRate": 67,
+      "totalDays": 121.5,
       "soldCount": 8,
       "avgDaysToSell": 15.2
     },
@@ -13760,7 +13783,7 @@
       "soldAvg": 15932,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 52.099999999999994,
+      "totalDays": 52.2,
       "soldCount": 3,
       "avgDaysToSell": 17.4
     },
@@ -14335,9 +14358,9 @@
       "soldAvg": 3999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 242.9,
+      "totalDays": 243,
       "soldCount": 1,
-      "avgDaysToSell": 242.9
+      "avgDaysToSell": 243
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -14639,9 +14662,9 @@
     },
     {
       "label": "1–5",
-      "total": 21,
+      "total": 20,
       "sold": 3,
-      "rate": 14
+      "rate": 15
     },
     {
       "label": "6–15",
@@ -14651,7 +14674,7 @@
     },
     {
       "label": "16–30",
-      "total": 62,
+      "total": 63,
       "sold": 22,
       "rate": 35
     },
@@ -14701,9 +14724,9 @@
     },
     {
       "state": "TX",
-      "total": 16,
+      "total": 15,
       "sold": 5,
-      "rate": 31
+      "rate": 33
     },
     {
       "state": "WA",
