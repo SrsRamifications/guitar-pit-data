@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T15:39:42.993Z",
+  "generatedAt": "2026-04-20T15:56:44.495Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -1148,6 +1148,21 @@
           "max": 1500,
           "avg": 1500
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1500,
+        "min": 1500,
+        "max": 1500,
+        "prices": [
+          {
+            "price": 1500,
+            "askingPrice": 1500,
+            "date": "2026-04-20T15:52:59.102Z",
+            "title": "PRS Singlecut 2003 Platinum Metallic",
+            "url": "https://reverb.com/item/96155449-prs-singlecut-2003-platinum-metallic"
+          }
+        ]
       },
       "avg": 1500
     },
@@ -7125,10 +7140,10 @@
       },
       "avg": 3350
     },
-    "diamond-mcmahon-artistry-warmoth": {
-      "displayName": "Diamond McMAHON Artistry Warmoth",
-      "brand": "Diamond",
-      "model": "McMAHON Artistry Warmoth",
+    "warmoth-mcmahon-artistry-diamondback": {
+      "displayName": "Warmoth McMAHON Artistry Diamondback",
+      "brand": "Warmoth",
+      "model": "McMAHON Artistry Diamondback",
       "variant": null,
       "count": 1,
       "sum": 3850,
@@ -7331,10 +7346,10 @@
       },
       "avg": 1202
     },
-    "bc-rich-rare-neon-platinum-platinum": {
-      "displayName": "BC Rich RARE Neon Platinum Platinum",
-      "brand": "BC Rich",
-      "model": "RARE Neon Platinum",
+    "vintage-rare-neon-bc-platinum": {
+      "displayName": "Vintage RARE Neon B.C. Platinum",
+      "brand": "Vintage",
+      "model": "RARE Neon B.C.",
       "variant": "Platinum",
       "count": 1,
       "sum": 850,
@@ -10407,9 +10422,9 @@
       "count": 32,
       "sum": 93507.95,
       "sold": {
-        "count": 7,
-        "sum": 15291.48,
-        "avg": 2184,
+        "count": 8,
+        "sum": 16791.48,
+        "avg": 2099,
         "min": 685,
         "max": 4777.5
       },
@@ -10628,12 +10643,12 @@
   },
   "daysOnMarket": {
     "Warmoth": {
-      "sum": 4,
-      "count": 2,
-      "avg": 2
+      "sum": 28,
+      "count": 3,
+      "avg": 9
     },
     "Fender": {
-      "sum": 207,
+      "sum": 208,
       "count": 15,
       "avg": 14
     },
@@ -10748,9 +10763,9 @@
       "avg": 3
     },
     "BC Rich": {
-      "sum": 248,
-      "count": 11,
-      "avg": 23
+      "sum": 224,
+      "count": 10,
+      "avg": 22
     },
     "Frank": {
       "sum": 27,
@@ -10912,14 +10927,9 @@
       "count": 2,
       "avg": 24
     },
-    "Diamond": {
-      "sum": 24,
-      "count": 1,
-      "avg": 24
-    },
     "Vintage": {
-      "sum": 45,
-      "count": 2,
+      "sum": 69,
+      "count": 3,
       "avg": 23
     },
     "Hoyer": {
@@ -11083,7 +11093,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 43
+      "count": 44
     },
     {
       "username": "greg1213",
@@ -11167,10 +11177,10 @@
       "count": 12
     },
     "BC Rich": {
-      "avgPrice": 2312,
+      "avgPrice": 2434,
       "retailEst": 200,
-      "avgDiscount": -1055.9,
-      "count": 13
+      "avgDiscount": -1116.8,
+      "count": 12
     },
     "Rickenbacker": {
       "avgPrice": 2733,
@@ -11180,17 +11190,17 @@
     }
   },
   "soldPrices": {
-    "count": 87,
-    "avg": 2942,
+    "count": 88,
+    "avg": 2926,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 696.3,
-      "count": 85,
-      "avgDays": 8.2
+      "totalDays": 697.9,
+      "count": 86,
+      "avgDays": 8.1
     },
     "byModel": {
       "jackson-original-floyd-rose": {
@@ -11208,6 +11218,14 @@
         "fastest": 0.2,
         "slowest": 0.4,
         "avgDays": 0.3
+      },
+      "prs-single-cut-platinum": {
+        "displayName": "PRS Singlecut 2003 Platinum Metallic",
+        "totalDays": 1.6,
+        "count": 1,
+        "fastest": 1.6,
+        "slowest": 1.6,
+        "avgDays": 1.6
       },
       "jackson-dinky-custom-shop": {
         "displayName": "Jackson Custom Shop Dinky HSH FR Black",
@@ -11825,6 +11843,13 @@
         "slowest": 18.3,
         "avgDays": 3.8
       },
+      "PRS": {
+        "totalDays": 9,
+        "count": 8,
+        "fastest": 0.1,
+        "slowest": 3.4,
+        "avgDays": 1.1
+      },
       "Rickenbacker": {
         "totalDays": 5,
         "count": 5,
@@ -11908,13 +11933,6 @@
         "fastest": 0.1,
         "slowest": 3.6,
         "avgDays": 1.3
-      },
-      "PRS": {
-        "totalDays": 7.3999999999999995,
-        "count": 7,
-        "fastest": 0.1,
-        "slowest": 3.4,
-        "avgDays": 1.1
       },
       "Taylor": {
         "totalDays": 0.4,
@@ -12237,9 +12255,9 @@
   "sellThrough": {
     "overall": {
       "total": 303,
-      "sold": 85,
+      "sold": 86,
       "fake": 0,
-      "live": 218,
+      "live": 217,
       "soldPct": 28,
       "livePct": 72
     },
@@ -12253,12 +12271,12 @@
         "livePct": 50
       },
       "Warmoth": {
-        "total": 2,
+        "total": 3,
         "sold": 1,
         "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Fender": {
         "total": 18,
@@ -12302,11 +12320,11 @@
       },
       "PRS": {
         "total": 16,
-        "sold": 7,
+        "sold": 8,
         "fake": 0,
-        "live": 9,
-        "soldPct": 44,
-        "livePct": 56
+        "live": 8,
+        "soldPct": 50,
+        "livePct": 50
       },
       "Rickenbacker": {
         "total": 28,
@@ -12477,12 +12495,12 @@
         "livePct": 100
       },
       "BC Rich": {
-        "total": 13,
+        "total": 12,
         "sold": 3,
         "fake": 0,
-        "live": 10,
-        "soldPct": 23,
-        "livePct": 77
+        "live": 9,
+        "soldPct": 25,
+        "livePct": 75
       },
       "Frank": {
         "total": 2,
@@ -12740,19 +12758,11 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Diamond": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Vintage": {
-        "total": 2,
+        "total": 3,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 3,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12925,8 +12935,8 @@
       {
         "label": "$1k–2k",
         "total": 98,
-        "sold": 27,
-        "rate": 28
+        "sold": 28,
+        "rate": 29
       },
       {
         "label": "$2k–3k",
@@ -12986,8 +12996,8 @@
       },
       "Good": {
         "total": 32,
-        "sold": 8,
-        "rate": 25
+        "sold": 9,
+        "rate": 28
       },
       "New": {
         "total": 2,
@@ -13168,7 +13178,7 @@
         "condition": "Excellent",
         "watchers": 196,
         "views": 3861,
-        "daysListed": 489,
+        "daysListed": 490,
         "image": "https://rvb-img.reverb.com/i/s--5zEilTV8--/quality=medium-low,height=800,width=800,fit=contain/sgpha8qzk6s6vlnv5qkc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13382,7 +13392,7 @@
         "condition": "Excellent",
         "watchers": 196,
         "views": 3861,
-        "daysListed": 489,
+        "daysListed": 490,
         "image": "https://rvb-img.reverb.com/i/s--5zEilTV8--/quality=medium-low,height=800,width=800,fit=contain/sgpha8qzk6s6vlnv5qkc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13650,14 +13660,14 @@
       "avg": 2941,
       "min": 699,
       "max": 9126,
-      "sold": 6,
-      "soldSum": 14922.17,
-      "soldAvg": 2487,
-      "live": 7,
-      "sellRate": 46,
-      "totalDays": 102,
-      "soldCount": 6,
-      "avgDaysToSell": 17
+      "sold": 7,
+      "soldSum": 16422.17,
+      "soldAvg": 2346,
+      "live": 6,
+      "sellRate": 54,
+      "totalDays": 103.80000000000001,
+      "soldCount": 7,
+      "avgDaysToSell": 14.8
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13690,9 +13700,9 @@
       "soldAvg": 2855,
       "live": 24,
       "sellRate": 25,
-      "totalDays": 97.89999999999999,
+      "totalDays": 98,
       "soldCount": 8,
-      "avgDaysToSell": 12.2
+      "avgDaysToSell": 12.3
     },
     "Music Man|Music Man BFR": {
       "brand": "Music Man",
@@ -13726,9 +13736,9 @@
       "soldAvg": 1749,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 17.2,
+      "totalDays": 17.3,
       "soldCount": 3,
-      "avgDaysToSell": 5.7
+      "avgDaysToSell": 5.8
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -13866,9 +13876,9 @@
       "soldAvg": 3599,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 21.7,
+      "totalDays": 21.8,
       "soldCount": 1,
-      "avgDaysToSell": 21.7
+      "avgDaysToSell": 21.8
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -14005,9 +14015,9 @@
       "soldAvg": 3200,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 3.7,
+      "totalDays": 3.8,
       "soldCount": 1,
-      "avgDaysToSell": 3.7
+      "avgDaysToSell": 3.8
     },
     "Jackson|Jackson MJ": {
       "brand": "Jackson",
@@ -14040,7 +14050,7 @@
       "soldAvg": 1529,
       "live": 2,
       "sellRate": 80,
-      "totalDays": 120.1,
+      "totalDays": 120.20000000000002,
       "soldCount": 8,
       "avgDaysToSell": 15
     },
@@ -14231,7 +14241,7 @@
       "soldAvg": 3190,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 38.300000000000004,
+      "totalDays": 38.400000000000006,
       "soldCount": 2,
       "avgDaysToSell": 19.2
     },
@@ -14370,7 +14380,7 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 41.3,
+      "totalDays": 41.4,
       "soldCount": 2,
       "avgDaysToSell": 20.7
     },
@@ -14465,14 +14475,14 @@
     {
       "label": "31+",
       "total": 64,
-      "sold": 16,
-      "rate": 25
+      "sold": 17,
+      "rate": 27
     }
   ],
   "offersEffect": {
     "on": {
       "total": 180,
-      "sold": 52,
+      "sold": 53,
       "rate": 29
     },
     "off": {
@@ -14489,8 +14499,8 @@
     },
     "regular": {
       "total": 115,
-      "sold": 38,
-      "rate": 33
+      "sold": 39,
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -14509,8 +14519,8 @@
     {
       "state": "TX",
       "total": 17,
-      "sold": 5,
-      "rate": 29
+      "sold": 6,
+      "rate": 35
     },
     {
       "state": "WA",
