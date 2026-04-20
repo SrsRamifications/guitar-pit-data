@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T14:02:04.984Z",
+  "generatedAt": "2026-04-20T15:33:53.345Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,18 +7,18 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1209571.16,
-    "avg": 3828,
+    "sum": 1208121.16,
+    "avg": 3823,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 765883.17,
-    "avg": 2587,
+    "sum": 764433.17,
+    "avg": 2583,
     "min": 7,
     "max": 7900,
-    "median": 2267
+    "median": 2250
   },
   "outliers": {
     "thresholdHigh": 7902,
@@ -189,10 +189,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 601978.81,
+      "sum": 600528.81,
       "min": 7,
       "max": 47042,
-      "avg": 3254
+      "avg": 3246
     },
     "2026-03": {
       "count": 131,
@@ -205,10 +205,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 901601.36,
+      "sum": 900151.36,
       "min": 7,
       "max": 47042,
-      "avg": 3315
+      "avg": 3309
     },
     "marketplace": {
       "count": 44,
@@ -221,10 +221,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 901601.36,
+      "sum": 900151.36,
       "min": 7,
       "max": 47042,
-      "avg": 3315
+      "avg": 3309
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -284,6 +284,37 @@
     }
   },
   "byModel": {
+    "fender-electric-xii-abomination": {
+      "displayName": "Vintage 1966 Fender Electric XII Abomination w/ OHSC",
+      "brand": "Fender",
+      "model": "Electric XII Abomination",
+      "variant": null,
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-04-20T15:33:39.052Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1966 Fender Electric XII Abomination w/ OHSC",
+          "url": "https://reverb.com/item/96195518-vintage-1966-fender-electric-xii-abomination-w-ohsc",
+          "condition": "Poor"
+        }
+      ],
+      "byCondition": {
+        "Poor": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
+    },
     "esp-standard-baritone-gloss": {
       "displayName": "ESP Standard Series Viper Baritone Gloss Black 2005=2015 w/OHSC",
       "brand": "ESP",
@@ -6195,37 +6226,6 @@
       },
       "avg": 1645
     },
-    "rickenbacker-powers-elect-a-type": {
-      "displayName": "Powers Electric A-Type PF Brass 2 Tone",
-      "brand": "Rickenbacker",
-      "model": "Powers Elect A-Type",
-      "variant": null,
-      "count": 1,
-      "sum": 3250,
-      "min": 3250,
-      "max": 3250,
-      "sightings": [
-        {
-          "price": 3250,
-          "date": "2026-04-13T23:16:59.293Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Powers Electric A-Type PF Brass 2 Tone",
-          "url": "https://reverb.com/item/95979704-powers-electric-a-type-pf-brass-2-tone",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3250,
-          "min": 3250,
-          "max": 3250,
-          "avg": 3250
-        }
-      },
-      "avg": 3250
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10388,6 +10388,17 @@
     }
   },
   "byCondition": {
+    "Poor": {
+      "count": 1,
+      "sum": 1800,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 1800,
+      "min": 1800,
+      "max": 1800
+    },
     "Very Good": {
       "count": 80,
       "sum": 208986.55999999994,
@@ -10403,8 +10414,8 @@
       "max": 16500
     },
     "Excellent": {
-      "count": 126,
-      "sum": 458119.73,
+      "count": 125,
+      "sum": 454869.73,
       "sold": {
         "count": 43,
         "sum": 144155.43,
@@ -10412,7 +10423,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3636,
+      "avg": 3639,
       "min": 275,
       "max": 35900
     },
@@ -10506,7 +10517,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3254,
+      "avg": 3246,
       "count": 185
     },
     "03": {
@@ -10660,26 +10671,26 @@
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 16,
-    "1k-2k": 98,
+    "1k-2k": 99,
     "2k-3k": 80,
-    "3k-5k": 64,
+    "3k-5k": 63,
     "5k-10k": 33,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 16,
-    "1k-2k": 98,
+    "1k-2k": 99,
     "2k-3k": 80,
-    "3k-5k": 64,
+    "3k-5k": 63,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
     "Fender": {
-      "sum": 206,
-      "count": 14,
-      "avg": 15
+      "sum": 207,
+      "count": 15,
+      "avg": 14
     },
     "James Tyler": {
       "sum": 4,
@@ -10687,18 +10698,18 @@
       "avg": 2
     },
     "Jackson": {
-      "sum": 193,
+      "sum": 194,
       "count": 13,
       "avg": 15
     },
     "PRS": {
-      "sum": 248,
+      "sum": 249,
       "count": 15,
       "avg": 17
     },
     "Rickenbacker": {
-      "sum": 108,
-      "count": 29,
+      "sum": 103,
+      "count": 28,
       "avg": 4
     },
     "Ormsby": {
@@ -10707,17 +10718,17 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 819,
+      "sum": 820,
       "count": 36,
       "avg": 23
     },
     "Ibanez": {
-      "sum": 345,
+      "sum": 346,
       "count": 18,
       "avg": 19
     },
     "Music Man": {
-      "sum": 77,
+      "sum": 78,
       "count": 7,
       "avg": 11
     },
@@ -10797,9 +10808,9 @@
       "avg": 23
     },
     "Frank": {
-      "sum": 26,
+      "sum": 27,
       "count": 2,
-      "avg": 13
+      "avg": 14
     },
     "Kramer": {
       "sum": 4,
@@ -10807,9 +10818,9 @@
       "avg": 4
     },
     "Warmoth": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Parker": {
       "sum": 29,
@@ -10832,7 +10843,7 @@
       "avg": 5
     },
     "Kiesel": {
-      "sum": 228,
+      "sum": 230,
       "count": 12,
       "avg": 19
     },
@@ -10842,7 +10853,7 @@
       "avg": 5
     },
     "Guild": {
-      "sum": 27,
+      "sum": 28,
       "count": 2,
       "avg": 14
     },
@@ -11073,14 +11084,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-20": 4,
+    "2026-04-20": 5,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 30,
-    "2026-04-13": 2,
+    "2026-04-13": 1,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11096,7 +11107,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 102
+      "count": 103
     },
     {
       "username": "greg1213",
@@ -11104,7 +11115,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 30
+      "count": 29
     },
     {
       "username": "YellowJack6",
@@ -11179,17 +11190,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3254,
+    "avg": 3246,
     "pctBelowAvg": 15,
     "count": 185
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 8991,
+      "avgPrice": 8568,
       "retailEst": 800,
-      "avgDiscount": -1023.9,
-      "count": 16
+      "avgDiscount": -971,
+      "count": 17
     },
     "Gibson": {
       "avgPrice": 3325,
@@ -11228,10 +11239,10 @@
       "count": 13
     },
     "Rickenbacker": {
-      "avgPrice": 2743,
+      "avgPrice": 2725,
       "retailEst": 1500,
-      "avgDiscount": -82.8,
-      "count": 30
+      "avgDiscount": -81.7,
+      "count": 29
     }
   },
   "soldPrices": {
@@ -12317,6 +12328,14 @@
       "livePct": 71
     },
     "byBrand": {
+      "Fender": {
+        "total": 18,
+        "sold": 5,
+        "fake": 0,
+        "live": 13,
+        "soldPct": 28,
+        "livePct": 72
+      },
       "ESP": {
         "total": 5,
         "sold": 1,
@@ -12324,14 +12343,6 @@
         "live": 4,
         "soldPct": 20,
         "livePct": 80
-      },
-      "Fender": {
-        "total": 17,
-        "sold": 5,
-        "fake": 0,
-        "live": 12,
-        "soldPct": 29,
-        "livePct": 71
       },
       "James Tyler": {
         "total": 2,
@@ -12366,12 +12377,12 @@
         "livePct": 56
       },
       "Rickenbacker": {
-        "total": 30,
+        "total": 29,
         "sold": 6,
         "fake": 0,
-        "live": 24,
-        "soldPct": 20,
-        "livePct": 80
+        "live": 23,
+        "soldPct": 21,
+        "livePct": 79
       },
       "Ormsby": {
         "total": 1,
@@ -13005,9 +13016,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 98,
+        "total": 99,
         "sold": 28,
-        "rate": 29
+        "rate": 28
       },
       {
         "label": "$2k–3k",
@@ -13017,9 +13028,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 64,
+        "total": 63,
         "sold": 23,
-        "rate": 36
+        "rate": 37
       },
       {
         "label": "$5k–10k",
@@ -13035,13 +13046,18 @@
       }
     ],
     "byCondition": {
+      "Poor": {
+        "total": 1,
+        "sold": 0,
+        "rate": 0
+      },
       "Very Good": {
         "total": 80,
         "sold": 25,
         "rate": 31
       },
       "Excellent": {
-        "total": 126,
+        "total": 125,
         "sold": 45,
         "rate": 36
       },
@@ -13594,6 +13610,24 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 12,
+      "sum": 135418,
+      "avg": 11285,
+      "min": 1400,
+      "max": 47042,
+      "sold": 3,
+      "soldSum": 47795,
+      "soldAvg": 15932,
+      "live": 9,
+      "sellRate": 25,
+      "totalDays": 51.7,
+      "soldCount": 3,
+      "avgDaysToSell": 17.2
+    },
     "ESP|LTD": {
       "brand": "ESP",
       "brandLine": "LTD",
@@ -13659,27 +13693,9 @@
       "soldAvg": 4500,
       "live": 8,
       "sellRate": 11,
-      "totalDays": 21.9,
+      "totalDays": 22,
       "soldCount": 1,
-      "avgDaysToSell": 21.9
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 11,
-      "sum": 133618,
-      "avg": 12147,
-      "min": 1400,
-      "max": 47042,
-      "sold": 3,
-      "soldSum": 47795,
-      "soldAvg": 15932,
-      "live": 8,
-      "sellRate": 27,
-      "totalDays": 51.5,
-      "soldCount": 3,
-      "avgDaysToSell": 17.2
+      "avgDaysToSell": 22
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -13695,9 +13711,9 @@
       "soldAvg": 2516,
       "live": 4,
       "sellRate": 20,
-      "totalDays": 1.8,
+      "totalDays": 1.9,
       "soldCount": 1,
-      "avgDaysToSell": 1.8
+      "avgDaysToSell": 1.9
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13713,9 +13729,9 @@
       "soldAvg": 2487,
       "live": 7,
       "sellRate": 46,
-      "totalDays": 101.60000000000001,
+      "totalDays": 102,
       "soldCount": 6,
-      "avgDaysToSell": 16.9
+      "avgDaysToSell": 17
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13748,7 +13764,7 @@
       "soldAvg": 2855,
       "live": 24,
       "sellRate": 25,
-      "totalDays": 97.2,
+      "totalDays": 97.69999999999999,
       "soldCount": 8,
       "avgDaysToSell": 12.2
     },
@@ -13766,7 +13782,7 @@
       "soldAvg": 2399,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 217.3,
+      "totalDays": 217.4,
       "soldCount": 2,
       "avgDaysToSell": 108.7
     },
@@ -13774,19 +13790,19 @@
       "brand": "Rickenbacker",
       "brandLine": "Rickenbacker",
       "tier": "high",
-      "count": 9,
-      "sum": 27072,
-      "avg": 3008,
+      "count": 8,
+      "sum": 23822,
+      "avg": 2978,
       "min": 1259,
       "max": 11108,
       "sold": 4,
       "soldSum": 7743,
       "soldAvg": 1936,
-      "live": 5,
-      "sellRate": 44,
-      "totalDays": 23.6,
+      "live": 4,
+      "sellRate": 50,
+      "totalDays": 23.9,
       "soldCount": 4,
-      "avgDaysToSell": 5.9
+      "avgDaysToSell": 6
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -13802,9 +13818,9 @@
       "soldAvg": 1600,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 20.8,
+      "totalDays": 20.9,
       "soldCount": 1,
-      "avgDaysToSell": 20.8
+      "avgDaysToSell": 20.9
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
@@ -13837,9 +13853,9 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 68,
+      "totalDays": 68.4,
       "soldCount": 4,
-      "avgDaysToSell": 17
+      "avgDaysToSell": 17.1
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -13959,9 +13975,9 @@
       "soldAvg": 2850,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 57.6,
+      "totalDays": 57.7,
       "soldCount": 1,
-      "avgDaysToSell": 57.6
+      "avgDaysToSell": 57.7
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13977,9 +13993,9 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 52.2,
+      "totalDays": 52.5,
       "soldCount": 3,
-      "avgDaysToSell": 17.4
+      "avgDaysToSell": 17.5
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -14116,7 +14132,7 @@
       "soldAvg": 1529,
       "live": 2,
       "sellRate": 80,
-      "totalDays": 119.6,
+      "totalDays": 120.1,
       "soldCount": 8,
       "avgDaysToSell": 15
     },
@@ -14185,9 +14201,9 @@
       "soldAvg": 3999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 242.7,
+      "totalDays": 242.8,
       "soldCount": 1,
-      "avgDaysToSell": 242.7
+      "avgDaysToSell": 242.8
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -14220,9 +14236,9 @@
       "soldAvg": 2400,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.7,
+      "totalDays": 4.8,
       "soldCount": 1,
-      "avgDaysToSell": 4.7
+      "avgDaysToSell": 4.8
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -14238,9 +14254,9 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 51.7,
+      "totalDays": 51.900000000000006,
       "soldCount": 4,
-      "avgDaysToSell": 12.9
+      "avgDaysToSell": 13
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -14307,9 +14323,9 @@
       "soldAvg": 3190,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 38.2,
+      "totalDays": 38.300000000000004,
       "soldCount": 2,
-      "avgDaysToSell": 19.1
+      "avgDaysToSell": 19.2
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -14342,9 +14358,9 @@
       "soldAvg": 1645,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 6.6,
+      "totalDays": 6.7,
       "soldCount": 1,
-      "avgDaysToSell": 6.6
+      "avgDaysToSell": 6.7
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -14377,9 +14393,9 @@
       "soldAvg": 475,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 28.7,
+      "totalDays": 28.8,
       "soldCount": 1,
-      "avgDaysToSell": 28.7
+      "avgDaysToSell": 28.8
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -14395,9 +14411,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 20.6,
+      "totalDays": 20.7,
       "soldCount": 1,
-      "avgDaysToSell": 20.6
+      "avgDaysToSell": 20.7
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -14464,9 +14480,9 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 41.2,
+      "totalDays": 41.3,
       "soldCount": 2,
-      "avgDaysToSell": 20.6
+      "avgDaysToSell": 20.7
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -14540,13 +14556,13 @@
     },
     {
       "label": "1–5",
-      "total": 19,
+      "total": 20,
       "sold": 3,
-      "rate": 16
+      "rate": 15
     },
     {
       "label": "6–15",
-      "total": 68,
+      "total": 67,
       "sold": 19,
       "rate": 28
     },
@@ -14565,14 +14581,14 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 180,
+      "total": 179,
       "sold": 52,
       "rate": 29
     },
     "off": {
-      "total": 49,
+      "total": 50,
       "sold": 20,
-      "rate": 41
+      "rate": 40
     }
   },
   "sellerType": {
@@ -14691,6 +14707,12 @@
       "rate": 50
     },
     {
+      "state": "AL",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "MO",
       "total": 3,
       "sold": 1,
@@ -14704,12 +14726,6 @@
     },
     {
       "state": "VA",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
-    },
-    {
-      "state": "CT",
       "total": 3,
       "sold": 1,
       "rate": 33
@@ -14757,10 +14773,10 @@
       "rate": 0
     },
     {
-      "state": "AL",
+      "state": "CT",
       "total": 2,
-      "sold": 0,
-      "rate": 0
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "DE",
