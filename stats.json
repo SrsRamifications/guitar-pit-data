@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T23:44:33.419Z",
+  "generatedAt": "2026-04-20T23:51:26.720Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1200658.16,
-    "avg": 3800,
+    "sum": 1200276.16,
+    "avg": 3798,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 753517.17,
-    "avg": 2546,
+    "sum": 753135.17,
+    "avg": 2544,
     "min": 7,
     "max": 7950,
     "median": 2200
@@ -189,10 +189,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 593065.81,
+      "sum": 592683.81,
       "min": 7,
       "max": 47042,
-      "avg": 3206
+      "avg": 3204
     },
     "2026-03": {
       "count": 131,
@@ -205,10 +205,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 892688.36,
+      "sum": 892306.36,
       "min": 7,
       "max": 47042,
-      "avg": 3282
+      "avg": 3281
     },
     "marketplace": {
       "count": 44,
@@ -221,10 +221,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 892688.36,
+      "sum": 892306.36,
       "min": 7,
       "max": 47042,
-      "avg": 3282
+      "avg": 3281
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -284,6 +284,37 @@
     }
   },
   "byModel": {
+    "ibanez-artist-1979": {
+      "displayName": "Ibanez Artist 1979 - Violin Burst",
+      "brand": "Ibanez",
+      "model": "Artist 1979",
+      "variant": null,
+      "count": 1,
+      "sum": 1099,
+      "min": 1099,
+      "max": 1099,
+      "sightings": [
+        {
+          "price": 1099,
+          "date": "2026-04-20T23:51:11.981Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez Artist 1979 - Violin Burst",
+          "url": "https://reverb.com/item/96208937-ibanez-artist-1979-violin-burst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1099,
+          "min": 1099,
+          "max": 1099,
+          "avg": 1099
+        }
+      },
+      "avg": 1099
+    },
     "gibson-flying-v-reissue": {
       "displayName": "1982 Gibson Heritage Series Flying V Reissue",
       "brand": "Gibson",
@@ -6204,37 +6235,6 @@
       },
       "avg": 1199
     },
-    "greco-sa-sumbarst": {
-      "displayName": "Greco SA 550 1982 - Sumbarst",
-      "brand": "Greco",
-      "model": "SA Sumbarst",
-      "variant": null,
-      "count": 1,
-      "sum": 1481,
-      "min": 1481,
-      "max": 1481,
-      "sightings": [
-        {
-          "price": 1481,
-          "date": "2026-04-14T03:45:59.284Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Greco SA 550 1982 - Sumbarst",
-          "url": "https://reverb.com/item/94969194-greco-sa-550-1982-sumbarst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1481,
-          "min": 1481,
-          "max": 1481,
-          "avg": 1481
-        }
-      },
-      "avg": 1481
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10396,6 +10396,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 34,
+      "sum": 94775.95,
+      "sold": {
+        "count": 8,
+        "sum": 16791.48,
+        "avg": 2099,
+        "min": 685,
+        "max": 4777.5
+      },
+      "avg": 2788,
+      "min": 414,
+      "max": 15995
+    },
     "Very Good": {
       "count": 77,
       "sum": 203806.55999999994,
@@ -10409,20 +10423,6 @@
       "avg": 2647,
       "min": 7,
       "max": 16500
-    },
-    "Good": {
-      "count": 34,
-      "sum": 95157.95,
-      "sold": {
-        "count": 8,
-        "sum": 16791.48,
-        "avg": 2099,
-        "min": 685,
-        "max": 4777.5
-      },
-      "avg": 2799,
-      "min": 414,
-      "max": 15995
     },
     "Excellent": {
       "count": 126,
@@ -10525,7 +10525,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3206,
+      "avg": 3204,
       "count": 185
     },
     "03": {
@@ -10695,6 +10695,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 349,
+      "count": 19,
+      "avg": 18
+    },
     "Gibson": {
       "sum": 759,
       "count": 41,
@@ -10759,11 +10764,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Ibanez": {
-      "sum": 349,
-      "count": 18,
-      "avg": 19
     },
     "Music Man": {
       "sum": 78,
@@ -10970,11 +10970,6 @@
       "count": 1,
       "avg": 7
     },
-    "Greco": {
-      "sum": 65,
-      "count": 2,
-      "avg": 33
-    },
     "Languedoc": {
       "sum": 23,
       "count": 1,
@@ -11013,6 +11008,11 @@
     "Patrick James Eggle": {
       "sum": 47,
       "count": 2,
+      "avg": 24
+    },
+    "Greco": {
+      "sum": 24,
+      "count": 1,
       "avg": 24
     },
     "Hoyer": {
@@ -11097,13 +11097,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-20": 17,
+    "2026-04-20": 18,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 22,
     "2026-04-15": 41,
-    "2026-04-14": 19,
+    "2026-04-14": 18,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11135,11 +11135,11 @@
     },
     {
       "username": "Madero",
-      "count": 17
+      "count": 18
     },
     {
       "username": "WontonGG",
-      "count": 17
+      "count": 16
     },
     {
       "username": "Modean",
@@ -11202,7 +11202,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3206,
+    "avg": 3204,
     "pctBelowAvg": 16,
     "count": 185
   },
@@ -11227,10 +11227,10 @@
       "count": 18
     },
     "Ibanez": {
-      "avgPrice": 3196,
+      "avgPrice": 3096,
       "retailEst": 1000,
-      "avgDiscount": -219.6,
-      "count": 20
+      "avgDiscount": -209.6,
+      "count": 21
     },
     "Jackson": {
       "avgPrice": 4418,
@@ -12314,6 +12314,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 21,
+        "sold": 6,
+        "fake": 0,
+        "live": 15,
+        "soldPct": 29,
+        "livePct": 71
+      },
       "Gibson": {
         "total": 48,
         "sold": 11,
@@ -12409,14 +12417,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Ibanez": {
-        "total": 20,
-        "sold": 6,
-        "fake": 0,
-        "live": 14,
-        "soldPct": 30,
-        "livePct": 70
       },
       "Friedman": {
         "total": 3,
@@ -12770,14 +12770,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Greco": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12839,6 +12831,14 @@
         "sold": 0,
         "fake": 0,
         "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
+      "Greco": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
         "soldPct": 0,
         "livePct": 100
       },
@@ -13024,15 +13024,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 77,
-        "sold": 24,
-        "rate": 31
-      },
       "Good": {
         "total": 34,
         "sold": 9,
         "rate": 26
+      },
+      "Very Good": {
+        "total": 77,
+        "sold": 24,
+        "rate": 31
       },
       "Excellent": {
         "total": 126,
@@ -13655,6 +13655,24 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Prestige": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Prestige",
+      "tier": "high",
+      "count": 10,
+      "sum": 24519,
+      "avg": 2452,
+      "min": 1099,
+      "max": 5869,
+      "sold": 2,
+      "soldSum": 6203.42,
+      "soldAvg": 3102,
+      "live": 8,
+      "sellRate": 20,
+      "totalDays": 37.099999999999994,
+      "soldCount": 2,
+      "avgDaysToSell": 18.5
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13669,7 +13687,7 @@
       "soldAvg": 2855,
       "live": 29,
       "sellRate": 22,
-      "totalDays": 100.4,
+      "totalDays": 100.50000000000001,
       "soldCount": 8,
       "avgDaysToSell": 12.6
     },
@@ -13722,7 +13740,7 @@
       "soldAvg": 1493,
       "live": 4,
       "sellRate": 69,
-      "totalDays": 122.99999999999999,
+      "totalDays": 123.10000000000001,
       "soldCount": 9,
       "avgDaysToSell": 13.7
     },
@@ -13812,24 +13830,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Ibanez|Ibanez Prestige": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Prestige",
-      "tier": "high",
-      "count": 9,
-      "sum": 23420,
-      "avg": 2602,
-      "min": 1250,
-      "max": 5869,
-      "sold": 2,
-      "soldSum": 6203.42,
-      "soldAvg": 3102,
-      "live": 7,
-      "sellRate": 22,
-      "totalDays": 37,
-      "soldCount": 2,
-      "avgDaysToSell": 18.5
-    },
     "Friedman|Friedman": {
       "brand": "Friedman",
       "brandLine": "Friedman",
@@ -13898,9 +13898,9 @@
       "soldAvg": 2346,
       "live": 6,
       "sellRate": 54,
-      "totalDays": 106,
+      "totalDays": 106.10000000000001,
       "soldCount": 7,
-      "avgDaysToSell": 15.1
+      "avgDaysToSell": 15.2
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -14003,7 +14003,7 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 69.6,
+      "totalDays": 69.7,
       "soldCount": 4,
       "avgDaysToSell": 17.4
     },
@@ -14402,9 +14402,9 @@
       "soldAvg": 2400,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.1,
+      "totalDays": 5.2,
       "soldCount": 1,
-      "avgDaysToSell": 5.1
+      "avgDaysToSell": 5.2
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -14688,9 +14688,9 @@
     },
     {
       "label": "1–5",
-      "total": 22,
+      "total": 23,
       "sold": 3,
-      "rate": 14
+      "rate": 13
     },
     {
       "label": "6–15",
@@ -14706,7 +14706,7 @@
     },
     {
       "label": "31+",
-      "total": 62,
+      "total": 61,
       "sold": 16,
       "rate": 26
     }
@@ -14815,6 +14815,12 @@
       "rate": 40
     },
     {
+      "state": "MO",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "AL",
       "total": 4,
       "sold": 0,
@@ -14852,12 +14858,6 @@
     },
     {
       "state": "CO",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
-    },
-    {
-      "state": "MO",
       "total": 3,
       "sold": 1,
       "rate": 33
