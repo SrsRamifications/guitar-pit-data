@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T20:03:56.149Z",
+  "generatedAt": "2026-04-20T21:43:55.045Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,14 +7,14 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1203940.16,
-    "avg": 3810,
+    "sum": 1203782.16,
+    "avg": 3809,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 767289.17,
+    "sum": 767131.17,
     "avg": 2583,
     "min": 7,
     "max": 7950,
@@ -181,10 +181,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 596347.81,
+      "sum": 596189.81,
       "min": 7,
       "max": 47042,
-      "avg": 3224
+      "avg": 3223
     },
     "2026-03": {
       "count": 131,
@@ -197,10 +197,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 895970.36,
+      "sum": 895812.36,
       "min": 7,
       "max": 47042,
-      "avg": 3294
+      "avg": 3293
     },
     "marketplace": {
       "count": 44,
@@ -213,10 +213,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 895970.36,
+      "sum": 895812.36,
       "min": 7,
       "max": 47042,
-      "avg": 3294
+      "avg": 3293
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -276,6 +276,37 @@
     }
   },
   "byModel": {
+    "eastman-sb56n-top-gold-top": {
+      "displayName": "Eastman SB56/n Gold Top Used",
+      "brand": "Eastman",
+      "model": "SB56/n Top",
+      "variant": "Gold Top",
+      "count": 1,
+      "sum": 1681,
+      "min": 1681,
+      "max": 1681,
+      "sightings": [
+        {
+          "price": 1681,
+          "date": "2026-04-20T21:43:40.100Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB56/n Gold Top Used",
+          "url": "https://reverb.com/item/95371311-eastman-sb56-n-gold-top-used",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1681,
+          "min": 1681,
+          "max": 1681,
+          "avg": 1681
+        }
+      },
+      "avg": 1681
+    },
     "schecter-sunset-usa-custom-shop": {
       "displayName": "Schecter Schecter USA Custom Shop Sunset Swirl 24-6 Thorn 2017 - Ibanez 25th Silver Swirl",
       "brand": "Schecter",
@@ -6189,37 +6220,6 @@
       },
       "avg": 3400
     },
-    "aria-urchin-series-80s": {
-      "displayName": "Aria Pro II Urchin Series 80's U-70 Rare",
-      "brand": "Aria",
-      "model": "Urchin Series 80's",
-      "variant": null,
-      "count": 1,
-      "sum": 1839,
-      "min": 1839,
-      "max": 1839,
-      "sightings": [
-        {
-          "price": 1839,
-          "date": "2026-04-14T01:19:35.831Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Aria Pro II Urchin Series 80's U-70 Rare",
-          "url": "https://reverb.com/item/92387125-aria-pro-ii-urchin-series-80-s-u-70-rare",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1839,
-          "min": 1839,
-          "max": 1839,
-          "avg": 1839
-        }
-      },
-      "avg": 1839
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10382,8 +10382,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 125,
-      "sum": 451954.73,
+      "count": 126,
+      "sum": 453635.73,
       "sold": {
         "count": 44,
         "sum": 144413.85,
@@ -10391,13 +10391,13 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3616,
+      "avg": 3600,
       "min": 190,
       "max": 35900
     },
     "Very Good": {
-      "count": 80,
-      "sum": 209734.55999999994,
+      "count": 79,
+      "sum": 207895.55999999994,
       "sold": {
         "count": 24,
         "sum": 49907.92,
@@ -10405,7 +10405,7 @@
         "min": 475,
         "max": 4022
       },
-      "avg": 2622,
+      "avg": 2632,
       "min": 7,
       "max": 16500
     },
@@ -10510,7 +10510,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3224,
+      "avg": 3223,
       "count": 185
     },
     "03": {
@@ -10680,13 +10680,18 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Eastman": {
+      "sum": 94,
+      "count": 5,
+      "avg": 19
+    },
     "Schecter": {
-      "sum": 29,
+      "sum": 30,
       "count": 4,
-      "avg": 7
+      "avg": 8
     },
     "Kiesel": {
-      "sum": 242,
+      "sum": 243,
       "count": 14,
       "avg": 17
     },
@@ -10716,7 +10721,7 @@
       "avg": 14
     },
     "Jackson": {
-      "sum": 195,
+      "sum": 196,
       "count": 12,
       "avg": 16
     },
@@ -10745,18 +10750,13 @@
       "count": 7,
       "avg": 11
     },
-    "Eastman": {
-      "sum": 66,
-      "count": 4,
-      "avg": 17
-    },
     "Nash": {
       "sum": 2,
       "count": 1,
       "avg": 2
     },
     "Yamaha": {
-      "sum": 114,
+      "sum": 115,
       "count": 5,
       "avg": 23
     },
@@ -11082,13 +11082,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-20": 11,
+    "2026-04-20": 12,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 22,
     "2026-04-15": 41,
-    "2026-04-14": 25,
+    "2026-04-14": 24,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11104,11 +11104,11 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 103
+      "count": 104
     },
     {
       "username": "greg1213",
-      "count": 63
+      "count": 62
     },
     {
       "username": "Shteefe",
@@ -11187,7 +11187,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3224,
+    "avg": 3223,
     "pctBelowAvg": 15,
     "count": 185
   },
@@ -12312,6 +12312,14 @@
       "livePct": 71
     },
     "byBrand": {
+      "Eastman": {
+        "total": 5,
+        "sold": 1,
+        "fake": 0,
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
+      },
       "Schecter": {
         "total": 4,
         "sold": 1,
@@ -12431,14 +12439,6 @@
         "live": 2,
         "soldPct": 75,
         "livePct": 25
-      },
-      "Eastman": {
-        "total": 4,
-        "sold": 1,
-        "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
       },
       "Dean": {
         "total": 2,
@@ -12768,14 +12768,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Aria": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -13031,12 +13023,12 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 125,
+        "total": 126,
         "sold": 46,
         "rate": 37
       },
       "Very Good": {
-        "total": 80,
+        "total": 79,
         "sold": 24,
         "rate": 30
       },
@@ -13352,20 +13344,6 @@
         "savings": 1333
       },
       {
-        "title": "Aria Pro II Urchin Series 80's U-70 Rare",
-        "url": "https://reverb.com/item/92387125-aria-pro-ii-urchin-series-80-s-u-70-rare",
-        "price": "$1,839",
-        "priceNum": 1839,
-        "brand": "Aria",
-        "condition": "Very Good",
-        "watchers": 118,
-        "views": 4728,
-        "daysListed": 205,
-        "image": "https://rvb-img.reverb.com/i/s--1hjjQ3di--/quality=medium-low,height=800,width=800,fit=contain/r2grqvigicjil7urxier.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Carvin AE185 spruce & Mahogany (piezo and electric)",
         "url": "https://reverb.com/item/91166747-carvin-ae185-spruce-mahogany-piezo-and-electric",
         "price": "$825",
@@ -13418,6 +13396,20 @@
         "views": 1415,
         "daysListed": 720,
         "image": "https://rvb-img.reverb.com/i/s--Qw-G0ApJ--/quality=medium-low,height=800,width=800,fit=contain/fef79f29-68ad-481d-a242-9884453ee437.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Nat",
+        "url": "https://reverb.com/item/34347457-2020-bedell-limited-edition-dreadnought-brazillian-adirondack-natural",
+        "price": "$5,000",
+        "priceNum": 5000,
+        "brand": "Bedell",
+        "condition": "Mint",
+        "watchers": 78,
+        "views": 3250,
+        "daysListed": 2125,
+        "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -13661,6 +13653,24 @@
     ]
   },
   "byBrandLine": {
+    "Eastman|Eastman": {
+      "brand": "Eastman",
+      "brandLine": "Eastman",
+      "tier": "mid",
+      "count": 5,
+      "sum": 8116,
+      "avg": 1623,
+      "min": 1250,
+      "max": 1933,
+      "sold": 1,
+      "soldSum": 1600,
+      "soldAvg": 1600,
+      "live": 4,
+      "sellRate": 20,
+      "totalDays": 21.2,
+      "soldCount": 1,
+      "avgDaysToSell": 21.2
+    },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
       "brandLine": "Schecter USA Custom Shop",
@@ -13692,9 +13702,9 @@
       "soldAvg": 1493,
       "live": 4,
       "sellRate": 69,
-      "totalDays": 121.69999999999999,
+      "totalDays": 122.3,
       "soldCount": 9,
-      "avgDaysToSell": 13.5
+      "avgDaysToSell": 13.6
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13710,9 +13720,9 @@
       "soldAvg": 4778,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 20.9,
+      "totalDays": 21,
       "soldCount": 1,
-      "avgDaysToSell": 20.9
+      "avgDaysToSell": 21
     },
     "Vintage|Fender Custom Shop": {
       "brand": "Vintage",
@@ -13796,9 +13806,9 @@
       "soldAvg": 3102,
       "live": 7,
       "sellRate": 22,
-      "totalDays": 36.7,
+      "totalDays": 36.9,
       "soldCount": 2,
-      "avgDaysToSell": 18.4
+      "avgDaysToSell": 18.5
     },
     "Friedman|Friedman": {
       "brand": "Friedman",
@@ -13814,9 +13824,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 42.7,
+      "totalDays": 42.9,
       "soldCount": 3,
-      "avgDaysToSell": 14.2
+      "avgDaysToSell": 14.3
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13832,9 +13842,9 @@
       "soldAvg": 15932,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 52.3,
+      "totalDays": 52.4,
       "soldCount": 3,
-      "avgDaysToSell": 17.4
+      "avgDaysToSell": 17.5
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -13868,9 +13878,9 @@
       "soldAvg": 2346,
       "live": 6,
       "sellRate": 54,
-      "totalDays": 105,
+      "totalDays": 105.4,
       "soldCount": 7,
-      "avgDaysToSell": 15
+      "avgDaysToSell": 15.1
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13886,9 +13896,9 @@
       "soldAvg": 4074,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 53.1,
+      "totalDays": 53.3,
       "soldCount": 3,
-      "avgDaysToSell": 17.7
+      "avgDaysToSell": 17.8
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13921,9 +13931,9 @@
       "soldAvg": 2855,
       "live": 29,
       "sellRate": 22,
-      "totalDays": 99.1,
+      "totalDays": 99.70000000000002,
       "soldCount": 8,
-      "avgDaysToSell": 12.4
+      "avgDaysToSell": 12.5
     },
     "Music Man|Music Man BFR": {
       "brand": "Music Man",
@@ -13939,9 +13949,9 @@
       "soldAvg": 2399,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 217.8,
+      "totalDays": 217.9,
       "soldCount": 2,
-      "avgDaysToSell": 108.9
+      "avgDaysToSell": 109
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -13959,24 +13969,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Eastman|Eastman": {
-      "brand": "Eastman",
-      "brandLine": "Eastman",
-      "tier": "mid",
-      "count": 4,
-      "sum": 6435,
-      "avg": 1609,
-      "min": 1250,
-      "max": 1933,
-      "sold": 1,
-      "soldSum": 1600,
-      "soldAvg": 1600,
-      "live": 3,
-      "sellRate": 25,
-      "totalDays": 21.1,
-      "soldCount": 1,
-      "avgDaysToSell": 21.1
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
@@ -14009,7 +14001,7 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 69.2,
+      "totalDays": 69.3,
       "soldCount": 4,
       "avgDaysToSell": 17.3
     },
@@ -14061,9 +14053,9 @@
       "soldAvg": 875,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 3.8,
+      "totalDays": 3.9,
       "soldCount": 1,
-      "avgDaysToSell": 3.8
+      "avgDaysToSell": 3.9
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -14079,9 +14071,9 @@
       "soldAvg": 350,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 2.1,
+      "totalDays": 2.2,
       "soldCount": 1,
-      "avgDaysToSell": 2.1
+      "avgDaysToSell": 2.2
     },
     "Ruokangas|Ruokangas": {
       "brand": "Ruokangas",
@@ -14131,9 +14123,9 @@
       "soldAvg": 3599,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 21.9,
+      "totalDays": 22,
       "soldCount": 1,
-      "avgDaysToSell": 21.9
+      "avgDaysToSell": 22
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -14269,9 +14261,9 @@
       "soldAvg": 3200,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 3.9,
+      "totalDays": 4,
       "soldCount": 1,
-      "avgDaysToSell": 3.9
+      "avgDaysToSell": 4
     },
     "Charvel|Charvel MJ": {
       "brand": "Charvel",
@@ -14338,9 +14330,9 @@
       "soldAvg": 1699,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.8,
+      "totalDays": 4.9,
       "soldCount": 1,
-      "avgDaysToSell": 4.8
+      "avgDaysToSell": 4.9
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -14408,9 +14400,9 @@
       "soldAvg": 2400,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5,
+      "totalDays": 5.1,
       "soldCount": 1,
-      "avgDaysToSell": 5
+      "avgDaysToSell": 5.1
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -14426,9 +14418,9 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 52.7,
+      "totalDays": 53,
       "soldCount": 4,
-      "avgDaysToSell": 13.2
+      "avgDaysToSell": 13.3
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -14461,9 +14453,9 @@
       "soldAvg": 685,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 5.5,
+      "totalDays": 5.6,
       "soldCount": 1,
-      "avgDaysToSell": 5.5
+      "avgDaysToSell": 5.6
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -14513,9 +14505,9 @@
       "soldAvg": 3190,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 38.699999999999996,
+      "totalDays": 38.9,
       "soldCount": 2,
-      "avgDaysToSell": 19.3
+      "avgDaysToSell": 19.5
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -14636,9 +14628,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 21,
+      "totalDays": 21.1,
       "soldCount": 1,
-      "avgDaysToSell": 21
+      "avgDaysToSell": 21.1
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -14676,8 +14668,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 81,
-    "totalOffers": 185,
+    "withOffers": 82,
+    "totalOffers": 186,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 66
   },
@@ -14706,15 +14698,15 @@
     },
     {
       "label": "16–30",
-      "total": 62,
+      "total": 63,
       "sold": 21,
-      "rate": 34
+      "rate": 33
     },
     {
       "label": "31+",
-      "total": 65,
+      "total": 64,
       "sold": 17,
-      "rate": 26
+      "rate": 27
     }
   ],
   "offersEffect": {
@@ -14851,6 +14843,12 @@
       "rate": 50
     },
     {
+      "state": "NH",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "CO",
       "total": 3,
       "sold": 1,
@@ -14882,12 +14880,6 @@
     },
     {
       "state": "NV",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "NH",
       "total": 2,
       "sold": 0,
       "rate": 0
