@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T13:40:38.416Z",
+  "generatedAt": "2026-04-20T13:41:28.178Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,18 +7,18 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1210820.16,
-    "avg": 3832,
+    "sum": 1209571.16,
+    "avg": 3828,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 767132.17,
-    "avg": 2592,
+    "sum": 765883.17,
+    "avg": 2587,
     "min": 7,
     "max": 7900,
-    "median": 2290
+    "median": 2267
   },
   "outliers": {
     "thresholdHigh": 7902,
@@ -189,10 +189,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 603227.81,
+      "sum": 601978.81,
       "min": 7,
       "max": 47042,
-      "avg": 3261
+      "avg": 3254
     },
     "2026-03": {
       "count": 131,
@@ -205,10 +205,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 902850.36,
+      "sum": 901601.36,
       "min": 7,
       "max": 47042,
-      "avg": 3319
+      "avg": 3315
     },
     "marketplace": {
       "count": 44,
@@ -221,10 +221,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 902850.36,
+      "sum": 901601.36,
       "min": 7,
       "max": 47042,
-      "avg": 3319
+      "avg": 3315
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -284,6 +284,37 @@
     }
   },
   "byModel": {
+    "esp-standard-baritone-gloss": {
+      "displayName": "ESP Standard Series Viper Baritone Gloss Black 2005=2015 w/OHSC",
+      "brand": "ESP",
+      "model": "Standard",
+      "variant": "Baritone Gloss",
+      "count": 1,
+      "sum": 1900,
+      "min": 1900,
+      "max": 1900,
+      "sightings": [
+        {
+          "price": 1900,
+          "date": "2026-04-20T13:41:13.254Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP Standard Series Viper Baritone Gloss Black 2005=2015 w/OHSC",
+          "url": "https://reverb.com/item/93998802-esp-standard-series-viper-baritone-gloss-black-2005-2015-w-ohsc",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1900,
+          "min": 1900,
+          "max": 1900,
+          "avg": 1900
+        }
+      },
+      "avg": 1900
+    },
     "esp-viper-e-ii": {
       "displayName": "ESP E-II Viper 2019 - Present - Black",
       "brand": "ESP",
@@ -6195,37 +6226,6 @@
       },
       "avg": 3250
     },
-    "rickenbacker-headless-satin": {
-      "displayName": "Liggett Guitars Custom Galaxy Headless - Satin Denim Burst - Hand Made Boutique Electric - USED!",
-      "brand": "Rickenbacker",
-      "model": "Headless",
-      "variant": "Satin",
-      "count": 1,
-      "sum": 3149,
-      "min": 3149,
-      "max": 3149,
-      "sightings": [
-        {
-          "price": 3149,
-          "date": "2026-04-13T21:44:23.434Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Liggett Guitars Custom Galaxy Headless - Satin Denim Burst - Hand Made Boutique Electric - USED!",
-          "url": "https://reverb.com/item/95979383-liggett-guitars-custom-galaxy-headless-satin-denim-burst-hand-made-boutique-electric-used",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3149,
-          "min": 3149,
-          "max": 3149,
-          "avg": 3149
-        }
-      },
-      "avg": 3149
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10388,9 +10388,23 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 80,
+      "sum": 208986.55999999994,
+      "sold": {
+        "count": 25,
+        "sum": 50897.92,
+        "avg": 2036,
+        "min": 475,
+        "max": 4022
+      },
+      "avg": 2612,
+      "min": 7,
+      "max": 16500
+    },
     "Excellent": {
-      "count": 127,
-      "sum": 461268.73,
+      "count": 126,
+      "sum": 458119.73,
       "sold": {
         "count": 43,
         "sum": 144155.43,
@@ -10398,7 +10412,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3632,
+      "avg": 3636,
       "min": 275,
       "max": 35900
     },
@@ -10437,20 +10451,6 @@
       "avg": 5359,
       "min": 139.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 79,
-      "sum": 207086.55999999994,
-      "sold": {
-        "count": 25,
-        "sum": 50897.92,
-        "avg": 2036,
-        "min": 475,
-        "max": 4022
-      },
-      "avg": 2621,
-      "min": 7,
-      "max": 16500
     },
     "Good": {
       "count": 33,
@@ -10506,7 +10506,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3261,
+      "avg": 3254,
       "count": 185
     },
     "03": {
@@ -10660,18 +10660,18 @@
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 16,
-    "1k-2k": 97,
+    "1k-2k": 98,
     "2k-3k": 80,
-    "3k-5k": 65,
+    "3k-5k": 64,
     "5k-10k": 33,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 16,
-    "1k-2k": 97,
+    "1k-2k": 98,
     "2k-3k": 80,
-    "3k-5k": 65,
+    "3k-5k": 64,
     "5k-10k": 25,
     "10k+": 0
   },
@@ -10697,8 +10697,8 @@
       "avg": 17
     },
     "Rickenbacker": {
-      "sum": 114,
-      "count": 30,
+      "sum": 107,
+      "count": 29,
       "avg": 4
     },
     "Ormsby": {
@@ -11073,14 +11073,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-20": 3,
+    "2026-04-20": 4,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 22,
     "2026-04-15": 41,
     "2026-04-14": 30,
-    "2026-04-13": 3,
+    "2026-04-13": 2,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11096,7 +11096,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 103
+      "count": 102
     },
     {
       "username": "greg1213",
@@ -11108,7 +11108,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 23
+      "count": 24
     },
     {
       "username": "WontonGG",
@@ -11179,7 +11179,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3261,
+    "avg": 3254,
     "pctBelowAvg": 15,
     "count": 185
   },
@@ -11228,10 +11228,10 @@
       "count": 13
     },
     "Rickenbacker": {
-      "avgPrice": 2756,
+      "avgPrice": 2743,
       "retailEst": 1500,
-      "avgDiscount": -83.7,
-      "count": 31
+      "avgDiscount": -82.8,
+      "count": 30
     }
   },
   "soldPrices": {
@@ -12318,12 +12318,12 @@
     },
     "byBrand": {
       "ESP": {
-        "total": 4,
+        "total": 5,
         "sold": 1,
         "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
       },
       "Fender": {
         "total": 17,
@@ -12366,12 +12366,12 @@
         "livePct": 56
       },
       "Rickenbacker": {
-        "total": 31,
+        "total": 30,
         "sold": 6,
         "fake": 0,
-        "live": 25,
-        "soldPct": 19,
-        "livePct": 81
+        "live": 24,
+        "soldPct": 20,
+        "livePct": 80
       },
       "Ormsby": {
         "total": 1,
@@ -13005,7 +13005,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 97,
+        "total": 98,
         "sold": 28,
         "rate": 29
       },
@@ -13017,9 +13017,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 65,
+        "total": 64,
         "sold": 23,
-        "rate": 35
+        "rate": 36
       },
       {
         "label": "$5k–10k",
@@ -13035,10 +13035,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 80,
+        "sold": 25,
+        "rate": 31
+      },
       "Excellent": {
-        "total": 127,
+        "total": 126,
         "sold": 45,
-        "rate": 35
+        "rate": 36
       },
       "Mint": {
         "total": 6,
@@ -13054,11 +13059,6 @@
         "total": 31,
         "sold": 3,
         "rate": 10
-      },
-      "Very Good": {
-        "total": 79,
-        "sold": 25,
-        "rate": 32
       },
       "Good": {
         "total": 33,
@@ -13307,6 +13307,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "ESP Standard Series Viper Baritone Gloss Black 2005=2015 w/OHSC",
+        "url": "https://reverb.com/item/93998802-esp-standard-series-viper-baritone-gloss-black-2005-2015-w-ohsc",
+        "price": "$1,900",
+        "priceNum": 1900,
+        "brand": "ESP",
+        "condition": "Very Good",
+        "watchers": 100,
+        "views": 1968,
+        "daysListed": 98,
+        "image": "https://rvb-img.reverb.com/i/s--O5YQ-m_n--/quality=medium-low,height=800,width=800,fit=contain/00c57e34-5ce6-4739-a0de-816155155fd7.heic",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Fender Jaguar Baritone Custom 2004 - 2006 Sunburst",
         "url": "https://reverb.com/item/94421081-fender-jaguar-baritone-custom-2004-2006-sunburst",
         "price": "$3,328",
@@ -13345,20 +13359,6 @@
         "views": 1181,
         "daysListed": 55,
         "image": "https://rvb-img.reverb.com/i/s--OZVeU_gm--/quality=medium-low,height=800,width=800,fit=contain/c11340ed-6dff-40ef-9a20-85dbc4a28128.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "ESP E-II Viper 2019 - Present - Black",
-        "url": "https://reverb.com/item/93847161-esp-e-ii-viper-2019-present-black",
-        "price": "$1,700",
-        "priceNum": 1700,
-        "brand": "ESP",
-        "condition": "Excellent",
-        "watchers": 67,
-        "views": 2246,
-        "daysListed": 106,
-        "image": "https://rvb-img.reverb.com/i/s--L_s9z2wG--/quality=medium-low,height=800,width=800,fit=contain/2e449d2e-4702-4eed-be36-345b2db5c19b.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -13594,6 +13594,23 @@
     ]
   },
   "byBrandLine": {
+    "ESP|LTD": {
+      "brand": "ESP",
+      "brandLine": "LTD",
+      "tier": "budget",
+      "count": 1,
+      "sum": 1900,
+      "avg": 1900,
+      "min": 1900,
+      "max": 1900,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "ESP|ESP E-II": {
       "brand": "ESP",
       "brandLine": "ESP E-II",
@@ -13757,16 +13774,16 @@
       "brand": "Rickenbacker",
       "brandLine": "Rickenbacker",
       "tier": "high",
-      "count": 10,
-      "sum": 30221,
-      "avg": 3022,
+      "count": 9,
+      "sum": 27072,
+      "avg": 3008,
       "min": 1259,
       "max": 11108,
       "sold": 4,
       "soldSum": 7743,
       "soldAvg": 1936,
-      "live": 6,
-      "sellRate": 40,
+      "live": 5,
+      "sellRate": 44,
       "totalDays": 23.6,
       "soldCount": 4,
       "avgDaysToSell": 5.9
@@ -14505,14 +14522,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 80,
-    "totalOffers": 180,
+    "withOffers": 81,
+    "totalOffers": 185,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 102
   },
   "watcherDemand": [
     {
@@ -14529,9 +14546,9 @@
     },
     {
       "label": "6–15",
-      "total": 70,
+      "total": 69,
       "sold": 19,
-      "rate": 27
+      "rate": 28
     },
     {
       "label": "16–30",
@@ -14541,9 +14558,9 @@
     },
     {
       "label": "31+",
-      "total": 62,
+      "total": 63,
       "sold": 16,
-      "rate": 26
+      "rate": 25
     }
   ],
   "offersEffect": {
@@ -14560,12 +14577,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 102,
+      "total": 101,
       "sold": 25,
       "rate": 25
     },
     "regular": {
-      "total": 114,
+      "total": 115,
       "sold": 38,
       "rate": 33
     }
@@ -14573,9 +14590,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 23,
+      "total": 24,
       "sold": 9,
-      "rate": 39
+      "rate": 38
     },
     {
       "state": "PA",
@@ -14614,16 +14631,16 @@
       "rate": 56
     },
     {
-      "state": "IL",
-      "total": 8,
-      "sold": 1,
-      "rate": 13
-    },
-    {
       "state": "OH",
       "total": 8,
       "sold": 2,
       "rate": 25
+    },
+    {
+      "state": "IL",
+      "total": 7,
+      "sold": 1,
+      "rate": 14
     },
     {
       "state": "TN",
