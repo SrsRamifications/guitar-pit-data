@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T21:46:35.285Z",
+  "generatedAt": "2026-04-20T22:35:14.483Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1201382.16,
-    "avg": 3802,
+    "sum": 1199548.16,
+    "avg": 3796,
     "min": 7,
     "max": 99000
   },
   "filtered": {
     "count": 298,
-    "sum": 772730.17,
-    "avg": 2593,
+    "sum": 770896.17,
+    "avg": 2587,
     "min": 7,
     "max": 7999,
     "median": 2250
@@ -173,10 +173,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 593789.81,
+      "sum": 591955.81,
       "min": 7,
       "max": 47042,
-      "avg": 3210
+      "avg": 3200
     },
     "2026-03": {
       "count": 131,
@@ -189,10 +189,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 893412.36,
+      "sum": 891578.36,
       "min": 7,
       "max": 47042,
-      "avg": 3285
+      "avg": 3278
     },
     "marketplace": {
       "count": 44,
@@ -205,10 +205,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 893412.36,
+      "sum": 891578.36,
       "min": 7,
       "max": 47042,
-      "avg": 3285
+      "avg": 3278
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -268,6 +268,37 @@
     }
   },
   "byModel": {
+    "prs-mira": {
+      "displayName": "PRS Mira X Cherry 2010",
+      "brand": "PRS",
+      "model": "Mira",
+      "variant": null,
+      "count": 1,
+      "sum": 1050,
+      "min": 1050,
+      "max": 1050,
+      "sightings": [
+        {
+          "price": 1050,
+          "date": "2026-04-20T22:35:00.049Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Mira X Cherry 2010",
+          "url": "https://reverb.com/item/96194505-prs-mira-x-cherry-2010",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1050,
+          "min": 1050,
+          "max": 1050,
+          "avg": 1050
+        }
+      },
+      "avg": 1050
+    },
     "fender-lewis-guitars-minnow": {
       "displayName": "Lewis Guitars Minnow #7 2024 - Gold",
       "brand": "Fender",
@@ -6166,52 +6197,6 @@
       },
       "avg": 3852
     },
-    "collings": {
-      "displayName": "Collings 290",
-      "brand": "Collings",
-      "model": null,
-      "variant": null,
-      "count": 1,
-      "sum": 2884,
-      "min": 2884,
-      "max": 2884,
-      "sightings": [
-        {
-          "price": 2884,
-          "date": "2026-04-14T02:47:51.760Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Collings 290",
-          "url": "https://reverb.com/item/95171729-collings-290",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2884,
-          "min": 2884,
-          "max": 2884,
-          "avg": 2884
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2884,
-        "min": 2884,
-        "max": 2884,
-        "prices": [
-          {
-            "price": 2884,
-            "askingPrice": 2884,
-            "date": "2026-04-18T22:40:53.104Z",
-            "title": "Collings 290",
-            "url": "https://reverb.com/item/95171729-collings-290"
-          }
-        ]
-      },
-      "avg": 2884
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10373,17 +10358,31 @@
     }
   },
   "byCondition": {
-    "Excellent": {
-      "count": 127,
-      "sum": 454635.73,
+    "Good": {
+      "count": 33,
+      "sum": 93358.95,
       "sold": {
-        "count": 44,
-        "sum": 144413.85,
-        "avg": 3282,
+        "count": 8,
+        "sum": 16791.48,
+        "avg": 2099,
+        "min": 685,
+        "max": 4777.5
+      },
+      "avg": 2829,
+      "min": 414,
+      "max": 15995
+    },
+    "Excellent": {
+      "count": 126,
+      "sum": 451751.73,
+      "sold": {
+        "count": 43,
+        "sum": 141529.85,
+        "avg": 3291,
         "min": 275,
         "max": 35900
       },
-      "avg": 3580,
+      "avg": 3585,
       "min": 190,
       "max": 35900
     },
@@ -10400,20 +10399,6 @@
       "avg": 2622,
       "min": 7,
       "max": 16500
-    },
-    "Good": {
-      "count": 32,
-      "sum": 92308.95,
-      "sold": {
-        "count": 8,
-        "sum": 16791.48,
-        "avg": 2099,
-        "min": 685,
-        "max": 4777.5
-      },
-      "avg": 2885,
-      "min": 414,
-      "max": 15995
     },
     "Mint": {
       "count": 7,
@@ -10502,7 +10487,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3210,
+      "avg": 3200,
       "count": 185
     },
     "03": {
@@ -10656,8 +10641,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 98,
-    "2k-3k": 79,
+    "1k-2k": 99,
+    "2k-3k": 78,
     "3k-5k": 62,
     "5k-10k": 32,
     "10k+": 13
@@ -10665,13 +10650,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 98,
-    "2k-3k": 79,
+    "1k-2k": 99,
+    "2k-3k": 78,
     "3k-5k": 62,
     "5k-10k": 27,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 252,
+      "count": 17,
+      "avg": 15
+    },
     "Eastman": {
       "sum": 94,
       "count": 5,
@@ -10698,7 +10688,7 @@
       "avg": 14
     },
     "Fender": {
-      "sum": 218,
+      "sum": 219,
       "count": 18,
       "avg": 12
     },
@@ -10715,11 +10705,6 @@
     "Jackson": {
       "sum": 196,
       "count": 12,
-      "avg": 16
-    },
-    "PRS": {
-      "sum": 252,
-      "count": 16,
       "avg": 16
     },
     "Gibson": {
@@ -10813,7 +10798,7 @@
       "avg": 3
     },
     "Charvel": {
-      "sum": 32,
+      "sum": 33,
       "count": 4,
       "avg": 8
     },
@@ -10918,9 +10903,9 @@
       "avg": 42
     },
     "Collings": {
-      "sum": 39,
-      "count": 2,
-      "avg": 20
+      "sum": 6,
+      "count": 1,
+      "avg": 6
     },
     "Gretsch": {
       "sum": 27,
@@ -10943,9 +10928,9 @@
       "avg": 7
     },
     "Greco": {
-      "sum": 64,
+      "sum": 65,
       "count": 2,
-      "avg": 32
+      "avg": 33
     },
     "Languedoc": {
       "sum": 23,
@@ -11074,13 +11059,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-20": 13,
+    "2026-04-20": 14,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 22,
     "2026-04-15": 41,
-    "2026-04-14": 23,
+    "2026-04-14": 22,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11096,11 +11081,11 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 104
+      "count": 105
     },
     {
       "username": "greg1213",
-      "count": 61
+      "count": 60
     },
     {
       "username": "Shteefe",
@@ -11142,7 +11127,7 @@
     },
     {
       "username": "greg1213",
-      "count": 11
+      "count": 10
     },
     {
       "username": "Shteefe",
@@ -11179,7 +11164,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3210,
+    "avg": 3200,
     "pctBelowAvg": 16,
     "count": 185
   },
@@ -11198,10 +11183,10 @@
       "count": 47
     },
     "PRS": {
-      "avgPrice": 3387,
+      "avgPrice": 3257,
       "retailEst": 1000,
-      "avgDiscount": -238.7,
-      "count": 17
+      "avgDiscount": -225.7,
+      "count": 18
     },
     "Ibanez": {
       "avgPrice": 3196,
@@ -11229,7 +11214,7 @@
     }
   },
   "soldPrices": {
-    "count": 89,
+    "count": 88,
     "avg": 2913,
     "min": 275,
     "max": 35900,
@@ -11237,9 +11222,9 @@
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 714.2999999999998,
-      "count": 87,
-      "avgDays": 8.2
+      "totalDays": 683.3,
+      "count": 86,
+      "avgDays": 7.9
     },
     "byModel": {
       "kiesel-dc127": {
@@ -11561,14 +11546,6 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
-      },
-      "collings": {
-        "displayName": "Collings 290",
-        "totalDays": 31,
-        "count": 1,
-        "fastest": 31,
-        "slowest": 31,
-        "avgDays": 31
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -12010,11 +11987,11 @@
         "avgDays": 0.4
       },
       "Collings": {
-        "totalDays": 32.5,
-        "count": 2,
+        "totalDays": 1.5,
+        "count": 1,
         "fastest": 1.5,
-        "slowest": 31,
-        "avgDays": 16.3
+        "slowest": 1.5,
+        "avgDays": 1.5
       },
       "Gretsch": {
         "totalDays": 3.5999999999999996,
@@ -12132,9 +12109,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1283.3267560683537,
-      "count": 70,
-      "avgPctDrop": 18.3
+      "totalPctDrop": 1276.3590141328698,
+      "count": 69,
+      "avgPctDrop": 18.5
     },
     "byBrand": {
       "Fender": {
@@ -12242,11 +12219,6 @@
         "count": 1,
         "avgPctDrop": 11.1
       },
-      "Collings": {
-        "totalPctDrop": 6.96774193548387,
-        "count": 1,
-        "avgPctDrop": 7
-      },
       "Vintage": {
         "totalPctDrop": 26.130434782608695,
         "count": 1,
@@ -12297,13 +12269,21 @@
   "sellThrough": {
     "overall": {
       "total": 304,
-      "sold": 87,
+      "sold": 86,
       "fake": 0,
-      "live": 217,
-      "soldPct": 29,
-      "livePct": 71
+      "live": 218,
+      "soldPct": 28,
+      "livePct": 72
     },
     "byBrand": {
+      "PRS": {
+        "total": 18,
+        "sold": 8,
+        "fake": 0,
+        "live": 10,
+        "soldPct": 44,
+        "livePct": 56
+      },
       "Fender": {
         "total": 22,
         "sold": 6,
@@ -12399,14 +12379,6 @@
         "live": 10,
         "soldPct": 17,
         "livePct": 83
-      },
-      "PRS": {
-        "total": 17,
-        "sold": 8,
-        "fake": 0,
-        "live": 9,
-        "soldPct": 47,
-        "livePct": 53
       },
       "Gibson": {
         "total": 49,
@@ -12729,8 +12701,8 @@
         "livePct": 100
       },
       "Collings": {
-        "total": 2,
-        "sold": 2,
+        "total": 1,
+        "sold": 1,
         "fake": 0,
         "live": 0,
         "soldPct": 100,
@@ -12984,15 +12956,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 98,
+        "total": 99,
         "sold": 30,
-        "rate": 31
+        "rate": 30
       },
       {
         "label": "$2k–3k",
-        "total": 79,
-        "sold": 24,
-        "rate": 30
+        "total": 78,
+        "sold": 23,
+        "rate": 29
       },
       {
         "label": "$3k–5k",
@@ -13014,20 +12986,20 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 33,
+        "sold": 9,
+        "rate": 27
+      },
       "Excellent": {
-        "total": 127,
-        "sold": 46,
+        "total": 126,
+        "sold": 45,
         "rate": 36
       },
       "Very Good": {
         "total": 78,
         "sold": 24,
         "rate": 31
-      },
-      "Good": {
-        "total": 32,
-        "sold": 9,
-        "rate": 28
       },
       "Mint": {
         "total": 7,
@@ -13694,7 +13666,7 @@
       "soldAvg": 1493,
       "live": 4,
       "sellRate": 69,
-      "totalDays": 122.3,
+      "totalDays": 122.60000000000001,
       "soldCount": 9,
       "avgDaysToSell": 13.6
     },
@@ -13816,7 +13788,7 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 42.9,
+      "totalDays": 43,
       "soldCount": 3,
       "avgDaysToSell": 14.3
     },
@@ -13834,7 +13806,7 @@
       "soldAvg": 15932,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 52.4,
+      "totalDays": 52.6,
       "soldCount": 3,
       "avgDaysToSell": 17.5
     },
@@ -13852,9 +13824,9 @@
       "soldAvg": 2516,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 2.1,
+      "totalDays": 2.2,
       "soldCount": 1,
-      "avgDaysToSell": 2.1
+      "avgDaysToSell": 2.2
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13870,7 +13842,7 @@
       "soldAvg": 2346,
       "live": 6,
       "sellRate": 54,
-      "totalDays": 105.4,
+      "totalDays": 105.7,
       "soldCount": 7,
       "avgDaysToSell": 15.1
     },
@@ -13888,7 +13860,7 @@
       "soldAvg": 4074,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 53.3,
+      "totalDays": 53.4,
       "soldCount": 3,
       "avgDaysToSell": 17.8
     },
@@ -13923,7 +13895,7 @@
       "soldAvg": 2855,
       "live": 29,
       "sellRate": 22,
-      "totalDays": 99.70000000000002,
+      "totalDays": 100,
       "soldCount": 8,
       "avgDaysToSell": 12.5
     },
@@ -13941,7 +13913,7 @@
       "soldAvg": 2399,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 217.9,
+      "totalDays": 218,
       "soldCount": 2,
       "avgDaysToSell": 109
     },
@@ -13993,9 +13965,9 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 69.3,
+      "totalDays": 69.6,
       "soldCount": 4,
-      "avgDaysToSell": 17.3
+      "avgDaysToSell": 17.4
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -14167,9 +14139,9 @@
       "soldAvg": 2850,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 57.9,
+      "totalDays": 58,
       "soldCount": 1,
-      "avgDaysToSell": 57.9
+      "avgDaysToSell": 58
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -14374,9 +14346,9 @@
       "soldAvg": 3999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 243,
+      "totalDays": 243.1,
       "soldCount": 1,
-      "avgDaysToSell": 243
+      "avgDaysToSell": 243.1
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -14410,7 +14382,7 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 53,
+      "totalDays": 53.099999999999994,
       "soldCount": 4,
       "avgDaysToSell": 13.3
     },
@@ -14487,19 +14459,19 @@
       "brand": "Collings",
       "brandLine": "Collings",
       "tier": "premium",
-      "count": 2,
-      "sum": 6379,
-      "avg": 3190,
-      "min": 2884,
+      "count": 1,
+      "sum": 3495,
+      "avg": 3495,
+      "min": 3495,
       "max": 3495,
-      "sold": 2,
-      "soldSum": 6379,
-      "soldAvg": 3190,
+      "sold": 1,
+      "soldSum": 3495,
+      "soldAvg": 3495,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 38.9,
-      "soldCount": 2,
-      "avgDaysToSell": 19.5
+      "totalDays": 5.9,
+      "soldCount": 1,
+      "avgDaysToSell": 5.9
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -14550,9 +14522,9 @@
       "soldAvg": 475,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 29,
+      "totalDays": 29.1,
       "soldCount": 1,
-      "avgDaysToSell": 29
+      "avgDaysToSell": 29.1
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -14568,9 +14540,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 20.9,
+      "totalDays": 21,
       "soldCount": 1,
-      "avgDaysToSell": 20.9
+      "avgDaysToSell": 21
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -14678,7 +14650,7 @@
     },
     {
       "label": "1–5",
-      "total": 21,
+      "total": 22,
       "sold": 3,
       "rate": 14
     },
@@ -14696,16 +14668,16 @@
     },
     {
       "label": "31+",
-      "total": 65,
-      "sold": 17,
-      "rate": 26
+      "total": 64,
+      "sold": 16,
+      "rate": 25
     }
   ],
   "offersEffect": {
     "on": {
       "total": 180,
-      "sold": 55,
-      "rate": 31
+      "sold": 54,
+      "rate": 30
     },
     "off": {
       "total": 49,
@@ -14716,8 +14688,8 @@
   "sellerType": {
     "preferred": {
       "total": 102,
-      "sold": 24,
-      "rate": 24
+      "sold": 23,
+      "rate": 23
     },
     "regular": {
       "total": 114,
@@ -14763,16 +14735,16 @@
       "rate": 0
     },
     {
+      "state": "IL",
+      "total": 8,
+      "sold": 1,
+      "rate": 13
+    },
+    {
       "state": "TN",
       "total": 8,
       "sold": 4,
       "rate": 50
-    },
-    {
-      "state": "MA",
-      "total": 8,
-      "sold": 5,
-      "rate": 63
     },
     {
       "state": "OH",
@@ -14781,10 +14753,10 @@
       "rate": 25
     },
     {
-      "state": "IL",
+      "state": "MA",
       "total": 7,
-      "sold": 1,
-      "rate": 14
+      "sold": 4,
+      "rate": 57
     },
     {
       "state": "NJ",
