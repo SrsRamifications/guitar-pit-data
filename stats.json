@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-21T12:28:35.241Z",
-  "totalLinks": 318,
+  "generatedAt": "2026-04-21T13:31:10.125Z",
+  "totalLinks": 319,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
-  "removedCount": 8,
-  "totalWithPrice": 313,
+  "removedCount": 7,
+  "totalWithPrice": 314,
   "overall": {
-    "count": 313,
-    "sum": 1191915.16,
-    "avg": 3808,
+    "count": 314,
+    "sum": 1193410.16,
+    "avg": 3801,
     "min": 7,
     "max": 99000
   },
   "filtered": {
-    "count": 295,
-    "sum": 763597.17,
-    "avg": 2588,
+    "count": 296,
+    "sum": 765092.17,
+    "avg": 2585,
     "min": 7,
     "max": 7999,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 8052,
+    "thresholdHigh": 8054,
     "thresholdLow": 0,
     "count": 18,
     "items": [
@@ -172,11 +172,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 182,
-      "sum": 584322.81,
+      "count": 183,
+      "sum": 585817.81,
       "min": 7,
       "max": 46851,
-      "avg": 3211
+      "avg": 3201
     },
     "2026-03": {
       "count": 131,
@@ -188,11 +188,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 269,
-      "sum": 883945.36,
+      "count": 270,
+      "sum": 885440.36,
       "min": 7,
       "max": 46851,
-      "avg": 3286
+      "avg": 3279
     },
     "marketplace": {
       "count": 44,
@@ -204,11 +204,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 269,
-      "sum": 883945.36,
+      "count": 270,
+      "sum": 885440.36,
       "min": 7,
       "max": 46851,
-      "avg": 3286
+      "avg": 3279
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -268,6 +268,37 @@
     }
   },
   "byModel": {
+    "bc-rich-outlaw-and-crackle": {
+      "displayName": "B.C. Rich Outlaw 1988 - Black and White Crackle",
+      "brand": "BC Rich",
+      "model": "Outlaw and Crackle",
+      "variant": null,
+      "count": 1,
+      "sum": 1495,
+      "min": 1495,
+      "max": 1495,
+      "sightings": [
+        {
+          "price": 1495,
+          "date": "2026-04-21T13:30:55.406Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Outlaw 1988 - Black and White Crackle",
+          "url": "https://reverb.com/item/96230137-b-c-rich-outlaw-1988-black-and-white-crackle",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1495,
+          "min": 1495,
+          "max": 1495,
+          "avg": 1495
+        }
+      },
+      "avg": 1495
+    },
     "vigier-excalibur-surfreter-special": {
       "displayName": "Vigier Excalibur Surfreter Special Fretless - Diamond Black - Gold Hardware - 2011 - Hard Case",
       "brand": "Vigier",
@@ -10266,6 +10297,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 76,
+      "sum": 194322.55999999997,
+      "sold": {
+        "count": 23,
+        "sum": 48708.92,
+        "avg": 2118,
+        "min": 475,
+        "max": 4022
+      },
+      "avg": 2557,
+      "min": 7,
+      "max": 16500
+    },
     "Excellent": {
       "count": 125,
       "sum": 452378.73,
@@ -10293,20 +10338,6 @@
       "avg": 3888,
       "min": 135,
       "max": 12280
-    },
-    "Very Good": {
-      "count": 75,
-      "sum": 192827.55999999997,
-      "sold": {
-        "count": 23,
-        "sum": 48708.92,
-        "avg": 2118,
-        "min": 475,
-        "max": 4022
-      },
-      "avg": 2571,
-      "min": 7,
-      "max": 16500
     },
     "Good": {
       "count": 34,
@@ -10395,8 +10426,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3211,
-      "count": 182
+      "avg": 3201,
+      "count": 183
     },
     "03": {
       "name": "Mar",
@@ -10549,7 +10580,7 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 98,
+    "1k-2k": 99,
     "2k-3k": 76,
     "3k-5k": 62,
     "5k-10k": 33,
@@ -10558,13 +10589,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 98,
+    "1k-2k": 99,
     "2k-3k": 76,
     "3k-5k": 62,
     "5k-10k": 27,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 240,
+      "count": 12,
+      "avg": 20
+    },
     "Vigier": {
       "sum": 10,
       "count": 1,
@@ -10576,12 +10612,12 @@
       "avg": 34
     },
     "Gibson": {
-      "sum": 788,
+      "sum": 791,
       "count": 41,
       "avg": 19
     },
     "Ibanez": {
-      "sum": 356,
+      "sum": 357,
       "count": 18,
       "avg": 20
     },
@@ -10591,7 +10627,7 @@
       "avg": 13
     },
     "PRS": {
-      "sum": 259,
+      "sum": 260,
       "count": 16,
       "avg": 16
     },
@@ -10606,7 +10642,7 @@
       "avg": 8
     },
     "Kiesel": {
-      "sum": 242,
+      "sum": 244,
       "count": 13,
       "avg": 19
     },
@@ -10621,7 +10657,7 @@
       "avg": 15
     },
     "Fender": {
-      "sum": 231,
+      "sum": 233,
       "count": 18,
       "avg": 13
     },
@@ -10656,9 +10692,9 @@
       "avg": 3
     },
     "Yamaha": {
-      "sum": 117,
+      "sum": 119,
       "count": 5,
-      "avg": 23
+      "avg": 24
     },
     "Martin": {
       "sum": 25,
@@ -10724,11 +10760,6 @@
       "sum": 4,
       "count": 1,
       "avg": 4
-    },
-    "BC Rich": {
-      "sum": 240,
-      "count": 11,
-      "avg": 22
     },
     "Frank": {
       "sum": 28,
@@ -10811,9 +10842,9 @@
       "avg": 6
     },
     "Teuffel": {
-      "sum": 6,
+      "sum": 7,
       "count": 1,
-      "avg": 6
+      "avg": 7
     },
     "FGN": {
       "sum": 42,
@@ -10906,9 +10937,9 @@
       "avg": 23
     },
     "Danocaster": {
-      "sum": 25,
+      "sum": 26,
       "count": 1,
-      "avg": 25
+      "avg": 26
     },
     "Luxxtone": {
       "sum": 24,
@@ -10967,7 +10998,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-21": 3,
+    "2026-04-21": 4,
     "2026-04-20": 17,
     "2026-04-19": 21,
     "2026-04-18": 37,
@@ -10983,10 +11014,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 269,
+    "reverb": 270,
     "marketplace": 49
   },
-  "activeModelsCount": 272,
+  "activeModelsCount": 273,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -11002,7 +11033,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 24
+      "count": 25
     },
     {
       "username": "Madero",
@@ -11073,9 +11104,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3211,
+    "avg": 3201,
     "pctBelowAvg": 16,
-    "count": 182
+    "count": 183
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11116,10 +11147,10 @@
       "count": 14
     },
     "BC Rich": {
-      "avgPrice": 2299,
+      "avgPrice": 2242,
       "retailEst": 200,
-      "avgDiscount": -1049.5,
-      "count": 13
+      "avgDiscount": -1020.8,
+      "count": 14
     }
   },
   "soldPrices": {
@@ -12149,14 +12180,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 302,
+      "total": 303,
       "sold": 84,
       "fake": 0,
-      "live": 218,
+      "live": 219,
       "soldPct": 28,
       "livePct": 72
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 14,
+        "sold": 4,
+        "fake": 0,
+        "live": 10,
+        "soldPct": 29,
+        "livePct": 71
+      },
       "Vigier": {
         "total": 1,
         "sold": 0,
@@ -12444,14 +12483,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "BC Rich": {
-        "total": 13,
-        "sold": 4,
-        "fake": 0,
-        "live": 9,
-        "soldPct": 31,
-        "livePct": 69
       },
       "Frank": {
         "total": 2,
@@ -12837,9 +12868,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 98,
+        "total": 99,
         "sold": 28,
-        "rate": 29
+        "rate": 28
       },
       {
         "label": "$2k–3k",
@@ -12867,6 +12898,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 76,
+        "sold": 23,
+        "rate": 30
+      },
       "Excellent": {
         "total": 125,
         "sold": 44,
@@ -12876,11 +12912,6 @@
         "total": 26,
         "sold": 2,
         "rate": 8
-      },
-      "Very Good": {
-        "total": 75,
-        "sold": 23,
-        "rate": 31
       },
       "Good": {
         "total": 34,
@@ -13467,7 +13498,7 @@
         "condition": "Excellent",
         "watchers": 49,
         "views": 1020,
-        "daysListed": 256,
+        "daysListed": 257,
         "image": "https://rvb-img.reverb.com/i/s--2iCzBhXT--/quality=medium-low,height=800,width=800,fit=contain/kyp8tt6suf6vvihvrbrw.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13529,9 +13560,9 @@
       "soldAvg": 2850,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 58.5,
+      "totalDays": 58.6,
       "soldCount": 1,
-      "avgDaysToSell": 58.5
+      "avgDaysToSell": 58.6
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13547,9 +13578,9 @@
       "soldAvg": 2855,
       "live": 29,
       "sellRate": 22,
-      "totalDays": 104.50000000000001,
+      "totalDays": 105.2,
       "soldCount": 8,
-      "avgDaysToSell": 13.1
+      "avgDaysToSell": 13.2
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -13618,9 +13649,9 @@
       "soldAvg": 1529,
       "live": 4,
       "sellRate": 67,
-      "totalDays": 120.3,
+      "totalDays": 120.7,
       "soldCount": 8,
-      "avgDaysToSell": 15
+      "avgDaysToSell": 15.1
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13740,7 +13771,7 @@
       "soldAvg": 15932,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 54.3,
+      "totalDays": 54.4,
       "soldCount": 3,
       "avgDaysToSell": 18.1
     },
@@ -13758,9 +13789,9 @@
       "soldAvg": 2516,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 2.7,
+      "totalDays": 2.8,
       "soldCount": 1,
-      "avgDaysToSell": 2.7
+      "avgDaysToSell": 2.8
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13776,7 +13807,7 @@
       "soldAvg": 2346,
       "live": 5,
       "sellRate": 58,
-      "totalDays": 109.7,
+      "totalDays": 110.10000000000001,
       "soldCount": 7,
       "avgDaysToSell": 15.7
     },
@@ -13794,7 +13825,7 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 55.1,
+      "totalDays": 55.2,
       "soldCount": 3,
       "avgDaysToSell": 18.4
     },
@@ -13829,7 +13860,7 @@
       "soldAvg": 2399,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 219.1,
+      "totalDays": 219.2,
       "soldCount": 2,
       "avgDaysToSell": 109.6
     },
@@ -13881,7 +13912,7 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 71.80000000000001,
+      "totalDays": 72,
       "soldCount": 4,
       "avgDaysToSell": 18
     },
@@ -13933,9 +13964,9 @@
       "soldAvg": 875,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 4.5,
+      "totalDays": 4.6,
       "soldCount": 1,
-      "avgDaysToSell": 4.5
+      "avgDaysToSell": 4.6
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -14003,9 +14034,9 @@
       "soldAvg": 3599,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 22.6,
+      "totalDays": 22.7,
       "soldCount": 1,
-      "avgDaysToSell": 22.6
+      "avgDaysToSell": 22.7
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -14123,9 +14154,9 @@
       "soldAvg": 3200,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.6,
+      "totalDays": 4.7,
       "soldCount": 1,
-      "avgDaysToSell": 4.6
+      "avgDaysToSell": 4.7
     },
     "Charvel|Charvel MJ": {
       "brand": "Charvel",
@@ -14192,9 +14223,9 @@
       "soldAvg": 1699,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.5,
+      "totalDays": 5.6,
       "soldCount": 1,
-      "avgDaysToSell": 5.5
+      "avgDaysToSell": 5.6
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -14280,7 +14311,7 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 55.5,
+      "totalDays": 55.6,
       "soldCount": 4,
       "avgDaysToSell": 13.9
     },
@@ -14367,9 +14398,9 @@
       "soldAvg": 3495,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 6.5,
+      "totalDays": 6.6,
       "soldCount": 1,
-      "avgDaysToSell": 6.5
+      "avgDaysToSell": 6.6
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -14420,9 +14451,9 @@
       "soldAvg": 475,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 29.6,
+      "totalDays": 29.7,
       "soldCount": 1,
-      "avgDaysToSell": 29.6
+      "avgDaysToSell": 29.7
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -14438,9 +14469,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 21.5,
+      "totalDays": 21.6,
       "soldCount": 1,
-      "avgDaysToSell": 21.5
+      "avgDaysToSell": 21.6
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -14548,9 +14579,9 @@
     },
     {
       "label": "1–5",
-      "total": 20,
+      "total": 21,
       "sold": 3,
-      "rate": 15
+      "rate": 14
     },
     {
       "label": "6–15",
@@ -14573,7 +14604,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 178,
       "sold": 53,
       "rate": 30
     },
@@ -14585,7 +14616,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 101,
+      "total": 102,
       "sold": 22,
       "rate": 22
     },
