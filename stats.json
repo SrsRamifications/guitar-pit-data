@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T17:38:18.449Z",
+  "generatedAt": "2026-04-21T18:21:50.165Z",
   "totalLinks": 321,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 316,
   "overall": {
     "count": 316,
-    "sum": 1194495.16,
-    "avg": 3780,
+    "sum": 1196994.16,
+    "avg": 3788,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 298,
-    "sum": 766177.17,
-    "avg": 2571,
+    "sum": 768676.17,
+    "avg": 2579,
     "min": 33,
     "max": 7999,
     "median": 2225
   },
   "outliers": {
-    "thresholdHigh": 8062,
+    "thresholdHigh": 8107,
     "thresholdLow": 0,
     "count": 18,
     "items": [
@@ -173,10 +173,10 @@
   "byMonth": {
     "2026-04": {
       "count": 185,
-      "sum": 586902.81,
+      "sum": 589401.81,
       "min": 139.99,
       "max": 46851,
-      "avg": 3172
+      "avg": 3186
     },
     "2026-03": {
       "count": 131,
@@ -189,10 +189,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 890031.36,
+      "sum": 892530.36,
       "min": 33,
       "max": 46851,
-      "avg": 3272
+      "avg": 3281
     },
     "marketplace": {
       "count": 44,
@@ -205,10 +205,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 890031.36,
+      "sum": 892530.36,
       "min": 33,
       "max": 46851,
-      "avg": 3272
+      "avg": 3281
     },
     "guitarcenter.com": {
       "count": 20,
@@ -268,6 +268,37 @@
     }
   },
   "byModel": {
+    "knaggs-ssc-steve-stevens-burl": {
+      "displayName": "Knaggs SSC Steve Stevens - One-Piece Walnut Burl Top",
+      "brand": "Knaggs",
+      "model": "SSC Steve Stevens",
+      "variant": "Burl",
+      "count": 1,
+      "sum": 5499,
+      "min": 5499,
+      "max": 5499,
+      "sightings": [
+        {
+          "price": 5499,
+          "date": "2026-04-21T18:21:35.866Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Knaggs SSC Steve Stevens - One-Piece Walnut Burl Top",
+          "url": "https://reverb.com/item/96233594-knaggs-ssc-steve-stevens-one-piece-walnut-burl-top",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 5499,
+          "min": 5499,
+          "max": 5499,
+          "avg": 5499
+        }
+      },
+      "avg": 5499
+    },
     "k-line-kl-junior-authorized": {
       "displayName": "K-Line  KL Junior *Authorized Dealer*  @AIFG",
       "brand": "K-Line",
@@ -6119,37 +6150,6 @@
       },
       "avg": 2199
     },
-    "anderson-cobra-transparent-plum": {
-      "displayName": "Pre-Owned Anderson Cobra S - Transparent Plum to Black Burst with Hardshell Case",
-      "brand": "Anderson",
-      "model": "Cobra Transparent Plum",
-      "variant": null,
-      "count": 1,
-      "sum": 3000,
-      "min": 3000,
-      "max": 3000,
-      "sightings": [
-        {
-          "price": 3000,
-          "date": "2026-04-14T18:02:48.693Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Pre-Owned Anderson Cobra S - Transparent Plum to Black Burst with Hardshell Case",
-          "url": "https://reverb.com/item/96022940-pre-owned-anderson-cobra-s-transparent-plum-to-black-burst-with-hardshell-case",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 3000,
-          "min": 3000,
-          "max": 3000,
-          "avg": 3000
-        }
-      },
-      "avg": 3000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10311,6 +10311,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 79,
+      "sum": 200993.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 50449.85,
+        "avg": 2102,
+        "min": 475,
+        "max": 4022
+      },
+      "avg": 2544,
+      "min": 33,
+      "max": 16500
+    },
     "Brand New": {
       "count": 27,
       "sum": 104869.12,
@@ -10349,20 +10363,6 @@
       "avg": 5245,
       "min": 139.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 79,
-      "sum": 198494.55999999997,
-      "sold": {
-        "count": 24,
-        "sum": 50449.85,
-        "avg": 2102,
-        "min": 475,
-        "max": 4022
-      },
-      "avg": 2513,
-      "min": 33,
-      "max": 16500
     },
     "Good": {
       "count": 34,
@@ -10440,7 +10440,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3172,
+      "avg": 3186,
       "count": 185
     },
     "03": {
@@ -10596,8 +10596,8 @@
     "500-1k": 17,
     "1k-2k": 101,
     "2k-3k": 77,
-    "3k-5k": 61,
-    "5k-10k": 33,
+    "3k-5k": 60,
+    "5k-10k": 34,
     "10k+": 12
   },
   "priceDistributionFiltered": {
@@ -10605,11 +10605,16 @@
     "500-1k": 17,
     "1k-2k": 101,
     "2k-3k": 77,
-    "3k-5k": 61,
-    "5k-10k": 27,
+    "3k-5k": 60,
+    "5k-10k": 28,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Knaggs": {
+      "sum": 118,
+      "count": 5,
+      "avg": 24
+    },
     "K-Line": {
       "sum": 0,
       "count": 1,
@@ -10631,7 +10636,7 @@
       "avg": 11
     },
     "Gibson": {
-      "sum": 737,
+      "sum": 738,
       "count": 40,
       "avg": 18
     },
@@ -10651,7 +10656,7 @@
       "avg": 14
     },
     "BC Rich": {
-      "sum": 233,
+      "sum": 234,
       "count": 11,
       "avg": 21
     },
@@ -10701,7 +10706,7 @@
       "avg": 3
     },
     "Friedman": {
-      "sum": 45,
+      "sum": 46,
       "count": 3,
       "avg": 15
     },
@@ -10730,13 +10735,8 @@
       "count": 2,
       "avg": 13
     },
-    "Knaggs": {
-      "sum": 118,
-      "count": 4,
-      "avg": 30
-    },
     "Squier": {
-      "sum": 9,
+      "sum": 10,
       "count": 2,
       "avg": 5
     },
@@ -10751,7 +10751,7 @@
       "avg": 3
     },
     "ESP": {
-      "sum": 79,
+      "sum": 81,
       "count": 4,
       "avg": 20
     },
@@ -10766,9 +10766,9 @@
       "avg": 13
     },
     "Anderson": {
-      "sum": 34,
-      "count": 3,
-      "avg": 11
+      "sum": 27,
+      "count": 2,
+      "avg": 14
     },
     "Hallmark": {
       "sum": 3,
@@ -10936,9 +10936,9 @@
       "avg": 25
     },
     "Fractal Audio": {
-      "sum": 25,
+      "sum": 26,
       "count": 1,
-      "avg": 25
+      "avg": 26
     },
     "Framus": {
       "sum": 26,
@@ -11012,14 +11012,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-21": 17,
+    "2026-04-21": 18,
     "2026-04-20": 17,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
     "2026-04-15": 41,
-    "2026-04-14": 3,
+    "2026-04-14": 2,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11035,7 +11035,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 102
+      "count": 101
     },
     {
       "username": "greg1213",
@@ -11059,7 +11059,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 11
+      "count": 12
     },
     {
       "username": "Modean",
@@ -11118,7 +11118,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3172,
+    "avg": 3186,
     "pctBelowAvg": 16,
     "count": 185
   },
@@ -12196,6 +12196,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Knaggs": {
+        "total": 5,
+        "sold": 0,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "K-Line": {
         "total": 1,
         "sold": 0,
@@ -12428,14 +12436,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Knaggs": {
-        "total": 4,
-        "sold": 0,
-        "fake": 0,
-        "live": 4,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Squier": {
         "total": 2,
         "sold": 1,
@@ -12477,10 +12477,10 @@
         "livePct": 88
       },
       "Anderson": {
-        "total": 3,
+        "total": 2,
         "sold": 0,
         "fake": 0,
-        "live": 3,
+        "live": 2,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12904,13 +12904,13 @@
       },
       {
         "label": "$3k–5k",
-        "total": 61,
+        "total": 60,
         "sold": 22,
-        "rate": 36
+        "rate": 37
       },
       {
         "label": "$5k–10k",
-        "total": 33,
+        "total": 34,
         "sold": 3,
         "rate": 9
       },
@@ -12922,6 +12922,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 79,
+        "sold": 24,
+        "rate": 30
+      },
       "Brand New": {
         "total": 27,
         "sold": 2,
@@ -12936,11 +12941,6 @@
         "total": 31,
         "sold": 3,
         "rate": 10
-      },
-      "Very Good": {
-        "total": 79,
-        "sold": 24,
-        "rate": 30
       },
       "Good": {
         "total": 34,
@@ -13494,6 +13494,23 @@
     ]
   },
   "byBrandLine": {
+    "Knaggs|Knaggs": {
+      "brand": "Knaggs",
+      "brandLine": "Knaggs",
+      "tier": "premium",
+      "count": 5,
+      "sum": 23344,
+      "avg": 4669,
+      "min": 2200,
+      "max": 9500,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 5,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "K-Line|K-Line": {
       "brand": "K-Line",
       "brandLine": "K-Line",
@@ -13525,7 +13542,7 @@
       "soldAvg": 1519,
       "live": 5,
       "sellRate": 58,
-      "totalDays": 114.6,
+      "totalDays": 114.9,
       "soldCount": 7,
       "avgDaysToSell": 16.4
     },
@@ -13543,9 +13560,9 @@
       "soldAvg": 2855,
       "live": 27,
       "sellRate": 23,
-      "totalDays": 106.29999999999998,
+      "totalDays": 106.8,
       "soldCount": 8,
-      "avgDaysToSell": 13.3
+      "avgDaysToSell": 13.4
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13753,9 +13770,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 45.4,
+      "totalDays": 45.5,
       "soldCount": 3,
-      "avgDaysToSell": 15.1
+      "avgDaysToSell": 15.2
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -13789,9 +13806,9 @@
       "soldAvg": 2475,
       "live": 5,
       "sellRate": 55,
-      "totalDays": 104,
+      "totalDays": 104.30000000000001,
       "soldCount": 6,
-      "avgDaysToSell": 17.3
+      "avgDaysToSell": 17.4
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13915,23 +13932,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Knaggs|Knaggs": {
-      "brand": "Knaggs",
-      "brandLine": "Knaggs",
-      "tier": "premium",
-      "count": 4,
-      "sum": 17845,
-      "avg": 4461,
-      "min": 2200,
-      "max": 9500,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 4,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Fender|Fender USA": {
       "brand": "Fender",
       "brandLine": "Fender USA",
@@ -13946,9 +13946,9 @@
       "soldAvg": 875,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 4.7,
+      "totalDays": 4.8,
       "soldCount": 1,
-      "avgDaysToSell": 4.7
+      "avgDaysToSell": 4.8
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -14016,23 +14016,23 @@
       "soldAvg": 3599,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 22.8,
+      "totalDays": 22.9,
       "soldCount": 1,
-      "avgDaysToSell": 22.8
+      "avgDaysToSell": 22.9
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
       "brandLine": "Tom Anderson",
       "tier": "premium",
-      "count": 3,
-      "sum": 10800,
-      "avg": 3600,
+      "count": 2,
+      "sum": 7800,
+      "avg": 3900,
       "min": 2550,
       "max": 5250,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 3,
+      "live": 2,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -14136,9 +14136,9 @@
       "soldAvg": 3200,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.8,
+      "totalDays": 4.9,
       "soldCount": 1,
-      "avgDaysToSell": 4.8
+      "avgDaysToSell": 4.9
     },
     "Charvel|Charvel MJ": {
       "brand": "Charvel",
@@ -14205,9 +14205,9 @@
       "soldAvg": 1699,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.7,
+      "totalDays": 5.8,
       "soldCount": 1,
-      "avgDaysToSell": 5.7
+      "avgDaysToSell": 5.8
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -14292,7 +14292,7 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 56.300000000000004,
+      "totalDays": 56.4,
       "soldCount": 4,
       "avgDaysToSell": 14.1
     },
@@ -14379,9 +14379,9 @@
       "soldAvg": 3495,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 6.7,
+      "totalDays": 6.8,
       "soldCount": 1,
-      "avgDaysToSell": 6.7
+      "avgDaysToSell": 6.8
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -14545,7 +14545,7 @@
     "withOffers": 80,
     "totalOffers": 178,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 66
+    "offersEnabledPct": 67
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -14560,15 +14560,15 @@
     },
     {
       "label": "1–5",
-      "total": 25,
+      "total": 26,
       "sold": 4,
-      "rate": 16
+      "rate": 15
     },
     {
       "label": "6–15",
-      "total": 63,
+      "total": 62,
       "sold": 19,
-      "rate": 30
+      "rate": 31
     },
     {
       "label": "16–30",
@@ -14585,12 +14585,12 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 180,
+      "total": 181,
       "sold": 53,
       "rate": 29
     },
     "off": {
-      "total": 49,
+      "total": 48,
       "sold": 15,
       "rate": 31
     }
@@ -14610,9 +14610,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 23,
+      "total": 24,
       "sold": 6,
-      "rate": 26
+      "rate": 25
     },
     {
       "state": "PA",
@@ -14676,9 +14676,9 @@
     },
     {
       "state": "OR",
-      "total": 5,
+      "total": 4,
       "sold": 1,
-      "rate": 20
+      "rate": 25
     },
     {
       "state": "NH",
