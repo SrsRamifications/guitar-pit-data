@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T14:48:55.070Z",
+  "generatedAt": "2026-04-21T15:28:21.972Z",
   "totalLinks": 320,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 315,
   "overall": {
     "count": 315,
-    "sum": 1194059.17,
-    "avg": 3791,
+    "sum": 1191659.17,
+    "avg": 3783,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 765741.18,
-    "avg": 2578,
+    "sum": 763341.18,
+    "avg": 2570,
     "min": 33,
     "max": 7999,
-    "median": 2250
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 8257,
+    "thresholdHigh": 8212,
     "thresholdLow": 0,
     "count": 18,
     "items": [
@@ -173,10 +173,10 @@
   "byMonth": {
     "2026-04": {
       "count": 184,
-      "sum": 586466.82,
+      "sum": 584066.82,
       "min": 139.99,
       "max": 46851,
-      "avg": 3187
+      "avg": 3174
     },
     "2026-03": {
       "count": 131,
@@ -189,10 +189,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 889739.36,
+      "sum": 887339.36,
       "min": 33,
       "max": 46851,
-      "avg": 3271
+      "avg": 3262
     },
     "marketplace": {
       "count": 43,
@@ -205,10 +205,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 889739.36,
+      "sum": 887339.36,
       "min": 33,
       "max": 46851,
-      "avg": 3271
+      "avg": 3262
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -268,6 +268,37 @@
     }
   },
   "byModel": {
+    "kiesel-aries-evertune-a6e-evertune": {
+      "displayName": "Kiesel Aries 6 Evertune A6E - Matte Blood Red w/OHSC",
+      "brand": "Kiesel",
+      "model": "Aries Evertune A6E",
+      "variant": "Evertune",
+      "count": 1,
+      "sum": 1599,
+      "min": 1599,
+      "max": 1599,
+      "sightings": [
+        {
+          "price": 1599,
+          "date": "2026-04-21T15:28:07.191Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Aries 6 Evertune A6E - Matte Blood Red w/OHSC",
+          "url": "https://reverb.com/item/95721158-kiesel-aries-6-evertune-a6e-matte-blood-red-w-ohsc",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1599,
+          "min": 1599,
+          "max": 1599,
+          "avg": 1599
+        }
+      },
+      "avg": 1599
+    },
     "first-act-sheena-custom-sunburst": {
       "displayName": "First Act Sheena Custom, 2007 - Sunburst. Comes with First Act Hardcase",
       "brand": "First Act",
@@ -6106,52 +6137,6 @@
       },
       "avg": 553
     },
-    "bc-rich-explorer-usa": {
-      "displayName": "B.C. Rich USA Custom Explorer Natural 1985",
-      "brand": "BC Rich",
-      "model": "Explorer",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 3999,
-      "min": 3999,
-      "max": 3999,
-      "sightings": [
-        {
-          "price": 3999,
-          "date": "2026-04-14T14:31:30.839Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "B.C. Rich USA Custom Explorer Natural 1985",
-          "url": "https://reverb.com/item/91888011-b-c-rich-usa-custom-explorer-natural-1985",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3999,
-          "min": 3999,
-          "max": 3999,
-          "avg": 3999
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3999,
-        "min": 3999,
-        "max": 3999,
-        "prices": [
-          {
-            "price": 3999,
-            "askingPrice": 3999,
-            "date": "2026-04-16T00:42:41.807Z",
-            "title": "B.C. Rich USA Custom Explorer Natural 1985",
-            "url": "https://reverb.com/item/91888011-b-c-rich-usa-custom-explorer-natural-1985"
-          }
-        ]
-      },
-      "avg": 3999
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10314,8 +10299,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 79,
-      "sum": 198800.55999999994,
+      "count": 80,
+      "sum": 200399.55999999994,
       "sold": {
         "count": 22,
         "sum": 46628.92,
@@ -10323,21 +10308,21 @@
         "min": 475,
         "max": 4022
       },
-      "avg": 2516,
+      "avg": 2505,
       "min": 33,
       "max": 16500
     },
     "Excellent": {
-      "count": 124,
-      "sum": 451324.73,
+      "count": 123,
+      "sum": 447325.73,
       "sold": {
-        "count": 41,
-        "sum": 138240.85,
-        "avg": 3372,
+        "count": 40,
+        "sum": 134241.85,
+        "avg": 3356,
         "min": 275,
         "max": 35900
       },
-      "avg": 3640,
+      "avg": 3637,
       "min": 190,
       "max": 35900
     },
@@ -10442,7 +10427,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3187,
+      "avg": 3174,
       "count": 184
     },
     "03": {
@@ -10596,22 +10581,27 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 101,
+    "1k-2k": 102,
     "2k-3k": 75,
-    "3k-5k": 62,
+    "3k-5k": 61,
     "5k-10k": 33,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 18,
-    "1k-2k": 101,
+    "1k-2k": 102,
     "2k-3k": 75,
-    "3k-5k": 62,
+    "3k-5k": 61,
     "5k-10k": 27,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 245,
+      "count": 13,
+      "avg": 19
+    },
     "First Act": {
       "sum": 0,
       "count": 1,
@@ -10623,7 +10613,7 @@
       "avg": 11
     },
     "Gibson": {
-      "sum": 789,
+      "sum": 790,
       "count": 41,
       "avg": 19
     },
@@ -10638,7 +10628,7 @@
       "avg": 45
     },
     "Fender": {
-      "sum": 263,
+      "sum": 264,
       "count": 19,
       "avg": 14
     },
@@ -10682,13 +10672,8 @@
       "count": 4,
       "avg": 8
     },
-    "Kiesel": {
-      "sum": 239,
-      "count": 12,
-      "avg": 20
-    },
     "Warmoth": {
-      "sum": 30,
+      "sum": 31,
       "count": 3,
       "avg": 10
     },
@@ -10703,7 +10688,7 @@
       "avg": 15
     },
     "Jackson": {
-      "sum": 205,
+      "sum": 206,
       "count": 12,
       "avg": 17
     },
@@ -10713,7 +10698,7 @@
       "avg": 2
     },
     "Music Man": {
-      "sum": 84,
+      "sum": 85,
       "count": 7,
       "avg": 12
     },
@@ -11014,14 +10999,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-21": 12,
+    "2026-04-21": 13,
     "2026-04-20": 17,
     "2026-04-19": 21,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
     "2026-04-15": 41,
-    "2026-04-14": 7,
+    "2026-04-14": 6,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11049,7 +11034,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 23
+      "count": 22
     },
     {
       "username": "Madero",
@@ -11065,7 +11050,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 9
+      "count": 10
     },
     {
       "username": "Pabst Blue Wizard",
@@ -11091,7 +11076,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 5
+      "count": 4
     },
     {
       "username": "WontonGG",
@@ -11120,7 +11105,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3187,
+    "avg": 3174,
     "pctBelowAvg": 16,
     "count": 184
   },
@@ -11157,30 +11142,30 @@
       "count": 12
     },
     "Kiesel": {
-      "avgPrice": 1481,
+      "avgPrice": 1490,
       "retailEst": 1000,
-      "avgDiscount": -48.1,
-      "count": 13
+      "avgDiscount": -49,
+      "count": 14
     },
     "BC Rich": {
-      "avgPrice": 2260,
+      "avgPrice": 2115,
       "retailEst": 200,
-      "avgDiscount": -1030.1,
-      "count": 13
+      "avgDiscount": -957.7,
+      "count": 12
     }
   },
   "soldPrices": {
-    "count": 84,
-    "avg": 2974,
+    "count": 83,
+    "avg": 2962,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 670.0999999999999,
-      "count": 82,
-      "avgDays": 8.2
+      "totalDays": 431.9,
+      "count": 81,
+      "avgDays": 5.3
     },
     "byModel": {
       "bc-rich-outlaw-and-crackle": {
@@ -11462,14 +11447,6 @@
         "fastest": 0.3,
         "slowest": 0.3,
         "avgDays": 0.3
-      },
-      "bc-rich-explorer-usa": {
-        "displayName": "B.C. Rich USA Custom Explorer Natural 1985",
-        "totalDays": 238.2,
-        "count": 1,
-        "fastest": 238.2,
-        "slowest": 238.2,
-        "avgDays": 238.2
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11778,11 +11755,11 @@
     },
     "byBrand": {
       "BC Rich": {
-        "totalDays": 243.1,
-        "count": 4,
+        "totalDays": 4.8999999999999995,
+        "count": 3,
         "fastest": 0,
-        "slowest": 238.2,
-        "avgDays": 60.8
+        "slowest": 4.3,
+        "avgDays": 1.6
       },
       "Kiesel": {
         "totalDays": 38.3,
@@ -12026,9 +12003,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1194.5577604896075,
-      "count": 65,
-      "avgPctDrop": 18.4
+      "totalPctDrop": 1141.610354912481,
+      "count": 64,
+      "avgPctDrop": 17.8
     },
     "byBrand": {
       "Greco": {
@@ -12087,9 +12064,9 @@
         "avgPctDrop": 25
       },
       "BC Rich": {
-        "totalPctDrop": 124.47302581066627,
-        "count": 4,
-        "avgPctDrop": 31.1
+        "totalPctDrop": 71.52562023353954,
+        "count": 3,
+        "avgPctDrop": 23.8
       },
       "Parker": {
         "totalPctDrop": 13.333333333333334,
@@ -12181,13 +12158,21 @@
   "sellThrough": {
     "overall": {
       "total": 304,
-      "sold": 82,
+      "sold": 81,
       "fake": 0,
-      "live": 222,
+      "live": 223,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 14,
+        "sold": 8,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 57,
+        "livePct": 43
+      },
       "First Act": {
         "total": 1,
         "sold": 0,
@@ -12237,12 +12222,12 @@
         "livePct": 74
       },
       "BC Rich": {
-        "total": 13,
-        "sold": 4,
+        "total": 12,
+        "sold": 3,
         "fake": 0,
         "live": 9,
-        "soldPct": 31,
-        "livePct": 69
+        "soldPct": 25,
+        "livePct": 75
       },
       "Vigier": {
         "total": 1,
@@ -12299,14 +12284,6 @@
         "live": 3,
         "soldPct": 25,
         "livePct": 75
-      },
-      "Kiesel": {
-        "total": 13,
-        "sold": 8,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 62,
-        "livePct": 38
       },
       "Charvel": {
         "total": 5,
@@ -12876,9 +12853,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 101,
+        "total": 102,
         "sold": 27,
-        "rate": 27
+        "rate": 26
       },
       {
         "label": "$2k–3k",
@@ -12888,9 +12865,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 62,
-        "sold": 23,
-        "rate": 37
+        "total": 61,
+        "sold": 22,
+        "rate": 36
       },
       {
         "label": "$5k–10k",
@@ -12907,14 +12884,14 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 79,
+        "total": 80,
         "sold": 22,
         "rate": 28
       },
       "Excellent": {
-        "total": 124,
-        "sold": 43,
-        "rate": 35
+        "total": 123,
+        "sold": 42,
+        "rate": 34
       },
       "Brand New": {
         "total": 26,
@@ -13493,9 +13470,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1462,
-        "sellRate": 62,
-        "count": 13,
+        "avgPrice": 1473,
+        "sellRate": 57,
+        "count": 14,
         "sold": 8
       },
       {
@@ -13508,6 +13485,24 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 12,
+      "sum": 17681,
+      "avg": 1473,
+      "min": 650,
+      "max": 2700,
+      "sold": 7,
+      "soldSum": 10635,
+      "soldAvg": 1519,
+      "live": 5,
+      "sellRate": 58,
+      "totalDays": 114,
+      "soldCount": 7,
+      "avgDaysToSell": 16.3
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13522,7 +13517,7 @@
       "soldAvg": 2855,
       "live": 29,
       "sellRate": 22,
-      "totalDays": 105.3,
+      "totalDays": 105.69999999999999,
       "soldCount": 8,
       "avgDaysToSell": 13.2
     },
@@ -13540,7 +13535,7 @@
       "soldAvg": 15932,
       "live": 10,
       "sellRate": 23,
-      "totalDays": 54.6,
+      "totalDays": 54.7,
       "soldCount": 3,
       "avgDaysToSell": 18.2
     },
@@ -13575,9 +13570,9 @@
       "soldAvg": 2850,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 58.6,
+      "totalDays": 58.7,
       "soldCount": 1,
-      "avgDaysToSell": 58.6
+      "avgDaysToSell": 58.7
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -13631,24 +13626,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 11,
-      "sum": 16082,
-      "avg": 1462,
-      "min": 650,
-      "max": 2700,
-      "sold": 7,
-      "soldSum": 10635,
-      "soldAvg": 1519,
-      "live": 4,
-      "sellRate": 64,
-      "totalDays": 113.80000000000001,
-      "soldCount": 7,
-      "avgDaysToSell": 16.3
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13768,9 +13745,9 @@
       "soldAvg": 2516,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 2.8,
+      "totalDays": 2.9,
       "soldCount": 1,
-      "avgDaysToSell": 2.8
+      "avgDaysToSell": 2.9
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13786,9 +13763,9 @@
       "soldAvg": 2475,
       "live": 5,
       "sellRate": 55,
-      "totalDays": 103.2,
+      "totalDays": 103.5,
       "soldCount": 6,
-      "avgDaysToSell": 17.2
+      "avgDaysToSell": 17.3
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13804,7 +13781,7 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 55.4,
+      "totalDays": 55.5,
       "soldCount": 3,
       "avgDaysToSell": 18.5
     },
@@ -13839,7 +13816,7 @@
       "soldAvg": 2399,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 219.3,
+      "totalDays": 219.4,
       "soldCount": 2,
       "avgDaysToSell": 109.7
     },
@@ -13891,7 +13868,7 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 72.2,
+      "totalDays": 72.4,
       "soldCount": 4,
       "avgDaysToSell": 18.1
     },
@@ -14244,19 +14221,18 @@
       "brand": "BC Rich",
       "brandLine": "BC Rich USA Custom Shop",
       "tier": "premium",
-      "count": 2,
-      "sum": 11949,
-      "avg": 5975,
-      "min": 3999,
+      "count": 1,
+      "sum": 7950,
+      "avg": 7950,
+      "min": 7950,
       "max": 7950,
-      "sold": 1,
-      "soldSum": 3999,
-      "soldAvg": 3999,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
       "live": 1,
-      "sellRate": 50,
-      "totalDays": 243.8,
-      "soldCount": 1,
-      "avgDaysToSell": 243.8
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -14430,9 +14406,9 @@
       "soldAvg": 475,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 29.7,
+      "totalDays": 29.8,
       "soldCount": 1,
-      "avgDaysToSell": 29.7
+      "avgDaysToSell": 29.8
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -14448,9 +14424,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 21.6,
+      "totalDays": 21.7,
       "soldCount": 1,
-      "avgDaysToSell": 21.6
+      "avgDaysToSell": 21.7
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -14540,14 +14516,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 80,
-    "totalOffers": 182,
-    "avgOffersPerListing": 2.3,
+    "withOffers": 79,
+    "totalOffers": 176,
+    "avgOffersPerListing": 2.2,
     "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 102
+    "avgShippingCost": 101
   },
   "watcherDemand": [
     {
@@ -14577,15 +14553,15 @@
     {
       "label": "31+",
       "total": 61,
-      "sold": 14,
-      "rate": 23
+      "sold": 13,
+      "rate": 21
     }
   ],
   "offersEffect": {
     "on": {
       "total": 180,
-      "sold": 52,
-      "rate": 29
+      "sold": 51,
+      "rate": 28
     },
     "off": {
       "total": 49,
@@ -14595,22 +14571,22 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 103,
+      "total": 104,
       "sold": 22,
       "rate": 21
     },
     "regular": {
-      "total": 113,
-      "sold": 36,
-      "rate": 32
+      "total": 112,
+      "sold": 35,
+      "rate": 31
     }
   },
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 24,
-      "sold": 7,
-      "rate": 29
+      "total": 23,
+      "sold": 6,
+      "rate": 26
     },
     {
       "state": "PA",
@@ -14625,6 +14601,12 @@
       "rate": 36
     },
     {
+      "state": "NY",
+      "total": 11,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "FL",
       "total": 11,
       "sold": 5,
@@ -14635,12 +14617,6 @@
       "total": 11,
       "sold": 2,
       "rate": 18
-    },
-    {
-      "state": "NY",
-      "total": 10,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "TN",
