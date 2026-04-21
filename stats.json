@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-21T20:33:57.225Z",
-  "totalLinks": 321,
+  "generatedAt": "2026-04-21T21:53:55.508Z",
+  "totalLinks": 322,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
-  "removedCount": 6,
-  "totalWithPrice": 316,
+  "removedCount": 5,
+  "totalWithPrice": 317,
   "overall": {
-    "count": 316,
-    "sum": 1199643.16,
-    "avg": 3796,
+    "count": 317,
+    "sum": 1199843.16,
+    "avg": 3785,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 298,
-    "sum": 771325.17,
-    "avg": 2588,
+    "count": 299,
+    "sum": 771525.17,
+    "avg": 2580,
     "min": 33,
     "max": 7999,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 8260,
+    "thresholdHigh": 8297,
     "thresholdLow": 0,
     "count": 18,
     "items": [
@@ -172,11 +172,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 185,
-      "sum": 592050.81,
+      "count": 186,
+      "sum": 592250.81,
       "min": 139.99,
       "max": 46851,
-      "avg": 3200
+      "avg": 3184
     },
     "2026-03": {
       "count": 131,
@@ -188,11 +188,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 272,
-      "sum": 895179.36,
+      "count": 273,
+      "sum": 895379.36,
       "min": 33,
       "max": 46851,
-      "avg": 3291
+      "avg": 3280
     },
     "marketplace": {
       "count": 44,
@@ -204,11 +204,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 272,
-      "sum": 895179.36,
+      "count": 273,
+      "sum": 895379.36,
       "min": 33,
       "max": 46851,
-      "avg": 3291
+      "avg": 3280
     },
     "guitarcenter.com": {
       "count": 20,
@@ -268,6 +268,37 @@
     }
   },
   "byModel": {
+    "peavey-bandit-sheffield-equipped": {
+      "displayName": "Peavey Bandit 112 Sheffield Equipped 80-Watt 1x12\" Guitar Combo 1990s - Black with Silver Trim",
+      "brand": "Peavey",
+      "model": "Bandit Sheffield Equipped",
+      "variant": null,
+      "count": 1,
+      "sum": 200,
+      "min": 200,
+      "max": 200,
+      "sightings": [
+        {
+          "price": 200,
+          "date": "2026-04-21T21:53:40.925Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Peavey Bandit 112 Sheffield Equipped 80-Watt 1x12\" Guitar Combo 1990s - Black with Silver Trim",
+          "url": "https://reverb.com/item/95425625-peavey-bandit-112-sheffield-equipped-80-watt-1x12-guitar-combo-1990s-black-with-silver-trim",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 200,
+          "min": 200,
+          "max": 200,
+          "avg": 200
+        }
+      },
+      "avg": 200
+    },
     "floyd-rose-moser-scimitar-custom-shop": {
       "displayName": "Moser Custom Shop Scimitar 2024",
       "brand": "Floyd Rose",
@@ -10311,6 +10342,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 80,
+      "sum": 201193.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 50449.85,
+        "avg": 2102,
+        "min": 475,
+        "max": 4022
+      },
+      "avg": 2515,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
       "count": 123,
       "sum": 452372.73,
@@ -10338,20 +10383,6 @@
       "avg": 2740,
       "min": 414,
       "max": 15995
-    },
-    "Very Good": {
-      "count": 79,
-      "sum": 200993.55999999994,
-      "sold": {
-        "count": 24,
-        "sum": 50449.85,
-        "avg": 2102,
-        "min": 475,
-        "max": 4022
-      },
-      "avg": 2544,
-      "min": 33,
-      "max": 16500
     },
     "Brand New": {
       "count": 26,
@@ -10440,8 +10471,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3200,
-      "count": 185
+      "avg": 3184,
+      "count": 186
     },
     "03": {
       "name": "Mar",
@@ -10592,7 +10623,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 15,
+    "0-500": 16,
     "500-1k": 17,
     "1k-2k": 101,
     "2k-3k": 76,
@@ -10601,7 +10632,7 @@
     "10k+": 12
   },
   "priceDistributionFiltered": {
-    "0-500": 15,
+    "0-500": 16,
     "500-1k": 17,
     "1k-2k": 101,
     "2k-3k": 76,
@@ -10610,6 +10641,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Peavey": {
+      "sum": 26,
+      "count": 1,
+      "avg": 26
+    },
     "Floyd Rose": {
       "sum": 48,
       "count": 1,
@@ -10656,7 +10692,7 @@
       "avg": 46
     },
     "Fender": {
-      "sum": 266,
+      "sum": 267,
       "count": 19,
       "avg": 14
     },
@@ -10691,7 +10727,7 @@
       "avg": 17
     },
     "Eastman": {
-      "sum": 98,
+      "sum": 99,
       "count": 5,
       "avg": 20
     },
@@ -10716,7 +10752,7 @@
       "avg": 15
     },
     "Jackson": {
-      "sum": 207,
+      "sum": 208,
       "count": 12,
       "avg": 17
     },
@@ -10786,7 +10822,7 @@
       "avg": 4
     },
     "Charvel": {
-      "sum": 36,
+      "sum": 37,
       "count": 4,
       "avg": 9
     },
@@ -11017,7 +11053,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-21": 20,
+    "2026-04-21": 21,
     "2026-04-20": 17,
     "2026-04-19": 21,
     "2026-04-18": 37,
@@ -11032,10 +11068,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 272,
+    "reverb": 273,
     "marketplace": 49
   },
-  "activeModelsCount": 275,
+  "activeModelsCount": 276,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -11043,7 +11079,7 @@
     },
     {
       "username": "greg1213",
-      "count": 60
+      "count": 61
     },
     {
       "username": "Shteefe",
@@ -11122,9 +11158,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3200,
+    "avg": 3184,
     "pctBelowAvg": 16,
-    "count": 185
+    "count": 186
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -12192,14 +12228,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 302,
+      "total": 303,
       "sold": 83,
       "fake": 0,
-      "live": 219,
+      "live": 220,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Peavey": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Floyd Rose": {
         "total": 1,
         "sold": 0,
@@ -12892,9 +12936,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 15,
+        "total": 16,
         "sold": 4,
-        "rate": 27
+        "rate": 25
       },
       {
         "label": "$500–1k",
@@ -12934,6 +12978,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 80,
+        "sold": 24,
+        "rate": 30
+      },
       "Excellent": {
         "total": 123,
         "sold": 41,
@@ -12943,11 +12992,6 @@
         "total": 35,
         "sold": 10,
         "rate": 29
-      },
-      "Very Good": {
-        "total": 79,
-        "sold": 24,
-        "rate": 30
       },
       "Brand New": {
         "total": 26,
@@ -13520,9 +13564,9 @@
       "soldAvg": 2855,
       "live": 28,
       "sellRate": 22,
-      "totalDays": 107.5,
+      "totalDays": 107.69999999999999,
       "soldCount": 8,
-      "avgDaysToSell": 13.4
+      "avgDaysToSell": 13.5
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -13572,7 +13616,7 @@
       "soldAvg": 1411,
       "live": 4,
       "sellRate": 67,
-      "totalDays": 127.6,
+      "totalDays": 127.89999999999999,
       "soldCount": 8,
       "avgDaysToSell": 16
     },
@@ -13590,7 +13634,7 @@
       "soldAvg": 12624,
       "live": 9,
       "sellRate": 31,
-      "totalDays": 85.4,
+      "totalDays": 85.7,
       "soldCount": 4,
       "avgDaysToSell": 21.4
     },
@@ -13643,9 +13687,9 @@
       "soldAvg": 3102,
       "live": 6,
       "sellRate": 25,
-      "totalDays": 38.7,
+      "totalDays": 38.9,
       "soldCount": 2,
-      "avgDaysToSell": 19.4
+      "avgDaysToSell": 19.5
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -13661,9 +13705,9 @@
       "soldAvg": 1600,
       "live": 4,
       "sellRate": 20,
-      "totalDays": 22.1,
+      "totalDays": 22.2,
       "soldCount": 1,
-      "avgDaysToSell": 22.1
+      "avgDaysToSell": 22.2
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -13696,9 +13740,9 @@
       "soldAvg": 4778,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 21.9,
+      "totalDays": 22,
       "soldCount": 1,
-      "avgDaysToSell": 21.9
+      "avgDaysToSell": 22
     },
     "Vintage|Fender Custom Shop": {
       "brand": "Vintage",
@@ -13782,9 +13826,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 45.7,
+      "totalDays": 46,
       "soldCount": 3,
-      "avgDaysToSell": 15.2
+      "avgDaysToSell": 15.3
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -13818,7 +13862,7 @@
       "soldAvg": 2475,
       "live": 5,
       "sellRate": 55,
-      "totalDays": 104.80000000000001,
+      "totalDays": 105,
       "soldCount": 6,
       "avgDaysToSell": 17.5
     },
@@ -13836,9 +13880,9 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 56.1,
+      "totalDays": 56.3,
       "soldCount": 3,
-      "avgDaysToSell": 18.7
+      "avgDaysToSell": 18.8
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13871,9 +13915,9 @@
       "soldAvg": 2399,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 219.8,
+      "totalDays": 219.9,
       "soldCount": 2,
-      "avgDaysToSell": 109.9
+      "avgDaysToSell": 110
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -13923,7 +13967,7 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 73.2,
+      "totalDays": 73.3,
       "soldCount": 4,
       "avgDaysToSell": 18.3
     },
@@ -13976,9 +14020,9 @@
       "soldAvg": 350,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 3.1,
+      "totalDays": 3.2,
       "soldCount": 1,
-      "avgDaysToSell": 3.1
+      "avgDaysToSell": 3.2
     },
     "Ruokangas|Ruokangas": {
       "brand": "Ruokangas",
@@ -14028,9 +14072,9 @@
       "soldAvg": 3599,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 22.9,
+      "totalDays": 23,
       "soldCount": 1,
-      "avgDaysToSell": 22.9
+      "avgDaysToSell": 23
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -14148,9 +14192,9 @@
       "soldAvg": 3200,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.9,
+      "totalDays": 5,
       "soldCount": 1,
-      "avgDaysToSell": 4.9
+      "avgDaysToSell": 5
     },
     "Charvel|Charvel MJ": {
       "brand": "Charvel",
@@ -14217,9 +14261,9 @@
       "soldAvg": 1699,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.8,
+      "totalDays": 5.9,
       "soldCount": 1,
-      "avgDaysToSell": 5.8
+      "avgDaysToSell": 5.9
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -14286,9 +14330,9 @@
       "soldAvg": 2400,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 6,
+      "totalDays": 6.1,
       "soldCount": 1,
-      "avgDaysToSell": 6
+      "avgDaysToSell": 6.1
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -14304,9 +14348,9 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 56.8,
+      "totalDays": 57,
       "soldCount": 4,
-      "avgDaysToSell": 14.2
+      "avgDaysToSell": 14.3
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -14339,9 +14383,9 @@
       "soldAvg": 685,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 6.5,
+      "totalDays": 6.6,
       "soldCount": 1,
-      "avgDaysToSell": 6.5
+      "avgDaysToSell": 6.6
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -14391,9 +14435,9 @@
       "soldAvg": 3495,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 6.8,
+      "totalDays": 6.9,
       "soldCount": 1,
-      "avgDaysToSell": 6.8
+      "avgDaysToSell": 6.9
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -14496,9 +14540,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 22,
+      "totalDays": 22.1,
       "soldCount": 1,
-      "avgDaysToSell": 22
+      "avgDaysToSell": 22.1
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -14566,9 +14610,9 @@
     },
     {
       "label": "16–30",
-      "total": 62,
+      "total": 63,
       "sold": 19,
-      "rate": 31
+      "rate": 30
     },
     {
       "label": "31+",
@@ -14579,7 +14623,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 182,
+      "total": 183,
       "sold": 53,
       "rate": 29
     },
@@ -14596,9 +14640,9 @@
       "rate": 21
     },
     "regular": {
-      "total": 110,
+      "total": 111,
       "sold": 37,
-      "rate": 34
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -14675,6 +14719,12 @@
       "rate": 20
     },
     {
+      "state": "NC",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "OR",
       "total": 4,
       "sold": 1,
@@ -14730,12 +14780,6 @@
     },
     {
       "state": "VA",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
-    },
-    {
-      "state": "NC",
       "total": 3,
       "sold": 1,
       "rate": 33
