@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T05:04:47.824Z",
+  "generatedAt": "2026-04-22T05:09:42.491Z",
   "totalLinks": 318,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 313,
   "overall": {
     "count": 313,
-    "sum": 1195232.14,
-    "avg": 3819,
+    "sum": 1192436.14,
+    "avg": 3810,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 775217.15,
-    "avg": 2619,
+    "sum": 772421.15,
+    "avg": 2610,
     "min": 33,
     "max": 8300,
     "median": 2250
@@ -165,10 +165,10 @@
   "byMonth": {
     "2026-04": {
       "count": 182,
-      "sum": 587639.79,
+      "sum": 584843.79,
       "min": 139.99,
       "max": 46845,
-      "avg": 3229
+      "avg": 3213
     },
     "2026-03": {
       "count": 131,
@@ -179,28 +179,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 267,
-      "sum": 882788.36,
-      "min": 33,
-      "max": 46845,
-      "avg": 3306
-    },
     "marketplace": {
-      "count": 46,
-      "sum": 312443.78,
+      "count": 47,
+      "sum": 315147.78,
       "min": 139.99,
       "max": 99000,
-      "avg": 6792
+      "avg": 6705
+    },
+    "reverb": {
+      "count": 266,
+      "sum": 877288.36,
+      "min": 33,
+      "max": 46845,
+      "avg": 3298
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 18,
+      "sum": 235098,
+      "min": 350,
+      "max": 99000,
+      "avg": 13061
+    },
     "reverb.com": {
-      "count": 267,
-      "sum": 882788.36,
+      "count": 266,
+      "sum": 877288.36,
       "min": 33,
       "max": 46845,
-      "avg": 3306
+      "avg": 3298
     },
     "long-mcquade.com": {
       "count": 1,
@@ -215,13 +222,6 @@
       "min": 139.99,
       "max": 5499.99,
       "avg": 1846
-    },
-    "chicagomusicexchange.com": {
-      "count": 17,
-      "sum": 232394,
-      "min": 350,
-      "max": 99000,
-      "avg": 13670
     },
     "tapestrymusic.com": {
       "count": 2,
@@ -267,6 +267,37 @@
     }
   },
   "byModel": {
+    "duesenberg-fantom-lumina": {
+      "displayName": "Duesenberg Fantom S Lumina Green",
+      "brand": "Duesenberg",
+      "model": "Fantom Lumina",
+      "variant": null,
+      "count": 1,
+      "sum": 2704,
+      "min": 2704,
+      "max": 2704,
+      "sightings": [
+        {
+          "price": 2704,
+          "date": "2026-04-22T05:09:27.689Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Duesenberg Fantom S Lumina Green",
+          "url": "https://www.chicagomusicexchange.com/products/duesenberg-fantom-s-lumina-green-serial-251035-2243676?variant=42962578112647",
+          "condition": "New"
+        }
+      ],
+      "byCondition": {
+        "New": {
+          "count": 1,
+          "sum": 2704,
+          "min": 2704,
+          "max": 2704,
+          "avg": 2704
+        }
+      },
+      "avg": 2704
+    },
     "esp-standard": {
       "displayName": "2008 ESP Standard Eclipse-II Snow White SW (aged to vintage) EMG w/ OHSC",
       "brand": "ESP",
@@ -6020,20 +6051,11 @@
       "brand": "Gibson",
       "model": "Dove",
       "variant": null,
-      "count": 2,
-      "sum": 7600,
+      "count": 1,
+      "sum": 2100,
       "min": 2100,
-      "max": 5500,
+      "max": 2100,
       "sightings": [
-        {
-          "price": 5500,
-          "date": "2026-04-15T02:34:39.287Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Dove 1968 - Cherry Sunburst",
-          "url": "https://reverb.com/item/94982380-gibson-dove-1968-cherry-sunburst",
-          "condition": "Excellent"
-        },
         {
           "price": 2100,
           "date": "2026-04-15T02:36:28.679Z",
@@ -6051,16 +6073,9 @@
           "min": 2100,
           "max": 2100,
           "avg": 2100
-        },
-        "Excellent": {
-          "count": 1,
-          "sum": 5500,
-          "min": 5500,
-          "max": 5500,
-          "avg": 5500
         }
       },
-      "avg": 3800
+      "avg": 2100
     },
     "alvarez-1990s-dana-scoop-floyd": {
       "displayName": "Alvarez 1990's Dana Scoop Floyd",
@@ -10254,6 +10269,17 @@
     }
   },
   "byCondition": {
+    "New": {
+      "count": 3,
+      "sum": 13707,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 4569,
+      "min": 2704,
+      "max": 6679
+    },
     "Very Good": {
       "count": 78,
       "sum": 200697.55999999994,
@@ -10308,8 +10334,8 @@
       "max": 15995
     },
     "Excellent": {
-      "count": 117,
-      "sum": 438652.73,
+      "count": 116,
+      "sum": 433152.73,
       "sold": {
         "count": 39,
         "sum": 132347.85,
@@ -10317,7 +10343,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3749,
+      "avg": 3734,
       "min": 190,
       "max": 35900
     },
@@ -10342,17 +10368,6 @@
       "avg": 1800,
       "min": 1800,
       "max": 1800
-    },
-    "New": {
-      "count": 2,
-      "sum": 11003,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 5502,
-      "min": 4324,
-      "max": 6679
     },
     "Fair": {
       "count": 5,
@@ -10383,7 +10398,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3229,
+      "avg": 3213,
       "count": 182
     },
     "03": {
@@ -10538,21 +10553,26 @@
     "0-500": 16,
     "500-1k": 18,
     "1k-2k": 99,
-    "2k-3k": 71,
+    "2k-3k": 72,
     "3k-5k": 61,
-    "5k-10k": 36,
+    "5k-10k": 35,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 16,
     "500-1k": 18,
     "1k-2k": 99,
-    "2k-3k": 71,
+    "2k-3k": 72,
     "3k-5k": 61,
-    "5k-10k": 31,
+    "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Duesenberg": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "ESP": {
       "sum": 92,
       "count": 5,
@@ -10594,9 +10614,9 @@
       "avg": 48
     },
     "Gibson": {
-      "sum": 656,
-      "count": 39,
-      "avg": 17
+      "sum": 625,
+      "count": 38,
+      "avg": 16
     },
     "Knaggs": {
       "sum": 82,
@@ -10659,7 +10679,7 @@
       "avg": 13
     },
     "PRS": {
-      "sum": 257,
+      "sum": 258,
       "count": 15,
       "avg": 17
     },
@@ -10684,9 +10704,9 @@
       "avg": 4
     },
     "Friedman": {
-      "sum": 46,
+      "sum": 47,
       "count": 3,
-      "avg": 15
+      "avg": 16
     },
     "Ormsby": {
       "sum": 2,
@@ -10854,9 +10874,9 @@
       "avg": 28
     },
     "Fender Custom Shop": {
-      "sum": 50,
+      "sum": 51,
       "count": 2,
-      "avg": 25
+      "avg": 26
     },
     "Milkman": {
       "sum": 25,
@@ -10879,7 +10899,7 @@
       "avg": 25
     },
     "Patrick James Eggle": {
-      "sum": 49,
+      "sum": 50,
       "count": 2,
       "avg": 25
     },
@@ -10970,14 +10990,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-22": 4,
+    "2026-04-22": 5,
     "2026-04-21": 23,
     "2026-04-20": 17,
     "2026-04-19": 20,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 32,
+    "2026-04-15": 31,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10986,10 +11006,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 267,
-    "marketplace": 51
+    "marketplace": 52,
+    "reverb": 266
   },
-  "activeModelsCount": 274,
+  "activeModelsCount": 275,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -11029,7 +11049,7 @@
     },
     {
       "username": "Pabst Blue Wizard",
-      "count": 8
+      "count": 7
     }
   ],
   "topDealHunters": [
@@ -11076,8 +11096,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3229,
-    "pctBelowAvg": 15,
+    "avg": 3213,
+    "pctBelowAvg": 16,
     "count": 182
   },
   "topVoted": [],
@@ -11089,10 +11109,10 @@
       "count": 22
     },
     "Gibson": {
-      "avgPrice": 3167,
+      "avgPrice": 3112,
       "retailEst": 800,
-      "avgDiscount": -295.9,
-      "count": 43
+      "avgDiscount": -288.9,
+      "count": 42
     },
     "PRS": {
       "avgPrice": 3409,
@@ -12147,6 +12167,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "Duesenberg": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "ESP": {
         "total": 7,
         "sold": 1,
@@ -12212,12 +12240,12 @@
         "livePct": 100
       },
       "Gibson": {
-        "total": 45,
+        "total": 44,
         "sold": 11,
         "fake": 0,
-        "live": 34,
-        "soldPct": 24,
-        "livePct": 76
+        "live": 33,
+        "soldPct": 25,
+        "livePct": 75
       },
       "Knaggs": {
         "total": 4,
@@ -12873,7 +12901,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 71,
+        "total": 72,
         "sold": 23,
         "rate": 32
       },
@@ -12885,9 +12913,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 36,
+        "total": 35,
         "sold": 3,
-        "rate": 8
+        "rate": 9
       },
       {
         "label": "$10k+",
@@ -12897,6 +12925,11 @@
       }
     ],
     "byCondition": {
+      "New": {
+        "total": 3,
+        "sold": 0,
+        "rate": 0
+      },
       "Very Good": {
         "total": 78,
         "sold": 23,
@@ -12918,7 +12951,7 @@
         "rate": 28
       },
       "Excellent": {
-        "total": 117,
+        "total": 116,
         "sold": 41,
         "rate": 35
       },
@@ -12929,11 +12962,6 @@
       },
       "Poor": {
         "total": 1,
-        "sold": 0,
-        "rate": 0
-      },
-      "New": {
-        "total": 2,
         "sold": 0,
         "rate": 0
       },
@@ -13379,6 +13407,23 @@
     ]
   },
   "byBrandLine": {
+    "Duesenberg|Duesenberg": {
+      "brand": "Duesenberg",
+      "brandLine": "Duesenberg",
+      "tier": "premium",
+      "count": 1,
+      "sum": 2704,
+      "avg": 2704,
+      "min": 2704,
+      "max": 2704,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "ESP|ESP USA": {
       "brand": "ESP",
       "brandLine": "ESP USA",
@@ -13452,15 +13497,15 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 34,
-      "sum": 88790.95999999999,
-      "avg": 2611,
+      "count": 33,
+      "sum": 83290.95999999999,
+      "avg": 2524,
       "min": 135,
       "max": 7900,
       "sold": 8,
       "soldSum": 22843.98,
       "soldAvg": 2855,
-      "live": 26,
+      "live": 25,
       "sellRate": 24,
       "totalDays": 110.1,
       "soldCount": 8,
@@ -14409,8 +14454,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 80,
-    "totalOffers": 181,
+    "withOffers": 79,
+    "totalOffers": 180,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 67
   },
@@ -14439,9 +14484,9 @@
     },
     {
       "label": "16–30",
-      "total": 60,
+      "total": 59,
       "sold": 18,
-      "rate": 30
+      "rate": 31
     },
     {
       "label": "31+",
@@ -14452,7 +14497,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 180,
+      "total": 179,
       "sold": 52,
       "rate": 29
     },
@@ -14469,9 +14514,9 @@
       "rate": 20
     },
     "regular": {
-      "total": 108,
+      "total": 107,
       "sold": 37,
-      "rate": 34
+      "rate": 35
     }
   },
   "geoSellThrough": [
@@ -14507,7 +14552,7 @@
     },
     {
       "state": "NY",
-      "total": 11,
+      "total": 10,
       "sold": 0,
       "rate": 0
     },
