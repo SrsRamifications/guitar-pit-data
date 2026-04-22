@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T02:10:11.487Z",
+  "generatedAt": "2026-04-22T02:11:41.313Z",
   "totalLinks": 318,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,18 +7,18 @@
   "totalWithPrice": 313,
   "overall": {
     "count": 313,
-    "sum": 1193167.16,
-    "avg": 3812,
+    "sum": 1192148.15,
+    "avg": 3809,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 773152.17,
-    "avg": 2612,
+    "sum": 772133.16,
+    "avg": 2609,
     "min": 33,
     "max": 8300,
-    "median": 2267
+    "median": 2250
   },
   "outliers": {
     "thresholdHigh": 8300,
@@ -165,10 +165,10 @@
   "byMonth": {
     "2026-04": {
       "count": 182,
-      "sum": 585574.81,
+      "sum": 584555.8,
       "min": 139.99,
       "max": 46845,
-      "avg": 3217
+      "avg": 3212
     },
     "2026-03": {
       "count": 131,
@@ -179,35 +179,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 269,
-      "sum": 888703.36,
-      "min": 33,
-      "max": 46845,
-      "avg": 3304
-    },
     "marketplace": {
-      "count": 44,
-      "sum": 304463.8,
+      "count": 45,
+      "sum": 306443.79,
       "min": 139.99,
       "max": 99000,
-      "avg": 6920
+      "avg": 6810
+    },
+    "reverb": {
+      "count": 268,
+      "sum": 885704.36,
+      "min": 33,
+      "max": 46845,
+      "avg": 3305
     }
   },
   "byDomain": {
-    "reverb.com": {
-      "count": 269,
-      "sum": 888703.36,
-      "min": 33,
-      "max": 46845,
-      "avg": 3304
-    },
     "guitarcenter.com": {
-      "count": 20,
-      "sum": 36777.81,
+      "count": 21,
+      "sum": 38757.8,
       "min": 139.99,
       "max": 5499.99,
-      "avg": 1839
+      "avg": 1846
+    },
+    "reverb.com": {
+      "count": 268,
+      "sum": 885704.36,
+      "min": 33,
+      "max": 46845,
+      "avg": 3305
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -260,6 +260,37 @@
     }
   },
   "byModel": {
+    "rickenbacker-660-jetglo": {
+      "displayName": "Used Rickenbacker 660 Jetglo Solid Body Electric Guitar Jetglo",
+      "brand": "Rickenbacker",
+      "model": "660",
+      "variant": "Jetglo",
+      "count": 1,
+      "sum": 1979.99,
+      "min": 1979.99,
+      "max": 1979.99,
+      "sightings": [
+        {
+          "price": 1979.99,
+          "date": "2026-04-22T02:11:27.165Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Rickenbacker 660 Jetglo Solid Body Electric Guitar Jetglo",
+          "url": "https://www.guitarcenter.com/Used/Rickenbacker/Used-Rickenbacker-660-Jetglo-Solid-Body-Electric-Guitar.gc",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1979.99,
+          "min": 1979.99,
+          "max": 1979.99,
+          "avg": 1980
+        }
+      },
+      "avg": 1980
+    },
     "jackson-dinky-custom-shop-roasted-maple": {
       "displayName": "NEW ! Jackson Custom Shop Dinky HSH - Roasted Maple Neck & Fretboard - DK - Shell Pink - Authorized Dealer - 8.1 lbs - G06854",
       "brand": "Jackson",
@@ -5995,37 +6026,6 @@
       },
       "avg": 1800
     },
-    "alvarez-nashville": {
-      "displayName": "Dana Nashville Scoop Butterscotch 2014",
-      "brand": "Alvarez",
-      "model": "Nashville",
-      "variant": null,
-      "count": 1,
-      "sum": 2999,
-      "min": 2999,
-      "max": 2999,
-      "sightings": [
-        {
-          "price": 2999,
-          "date": "2026-04-15T02:28:57.721Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Dana Nashville Scoop Butterscotch 2014",
-          "url": "https://reverb.com/item/93949970-dana-nashville-scoop-butterscotch-2014",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2999,
-          "min": 2999,
-          "max": 2999,
-          "avg": 2999
-        }
-      },
-      "avg": 2999
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10187,6 +10187,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 32,
+      "sum": 164588.79999999996,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 5143,
+      "min": 139.99,
+      "max": 99000
+    },
     "Brand New": {
       "count": 27,
       "sum": 104117.12,
@@ -10230,8 +10241,8 @@
       "max": 15995
     },
     "Excellent": {
-      "count": 119,
-      "sum": 444151.73,
+      "count": 118,
+      "sum": 441152.73,
       "sold": {
         "count": 38,
         "sum": 130147.85,
@@ -10239,20 +10250,9 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3732,
+      "avg": 3739,
       "min": 190,
       "max": 35900
-    },
-    "Used": {
-      "count": 31,
-      "sum": 162608.80999999997,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 5245,
-      "min": 139.99,
-      "max": 99000
     },
     "Mint": {
       "count": 6,
@@ -10316,7 +10316,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3217,
+      "avg": 3212,
       "count": 182
     },
     "03": {
@@ -10470,8 +10470,8 @@
   "priceDistribution": {
     "0-500": 16,
     "500-1k": 18,
-    "1k-2k": 98,
-    "2k-3k": 73,
+    "1k-2k": 99,
+    "2k-3k": 72,
     "3k-5k": 61,
     "5k-10k": 35,
     "10k+": 12
@@ -10479,13 +10479,18 @@
   "priceDistributionFiltered": {
     "0-500": 16,
     "500-1k": 18,
-    "1k-2k": 98,
-    "2k-3k": 73,
+    "1k-2k": 99,
+    "2k-3k": 72,
     "3k-5k": 61,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Rickenbacker": {
+      "sum": 9,
+      "count": 4,
+      "avg": 2
+    },
     "Jackson": {
       "sum": 233,
       "count": 13,
@@ -10630,11 +10635,6 @@
       "sum": 10,
       "count": 2,
       "avg": 5
-    },
-    "Rickenbacker": {
-      "sum": 9,
-      "count": 3,
-      "avg": 3
     },
     "Ruokangas": {
       "sum": 3,
@@ -10898,14 +10898,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-22": 1,
+    "2026-04-22": 2,
     "2026-04-21": 23,
     "2026-04-20": 17,
     "2026-04-19": 20,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 35,
+    "2026-04-15": 34,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10914,8 +10914,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 269,
-    "marketplace": 49
+    "marketplace": 50,
+    "reverb": 268
   },
   "activeModelsCount": 272,
   "topPosters": [
@@ -10925,7 +10925,7 @@
     },
     {
       "username": "greg1213",
-      "count": 57
+      "count": 56
     },
     {
       "username": "Shteefe",
@@ -11004,7 +11004,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3217,
+    "avg": 3212,
     "pctBelowAvg": 16,
     "count": 182
   },
@@ -12060,6 +12060,14 @@
       "livePct": 73
     },
     "byBrand": {
+      "Rickenbacker": {
+        "total": 4,
+        "sold": 0,
+        "fake": 0,
+        "live": 4,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Jackson": {
         "total": 13,
         "sold": 2,
@@ -12332,14 +12340,6 @@
         "soldPct": 50,
         "livePct": 50
       },
-      "Rickenbacker": {
-        "total": 3,
-        "sold": 0,
-        "fake": 0,
-        "live": 3,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Ruokangas": {
         "total": 1,
         "sold": 0,
@@ -12541,10 +12541,10 @@
         "livePct": 100
       },
       "Alvarez": {
-        "total": 2,
+        "total": 1,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 1,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12772,15 +12772,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 98,
+        "total": 99,
         "sold": 27,
-        "rate": 28
+        "rate": 27
       },
       {
         "label": "$2k–3k",
-        "total": 73,
+        "total": 72,
         "sold": 22,
-        "rate": 30
+        "rate": 31
       },
       {
         "label": "$3k–5k",
@@ -12802,6 +12802,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 32,
+        "sold": 4,
+        "rate": 13
+      },
       "Brand New": {
         "total": 27,
         "sold": 2,
@@ -12818,14 +12823,9 @@
         "rate": 28
       },
       "Excellent": {
-        "total": 119,
+        "total": 118,
         "sold": 40,
         "rate": 34
-      },
-      "Used": {
-        "total": 31,
-        "sold": 4,
-        "rate": 13
       },
       "Mint": {
         "total": 6,
@@ -13330,6 +13330,23 @@
     ]
   },
   "byBrandLine": {
+    "Rickenbacker|Rickenbacker": {
+      "brand": "Rickenbacker",
+      "brandLine": "Rickenbacker",
+      "tier": "high",
+      "count": 1,
+      "sum": 1979.99,
+      "avg": 1980,
+      "min": 1979.99,
+      "max": 1979.99,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
       "brandLine": "Jackson USA Custom Shop",
@@ -14332,7 +14349,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 102
   },
   "watcherDemand": [
     {
@@ -14349,7 +14366,7 @@
     },
     {
       "label": "6–15",
-      "total": 63,
+      "total": 62,
       "sold": 18,
       "rate": 29
     },
@@ -14368,7 +14385,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 182,
+      "total": 181,
       "sold": 52,
       "rate": 29
     },
@@ -14380,7 +14397,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 104,
+      "total": 103,
       "sold": 21,
       "rate": 20
     },
@@ -14423,7 +14440,7 @@
     },
     {
       "state": "NY",
-      "total": 11,
+      "total": 10,
       "sold": 0,
       "rate": 0
     },
