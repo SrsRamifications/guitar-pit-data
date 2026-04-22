@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T05:09:42.491Z",
+  "generatedAt": "2026-04-22T05:31:43.558Z",
   "totalLinks": 318,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 313,
   "overall": {
     "count": 313,
-    "sum": 1192436.14,
-    "avg": 3810,
+    "sum": 1192831.14,
+    "avg": 3811,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 772421.15,
-    "avg": 2610,
+    "sum": 772816.15,
+    "avg": 2611,
     "min": 33,
     "max": 8300,
     "median": 2250
@@ -165,10 +165,10 @@
   "byMonth": {
     "2026-04": {
       "count": 182,
-      "sum": 584843.79,
+      "sum": 585238.79,
       "min": 139.99,
       "max": 46845,
-      "avg": 3213
+      "avg": 3216
     },
     "2026-03": {
       "count": 131,
@@ -179,35 +179,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 266,
+      "sum": 877683.36,
+      "min": 33,
+      "max": 46845,
+      "avg": 3300
+    },
     "marketplace": {
       "count": 47,
       "sum": 315147.78,
       "min": 139.99,
       "max": 99000,
       "avg": 6705
-    },
-    "reverb": {
-      "count": 266,
-      "sum": 877288.36,
-      "min": 33,
-      "max": 46845,
-      "avg": 3298
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 266,
+      "sum": 877683.36,
+      "min": 33,
+      "max": 46845,
+      "avg": 3300
+    },
     "chicagomusicexchange.com": {
       "count": 18,
       "sum": 235098,
       "min": 350,
       "max": 99000,
       "avg": 13061
-    },
-    "reverb.com": {
-      "count": 266,
-      "sum": 877288.36,
-      "min": 33,
-      "max": 46845,
-      "avg": 3298
     },
     "long-mcquade.com": {
       "count": 1,
@@ -267,6 +267,37 @@
     }
   },
   "byModel": {
+    "esp-telecaster": {
+      "displayName": "ESP Tele Custom 1980s NYC",
+      "brand": "ESP",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 1,
+      "sum": 2195,
+      "min": 2195,
+      "max": 2195,
+      "sightings": [
+        {
+          "price": 2195,
+          "date": "2026-04-22T05:31:29.584Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP Tele Custom 1980s NYC",
+          "url": "https://reverb.com/item/91598724-esp-tele-custom-1980s-nyc",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2195,
+          "min": 2195,
+          "max": 2195,
+          "avg": 2195
+        }
+      },
+      "avg": 2195
+    },
     "duesenberg-fantom-lumina": {
       "displayName": "Duesenberg Fantom S Lumina Green",
       "brand": "Duesenberg",
@@ -6077,37 +6108,6 @@
       },
       "avg": 2100
     },
-    "alvarez-1990s-dana-scoop-floyd": {
-      "displayName": "Alvarez 1990's Dana Scoop Floyd",
-      "brand": "Alvarez",
-      "model": "1990's Dana Scoop",
-      "variant": "Floyd",
-      "count": 1,
-      "sum": 1800,
-      "min": 1800,
-      "max": 1800,
-      "sightings": [
-        {
-          "price": 1800,
-          "date": "2026-04-15T02:34:29.240Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1990's Alvarez Dana Scoop Black Floyd Modulus Graphite Neck",
-          "url": "https://reverb.com/item/93162998-1990-s-alvarez-dana-scoop-black-floyd-modulus-graphite-neck",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1800,
-          "min": 1800,
-          "max": 1800,
-          "avg": 1800
-        }
-      },
-      "avg": 1800
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10269,6 +10269,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 78,
+      "sum": 201092.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 46954.85,
+        "avg": 2042,
+        "min": 475,
+        "max": 4022
+      },
+      "avg": 2578,
+      "min": 33,
+      "max": 16500
+    },
     "New": {
       "count": 3,
       "sum": 13707,
@@ -10279,20 +10293,6 @@
       "avg": 4569,
       "min": 2704,
       "max": 6679
-    },
-    "Very Good": {
-      "count": 78,
-      "sum": 200697.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 46954.85,
-        "avg": 2042,
-        "min": 475,
-        "max": 4022
-      },
-      "avg": 2573,
-      "min": 33,
-      "max": 16500
     },
     "Used": {
       "count": 32,
@@ -10398,7 +10398,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3213,
+      "avg": 3216,
       "count": 182
     },
     "03": {
@@ -10552,8 +10552,8 @@
   "priceDistribution": {
     "0-500": 16,
     "500-1k": 18,
-    "1k-2k": 99,
-    "2k-3k": 72,
+    "1k-2k": 98,
+    "2k-3k": 73,
     "3k-5k": 61,
     "5k-10k": 35,
     "10k+": 12
@@ -10561,8 +10561,8 @@
   "priceDistributionFiltered": {
     "0-500": 16,
     "500-1k": 18,
-    "1k-2k": 99,
-    "2k-3k": 72,
+    "1k-2k": 98,
+    "2k-3k": 73,
     "3k-5k": 61,
     "5k-10k": 30,
     "10k+": 0
@@ -10584,7 +10584,7 @@
       "avg": 0
     },
     "Rickenbacker": {
-      "sum": 11,
+      "sum": 12,
       "count": 4,
       "avg": 3
     },
@@ -10594,7 +10594,7 @@
       "avg": 18
     },
     "BC Rich": {
-      "sum": 239,
+      "sum": 240,
       "count": 12,
       "avg": 20
     },
@@ -10629,7 +10629,7 @@
       "avg": 1
     },
     "Kiesel": {
-      "sum": 248,
+      "sum": 249,
       "count": 13,
       "avg": 19
     },
@@ -10639,7 +10639,7 @@
       "avg": 1
     },
     "Vintage": {
-      "sum": 83,
+      "sum": 84,
       "count": 7,
       "avg": 12
     },
@@ -10654,7 +10654,7 @@
       "avg": 46
     },
     "Fender": {
-      "sum": 272,
+      "sum": 274,
       "count": 19,
       "avg": 14
     },
@@ -10724,19 +10724,19 @@
       "avg": 13
     },
     "Music Man": {
-      "sum": 84,
+      "sum": 85,
       "count": 6,
       "avg": 14
     },
     "Squier": {
-      "sum": 10,
+      "sum": 11,
       "count": 2,
-      "avg": 5
+      "avg": 6
     },
     "Ruokangas": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Taylor": {
       "sum": 4,
@@ -10990,14 +10990,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-22": 5,
+    "2026-04-22": 6,
     "2026-04-21": 23,
     "2026-04-20": 17,
     "2026-04-19": 20,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 31,
+    "2026-04-15": 30,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -11006,8 +11006,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 52,
-    "reverb": 266
+    "reverb": 266,
+    "marketplace": 52
   },
   "activeModelsCount": 275,
   "topPosters": [
@@ -11017,7 +11017,7 @@
     },
     {
       "username": "greg1213",
-      "count": 55
+      "count": 54
     },
     {
       "username": "Shteefe",
@@ -11029,7 +11029,7 @@
     },
     {
       "username": "Madero",
-      "count": 19
+      "count": 20
     },
     {
       "username": "WontonGG",
@@ -11096,7 +11096,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3213,
+    "avg": 3216,
     "pctBelowAvg": 16,
     "count": 182
   },
@@ -12167,6 +12167,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "ESP": {
+        "total": 8,
+        "sold": 1,
+        "fake": 0,
+        "live": 7,
+        "soldPct": 13,
+        "livePct": 88
+      },
       "Duesenberg": {
         "total": 1,
         "sold": 0,
@@ -12174,14 +12182,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "ESP": {
-        "total": 7,
-        "sold": 1,
-        "fake": 0,
-        "live": 6,
-        "soldPct": 14,
-        "livePct": 86
       },
       "Marshall": {
         "total": 1,
@@ -12663,14 +12663,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Alvarez": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12895,13 +12887,13 @@
       },
       {
         "label": "$1k–2k",
-        "total": 99,
+        "total": 98,
         "sold": 27,
-        "rate": 27
+        "rate": 28
       },
       {
         "label": "$2k–3k",
-        "total": 72,
+        "total": 73,
         "sold": 23,
         "rate": 32
       },
@@ -12925,15 +12917,15 @@
       }
     ],
     "byCondition": {
-      "New": {
-        "total": 3,
-        "sold": 0,
-        "rate": 0
-      },
       "Very Good": {
         "total": 78,
         "sold": 23,
         "rate": 29
+      },
+      "New": {
+        "total": 3,
+        "sold": 0,
+        "rate": 0
       },
       "Used": {
         "total": 32,
@@ -13339,6 +13331,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "ESP Tele Custom 1980s NYC",
+        "url": "https://reverb.com/item/91598724-esp-tele-custom-1980s-nyc",
+        "price": "$2,195",
+        "priceNum": 2195,
+        "brand": "ESP",
+        "condition": "Very Good",
+        "watchers": 46,
+        "views": 1549,
+        "daysListed": 266,
+        "image": "https://rvb-img.reverb.com/i/s--hku-fNrZ--/quality=medium-low,height=800,width=800,fit=contain/xfebme4ctyqr1gidkjnq.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Gibson Custom Shop 1957 Les Paul Standard Mahogany Top Walnut Mur",
         "url": "https://reverb.com/item/91719964-gibson-custom-shop-1957-les-paul-standard-mahogany-top-walnut-murphy-lab-heavy-aged-serial-75824",
         "price": "$6,065",
@@ -13365,21 +13371,6 @@
         "image": "https://rvb-img.reverb.com/i/s--P23aH4NZ--/quality=medium-low,height=800,width=800,fit=contain/eq1gmrzmgxetih3vj9oz.jpg",
         "modelAvg": null,
         "pctVsAvg": null
-      },
-      {
-        "title": "Gibson  Les Paul Custom 2021 - Black",
-        "url": "https://reverb.com/item/92538934-gibson-les-paul-custom-2021-black",
-        "price": "$3,588",
-        "priceNum": 3588,
-        "brand": "Gibson",
-        "condition": "Excellent",
-        "watchers": 199,
-        "views": 4200,
-        "daysListed": 189,
-        "image": "https://rvb-img.reverb.com/i/s--5HtdnjJA--/quality=medium-low,height=800,width=800,fit=contain/kkbux9annkhlwnpv0cx4.jpg",
-        "modelAvg": 4930,
-        "pctVsAvg": -27,
-        "savings": 1342
       }
     ],
     "sweetSpots": [
@@ -13407,6 +13398,23 @@
     ]
   },
   "byBrandLine": {
+    "ESP|ESP USA": {
+      "brand": "ESP",
+      "brandLine": "ESP USA",
+      "tier": "premium",
+      "count": 2,
+      "sum": 4494,
+      "avg": 2247,
+      "min": 2195,
+      "max": 2299,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
       "brandLine": "Duesenberg",
@@ -13416,23 +13424,6 @@
       "avg": 2704,
       "min": 2704,
       "max": 2704,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
-    "ESP|ESP USA": {
-      "brand": "ESP",
-      "brandLine": "ESP USA",
-      "tier": "premium",
-      "count": 1,
-      "sum": 2299,
-      "avg": 2299,
-      "min": 2299,
-      "max": 2299,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
@@ -13472,9 +13463,9 @@
       "soldAvg": 2516,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 3.4,
+      "totalDays": 3.5,
       "soldCount": 1,
-      "avgDaysToSell": 3.4
+      "avgDaysToSell": 3.5
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13507,7 +13498,7 @@
       "soldAvg": 2855,
       "live": 25,
       "sellRate": 24,
-      "totalDays": 110.1,
+      "totalDays": 110.19999999999999,
       "soldCount": 8,
       "avgDaysToSell": 13.8
     },
@@ -13560,7 +13551,7 @@
       "soldAvg": 1411,
       "live": 4,
       "sellRate": 67,
-      "totalDays": 130.3,
+      "totalDays": 130.5,
       "soldCount": 8,
       "avgDaysToSell": 16.3
     },
@@ -13613,9 +13604,9 @@
       "soldAvg": 2850,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 59.2,
+      "totalDays": 59.3,
       "soldCount": 1,
-      "avgDaysToSell": 59.2
+      "avgDaysToSell": 59.3
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -13788,7 +13779,7 @@
       "soldAvg": 2475,
       "live": 5,
       "sellRate": 55,
-      "totalDays": 106.80000000000001,
+      "totalDays": 107,
       "soldCount": 6,
       "avgDaysToSell": 17.8
     },
@@ -13806,7 +13797,7 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 57.2,
+      "totalDays": 57.3,
       "soldCount": 3,
       "avgDaysToSell": 19.1
     },
@@ -13875,9 +13866,9 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 74.5,
+      "totalDays": 74.8,
       "soldCount": 4,
-      "avgDaysToSell": 18.6
+      "avgDaysToSell": 18.7
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -14257,7 +14248,7 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 58.2,
+      "totalDays": 58.300000000000004,
       "soldCount": 4,
       "avgDaysToSell": 14.6
     },
@@ -14296,23 +14287,6 @@
       "soldCount": 1,
       "avgDaysToSell": 6.9
     },
-    "Alvarez|Alvarez": {
-      "brand": "Alvarez",
-      "brandLine": "Alvarez",
-      "tier": "premium",
-      "count": 1,
-      "sum": 1800,
-      "avg": 1800,
-      "min": 1800,
-      "max": 1800,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -14344,9 +14318,9 @@
       "soldAvg": 475,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 30.3,
+      "totalDays": 30.4,
       "soldCount": 1,
-      "avgDaysToSell": 30.3
+      "avgDaysToSell": 30.4
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -14362,9 +14336,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 22.2,
+      "totalDays": 22.3,
       "soldCount": 1,
-      "avgDaysToSell": 22.2
+      "avgDaysToSell": 22.3
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -14454,8 +14428,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 79,
-    "totalOffers": 180,
+    "withOffers": 78,
+    "totalOffers": 179,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 67
   },
