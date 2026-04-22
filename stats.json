@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T14:37:19.652Z",
+  "generatedAt": "2026-04-22T15:39:49.100Z",
   "totalLinks": 315,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 310,
   "overall": {
     "count": 310,
-    "sum": 1189268.14,
-    "avg": 3836,
+    "sum": 1195118.14,
+    "avg": 3855,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 786247.15,
-    "avg": 2665,
+    "sum": 792097.15,
+    "avg": 2685,
     "min": 33,
     "max": 8499,
-    "median": 2284.16
+    "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 8885,
+    "thresholdHigh": 8900,
     "thresholdLow": 0,
     "count": 15,
     "items": [
@@ -149,10 +149,10 @@
   "byMonth": {
     "2026-04": {
       "count": 179,
-      "sum": 581675.79,
+      "sum": 587525.79,
       "min": 139.99,
       "max": 46845,
-      "avg": 3250
+      "avg": 3282
     },
     "2026-03": {
       "count": 131,
@@ -165,10 +165,10 @@
   "byCategory": {
     "reverb": {
       "count": 263,
-      "sum": 874120.36,
+      "sum": 879970.36,
       "min": 33,
       "max": 46845,
-      "avg": 3324
+      "avg": 3346
     },
     "marketplace": {
       "count": 47,
@@ -181,10 +181,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 263,
-      "sum": 874120.36,
+      "sum": 879970.36,
       "min": 33,
       "max": 46845,
-      "avg": 3324
+      "avg": 3346
     },
     "chicagomusicexchange.com": {
       "count": 18,
@@ -251,6 +251,37 @@
     }
   },
   "byModel": {
+    "bc-rich-original-usa": {
+      "displayName": "B.C. Rich B-45 c 1970 Brazilian Rosewood original vintage USA",
+      "brand": "BC Rich",
+      "model": "original",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 7495,
+      "min": 7495,
+      "max": 7495,
+      "sightings": [
+        {
+          "price": 7495,
+          "date": "2026-04-22T15:39:34.817Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich B-45 c 1970 Brazilian Rosewood original vintage USA",
+          "url": "https://reverb.com/item/96200188-b-c-rich-b-45-c-1970-brazilian-rosewood-original-vintage-usa",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 7495,
+          "min": 7495,
+          "max": 7495,
+          "avg": 7495
+        }
+      },
+      "avg": 7495
+    },
     "hamer-t-51-butterscotch-usa": {
       "displayName": "Hamer (USA) T-51 1993 - Butterscotch",
       "brand": "Hamer",
@@ -5959,37 +5990,6 @@
       },
       "avg": 1200
     },
-    "eastman-t486-bk-16-thinline": {
-      "displayName": "Eastman T486-BK 16\" Thinline, Seymour Duncan Pickups in Black with Case #P2302468",
-      "brand": "Eastman",
-      "model": "T486-BK 16\" Thinline,",
-      "variant": null,
-      "count": 1,
-      "sum": 1645,
-      "min": 1645,
-      "max": 1645,
-      "sightings": [
-        {
-          "price": 1645,
-          "date": "2026-04-15T04:50:37.925Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman T486-BK 16\" Thinline, Seymour Duncan Pickups in Black with Case #P2302468",
-          "url": "https://reverb.com/item/94598911-eastman-t486-bk-16-thinline-seymour-duncan-pickups-in-black-with-case-p2302468",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 1645,
-          "min": 1645,
-          "max": 1645,
-          "avg": 1645
-        }
-      },
-      "avg": 1645
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10151,6 +10151,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 35,
+      "sum": 100739.95,
+      "sold": {
+        "count": 9,
+        "sum": 17441.48,
+        "avg": 1938,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2878,
+      "min": 414,
+      "max": 15995
+    },
     "Excellent": {
       "count": 114,
       "sum": 427893.73,
@@ -10202,8 +10216,8 @@
       "max": 99000
     },
     "Brand New": {
-      "count": 27,
-      "sum": 107268.12,
+      "count": 26,
+      "sum": 105623.12,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -10211,23 +10225,9 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 3973,
+      "avg": 4062,
       "min": 135,
       "max": 12280
-    },
-    "Good": {
-      "count": 34,
-      "sum": 93244.95,
-      "sold": {
-        "count": 9,
-        "sum": 17441.48,
-        "avg": 1938,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2742,
-      "min": 414,
-      "max": 15995
     },
     "Mint": {
       "count": 6,
@@ -10280,7 +10280,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3250,
+      "avg": 3282,
       "count": 179
     },
     "03": {
@@ -10434,22 +10434,27 @@
   "priceDistribution": {
     "0-500": 16,
     "500-1k": 18,
-    "1k-2k": 97,
+    "1k-2k": 96,
     "2k-3k": 72,
     "3k-5k": 59,
-    "5k-10k": 36,
+    "5k-10k": 37,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 16,
     "500-1k": 18,
-    "1k-2k": 97,
+    "1k-2k": 96,
     "2k-3k": 72,
     "3k-5k": 59,
-    "5k-10k": 33,
+    "5k-10k": 34,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 247,
+      "count": 13,
+      "avg": 19
+    },
     "Hamer": {
       "sum": 59,
       "count": 3,
@@ -10476,14 +10481,9 @@
       "avg": 3
     },
     "Jackson": {
-      "sum": 242,
+      "sum": 243,
       "count": 13,
       "avg": 19
-    },
-    "BC Rich": {
-      "sum": 245,
-      "count": 12,
-      "avg": 20
     },
     "Orange": {
       "sum": 25,
@@ -10516,7 +10516,7 @@
       "avg": 1
     },
     "Kiesel": {
-      "sum": 257,
+      "sum": 258,
       "count": 13,
       "avg": 20
     },
@@ -10541,7 +10541,7 @@
       "avg": 46
     },
     "Fender": {
-      "sum": 282,
+      "sum": 283,
       "count": 19,
       "avg": 15
     },
@@ -10566,9 +10566,9 @@
       "avg": 14
     },
     "Eastman": {
-      "sum": 103,
-      "count": 5,
-      "avg": 21
+      "sum": 95,
+      "count": 4,
+      "avg": 24
     },
     "Schecter": {
       "sum": 37,
@@ -10576,7 +10576,7 @@
       "avg": 9
     },
     "Warmoth": {
-      "sum": 33,
+      "sum": 34,
       "count": 3,
       "avg": 11
     },
@@ -10611,7 +10611,7 @@
       "avg": 14
     },
     "Music Man": {
-      "sum": 88,
+      "sum": 89,
       "count": 6,
       "avg": 15
     },
@@ -10867,14 +10867,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-22": 8,
+    "2026-04-22": 9,
     "2026-04-21": 23,
     "2026-04-20": 16,
     "2026-04-19": 20,
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 26,
+    "2026-04-15": 25,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10902,7 +10902,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 27
+      "count": 28
     },
     {
       "username": "Madero",
@@ -10910,7 +10910,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 16
+      "count": 15
     },
     {
       "username": "scottcorgan",
@@ -10973,7 +10973,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3250,
+    "avg": 3282,
     "pctBelowAvg": 15,
     "count": 179
   },
@@ -11016,10 +11016,10 @@
       "count": 14
     },
     "BC Rich": {
-      "avgPrice": 2530,
+      "avgPrice": 2884,
       "retailEst": 200,
-      "avgDiscount": -1164.8,
-      "count": 13
+      "avgDiscount": -1342.1,
+      "count": 14
     }
   },
   "soldPrices": {
@@ -12044,6 +12044,14 @@
       "livePct": 72
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 14,
+        "sold": 3,
+        "fake": 0,
+        "live": 11,
+        "soldPct": 21,
+        "livePct": 79
+      },
       "Hamer": {
         "total": 3,
         "sold": 0,
@@ -12091,14 +12099,6 @@
         "live": 11,
         "soldPct": 15,
         "livePct": 85
-      },
-      "BC Rich": {
-        "total": 13,
-        "sold": 3,
-        "fake": 0,
-        "live": 10,
-        "soldPct": 23,
-        "livePct": 77
       },
       "Orange": {
         "total": 1,
@@ -12229,12 +12229,12 @@
         "livePct": 100
       },
       "Eastman": {
-        "total": 5,
+        "total": 4,
         "sold": 1,
         "fake": 0,
-        "live": 4,
-        "soldPct": 20,
-        "livePct": 80
+        "live": 3,
+        "soldPct": 25,
+        "livePct": 75
       },
       "Schecter": {
         "total": 4,
@@ -12756,7 +12756,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 97,
+        "total": 96,
         "sold": 27,
         "rate": 28
       },
@@ -12774,7 +12774,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 36,
+        "total": 37,
         "sold": 3,
         "rate": 8
       },
@@ -12786,6 +12786,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 35,
+        "sold": 10,
+        "rate": 29
+      },
       "Excellent": {
         "total": 114,
         "sold": 41,
@@ -12807,14 +12812,9 @@
         "rate": 13
       },
       "Brand New": {
-        "total": 27,
+        "total": 26,
         "sold": 2,
-        "rate": 7
-      },
-      "Good": {
-        "total": 34,
-        "sold": 10,
-        "rate": 29
+        "rate": 8
       },
       "Mint": {
         "total": 6,
@@ -13251,6 +13251,23 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich USA Custom Shop": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich USA Custom Shop",
+      "tier": "premium",
+      "count": 3,
+      "sum": 22945,
+      "avg": 7648,
+      "min": 7495,
+      "max": 7950,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 3,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
       "brandLine": "Hamer Import",
@@ -13333,26 +13350,9 @@
       "soldAvg": 2516,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 3.8,
+      "totalDays": 3.9,
       "soldCount": 1,
-      "avgDaysToSell": 3.8
-    },
-    "BC Rich|BC Rich USA Custom Shop": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich USA Custom Shop",
-      "tier": "premium",
-      "count": 2,
-      "sum": 15450,
-      "avg": 7725,
-      "min": 7500,
-      "max": 7950,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 2,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
+      "avgDaysToSell": 3.9
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13368,7 +13368,7 @@
       "soldAvg": 2855,
       "live": 22,
       "sellRate": 27,
-      "totalDays": 113.3,
+      "totalDays": 113.89999999999999,
       "soldCount": 8,
       "avgDaysToSell": 14.2
     },
@@ -13421,7 +13421,7 @@
       "soldAvg": 1411,
       "live": 4,
       "sellRate": 67,
-      "totalDays": 133.5,
+      "totalDays": 133.8,
       "soldCount": 8,
       "avgDaysToSell": 16.7
     },
@@ -13439,9 +13439,9 @@
       "soldAvg": 12624,
       "live": 9,
       "sellRate": 31,
-      "totalDays": 88.4,
+      "totalDays": 88.6,
       "soldCount": 4,
-      "avgDaysToSell": 22.1
+      "avgDaysToSell": 22.2
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -13474,9 +13474,9 @@
       "soldAvg": 2850,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 59.6,
+      "totalDays": 59.7,
       "soldCount": 1,
-      "avgDaysToSell": 59.6
+      "avgDaysToSell": 59.7
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -13500,16 +13500,16 @@
       "brand": "Eastman",
       "brandLine": "Eastman",
       "tier": "mid",
-      "count": 5,
-      "sum": 8092,
-      "avg": 1618,
+      "count": 4,
+      "sum": 6447,
+      "avg": 1612,
       "min": 1250,
       "max": 1924,
       "sold": 1,
       "soldSum": 1600,
       "soldAvg": 1600,
-      "live": 4,
-      "sellRate": 20,
+      "live": 3,
+      "sellRate": 25,
       "totalDays": 22.9,
       "soldCount": 1,
       "avgDaysToSell": 22.9
@@ -13649,9 +13649,9 @@
       "soldAvg": 2475,
       "live": 5,
       "sellRate": 55,
-      "totalDays": 109.2,
+      "totalDays": 109.5,
       "soldCount": 6,
-      "avgDaysToSell": 18.2
+      "avgDaysToSell": 18.3
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13667,7 +13667,7 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 58.4,
+      "totalDays": 58.5,
       "soldCount": 3,
       "avgDaysToSell": 19.5
     },
@@ -13736,9 +13736,9 @@
       "soldAvg": 3146,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 76.10000000000001,
+      "totalDays": 76.39999999999999,
       "soldCount": 4,
-      "avgDaysToSell": 19
+      "avgDaysToSell": 19.1
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -13789,7 +13789,7 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 221.3,
+      "totalDays": 221.4,
       "soldCount": 2,
       "avgDaysToSell": 110.7
     },
@@ -14118,7 +14118,7 @@
       "soldAvg": 2674,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 59.8,
+      "totalDays": 60,
       "soldCount": 4,
       "avgDaysToSell": 15
     },
@@ -14188,9 +14188,9 @@
       "soldAvg": 475,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 30.7,
+      "totalDays": 30.8,
       "soldCount": 1,
-      "avgDaysToSell": 30.7
+      "avgDaysToSell": 30.8
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -14206,9 +14206,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 22.6,
+      "totalDays": 22.7,
       "soldCount": 1,
-      "avgDaysToSell": 22.6
+      "avgDaysToSell": 22.7
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -14301,11 +14301,11 @@
     "withOffers": 75,
     "totalOffers": 168,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 67
+    "offersEnabledPct": 68
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 102
   },
   "watcherDemand": [
     {
@@ -14341,14 +14341,14 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 178,
       "sold": 52,
       "rate": 29
     },
     "off": {
-      "total": 43,
+      "total": 42,
       "sold": 15,
-      "rate": 35
+      "rate": 36
     }
   },
   "sellerType": {
@@ -14437,16 +14437,16 @@
       "rate": 17
     },
     {
-      "state": "GA",
+      "state": "OR",
       "total": 5,
       "sold": 1,
       "rate": 20
     },
     {
-      "state": "OR",
-      "total": 4,
+      "state": "GA",
+      "total": 5,
       "sold": 1,
-      "rate": 25
+      "rate": 20
     },
     {
       "state": "NH",
