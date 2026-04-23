@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T03:10:34.758Z",
+  "generatedAt": "2026-04-23T03:36:23.682Z",
   "totalLinks": 312,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 307,
   "overall": {
     "count": 307,
-    "sum": 1157150.15,
-    "avg": 3769,
+    "sum": 1156750.15,
+    "avg": 3768,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 801005.16,
-    "avg": 2734,
+    "sum": 800605.16,
+    "avg": 2732,
     "min": 33,
     "max": 8499,
     "median": 2399
@@ -141,10 +141,10 @@
   "byMonth": {
     "2026-04": {
       "count": 176,
-      "sum": 549557.8,
+      "sum": 549157.8,
       "min": 139.99,
       "max": 15995,
-      "avg": 3122
+      "avg": 3120
     },
     "2026-03": {
       "count": 131,
@@ -157,10 +157,10 @@
   "byCategory": {
     "reverb": {
       "count": 257,
-      "sum": 823293.36,
+      "sum": 822893.36,
       "min": 33,
       "max": 35900,
-      "avg": 3203
+      "avg": 3202
     },
     "marketplace": {
       "count": 50,
@@ -173,10 +173,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 257,
-      "sum": 823293.36,
+      "sum": 822893.36,
       "min": 33,
       "max": 35900,
-      "avg": 3203
+      "avg": 3202
     },
     "chicagomusicexchange.com": {
       "count": 21,
@@ -250,6 +250,37 @@
     }
   },
   "byModel": {
+    "epiphone-mahogany-case": {
+      "displayName": "1967 Epiphone Olympic Mahogany w case",
+      "brand": "Epiphone",
+      "model": "Mahogany case",
+      "variant": null,
+      "count": 1,
+      "sum": 1600,
+      "min": 1600,
+      "max": 1600,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-04-23T03:36:09.858Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1967 Epiphone Olympic Mahogany w case",
+          "url": "https://reverb.com/item/82447006-1967-epiphone-olympic-mahogany-w-case",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
+    },
     "gibson-les-paul-deluxe-goldtop": {
       "displayName": "1971 Gibson Les Paul Deluxe Goldtop with case",
       "brand": "Gibson",
@@ -5652,69 +5683,6 @@
       },
       "avg": 8999
     },
-    "ibanez-uv777p-bk-steve-vai-signature": {
-      "displayName": "Ibanez UV777P-BK Steve Vai Signature Universe 2000",
-      "brand": "Ibanez",
-      "model": "UV777P-BK Steve Vai",
-      "variant": "Signature",
-      "count": 2,
-      "sum": 4500,
-      "min": 2000,
-      "max": 2500,
-      "sightings": [
-        {
-          "price": 2500,
-          "date": "2026-03-27T06:40:07.704Z",
-          "year": 2008,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2008 Ibanez UV777P-BK Steve Vai Signature Universe",
-          "url": "https://reverb.com/item/95464809-2008-ibanez-uv777p-bk-steve-vai-signature-universe",
-          "condition": "Very Good"
-        },
-        {
-          "price": 2000,
-          "date": "2026-04-15T15:28:12.182Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez UV777P-BK Steve Vai Signature Universe 2000",
-          "url": "https://reverb.com/item/95979149-ibanez-uv777p-bk-steve-vai-signature-universe-2000",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 2000,
-          "min": 2000,
-          "max": 2000,
-          "avg": 2000
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 2500,
-          "min": 2500,
-          "max": 2500,
-          "avg": 2500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2000,
-        "min": 2000,
-        "max": 2000,
-        "prices": [
-          {
-            "price": 2000,
-            "askingPrice": 2000,
-            "date": "2026-04-17T11:38:45.387Z",
-            "title": "Ibanez UV777P-BK Steve Vai Signature Universe 2000",
-            "url": "https://reverb.com/item/95979149-ibanez-uv777p-bk-steve-vai-signature-universe-2000"
-          }
-        ]
-      },
-      "avg": 2250
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -6911,6 +6879,38 @@
         }
       },
       "avg": 850
+    },
+    "ibanez-uv777p-bk-steve-vai-signature": {
+      "displayName": "Ibanez UV777P-BK Steve Vai Signature",
+      "brand": "Ibanez",
+      "model": "UV777P-BK Steve Vai",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-03-27T06:40:07.704Z",
+          "year": 2008,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2008 Ibanez UV777P-BK Steve Vai Signature Universe",
+          "url": "https://reverb.com/item/95464809-2008-ibanez-uv777p-bk-steve-vai-signature-universe",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
     },
     "fractal-audio-ax8": {
       "displayName": "Fractal Audio AX8",
@@ -9968,6 +9968,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 40,
+      "sum": 117559.95,
+      "sold": {
+        "count": 6,
+        "sum": 13556.48,
+        "avg": 2259,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2939,
+      "min": 414,
+      "max": 15995
+    },
     "Very Good": {
       "count": 79,
       "sum": 208251.55999999994,
@@ -9981,20 +9995,6 @@
       "avg": 2636,
       "min": 33,
       "max": 16500
-    },
-    "Good": {
-      "count": 40,
-      "sum": 117959.95,
-      "sold": {
-        "count": 7,
-        "sum": 15556.48,
-        "avg": 2222,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2949,
-      "min": 414,
-      "max": 15995
     },
     "Excellent": {
       "count": 110,
@@ -10086,7 +10086,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3122,
+      "avg": 3120,
       "count": 176
     },
     "03": {
@@ -10240,8 +10240,8 @@
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 89,
-    "2k-3k": 73,
+    "1k-2k": 90,
+    "2k-3k": 72,
     "3k-5k": 60,
     "5k-10k": 39,
     "10k+": 11
@@ -10249,8 +10249,8 @@
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 89,
-    "2k-3k": 73,
+    "1k-2k": 90,
+    "2k-3k": 72,
     "3k-5k": 60,
     "5k-10k": 36,
     "10k+": 0
@@ -10277,12 +10277,12 @@
       "avg": 19
     },
     "Ibanez": {
-      "sum": 371,
-      "count": 18,
+      "sum": 364,
+      "count": 17,
       "avg": 21
     },
     "BC Rich": {
-      "sum": 244,
+      "sum": 245,
       "count": 13,
       "avg": 19
     },
@@ -10322,12 +10322,12 @@
       "avg": 1
     },
     "Rickenbacker": {
-      "sum": 13,
+      "sum": 14,
       "count": 4,
-      "avg": 3
+      "avg": 4
     },
     "Jackson": {
-      "sum": 246,
+      "sum": 247,
       "count": 13,
       "avg": 19
     },
@@ -10367,9 +10367,9 @@
       "avg": 2
     },
     "Vintage": {
-      "sum": 86,
+      "sum": 87,
       "count": 6,
-      "avg": 14
+      "avg": 15
     },
     "Yamaha": {
       "sum": 127,
@@ -10397,9 +10397,9 @@
       "avg": 14
     },
     "Eastman": {
-      "sum": 97,
+      "sum": 98,
       "count": 4,
-      "avg": 24
+      "avg": 25
     },
     "Schecter": {
       "sum": 38,
@@ -10452,9 +10452,9 @@
       "avg": 4
     },
     "Taylor": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Echopark": {
       "sum": 101,
@@ -10482,7 +10482,7 @@
       "avg": 6
     },
     "Frank": {
-      "sum": 31,
+      "sum": 32,
       "count": 2,
       "avg": 16
     },
@@ -10552,9 +10552,9 @@
       "avg": 8
     },
     "Languedoc": {
-      "sum": 25,
+      "sum": 26,
       "count": 1,
-      "avg": 25
+      "avg": 26
     },
     "Epiphone": {
       "sum": 57,
@@ -10607,9 +10607,9 @@
       "avg": 27
     },
     "Framus": {
-      "sum": 27,
+      "sum": 28,
       "count": 1,
-      "avg": 27
+      "avg": 28
     },
     "Danocaster": {
       "sum": 27,
@@ -10657,9 +10657,9 @@
       "avg": 23
     },
     "Cornish": {
-      "sum": 38,
+      "sum": 39,
       "count": 1,
-      "avg": 38
+      "avg": 39
     },
     "Lollar": {
       "sum": 23,
@@ -10678,7 +10678,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 7,
+    "2026-04-23": 8,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
@@ -10686,7 +10686,7 @@
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 10,
+    "2026-04-15": 9,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10698,11 +10698,11 @@
     "reverb": 257,
     "marketplace": 55
   },
-  "activeModelsCount": 269,
+  "activeModelsCount": 270,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 95
+      "count": 94
     },
     {
       "username": "greg1213",
@@ -10713,12 +10713,12 @@
       "count": 30
     },
     {
-      "username": "YellowJack6",
+      "username": "Madero",
       "count": 24
     },
     {
-      "username": "Madero",
-      "count": 23
+      "username": "YellowJack6",
+      "count": 24
     },
     {
       "username": "WontonGG",
@@ -10744,7 +10744,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 34
+      "count": 33
     },
     {
       "username": "greg1213",
@@ -10785,7 +10785,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3122,
+    "avg": 3120,
     "pctBelowAvg": 17,
     "count": 176
   },
@@ -10810,10 +10810,10 @@
       "count": 15
     },
     "Ibanez": {
-      "avgPrice": 3162,
+      "avgPrice": 3223,
       "retailEst": 1000,
-      "avgDiscount": -216.2,
-      "count": 20
+      "avgDiscount": -222.3,
+      "count": 19
     },
     "Jackson": {
       "avgPrice": 4271,
@@ -10835,16 +10835,16 @@
     }
   },
   "soldPrices": {
-    "count": 79,
-    "avg": 3127,
+    "count": 78,
+    "avg": 3141,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 455.09999999999997,
-      "count": 77,
+      "totalDays": 451.49999999999994,
+      "count": 76,
       "avgDays": 5.9
     },
     "byModel": {
@@ -11087,14 +11087,6 @@
         "fastest": 3,
         "slowest": 3,
         "avgDays": 3
-      },
-      "ibanez-uv777p-bk-steve-vai-signature": {
-        "displayName": "Ibanez UV777P-BK Steve Vai Signature Universe 2000",
-        "totalDays": 3.6,
-        "count": 1,
-        "fastest": 3.6,
-        "slowest": 3.6,
-        "avgDays": 3.6
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11476,11 +11468,11 @@
         "avgDays": 2.9
       },
       "Ibanez": {
-        "totalDays": 20.7,
-        "count": 6,
+        "totalDays": 17.099999999999998,
+        "count": 5,
         "fastest": 0.1,
         "slowest": 14.4,
-        "avgDays": 3.5
+        "avgDays": 3.4
       },
       "PRS": {
         "totalDays": 4,
@@ -11675,11 +11667,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1113.1085914562248,
-      "count": 60,
+      "totalPctDrop": 1136.9181152657484,
+      "count": 61,
       "avgPctDrop": 18.6
     },
     "byBrand": {
+      "Epiphone": {
+        "totalPctDrop": 23.809523809523807,
+        "count": 1,
+        "avgPctDrop": 23.8
+      },
       "Kemper": {
         "totalPctDrop": 16.25,
         "count": 1,
@@ -11845,13 +11842,21 @@
   "sellThrough": {
     "overall": {
       "total": 292,
-      "sold": 77,
+      "sold": 76,
       "fake": 0,
-      "live": 215,
+      "live": 216,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Epiphone": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Gibson": {
         "total": 43,
         "sold": 10,
@@ -11885,12 +11890,12 @@
         "livePct": 60
       },
       "Ibanez": {
-        "total": 20,
-        "sold": 6,
+        "total": 19,
+        "sold": 5,
         "fake": 0,
         "live": 14,
-        "soldPct": 30,
-        "livePct": 70
+        "soldPct": 26,
+        "livePct": 74
       },
       "BC Rich": {
         "total": 13,
@@ -12348,14 +12353,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Epiphone": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
-      },
       "LSL": {
         "total": 1,
         "sold": 0,
@@ -12564,15 +12561,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 89,
+        "total": 90,
         "sold": 22,
-        "rate": 25
+        "rate": 24
       },
       {
         "label": "$2k–3k",
-        "total": 73,
-        "sold": 23,
-        "rate": 32
+        "total": 72,
+        "sold": 22,
+        "rate": 31
       },
       {
         "label": "$3k–5k",
@@ -12594,15 +12591,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 40,
+        "sold": 7,
+        "rate": 18
+      },
       "Very Good": {
         "total": 79,
         "sold": 21,
         "rate": 27
-      },
-      "Good": {
-        "total": 40,
-        "sold": 8,
-        "rate": 20
       },
       "Excellent": {
         "total": 110,
@@ -12734,6 +12731,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "1967 Epiphone Olympic Mahogany w case",
+        "url": "https://reverb.com/item/82447006-1967-epiphone-olympic-mahogany-w-case",
+        "price": "$1,600",
+        "priceNum": 1600,
+        "brand": "Epiphone",
+        "condition": "Good",
+        "watchers": 152,
+        "views": 1923,
+        "daysListed": 696,
+        "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Robin Wedge 1980s - Custom Abstract Airbrush Finish, Employee bui",
         "url": "https://reverb.com/item/94878813-robin-wedge-1980s-custom-abstract-airbrush-finish-employee-build-about-mint-w-kahler-and-hsc",
         "price": "$2,500",
@@ -12812,22 +12823,8 @@
         "condition": "Mint",
         "watchers": 78,
         "views": 3250,
-        "daysListed": 2127,
+        "daysListed": 2128,
         "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "2008 Ibanez EGEN18-TVF Herman Li Signature Transparent Violet Fla",
-        "url": "https://reverb.com/item/94650763",
-        "price": "$2,600",
-        "priceNum": 2600,
-        "brand": "Ibanez",
-        "condition": "Excellent",
-        "watchers": 74,
-        "views": 1228,
-        "daysListed": 57,
-        "image": "https://rvb-img.reverb.com/i/s--OZVeU_gm--/quality=medium-low,height=800,width=800,fit=contain/c11340ed-6dff-40ef-9a20-85dbc4a28128.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12842,7 +12839,7 @@
         "condition": "Mint",
         "watchers": 78,
         "views": 3250,
-        "daysListed": 2127,
+        "daysListed": 2128,
         "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12872,6 +12869,20 @@
         "views": 1526,
         "daysListed": 722,
         "image": "https://rvb-img.reverb.com/i/s--Qw-G0ApJ--/quality=medium-low,height=800,width=800,fit=contain/fef79f29-68ad-481d-a242-9884453ee437.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "1967 Epiphone Olympic Mahogany w case",
+        "url": "https://reverb.com/item/82447006-1967-epiphone-olympic-mahogany-w-case",
+        "price": "$1,600",
+        "priceNum": 1600,
+        "brand": "Epiphone",
+        "condition": "Good",
+        "watchers": 152,
+        "views": 1923,
+        "daysListed": 696,
+        "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       },
@@ -12954,7 +12965,7 @@
         "condition": "Brand New",
         "watchers": 13,
         "views": 421,
-        "daysListed": 302,
+        "daysListed": 303,
         "image": "https://rvb-img.reverb.com/i/s--sPiNRT-j--/quality=medium-low,height=800,width=800,fit=contain/d1xu64yqud2gsnbq3pv2.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13028,20 +13039,6 @@
         "image": "https://rvb-img.reverb.com/i/s--P23aH4NZ--/quality=medium-low,height=800,width=800,fit=contain/eq1gmrzmgxetih3vj9oz.jpg",
         "modelAvg": null,
         "pctVsAvg": null
-      },
-      {
-        "title": "PRS Wood Library DGT Electric Guitar - Private Stock Bahamian Blu",
-        "url": "https://reverb.com/item/92254615-prs-wood-library-dgt-electric-guitar-private-stock-bahamian-blue-finish-chucksclusive-240385600-2024",
-        "price": "$4,420",
-        "priceNum": 4420,
-        "brand": "PRS",
-        "condition": "Brand New",
-        "watchers": 31,
-        "views": 494,
-        "daysListed": 189,
-        "image": "https://rvb-img.reverb.com/i/s--BI0mX-Fj--/quality=medium-low,height=800,width=800,fit=contain/sevacou4unlfnyo532i1.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -13065,10 +13062,35 @@
         "sellRate": 58,
         "count": 12,
         "sold": 7
+      },
+      {
+        "brand": "Epiphone",
+        "avgPrice": 1133,
+        "sellRate": 33,
+        "count": 3,
+        "sold": 1
       }
     ]
   },
   "byBrandLine": {
+    "Epiphone|Epiphone": {
+      "brand": "Epiphone",
+      "brandLine": "Epiphone",
+      "tier": "budget",
+      "count": 3,
+      "sum": 3398.31,
+      "avg": 1133,
+      "min": 475,
+      "max": 1600,
+      "sold": 1,
+      "soldSum": 475,
+      "soldAvg": 475,
+      "live": 2,
+      "sellRate": 33,
+      "totalDays": 31.3,
+      "soldCount": 1,
+      "avgDaysToSell": 31.3
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13083,7 +13105,7 @@
       "soldAvg": 3078,
       "live": 25,
       "sellRate": 22,
-      "totalDays": 101.3,
+      "totalDays": 101.6,
       "soldCount": 7,
       "avgDaysToSell": 14.5
     },
@@ -13101,7 +13123,7 @@
       "soldAvg": 2699,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 104.4,
+      "totalDays": 104.5,
       "soldCount": 5,
       "avgDaysToSell": 20.9
     },
@@ -13109,19 +13131,19 @@
       "brand": "Ibanez",
       "brandLine": "Ibanez J.Custom",
       "tier": "premium",
-      "count": 8,
-      "sum": 35333,
-      "avg": 4417,
+      "count": 7,
+      "sum": 33333,
+      "avg": 4762,
       "min": 1999,
       "max": 14500,
-      "sold": 4,
-      "soldSum": 12584,
-      "soldAvg": 3146,
+      "sold": 3,
+      "soldSum": 10584,
+      "soldAvg": 3528,
       "live": 4,
-      "sellRate": 50,
-      "totalDays": 78.39999999999999,
-      "soldCount": 4,
-      "avgDaysToSell": 19.6
+      "sellRate": 43,
+      "totalDays": 69.1,
+      "soldCount": 3,
+      "avgDaysToSell": 23
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13328,7 +13350,7 @@
       "soldAvg": 1477,
       "live": 4,
       "sellRate": 60,
-      "totalDays": 122.20000000000002,
+      "totalDays": 122.30000000000001,
       "soldCount": 6,
       "avgDaysToSell": 20.4
     },
@@ -13346,7 +13368,7 @@
       "soldAvg": 16365,
       "live": 7,
       "sellRate": 30,
-      "totalDays": 82.5,
+      "totalDays": 82.6,
       "soldCount": 3,
       "avgDaysToSell": 27.5
     },
@@ -13902,9 +13924,9 @@
       "soldAvg": 2500,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 54.400000000000006,
+      "totalDays": 54.5,
       "soldCount": 3,
-      "avgDaysToSell": 18.1
+      "avgDaysToSell": 18.2
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -13922,24 +13944,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Epiphone|Epiphone": {
-      "brand": "Epiphone",
-      "brandLine": "Epiphone",
-      "tier": "budget",
-      "count": 2,
-      "sum": 1798.31,
-      "avg": 899,
-      "min": 475,
-      "max": 1323.31,
-      "sold": 1,
-      "soldSum": 475,
-      "soldAvg": 475,
-      "live": 1,
-      "sellRate": 50,
-      "totalDays": 31.3,
-      "soldCount": 1,
-      "avgDaysToSell": 31.3
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -14047,8 +14051,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 72,
-    "totalOffers": 166,
+    "withOffers": 73,
+    "totalOffers": 168,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 69
   },
@@ -14084,15 +14088,15 @@
     {
       "label": "31+",
       "total": 59,
-      "sold": 14,
-      "rate": 24
+      "sold": 13,
+      "rate": 22
     }
   ],
   "offersEffect": {
     "on": {
       "total": 177,
-      "sold": 47,
-      "rate": 27
+      "sold": 46,
+      "rate": 26
     },
     "off": {
       "total": 37,
@@ -14102,12 +14106,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 102,
-      "sold": 19,
-      "rate": 19
+      "total": 101,
+      "sold": 18,
+      "rate": 18
     },
     "regular": {
-      "total": 99,
+      "total": 100,
       "sold": 32,
       "rate": 32
     }
@@ -14121,9 +14125,9 @@
     },
     {
       "state": "PA",
-      "total": 17,
+      "total": 18,
       "sold": 5,
-      "rate": 29
+      "rate": 28
     },
     {
       "state": "WA",
@@ -14174,16 +14178,16 @@
       "rate": 17
     },
     {
-      "state": "MA",
-      "total": 6,
-      "sold": 4,
-      "rate": 67
-    },
-    {
       "state": "OR",
       "total": 5,
       "sold": 1,
       "rate": 20
+    },
+    {
+      "state": "MA",
+      "total": 5,
+      "sold": 3,
+      "rate": 60
     },
     {
       "state": "OH",
