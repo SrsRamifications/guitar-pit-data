@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T05:20:32.782Z",
+  "generatedAt": "2026-04-23T05:29:33.841Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1123129.15,
-    "avg": 3647,
+    "sum": 1126024.15,
+    "avg": 3656,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 799010.16,
-    "avg": 2690,
+    "sum": 801905.16,
+    "avg": 2700,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8695,
+    "thresholdHigh": 8710,
     "thresholdLow": 0,
     "count": 11,
     "items": [
@@ -117,10 +117,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 515536.8,
+      "sum": 518431.8,
       "min": 70,
       "max": 15995,
-      "avg": 2913
+      "avg": 2929
     },
     "2026-03": {
       "count": 131,
@@ -131,35 +131,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 257,
+      "sum": 791870.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3081
+    },
     "marketplace": {
       "count": 51,
       "sum": 334153.79,
       "min": 139.99,
       "max": 99000,
       "avg": 6552
-    },
-    "reverb": {
-      "count": 257,
-      "sum": 788975.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3070
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 257,
+      "sum": 791870.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3081
+    },
     "guitarcenter.com": {
       "count": 21,
       "sum": 38679.81,
       "min": 139.99,
       "max": 5499.99,
       "avg": 1842
-    },
-    "reverb.com": {
-      "count": 257,
-      "sum": 788975.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3070
     },
     "chicagomusicexchange.com": {
       "count": 21,
@@ -226,6 +226,37 @@
     }
   },
   "byModel": {
+    "fender-stratocaster-masterbuilt-nos": {
+      "displayName": "Fender Todd Krause Masterbuilt '56 Stratocaster NOS 2024 - Surf Green",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": "Masterbuilt Nos",
+      "count": 1,
+      "sum": 6395,
+      "min": 6395,
+      "max": 6395,
+      "sightings": [
+        {
+          "price": 6395,
+          "date": "2026-04-23T05:29:19.503Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Todd Krause Masterbuilt '56 Stratocaster NOS 2024 - Surf Green",
+          "url": "https://reverb.com/item/96294801-fender-todd-krause-masterbuilt-56-stratocaster-nos-2024-surf-green",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 6395,
+          "min": 6395,
+          "max": 6395,
+          "avg": 6395
+        }
+      },
+      "avg": 6395
+    },
     "bc-rich-kkv-tribal-solid": {
       "displayName": "Used B.C. Rich KKV TRIBAL Solid Body Electric Guitar TRIBAL",
       "brand": "BC Rich",
@@ -5506,20 +5537,11 @@
       "brand": "Jackson",
       "model": "Soloist",
       "variant": "Usa Custom Shop",
-      "count": 2,
-      "sum": 7000,
+      "count": 1,
+      "sum": 3500,
       "min": 3500,
       "max": 3500,
       "sightings": [
-        {
-          "price": 3500,
-          "date": "2026-04-16T06:03:45.284Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Jackson USA Custom Shop Soloist Platinum Pearl 1985 w/OHSC",
-          "url": "https://reverb.com/uk/item/96063440-jackson-usa-custom-shop-soloist-platinum-pearl-1985-w-ohsc",
-          "condition": "Very Good"
-        },
         {
           "price": 3500,
           "date": "2026-04-16T06:18:42.035Z",
@@ -5532,8 +5554,8 @@
       ],
       "byCondition": {
         "Very Good": {
-          "count": 2,
-          "sum": 7000,
+          "count": 1,
+          "sum": 3500,
           "min": 3500,
           "max": 3500,
           "avg": 3500
@@ -9826,6 +9848,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 108,
+      "sum": 385550.73,
+      "sold": {
+        "count": 34,
+        "sum": 121028.85,
+        "avg": 3560,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3570,
+      "min": 190,
+      "max": 35900
+    },
     "Used": {
       "count": 32,
       "sum": 164510.80999999997,
@@ -9851,23 +9887,9 @@
       "min": 70,
       "max": 15995
     },
-    "Excellent": {
-      "count": 107,
-      "sum": 379155.73,
-      "sold": {
-        "count": 34,
-        "sum": 121028.85,
-        "avg": 3560,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3544,
-      "min": 190,
-      "max": 35900
-    },
     "Very Good": {
-      "count": 80,
-      "sum": 214654.55999999994,
+      "count": 79,
+      "sum": 211154.55999999994,
       "sold": {
         "count": 19,
         "sum": 41085.850000000006,
@@ -9875,7 +9897,7 @@
         "min": 475,
         "max": 4022
       },
-      "avg": 2683,
+      "avg": 2673,
       "min": 33,
       "max": 16500
     },
@@ -9944,7 +9966,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2913,
+      "avg": 2929,
       "count": 177
     },
     "03": {
@@ -10100,8 +10122,8 @@
     "500-1k": 21,
     "1k-2k": 88,
     "2k-3k": 75,
-    "3k-5k": 62,
-    "5k-10k": 36,
+    "3k-5k": 61,
+    "5k-10k": 37,
     "10k+": 9
   },
   "priceDistributionFiltered": {
@@ -10109,20 +10131,20 @@
     "500-1k": 21,
     "1k-2k": 88,
     "2k-3k": 75,
-    "3k-5k": 62,
-    "5k-10k": 34,
+    "3k-5k": 61,
+    "5k-10k": 35,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 202,
+      "count": 19,
+      "avg": 11
+    },
     "BC Rich": {
       "sum": 239,
       "count": 15,
       "avg": 16
-    },
-    "Fender": {
-      "sum": 200,
-      "count": 18,
-      "avg": 11
     },
     "Gibson": {
       "sum": 663,
@@ -10195,14 +10217,14 @@
       "avg": 1
     },
     "Rickenbacker": {
-      "sum": 15,
+      "sum": 16,
       "count": 4,
       "avg": 4
     },
     "Jackson": {
-      "sum": 239,
-      "count": 12,
-      "avg": 20
+      "sum": 232,
+      "count": 11,
+      "avg": 21
     },
     "Orange": {
       "sum": 25,
@@ -10230,7 +10252,7 @@
       "avg": 2
     },
     "Kiesel": {
-      "sum": 238,
+      "sum": 239,
       "count": 10,
       "avg": 24
     },
@@ -10300,19 +10322,19 @@
       "avg": 4
     },
     "Music Man": {
-      "sum": 75,
+      "sum": 76,
       "count": 4,
       "avg": 19
     },
     "Squier": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Ruokangas": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Taylor": {
       "sum": 5,
@@ -10506,14 +10528,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 24,
+    "2026-04-23": 25,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 15,
+    "2026-04-16": 14,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10522,14 +10544,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 56,
-    "reverb": 257
+    "reverb": 257,
+    "marketplace": 56
   },
-  "activeModelsCount": 267,
+  "activeModelsCount": 268,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 88
+      "count": 89
     },
     {
       "username": "greg1213",
@@ -10612,17 +10634,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2913,
+    "avg": 2929,
     "pctBelowAvg": 20,
     "count": 177
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5001,
+      "avgPrice": 5062,
       "retailEst": 800,
-      "avgDiscount": -525.2,
-      "count": 22
+      "avgDiscount": -532.8,
+      "count": 23
     },
     "Gibson": {
       "avgPrice": 3317,
@@ -10643,10 +10665,10 @@
       "count": 19
     },
     "Jackson": {
-      "avgPrice": 3708,
+      "avgPrice": 3726,
       "retailEst": 1000,
-      "avgDiscount": -270.8,
-      "count": 12
+      "avgDiscount": -272.6,
+      "count": 11
     },
     "Kiesel": {
       "avgPrice": 1546,
@@ -11627,6 +11649,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Fender": {
+        "total": 24,
+        "sold": 6,
+        "fake": 0,
+        "live": 18,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "BC Rich": {
         "total": 15,
         "sold": 2,
@@ -11634,14 +11664,6 @@
         "live": 13,
         "soldPct": 13,
         "livePct": 87
-      },
-      "Fender": {
-        "total": 23,
-        "sold": 6,
-        "fake": 0,
-        "live": 17,
-        "soldPct": 26,
-        "livePct": 74
       },
       "Gibson": {
         "total": 46,
@@ -11780,12 +11802,12 @@
         "livePct": 100
       },
       "Jackson": {
-        "total": 12,
+        "total": 11,
         "sold": 2,
         "fake": 0,
-        "live": 10,
-        "soldPct": 17,
-        "livePct": 83
+        "live": 9,
+        "soldPct": 18,
+        "livePct": 82
       },
       "Orange": {
         "total": 1,
@@ -12311,13 +12333,13 @@
       },
       {
         "label": "$3k–5k",
-        "total": 62,
+        "total": 61,
         "sold": 20,
-        "rate": 32
+        "rate": 33
       },
       {
         "label": "$5k–10k",
-        "total": 36,
+        "total": 37,
         "sold": 4,
         "rate": 11
       },
@@ -12329,6 +12351,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 108,
+        "sold": 36,
+        "rate": 33
+      },
       "Used": {
         "total": 32,
         "sold": 4,
@@ -12339,13 +12366,8 @@
         "sold": 7,
         "rate": 16
       },
-      "Excellent": {
-        "total": 107,
-        "sold": 36,
-        "rate": 34
-      },
       "Very Good": {
-        "total": 80,
+        "total": 79,
         "sold": 19,
         "rate": 24
       },
@@ -12862,6 +12884,23 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Masterbuilt": {
+      "brand": "Fender",
+      "brandLine": "Fender Masterbuilt",
+      "tier": "ultra",
+      "count": 1,
+      "sum": 6395,
+      "avg": 6395,
+      "min": 6395,
+      "max": 6395,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -12946,9 +12985,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 31.3,
+      "totalDays": 31.4,
       "soldCount": 1,
-      "avgDaysToSell": 31.3
+      "avgDaysToSell": 31.4
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -12964,7 +13003,7 @@
       "soldAvg": 2699,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 104.80000000000001,
+      "totalDays": 104.9,
       "soldCount": 5,
       "avgDaysToSell": 21
     },
@@ -13111,19 +13150,19 @@
       "brand": "Jackson",
       "brandLine": "Jackson USA Custom Shop",
       "tier": "ultra",
-      "count": 6,
-      "sum": 22394,
-      "avg": 3732,
+      "count": 5,
+      "sum": 18894,
+      "avg": 3779,
       "min": 2516,
       "max": 6000,
       "sold": 1,
       "soldSum": 2516,
       "soldAvg": 2516,
-      "live": 5,
-      "sellRate": 17,
-      "totalDays": 4.4,
+      "live": 4,
+      "sellRate": 20,
+      "totalDays": 4.5,
       "soldCount": 1,
-      "avgDaysToSell": 4.4
+      "avgDaysToSell": 4.5
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -13350,7 +13389,7 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 60.2,
+      "totalDays": 60.3,
       "soldCount": 3,
       "avgDaysToSell": 20.1
     },
@@ -13643,9 +13682,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 23.2,
+      "totalDays": 23.3,
       "soldCount": 1,
-      "avgDaysToSell": 23.2
+      "avgDaysToSell": 23.3
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -13788,9 +13827,9 @@
     },
     {
       "label": "1–5",
-      "total": 22,
+      "total": 23,
       "sold": 3,
-      "rate": 14
+      "rate": 13
     },
     {
       "label": "6–15",
@@ -13806,33 +13845,33 @@
     },
     {
       "label": "31+",
-      "total": 62,
+      "total": 61,
       "sold": 13,
       "rate": 21
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 176,
+      "total": 175,
       "sold": 44,
       "rate": 25
     },
     "off": {
-      "total": 38,
+      "total": 39,
       "sold": 11,
-      "rate": 29
+      "rate": 28
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 106,
+      "total": 105,
       "sold": 16,
       "rate": 15
     },
     "regular": {
-      "total": 95,
+      "total": 96,
       "sold": 30,
-      "rate": 32
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -13850,9 +13889,9 @@
     },
     {
       "state": "WA",
-      "total": 14,
+      "total": 13,
       "sold": 2,
-      "rate": 14
+      "rate": 15
     },
     {
       "state": "TX",
@@ -13967,6 +14006,12 @@
       "total": 3,
       "sold": 3,
       "rate": 100
+    },
+    {
+      "state": "MT",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "MD",
