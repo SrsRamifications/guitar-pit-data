@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T04:13:17.543Z",
+  "generatedAt": "2026-04-23T04:13:31.205Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1149691.15,
-    "avg": 3733,
+    "sum": 1146663.15,
+    "avg": 3723,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 802545.16,
-    "avg": 2720,
+    "sum": 799517.16,
+    "avg": 2710,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8700,
+    "thresholdHigh": 8710,
     "thresholdLow": 0,
     "count": 13,
     "items": [
@@ -133,10 +133,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 542098.8,
+      "sum": 539070.8,
       "min": 139.99,
       "max": 15995,
-      "avg": 3063
+      "avg": 3046
     },
     "2026-03": {
       "count": 131,
@@ -147,25 +147,32 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 51,
+      "sum": 334153.79,
+      "min": 139.99,
+      "max": 99000,
+      "avg": 6552
+    },
     "reverb": {
-      "count": 258,
-      "sum": 815834.36,
+      "count": 257,
+      "sum": 812509.36,
       "min": 33,
       "max": 35900,
       "avg": 3162
-    },
-    "marketplace": {
-      "count": 50,
-      "sum": 333856.79,
-      "min": 139.99,
-      "max": 99000,
-      "avg": 6677
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 21,
+      "sum": 38679.81,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1842
+    },
     "reverb.com": {
-      "count": 258,
-      "sum": 815834.36,
+      "count": 257,
+      "sum": 812509.36,
       "min": 33,
       "max": 35900,
       "avg": 3162
@@ -190,13 +197,6 @@
       "min": 5999.99,
       "max": 5999.99,
       "avg": 6000
-    },
-    "guitarcenter.com": {
-      "count": 20,
-      "sum": 38382.81,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1919
     },
     "tapestrymusic.com": {
       "count": 2,
@@ -242,6 +242,37 @@
     }
   },
   "byModel": {
+    "positive-grid-spark-50w-guitar": {
+      "displayName": "Positive Grid Spark 2 50W Guitar Combo Amp - Black",
+      "brand": "Positive Grid",
+      "model": "Spark 50W Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 297,
+      "min": 297,
+      "max": 297,
+      "sightings": [
+        {
+          "price": 297,
+          "date": "2026-04-23T04:13:16.553Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Positive Grid Spark 2 50W Guitar Combo Amp - Black",
+          "url": "https://www.guitarcenter.com/Positive-Grid/Spark-2-50W-Guitar-Combo-Amp-Black-1500000438185.gc",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 297,
+          "min": 297,
+          "max": 297,
+          "avg": 297
+        }
+      },
+      "avg": 297
+    },
     "gsb019": {
       "displayName": "SAITO GUITARS S-622CST 2023 - Nacho ≒3.32kg [Made in Japan][GSB019]",
       "brand": null,
@@ -5644,37 +5675,6 @@
       },
       "avg": 3199
     },
-    "navigator-les-paul": {
-      "displayName": "2007 Navigator E-LP-CTM Black",
-      "brand": "Navigator",
-      "model": "Les Paul",
-      "variant": null,
-      "count": 1,
-      "sum": 3325,
-      "min": 3325,
-      "max": 3325,
-      "sightings": [
-        {
-          "price": 3325,
-          "date": "2026-04-15T19:07:22.756Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2007 Navigator E-LP-CTM Black",
-          "url": "https://reverb.com/item/96059211-2007-navigator-e-lp-ctm-black",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 3325,
-          "min": 3325,
-          "max": 3325,
-          "avg": 3325
-        }
-      },
-      "avg": 3325
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9960,9 +9960,20 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 32,
+      "sum": 164510.80999999997,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 5141,
+      "min": 139.99,
+      "max": 99000
+    },
     "Very Good": {
-      "count": 81,
-      "sum": 212291.55999999994,
+      "count": 80,
+      "sum": 208966.55999999994,
       "sold": {
         "count": 21,
         "sum": 44204.85,
@@ -9970,7 +9981,7 @@
         "min": 475,
         "max": 4022
       },
-      "avg": 2621,
+      "avg": 2612,
       "min": 33,
       "max": 16500
     },
@@ -10012,17 +10023,6 @@
       "avg": 4569,
       "min": 2704,
       "max": 6679
-    },
-    "Used": {
-      "count": 31,
-      "sum": 164213.80999999997,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 5297,
-      "min": 139.99,
-      "max": 99000
     },
     "Brand New": {
       "count": 24,
@@ -10078,7 +10078,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3063,
+      "avg": 3046,
       "count": 177
     },
     "03": {
@@ -10201,13 +10201,6 @@
       "date": "2026-04-17T22:38:42.647Z"
     },
     {
-      "title": "2007 Navigator E-LP-CTM Black",
-      "url": "https://reverb.com/item/96059211-2007-navigator-e-lp-ctm-black",
-      "oldPrice": "$3,500",
-      "newPrice": "$3,325",
-      "date": "2026-04-22T20:19:07.126Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10227,27 +10220,39 @@
       "oldPrice": "$672.36",
       "newPrice": "$668.31",
       "date": "2026-03-27T23:42:55.870Z"
+    },
+    {
+      "title": "Patrick James Eggle Macon Special  2025 - Flame top - Mojo tone",
+      "url": "https://reverb.com/item/95518332-patrick-james-eggle-macon-special-2025-flame-top-mojo-tone",
+      "oldPrice": "$2,799",
+      "newPrice": "$2,659",
+      "date": "2026-04-03T07:37:59.231Z"
     }
   ],
   "priceDistribution": {
-    "0-500": 15,
+    "0-500": 16,
     "500-1k": 20,
     "1k-2k": 91,
     "2k-3k": 74,
-    "3k-5k": 59,
+    "3k-5k": 58,
     "5k-10k": 38,
     "10k+": 11
   },
   "priceDistributionFiltered": {
-    "0-500": 15,
+    "0-500": 16,
     "500-1k": 20,
     "1k-2k": 91,
     "2k-3k": 74,
-    "3k-5k": 59,
+    "3k-5k": 58,
     "5k-10k": 36,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Positive Grid": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Gibson": {
       "sum": 601,
       "count": 38,
@@ -10533,11 +10538,6 @@
       "count": 1,
       "avg": 7
     },
-    "Navigator": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 26,
       "count": 1,
@@ -10665,7 +10665,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 11,
+    "2026-04-23": 12,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
@@ -10673,7 +10673,7 @@
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 7,
+    "2026-04-15": 6,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10682,14 +10682,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 258,
-    "marketplace": 55
+    "marketplace": 56,
+    "reverb": 257
   },
   "activeModelsCount": 270,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 92
+      "count": 91
     },
     {
       "username": "greg1213",
@@ -10725,7 +10725,7 @@
     },
     {
       "username": "ᜁᜃ᜔ᜐᜒᜇᜒᜂᜐ᜔",
-      "count": 5
+      "count": 6
     }
   ],
   "topDealHunters": [
@@ -10772,7 +10772,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3063,
+    "avg": 3046,
     "pctBelowAvg": 18,
     "count": 177
   },
@@ -11654,9 +11654,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1154.565174089278,
-      "count": 62,
-      "avgPctDrop": 18.6
+      "totalPctDrop": 1149.565174089278,
+      "count": 61,
+      "avgPctDrop": 18.8
     },
     "byBrand": {
       "Epiphone": {
@@ -11769,11 +11769,6 @@
         "count": 1,
         "avgPctDrop": 15
       },
-      "Navigator": {
-        "totalPctDrop": 5,
-        "count": 1,
-        "avgPctDrop": 5
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -11836,6 +11831,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Positive Grid": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Fender": {
         "total": 22,
         "sold": 6,
@@ -12324,14 +12327,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Navigator": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12536,9 +12531,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 15,
+        "total": 16,
         "sold": 4,
-        "rate": 27
+        "rate": 25
       },
       {
         "label": "$500–1k",
@@ -12560,7 +12555,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 59,
+        "total": 58,
         "sold": 21,
         "rate": 36
       },
@@ -12578,8 +12573,13 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 32,
+        "sold": 4,
+        "rate": 13
+      },
       "Very Good": {
-        "total": 81,
+        "total": 80,
         "sold": 21,
         "rate": 26
       },
@@ -12597,11 +12597,6 @@
         "total": 3,
         "sold": 0,
         "rate": 0
-      },
-      "Used": {
-        "total": 31,
-        "sold": 4,
-        "rate": 13
       },
       "Brand New": {
         "total": 24,
@@ -14055,7 +14050,7 @@
     },
     {
       "label": "6–15",
-      "total": 58,
+      "total": 57,
       "sold": 15,
       "rate": 26
     },
@@ -14074,7 +14069,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 178,
+      "total": 177,
       "sold": 46,
       "rate": 26
     },
@@ -14091,7 +14086,7 @@
       "rate": 18
     },
     "regular": {
-      "total": 100,
+      "total": 99,
       "sold": 32,
       "rate": 32
     }
@@ -14099,9 +14094,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 22,
+      "total": 21,
       "sold": 4,
-      "rate": 18
+      "rate": 19
     },
     {
       "state": "PA",
