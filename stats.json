@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T04:16:01.777Z",
+  "generatedAt": "2026-04-23T04:17:23.485Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1147763.15,
+    "sum": 1148058.15,
     "avg": 3727,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 800617.16,
-    "avg": 2714,
+    "sum": 800912.16,
+    "avg": 2715,
     "min": 33,
     "max": 8499,
     "median": 2299
@@ -133,10 +133,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 540170.8,
+      "sum": 540465.8,
       "min": 139.99,
       "max": 15995,
-      "avg": 3052
+      "avg": 3053
     },
     "2026-03": {
       "count": 131,
@@ -149,10 +149,10 @@
   "byCategory": {
     "reverb": {
       "count": 257,
-      "sum": 813609.36,
+      "sum": 813904.36,
       "min": 33,
       "max": 35900,
-      "avg": 3166
+      "avg": 3167
     },
     "marketplace": {
       "count": 51,
@@ -165,10 +165,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 257,
-      "sum": 813609.36,
+      "sum": 813904.36,
       "min": 33,
       "max": 35900,
-      "avg": 3166
+      "avg": 3167
     },
     "guitarcenter.com": {
       "count": 21,
@@ -242,6 +242,37 @@
     }
   },
   "byModel": {
+    "martin-d-28": {
+      "displayName": "Clean! 1975 Martin D-28 Dreadnought Acoustic Guitar Natural + OHSC",
+      "brand": "Martin",
+      "model": "D-28",
+      "variant": null,
+      "count": 1,
+      "sum": 2895,
+      "min": 2895,
+      "max": 2895,
+      "sightings": [
+        {
+          "price": 2895,
+          "date": "2026-04-23T04:17:09.303Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Clean! 1975 Martin D-28 Dreadnought Acoustic Guitar Natural + OHSC",
+          "url": "https://reverb.com/item/96290691",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2895,
+          "min": 2895,
+          "max": 2895,
+          "avg": 2895
+        }
+      },
+      "avg": 2895
+    },
     "telecaster": {
       "displayName": "Luxxtone Tele",
       "brand": null,
@@ -5592,37 +5623,6 @@
       },
       "avg": 7950
     },
-    "yamaha-sa2000-ca1980": {
-      "displayName": "Yamaha SA2000 ca.1980 - Sunburst",
-      "brand": "Yamaha",
-      "model": "SA2000 ca.1980",
-      "variant": null,
-      "count": 1,
-      "sum": 2600,
-      "min": 2600,
-      "max": 2600,
-      "sightings": [
-        {
-          "price": 2600,
-          "date": "2026-04-15T22:03:36.157Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Yamaha SA2000 ca.1980 - Sunburst",
-          "url": "https://reverb.com/item/96060579-yamaha-sa2000-ca-1980-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2600,
-          "min": 2600,
-          "max": 2600,
-          "avg": 2600
-        }
-      },
-      "avg": 2600
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9909,8 +9909,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 108,
-      "sum": 403837.73,
+      "count": 109,
+      "sum": 406732.73,
       "sold": {
         "count": 34,
         "sum": 121028.85,
@@ -9918,7 +9918,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3739,
+      "avg": 3731,
       "min": 190,
       "max": 35900
     },
@@ -9934,8 +9934,8 @@
       "max": 99000
     },
     "Very Good": {
-      "count": 80,
-      "sum": 208966.55999999994,
+      "count": 79,
+      "sum": 206366.55999999994,
       "sold": {
         "count": 21,
         "sum": 44204.85,
@@ -10026,7 +10026,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3052,
+      "avg": 3053,
       "count": 177
     },
     "03": {
@@ -10196,6 +10196,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Martin": {
+      "sum": 27,
+      "count": 3,
+      "avg": 9
+    },
     "Gibson": {
       "sum": 601,
       "count": 39,
@@ -10317,9 +10322,9 @@
       "avg": 15
     },
     "Yamaha": {
-      "sum": 127,
-      "count": 6,
-      "avg": 21
+      "sum": 120,
+      "count": 5,
+      "avg": 24
     },
     "Greco": {
       "sum": 94,
@@ -10375,11 +10380,6 @@
       "sum": 4,
       "count": 1,
       "avg": 4
-    },
-    "Martin": {
-      "sum": 27,
-      "count": 2,
-      "avg": 14
     },
     "Music Man": {
       "sum": 75,
@@ -10608,7 +10608,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 14,
+    "2026-04-23": 15,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
@@ -10616,7 +10616,7 @@
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 4,
+    "2026-04-15": 3,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10648,7 +10648,7 @@
     },
     {
       "username": "Madero",
-      "count": 25
+      "count": 24
     },
     {
       "username": "WontonGG",
@@ -10656,7 +10656,7 @@
     },
     {
       "username": "jazee_",
-      "count": 12
+      "count": 13
     },
     {
       "username": "scottcorgan",
@@ -10715,7 +10715,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3052,
+    "avg": 3053,
     "pctBelowAvg": 18,
     "count": 177
   },
@@ -11751,6 +11751,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Martin": {
+        "total": 3,
+        "sold": 2,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 67,
+        "livePct": 33
+      },
       "Gibson": {
         "total": 43,
         "sold": 10,
@@ -11952,10 +11960,10 @@
         "livePct": 100
       },
       "Yamaha": {
-        "total": 6,
+        "total": 5,
         "sold": 0,
         "fake": 0,
-        "live": 6,
+        "live": 5,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12054,14 +12062,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Martin": {
-        "total": 2,
-        "sold": 2,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
       },
       "TopHat": {
         "total": 1,
@@ -12486,7 +12486,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 108,
+        "total": 109,
         "sold": 36,
         "rate": 33
       },
@@ -12496,9 +12496,9 @@
         "rate": 13
       },
       "Very Good": {
-        "total": 80,
+        "total": 79,
         "sold": 21,
-        "rate": 26
+        "rate": 27
       },
       "Good": {
         "total": 41,
@@ -12981,6 +12981,23 @@
     ]
   },
   "byBrandLine": {
+    "Martin|Martin USA": {
+      "brand": "Martin",
+      "brandLine": "Martin USA",
+      "tier": "premium",
+      "count": 1,
+      "sum": 2895,
+      "avg": 2895,
+      "min": 2895,
+      "max": 2895,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13616,15 +13633,15 @@
       "brand": "Yamaha",
       "brandLine": "Yamaha SG/SA Premium",
       "tier": null,
-      "count": 3,
-      "sum": 5898.99,
-      "avg": 1966,
+      "count": 2,
+      "sum": 3298.99,
+      "avg": 1649,
       "min": 1299,
-      "max": 2600,
+      "max": 1999.99,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 3,
+      "live": 2,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -13944,7 +13961,7 @@
     "withOffers": 71,
     "totalOffers": 165,
     "avgOffersPerListing": 2.3,
-    "offersEnabledPct": 69
+    "offersEnabledPct": 68
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13959,15 +13976,15 @@
     },
     {
       "label": "1–5",
-      "total": 27,
+      "total": 26,
       "sold": 3,
-      "rate": 11
+      "rate": 12
     },
     {
       "label": "6–15",
-      "total": 57,
+      "total": 58,
       "sold": 14,
-      "rate": 25
+      "rate": 24
     },
     {
       "label": "16–30",
@@ -13984,14 +14001,14 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 176,
       "sold": 44,
       "rate": 25
     },
     "off": {
-      "total": 37,
+      "total": 38,
       "sold": 13,
-      "rate": 35
+      "rate": 34
     }
   },
   "sellerType": {
@@ -14009,9 +14026,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 21,
+      "total": 22,
       "sold": 4,
-      "rate": 19
+      "rate": 18
     },
     {
       "state": "PA",
@@ -14134,12 +14151,6 @@
       "rate": 33
     },
     {
-      "state": "AL",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
-    },
-    {
       "state": "KS",
       "total": 2,
       "sold": 0,
@@ -14147,6 +14158,12 @@
     },
     {
       "state": "AB",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "AL",
       "total": 2,
       "sold": 0,
       "rate": 0
