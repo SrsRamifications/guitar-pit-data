@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T17:38:25.915Z",
+  "generatedAt": "2026-04-23T17:49:10.006Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1135511.15,
+    "sum": 1135711.15,
     "avg": 3687,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 801402.16,
-    "avg": 2707,
+    "sum": 801602.16,
+    "avg": 2708,
     "min": 33,
     "max": 8499,
     "median": 2300
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 527918.8,
+      "sum": 528118.8,
       "min": 70,
       "max": 15995,
-      "avg": 2983
+      "avg": 2984
     },
     "2026-03": {
       "count": 131,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 257,
-      "sum": 801357.36,
+      "sum": 801557.36,
       "min": 33,
       "max": 35900,
-      "avg": 3118
+      "avg": 3119
     },
     "marketplace": {
       "count": 51,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 257,
-      "sum": 801357.36,
+      "sum": 801557.36,
       "min": 33,
       "max": 35900,
-      "avg": 3118
+      "avg": 3119
     },
     "guitarcenter.com": {
       "count": 21,
@@ -234,6 +234,37 @@
     }
   },
   "byModel": {
+    "bc-rich-polaris-wizard-warlock": {
+      "displayName": "Polaris Wizard - BC Rich Warlock Copy - 1980’s - Blue Burst - w/OHSC",
+      "brand": "BC Rich",
+      "model": "Polaris Wizard Warlock",
+      "variant": null,
+      "count": 1,
+      "sum": 400,
+      "min": 400,
+      "max": 400,
+      "sightings": [
+        {
+          "price": 400,
+          "date": "2026-04-23T17:48:56.201Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Polaris Wizard - BC Rich Warlock Copy - 1980’s - Blue Burst - w/OHSC",
+          "url": "https://reverb.com/item/91198146-polaris-wizard-bc-rich-warlock-copy-1980-s-blue-burst-w-ohsc",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 400,
+          "min": 400,
+          "max": 400,
+          "avg": 400
+        }
+      },
+      "avg": 400
+    },
     "prs-ce-24": {
       "displayName": "PRS CE 24 Sprayer's Choice - Pink Magenta Sparkle",
       "brand": "PRS",
@@ -5600,37 +5631,6 @@
       },
       "avg": 3313
     },
-    "charvel-dinky-hh": {
-      "displayName": "Charvel Dinky Hh",
-      "brand": "Charvel",
-      "model": "Dinky",
-      "variant": "Hh",
-      "count": 1,
-      "sum": 200,
-      "min": 200,
-      "max": 200,
-      "sightings": [
-        {
-          "price": 200,
-          "date": "2026-04-16T12:01:34.104Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "90s Charvel by Jackson SDK Super Dinky Body HH Sunburst Made in Japan w/Plate",
-          "url": "https://reverb.com/item/96079886-90s-charvel-by-jackson-sdk-super-dinky-body-hh-sunburst-made-in-japan-w-plate",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 200,
-          "min": 200,
-          "max": 200,
-          "avg": 200
-        }
-      },
-      "avg": 200
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9916,6 +9916,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 45,
+      "sum": 123459.95,
+      "sold": {
+        "count": 7,
+        "sum": 14655.48,
+        "avg": 2094,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2744,
+      "min": 70,
+      "max": 15995
+    },
     "Brand New": {
       "count": 23,
       "sum": 94537.12,
@@ -9931,8 +9945,8 @@
       "max": 12280
     },
     "Very Good": {
-      "count": 78,
-      "sum": 205723.55999999994,
+      "count": 77,
+      "sum": 205523.55999999994,
       "sold": {
         "count": 21,
         "sum": 47270.85,
@@ -9940,7 +9954,7 @@
         "min": 475,
         "max": 5500
       },
-      "avg": 2637,
+      "avg": 2669,
       "min": 33,
       "max": 16500
     },
@@ -9968,20 +9982,6 @@
       "avg": 5141,
       "min": 139.99,
       "max": 99000
-    },
-    "Good": {
-      "count": 44,
-      "sum": 123059.95,
-      "sold": {
-        "count": 7,
-        "sum": 14655.48,
-        "avg": 2094,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2797,
-      "min": 70,
-      "max": 15995
     },
     "New": {
       "count": 3,
@@ -10034,7 +10034,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2983,
+      "avg": 2984,
       "count": 177
     },
     "03": {
@@ -10136,13 +10136,6 @@
       "date": "2026-04-21T02:46:28.446Z"
     },
     {
-      "title": "90s Charvel by Jackson SDK Super Dinky Body HH Sunburst Made in Japan w/Plate",
-      "url": "https://reverb.com/item/96079886-90s-charvel-by-jackson-sdk-super-dinky-body-hh-sunburst-made-in-japan-w-plate",
-      "oldPrice": "$200",
-      "newPrice": "$200",
-      "date": "2026-04-18T18:38:44.287Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10183,6 +10176,13 @@
       "oldPrice": "$5,000",
       "newPrice": "$4,250",
       "date": "2026-04-01T17:43:44.200Z"
+    },
+    {
+      "title": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
+      "url": "https://reverb.com/item/95516404",
+      "oldPrice": "$3,800",
+      "newPrice": "$3,600",
+      "date": "2026-04-04T03:37:48.990Z"
     }
   ],
   "priceDistribution": {
@@ -10260,9 +10260,9 @@
       "avg": 1
     },
     "Charvel": {
-      "sum": 45,
-      "count": 5,
-      "avg": 9
+      "sum": 38,
+      "count": 4,
+      "avg": 10
     },
     "Seger": {
       "sum": 1,
@@ -10275,7 +10275,7 @@
       "avg": 2
     },
     "ESP": {
-      "sum": 99,
+      "sum": 101,
       "count": 5,
       "avg": 20
     },
@@ -10596,14 +10596,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 28,
+    "2026-04-23": 29,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 11,
+    "2026-04-16": 10,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10623,7 +10623,7 @@
     },
     {
       "username": "greg1213",
-      "count": 51
+      "count": 50
     },
     {
       "username": "Shteefe",
@@ -10631,7 +10631,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 28
+      "count": 29
     },
     {
       "username": "Madero",
@@ -10702,7 +10702,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2983,
+    "avg": 2984,
     "pctBelowAvg": 19,
     "count": 177
   },
@@ -10745,10 +10745,10 @@
       "count": 11
     },
     "BC Rich": {
-      "avgPrice": 2423,
+      "avgPrice": 2304,
       "retailEst": 200,
-      "avgDiscount": -1111.3,
-      "count": 16
+      "avgDiscount": -1051.9,
+      "count": 17
     }
   },
   "soldPrices": {
@@ -11744,6 +11744,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 17,
+        "sold": 2,
+        "fake": 0,
+        "live": 15,
+        "soldPct": 12,
+        "livePct": 88
+      },
       "PRS": {
         "total": 16,
         "sold": 6,
@@ -11751,14 +11759,6 @@
         "live": 10,
         "soldPct": 38,
         "livePct": 63
-      },
-      "BC Rich": {
-        "total": 16,
-        "sold": 2,
-        "fake": 0,
-        "live": 14,
-        "soldPct": 13,
-        "livePct": 88
       },
       "Fender": {
         "total": 25,
@@ -11849,12 +11849,12 @@
         "livePct": 100
       },
       "Charvel": {
-        "total": 6,
+        "total": 5,
         "sold": 3,
         "fake": 0,
-        "live": 3,
-        "soldPct": 50,
-        "livePct": 50
+        "live": 2,
+        "soldPct": 60,
+        "livePct": 40
       },
       "Seger": {
         "total": 2,
@@ -12446,13 +12446,18 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 45,
+        "sold": 8,
+        "rate": 18
+      },
       "Brand New": {
         "total": 23,
         "sold": 2,
         "rate": 9
       },
       "Very Good": {
-        "total": 78,
+        "total": 77,
         "sold": 21,
         "rate": 27
       },
@@ -12465,11 +12470,6 @@
         "total": 32,
         "sold": 4,
         "rate": 13
-      },
-      "Good": {
-        "total": 44,
-        "sold": 8,
-        "rate": 18
       },
       "New": {
         "total": 3,
@@ -12898,6 +12898,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "Polaris Wizard - BC Rich Warlock Copy - 1980’s - Blue Burst - w/O",
+        "url": "https://reverb.com/item/91198146-polaris-wizard-bc-rich-warlock-copy-1980-s-blue-burst-w-ohsc",
+        "price": "$400",
+        "priceNum": 400,
+        "brand": "BC Rich",
+        "condition": "Good",
+        "watchers": 39,
+        "views": 1159,
+        "daysListed": 298,
+        "image": "https://rvb-img.reverb.com/i/s--fh5w0q2q--/quality=medium-low,height=800,width=800,fit=contain/ijlhhjakc14uyuyq07mf.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Used Fender Jim Adkins JA-90 Telecaster Thinline Electric Guitar ",
         "url": "https://reverb.com/item/91371043-used-fender-jim-adkins-ja-90-telecaster-thinline-electric-guitar-natural",
         "price": "$1,050",
@@ -12922,20 +12936,6 @@
         "views": 1635,
         "daysListed": 268,
         "image": "https://rvb-img.reverb.com/i/s--hku-fNrZ--/quality=medium-low,height=800,width=800,fit=contain/xfebme4ctyqr1gidkjnq.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "1967 Fender Coronado II Semi Hollow Electric Guitar Cherry Sunbur",
-        "url": "https://reverb.com/item/91585663-1967-fender-coronado-ii-semi-hollow-electric-guitar-cherry-sunburst-w-case",
-        "price": "$2,500",
-        "priceNum": 2500,
-        "brand": "Fender",
-        "condition": "Very Good",
-        "watchers": 31,
-        "views": 494,
-        "daysListed": 267,
-        "image": "https://rvb-img.reverb.com/i/s--Xo4pJceL--/quality=medium-low,height=800,width=800,fit=contain/f9agxef99souwhtjivoc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12986,6 +12986,23 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich Import": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich Import",
+      "tier": "budget-mid",
+      "count": 5,
+      "sum": 5338,
+      "avg": 1068,
+      "min": 400,
+      "max": 2425,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 5,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "PRS|PRS CE": {
       "brand": "PRS",
       "brandLine": "PRS CE",
@@ -12999,23 +13016,6 @@
       "soldSum": 0,
       "soldAvg": null,
       "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
-    "BC Rich|BC Rich Import": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich Import",
-      "tier": "budget-mid",
-      "count": 4,
-      "sum": 4938,
-      "avg": 1235,
-      "min": 414,
-      "max": 2425,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 4,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -13069,7 +13069,7 @@
       "soldAvg": 3380,
       "live": 27,
       "sellRate": 23,
-      "totalDays": 106.19999999999999,
+      "totalDays": 106.30000000000001,
       "soldCount": 8,
       "avgDaysToSell": 13.3
     },
@@ -13139,7 +13139,7 @@
       "soldAvg": 2699,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 107.4,
+      "totalDays": 107.5,
       "soldCount": 5,
       "avgDaysToSell": 21.5
     },
@@ -13349,7 +13349,7 @@
       "soldAvg": 1488,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 118.1,
+      "totalDays": 118.2,
       "soldCount": 5,
       "avgDaysToSell": 23.6
     },
@@ -13770,23 +13770,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Charvel|Charvel MJ": {
-      "brand": "Charvel",
-      "brandLine": "Charvel MJ",
-      "tier": "high",
-      "count": 1,
-      "sum": 200,
-      "avg": 200,
-      "min": 200,
-      "max": 200,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -13935,7 +13918,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 100
+    "avgShippingCost": 101
   },
   "watcherDemand": [
     {
@@ -13946,9 +13929,9 @@
     },
     {
       "label": "1–5",
-      "total": 22,
+      "total": 21,
       "sold": 4,
-      "rate": 18
+      "rate": 19
     },
     {
       "label": "6–15",
@@ -13964,7 +13947,7 @@
     },
     {
       "label": "31+",
-      "total": 63,
+      "total": 64,
       "sold": 16,
       "rate": 25
     }
@@ -13983,12 +13966,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 104,
+      "total": 105,
       "sold": 18,
       "rate": 17
     },
     "regular": {
-      "total": 97,
+      "total": 96,
       "sold": 32,
       "rate": 33
     }
@@ -14019,6 +14002,12 @@
       "rate": 33
     },
     {
+      "state": "NY",
+      "total": 10,
+      "sold": 1,
+      "rate": 10
+    },
+    {
       "state": "FL",
       "total": 10,
       "sold": 3,
@@ -14026,12 +14015,6 @@
     },
     {
       "state": "IL",
-      "total": 9,
-      "sold": 1,
-      "rate": 11
-    },
-    {
-      "state": "NY",
       "total": 9,
       "sold": 1,
       "rate": 11
