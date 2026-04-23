@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T04:08:37.142Z",
+  "generatedAt": "2026-04-23T04:13:17.543Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1152251.15,
-    "avg": 3741,
+    "sum": 1149691.15,
+    "avg": 3733,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 805105.16,
-    "avg": 2729,
+    "sum": 802545.16,
+    "avg": 2720,
     "min": 33,
     "max": 8499,
-    "median": 2399
+    "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8850,
+    "thresholdHigh": 8700,
     "thresholdLow": 0,
     "count": 13,
     "items": [
@@ -133,10 +133,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 544658.8,
+      "sum": 542098.8,
       "min": 139.99,
       "max": 15995,
-      "avg": 3077
+      "avg": 3063
     },
     "2026-03": {
       "count": 131,
@@ -149,10 +149,10 @@
   "byCategory": {
     "reverb": {
       "count": 258,
-      "sum": 818394.36,
+      "sum": 815834.36,
       "min": 33,
       "max": 35900,
-      "avg": 3172
+      "avg": 3162
     },
     "marketplace": {
       "count": 50,
@@ -165,10 +165,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 258,
-      "sum": 818394.36,
+      "sum": 815834.36,
       "min": 33,
       "max": 35900,
-      "avg": 3172
+      "avg": 3162
     },
     "chicagomusicexchange.com": {
       "count": 21,
@@ -242,6 +242,37 @@
     }
   },
   "byModel": {
+    "gsb019": {
+      "displayName": "SAITO GUITARS S-622CST 2023 - Nacho ≒3.32kg [Made in Japan][GSB019]",
+      "brand": null,
+      "model": "GSB019",
+      "variant": null,
+      "count": 1,
+      "sum": 1540,
+      "min": 1540,
+      "max": 1540,
+      "sightings": [
+        {
+          "price": 1540,
+          "date": "2026-04-23T04:13:03.659Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "SAITO GUITARS S-622CST 2023 - Nacho ≒3.32kg [Made in Japan][GSB019]",
+          "url": "https://reverb.com/item/76988182",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1540,
+          "min": 1540,
+          "max": 1540,
+          "avg": 1540
+        }
+      },
+      "avg": 1540
+    },
     "fender-coronado-semi-hollow": {
       "displayName": "1967 Fender Coronado II Semi Hollow Electric Guitar Cherry Sunburst w case",
       "brand": "Fender",
@@ -5644,37 +5675,6 @@
       },
       "avg": 3325
     },
-    "gibson-les-paul-custom-floyd-rose-black-beauty": {
-      "displayName": "2025 Gibson Les Paul Custom Axcess Floyd Rose Black Beauty",
-      "brand": "Gibson",
-      "model": "Les Paul Custom",
-      "variant": "Floyd Rose Black Beauty",
-      "count": 1,
-      "sum": 4100,
-      "min": 4100,
-      "max": 4100,
-      "sightings": [
-        {
-          "price": 4100,
-          "date": "2026-04-15T19:07:22.756Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2025 Gibson Les Paul Custom Axcess Floyd Rose Black Beauty",
-          "url": "https://reverb.com/item/96059156-2025-gibson-les-paul-custom-axcess-floyd-rose-black-beauty",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4100,
-          "min": 4100,
-          "max": 4100,
-          "avg": 4100
-        }
-      },
-      "avg": 4100
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9960,6 +9960,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 81,
+      "sum": 212291.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 44204.85,
+        "avg": 2105,
+        "min": 475,
+        "max": 4022
+      },
+      "avg": 2621,
+      "min": 33,
+      "max": 16500
+    },
     "Good": {
       "count": 41,
       "sum": 119559.95,
@@ -9974,23 +9988,9 @@
       "min": 414,
       "max": 15995
     },
-    "Very Good": {
-      "count": 80,
-      "sum": 210751.55999999994,
-      "sold": {
-        "count": 21,
-        "sum": 44204.85,
-        "avg": 2105,
-        "min": 475,
-        "max": 4022
-      },
-      "avg": 2634,
-      "min": 33,
-      "max": 16500
-    },
     "Excellent": {
-      "count": 109,
-      "sum": 406837.73,
+      "count": 108,
+      "sum": 402737.73,
       "sold": {
         "count": 36,
         "sum": 126627.85,
@@ -9998,7 +9998,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3732,
+      "avg": 3729,
       "min": 190,
       "max": 35900
     },
@@ -10078,7 +10078,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3077,
+      "avg": 3063,
       "count": 177
     },
     "03": {
@@ -10208,13 +10208,6 @@
       "date": "2026-04-22T20:19:07.126Z"
     },
     {
-      "title": "2025 Gibson Les Paul Custom Axcess Floyd Rose Black Beauty",
-      "url": "https://reverb.com/item/96059156-2025-gibson-les-paul-custom-axcess-floyd-rose-black-beauty",
-      "oldPrice": "$4,199",
-      "newPrice": "$4,100",
-      "date": "2026-04-20T12:52:07.533Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10227,30 +10220,37 @@
       "oldPrice": "$1,204.41",
       "newPrice": "$1,201.80",
       "date": "2026-03-27T23:42:48.757Z"
+    },
+    {
+      "title": "Fractal Audio AX8",
+      "url": "https://reverb.com/item/94215529-fractal-audio-ax8",
+      "oldPrice": "$672.36",
+      "newPrice": "$668.31",
+      "date": "2026-03-27T23:42:55.870Z"
     }
   ],
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 90,
+    "1k-2k": 91,
     "2k-3k": 74,
-    "3k-5k": 60,
+    "3k-5k": 59,
     "5k-10k": 38,
     "10k+": 11
   },
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 20,
-    "1k-2k": 90,
+    "1k-2k": 91,
     "2k-3k": 74,
-    "3k-5k": 60,
+    "3k-5k": 59,
     "5k-10k": 36,
     "10k+": 0
   },
   "daysOnMarket": {
     "Gibson": {
-      "sum": 607,
-      "count": 39,
+      "sum": 601,
+      "count": 38,
       "avg": 16
     },
     "Fender": {
@@ -10665,7 +10665,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 10,
+    "2026-04-23": 11,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
@@ -10673,7 +10673,7 @@
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 8,
+    "2026-04-15": 7,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10689,7 +10689,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 93
+      "count": 92
     },
     {
       "username": "greg1213",
@@ -10721,7 +10721,7 @@
     },
     {
       "username": "jazee_",
-      "count": 10
+      "count": 11
     },
     {
       "username": "ᜁᜃ᜔ᜐᜒᜇᜒᜂᜐ᜔",
@@ -10772,7 +10772,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3077,
+    "avg": 3063,
     "pctBelowAvg": 18,
     "count": 177
   },
@@ -10785,10 +10785,10 @@
       "count": 21
     },
     "Gibson": {
-      "avgPrice": 3299,
+      "avgPrice": 3279,
       "retailEst": 800,
-      "avgDiscount": -312.4,
-      "count": 41
+      "avgDiscount": -309.9,
+      "count": 40
     },
     "PRS": {
       "avgPrice": 3643,
@@ -11654,8 +11654,8 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1136.9181152657484,
-      "count": 61,
+      "totalPctDrop": 1154.565174089278,
+      "count": 62,
       "avgPctDrop": 18.6
     },
     "byBrand": {
@@ -11828,10 +11828,10 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 292,
+      "total": 291,
       "sold": 76,
       "fake": 0,
-      "live": 216,
+      "live": 215,
       "soldPct": 26,
       "livePct": 74
     },
@@ -11853,12 +11853,12 @@
         "livePct": 67
       },
       "Gibson": {
-        "total": 43,
+        "total": 42,
         "sold": 10,
         "fake": 0,
-        "live": 33,
-        "soldPct": 23,
-        "livePct": 77
+        "live": 32,
+        "soldPct": 24,
+        "livePct": 76
       },
       "Kemper": {
         "total": 1,
@@ -12548,7 +12548,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 90,
+        "total": 91,
         "sold": 22,
         "rate": 24
       },
@@ -12560,9 +12560,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 60,
+        "total": 59,
         "sold": 21,
-        "rate": 35
+        "rate": 36
       },
       {
         "label": "$5k–10k",
@@ -12578,18 +12578,18 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 81,
+        "sold": 21,
+        "rate": 26
+      },
       "Good": {
         "total": 41,
         "sold": 7,
         "rate": 17
       },
-      "Very Good": {
-        "total": 80,
-        "sold": 21,
-        "rate": 26
-      },
       "Excellent": {
-        "total": 109,
+        "total": 108,
         "sold": 38,
         "rate": 35
       },
@@ -12832,6 +12832,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "SAITO GUITARS S-622CST 2023 - Nacho ≒3.32kg [Made in Japan][GSB01",
+        "url": "https://reverb.com/item/76988182",
+        "price": "$1,540",
+        "priceNum": 1540,
+        "brand": null,
+        "condition": "Very Good",
+        "watchers": 39,
+        "views": 2650,
+        "daysListed": 866,
+        "image": "https://rvb-img.reverb.com/i/s--OhyQQjXN--/quality=medium-low,height=800,width=800,fit=contain/yx51sznn1mefawurvpw4.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Brazilian Rosewood Dreadnought Set",
         "url": "https://reverb.com/item/81083240-brazilian-rosewood-dreadnought-set",
         "price": "$1,790",
@@ -13012,20 +13026,6 @@
         "image": "https://rvb-img.reverb.com/i/s--Xo4pJceL--/quality=medium-low,height=800,width=800,fit=contain/f9agxef99souwhtjivoc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
-      },
-      {
-        "title": "Gibson Custom Shop 1957 Les Paul Standard Mahogany Top Walnut Mur",
-        "url": "https://reverb.com/item/91719964-gibson-custom-shop-1957-les-paul-standard-mahogany-top-walnut-murphy-lab-heavy-aged-serial-75824",
-        "price": "$6,065",
-        "priceNum": 6065,
-        "brand": "Gibson",
-        "condition": "Excellent",
-        "watchers": 49,
-        "views": 1035,
-        "daysListed": 258,
-        "image": "https://rvb-img.reverb.com/i/s--2iCzBhXT--/quality=medium-low,height=800,width=800,fit=contain/kyp8tt6suf6vvihvrbrw.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -13035,13 +13035,6 @@
         "sellRate": 100,
         "count": 3,
         "sold": 3
-      },
-      {
-        "brand": "Music Man",
-        "avgPrice": 2382,
-        "sellRate": 83,
-        "count": 6,
-        "sold": 5
       },
       {
         "brand": "Kiesel",
@@ -13100,16 +13093,16 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 32,
-      "sum": 87893.95999999999,
-      "avg": 2747,
+      "count": 31,
+      "sum": 83793.95999999999,
+      "avg": 2703,
       "min": 135,
       "max": 7900,
       "sold": 7,
       "soldSum": 21543.98,
       "soldAvg": 3078,
-      "live": 25,
-      "sellRate": 22,
+      "live": 24,
+      "sellRate": 23,
       "totalDays": 101.9,
       "soldCount": 7,
       "avgDaysToSell": 14.6
@@ -13355,7 +13348,7 @@
       "soldAvg": 1477,
       "live": 4,
       "sellRate": 60,
-      "totalDays": 122.4,
+      "totalDays": 122.5,
       "soldCount": 6,
       "avgDaysToSell": 20.4
     },
@@ -13618,9 +13611,9 @@
       "soldAvg": 350,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.4,
+      "totalDays": 4.5,
       "soldCount": 1,
-      "avgDaysToSell": 4.4
+      "avgDaysToSell": 4.5
     },
     "Ruokangas|Ruokangas": {
       "brand": "Ruokangas",
@@ -14093,12 +14086,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 101,
+      "total": 102,
       "sold": 18,
       "rate": 18
     },
     "regular": {
-      "total": 101,
+      "total": 100,
       "sold": 32,
       "rate": 32
     }
@@ -14130,9 +14123,9 @@
     },
     {
       "state": "FL",
-      "total": 11,
+      "total": 10,
       "sold": 4,
-      "rate": 36
+      "rate": 40
     },
     {
       "state": "IL",
