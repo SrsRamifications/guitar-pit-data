@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-23T03:36:23.682Z",
-  "totalLinks": 312,
+  "generatedAt": "2026-04-23T03:38:16.869Z",
+  "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
-  "removedCount": 10,
-  "totalWithPrice": 307,
+  "removedCount": 9,
+  "totalWithPrice": 308,
   "overall": {
-    "count": 307,
-    "sum": 1156750.15,
-    "avg": 3768,
+    "count": 308,
+    "sum": 1159250.15,
+    "avg": 3764,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 293,
-    "sum": 800605.16,
+    "count": 294,
+    "sum": 803105.16,
     "avg": 2732,
     "min": 33,
     "max": 8499,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 8995,
+    "thresholdHigh": 8985,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -140,11 +140,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 176,
-      "sum": 549157.8,
+      "count": 177,
+      "sum": 551657.8,
       "min": 139.99,
       "max": 15995,
-      "avg": 3120
+      "avg": 3117
     },
     "2026-03": {
       "count": 131,
@@ -156,11 +156,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 257,
-      "sum": 822893.36,
+      "count": 258,
+      "sum": 825393.36,
       "min": 33,
       "max": 35900,
-      "avg": 3202
+      "avg": 3199
     },
     "marketplace": {
       "count": 50,
@@ -172,11 +172,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 257,
-      "sum": 822893.36,
+      "count": 258,
+      "sum": 825393.36,
       "min": 33,
       "max": 35900,
-      "avg": 3202
+      "avg": 3199
     },
     "chicagomusicexchange.com": {
       "count": 21,
@@ -250,6 +250,37 @@
     }
   },
   "byModel": {
+    "fender-coronado-semi-hollow": {
+      "displayName": "1967 Fender Coronado II Semi Hollow Electric Guitar Cherry Sunburst w case",
+      "brand": "Fender",
+      "model": "Coronado",
+      "variant": "Semi Hollow",
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-04-23T03:38:02.748Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1967 Fender Coronado II Semi Hollow Electric Guitar Cherry Sunburst w case",
+          "url": "https://reverb.com/item/91585663-1967-fender-coronado-ii-semi-hollow-electric-guitar-cherry-sunburst-w-case",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "epiphone-mahogany-case": {
       "displayName": "1967 Epiphone Olympic Mahogany w case",
       "brand": "Epiphone",
@@ -9968,6 +9999,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 80,
+      "sum": 210751.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 44204.85,
+        "avg": 2105,
+        "min": 475,
+        "max": 4022
+      },
+      "avg": 2634,
+      "min": 33,
+      "max": 16500
+    },
     "Good": {
       "count": 40,
       "sum": 117559.95,
@@ -9981,20 +10026,6 @@
       "avg": 2939,
       "min": 414,
       "max": 15995
-    },
-    "Very Good": {
-      "count": 79,
-      "sum": 208251.55999999994,
-      "sold": {
-        "count": 21,
-        "sum": 44204.85,
-        "avg": 2105,
-        "min": 475,
-        "max": 4022
-      },
-      "avg": 2636,
-      "min": 33,
-      "max": 16500
     },
     "Excellent": {
       "count": 110,
@@ -10086,8 +10117,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3120,
-      "count": 176
+      "avg": 3117,
+      "count": 177
     },
     "03": {
       "name": "Mar",
@@ -10241,7 +10272,7 @@
     "0-500": 15,
     "500-1k": 20,
     "1k-2k": 90,
-    "2k-3k": 72,
+    "2k-3k": 73,
     "3k-5k": 60,
     "5k-10k": 39,
     "10k+": 11
@@ -10250,7 +10281,7 @@
     "0-500": 15,
     "500-1k": 20,
     "1k-2k": 90,
-    "2k-3k": 72,
+    "2k-3k": 73,
     "3k-5k": 60,
     "5k-10k": 36,
     "10k+": 0
@@ -10678,7 +10709,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 8,
+    "2026-04-23": 9,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
@@ -10695,10 +10726,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 257,
+    "reverb": 258,
     "marketplace": 55
   },
-  "activeModelsCount": 270,
+  "activeModelsCount": 271,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10714,7 +10745,7 @@
     },
     {
       "username": "Madero",
-      "count": 24
+      "count": 25
     },
     {
       "username": "YellowJack6",
@@ -10785,17 +10816,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3120,
+    "avg": 3117,
     "pctBelowAvg": 17,
-    "count": 176
+    "count": 177
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5277,
+      "avgPrice": 5144,
       "retailEst": 800,
-      "avgDiscount": -559.6,
-      "count": 20
+      "avgDiscount": -543.1,
+      "count": 21
     },
     "Gibson": {
       "avgPrice": 3299,
@@ -11841,14 +11872,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 292,
+      "total": 293,
       "sold": 76,
       "fake": 0,
-      "live": 216,
+      "live": 217,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Fender": {
+        "total": 22,
+        "sold": 6,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 27,
+        "livePct": 73
+      },
       "Epiphone": {
         "total": 3,
         "sold": 1,
@@ -11864,14 +11903,6 @@
         "live": 33,
         "soldPct": 23,
         "livePct": 77
-      },
-      "Fender": {
-        "total": 21,
-        "sold": 6,
-        "fake": 0,
-        "live": 15,
-        "soldPct": 29,
-        "livePct": 71
       },
       "Kemper": {
         "total": 1,
@@ -12567,9 +12598,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 72,
+        "total": 73,
         "sold": 22,
-        "rate": 31
+        "rate": 30
       },
       {
         "label": "$3k–5k",
@@ -12591,15 +12622,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 80,
+        "sold": 21,
+        "rate": 26
+      },
       "Good": {
         "total": 40,
         "sold": 7,
         "rate": 18
-      },
-      "Very Good": {
-        "total": 79,
-        "sold": 21,
-        "rate": 27
       },
       "Excellent": {
         "total": 110,
@@ -13013,6 +13044,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "1967 Fender Coronado II Semi Hollow Electric Guitar Cherry Sunbur",
+        "url": "https://reverb.com/item/91585663-1967-fender-coronado-ii-semi-hollow-electric-guitar-cherry-sunburst-w-case",
+        "price": "$2,500",
+        "priceNum": 2500,
+        "brand": "Fender",
+        "condition": "Very Good",
+        "watchers": 31,
+        "views": 459,
+        "daysListed": 266,
+        "image": "https://rvb-img.reverb.com/i/s--Xo4pJceL--/quality=medium-low,height=800,width=800,fit=contain/f9agxef99souwhtjivoc.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Gibson Custom Shop 1957 Les Paul Standard Mahogany Top Walnut Mur",
         "url": "https://reverb.com/item/91719964-gibson-custom-shop-1957-les-paul-standard-mahogany-top-walnut-murphy-lab-heavy-aged-serial-75824",
         "price": "$6,065",
@@ -13023,20 +13068,6 @@
         "views": 1035,
         "daysListed": 258,
         "image": "https://rvb-img.reverb.com/i/s--2iCzBhXT--/quality=medium-low,height=800,width=800,fit=contain/kyp8tt6suf6vvihvrbrw.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "Pre-Owned Echopark Echocaster R '60 - White with Original Hard Sh",
-        "url": "https://reverb.com/item/91948632-pre-owned-echopark-echocaster-r-60-white-with-original-hard-shell-case",
-        "price": "$2,900",
-        "priceNum": 2900,
-        "brand": "Echopark",
-        "condition": "Very Good",
-        "watchers": 29,
-        "views": 955,
-        "daysListed": 240,
-        "image": "https://rvb-img.reverb.com/i/s--P23aH4NZ--/quality=medium-low,height=800,width=800,fit=contain/eq1gmrzmgxetih3vj9oz.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -13073,6 +13104,24 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 11,
+      "sum": 89978.98999999999,
+      "avg": 8180,
+      "min": 2500,
+      "max": 35900,
+      "sold": 3,
+      "soldSum": 49094,
+      "soldAvg": 16365,
+      "live": 8,
+      "sellRate": 27,
+      "totalDays": 82.6,
+      "soldCount": 3,
+      "avgDaysToSell": 27.5
+    },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
       "brandLine": "Epiphone",
@@ -13105,7 +13154,7 @@
       "soldAvg": 3078,
       "live": 25,
       "sellRate": 22,
-      "totalDays": 101.6,
+      "totalDays": 101.69999999999999,
       "soldCount": 7,
       "avgDaysToSell": 14.5
     },
@@ -13353,24 +13402,6 @@
       "totalDays": 122.30000000000001,
       "soldCount": 6,
       "avgDaysToSell": 20.4
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 10,
-      "sum": 87478.98999999999,
-      "avg": 8748,
-      "min": 2699,
-      "max": 35900,
-      "sold": 3,
-      "soldSum": 49094,
-      "soldAvg": 16365,
-      "live": 7,
-      "sellRate": 30,
-      "totalDays": 82.6,
-      "soldCount": 3,
-      "avgDaysToSell": 27.5
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -14087,14 +14118,14 @@
     },
     {
       "label": "31+",
-      "total": 59,
+      "total": 60,
       "sold": 13,
       "rate": 22
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 178,
       "sold": 46,
       "rate": 26
     },
@@ -14111,7 +14142,7 @@
       "rate": 18
     },
     "regular": {
-      "total": 100,
+      "total": 101,
       "sold": 32,
       "rate": 32
     }
@@ -14125,9 +14156,9 @@
     },
     {
       "state": "PA",
-      "total": 18,
+      "total": 19,
       "sold": 5,
-      "rate": 28
+      "rate": 26
     },
     {
       "state": "WA",
