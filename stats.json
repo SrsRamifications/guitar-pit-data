@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T05:19:52.753Z",
+  "generatedAt": "2026-04-23T05:20:32.782Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1123519.16,
-    "avg": 3648,
+    "sum": 1123129.15,
+    "avg": 3647,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 799400.17,
-    "avg": 2692,
+    "sum": 799010.16,
+    "avg": 2690,
     "min": 33,
     "max": 8499,
     "median": 2300
@@ -117,10 +117,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 515926.81,
+      "sum": 515536.8,
       "min": 70,
       "max": 15995,
-      "avg": 2915
+      "avg": 2913
     },
     "2026-03": {
       "count": 131,
@@ -131,35 +131,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 258,
-      "sum": 790165.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3063
-    },
     "marketplace": {
-      "count": 50,
-      "sum": 333353.8,
+      "count": 51,
+      "sum": 334153.79,
       "min": 139.99,
       "max": 99000,
-      "avg": 6667
+      "avg": 6552
+    },
+    "reverb": {
+      "count": 257,
+      "sum": 788975.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3070
     }
   },
   "byDomain": {
-    "reverb.com": {
-      "count": 258,
-      "sum": 790165.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3063
-    },
     "guitarcenter.com": {
-      "count": 20,
-      "sum": 37879.82,
+      "count": 21,
+      "sum": 38679.81,
       "min": 139.99,
       "max": 5499.99,
-      "avg": 1894
+      "avg": 1842
+    },
+    "reverb.com": {
+      "count": 257,
+      "sum": 788975.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3070
     },
     "chicagomusicexchange.com": {
       "count": 21,
@@ -226,6 +226,37 @@
     }
   },
   "byModel": {
+    "bc-rich-kkv-tribal-solid": {
+      "displayName": "Used B.C. Rich KKV TRIBAL Solid Body Electric Guitar TRIBAL",
+      "brand": "BC Rich",
+      "model": "KKV TRIBAL Solid",
+      "variant": null,
+      "count": 1,
+      "sum": 799.99,
+      "min": 799.99,
+      "max": 799.99,
+      "sightings": [
+        {
+          "price": 799.99,
+          "date": "2026-04-23T05:20:18.232Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used B.C. Rich KKV TRIBAL Solid Body Electric Guitar TRIBAL",
+          "url": "https://www.guitarcenter.com/Used/BC-Rich/Used-BC-Rich-KKV-TRIBAL-Solid-Body-Electric-Guitar-122101085.gc?algoliaQueryID=1fbaaff75983eae9b243c0df8c9be423&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 799.99,
+          "min": 799.99,
+          "max": 799.99,
+          "avg": 800
+        }
+      },
+      "avg": 800
+    },
     "fender-stratocaster": {
       "displayName": "Fender Stratocaster 1974 Mocha Hardtail under 7 pounds",
       "brand": "Fender",
@@ -5510,37 +5541,6 @@
       },
       "avg": 3500
     },
-    "gold-tone-metal": {
-      "displayName": "Gold Tone GRS Paul Beard Metal Body Resonator Guitar with Lipstick Pickup",
-      "brand": "Gold Tone",
-      "model": "Metal",
-      "variant": null,
-      "count": 1,
-      "sum": 1190,
-      "min": 1190,
-      "max": 1190,
-      "sightings": [
-        {
-          "price": 1190,
-          "date": "2026-04-16T05:43:55.449Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gold Tone GRS Paul Beard Metal Body Resonator Guitar with Lipstick Pickup",
-          "url": "https://reverb.com/item/96058829-gold-tone-grs-paul-beard-metal-body-resonator-guitar-with-lipstick-pickup",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 1190,
-          "min": 1190,
-          "max": 1190,
-          "avg": 1190
-        }
-      },
-      "avg": 1190
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9826,6 +9826,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 32,
+      "sum": 164510.80999999997,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 5141,
+      "min": 139.99,
+      "max": 99000
+    },
     "Good": {
       "count": 44,
       "sum": 123059.95,
@@ -9868,17 +9879,6 @@
       "min": 33,
       "max": 16500
     },
-    "Used": {
-      "count": 31,
-      "sum": 163710.81999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 5281,
-      "min": 139.99,
-      "max": 99000
-    },
     "New": {
       "count": 3,
       "sum": 13707,
@@ -9891,8 +9891,8 @@
       "max": 6679
     },
     "Brand New": {
-      "count": 23,
-      "sum": 89599.12,
+      "count": 22,
+      "sum": 88409.12,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -9900,7 +9900,7 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 3896,
+      "avg": 4019,
       "min": 135,
       "max": 12280
     },
@@ -9944,7 +9944,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2915,
+      "avg": 2913,
       "count": 177
     },
     "03": {
@@ -10046,13 +10046,6 @@
       "date": "2026-04-18T18:38:44.287Z"
     },
     {
-      "title": "Gold Tone GRS Paul Beard Metal Body Resonator Guitar with Lipstick Pickup",
-      "url": "https://reverb.com/item/96058829-gold-tone-grs-paul-beard-metal-body-resonator-guitar-with-lipstick-pickup",
-      "oldPrice": "$1,400",
-      "newPrice": "$1,190",
-      "date": "2026-04-22T16:18:53.101Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10093,12 +10086,19 @@
       "oldPrice": "$5,000",
       "newPrice": "$4,250",
       "date": "2026-04-01T17:43:44.200Z"
+    },
+    {
+      "title": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
+      "url": "https://reverb.com/item/95516404",
+      "oldPrice": "$3,800",
+      "newPrice": "$3,600",
+      "date": "2026-04-04T03:37:48.990Z"
     }
   ],
   "priceDistribution": {
     "0-500": 17,
-    "500-1k": 20,
-    "1k-2k": 89,
+    "500-1k": 21,
+    "1k-2k": 88,
     "2k-3k": 75,
     "3k-5k": 62,
     "5k-10k": 36,
@@ -10106,14 +10106,19 @@
   },
   "priceDistributionFiltered": {
     "0-500": 17,
-    "500-1k": 20,
-    "1k-2k": 89,
+    "500-1k": 21,
+    "1k-2k": 88,
     "2k-3k": 75,
     "3k-5k": 62,
     "5k-10k": 34,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 239,
+      "count": 15,
+      "avg": 16
+    },
     "Fender": {
       "sum": 200,
       "count": 18,
@@ -10123,11 +10128,6 @@
       "sum": 663,
       "count": 42,
       "avg": 16
-    },
-    "BC Rich": {
-      "sum": 239,
-      "count": 14,
-      "avg": 17
     },
     "Vintage": {
       "sum": 98,
@@ -10369,11 +10369,6 @@
       "count": 1,
       "avg": 6
     },
-    "Gold Tone": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 26,
       "count": 1,
@@ -10511,14 +10506,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 23,
+    "2026-04-23": 24,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 16,
+    "2026-04-16": 15,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10527,8 +10522,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 258,
-    "marketplace": 55
+    "marketplace": 56,
+    "reverb": 257
   },
   "activeModelsCount": 267,
   "topPosters": [
@@ -10538,7 +10533,7 @@
     },
     {
       "username": "greg1213",
-      "count": 52
+      "count": 51
     },
     {
       "username": "Shteefe",
@@ -10546,7 +10541,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 26
+      "count": 27
     },
     {
       "username": "Madero",
@@ -10617,7 +10612,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2915,
+    "avg": 2913,
     "pctBelowAvg": 20,
     "count": 177
   },
@@ -10660,10 +10655,10 @@
       "count": 11
     },
     "BC Rich": {
-      "avgPrice": 2640,
+      "avgPrice": 2518,
       "retailEst": 200,
-      "avgDiscount": -1220.1,
-      "count": 14
+      "avgDiscount": -1158.8,
+      "count": 15
     }
   },
   "soldPrices": {
@@ -11460,9 +11455,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1174.0934759760705,
-      "count": 62,
-      "avgPctDrop": 18.9
+      "totalPctDrop": 1159.0934759760705,
+      "count": 61,
+      "avgPctDrop": 19
     },
     "byBrand": {
       "Fender": {
@@ -11570,11 +11565,6 @@
         "count": 1,
         "avgPctDrop": 17.1
       },
-      "Gold Tone": {
-        "totalPctDrop": 15,
-        "count": 1,
-        "avgPctDrop": 15
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -11637,6 +11627,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 15,
+        "sold": 2,
+        "fake": 0,
+        "live": 13,
+        "soldPct": 13,
+        "livePct": 87
+      },
       "Fender": {
         "total": 23,
         "sold": 6,
@@ -11652,14 +11650,6 @@
         "live": 36,
         "soldPct": 22,
         "livePct": 78
-      },
-      "BC Rich": {
-        "total": 14,
-        "sold": 2,
-        "fake": 0,
-        "live": 12,
-        "soldPct": 14,
-        "livePct": 86
       },
       "Vintage": {
         "total": 7,
@@ -12085,14 +12075,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Gold Tone": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12311,15 +12293,15 @@
       },
       {
         "label": "$500–1k",
-        "total": 20,
+        "total": 21,
         "sold": 3,
-        "rate": 15
+        "rate": 14
       },
       {
         "label": "$1k–2k",
-        "total": 89,
+        "total": 88,
         "sold": 20,
-        "rate": 22
+        "rate": 23
       },
       {
         "label": "$2k–3k",
@@ -12347,6 +12329,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 32,
+        "sold": 4,
+        "rate": 13
+      },
       "Good": {
         "total": 44,
         "sold": 7,
@@ -12362,18 +12349,13 @@
         "sold": 19,
         "rate": 24
       },
-      "Used": {
-        "total": 31,
-        "sold": 4,
-        "rate": 13
-      },
       "New": {
         "total": 3,
         "sold": 0,
         "rate": 0
       },
       "Brand New": {
-        "total": 23,
+        "total": 22,
         "sold": 2,
         "rate": 9
       },
@@ -13791,7 +13773,7 @@
     "withOffers": 73,
     "totalOffers": 166,
     "avgOffersPerListing": 2.3,
-    "offersEnabledPct": 69
+    "offersEnabledPct": 68
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13806,9 +13788,9 @@
     },
     {
       "label": "1–5",
-      "total": 23,
+      "total": 22,
       "sold": 3,
-      "rate": 13
+      "rate": 14
     },
     {
       "label": "6–15",
@@ -13831,7 +13813,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 176,
       "sold": 44,
       "rate": 25
     },
@@ -13848,9 +13830,9 @@
       "rate": 15
     },
     "regular": {
-      "total": 96,
+      "total": 95,
       "sold": 30,
-      "rate": 31
+      "rate": 32
     }
   },
   "geoSellThrough": [
@@ -13921,12 +13903,6 @@
       "rate": 0
     },
     {
-      "state": "OH",
-      "total": 5,
-      "sold": 1,
-      "rate": 20
-    },
-    {
       "state": "MO",
       "total": 4,
       "sold": 1,
@@ -13943,6 +13919,12 @@
       "total": 4,
       "sold": 2,
       "rate": 50
+    },
+    {
+      "state": "OH",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
     },
     {
       "state": "ENG",
