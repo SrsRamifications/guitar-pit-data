@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T02:32:17.699Z",
+  "generatedAt": "2026-04-23T02:44:45.471Z",
   "totalLinks": 312,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,15 +7,15 @@
   "totalWithPrice": 307,
   "overall": {
     "count": 307,
-    "sum": 1153850.15,
+    "sum": 1153650.15,
     "avg": 3758,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 797705.16,
-    "avg": 2723,
+    "sum": 797505.16,
+    "avg": 2722,
     "min": 33,
     "max": 8499,
     "median": 2300
@@ -141,10 +141,10 @@
   "byMonth": {
     "2026-04": {
       "count": 176,
-      "sum": 546257.8,
+      "sum": 546057.8,
       "min": 139.99,
       "max": 15995,
-      "avg": 3104
+      "avg": 3103
     },
     "2026-03": {
       "count": 131,
@@ -156,15 +156,15 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 49,
-      "sum": 330861.79,
+      "count": 50,
+      "sum": 333856.79,
       "min": 139.99,
       "max": 99000,
-      "avg": 6752
+      "avg": 6677
     },
     "reverb": {
-      "count": 258,
-      "sum": 822988.36,
+      "count": 257,
+      "sum": 819793.36,
       "min": 33,
       "max": 35900,
       "avg": 3190
@@ -172,15 +172,15 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 20,
-      "sum": 242688,
+      "count": 21,
+      "sum": 245683,
       "min": 350,
       "max": 99000,
-      "avg": 12134
+      "avg": 11699
     },
     "reverb.com": {
-      "count": 258,
-      "sum": 822988.36,
+      "count": 257,
+      "sum": 819793.36,
       "min": 33,
       "max": 35900,
       "avg": 3190
@@ -250,6 +250,53 @@
     }
   },
   "byModel": {
+    "fender-coronado": {
+      "displayName": "Fender Wildwood Coronado II Green 1967",
+      "brand": "Fender",
+      "model": "Coronado",
+      "variant": null,
+      "count": 2,
+      "sum": 6594,
+      "min": 2995,
+      "max": 3599,
+      "sightings": [
+        {
+          "price": 3599,
+          "date": "2026-04-19T02:26:04.310Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1967 Fender Coronado II  Antigua",
+          "url": "https://reverb.com/item/96131370-1967-fender-coronado-ii-antigua",
+          "condition": "Very Good"
+        },
+        {
+          "price": 2995,
+          "date": "2026-04-23T02:44:30.152Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Wildwood Coronado II Green 1967",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-fender/products/fender-wildwood-coronado-ii-green-1967-2532237",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2995,
+          "min": 2995,
+          "max": 2995,
+          "avg": 2995
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 3599,
+          "min": 3599,
+          "max": 3599,
+          "avg": 3599
+        }
+      },
+      "avg": 3297
+    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom Ebony 1974",
       "brand": "Gibson",
@@ -2495,37 +2542,6 @@
         ]
       },
       "avg": 1500
-    },
-    "fender-coronado": {
-      "displayName": "1967 Fender Coronado II  Antigua",
-      "brand": "Fender",
-      "model": "Coronado",
-      "variant": null,
-      "count": 1,
-      "sum": 3599,
-      "min": 3599,
-      "max": 3599,
-      "sightings": [
-        {
-          "price": 3599,
-          "date": "2026-04-19T02:26:04.310Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1967 Fender Coronado II  Antigua",
-          "url": "https://reverb.com/item/96131370-1967-fender-coronado-ii-antigua",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 3599,
-          "min": 3599,
-          "max": 3599,
-          "avg": 3599
-        }
-      },
-      "avg": 3599
     },
     "ibanez-ar-super-antique": {
       "displayName": "1986 Ibanez AR 300 Super Edition  Antique violin",
@@ -5698,75 +5714,6 @@
         }
       },
       "avg": 2000
-    },
-    "music-man-jp-signature": {
-      "displayName": "2022 Ernie Ball Music Man John Petrucci Signature Majesty 8 Crystal Amethyst",
-      "brand": "Music Man",
-      "model": "JP",
-      "variant": "Signature",
-      "count": 2,
-      "sum": 5395,
-      "min": 2200,
-      "max": 3195,
-      "sightings": [
-        {
-          "price": 2200,
-          "date": "2026-03-31T03:10:19.945Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
-          "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt",
-          "condition": "Very Good"
-        },
-        {
-          "price": 3195,
-          "date": "2026-04-15T15:24:59.967Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2022 Ernie Ball Music Man John Petrucci Signature Majesty 8 Crystal Amethyst",
-          "url": "https://reverb.com/item/96054834-2022-ernie-ball-music-man-john-petrucci-signature-majesty-8-crystal-amethyst",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3195,
-          "min": 3195,
-          "max": 3195,
-          "avg": 3195
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 2200,
-          "min": 2200,
-          "max": 2200,
-          "avg": 2200
-        }
-      },
-      "soldData": {
-        "count": 2,
-        "avg": 2698,
-        "min": 2200,
-        "max": 3195,
-        "prices": [
-          {
-            "price": 3195,
-            "askingPrice": 3195,
-            "date": "2026-04-15T17:11:03.671Z",
-            "title": "2022 Ernie Ball Music Man John Petrucci Signature Majesty 8 Crystal Amethyst",
-            "url": "https://reverb.com/item/96054834-2022-ernie-ball-music-man-john-petrucci-signature-majesty-8-crystal-amethyst"
-          },
-          {
-            "price": 2200,
-            "askingPrice": 2200,
-            "date": "2026-04-04T19:37:32.551Z",
-            "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
-            "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt"
-          }
-        ]
-      },
-      "avg": 2698
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -9618,6 +9565,52 @@
       },
       "avg": 600
     },
+    "music-man-jp-signature": {
+      "displayName": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
+      "brand": "Music Man",
+      "model": "JP",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 2200,
+      "min": 2200,
+      "max": 2200,
+      "sightings": [
+        {
+          "price": 2200,
+          "date": "2026-03-31T03:10:19.945Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
+          "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2200,
+          "min": 2200,
+          "max": 2200,
+          "avg": 2200
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2200,
+        "min": 2200,
+        "max": 2200,
+        "prices": [
+          {
+            "price": 2200,
+            "askingPrice": 2200,
+            "date": "2026-04-04T19:37:32.551Z",
+            "title": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
+            "url": "https://reverb.com/item/92291486-ernie-ball-music-man-john-petrucci-signature-jp15-6-2020-2021-trans-black-burst-quilt"
+          }
+        ]
+      },
+      "avg": 2200
+    },
     "fender-stratocaster-custom-shop-reissue": {
       "displayName": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
       "brand": "Fender",
@@ -9976,8 +9969,8 @@
   },
   "byCondition": {
     "Good": {
-      "count": 39,
-      "sum": 114964.95,
+      "count": 40,
+      "sum": 117959.95,
       "sold": {
         "count": 7,
         "sum": 15556.48,
@@ -9985,21 +9978,21 @@
         "min": 650,
         "max": 4777.5
       },
-      "avg": 2948,
+      "avg": 2949,
       "min": 414,
       "max": 15995
     },
     "Excellent": {
-      "count": 111,
-      "sum": 419031.73,
+      "count": 110,
+      "sum": 415836.73,
       "sold": {
-        "count": 37,
-        "sum": 129822.85,
-        "avg": 3509,
+        "count": 36,
+        "sum": 126627.85,
+        "avg": 3517,
         "min": 275,
         "max": 35900
       },
-      "avg": 3775,
+      "avg": 3780,
       "min": 190,
       "max": 35900
     },
@@ -10093,7 +10086,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3104,
+      "avg": 3103,
       "count": 176
     },
     "03": {
@@ -10248,8 +10241,8 @@
     "0-500": 15,
     "500-1k": 20,
     "1k-2k": 89,
-    "2k-3k": 73,
-    "3k-5k": 61,
+    "2k-3k": 74,
+    "3k-5k": 60,
     "5k-10k": 38,
     "10k+": 11
   },
@@ -10257,12 +10250,17 @@
     "0-500": 15,
     "500-1k": 20,
     "1k-2k": 89,
-    "2k-3k": 73,
-    "3k-5k": 61,
+    "2k-3k": 74,
+    "3k-5k": 60,
     "5k-10k": 35,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 189,
+      "count": 17,
+      "avg": 11
+    },
     "Gibson": {
       "sum": 606,
       "count": 38,
@@ -10297,11 +10295,6 @@
       "sum": 0,
       "count": 1,
       "avg": 0
-    },
-    "Fender": {
-      "sum": 189,
-      "count": 16,
-      "avg": 12
     },
     "Charvel": {
       "sum": 41,
@@ -10369,12 +10362,12 @@
       "avg": 22
     },
     "First Act": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "Vintage": {
-      "sum": 85,
+      "sum": 86,
       "count": 6,
       "avg": 14
     },
@@ -10414,9 +10407,9 @@
       "avg": 10
     },
     "Warmoth": {
-      "sum": 34,
+      "sum": 35,
       "count": 3,
-      "avg": 11
+      "avg": 12
     },
     "James Tyler": {
       "sum": 9,
@@ -10444,9 +10437,9 @@
       "avg": 14
     },
     "Music Man": {
-      "sum": 89,
-      "count": 6,
-      "avg": 15
+      "sum": 82,
+      "count": 5,
+      "avg": 16
     },
     "Squier": {
       "sum": 4,
@@ -10685,7 +10678,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 5,
+    "2026-04-23": 6,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
@@ -10693,7 +10686,7 @@
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 12,
+    "2026-04-15": 11,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10702,14 +10695,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 54,
-    "reverb": 258
+    "marketplace": 55,
+    "reverb": 257
   },
   "activeModelsCount": 269,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 95
+      "count": 94
     },
     {
       "username": "greg1213",
@@ -10725,7 +10718,7 @@
     },
     {
       "username": "Madero",
-      "count": 22
+      "count": 23
     },
     {
       "username": "WontonGG",
@@ -10751,7 +10744,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 35
+      "count": 34
     },
     {
       "username": "greg1213",
@@ -10792,17 +10785,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3104,
+    "avg": 3103,
     "pctBelowAvg": 17,
     "count": 176
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5397,
+      "avgPrice": 5277,
       "retailEst": 800,
-      "avgDiscount": -574.6,
-      "count": 19
+      "avgDiscount": -559.6,
+      "count": 20
     },
     "Gibson": {
       "avgPrice": 3244,
@@ -10842,17 +10835,17 @@
     }
   },
   "soldPrices": {
-    "count": 80,
-    "avg": 3128,
+    "count": 79,
+    "avg": 3127,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 455.2,
-      "count": 78,
-      "avgDays": 5.8
+      "totalDays": 455.09999999999997,
+      "count": 77,
+      "avgDays": 5.9
     },
     "byModel": {
       "charvel-dk-1h-fr-usa-custom-shop": {
@@ -11102,14 +11095,6 @@
         "fastest": 3.6,
         "slowest": 3.6,
         "avgDays": 3.6
-      },
-      "music-man-jp-signature": {
-        "displayName": "2022 Ernie Ball Music Man John Petrucci Signature Majesty 8 Crystal Amethyst",
-        "totalDays": 4.8,
-        "count": 2,
-        "fastest": 0.1,
-        "slowest": 4.7,
-        "avgDays": 2.4
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11407,6 +11392,14 @@
         "slowest": 18.3,
         "avgDays": 18.3
       },
+      "music-man-jp-signature": {
+        "displayName": "Ernie Ball Music Man John Petrucci Signature JP15-6 2020 - 2021 - Trans Black Burst Quilt",
+        "totalDays": 4.7,
+        "count": 1,
+        "fastest": 4.7,
+        "slowest": 4.7,
+        "avgDays": 4.7
+      },
       "friedman-metro-wnatural-back": {
         "displayName": "Friedman Metro D 2020 - Black w/Natural Back PLECK'd Nice!",
         "totalDays": 0,
@@ -11574,11 +11567,11 @@
         "avgDays": 0.7
       },
       "Music Man": {
-        "totalDays": 8.2,
-        "count": 5,
+        "totalDays": 8.1,
+        "count": 4,
         "fastest": 0.1,
         "slowest": 4.7,
-        "avgDays": 1.6
+        "avgDays": 2
       },
       "Parker": {
         "totalDays": 0.1,
@@ -11852,13 +11845,21 @@
   "sellThrough": {
     "overall": {
       "total": 292,
-      "sold": 78,
+      "sold": 77,
       "fake": 0,
-      "live": 214,
-      "soldPct": 27,
-      "livePct": 73
+      "live": 215,
+      "soldPct": 26,
+      "livePct": 74
     },
     "byBrand": {
+      "Fender": {
+        "total": 21,
+        "sold": 6,
+        "fake": 0,
+        "live": 15,
+        "soldPct": 29,
+        "livePct": 71
+      },
       "Gibson": {
         "total": 42,
         "sold": 10,
@@ -11914,14 +11915,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 20,
-        "sold": 6,
-        "fake": 0,
-        "live": 14,
-        "soldPct": 30,
-        "livePct": 70
       },
       "Charvel": {
         "total": 6,
@@ -12164,12 +12157,12 @@
         "livePct": 100
       },
       "Music Man": {
-        "total": 7,
-        "sold": 6,
+        "total": 6,
+        "sold": 5,
         "fake": 0,
         "live": 1,
-        "soldPct": 86,
-        "livePct": 14
+        "soldPct": 83,
+        "livePct": 17
       },
       "Squier": {
         "total": 1,
@@ -12577,15 +12570,15 @@
       },
       {
         "label": "$2k–3k",
-        "total": 73,
+        "total": 74,
         "sold": 23,
-        "rate": 32
+        "rate": 31
       },
       {
         "label": "$3k–5k",
-        "total": 61,
-        "sold": 22,
-        "rate": 36
+        "total": 60,
+        "sold": 21,
+        "rate": 35
       },
       {
         "label": "$5k–10k",
@@ -12602,13 +12595,13 @@
     ],
     "byCondition": {
       "Good": {
-        "total": 39,
+        "total": 40,
         "sold": 8,
-        "rate": 21
+        "rate": 20
       },
       "Excellent": {
-        "total": 111,
-        "sold": 39,
+        "total": 110,
+        "sold": 38,
         "rate": 35
       },
       "Very Good": {
@@ -13189,9 +13182,9 @@
       "soldAvg": 5849,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 6.4,
+      "totalDays": 6.5,
       "soldCount": 2,
-      "avgDaysToSell": 3.2
+      "avgDaysToSell": 3.3
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13504,7 +13497,7 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 49.5,
+      "totalDays": 49.599999999999994,
       "soldCount": 3,
       "avgDaysToSell": 16.5
     },
@@ -13892,19 +13885,19 @@
       "brand": "Music Man",
       "brandLine": "Music Man USA",
       "tier": "premium",
-      "count": 4,
-      "sum": 10694,
-      "avg": 2674,
+      "count": 3,
+      "sum": 7499,
+      "avg": 2500,
       "min": 2100,
       "max": 3199,
-      "sold": 4,
-      "soldSum": 10694,
-      "soldAvg": 2674,
+      "sold": 3,
+      "soldSum": 7499,
+      "soldAvg": 2500,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 61.8,
-      "soldCount": 4,
-      "avgDaysToSell": 15.5
+      "totalDays": 54.3,
+      "soldCount": 3,
+      "avgDaysToSell": 18.1
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -14059,8 +14052,8 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 4,
-      "sold": 4,
+      "total": 3,
+      "sold": 3,
       "rate": 100
     },
     {
@@ -14095,9 +14088,9 @@
       "rate": 27
     },
     "off": {
-      "total": 39,
-      "sold": 14,
-      "rate": 36
+      "total": 38,
+      "sold": 13,
+      "rate": 34
     }
   },
   "sellerType": {
@@ -14107,8 +14100,8 @@
       "rate": 18
     },
     "regular": {
-      "total": 99,
-      "sold": 33,
+      "total": 98,
+      "sold": 32,
       "rate": 33
     }
   },
@@ -14162,12 +14155,6 @@
       "rate": 0
     },
     {
-      "state": "MA",
-      "total": 7,
-      "sold": 5,
-      "rate": 71
-    },
-    {
       "state": "NC",
       "total": 6,
       "sold": 1,
@@ -14178,6 +14165,12 @@
       "total": 6,
       "sold": 1,
       "rate": 17
+    },
+    {
+      "state": "MA",
+      "total": 6,
+      "sold": 4,
+      "rate": 67
     },
     {
       "state": "OR",
