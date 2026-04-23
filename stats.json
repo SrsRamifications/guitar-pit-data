@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T02:14:13.712Z",
+  "generatedAt": "2026-04-23T02:25:34.194Z",
   "totalLinks": 312,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 307,
   "overall": {
     "count": 307,
-    "sum": 1148785.15,
-    "avg": 3742,
+    "sum": 1149455.15,
+    "avg": 3744,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 792640.16,
-    "avg": 2705,
+    "sum": 793310.16,
+    "avg": 2708,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8900,
+    "thresholdHigh": 8860,
     "thresholdLow": 0,
     "count": 14,
     "items": [
@@ -141,10 +141,10 @@
   "byMonth": {
     "2026-04": {
       "count": 176,
-      "sum": 541192.8,
+      "sum": 541862.8,
       "min": 139.99,
       "max": 15995,
-      "avg": 3075
+      "avg": 3079
     },
     "2026-03": {
       "count": 131,
@@ -155,28 +155,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 260,
-      "sum": 825513.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3175
-    },
     "marketplace": {
-      "count": 47,
-      "sum": 323271.79,
+      "count": 48,
+      "sum": 325166.79,
       "min": 139.99,
       "max": 99000,
-      "avg": 6878
+      "avg": 6774
+    },
+    "reverb": {
+      "count": 259,
+      "sum": 824288.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3183
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 19,
+      "sum": 236993,
+      "min": 350,
+      "max": 99000,
+      "avg": 12473
+    },
     "reverb.com": {
-      "count": 260,
-      "sum": 825513.36,
+      "count": 259,
+      "sum": 824288.36,
       "min": 33,
       "max": 35900,
-      "avg": 3175
+      "avg": 3183
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -184,13 +191,6 @@
       "min": 8499,
       "max": 8499,
       "avg": 8499
-    },
-    "chicagomusicexchange.com": {
-      "count": 18,
-      "sum": 235098,
-      "min": 350,
-      "max": 99000,
-      "avg": 13061
     },
     "long-mcquade.com": {
       "count": 1,
@@ -250,6 +250,63 @@
     }
   },
   "byModel": {
+    "gibson-melody-maker": {
+      "displayName": "Gibson Melody Maker Sparkling Burgundy 1968",
+      "brand": "Gibson",
+      "model": "Melody Maker",
+      "variant": null,
+      "count": 3,
+      "sum": 7140,
+      "min": 1895,
+      "max": 3250,
+      "sightings": [
+        {
+          "price": 3250,
+          "date": "2026-04-21T00:05:51.729Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Melody Maker D Single Cut 1961 - Sunburst",
+          "url": "https://reverb.com/item/96211532-gibson-melody-maker-d-single-cut-1961-sunburst",
+          "condition": "Very Good"
+        },
+        {
+          "price": 1995,
+          "date": "2026-04-23T01:56:41.502Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Melody Maker Sparkling Burgundy 1968",
+          "url": "https://reverb.com/item/95714191-gibson-melody-maker-sparkling-burgundy-1968",
+          "condition": "Good"
+        },
+        {
+          "price": 1895,
+          "date": "2026-04-23T02:25:19.230Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Melody Maker Sparkling Burgundy 1968",
+          "url": "https://www.chicagomusicexchange.com/products/gibson-melody-maker-sparkling-burgundy-1968-2520334",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 3890,
+          "min": 1895,
+          "max": 1995,
+          "avg": 1945
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 3250,
+          "min": 3250,
+          "max": 3250,
+          "avg": 3250
+        }
+      },
+      "avg": 2380,
+      "trends": {}
+    },
     "kemper-amps-profiler-head": {
       "displayName": "Kemper Amps Profiler Head 2011 - 2025 - Black",
       "brand": "Kemper",
@@ -280,53 +337,6 @@
         }
       },
       "avg": 670
-    },
-    "gibson-melody-maker": {
-      "displayName": "Gibson Melody Maker Sparkling Burgundy 1968",
-      "brand": "Gibson",
-      "model": "Melody Maker",
-      "variant": null,
-      "count": 2,
-      "sum": 5245,
-      "min": 1995,
-      "max": 3250,
-      "sightings": [
-        {
-          "price": 3250,
-          "date": "2026-04-21T00:05:51.729Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Melody Maker D Single Cut 1961 - Sunburst",
-          "url": "https://reverb.com/item/96211532-gibson-melody-maker-d-single-cut-1961-sunburst",
-          "condition": "Very Good"
-        },
-        {
-          "price": 1995,
-          "date": "2026-04-23T01:56:41.502Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Melody Maker Sparkling Burgundy 1968",
-          "url": "https://reverb.com/item/95714191-gibson-melody-maker-sparkling-burgundy-1968",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1995,
-          "min": 1995,
-          "max": 1995,
-          "avg": 1995
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 3250,
-          "min": 3250,
-          "max": 3250,
-          "avg": 3250
-        }
-      },
-      "avg": 2623
     },
     "prs-tremonti": {
       "displayName": "PRS Tremonti Stoptail 2015 - Charcoal Gray Smokeburst",
@@ -5818,52 +5828,6 @@
       },
       "avg": 1850
     },
-    "kiesel-osiris-string-with-tremolo": {
-      "displayName": "Kiesel Osiris 6 String with Tremolo",
-      "brand": "Kiesel",
-      "model": "Osiris String with",
-      "variant": "Tremolo",
-      "count": 1,
-      "sum": 1225,
-      "min": 1225,
-      "max": 1225,
-      "sightings": [
-        {
-          "price": 1225,
-          "date": "2026-04-15T13:53:08.301Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel Osiris 6 String with Tremolo",
-          "url": "https://reverb.com/item/96032800-kiesel-osiris-6-string-with-tremolo",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1225,
-          "min": 1225,
-          "max": 1225,
-          "avg": 1225
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1225,
-        "min": 1225,
-        "max": 1225,
-        "prices": [
-          {
-            "price": 1225,
-            "askingPrice": 1225,
-            "date": "2026-04-19T10:39:48.999Z",
-            "title": "Kiesel Osiris 6 String with Tremolo",
-            "url": "https://reverb.com/item/96032800-kiesel-osiris-6-string-with-tremolo"
-          }
-        ]
-      },
-      "avg": 1225
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -10025,23 +9989,9 @@
     }
   },
   "byCondition": {
-    "Excellent": {
-      "count": 113,
-      "sum": 421556.73,
-      "sold": {
-        "count": 39,
-        "sum": 132347.85,
-        "avg": 3394,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3731,
-      "min": 190,
-      "max": 35900
-    },
     "Good": {
-      "count": 37,
-      "sum": 107374.95,
+      "count": 38,
+      "sum": 109269.95,
       "sold": {
         "count": 7,
         "sum": 15556.48,
@@ -10049,9 +9999,23 @@
         "min": 650,
         "max": 4777.5
       },
-      "avg": 2902,
+      "avg": 2876,
       "min": 414,
       "max": 15995
+    },
+    "Excellent": {
+      "count": 112,
+      "sum": 420331.73,
+      "sold": {
+        "count": 38,
+        "sum": 131122.85,
+        "avg": 3451,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3753,
+      "min": 190,
+      "max": 35900
     },
     "Very Good": {
       "count": 78,
@@ -10143,7 +10107,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3075,
+      "avg": 3079,
       "count": 176
     },
     "03": {
@@ -10280,18 +10244,18 @@
       "date": "2026-04-20T12:52:07.533Z"
     },
     {
-      "title": "Kiesel Osiris 6 String with Tremolo",
-      "url": "https://reverb.com/item/96032800-kiesel-osiris-6-string-with-tremolo",
-      "oldPrice": "$1,295",
-      "newPrice": "$1,225",
-      "date": "2026-04-18T22:39:30.955Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
       "newPrice": "$5,521.80",
       "date": "2026-03-27T23:42:28.317Z"
+    },
+    {
+      "title": "Arnold Hoyer \"mod\" archtop guitar 1960s - worn / restored - player",
+      "url": "https://reverb.com/item/95479519-arnold-hoyer-mod-archtop-guitar-1960s-worn-restored-player?utm_source=rev-ios-app&utm_medium=ios-share&utm_campaign=listing&utm_content=95479519",
+      "oldPrice": "$1,204.41",
+      "newPrice": "$1,201.80",
+      "date": "2026-03-27T23:42:48.757Z"
     }
   ],
   "priceDistribution": {
@@ -10313,15 +10277,15 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 622,
+      "count": 38,
+      "avg": 16
+    },
     "Kemper": {
       "sum": 22,
       "count": 1,
       "avg": 22
-    },
-    "Gibson": {
-      "sum": 620,
-      "count": 37,
-      "avg": 17
     },
     "PRS": {
       "sum": 259,
@@ -10334,7 +10298,7 @@
       "avg": 21
     },
     "BC Rich": {
-      "sum": 242,
+      "sum": 243,
       "count": 13,
       "avg": 19
     },
@@ -10414,9 +10378,9 @@
       "avg": 1
     },
     "Kiesel": {
-      "sum": 253,
-      "count": 12,
-      "avg": 21
+      "sum": 245,
+      "count": 11,
+      "avg": 22
     },
     "First Act": {
       "sum": 1,
@@ -10514,7 +10478,7 @@
       "avg": 4
     },
     "Echopark": {
-      "sum": 100,
+      "sum": 101,
       "count": 7,
       "avg": 14
     },
@@ -10735,7 +10699,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 3,
+    "2026-04-23": 4,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
@@ -10743,7 +10707,7 @@
     "2026-04-18": 37,
     "2026-04-17": 28,
     "2026-04-16": 21,
-    "2026-04-15": 14,
+    "2026-04-15": 13,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10752,14 +10716,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 260,
-    "marketplace": 52
+    "marketplace": 53,
+    "reverb": 259
   },
-  "activeModelsCount": 270,
+  "activeModelsCount": 269,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 96
+      "count": 95
     },
     {
       "username": "greg1213",
@@ -10775,7 +10739,7 @@
     },
     {
       "username": "Madero",
-      "count": 20
+      "count": 21
     },
     {
       "username": "WontonGG",
@@ -10801,7 +10765,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 36
+      "count": 35
     },
     {
       "username": "greg1213",
@@ -10842,7 +10806,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3075,
+    "avg": 3079,
     "pctBelowAvg": 18,
     "count": 176
   },
@@ -10855,10 +10819,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 3166,
+      "avgPrice": 3134,
       "retailEst": 800,
-      "avgDiscount": -295.8,
-      "count": 39
+      "avgDiscount": -291.8,
+      "count": 40
     },
     "PRS": {
       "avgPrice": 3643,
@@ -10879,10 +10843,10 @@
       "count": 13
     },
     "Kiesel": {
-      "avgPrice": 1512,
+      "avgPrice": 1536,
       "retailEst": 1000,
-      "avgDiscount": -51.2,
-      "count": 13
+      "avgDiscount": -53.6,
+      "count": 12
     },
     "BC Rich": {
       "avgPrice": 3078,
@@ -10892,16 +10856,16 @@
     }
   },
   "soldPrices": {
-    "count": 82,
-    "avg": 3082,
+    "count": 81,
+    "avg": 3105,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 471.09999999999997,
-      "count": 80,
+      "totalDays": 467.2,
+      "count": 79,
       "avgDays": 5.9
     },
     "byModel": {
@@ -11168,14 +11132,6 @@
         "fastest": 12,
         "slowest": 18.3,
         "avgDays": 15.2
-      },
-      "kiesel-osiris-string-with-tremolo": {
-        "displayName": "Kiesel Osiris 6 String with Tremolo",
-        "totalDays": 3.9,
-        "count": 1,
-        "fastest": 3.9,
-        "slowest": 3.9,
-        "avgDays": 3.9
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11520,11 +11476,11 @@
         "avgDays": 2.2
       },
       "Kiesel": {
-        "totalDays": 49.7,
-        "count": 8,
+        "totalDays": 45.8,
+        "count": 7,
         "fastest": 0,
         "slowest": 16.3,
-        "avgDays": 6.2
+        "avgDays": 6.5
       },
       "Friedman": {
         "totalDays": 1.9000000000000001,
@@ -11740,9 +11696,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1131.168792125121,
-      "count": 61,
-      "avgPctDrop": 18.5
+      "totalPctDrop": 1113.1085914562248,
+      "count": 60,
+      "avgPctDrop": 18.6
     },
     "byBrand": {
       "Kemper": {
@@ -11776,9 +11732,9 @@
         "avgPctDrop": 4.2
       },
       "Kiesel": {
-        "totalPctDrop": 56.84766143169808,
-        "count": 3,
-        "avgPctDrop": 18.9
+        "totalPctDrop": 38.78746076280176,
+        "count": 2,
+        "avgPctDrop": 19.4
       },
       "Charvel": {
         "totalPctDrop": 24.545454545454547,
@@ -11910,13 +11866,21 @@
   "sellThrough": {
     "overall": {
       "total": 292,
-      "sold": 80,
+      "sold": 79,
       "fake": 0,
-      "live": 212,
+      "live": 213,
       "soldPct": 27,
       "livePct": 73
     },
     "byBrand": {
+      "Gibson": {
+        "total": 42,
+        "sold": 11,
+        "fake": 0,
+        "live": 31,
+        "soldPct": 26,
+        "livePct": 74
+      },
       "Kemper": {
         "total": 1,
         "sold": 0,
@@ -11924,14 +11888,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 41,
-        "sold": 11,
-        "fake": 0,
-        "live": 30,
-        "soldPct": 27,
-        "livePct": 73
       },
       "PRS": {
         "total": 15,
@@ -12078,12 +12034,12 @@
         "livePct": 100
       },
       "Kiesel": {
-        "total": 13,
-        "sold": 8,
+        "total": 12,
+        "sold": 7,
         "fake": 0,
         "live": 5,
-        "soldPct": 62,
-        "livePct": 38
+        "soldPct": 58,
+        "livePct": 42
       },
       "First Act": {
         "total": 1,
@@ -12630,8 +12586,8 @@
       {
         "label": "$1k–2k",
         "total": 90,
-        "sold": 24,
-        "rate": 27
+        "sold": 23,
+        "rate": 26
       },
       {
         "label": "$2k–3k",
@@ -12659,15 +12615,15 @@
       }
     ],
     "byCondition": {
-      "Excellent": {
-        "total": 113,
-        "sold": 41,
-        "rate": 36
-      },
       "Good": {
-        "total": 37,
+        "total": 38,
         "sold": 8,
-        "rate": 22
+        "rate": 21
+      },
+      "Excellent": {
+        "total": 112,
+        "sold": 40,
+        "rate": 36
       },
       "Very Good": {
         "total": 78,
@@ -12707,8 +12663,53 @@
     }
   },
   "buyersEdge": {
-    "underpriced": [],
+    "underpriced": [
+      {
+        "title": "Gibson Melody Maker Sparkling Burgundy 1968",
+        "url": "https://www.chicagomusicexchange.com/products/gibson-melody-maker-sparkling-burgundy-1968-2520334",
+        "price": "$1,895",
+        "priceNum": 1895,
+        "brand": "Gibson",
+        "condition": "Good",
+        "watchers": 0,
+        "views": 0,
+        "daysListed": 0,
+        "image": "http://www.chicagomusicexchange.com/cdn/shop/files/gibson-electric-guitars-solid-body-gibson-melody-maker-sparkling-burgundy-1968-gibson-melody-maker-sparkling-burgundy-1968-u7502376202-1231318391.jpg?v=1775496060",
+        "modelAvg": 2380,
+        "pctVsAvg": -20,
+        "savings": 485
+      },
+      {
+        "title": "Gibson Melody Maker Sparkling Burgundy 1968",
+        "url": "https://reverb.com/item/95714191-gibson-melody-maker-sparkling-burgundy-1968",
+        "price": "$1,995",
+        "priceNum": 1995,
+        "brand": "Gibson",
+        "condition": "Good",
+        "watchers": 36,
+        "views": 289,
+        "daysListed": 16,
+        "image": "https://rvb-img.reverb.com/i/s--aoTvN3-7--/quality=medium-low,height=800,width=800,fit=contain/bc5bddb9-3263-40d4-8758-3f8cc9485f38.jpg",
+        "modelAvg": 2380,
+        "pctVsAvg": -16,
+        "savings": 385
+      }
+    ],
     "overpriced": [
+      {
+        "title": "Gibson Melody Maker D Single Cut 1961 - Sunburst",
+        "url": "https://reverb.com/item/96211532-gibson-melody-maker-d-single-cut-1961-sunburst",
+        "price": "$3,250",
+        "priceNum": 3250,
+        "brand": "Gibson",
+        "condition": "Very Good",
+        "watchers": 25,
+        "views": 236,
+        "daysListed": 2,
+        "image": "https://rvb-img.reverb.com/i/s--mXuPFM9e--/quality=medium-low,height=800,width=800,fit=contain/2bb5ab88-d123-4071-83bf-cff1ac83e516.jpg",
+        "modelAvg": 2380,
+        "pctVsAvg": 37
+      },
       {
         "title": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
         "url": "https://reverb.com/item/91739890-gibson-les-paul-custom-1978-1985-silverburst",
@@ -13088,10 +13089,10 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1498,
-        "sellRate": 62,
-        "count": 13,
-        "sold": 8
+        "avgPrice": 1526,
+        "sellRate": 58,
+        "count": 12,
+        "sold": 7
       }
     ]
   },
@@ -13100,16 +13101,16 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 30,
-      "sum": 76103.95999999999,
-      "avg": 2537,
+      "count": 31,
+      "sum": 77998.95999999999,
+      "avg": 2516,
       "min": 135,
       "max": 7900,
       "sold": 8,
       "soldSum": 22843.98,
       "soldAvg": 2855,
-      "live": 22,
-      "sellRate": 27,
+      "live": 23,
+      "sellRate": 26,
       "totalDays": 117.3,
       "soldCount": 8,
       "avgDaysToSell": 14.7
@@ -13345,19 +13346,19 @@
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
       "tier": "premium",
-      "count": 11,
-      "sum": 16481,
-      "avg": 1498,
+      "count": 10,
+      "sum": 15256,
+      "avg": 1526,
       "min": 650,
       "max": 2700,
-      "sold": 7,
-      "soldSum": 10085,
-      "soldAvg": 1441,
+      "sold": 6,
+      "soldSum": 8860,
+      "soldAvg": 1477,
       "live": 4,
-      "sellRate": 64,
-      "totalDays": 129.5,
-      "soldCount": 7,
-      "avgDaysToSell": 18.5
+      "sellRate": 60,
+      "totalDays": 122,
+      "soldCount": 6,
+      "avgDaysToSell": 20.3
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13444,9 +13445,9 @@
       "soldAvg": 1600,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 23.3,
+      "totalDays": 23.4,
       "soldCount": 1,
-      "avgDaysToSell": 23.3
+      "avgDaysToSell": 23.4
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -14074,8 +14075,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 74,
-    "totalOffers": 171,
+    "withOffers": 73,
+    "totalOffers": 168,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 68
   },
@@ -14110,16 +14111,16 @@
     },
     {
       "label": "31+",
-      "total": 61,
-      "sold": 15,
-      "rate": 25
+      "total": 60,
+      "sold": 14,
+      "rate": 23
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 178,
-      "sold": 49,
-      "rate": 28
+      "total": 177,
+      "sold": 48,
+      "rate": 27
     },
     "off": {
       "total": 39,
@@ -14134,9 +14135,9 @@
       "rate": 18
     },
     "regular": {
-      "total": 101,
-      "sold": 35,
-      "rate": 35
+      "total": 100,
+      "sold": 34,
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -14153,12 +14154,6 @@
       "rate": 35
     },
     {
-      "state": "FL",
-      "total": 12,
-      "sold": 5,
-      "rate": 42
-    },
-    {
       "state": "WA",
       "total": 12,
       "sold": 2,
@@ -14169,6 +14164,12 @@
       "total": 12,
       "sold": 4,
       "rate": 33
+    },
+    {
+      "state": "FL",
+      "total": 11,
+      "sold": 4,
+      "rate": 36
     },
     {
       "state": "TN",
