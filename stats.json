@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T05:17:46.668Z",
+  "generatedAt": "2026-04-23T05:18:10.775Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1122309.15,
-    "avg": 3644,
+    "sum": 1122939.16,
+    "avg": 3646,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 798190.16,
-    "avg": 2688,
+    "sum": 798820.17,
+    "avg": 2690,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8845,
+    "thresholdHigh": 8825,
     "thresholdLow": 0,
     "count": 11,
     "items": [
@@ -117,10 +117,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 514716.8,
+      "sum": 515346.81,
       "min": 70,
       "max": 15995,
-      "avg": 2908
+      "avg": 2912
     },
     "2026-03": {
       "count": 131,
@@ -132,34 +132,34 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 257,
-      "sum": 788155.36,
+      "count": 258,
+      "sum": 789585.36,
       "min": 33,
       "max": 35900,
-      "avg": 3067
+      "avg": 3060
     },
     "marketplace": {
-      "count": 51,
-      "sum": 334153.79,
+      "count": 50,
+      "sum": 333353.8,
       "min": 139.99,
       "max": 99000,
-      "avg": 6552
+      "avg": 6667
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 257,
-      "sum": 788155.36,
+      "count": 258,
+      "sum": 789585.36,
       "min": 33,
       "max": 35900,
-      "avg": 3067
+      "avg": 3060
     },
     "guitarcenter.com": {
-      "count": 21,
-      "sum": 38679.81,
+      "count": 20,
+      "sum": 37879.82,
       "min": 139.99,
       "max": 5499.99,
-      "avg": 1842
+      "avg": 1894
     },
     "chicagomusicexchange.com": {
       "count": 21,
@@ -226,6 +226,37 @@
     }
   },
   "byModel": {
+    "gibson-j-45": {
+      "displayName": "1973 Gibson J-45 Deluxe Tobacco Sunburst w/hsc",
+      "brand": "Gibson",
+      "model": "J-45",
+      "variant": null,
+      "count": 1,
+      "sum": 1430,
+      "min": 1430,
+      "max": 1430,
+      "sightings": [
+        {
+          "price": 1430,
+          "date": "2026-04-23T05:17:56.784Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1973 Gibson J-45 Deluxe Tobacco Sunburst w/hsc",
+          "url": "https://reverb.com/ca/item/95735645-1973-gibson-j-45-deluxe-tobacco-sunburst-w-hsc",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1430,
+          "min": 1430,
+          "max": 1430,
+          "avg": 1430
+        }
+      },
+      "avg": 1430
+    },
     "bc-rich-mockingbird-supreme-transparent-usa": {
       "displayName": "B.C. Rich USA Mockingbird Supreme 1996 Transparent Purple Finish",
       "brand": "BC Rich",
@@ -5539,37 +5570,6 @@
       },
       "avg": 1420
     },
-    "ovation-electrophonic-inns-model": {
-      "displayName": "Ovation Electrophonic Inns MODEL",
-      "brand": "Ovation",
-      "model": "Electrophonic Inns MODEL",
-      "variant": null,
-      "count": 1,
-      "sum": 799.99,
-      "min": 799.99,
-      "max": 799.99,
-      "sightings": [
-        {
-          "price": 799.99,
-          "date": "2026-04-16T01:52:18.758Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Electrophonic Innovations MODEL ONE Black Solid Body Electric Guitar Black",
-          "url": "https://www.guitarcenter.com/Used/Electrophonic-Innovations/Used-Electrophonic-Innovations-MODEL-ONE-Black-Solid-Body-Electric-Guitar.gc?algoliaQueryID=663cd051873ffde15f935dbe329e249d&algoliaIndexName=cD-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 799.99,
-          "min": 799.99,
-          "max": 799.99,
-          "avg": 800
-        }
-      },
-      "avg": 800
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9855,6 +9855,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 43,
+      "sum": 121059.95,
+      "sold": {
+        "count": 6,
+        "sum": 13556.48,
+        "avg": 2259,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2815,
+      "min": 70,
+      "max": 15995
+    },
     "Excellent": {
       "count": 107,
       "sum": 379155.73,
@@ -9868,20 +9882,6 @@
       "avg": 3544,
       "min": 190,
       "max": 35900
-    },
-    "Good": {
-      "count": 42,
-      "sum": 119629.95,
-      "sold": {
-        "count": 6,
-        "sum": 13556.48,
-        "avg": 2259,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2848,
-      "min": 70,
-      "max": 15995
     },
     "Very Good": {
       "count": 81,
@@ -9898,13 +9898,13 @@
       "max": 16500
     },
     "Used": {
-      "count": 32,
-      "sum": 164510.80999999997,
+      "count": 31,
+      "sum": 163710.81999999998,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 5141,
+      "avg": 5281,
       "min": 139.99,
       "max": 99000
     },
@@ -9973,7 +9973,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2908,
+      "avg": 2912,
       "count": 177
     },
     "03": {
@@ -10126,8 +10126,8 @@
   ],
   "priceDistribution": {
     "0-500": 17,
-    "500-1k": 21,
-    "1k-2k": 89,
+    "500-1k": 20,
+    "1k-2k": 90,
     "2k-3k": 74,
     "3k-5k": 62,
     "5k-10k": 36,
@@ -10135,23 +10135,23 @@
   },
   "priceDistributionFiltered": {
     "0-500": 17,
-    "500-1k": 21,
-    "1k-2k": 89,
+    "500-1k": 20,
+    "1k-2k": 90,
     "2k-3k": 74,
     "3k-5k": 62,
     "5k-10k": 34,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 663,
+      "count": 42,
+      "avg": 16
+    },
     "BC Rich": {
       "sum": 238,
       "count": 14,
       "avg": 17
-    },
-    "Gibson": {
-      "sum": 648,
-      "count": 41,
-      "avg": 16
     },
     "Vintage": {
       "sum": 98,
@@ -10403,11 +10403,6 @@
       "count": 1,
       "avg": 7
     },
-    "Ovation": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 26,
       "count": 1,
@@ -10545,14 +10540,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 21,
+    "2026-04-23": 22,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 18,
+    "2026-04-16": 17,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10561,8 +10556,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 257,
-    "marketplace": 56
+    "reverb": 258,
+    "marketplace": 55
   },
   "activeModelsCount": 268,
   "topPosters": [
@@ -10572,7 +10567,7 @@
     },
     {
       "username": "greg1213",
-      "count": 53
+      "count": 52
     },
     {
       "username": "Shteefe",
@@ -10588,7 +10583,7 @@
     },
     {
       "username": "jazee_",
-      "count": 17
+      "count": 18
     },
     {
       "username": "WontonGG",
@@ -10651,7 +10646,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2908,
+    "avg": 2912,
     "pctBelowAvg": 20,
     "count": 177
   },
@@ -10664,10 +10659,10 @@
       "count": 21
     },
     "Gibson": {
-      "avgPrice": 3361,
+      "avgPrice": 3317,
       "retailEst": 800,
-      "avgDiscount": -320.1,
-      "count": 43
+      "avgDiscount": -314.6,
+      "count": 44
     },
     "PRS": {
       "avgPrice": 3643,
@@ -11679,6 +11674,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Gibson": {
+        "total": 46,
+        "sold": 10,
+        "fake": 0,
+        "live": 36,
+        "soldPct": 22,
+        "livePct": 78
+      },
       "BC Rich": {
         "total": 14,
         "sold": 2,
@@ -11686,14 +11689,6 @@
         "live": 12,
         "soldPct": 14,
         "livePct": 86
-      },
-      "Gibson": {
-        "total": 45,
-        "sold": 10,
-        "fake": 0,
-        "live": 35,
-        "soldPct": 22,
-        "livePct": 78
       },
       "Vintage": {
         "total": 7,
@@ -12135,14 +12130,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Ovation": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12361,15 +12348,15 @@
       },
       {
         "label": "$500–1k",
-        "total": 21,
+        "total": 20,
         "sold": 3,
-        "rate": 14
+        "rate": 15
       },
       {
         "label": "$1k–2k",
-        "total": 89,
+        "total": 90,
         "sold": 21,
-        "rate": 24
+        "rate": 23
       },
       {
         "label": "$2k–3k",
@@ -12397,15 +12384,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 43,
+        "sold": 7,
+        "rate": 16
+      },
       "Excellent": {
         "total": 107,
         "sold": 36,
         "rate": 34
-      },
-      "Good": {
-        "total": 42,
-        "sold": 7,
-        "rate": 17
       },
       "Very Good": {
         "total": 81,
@@ -12413,7 +12400,7 @@
         "rate": 25
       },
       "Used": {
-        "total": 32,
+        "total": 31,
         "sold": 4,
         "rate": 13
       },
@@ -12900,6 +12887,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 35,
+      "sum": 98568.96,
+      "avg": 2816,
+      "min": 135,
+      "max": 7900,
+      "sold": 7,
+      "soldSum": 21543.98,
+      "soldAvg": 3078,
+      "live": 28,
+      "sellRate": 20,
+      "totalDays": 102,
+      "soldCount": 7,
+      "avgDaysToSell": 14.6
+    },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
       "brandLine": "BC Rich USA Custom Shop",
@@ -12916,24 +12921,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 34,
-      "sum": 97138.96,
-      "avg": 2857,
-      "min": 135,
-      "max": 7900,
-      "sold": 7,
-      "soldSum": 21543.98,
-      "soldAvg": 3078,
-      "live": 27,
-      "sellRate": 21,
-      "totalDays": 102,
-      "soldCount": 7,
-      "avgDaysToSell": 14.6
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -13020,7 +13007,7 @@
       "soldAvg": 3528,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 69.3,
+      "totalDays": 69.4,
       "soldCount": 3,
       "avgDaysToSell": 23.1
     },
@@ -13212,9 +13199,9 @@
       "soldAvg": 1477,
       "live": 4,
       "sellRate": 60,
-      "totalDays": 122.6,
+      "totalDays": 122.7,
       "soldCount": 6,
-      "avgDaysToSell": 20.4
+      "avgDaysToSell": 20.5
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -13650,23 +13637,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Ovation|Ovation Import": {
-      "brand": "Ovation",
-      "brandLine": "Ovation Import",
-      "tier": null,
-      "count": 1,
-      "sum": 799.99,
-      "avg": 800,
-      "min": 799.99,
-      "max": 799.99,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -13825,10 +13795,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 71,
-    "totalOffers": 162,
+    "withOffers": 72,
+    "totalOffers": 163,
     "avgOffersPerListing": 2.3,
-    "offersEnabledPct": 68
+    "offersEnabledPct": 69
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13855,7 +13825,7 @@
     },
     {
       "label": "16–30",
-      "total": 57,
+      "total": 58,
       "sold": 15,
       "rate": 26
     },
@@ -13868,7 +13838,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 176,
+      "total": 177,
       "sold": 44,
       "rate": 25
     },
@@ -13880,7 +13850,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 104,
+      "total": 105,
       "sold": 16,
       "rate": 15
     },
@@ -13982,6 +13952,12 @@
       "rate": 50
     },
     {
+      "state": "MD",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
+    },
+    {
       "state": "ENG",
       "total": 3,
       "sold": 1,
@@ -14052,12 +14028,6 @@
       "total": 2,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "MD",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
     },
     {
       "state": "RI",
