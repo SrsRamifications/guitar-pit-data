@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T05:08:33.428Z",
+  "generatedAt": "2026-04-23T05:13:57.916Z",
   "totalLinks": 313,
   "totalBeforeFilter": 349,
   "fakeCount": 1,
@@ -7,21 +7,21 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1132188.15,
-    "avg": 3676,
+    "sum": 1130559.15,
+    "avg": 3671,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 296,
-    "sum": 796069.16,
-    "avg": 2689,
+    "sum": 794440.16,
+    "avg": 2684,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8710,
+    "thresholdHigh": 8860,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 524595.8,
-      "min": 139.99,
+      "sum": 522966.8,
+      "min": 70,
       "max": 15995,
-      "avg": 2964
+      "avg": 2955
     },
     "2026-03": {
       "count": 131,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 257,
-      "sum": 798034.36,
+      "sum": 796405.36,
       "min": 33,
       "max": 35900,
-      "avg": 3105
+      "avg": 3099
     },
     "marketplace": {
       "count": 51,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 257,
-      "sum": 798034.36,
+      "sum": 796405.36,
       "min": 33,
       "max": 35900,
-      "avg": 3105
+      "avg": 3099
     },
     "guitarcenter.com": {
       "count": 21,
@@ -234,6 +234,37 @@
     }
   },
   "byModel": {
+    "bc-rich-classical-guitar": {
+      "displayName": "B.C. Rich Classical Guitar - Pink Burst",
+      "brand": "BC Rich",
+      "model": "Classical Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 70,
+      "min": 70,
+      "max": 70,
+      "sightings": [
+        {
+          "price": 70,
+          "date": "2026-04-23T05:13:43.959Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Classical Guitar - Pink Burst",
+          "url": "https://reverb.com/item/96246849-b-c-rich-classical-guitar-pink-burst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 70,
+          "min": 70,
+          "max": 70,
+          "avg": 70
+        }
+      },
+      "avg": 70
+    },
     "gibson-es-359": {
       "displayName": "2014 Gibson ES-359 - Vintage Sunburst",
       "brand": "Gibson",
@@ -5547,52 +5578,6 @@
       },
       "avg": 12000
     },
-    "dunable-yeti-electric-guitar-usa-custom-shop": {
-      "displayName": "Dunable Yeti Electric Guitar Usa Custom Shop",
-      "brand": "Dunable",
-      "model": "Yeti Electric Guitar",
-      "variant": "Usa Custom Shop",
-      "count": 1,
-      "sum": 1699,
-      "min": 1699,
-      "max": 1699,
-      "sightings": [
-        {
-          "price": 1699,
-          "date": "2026-04-16T01:45:08.779Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Dunable USA Custom Shop Yeti Electric Guitar w/ Case - Murder Blackout Satin",
-          "url": "https://reverb.com/item/96067566-dunable-usa-custom-shop-yeti-electric-guitar-w-case-murder-blackout-satin",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1699,
-          "min": 1699,
-          "max": 1699,
-          "avg": 1699
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1699,
-        "min": 1699,
-        "max": 1699,
-        "prices": [
-          {
-            "price": 1699,
-            "askingPrice": 1699,
-            "date": "2026-04-16T02:11:03.915Z",
-            "title": "Dunable USA Custom Shop Yeti Electric Guitar w/ Case - Murder Blackout Satin",
-            "url": "https://reverb.com/item/96067566-dunable-usa-custom-shop-yeti-electric-guitar-w-case-murder-blackout-satin"
-          }
-        ]
-      },
-      "avg": 1699
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9878,17 +9863,31 @@
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 82,
-      "sum": 217773.55999999994,
+    "Good": {
+      "count": 42,
+      "sum": 119629.95,
       "sold": {
-        "count": 21,
-        "sum": 44204.85,
-        "avg": 2105,
+        "count": 6,
+        "sum": 13556.48,
+        "avg": 2259,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2848,
+      "min": 70,
+      "max": 15995
+    },
+    "Very Good": {
+      "count": 81,
+      "sum": 216074.55999999994,
+      "sold": {
+        "count": 20,
+        "sum": 42505.85,
+        "avg": 2125,
         "min": 475,
         "max": 4022
       },
-      "avg": 2656,
+      "avg": 2668,
       "min": 33,
       "max": 16500
     },
@@ -9916,20 +9915,6 @@
       "avg": 5141,
       "min": 139.99,
       "max": 99000
-    },
-    "Good": {
-      "count": 41,
-      "sum": 119559.95,
-      "sold": {
-        "count": 6,
-        "sum": 13556.48,
-        "avg": 2259,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2916,
-      "min": 414,
-      "max": 15995
     },
     "New": {
       "count": 3,
@@ -9996,7 +9981,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2964,
+      "avg": 2955,
       "count": 177
     },
     "03": {
@@ -10148,31 +10133,36 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 16,
+    "0-500": 17,
     "500-1k": 21,
-    "1k-2k": 90,
+    "1k-2k": 89,
     "2k-3k": 74,
     "3k-5k": 61,
     "5k-10k": 36,
     "10k+": 10
   },
   "priceDistributionFiltered": {
-    "0-500": 16,
+    "0-500": 17,
     "500-1k": 21,
-    "1k-2k": 90,
+    "1k-2k": 89,
     "2k-3k": 74,
     "3k-5k": 61,
     "5k-10k": 34,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 237,
+      "count": 13,
+      "avg": 18
+    },
     "Gibson": {
       "sum": 648,
       "count": 41,
       "avg": 16
     },
     "Vintage": {
-      "sum": 97,
+      "sum": 98,
       "count": 7,
       "avg": 14
     },
@@ -10205,11 +10195,6 @@
       "sum": 365,
       "count": 17,
       "avg": 21
-    },
-    "BC Rich": {
-      "sum": 236,
-      "count": 12,
-      "avg": 20
     },
     "Hamer": {
       "sum": 60,
@@ -10436,11 +10421,6 @@
       "count": 1,
       "avg": 7
     },
-    "Dunable": {
-      "sum": 32,
-      "count": 2,
-      "avg": 16
-    },
     "Languedoc": {
       "sum": 26,
       "count": 1,
@@ -10511,6 +10491,11 @@
       "count": 1,
       "avg": 25
     },
+    "Dunable": {
+      "sum": 25,
+      "count": 1,
+      "avg": 25
+    },
     "Powers Electric": {
       "sum": 26,
       "count": 1,
@@ -10573,14 +10558,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-23": 19,
+    "2026-04-23": 20,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 14,
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 20,
+    "2026-04-16": 19,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10596,7 +10581,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 91
+      "count": 90
     },
     {
       "username": "greg1213",
@@ -10608,7 +10593,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 24
+      "count": 25
     },
     {
       "username": "Madero",
@@ -10638,7 +10623,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 32
+      "count": 31
     },
     {
       "username": "greg1213",
@@ -10679,8 +10664,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2964,
-    "pctBelowAvg": 19,
+    "avg": 2955,
+    "pctBelowAvg": 20,
     "count": 177
   },
   "topVoted": [],
@@ -10722,23 +10707,23 @@
       "count": 12
     },
     "BC Rich": {
-      "avgPrice": 2762,
+      "avgPrice": 2555,
       "retailEst": 200,
-      "avgDiscount": -1281,
-      "count": 12
+      "avgDiscount": -1177.5,
+      "count": 13
     }
   },
   "soldPrices": {
-    "count": 76,
-    "avg": 3150,
+    "count": 75,
+    "avg": 3170,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 447.8,
-      "count": 74,
+      "totalDays": 447.7,
+      "count": 73,
       "avgDays": 6.1
     },
     "byModel": {
@@ -10952,14 +10937,6 @@
       },
       "kiesel-ct7-string-7-string": {
         "displayName": "Carvin CT7 - 7 string",
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
-      },
-      "dunable-yeti-electric-guitar-usa-custom-shop": {
-        "displayName": "Dunable Yeti Electric Guitar Usa Custom Shop",
         "totalDays": 0.1,
         "count": 1,
         "fastest": 0.1,
@@ -11422,13 +11399,6 @@
         "slowest": 4.3,
         "avgDays": 4.3
       },
-      "Dunable": {
-        "totalDays": 5.8,
-        "count": 2,
-        "fastest": 0.1,
-        "slowest": 5.7,
-        "avgDays": 2.9
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -11463,6 +11433,13 @@
         "fastest": 0.6,
         "slowest": 0.6,
         "avgDays": 0.6
+      },
+      "Dunable": {
+        "totalDays": 5.7,
+        "count": 1,
+        "fastest": 5.7,
+        "slowest": 5.7,
+        "avgDays": 5.7
       },
       "Powers Electric": {
         "totalDays": 0.8,
@@ -11708,13 +11685,21 @@
   "sellThrough": {
     "overall": {
       "total": 290,
-      "sold": 74,
+      "sold": 73,
       "fake": 0,
-      "live": 216,
-      "soldPct": 26,
-      "livePct": 74
+      "live": 217,
+      "soldPct": 25,
+      "livePct": 75
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 13,
+        "sold": 2,
+        "fake": 0,
+        "live": 11,
+        "soldPct": 15,
+        "livePct": 85
+      },
       "Gibson": {
         "total": 45,
         "sold": 10,
@@ -11794,14 +11779,6 @@
         "live": 14,
         "soldPct": 26,
         "livePct": 74
-      },
-      "BC Rich": {
-        "total": 12,
-        "sold": 2,
-        "fake": 0,
-        "live": 10,
-        "soldPct": 17,
-        "livePct": 83
       },
       "Hamer": {
         "total": 4,
@@ -12187,14 +12164,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Dunable": {
-        "total": 2,
-        "sold": 2,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12299,6 +12268,14 @@
         "soldPct": 0,
         "livePct": 100
       },
+      "Dunable": {
+        "total": 1,
+        "sold": 1,
+        "fake": 0,
+        "live": 0,
+        "soldPct": 100,
+        "livePct": 0
+      },
       "Powers Electric": {
         "total": 1,
         "sold": 1,
@@ -12399,9 +12376,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 16,
+        "total": 17,
         "sold": 4,
-        "rate": 25
+        "rate": 24
       },
       {
         "label": "$500–1k",
@@ -12411,8 +12388,8 @@
       },
       {
         "label": "$1k–2k",
-        "total": 90,
-        "sold": 22,
+        "total": 89,
+        "sold": 21,
         "rate": 24
       },
       {
@@ -12441,10 +12418,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 42,
+        "sold": 7,
+        "rate": 17
+      },
       "Very Good": {
-        "total": 82,
-        "sold": 21,
-        "rate": 26
+        "total": 81,
+        "sold": 20,
+        "rate": 25
       },
       "Excellent": {
         "total": 107,
@@ -12455,11 +12437,6 @@
         "total": 32,
         "sold": 4,
         "rate": 13
-      },
-      "Good": {
-        "total": 41,
-        "sold": 7,
-        "rate": 17
       },
       "New": {
         "total": 3,
@@ -13047,7 +13024,7 @@
       "soldAvg": 3528,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 69.2,
+      "totalDays": 69.3,
       "soldCount": 3,
       "avgDaysToSell": 23.1
     },
@@ -13728,24 +13705,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Dunable|Rickenbacker": {
-      "brand": "Dunable",
-      "brandLine": "Rickenbacker",
-      "tier": "high",
-      "count": 1,
-      "sum": 1699,
-      "avg": 1699,
-      "min": 1699,
-      "max": 1699,
-      "sold": 1,
-      "soldSum": 1699,
-      "soldAvg": 1699,
-      "live": 0,
-      "sellRate": 100,
-      "totalDays": 7.2,
-      "soldCount": 1,
-      "avgDaysToSell": 7.2
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -13863,9 +13822,9 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 47.2,
+      "totalDays": 47.3,
       "soldCount": 2,
-      "avgDaysToSell": 23.6
+      "avgDaysToSell": 23.7
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13916,9 +13875,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 3,
-      "rate": 100
+      "rate": 75
     },
     {
       "label": "1–5",
@@ -13928,9 +13887,9 @@
     },
     {
       "label": "6–15",
-      "total": 58,
-      "sold": 14,
-      "rate": 24
+      "total": 57,
+      "sold": 13,
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -13947,24 +13906,24 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 174,
+      "total": 175,
       "sold": 44,
       "rate": 25
     },
     "off": {
-      "total": 40,
-      "sold": 13,
-      "rate": 33
+      "total": 39,
+      "sold": 12,
+      "rate": 31
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 105,
-      "sold": 17,
-      "rate": 16
+      "total": 104,
+      "sold": 16,
+      "rate": 15
     },
     "regular": {
-      "total": 96,
+      "total": 97,
       "sold": 31,
       "rate": 32
     }
@@ -13996,9 +13955,9 @@
     },
     {
       "state": "FL",
-      "total": 10,
+      "total": 11,
       "sold": 4,
-      "rate": 40
+      "rate": 36
     },
     {
       "state": "IL",
@@ -14055,12 +14014,6 @@
       "rate": 0
     },
     {
-      "state": "SC",
-      "total": 4,
-      "sold": 4,
-      "rate": 100
-    },
-    {
       "state": "MA",
       "total": 4,
       "sold": 2,
@@ -14101,6 +14054,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "SC",
+      "total": 3,
+      "sold": 3,
+      "rate": 100
     },
     {
       "state": "KS",
