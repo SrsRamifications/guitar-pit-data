@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T20:26:53.345Z",
+  "generatedAt": "2026-04-24T20:27:46.952Z",
   "totalLinks": 312,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 307,
   "overall": {
     "count": 307,
-    "sum": 1122086.17,
-    "avg": 3655,
+    "sum": 1120586.17,
+    "avg": 3650,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 811036.18,
-    "avg": 2731,
+    "sum": 809536.18,
+    "avg": 2726,
     "min": 33,
     "max": 8499,
     "median": 2299
@@ -109,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 177,
-      "sum": 530993.82,
+      "sum": 529493.82,
       "min": 70,
       "max": 15995,
-      "avg": 3000
+      "avg": 2991
     },
     "2026-03": {
       "count": 130,
@@ -123,35 +123,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 259,
+      "sum": 795227.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3070
+    },
     "marketplace": {
       "count": 48,
       "sum": 325358.81,
       "min": 143.99,
       "max": 99000,
       "avg": 6778
-    },
-    "reverb": {
-      "count": 259,
-      "sum": 796727.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3076
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 259,
+      "sum": 795227.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3070
+    },
     "waltgracevintage.com": {
       "count": 1,
       "sum": 599,
       "min": 599,
       "max": 599,
       "avg": 599
-    },
-    "reverb.com": {
-      "count": 259,
-      "sum": 796727.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3076
     },
     "guitarcenter.com": {
       "count": 19,
@@ -218,6 +218,37 @@
     }
   },
   "byModel": {
+    "prs-standard-satin": {
+      "displayName": "PRS Standard 24 Satin in Frost Blue Metallic",
+      "brand": "PRS",
+      "model": "Standard",
+      "variant": "Satin",
+      "count": 1,
+      "sum": 3500,
+      "min": 3500,
+      "max": 3500,
+      "sightings": [
+        {
+          "price": 3500,
+          "date": "2026-04-24T20:27:31.017Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Standard 24 Satin in Frost Blue Metallic",
+          "url": "https://reverb.com/item/91224791-prs-standard-24-satin-in-frost-blue-metallic",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 3500,
+          "min": 3500,
+          "max": 3500,
+          "avg": 3500
+        }
+      },
+      "avg": 3500
+    },
     "gibson-les-paul-special": {
       "displayName": "Gibson Les Paul Special Tribute Double Cut Electric Guitar - Blue Stain",
       "brand": "Gibson",
@@ -9855,6 +9886,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 22,
+      "sum": 95105.12,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4323,
+      "min": 135,
+      "max": 14670
+    },
     "Very Good": {
       "count": 79,
       "sum": 202641.55999999994,
@@ -9870,8 +9915,8 @@
       "max": 15500
     },
     "Excellent": {
-      "count": 110,
-      "sum": 389655.73,
+      "count": 109,
+      "sum": 384655.73,
       "sold": {
         "count": 36,
         "sum": 129282.87,
@@ -9879,7 +9924,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3542,
+      "avg": 3529,
       "min": 190,
       "max": 35900
     },
@@ -9907,20 +9952,6 @@
       "avg": 2763,
       "min": 70,
       "max": 15995
-    },
-    "Brand New": {
-      "count": 21,
-      "sum": 91605.12,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4362,
-      "min": 135,
-      "max": 14670
     },
     "Used": {
       "count": 30,
@@ -9973,7 +10004,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3000,
+      "avg": 2991,
       "count": 177
     },
     "03": {
@@ -10129,8 +10160,8 @@
     "500-1k": 22,
     "1k-2k": 88,
     "2k-3k": 76,
-    "3k-5k": 59,
-    "5k-10k": 39,
+    "3k-5k": 60,
+    "5k-10k": 38,
     "10k+": 8
   },
   "priceDistributionFiltered": {
@@ -10138,8 +10169,8 @@
     "500-1k": 22,
     "1k-2k": 88,
     "2k-3k": 76,
-    "3k-5k": 59,
-    "5k-10k": 37,
+    "3k-5k": 60,
+    "5k-10k": 36,
     "10k+": 0
   },
   "daysOnMarket": {
@@ -10525,14 +10556,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 25,
+    "2026-04-24": 26,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 13,
     "2026-04-19": 19,
     "2026-04-18": 37,
-    "2026-04-17": 10,
+    "2026-04-17": 9,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10541,10 +10572,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 53,
-    "reverb": 259
+    "reverb": 259,
+    "marketplace": 53
   },
-  "activeModelsCount": 265,
+  "activeModelsCount": 266,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10631,7 +10662,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3000,
+    "avg": 2991,
     "pctBelowAvg": 18,
     "count": 177
   },
@@ -10650,10 +10681,10 @@
       "count": 41
     },
     "PRS": {
-      "avgPrice": 2898,
+      "avgPrice": 2930,
       "retailEst": 1000,
-      "avgDiscount": -189.8,
-      "count": 18
+      "avgDiscount": -193,
+      "count": 19
     },
     "Ibanez": {
       "avgPrice": 2842,
@@ -11657,14 +11688,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 288,
+      "total": 289,
       "sold": 76,
       "fake": 0,
-      "live": 212,
+      "live": 213,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "PRS": {
+        "total": 19,
+        "sold": 7,
+        "fake": 0,
+        "live": 12,
+        "soldPct": 37,
+        "livePct": 63
+      },
       "Gibson": {
         "total": 43,
         "sold": 10,
@@ -11704,14 +11743,6 @@
         "live": 1,
         "soldPct": 50,
         "livePct": 50
-      },
-      "PRS": {
-        "total": 18,
-        "sold": 7,
-        "fake": 0,
-        "live": 11,
-        "soldPct": 39,
-        "livePct": 61
       },
       "Yamaha": {
         "total": 7,
@@ -12325,15 +12356,15 @@
       },
       {
         "label": "$3k–5k",
-        "total": 59,
+        "total": 60,
         "sold": 17,
-        "rate": 29
+        "rate": 28
       },
       {
         "label": "$5k–10k",
-        "total": 39,
+        "total": 38,
         "sold": 6,
-        "rate": 15
+        "rate": 16
       },
       {
         "label": "$10k+",
@@ -12343,13 +12374,18 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 22,
+        "sold": 2,
+        "rate": 9
+      },
       "Very Good": {
         "total": 79,
         "sold": 22,
         "rate": 28
       },
       "Excellent": {
-        "total": 110,
+        "total": 109,
         "sold": 38,
         "rate": 35
       },
@@ -12362,11 +12398,6 @@
         "total": 47,
         "sold": 8,
         "rate": 17
-      },
-      "Brand New": {
-        "total": 21,
-        "sold": 2,
-        "rate": 10
       },
       "Used": {
         "total": 30,
@@ -12882,6 +12913,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "PRS Standard 24 Satin in Frost Blue Metallic",
+        "url": "https://reverb.com/item/91224791-prs-standard-24-satin-in-frost-blue-metallic",
+        "price": "$3,500",
+        "priceNum": 3500,
+        "brand": "PRS",
+        "condition": "Brand New",
+        "watchers": 10,
+        "views": 165,
+        "daysListed": 297,
+        "image": "https://rvb-img.reverb.com/i/s--dAQavLOD--/quality=medium-low,height=800,width=800,fit=contain/yeszser56hkgrckrbnfw.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Used Fender Jim Adkins JA-90 Telecaster Thinline Electric Guitar ",
         "url": "https://reverb.com/item/91371043-used-fender-jim-adkins-ja-90-telecaster-thinline-electric-guitar-natural",
         "price": "$1,050",
@@ -12892,20 +12937,6 @@
         "views": 403,
         "daysListed": 287,
         "image": "https://rvb-img.reverb.com/i/s--Hd0wd8_A--/quality=medium-low,height=800,width=800,fit=contain/fe619828-8823-4b1e-a06e-2e85652ce9cf.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "ESP Tele Custom 1980s NYC",
-        "url": "https://reverb.com/item/91598724-esp-tele-custom-1980s-nyc",
-        "price": "$2,195",
-        "priceNum": 2195,
-        "brand": "ESP",
-        "condition": "Very Good",
-        "watchers": 46,
-        "views": 1668,
-        "daysListed": 269,
-        "image": "https://rvb-img.reverb.com/i/s--hku-fNrZ--/quality=medium-low,height=800,width=800,fit=contain/xfebme4ctyqr1gidkjnq.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12956,6 +12987,24 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 11,
+      "sum": 29744.17,
+      "avg": 2704,
+      "min": 649,
+      "max": 4548.17,
+      "sold": 6,
+      "soldSum": 15997.17,
+      "soldAvg": 2666,
+      "live": 5,
+      "sellRate": 55,
+      "totalDays": 114.9,
+      "soldCount": 6,
+      "avgDaysToSell": 19.2
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13268,24 +13317,6 @@
       "totalDays": 33,
       "soldCount": 1,
       "avgDaysToSell": 33
-    },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 10,
-      "sum": 26244.17,
-      "avg": 2624,
-      "min": 649,
-      "max": 4548.17,
-      "sold": 6,
-      "soldSum": 15997.17,
-      "soldAvg": 2666,
-      "live": 4,
-      "sellRate": 60,
-      "totalDays": 114.9,
-      "soldCount": 6,
-      "avgDaysToSell": 19.2
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13977,26 +14008,26 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 172,
+      "total": 171,
       "sold": 47,
       "rate": 27
     },
     "off": {
-      "total": 45,
+      "total": 46,
       "sold": 14,
-      "rate": 31
+      "rate": 30
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 108,
+      "total": 109,
       "sold": 19,
-      "rate": 18
+      "rate": 17
     },
     "regular": {
-      "total": 96,
+      "total": 95,
       "sold": 33,
-      "rate": 34
+      "rate": 35
     }
   },
   "geoSellThrough": [
@@ -14025,16 +14056,16 @@
       "rate": 25
     },
     {
-      "state": "NY",
-      "total": 11,
-      "sold": 1,
-      "rate": 9
-    },
-    {
       "state": "TX",
       "total": 11,
       "sold": 4,
       "rate": 36
+    },
+    {
+      "state": "NY",
+      "total": 10,
+      "sold": 1,
+      "rate": 10
     },
     {
       "state": "IL",
@@ -14056,9 +14087,9 @@
     },
     {
       "state": "NC",
-      "total": 5,
+      "total": 6,
       "sold": 2,
-      "rate": 40
+      "rate": 33
     },
     {
       "state": "CO",
