@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T04:23:05.284Z",
+  "generatedAt": "2026-04-24T04:26:26.719Z",
   "totalLinks": 313,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1136635.15,
-    "avg": 3690,
+    "sum": 1142154.15,
+    "avg": 3708,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 813475.16,
-    "avg": 2739,
+    "sum": 818994.16,
+    "avg": 2758,
     "min": 33,
     "max": 8499,
     "median": 2300
@@ -117,10 +117,10 @@
   "byMonth": {
     "2026-04": {
       "count": 178,
-      "sum": 545542.8,
+      "sum": 551061.8,
       "min": 70,
       "max": 15995,
-      "avg": 3065
+      "avg": 3096
     },
     "2026-03": {
       "count": 130,
@@ -133,10 +133,10 @@
   "byCategory": {
     "reverb": {
       "count": 258,
-      "sum": 803856.36,
+      "sum": 809375.36,
       "min": 33,
       "max": 35900,
-      "avg": 3116
+      "avg": 3137
     },
     "marketplace": {
       "count": 50,
@@ -149,10 +149,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 258,
-      "sum": 803856.36,
+      "sum": 809375.36,
       "min": 33,
       "max": 35900,
-      "avg": 3116
+      "avg": 3137
     },
     "guitarcenter.com": {
       "count": 21,
@@ -219,6 +219,37 @@
     }
   },
   "byModel": {
+    "ibanez-jem777": {
+      "displayName": "1987 Ibanez JEM777-SK Shocking Pink",
+      "brand": "Ibanez",
+      "model": "JEM777",
+      "variant": null,
+      "count": 1,
+      "sum": 7019,
+      "min": 7019,
+      "max": 7019,
+      "sightings": [
+        {
+          "price": 7019,
+          "date": "2026-04-24T04:26:12.970Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1987 Ibanez JEM777-SK Shocking Pink",
+          "url": "https://reverb.com/item/96320208",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 7019,
+          "min": 7019,
+          "max": 7019,
+          "avg": 7019
+        }
+      },
+      "avg": 7019
+    },
     "fodera-imperial": {
       "displayName": "Fodera Imperial Custom",
       "brand": "Fodera",
@@ -5685,37 +5716,6 @@
       },
       "avg": 3200
     },
-    "bradford-apocalypse": {
-      "displayName": "Bradford Guitars Apocalypse Machine 2024 - TV Yellow",
-      "brand": "Bradford",
-      "model": "Apocalypse",
-      "variant": null,
-      "count": 1,
-      "sum": 1500,
-      "min": 1500,
-      "max": 1500,
-      "sightings": [
-        {
-          "price": 1500,
-          "date": "2026-04-16T21:15:12.951Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Bradford Guitars Apocalypse Machine 2024 - TV Yellow",
-          "url": "https://reverb.com/item/96097046-bradford-guitars-apocalypse-machine-2024-tv-yellow",
-          "condition": "Fair"
-        }
-      ],
-      "byCondition": {
-        "Fair": {
-          "count": 1,
-          "sum": 1500,
-          "min": 1500,
-          "max": 1500,
-          "avg": 1500
-        }
-      },
-      "avg": 1500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9938,6 +9938,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 77,
+      "sum": 200969.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 44247.85,
+        "avg": 2107,
+        "min": 475,
+        "max": 5500
+      },
+      "avg": 2610,
+      "min": 33,
+      "max": 15500
+    },
     "Excellent": {
       "count": 111,
       "sum": 409328.73,
@@ -9965,20 +9979,6 @@
       "avg": 2752,
       "min": 70,
       "max": 15995
-    },
-    "Very Good": {
-      "count": 76,
-      "sum": 193950.55999999997,
-      "sold": {
-        "count": 21,
-        "sum": 44247.85,
-        "avg": 2107,
-        "min": 475,
-        "max": 5500
-      },
-      "avg": 2552,
-      "min": 33,
-      "max": 15500
     },
     "Brand New": {
       "count": 22,
@@ -10028,8 +10028,8 @@
       "max": 5000
     },
     "Fair": {
-      "count": 5,
-      "sum": 9648,
+      "count": 4,
+      "sum": 8148,
       "sold": {
         "count": 1,
         "sum": 4699,
@@ -10037,7 +10037,7 @@
         "min": 4699,
         "max": 4699
       },
-      "avg": 1930,
+      "avg": 2037,
       "min": 850,
       "max": 4699
     },
@@ -10056,7 +10056,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3065,
+      "avg": 3096,
       "count": 178
     },
     "03": {
@@ -10210,22 +10210,27 @@
   "priceDistribution": {
     "0-500": 17,
     "500-1k": 21,
-    "1k-2k": 88,
+    "1k-2k": 87,
     "2k-3k": 74,
     "3k-5k": 58,
-    "5k-10k": 41,
+    "5k-10k": 42,
     "10k+": 9
   },
   "priceDistributionFiltered": {
     "0-500": 17,
     "500-1k": 21,
-    "1k-2k": 88,
+    "1k-2k": 87,
     "2k-3k": 74,
     "3k-5k": 58,
-    "5k-10k": 39,
+    "5k-10k": 40,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 381,
+      "count": 18,
+      "avg": 21
+    },
     "Fodera": {
       "sum": 21,
       "count": 1,
@@ -10300,11 +10305,6 @@
       "sum": 23,
       "count": 1,
       "avg": 23
-    },
-    "Ibanez": {
-      "sum": 381,
-      "count": 17,
-      "avg": 22
     },
     "Hamer": {
       "sum": 63,
@@ -10491,11 +10491,6 @@
       "count": 2,
       "avg": 18
     },
-    "Bradford": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 27,
       "count": 1,
@@ -10618,7 +10613,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 7,
+    "2026-04-24": 8,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
@@ -10626,7 +10621,6 @@
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 1,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10642,7 +10636,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 92
+      "count": 91
     },
     {
       "username": "greg1213",
@@ -10662,7 +10656,7 @@
     },
     {
       "username": "jazee_",
-      "count": 19
+      "count": 20
     },
     {
       "username": "WontonGG",
@@ -10725,7 +10719,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3065,
+    "avg": 3096,
     "pctBelowAvg": 17,
     "count": 178
   },
@@ -10750,10 +10744,10 @@
       "count": 16
     },
     "Ibanez": {
-      "avgPrice": 3223,
+      "avgPrice": 3413,
       "retailEst": 1000,
-      "avgDiscount": -222.3,
-      "count": 19
+      "avgDiscount": -241.3,
+      "count": 20
     },
     "Jackson": {
       "avgPrice": 3921,
@@ -11784,6 +11778,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 20,
+        "sold": 6,
+        "fake": 0,
+        "live": 14,
+        "soldPct": 30,
+        "livePct": 70
+      },
       "Fodera": {
         "total": 1,
         "sold": 0,
@@ -11919,14 +11921,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Ibanez": {
-        "total": 19,
-        "sold": 6,
-        "fake": 0,
-        "live": 13,
-        "soldPct": 32,
-        "livePct": 68
       },
       "Hamer": {
         "total": 4,
@@ -12240,14 +12234,6 @@
         "soldPct": 50,
         "livePct": 50
       },
-      "Bradford": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12456,7 +12442,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 88,
+        "total": 87,
         "sold": 21,
         "rate": 24
       },
@@ -12474,9 +12460,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 41,
+        "total": 42,
         "sold": 6,
-        "rate": 15
+        "rate": 14
       },
       {
         "label": "$10k+",
@@ -12486,6 +12472,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 77,
+        "sold": 21,
+        "rate": 27
+      },
       "Excellent": {
         "total": 111,
         "sold": 37,
@@ -12495,11 +12486,6 @@
         "total": 46,
         "sold": 8,
         "rate": 17
-      },
-      "Very Good": {
-        "total": 76,
-        "sold": 21,
-        "rate": 28
       },
       "Brand New": {
         "total": 22,
@@ -12522,9 +12508,9 @@
         "rate": 0
       },
       "Fair": {
-        "total": 5,
+        "total": 4,
         "sold": 1,
-        "rate": 20
+        "rate": 25
       },
       "B-Stock": {
         "total": 1,
@@ -13026,6 +13012,24 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Prestige": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Prestige",
+      "tier": "high",
+      "count": 9,
+      "sum": 27756,
+      "avg": 3084,
+      "min": 1099,
+      "max": 7019,
+      "sold": 3,
+      "soldSum": 7302.42,
+      "soldAvg": 2434,
+      "live": 6,
+      "sellRate": 33,
+      "totalDays": 46.599999999999994,
+      "soldCount": 3,
+      "avgDaysToSell": 15.5
+    },
     "Fodera|Fodera": {
       "brand": "Fodera",
       "brandLine": "Fodera",
@@ -13534,24 +13538,6 @@
       "soldCount": 1,
       "avgDaysToSell": 61.2
     },
-    "Ibanez|Ibanez Prestige": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Prestige",
-      "tier": "high",
-      "count": 8,
-      "sum": 20737,
-      "avg": 2592,
-      "min": 1099,
-      "max": 5861,
-      "sold": 3,
-      "soldSum": 7302.42,
-      "soldAvg": 2434,
-      "live": 5,
-      "sellRate": 38,
-      "totalDays": 46.599999999999994,
-      "soldCount": 3,
-      "avgDaysToSell": 15.5
-    },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
       "brandLine": "Schecter USA Custom Shop",
@@ -14047,14 +14033,14 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 174,
+      "total": 173,
       "sold": 46,
-      "rate": 26
+      "rate": 27
     },
     "off": {
-      "total": 42,
+      "total": 43,
       "sold": 13,
-      "rate": 31
+      "rate": 30
     }
   },
   "sellerType": {
@@ -14072,9 +14058,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 26,
+      "total": 25,
       "sold": 5,
-      "rate": 19
+      "rate": 20
     },
     {
       "state": "PA",
@@ -14084,9 +14070,9 @@
     },
     {
       "state": "WA",
-      "total": 13,
+      "total": 14,
       "sold": 2,
-      "rate": 15
+      "rate": 14
     },
     {
       "state": "TX",
