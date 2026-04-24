@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T15:12:04.535Z",
+  "generatedAt": "2026-04-24T15:29:52.693Z",
   "totalLinks": 315,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 310,
   "overall": {
     "count": 310,
-    "sum": 1167028.17,
-    "avg": 3765,
+    "sum": 1171027.17,
+    "avg": 3778,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 298,
-    "sum": 829198.18,
-    "avg": 2783,
+    "sum": 833197.18,
+    "avg": 2796,
     "min": 33,
     "max": 8499,
     "median": 2399
   },
   "outliers": {
-    "thresholdHigh": 9150,
+    "thresholdHigh": 9300,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 180,
-      "sum": 575935.82,
+      "sum": 579934.82,
       "min": 70,
       "max": 15995,
-      "avg": 3200
+      "avg": 3222
     },
     "2026-03": {
       "count": 130,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 262,
-      "sum": 835589.36,
+      "sum": 839588.36,
       "min": 33,
       "max": 35900,
-      "avg": 3189
+      "avg": 3205
     },
     "marketplace": {
       "count": 48,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 262,
-      "sum": 835589.36,
+      "sum": 839588.36,
       "min": 33,
       "max": 35900,
-      "avg": 3189
+      "avg": 3205
     },
     "guitarcenter.com": {
       "count": 19,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "bc-rich-stealth-chuck-schuldiner-usa-custom-shop": {
+      "displayName": "B.C. Rich Stealth USA Custom Shop Chuck Schuldiner",
+      "brand": "BC Rich",
+      "model": "Stealth Chuck Schuldiner",
+      "variant": "Usa Custom Shop",
+      "count": 1,
+      "sum": 6499,
+      "min": 6499,
+      "max": 6499,
+      "sightings": [
+        {
+          "price": 6499,
+          "date": "2026-04-24T15:29:38.657Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Stealth USA Custom Shop Chuck Schuldiner",
+          "url": "https://reverb.com/item/96368381-b-c-rich-stealth-usa-custom-shop-chuck-schuldiner",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 6499,
+          "min": 6499,
+          "max": 6499,
+          "avg": 6499
+        }
+      },
+      "avg": 6499
+    },
     "fender-coronado": {
       "displayName": "Fender Coronado II 66-72 - Sunburst",
       "brand": "Fender",
@@ -5735,37 +5766,6 @@
       },
       "avg": 3200
     },
-    "kramer-stainless-frets-baretta": {
-      "displayName": "*STAINLESS FRETS* Kramer Baretta I 1986 - White with Hardshell Case",
-      "brand": "Kramer",
-      "model": "*STAINLESS FRETS* Baretta",
-      "variant": null,
-      "count": 1,
-      "sum": 2500,
-      "min": 2500,
-      "max": 2500,
-      "sightings": [
-        {
-          "price": 2500,
-          "date": "2026-04-17T03:25:10.145Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "*STAINLESS FRETS* Kramer Baretta I 1986 - White with Hardshell Case",
-          "url": "https://reverb.com/item/96087292-stainless-frets-kramer-baretta-i-1986-white-with-hardshell-case",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2500,
-          "min": 2500,
-          "max": 2500,
-          "avg": 2500
-        }
-      },
-      "avg": 2500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9988,6 +9988,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 113,
+      "sum": 418667.73,
+      "sold": {
+        "count": 34,
+        "sum": 125383.87,
+        "avg": 3688,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3705,
+      "min": 190,
+      "max": 35900
+    },
     "Good": {
       "count": 48,
       "sum": 133078.95,
@@ -10003,8 +10017,8 @@
       "max": 15995
     },
     "Very Good": {
-      "count": 79,
-      "sum": 205990.55999999994,
+      "count": 78,
+      "sum": 203490.55999999994,
       "sold": {
         "count": 22,
         "sum": 45487.85,
@@ -10012,23 +10026,9 @@
         "min": 475,
         "max": 5500
       },
-      "avg": 2607,
+      "avg": 2609,
       "min": 33,
       "max": 15500
-    },
-    "Excellent": {
-      "count": 112,
-      "sum": 412168.73,
-      "sold": {
-        "count": 34,
-        "sum": 125383.87,
-        "avg": 3688,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3680,
-      "min": 190,
-      "max": 35900
     },
     "Brand New": {
       "count": 22,
@@ -10106,7 +10106,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3200,
+      "avg": 3222,
       "count": 180
     },
     "03": {
@@ -10215,13 +10215,6 @@
       "date": "2026-04-21T14:41:55.048Z"
     },
     {
-      "title": "*STAINLESS FRETS* Kramer Baretta I 1986 - White with Hardshell Case",
-      "url": "https://reverb.com/item/96087292-stainless-frets-kramer-baretta-i-1986-white-with-hardshell-case",
-      "oldPrice": "$2,800",
-      "newPrice": "$2,500",
-      "date": "2026-04-23T00:18:27.234Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10255,36 +10248,43 @@
       "oldPrice": "$2,000",
       "newPrice": "$1,700",
       "date": "2026-04-01T22:44:47.805Z"
+    },
+    {
+      "title": "Ibanez JEM7-RB 1988 - Root Beer",
+      "url": "https://reverb.com/item/95464810-ibanez-jem7-rb-1988-root-beer",
+      "oldPrice": "$5,000",
+      "newPrice": "$4,250",
+      "date": "2026-04-01T17:43:44.200Z"
     }
   ],
   "priceDistribution": {
     "0-500": 15,
     "500-1k": 20,
     "1k-2k": 88,
-    "2k-3k": 75,
+    "2k-3k": 74,
     "3k-5k": 61,
-    "5k-10k": 41,
+    "5k-10k": 42,
     "10k+": 10
   },
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 20,
     "1k-2k": 88,
-    "2k-3k": 75,
+    "2k-3k": 74,
     "3k-5k": 61,
-    "5k-10k": 39,
+    "5k-10k": 40,
     "10k+": 0
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 262,
+      "count": 18,
+      "avg": 15
+    },
     "Fender": {
       "sum": 231,
       "count": 20,
       "avg": 12
-    },
-    "BC Rich": {
-      "sum": 262,
-      "count": 17,
-      "avg": 15
     },
     "PRS": {
       "sum": 259,
@@ -10292,7 +10292,7 @@
       "avg": 15
     },
     "Gibson": {
-      "sum": 637,
+      "sum": 638,
       "count": 39,
       "avg": 16
     },
@@ -10531,11 +10531,6 @@
       "count": 2,
       "avg": 18
     },
-    "Kramer": {
-      "sum": 8,
-      "count": 1,
-      "avg": 8
-    },
     "Languedoc": {
       "sum": 27,
       "count": 1,
@@ -10663,14 +10658,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 18,
+    "2026-04-24": 19,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 13,
     "2026-04-19": 19,
     "2026-04-18": 37,
-    "2026-04-17": 20,
+    "2026-04-17": 19,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10694,11 +10689,11 @@
     },
     {
       "username": "YellowJack6",
-      "count": 31
+      "count": 32
     },
     {
       "username": "Shteefe",
-      "count": 30
+      "count": 29
     },
     {
       "username": "Madero",
@@ -10769,7 +10764,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3200,
+    "avg": 3222,
     "pctBelowAvg": 15,
     "count": 180
   },
@@ -10812,10 +10807,10 @@
       "count": 11
     },
     "BC Rich": {
-      "avgPrice": 2426,
+      "avgPrice": 2640,
       "retailEst": 200,
-      "avgDiscount": -1112.8,
-      "count": 18
+      "avgDiscount": -1220,
+      "count": 19
     }
   },
   "soldPrices": {
@@ -11651,9 +11646,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 988.7459705510435,
-      "count": 56,
-      "avgPctDrop": 17.7
+      "totalPctDrop": 978.0316848367577,
+      "count": 55,
+      "avgPctDrop": 17.8
     },
     "byBrand": {
       "Fender": {
@@ -11746,11 +11741,6 @@
         "count": 3,
         "avgPctDrop": 23.8
       },
-      "Kramer": {
-        "totalPctDrop": 10.714285714285714,
-        "count": 1,
-        "avgPctDrop": 10.7
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -11808,6 +11798,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 19,
+        "sold": 3,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 16,
+        "livePct": 84
+      },
       "Fender": {
         "total": 27,
         "sold": 7,
@@ -11815,14 +11813,6 @@
         "live": 20,
         "soldPct": 26,
         "livePct": 74
-      },
-      "BC Rich": {
-        "total": 18,
-        "sold": 3,
-        "fake": 0,
-        "live": 15,
-        "soldPct": 17,
-        "livePct": 83
       },
       "PRS": {
         "total": 18,
@@ -12248,14 +12238,6 @@
         "soldPct": 50,
         "livePct": 50
       },
-      "Kramer": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12478,7 +12460,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 75,
+        "total": 74,
         "sold": 23,
         "rate": 31
       },
@@ -12490,9 +12472,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 41,
+        "total": 42,
         "sold": 6,
-        "rate": 15
+        "rate": 14
       },
       {
         "label": "$10k+",
@@ -12502,20 +12484,20 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 113,
+        "sold": 36,
+        "rate": 32
+      },
       "Good": {
         "total": 48,
         "sold": 8,
         "rate": 17
       },
       "Very Good": {
-        "total": 79,
+        "total": 78,
         "sold": 22,
         "rate": 28
-      },
-      "Excellent": {
-        "total": 112,
-        "sold": 36,
-        "rate": 32
       },
       "Brand New": {
         "total": 22,
@@ -13048,7 +13030,7 @@
         "condition": "Very Good",
         "watchers": 30,
         "views": 541,
-        "daysListed": 267,
+        "daysListed": 268,
         "image": "https://rvb-img.reverb.com/i/s--Xo4pJceL--/quality=medium-low,height=800,width=800,fit=contain/f9agxef99souwhtjivoc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13100,6 +13082,23 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich USA Custom Shop": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich USA Custom Shop",
+      "tier": "premium",
+      "count": 6,
+      "sum": 33143,
+      "avg": 5524,
+      "min": 3400,
+      "max": 7500,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 6,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -13117,23 +13116,6 @@
       "totalDays": 87.1,
       "soldCount": 3,
       "avgDaysToSell": 29
-    },
-    "BC Rich|BC Rich USA Custom Shop": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich USA Custom Shop",
-      "tier": "premium",
-      "count": 5,
-      "sum": 26644,
-      "avg": 5329,
-      "min": 3400,
-      "max": 7500,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 5,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -13183,7 +13165,7 @@
       "soldAvg": 3380,
       "live": 25,
       "sellRate": 24,
-      "totalDays": 113.39999999999999,
+      "totalDays": 113.6,
       "soldCount": 8,
       "avgDaysToSell": 14.2
     },
@@ -13393,7 +13375,7 @@
       "soldAvg": 2699,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 111.9,
+      "totalDays": 112,
       "soldCount": 5,
       "avgDaysToSell": 22.4
     },
@@ -13604,7 +13586,7 @@
       "soldAvg": 1488,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 122.6,
+      "totalDays": 122.70000000000002,
       "soldCount": 5,
       "avgDaysToSell": 24.5
     },
@@ -13920,23 +13902,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Kramer|Kramer USA Vintage": {
-      "brand": "Kramer",
-      "brandLine": "Kramer USA Vintage",
-      "tier": "premium",
-      "count": 1,
-      "sum": 2500,
-      "avg": 2500,
-      "min": 2500,
-      "max": 2500,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -14078,9 +14043,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 74,
-    "totalOffers": 159,
-    "avgOffersPerListing": 2.1,
+    "withOffers": 73,
+    "totalOffers": 158,
+    "avgOffersPerListing": 2.2,
     "offersEnabledPct": 66
   },
   "shippingInsights": {
@@ -14096,7 +14061,7 @@
     },
     {
       "label": "1–5",
-      "total": 20,
+      "total": 21,
       "sold": 2,
       "rate": 10
     },
@@ -14108,7 +14073,7 @@
     },
     {
       "label": "16–30",
-      "total": 60,
+      "total": 59,
       "sold": 15,
       "rate": 25
     },
@@ -14164,9 +14129,9 @@
     },
     {
       "state": "FL",
-      "total": 11,
+      "total": 12,
       "sold": 3,
-      "rate": 27
+      "rate": 25
     },
     {
       "state": "TX",
@@ -14205,12 +14170,6 @@
       "rate": 20
     },
     {
-      "state": "NJ",
-      "total": 5,
-      "sold": 0,
-      "rate": 0
-    },
-    {
       "state": "CO",
       "total": 4,
       "sold": 1,
@@ -14221,6 +14180,12 @@
       "total": 4,
       "sold": 3,
       "rate": 75
+    },
+    {
+      "state": "NJ",
+      "total": 4,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "MA",
