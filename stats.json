@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T22:29:52.523Z",
+  "generatedAt": "2026-04-24T22:32:15.246Z",
   "totalLinks": 310,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 305,
   "overall": {
     "count": 305,
-    "sum": 1115812.17,
-    "avg": 3658,
+    "sum": 1111129.17,
+    "avg": 3643,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 804762.18,
-    "avg": 2728,
+    "sum": 800079.18,
+    "avg": 2712,
     "min": 33,
     "max": 8499,
-    "median": 2300
+    "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 8985,
+    "thresholdHigh": 8852,
     "thresholdLow": 0,
     "count": 10,
     "items": [
@@ -109,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 175,
-      "sum": 524719.82,
+      "sum": 520036.82,
       "min": 70,
       "max": 15995,
-      "avg": 2998
+      "avg": 2972
     },
     "2026-03": {
       "count": 130,
@@ -123,35 +123,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 258,
+      "sum": 787169.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3051
+    },
     "marketplace": {
       "count": 47,
       "sum": 323959.81,
       "min": 143.99,
       "max": 99000,
       "avg": 6893
-    },
-    "reverb": {
-      "count": 258,
-      "sum": 791852.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3069
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 258,
+      "sum": 787169.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3051
+    },
     "guitarcenter.com": {
       "count": 19,
       "sum": 38539.83,
       "min": 143.99,
       "max": 5499.99,
       "avg": 2028
-    },
-    "reverb.com": {
-      "count": 258,
-      "sum": 791852.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3069
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -211,6 +211,37 @@
     }
   },
   "byModel": {
+    "navigator-by-esp-char-signature": {
+      "displayName": "1984 Navigator by ESP Char Signature Model CM-160 Black, Japan",
+      "brand": "Navigator",
+      "model": "by ESP Char",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 1080,
+      "min": 1080,
+      "max": 1080,
+      "sightings": [
+        {
+          "price": 1080,
+          "date": "2026-04-24T22:32:00.439Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1984 Navigator by ESP Char Signature Model CM-160 Black, Japan",
+          "url": "https://reverb.com/item/96377300-1984-navigator-by-esp-char-signature-model-cm-160-black-japan",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1080,
+          "min": 1080,
+          "max": 1080,
+          "avg": 1080
+        }
+      },
+      "avg": 1080
+    },
     "echopark-clarence-ross-solid": {
       "displayName": "Used Echopark Clarence Ross Natural Solid Body Electric Guitar Natural",
       "brand": "Echopark",
@@ -5605,37 +5636,6 @@
       },
       "avg": 1100
     },
-    "gibson-les-paul-standard-custom-shop-murphy-lab": {
-      "displayName": "Gibson Custom Shop 1957 Les Paul Standard Mahogany Top Walnut Murphy Lab Heavy Aged (Serial #75824)",
-      "brand": "Gibson",
-      "model": "Les Paul Standard",
-      "variant": "Custom Shop Murphy Lab",
-      "count": 1,
-      "sum": 5763,
-      "min": 5763,
-      "max": 5763,
-      "sightings": [
-        {
-          "price": 5763,
-          "date": "2026-04-17T21:28:44.255Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Custom Shop 1957 Les Paul Standard Mahogany Top Walnut Murphy Lab Heavy Aged (Serial #75824)",
-          "url": "https://reverb.com/item/91719964-gibson-custom-shop-1957-les-paul-standard-mahogany-top-walnut-murphy-lab-heavy-aged-serial-75824",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 5763,
-          "min": 5763,
-          "max": 5763,
-          "avg": 5763
-        }
-      },
-      "avg": 5763
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9780,6 +9780,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 109,
+      "sum": 380435.73,
+      "sold": {
+        "count": 36,
+        "sum": 129282.87,
+        "avg": 3591,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3490,
+      "min": 190,
+      "max": 35900
+    },
     "Used": {
       "count": 30,
       "sum": 164370.82999999996,
@@ -9815,20 +9829,6 @@
       "avg": 2703,
       "min": 70,
       "max": 15995
-    },
-    "Excellent": {
-      "count": 109,
-      "sum": 385118.73,
-      "sold": {
-        "count": 36,
-        "sum": 129282.87,
-        "avg": 3591,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3533,
-      "min": 190,
-      "max": 35900
     },
     "Brand New": {
       "count": 23,
@@ -9898,7 +9898,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2998,
+      "avg": 2972,
       "count": 175
     },
     "03": {
@@ -10014,13 +10014,6 @@
       "date": "2026-04-24T05:37:02.595Z"
     },
     {
-      "title": "Gibson Custom Shop 1957 Les Paul Standard Mahogany Top Walnut Murphy Lab Heavy Aged (Serial #75824)",
-      "url": "https://reverb.com/item/91719964-gibson-custom-shop-1957-les-paul-standard-mahogany-top-walnut-murphy-lab-heavy-aged-serial-75824",
-      "oldPrice": "$6,065",
-      "newPrice": "$5,763",
-      "date": "2026-04-24T21:19:27.320Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10047,27 +10040,39 @@
       "oldPrice": "$2,799",
       "newPrice": "$2,659",
       "date": "2026-04-03T07:37:59.231Z"
+    },
+    {
+      "title": "1984 Guild X-88 With Case",
+      "url": "https://reverb.com/item/95519984-1984-guild-x-88-with-case",
+      "oldPrice": "$2,000",
+      "newPrice": "$1,700",
+      "date": "2026-04-01T22:44:47.805Z"
     }
   ],
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 21,
-    "1k-2k": 89,
+    "1k-2k": 90,
     "2k-3k": 75,
     "3k-5k": 61,
-    "5k-10k": 37,
+    "5k-10k": 36,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 21,
-    "1k-2k": 89,
+    "1k-2k": 90,
     "2k-3k": 75,
     "3k-5k": 61,
-    "5k-10k": 35,
+    "5k-10k": 34,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Navigator": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Echopark": {
       "sum": 97,
       "count": 7,
@@ -10455,14 +10460,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 31,
+    "2026-04-24": 32,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
     "2026-04-18": 37,
-    "2026-04-17": 3,
+    "2026-04-17": 2,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10471,14 +10476,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 52,
-    "reverb": 258
+    "reverb": 258,
+    "marketplace": 52
   },
   "activeModelsCount": 262,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 91
+      "count": 92
     },
     {
       "username": "greg1213",
@@ -10502,7 +10507,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 16
+      "count": 15
     },
     {
       "username": "Modean",
@@ -10561,7 +10566,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2998,
+    "avg": 2972,
     "pctBelowAvg": 18,
     "count": 175
   },
@@ -10574,10 +10579,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 3270,
+      "avgPrice": 3200,
       "retailEst": 800,
-      "avgDiscount": -308.7,
-      "count": 37
+      "avgDiscount": -300,
+      "count": 36
     },
     "PRS": {
       "avgPrice": 3105,
@@ -11430,9 +11435,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1024.4558574593507,
-      "count": 56,
-      "avgPctDrop": 18.3
+      "totalPctDrop": 996.5023632725774,
+      "count": 55,
+      "avgPctDrop": 18.1
     },
     "byBrand": {
       "BC Rich": {
@@ -11456,9 +11461,9 @@
         "avgPctDrop": 6.1
       },
       "Gibson": {
-        "totalPctDrop": 93.95254580637223,
-        "count": 7,
-        "avgPctDrop": 13.4
+        "totalPctDrop": 65.99905161959887,
+        "count": 6,
+        "avgPctDrop": 11
       },
       "Epiphone": {
         "totalPctDrop": 23.809523809523807,
@@ -11587,6 +11592,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Navigator": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Echopark": {
         "total": 7,
         "sold": 1,
@@ -11620,12 +11633,12 @@
         "livePct": 100
       },
       "Gibson": {
-        "total": 39,
+        "total": 38,
         "sold": 9,
         "fake": 0,
-        "live": 30,
-        "soldPct": 23,
-        "livePct": 77
+        "live": 29,
+        "soldPct": 24,
+        "livePct": 76
       },
       "Fender": {
         "total": 28,
@@ -12243,7 +12256,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 89,
+        "total": 90,
         "sold": 24,
         "rate": 27
       },
@@ -12261,9 +12274,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 37,
+        "total": 36,
         "sold": 6,
-        "rate": 16
+        "rate": 17
       },
       {
         "label": "$10k+",
@@ -12273,6 +12286,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 109,
+        "sold": 38,
+        "rate": 35
+      },
       "Used": {
         "total": 30,
         "sold": 5,
@@ -12287,11 +12305,6 @@
         "total": 47,
         "sold": 8,
         "rate": 17
-      },
-      "Excellent": {
-        "total": 109,
-        "sold": 38,
-        "rate": 35
       },
       "Brand New": {
         "total": 23,
@@ -12936,9 +12949,9 @@
       "soldAvg": 3492,
       "live": 24,
       "sellRate": 23,
-      "totalDays": 108.79999999999998,
+      "totalDays": 108.9,
       "soldCount": 7,
-      "avgDaysToSell": 15.5
+      "avgDaysToSell": 15.6
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13519,16 +13532,16 @@
       "brand": "Gibson",
       "brandLine": "Gibson Custom Shop",
       "tier": null,
-      "count": 4,
-      "sum": 21587,
-      "avg": 5397,
+      "count": 3,
+      "sum": 15824,
+      "avg": 5275,
       "min": 3500,
       "max": 7625,
       "sold": 2,
       "soldSum": 8199,
       "soldAvg": 4100,
-      "live": 2,
-      "sellRate": 50,
+      "live": 1,
+      "sellRate": 67,
       "totalDays": 57.099999999999994,
       "soldCount": 2,
       "avgDaysToSell": 28.6
@@ -13854,7 +13867,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 104
+    "avgShippingCost": 105
   },
   "watcherDemand": [
     {
@@ -13865,9 +13878,9 @@
     },
     {
       "label": "1–5",
-      "total": 16,
+      "total": 17,
       "sold": 2,
-      "rate": 13
+      "rate": 12
     },
     {
       "label": "6–15",
@@ -13883,19 +13896,19 @@
     },
     {
       "label": "31+",
-      "total": 61,
+      "total": 60,
       "sold": 17,
       "rate": 28
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 170,
+      "total": 169,
       "sold": 48,
       "rate": 28
     },
     "off": {
-      "total": 46,
+      "total": 47,
       "sold": 14,
       "rate": 30
     }
@@ -13927,9 +13940,9 @@
     },
     {
       "state": "WA",
-      "total": 13,
+      "total": 14,
       "sold": 1,
-      "rate": 8
+      "rate": 7
     },
     {
       "state": "FL",
@@ -13939,12 +13952,6 @@
     },
     {
       "state": "NY",
-      "total": 10,
-      "sold": 1,
-      "rate": 10
-    },
-    {
-      "state": "IL",
       "total": 10,
       "sold": 1,
       "rate": 10
@@ -13960,6 +13967,12 @@
       "total": 9,
       "sold": 3,
       "rate": 33
+    },
+    {
+      "state": "IL",
+      "total": 9,
+      "sold": 1,
+      "rate": 11
     },
     {
       "state": "OR",
