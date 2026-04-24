@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T15:03:26.176Z",
+  "generatedAt": "2026-04-24T15:12:04.535Z",
   "totalLinks": 315,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,18 +7,18 @@
   "totalWithPrice": 310,
   "overall": {
     "count": 310,
-    "sum": 1163389.17,
-    "avg": 3753,
+    "sum": 1167028.17,
+    "avg": 3765,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 298,
-    "sum": 825559.18,
-    "avg": 2770,
+    "sum": 829198.18,
+    "avg": 2783,
     "min": 33,
     "max": 8499,
-    "median": 2350
+    "median": 2399
   },
   "outliers": {
     "thresholdHigh": 9150,
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 180,
-      "sum": 572296.82,
+      "sum": 575935.82,
       "min": 70,
       "max": 15995,
-      "avg": 3179
+      "avg": 3200
     },
     "2026-03": {
       "count": 130,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 262,
-      "sum": 831950.36,
+      "sum": 835589.36,
       "min": 33,
       "max": 35900,
-      "avg": 3175
+      "avg": 3189
     },
     "marketplace": {
       "count": 48,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 262,
-      "sum": 831950.36,
+      "sum": 835589.36,
       "min": 33,
       "max": 35900,
-      "avg": 3175
+      "avg": 3189
     },
     "guitarcenter.com": {
       "count": 19,
@@ -227,6 +227,63 @@
     }
   },
   "byModel": {
+    "fender-coronado": {
+      "displayName": "Fender Coronado II 66-72 - Sunburst",
+      "brand": "Fender",
+      "model": "Coronado",
+      "variant": null,
+      "count": 3,
+      "sum": 10593,
+      "min": 2995,
+      "max": 3999,
+      "sightings": [
+        {
+          "price": 3599,
+          "date": "2026-04-19T02:26:04.310Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1967 Fender Coronado II  Antigua",
+          "url": "https://reverb.com/item/96131370-1967-fender-coronado-ii-antigua",
+          "condition": "Very Good"
+        },
+        {
+          "price": 2995,
+          "date": "2026-04-23T02:44:30.152Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Wildwood Coronado II Green 1967",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-fender/products/fender-wildwood-coronado-ii-green-1967-2532237",
+          "condition": "Good"
+        },
+        {
+          "price": 3999,
+          "date": "2026-04-24T15:11:50.104Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Coronado II 66-72 - Sunburst",
+          "url": "https://reverb.com/item/96211174-fender-coronado-ii-66-72-sunburst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 6994,
+          "min": 2995,
+          "max": 3999,
+          "avg": 3497
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 3599,
+          "min": 3599,
+          "max": 3599,
+          "avg": 3599
+        }
+      },
+      "avg": 3531,
+      "trends": {}
+    },
     "bc-rich-bich-pearl": {
       "displayName": "B.C. Rich Bich 1986 Custom - Pearl Red",
       "brand": "BC Rich",
@@ -1718,53 +1775,6 @@
         ]
       },
       "avg": 5500
-    },
-    "fender-coronado": {
-      "displayName": "Fender Wildwood Coronado II Green 1967",
-      "brand": "Fender",
-      "model": "Coronado",
-      "variant": null,
-      "count": 2,
-      "sum": 6594,
-      "min": 2995,
-      "max": 3599,
-      "sightings": [
-        {
-          "price": 3599,
-          "date": "2026-04-19T02:26:04.310Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1967 Fender Coronado II  Antigua",
-          "url": "https://reverb.com/item/96131370-1967-fender-coronado-ii-antigua",
-          "condition": "Very Good"
-        },
-        {
-          "price": 2995,
-          "date": "2026-04-23T02:44:30.152Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender Wildwood Coronado II Green 1967",
-          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-fender/products/fender-wildwood-coronado-ii-green-1967-2532237",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 2995,
-          "min": 2995,
-          "max": 2995,
-          "avg": 2995
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 3599,
-          "min": 3599,
-          "max": 3599,
-          "avg": 3599
-        }
-      },
-      "avg": 3297
     },
     "gibson-melody-maker": {
       "displayName": "Gibson Melody Maker Sparkling Burgundy 1968",
@@ -3367,20 +3377,11 @@
       "brand": "Warmoth",
       "model": "Telecaster",
       "variant": null,
-      "count": 2,
-      "sum": 550,
+      "count": 1,
+      "sum": 190,
       "min": 190,
-      "max": 360,
+      "max": 190,
       "sightings": [
-        {
-          "price": 360,
-          "date": "2026-04-17T03:20:03.518Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Warmoth Hybrid Telecaster Body - Unfinished",
-          "url": "https://reverb.com/item/96107197-warmoth-hybrid-telecaster-body-unfinished",
-          "condition": "Excellent"
-        },
         {
           "price": 190,
           "date": "2026-04-20T15:35:25.243Z",
@@ -3393,29 +3394,14 @@
       ],
       "byCondition": {
         "Excellent": {
-          "count": 2,
-          "sum": 550,
+          "count": 1,
+          "sum": 190,
           "min": 190,
-          "max": 360,
-          "avg": 275
+          "max": 190,
+          "avg": 190
         }
       },
-      "soldData": {
-        "count": 1,
-        "avg": 360,
-        "min": 359.99,
-        "max": 359.99,
-        "prices": [
-          {
-            "price": 359.99,
-            "askingPrice": 360,
-            "date": "2026-04-17T13:37:31.914Z",
-            "title": "Warmoth Hybrid Telecaster Body - Unfinished",
-            "url": "https://reverb.com/item/96107197-warmoth-hybrid-telecaster-body-unfinished"
-          }
-        ]
-      },
-      "avg": 275
+      "avg": 190
     },
     "esp-standard-baritone-gloss": {
       "displayName": "ESP Standard Series Viper Baritone Gloss Black 2005=2015 w/OHSC",
@@ -10002,6 +9988,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 48,
+      "sum": 133078.95,
+      "sold": {
+        "count": 7,
+        "sum": 14655.48,
+        "avg": 2094,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2772,
+      "min": 70,
+      "max": 15995
+    },
     "Very Good": {
       "count": 79,
       "sum": 205990.55999999994,
@@ -10017,32 +10017,18 @@
       "max": 15500
     },
     "Excellent": {
-      "count": 113,
-      "sum": 412528.73,
+      "count": 112,
+      "sum": 412168.73,
       "sold": {
-        "count": 35,
-        "sum": 125743.86,
-        "avg": 3593,
+        "count": 34,
+        "sum": 125383.87,
+        "avg": 3688,
         "min": 275,
         "max": 35900
       },
-      "avg": 3651,
+      "avg": 3680,
       "min": 190,
       "max": 35900
-    },
-    "Good": {
-      "count": 47,
-      "sum": 129079.95,
-      "sold": {
-        "count": 7,
-        "sum": 14655.48,
-        "avg": 2094,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2746,
-      "min": 70,
-      "max": 15995
     },
     "Brand New": {
       "count": 22,
@@ -10120,7 +10106,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3179,
+      "avg": 3200,
       "count": 180
     },
     "03": {
@@ -10272,24 +10258,29 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 16,
+    "0-500": 15,
     "500-1k": 20,
     "1k-2k": 88,
     "2k-3k": 75,
-    "3k-5k": 60,
+    "3k-5k": 61,
     "5k-10k": 41,
     "10k+": 10
   },
   "priceDistributionFiltered": {
-    "0-500": 16,
+    "0-500": 15,
     "500-1k": 20,
     "1k-2k": 88,
     "2k-3k": 75,
-    "3k-5k": 60,
+    "3k-5k": 61,
     "5k-10k": 39,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 231,
+      "count": 20,
+      "avg": 12
+    },
     "BC Rich": {
       "sum": 262,
       "count": 17,
@@ -10329,11 +10320,6 @@
       "sum": 62,
       "count": 2,
       "avg": 31
-    },
-    "Fender": {
-      "sum": 227,
-      "count": 19,
-      "avg": 12
     },
     "Dunable": {
       "sum": 28,
@@ -10411,7 +10397,7 @@
       "avg": 5
     },
     "Jackson": {
-      "sum": 241,
+      "sum": 242,
       "count": 10,
       "avg": 24
     },
@@ -10476,9 +10462,9 @@
       "avg": 12
     },
     "Warmoth": {
-      "sum": 40,
-      "count": 3,
-      "avg": 13
+      "sum": 32,
+      "count": 2,
+      "avg": 16
     },
     "James Tyler": {
       "sum": 12,
@@ -10677,14 +10663,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 17,
+    "2026-04-24": 18,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 13,
     "2026-04-19": 19,
     "2026-04-18": 37,
-    "2026-04-17": 21,
+    "2026-04-17": 20,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10704,7 +10690,7 @@
     },
     {
       "username": "greg1213",
-      "count": 48
+      "count": 47
     },
     {
       "username": "YellowJack6",
@@ -10723,12 +10709,12 @@
       "count": 22
     },
     {
-      "username": "WontonGG",
+      "username": "scottcorgan",
       "count": 14
     },
     {
-      "username": "scottcorgan",
-      "count": 13
+      "username": "WontonGG",
+      "count": 14
     },
     {
       "username": "Modean",
@@ -10746,7 +10732,7 @@
     },
     {
       "username": "greg1213",
-      "count": 12
+      "count": 11
     },
     {
       "username": "Shteefe",
@@ -10783,17 +10769,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3179,
+    "avg": 3200,
     "pctBelowAvg": 15,
     "count": 180
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5258,
+      "avgPrice": 5210,
       "retailEst": 800,
-      "avgDiscount": -557.3,
-      "count": 25
+      "avgDiscount": -551.3,
+      "count": 26
     },
     "Gibson": {
       "avgPrice": 3425,
@@ -10833,17 +10819,17 @@
     }
   },
   "soldPrices": {
-    "count": 80,
-    "avg": 3119,
+    "count": 79,
+    "avg": 3154,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 788.3999999999999,
-      "count": 78,
-      "avgDays": 10.1
+      "totalDays": 787.9999999999999,
+      "count": 77,
+      "avgDays": 10.2
     },
     "byModel": {
       "bc-rich-nj-series-80-90s": {
@@ -11080,14 +11066,6 @@
       },
       "frank-brothers-arcade-piano": {
         "displayName": "Frank Brothers Arcade 2019  - Piano Black",
-        "totalDays": 0.4,
-        "count": 1,
-        "fastest": 0.4,
-        "slowest": 0.4,
-        "avgDays": 0.4
-      },
-      "warmoth-telecaster": {
-        "displayName": "Warmoth Hybrid Telecaster Body - Unfinished",
         "totalDays": 0.4,
         "count": 1,
         "fastest": 0.4,
@@ -11564,13 +11542,6 @@
         "slowest": 0.4,
         "avgDays": 0.4
       },
-      "Warmoth": {
-        "totalDays": 0.4,
-        "count": 1,
-        "fastest": 0.4,
-        "slowest": 0.4,
-        "avgDays": 0.4
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -11680,20 +11651,20 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 977.6323897553109,
-      "count": 55,
-      "avgPctDrop": 17.8
+      "totalPctDrop": 988.7459705510435,
+      "count": 56,
+      "avgPctDrop": 17.7
     },
     "byBrand": {
+      "Fender": {
+        "totalPctDrop": 128.55324557026444,
+        "count": 7,
+        "avgPctDrop": 18.4
+      },
       "Rick Toone": {
         "totalPctDrop": 6.0606060606060606,
         "count": 1,
         "avgPctDrop": 6.1
-      },
-      "Fender": {
-        "totalPctDrop": 117.43966477453208,
-        "count": 6,
-        "avgPctDrop": 19.6
       },
       "Epiphone": {
         "totalPctDrop": 23.809523809523807,
@@ -11830,13 +11801,21 @@
   "sellThrough": {
     "overall": {
       "total": 292,
-      "sold": 77,
+      "sold": 76,
       "fake": 0,
-      "live": 215,
+      "live": 216,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Fender": {
+        "total": 27,
+        "sold": 7,
+        "fake": 0,
+        "live": 20,
+        "soldPct": 26,
+        "livePct": 74
+      },
       "BC Rich": {
         "total": 18,
         "sold": 3,
@@ -11900,14 +11879,6 @@
         "live": 3,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 26,
-        "sold": 7,
-        "fake": 0,
-        "live": 19,
-        "soldPct": 27,
-        "livePct": 73
       },
       "Dunable": {
         "total": 2,
@@ -12150,12 +12121,12 @@
         "livePct": 100
       },
       "Warmoth": {
-        "total": 3,
-        "sold": 1,
+        "total": 2,
+        "sold": 0,
         "fake": 0,
         "live": 2,
-        "soldPct": 33,
-        "livePct": 67
+        "soldPct": 0,
+        "livePct": 100
       },
       "James Tyler": {
         "total": 2,
@@ -12489,9 +12460,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 16,
-        "sold": 4,
-        "rate": 25
+        "total": 15,
+        "sold": 3,
+        "rate": 20
       },
       {
         "label": "$500–1k",
@@ -12513,7 +12484,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 60,
+        "total": 61,
         "sold": 18,
         "rate": 30
       },
@@ -12531,20 +12502,20 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 48,
+        "sold": 8,
+        "rate": 17
+      },
       "Very Good": {
         "total": 79,
         "sold": 22,
         "rate": 28
       },
       "Excellent": {
-        "total": 113,
-        "sold": 37,
-        "rate": 33
-      },
-      "Good": {
-        "total": 47,
-        "sold": 8,
-        "rate": 17
+        "total": 112,
+        "sold": 36,
+        "rate": 32
       },
       "Brand New": {
         "total": 22,
@@ -12654,6 +12625,21 @@
         "modelAvg": 2380,
         "pctVsAvg": -16,
         "savings": 385
+      },
+      {
+        "title": "Fender Wildwood Coronado II Green 1967",
+        "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-fender/products/fender-wildwood-coronado-ii-green-1967-2532237",
+        "price": "$2,995",
+        "priceNum": 2995,
+        "brand": "Fender",
+        "condition": "Good",
+        "watchers": 0,
+        "views": 0,
+        "daysListed": 2,
+        "image": "http://www.chicagomusicexchange.com/cdn/shop/files/fender-electric-guitars-semi-hollow-fender-wildwood-coronado-ii-green-1967-fender-wildwood-coronado-ii-green-1967-u7519943301-1230904731.jpg?v=1775070416",
+        "modelAvg": 3531,
+        "pctVsAvg": -15,
+        "savings": 536
       }
     ],
     "overpriced": [
@@ -13114,6 +13100,24 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 13,
+      "sum": 99322.98999999999,
+      "avg": 7640,
+      "min": 2000,
+      "max": 35900,
+      "sold": 3,
+      "soldSum": 49094,
+      "soldAvg": 16365,
+      "live": 10,
+      "sellRate": 23,
+      "totalDays": 87.1,
+      "soldCount": 3,
+      "avgDaysToSell": 29
+    },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
       "brandLine": "BC Rich USA Custom Shop",
@@ -13179,7 +13183,7 @@
       "soldAvg": 3380,
       "live": 25,
       "sellRate": 24,
-      "totalDays": 113.3,
+      "totalDays": 113.39999999999999,
       "soldCount": 8,
       "avgDaysToSell": 14.2
     },
@@ -13269,24 +13273,6 @@
       "totalDays": 25.7,
       "soldCount": 1,
       "avgDaysToSell": 25.7
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 12,
-      "sum": 95323.98999999999,
-      "avg": 7944,
-      "min": 2000,
-      "max": 35900,
-      "sold": 3,
-      "soldSum": 49094,
-      "soldAvg": 16365,
-      "live": 9,
-      "sellRate": 25,
-      "totalDays": 87,
-      "soldCount": 3,
-      "avgDaysToSell": 29
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -13407,7 +13393,7 @@
       "soldAvg": 2699,
       "live": 5,
       "sellRate": 50,
-      "totalDays": 111.8,
+      "totalDays": 111.9,
       "soldCount": 5,
       "avgDaysToSell": 22.4
     },
@@ -13809,7 +13795,7 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 225.3,
+      "totalDays": 225.4,
       "soldCount": 2,
       "avgDaysToSell": 112.7
     },
@@ -14092,14 +14078,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 73,
-    "totalOffers": 158,
-    "avgOffersPerListing": 2.2,
+    "withOffers": 74,
+    "totalOffers": 159,
+    "avgOffersPerListing": 2.1,
     "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 105
+    "avgShippingCost": 106
   },
   "watcherDemand": [
     {
@@ -14110,15 +14096,15 @@
     },
     {
       "label": "1–5",
-      "total": 21,
-      "sold": 3,
-      "rate": 14
+      "total": 20,
+      "sold": 2,
+      "rate": 10
     },
     {
       "label": "6–15",
-      "total": 59,
+      "total": 60,
       "sold": 14,
-      "rate": 24
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -14136,7 +14122,7 @@
   "offersEffect": {
     "on": {
       "total": 174,
-      "sold": 46,
+      "sold": 45,
       "rate": 26
     },
     "off": {
@@ -14153,8 +14139,8 @@
     },
     "regular": {
       "total": 98,
-      "sold": 33,
-      "rate": 34
+      "sold": 32,
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -14225,6 +14211,12 @@
       "rate": 0
     },
     {
+      "state": "CO",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "MO",
       "total": 4,
       "sold": 3,
@@ -14267,12 +14259,6 @@
       "rate": 0
     },
     {
-      "state": "GA",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
-    },
-    {
       "state": "NH",
       "total": 3,
       "sold": 0,
@@ -14283,12 +14269,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "CO",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "OH",
@@ -14331,6 +14311,12 @@
       "total": 2,
       "sold": 1,
       "rate": 50
+    },
+    {
+      "state": "GA",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "AB",
