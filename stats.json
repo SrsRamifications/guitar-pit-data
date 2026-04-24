@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T03:55:06.522Z",
+  "generatedAt": "2026-04-24T04:23:05.284Z",
   "totalLinks": 313,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1131735.15,
-    "avg": 3674,
+    "sum": 1136635.15,
+    "avg": 3690,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 808575.16,
-    "avg": 2722,
+    "sum": 813475.16,
+    "avg": 2739,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8995,
+    "thresholdHigh": 9007,
     "thresholdLow": 0,
     "count": 11,
     "items": [
@@ -117,10 +117,10 @@
   "byMonth": {
     "2026-04": {
       "count": 178,
-      "sum": 540642.8,
+      "sum": 545542.8,
       "min": 70,
       "max": 15995,
-      "avg": 3037
+      "avg": 3065
     },
     "2026-03": {
       "count": 130,
@@ -133,10 +133,10 @@
   "byCategory": {
     "reverb": {
       "count": 258,
-      "sum": 798956.36,
+      "sum": 803856.36,
       "min": 33,
       "max": 35900,
-      "avg": 3097
+      "avg": 3116
     },
     "marketplace": {
       "count": 50,
@@ -149,10 +149,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 258,
-      "sum": 798956.36,
+      "sum": 803856.36,
       "min": 33,
       "max": 35900,
-      "avg": 3097
+      "avg": 3116
     },
     "guitarcenter.com": {
       "count": 21,
@@ -219,6 +219,37 @@
     }
   },
   "byModel": {
+    "fodera-imperial": {
+      "displayName": "Fodera Imperial Custom",
+      "brand": "Fodera",
+      "model": "Imperial",
+      "variant": null,
+      "count": 1,
+      "sum": 8300,
+      "min": 8300,
+      "max": 8300,
+      "sightings": [
+        {
+          "price": 8300,
+          "date": "2026-04-24T04:22:51.170Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fodera Imperial Custom",
+          "url": "https://reverb.com/item/95619581-fodera-imperial-custom",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 8300,
+          "min": 8300,
+          "max": 8300,
+          "avg": 8300
+        }
+      },
+      "avg": 8300
+    },
     "gibson-les-paul": {
       "displayName": "Gibson  Les Paul Recording 1973 Headstock Repair & Factory Refurbished - Natural",
       "brand": "Gibson",
@@ -5685,37 +5716,6 @@
       },
       "avg": 1500
     },
-    "guild-the-fish-guitar": {
-      "displayName": "The Fish Guitar",
-      "brand": "Guild",
-      "model": "The Fish Guitar",
-      "variant": null,
-      "count": 1,
-      "sum": 3400,
-      "min": 3400,
-      "max": 3400,
-      "sightings": [
-        {
-          "price": 3400,
-          "date": "2026-04-16T20:22:14.138Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "The Fish Guitar",
-          "url": "https://reverb.com/item/89593013-the-fish-guitar",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 1,
-          "sum": 3400,
-          "min": 3400,
-          "max": 3400,
-          "avg": 3400
-        }
-      },
-      "avg": 3400
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9938,6 +9938,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 111,
+      "sum": 409328.73,
+      "sold": {
+        "count": 35,
+        "sum": 126078.85,
+        "avg": 3602,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3688,
+      "min": 190,
+      "max": 35900
+    },
     "Good": {
       "count": 46,
       "sum": 126584.95,
@@ -9966,23 +9980,9 @@
       "min": 33,
       "max": 15500
     },
-    "Excellent": {
-      "count": 110,
-      "sum": 401028.73,
-      "sold": {
-        "count": 35,
-        "sum": 126078.85,
-        "avg": 3602,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3646,
-      "min": 190,
-      "max": 35900
-    },
     "Brand New": {
-      "count": 23,
-      "sum": 94526.12,
+      "count": 22,
+      "sum": 91126.12,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -9990,7 +9990,7 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 4110,
+      "avg": 4142,
       "min": 135,
       "max": 12280
     },
@@ -10056,7 +10056,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3037,
+      "avg": 3065,
       "count": 178
     },
     "03": {
@@ -10212,8 +10212,8 @@
     "500-1k": 21,
     "1k-2k": 88,
     "2k-3k": 74,
-    "3k-5k": 59,
-    "5k-10k": 40,
+    "3k-5k": 58,
+    "5k-10k": 41,
     "10k+": 9
   },
   "priceDistributionFiltered": {
@@ -10221,11 +10221,16 @@
     "500-1k": 21,
     "1k-2k": 88,
     "2k-3k": 74,
-    "3k-5k": 59,
-    "5k-10k": 38,
+    "3k-5k": 58,
+    "5k-10k": 39,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fodera": {
+      "sum": 21,
+      "count": 1,
+      "avg": 21
+    },
     "Gibson": {
       "sum": 686,
       "count": 41,
@@ -10613,7 +10618,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 6,
+    "2026-04-24": 7,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
@@ -10621,7 +10626,7 @@
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 2,
+    "2026-04-16": 1,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10720,7 +10725,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3037,
+    "avg": 3065,
     "pctBelowAvg": 17,
     "count": 178
   },
@@ -11617,9 +11622,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1025.2212406184499,
-      "count": 56,
-      "avgPctDrop": 18.3
+      "totalPctDrop": 996.0545739517831,
+      "count": 55,
+      "avgPctDrop": 18.1
     },
     "byBrand": {
       "Rick Toone": {
@@ -11717,11 +11722,6 @@
         "count": 1,
         "avgPctDrop": 26.7
       },
-      "Guild": {
-        "totalPctDrop": 71.25298044825942,
-        "count": 3,
-        "avgPctDrop": 23.8
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -11741,6 +11741,11 @@
         "totalPctDrop": 16.90625,
         "count": 1,
         "avgPctDrop": 16.9
+      },
+      "Guild": {
+        "totalPctDrop": 42.08631378159275,
+        "count": 2,
+        "avgPctDrop": 21
       },
       "Bedell": {
         "totalPctDrop": 13.644214162348877,
@@ -11779,6 +11784,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Fodera": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 45,
         "sold": 10,
@@ -11796,10 +11809,10 @@
         "livePct": 100
       },
       "Guild": {
-        "total": 4,
+        "total": 3,
         "sold": 0,
         "fake": 0,
-        "live": 4,
+        "live": 3,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12455,13 +12468,13 @@
       },
       {
         "label": "$3k–5k",
-        "total": 59,
+        "total": 58,
         "sold": 19,
-        "rate": 32
+        "rate": 33
       },
       {
         "label": "$5k–10k",
-        "total": 40,
+        "total": 41,
         "sold": 6,
         "rate": 15
       },
@@ -12473,6 +12486,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 111,
+        "sold": 37,
+        "rate": 33
+      },
       "Good": {
         "total": 46,
         "sold": 8,
@@ -12483,13 +12501,8 @@
         "sold": 21,
         "rate": 28
       },
-      "Excellent": {
-        "total": 110,
-        "sold": 37,
-        "rate": 34
-      },
       "Brand New": {
-        "total": 23,
+        "total": 22,
         "sold": 2,
         "rate": 9
       },
@@ -12629,20 +12642,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "The Fish Guitar",
-        "url": "https://reverb.com/item/89593013-the-fish-guitar",
-        "price": "$3,400",
-        "priceNum": 3400,
-        "brand": "Guild",
-        "condition": "Brand New",
-        "watchers": 179,
-        "views": 9618,
-        "daysListed": 357,
-        "image": "https://rvb-img.reverb.com/i/s--q8225cz0--/quality=medium-low,height=800,width=800,fit=contain/jgttrngdlykiqm2jsxvb.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "1988 Gibson Les Paul Custom Vintage Guitar Alpine White w/ Bigsby",
         "url": "https://reverb.com/ca/item/95051966-1988-gibson-les-paul-custom-vintage-guitar-alpine-white-w-bigsby-b7-tim-shaw-pafs-case",
         "price": "$4,700",
@@ -12751,6 +12750,20 @@
         "views": 1091,
         "daysListed": 11,
         "image": "https://rvb-img.reverb.com/i/s--1wXSIORK--/quality=medium-low,height=800,width=800,fit=contain/20b883fb-6f3d-48b3-8d89-849c886210fe.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "2008 ESP Standard Eclipse-II Snow White SW (aged to vintage) EMG ",
+        "url": "https://reverb.com/item/94220078-2008-esp-standard-eclipse-ii-snow-white-sw-aged-to-vintage-emg-w-ohsc?bk=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3ZDM0MTVhNi03MmUyLTRlODgtOTlmZS01ODg1YzU0YWY5NWEiLCJpYXQiOjE3NzY4MzQxOTQsInVzZXJfaWQiOiI1MTMyOTY5Iiwic2Vzc2lvbl9pZCI6IjM4ZTcyZGU1LTllZTMtNGQzNC04YmJlLTJiOTNhMTQ2MmUwMSIsImNvb2tpZV9pZCI6IjU1NmUxNWZkLWIzNGYtNGJmMC1iZDNmLTVjODBmMzZmYzIzNyIsInByb2R1Y3RfaWQiOiI5NDIyMDA3OCIsInNvdXJjZSI6Ik5PTkUifQ.xclbzFuOUhGvWRKs3XcYAbDZSLp0AHbyyXf6U_ymkP8",
+        "price": "$2,299",
+        "priceNum": 2299,
+        "brand": "ESP",
+        "condition": "Very Good",
+        "watchers": 79,
+        "views": 787,
+        "daysListed": 12,
+        "image": "https://rvb-img.reverb.com/i/s--pqnRpSo1--/quality=medium-low,height=800,width=800,fit=contain/3acc4280-5a37-43ab-97f3-9c764cab778d.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12883,20 +12896,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "The Fish Guitar",
-        "url": "https://reverb.com/item/89593013-the-fish-guitar",
-        "price": "$3,400",
-        "priceNum": 3400,
-        "brand": "Guild",
-        "condition": "Brand New",
-        "watchers": 179,
-        "views": 9618,
-        "daysListed": 357,
-        "image": "https://rvb-img.reverb.com/i/s--q8225cz0--/quality=medium-low,height=800,width=800,fit=contain/jgttrngdlykiqm2jsxvb.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Fender Custom Shop '57 Reissue Stratocaster Relic Aged Fiesta Red",
         "url": "https://reverb.com/en-pt/item/91114676-fender-custom-shop-57-reissue-stratocaster-relic-aged-fiesta-red",
         "price": "$3,684",
@@ -12965,6 +12964,20 @@
         "image": "https://rvb-img.reverb.com/i/s--hku-fNrZ--/quality=medium-low,height=800,width=800,fit=contain/xfebme4ctyqr1gidkjnq.jpg",
         "modelAvg": null,
         "pctVsAvg": null
+      },
+      {
+        "title": "1967 Fender Coronado II Semi Hollow Electric Guitar Cherry Sunbur",
+        "url": "https://reverb.com/item/91585663-1967-fender-coronado-ii-semi-hollow-electric-guitar-cherry-sunburst-w-case",
+        "price": "$2,500",
+        "priceNum": 2500,
+        "brand": "Fender",
+        "condition": "Very Good",
+        "watchers": 30,
+        "views": 512,
+        "daysListed": 267,
+        "image": "https://rvb-img.reverb.com/i/s--Xo4pJceL--/quality=medium-low,height=800,width=800,fit=contain/f9agxef99souwhtjivoc.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -13013,6 +13026,23 @@
     ]
   },
   "byBrandLine": {
+    "Fodera|Fodera": {
+      "brand": "Fodera",
+      "brandLine": "Fodera",
+      "tier": "ultra",
+      "count": 1,
+      "sum": 8300,
+      "avg": 8300,
+      "min": 8300,
+      "max": 8300,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -13027,9 +13057,9 @@
       "soldAvg": 3380,
       "live": 27,
       "sellRate": 23,
-      "totalDays": 109.9,
+      "totalDays": 110,
       "soldCount": 8,
-      "avgDaysToSell": 13.7
+      "avgDaysToSell": 13.8
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -13097,9 +13127,9 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 85.6,
+      "totalDays": 85.69999999999999,
       "soldCount": 3,
-      "avgDaysToSell": 28.5
+      "avgDaysToSell": 28.6
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -13465,7 +13495,7 @@
       "soldAvg": 1488,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 120.30000000000001,
+      "totalDays": 120.4,
       "soldCount": 5,
       "avgDaysToSell": 24.1
     },
@@ -13518,7 +13548,7 @@
       "soldAvg": 2434,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 46.5,
+      "totalDays": 46.599999999999994,
       "soldCount": 3,
       "avgDaysToSell": 15.5
     },
@@ -13587,9 +13617,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 52.599999999999994,
+      "totalDays": 52.7,
       "soldCount": 3,
-      "avgDaysToSell": 17.5
+      "avgDaysToSell": 17.6
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13674,9 +13704,9 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 224.4,
+      "totalDays": 224.5,
       "soldCount": 2,
-      "avgDaysToSell": 112.2
+      "avgDaysToSell": 112.3
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -13692,9 +13722,9 @@
       "soldAvg": 350,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.4,
+      "totalDays": 5.5,
       "soldCount": 1,
-      "avgDaysToSell": 5.4
+      "avgDaysToSell": 5.5
     },
     "Ruokangas|Ruokangas": {
       "brand": "Ruokangas",
@@ -13761,9 +13791,9 @@
       "soldAvg": 4778,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 24.2,
+      "totalDays": 24.3,
       "soldCount": 1,
-      "avgDaysToSell": 24.2
+      "avgDaysToSell": 24.3
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -13933,7 +13963,7 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 49.1,
+      "totalDays": 49.2,
       "soldCount": 2,
       "avgDaysToSell": 24.6
     },
@@ -13951,9 +13981,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 24.3,
+      "totalDays": 24.4,
       "soldCount": 1,
-      "avgDaysToSell": 24.3
+      "avgDaysToSell": 24.4
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13974,9 +14004,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 74,
-    "totalOffers": 165,
-    "avgOffersPerListing": 2.2,
+    "withOffers": 75,
+    "totalOffers": 172,
+    "avgOffersPerListing": 2.3,
     "offersEnabledPct": 67
   },
   "shippingInsights": {
@@ -14017,24 +14047,24 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 173,
+      "total": 174,
       "sold": 46,
-      "rate": 27
+      "rate": 26
     },
     "off": {
-      "total": 43,
+      "total": 42,
       "sold": 13,
-      "rate": 30
+      "rate": 31
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 109,
+      "total": 108,
       "sold": 17,
       "rate": 16
     },
     "regular": {
-      "total": 94,
+      "total": 95,
       "sold": 33,
       "rate": 35
     }
@@ -14060,9 +14090,15 @@
     },
     {
       "state": "TX",
-      "total": 12,
+      "total": 11,
       "sold": 4,
-      "rate": 33
+      "rate": 36
+    },
+    {
+      "state": "IL",
+      "total": 10,
+      "sold": 1,
+      "rate": 10
     },
     {
       "state": "NY",
@@ -14075,12 +14111,6 @@
       "total": 10,
       "sold": 3,
       "rate": 30
-    },
-    {
-      "state": "IL",
-      "total": 9,
-      "sold": 1,
-      "rate": 11
     },
     {
       "state": "TN",
