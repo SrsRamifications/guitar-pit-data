@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T20:21:28.440Z",
+  "generatedAt": "2026-04-24T20:24:47.053Z",
   "totalLinks": 313,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,23 +7,23 @@
   "totalWithPrice": 308,
   "overall": {
     "count": 308,
-    "sum": 1141087.17,
-    "avg": 3705,
+    "sum": 1127186.17,
+    "avg": 3660,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 297,
-    "sum": 815537.18,
-    "avg": 2746,
+    "count": 298,
+    "sum": 816136.18,
+    "avg": 2739,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8997,
+    "thresholdHigh": 8999,
     "thresholdLow": 0,
-    "count": 11,
+    "count": 10,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -82,14 +82,6 @@
         "postedAt": "2026-04-24T04:29:16.582Z"
       },
       {
-        "title": "Ibanez JEM20th Steve Vai Signature 20th Anniversary 2007 - Clear Splatter",
-        "url": "https://reverb.com/item/96121944-ibanez-jem20th-steve-vai-signature-20th-anniversary-2007-clear-splatter",
-        "price": "$14,500",
-        "image": "https://rvb-img.reverb.com/i/s--uNq7qVCQ--/quality=medium-low,height=800,width=800,fit=contain/98ec04a8-ad71-4dd2-adb5-b76497874b63.jpeg",
-        "condition": "Excellent",
-        "postedAt": "2026-04-17T15:55:43.281Z"
-      },
-      {
         "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
         "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
         "price": "$10,495",
@@ -117,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 178,
-      "sum": 549994.82,
+      "sum": 536093.82,
       "min": 70,
       "max": 15995,
-      "avg": 3090
+      "avg": 3012
     },
     "2026-03": {
       "count": 130,
@@ -131,28 +123,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 261,
-      "sum": 816327.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3128
-    },
     "marketplace": {
-      "count": 47,
-      "sum": 324759.81,
+      "count": 48,
+      "sum": 325358.81,
       "min": 143.99,
       "max": 99000,
-      "avg": 6910
+      "avg": 6778
+    },
+    "reverb": {
+      "count": 260,
+      "sum": 801827.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3084
     }
   },
   "byDomain": {
+    "waltgracevintage.com": {
+      "count": 1,
+      "sum": 599,
+      "min": 599,
+      "max": 599,
+      "avg": 599
+    },
     "reverb.com": {
-      "count": 261,
-      "sum": 816327.36,
+      "count": 260,
+      "sum": 801827.36,
       "min": 33,
       "max": 35900,
-      "avg": 3128
+      "avg": 3084
     },
     "guitarcenter.com": {
       "count": 19,
@@ -219,6 +218,54 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-special": {
+      "displayName": "Gibson Les Paul Special Tribute Double Cut Electric Guitar - Blue Stain",
+      "brand": "Gibson",
+      "model": "Les Paul Special",
+      "variant": null,
+      "count": 2,
+      "sum": 2598,
+      "min": 599,
+      "max": 1999,
+      "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-03-26T23:03:50.684Z",
+          "year": null,
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Special Double Cut Electric Guitar-Cherry",
+          "url": "https://www.guitarcenter.com/Gibson/Les-Paul-Special-Double-Cut-Electric-Guitar-Cherry-1500000455117.gc",
+          "condition": "Used"
+        },
+        {
+          "price": 599,
+          "date": "2026-04-24T20:24:32.871Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Special Tribute Double Cut Electric Guitar - Blue Stain",
+          "url": "https://waltgracevintage.com/products/gibson-les-paul-special-tribute-doublecut-blue-stain",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 599,
+          "min": 599,
+          "max": 599,
+          "avg": 599
+        },
+        "Used": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
+        }
+      },
+      "avg": 1299
+    },
     "bc-rich-vg-2000s-chameleon": {
       "displayName": "Bc Rich Vg 2 2000s - Chameleon Purple *VERY RARE* discontinued bc rich line",
       "brand": "BC Rich",
@@ -5649,37 +5696,6 @@
       },
       "avg": 5100
     },
-    "ibanez-jem-signature": {
-      "displayName": "Ibanez JEM20th Steve Vai Signature 20th Anniversary 2007 - Clear Splatter",
-      "brand": "Ibanez",
-      "model": "JEM",
-      "variant": "Signature",
-      "count": 1,
-      "sum": 14500,
-      "min": 14500,
-      "max": 14500,
-      "sightings": [
-        {
-          "price": 14500,
-          "date": "2026-04-17T15:55:43.281Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez JEM20th Steve Vai Signature 20th Anniversary 2007 - Clear Splatter",
-          "url": "https://reverb.com/item/96121944-ibanez-jem20th-steve-vai-signature-20th-anniversary-2007-clear-splatter",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 14500,
-          "min": 14500,
-          "max": 14500,
-          "avg": 14500
-        }
-      },
-      "avg": 14500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -7113,38 +7129,6 @@
         ]
       },
       "avg": 3599
-    },
-    "gibson-les-paul-special": {
-      "displayName": "Gibson Les Paul Special",
-      "brand": "Gibson",
-      "model": "Les Paul Special",
-      "variant": null,
-      "count": 1,
-      "sum": 1999,
-      "min": 1999,
-      "max": 1999,
-      "sightings": [
-        {
-          "price": 1999,
-          "date": "2026-03-26T23:03:50.684Z",
-          "year": null,
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Special Double Cut Electric Guitar-Cherry",
-          "url": "https://www.guitarcenter.com/Gibson/Les-Paul-Special-Double-Cut-Electric-Guitar-Cherry-1500000455117.gc",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1999,
-          "min": 1999,
-          "max": 1999,
-          "avg": 1999
-        }
-      },
-      "avg": 1999
     },
     "framus-teambuilt-pro-diablo": {
       "displayName": "Framus Teambuilt Pro Diablo 2007 natural",
@@ -9917,8 +9901,8 @@
       "max": 15500
     },
     "Excellent": {
-      "count": 112,
-      "sum": 409255.73,
+      "count": 111,
+      "sum": 394755.73,
       "sold": {
         "count": 36,
         "sum": 129282.87,
@@ -9926,7 +9910,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3654,
+      "avg": 3556,
       "min": 190,
       "max": 35900
     },
@@ -10020,7 +10004,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3090,
+      "avg": 3012,
       "count": 178
     },
     "03": {
@@ -10173,16 +10157,16 @@
   ],
   "priceDistribution": {
     "0-500": 15,
-    "500-1k": 21,
+    "500-1k": 22,
     "1k-2k": 88,
     "2k-3k": 76,
     "3k-5k": 59,
     "5k-10k": 40,
-    "10k+": 9
+    "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 15,
-    "500-1k": 21,
+    "500-1k": 22,
     "1k-2k": 88,
     "2k-3k": 76,
     "3k-5k": 59,
@@ -10190,6 +10174,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 633,
+      "count": 39,
+      "avg": 16
+    },
     "BC Rich": {
       "sum": 229,
       "count": 18,
@@ -10210,20 +10199,15 @@
       "count": 17,
       "avg": 15
     },
-    "Gibson": {
-      "sum": 633,
-      "count": 38,
-      "avg": 17
-    },
     "Yamaha": {
-      "sum": 77,
+      "sum": 78,
       "count": 7,
       "avg": 11
     },
     "Ibanez": {
-      "sum": 337,
-      "count": 17,
-      "avg": 20
+      "sum": 330,
+      "count": 16,
+      "avg": 21
     },
     "Fodera": {
       "sum": 22,
@@ -10577,14 +10561,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 24,
+    "2026-04-24": 25,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 13,
     "2026-04-19": 19,
     "2026-04-18": 37,
-    "2026-04-17": 12,
+    "2026-04-17": 11,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10593,14 +10577,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 261,
-    "marketplace": 52
+    "marketplace": 53,
+    "reverb": 260
   },
-  "activeModelsCount": 267,
+  "activeModelsCount": 266,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 92
+      "count": 91
     },
     {
       "username": "greg1213",
@@ -10683,8 +10667,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3090,
-    "pctBelowAvg": 17,
+    "avg": 3012,
+    "pctBelowAvg": 18,
     "count": 178
   },
   "topVoted": [],
@@ -10696,10 +10680,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 3336,
+      "avgPrice": 3270,
       "retailEst": 800,
-      "avgDiscount": -317,
-      "count": 40
+      "avgDiscount": -308.7,
+      "count": 41
     },
     "PRS": {
       "avgPrice": 2898,
@@ -10708,10 +10692,10 @@
       "count": 18
     },
     "Ibanez": {
-      "avgPrice": 3455,
+      "avgPrice": 2842,
       "retailEst": 1000,
-      "avgDiscount": -245.5,
-      "count": 19
+      "avgDiscount": -184.2,
+      "count": 18
     },
     "Kiesel": {
       "avgPrice": 1537,
@@ -11717,6 +11701,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Gibson": {
+        "total": 43,
+        "sold": 10,
+        "fake": 0,
+        "live": 33,
+        "soldPct": 23,
+        "livePct": 77
+      },
       "BC Rich": {
         "total": 19,
         "sold": 3,
@@ -11757,14 +11749,6 @@
         "soldPct": 39,
         "livePct": 61
       },
-      "Gibson": {
-        "total": 42,
-        "sold": 10,
-        "fake": 0,
-        "live": 32,
-        "soldPct": 24,
-        "livePct": 76
-      },
       "Yamaha": {
         "total": 7,
         "sold": 1,
@@ -11782,12 +11766,12 @@
         "livePct": 100
       },
       "Ibanez": {
-        "total": 19,
+        "total": 18,
         "sold": 6,
         "fake": 0,
-        "live": 13,
-        "soldPct": 32,
-        "livePct": 68
+        "live": 12,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Rick Toone": {
         "total": 1,
@@ -12367,9 +12351,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 21,
+        "total": 22,
         "sold": 5,
-        "rate": 24
+        "rate": 23
       },
       {
         "label": "$1k–2k",
@@ -12397,9 +12381,9 @@
       },
       {
         "label": "$10k+",
-        "total": 9,
+        "total": 8,
         "sold": 2,
-        "rate": 22
+        "rate": 25
       }
     ],
     "byCondition": {
@@ -12409,7 +12393,7 @@
         "rate": 28
       },
       "Excellent": {
-        "total": 112,
+        "total": 111,
         "sold": 38,
         "rate": 34
       },
@@ -12491,7 +12475,7 @@
         "condition": "Very Good",
         "watchers": 18,
         "views": 210,
-        "daysListed": 26,
+        "daysListed": 27,
         "image": "https://rvb-img.reverb.com/i/s--a63HZwtM--/quality=medium-low,height=800,width=800,fit=contain/91fd262f-9c28-4cf0-b434-77f7988789a5.jpg",
         "modelAvg": 2900,
         "pctVsAvg": -55,
@@ -13016,6 +13000,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 34,
+      "sum": 97388.97,
+      "avg": 2864,
+      "min": 135,
+      "max": 7900,
+      "sold": 8,
+      "soldSum": 27043.98,
+      "soldAvg": 3380,
+      "live": 26,
+      "sellRate": 24,
+      "totalDays": 115.2,
+      "soldCount": 8,
+      "avgDaysToSell": 14.4
+    },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
       "brandLine": "BC Rich Import",
@@ -13030,9 +13032,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 1.3,
+      "totalDays": 1.4,
       "soldCount": 1,
-      "avgDaysToSell": 1.3
+      "avgDaysToSell": 1.4
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13136,24 +13138,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 33,
-      "sum": 96789.97,
-      "avg": 2933,
-      "min": 135,
-      "max": 7900,
-      "sold": 8,
-      "soldSum": 27043.98,
-      "soldAvg": 3380,
-      "live": 25,
-      "sellRate": 24,
-      "totalDays": 115.2,
-      "soldCount": 8,
-      "avgDaysToSell": 14.4
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -13351,16 +13335,16 @@
       "brand": "Ibanez",
       "brandLine": "Ibanez J.Custom",
       "tier": "premium",
-      "count": 7,
-      "sum": 33333,
-      "avg": 4762,
+      "count": 6,
+      "sum": 18833,
+      "avg": 3139,
       "min": 1999,
-      "max": 14500,
+      "max": 4500,
       "sold": 3,
       "soldSum": 10584,
       "soldAvg": 3528,
-      "live": 4,
-      "sellRate": 43,
+      "live": 3,
+      "sellRate": 50,
       "totalDays": 74.2,
       "soldCount": 3,
       "avgDaysToSell": 24.7
@@ -14001,7 +13985,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 105
+    "avgShippingCost": 104
   },
   "watcherDemand": [
     {
@@ -14018,7 +14002,7 @@
     },
     {
       "label": "6–15",
-      "total": 59,
+      "total": 58,
       "sold": 13,
       "rate": 22
     },
@@ -14037,7 +14021,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 174,
+      "total": 173,
       "sold": 47,
       "rate": 27
     },
@@ -14049,9 +14033,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 109,
+      "total": 108,
       "sold": 19,
-      "rate": 17
+      "rate": 18
     },
     "regular": {
       "total": 97,
@@ -14187,12 +14171,6 @@
       "rate": 0
     },
     {
-      "state": "NJ",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
-    },
-    {
       "state": "OH",
       "total": 3,
       "sold": 1,
@@ -14230,6 +14208,12 @@
     },
     {
       "state": "GA",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "NJ",
       "total": 2,
       "sold": 0,
       "rate": 0
