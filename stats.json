@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T21:38:16.850Z",
+  "generatedAt": "2026-04-24T01:07:57.355Z",
   "totalLinks": 314,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 309,
   "overall": {
     "count": 309,
-    "sum": 1140083.15,
-    "avg": 3690,
+    "sum": 1140570.15,
+    "avg": 3691,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 805974.16,
-    "avg": 2714,
+    "sum": 806461.16,
+    "avg": 2715,
     "min": 33,
     "max": 8499,
     "median": 2300
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 178,
-      "sum": 532490.8,
+      "sum": 532977.8,
       "min": 70,
       "max": 15995,
-      "avg": 2992
+      "avg": 2994
     },
     "2026-03": {
       "count": 131,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 259,
-      "sum": 807304.36,
+      "sum": 807791.36,
       "min": 33,
       "max": 35900,
-      "avg": 3117
+      "avg": 3119
     },
     "marketplace": {
       "count": 50,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 259,
-      "sum": 807304.36,
+      "sum": 807791.36,
       "min": 33,
       "max": 35900,
-      "avg": 3117
+      "avg": 3119
     },
     "guitarcenter.com": {
       "count": 21,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "echopark-el-cabillo-case": {
+      "displayName": "Echopark EL Cabillo Case Study Koa Top 2015",
+      "brand": "Echopark",
+      "model": "EL Cabillo Case",
+      "variant": null,
+      "count": 1,
+      "sum": 3450,
+      "min": 3450,
+      "max": 3450,
+      "sightings": [
+        {
+          "price": 3450,
+          "date": "2026-04-24T01:07:43.304Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark EL Cabillo Case Study Koa Top 2015",
+          "url": "https://reverb.com/item/96326624-echopark-el-cabillo-case-study-koa-top-2015",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3450,
+          "min": 3450,
+          "max": 3450,
+          "avg": 3450
+        }
+      },
+      "avg": 3450
+    },
     "yamaha-sg": {
       "displayName": "1982 Yamaha SG3000 Custom Prototype One-Off HSH Gold w/ Case",
       "brand": "Yamaha",
@@ -1469,6 +1500,21 @@
           "max": 5000,
           "avg": 5000
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 5000,
+        "min": 5000,
+        "max": 5000,
+        "prices": [
+          {
+            "price": 5000,
+            "askingPrice": 5000,
+            "date": "2026-04-23T22:34:24.614Z",
+            "title": "1990 Hamer USA Chaparral Elite With Sustainiac - Marble With OHSC",
+            "url": "https://reverb.com/item/96281871-1990-hamer-usa-chaparral-elite-with-sustainiac-marble-with-ohsc"
+          }
+        ]
       },
       "avg": 5000
     },
@@ -5690,52 +5736,6 @@
           "max": 2963,
           "avg": 2963
         }
-      },
-      "avg": 2963
-    },
-    "echopark-de-leon-guitar": {
-      "displayName": "Echopark De Leon 2 Guitar #07",
-      "brand": "Echopark",
-      "model": "De Leon Guitar",
-      "variant": null,
-      "count": 1,
-      "sum": 2963,
-      "min": 2963,
-      "max": 2963,
-      "sightings": [
-        {
-          "price": 2963,
-          "date": "2026-04-16T14:43:06.378Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Echopark De Leon 2 Guitar #07",
-          "url": "https://reverb.com/item/96083093-echopark-de-leon-2-guitar-07",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2963,
-          "min": 2963,
-          "max": 2963,
-          "avg": 2963
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2963,
-        "min": 2963,
-        "max": 2963,
-        "prices": [
-          {
-            "price": 2963,
-            "askingPrice": 2963,
-            "date": "2026-04-23T09:37:34.692Z",
-            "title": "Echopark De Leon 2 Guitar #07",
-            "url": "https://reverb.com/item/96083093-echopark-de-leon-2-guitar-07"
-          }
-        ]
       },
       "avg": 2963
     },
@@ -9993,17 +9993,31 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 78,
+      "sum": 208973.55999999994,
+      "sold": {
+        "count": 22,
+        "sum": 48269.85,
+        "avg": 2194,
+        "min": 475,
+        "max": 5500
+      },
+      "avg": 2679,
+      "min": 33,
+      "max": 16500
+    },
     "Excellent": {
-      "count": 110,
-      "sum": 400087.73,
+      "count": 109,
+      "sum": 397124.73,
       "sold": {
         "count": 35,
-        "sum": 124041.85,
-        "avg": 3544,
+        "sum": 126078.85,
+        "avg": 3602,
         "min": 275,
         "max": 35900
       },
-      "avg": 3637,
+      "avg": 3643,
       "min": 190,
       "max": 35900
     },
@@ -10034,20 +10048,6 @@
       "avg": 4110,
       "min": 135,
       "max": 12280
-    },
-    "Very Good": {
-      "count": 77,
-      "sum": 205523.55999999994,
-      "sold": {
-        "count": 22,
-        "sum": 48269.85,
-        "avg": 2194,
-        "min": 475,
-        "max": 5500
-      },
-      "avg": 2669,
-      "min": 33,
-      "max": 16500
     },
     "Used": {
       "count": 32,
@@ -10111,7 +10111,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2992,
+      "avg": 2994,
       "count": 178
     },
     "03": {
@@ -10266,8 +10266,8 @@
     "0-500": 17,
     "500-1k": 22,
     "1k-2k": 88,
-    "2k-3k": 74,
-    "3k-5k": 59,
+    "2k-3k": 73,
+    "3k-5k": 60,
     "5k-10k": 40,
     "10k+": 9
   },
@@ -10275,14 +10275,19 @@
     "0-500": 17,
     "500-1k": 22,
     "1k-2k": 88,
-    "2k-3k": 74,
-    "3k-5k": 59,
+    "2k-3k": 73,
+    "3k-5k": 60,
     "5k-10k": 37,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 100,
+      "count": 7,
+      "avg": 14
+    },
     "Yamaha": {
-      "sum": 124,
+      "sum": 125,
       "count": 6,
       "avg": 21
     },
@@ -10292,12 +10297,12 @@
       "avg": 17
     },
     "Eastman": {
-      "sum": 99,
+      "sum": 101,
       "count": 5,
       "avg": 20
     },
     "BC Rich": {
-      "sum": 248,
+      "sum": 249,
       "count": 16,
       "avg": 16
     },
@@ -10307,14 +10312,14 @@
       "avg": 12
     },
     "Gibson": {
-      "sum": 689,
+      "sum": 690,
       "count": 41,
       "avg": 17
     },
     "Vintage": {
-      "sum": 100,
+      "sum": 102,
       "count": 7,
-      "avg": 14
+      "avg": 15
     },
     "Martin": {
       "sum": 30,
@@ -10387,9 +10392,9 @@
       "avg": 26
     },
     "Peavey": {
-      "sum": 28,
+      "sum": 29,
       "count": 1,
-      "avg": 28
+      "avg": 29
     },
     "Floyd Rose": {
       "sum": 50,
@@ -10447,9 +10452,9 @@
       "avg": 12
     },
     "James Tyler": {
-      "sum": 10,
+      "sum": 11,
       "count": 2,
-      "avg": 5
+      "avg": 6
     },
     "Friedman": {
       "sum": 52,
@@ -10485,11 +10490,6 @@
       "sum": 5,
       "count": 1,
       "avg": 5
-    },
-    "Echopark": {
-      "sum": 106,
-      "count": 7,
-      "avg": 15
     },
     "Anderson": {
       "sum": 31,
@@ -10582,9 +10582,9 @@
       "avg": 27
     },
     "Hoyer": {
-      "sum": 27,
+      "sum": 28,
       "count": 1,
-      "avg": 27
+      "avg": 28
     },
     "Fractal Audio": {
       "sum": 28,
@@ -10612,9 +10612,9 @@
       "avg": 26
     },
     "Powers Electric": {
-      "sum": 26,
+      "sum": 27,
       "count": 1,
-      "avg": 26
+      "avg": 27
     },
     "Flaxwood": {
       "sum": 26,
@@ -10657,9 +10657,9 @@
       "avg": 39
     },
     "Lollar": {
-      "sum": 23,
+      "sum": 24,
       "count": 1,
-      "avg": 23
+      "avg": 24
     },
     "Suhr": {
       "sum": 23,
@@ -10673,6 +10673,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-04-24": 1,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
@@ -10680,7 +10681,7 @@
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 7,
+    "2026-04-16": 6,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10779,7 +10780,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2992,
+    "avg": 2994,
     "pctBelowAvg": 19,
     "count": 178
   },
@@ -10830,14 +10831,14 @@
   },
   "soldPrices": {
     "count": 79,
-    "avg": 3134,
+    "avg": 3160,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 780.9999999999999,
+      "totalDays": 775.2999999999998,
       "count": 77,
       "avgDays": 10.1
     },
@@ -10857,6 +10858,14 @@
         "fastest": 0.4,
         "slowest": 0.4,
         "avgDays": 0.4
+      },
+      "hamer-chaparral-elite-with-usa": {
+        "displayName": "1990 Hamer USA Chaparral Elite With Sustainiac - Marble With OHSC",
+        "totalDays": 1.1,
+        "count": 1,
+        "fastest": 1.1,
+        "slowest": 1.1,
+        "avgDays": 1.1
       },
       "charvel-dk-1h-fr-usa-custom-shop": {
         "displayName": "Charvel USA Custom Shop DK 1H FR - Kaotic Resin #PFCG0209",
@@ -11081,14 +11090,6 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
-      },
-      "echopark-de-leon-guitar": {
-        "displayName": "Echopark De Leon 2 Guitar #07",
-        "totalDays": 6.8,
-        "count": 1,
-        "fastest": 6.8,
-        "slowest": 6.8,
-        "avgDays": 6.8
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11434,6 +11435,13 @@
         "slowest": 18.3,
         "avgDays": 2.7
       },
+      "Hamer": {
+        "totalDays": 1.1,
+        "count": 1,
+        "fastest": 1.1,
+        "slowest": 1.1,
+        "avgDays": 1.1
+      },
       "Charvel": {
         "totalDays": 1.3,
         "count": 3,
@@ -11553,13 +11561,6 @@
         "slowest": 0.4,
         "avgDays": 0.4
       },
-      "Echopark": {
-        "totalDays": 8.6,
-        "count": 2,
-        "fastest": 1.8,
-        "slowest": 6.8,
-        "avgDays": 4.3
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -11615,6 +11616,13 @@
         "fastest": 12.6,
         "slowest": 12.6,
         "avgDays": 12.6
+      },
+      "Echopark": {
+        "totalDays": 1.8,
+        "count": 1,
+        "fastest": 1.8,
+        "slowest": 1.8,
+        "avgDays": 1.8
       },
       "Music Man": {
         "totalDays": 5.1000000000000005,
@@ -11829,6 +11837,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Echopark": {
+        "total": 7,
+        "sold": 1,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 14,
+        "livePct": 86
+      },
       "Yamaha": {
         "total": 6,
         "sold": 0,
@@ -11935,11 +11951,11 @@
       },
       "Hamer": {
         "total": 4,
-        "sold": 0,
+        "sold": 1,
         "fake": 0,
-        "live": 4,
-        "soldPct": 0,
-        "livePct": 100
+        "live": 3,
+        "soldPct": 25,
+        "livePct": 75
       },
       "Revv": {
         "total": 1,
@@ -12188,14 +12204,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Echopark": {
-        "total": 7,
-        "sold": 2,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 29,
-        "livePct": 71
       },
       "Anderson": {
         "total": 2,
@@ -12507,21 +12515,21 @@
       },
       {
         "label": "$2k–3k",
-        "total": 74,
-        "sold": 22,
-        "rate": 30
+        "total": 73,
+        "sold": 21,
+        "rate": 29
       },
       {
         "label": "$3k–5k",
-        "total": 59,
+        "total": 60,
         "sold": 20,
-        "rate": 34
+        "rate": 33
       },
       {
         "label": "$5k–10k",
         "total": 40,
-        "sold": 5,
-        "rate": 13
+        "sold": 6,
+        "rate": 15
       },
       {
         "label": "$10k+",
@@ -12531,8 +12539,13 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 78,
+        "sold": 22,
+        "rate": 28
+      },
       "Excellent": {
-        "total": 110,
+        "total": 109,
         "sold": 37,
         "rate": 34
       },
@@ -12545,11 +12558,6 @@
         "total": 23,
         "sold": 2,
         "rate": 9
-      },
-      "Very Good": {
-        "total": 77,
-        "sold": 22,
-        "rate": 29
       },
       "Used": {
         "total": 32,
@@ -12723,7 +12731,7 @@
         "condition": "Good",
         "watchers": 152,
         "views": 1969,
-        "daysListed": 696,
+        "daysListed": 697,
         "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12879,7 +12887,7 @@
         "condition": "Good",
         "watchers": 152,
         "views": 1969,
-        "daysListed": 696,
+        "daysListed": 697,
         "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13071,6 +13079,24 @@
     ]
   },
   "byBrandLine": {
+    "Echopark|Echopark": {
+      "brand": "Echopark",
+      "brandLine": "Echopark",
+      "tier": "premium",
+      "count": 6,
+      "sum": 21840,
+      "avg": 3640,
+      "min": 2799,
+      "max": 6200,
+      "sold": 1,
+      "soldSum": 3599,
+      "soldAvg": 3599,
+      "live": 5,
+      "sellRate": 17,
+      "totalDays": 25.1,
+      "soldCount": 1,
+      "avgDaysToSell": 25.1
+    },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
       "brandLine": "Yamaha SG/SA Premium",
@@ -13102,9 +13128,9 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 84.8,
+      "totalDays": 85.3,
       "soldCount": 3,
-      "avgDaysToSell": 28.3
+      "avgDaysToSell": 28.4
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -13137,9 +13163,9 @@
       "soldAvg": 1425,
       "live": 3,
       "sellRate": 40,
-      "totalDays": 28.5,
+      "totalDays": 28.700000000000003,
       "soldCount": 2,
-      "avgDaysToSell": 14.3
+      "avgDaysToSell": 14.4
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13155,9 +13181,9 @@
       "soldAvg": 999,
       "live": 4,
       "sellRate": 20,
-      "totalDays": 0.4,
+      "totalDays": 0.5,
       "soldCount": 1,
-      "avgDaysToSell": 0.4
+      "avgDaysToSell": 0.5
     },
     "PRS|PRS CE": {
       "brand": "PRS",
@@ -13207,9 +13233,9 @@
       "soldAvg": 3380,
       "live": 26,
       "sellRate": 24,
-      "totalDays": 107.69999999999999,
+      "totalDays": 108.80000000000001,
       "soldCount": 8,
-      "avgDaysToSell": 13.5
+      "avgDaysToSell": 13.6
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13259,9 +13285,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 32,
+      "totalDays": 32.2,
       "soldCount": 1,
-      "avgDaysToSell": 32
+      "avgDaysToSell": 32.2
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13277,9 +13303,9 @@
       "soldAvg": 2699,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 108.30000000000001,
+      "totalDays": 109,
       "soldCount": 5,
-      "avgDaysToSell": 21.7
+      "avgDaysToSell": 21.8
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13295,9 +13321,9 @@
       "soldAvg": 3528,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 71.3,
+      "totalDays": 71.8,
       "soldCount": 3,
-      "avgDaysToSell": 23.8
+      "avgDaysToSell": 23.9
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13308,13 +13334,14 @@
       "avg": 3300,
       "min": 1600,
       "max": 5000,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 2,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
+      "sold": 1,
+      "soldSum": 5000,
+      "soldAvg": 5000,
+      "live": 1,
+      "sellRate": 50,
+      "totalDays": 1.2,
+      "soldCount": 1,
+      "avgDaysToSell": 1.2
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -13330,9 +13357,9 @@
       "soldAvg": 875,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 6.9,
+      "totalDays": 7,
       "soldCount": 1,
-      "avgDaysToSell": 6.9
+      "avgDaysToSell": 7
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13348,9 +13375,9 @@
       "soldAvg": 5849,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 8,
+      "totalDays": 8.299999999999999,
       "soldCount": 2,
-      "avgDaysToSell": 4
+      "avgDaysToSell": 4.1
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13434,9 +13461,9 @@
       "soldAvg": 2516,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 5.1,
+      "totalDays": 5.3,
       "soldCount": 1,
-      "avgDaysToSell": 5.1
+      "avgDaysToSell": 5.3
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -13452,9 +13479,9 @@
       "soldAvg": 2200,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 5.2,
+      "totalDays": 5.3,
       "soldCount": 1,
-      "avgDaysToSell": 5.2
+      "avgDaysToSell": 5.3
     },
     "K-Line|K-Line": {
       "brand": "K-Line",
@@ -13487,9 +13514,9 @@
       "soldAvg": 1488,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 119,
+      "totalDays": 119.7,
       "soldCount": 5,
-      "avgDaysToSell": 23.8
+      "avgDaysToSell": 23.9
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -13522,9 +13549,9 @@
       "soldAvg": 2850,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 60.9,
+      "totalDays": 61.1,
       "soldCount": 1,
-      "avgDaysToSell": 60.9
+      "avgDaysToSell": 61.1
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -13540,9 +13567,9 @@
       "soldAvg": 2434,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 45.8,
+      "totalDays": 46.2,
       "soldCount": 3,
-      "avgDaysToSell": 15.3
+      "avgDaysToSell": 15.4
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -13575,9 +13602,9 @@
       "soldAvg": 4778,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 24,
+      "totalDays": 24.1,
       "soldCount": 1,
-      "avgDaysToSell": 24
+      "avgDaysToSell": 24.1
     },
     "ESP|LTD": {
       "brand": "ESP",
@@ -13627,9 +13654,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 51.8,
+      "totalDays": 52.3,
       "soldCount": 3,
-      "avgDaysToSell": 17.3
+      "avgDaysToSell": 17.4
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13645,9 +13672,9 @@
       "soldAvg": 4074,
       "live": 4,
       "sellRate": 43,
-      "totalDays": 62.10000000000001,
+      "totalDays": 62.7,
       "soldCount": 3,
-      "avgDaysToSell": 20.7
+      "avgDaysToSell": 20.9
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13714,9 +13741,9 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 223.9,
+      "totalDays": 224.2,
       "soldCount": 2,
-      "avgDaysToSell": 112
+      "avgDaysToSell": 112.1
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -13732,9 +13759,9 @@
       "soldAvg": 350,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 5.2,
+      "totalDays": 5.3,
       "soldCount": 1,
-      "avgDaysToSell": 5.2
+      "avgDaysToSell": 5.3
     },
     "Ruokangas|Ruokangas": {
       "brand": "Ruokangas",
@@ -13769,24 +13796,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Echopark|Echopark": {
-      "brand": "Echopark",
-      "brandLine": "Echopark",
-      "tier": "premium",
-      "count": 6,
-      "sum": 21353,
-      "avg": 3559,
-      "min": 2799,
-      "max": 6200,
-      "sold": 2,
-      "soldSum": 6562,
-      "soldAvg": 3281,
-      "live": 4,
-      "sellRate": 33,
-      "totalDays": 32.3,
-      "soldCount": 2,
-      "avgDaysToSell": 16.2
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13904,9 +13913,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 23.9,
+      "totalDays": 24.1,
       "soldCount": 1,
-      "avgDaysToSell": 23.9
+      "avgDaysToSell": 24.1
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -13973,9 +13982,9 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 48.6,
+      "totalDays": 48.9,
       "soldCount": 2,
-      "avgDaysToSell": 24.3
+      "avgDaysToSell": 24.5
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13991,9 +14000,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 24.1,
+      "totalDays": 24.2,
       "soldCount": 1,
-      "avgDaysToSell": 24.1
+      "avgDaysToSell": 24.2
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -14021,7 +14030,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 101
+    "avgShippingCost": 102
   },
   "watcherDemand": [
     {
@@ -14033,8 +14042,8 @@
     {
       "label": "1–5",
       "total": 21,
-      "sold": 4,
-      "rate": 19
+      "sold": 3,
+      "rate": 14
     },
     {
       "label": "6–15",
@@ -14045,8 +14054,8 @@
     {
       "label": "16–30",
       "total": 55,
-      "sold": 14,
-      "rate": 25
+      "sold": 15,
+      "rate": 27
     },
     {
       "label": "31+",
@@ -14082,9 +14091,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 24,
+      "total": 25,
       "sold": 5,
-      "rate": 21
+      "rate": 20
     },
     {
       "state": "PA",
@@ -14130,9 +14139,9 @@
     },
     {
       "state": "NC",
-      "total": 6,
-      "sold": 2,
-      "rate": 33
+      "total": 5,
+      "sold": 1,
+      "rate": 20
     },
     {
       "state": "NJ",
