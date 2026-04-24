@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T01:07:57.355Z",
+  "generatedAt": "2026-04-24T01:16:03.882Z",
   "totalLinks": 314,
   "totalBeforeFilter": 349,
   "fakeCount": 2,
@@ -7,21 +7,21 @@
   "totalWithPrice": 309,
   "overall": {
     "count": 309,
-    "sum": 1140570.15,
-    "avg": 3691,
+    "sum": 1142807.15,
+    "avg": 3698,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 297,
-    "sum": 806461.16,
-    "avg": 2715,
+    "sum": 808698.16,
+    "avg": 2723,
     "min": 33,
     "max": 8499,
     "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 9125,
+    "thresholdHigh": 9137,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 178,
-      "sum": 532977.8,
+      "sum": 535214.8,
       "min": 70,
       "max": 15995,
-      "avg": 2994
+      "avg": 3007
     },
     "2026-03": {
       "count": 131,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 259,
-      "sum": 807791.36,
+      "sum": 810028.36,
       "min": 33,
       "max": 35900,
-      "avg": 3119
+      "avg": 3128
     },
     "marketplace": {
       "count": 50,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 259,
-      "sum": 807791.36,
+      "sum": 810028.36,
       "min": 33,
       "max": 35900,
-      "avg": 3119
+      "avg": 3128
     },
     "guitarcenter.com": {
       "count": 21,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "dunable-asteroid-hot-rod-usa-custom-shop": {
+      "displayName": "Dunable  Asteroid USA Custom Shop - Hot Rod Finish",
+      "brand": "Dunable",
+      "model": "Asteroid Hot Rod",
+      "variant": "Usa Custom Shop",
+      "count": 1,
+      "sum": 5200,
+      "min": 5200,
+      "max": 5200,
+      "sightings": [
+        {
+          "price": 5200,
+          "date": "2026-04-24T01:15:49.449Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Dunable  Asteroid USA Custom Shop - Hot Rod Finish",
+          "url": "https://reverb.com/item/96327710-dunable-asteroid-usa-custom-shop-hot-rod-finish",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 5200,
+          "min": 5200,
+          "max": 5200,
+          "avg": 5200
+        }
+      },
+      "avg": 5200
+    },
     "echopark-el-cabillo-case": {
       "displayName": "Echopark EL Cabillo Case Study Koa Top 2015",
       "brand": "Echopark",
@@ -5708,37 +5739,6 @@
       },
       "avg": 9949
     },
-    "echopark-clarence-bw-guitar": {
-      "displayName": "Echopark Clarence BW Guitar #01/2",
-      "brand": "Echopark",
-      "model": "Clarence BW Guitar",
-      "variant": null,
-      "count": 1,
-      "sum": 2963,
-      "min": 2963,
-      "max": 2963,
-      "sightings": [
-        {
-          "price": 2963,
-          "date": "2026-04-16T14:43:52.981Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Echopark Clarence BW Guitar #01/2",
-          "url": "https://reverb.com/item/96077964-echopark-clarence-bw-guitar-01-2",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2963,
-          "min": 2963,
-          "max": 2963,
-          "avg": 2963
-        }
-      },
-      "avg": 2963
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9993,6 +9993,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 109,
+      "sum": 399361.73,
+      "sold": {
+        "count": 35,
+        "sum": 126078.85,
+        "avg": 3602,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3664,
+      "min": 190,
+      "max": 35900
+    },
     "Very Good": {
       "count": 78,
       "sum": 208973.55999999994,
@@ -10006,20 +10020,6 @@
       "avg": 2679,
       "min": 33,
       "max": 16500
-    },
-    "Excellent": {
-      "count": 109,
-      "sum": 397124.73,
-      "sold": {
-        "count": 35,
-        "sum": 126078.85,
-        "avg": 3602,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3643,
-      "min": 190,
-      "max": 35900
     },
     "Good": {
       "count": 45,
@@ -10111,7 +10111,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2994,
+      "avg": 3007,
       "count": 178
     },
     "03": {
@@ -10266,25 +10266,30 @@
     "0-500": 17,
     "500-1k": 22,
     "1k-2k": 88,
-    "2k-3k": 73,
+    "2k-3k": 72,
     "3k-5k": 60,
-    "5k-10k": 40,
+    "5k-10k": 41,
     "10k+": 9
   },
   "priceDistributionFiltered": {
     "0-500": 17,
     "500-1k": 22,
     "1k-2k": 88,
-    "2k-3k": 73,
+    "2k-3k": 72,
     "3k-5k": 60,
-    "5k-10k": 37,
+    "5k-10k": 38,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Dunable": {
+      "sum": 26,
+      "count": 2,
+      "avg": 13
+    },
     "Echopark": {
-      "sum": 100,
-      "count": 7,
-      "avg": 14
+      "sum": 92,
+      "count": 6,
+      "avg": 15
     },
     "Yamaha": {
       "sum": 125,
@@ -10422,7 +10427,7 @@
       "avg": 2
     },
     "Greco": {
-      "sum": 95,
+      "sum": 96,
       "count": 2,
       "avg": 48
     },
@@ -10606,11 +10611,6 @@
       "count": 1,
       "avg": 26
     },
-    "Dunable": {
-      "sum": 26,
-      "count": 1,
-      "avg": 26
-    },
     "Powers Electric": {
       "sum": 27,
       "count": 1,
@@ -10673,7 +10673,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 1,
+    "2026-04-24": 2,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
@@ -10681,7 +10681,7 @@
     "2026-04-19": 19,
     "2026-04-18": 37,
     "2026-04-17": 28,
-    "2026-04-16": 6,
+    "2026-04-16": 5,
     "2026-03-28": 35,
     "2026-03-27": 31,
     "2026-03-26": 7,
@@ -10780,7 +10780,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2994,
+    "avg": 3007,
     "pctBelowAvg": 19,
     "count": 178
   },
@@ -11837,13 +11837,21 @@
       "livePct": 74
     },
     "byBrand": {
-      "Echopark": {
-        "total": 7,
+      "Dunable": {
+        "total": 2,
         "sold": 1,
         "fake": 0,
-        "live": 6,
-        "soldPct": 14,
-        "livePct": 86
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
+      "Echopark": {
+        "total": 6,
+        "sold": 1,
+        "fake": 0,
+        "live": 5,
+        "soldPct": 17,
+        "livePct": 83
       },
       "Yamaha": {
         "total": 6,
@@ -12389,14 +12397,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Dunable": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Powers Electric": {
         "total": 1,
         "sold": 1,
@@ -12515,7 +12515,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 73,
+        "total": 72,
         "sold": 21,
         "rate": 29
       },
@@ -12527,7 +12527,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 40,
+        "total": 41,
         "sold": 6,
         "rate": 15
       },
@@ -12539,15 +12539,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 78,
-        "sold": 22,
-        "rate": 28
-      },
       "Excellent": {
         "total": 109,
         "sold": 37,
         "rate": 34
+      },
+      "Very Good": {
+        "total": 78,
+        "sold": 22,
+        "rate": 28
       },
       "Good": {
         "total": 45,
@@ -13083,16 +13083,16 @@
       "brand": "Echopark",
       "brandLine": "Echopark",
       "tier": "premium",
-      "count": 6,
-      "sum": 21840,
-      "avg": 3640,
+      "count": 5,
+      "sum": 18877,
+      "avg": 3775,
       "min": 2799,
       "max": 6200,
       "sold": 1,
       "soldSum": 3599,
       "soldAvg": 3599,
-      "live": 5,
-      "sellRate": 17,
+      "live": 4,
+      "sellRate": 20,
       "totalDays": 25.1,
       "soldCount": 1,
       "avgDaysToSell": 25.1
@@ -13181,9 +13181,9 @@
       "soldAvg": 999,
       "live": 4,
       "sellRate": 20,
-      "totalDays": 0.5,
+      "totalDays": 0.6,
       "soldCount": 1,
-      "avgDaysToSell": 0.5
+      "avgDaysToSell": 0.6
     },
     "PRS|PRS CE": {
       "brand": "PRS",
@@ -13233,7 +13233,7 @@
       "soldAvg": 3380,
       "live": 26,
       "sellRate": 24,
-      "totalDays": 108.80000000000001,
+      "totalDays": 109,
       "soldCount": 8,
       "avgDaysToSell": 13.6
     },
@@ -14030,14 +14030,14 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 102
+    "avgShippingCost": 103
   },
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 2,
-      "rate": 67
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -14047,7 +14047,7 @@
     },
     {
       "label": "6–15",
-      "total": 60,
+      "total": 59,
       "sold": 15,
       "rate": 25
     },
@@ -14078,14 +14078,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 108,
+      "total": 107,
       "sold": 18,
       "rate": 17
     },
     "regular": {
-      "total": 95,
+      "total": 96,
       "sold": 33,
-      "rate": 35
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -14109,9 +14109,9 @@
     },
     {
       "state": "TX",
-      "total": 12,
+      "total": 13,
       "sold": 4,
-      "rate": 33
+      "rate": 31
     },
     {
       "state": "NY",
@@ -14138,12 +14138,6 @@
       "rate": 38
     },
     {
-      "state": "NC",
-      "total": 5,
-      "sold": 1,
-      "rate": 20
-    },
-    {
       "state": "NJ",
       "total": 5,
       "sold": 0,
@@ -14157,6 +14151,12 @@
     },
     {
       "state": "OR",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
+      "state": "NC",
       "total": 4,
       "sold": 1,
       "rate": 25
