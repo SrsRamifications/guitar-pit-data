@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T23:13:45.338Z",
+  "generatedAt": "2026-04-24T23:22:06.706Z",
   "totalLinks": 310,
   "totalBeforeFilter": 348,
   "fakeCount": 2,
@@ -7,15 +7,15 @@
   "totalWithPrice": 305,
   "overall": {
     "count": 305,
-    "sum": 1116483.17,
-    "avg": 3661,
+    "sum": 1117484.17,
+    "avg": 3664,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 295,
-    "sum": 805433.18,
-    "avg": 2730,
+    "sum": 806434.18,
+    "avg": 2734,
     "min": 33,
     "max": 8499,
     "median": 2300
@@ -109,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 175,
-      "sum": 525390.82,
+      "sum": 526391.82,
       "min": 70,
       "max": 15995,
-      "avg": 3002
+      "avg": 3008
     },
     "2026-03": {
       "count": 130,
@@ -125,10 +125,10 @@
   "byCategory": {
     "reverb": {
       "count": 258,
-      "sum": 792523.36,
+      "sum": 793524.36,
       "min": 33,
       "max": 35900,
-      "avg": 3072
+      "avg": 3076
     },
     "marketplace": {
       "count": 47,
@@ -141,10 +141,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 258,
-      "sum": 792523.36,
+      "sum": 793524.36,
       "min": 33,
       "max": 35900,
-      "avg": 3072
+      "avg": 3076
     },
     "guitarcenter.com": {
       "count": 19,
@@ -211,6 +211,37 @@
     }
   },
   "byModel": {
+    "fender-telecaster-american-ultra": {
+      "displayName": "Fender 75th Anniversary American Ultra II Telecaster 2026 - Liquid Gold build",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": "American Ultra",
+      "count": 1,
+      "sum": 2101,
+      "min": 2101,
+      "max": 2101,
+      "sightings": [
+        {
+          "price": 2101,
+          "date": "2026-04-24T23:21:50.384Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender 75th Anniversary American Ultra II Telecaster 2026 - Liquid Gold build",
+          "url": "https://reverb.com/item/96375633-fender-75th-anniversary-american-ultra-ii-telecaster-2026-liquid-gold-build",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2101,
+          "min": 2101,
+          "max": 2101,
+          "avg": 2101
+        }
+      },
+      "avg": 2101
+    },
     "bc-rich-ironbird-bass-guitar": {
       "displayName": "1989 B.C. Rich Ironbird Bass Guitar Red #NSN",
       "brand": "BC Rich",
@@ -5612,52 +5643,6 @@
       },
       "avg": 2850
     },
-    "gibson-les-paul-60s-gold-top": {
-      "displayName": "Gibson Les Paul 60s Tribute - Gold Top",
-      "brand": "Gibson",
-      "model": "Les Paul",
-      "variant": "60s Gold Top",
-      "count": 1,
-      "sum": 1100,
-      "min": 1100,
-      "max": 1100,
-      "sightings": [
-        {
-          "price": 1100,
-          "date": "2026-04-17T23:19:24.450Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul 60s Tribute - Gold Top",
-          "url": "https://reverb.com/item/96130106-gibson-les-paul-60s-tribute-gold-top",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1100,
-          "min": 1100,
-          "max": 1100,
-          "avg": 1100
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1100,
-        "min": 1099.99,
-        "max": 1099.99,
-        "prices": [
-          {
-            "price": 1099.99,
-            "askingPrice": 1100,
-            "date": "2026-04-18T17:37:29.307Z",
-            "title": "Gibson Les Paul 60s Tribute - Gold Top",
-            "url": "https://reverb.com/item/96130106-gibson-les-paul-60s-tribute-gold-top"
-          }
-        ]
-      },
-      "avg": 1100
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9802,23 +9787,9 @@
     }
   },
   "byCondition": {
-    "Very Good": {
-      "count": 76,
-      "sum": 203292.55999999994,
-      "sold": {
-        "count": 22,
-        "sum": 45487.85,
-        "avg": 2068,
-        "min": 475,
-        "max": 5500
-      },
-      "avg": 2675,
-      "min": 33,
-      "max": 15500
-    },
     "Excellent": {
-      "count": 109,
-      "sum": 380435.73,
+      "count": 110,
+      "sum": 382536.73,
       "sold": {
         "count": 36,
         "sum": 129282.87,
@@ -9826,9 +9797,23 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3490,
+      "avg": 3478,
       "min": 190,
       "max": 35900
+    },
+    "Very Good": {
+      "count": 75,
+      "sum": 202192.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 44387.85999999999,
+        "avg": 2114,
+        "min": 475,
+        "max": 5500
+      },
+      "avg": 2696,
+      "min": 33,
+      "max": 15500
     },
     "Used": {
       "count": 30,
@@ -9920,7 +9905,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3002,
+      "avg": 3008,
       "count": 175
     },
     "03": {
@@ -10074,8 +10059,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 21,
-    "1k-2k": 89,
-    "2k-3k": 75,
+    "1k-2k": 88,
+    "2k-3k": 76,
     "3k-5k": 61,
     "5k-10k": 37,
     "10k+": 8
@@ -10083,13 +10068,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 21,
-    "1k-2k": 89,
-    "2k-3k": 75,
+    "1k-2k": 88,
+    "2k-3k": 76,
     "3k-5k": 61,
     "5k-10k": 35,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 232,
+      "count": 22,
+      "avg": 11
+    },
     "BC Rich": {
       "sum": 229,
       "count": 20,
@@ -10116,14 +10106,9 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 550,
-      "count": 35,
+      "sum": 543,
+      "count": 34,
       "avg": 16
-    },
-    "Fender": {
-      "sum": 232,
-      "count": 21,
-      "avg": 11
     },
     "Aristides": {
       "sum": 0,
@@ -10477,14 +10462,13 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-24": 33,
+    "2026-04-24": 34,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
     "2026-04-18": 37,
-    "2026-04-17": 1,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10500,7 +10484,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 91
+      "count": 90
     },
     {
       "username": "greg1213",
@@ -10524,7 +10508,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 15
+      "count": 16
     },
     {
       "username": "Modean",
@@ -10542,7 +10526,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 34
+      "count": 33
     },
     {
       "username": "Shteefe",
@@ -10583,23 +10567,23 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3002,
+    "avg": 3008,
     "pctBelowAvg": 18,
     "count": 175
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5098,
+      "avgPrice": 4991,
       "retailEst": 800,
-      "avgDiscount": -537.2,
-      "count": 27
+      "avgDiscount": -523.8,
+      "count": 28
     },
     "Gibson": {
-      "avgPrice": 3200,
+      "avgPrice": 3260,
       "retailEst": 800,
-      "avgDiscount": -300,
-      "count": 36
+      "avgDiscount": -307.5,
+      "count": 35
     },
     "PRS": {
       "avgPrice": 3105,
@@ -10627,17 +10611,17 @@
     }
   },
   "soldPrices": {
-    "count": 81,
-    "avg": 3108,
+    "count": 80,
+    "avg": 3133,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 793.6999999999998,
-      "count": 78,
-      "avgDays": 10.2
+      "totalDays": 792.7999999999998,
+      "count": 77,
+      "avgDays": 10.3
     },
     "byModel": {
       "bc-rich-nj-series-80-90s": {
@@ -10871,14 +10855,6 @@
         "fastest": 56.6,
         "slowest": 56.6,
         "avgDays": 56.6
-      },
-      "gibson-les-paul-60s-gold-top": {
-        "displayName": "Gibson Les Paul 60s Tribute - Gold Top",
-        "totalDays": 0.9,
-        "count": 1,
-        "fastest": 0.9,
-        "slowest": 0.9,
-        "avgDays": 0.9
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11218,11 +11194,11 @@
         "avgDays": 1.6
       },
       "Gibson": {
-        "totalDays": 26.6,
-        "count": 8,
+        "totalDays": 25.700000000000003,
+        "count": 7,
         "fastest": 0.1,
         "slowest": 18.3,
-        "avgDays": 3.3
+        "avgDays": 3.7
       },
       "PRS": {
         "totalDays": 5.8,
@@ -11602,13 +11578,21 @@
   "sellThrough": {
     "overall": {
       "total": 286,
-      "sold": 75,
+      "sold": 74,
       "fake": 0,
-      "live": 211,
+      "live": 212,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Fender": {
+        "total": 29,
+        "sold": 7,
+        "fake": 0,
+        "live": 22,
+        "soldPct": 24,
+        "livePct": 76
+      },
       "BC Rich": {
         "total": 21,
         "sold": 3,
@@ -11650,20 +11634,12 @@
         "livePct": 100
       },
       "Gibson": {
-        "total": 38,
-        "sold": 9,
+        "total": 37,
+        "sold": 8,
         "fake": 0,
         "live": 29,
-        "soldPct": 24,
-        "livePct": 76
-      },
-      "Fender": {
-        "total": 28,
-        "sold": 7,
-        "fake": 0,
-        "live": 21,
-        "soldPct": 25,
-        "livePct": 75
+        "soldPct": 22,
+        "livePct": 78
       },
       "Aristides": {
         "total": 1,
@@ -12273,13 +12249,13 @@
       },
       {
         "label": "$1k–2k",
-        "total": 89,
-        "sold": 24,
-        "rate": 27
+        "total": 88,
+        "sold": 23,
+        "rate": 26
       },
       {
         "label": "$2k–3k",
-        "total": 75,
+        "total": 76,
         "sold": 24,
         "rate": 32
       },
@@ -12303,15 +12279,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 76,
-        "sold": 22,
-        "rate": 29
-      },
       "Excellent": {
-        "total": 109,
+        "total": 110,
         "sold": 38,
         "rate": 35
+      },
+      "Very Good": {
+        "total": 75,
+        "sold": 21,
+        "rate": 28
       },
       "Used": {
         "total": 30,
@@ -12909,6 +12885,24 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender USA": {
+      "brand": "Fender",
+      "brandLine": "Fender USA",
+      "tier": "high",
+      "count": 4,
+      "sum": 5915.99,
+      "avg": 1479,
+      "min": 875,
+      "max": 2101,
+      "sold": 2,
+      "soldSum": 2115,
+      "soldAvg": 1058,
+      "live": 2,
+      "sellRate": 50,
+      "totalDays": 10.2,
+      "soldCount": 2,
+      "avgDaysToSell": 5.1
+    },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
       "brandLine": "BC Rich USA Custom Shop",
@@ -12966,19 +12960,19 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 31,
-      "sum": 91435.98,
-      "avg": 2950,
+      "count": 30,
+      "sum": 90335.98,
+      "avg": 3011,
       "min": 135,
       "max": 7900,
-      "sold": 7,
-      "soldSum": 24444.98,
-      "soldAvg": 3492,
+      "sold": 6,
+      "soldSum": 23344.989999999998,
+      "soldAvg": 3891,
       "live": 24,
-      "sellRate": 23,
-      "totalDays": 109.2,
-      "soldCount": 7,
-      "avgDaysToSell": 15.6
+      "sellRate": 20,
+      "totalDays": 102.10000000000001,
+      "soldCount": 6,
+      "avgDaysToSell": 17
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13275,24 +13269,6 @@
       "totalDays": 2.1,
       "soldCount": 1,
       "avgDaysToSell": 2.1
-    },
-    "Fender|Fender USA": {
-      "brand": "Fender",
-      "brandLine": "Fender USA",
-      "tier": "high",
-      "count": 3,
-      "sum": 3814.99,
-      "avg": 1272,
-      "min": 875,
-      "max": 1699.99,
-      "sold": 2,
-      "soldSum": 2115,
-      "soldAvg": 1058,
-      "live": 1,
-      "sellRate": 67,
-      "totalDays": 10.2,
-      "soldCount": 2,
-      "avgDaysToSell": 5.1
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13621,9 +13597,9 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 226,
+      "totalDays": 226.1,
       "soldCount": 2,
-      "avgDaysToSell": 113
+      "avgDaysToSell": 113.1
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -13811,7 +13787,7 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 50.7,
+      "totalDays": 50.8,
       "soldCount": 2,
       "avgDaysToSell": 25.4
     },
@@ -13870,8 +13846,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 74,
-    "totalOffers": 157,
+    "withOffers": 75,
+    "totalOffers": 158,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 66
   },
@@ -13888,9 +13864,9 @@
     },
     {
       "label": "1–5",
-      "total": 17,
+      "total": 18,
       "sold": 2,
-      "rate": 12
+      "rate": 11
     },
     {
       "label": "6–15",
@@ -13906,33 +13882,33 @@
     },
     {
       "label": "31+",
-      "total": 60,
-      "sold": 17,
-      "rate": 28
+      "total": 59,
+      "sold": 16,
+      "rate": 27
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 169,
+      "total": 170,
       "sold": 48,
       "rate": 28
     },
     "off": {
-      "total": 47,
-      "sold": 14,
-      "rate": 30
+      "total": 46,
+      "sold": 13,
+      "rate": 28
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 110,
-      "sold": 19,
+      "total": 109,
+      "sold": 18,
       "rate": 17
     },
     "regular": {
-      "total": 93,
+      "total": 94,
       "sold": 34,
-      "rate": 37
+      "rate": 36
     }
   },
   "geoSellThrough": [
@@ -13943,16 +13919,16 @@
       "rate": 29
     },
     {
-      "state": "PA",
-      "total": 15,
-      "sold": 5,
-      "rate": 33
-    },
-    {
       "state": "WA",
       "total": 14,
       "sold": 1,
       "rate": 7
+    },
+    {
+      "state": "PA",
+      "total": 14,
+      "sold": 4,
+      "rate": 29
     },
     {
       "state": "FL",
@@ -14055,6 +14031,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "IA",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "TOKYO",
