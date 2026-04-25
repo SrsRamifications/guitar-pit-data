@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T13:25:03.023Z",
+  "generatedAt": "2026-04-25T13:29:03.441Z",
   "totalLinks": 308,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 303,
   "overall": {
     "count": 303,
-    "sum": 1109701.19,
-    "avg": 3662,
+    "sum": 1107400.19,
+    "avg": 3655,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 798651.2,
-    "avg": 2726,
+    "sum": 796350.2,
+    "avg": 2718,
     "min": 33,
     "max": 8499,
     "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 8852,
+    "thresholdHigh": 8702,
     "thresholdLow": 0,
     "count": 10,
     "items": [
@@ -109,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 173,
-      "sum": 518608.84,
+      "sum": 516307.84,
       "min": 70,
       "max": 15995,
-      "avg": 2998
+      "avg": 2984
     },
     "2026-03": {
       "count": 130,
@@ -123,28 +123,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 258,
-      "sum": 789091.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3058
-    },
     "marketplace": {
-      "count": 45,
-      "sum": 320609.83,
+      "count": 46,
+      "sum": 324508.83,
       "min": 143.99,
       "max": 99000,
-      "avg": 7125
+      "avg": 7055
+    },
+    "reverb": {
+      "count": 257,
+      "sum": 782891.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3046
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 21,
+      "sum": 242903,
+      "min": 350,
+      "max": 99000,
+      "avg": 11567
+    },
     "reverb.com": {
-      "count": 258,
-      "sum": 789091.36,
+      "count": 257,
+      "sum": 782891.36,
       "min": 33,
       "max": 35900,
-      "avg": 3058
+      "avg": 3046
     },
     "guitarcenter.com": {
       "count": 17,
@@ -159,13 +166,6 @@
       "min": 599,
       "max": 599,
       "avg": 599
-    },
-    "chicagomusicexchange.com": {
-      "count": 20,
-      "sum": 239004,
-      "min": 350,
-      "max": 99000,
-      "avg": 11950
     },
     "eddiesguitars.com": {
       "count": 1,
@@ -5568,37 +5568,6 @@
       },
       "avg": 15995
     },
-    "echopark-008": {
-      "displayName": "Echopark Clarence Custom, Case Study (Serial # X4 008)",
-      "brand": "Echopark",
-      "model": "008",
-      "variant": null,
-      "count": 1,
-      "sum": 6200,
-      "min": 6200,
-      "max": 6200,
-      "sightings": [
-        {
-          "price": 6200,
-          "date": "2026-04-18T13:48:24.781Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Echopark Clarence Custom, Case Study (Serial # X4 008)",
-          "url": "https://reverb.com/item/96139158-echopark-clarence-custom-case-study-serial-x4-008",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 6200,
-          "min": 6200,
-          "max": 6200,
-          "avg": 6200
-        }
-      },
-      "avg": 6200
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9713,9 +9682,23 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 24,
+      "sum": 97835.12,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4076,
+      "min": 135,
+      "max": 14670
+    },
     "Excellent": {
-      "count": 108,
-      "sum": 374938.73,
+      "count": 107,
+      "sum": 368738.73,
       "sold": {
         "count": 34,
         "sum": 123937.87,
@@ -9723,7 +9706,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3472,
+      "avg": 3446,
       "min": 190,
       "max": 35900
     },
@@ -9777,20 +9760,6 @@
       "min": 1039,
       "max": 1710
     },
-    "Brand New": {
-      "count": 23,
-      "sum": 93936.12,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4084,
-      "min": 135,
-      "max": 14670
-    },
     "Mint": {
       "count": 5,
       "sum": 15128,
@@ -9831,7 +9800,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2998,
+      "avg": 2984,
       "count": 173
     },
     "03": {
@@ -9987,8 +9956,8 @@
     "500-1k": 22,
     "1k-2k": 87,
     "2k-3k": 74,
-    "3k-5k": 62,
-    "5k-10k": 36,
+    "3k-5k": 63,
+    "5k-10k": 35,
     "10k+": 8
   },
   "priceDistributionFiltered": {
@@ -9996,8 +9965,8 @@
     "500-1k": 22,
     "1k-2k": 87,
     "2k-3k": 74,
-    "3k-5k": 62,
-    "5k-10k": 34,
+    "3k-5k": 63,
+    "5k-10k": 33,
     "10k+": 0
   },
   "daysOnMarket": {
@@ -10037,9 +10006,9 @@
       "avg": 1
     },
     "Echopark": {
-      "sum": 96,
-      "count": 6,
-      "avg": 16
+      "sum": 89,
+      "count": 5,
+      "avg": 18
     },
     "Dean Zelinsky": {
       "sum": 1,
@@ -10403,14 +10372,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 4,
+    "2026-04-25": 5,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 30,
+    "2026-04-18": 29,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10419,10 +10388,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 258,
-    "marketplace": 50
+    "marketplace": 51,
+    "reverb": 257
   },
-  "activeModelsCount": 262,
+  "activeModelsCount": 261,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10438,7 +10407,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 30
+      "count": 31
     },
     {
       "username": "jazee_",
@@ -10446,7 +10415,7 @@
     },
     {
       "username": "Madero",
-      "count": 22
+      "count": 21
     },
     {
       "username": "scottcorgan",
@@ -10509,7 +10478,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2998,
+    "avg": 2984,
     "pctBelowAvg": 18,
     "count": 173
   },
@@ -11496,10 +11465,10 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 289,
+      "total": 288,
       "sold": 73,
       "fake": 0,
-      "live": 216,
+      "live": 215,
       "soldPct": 25,
       "livePct": 75
     },
@@ -11561,12 +11530,12 @@
         "livePct": 100
       },
       "Echopark": {
-        "total": 6,
+        "total": 5,
         "sold": 1,
         "fake": 0,
-        "live": 5,
-        "soldPct": 17,
-        "livePct": 83
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
       },
       "Dean Zelinsky": {
         "total": 1,
@@ -12220,13 +12189,13 @@
       },
       {
         "label": "$3k–5k",
-        "total": 62,
+        "total": 63,
         "sold": 17,
         "rate": 27
       },
       {
         "label": "$5k–10k",
-        "total": 36,
+        "total": 35,
         "sold": 6,
         "rate": 17
       },
@@ -12238,10 +12207,15 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 24,
+        "sold": 3,
+        "rate": 13
+      },
       "Excellent": {
-        "total": 108,
+        "total": 107,
         "sold": 35,
-        "rate": 32
+        "rate": 33
       },
       "Good": {
         "total": 49,
@@ -12262,11 +12236,6 @@
         "total": 2,
         "sold": 0,
         "rate": 0
-      },
-      "Brand New": {
-        "total": 23,
-        "sold": 3,
-        "rate": 13
       },
       "Mint": {
         "total": 5,
@@ -12872,7 +12841,7 @@
       "soldAvg": 2666,
       "live": 6,
       "sellRate": 50,
-      "totalDays": 119.19999999999999,
+      "totalDays": 119.3,
       "soldCount": 6,
       "avgDaysToSell": 19.9
     },
@@ -12933,19 +12902,19 @@
       "brand": "Echopark",
       "brandLine": "Echopark",
       "tier": "premium",
-      "count": 5,
-      "sum": 18677.989999999998,
-      "avg": 3736,
+      "count": 4,
+      "sum": 12477.99,
+      "avg": 3119,
       "min": 2599.99,
-      "max": 6200,
+      "max": 3599,
       "sold": 1,
       "soldSum": 3599,
       "soldAvg": 3599,
-      "live": 4,
-      "sellRate": 20,
-      "totalDays": 26.6,
+      "live": 3,
+      "sellRate": 25,
+      "totalDays": 26.7,
       "soldCount": 1,
-      "avgDaysToSell": 26.6
+      "avgDaysToSell": 26.7
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -12961,7 +12930,7 @@
       "soldAvg": 4339,
       "live": 23,
       "sellRate": 18,
-      "totalDays": 59.800000000000004,
+      "totalDays": 59.9,
       "soldCount": 5,
       "avgDaysToSell": 12
     },
@@ -13821,7 +13790,7 @@
     "withOffers": 75,
     "totalOffers": 158,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 66
+    "offersEnabledPct": 65
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13842,7 +13811,7 @@
     },
     {
       "label": "6–15",
-      "total": 59,
+      "total": 58,
       "sold": 13,
       "rate": 22
     },
@@ -13861,7 +13830,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 169,
+      "total": 168,
       "sold": 46,
       "rate": 27
     },
@@ -13878,9 +13847,9 @@
       "rate": 16
     },
     "regular": {
-      "total": 93,
+      "total": 92,
       "sold": 31,
-      "rate": 33
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -14039,12 +14008,6 @@
       "total": 2,
       "sold": 1,
       "rate": 50
-    },
-    {
-      "state": "GA",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "NH",
