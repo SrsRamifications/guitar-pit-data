@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T22:47:57.938Z",
+  "generatedAt": "2026-04-25T23:13:00.620Z",
   "totalLinks": 306,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1091276.27,
-    "avg": 3626,
+    "sum": 1089556.27,
+    "avg": 3620,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 766297.28,
-    "avg": 2652,
+    "sum": 764577.28,
+    "avg": 2646,
     "min": 33,
     "max": 8300,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 8390,
+    "thresholdHigh": 8450,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 500183.92,
+      "sum": 498463.92,
       "min": 70,
       "max": 15500,
-      "avg": 2925
+      "avg": 2915
     },
     "2026-03": {
       "count": 130,
@@ -140,34 +140,34 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 266,
-      "sum": 804653.36,
+      "count": 267,
+      "sum": 805528.36,
       "min": 33,
       "max": 35900,
-      "avg": 3025
+      "avg": 3017
     },
     "marketplace": {
-      "count": 35,
-      "sum": 286622.91,
+      "count": 34,
+      "sum": 284027.91,
       "min": 143.99,
       "max": 99000,
-      "avg": 8189
+      "avg": 8354
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 266,
-      "sum": 804653.36,
+      "count": 267,
+      "sum": 805528.36,
       "min": 33,
       "max": 35900,
-      "avg": 3025
+      "avg": 3017
     },
     "chicagomusicexchange.com": {
-      "count": 19,
-      "sum": 233341.99,
+      "count": 18,
+      "sum": 230746.99,
       "min": 995,
       "max": 99000,
-      "avg": 12281
+      "avg": 12819
     },
     "guitarcenter.com": {
       "count": 9,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "gretsch-corvette": {
+      "displayName": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
+      "brand": "Gretsch",
+      "model": "Corvette",
+      "variant": null,
+      "count": 1,
+      "sum": 875,
+      "min": 875,
+      "max": 875,
+      "sightings": [
+        {
+          "price": 875,
+          "date": "2026-04-25T23:12:46.217Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
+          "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 875,
+          "min": 875,
+          "max": 875,
+          "avg": 875
+        }
+      },
+      "avg": 875
+    },
     "hiwatt-dr504": {
       "displayName": "Hiwatt Dr504 1982 - Black",
       "brand": "Hiwatt",
@@ -5512,52 +5543,6 @@
       },
       "avg": 875
     },
-    "fender-57-bandmaster-2-channel-reissue": {
-      "displayName": "Fender '57 Bandmaster Reissue 2-Channel 26-Watt 3x10\" Guitar Combo",
-      "brand": "Fender",
-      "model": "'57 Bandmaster 2-Channel",
-      "variant": "Reissue",
-      "count": 1,
-      "sum": 2595,
-      "min": 2595,
-      "max": 2595,
-      "sightings": [
-        {
-          "price": 2595,
-          "date": "2026-04-18T17:27:29.672Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender '57 Bandmaster Reissue 2-Channel 26-Watt 3x10\" Guitar Combo",
-          "url": "https://www.chicagomusicexchange.com/collections/amps-used/products/fender-57-bandmaster-reissue-2-channel-26-watt-3x10-2473260",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 2595,
-          "min": 2595,
-          "max": 2595,
-          "avg": 2595
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2595,
-        "min": 2595,
-        "max": 2595,
-        "prices": [
-          {
-            "price": 2595,
-            "askingPrice": 2595,
-            "date": "2026-04-18T22:41:56.861Z",
-            "title": "Fender '57 Bandmaster Reissue 2-Channel 26-Watt 3x10\" Guitar Combo",
-            "url": "https://www.chicagomusicexchange.com/collections/amps-used/products/fender-57-bandmaster-reissue-2-channel-26-watt-3x10-2473260"
-          }
-        ]
-      },
-      "avg": 2595
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9718,6 +9703,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 51,
+      "sum": 123133.95,
+      "sold": {
+        "count": 7,
+        "sum": 13955.48,
+        "avg": 1994,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2414,
+      "min": 70,
+      "max": 11475
+    },
     "Very Good": {
       "count": 78,
       "sum": 204603.55999999994,
@@ -9731,20 +9730,6 @@
       "avg": 2623,
       "min": 33,
       "max": 15500
-    },
-    "Good": {
-      "count": 50,
-      "sum": 122258.95,
-      "sold": {
-        "count": 7,
-        "sum": 13955.48,
-        "avg": 1994,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2445,
-      "min": 70,
-      "max": 11475
     },
     "Excellent": {
       "count": 109,
@@ -9761,13 +9746,13 @@
       "max": 35900
     },
     "Used": {
-      "count": 18,
-      "sum": 130945.93000000001,
+      "count": 17,
+      "sum": 128350.93000000001,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 7275,
+      "avg": 7550,
       "min": 143.99,
       "max": 99000
     },
@@ -9836,7 +9821,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2925,
+      "avg": 2915,
       "count": 171
     },
     "03": {
@@ -9989,18 +9974,18 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 23,
+    "500-1k": 24,
     "1k-2k": 86,
-    "2k-3k": 76,
+    "2k-3k": 75,
     "3k-5k": 60,
     "5k-10k": 34,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 23,
+    "500-1k": 24,
     "1k-2k": 86,
-    "2k-3k": 76,
+    "2k-3k": 75,
     "3k-5k": 60,
     "5k-10k": 30,
     "10k+": 0
@@ -10042,8 +10027,8 @@
       "avg": 13
     },
     "Fender": {
-      "sum": 226,
-      "count": 19,
+      "sum": 219,
+      "count": 18,
       "avg": 12
     },
     "G&L": {
@@ -10408,26 +10393,25 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 20,
+    "2026-04-25": 21,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 12,
+    "2026-04-18": 11,
     "2026-03-28": 35,
     "2026-03-27": 30,
-    "2026-03-26": 2,
     "2026-03-29": 17,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 266,
-    "marketplace": 40
+    "reverb": 267,
+    "marketplace": 39
   },
-  "activeModelsCount": 258,
+  "activeModelsCount": 257,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10476,12 +10460,12 @@
       "count": 34
     },
     {
-      "username": "Shteefe",
+      "username": "greg1213",
       "count": 11
     },
     {
-      "username": "greg1213",
-      "count": 11
+      "username": "Shteefe",
+      "count": 10
     },
     {
       "username": "Modean",
@@ -10514,17 +10498,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2925,
+    "avg": 2915,
     "pctBelowAvg": 19,
     "count": 171
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5055,
+      "avgPrice": 5158,
       "retailEst": 800,
-      "avgDiscount": -531.9,
-      "count": 25
+      "avgDiscount": -544.7,
+      "count": 24
     },
     "Gibson": {
       "avgPrice": 3226,
@@ -10564,17 +10548,17 @@
     }
   },
   "soldPrices": {
-    "count": 78,
-    "avg": 3160,
+    "count": 77,
+    "avg": 3167,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 751.4999999999999,
-      "count": 76,
-      "avgDays": 9.9
+      "totalDays": 751.2999999999998,
+      "count": 75,
+      "avgDays": 10
     },
     "byModel": {
       "gibson-sg-custom-custom-shop-limited-edition": {
@@ -10792,14 +10776,6 @@
         "fastest": 3.5,
         "slowest": 3.5,
         "avgDays": 3.5
-      },
-      "fender-57-bandmaster-2-channel-reissue": {
-        "displayName": "Fender '57 Bandmaster Reissue 2-Channel 26-Watt 3x10\" Guitar Combo",
-        "totalDays": 0.2,
-        "count": 1,
-        "fastest": 0.2,
-        "slowest": 0.2,
-        "avgDays": 0.2
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11174,11 +11150,11 @@
         "avgDays": 1.1
       },
       "Fender": {
-        "totalDays": 39.90000000000001,
-        "count": 7,
-        "fastest": 0.2,
+        "totalDays": 39.70000000000001,
+        "count": 6,
+        "fastest": 0.7,
         "slowest": 30,
-        "avgDays": 5.7
+        "avgDays": 6.6
       },
       "Charvel": {
         "totalDays": 1.2,
@@ -11359,11 +11335,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1078.0269774161345,
-      "count": 58,
-      "avgPctDrop": 18.6
+      "totalPctDrop": 1088.1912484633624,
+      "count": 59,
+      "avgPctDrop": 18.4
     },
     "byBrand": {
+      "Gretsch": {
+        "totalPctDrop": 10.164271047227926,
+        "count": 1,
+        "avgPctDrop": 10.2
+      },
       "Caparison": {
         "totalPctDrop": 26.666666666666668,
         "count": 1,
@@ -11514,13 +11495,21 @@
   "sellThrough": {
     "overall": {
       "total": 286,
-      "sold": 73,
+      "sold": 72,
       "fake": 0,
-      "live": 213,
-      "soldPct": 26,
-      "livePct": 74
+      "live": 214,
+      "soldPct": 25,
+      "livePct": 75
     },
     "byBrand": {
+      "Gretsch": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Hiwatt": {
         "total": 1,
         "sold": 0,
@@ -11578,12 +11567,12 @@
         "livePct": 60
       },
       "Fender": {
-        "total": 26,
-        "sold": 7,
+        "total": 25,
+        "sold": 6,
         "fake": 0,
         "live": 19,
-        "soldPct": 27,
-        "livePct": 73
+        "soldPct": 24,
+        "livePct": 76
       },
       "G&L": {
         "total": 1,
@@ -12161,14 +12150,6 @@
         "soldPct": 50,
         "livePct": 50
       },
-      "Gretsch": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Arcane": {
         "total": 1,
         "sold": 1,
@@ -12219,9 +12200,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 23,
+        "total": 24,
         "sold": 5,
-        "rate": 22
+        "rate": 21
       },
       {
         "label": "$1k–2k",
@@ -12231,9 +12212,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 76,
-        "sold": 24,
-        "rate": 32
+        "total": 75,
+        "sold": 23,
+        "rate": 31
       },
       {
         "label": "$3k–5k",
@@ -12255,15 +12236,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 51,
+        "sold": 7,
+        "rate": 14
+      },
       "Very Good": {
         "total": 78,
         "sold": 24,
         "rate": 31
-      },
-      "Good": {
-        "total": 50,
-        "sold": 7,
-        "rate": 14
       },
       "Excellent": {
         "total": 109,
@@ -12271,9 +12252,9 @@
         "rate": 32
       },
       "Used": {
-        "total": 18,
-        "sold": 4,
-        "rate": 22
+        "total": 17,
+        "sold": 3,
+        "rate": 18
       },
       "Brand New": {
         "total": 26,
@@ -12526,6 +12507,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
+        "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
+        "price": "$875",
+        "priceNum": 875,
+        "brand": "Gretsch",
+        "condition": "Good",
+        "watchers": 145,
+        "views": 1798,
+        "daysListed": 108,
+        "image": "https://rvb-img.reverb.com/i/s--nZoA-eEk--/quality=medium-low,height=800,width=800,fit=contain/6728a255-5060-46c6-adb7-799899ab4241.jpeg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Robin Wedge 1980s - Custom Abstract Airbrush Finish, Employee bui",
         "url": "https://reverb.com/item/94878813-robin-wedge-1980s-custom-abstract-airbrush-finish-employee-build-about-mint-w-kahler-and-hsc",
         "price": "$2,500",
@@ -12606,20 +12601,6 @@
         "views": 1517,
         "daysListed": 523,
         "image": "https://rvb-img.reverb.com/i/s--wlckuAx8--/quality=medium-low,height=800,width=800,fit=contain/l55e4ccr7ttbohabncyw.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Nat",
-        "url": "https://reverb.com/item/34347457-2020-bedell-limited-edition-dreadnought-brazillian-adirondack-natural",
-        "price": "$5,000",
-        "priceNum": 5000,
-        "brand": "Bedell",
-        "condition": "Mint",
-        "watchers": 78,
-        "views": 3250,
-        "daysListed": 2130,
-        "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12882,7 +12863,7 @@
       "soldAvg": 3800,
       "live": 23,
       "sellRate": 12,
-      "totalDays": 47.1,
+      "totalDays": 47.2,
       "soldCount": 3,
       "avgDaysToSell": 15.7
     },
@@ -13006,9 +12987,9 @@
       "soldAvg": 1488,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 129.2,
+      "totalDays": 129.3,
       "soldCount": 5,
-      "avgDaysToSell": 25.8
+      "avgDaysToSell": 25.9
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13041,7 +13022,7 @@
       "soldAvg": 2666,
       "live": 6,
       "sellRate": 50,
-      "totalDays": 121.5,
+      "totalDays": 121.7,
       "soldCount": 6,
       "avgDaysToSell": 20.3
     },
@@ -13077,7 +13058,7 @@
       "soldAvg": 1058,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 12.100000000000001,
+      "totalDays": 12.2,
       "soldCount": 2,
       "avgDaysToSell": 6.1
     },
@@ -13112,9 +13093,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 27,
+      "totalDays": 27.1,
       "soldCount": 1,
-      "avgDaysToSell": 27
+      "avgDaysToSell": 27.1
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13545,9 +13526,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 58,
+      "totalDays": 58.099999999999994,
       "soldCount": 3,
-      "avgDaysToSell": 19.3
+      "avgDaysToSell": 19.4
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13811,10 +13792,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 76,
-    "totalOffers": 160,
+    "withOffers": 77,
+    "totalOffers": 161,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 65
+    "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13847,14 +13828,14 @@
     },
     {
       "label": "31+",
-      "total": 61,
+      "total": 62,
       "sold": 16,
       "rate": 26
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 174,
+      "total": 175,
       "sold": 49,
       "rate": 28
     },
@@ -13871,9 +13852,9 @@
       "rate": 17
     },
     "regular": {
-      "total": 95,
+      "total": 96,
       "sold": 32,
-      "rate": 34
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -13896,16 +13877,16 @@
       "rate": 7
     },
     {
+      "state": "IL",
+      "total": 12,
+      "sold": 1,
+      "rate": 8
+    },
+    {
       "state": "FL",
       "total": 12,
       "sold": 3,
       "rate": 25
-    },
-    {
-      "state": "IL",
-      "total": 11,
-      "sold": 1,
-      "rate": 9
     },
     {
       "state": "NY",
