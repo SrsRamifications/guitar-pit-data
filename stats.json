@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T17:48:22.336Z",
+  "generatedAt": "2026-04-25T17:59:28.398Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1085949.2,
-    "avg": 3596,
+    "sum": 1090649.2,
+    "avg": 3611,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 790894.21,
-    "avg": 2699,
+    "sum": 795594.21,
+    "avg": 2715,
     "min": 33,
     "max": 8499,
-    "median": 2295
+    "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 8552,
+    "thresholdHigh": 8685,
     "thresholdLow": 0,
     "count": 9,
     "items": [
@@ -101,10 +101,10 @@
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 494856.85,
+      "sum": 499556.85,
       "min": 70,
       "max": 15500,
-      "avg": 2877
+      "avg": 2904
     },
     "2026-03": {
       "count": 130,
@@ -117,10 +117,10 @@
   "byCategory": {
     "marketplace": {
       "count": 43,
-      "sum": 298397.84,
+      "sum": 303097.84,
       "min": 143.99,
       "max": 99000,
-      "avg": 6939
+      "avg": 7049
     },
     "reverb": {
       "count": 259,
@@ -132,18 +132,18 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 19,
-      "sum": 222617,
+      "count": 20,
+      "sum": 228616.99,
       "min": 350,
       "max": 99000,
-      "avg": 11717
+      "avg": 11431
     },
     "guitarcenter.com": {
-      "count": 16,
-      "sum": 29364.86,
+      "count": 15,
+      "sum": 28064.87,
       "min": 143.99,
       "max": 4999.99,
-      "avg": 1835
+      "avg": 1871
     },
     "reverb.com": {
       "count": 259,
@@ -203,6 +203,37 @@
     }
   },
   "byModel": {
+    "jackson-kelly-custom-shop-usa": {
+      "displayName": "Jackson Custom Shop USA Special Edition Kelly Nitro-Relic Tour Gold To",
+      "brand": "Jackson",
+      "model": "Kelly",
+      "variant": "Custom Shop Usa",
+      "count": 1,
+      "sum": 5999.99,
+      "min": 5999.99,
+      "max": 5999.99,
+      "sightings": [
+        {
+          "price": 5999.99,
+          "date": "2026-04-25T17:59:11.784Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Jackson Custom Shop USA Special Edition Kelly Nitro-Relic Tour Gold To",
+          "url": "https://www.chicagomusicexchange.com/products/jackson-custom-shop-usa-special-edition-kelly-nitro-relic-2487089",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 5999.99,
+          "min": 5999.99,
+          "max": 5999.99,
+          "avg": 6000
+        }
+      },
+      "avg": 6000
+    },
     "gibson-sg-custom-custom-shop-limited-edition": {
       "displayName": "Gibson Custom Shop Limited Edition SG Custom Gloss Walnut w/Koa Top",
       "brand": "Gibson",
@@ -5550,37 +5581,6 @@
       },
       "avg": 1700
     },
-    "rickenbacker-pelliccia-tango-mottled": {
-      "displayName": "Used Pelliccia Tango I Mottled Foil Solid Body Electric Guitar Mottled Foil",
-      "brand": "Rickenbacker",
-      "model": "Pelliccia Tango Mottled",
-      "variant": null,
-      "count": 1,
-      "sum": 1299.99,
-      "min": 1299.99,
-      "max": 1299.99,
-      "sightings": [
-        {
-          "price": 1299.99,
-          "date": "2026-04-18T16:36:47.696Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Pelliccia Tango I Mottled Foil Solid Body Electric Guitar Mottled Foil",
-          "url": "https://www.guitarcenter.com/Used/Pelliccia/Used-Pelliccia-Tango-I-Mottled-Foil-Solid-Body-Electric-Guitar.gc?algoliaQueryID=9f36ff76061323c7bd43dc2447a5fc4c&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1299.99,
-          "min": 1299.99,
-          "max": 1299.99,
-          "avg": 1300
-        }
-      },
-      "avg": 1300
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9696,8 +9696,8 @@
   },
   "byCondition": {
     "Brand New": {
-      "count": 25,
-      "sum": 104834.12,
+      "count": 26,
+      "sum": 110834.10999999999,
       "sold": {
         "count": 1,
         "sum": 4548.17,
@@ -9705,18 +9705,18 @@
         "min": 4548.17,
         "max": 4548.17
       },
-      "avg": 4193,
+      "avg": 4263,
       "min": 135,
       "max": 14670
     },
     "Used": {
-      "count": 27,
-      "sum": 155195.86,
+      "count": 26,
+      "sum": 153895.87,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 5748,
+      "avg": 5919,
       "min": 143.99,
       "max": 99000
     },
@@ -9813,7 +9813,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2877,
+      "avg": 2904,
       "count": 172
     },
     "03": {
@@ -9967,24 +9967,29 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 87,
+    "1k-2k": 86,
     "2k-3k": 76,
     "3k-5k": 63,
-    "5k-10k": 33,
+    "5k-10k": 34,
     "10k+": 7
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 87,
+    "1k-2k": 86,
     "2k-3k": 76,
     "3k-5k": 63,
-    "5k-10k": 31,
+    "5k-10k": 32,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Jackson": {
+      "sum": 234,
+      "count": 10,
+      "avg": 23
+    },
     "Gibson": {
-      "sum": 507,
+      "sum": 508,
       "count": 31,
       "avg": 16
     },
@@ -10024,7 +10029,7 @@
       "avg": 12
     },
     "BC Rich": {
-      "sum": 248,
+      "sum": 249,
       "count": 20,
       "avg": 12
     },
@@ -10134,7 +10139,7 @@
       "avg": 4
     },
     "ESP": {
-      "sum": 110,
+      "sum": 111,
       "count": 5,
       "avg": 22
     },
@@ -10144,14 +10149,9 @@
       "avg": 4
     },
     "Rickenbacker": {
-      "sum": 18,
-      "count": 3,
+      "sum": 11,
+      "count": 2,
       "avg": 6
-    },
-    "Jackson": {
-      "sum": 234,
-      "count": 9,
-      "avg": 26
     },
     "Orange": {
       "sum": 28,
@@ -10385,14 +10385,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 10,
+    "2026-04-25": 11,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 23,
+    "2026-04-18": 22,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 6,
@@ -10491,7 +10491,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2877,
+    "avg": 2904,
     "pctBelowAvg": 20,
     "count": 172
   },
@@ -10520,6 +10520,12 @@
       "retailEst": 1000,
       "avgDiscount": -174.7,
       "count": 19
+    },
+    "Jackson": {
+      "avgPrice": 3499,
+      "retailEst": 1000,
+      "avgDiscount": -249.9,
+      "count": 10
     },
     "Kiesel": {
       "avgPrice": 1522,
@@ -11499,6 +11505,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Jackson": {
+        "total": 10,
+        "sold": 2,
+        "fake": 0,
+        "live": 8,
+        "soldPct": 20,
+        "livePct": 80
+      },
       "Gibson": {
         "total": 34,
         "sold": 6,
@@ -11796,20 +11810,12 @@
         "livePct": 100
       },
       "Rickenbacker": {
-        "total": 3,
+        "total": 2,
         "sold": 0,
         "fake": 0,
-        "live": 3,
+        "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Jackson": {
-        "total": 9,
-        "sold": 2,
-        "fake": 0,
-        "live": 7,
-        "soldPct": 22,
-        "livePct": 78
       },
       "Orange": {
         "total": 1,
@@ -12203,9 +12209,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 87,
+        "total": 86,
         "sold": 22,
-        "rate": 25
+        "rate": 26
       },
       {
         "label": "$2k–3k",
@@ -12221,7 +12227,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 33,
+        "total": 34,
         "sold": 5,
         "rate": 15
       },
@@ -12234,12 +12240,12 @@
     ],
     "byCondition": {
       "Brand New": {
-        "total": 25,
+        "total": 26,
         "sold": 3,
         "rate": 12
       },
       "Used": {
-        "total": 27,
+        "total": 26,
         "sold": 5,
         "rate": 19
       },
@@ -12853,6 +12859,24 @@
     ]
   },
   "byBrandLine": {
+    "Jackson|Jackson USA Custom Shop": {
+      "brand": "Jackson",
+      "brandLine": "Jackson USA Custom Shop",
+      "tier": "ultra",
+      "count": 5,
+      "sum": 21393.989999999998,
+      "avg": 4279,
+      "min": 2516,
+      "max": 6000,
+      "sold": 1,
+      "soldSum": 2516,
+      "soldAvg": 2516,
+      "live": 4,
+      "sellRate": 20,
+      "totalDays": 7,
+      "soldCount": 1,
+      "avgDaysToSell": 7
+    },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
       "brandLine": "Gibson Custom Shop",
@@ -13027,9 +13051,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 2.2,
+      "totalDays": 2.3,
       "soldCount": 1,
-      "avgDaysToSell": 2.2
+      "avgDaysToSell": 2.3
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13377,24 +13401,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Jackson|Jackson USA Custom Shop": {
-      "brand": "Jackson",
-      "brandLine": "Jackson USA Custom Shop",
-      "tier": "ultra",
-      "count": 4,
-      "sum": 15394,
-      "avg": 3849,
-      "min": 2516,
-      "max": 6000,
-      "sold": 1,
-      "soldSum": 2516,
-      "soldAvg": 2516,
-      "live": 3,
-      "sellRate": 25,
-      "totalDays": 7,
-      "soldCount": 1,
-      "avgDaysToSell": 7
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
