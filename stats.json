@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T21:23:59.704Z",
+  "generatedAt": "2026-04-25T21:26:08.150Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,18 +7,18 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1092302.26,
-    "avg": 3617,
+    "sum": 1093271.27,
+    "avg": 3620,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 290,
-    "sum": 767323.27,
-    "avg": 2646,
+    "sum": 768292.28,
+    "avg": 2649,
     "min": 33,
     "max": 8300,
-    "median": 2225
+    "median": 2250
   },
   "outliers": {
     "thresholdHigh": 8390,
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 501209.91,
+      "sum": 502178.92,
       "min": 70,
       "max": 15500,
-      "avg": 2914
+      "avg": 2920
     },
     "2026-03": {
       "count": 130,
@@ -140,27 +140,27 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 265,
-      "sum": 801984.36,
+      "count": 266,
+      "sum": 804653.36,
       "min": 33,
       "max": 35900,
-      "avg": 3026
+      "avg": 3025
     },
     "marketplace": {
-      "count": 37,
-      "sum": 290317.9,
+      "count": 36,
+      "sum": 288617.91,
       "min": 143.99,
       "max": 99000,
-      "avg": 7846
+      "avg": 8017
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 265,
-      "sum": 801984.36,
+      "count": 266,
+      "sum": 804653.36,
       "min": 33,
       "max": 35900,
-      "avg": 3026
+      "avg": 3025
     },
     "chicagomusicexchange.com": {
       "count": 20,
@@ -170,11 +170,11 @@
       "avg": 11767
     },
     "guitarcenter.com": {
-      "count": 10,
-      "sum": 13564.92,
+      "count": 9,
+      "sum": 11864.93,
       "min": 143.99,
       "max": 2599.99,
-      "avg": 1356
+      "avg": 1318
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "hiwatt-dr504": {
+      "displayName": "Hiwatt Dr504 1982 - Black",
+      "brand": "Hiwatt",
+      "model": "Dr504",
+      "variant": null,
+      "count": 1,
+      "sum": 2669,
+      "min": 2669,
+      "max": 2669,
+      "sightings": [
+        {
+          "price": 2669,
+          "date": "2026-04-25T21:25:52.512Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Hiwatt Dr504 1982 - Black",
+          "url": "https://reverb.com/item/96227959",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2669,
+          "min": 2669,
+          "max": 2669,
+          "avg": 2669
+        }
+      },
+      "avg": 2669
+    },
     "charvel-jackson-deluxe-toothpaste-mij": {
       "displayName": "1990 MIJ Charvel Jackson 375 Deluxe \"Toothpaste Logo Neck\" Loaded",
       "brand": "Charvel",
@@ -5589,37 +5620,6 @@
       },
       "avg": 2297
     },
-    "fender-stratocaster-american-elite": {
-      "displayName": "Fender Stratocaster American Elite",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": "American Elite",
-      "count": 1,
-      "sum": 1699.99,
-      "min": 1699.99,
-      "max": 1699.99,
-      "sightings": [
-        {
-          "price": 1699.99,
-          "date": "2026-04-18T17:24:11.371Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used 1983 Fender American Elite Stratocaster 2 Tone Sunburst Solid Body Electric Guitar 2 Tone Sunburst",
-          "url": "https://www.guitarcenter.com/Used/Fender/Used-1983-Fender-American-Elite-Stratocaster-2-Tone-Sunburst-Solid-Body-Electric-Guitar.gc",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1699.99,
-          "min": 1699.99,
-          "max": 1699.99,
-          "avg": 1700
-        }
-      },
-      "avg": 1700
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9734,6 +9734,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 78,
+      "sum": 204603.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 50831.85999999999,
+        "avg": 2118,
+        "min": 475,
+        "max": 5500
+      },
+      "avg": 2623,
+      "min": 33,
+      "max": 15500
+    },
     "Good": {
       "count": 50,
       "sum": 122258.95,
@@ -9747,20 +9761,6 @@
       "avg": 2445,
       "min": 70,
       "max": 11475
-    },
-    "Very Good": {
-      "count": 77,
-      "sum": 201934.55999999994,
-      "sold": {
-        "count": 24,
-        "sum": 50831.85999999999,
-        "avg": 2118,
-        "min": 475,
-        "max": 5500
-      },
-      "avg": 2623,
-      "min": 33,
-      "max": 15500
     },
     "Excellent": {
       "count": 109,
@@ -9777,13 +9777,13 @@
       "max": 35900
     },
     "Used": {
-      "count": 20,
-      "sum": 134640.91999999998,
+      "count": 19,
+      "sum": 132940.93,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 6732,
+      "avg": 6997,
       "min": 143.99,
       "max": 99000
     },
@@ -9852,7 +9852,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2914,
+      "avg": 2920,
       "count": 172
     },
     "03": {
@@ -10006,8 +10006,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 88,
-    "2k-3k": 75,
+    "1k-2k": 87,
+    "2k-3k": 76,
     "3k-5k": 60,
     "5k-10k": 34,
     "10k+": 8
@@ -10015,13 +10015,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 88,
-    "2k-3k": 75,
+    "1k-2k": 87,
+    "2k-3k": 76,
     "3k-5k": 60,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Hiwatt": {
+      "sum": 2,
+      "count": 1,
+      "avg": 2
+    },
     "Charvel": {
       "sum": 31,
       "count": 3,
@@ -10053,8 +10058,8 @@
       "avg": 13
     },
     "Fender": {
-      "sum": 233,
-      "count": 20,
+      "sum": 226,
+      "count": 19,
       "avg": 12
     },
     "G&L": {
@@ -10419,14 +10424,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 19,
+    "2026-04-25": 20,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 14,
+    "2026-04-18": 13,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 5,
@@ -10435,8 +10440,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 265,
-    "marketplace": 42
+    "reverb": 266,
+    "marketplace": 41
   },
   "activeModelsCount": 261,
   "topPosters": [
@@ -10454,15 +10459,15 @@
     },
     {
       "username": "Shteefe",
-      "count": 23
+      "count": 22
+    },
+    {
+      "username": "jazee_",
+      "count": 21
     },
     {
       "username": "Madero",
       "count": 21
-    },
-    {
-      "username": "jazee_",
-      "count": 20
     },
     {
       "username": "scottcorgan",
@@ -10525,17 +10530,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2914,
+    "avg": 2920,
     "pctBelowAvg": 19,
     "count": 172
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 4926,
+      "avgPrice": 5055,
       "retailEst": 800,
-      "avgDiscount": -515.8,
-      "count": 26
+      "avgDiscount": -531.9,
+      "count": 25
     },
     "Gibson": {
       "avgPrice": 3226,
@@ -11532,6 +11537,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Hiwatt": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Charvel": {
         "total": 3,
         "sold": 2,
@@ -11581,12 +11594,12 @@
         "livePct": 60
       },
       "Fender": {
-        "total": 27,
+        "total": 26,
         "sold": 7,
         "fake": 0,
-        "live": 20,
-        "soldPct": 26,
-        "livePct": 74
+        "live": 19,
+        "soldPct": 27,
+        "livePct": 73
       },
       "G&L": {
         "total": 1,
@@ -12228,13 +12241,13 @@
       },
       {
         "label": "$1k–2k",
-        "total": 88,
+        "total": 87,
         "sold": 23,
         "rate": 26
       },
       {
         "label": "$2k–3k",
-        "total": 75,
+        "total": 76,
         "sold": 24,
         "rate": 32
       },
@@ -12258,15 +12271,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 78,
+        "sold": 24,
+        "rate": 31
+      },
       "Good": {
         "total": 50,
         "sold": 7,
         "rate": 14
-      },
-      "Very Good": {
-        "total": 77,
-        "sold": 24,
-        "rate": 31
       },
       "Excellent": {
         "total": 109,
@@ -12274,9 +12287,9 @@
         "rate": 32
       },
       "Used": {
-        "total": 20,
+        "total": 19,
         "sold": 4,
-        "rate": 20
+        "rate": 21
       },
       "Brand New": {
         "total": 26,
@@ -12998,7 +13011,7 @@
       "soldAvg": 5066,
       "live": 1,
       "sellRate": 75,
-      "totalDays": 59,
+      "totalDays": 59.1,
       "soldCount": 3,
       "avgDaysToSell": 19.7
     },
@@ -13069,24 +13082,24 @@
       "soldAvg": 2434,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 51.7,
+      "totalDays": 51.8,
       "soldCount": 3,
-      "avgDaysToSell": 17.2
+      "avgDaysToSell": 17.3
     },
     "Fender|Fender USA": {
       "brand": "Fender",
       "brandLine": "Fender USA",
       "tier": "high",
-      "count": 4,
-      "sum": 5814.99,
-      "avg": 1454,
+      "count": 3,
+      "sum": 4115,
+      "avg": 1372,
       "min": 875,
       "max": 2000,
       "sold": 2,
       "soldSum": 2115,
       "soldAvg": 1058,
-      "live": 2,
-      "sellRate": 50,
+      "live": 1,
+      "sellRate": 67,
       "totalDays": 12.100000000000001,
       "soldCount": 2,
       "avgDaysToSell": 6.1
@@ -13839,9 +13852,9 @@
     },
     {
       "label": "1–5",
-      "total": 17,
+      "total": 18,
       "sold": 2,
-      "rate": 12
+      "rate": 11
     },
     {
       "label": "6–15",
@@ -13864,7 +13877,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 173,
+      "total": 174,
       "sold": 49,
       "rate": 28
     },
@@ -13876,7 +13889,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 115,
+      "total": 116,
       "sold": 20,
       "rate": 17
     },
