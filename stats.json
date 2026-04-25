@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T19:07:40.991Z",
+  "generatedAt": "2026-04-25T19:17:32.882Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,23 +7,23 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1089879.21,
-    "avg": 3609,
+    "sum": 1098454.22,
+    "avg": 3637,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 293,
-    "sum": 794824.22,
-    "avg": 2713,
+    "count": 292,
+    "sum": 791924.23,
+    "avg": 2712,
     "min": 33,
     "max": 8499,
-    "median": 2299
+    "median": 2297
   },
   "outliers": {
-    "thresholdHigh": 8687,
+    "thresholdHigh": 8699,
     "thresholdLow": 0,
-    "count": 9,
+    "count": 10,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -74,6 +74,14 @@
         "postedAt": "2026-04-24T04:29:16.582Z"
       },
       {
+        "title": "Fender Jazzmaster Candy Apple Red 1966",
+        "url": "https://www.chicagomusicexchange.com/products/fender-jazzmaster-candy-apple-red-1966-2448537",
+        "price": "$11,475",
+        "image": "http://www.chicagomusicexchange.com/cdn/shop/files/fender-electric-guitars-solid-body-fender-jazzmaster-candy-apple-red-1966-fender-jazzmaster-candy-apple-red-1966-u7365917803-1215848236.jpg?v=1768076835",
+        "condition": "Good",
+        "postedAt": "2026-04-25T19:17:15.994Z"
+      },
+      {
         "title": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
         "url": "https://www.tapestrymusic.com/p-25084-fender-1967-telecaster-refin-used-vintage.aspx",
         "price": "$10,495",
@@ -101,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 498786.86,
+      "sum": 507361.87,
       "min": 70,
       "max": 15500,
-      "avg": 2900
+      "avg": 2950
     },
     "2026-03": {
       "count": 130,
@@ -115,22 +123,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 42,
+      "sum": 309972.86,
+      "min": 143.99,
+      "max": 99000,
+      "avg": 7380
+    },
     "reverb": {
       "count": 260,
       "sum": 788481.36,
       "min": 33,
       "max": 35900,
       "avg": 3033
-    },
-    "marketplace": {
-      "count": 42,
-      "sum": 301397.85,
-      "min": 143.99,
-      "max": 99000,
-      "avg": 7176
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 21,
+      "sum": 240091.99,
+      "min": 350,
+      "max": 99000,
+      "avg": 11433
+    },
     "reverb.com": {
       "count": 260,
       "sum": 788481.36,
@@ -138,19 +153,12 @@
       "max": 35900,
       "avg": 3033
     },
-    "chicagomusicexchange.com": {
-      "count": 20,
-      "sum": 228616.99,
-      "min": 350,
-      "max": 99000,
-      "avg": 11431
-    },
     "guitarcenter.com": {
-      "count": 14,
-      "sum": 26364.88,
+      "count": 13,
+      "sum": 23464.89,
       "min": 143.99,
       "max": 4999.99,
-      "avg": 1883
+      "avg": 1805
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -203,6 +211,37 @@
     }
   },
   "byModel": {
+    "fender-jazzmaster": {
+      "displayName": "Fender Jazzmaster Candy Apple Red 1966",
+      "brand": "Fender",
+      "model": "Jazzmaster",
+      "variant": null,
+      "count": 1,
+      "sum": 11475,
+      "min": 11475,
+      "max": 11475,
+      "sightings": [
+        {
+          "price": 11475,
+          "date": "2026-04-25T19:17:15.994Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Jazzmaster Candy Apple Red 1966",
+          "url": "https://www.chicagomusicexchange.com/products/fender-jazzmaster-candy-apple-red-1966-2448537",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 11475,
+          "min": 11475,
+          "max": 11475,
+          "avg": 11475
+        }
+      },
+      "avg": 11475
+    },
     "gl-legacy-usa": {
       "displayName": "G&L Legacy USA model, Vintage 1997-98, Birdseye maple neck, Great tone",
       "brand": "G&L",
@@ -5550,37 +5589,6 @@
       },
       "avg": 5000
     },
-    "prs-mcarty-solid-body": {
-      "displayName": "PRS mcarty Solid Body",
-      "brand": "PRS",
-      "model": "mcarty Solid Body",
-      "variant": null,
-      "count": 1,
-      "sum": 2899.99,
-      "min": 2899.99,
-      "max": 2899.99,
-      "sightings": [
-        {
-          "price": 2899.99,
-          "date": "2026-04-18T16:46:15.298Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used PRS mcarty 594 Black Solid Body Electric Guitar Black",
-          "url": "https://www.guitarcenter.com/Used/PRS/Used-PRS-mcarty-594-Black-Solid-Body-Electric-Guitar.gc?algoliaQueryID=12b23ecb1ad45a507c6201b2e2650447&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 2899.99,
-          "min": 2899.99,
-          "max": 2899.99,
-          "avg": 2900
-        }
-      },
-      "avg": 2900
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9695,6 +9703,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 47,
+      "sum": 119355.95,
+      "sold": {
+        "count": 7,
+        "sum": 13955.48,
+        "avg": 1994,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2539,
+      "min": 70,
+      "max": 11475
+    },
     "Very Good": {
       "count": 76,
       "sum": 201284.55999999994,
@@ -9724,13 +9746,13 @@
       "max": 14670
     },
     "Used": {
-      "count": 25,
-      "sum": 152195.88,
+      "count": 24,
+      "sum": 149295.88999999998,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 6088,
+      "avg": 6221,
       "min": 143.99,
       "max": 99000
     },
@@ -9758,20 +9780,6 @@
       "avg": 2888,
       "min": 1050,
       "max": 5000
-    },
-    "Good": {
-      "count": 46,
-      "sum": 107880.95,
-      "sold": {
-        "count": 7,
-        "sum": 13955.48,
-        "avg": 1994,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2345,
-      "min": 70,
-      "max": 7495
     },
     "B-Stock": {
       "count": 2,
@@ -9813,7 +9821,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2900,
+      "avg": 2950,
       "count": 172
     },
     "03": {
@@ -9968,21 +9976,26 @@
     "0-500": 14,
     "500-1k": 23,
     "1k-2k": 85,
-    "2k-3k": 76,
+    "2k-3k": 75,
     "3k-5k": 63,
     "5k-10k": 34,
-    "10k+": 7
+    "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
     "1k-2k": 85,
-    "2k-3k": 76,
+    "2k-3k": 75,
     "3k-5k": 63,
     "5k-10k": 32,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 240,
+      "count": 21,
+      "avg": 11
+    },
     "G&L": {
       "sum": 0,
       "count": 1,
@@ -10009,8 +10022,8 @@
       "avg": 15
     },
     "PRS": {
-      "sum": 253,
-      "count": 18,
+      "sum": 246,
+      "count": 17,
       "avg": 14
     },
     "Burny": {
@@ -10027,11 +10040,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Fender": {
-      "sum": 240,
-      "count": 20,
-      "avg": 12
     },
     "BC Rich": {
       "sum": 249,
@@ -10390,14 +10398,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 12,
+    "2026-04-25": 13,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 21,
+    "2026-04-18": 20,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 6,
@@ -10406,8 +10414,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 260,
-    "marketplace": 47
+    "marketplace": 47,
+    "reverb": 260
   },
   "activeModelsCount": 261,
   "topPosters": [
@@ -10496,17 +10504,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2900,
-    "pctBelowAvg": 20,
+    "avg": 2950,
+    "pctBelowAvg": 19,
     "count": 172
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 4635,
+      "avgPrice": 4888,
       "retailEst": 800,
-      "avgDiscount": -479.4,
-      "count": 26
+      "avgDiscount": -511,
+      "count": 27
     },
     "Gibson": {
       "avgPrice": 3338,
@@ -10515,10 +10523,10 @@
       "count": 32
     },
     "PRS": {
-      "avgPrice": 3295,
+      "avgPrice": 3316,
       "retailEst": 1000,
-      "avgDiscount": -229.5,
-      "count": 20
+      "avgDiscount": -231.6,
+      "count": 19
     },
     "Ibanez": {
       "avgPrice": 2747,
@@ -11510,6 +11518,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Fender": {
+        "total": 28,
+        "sold": 7,
+        "fake": 0,
+        "live": 21,
+        "soldPct": 25,
+        "livePct": 75
+      },
       "G&L": {
         "total": 1,
         "sold": 0,
@@ -11551,12 +11567,12 @@
         "livePct": 100
       },
       "PRS": {
-        "total": 20,
+        "total": 19,
         "sold": 7,
         "fake": 0,
-        "live": 13,
-        "soldPct": 35,
-        "livePct": 65
+        "live": 12,
+        "soldPct": 37,
+        "livePct": 63
       },
       "Burny": {
         "total": 1,
@@ -11581,14 +11597,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 27,
-        "sold": 7,
-        "fake": 0,
-        "live": 20,
-        "soldPct": 26,
-        "livePct": 74
       },
       "BC Rich": {
         "total": 21,
@@ -12228,9 +12236,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 76,
+        "total": 75,
         "sold": 23,
-        "rate": 30
+        "rate": 31
       },
       {
         "label": "$3k–5k",
@@ -12246,12 +12254,17 @@
       },
       {
         "label": "$10k+",
-        "total": 7,
+        "total": 8,
         "sold": 2,
-        "rate": 29
+        "rate": 25
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 47,
+        "sold": 7,
+        "rate": 15
+      },
       "Very Good": {
         "total": 76,
         "sold": 22,
@@ -12263,9 +12276,9 @@
         "rate": 12
       },
       "Used": {
-        "total": 25,
+        "total": 24,
         "sold": 5,
-        "rate": 20
+        "rate": 21
       },
       "Excellent": {
         "total": 108,
@@ -12276,11 +12289,6 @@
         "total": 6,
         "sold": 0,
         "rate": 0
-      },
-      "Good": {
-        "total": 46,
-        "sold": 7,
-        "rate": 15
       },
       "B-Stock": {
         "total": 2,
@@ -12872,6 +12880,24 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 13,
+      "sum": 93366.98999999999,
+      "avg": 7182,
+      "min": 2000,
+      "max": 35900,
+      "sold": 3,
+      "soldSum": 49094,
+      "soldAvg": 16365,
+      "live": 10,
+      "sellRate": 23,
+      "totalDays": 90.5,
+      "soldCount": 3,
+      "avgDaysToSell": 30.2
+    },
     "G&L|G&L USA": {
       "brand": "G&L",
       "brandLine": "G&L USA",
@@ -12921,9 +12947,9 @@
       "soldAvg": 4100,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 58.7,
+      "totalDays": 58.900000000000006,
       "soldCount": 2,
-      "avgDaysToSell": 29.4
+      "avgDaysToSell": 29.5
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -12992,7 +13018,7 @@
       "soldAvg": 2434,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 51.5,
+      "totalDays": 51.599999999999994,
       "soldCount": 3,
       "avgDaysToSell": 17.2
     },
@@ -13118,24 +13144,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 12,
-      "sum": 81891.98999999999,
-      "avg": 6824,
-      "min": 2000,
-      "max": 35900,
-      "sold": 3,
-      "soldSum": 49094,
-      "soldAvg": 16365,
-      "live": 9,
-      "sellRate": 25,
-      "totalDays": 90.5,
-      "soldCount": 3,
-      "avgDaysToSell": 30.2
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -13549,7 +13557,7 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 57.5,
+      "totalDays": 57.6,
       "soldCount": 3,
       "avgDaysToSell": 19.2
     },
