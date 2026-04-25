@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T15:25:11.106Z",
+  "generatedAt": "2026-04-25T15:40:29.166Z",
   "totalLinks": 308,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,23 +7,23 @@
   "totalWithPrice": 303,
   "overall": {
     "count": 303,
-    "sum": 1100770.19,
-    "avg": 3633,
+    "sum": 1086075.18,
+    "avg": 3584,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 293,
-    "sum": 789720.2,
-    "avg": 2695,
+    "count": 294,
+    "sum": 791020.19,
+    "avg": 2691,
     "min": 33,
     "max": 8499,
-    "median": 2295
+    "median": 2290
   },
   "outliers": {
-    "thresholdHigh": 8687,
+    "thresholdHigh": 8552,
     "thresholdLow": 0,
-    "count": 10,
+    "count": 9,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -56,14 +56,6 @@
         "image": "https://rvb-img.reverb.com/i/s--AyOhWHw4--/quality=medium-low,height=800,width=800,fit=contain/2c277a3d-9b5a-48f0-a8c4-f7f2222fa6b2.jpeg",
         "condition": "Excellent",
         "postedAt": "2026-03-27T01:35:31.451Z"
-      },
-      {
-        "title": "Fender Jazzmaster Lake Placid Blue 1967",
-        "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/fender-jazzmaster-lake-placid-blue-1967-2520237",
-        "price": "$15,995",
-        "image": "http://www.chicagomusicexchange.com/cdn/shop/files/fender-electric-guitars-fender-jazzmaster-lake-placid-blue-1967-fender-jazzmaster-lake-placid-blue-1967-u7501908503-1232493881.jpg?v=1776279601",
-        "condition": "Good",
-        "postedAt": "2026-04-18T15:02:17.156Z"
       },
       {
         "title": "Rick Toone Spearfish \"Blueprint\" 2025 - Custom Blueprint Stain",
@@ -109,10 +101,10 @@
   "byMonth": {
     "2026-04": {
       "count": 173,
-      "sum": 509677.84,
+      "sum": 494982.83,
       "min": 70,
-      "max": 15995,
-      "avg": 2946
+      "max": 15500,
+      "avg": 2861
     },
     "2026-03": {
       "count": 130,
@@ -123,22 +115,29 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 44,
+      "sum": 298523.82,
+      "min": 143.99,
+      "max": 99000,
+      "avg": 6785
+    },
     "reverb": {
       "count": 259,
       "sum": 787551.36,
       "min": 33,
       "max": 35900,
       "avg": 3041
-    },
-    "marketplace": {
-      "count": 44,
-      "sum": 313218.83,
-      "min": 143.99,
-      "max": 99000,
-      "avg": 7119
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 18,
+      "sum": 36489.84,
+      "min": 143.99,
+      "max": 5499.99,
+      "avg": 2027
+    },
     "reverb.com": {
       "count": 259,
       "sum": 787551.36,
@@ -147,18 +146,11 @@
       "avg": 3041
     },
     "chicagomusicexchange.com": {
-      "count": 19,
-      "sum": 231613,
+      "count": 18,
+      "sum": 215618,
       "min": 350,
       "max": 99000,
-      "avg": 12190
-    },
-    "guitarcenter.com": {
-      "count": 17,
-      "sum": 35189.85,
-      "min": 143.99,
-      "max": 5499.99,
-      "avg": 2070
+      "avg": 11979
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -211,6 +203,37 @@
     }
   },
   "byModel": {
+    "kiesel-osiris-solid-body": {
+      "displayName": "Used Kiesel Osiris 6 Blue Solid Body Electric Guitar Blue",
+      "brand": "Kiesel",
+      "model": "Osiris Solid Body",
+      "variant": null,
+      "count": 1,
+      "sum": 1299.99,
+      "min": 1299.99,
+      "max": 1299.99,
+      "sightings": [
+        {
+          "price": 1299.99,
+          "date": "2026-04-25T15:40:14.391Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Kiesel Osiris 6 Blue Solid Body Electric Guitar Blue",
+          "url": "https://www.guitarcenter.com/Used/Kiesel/Used-Kiesel-Osiris-6-Blue-Solid-Body-Electric-Guitar.gc?algoliaQueryID=5461857e5b02c4ef35924f75cfc2cc51&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1299.99,
+          "min": 1299.99,
+          "max": 1299.99,
+          "avg": 1300
+        }
+      },
+      "avg": 1300
+    },
     "caparison-angelus-hgs": {
       "displayName": "Caparison Angelus HGS",
       "brand": "Caparison",
@@ -5589,37 +5612,6 @@
       },
       "avg": 5500
     },
-    "fender-jazzmaster": {
-      "displayName": "Fender Jazzmaster Lake Placid Blue 1967",
-      "brand": "Fender",
-      "model": "Jazzmaster",
-      "variant": null,
-      "count": 1,
-      "sum": 15995,
-      "min": 15995,
-      "max": 15995,
-      "sightings": [
-        {
-          "price": 15995,
-          "date": "2026-04-18T15:02:17.156Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender Jazzmaster Lake Placid Blue 1967",
-          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/fender-jazzmaster-lake-placid-blue-1967-2520237",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 15995,
-          "min": 15995,
-          "max": 15995,
-          "avg": 15995
-        }
-      },
-      "avg": 15995
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9734,6 +9726,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 29,
+      "sum": 162320.83999999997,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 5597,
+      "min": 143.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 108,
       "sum": 371238.73,
@@ -9774,8 +9777,8 @@
       "max": 14670
     },
     "Good": {
-      "count": 47,
-      "sum": 123875.95,
+      "count": 46,
+      "sum": 107880.95,
       "sold": {
         "count": 7,
         "sum": 13955.48,
@@ -9783,9 +9786,9 @@
         "min": 650,
         "max": 4777.5
       },
-      "avg": 2636,
+      "avg": 2345,
       "min": 70,
-      "max": 15995
+      "max": 7495
     },
     "Very Good": {
       "count": 75,
@@ -9800,17 +9803,6 @@
       "avg": 2671,
       "min": 33,
       "max": 15500
-    },
-    "Used": {
-      "count": 28,
-      "sum": 161020.84999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 5751,
-      "min": 143.99,
-      "max": 99000
     },
     "B-Stock": {
       "count": 2,
@@ -9852,7 +9844,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2946,
+      "avg": 2861,
       "count": 173
     },
     "03": {
@@ -10006,22 +9998,27 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 87,
+    "1k-2k": 88,
     "2k-3k": 76,
     "3k-5k": 63,
     "5k-10k": 33,
-    "10k+": 8
+    "10k+": 7
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 87,
+    "1k-2k": 88,
     "2k-3k": 76,
     "3k-5k": 63,
     "5k-10k": 31,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 267,
+      "count": 11,
+      "avg": 24
+    },
     "Caparison": {
       "sum": 15,
       "count": 1,
@@ -10048,8 +10045,8 @@
       "avg": 1
     },
     "Fender": {
-      "sum": 253,
-      "count": 22,
+      "sum": 246,
+      "count": 21,
       "avg": 12
     },
     "BC Rich": {
@@ -10128,9 +10125,9 @@
       "avg": 12
     },
     "Luxxtone": {
-      "sum": 30,
+      "sum": 31,
       "count": 2,
-      "avg": 15
+      "avg": 16
     },
     "Positive Grid": {
       "sum": 2,
@@ -10138,9 +10135,9 @@
       "avg": 2
     },
     "Kemper": {
-      "sum": 24,
+      "sum": 25,
       "count": 1,
-      "avg": 24
+      "avg": 25
     },
     "Hamer": {
       "sum": 71,
@@ -10216,11 +10213,6 @@
       "sum": 50,
       "count": 1,
       "avg": 50
-    },
-    "Kiesel": {
-      "sum": 267,
-      "count": 10,
-      "avg": 27
     },
     "First Act": {
       "sum": 4,
@@ -10429,26 +10421,26 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 7,
+    "2026-04-25": 8,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 27,
+    "2026-04-18": 26,
     "2026-03-28": 35,
     "2026-03-27": 30,
-    "2026-03-26": 7,
+    "2026-03-26": 6,
     "2026-03-29": 17,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 259,
-    "marketplace": 49
+    "marketplace": 49,
+    "reverb": 259
   },
-  "activeModelsCount": 263,
+  "activeModelsCount": 262,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10456,7 +10448,7 @@
     },
     {
       "username": "greg1213",
-      "count": 45
+      "count": 46
     },
     {
       "username": "YellowJack6",
@@ -10464,7 +10456,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 30
+      "count": 29
     },
     {
       "username": "jazee_",
@@ -10535,17 +10527,17 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2946,
-    "pctBelowAvg": 19,
+    "avg": 2861,
+    "pctBelowAvg": 20,
     "count": 173
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 4936,
+      "avgPrice": 4526,
       "retailEst": 800,
-      "avgDiscount": -517,
-      "count": 28
+      "avgDiscount": -465.8,
+      "count": 27
     },
     "Gibson": {
       "avgPrice": 3220,
@@ -10566,10 +10558,10 @@
       "count": 19
     },
     "Kiesel": {
-      "avgPrice": 1537,
+      "avgPrice": 1518,
       "retailEst": 1000,
-      "avgDiscount": -53.7,
-      "count": 11
+      "avgDiscount": -51.8,
+      "count": 12
     },
     "BC Rich": {
       "avgPrice": 2621,
@@ -11543,6 +11535,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 12,
+        "sold": 6,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Caparison": {
         "total": 2,
         "sold": 0,
@@ -11584,12 +11584,12 @@
         "livePct": 100
       },
       "Fender": {
-        "total": 29,
+        "total": 28,
         "sold": 7,
         "fake": 0,
-        "live": 22,
-        "soldPct": 24,
-        "livePct": 76
+        "live": 21,
+        "soldPct": 25,
+        "livePct": 75
       },
       "BC Rich": {
         "total": 21,
@@ -11894,14 +11894,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Kiesel": {
-        "total": 11,
-        "sold": 6,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 55,
-        "livePct": 45
       },
       "First Act": {
         "total": 1,
@@ -12255,7 +12247,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 87,
+        "total": 88,
         "sold": 22,
         "rate": 25
       },
@@ -12279,12 +12271,17 @@
       },
       {
         "label": "$10k+",
-        "total": 8,
+        "total": 7,
         "sold": 2,
-        "rate": 25
+        "rate": 29
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 29,
+        "sold": 5,
+        "rate": 17
+      },
       "Excellent": {
         "total": 108,
         "sold": 35,
@@ -12301,7 +12298,7 @@
         "rate": 13
       },
       "Good": {
-        "total": 47,
+        "total": 46,
         "sold": 7,
         "rate": 15
       },
@@ -12309,11 +12306,6 @@
         "total": 75,
         "sold": 22,
         "rate": 29
-      },
-      "Used": {
-        "total": 28,
-        "sold": 5,
-        "rate": 18
       },
       "B-Stock": {
         "total": 2,
@@ -12883,9 +12875,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1526,
-        "sellRate": 55,
-        "count": 11,
+        "avgPrice": 1504,
+        "sellRate": 50,
+        "count": 12,
         "sold": 6
       },
       {
@@ -12905,6 +12897,24 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 10,
+      "sum": 15035.99,
+      "avg": 1504,
+      "min": 650,
+      "max": 2700,
+      "sold": 5,
+      "soldSum": 7440,
+      "soldAvg": 1488,
+      "live": 5,
+      "sellRate": 50,
+      "totalDays": 127.70000000000002,
+      "soldCount": 5,
+      "avgDaysToSell": 25.5
+    },
     "Caparison|Caparison": {
       "brand": "Caparison",
       "brandLine": "Caparison",
@@ -13025,7 +13035,7 @@
       "soldAvg": 4100,
       "live": 22,
       "sellRate": 15,
-      "totalDays": 53.099999999999994,
+      "totalDays": 53.199999999999996,
       "soldCount": 4,
       "avgDaysToSell": 13.3
     },
@@ -13043,9 +13053,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 2.1,
+      "totalDays": 2.2,
       "soldCount": 1,
-      "avgDaysToSell": 2.1
+      "avgDaysToSell": 2.2
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13085,16 +13095,16 @@
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
       "tier": "premium",
-      "count": 13,
-      "sum": 97886.98999999999,
-      "avg": 7530,
+      "count": 12,
+      "sum": 81891.98999999999,
+      "avg": 6824,
       "min": 2000,
       "max": 35900,
       "sold": 3,
       "soldSum": 49094,
       "soldAvg": 16365,
-      "live": 10,
-      "sellRate": 23,
+      "live": 9,
+      "sellRate": 25,
       "totalDays": 90.1,
       "soldCount": 3,
       "avgDaysToSell": 30
@@ -13446,24 +13456,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 9,
-      "sum": 13736,
-      "avg": 1526,
-      "min": 650,
-      "max": 2700,
-      "sold": 5,
-      "soldSum": 7440,
-      "soldAvg": 1488,
-      "live": 4,
-      "sellRate": 56,
-      "totalDays": 127.70000000000002,
-      "soldCount": 5,
-      "avgDaysToSell": 25.5
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
