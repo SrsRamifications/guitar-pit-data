@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T19:17:32.882Z",
+  "generatedAt": "2026-04-25T19:25:12.862Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -332,6 +332,21 @@
           "max": 6999,
           "avg": 6999
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 6999,
+        "min": 6999,
+        "max": 6999,
+        "prices": [
+          {
+            "price": 6999,
+            "askingPrice": 6999,
+            "date": "2026-04-25T19:24:35.790Z",
+            "title": "Gibson Custom Shop Limited Edition SG Custom Gloss Walnut w/Koa Top",
+            "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-limited-edition-sg-custom-gloss-2523734"
+          }
+        ]
       },
       "avg": 6999
     },
@@ -2844,6 +2859,21 @@
           "max": 1845,
           "avg": 1845
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1845,
+        "min": 1845,
+        "max": 1845,
+        "prices": [
+          {
+            "price": 1845,
+            "askingPrice": 1845,
+            "date": "2026-04-25T19:22:28.588Z",
+            "title": "Ibanez AR350-PW Artist 1985 - Polar White",
+            "url": "https://reverb.com/item/96287614-ibanez-ar350-pw-artist-1985-polar-white"
+          }
+        ]
       },
       "avg": 1845
     },
@@ -9721,9 +9751,9 @@
       "count": 76,
       "sum": 201284.55999999994,
       "sold": {
-        "count": 22,
-        "sum": 46486.85999999999,
-        "avg": 2113,
+        "count": 23,
+        "sum": 48331.85999999999,
+        "avg": 2101,
         "min": 475,
         "max": 5500
       },
@@ -10463,15 +10493,15 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 32
+      "count": 33
+    },
+    {
+      "username": "Shteefe",
+      "count": 11
     },
     {
       "username": "greg1213",
       "count": 11
-    },
-    {
-      "username": "Shteefe",
-      "count": 10
     },
     {
       "username": "Modean",
@@ -10554,19 +10584,27 @@
     }
   },
   "soldPrices": {
-    "count": 77,
-    "avg": 3123,
+    "count": 79,
+    "avg": 3156,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 748.6999999999999,
-      "count": 75,
-      "avgDays": 10
+      "totalDays": 751.5999999999999,
+      "count": 77,
+      "avgDays": 9.8
     },
     "byModel": {
+      "gibson-sg-custom-custom-shop-limited-edition": {
+        "displayName": "Gibson Custom Shop Limited Edition SG Custom Gloss Walnut w/Koa Top",
+        "totalDays": 0.1,
+        "count": 1,
+        "fastest": 0.1,
+        "slowest": 0.1,
+        "avgDays": 0.1
+      },
       "bc-rich-nj-series-80-90s": {
         "displayName": "BC Rich NJ Series 80-90's - Red Signed Poison & Whitesnake",
         "totalDays": 0.4,
@@ -10598,6 +10636,14 @@
         "fastest": 1.8,
         "slowest": 1.8,
         "avgDays": 1.8
+      },
+      "ibanez-ar350-artist": {
+        "displayName": "Ibanez AR350-PW Artist 1985 - Polar White",
+        "totalDays": 2.8,
+        "count": 1,
+        "fastest": 2.8,
+        "slowest": 2.8,
+        "avgDays": 2.8
       },
       "hamer-chaparral-elite-with-usa": {
         "displayName": "1990 Hamer USA Chaparral Elite With Sustainiac - Marble With OHSC",
@@ -11121,6 +11167,13 @@
       }
     },
     "byBrand": {
+      "Gibson": {
+        "totalDays": 25.6,
+        "count": 7,
+        "fastest": 0.1,
+        "slowest": 18.3,
+        "avgDays": 3.7
+      },
       "BC Rich": {
         "totalDays": 4.7,
         "count": 3,
@@ -11135,19 +11188,19 @@
         "slowest": 1.7,
         "avgDays": 1.7
       },
-      "Gibson": {
-        "totalDays": 25.5,
-        "count": 6,
-        "fastest": 0.1,
-        "slowest": 18.3,
-        "avgDays": 4.3
-      },
       "PRS": {
         "totalDays": 5.8,
         "count": 7,
         "fastest": 0.1,
         "slowest": 1.8,
         "avgDays": 0.8
+      },
+      "Ibanez": {
+        "totalDays": 22.7,
+        "count": 7,
+        "fastest": 0.1,
+        "slowest": 14.4,
+        "avgDays": 3.2
       },
       "Hamer": {
         "totalDays": 1.1,
@@ -11183,13 +11236,6 @@
         "fastest": 0,
         "slowest": 0,
         "avgDays": 0
-      },
-      "Ibanez": {
-        "totalDays": 19.9,
-        "count": 6,
-        "fastest": 0.1,
-        "slowest": 14.4,
-        "avgDays": 3.3
       },
       "Kiesel": {
         "totalDays": 45.7,
@@ -11511,11 +11557,11 @@
   "sellThrough": {
     "overall": {
       "total": 287,
-      "sold": 73,
+      "sold": 75,
       "fake": 0,
-      "live": 214,
-      "soldPct": 25,
-      "livePct": 75
+      "live": 212,
+      "soldPct": 26,
+      "livePct": 74
     },
     "byBrand": {
       "Fender": {
@@ -11544,11 +11590,11 @@
       },
       "Gibson": {
         "total": 34,
-        "sold": 6,
+        "sold": 7,
         "fake": 0,
-        "live": 28,
-        "soldPct": 18,
-        "livePct": 82
+        "live": 27,
+        "soldPct": 21,
+        "livePct": 79
       },
       "Kiesel": {
         "total": 13,
@@ -11584,11 +11630,11 @@
       },
       "Ibanez": {
         "total": 19,
-        "sold": 6,
+        "sold": 7,
         "fake": 0,
-        "live": 13,
-        "soldPct": 32,
-        "livePct": 68
+        "live": 12,
+        "soldPct": 37,
+        "livePct": 63
       },
       "Levinson Blade": {
         "total": 1,
@@ -12231,8 +12277,8 @@
       {
         "label": "$1k–2k",
         "total": 85,
-        "sold": 22,
-        "rate": 26
+        "sold": 23,
+        "rate": 27
       },
       {
         "label": "$2k–3k",
@@ -12249,8 +12295,8 @@
       {
         "label": "$5k–10k",
         "total": 34,
-        "sold": 5,
-        "rate": 15
+        "sold": 6,
+        "rate": 18
       },
       {
         "label": "$10k+",
@@ -12267,13 +12313,13 @@
       },
       "Very Good": {
         "total": 76,
-        "sold": 22,
-        "rate": 29
+        "sold": 23,
+        "rate": 30
       },
       "Brand New": {
         "total": 26,
-        "sold": 3,
-        "rate": 12
+        "sold": 4,
+        "rate": 15
       },
       "Used": {
         "total": 24,
@@ -12317,7 +12363,7 @@
         "brand": "Fender",
         "condition": "Excellent",
         "watchers": 8,
-        "views": 216,
+        "views": 218,
         "daysListed": 6,
         "image": "https://rvb-img.reverb.com/i/s--qemJmrc9--/quality=medium-low,height=800,width=800,fit=contain/d1c3390c-4ea0-4922-b737-a467c9f815d1.png",
         "modelAvg": 13167,
@@ -12332,7 +12378,7 @@
         "brand": "Fender",
         "condition": "Good",
         "watchers": 41,
-        "views": 455,
+        "views": 458,
         "daysListed": 11,
         "image": "https://rvb-img.reverb.com/i/s--C9SdxMvn--/quality=medium-low,height=800,width=800,fit=contain/a759e5b2-e442-42e1-ba66-d781c9462924.jpeg",
         "modelAvg": 13167,
@@ -12377,7 +12423,7 @@
         "brand": "Gibson",
         "condition": "Good",
         "watchers": 38,
-        "views": 455,
+        "views": 456,
         "daysListed": 19,
         "image": "https://rvb-img.reverb.com/i/s--aoTvN3-7--/quality=medium-low,height=800,width=800,fit=contain/bc5bddb9-3263-40d4-8758-3f8cc9485f38.jpg",
         "modelAvg": 2380,
@@ -12392,7 +12438,7 @@
         "brand": "Gibson",
         "condition": "Excellent",
         "watchers": 28,
-        "views": 640,
+        "views": 646,
         "daysListed": 3,
         "image": "https://rvb-img.reverb.com/i/s--ShKWc51V--/quality=medium-low,height=800,width=800,fit=contain/bf9a4ba0-c598-4418-ac43-f719d824e640.jpeg",
         "modelAvg": 4919,
@@ -12423,8 +12469,8 @@
         "priceNum": 6895,
         "brand": "PRS",
         "condition": "Good",
-        "watchers": 9,
-        "views": 96,
+        "watchers": 11,
+        "views": 113,
         "daysListed": 1,
         "image": "https://rvb-img.reverb.com/i/s--6er7adZc--/quality=medium-low,height=800,width=800,fit=contain/d844689a-4618-4ef8-9a3e-6f9adf185b25.jpg",
         "modelAvg": 4531,
@@ -12437,8 +12483,8 @@
         "priceNum": 3250,
         "brand": "Gibson",
         "condition": "Very Good",
-        "watchers": 27,
-        "views": 285,
+        "watchers": 28,
+        "views": 290,
         "daysListed": 5,
         "image": "https://rvb-img.reverb.com/i/s--mXuPFM9e--/quality=medium-low,height=800,width=800,fit=contain/2bb5ab88-d123-4071-83bf-cff1ac83e516.jpg",
         "modelAvg": 2380,
@@ -12466,7 +12512,7 @@
         "brand": "Yamaha",
         "condition": "Excellent",
         "watchers": 25,
-        "views": 300,
+        "views": 319,
         "daysListed": 2,
         "image": "https://rvb-img.reverb.com/i/s--2M-0FDMA--/quality=medium-low,height=800,width=800,fit=contain/5b01bbf8-ed01-4425-8d56-d890818a1b3e.jpg",
         "modelAvg": 2900,
@@ -12480,7 +12526,7 @@
         "brand": "Yamaha",
         "condition": "Excellent",
         "watchers": 25,
-        "views": 302,
+        "views": 320,
         "daysListed": 2,
         "image": "https://rvb-img.reverb.com/i/s--2M-0FDMA--/quality=medium-low,height=800,width=800,fit=contain/5b01bbf8-ed01-4425-8d56-d890818a1b3e.jpg",
         "modelAvg": 2900,
@@ -12510,7 +12556,7 @@
         "brand": "Gibson",
         "condition": "Very Good",
         "watchers": 166,
-        "views": 2112,
+        "views": 2117,
         "daysListed": 42,
         "image": "https://rvb-img.reverb.com/i/s--CaBM1hWn--/quality=medium-low,height=800,width=800,fit=contain/53e4aedb-c070-4720-ac5b-b6c779ed5ec2.jpg",
         "modelAvg": null,
@@ -12523,8 +12569,8 @@
         "priceNum": 1600,
         "brand": "Epiphone",
         "condition": "Good",
-        "watchers": 152,
-        "views": 2051,
+        "watchers": 151,
+        "views": 2053,
         "daysListed": 698,
         "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
         "modelAvg": null,
@@ -12538,7 +12584,7 @@
         "brand": "Robin",
         "condition": "Excellent",
         "watchers": 138,
-        "views": 2081,
+        "views": 2085,
         "daysListed": 50,
         "image": "https://rvb-img.reverb.com/i/s--gScp4gK_--/quality=medium-low,height=800,width=800,fit=contain/1bbb9baf-eb4f-493b-b2d3-588d5b17c73d.jpeg",
         "modelAvg": null,
@@ -12552,7 +12598,7 @@
         "brand": "Kiesel",
         "condition": "Very Good",
         "watchers": 118,
-        "views": 2222,
+        "views": 2226,
         "daysListed": 303,
         "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
         "modelAvg": null,
@@ -12566,7 +12612,7 @@
         "brand": "Tokai",
         "condition": "Very Good",
         "watchers": 105,
-        "views": 3661,
+        "views": 3663,
         "daysListed": 418,
         "image": "https://rvb-img.reverb.com/i/s--cNrpfm1Q--/quality=medium-low,height=800,width=800,fit=contain/bhaaf3xsoim1pzk0wgap.jpg",
         "modelAvg": null,
@@ -12580,7 +12626,7 @@
         "brand": "Fender",
         "condition": "Excellent",
         "watchers": 98,
-        "views": 1855,
+        "views": 1856,
         "daysListed": 108,
         "image": "https://rvb-img.reverb.com/i/s--fTYNZvTI--/quality=medium-low,height=800,width=800,fit=contain/0843d579-7fcd-480e-b76f-b997675fce02.jpeg",
         "modelAvg": null,
@@ -12593,8 +12639,8 @@
         "priceNum": 3395,
         "brand": "Vintage",
         "condition": "Very Good",
-        "watchers": 97,
-        "views": 1243,
+        "watchers": 98,
+        "views": 1256,
         "daysListed": 13,
         "image": "https://rvb-img.reverb.com/i/s--1wXSIORK--/quality=medium-low,height=800,width=800,fit=contain/20b883fb-6f3d-48b3-8d89-849c886210fe.jpg",
         "modelAvg": null,
@@ -12608,7 +12654,7 @@
         "brand": "Dean",
         "condition": "Mint",
         "watchers": 86,
-        "views": 1508,
+        "views": 1517,
         "daysListed": 523,
         "image": "https://rvb-img.reverb.com/i/s--wlckuAx8--/quality=medium-low,height=800,width=800,fit=contain/l55e4ccr7ttbohabncyw.jpg",
         "modelAvg": null,
@@ -12652,7 +12698,7 @@
         "brand": "SAITO",
         "condition": "Very Good",
         "watchers": 39,
-        "views": 2770,
+        "views": 2772,
         "daysListed": 869,
         "image": "https://rvb-img.reverb.com/i/s--OhyQQjXN--/quality=medium-low,height=800,width=800,fit=contain/yx51sznn1mefawurvpw4.jpg",
         "modelAvg": null,
@@ -12679,8 +12725,8 @@
         "priceNum": 1600,
         "brand": "Epiphone",
         "condition": "Good",
-        "watchers": 152,
-        "views": 2051,
+        "watchers": 151,
+        "views": 2053,
         "daysListed": 698,
         "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
         "modelAvg": null,
@@ -12694,7 +12740,7 @@
         "brand": "Seger",
         "condition": "Mint",
         "watchers": 40,
-        "views": 1153,
+        "views": 1154,
         "daysListed": 671,
         "image": "https://rvb-img.reverb.com/i/s--tQmbNt8H--/quality=medium-low,height=800,width=800,fit=contain/xqu2dk9c8r0vsh33086t.jpg",
         "modelAvg": null,
@@ -12708,7 +12754,7 @@
         "brand": "Dean",
         "condition": "Mint",
         "watchers": 86,
-        "views": 1508,
+        "views": 1517,
         "daysListed": 523,
         "image": "https://rvb-img.reverb.com/i/s--wlckuAx8--/quality=medium-low,height=800,width=800,fit=contain/l55e4ccr7ttbohabncyw.jpg",
         "modelAvg": null,
@@ -12736,7 +12782,7 @@
         "brand": "Fender",
         "condition": "Excellent",
         "watchers": 51,
-        "views": 1848,
+        "views": 1857,
         "daysListed": 469,
         "image": "https://rvb-img.reverb.com/i/s--6JzLgsFN--/quality=medium-low,height=800,width=800,fit=contain/tlf1wyndmgmio2pbzfal.jpg",
         "modelAvg": null,
@@ -12750,7 +12796,7 @@
         "brand": "Caparison",
         "condition": "Mint",
         "watchers": 30,
-        "views": 792,
+        "views": 803,
         "daysListed": 429,
         "image": "https://rvb-img.reverb.com/i/s--7OBZ5b6G--/quality=medium-low,height=800,width=800,fit=contain/uzesj48vh561mqc4ouwp.jpg",
         "modelAvg": null,
@@ -12764,7 +12810,7 @@
         "brand": "Tokai",
         "condition": "Very Good",
         "watchers": 105,
-        "views": 3661,
+        "views": 3663,
         "daysListed": 418,
         "image": "https://rvb-img.reverb.com/i/s--cNrpfm1Q--/quality=medium-low,height=800,width=800,fit=contain/bhaaf3xsoim1pzk0wgap.jpg",
         "modelAvg": null,
@@ -12806,7 +12852,7 @@
         "brand": "Kiesel",
         "condition": "Very Good",
         "watchers": 118,
-        "views": 2222,
+        "views": 2226,
         "daysListed": 303,
         "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
         "modelAvg": null,
@@ -12820,7 +12866,7 @@
         "brand": "BC Rich",
         "condition": "Good",
         "watchers": 39,
-        "views": 1274,
+        "views": 1279,
         "daysListed": 300,
         "image": "https://rvb-img.reverb.com/i/s--fh5w0q2q--/quality=medium-low,height=800,width=800,fit=contain/ijlhhjakc14uyuyq07mf.jpg",
         "modelAvg": null,
@@ -12834,7 +12880,7 @@
         "brand": "PRS",
         "condition": "Brand New",
         "watchers": 10,
-        "views": 214,
+        "views": 222,
         "daysListed": 298,
         "image": "https://rvb-img.reverb.com/i/s--dAQavLOD--/quality=medium-low,height=800,width=800,fit=contain/yeszser56hkgrckrbnfw.jpg",
         "modelAvg": null,
@@ -12894,7 +12940,7 @@
       "soldAvg": 16365,
       "live": 10,
       "sellRate": 23,
-      "totalDays": 90.5,
+      "totalDays": 90.60000000000001,
       "soldCount": 3,
       "avgDaysToSell": 30.2
     },
@@ -12942,14 +12988,14 @@
       "avg": 5706,
       "min": 3500,
       "max": 7625,
-      "sold": 2,
-      "soldSum": 8199,
-      "soldAvg": 4100,
-      "live": 2,
-      "sellRate": 50,
-      "totalDays": 58.900000000000006,
-      "soldCount": 2,
-      "avgDaysToSell": 29.5
+      "sold": 3,
+      "soldSum": 15198,
+      "soldAvg": 5066,
+      "live": 1,
+      "sellRate": 75,
+      "totalDays": 59,
+      "soldCount": 3,
+      "avgDaysToSell": 19.7
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -13326,14 +13372,14 @@
       "avg": 3113,
       "min": 1845,
       "max": 4500,
-      "sold": 3,
-      "soldSum": 10584,
-      "soldAvg": 3528,
-      "live": 3,
-      "sellRate": 50,
-      "totalDays": 77,
-      "soldCount": 3,
-      "avgDaysToSell": 25.7
+      "sold": 4,
+      "soldSum": 12429,
+      "soldAvg": 3107,
+      "live": 2,
+      "sellRate": 67,
+      "totalDays": 79.8,
+      "soldCount": 4,
+      "avgDaysToSell": 20
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13557,7 +13603,7 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 57.6,
+      "totalDays": 57.7,
       "soldCount": 3,
       "avgDaysToSell": 19.2
     },
@@ -13876,7 +13922,7 @@
   },
   "offerActivity": {
     "withOffers": 76,
-    "totalOffers": 159,
+    "totalOffers": 160,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 65
   },
@@ -13899,19 +13945,19 @@
     },
     {
       "label": "6–15",
-      "total": 56,
-      "sold": 13,
-      "rate": 23
+      "total": 55,
+      "sold": 14,
+      "rate": 25
     },
     {
       "label": "16–30",
-      "total": 72,
+      "total": 71,
       "sold": 18,
       "rate": 25
     },
     {
       "label": "31+",
-      "total": 59,
+      "total": 61,
       "sold": 15,
       "rate": 25
     }
@@ -13919,7 +13965,7 @@
   "offersEffect": {
     "on": {
       "total": 169,
-      "sold": 47,
+      "sold": 48,
       "rate": 28
     },
     "off": {
@@ -13936,8 +13982,8 @@
     },
     "regular": {
       "total": 93,
-      "sold": 31,
-      "rate": 33
+      "sold": 32,
+      "rate": 34
     }
   },
   "geoSellThrough": [
