@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T03:04:58.910Z",
+  "generatedAt": "2026-04-25T03:08:20.061Z",
   "totalLinks": 308,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 303,
   "overall": {
     "count": 303,
-    "sum": 1107582.19,
-    "avg": 3655,
+    "sum": 1111982.19,
+    "avg": 3670,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 293,
-    "sum": 796532.2,
-    "avg": 2719,
+    "sum": 800932.2,
+    "avg": 2734,
     "min": 33,
     "max": 8499,
     "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 8852,
+    "thresholdHigh": 8987,
     "thresholdLow": 0,
     "count": 10,
     "items": [
@@ -109,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 173,
-      "sum": 516489.84,
+      "sum": 520889.84,
       "min": 70,
       "max": 15995,
-      "avg": 2985
+      "avg": 3011
     },
     "2026-03": {
       "count": 130,
@@ -125,10 +125,10 @@
   "byCategory": {
     "reverb": {
       "count": 258,
-      "sum": 786972.36,
+      "sum": 791372.36,
       "min": 33,
       "max": 35900,
-      "avg": 3050
+      "avg": 3067
     },
     "marketplace": {
       "count": 45,
@@ -141,10 +141,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 258,
-      "sum": 786972.36,
+      "sum": 791372.36,
       "min": 33,
       "max": 35900,
-      "avg": 3050
+      "avg": 3067
     },
     "guitarcenter.com": {
       "count": 17,
@@ -211,6 +211,85 @@
     }
   },
   "byModel": {
+    "prs-custom-24": {
+      "displayName": "PRS Custom 24 electric guitar 1987 - Vintage yellow",
+      "brand": "PRS",
+      "model": "Custom 24",
+      "variant": null,
+      "count": 3,
+      "sum": 13594,
+      "min": 2300,
+      "max": 6895,
+      "sightings": [
+        {
+          "price": 4399,
+          "date": "2026-03-27T15:53:06.714Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Custom 24 1990 - Tiger's Eye burst",
+          "url": "https://reverb.com/item/95436813-prs-custom-24-1990-tiger-s-eye-burst",
+          "condition": "Excellent"
+        },
+        {
+          "price": 2300,
+          "date": "2026-03-28T19:21:10.393Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Custom 24 Charcoal Smokeburst 2017 w/ Tremonti bridge pickup",
+          "url": "https://reverb.com/item/95516114-prs-custom-24-charcoal-smokeburst-2017-w-tremonti-bridge-pickup",
+          "condition": "Very Good"
+        },
+        {
+          "price": 6895,
+          "date": "2026-04-25T03:08:03.691Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Custom 24 electric guitar 1987 - Vintage yellow",
+          "url": "https://reverb.com/item/96374127-prs-custom-24-electric-guitar-1987-vintage-yellow",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 6895,
+          "min": 6895,
+          "max": 6895,
+          "avg": 6895
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 4399,
+          "min": 4399,
+          "max": 4399,
+          "avg": 4399
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 2300,
+          "min": 2300,
+          "max": 2300,
+          "avg": 2300
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2300,
+        "min": 2300,
+        "max": 2300,
+        "prices": [
+          {
+            "price": 2300,
+            "askingPrice": 2300,
+            "date": "2026-03-29T18:37:45.112Z",
+            "title": "PRS Custom 24 Charcoal Smokeburst 2017 w/ Tremonti bridge pickup",
+            "url": "https://reverb.com/item/95516114-prs-custom-24-charcoal-smokeburst-2017-w-tremonti-bridge-pickup"
+          }
+        ]
+      },
+      "avg": 4531,
+      "trends": {}
+    },
     "burny-eb-95x-heathx-model-signature": {
       "displayName": "1995 Burny EB-95X Heath/X JAPAN signature model (BC Rich Eagle)",
       "brand": "Burny",
@@ -273,9 +352,9 @@
       },
       "avg": 1220
     },
-    "offset": {
+    "levinson-blade-offset": {
       "displayName": "1991 Levinson Blade MG-2 Offset Electric Guitar Trans Black w/ Active EQ/Boost, Japan",
-      "brand": null,
+      "brand": "Levinson Blade",
       "model": "Offset",
       "variant": null,
       "count": 1,
@@ -545,25 +624,16 @@
       },
       "avg": 1200
     },
-    "stratocaster": {
+    "markott-stratocaster": {
       "displayName": "Markott Carved top Super Strat Black & Gold",
-      "brand": null,
+      "brand": "Markott",
       "model": "Stratocaster",
       "variant": null,
-      "count": 2,
-      "sum": 3583,
-      "min": 1600,
+      "count": 1,
+      "sum": 1983,
+      "min": 1983,
       "max": 1983,
       "sightings": [
-        {
-          "price": 1600,
-          "date": "2026-04-24T04:31:49.641Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1992 PGM Moon ST-225B S-Style Superstrat Ash & Ebony w/ Lacquer Finish, Bartolini, Case & Tags",
-          "url": "https://reverb.com/item/96322577",
-          "condition": "Excellent"
-        },
         {
           "price": 1983,
           "date": "2026-04-24T20:29:07.129Z",
@@ -581,13 +651,6 @@
           "min": 1983,
           "max": 1983,
           "avg": 1983
-        },
-        "Excellent": {
-          "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
         }
       },
       "soldData": {
@@ -605,7 +668,7 @@
           }
         ]
       },
-      "avg": 1792
+      "avg": 1983
     },
     "prs-standard-satin": {
       "displayName": "PRS Standard 24 Satin in Frost Blue Metallic",
@@ -1021,6 +1084,37 @@
         }
       },
       "avg": 1595
+    },
+    "pgm-moon-stratocaster": {
+      "displayName": "1992 PGM Moon ST-225B S-Style Superstrat Ash & Ebony w/ Lacquer Finish, Bartolini, Case & Tags",
+      "brand": "PGM Moon",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 1,
+      "sum": 1600,
+      "min": 1600,
+      "max": 1600,
+      "sightings": [
+        {
+          "price": 1600,
+          "date": "2026-04-24T04:31:49.641Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1992 PGM Moon ST-225B S-Style Superstrat Ash & Ebony w/ Lacquer Finish, Bartolini, Case & Tags",
+          "url": "https://reverb.com/item/96322577",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1600,
+          "min": 1600,
+          "max": 1600,
+          "avg": 1600
+        }
+      },
+      "avg": 1600
     },
     "yamaha-original-mij": {
       "displayName": "Yamaha SG-1000 c 1980 - Pepto Pink original vintage MIJ Japan custom color",
@@ -2034,9 +2128,9 @@
       },
       "avg": 2895
     },
-    "telecaster": {
+    "luxxtone-telecaster": {
       "displayName": "Luxxtone Tele",
-      "brand": null,
+      "brand": "Luxxtone",
       "model": "Telecaster",
       "variant": null,
       "count": 1,
@@ -2226,9 +2320,9 @@
       },
       "avg": 297
     },
-    "gsb019": {
+    "saito-gsb019": {
       "displayName": "SAITO GUITARS S-622CST 2023 - Nacho ≒3.32kg [Made in Japan][GSB019]",
-      "brand": null,
+      "brand": "SAITO",
       "model": "GSB019",
       "variant": null,
       "count": 1,
@@ -3235,9 +3329,9 @@
       },
       "avg": 2850
     },
-    "original": {
+    "robin-original": {
       "displayName": "1985 Robin Wedge CUSTOM Electric Guitar RARE-Set-Neck White Pearl Original & CLEAN!",
-      "brand": null,
+      "brand": "Robin",
       "model": "Original",
       "variant": null,
       "count": 1,
@@ -3267,7 +3361,7 @@
       "avg": 2200
     },
     "robin-wedge-1980s-abstract": {
-      "displayName": "Robin Wedge 1980s Abstract",
+      "displayName": "Robin Wedge 1980s - Custom Abstract Airbrush Finish, Employee build , about Mint W Kahler and HSC!",
       "brand": "Robin",
       "model": "Wedge 1980s Abstract",
       "variant": null,
@@ -3279,7 +3373,6 @@
         {
           "price": 2500,
           "date": "2026-04-21T17:00:42.640Z",
-          "year": null,
           "modelYear": null,
           "isReissue": false,
           "title": "Robin Wedge 1980s - Custom Abstract Airbrush Finish, Employee build , about Mint W Kahler and HSC!",
@@ -5537,52 +5630,6 @@
       },
       "avg": 5250
     },
-    "hallmark-rg-limited-edition": {
-      "displayName": "Hallmark Barris Krest Limited Edition Prototype-Autographed by George Barris",
-      "brand": "Hallmark",
-      "model": "RG",
-      "variant": "Limited Edition",
-      "count": 1,
-      "sum": 2495,
-      "min": 2495,
-      "max": 2495,
-      "sightings": [
-        {
-          "price": 2495,
-          "date": "2026-04-18T13:39:21.504Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Hallmark Barris Krest Limited Edition Prototype-Autographed by George Barris",
-          "url": "https://reverb.com/item/95880778-hallmark-barris-krest-limited-edition-prototype-autographed-by-george-barris",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2495,
-          "min": 2495,
-          "max": 2495,
-          "avg": 2495
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2495,
-        "min": 2495,
-        "max": 2495,
-        "prices": [
-          {
-            "price": 2495,
-            "askingPrice": 2495,
-            "date": "2026-04-19T15:37:57.038Z",
-            "title": "Hallmark Barris Krest Limited Edition Prototype-Autographed by George Barris",
-            "url": "https://reverb.com/item/95880778-hallmark-barris-krest-limited-edition-prototype-autographed-by-george-barris"
-          }
-        ]
-      },
-      "avg": 2495
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -6447,68 +6494,6 @@
         }
       },
       "avg": 7999
-    },
-    "prs-custom-24": {
-      "displayName": "PRS Custom 24 1990 - Tiger's Eye burst",
-      "brand": "PRS",
-      "model": "Custom 24",
-      "variant": null,
-      "count": 2,
-      "sum": 6699,
-      "min": 2300,
-      "max": 4399,
-      "sightings": [
-        {
-          "price": 4399,
-          "date": "2026-03-27T15:53:06.714Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Custom 24 1990 - Tiger's Eye burst",
-          "url": "https://reverb.com/item/95436813-prs-custom-24-1990-tiger-s-eye-burst",
-          "condition": "Excellent"
-        },
-        {
-          "price": 2300,
-          "date": "2026-03-28T19:21:10.393Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Custom 24 Charcoal Smokeburst 2017 w/ Tremonti bridge pickup",
-          "url": "https://reverb.com/item/95516114-prs-custom-24-charcoal-smokeburst-2017-w-tremonti-bridge-pickup",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4399,
-          "min": 4399,
-          "max": 4399,
-          "avg": 4399
-        },
-        "Very Good": {
-          "count": 1,
-          "sum": 2300,
-          "min": 2300,
-          "max": 2300,
-          "avg": 2300
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2300,
-        "min": 2300,
-        "max": 2300,
-        "prices": [
-          {
-            "price": 2300,
-            "askingPrice": 2300,
-            "date": "2026-03-29T18:37:45.112Z",
-            "title": "PRS Custom 24 Charcoal Smokeburst 2017 w/ Tremonti bridge pickup",
-            "url": "https://reverb.com/item/95516114-prs-custom-24-charcoal-smokeburst-2017-w-tremonti-bridge-pickup"
-          }
-        ]
-      },
-      "avg": 3350
     },
     "warmoth-mcmahon-artistry-diamondback": {
       "displayName": "Warmoth McMAHON Artistry Diamondback",
@@ -9759,6 +9744,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 49,
+      "sum": 135165.95,
+      "sold": {
+        "count": 7,
+        "sum": 13955.48,
+        "avg": 1994,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2758,
+      "min": 70,
+      "max": 15995
+    },
     "Very Good": {
       "count": 75,
       "sum": 200394.55999999994,
@@ -9773,31 +9772,17 @@
       "min": 33,
       "max": 15500
     },
-    "Good": {
-      "count": 48,
-      "sum": 128270.95,
-      "sold": {
-        "count": 7,
-        "sum": 13955.48,
-        "avg": 1994,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2672,
-      "min": 70,
-      "max": 15995
-    },
     "Excellent": {
-      "count": 109,
-      "sum": 379714.73,
+      "count": 108,
+      "sum": 377219.73,
       "sold": {
-        "count": 35,
-        "sum": 126432.87,
-        "avg": 3612,
+        "count": 34,
+        "sum": 123937.87,
+        "avg": 3645,
         "min": 275,
         "max": 35900
       },
-      "avg": 3484,
+      "avg": 3493,
       "min": 190,
       "max": 35900
     },
@@ -9877,7 +9862,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2985,
+      "avg": 3011,
       "count": 173
     },
     "03": {
@@ -10032,21 +10017,26 @@
     "0-500": 14,
     "500-1k": 22,
     "1k-2k": 87,
-    "2k-3k": 74,
+    "2k-3k": 73,
     "3k-5k": 62,
-    "5k-10k": 36,
+    "5k-10k": 37,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 22,
     "1k-2k": 87,
-    "2k-3k": 74,
+    "2k-3k": 73,
     "3k-5k": 62,
-    "5k-10k": 34,
+    "5k-10k": 35,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 237,
+      "count": 18,
+      "avg": 13
+    },
     "Burny": {
       "sum": 0,
       "count": 1,
@@ -10081,11 +10071,6 @@
       "sum": 91,
       "count": 6,
       "avg": 15
-    },
-    "PRS": {
-      "sum": 237,
-      "count": 17,
-      "avg": 14
     },
     "Dean Zelinsky": {
       "sum": 0,
@@ -10322,11 +10307,6 @@
       "count": 2,
       "avg": 17
     },
-    "Hallmark": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 27,
       "count": 1,
@@ -10418,9 +10398,9 @@
       "avg": 26
     },
     "Millimetric": {
-      "sum": 50,
+      "sum": 51,
       "count": 2,
-      "avg": 25
+      "avg": 26
     },
     "Gretsch": {
       "sum": 25,
@@ -10454,14 +10434,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 2,
+    "2026-04-25": 3,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 32,
+    "2026-04-18": 31,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 7,
@@ -10477,7 +10457,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 92
+      "count": 91
     },
     {
       "username": "greg1213",
@@ -10519,7 +10499,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 33
+      "count": 32
     },
     {
       "username": "Shteefe",
@@ -10560,7 +10540,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2985,
+    "avg": 3011,
     "pctBelowAvg": 18,
     "count": 173
   },
@@ -10579,10 +10559,10 @@
       "count": 33
     },
     "PRS": {
-      "avgPrice": 3105,
+      "avgPrice": 3295,
       "retailEst": 1000,
-      "avgDiscount": -210.5,
-      "count": 19
+      "avgDiscount": -229.5,
+      "count": 20
     },
     "Ibanez": {
       "avgPrice": 2747,
@@ -10604,17 +10584,17 @@
     }
   },
   "soldPrices": {
-    "count": 78,
-    "avg": 3156,
+    "count": 77,
+    "avg": 3164,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 736.1999999999999,
-      "count": 76,
-      "avgDays": 9.7
+      "totalDays": 735.0999999999999,
+      "count": 75,
+      "avgDays": 9.8
     },
     "byModel": {
       "bc-rich-nj-series-80-90s": {
@@ -10625,7 +10605,7 @@
         "slowest": 0.4,
         "avgDays": 0.4
       },
-      "telecaster": {
+      "luxxtone-telecaster": {
         "displayName": "Luxxtone Tele",
         "totalDays": 1.7,
         "count": 1,
@@ -10832,14 +10812,6 @@
         "fastest": 0.1,
         "slowest": 0.1,
         "avgDays": 0.1
-      },
-      "hallmark-rg-limited-edition": {
-        "displayName": "Hallmark Barris Krest Limited Edition Prototype-Autographed by George Barris",
-        "totalDays": 1.1,
-        "count": 1,
-        "fastest": 1.1,
-        "slowest": 1.1,
-        "avgDays": 1.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11297,13 +11269,6 @@
         "slowest": 1.1,
         "avgDays": 1.1
       },
-      "Hallmark": {
-        "totalDays": 1.1,
-        "count": 1,
-        "fastest": 1.1,
-        "slowest": 1.1,
-        "avgDays": 1.1
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -11563,13 +11528,21 @@
   "sellThrough": {
     "overall": {
       "total": 290,
-      "sold": 74,
+      "sold": 73,
       "fake": 0,
-      "live": 216,
-      "soldPct": 26,
-      "livePct": 74
+      "live": 217,
+      "soldPct": 25,
+      "livePct": 75
     },
     "byBrand": {
+      "PRS": {
+        "total": 20,
+        "sold": 7,
+        "fake": 0,
+        "live": 13,
+        "soldPct": 35,
+        "livePct": 65
+      },
       "Burny": {
         "total": 1,
         "sold": 0,
@@ -11625,14 +11598,6 @@
         "live": 5,
         "soldPct": 17,
         "livePct": 83
-      },
-      "PRS": {
-        "total": 19,
-        "sold": 7,
-        "fake": 0,
-        "live": 12,
-        "soldPct": 37,
-        "livePct": 63
       },
       "Dean Zelinsky": {
         "total": 1,
@@ -12058,14 +12023,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Hallmark": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12288,9 +12245,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 74,
-        "sold": 23,
-        "rate": 31
+        "total": 73,
+        "sold": 22,
+        "rate": 30
       },
       {
         "label": "$3k–5k",
@@ -12300,9 +12257,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 36,
+        "total": 37,
         "sold": 6,
-        "rate": 17
+        "rate": 16
       },
       {
         "label": "$10k+",
@@ -12312,20 +12269,20 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 49,
+        "sold": 8,
+        "rate": 16
+      },
       "Very Good": {
         "total": 75,
         "sold": 21,
         "rate": 28
       },
-      "Good": {
-        "total": 48,
-        "sold": 8,
-        "rate": 17
-      },
       "Excellent": {
-        "total": 109,
-        "sold": 36,
-        "rate": 33
+        "total": 108,
+        "sold": 35,
+        "rate": 32
       },
       "Used": {
         "total": 28,
@@ -12468,6 +12425,20 @@
       }
     ],
     "overpriced": [
+      {
+        "title": "PRS Custom 24 electric guitar 1987 - Vintage yellow",
+        "url": "https://reverb.com/item/96374127-prs-custom-24-electric-guitar-1987-vintage-yellow",
+        "price": "$6,895",
+        "priceNum": 6895,
+        "brand": "PRS",
+        "condition": "Good",
+        "watchers": 7,
+        "views": 52,
+        "daysListed": 0,
+        "image": "https://rvb-img.reverb.com/i/s--6er7adZc--/quality=medium-low,height=800,width=800,fit=contain/d844689a-4618-4ef8-9a3e-6f9adf185b25.jpg",
+        "modelAvg": 4531,
+        "pctVsAvg": 52
+      },
       {
         "title": "Gibson Melody Maker D Single Cut 1961 - Sunburst",
         "url": "https://reverb.com/item/96211532-gibson-melody-maker-d-single-cut-1961-sunburst",
@@ -12918,6 +12889,24 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 12,
+      "sum": 39990.17,
+      "avg": 3333,
+      "min": 1500,
+      "max": 6895,
+      "sold": 6,
+      "soldSum": 15997.17,
+      "soldAvg": 2666,
+      "live": 6,
+      "sellRate": 50,
+      "totalDays": 116.6,
+      "soldCount": 6,
+      "avgDaysToSell": 19.4
+    },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
@@ -12988,24 +12977,6 @@
       "totalDays": 26.2,
       "soldCount": 1,
       "avgDaysToSell": 26.2
-    },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 11,
-      "sum": 33095.17,
-      "avg": 3009,
-      "min": 1500,
-      "max": 4548.17,
-      "sold": 6,
-      "soldSum": 15997.17,
-      "soldAvg": 2666,
-      "live": 5,
-      "sellRate": 55,
-      "totalDays": 116.6,
-      "soldCount": 6,
-      "avgDaysToSell": 19.4
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13881,11 +13852,11 @@
     "withOffers": 73,
     "totalOffers": 156,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 65
+    "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 105
+    "avgShippingCost": 106
   },
   "watcherDemand": [
     {
@@ -13903,8 +13874,8 @@
     {
       "label": "6–15",
       "total": 60,
-      "sold": 14,
-      "rate": 23
+      "sold": 13,
+      "rate": 22
     },
     {
       "label": "16–30",
@@ -13921,26 +13892,26 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 168,
+      "total": 169,
       "sold": 46,
       "rate": 27
     },
     "off": {
-      "total": 48,
-      "sold": 13,
-      "rate": 27
+      "total": 47,
+      "sold": 12,
+      "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 109,
+      "total": 110,
       "sold": 18,
-      "rate": 17
+      "rate": 16
     },
     "regular": {
-      "total": 94,
-      "sold": 32,
-      "rate": 34
+      "total": 93,
+      "sold": 31,
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -13969,6 +13940,12 @@
       "rate": 25
     },
     {
+      "state": "IL",
+      "total": 10,
+      "sold": 1,
+      "rate": 10
+    },
+    {
       "state": "NY",
       "total": 10,
       "sold": 1,
@@ -13979,12 +13956,6 @@
       "total": 10,
       "sold": 4,
       "rate": 40
-    },
-    {
-      "state": "IL",
-      "total": 9,
-      "sold": 1,
-      "rate": 11
     },
     {
       "state": "OR",
@@ -14063,12 +14034,6 @@
       "total": 3,
       "sold": 1,
       "rate": 33
-    },
-    {
-      "state": "IA",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
     },
     {
       "state": "TOKYO",
