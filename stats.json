@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T19:25:12.862Z",
+  "generatedAt": "2026-04-25T19:32:15.692Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1098454.22,
-    "avg": 3637,
+    "sum": 1094649.23,
+    "avg": 3625,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 292,
-    "sum": 791924.23,
-    "avg": 2712,
+    "sum": 788119.24,
+    "avg": 2699,
     "min": 33,
     "max": 8499,
-    "median": 2297
+    "median": 2290
   },
   "outliers": {
-    "thresholdHigh": 8699,
+    "thresholdHigh": 8687,
     "thresholdLow": 0,
     "count": 10,
     "items": [
@@ -109,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 507361.87,
+      "sum": 503556.88,
       "min": 70,
       "max": 15500,
-      "avg": 2950
+      "avg": 2928
     },
     "2026-03": {
       "count": 130,
@@ -125,10 +125,10 @@
   "byCategory": {
     "marketplace": {
       "count": 42,
-      "sum": 309972.86,
+      "sum": 306167.87,
       "min": 143.99,
       "max": 99000,
-      "avg": 7380
+      "avg": 7290
     },
     "reverb": {
       "count": 260,
@@ -140,11 +140,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 21,
-      "sum": 240091.99,
+      "count": 22,
+      "sum": 241286.99,
       "min": 350,
       "max": 99000,
-      "avg": 11433
+      "avg": 10968
     },
     "reverb.com": {
       "count": 260,
@@ -182,11 +182,11 @@
       "avg": 6000
     },
     "tapestrymusic.com": {
-      "count": 2,
-      "sum": 15494.99,
-      "min": 4999.99,
+      "count": 1,
+      "sum": 10495,
+      "min": 10495,
       "max": 10495,
-      "avg": 7747
+      "avg": 10495
     },
     "wildwoodguitars.com": {
       "count": 1,
@@ -211,6 +211,37 @@
     }
   },
   "byModel": {
+    "eastman-sb55dcv": {
+      "displayName": "Eastman SB55DC/V Cherry",
+      "brand": "Eastman",
+      "model": "SB55DC/V",
+      "variant": null,
+      "count": 1,
+      "sum": 1195,
+      "min": 1195,
+      "max": 1195,
+      "sightings": [
+        {
+          "price": 1195,
+          "date": "2026-04-25T19:32:00.834Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB55DC/V Cherry",
+          "url": "https://www.chicagomusicexchange.com/products/eastman-sb55dcv-cherry-2502014",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1195,
+          "min": 1195,
+          "max": 1195,
+          "avg": 1195
+        }
+      },
+      "avg": 1195
+    },
     "fender-jazzmaster": {
       "displayName": "Fender Jazzmaster Candy Apple Red 1966",
       "brand": "Fender",
@@ -1565,20 +1596,11 @@
       "brand": "Gibson",
       "model": "Les Paul",
       "variant": null,
-      "count": 2,
-      "sum": 6999.99,
+      "count": 1,
+      "sum": 2000,
       "min": 2000,
-      "max": 4999.99,
+      "max": 2000,
       "sightings": [
-        {
-          "price": 4999.99,
-          "date": "2026-04-18T16:49:39.014Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul LP-295 Guitar of the Month USED | Tapestry Music",
-          "url": "https://www.tapestrymusic.com/p-25061-gibson-les-paul-lp-295-guitar-of-the-month-used.aspx",
-          "condition": null
-        },
         {
           "price": 2000,
           "date": "2026-04-24T03:54:51.798Z",
@@ -1596,31 +1618,9 @@
           "min": 2000,
           "max": 2000,
           "avg": 2000
-        },
-        "Unknown": {
-          "count": 1,
-          "sum": 4999.99,
-          "min": 4999.99,
-          "max": 4999.99,
-          "avg": 5000
         }
       },
-      "soldData": {
-        "count": 1,
-        "avg": 5000,
-        "min": 4999.99,
-        "max": 4999.99,
-        "prices": [
-          {
-            "price": 4999.99,
-            "askingPrice": 4999.99,
-            "date": "2026-04-18T18:42:01.091Z",
-            "title": "Gibson Les Paul LP-295 Guitar of the Month USED | Tapestry Music",
-            "url": "https://www.tapestrymusic.com/p-25061-gibson-les-paul-lp-295-guitar-of-the-month-used.aspx"
-          }
-        ]
-      },
-      "avg": 3500
+      "avg": 2000
     },
     "rick-toone-spearfish-blueprint-blueprint": {
       "displayName": "Rick Toone Spearfish \"Blueprint\" 2025 - Custom Blueprint Stain",
@@ -9733,6 +9733,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 25,
+      "sum": 150490.88999999998,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 6020,
+      "min": 143.99,
+      "max": 99000
+    },
     "Good": {
       "count": 47,
       "sum": 119355.95,
@@ -9774,17 +9785,6 @@
       "avg": 4263,
       "min": 135,
       "max": 14670
-    },
-    "Used": {
-      "count": 24,
-      "sum": 149295.88999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 6221,
-      "min": 143.99,
-      "max": 99000
     },
     "Excellent": {
       "count": 108,
@@ -9851,7 +9851,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2950,
+      "avg": 2928,
       "count": 172
     },
     "03": {
@@ -10005,22 +10005,27 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 85,
+    "1k-2k": 86,
     "2k-3k": 75,
-    "3k-5k": 63,
+    "3k-5k": 62,
     "5k-10k": 34,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 85,
+    "1k-2k": 86,
     "2k-3k": 75,
-    "3k-5k": 63,
+    "3k-5k": 62,
     "5k-10k": 32,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Eastman": {
+      "sum": 66,
+      "count": 5,
+      "avg": 13
+    },
     "Fender": {
       "sum": 240,
       "count": 21,
@@ -10037,9 +10042,9 @@
       "avg": 23
     },
     "Gibson": {
-      "sum": 508,
-      "count": 31,
-      "avg": 16
+      "sum": 501,
+      "count": 30,
+      "avg": 17
     },
     "Kiesel": {
       "sum": 267,
@@ -10125,11 +10130,6 @@
       "sum": 30,
       "count": 2,
       "avg": 15
-    },
-    "Eastman": {
-      "sum": 66,
-      "count": 4,
-      "avg": 17
     },
     "Vintage": {
       "sum": 107,
@@ -10428,14 +10428,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 13,
+    "2026-04-25": 14,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 20,
+    "2026-04-18": 19,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 6,
@@ -10447,7 +10447,7 @@
     "marketplace": 47,
     "reverb": 260
   },
-  "activeModelsCount": 261,
+  "activeModelsCount": 262,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10466,12 +10466,12 @@
       "count": 27
     },
     {
-      "username": "jazee_",
+      "username": "Madero",
       "count": 21
     },
     {
-      "username": "Madero",
-      "count": 21
+      "username": "jazee_",
+      "count": 20
     },
     {
       "username": "scottcorgan",
@@ -10479,7 +10479,7 @@
     },
     {
       "username": "Modean",
-      "count": 13
+      "count": 14
     },
     {
       "username": "WontonGG",
@@ -10521,7 +10521,7 @@
     },
     {
       "username": "jazee_",
-      "count": 3
+      "count": 2
     },
     {
       "username": "David Hume",
@@ -10534,7 +10534,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2950,
+    "avg": 2928,
     "pctBelowAvg": 19,
     "count": 172
   },
@@ -10547,10 +10547,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 3338,
+      "avgPrice": 3285,
       "retailEst": 800,
-      "avgDiscount": -317.3,
-      "count": 32
+      "avgDiscount": -310.6,
+      "count": 31
     },
     "PRS": {
       "avgPrice": 3316,
@@ -10584,17 +10584,17 @@
     }
   },
   "soldPrices": {
-    "count": 79,
-    "avg": 3156,
+    "count": 78,
+    "avg": 3132,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 751.5999999999999,
-      "count": 77,
-      "avgDays": 9.8
+      "totalDays": 751.4999999999999,
+      "count": 76,
+      "avgDays": 9.9
     },
     "byModel": {
       "gibson-sg-custom-custom-shop-limited-edition": {
@@ -10828,14 +10828,6 @@
         "fastest": 1.1,
         "slowest": 1.1,
         "avgDays": 1.1
-      },
-      "gibson-les-paul": {
-        "displayName": "Gibson Les Paul LP-295 Guitar of the Month USED | Tapestry Music",
-        "totalDays": 0.1,
-        "count": 1,
-        "fastest": 0.1,
-        "slowest": 0.1,
-        "avgDays": 0.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11168,11 +11160,11 @@
     },
     "byBrand": {
       "Gibson": {
-        "totalDays": 25.6,
-        "count": 7,
+        "totalDays": 25.5,
+        "count": 6,
         "fastest": 0.1,
         "slowest": 18.3,
-        "avgDays": 3.7
+        "avgDays": 4.3
       },
       "BC Rich": {
         "totalDays": 4.7,
@@ -11557,13 +11549,21 @@
   "sellThrough": {
     "overall": {
       "total": 287,
-      "sold": 75,
+      "sold": 74,
       "fake": 0,
-      "live": 212,
+      "live": 213,
       "soldPct": 26,
       "livePct": 74
     },
     "byBrand": {
+      "Eastman": {
+        "total": 5,
+        "sold": 2,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 40,
+        "livePct": 60
+      },
       "Fender": {
         "total": 28,
         "sold": 7,
@@ -11589,12 +11589,12 @@
         "livePct": 80
       },
       "Gibson": {
-        "total": 34,
-        "sold": 7,
+        "total": 33,
+        "sold": 6,
         "fake": 0,
         "live": 27,
-        "soldPct": 21,
-        "livePct": 79
+        "soldPct": 18,
+        "livePct": 82
       },
       "Kiesel": {
         "total": 13,
@@ -11745,14 +11745,6 @@
         "sold": 1,
         "fake": 0,
         "live": 1,
-        "soldPct": 50,
-        "livePct": 50
-      },
-      "Eastman": {
-        "total": 4,
-        "sold": 2,
-        "fake": 0,
-        "live": 2,
         "soldPct": 50,
         "livePct": 50
       },
@@ -12276,7 +12268,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 85,
+        "total": 86,
         "sold": 23,
         "rate": 27
       },
@@ -12288,9 +12280,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 63,
-        "sold": 17,
-        "rate": 27
+        "total": 62,
+        "sold": 16,
+        "rate": 26
       },
       {
         "label": "$5k–10k",
@@ -12306,6 +12298,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 25,
+        "sold": 5,
+        "rate": 20
+      },
       "Good": {
         "total": 47,
         "sold": 7,
@@ -12320,11 +12317,6 @@
         "total": 26,
         "sold": 4,
         "rate": 15
-      },
-      "Used": {
-        "total": 24,
-        "sold": 5,
-        "rate": 21
       },
       "Excellent": {
         "total": 108,
@@ -12903,18 +12895,18 @@
         "sold": 4
       },
       {
-        "brand": "Eastman",
-        "avgPrice": 1453,
-        "sellRate": 50,
-        "count": 4,
-        "sold": 2
-      },
-      {
         "brand": "Kiesel",
         "avgPrice": 1510,
         "sellRate": 46,
         "count": 13,
         "sold": 6
+      },
+      {
+        "brand": "Eastman",
+        "avgPrice": 1402,
+        "sellRate": 40,
+        "count": 5,
+        "sold": 2
       },
       {
         "brand": "Epiphone",
@@ -12926,6 +12918,24 @@
     ]
   },
   "byBrandLine": {
+    "Eastman|Eastman": {
+      "brand": "Eastman",
+      "brandLine": "Eastman",
+      "tier": "mid",
+      "count": 5,
+      "sum": 7008,
+      "avg": 1402,
+      "min": 1195,
+      "max": 1663,
+      "sold": 2,
+      "soldSum": 2850,
+      "soldAvg": 1425,
+      "live": 3,
+      "sellRate": 40,
+      "totalDays": 32.300000000000004,
+      "soldCount": 2,
+      "avgDaysToSell": 16.2
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -13125,19 +13135,19 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 26,
-      "sum": 76051.98999999999,
-      "avg": 2925,
+      "count": 25,
+      "sum": 71052,
+      "avg": 2842,
       "min": 135,
       "max": 7900,
-      "sold": 4,
-      "soldSum": 16399.989999999998,
-      "soldAvg": 4100,
+      "sold": 3,
+      "soldSum": 11400,
+      "soldAvg": 3800,
       "live": 22,
-      "sellRate": 15,
-      "totalDays": 53.9,
-      "soldCount": 4,
-      "avgDaysToSell": 13.5
+      "sellRate": 12,
+      "totalDays": 46.8,
+      "soldCount": 3,
+      "avgDaysToSell": 15.6
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13276,24 +13286,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Eastman|Eastman": {
-      "brand": "Eastman",
-      "brandLine": "Eastman",
-      "tier": "mid",
-      "count": 4,
-      "sum": 5813,
-      "avg": 1453,
-      "min": 1250,
-      "max": 1663,
-      "sold": 2,
-      "soldSum": 2850,
-      "soldAvg": 1425,
-      "live": 2,
-      "sellRate": 50,
-      "totalDays": 32.300000000000004,
-      "soldCount": 2,
-      "avgDaysToSell": 16.2
-    },
     "PRS|PRS CE": {
       "brand": "PRS",
       "brandLine": "PRS CE",
@@ -13377,7 +13369,7 @@
       "soldAvg": 3107,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 79.8,
+      "totalDays": 79.9,
       "soldCount": 4,
       "avgDaysToSell": 20
     },
@@ -13413,9 +13405,9 @@
       "soldAvg": 8499,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 2.9,
+      "totalDays": 3,
       "soldCount": 1,
-      "avgDaysToSell": 2.9
+      "avgDaysToSell": 3
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
