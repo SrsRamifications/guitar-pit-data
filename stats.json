@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T16:12:08.236Z",
+  "generatedAt": "2026-04-25T16:53:36.011Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1080575.19,
-    "avg": 3578,
+    "sum": 1080250.19,
+    "avg": 3577,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 291,
-    "sum": 768721.2,
-    "avg": 2642,
+    "sum": 768396.2,
+    "avg": 2641,
     "min": 33,
     "max": 7999,
     "median": 2250
@@ -117,10 +117,10 @@
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 489482.84,
+      "sum": 489157.84,
       "min": 70,
       "max": 15500,
-      "avg": 2846
+      "avg": 2844
     },
     "2026-03": {
       "count": 130,
@@ -133,10 +133,10 @@
   "byCategory": {
     "marketplace": {
       "count": 43,
-      "sum": 293023.83,
+      "sum": 292698.83,
       "min": 143.99,
       "max": 99000,
-      "avg": 6815
+      "avg": 6807
     },
     "reverb": {
       "count": 259,
@@ -149,10 +149,10 @@
   "byDomain": {
     "guitarcenter.com": {
       "count": 17,
-      "sum": 30989.85,
+      "sum": 30664.85,
       "min": 143.99,
       "max": 4999.99,
-      "avg": 1823
+      "avg": 1804
     },
     "reverb.com": {
       "count": 259,
@@ -219,6 +219,37 @@
     }
   },
   "byModel": {
+    "kiesel-solo": {
+      "displayName": "Used Kiesel Solo 6  Trans Amber Solid Body Electric Guitar Trans Amber",
+      "brand": "Kiesel",
+      "model": "Solo",
+      "variant": null,
+      "count": 1,
+      "sum": 1574.99,
+      "min": 1574.99,
+      "max": 1574.99,
+      "sightings": [
+        {
+          "price": 1574.99,
+          "date": "2026-04-25T16:53:19.965Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Kiesel Solo 6  Trans Amber Solid Body Electric Guitar Trans Amber",
+          "url": "https://www.guitarcenter.com/Used/Kiesel/Used-Kiesel-Solo-6-Trans-Amber-Solid-Body-Electric-Guitar-122153649.gc?algoliaQueryID=3fb9ea8d5e2e7535fe41551abf127a4c&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1574.99,
+          "min": 1574.99,
+          "max": 1574.99,
+          "avg": 1575
+        }
+      },
+      "avg": 1575
+    },
     "kiesel-osiris-solid-body": {
       "displayName": "Used Kiesel Osiris 6 Blue Solid Body Electric Guitar Blue",
       "brand": "Kiesel",
@@ -5566,37 +5597,6 @@
       },
       "avg": 1300
     },
-    "rickenbacker-tapia-bajo-quinto": {
-      "displayName": "Used Tapia Bajo Quinto Black Acoustic Electric Guitar Black",
-      "brand": "Rickenbacker",
-      "model": "Tapia Bajo Quinto",
-      "variant": null,
-      "count": 1,
-      "sum": 1899.99,
-      "min": 1899.99,
-      "max": 1899.99,
-      "sightings": [
-        {
-          "price": 1899.99,
-          "date": "2026-04-18T15:21:06.600Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Tapia Bajo Quinto Black Acoustic Electric Guitar Black",
-          "url": "https://www.guitarcenter.com/Used/Tapia/Used-Tapia-Bajo-Quinto-Black-Acoustic-Electric-Guitar.gc?algoliaQueryID=deb05cb767442d43c365af1aa827f160&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1899.99,
-          "min": 1899.99,
-          "max": 1899.99,
-          "avg": 1900
-        }
-      },
-      "avg": 1900
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9713,12 +9713,12 @@
   "byCondition": {
     "Used": {
       "count": 28,
-      "sum": 156820.84999999998,
+      "sum": 156495.84999999998,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 5601,
+      "avg": 5589,
       "min": 143.99,
       "max": 99000
     },
@@ -9829,7 +9829,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2846,
+      "avg": 2844,
       "count": 172
     },
     "03": {
@@ -10001,8 +10001,8 @@
   "daysOnMarket": {
     "Kiesel": {
       "sum": 267,
-      "count": 11,
-      "avg": 24
+      "count": 12,
+      "avg": 22
     },
     "Caparison": {
       "sum": 15,
@@ -10030,7 +10030,7 @@
       "avg": 1
     },
     "Fender": {
-      "sum": 246,
+      "sum": 247,
       "count": 21,
       "avg": 12
     },
@@ -10100,7 +10100,7 @@
       "avg": 17
     },
     "Vintage": {
-      "sum": 113,
+      "sum": 114,
       "count": 7,
       "avg": 16
     },
@@ -10115,9 +10115,9 @@
       "avg": 16
     },
     "Positive Grid": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Kemper": {
       "sum": 25,
@@ -10155,17 +10155,17 @@
       "avg": 22
     },
     "Marshall": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Rickenbacker": {
-      "sum": 25,
-      "count": 4,
+      "sum": 18,
+      "count": 3,
       "avg": 6
     },
     "Jackson": {
-      "sum": 232,
+      "sum": 234,
       "count": 9,
       "avg": 26
     },
@@ -10290,7 +10290,7 @@
       "avg": 28
     },
     "Fender Custom Shop": {
-      "sum": 57,
+      "sum": 58,
       "count": 2,
       "avg": 29
     },
@@ -10401,14 +10401,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 8,
+    "2026-04-25": 9,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 25,
+    "2026-04-18": 24,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 6,
@@ -10507,7 +10507,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2846,
+    "avg": 2844,
     "pctBelowAvg": 20,
     "count": 172
   },
@@ -10538,10 +10538,10 @@
       "count": 19
     },
     "Kiesel": {
-      "avgPrice": 1518,
+      "avgPrice": 1522,
       "retailEst": 1000,
-      "avgDiscount": -51.8,
-      "count": 12
+      "avgDiscount": -52.2,
+      "count": 13
     },
     "BC Rich": {
       "avgPrice": 2621,
@@ -11516,12 +11516,12 @@
     },
     "byBrand": {
       "Kiesel": {
-        "total": 12,
+        "total": 13,
         "sold": 6,
         "fake": 0,
-        "live": 6,
-        "soldPct": 50,
-        "livePct": 50
+        "live": 7,
+        "soldPct": 46,
+        "livePct": 54
       },
       "Caparison": {
         "total": 2,
@@ -11812,10 +11812,10 @@
         "livePct": 100
       },
       "Rickenbacker": {
-        "total": 4,
+        "total": 3,
         "sold": 0,
         "fake": 0,
-        "live": 4,
+        "live": 3,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12307,7 +12307,7 @@
         "condition": "Excellent",
         "watchers": 8,
         "views": 216,
-        "daysListed": 5,
+        "daysListed": 6,
         "image": "https://rvb-img.reverb.com/i/s--qemJmrc9--/quality=medium-low,height=800,width=800,fit=contain/d1c3390c-4ea0-4922-b737-a467c9f815d1.png",
         "modelAvg": 13167,
         "pctVsAvg": -88,
@@ -12542,7 +12542,7 @@
         "condition": "Very Good",
         "watchers": 118,
         "views": 2222,
-        "daysListed": 302,
+        "daysListed": 303,
         "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12642,7 +12642,7 @@
         "condition": "Very Good",
         "watchers": 39,
         "views": 2770,
-        "daysListed": 868,
+        "daysListed": 869,
         "image": "https://rvb-img.reverb.com/i/s--OhyQQjXN--/quality=medium-low,height=800,width=800,fit=contain/yx51sznn1mefawurvpw4.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12796,7 +12796,7 @@
         "condition": "Very Good",
         "watchers": 118,
         "views": 2222,
-        "daysListed": 302,
+        "daysListed": 303,
         "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12846,18 +12846,18 @@
         "sold": 4
       },
       {
-        "brand": "Kiesel",
-        "avgPrice": 1504,
-        "sellRate": 50,
-        "count": 12,
-        "sold": 6
-      },
-      {
         "brand": "Eastman",
         "avgPrice": 1453,
         "sellRate": 50,
         "count": 4,
         "sold": 2
+      },
+      {
+        "brand": "Kiesel",
+        "avgPrice": 1510,
+        "sellRate": 46,
+        "count": 13,
+        "sold": 6
       },
       {
         "brand": "Epiphone",
@@ -12873,17 +12873,17 @@
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
       "tier": "premium",
-      "count": 10,
-      "sum": 15035.99,
-      "avg": 1504,
+      "count": 11,
+      "sum": 16610.98,
+      "avg": 1510,
       "min": 650,
       "max": 2700,
       "sold": 5,
       "soldSum": 7440,
       "soldAvg": 1488,
-      "live": 5,
-      "sellRate": 50,
-      "totalDays": 127.9,
+      "live": 6,
+      "sellRate": 45,
+      "totalDays": 128,
       "soldCount": 5,
       "avgDaysToSell": 25.6
     },
@@ -12918,7 +12918,7 @@
       "soldAvg": 2666,
       "live": 6,
       "sellRate": 50,
-      "totalDays": 119.9,
+      "totalDays": 120,
       "soldCount": 6,
       "avgDaysToSell": 20
     },
@@ -12936,9 +12936,9 @@
       "soldAvg": 2434,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 51,
+      "totalDays": 51.3,
       "soldCount": 3,
-      "avgDaysToSell": 17
+      "avgDaysToSell": 17.1
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -12954,9 +12954,9 @@
       "soldAvg": 1058,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 11.6,
+      "totalDays": 11.7,
       "soldCount": 2,
-      "avgDaysToSell": 5.8
+      "avgDaysToSell": 5.9
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13007,9 +13007,9 @@
       "soldAvg": 4100,
       "live": 22,
       "sellRate": 15,
-      "totalDays": 53.3,
+      "totalDays": 53.5,
       "soldCount": 4,
-      "avgDaysToSell": 13.3
+      "avgDaysToSell": 13.4
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13180,9 +13180,9 @@
       "soldAvg": 1425,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 31.9,
+      "totalDays": 32.1,
       "soldCount": 2,
-      "avgDaysToSell": 16
+      "avgDaysToSell": 16.1
     },
     "PRS|PRS CE": {
       "brand": "PRS",
@@ -13267,9 +13267,9 @@
       "soldAvg": 3528,
       "live": 3,
       "sellRate": 50,
-      "totalDays": 76.6,
+      "totalDays": 76.7,
       "soldCount": 3,
-      "avgDaysToSell": 25.5
+      "avgDaysToSell": 25.6
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13408,9 +13408,9 @@
       "soldAvg": 2200,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 6.9,
+      "totalDays": 7,
       "soldCount": 1,
-      "avgDaysToSell": 6.9
+      "avgDaysToSell": 7
     },
     "K-Line|K-Line": {
       "brand": "K-Line",
@@ -13511,7 +13511,7 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 57.199999999999996,
+      "totalDays": 57.3,
       "soldCount": 3,
       "avgDaysToSell": 19.1
     },
@@ -13529,9 +13529,9 @@
       "soldAvg": 4100,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 58.5,
+      "totalDays": 58.7,
       "soldCount": 2,
-      "avgDaysToSell": 29.3
+      "avgDaysToSell": 29.4
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13806,9 +13806,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 25.8,
+      "totalDays": 25.9,
       "soldCount": 1,
-      "avgDaysToSell": 25.8
+      "avgDaysToSell": 25.9
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13824,9 +13824,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 25.7,
+      "totalDays": 25.8,
       "soldCount": 1,
-      "avgDaysToSell": 25.7
+      "avgDaysToSell": 25.8
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
