@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T16:53:36.011Z",
+  "generatedAt": "2026-04-25T17:48:22.336Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,23 +7,23 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1080250.19,
-    "avg": 3577,
+    "sum": 1085949.2,
+    "avg": 3596,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 291,
-    "sum": 768396.2,
-    "avg": 2641,
+    "count": 293,
+    "sum": 790894.21,
+    "avg": 2699,
     "min": 33,
-    "max": 7999,
-    "median": 2250
+    "max": 8499,
+    "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 8252,
+    "thresholdHigh": 8552,
     "thresholdLow": 0,
-    "count": 11,
+    "count": 9,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -95,32 +95,16 @@
         "image": "https://rvb-img.reverb.com/i/s--8-4992VF--/quality=medium-low,height=800,width=800,fit=contain/61bc17d1-21d5-4951-81b4-6c8a271b4945.png",
         "condition": "Brand New",
         "postedAt": "2026-03-31T00:08:12.185Z"
-      },
-      {
-        "title": "Charvel USA Custom Shop DK 1H FR - Kaotic Resin #PFCG0209",
-        "url": "https://eddiesguitars.com/charvel/charvel-usa-custom-shop-dk-1h-fr-kaotic-resin-pfcg0209",
-        "price": "$8,499",
-        "image": "https://cdn11.bigcommerce.com/s-givyq91jn6/products/31817/images/240706/Charvel_1_PFCG0209-6__47200.1776793890.1280.1280__99168.1776888951.386.513.jpg?c=1",
-        "condition": null,
-        "postedAt": "2026-04-22T20:38:45.709Z"
-      },
-      {
-        "title": "Fodera Imperial Custom",
-        "url": "https://reverb.com/item/95619581-fodera-imperial-custom",
-        "price": "$8,300",
-        "image": "https://rvb-img.reverb.com/i/s--Q1sMg5eq--/quality=medium-low,height=800,width=800,fit=contain/b98304ba-091a-44b3-b535-9c44c54c4de5.jpeg",
-        "condition": "Excellent",
-        "postedAt": "2026-04-24T04:22:51.170Z"
       }
     ]
   },
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 489157.84,
+      "sum": 494856.85,
       "min": 70,
       "max": 15500,
-      "avg": 2844
+      "avg": 2877
     },
     "2026-03": {
       "count": 130,
@@ -133,10 +117,10 @@
   "byCategory": {
     "marketplace": {
       "count": 43,
-      "sum": 292698.83,
+      "sum": 298397.84,
       "min": 143.99,
       "max": 99000,
-      "avg": 6807
+      "avg": 6939
     },
     "reverb": {
       "count": 259,
@@ -147,12 +131,19 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 19,
+      "sum": 222617,
+      "min": 350,
+      "max": 99000,
+      "avg": 11717
+    },
     "guitarcenter.com": {
-      "count": 17,
-      "sum": 30664.85,
+      "count": 16,
+      "sum": 29364.86,
       "min": 143.99,
       "max": 4999.99,
-      "avg": 1804
+      "avg": 1835
     },
     "reverb.com": {
       "count": 259,
@@ -160,13 +151,6 @@
       "min": 33,
       "max": 35900,
       "avg": 3041
-    },
-    "chicagomusicexchange.com": {
-      "count": 18,
-      "sum": 215618,
-      "min": 350,
-      "max": 99000,
-      "avg": 11979
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -219,6 +203,37 @@
     }
   },
   "byModel": {
+    "gibson-sg-custom-custom-shop-limited-edition": {
+      "displayName": "Gibson Custom Shop Limited Edition SG Custom Gloss Walnut w/Koa Top",
+      "brand": "Gibson",
+      "model": "SG Custom",
+      "variant": "Custom Shop Limited Edition",
+      "count": 1,
+      "sum": 6999,
+      "min": 6999,
+      "max": 6999,
+      "sightings": [
+        {
+          "price": 6999,
+          "date": "2026-04-25T17:48:05.919Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop Limited Edition SG Custom Gloss Walnut w/Koa Top",
+          "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-limited-edition-sg-custom-gloss-2523734",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 6999,
+          "min": 6999,
+          "max": 6999,
+          "avg": 6999
+        }
+      },
+      "avg": 6999
+    },
     "kiesel-solo": {
       "displayName": "Used Kiesel Solo 6  Trans Amber Solid Body Electric Guitar Trans Amber",
       "brand": "Kiesel",
@@ -5566,37 +5581,6 @@
       },
       "avg": 1300
     },
-    "vintage-s300": {
-      "displayName": "Vintage S300",
-      "brand": "Vintage",
-      "model": "S300",
-      "variant": null,
-      "count": 1,
-      "sum": 1299.99,
-      "min": 1299.99,
-      "max": 1299.99,
-      "sightings": [
-        {
-          "price": 1299.99,
-          "date": "2026-04-18T15:23:06.871Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Vintage 1977 Guild S300-D Antique Natural Solid Body Electric Guitar Antique Natural",
-          "url": "https://www.guitarcenter.com/Used/Guild/Vintage-Vintage-1977-Guild-S300-D-Antique-Natural-Solid-Body-Electric-Guitar.gc?algoliaQueryID=9f36ff76061323c7bd43dc2447a5fc4c&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1299.99,
-          "min": 1299.99,
-          "max": 1299.99,
-          "avg": 1300
-        }
-      },
-      "avg": 1300
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9711,14 +9695,28 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 25,
+      "sum": 104834.12,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4193,
+      "min": 135,
+      "max": 14670
+    },
     "Used": {
-      "count": 28,
-      "sum": 156495.84999999998,
+      "count": 27,
+      "sum": 155195.86,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 5589,
+      "avg": 5748,
       "min": 143.99,
       "max": 99000
     },
@@ -9746,20 +9744,6 @@
       "avg": 2888,
       "min": 1050,
       "max": 5000
-    },
-    "Brand New": {
-      "count": 24,
-      "sum": 97835.12,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4076,
-      "min": 135,
-      "max": 14670
     },
     "Good": {
       "count": 46,
@@ -9829,7 +9813,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2844,
+      "avg": 2877,
       "count": 172
     },
     "03": {
@@ -9983,22 +9967,27 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 88,
+    "1k-2k": 87,
     "2k-3k": 76,
     "3k-5k": 63,
-    "5k-10k": 32,
+    "5k-10k": 33,
     "10k+": 7
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 22,
-    "1k-2k": 88,
+    "1k-2k": 87,
     "2k-3k": 76,
     "3k-5k": 63,
-    "5k-10k": 28,
+    "5k-10k": 31,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 507,
+      "count": 31,
+      "avg": 16
+    },
     "Kiesel": {
       "sum": 267,
       "count": 12,
@@ -10035,7 +10024,7 @@
       "avg": 12
     },
     "BC Rich": {
-      "sum": 247,
+      "sum": 248,
       "count": 20,
       "avg": 12
     },
@@ -10054,11 +10043,6 @@
       "count": 1,
       "avg": 1
     },
-    "Gibson": {
-      "sum": 507,
-      "count": 30,
-      "avg": 17
-    },
     "Aristides": {
       "sum": 1,
       "count": 1,
@@ -10075,9 +10059,9 @@
       "avg": 13
     },
     "Fodera": {
-      "sum": 22,
+      "sum": 23,
       "count": 1,
-      "avg": 22
+      "avg": 23
     },
     "Rick Toone": {
       "sum": 54,
@@ -10100,9 +10084,9 @@
       "avg": 17
     },
     "Vintage": {
-      "sum": 114,
-      "count": 7,
-      "avg": 16
+      "sum": 107,
+      "count": 6,
+      "avg": 18
     },
     "Martin": {
       "sum": 36,
@@ -10145,12 +10129,12 @@
       "avg": 3
     },
     "Duesenberg": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "ESP": {
-      "sum": 109,
+      "sum": 110,
       "count": 5,
       "avg": 22
     },
@@ -10401,14 +10385,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 9,
+    "2026-04-25": 10,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 24,
+    "2026-04-18": 23,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 6,
@@ -10507,7 +10491,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2844,
+    "avg": 2877,
     "pctBelowAvg": 20,
     "count": 172
   },
@@ -10520,10 +10504,10 @@
       "count": 27
     },
     "Gibson": {
-      "avgPrice": 3220,
+      "avgPrice": 3338,
       "retailEst": 800,
-      "avgDiscount": -302.5,
-      "count": 31
+      "avgDiscount": -317.3,
+      "count": 32
     },
     "PRS": {
       "avgPrice": 3295,
@@ -11515,6 +11499,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Gibson": {
+        "total": 34,
+        "sold": 6,
+        "fake": 0,
+        "live": 28,
+        "soldPct": 18,
+        "livePct": 82
+      },
       "Kiesel": {
         "total": 13,
         "sold": 6,
@@ -11611,14 +11603,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Gibson": {
-        "total": 33,
-        "sold": 6,
-        "fake": 0,
-        "live": 27,
-        "soldPct": 18,
-        "livePct": 82
-      },
       "Aristides": {
         "total": 1,
         "sold": 0,
@@ -11692,10 +11676,10 @@
         "livePct": 50
       },
       "Vintage": {
-        "total": 7,
+        "total": 6,
         "sold": 0,
         "fake": 0,
-        "live": 7,
+        "live": 6,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12219,7 +12203,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 88,
+        "total": 87,
         "sold": 22,
         "rate": 25
       },
@@ -12237,9 +12221,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 32,
+        "total": 33,
         "sold": 5,
-        "rate": 16
+        "rate": 15
       },
       {
         "label": "$10k+",
@@ -12249,10 +12233,15 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 25,
+        "sold": 3,
+        "rate": 12
+      },
       "Used": {
-        "total": 28,
+        "total": 27,
         "sold": 5,
-        "rate": 18
+        "rate": 19
       },
       "Excellent": {
         "total": 108,
@@ -12263,11 +12252,6 @@
         "total": 6,
         "sold": 0,
         "rate": 0
-      },
-      "Brand New": {
-        "total": 24,
-        "sold": 3,
-        "rate": 13
       },
       "Good": {
         "total": 46,
@@ -12869,6 +12853,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson Custom Shop": {
+      "brand": "Gibson",
+      "brandLine": "Gibson Custom Shop",
+      "tier": "ultra",
+      "count": 4,
+      "sum": 22823,
+      "avg": 5706,
+      "min": 3500,
+      "max": 7625,
+      "sold": 2,
+      "soldSum": 8199,
+      "soldAvg": 4100,
+      "live": 2,
+      "sellRate": 50,
+      "totalDays": 58.7,
+      "soldCount": 2,
+      "avgDaysToSell": 29.4
+    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -12883,7 +12885,7 @@
       "soldAvg": 1488,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 128,
+      "totalDays": 128.2,
       "soldCount": 5,
       "avgDaysToSell": 25.6
     },
@@ -12918,9 +12920,9 @@
       "soldAvg": 2666,
       "live": 6,
       "sellRate": 50,
-      "totalDays": 120,
+      "totalDays": 120.3,
       "soldCount": 6,
-      "avgDaysToSell": 20
+      "avgDaysToSell": 20.1
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -13077,7 +13079,7 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 90.19999999999999,
+      "totalDays": 90.4,
       "soldCount": 3,
       "avgDaysToSell": 30.1
     },
@@ -13249,9 +13251,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 33.8,
+      "totalDays": 33.9,
       "soldCount": 1,
-      "avgDaysToSell": 33.8
+      "avgDaysToSell": 33.9
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13267,7 +13269,7 @@
       "soldAvg": 3528,
       "live": 3,
       "sellRate": 50,
-      "totalDays": 76.7,
+      "totalDays": 76.9,
       "soldCount": 3,
       "avgDaysToSell": 25.6
     },
@@ -13285,9 +13287,9 @@
       "soldAvg": 5000,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 2.8,
+      "totalDays": 2.9,
       "soldCount": 1,
-      "avgDaysToSell": 2.8
+      "avgDaysToSell": 2.9
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13303,9 +13305,9 @@
       "soldAvg": 8499,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 2.8,
+      "totalDays": 2.9,
       "soldCount": 1,
-      "avgDaysToSell": 2.8
+      "avgDaysToSell": 2.9
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13338,9 +13340,9 @@
       "soldAvg": 2099,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 13.8,
+      "totalDays": 13.9,
       "soldCount": 1,
-      "avgDaysToSell": 13.8
+      "avgDaysToSell": 13.9
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -13390,9 +13392,9 @@
       "soldAvg": 2516,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 6.9,
+      "totalDays": 7,
       "soldCount": 1,
-      "avgDaysToSell": 6.9
+      "avgDaysToSell": 7
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -13511,27 +13513,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 57.3,
+      "totalDays": 57.4,
       "soldCount": 3,
       "avgDaysToSell": 19.1
-    },
-    "Gibson|Gibson Custom Shop": {
-      "brand": "Gibson",
-      "brandLine": "Gibson Custom Shop",
-      "tier": null,
-      "count": 3,
-      "sum": 15824,
-      "avg": 5275,
-      "min": 3500,
-      "max": 7625,
-      "sold": 2,
-      "soldSum": 8199,
-      "soldAvg": 4100,
-      "live": 1,
-      "sellRate": 67,
-      "totalDays": 58.7,
-      "soldCount": 2,
-      "avgDaysToSell": 29.4
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13598,7 +13582,7 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 227.5,
+      "totalDays": 227.6,
       "soldCount": 2,
       "avgDaysToSell": 113.8
     },
@@ -13685,9 +13669,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 25.7,
+      "totalDays": 25.8,
       "soldCount": 1,
-      "avgDaysToSell": 25.7
+      "avgDaysToSell": 25.8
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13788,9 +13772,9 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 52.2,
+      "totalDays": 52.3,
       "soldCount": 2,
-      "avgDaysToSell": 26.1
+      "avgDaysToSell": 26.2
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
