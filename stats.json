@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T19:32:15.692Z",
+  "generatedAt": "2026-04-25T19:53:59.862Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1094649.23,
-    "avg": 3625,
+    "sum": 1090848.24,
+    "avg": 3612,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 292,
-    "sum": 788119.24,
-    "avg": 2699,
+    "sum": 784318.25,
+    "avg": 2686,
     "min": 33,
     "max": 8499,
-    "median": 2290
+    "median": 2267
   },
   "outliers": {
-    "thresholdHigh": 8687,
+    "thresholdHigh": 8560,
     "thresholdLow": 0,
     "count": 10,
     "items": [
@@ -109,10 +109,10 @@
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 503556.88,
+      "sum": 499755.89,
       "min": 70,
       "max": 15500,
-      "avg": 2928
+      "avg": 2906
     },
     "2026-03": {
       "count": 130,
@@ -123,22 +123,29 @@
     }
   },
   "byCategory": {
-    "marketplace": {
-      "count": 42,
-      "sum": 306167.87,
-      "min": 143.99,
-      "max": 99000,
-      "avg": 7290
-    },
     "reverb": {
-      "count": 260,
-      "sum": 788481.36,
+      "count": 261,
+      "sum": 789680.36,
       "min": 33,
       "max": 35900,
-      "avg": 3033
+      "avg": 3026
+    },
+    "marketplace": {
+      "count": 41,
+      "sum": 301167.88,
+      "min": 143.99,
+      "max": 99000,
+      "avg": 7346
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 261,
+      "sum": 789680.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3026
+    },
     "chicagomusicexchange.com": {
       "count": 22,
       "sum": 241286.99,
@@ -146,19 +153,12 @@
       "max": 99000,
       "avg": 10968
     },
-    "reverb.com": {
-      "count": 260,
-      "sum": 788481.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3033
-    },
     "guitarcenter.com": {
-      "count": 13,
-      "sum": 23464.89,
+      "count": 12,
+      "sum": 18464.9,
       "min": 143.99,
-      "max": 4999.99,
-      "avg": 1805
+      "max": 3899.99,
+      "avg": 1539
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -211,6 +211,37 @@
     }
   },
   "byModel": {
+    "peavey-rare-5a-flame-usa-custom-shop": {
+      "displayName": "Rare peavey USA Custom Shop 5A Flame Wolfgang special Body & Neck!",
+      "brand": "Peavey",
+      "model": "Rare 5A Flame",
+      "variant": "Usa Custom Shop",
+      "count": 1,
+      "sum": 1199,
+      "min": 1199,
+      "max": 1199,
+      "sightings": [
+        {
+          "price": 1199,
+          "date": "2026-04-25T19:53:45.515Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Rare peavey USA Custom Shop 5A Flame Wolfgang special Body & Neck!",
+          "url": "https://reverb.com/item/96400538-rare-peavey-usa-custom-shop-5a-flame-wolfgang-special-body-neck",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1199,
+          "min": 1199,
+          "max": 1199,
+          "avg": 1199
+        }
+      },
+      "avg": 1199
+    },
     "eastman-sb55dcv": {
       "displayName": "Eastman SB55DC/V Cherry",
       "brand": "Eastman",
@@ -5588,37 +5619,6 @@
       },
       "avg": 3900
     },
-    "esp-m-ii-floyd-rose": {
-      "displayName": "ESP M-II Floyd Rose",
-      "brand": "ESP",
-      "model": "M-II",
-      "variant": "Floyd Rose",
-      "count": 1,
-      "sum": 4999.99,
-      "min": 4999.99,
-      "max": 4999.99,
-      "sightings": [
-        {
-          "price": 4999.99,
-          "date": "2026-04-18T16:53:45.544Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used ESP M-II with Floyd Rose hellfire Solid Body Electric Guitar hellfire",
-          "url": "https://www.guitarcenter.com/Used/ESP/Used-ESP-M-II-with-Floyd-Rose-hellfire-Solid-Body-Electric-Guitar.gc?algoliaQueryID=12b23ecb1ad45a507c6201b2e2650447&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 4999.99,
-          "min": 4999.99,
-          "max": 4999.99,
-          "avg": 5000
-        }
-      },
-      "avg": 5000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9733,20 +9733,9 @@
     }
   },
   "byCondition": {
-    "Used": {
-      "count": 25,
-      "sum": 150490.88999999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 6020,
-      "min": 143.99,
-      "max": 99000
-    },
     "Good": {
-      "count": 47,
-      "sum": 119355.95,
+      "count": 48,
+      "sum": 120554.95,
       "sold": {
         "count": 7,
         "sum": 13955.48,
@@ -9754,17 +9743,28 @@
         "min": 650,
         "max": 4777.5
       },
-      "avg": 2539,
+      "avg": 2512,
       "min": 70,
       "max": 11475
+    },
+    "Used": {
+      "count": 24,
+      "sum": 145490.9,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 6062,
+      "min": 143.99,
+      "max": 99000
     },
     "Very Good": {
       "count": 76,
       "sum": 201284.55999999994,
       "sold": {
-        "count": 23,
-        "sum": 48331.85999999999,
-        "avg": 2101,
+        "count": 24,
+        "sum": 50831.85999999999,
+        "avg": 2118,
         "min": 475,
         "max": 5500
       },
@@ -9851,7 +9851,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2928,
+      "avg": 2906,
       "count": 172
     },
     "03": {
@@ -10005,22 +10005,27 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 86,
+    "1k-2k": 87,
     "2k-3k": 75,
-    "3k-5k": 62,
+    "3k-5k": 61,
     "5k-10k": 34,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 86,
+    "1k-2k": 87,
     "2k-3k": 75,
-    "3k-5k": 62,
+    "3k-5k": 61,
     "5k-10k": 32,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Peavey": {
+      "sum": 30,
+      "count": 2,
+      "avg": 15
+    },
     "Eastman": {
       "sum": 66,
       "count": 5,
@@ -10057,9 +10062,9 @@
       "avg": 15
     },
     "PRS": {
-      "sum": 246,
+      "sum": 247,
       "count": 17,
-      "avg": 14
+      "avg": 15
     },
     "Burny": {
       "sum": 1,
@@ -10067,7 +10072,7 @@
       "avg": 1
     },
     "Ibanez": {
-      "sum": 346,
+      "sum": 347,
       "count": 17,
       "avg": 20
     },
@@ -10182,9 +10187,9 @@
       "avg": 4
     },
     "ESP": {
-      "sum": 111,
-      "count": 5,
-      "avg": 22
+      "sum": 104,
+      "count": 4,
+      "avg": 26
     },
     "Marshall": {
       "sum": 4,
@@ -10200,11 +10205,6 @@
       "sum": 28,
       "count": 1,
       "avg": 28
-    },
-    "Peavey": {
-      "sum": 30,
-      "count": 1,
-      "avg": 30
     },
     "Floyd Rose": {
       "sum": 52,
@@ -10232,9 +10232,9 @@
       "avg": 4
     },
     "Greco": {
-      "sum": 98,
+      "sum": 99,
       "count": 2,
-      "avg": 49
+      "avg": 50
     },
     "Vigier": {
       "sum": 14,
@@ -10428,14 +10428,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 14,
+    "2026-04-25": 15,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 19,
+    "2026-04-18": 18,
     "2026-03-28": 35,
     "2026-03-27": 30,
     "2026-03-26": 6,
@@ -10444,14 +10444,14 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 47,
-    "reverb": 260
+    "reverb": 261,
+    "marketplace": 46
   },
   "activeModelsCount": 262,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 90
+      "count": 91
     },
     {
       "username": "greg1213",
@@ -10463,7 +10463,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 27
+      "count": 26
     },
     {
       "username": "Madero",
@@ -10493,7 +10493,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 33
+      "count": 34
     },
     {
       "username": "Shteefe",
@@ -10534,8 +10534,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2928,
-    "pctBelowAvg": 19,
+    "avg": 2906,
+    "pctBelowAvg": 20,
     "count": 172
   },
   "topVoted": [],
@@ -10584,17 +10584,17 @@
     }
   },
   "soldPrices": {
-    "count": 78,
-    "avg": 3132,
+    "count": 79,
+    "avg": 3124,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 751.4999999999999,
-      "count": 76,
-      "avgDays": 9.9
+      "totalDays": 752.5999999999999,
+      "count": 77,
+      "avgDays": 9.8
     },
     "byModel": {
       "gibson-sg-custom-custom-shop-limited-edition": {
@@ -11556,6 +11556,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Peavey": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Eastman": {
         "total": 5,
         "sold": 2,
@@ -11845,12 +11853,12 @@
         "livePct": 100
       },
       "ESP": {
-        "total": 6,
+        "total": 5,
         "sold": 2,
         "fake": 0,
-        "live": 4,
-        "soldPct": 33,
-        "livePct": 67
+        "live": 3,
+        "soldPct": 40,
+        "livePct": 60
       },
       "Duesenberg": {
         "total": 1,
@@ -11877,14 +11885,6 @@
         "livePct": 100
       },
       "Orange": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Peavey": {
         "total": 1,
         "sold": 0,
         "fake": 0,
@@ -12268,19 +12268,19 @@
       },
       {
         "label": "$1k–2k",
-        "total": 86,
+        "total": 87,
         "sold": 23,
-        "rate": 27
+        "rate": 26
       },
       {
         "label": "$2k–3k",
         "total": 75,
-        "sold": 23,
-        "rate": 31
+        "sold": 24,
+        "rate": 32
       },
       {
         "label": "$3k–5k",
-        "total": 62,
+        "total": 61,
         "sold": 16,
         "rate": 26
       },
@@ -12298,20 +12298,20 @@
       }
     ],
     "byCondition": {
-      "Used": {
-        "total": 25,
-        "sold": 5,
-        "rate": 20
-      },
       "Good": {
-        "total": 47,
+        "total": 48,
         "sold": 7,
         "rate": 15
       },
+      "Used": {
+        "total": 24,
+        "sold": 5,
+        "rate": 21
+      },
       "Very Good": {
         "total": 76,
-        "sold": 23,
-        "rate": 30
+        "sold": 24,
+        "rate": 32
       },
       "Brand New": {
         "total": 26,
@@ -12985,9 +12985,9 @@
       "soldAvg": 2516,
       "live": 4,
       "sellRate": 20,
-      "totalDays": 7,
+      "totalDays": 7.1,
       "soldCount": 1,
-      "avgDaysToSell": 7
+      "avgDaysToSell": 7.1
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -13021,7 +13021,7 @@
       "soldAvg": 1488,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 128.5,
+      "totalDays": 128.6,
       "soldCount": 5,
       "avgDaysToSell": 25.7
     },
@@ -13056,7 +13056,7 @@
       "soldAvg": 2666,
       "live": 6,
       "sellRate": 50,
-      "totalDays": 120.6,
+      "totalDays": 120.79999999999998,
       "soldCount": 6,
       "avgDaysToSell": 20.1
     },
@@ -13351,9 +13351,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 33.9,
+      "totalDays": 34,
       "soldCount": 1,
-      "avgDaysToSell": 33.9
+      "avgDaysToSell": 34
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13369,7 +13369,7 @@
       "soldAvg": 3107,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 79.9,
+      "totalDays": 80.1,
       "soldCount": 4,
       "avgDaysToSell": 20
     },
@@ -13387,9 +13387,9 @@
       "soldAvg": 5000,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 2.9,
+      "totalDays": 3,
       "soldCount": 1,
-      "avgDaysToSell": 2.9
+      "avgDaysToSell": 3
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13440,9 +13440,9 @@
       "soldAvg": 2099,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 13.9,
+      "totalDays": 14,
       "soldCount": 1,
-      "avgDaysToSell": 13.9
+      "avgDaysToSell": 14
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -13703,23 +13703,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "ESP|ESP Custom Shop": {
-      "brand": "ESP",
-      "brandLine": "ESP Custom Shop",
-      "tier": null,
-      "count": 1,
-      "sum": 4999.99,
-      "avg": 5000,
-      "min": 4999.99,
-      "max": 4999.99,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -13751,9 +13734,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 25.8,
+      "totalDays": 25.9,
       "soldCount": 1,
-      "avgDaysToSell": 25.8
+      "avgDaysToSell": 25.9
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13854,9 +13837,9 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 52.4,
+      "totalDays": 52.5,
       "soldCount": 2,
-      "avgDaysToSell": 26.2
+      "avgDaysToSell": 26.3
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13931,7 +13914,7 @@
     },
     {
       "label": "1–5",
-      "total": 15,
+      "total": 16,
       "sold": 2,
       "rate": 13
     },
@@ -13950,27 +13933,27 @@
     {
       "label": "31+",
       "total": 61,
-      "sold": 15,
-      "rate": 25
+      "sold": 16,
+      "rate": 26
     }
   ],
   "offersEffect": {
     "on": {
       "total": 169,
-      "sold": 48,
-      "rate": 28
+      "sold": 49,
+      "rate": 29
     },
     "off": {
-      "total": 49,
+      "total": 50,
       "sold": 12,
       "rate": 24
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 112,
-      "sold": 19,
-      "rate": 17
+      "total": 113,
+      "sold": 20,
+      "rate": 18
     },
     "regular": {
       "total": 93,
@@ -14030,8 +14013,8 @@
     {
       "state": "TN",
       "total": 8,
-      "sold": 2,
-      "rate": 25
+      "sold": 3,
+      "rate": 38
     },
     {
       "state": "NC",
@@ -14098,6 +14081,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "WY",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "TOKYO",
