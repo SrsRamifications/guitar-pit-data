@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T20:15:52.188Z",
+  "generatedAt": "2026-04-25T21:17:50.114Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1092697.25,
-    "avg": 3618,
+    "sum": 1092347.26,
+    "avg": 3617,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 290,
-    "sum": 767718.26,
-    "avg": 2647,
+    "sum": 767368.27,
+    "avg": 2646,
     "min": 33,
     "max": 8300,
     "median": 2225
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 172,
-      "sum": 501604.9,
+      "sum": 501254.91,
       "min": 70,
       "max": 15500,
-      "avg": 2916
+      "avg": 2914
     },
     "2026-03": {
       "count": 130,
@@ -140,27 +140,27 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 263,
-      "sum": 801029.36,
+      "count": 264,
+      "sum": 801679.36,
       "min": 33,
       "max": 35900,
-      "avg": 3046
+      "avg": 3037
     },
     "marketplace": {
-      "count": 39,
-      "sum": 291667.89,
+      "count": 38,
+      "sum": 290667.9,
       "min": 143.99,
       "max": 99000,
-      "avg": 7479
+      "avg": 7649
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 263,
-      "sum": 801029.36,
+      "count": 264,
+      "sum": 801679.36,
       "min": 33,
       "max": 35900,
-      "avg": 3046
+      "avg": 3037
     },
     "chicagomusicexchange.com": {
       "count": 21,
@@ -170,11 +170,11 @@
       "avg": 11223
     },
     "guitarcenter.com": {
-      "count": 11,
-      "sum": 14564.91,
+      "count": 10,
+      "sum": 13564.92,
       "min": 143.99,
       "max": 2599.99,
-      "avg": 1324
+      "avg": 1356
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "vintage-semi-hollow-1960": {
+      "displayName": "VINTAGE, RARE 1960's Julio Giulietti Model A22 Italian Semi-Hollow",
+      "brand": "Vintage",
+      "model": "Semi-Hollow",
+      "variant": "1960",
+      "count": 1,
+      "sum": 650,
+      "min": 650,
+      "max": 650,
+      "sightings": [
+        {
+          "price": 650,
+          "date": "2026-04-25T21:17:35.105Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "VINTAGE, RARE 1960's Julio Giulietti Model A22 Italian Semi-Hollow",
+          "url": "https://reverb.com/item/96398014-vintage-rare-1960-s-julio-giulietti-model-a22-italian-semi-hollow",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 650,
+          "min": 650,
+          "max": 650,
+          "avg": 650
+        }
+      },
+      "avg": 650
+    },
     "gibson-j-160e-1970s-acoustic": {
       "displayName": "Gibson J-160E 1970's Acoustic with Hard Case - Used",
       "brand": "Gibson",
@@ -5604,37 +5635,6 @@
       },
       "avg": 350
     },
-    "rickenbacker-telecaster": {
-      "displayName": "Used Partscaster Telecaster Green Solid Body Electric Guitar Green",
-      "brand": "Rickenbacker",
-      "model": "Telecaster",
-      "variant": null,
-      "count": 1,
-      "sum": 999.99,
-      "min": 999.99,
-      "max": 999.99,
-      "sightings": [
-        {
-          "price": 999.99,
-          "date": "2026-04-18T17:22:27.734Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used Partscaster Telecaster Green Solid Body Electric Guitar Green",
-          "url": "https://www.guitarcenter.com/Used/Partscaster/Used-Partscaster-Telecaster-Green-Solid-Body-Electric-Guitar.gc?algoliaQueryID=0a3f52d14cb7a188536efecea09dbe12&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 999.99,
-          "min": 999.99,
-          "max": 999.99,
-          "avg": 1000
-        }
-      },
-      "avg": 1000
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9749,6 +9749,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 77,
+      "sum": 201934.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 50831.85999999999,
+        "avg": 2118,
+        "min": 475,
+        "max": 5500
+      },
+      "avg": 2623,
+      "min": 33,
+      "max": 15500
+    },
     "Good": {
       "count": 49,
       "sum": 121953.95,
@@ -9778,29 +9792,15 @@
       "max": 35900
     },
     "Used": {
-      "count": 22,
-      "sum": 135990.90999999997,
+      "count": 21,
+      "sum": 134990.91999999998,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 6181,
+      "avg": 6428,
       "min": 143.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 76,
-      "sum": 201284.55999999994,
-      "sold": {
-        "count": 24,
-        "sum": 50831.85999999999,
-        "avg": 2118,
-        "min": 475,
-        "max": 5500
-      },
-      "avg": 2648,
-      "min": 33,
-      "max": 15500
     },
     "Brand New": {
       "count": 26,
@@ -9867,7 +9867,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2916,
+      "avg": 2914,
       "count": 172
     },
     "03": {
@@ -10037,6 +10037,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 107,
+      "count": 7,
+      "avg": 15
+    },
     "Gibson": {
       "sum": 502,
       "count": 31,
@@ -10133,7 +10138,7 @@
       "avg": 2
     },
     "Yamaha": {
-      "sum": 76,
+      "sum": 77,
       "count": 6,
       "avg": 13
     },
@@ -10156,11 +10161,6 @@
       "sum": 30,
       "count": 2,
       "avg": 15
-    },
-    "Vintage": {
-      "sum": 107,
-      "count": 6,
-      "avg": 18
     },
     "Martin": {
       "sum": 36,
@@ -10218,9 +10218,9 @@
       "avg": 4
     },
     "Rickenbacker": {
-      "sum": 11,
-      "count": 2,
-      "avg": 6
+      "sum": 4,
+      "count": 1,
+      "avg": 4
     },
     "Orange": {
       "sum": 28,
@@ -10439,26 +10439,26 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-25": 17,
+    "2026-04-25": 18,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 23,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 16,
+    "2026-04-18": 15,
     "2026-03-28": 35,
     "2026-03-27": 30,
-    "2026-03-26": 6,
+    "2026-03-26": 5,
     "2026-03-29": 17,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 263,
-    "marketplace": 44
+    "reverb": 264,
+    "marketplace": 43
   },
-  "activeModelsCount": 262,
+  "activeModelsCount": 261,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10466,7 +10466,7 @@
     },
     {
       "username": "greg1213",
-      "count": 47
+      "count": 48
     },
     {
       "username": "YellowJack6",
@@ -10474,7 +10474,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 24
+      "count": 23
     },
     {
       "username": "Madero",
@@ -10545,7 +10545,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2916,
+    "avg": 2914,
     "pctBelowAvg": 19,
     "count": 172
   },
@@ -11567,6 +11567,14 @@
       "livePct": 74
     },
     "byBrand": {
+      "Vintage": {
+        "total": 7,
+        "sold": 0,
+        "fake": 0,
+        "live": 7,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Gibson": {
         "total": 34,
         "sold": 6,
@@ -11775,14 +11783,6 @@
         "soldPct": 50,
         "livePct": 50
       },
-      "Vintage": {
-        "total": 6,
-        "sold": 0,
-        "fake": 0,
-        "live": 6,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Tokai": {
         "total": 2,
         "sold": 1,
@@ -11896,10 +11896,10 @@
         "livePct": 100
       },
       "Rickenbacker": {
-        "total": 2,
+        "total": 1,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 1,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12301,6 +12301,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 77,
+        "sold": 24,
+        "rate": 31
+      },
       "Good": {
         "total": 49,
         "sold": 7,
@@ -12312,14 +12317,9 @@
         "rate": 32
       },
       "Used": {
-        "total": 22,
+        "total": 21,
         "sold": 5,
-        "rate": 23
-      },
-      "Very Good": {
-        "total": 76,
-        "sold": 24,
-        "rate": 32
+        "rate": 24
       },
       "Brand New": {
         "total": 26,
@@ -12389,7 +12389,7 @@
         "condition": "Very Good",
         "watchers": 18,
         "views": 210,
-        "daysListed": 27,
+        "daysListed": 28,
         "image": "https://rvb-img.reverb.com/i/s--a63HZwtM--/quality=medium-low,height=800,width=800,fit=contain/91fd262f-9c28-4cf0-b434-77f7988789a5.jpg",
         "modelAvg": 2900,
         "pctVsAvg": -55,
@@ -12935,9 +12935,9 @@
       "soldAvg": 3800,
       "live": 23,
       "sellRate": 12,
-      "totalDays": 46.8,
+      "totalDays": 47,
       "soldCount": 3,
-      "avgDaysToSell": 15.6
+      "avgDaysToSell": 15.7
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -12988,9 +12988,9 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 90.7,
+      "totalDays": 90.8,
       "soldCount": 3,
-      "avgDaysToSell": 30.2
+      "avgDaysToSell": 30.3
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -13059,9 +13059,9 @@
       "soldAvg": 1488,
       "live": 6,
       "sellRate": 45,
-      "totalDays": 128.7,
+      "totalDays": 128.9,
       "soldCount": 5,
-      "avgDaysToSell": 25.7
+      "avgDaysToSell": 25.8
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13094,7 +13094,7 @@
       "soldAvg": 2666,
       "live": 6,
       "sellRate": 50,
-      "totalDays": 120.9,
+      "totalDays": 121.10000000000002,
       "soldCount": 6,
       "avgDaysToSell": 20.2
     },
@@ -13112,7 +13112,7 @@
       "soldAvg": 2434,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 51.599999999999994,
+      "totalDays": 51.7,
       "soldCount": 3,
       "avgDaysToSell": 17.2
     },
@@ -13130,7 +13130,7 @@
       "soldAvg": 1058,
       "live": 2,
       "sellRate": 50,
-      "totalDays": 11.9,
+      "totalDays": 12,
       "soldCount": 2,
       "avgDaysToSell": 6
     },
@@ -13165,9 +13165,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 26.9,
+      "totalDays": 27,
       "soldCount": 1,
-      "avgDaysToSell": 26.9
+      "avgDaysToSell": 27
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13183,9 +13183,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 2.3,
+      "totalDays": 2.4,
       "soldCount": 1,
-      "avgDaysToSell": 2.3
+      "avgDaysToSell": 2.4
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13598,9 +13598,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 57.7,
+      "totalDays": 57.8,
       "soldCount": 3,
-      "avgDaysToSell": 19.2
+      "avgDaysToSell": 19.3
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13667,9 +13667,9 @@
       "soldAvg": 2399,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 227.8,
+      "totalDays": 227.9,
       "soldCount": 2,
-      "avgDaysToSell": 113.9
+      "avgDaysToSell": 114
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -13685,9 +13685,9 @@
       "soldAvg": 350,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 7.1,
+      "totalDays": 7.2,
       "soldCount": 1,
-      "avgDaysToSell": 7.1
+      "avgDaysToSell": 7.2
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -13823,7 +13823,7 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 52.5,
+      "totalDays": 52.6,
       "soldCount": 2,
       "avgDaysToSell": 26.3
     },
@@ -13841,9 +13841,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 26,
+      "totalDays": 26.1,
       "soldCount": 1,
-      "avgDaysToSell": 26
+      "avgDaysToSell": 26.1
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13859,9 +13859,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 25.9,
+      "totalDays": 26,
       "soldCount": 1,
-      "avgDaysToSell": 25.9
+      "avgDaysToSell": 26
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13900,9 +13900,9 @@
     },
     {
       "label": "1–5",
-      "total": 16,
+      "total": 17,
       "sold": 2,
-      "rate": 13
+      "rate": 12
     },
     {
       "label": "6–15",
@@ -13925,9 +13925,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 171,
+      "total": 172,
       "sold": 49,
-      "rate": 29
+      "rate": 28
     },
     "off": {
       "total": 50,
@@ -13942,7 +13942,7 @@
       "rate": 17
     },
     "regular": {
-      "total": 93,
+      "total": 94,
       "sold": 32,
       "rate": 34
     }
@@ -14073,6 +14073,12 @@
       "total": 3,
       "sold": 1,
       "rate": 33
+    },
+    {
+      "state": "NM",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "WY",
