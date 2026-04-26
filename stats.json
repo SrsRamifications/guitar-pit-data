@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-26T15:49:58.761Z",
-  "totalLinks": 305,
+  "generatedAt": "2026-04-26T17:30:12.008Z",
+  "totalLinks": 304,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
-  "removedCount": 10,
-  "totalWithPrice": 300,
+  "removedCount": 11,
+  "totalWithPrice": 299,
   "overall": {
-    "count": 300,
-    "sum": 1078757.27,
-    "avg": 3596,
+    "count": 299,
+    "sum": 1077308.27,
+    "avg": 3603,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 288,
-    "sum": 753778.28,
-    "avg": 2617,
+    "count": 287,
+    "sum": 752329.28,
+    "avg": 2621,
     "min": 33,
     "max": 8300,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 8350,
+    "thresholdHigh": 8400,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -124,11 +124,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 170,
-      "sum": 487664.92,
+      "count": 169,
+      "sum": 486215.92,
       "min": 70,
       "max": 15500,
-      "avg": 2869
+      "avg": 2877
     },
     "2026-03": {
       "count": 130,
@@ -140,11 +140,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 268,
-      "sum": 802985.36,
+      "count": 267,
+      "sum": 801536.36,
       "min": 33,
       "max": 35900,
-      "avg": 2996
+      "avg": 3002
     },
     "marketplace": {
       "count": 32,
@@ -156,11 +156,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 268,
-      "sum": 802985.36,
+      "count": 267,
+      "sum": 801536.36,
       "min": 33,
       "max": 35900,
-      "avg": 2996
+      "avg": 3002
     },
     "davesguitar.com": {
       "count": 1,
@@ -234,6 +234,52 @@
     }
   },
   "byModel": {
+    "prs-chleo-charcoal-purple-limited-edition": {
+      "displayName": "PRS Chleo Limited Edition - Charcoal Purple Wraparound Burst #419433",
+      "brand": "PRS",
+      "model": "Chleo Charcoal Purple",
+      "variant": "Limited Edition",
+      "count": 1,
+      "sum": 6850,
+      "min": 6850,
+      "max": 6850,
+      "sightings": [
+        {
+          "price": 6850,
+          "date": "2026-04-26T17:29:57.499Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Chleo Limited Edition - Charcoal Purple Wraparound Burst #419433",
+          "url": "https://reverb.com/item/95595605",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 6850,
+          "min": 6850,
+          "max": 6850,
+          "avg": 6850
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 6850,
+        "min": 6850,
+        "max": 6850,
+        "prices": [
+          {
+            "price": 6850,
+            "askingPrice": 6850,
+            "date": "2026-04-26T17:29:57.499Z",
+            "title": "PRS Chleo Limited Edition - Charcoal Purple Wraparound Burst #419433",
+            "url": "https://reverb.com/item/95595605"
+          }
+        ]
+      },
+      "avg": 6850
+    },
     "kramer-gary-kramertorium-v": {
       "displayName": "Gary Kramer Kramertorium V. The Riddle of Steel. 2008 - Black/White",
       "brand": "Kramer",
@@ -896,37 +942,6 @@
       },
       "avg": 650
     },
-    "gibson-j-160e-1970s-acoustic": {
-      "displayName": "Gibson J-160E 1970's Acoustic with Hard Case - Used",
-      "brand": "Gibson",
-      "model": "J-160E 1970's Acoustic",
-      "variant": null,
-      "count": 1,
-      "sum": 1399,
-      "min": 1399,
-      "max": 1399,
-      "sightings": [
-        {
-          "price": 1399,
-          "date": "2026-04-25T20:15:37.691Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson J-160E 1970's Acoustic with Hard Case - Used",
-          "url": "https://reverb.com/item/96391411-gibson-j-160e-1970-s-acoustic-with-hard-case-used",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1399,
-          "min": 1399,
-          "max": 1399,
-          "avg": 1399
-        }
-      },
-      "avg": 1399
-    },
     "vigier-excalibur-shawn-lane": {
       "displayName": "Vigier Excalibur Shawn Lane 10th Anniversary (#6 of 10) 2013 - Paradise White",
       "brand": "Vigier",
@@ -1329,7 +1344,15 @@
         ]
       },
       "avg": 4531,
-      "trends": {}
+      "trends": {
+        "d30": {
+          "direction": "up",
+          "pctChange": 5,
+          "recentAvg": 4598,
+          "olderAvg": 4399,
+          "recentCount": 2
+        }
+      }
     },
     "burny-eb-95x-heathx-model-signature": {
       "displayName": "1995 Burny EB-95X Heath/X JAPAN signature model (BC Rich Eagle)",
@@ -5352,37 +5375,6 @@
         ]
       },
       "avg": 1703
-    },
-    "james-tyler-ultimate-weapon-blackturquoise": {
-      "displayName": "James Tyler Ultimate Weapon - Black/Turquoise",
-      "brand": "James Tyler",
-      "model": "Ultimate Weapon Black/Turquoise",
-      "variant": null,
-      "count": 1,
-      "sum": 6900,
-      "min": 6900,
-      "max": 6900,
-      "sightings": [
-        {
-          "price": 6900,
-          "date": "2026-04-19T02:32:01.058Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "James Tyler Ultimate Weapon - Black/Turquoise",
-          "url": "https://reverb.com/item/96153184-james-tyler-ultimate-weapon-black-turquoise",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 6900,
-          "min": 6900,
-          "max": 6900,
-          "avg": 6900
-        }
-      },
-      "avg": 6900
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -9575,9 +9567,23 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 26,
+      "sum": 114385.10999999999,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4399,
+      "min": 135,
+      "max": 14670
+    },
     "Excellent": {
-      "count": 112,
-      "sum": 388092.73,
+      "count": 111,
+      "sum": 381192.73,
       "sold": {
         "count": 33,
         "sum": 121737.87,
@@ -9585,7 +9591,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3465,
+      "avg": 3434,
       "min": 190,
       "max": 35900
     },
@@ -9604,8 +9610,8 @@
       "max": 15500
     },
     "Good": {
-      "count": 50,
-      "sum": 120358.95,
+      "count": 49,
+      "sum": 118959.95,
       "sold": {
         "count": 6,
         "sum": 12455.48,
@@ -9613,7 +9619,7 @@
         "min": 650,
         "max": 4777.5
       },
-      "avg": 2407,
+      "avg": 2428,
       "min": 70,
       "max": 11475
     },
@@ -9638,20 +9644,6 @@
       "avg": 8489,
       "min": 143.99,
       "max": 99000
-    },
-    "Brand New": {
-      "count": 25,
-      "sum": 107535.10999999999,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4301,
-      "min": 135,
-      "max": 14670
     },
     "Mint": {
       "count": 5,
@@ -9704,8 +9696,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2869,
-      "count": 170
+      "avg": 2877,
+      "count": 169
     },
     "03": {
       "name": "Mar",
@@ -9858,7 +9850,7 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 26,
-    "1k-2k": 88,
+    "1k-2k": 87,
     "2k-3k": 72,
     "3k-5k": 58,
     "5k-10k": 34,
@@ -9867,25 +9859,25 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 26,
-    "1k-2k": 88,
+    "1k-2k": 87,
     "2k-3k": 72,
     "3k-5k": 58,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 283,
+      "count": 21,
+      "avg": 13
+    },
     "Kramer": {
       "sum": 0,
       "count": 1,
       "avg": 0
     },
-    "PRS": {
-      "sum": 258,
-      "count": 20,
-      "avg": 13
-    },
     "Vintage": {
-      "sum": 114,
+      "sum": 115,
       "count": 8,
       "avg": 14
     },
@@ -9905,7 +9897,7 @@
       "avg": 4
     },
     "BC Rich": {
-      "sum": 268,
+      "sum": 269,
       "count": 21,
       "avg": 13
     },
@@ -9918,11 +9910,6 @@
       "sum": 34,
       "count": 3,
       "avg": 11
-    },
-    "Gibson": {
-      "sum": 525,
-      "count": 30,
-      "avg": 18
     },
     "Vigier": {
       "sum": 16,
@@ -9940,7 +9927,7 @@
       "avg": 14
     },
     "Fender": {
-      "sum": 217,
+      "sum": 218,
       "count": 16,
       "avg": 14
     },
@@ -9950,9 +9937,14 @@
       "avg": 1
     },
     "Jackson": {
-      "sum": 234,
+      "sum": 236,
       "count": 9,
       "avg": 26
+    },
+    "Gibson": {
+      "sum": 524,
+      "count": 29,
+      "avg": 18
     },
     "Caparison": {
       "sum": 16,
@@ -9965,7 +9957,7 @@
       "avg": 2
     },
     "Ibanez": {
-      "sum": 326,
+      "sum": 327,
       "count": 16,
       "avg": 20
     },
@@ -10005,9 +9997,9 @@
       "avg": 15
     },
     "Fodera": {
-      "sum": 23,
+      "sum": 24,
       "count": 1,
-      "avg": 23
+      "avg": 24
     },
     "Rick Toone": {
       "sum": 55,
@@ -10035,9 +10027,9 @@
       "avg": 17
     },
     "Positive Grid": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Kemper": {
       "sum": 26,
@@ -10060,9 +10052,9 @@
       "avg": 4
     },
     "Duesenberg": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "ESP": {
       "sum": 106,
@@ -10070,9 +10062,9 @@
       "avg": 27
     },
     "Marshall": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Rickenbacker": {
       "sum": 5,
@@ -10135,8 +10127,8 @@
       "avg": 18
     },
     "James Tyler": {
-      "sum": 16,
-      "count": 2,
+      "sum": 8,
+      "count": 1,
       "avg": 8
     },
     "Friedman": {
@@ -10170,14 +10162,14 @@
       "avg": 29
     },
     "Fender Custom Shop": {
-      "sum": 59,
+      "sum": 60,
       "count": 2,
       "avg": 30
     },
     "Milkman": {
-      "sum": 29,
+      "sum": 30,
       "count": 1,
-      "avg": 29
+      "avg": 30
     },
     "B.C. Rich": {
       "sum": 90,
@@ -10281,33 +10273,33 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-26": 14,
-    "2026-04-25": 22,
+    "2026-04-26": 15,
+    "2026-04-25": 21,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 22,
     "2026-04-20": 12,
-    "2026-04-19": 15,
+    "2026-04-19": 14,
     "2026-03-28": 35,
-    "2026-03-27": 11,
+    "2026-03-27": 8,
     "2026-03-29": 17,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 268,
+    "reverb": 267,
     "marketplace": 37
   },
-  "activeModelsCount": 236,
+  "activeModelsCount": 233,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 96
+      "count": 95
     },
     {
       "username": "greg1213",
-      "count": 43
+      "count": 42
     },
     {
       "username": "YellowJack6",
@@ -10376,19 +10368,19 @@
       "count": 2
     },
     {
-      "username": "Jayden",
+      "username": "erparadox",
       "count": 1
     },
     {
-      "username": "scottcorgan",
+      "username": "Jayden",
       "count": 1
     }
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2869,
+    "avg": 2877,
     "pctBelowAvg": 20,
-    "count": 170
+    "count": 169
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10399,16 +10391,16 @@
       "count": 22
     },
     "Gibson": {
-      "avgPrice": 3289,
+      "avgPrice": 3352,
       "retailEst": 800,
-      "avgDiscount": -311.1,
-      "count": 31
+      "avgDiscount": -319,
+      "count": 30
     },
     "PRS": {
-      "avgPrice": 3251,
+      "avgPrice": 3407,
       "retailEst": 1000,
-      "avgDiscount": -225.1,
-      "count": 22
+      "avgDiscount": -240.7,
+      "count": 23
     },
     "Ibanez": {
       "avgPrice": 2884,
@@ -10430,8 +10422,8 @@
     }
   },
   "soldPrices": {
-    "count": 70,
-    "avg": 3273,
+    "count": 71,
+    "avg": 3323,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
@@ -11294,14 +11286,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 286,
-      "sold": 65,
+      "total": 285,
+      "sold": 66,
       "fake": 0,
-      "live": 221,
+      "live": 219,
       "soldPct": 23,
       "livePct": 77
     },
     "byBrand": {
+      "PRS": {
+        "total": 23,
+        "sold": 7,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 30,
+        "livePct": 70
+      },
       "Kramer": {
         "total": 1,
         "sold": 0,
@@ -11309,14 +11309,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 22,
-        "sold": 6,
-        "fake": 0,
-        "live": 16,
-        "soldPct": 27,
-        "livePct": 73
       },
       "Vintage": {
         "total": 9,
@@ -11374,14 +11366,6 @@
         "soldPct": 67,
         "livePct": 33
       },
-      "Gibson": {
-        "total": 33,
-        "sold": 6,
-        "fake": 0,
-        "live": 27,
-        "soldPct": 18,
-        "livePct": 82
-      },
       "Vigier": {
         "total": 2,
         "sold": 0,
@@ -11429,6 +11413,14 @@
         "live": 8,
         "soldPct": 11,
         "livePct": 89
+      },
+      "Gibson": {
+        "total": 32,
+        "sold": 6,
+        "fake": 0,
+        "live": 26,
+        "soldPct": 19,
+        "livePct": 81
       },
       "Caparison": {
         "total": 2,
@@ -11759,10 +11751,10 @@
         "livePct": 100
       },
       "James Tyler": {
-        "total": 2,
+        "total": 1,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 1,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12006,7 +11998,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 88,
+        "total": 87,
         "sold": 22,
         "rate": 25
       },
@@ -12025,8 +12017,8 @@
       {
         "label": "$5k–10k",
         "total": 34,
-        "sold": 6,
-        "rate": 18
+        "sold": 7,
+        "rate": 21
       },
       {
         "label": "$10k+",
@@ -12036,10 +12028,15 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 26,
+        "sold": 5,
+        "rate": 19
+      },
       "Excellent": {
-        "total": 112,
+        "total": 111,
         "sold": 34,
-        "rate": 30
+        "rate": 31
       },
       "Very Good": {
         "total": 79,
@@ -12047,7 +12044,7 @@
         "rate": 28
       },
       "Good": {
-        "total": 50,
+        "total": 49,
         "sold": 6,
         "rate": 12
       },
@@ -12060,11 +12057,6 @@
         "total": 14,
         "sold": 0,
         "rate": 0
-      },
-      "Brand New": {
-        "total": 25,
-        "sold": 4,
-        "rate": 16
       },
       "Mint": {
         "total": 5,
@@ -12099,7 +12091,7 @@
         "condition": "Excellent",
         "watchers": 9,
         "views": 228,
-        "daysListed": 6,
+        "daysListed": 7,
         "image": "https://rvb-img.reverb.com/i/s--qemJmrc9--/quality=medium-low,height=800,width=800,fit=contain/d1c3390c-4ea0-4922-b737-a467c9f815d1.png",
         "modelAvg": 13167,
         "pctVsAvg": -88,
@@ -12320,7 +12312,7 @@
         "condition": "Excellent",
         "watchers": 196,
         "views": 3861,
-        "daysListed": 495,
+        "daysListed": 496,
         "image": "https://rvb-img.reverb.com/i/s--5zEilTV8--/quality=medium-low,height=800,width=800,fit=contain/sgpha8qzk6s6vlnv5qkc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12404,7 +12396,7 @@
         "condition": "Very Good",
         "watchers": 120,
         "views": 2255,
-        "daysListed": 303,
+        "daysListed": 304,
         "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12448,7 +12440,7 @@
         "condition": "Very Good",
         "watchers": 40,
         "views": 2781,
-        "daysListed": 869,
+        "daysListed": 870,
         "image": "https://rvb-img.reverb.com/i/s--OhyQQjXN--/quality=medium-low,height=800,width=800,fit=contain/yx51sznn1mefawurvpw4.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12532,7 +12524,7 @@
         "condition": "Excellent",
         "watchers": 196,
         "views": 3861,
-        "daysListed": 495,
+        "daysListed": 496,
         "image": "https://rvb-img.reverb.com/i/s--5zEilTV8--/quality=medium-low,height=800,width=800,fit=contain/sgpha8qzk6s6vlnv5qkc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12616,7 +12608,7 @@
         "condition": "Very Good",
         "watchers": 120,
         "views": 2255,
-        "daysListed": 303,
+        "daysListed": 304,
         "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12668,6 +12660,24 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 15,
+      "sum": 54114.17,
+      "avg": 3608,
+      "min": 1500,
+      "max": 6895,
+      "sold": 6,
+      "soldSum": 21347.17,
+      "soldAvg": 3558,
+      "live": 9,
+      "sellRate": 40,
+      "totalDays": 143.4,
+      "soldCount": 6,
+      "avgDaysToSell": 23.9
+    },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
       "brandLine": "Kramer Import",
@@ -12716,7 +12726,7 @@
       "soldAvg": 1488,
       "live": 11,
       "sellRate": 31,
-      "totalDays": 132.8,
+      "totalDays": 133.1,
       "soldCount": 5,
       "avgDaysToSell": 26.6
     },
@@ -12736,42 +12746,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 14,
-      "sum": 47264.17,
-      "avg": 3376,
-      "min": 1500,
-      "max": 6895,
-      "sold": 5,
-      "soldSum": 14497.17,
-      "soldAvg": 2899,
-      "live": 9,
-      "sellRate": 36,
-      "totalDays": 118.19999999999999,
-      "soldCount": 5,
-      "avgDaysToSell": 23.6
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 25,
-      "sum": 71186,
-      "avg": 2847,
-      "min": 135,
-      "max": 7900,
-      "sold": 3,
-      "soldSum": 11400,
-      "soldAvg": 3800,
-      "live": 22,
-      "sellRate": 12,
-      "totalDays": 49.3,
-      "soldCount": 3,
-      "avgDaysToSell": 16.4
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -12804,9 +12778,9 @@
       "soldAvg": 1425,
       "live": 3,
       "sellRate": 40,
-      "totalDays": 33.9,
+      "totalDays": 34.1,
       "soldCount": 2,
-      "avgDaysToSell": 17
+      "avgDaysToSell": 17.1
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -12822,9 +12796,9 @@
       "soldAvg": 16365,
       "live": 8,
       "sellRate": 27,
-      "totalDays": 93.1,
+      "totalDays": 93.30000000000001,
       "soldCount": 3,
-      "avgDaysToSell": 31
+      "avgDaysToSell": 31.1
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -12874,9 +12848,9 @@
       "soldAvg": 5066,
       "live": 1,
       "sellRate": 75,
-      "totalDays": 61.4,
+      "totalDays": 61.7,
       "soldCount": 3,
-      "avgDaysToSell": 20.5
+      "avgDaysToSell": 20.6
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -12909,9 +12883,9 @@
       "soldAvg": 2434,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 54,
+      "totalDays": 54.3,
       "soldCount": 3,
-      "avgDaysToSell": 18
+      "avgDaysToSell": 18.1
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -12927,9 +12901,9 @@
       "soldAvg": 1240,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 3.9,
+      "totalDays": 4,
       "soldCount": 1,
-      "avgDaysToSell": 3.9
+      "avgDaysToSell": 4
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -12965,6 +12939,24 @@
       "totalDays": 27.8,
       "soldCount": 1,
       "avgDaysToSell": 27.8
+    },
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 24,
+      "sum": 69787,
+      "avg": 2908,
+      "min": 135,
+      "max": 7900,
+      "sold": 3,
+      "soldSum": 11400,
+      "soldAvg": 3800,
+      "live": 21,
+      "sellRate": 13,
+      "totalDays": 49.5,
+      "soldCount": 3,
+      "avgDaysToSell": 16.5
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13151,9 +13143,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 34.8,
+      "totalDays": 34.9,
       "soldCount": 1,
-      "avgDaysToSell": 34.8
+      "avgDaysToSell": 34.9
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13169,9 +13161,9 @@
       "soldAvg": 3107,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 83.3,
+      "totalDays": 83.69999999999999,
       "soldCount": 4,
-      "avgDaysToSell": 20.8
+      "avgDaysToSell": 20.9
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13187,9 +13179,9 @@
       "soldAvg": 5000,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 3.8,
+      "totalDays": 3.9,
       "soldCount": 1,
-      "avgDaysToSell": 3.8
+      "avgDaysToSell": 3.9
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13205,9 +13197,9 @@
       "soldAvg": 8499,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 3.8,
+      "totalDays": 3.9,
       "soldCount": 1,
-      "avgDaysToSell": 3.8
+      "avgDaysToSell": 3.9
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13240,9 +13232,9 @@
       "soldAvg": 2099,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 14.8,
+      "totalDays": 14.9,
       "soldCount": 1,
-      "avgDaysToSell": 14.8
+      "avgDaysToSell": 14.9
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -13377,9 +13369,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 60.099999999999994,
+      "totalDays": 60.4,
       "soldCount": 3,
-      "avgDaysToSell": 20
+      "avgDaysToSell": 20.1
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13390,23 +13382,6 @@
       "avg": 1600,
       "min": 1600,
       "max": 1600,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
-    "James Tyler|James Tyler Custom / Special Edition": {
-      "brand": "James Tyler",
-      "brandLine": "James Tyler Custom / Special Edition",
-      "tier": "ultra",
-      "count": 1,
-      "sum": 6900,
-      "avg": 6900,
-      "min": 6900,
-      "max": 6900,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
@@ -13446,9 +13421,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 26.7,
+      "totalDays": 26.8,
       "soldCount": 1,
-      "avgDaysToSell": 26.7
+      "avgDaysToSell": 26.8
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13515,9 +13490,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 229.4,
+      "totalDays": 229.5,
       "soldCount": 2,
-      "avgDaysToSell": 114.7
+      "avgDaysToSell": 114.8
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -13567,9 +13542,9 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 54.1,
+      "totalDays": 54.3,
       "soldCount": 2,
-      "avgDaysToSell": 27.1
+      "avgDaysToSell": 27.2
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13585,9 +13560,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 26.8,
+      "totalDays": 26.9,
       "soldCount": 1,
-      "avgDaysToSell": 26.8
+      "avgDaysToSell": 26.9
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13603,9 +13578,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 26.7,
+      "totalDays": 26.8,
       "soldCount": 1,
-      "avgDaysToSell": 26.7
+      "avgDaysToSell": 26.8
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13633,7 +13608,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 103
+    "avgShippingCost": 104
   },
   "watcherDemand": [
     {
@@ -13644,9 +13619,9 @@
     },
     {
       "label": "1–5",
-      "total": 17,
-      "sold": 2,
-      "rate": 12
+      "total": 18,
+      "sold": 3,
+      "rate": 17
     },
     {
       "label": "6–15",
@@ -13656,7 +13631,7 @@
     },
     {
       "label": "16–30",
-      "total": 73,
+      "total": 71,
       "sold": 18,
       "rate": 25
     },
@@ -13669,24 +13644,24 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 175,
       "sold": 47,
       "rate": 27
     },
     "off": {
-      "total": 49,
-      "sold": 10,
-      "rate": 20
+      "total": 50,
+      "sold": 11,
+      "rate": 22
     }
   },
   "sellerType": {
     "preferred": {
       "total": 115,
-      "sold": 19,
+      "sold": 20,
       "rate": 17
     },
     "regular": {
-      "total": 98,
+      "total": 97,
       "sold": 29,
       "rate": 30
     }
@@ -13753,10 +13728,10 @@
       "rate": 29
     },
     {
-      "state": "MA",
+      "state": "MO",
       "total": 5,
-      "sold": 1,
-      "rate": 20
+      "sold": 4,
+      "rate": 80
     },
     {
       "state": "MD",
@@ -13783,10 +13758,10 @@
       "rate": 0
     },
     {
-      "state": "MO",
+      "state": "MA",
       "total": 4,
-      "sold": 3,
-      "rate": 75
+      "sold": 1,
+      "rate": 25
     },
     {
       "state": "MI",
@@ -13813,12 +13788,6 @@
       "rate": 33
     },
     {
-      "state": "CO",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
-    },
-    {
       "state": "CT",
       "total": 3,
       "sold": 2,
@@ -13838,6 +13807,12 @@
     },
     {
       "state": "WY",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "CO",
       "total": 2,
       "sold": 0,
       "rate": 0
