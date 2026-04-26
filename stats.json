@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T03:25:26.897Z",
+  "generatedAt": "2026-04-26T04:10:01.157Z",
   "totalLinks": 306,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,18 +7,18 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1087158.27,
-    "avg": 3612,
+    "sum": 1084913.27,
+    "avg": 3604,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 762179.28,
-    "avg": 2637,
+    "sum": 759934.28,
+    "avg": 2630,
     "min": 33,
     "max": 8300,
-    "median": 2250
+    "median": 2200
   },
   "outliers": {
     "thresholdHigh": 8302,
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 496065.92,
+      "sum": 493820.92,
       "min": 70,
       "max": 15500,
-      "avg": 2901
+      "avg": 2888
     },
     "2026-03": {
       "count": 130,
@@ -140,34 +140,34 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 268,
-      "sum": 805646.36,
+      "count": 269,
+      "sum": 807396.36,
       "min": 33,
       "max": 35900,
-      "avg": 3006
+      "avg": 3001
     },
     "marketplace": {
-      "count": 33,
-      "sum": 281511.91,
+      "count": 32,
+      "sum": 277516.91,
       "min": 143.99,
       "max": 99000,
-      "avg": 8531
+      "avg": 8672
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 268,
-      "sum": 805646.36,
+      "count": 269,
+      "sum": 807396.36,
       "min": 33,
       "max": 35900,
-      "avg": 3006
+      "avg": 3001
     },
     "chicagomusicexchange.com": {
-      "count": 17,
-      "sum": 228230.99,
+      "count": 16,
+      "sum": 224235.99,
       "min": 995,
       "max": 99000,
-      "avg": 13425
+      "avg": 14015
     },
     "guitarcenter.com": {
       "count": 9,
@@ -227,6 +227,53 @@
     }
   },
   "byModel": {
+    "gretsch-corvette": {
+      "displayName": "Gretsch 6132 Corvette 1962  - Cherry",
+      "brand": "Gretsch",
+      "model": "Corvette",
+      "variant": null,
+      "count": 2,
+      "sum": 2625,
+      "min": 875,
+      "max": 1750,
+      "sightings": [
+        {
+          "price": 875,
+          "date": "2026-04-25T23:12:46.217Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
+          "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
+          "condition": "Good"
+        },
+        {
+          "price": 1750,
+          "date": "2026-04-26T04:09:45.126Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch 6132 Corvette 1962  - Cherry",
+          "url": "https://reverb.com/item/94344583-gretsch-6132-corvette-1962-cherry",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1750,
+          "min": 1750,
+          "max": 1750,
+          "avg": 1750
+        },
+        "Good": {
+          "count": 1,
+          "sum": 875,
+          "min": 875,
+          "max": 875,
+          "avg": 875
+        }
+      },
+      "avg": 1313
+    },
     "fryette-ps2-power-station": {
       "displayName": "Fryette PS‑2 Power Station Integrated Reactance Amplifier 2010s - Silver",
       "brand": "Fryette",
@@ -500,37 +547,6 @@
         }
       },
       "avg": 900
-    },
-    "gretsch-corvette": {
-      "displayName": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
-      "brand": "Gretsch",
-      "model": "Corvette",
-      "variant": null,
-      "count": 1,
-      "sum": 875,
-      "min": 875,
-      "max": 875,
-      "sightings": [
-        {
-          "price": 875,
-          "date": "2026-04-25T23:12:46.217Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
-          "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 875,
-          "min": 875,
-          "max": 875,
-          "avg": 875
-        }
-      },
-      "avg": 875
     },
     "hiwatt-dr504": {
       "displayName": "Hiwatt Dr504 1982 - Black",
@@ -5438,52 +5454,6 @@
       },
       "avg": 2995
     },
-    "martin-standard": {
-      "displayName": "Martin Standard Series D-42 Natural 2021",
-      "brand": "Martin",
-      "model": "Standard",
-      "variant": null,
-      "count": 1,
-      "sum": 3995,
-      "min": 3995,
-      "max": 3995,
-      "sightings": [
-        {
-          "price": 3995,
-          "date": "2026-04-18T20:23:21.231Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Martin Standard Series D-42 Natural 2021",
-          "url": "https://www.chicagomusicexchange.com/collections/new-arrivals/products/martin-standard-series-d-42-natural-2021-2540947",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 3995,
-          "min": 3995,
-          "max": 3995,
-          "avg": 3995
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 3995,
-        "min": 3995,
-        "max": 3995,
-        "prices": [
-          {
-            "price": 3995,
-            "askingPrice": 3995,
-            "date": "2026-04-21T22:39:24.214Z",
-            "title": "Martin Standard Series D-42 Natural 2021",
-            "url": "https://www.chicagomusicexchange.com/collections/new-arrivals/products/martin-standard-series-d-42-natural-2021-2540947"
-          }
-        ]
-      },
-      "avg": 3995
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9676,8 +9646,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 78,
-      "sum": 206763.55999999994,
+      "count": 79,
+      "sum": 208513.55999999994,
       "sold": {
         "count": 23,
         "sum": 49956.85999999999,
@@ -9685,7 +9655,7 @@
         "min": 475,
         "max": 5500
       },
-      "avg": 2651,
+      "avg": 2639,
       "min": 33,
       "max": 15500
     },
@@ -9729,13 +9699,13 @@
       "max": 900
     },
     "Used": {
-      "count": 16,
-      "sum": 125834.93000000001,
+      "count": 15,
+      "sum": 121839.93000000001,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 7865,
+      "avg": 8123,
       "min": 143.99,
       "max": 99000
     },
@@ -9804,7 +9774,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2901,
+      "avg": 2888,
       "count": 171
     },
     "03": {
@@ -9958,34 +9928,39 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 26,
-    "1k-2k": 85,
+    "1k-2k": 86,
     "2k-3k": 74,
-    "3k-5k": 60,
+    "3k-5k": 59,
     "5k-10k": 34,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 26,
-    "1k-2k": 85,
+    "1k-2k": 86,
     "2k-3k": 74,
-    "3k-5k": 60,
+    "3k-5k": 59,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gretsch": {
+      "sum": 107,
+      "count": 2,
+      "avg": 54
+    },
     "Fryette": {
       "sum": 4,
       "count": 1,
       "avg": 4
     },
     "PRS": {
-      "sum": 249,
+      "sum": 250,
       "count": 20,
-      "avg": 12
+      "avg": 13
     },
     "Kiesel": {
-      "sum": 268,
+      "sum": 269,
       "count": 13,
       "avg": 21
     },
@@ -10115,9 +10090,9 @@
       "avg": 15
     },
     "Martin": {
-      "sum": 36,
-      "count": 3,
-      "avg": 12
+      "sum": 29,
+      "count": 2,
+      "avg": 15
     },
     "Luxxtone": {
       "sum": 31,
@@ -10145,9 +10120,9 @@
       "avg": 3
     },
     "Seger": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Duesenberg": {
       "sum": 4,
@@ -10305,9 +10280,9 @@
       "avg": 30
     },
     "Framus": {
-      "sum": 30,
+      "sum": 31,
       "count": 1,
-      "avg": 30
+      "avg": 31
     },
     "Danocaster": {
       "sum": 30,
@@ -10349,20 +10324,15 @@
       "count": 2,
       "avg": 27
     },
-    "Gretsch": {
-      "sum": 26,
-      "count": 1,
-      "avg": 26
-    },
     "Arcane": {
       "sum": 26,
       "count": 1,
       "avg": 26
     },
     "Cornish": {
-      "sum": 41,
+      "sum": 42,
       "count": 1,
-      "avg": 41
+      "avg": 42
     },
     "Lollar": {
       "sum": 26,
@@ -10370,18 +10340,18 @@
       "avg": 26
     },
     "Suhr": {
-      "sum": 25,
+      "sum": 26,
       "count": 1,
-      "avg": 25
+      "avg": 26
     },
     "Xotic": {
-      "sum": 25,
+      "sum": 26,
       "count": 1,
-      "avg": 25
+      "avg": 26
     }
   },
   "listingsPerDay": {
-    "2026-04-26": 6,
+    "2026-04-26": 7,
     "2026-04-25": 22,
     "2026-04-24": 35,
     "2026-04-23": 33,
@@ -10389,7 +10359,7 @@
     "2026-04-21": 22,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 5,
+    "2026-04-18": 4,
     "2026-03-28": 35,
     "2026-03-27": 23,
     "2026-03-29": 17,
@@ -10397,10 +10367,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 268,
-    "marketplace": 38
+    "reverb": 269,
+    "marketplace": 37
   },
-  "activeModelsCount": 250,
+  "activeModelsCount": 249,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10415,15 +10385,15 @@
       "count": 35
     },
     {
+      "username": "Madero",
+      "count": 22
+    },
+    {
       "username": "jazee_",
       "count": 22
     },
     {
       "username": "Shteefe",
-      "count": 22
-    },
-    {
-      "username": "Madero",
       "count": 21
     },
     {
@@ -10449,12 +10419,12 @@
       "count": 34
     },
     {
-      "username": "Shteefe",
+      "username": "greg1213",
       "count": 9
     },
     {
-      "username": "greg1213",
-      "count": 9
+      "username": "Shteefe",
+      "count": 8
     },
     {
       "username": "Modean",
@@ -10487,7 +10457,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2901,
+    "avg": 2888,
     "pctBelowAvg": 20,
     "count": 171
   },
@@ -10531,17 +10501,17 @@
     }
   },
   "soldPrices": {
-    "count": 74,
-    "avg": 3220,
+    "count": 73,
+    "avg": 3209,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 744.1999999999999,
-      "count": 72,
-      "avgDays": 10.3
+      "totalDays": 741.0999999999999,
+      "count": 71,
+      "avgDays": 10.4
     },
     "byModel": {
       "gibson-sg-custom-custom-shop-limited-edition": {
@@ -10727,14 +10697,6 @@
         "fastest": 5.2,
         "slowest": 5.2,
         "avgDays": 5.2
-      },
-      "martin-standard": {
-        "displayName": "Martin Standard Series D-42 Natural 2021",
-        "totalDays": 3.1,
-        "count": 1,
-        "fastest": 3.1,
-        "slowest": 3.1,
-        "avgDays": 3.1
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11171,13 +11133,6 @@
         "slowest": 5.2,
         "avgDays": 5.2
       },
-      "Martin": {
-        "totalDays": 5.1,
-        "count": 2,
-        "fastest": 2,
-        "slowest": 3.1,
-        "avgDays": 2.6
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -11268,6 +11223,13 @@
         "fastest": 0.2,
         "slowest": 0.2,
         "avgDays": 0.2
+      },
+      "Martin": {
+        "totalDays": 2,
+        "count": 1,
+        "fastest": 2,
+        "slowest": 2,
+        "avgDays": 2
       },
       "Millimetric": {
         "totalDays": 4.9,
@@ -11442,13 +11404,21 @@
   "sellThrough": {
     "overall": {
       "total": 287,
-      "sold": 69,
+      "sold": 68,
       "fake": 0,
-      "live": 218,
+      "live": 219,
       "soldPct": 24,
       "livePct": 76
     },
     "byBrand": {
+      "Gretsch": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Fryette": {
         "total": 1,
         "sold": 0,
@@ -11488,14 +11458,6 @@
         "live": 8,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gretsch": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 50,
-        "livePct": 50
       },
       "Hiwatt": {
         "total": 1,
@@ -11706,12 +11668,12 @@
         "livePct": 50
       },
       "Martin": {
-        "total": 3,
-        "sold": 2,
+        "total": 2,
+        "sold": 1,
         "fake": 0,
         "live": 1,
-        "soldPct": 67,
-        "livePct": 33
+        "soldPct": 50,
+        "livePct": 50
       },
       "Luxxtone": {
         "total": 2,
@@ -12153,7 +12115,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 85,
+        "total": 86,
         "sold": 23,
         "rate": 27
       },
@@ -12165,9 +12127,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 60,
-        "sold": 16,
-        "rate": 27
+        "total": 59,
+        "sold": 15,
+        "rate": 25
       },
       {
         "label": "$5k–10k",
@@ -12184,7 +12146,7 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 78,
+        "total": 79,
         "sold": 23,
         "rate": 29
       },
@@ -12204,9 +12166,9 @@
         "rate": 0
       },
       "Used": {
-        "total": 16,
-        "sold": 2,
-        "rate": 13
+        "total": 15,
+        "sold": 1,
+        "rate": 7
       },
       "Brand New": {
         "total": 25,
@@ -12596,7 +12558,7 @@
         "condition": "Mint",
         "watchers": 78,
         "views": 3250,
-        "daysListed": 2130,
+        "daysListed": 2131,
         "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12830,6 +12792,23 @@
     ]
   },
   "byBrandLine": {
+    "Gretsch|Gretsch Professional": {
+      "brand": "Gretsch",
+      "brandLine": "Gretsch Professional",
+      "tier": "premium",
+      "count": 1,
+      "sum": 1750,
+      "avg": 1750,
+      "min": 1750,
+      "max": 1750,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -12844,7 +12823,7 @@
       "soldAvg": 2666,
       "live": 9,
       "sellRate": 40,
-      "totalDays": 122.70000000000002,
+      "totalDays": 122.9,
       "soldCount": 6,
       "avgDaysToSell": 20.5
     },
@@ -12862,9 +12841,9 @@
       "soldAvg": 1488,
       "live": 7,
       "sellRate": 42,
-      "totalDays": 130.20000000000002,
+      "totalDays": 130.3,
       "soldCount": 5,
-      "avgDaysToSell": 26
+      "avgDaysToSell": 26.1
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -12880,7 +12859,7 @@
       "soldAvg": 3800,
       "live": 22,
       "sellRate": 12,
-      "totalDays": 47.699999999999996,
+      "totalDays": 47.8,
       "soldCount": 3,
       "avgDaysToSell": 15.9
     },
@@ -12933,9 +12912,9 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 91.6,
+      "totalDays": 91.69999999999999,
       "soldCount": 3,
-      "avgDaysToSell": 30.5
+      "avgDaysToSell": 30.6
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -13073,9 +13052,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 27.2,
+      "totalDays": 27.3,
       "soldCount": 1,
-      "avgDaysToSell": 27.2
+      "avgDaysToSell": 27.3
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13091,9 +13070,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 2.6,
+      "totalDays": 2.7,
       "soldCount": 1,
-      "avgDaysToSell": 2.6
+      "avgDaysToSell": 2.7
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13505,9 +13484,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 58.599999999999994,
+      "totalDays": 58.699999999999996,
       "soldCount": 3,
-      "avgDaysToSell": 19.5
+      "avgDaysToSell": 19.6
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13660,9 +13639,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 228.4,
+      "totalDays": 228.5,
       "soldCount": 2,
-      "avgDaysToSell": 114.2
+      "avgDaysToSell": 114.3
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -13712,7 +13691,7 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 53.1,
+      "totalDays": 53.2,
       "soldCount": 2,
       "avgDaysToSell": 26.6
     },
@@ -13807,14 +13786,14 @@
     },
     {
       "label": "31+",
-      "total": 61,
+      "total": 62,
       "sold": 14,
       "rate": 23
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 176,
+      "total": 177,
       "sold": 48,
       "rate": 27
     },
@@ -13826,7 +13805,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 116,
+      "total": 117,
       "sold": 20,
       "rate": 17
     },
@@ -13880,16 +13859,16 @@
       "rate": 10
     },
     {
+      "state": "TN",
+      "total": 9,
+      "sold": 3,
+      "rate": 33
+    },
+    {
       "state": "TX",
       "total": 9,
       "sold": 4,
       "rate": 44
-    },
-    {
-      "state": "TN",
-      "total": 8,
-      "sold": 3,
-      "rate": 38
     },
     {
       "state": "NC",
