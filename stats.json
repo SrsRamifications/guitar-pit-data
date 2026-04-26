@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T02:53:26.528Z",
+  "generatedAt": "2026-04-26T02:54:45.580Z",
   "totalLinks": 306,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1091423.27,
-    "avg": 3626,
+    "sum": 1087224.27,
+    "avg": 3612,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 766444.28,
-    "avg": 2652,
+    "sum": 762245.28,
+    "avg": 2638,
     "min": 33,
     "max": 8300,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 8450,
+    "thresholdHigh": 8302,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 500330.92,
+      "sum": 496131.92,
       "min": 70,
       "max": 15500,
-      "avg": 2926
+      "avg": 2901
     },
     "2026-03": {
       "count": 130,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 268,
-      "sum": 809911.36,
+      "sum": 805712.36,
       "min": 33,
       "max": 35900,
-      "avg": 3022
+      "avg": 3006
     },
     "marketplace": {
       "count": 33,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 268,
-      "sum": 809911.36,
+      "sum": 805712.36,
       "min": 33,
       "max": 35900,
-      "avg": 3022
+      "avg": 3006
     },
     "chicagomusicexchange.com": {
       "count": 17,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "fryette-ps2-power-station": {
+      "displayName": "Fryette PS‑2 Power Station Integrated Reactance Amplifier 2010s - Silver",
+      "brand": "Fryette",
+      "model": "PS‑2 Power Station",
+      "variant": null,
+      "count": 1,
+      "sum": 800,
+      "min": 800,
+      "max": 800,
+      "sightings": [
+        {
+          "price": 800,
+          "date": "2026-04-26T02:54:31.290Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fryette PS‑2 Power Station Integrated Reactance Amplifier 2010s - Silver",
+          "url": "https://reverb.com/item/96269898",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 800,
+          "min": 800,
+          "max": 800,
+          "avg": 800
+        }
+      },
+      "avg": 800
+    },
     "prs-santana-signature-10-top": {
       "displayName": "PRS Santana Signature Retro 10-Top 2024 - Present - Orange",
       "brand": "PRS",
@@ -5453,37 +5484,6 @@
       },
       "avg": 3995
     },
-    "seger-double-cut-8-string": {
-      "displayName": "Seger Double Cut 8 String 2020 - Sunburst",
-      "brand": "Seger",
-      "model": "Double Cut",
-      "variant": "8 String",
-      "count": 1,
-      "sum": 4999,
-      "min": 4999,
-      "max": 4999,
-      "sightings": [
-        {
-          "price": 4999,
-          "date": "2026-04-18T20:06:47.761Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Seger Double Cut 8 String 2020 - Sunburst",
-          "url": "https://reverb.com/item/83137108-seger-double-cut-8-string-2020-sunburst",
-          "condition": "Mint"
-        }
-      ],
-      "byCondition": {
-        "Mint": {
-          "count": 1,
-          "sum": 4999,
-          "min": 4999,
-          "max": 4999,
-          "avg": 4999
-        }
-      },
-      "avg": 4999
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9675,6 +9675,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 78,
+      "sum": 206763.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 49956.85999999999,
+        "avg": 2172,
+        "min": 475,
+        "max": 5500
+      },
+      "avg": 2651,
+      "min": 33,
+      "max": 15500
+    },
     "Excellent": {
       "count": 110,
       "sum": 385670.73,
@@ -9688,20 +9702,6 @@
       "avg": 3506,
       "min": 190,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 77,
-      "sum": 205963.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 49956.85999999999,
-        "avg": 2172,
-        "min": 475,
-        "max": 5500
-      },
-      "avg": 2675,
-      "min": 33,
-      "max": 15500
     },
     "Good": {
       "count": 52,
@@ -9754,13 +9754,13 @@
       "max": 14670
     },
     "Mint": {
-      "count": 6,
-      "sum": 17328,
+      "count": 5,
+      "sum": 12329,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 2888,
+      "avg": 2466,
       "min": 1050,
       "max": 5000
     },
@@ -9804,7 +9804,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2926,
+      "avg": 2901,
       "count": 171
     },
     "03": {
@@ -9957,23 +9957,28 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 25,
+    "500-1k": 26,
     "1k-2k": 85,
     "2k-3k": 74,
-    "3k-5k": 61,
+    "3k-5k": 60,
     "5k-10k": 34,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 25,
+    "500-1k": 26,
     "1k-2k": 85,
     "2k-3k": 74,
-    "3k-5k": 61,
+    "3k-5k": 60,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Fryette": {
+      "sum": 4,
+      "count": 1,
+      "avg": 4
+    },
     "PRS": {
       "sum": 248,
       "count": 20,
@@ -10376,7 +10381,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-26": 5,
+    "2026-04-26": 6,
     "2026-04-25": 22,
     "2026-04-24": 35,
     "2026-04-23": 33,
@@ -10384,7 +10389,7 @@
     "2026-04-21": 22,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 6,
+    "2026-04-18": 5,
     "2026-03-28": 35,
     "2026-03-27": 23,
     "2026-03-29": 17,
@@ -10407,15 +10412,15 @@
     },
     {
       "username": "YellowJack6",
-      "count": 36
+      "count": 35
+    },
+    {
+      "username": "jazee_",
+      "count": 22
     },
     {
       "username": "Shteefe",
       "count": 22
-    },
-    {
-      "username": "jazee_",
-      "count": 21
     },
     {
       "username": "Madero",
@@ -10482,8 +10487,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2926,
-    "pctBelowAvg": 19,
+    "avg": 2901,
+    "pctBelowAvg": 20,
     "count": 171
   },
   "topVoted": [],
@@ -11282,9 +11287,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1045.4852682546896,
-      "count": 57,
-      "avgPctDrop": 18.3
+      "totalPctDrop": 1036.392705970638,
+      "count": 56,
+      "avgPctDrop": 18.5
     },
     "byBrand": {
       "Gretsch": {
@@ -11377,11 +11382,6 @@
         "count": 1,
         "avgPctDrop": 4.2
       },
-      "Seger": {
-        "totalPctDrop": 9.092562284051645,
-        "count": 1,
-        "avgPctDrop": 9.1
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -11444,6 +11444,14 @@
       "livePct": 76
     },
     "byBrand": {
+      "Fryette": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 22,
         "sold": 7,
@@ -11757,10 +11765,10 @@
         "livePct": 100
       },
       "Seger": {
-        "total": 2,
+        "total": 1,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 1,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12134,9 +12142,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 25,
+        "total": 26,
         "sold": 4,
-        "rate": 16
+        "rate": 15
       },
       {
         "label": "$1k–2k",
@@ -12152,9 +12160,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 61,
+        "total": 60,
         "sold": 16,
-        "rate": 26
+        "rate": 27
       },
       {
         "label": "$5k–10k",
@@ -12170,15 +12178,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 78,
+        "sold": 23,
+        "rate": 29
+      },
       "Excellent": {
         "total": 110,
         "sold": 34,
         "rate": 31
-      },
-      "Very Good": {
-        "total": 77,
-        "sold": 23,
-        "rate": 30
       },
       "Good": {
         "total": 52,
@@ -12201,7 +12209,7 @@
         "rate": 16
       },
       "Mint": {
-        "total": 6,
+        "total": 5,
         "sold": 0,
         "rate": 0
       },
@@ -12645,20 +12653,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "Seger Double Cut 8 String 2020 - Sunburst",
-        "url": "https://reverb.com/item/83137108-seger-double-cut-8-string-2020-sunburst",
-        "price": "$4,999",
-        "priceNum": 4999,
-        "brand": "Seger",
-        "condition": "Mint",
-        "watchers": 40,
-        "views": 1155,
-        "daysListed": 671,
-        "image": "https://rvb-img.reverb.com/i/s--tQmbNt8H--/quality=medium-low,height=800,width=800,fit=contain/xqu2dk9c8r0vsh33086t.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Dean USA Patents Pending ML Classic Black - Open Box",
         "url": "https://reverb.com/item/85732695-dean-usa-patents-pending-ml-classic-black-open-box",
         "price": "$2,480",
@@ -12783,6 +12777,20 @@
         "image": "https://rvb-img.reverb.com/i/s--fh5w0q2q--/quality=medium-low,height=800,width=800,fit=contain/ijlhhjakc14uyuyq07mf.jpg",
         "modelAvg": null,
         "pctVsAvg": null
+      },
+      {
+        "title": "PRS Standard 24 Satin in Frost Blue Metallic",
+        "url": "https://reverb.com/item/91224791-prs-standard-24-satin-in-frost-blue-metallic",
+        "price": "$3,500",
+        "priceNum": 3500,
+        "brand": "PRS",
+        "condition": "Brand New",
+        "watchers": 10,
+        "views": 231,
+        "daysListed": 298,
+        "image": "https://rvb-img.reverb.com/i/s--dAQavLOD--/quality=medium-low,height=800,width=800,fit=contain/yeszser56hkgrckrbnfw.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -12849,7 +12857,7 @@
       "soldAvg": 1488,
       "live": 7,
       "sellRate": 42,
-      "totalDays": 130,
+      "totalDays": 130.1,
       "soldCount": 5,
       "avgDaysToSell": 26
     },
@@ -13284,7 +13292,7 @@
       "soldAvg": 3107,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 81.2,
+      "totalDays": 81.3,
       "soldCount": 4,
       "avgDaysToSell": 20.3
     },
@@ -13759,7 +13767,7 @@
   },
   "offerActivity": {
     "withOffers": 77,
-    "totalOffers": 158,
+    "totalOffers": 164,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 66
   },
@@ -13788,15 +13796,15 @@
     },
     {
       "label": "16–30",
-      "total": 72,
+      "total": 73,
       "sold": 18,
       "rate": 25
     },
     {
       "label": "31+",
-      "total": 60,
+      "total": 59,
       "sold": 14,
-      "rate": 23
+      "rate": 24
     }
   ],
   "offersEffect": {
@@ -13813,12 +13821,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 117,
+      "total": 116,
       "sold": 20,
       "rate": 17
     },
     "regular": {
-      "total": 96,
+      "total": 97,
       "sold": 30,
       "rate": 31
     }
@@ -13838,7 +13846,7 @@
     },
     {
       "state": "WA",
-      "total": 15,
+      "total": 14,
       "sold": 1,
       "rate": 7
     },
@@ -13897,6 +13905,12 @@
       "rate": 0
     },
     {
+      "state": "OH",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "AL",
       "total": 4,
       "sold": 1,
@@ -13949,12 +13963,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "OH",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "NM",
