@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T04:10:01.157Z",
+  "generatedAt": "2026-04-26T05:34:17.844Z",
   "totalLinks": 306,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1084913.27,
-    "avg": 3604,
+    "sum": 1082818.27,
+    "avg": 3597,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 759934.28,
-    "avg": 2630,
+    "sum": 757839.28,
+    "avg": 2622,
     "min": 33,
     "max": 8300,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 8302,
+    "thresholdHigh": 8327,
     "thresholdLow": 0,
     "count": 12,
     "items": [
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 493820.92,
+      "sum": 491725.92,
       "min": 70,
       "max": 15500,
-      "avg": 2888
+      "avg": 2876
     },
     "2026-03": {
       "count": 130,
@@ -140,34 +140,34 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 269,
-      "sum": 807396.36,
+      "count": 270,
+      "sum": 808296.36,
       "min": 33,
       "max": 35900,
-      "avg": 3001
+      "avg": 2994
     },
     "marketplace": {
-      "count": 32,
-      "sum": 277516.91,
+      "count": 31,
+      "sum": 274521.91,
       "min": 143.99,
       "max": 99000,
-      "avg": 8672
+      "avg": 8856
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 269,
-      "sum": 807396.36,
+      "count": 270,
+      "sum": 808296.36,
       "min": 33,
       "max": 35900,
-      "avg": 3001
+      "avg": 2994
     },
     "chicagomusicexchange.com": {
-      "count": 16,
-      "sum": 224235.99,
+      "count": 15,
+      "sum": 221240.99,
       "min": 995,
       "max": 99000,
-      "avg": 14015
+      "avg": 14749
     },
     "guitarcenter.com": {
       "count": 9,
@@ -227,6 +227,68 @@
     }
   },
   "byModel": {
+    "kiesel-dc127": {
+      "displayName": "Carvin DC127 - Neck Thru - Double Cut - Tung Oil",
+      "brand": "Kiesel",
+      "model": "DC127",
+      "variant": null,
+      "count": 2,
+      "sum": 2100,
+      "min": 900,
+      "max": 1200,
+      "sightings": [
+        {
+          "price": 1200,
+          "date": "2026-04-20T19:24:05.762Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel-Carvin DC127 Cherryburst Flame",
+          "url": "https://reverb.com/item/96203622-kiesel-carvin-dc127-cherryburst-flame",
+          "condition": "Excellent"
+        },
+        {
+          "price": 900,
+          "date": "2026-04-26T05:34:02.716Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Carvin DC127 - Neck Thru - Double Cut - Tung Oil",
+          "url": "https://reverb.com/item/82682387-carvin-dc127-neck-thru-double-cut-tung-oil",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 900,
+          "min": 900,
+          "max": 900,
+          "avg": 900
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 1200,
+          "min": 1200,
+          "max": 1200,
+          "avg": 1200
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1200,
+        "min": 1200,
+        "max": 1200,
+        "prices": [
+          {
+            "price": 1200,
+            "askingPrice": 1200,
+            "date": "2026-04-20T19:59:06.766Z",
+            "title": "Kiesel-Carvin DC127 Cherryburst Flame",
+            "url": "https://reverb.com/item/96203622-kiesel-carvin-dc127-cherryburst-flame"
+          }
+        ]
+      },
+      "avg": 1050
+    },
     "gretsch-corvette": {
       "displayName": "Gretsch 6132 Corvette 1962  - Cherry",
       "brand": "Gretsch",
@@ -4729,52 +4791,6 @@
       },
       "avg": 650
     },
-    "kiesel-dc127": {
-      "displayName": "Kiesel-Carvin DC127 Cherryburst Flame",
-      "brand": "Kiesel",
-      "model": "DC127",
-      "variant": null,
-      "count": 1,
-      "sum": 1200,
-      "min": 1200,
-      "max": 1200,
-      "sightings": [
-        {
-          "price": 1200,
-          "date": "2026-04-20T19:24:05.762Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel-Carvin DC127 Cherryburst Flame",
-          "url": "https://reverb.com/item/96203622-kiesel-carvin-dc127-cherryburst-flame",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1200,
-          "min": 1200,
-          "max": 1200,
-          "avg": 1200
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1200,
-        "min": 1200,
-        "max": 1200,
-        "prices": [
-          {
-            "price": 1200,
-            "askingPrice": 1200,
-            "date": "2026-04-20T19:59:06.766Z",
-            "title": "Kiesel-Carvin DC127 Cherryburst Flame",
-            "url": "https://reverb.com/item/96203622-kiesel-carvin-dc127-cherryburst-flame"
-          }
-        ]
-      },
-      "avg": 1200
-    },
     "warmoth-telecaster": {
       "displayName": "Warmoth Tele Style Body – 2-Piece Swamp Ash – Unfinished",
       "brand": "Warmoth",
@@ -5407,52 +5423,6 @@
         }
       },
       "avg": 2250
-    },
-    "yamaha-fs9": {
-      "displayName": "Yamaha FS9 R Natural",
-      "brand": "Yamaha",
-      "model": "FS9",
-      "variant": null,
-      "count": 1,
-      "sum": 2995,
-      "min": 2995,
-      "max": 2995,
-      "sightings": [
-        {
-          "price": 2995,
-          "date": "2026-04-18T20:30:13.250Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Yamaha FS9 R Natural",
-          "url": "https://www.chicagomusicexchange.com/collections/new-arrivals/products/yamaha-fs9-r-natural-2539645",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 2995,
-          "min": 2995,
-          "max": 2995,
-          "avg": 2995
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2995,
-        "min": 2995,
-        "max": 2995,
-        "prices": [
-          {
-            "price": 2995,
-            "askingPrice": 2995,
-            "date": "2026-04-24T01:37:51.299Z",
-            "title": "Yamaha FS9 R Natural",
-            "url": "https://www.chicagomusicexchange.com/collections/new-arrivals/products/yamaha-fs9-r-natural-2539645"
-          }
-        ]
-      },
-      "avg": 2995
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -9645,6 +9615,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 53,
+      "sum": 124973.95,
+      "sold": {
+        "count": 7,
+        "sum": 13955.48,
+        "avg": 1994,
+        "min": 650,
+        "max": 4777.5
+      },
+      "avg": 2358,
+      "min": 70,
+      "max": 11475
+    },
     "Very Good": {
       "count": 79,
       "sum": 208513.55999999994,
@@ -9673,20 +9657,6 @@
       "min": 190,
       "max": 35900
     },
-    "Good": {
-      "count": 52,
-      "sum": 124073.95,
-      "sold": {
-        "count": 7,
-        "sum": 13955.48,
-        "avg": 1994,
-        "min": 650,
-        "max": 4777.5
-      },
-      "avg": 2386,
-      "min": 70,
-      "max": 11475
-    },
     "Non Functioning": {
       "count": 1,
       "sum": 900,
@@ -9699,13 +9669,13 @@
       "max": 900
     },
     "Used": {
-      "count": 15,
-      "sum": 121839.93000000001,
+      "count": 14,
+      "sum": 118844.93000000001,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 8123,
+      "avg": 8489,
       "min": 143.99,
       "max": 99000
     },
@@ -9774,7 +9744,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2888,
+      "avg": 2876,
       "count": 171
     },
     "03": {
@@ -9927,18 +9897,18 @@
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 26,
+    "500-1k": 27,
     "1k-2k": 86,
-    "2k-3k": 74,
+    "2k-3k": 73,
     "3k-5k": 59,
     "5k-10k": 34,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 26,
+    "500-1k": 27,
     "1k-2k": 86,
-    "2k-3k": 74,
+    "2k-3k": 73,
     "3k-5k": 59,
     "5k-10k": 30,
     "10k+": 0
@@ -9955,17 +9925,17 @@
       "avg": 4
     },
     "PRS": {
-      "sum": 250,
+      "sum": 252,
       "count": 20,
       "avg": 13
     },
     "Kiesel": {
-      "sum": 269,
+      "sum": 271,
       "count": 13,
       "avg": 21
     },
     "BC Rich": {
-      "sum": 256,
+      "sum": 259,
       "count": 21,
       "avg": 12
     },
@@ -9980,19 +9950,19 @@
       "avg": 10
     },
     "Vintage": {
-      "sum": 110,
+      "sum": 112,
       "count": 7,
       "avg": 16
     },
     "Gibson": {
-      "sum": 498,
+      "sum": 499,
       "count": 30,
       "avg": 17
     },
     "Vigier": {
-      "sum": 14,
+      "sum": 15,
       "count": 2,
-      "avg": 7
+      "avg": 8
     },
     "Peavey": {
       "sum": 31,
@@ -10005,7 +9975,7 @@
       "avg": 14
     },
     "Fender": {
-      "sum": 210,
+      "sum": 211,
       "count": 17,
       "avg": 12
     },
@@ -10030,7 +10000,7 @@
       "avg": 1
     },
     "Ibanez": {
-      "sum": 349,
+      "sum": 350,
       "count": 17,
       "avg": 21
     },
@@ -10055,9 +10025,9 @@
       "avg": 1
     },
     "Aristides": {
-      "sum": 1,
+      "sum": 2,
       "count": 1,
-      "avg": 1
+      "avg": 2
     },
     "PGM Moon": {
       "sum": 2,
@@ -10065,9 +10035,9 @@
       "avg": 2
     },
     "Yamaha": {
-      "sum": 78,
-      "count": 6,
-      "avg": 13
+      "sum": 71,
+      "count": 5,
+      "avg": 14
     },
     "Fodera": {
       "sum": 23,
@@ -10075,9 +10045,9 @@
       "avg": 23
     },
     "Rick Toone": {
-      "sum": 54,
+      "sum": 55,
       "count": 1,
-      "avg": 54
+      "avg": 55
     },
     "Guild": {
       "sum": 64,
@@ -10110,7 +10080,7 @@
       "avg": 25
     },
     "Hamer": {
-      "sum": 71,
+      "sum": 72,
       "count": 4,
       "avg": 18
     },
@@ -10155,14 +10125,14 @@
       "avg": 52
     },
     "Knaggs": {
-      "sum": 90,
+      "sum": 91,
       "count": 3,
       "avg": 30
     },
     "K-Line": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Robin": {
       "sum": 50,
@@ -10180,9 +10150,9 @@
       "avg": 50
     },
     "Novo": {
-      "sum": 52,
+      "sum": 53,
       "count": 2,
-      "avg": 26
+      "avg": 27
     },
     "Seymour Duncan": {
       "sum": 34,
@@ -10205,9 +10175,9 @@
       "avg": 8
     },
     "Friedman": {
-      "sum": 58,
+      "sum": 59,
       "count": 3,
-      "avg": 19
+      "avg": 20
     },
     "Ormsby": {
       "sum": 6,
@@ -10240,9 +10210,9 @@
       "avg": 29
     },
     "Fender Custom Shop": {
-      "sum": 58,
+      "sum": 59,
       "count": 2,
-      "avg": 29
+      "avg": 30
     },
     "Milkman": {
       "sum": 29,
@@ -10265,7 +10235,7 @@
       "avg": 29
     },
     "Patrick James Eggle": {
-      "sum": 57,
+      "sum": 58,
       "count": 2,
       "avg": 29
     },
@@ -10351,7 +10321,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-26": 7,
+    "2026-04-26": 8,
     "2026-04-25": 22,
     "2026-04-24": 35,
     "2026-04-23": 33,
@@ -10359,7 +10329,7 @@
     "2026-04-21": 22,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 4,
+    "2026-04-18": 3,
     "2026-03-28": 35,
     "2026-03-27": 23,
     "2026-03-29": 17,
@@ -10367,10 +10337,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 269,
-    "marketplace": 37
+    "reverb": 270,
+    "marketplace": 36
   },
-  "activeModelsCount": 249,
+  "activeModelsCount": 248,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10394,7 +10364,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 21
+      "count": 20
     },
     {
       "username": "scottcorgan",
@@ -10410,7 +10380,7 @@
     },
     {
       "username": "hibby_",
-      "count": 4
+      "count": 5
     }
   ],
   "topDealHunters": [
@@ -10424,7 +10394,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 8
+      "count": 7
     },
     {
       "username": "Modean",
@@ -10457,7 +10427,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2888,
+    "avg": 2876,
     "pctBelowAvg": 20,
     "count": 171
   },
@@ -10488,10 +10458,10 @@
       "count": 19
     },
     "Kiesel": {
-      "avgPrice": 1485,
+      "avgPrice": 1446,
       "retailEst": 1000,
-      "avgDiscount": -48.5,
-      "count": 14
+      "avgDiscount": -44.6,
+      "count": 15
     },
     "BC Rich": {
       "avgPrice": 2639,
@@ -10501,17 +10471,17 @@
     }
   },
   "soldPrices": {
-    "count": 73,
-    "avg": 3209,
+    "count": 72,
+    "avg": 3212,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 741.0999999999999,
-      "count": 71,
-      "avgDays": 10.4
+      "totalDays": 735.8999999999999,
+      "count": 70,
+      "avgDays": 10.5
     },
     "byModel": {
       "gibson-sg-custom-custom-shop-limited-edition": {
@@ -10689,14 +10659,6 @@
         "fastest": 323.4,
         "slowest": 323.4,
         "avgDays": 323.4
-      },
-      "yamaha-fs9": {
-        "displayName": "Yamaha FS9 R Natural",
-        "totalDays": 5.2,
-        "count": 1,
-        "fastest": 5.2,
-        "slowest": 5.2,
-        "avgDays": 5.2
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11126,13 +11088,6 @@
         "slowest": 323.4,
         "avgDays": 323.4
       },
-      "Yamaha": {
-        "totalDays": 5.2,
-        "count": 1,
-        "fastest": 5.2,
-        "slowest": 5.2,
-        "avgDays": 5.2
-      },
       "Parker": {
         "totalDays": 0.1,
         "count": 1,
@@ -11404,13 +11359,21 @@
   "sellThrough": {
     "overall": {
       "total": 287,
-      "sold": 68,
+      "sold": 67,
       "fake": 0,
-      "live": 219,
-      "soldPct": 24,
-      "livePct": 76
+      "live": 220,
+      "soldPct": 23,
+      "livePct": 77
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 15,
+        "sold": 6,
+        "fake": 0,
+        "live": 9,
+        "soldPct": 40,
+        "livePct": 60
+      },
       "Gretsch": {
         "total": 3,
         "sold": 1,
@@ -11434,14 +11397,6 @@
         "live": 15,
         "soldPct": 32,
         "livePct": 68
-      },
-      "Kiesel": {
-        "total": 14,
-        "sold": 6,
-        "fake": 0,
-        "live": 8,
-        "soldPct": 43,
-        "livePct": 57
       },
       "BC Rich": {
         "total": 22,
@@ -11620,12 +11575,12 @@
         "livePct": 100
       },
       "Yamaha": {
-        "total": 6,
-        "sold": 1,
+        "total": 5,
+        "sold": 0,
         "fake": 0,
         "live": 5,
-        "soldPct": 17,
-        "livePct": 83
+        "soldPct": 0,
+        "livePct": 100
       },
       "Fodera": {
         "total": 2,
@@ -12109,7 +12064,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 26,
+        "total": 27,
         "sold": 4,
         "rate": 15
       },
@@ -12121,9 +12076,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 74,
-        "sold": 21,
-        "rate": 28
+        "total": 73,
+        "sold": 20,
+        "rate": 27
       },
       {
         "label": "$3k–5k",
@@ -12145,6 +12100,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 53,
+        "sold": 7,
+        "rate": 13
+      },
       "Very Good": {
         "total": 79,
         "sold": 23,
@@ -12155,20 +12115,15 @@
         "sold": 34,
         "rate": 31
       },
-      "Good": {
-        "total": 52,
-        "sold": 7,
-        "rate": 13
-      },
       "Non Functioning": {
         "total": 1,
         "sold": 0,
         "rate": 0
       },
       "Used": {
-        "total": 15,
-        "sold": 1,
-        "rate": 7
+        "total": 14,
+        "sold": 0,
+        "rate": 0
       },
       "Brand New": {
         "total": 25,
@@ -12372,7 +12327,7 @@
         "condition": "Good",
         "watchers": 0,
         "views": 0,
-        "daysListed": 28,
+        "daysListed": 29,
         "image": "https://rvb-img.reverb.com/i/s--iVtWd1Vf--/quality=medium-low,height=800,width=800,fit=contain/qckwnrsuqgfu4sgwd5ik.jpg",
         "modelAvg": 4919,
         "pctVsAvg": 32
@@ -12407,6 +12362,20 @@
       }
     ],
     "highCompetition": [
+      {
+        "title": "Carvin DC127 - Neck Thru - Double Cut - Tung Oil",
+        "url": "https://reverb.com/item/82682387-carvin-dc127-neck-thru-double-cut-tung-oil",
+        "price": "$900",
+        "priceNum": 900,
+        "brand": "Kiesel",
+        "condition": "Good",
+        "watchers": 253,
+        "views": 7042,
+        "daysListed": 691,
+        "image": "https://rvb-img.reverb.com/i/s--kyUbyWuW--/quality=medium-low,height=800,width=800,fit=contain/wfferrqccmmz3ztk0xmo.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
       {
         "title": "Vintage 1963 Gretsch Corvette Electric Guitar Husk Project w/ Pic",
         "url": "https://reverb.com/item/80670160-vintage-1963-gretsch-corvette-electric-guitar-husk-project-w-pickups-hagstrom-case",
@@ -12532,20 +12501,6 @@
         "image": "https://rvb-img.reverb.com/i/s--1wXSIORK--/quality=medium-low,height=800,width=800,fit=contain/20b883fb-6f3d-48b3-8d89-849c886210fe.jpg",
         "modelAvg": null,
         "pctVsAvg": null
-      },
-      {
-        "title": "Fender Custom Shop Brawler Journeyman Relic Cadillac Green Master",
-        "url": "https://reverb.com/item/93883344-fender-custom-shop-brawler-journeyman-relic-cadillac-green-master-built-by-carlos-lopez-2020",
-        "price": "$9,990",
-        "priceNum": 9990,
-        "brand": "Fender",
-        "condition": "Excellent",
-        "watchers": 98,
-        "views": 1863,
-        "daysListed": 109,
-        "image": "https://rvb-img.reverb.com/i/s--fTYNZvTI--/quality=medium-low,height=800,width=800,fit=contain/0843d579-7fcd-480e-b76f-b997675fce02.jpeg",
-        "modelAvg": null,
-        "pctVsAvg": null
       }
     ],
     "staleListings": [
@@ -12600,7 +12555,7 @@
         "condition": "Brand New",
         "watchers": 38,
         "views": 1261,
-        "daysListed": 757,
+        "daysListed": 758,
         "image": "https://rvb-img.reverb.com/i/s--c5GxADkW--/quality=medium-low,height=800,width=800,fit=contain/vztcb7uwzzhmw2uvsp16.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12616,6 +12571,20 @@
         "views": 2056,
         "daysListed": 699,
         "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "Carvin DC127 - Neck Thru - Double Cut - Tung Oil",
+        "url": "https://reverb.com/item/82682387-carvin-dc127-neck-thru-double-cut-tung-oil",
+        "price": "$900",
+        "priceNum": 900,
+        "brand": "Kiesel",
+        "condition": "Good",
+        "watchers": 253,
+        "views": 7042,
+        "daysListed": 691,
+        "image": "https://rvb-img.reverb.com/i/s--kyUbyWuW--/quality=medium-low,height=800,width=800,fit=contain/wfferrqccmmz3ztk0xmo.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       },
@@ -12744,20 +12713,6 @@
         "image": "https://rvb-img.reverb.com/i/s--fh5w0q2q--/quality=medium-low,height=800,width=800,fit=contain/ijlhhjakc14uyuyq07mf.jpg",
         "modelAvg": null,
         "pctVsAvg": null
-      },
-      {
-        "title": "PRS Standard 24 Satin in Frost Blue Metallic",
-        "url": "https://reverb.com/item/91224791-prs-standard-24-satin-in-frost-blue-metallic",
-        "price": "$3,500",
-        "priceNum": 3500,
-        "brand": "PRS",
-        "condition": "Brand New",
-        "watchers": 10,
-        "views": 241,
-        "daysListed": 298,
-        "image": "https://rvb-img.reverb.com/i/s--dAQavLOD--/quality=medium-low,height=800,width=800,fit=contain/yeszser56hkgrckrbnfw.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -12770,9 +12725,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1467,
-        "sellRate": 43,
-        "count": 14,
+        "avgPrice": 1424,
+        "sellRate": 40,
+        "count": 15,
         "sold": 6
       },
       {
@@ -12792,6 +12747,24 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 13,
+      "sum": 18509.98,
+      "avg": 1424,
+      "min": 650,
+      "max": 2700,
+      "sold": 5,
+      "soldSum": 7440,
+      "soldAvg": 1488,
+      "live": 8,
+      "sellRate": 38,
+      "totalDays": 130.6,
+      "soldCount": 5,
+      "avgDaysToSell": 26.1
+    },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
       "brandLine": "Gretsch Professional",
@@ -12823,27 +12796,9 @@
       "soldAvg": 2666,
       "live": 9,
       "sellRate": 40,
-      "totalDays": 122.9,
+      "totalDays": 123.19999999999999,
       "soldCount": 6,
       "avgDaysToSell": 20.5
-    },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 12,
-      "sum": 17609.98,
-      "avg": 1467,
-      "min": 650,
-      "max": 2700,
-      "sold": 5,
-      "soldSum": 7440,
-      "soldAvg": 1488,
-      "live": 7,
-      "sellRate": 42,
-      "totalDays": 130.3,
-      "soldCount": 5,
-      "avgDaysToSell": 26.1
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -12859,9 +12814,9 @@
       "soldAvg": 3800,
       "live": 22,
       "sellRate": 12,
-      "totalDays": 47.8,
+      "totalDays": 48,
       "soldCount": 3,
-      "avgDaysToSell": 15.9
+      "avgDaysToSell": 16
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -12894,9 +12849,9 @@
       "soldAvg": 1425,
       "live": 3,
       "sellRate": 40,
-      "totalDays": 32.9,
+      "totalDays": 33.1,
       "soldCount": 2,
-      "avgDaysToSell": 16.5
+      "avgDaysToSell": 16.6
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -12912,7 +12867,7 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 91.69999999999999,
+      "totalDays": 91.80000000000001,
       "soldCount": 3,
       "avgDaysToSell": 30.6
     },
@@ -12964,9 +12919,9 @@
       "soldAvg": 5066,
       "live": 1,
       "sellRate": 75,
-      "totalDays": 59.9,
+      "totalDays": 60.2,
       "soldCount": 3,
-      "avgDaysToSell": 20
+      "avgDaysToSell": 20.1
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -12999,9 +12954,9 @@
       "soldAvg": 2434,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 52.5,
+      "totalDays": 52.8,
       "soldCount": 3,
-      "avgDaysToSell": 17.5
+      "avgDaysToSell": 17.6
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -13017,9 +12972,9 @@
       "soldAvg": 1240,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 3.4,
+      "totalDays": 3.5,
       "soldCount": 1,
-      "avgDaysToSell": 3.4
+      "avgDaysToSell": 3.5
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13258,9 +13213,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 34.3,
+      "totalDays": 34.4,
       "soldCount": 1,
-      "avgDaysToSell": 34.3
+      "avgDaysToSell": 34.4
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13276,9 +13231,9 @@
       "soldAvg": 3107,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 81.3,
+      "totalDays": 81.69999999999999,
       "soldCount": 4,
-      "avgDaysToSell": 20.3
+      "avgDaysToSell": 20.4
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13294,9 +13249,9 @@
       "soldAvg": 5000,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 3.3,
+      "totalDays": 3.4,
       "soldCount": 1,
-      "avgDaysToSell": 3.3
+      "avgDaysToSell": 3.4
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13312,9 +13267,9 @@
       "soldAvg": 8499,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 3.3,
+      "totalDays": 3.4,
       "soldCount": 1,
-      "avgDaysToSell": 3.3
+      "avgDaysToSell": 3.4
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13347,9 +13302,9 @@
       "soldAvg": 2099,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 14.3,
+      "totalDays": 14.4,
       "soldCount": 1,
-      "avgDaysToSell": 14.3
+      "avgDaysToSell": 14.4
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -13484,7 +13439,7 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 58.699999999999996,
+      "totalDays": 58.9,
       "soldCount": 3,
       "avgDaysToSell": 19.6
     },
@@ -13570,9 +13525,9 @@
       "soldAvg": 6999,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 26.2,
+      "totalDays": 26.3,
       "soldCount": 1,
-      "avgDaysToSell": 26.2
+      "avgDaysToSell": 26.3
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13639,7 +13594,7 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 228.5,
+      "totalDays": 228.6,
       "soldCount": 2,
       "avgDaysToSell": 114.3
     },
@@ -13691,9 +13646,9 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 53.2,
+      "totalDays": 53.3,
       "soldCount": 2,
-      "avgDaysToSell": 26.6
+      "avgDaysToSell": 26.7
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13709,9 +13664,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 26.3,
+      "totalDays": 26.4,
       "soldCount": 1,
-      "avgDaysToSell": 26.3
+      "avgDaysToSell": 26.4
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13727,9 +13682,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 26.2,
+      "totalDays": 26.3,
       "soldCount": 1,
-      "avgDaysToSell": 26.2
+      "avgDaysToSell": 26.3
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13786,9 +13741,9 @@
     },
     {
       "label": "31+",
-      "total": 62,
+      "total": 63,
       "sold": 14,
-      "rate": 23
+      "rate": 22
     }
   ],
   "offersEffect": {
@@ -13798,14 +13753,14 @@
       "rate": 27
     },
     "off": {
-      "total": 50,
+      "total": 51,
       "sold": 11,
       "rate": 22
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 117,
+      "total": 118,
       "sold": 20,
       "rate": 17
     },
@@ -13945,6 +13900,12 @@
     {
       "state": "NV",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "MI",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
