@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T15:25:27.243Z",
+  "generatedAt": "2026-04-26T15:49:58.761Z",
   "totalLinks": 305,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,14 +7,14 @@
   "totalWithPrice": 300,
   "overall": {
     "count": 300,
-    "sum": 1078562.27,
-    "avg": 3595,
+    "sum": 1078757.27,
+    "avg": 3596,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 288,
-    "sum": 753583.28,
+    "sum": 753778.28,
     "avg": 2617,
     "min": 33,
     "max": 8300,
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 170,
-      "sum": 487469.92,
+      "sum": 487664.92,
       "min": 70,
       "max": 15500,
-      "avg": 2867
+      "avg": 2869
     },
     "2026-03": {
       "count": 130,
@@ -139,35 +139,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 268,
+      "sum": 802985.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 2996
+    },
     "marketplace": {
       "count": 32,
       "sum": 275771.91,
       "min": 143.99,
       "max": 99000,
       "avg": 8618
-    },
-    "reverb": {
-      "count": 268,
-      "sum": 802790.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 2995
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 268,
+      "sum": 802985.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 2996
+    },
     "davesguitar.com": {
       "count": 1,
       "sum": 1250,
       "min": 1250,
       "max": 1250,
       "avg": 1250
-    },
-    "reverb.com": {
-      "count": 268,
-      "sum": 802790.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 2995
     },
     "chicagomusicexchange.com": {
       "count": 15,
@@ -234,6 +234,37 @@
     }
   },
   "byModel": {
+    "kramer-gary-kramertorium-v": {
+      "displayName": "Gary Kramer Kramertorium V. The Riddle of Steel. 2008 - Black/White",
+      "brand": "Kramer",
+      "model": "Gary Kramertorium V.",
+      "variant": null,
+      "count": 1,
+      "sum": 1695,
+      "min": 1695,
+      "max": 1695,
+      "sightings": [
+        {
+          "price": 1695,
+          "date": "2026-04-26T15:49:42.948Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gary Kramer Kramertorium V. The Riddle of Steel. 2008 - Black/White",
+          "url": "https://reverb.com/item/96422332-gary-kramer-kramertorium-v-the-riddle-of-steel-2008-black-white",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1695,
+          "min": 1695,
+          "max": 1695,
+          "avg": 1695
+        }
+      },
+      "avg": 1695
+    },
     "prs-mira-s2-satin": {
       "displayName": "S2 Mira 594 Satin - Cloud Burst '25",
       "brand": "PRS",
@@ -5353,52 +5384,6 @@
       },
       "avg": 6900
     },
-    "prs-single-cut-platinum": {
-      "displayName": "PRS Singlecut 2003 Platinum Metallic",
-      "brand": "PRS",
-      "model": "Single Cut",
-      "variant": "Platinum",
-      "count": 1,
-      "sum": 1500,
-      "min": 1500,
-      "max": 1500,
-      "sightings": [
-        {
-          "price": 1500,
-          "date": "2026-04-19T02:30:30.382Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Singlecut 2003 Platinum Metallic",
-          "url": "https://reverb.com/item/96155449-prs-singlecut-2003-platinum-metallic",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1500,
-          "min": 1500,
-          "max": 1500,
-          "avg": 1500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1500,
-        "min": 1500,
-        "max": 1500,
-        "prices": [
-          {
-            "price": 1500,
-            "askingPrice": 1500,
-            "date": "2026-04-20T15:52:59.102Z",
-            "title": "PRS Singlecut 2003 Platinum Metallic",
-            "url": "https://reverb.com/item/96155449-prs-singlecut-2003-platinum-metallic"
-          }
-        ]
-      },
-      "avg": 1500
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9591,8 +9576,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 111,
-      "sum": 386397.73,
+      "count": 112,
+      "sum": 388092.73,
       "sold": {
         "count": 33,
         "sum": 121737.87,
@@ -9600,7 +9585,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3481,
+      "avg": 3465,
       "min": 190,
       "max": 35900
     },
@@ -9619,16 +9604,16 @@
       "max": 15500
     },
     "Good": {
-      "count": 51,
-      "sum": 121858.95,
+      "count": 50,
+      "sum": 120358.95,
       "sold": {
-        "count": 7,
-        "sum": 13955.48,
-        "avg": 1994,
+        "count": 6,
+        "sum": 12455.48,
+        "avg": 2076,
         "min": 650,
         "max": 4777.5
       },
-      "avg": 2389,
+      "avg": 2407,
       "min": 70,
       "max": 11475
     },
@@ -9719,7 +9704,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2867,
+      "avg": 2869,
       "count": 170
     },
     "03": {
@@ -9889,9 +9874,14 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kramer": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "PRS": {
-      "sum": 266,
-      "count": 21,
+      "sum": 258,
+      "count": 20,
       "avg": 13
     },
     "Vintage": {
@@ -10040,9 +10030,9 @@
       "avg": 16
     },
     "Luxxtone": {
-      "sum": 32,
+      "sum": 33,
       "count": 2,
-      "avg": 16
+      "avg": 17
     },
     "Positive Grid": {
       "sum": 3,
@@ -10050,9 +10040,9 @@
       "avg": 3
     },
     "Kemper": {
-      "sum": 25,
+      "sum": 26,
       "count": 1,
-      "avg": 25
+      "avg": 26
     },
     "Hamer": {
       "sum": 75,
@@ -10291,14 +10281,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-26": 13,
+    "2026-04-26": 14,
     "2026-04-25": 22,
     "2026-04-24": 35,
     "2026-04-23": 33,
     "2026-04-22": 17,
     "2026-04-21": 22,
     "2026-04-20": 12,
-    "2026-04-19": 16,
+    "2026-04-19": 15,
     "2026-03-28": 35,
     "2026-03-27": 11,
     "2026-03-29": 17,
@@ -10306,8 +10296,8 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 37,
-    "reverb": 268
+    "reverb": 268,
+    "marketplace": 37
   },
   "activeModelsCount": 236,
   "topPosters": [
@@ -10355,7 +10345,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 34
+      "count": 33
     },
     {
       "username": "greg1213",
@@ -10396,7 +10386,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2867,
+    "avg": 2869,
     "pctBelowAvg": 20,
     "count": 170
   },
@@ -10415,10 +10405,10 @@
       "count": 31
     },
     "PRS": {
-      "avgPrice": 3175,
+      "avgPrice": 3251,
       "retailEst": 1000,
-      "avgDiscount": -217.5,
-      "count": 23
+      "avgDiscount": -225.1,
+      "count": 22
     },
     "Ibanez": {
       "avgPrice": 2884,
@@ -10440,16 +10430,16 @@
     }
   },
   "soldPrices": {
-    "count": 71,
-    "avg": 3248,
+    "count": 70,
+    "avg": 3273,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 412.5,
-      "count": 69,
+      "totalDays": 410.90000000000003,
+      "count": 68,
       "avgDays": 6
     },
     "byModel": {
@@ -10612,14 +10602,6 @@
         "fastest": 14.4,
         "slowest": 14.4,
         "avgDays": 14.4
-      },
-      "prs-single-cut-platinum": {
-        "displayName": "PRS Singlecut 2003 Platinum Metallic",
-        "totalDays": 1.6,
-        "count": 1,
-        "fastest": 1.6,
-        "slowest": 1.6,
-        "avgDays": 1.6
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -10973,11 +10955,11 @@
         "avgDays": 1.7
       },
       "PRS": {
-        "totalDays": 5.8,
-        "count": 7,
+        "totalDays": 4.2,
+        "count": 6,
         "fastest": 0.1,
         "slowest": 1.8,
-        "avgDays": 0.8
+        "avgDays": 0.7
       },
       "Ibanez": {
         "totalDays": 22.7,
@@ -11313,20 +11295,28 @@
   "sellThrough": {
     "overall": {
       "total": 286,
-      "sold": 66,
+      "sold": 65,
       "fake": 0,
-      "live": 220,
+      "live": 221,
       "soldPct": 23,
       "livePct": 77
     },
     "byBrand": {
+      "Kramer": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
-        "total": 23,
-        "sold": 7,
+        "total": 22,
+        "sold": 6,
         "fake": 0,
         "live": 16,
-        "soldPct": 30,
-        "livePct": 70
+        "soldPct": 27,
+        "livePct": 73
       },
       "Vintage": {
         "total": 9,
@@ -12017,8 +12007,8 @@
       {
         "label": "$1k–2k",
         "total": 88,
-        "sold": 23,
-        "rate": 26
+        "sold": 22,
+        "rate": 25
       },
       {
         "label": "$2k–3k",
@@ -12047,9 +12037,9 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 111,
+        "total": 112,
         "sold": 34,
-        "rate": 31
+        "rate": 30
       },
       "Very Good": {
         "total": 79,
@@ -12057,9 +12047,9 @@
         "rate": 28
       },
       "Good": {
-        "total": 51,
-        "sold": 7,
-        "rate": 14
+        "total": 50,
+        "sold": 6,
+        "rate": 12
       },
       "Non Functioning": {
         "total": 1,
@@ -12678,6 +12668,23 @@
     ]
   },
   "byBrandLine": {
+    "Kramer|Kramer Import": {
+      "brand": "Kramer",
+      "brandLine": "Kramer Import",
+      "tier": "budget-mid",
+      "count": 1,
+      "sum": 1695,
+      "avg": 1695,
+      "min": 1695,
+      "max": 1695,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "PRS|PRS S2": {
       "brand": "PRS",
       "brandLine": "PRS S2",
@@ -12709,9 +12716,9 @@
       "soldAvg": 1488,
       "live": 11,
       "sellRate": 31,
-      "totalDays": 132.70000000000002,
+      "totalDays": 132.8,
       "soldCount": 5,
-      "avgDaysToSell": 26.5
+      "avgDaysToSell": 26.6
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -12734,19 +12741,19 @@
       "brand": "PRS",
       "brandLine": "PRS Core",
       "tier": "premium",
-      "count": 15,
-      "sum": 48764.17,
-      "avg": 3251,
+      "count": 14,
+      "sum": 47264.17,
+      "avg": 3376,
       "min": 1500,
       "max": 6895,
-      "sold": 6,
-      "soldSum": 15997.17,
-      "soldAvg": 2666,
+      "sold": 5,
+      "soldSum": 14497.17,
+      "soldAvg": 2899,
       "live": 9,
-      "sellRate": 40,
-      "totalDays": 125.70000000000002,
-      "soldCount": 6,
-      "avgDaysToSell": 21
+      "sellRate": 36,
+      "totalDays": 118.19999999999999,
+      "soldCount": 5,
+      "avgDaysToSell": 23.6
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -12762,7 +12769,7 @@
       "soldAvg": 3800,
       "live": 22,
       "sellRate": 12,
-      "totalDays": 49.199999999999996,
+      "totalDays": 49.3,
       "soldCount": 3,
       "avgDaysToSell": 16.4
     },
@@ -12955,9 +12962,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 27.7,
+      "totalDays": 27.8,
       "soldCount": 1,
-      "avgDaysToSell": 27.7
+      "avgDaysToSell": 27.8
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -12973,9 +12980,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 3.1,
+      "totalDays": 3.2,
       "soldCount": 1,
-      "avgDaysToSell": 3.1
+      "avgDaysToSell": 3.2
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13619,9 +13626,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 79,
-    "totalOffers": 169,
-    "avgOffersPerListing": 2.1,
+    "withOffers": 78,
+    "totalOffers": 168,
+    "avgOffersPerListing": 2.2,
     "offersEnabledPct": 66
   },
   "shippingInsights": {
@@ -13637,9 +13644,9 @@
     },
     {
       "label": "1–5",
-      "total": 16,
+      "total": 17,
       "sold": 2,
-      "rate": 13
+      "rate": 12
     },
     {
       "label": "6–15",
@@ -13655,15 +13662,15 @@
     },
     {
       "label": "31+",
-      "total": 66,
-      "sold": 13,
-      "rate": 20
+      "total": 65,
+      "sold": 12,
+      "rate": 18
     }
   ],
   "offersEffect": {
     "on": {
       "total": 177,
-      "sold": 48,
+      "sold": 47,
       "rate": 27
     },
     "off": {
@@ -13674,13 +13681,13 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 114,
+      "total": 115,
       "sold": 19,
       "rate": 17
     },
     "regular": {
-      "total": 99,
-      "sold": 30,
+      "total": 98,
+      "sold": 29,
       "rate": 30
     }
   },
@@ -13716,10 +13723,10 @@
       "rate": 33
     },
     {
-      "state": "TX",
+      "state": "TN",
       "total": 10,
-      "sold": 4,
-      "rate": 40
+      "sold": 3,
+      "rate": 30
     },
     {
       "state": "OR",
@@ -13734,7 +13741,7 @@
       "rate": 20
     },
     {
-      "state": "TN",
+      "state": "TX",
       "total": 9,
       "sold": 3,
       "rate": 33
