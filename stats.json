@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T05:34:17.844Z",
+  "generatedAt": "2026-04-26T05:37:31.846Z",
   "totalLinks": 306,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1082818.27,
-    "avg": 3597,
+    "sum": 1082361.27,
+    "avg": 3596,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 757839.28,
-    "avg": 2622,
+    "sum": 757382.28,
+    "avg": 2621,
     "min": 33,
     "max": 8300,
     "median": 2200
@@ -125,10 +125,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 491725.92,
+      "sum": 491268.92,
       "min": 70,
       "max": 15500,
-      "avg": 2876
+      "avg": 2873
     },
     "2026-03": {
       "count": 130,
@@ -141,10 +141,10 @@
   "byCategory": {
     "reverb": {
       "count": 270,
-      "sum": 808296.36,
+      "sum": 807839.36,
       "min": 33,
       "max": 35900,
-      "avg": 2994
+      "avg": 2992
     },
     "marketplace": {
       "count": 31,
@@ -157,10 +157,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 270,
-      "sum": 808296.36,
+      "sum": 807839.36,
       "min": 33,
       "max": 35900,
-      "avg": 2994
+      "avg": 2992
     },
     "chicagomusicexchange.com": {
       "count": 15,
@@ -227,6 +227,37 @@
     }
   },
   "byModel": {
+    "kiesel-dc127-gloss": {
+      "displayName": "1991-1994 Carvin DC127 Koa natural gloss",
+      "brand": "Kiesel",
+      "model": "DC127",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 1793,
+      "min": 1793,
+      "max": 1793,
+      "sightings": [
+        {
+          "price": 1793,
+          "date": "2026-04-26T05:37:15.827Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1991-1994 Carvin DC127 Koa natural gloss",
+          "url": "https://reverb.com/item/93485541-1991-1994-carvin-dc127-koa-natural-gloss",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1793,
+          "min": 1793,
+          "max": 1793,
+          "avg": 1793
+        }
+      },
+      "avg": 1793
+    },
     "kiesel-dc127": {
       "displayName": "Carvin DC127 - Neck Thru - Double Cut - Tung Oil",
       "brand": "Kiesel",
@@ -5393,37 +5424,6 @@
       },
       "avg": 2500
     },
-    "nash-original-semi-hollow": {
-      "displayName": "Nash original Semi-hollow",
-      "brand": "Nash",
-      "model": "original",
-      "variant": "Semi-hollow",
-      "count": 1,
-      "sum": 2250,
-      "min": 2250,
-      "max": 2250,
-      "sightings": [
-        {
-          "price": 2250,
-          "date": "2026-04-18T22:16:21.290Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Nash  Wayfarer W-3 Semi-Hollow Body Electric Guitar (2017), ser. #NG-3573, original brown hard shell case.",
-          "url": "https://reverb.com/item/96150345-nash-wayfarer-w-3-semi-hollow-body-electric-guitar-2017-ser-ng-3573-original-brown-hard-shell-case",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2250,
-          "min": 2250,
-          "max": 2250,
-          "avg": 2250
-        }
-      },
-      "avg": 2250
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9615,6 +9615,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 110,
+      "sum": 385147.73,
+      "sold": {
+        "count": 33,
+        "sum": 121737.87,
+        "avg": 3689,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3501,
+      "min": 190,
+      "max": 35900
+    },
     "Good": {
       "count": 53,
       "sum": 124973.95,
@@ -9642,20 +9656,6 @@
       "avg": 2639,
       "min": 33,
       "max": 15500
-    },
-    "Excellent": {
-      "count": 110,
-      "sum": 385604.73,
-      "sold": {
-        "count": 33,
-        "sum": 121737.87,
-        "avg": 3689,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3505,
-      "min": 190,
-      "max": 35900
     },
     "Non Functioning": {
       "count": 1,
@@ -9744,7 +9744,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2876,
+      "avg": 2873,
       "count": 171
     },
     "03": {
@@ -9898,8 +9898,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 27,
-    "1k-2k": 86,
-    "2k-3k": 73,
+    "1k-2k": 87,
+    "2k-3k": 72,
     "3k-5k": 59,
     "5k-10k": 34,
     "10k+": 8
@@ -9907,8 +9907,8 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 27,
-    "1k-2k": 86,
-    "2k-3k": 73,
+    "1k-2k": 87,
+    "2k-3k": 72,
     "3k-5k": 59,
     "5k-10k": 30,
     "10k+": 0
@@ -10184,11 +10184,6 @@
       "count": 1,
       "avg": 6
     },
-    "Nash": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
-    },
     "Languedoc": {
       "sum": 29,
       "count": 1,
@@ -10321,7 +10316,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-26": 8,
+    "2026-04-26": 9,
     "2026-04-25": 22,
     "2026-04-24": 35,
     "2026-04-23": 33,
@@ -10329,7 +10324,7 @@
     "2026-04-21": 22,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 3,
+    "2026-04-18": 2,
     "2026-03-28": 35,
     "2026-03-27": 23,
     "2026-03-29": 17,
@@ -10427,7 +10422,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2876,
+    "avg": 2873,
     "pctBelowAvg": 20,
     "count": 171
   },
@@ -10458,10 +10453,10 @@
       "count": 19
     },
     "Kiesel": {
-      "avgPrice": 1446,
+      "avgPrice": 1467,
       "retailEst": 1000,
-      "avgDiscount": -44.6,
-      "count": 15
+      "avgDiscount": -46.7,
+      "count": 16
     },
     "BC Rich": {
       "avgPrice": 2639,
@@ -11367,12 +11362,12 @@
     },
     "byBrand": {
       "Kiesel": {
-        "total": 15,
+        "total": 16,
         "sold": 6,
         "fake": 0,
-        "live": 9,
-        "soldPct": 40,
-        "livePct": 60
+        "live": 10,
+        "soldPct": 38,
+        "livePct": 63
       },
       "Gretsch": {
         "total": 3,
@@ -11838,14 +11833,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Nash": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12070,15 +12057,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 86,
+        "total": 87,
         "sold": 23,
-        "rate": 27
+        "rate": 26
       },
       {
         "label": "$2k–3k",
-        "total": 73,
+        "total": 72,
         "sold": 20,
-        "rate": 27
+        "rate": 28
       },
       {
         "label": "$3k–5k",
@@ -12100,6 +12087,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 110,
+        "sold": 34,
+        "rate": 31
+      },
       "Good": {
         "total": 53,
         "sold": 7,
@@ -12109,11 +12101,6 @@
         "total": 79,
         "sold": 23,
         "rate": 29
-      },
-      "Excellent": {
-        "total": 110,
-        "sold": 34,
-        "rate": 31
       },
       "Non Functioning": {
         "total": 1,
@@ -12433,6 +12420,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "1991-1994 Carvin DC127 Koa natural gloss",
+        "url": "https://reverb.com/item/93485541-1991-1994-carvin-dc127-koa-natural-gloss",
+        "price": "$1,793",
+        "priceNum": 1793,
+        "brand": "Kiesel",
+        "condition": "Excellent",
+        "watchers": 150,
+        "views": 3181,
+        "daysListed": 104,
+        "image": "https://rvb-img.reverb.com/i/s--_WFtSTzA--/quality=medium-low,height=800,width=800,fit=contain/8fb9b787-110c-40fd-b371-f081fa9ac84c.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
         "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
         "price": "$875",
@@ -12485,20 +12486,6 @@
         "views": 3670,
         "daysListed": 418,
         "image": "https://rvb-img.reverb.com/i/s--cNrpfm1Q--/quality=medium-low,height=800,width=800,fit=contain/bhaaf3xsoim1pzk0wgap.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "Vintage 1969 Gibson SG Standard - Rock n Roll Flamethrower! Playe",
-        "url": "https://reverb.com/ca/item/95920173-vintage-1969-gibson-sg-standard-rock-n-roll-flamethrower-player-priced",
-        "price": "$3,395",
-        "priceNum": 3395,
-        "brand": "Vintage",
-        "condition": "Very Good",
-        "watchers": 100,
-        "views": 1284,
-        "daysListed": 13,
-        "image": "https://rvb-img.reverb.com/i/s--1wXSIORK--/quality=medium-low,height=800,width=800,fit=contain/20b883fb-6f3d-48b3-8d89-849c886210fe.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12724,18 +12711,18 @@
         "sold": 3
       },
       {
-        "brand": "Kiesel",
-        "avgPrice": 1424,
-        "sellRate": 40,
-        "count": 15,
-        "sold": 6
-      },
-      {
         "brand": "Eastman",
         "avgPrice": 1402,
         "sellRate": 40,
         "count": 5,
         "sold": 2
+      },
+      {
+        "brand": "Kiesel",
+        "avgPrice": 1450,
+        "sellRate": 38,
+        "count": 16,
+        "sold": 6
       },
       {
         "brand": "Epiphone",
@@ -12751,16 +12738,16 @@
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
       "tier": "premium",
-      "count": 13,
-      "sum": 18509.98,
-      "avg": 1424,
+      "count": 14,
+      "sum": 20302.98,
+      "avg": 1450,
       "min": 650,
       "max": 2700,
       "sold": 5,
       "soldSum": 7440,
       "soldAvg": 1488,
-      "live": 8,
-      "sellRate": 38,
+      "live": 9,
+      "sellRate": 36,
       "totalDays": 130.6,
       "soldCount": 5,
       "avgDaysToSell": 26.1
@@ -12867,7 +12854,7 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 91.80000000000001,
+      "totalDays": 91.9,
       "soldCount": 3,
       "avgDaysToSell": 30.6
     },
@@ -13477,23 +13464,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Nash|Nash": {
-      "brand": "Nash",
-      "brandLine": "Nash",
-      "tier": null,
-      "count": 1,
-      "sum": 2250,
-      "avg": 2250,
-      "min": 2250,
-      "max": 2250,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -13705,14 +13675,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 77,
-    "totalOffers": 164,
-    "avgOffersPerListing": 2.1,
+    "withOffers": 78,
+    "totalOffers": 168,
+    "avgOffersPerListing": 2.2,
     "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 106
+    "avgShippingCost": 104
   },
   "watcherDemand": [
     {
@@ -13802,16 +13772,16 @@
       "rate": 8
     },
     {
-      "state": "NY",
-      "total": 11,
-      "sold": 2,
-      "rate": 18
-    },
-    {
       "state": "OR",
       "total": 10,
       "sold": 1,
       "rate": 10
+    },
+    {
+      "state": "NY",
+      "total": 10,
+      "sold": 2,
+      "rate": 20
     },
     {
       "state": "TN",
