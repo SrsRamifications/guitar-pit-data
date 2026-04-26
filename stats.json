@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T01:55:58.366Z",
+  "generatedAt": "2026-04-26T02:53:13.519Z",
   "totalLinks": 305,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 300,
   "overall": {
     "count": 300,
-    "sum": 1086756.27,
+    "sum": 1086840.27,
     "avg": 3623,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 770276.28,
-    "avg": 2665,
+    "sum": 770360.28,
+    "avg": 2666,
     "min": 33,
     "max": 8499,
     "median": 2250
@@ -117,7 +117,7 @@
   "byMonth": {
     "2026-04": {
       "count": 170,
-      "sum": 495663.92,
+      "sum": 495747.92,
       "min": 70,
       "max": 15500,
       "avg": 2916
@@ -133,7 +133,7 @@
   "byCategory": {
     "reverb": {
       "count": 266,
-      "sum": 802728.36,
+      "sum": 802812.36,
       "min": 33,
       "max": 35900,
       "avg": 3018
@@ -149,7 +149,7 @@
   "byDomain": {
     "reverb.com": {
       "count": 266,
-      "sum": 802728.36,
+      "sum": 802812.36,
       "min": 33,
       "max": 35900,
       "avg": 3018
@@ -219,6 +219,78 @@
     }
   },
   "byModel": {
+    "prs-mccarty": {
+      "displayName": "Paul Reed Smith NF53 2023 - McCarty Tobacco Sunburst",
+      "brand": "PRS",
+      "model": "McCarty",
+      "variant": null,
+      "count": 3,
+      "sum": 8074,
+      "min": 1675,
+      "max": 4000,
+      "sightings": [
+        {
+          "price": 2399,
+          "date": "2026-03-30T18:52:31.051Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
+          "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar",
+          "condition": "Good"
+        },
+        {
+          "price": 4000,
+          "date": "2026-04-24T21:02:19.626Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1999 PRS McCarty Soapbar 10 Electric Guitar Black Brown Woodgrain With Case",
+          "url": "https://reverb.com/item/96371671-1999-prs-mccarty-soapbar-10-electric-guitar-black-brown-woodgrain-with-case",
+          "condition": "Good"
+        },
+        {
+          "price": 1675,
+          "date": "2026-04-26T02:52:57.705Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Paul Reed Smith NF53 2023 - McCarty Tobacco Sunburst",
+          "url": "https://reverb.com/item/96406212-paul-reed-smith-nf53-2023-mccarty-tobacco-sunburst",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1675,
+          "min": 1675,
+          "max": 1675,
+          "avg": 1675
+        },
+        "Good": {
+          "count": 2,
+          "sum": 6399,
+          "min": 2399,
+          "max": 4000,
+          "avg": 3200
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2399,
+        "min": 2399,
+        "max": 2399,
+        "prices": [
+          {
+            "price": 2399,
+            "askingPrice": 2399,
+            "date": "2026-03-31T02:43:15.657Z",
+            "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
+            "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar"
+          }
+        ]
+      },
+      "avg": 2691,
+      "trends": {}
+    },
     "kiesel-solo": {
       "displayName": "Kiesel Solo 6",
       "brand": "Kiesel",
@@ -1134,61 +1206,6 @@
         }
       },
       "avg": 1710
-    },
-    "prs-mccarty": {
-      "displayName": "1999 PRS McCarty Soapbar 10 Electric Guitar Black Brown Woodgrain With Case",
-      "brand": "PRS",
-      "model": "McCarty",
-      "variant": null,
-      "count": 2,
-      "sum": 6399,
-      "min": 2399,
-      "max": 4000,
-      "sightings": [
-        {
-          "price": 2399,
-          "date": "2026-03-30T18:52:31.051Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
-          "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar",
-          "condition": "Good"
-        },
-        {
-          "price": 4000,
-          "date": "2026-04-24T21:02:19.626Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1999 PRS McCarty Soapbar 10 Electric Guitar Black Brown Woodgrain With Case",
-          "url": "https://reverb.com/item/96371671-1999-prs-mccarty-soapbar-10-electric-guitar-black-brown-woodgrain-with-case",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 2,
-          "sum": 6399,
-          "min": 2399,
-          "max": 4000,
-          "avg": 3200
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2399,
-        "min": 2399,
-        "max": 2399,
-        "prices": [
-          {
-            "price": 2399,
-            "askingPrice": 2399,
-            "date": "2026-03-31T02:43:15.657Z",
-            "title": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
-            "url": "https://reverb.com/item/95550564-2000-prs-mccarty-soapbar-royal-blue-electric-guitar"
-          }
-        ]
-      },
-      "avg": 3200
     },
     "dean-zelinsky-strettavita-quilt-top": {
       "displayName": "Dean Zelinsky Strettavita Quilt Top",
@@ -5443,37 +5460,6 @@
       },
       "avg": 2516
     },
-    "tophat-telecaster": {
-      "displayName": "TopHat Custom Master Built  Telavarius Thinline 2024 - Light Swamp Ash in Distress-G & G Hard Case-Telecaster",
-      "brand": "TopHat",
-      "model": "Telecaster",
-      "variant": null,
-      "count": 1,
-      "sum": 1591,
-      "min": 1591,
-      "max": 1591,
-      "sightings": [
-        {
-          "price": 1591,
-          "date": "2026-04-18T18:21:43.011Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "TopHat Custom Master Built  Telavarius Thinline 2024 - Light Swamp Ash in Distress-G & G Hard Case-Telecaster",
-          "url": "https://reverb.com/item/93383930-tophat-custom-master-built-telavarius-thinline-2024-light-swamp-ash-in-distress-g-g-hard-case-telecaster",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1591,
-          "min": 1591,
-          "max": 1591,
-          "avg": 1591
-        }
-      },
-      "avg": 1591
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9665,6 +9651,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 109,
+      "sum": 382071.73,
+      "sold": {
+        "count": 33,
+        "sum": 121737.87,
+        "avg": 3689,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3505,
+      "min": 190,
+      "max": 35900
+    },
     "Good": {
       "count": 52,
       "sum": 124073.95,
@@ -9678,20 +9678,6 @@
       "avg": 2386,
       "min": 70,
       "max": 11475
-    },
-    "Excellent": {
-      "count": 109,
-      "sum": 381987.73,
-      "sold": {
-        "count": 33,
-        "sum": 121737.87,
-        "avg": 3689,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3504,
-      "min": 190,
-      "max": 35900
     },
     "Non Functioning": {
       "count": 1,
@@ -9964,13 +9950,18 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 248,
+      "count": 18,
+      "avg": 14
+    },
     "Kiesel": {
-      "sum": 267,
+      "sum": 268,
       "count": 13,
       "avg": 21
     },
     "BC Rich": {
-      "sum": 251,
+      "sum": 254,
       "count": 21,
       "avg": 12
     },
@@ -9985,7 +9976,7 @@
       "avg": 10
     },
     "Vintage": {
-      "sum": 109,
+      "sum": 110,
       "count": 7,
       "avg": 16
     },
@@ -10027,11 +10018,6 @@
     "Caparison": {
       "sum": 15,
       "count": 1,
-      "avg": 15
-    },
-    "PRS": {
-      "sum": 247,
-      "count": 17,
       "avg": 15
     },
     "Burny": {
@@ -10180,9 +10166,9 @@
       "avg": 50
     },
     "First Act": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Greco": {
       "sum": 100,
@@ -10205,9 +10191,9 @@
       "avg": 13
     },
     "Warmoth": {
-      "sum": 34,
+      "sum": 35,
       "count": 2,
-      "avg": 17
+      "avg": 18
     },
     "James Tyler": {
       "sum": 15,
@@ -10240,9 +10226,9 @@
       "avg": 28
     },
     "Epiphone": {
-      "sum": 62,
+      "sum": 63,
       "count": 2,
-      "avg": 31
+      "avg": 32
     },
     "LSL": {
       "sum": 29,
@@ -10366,7 +10352,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-26": 2,
+    "2026-04-26": 3,
     "2026-04-25": 22,
     "2026-04-24": 35,
     "2026-04-23": 33,
@@ -10374,7 +10360,7 @@
     "2026-04-21": 22,
     "2026-04-20": 12,
     "2026-04-19": 19,
-    "2026-04-18": 8,
+    "2026-04-18": 7,
     "2026-03-28": 35,
     "2026-03-27": 24,
     "2026-03-29": 17,
@@ -10385,15 +10371,15 @@
     "reverb": 266,
     "marketplace": 39
   },
-  "activeModelsCount": 251,
+  "activeModelsCount": 250,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 93
+      "count": 94
     },
     {
       "username": "greg1213",
-      "count": 44
+      "count": 43
     },
     {
       "username": "YellowJack6",
@@ -10491,10 +10477,10 @@
       "count": 31
     },
     "PRS": {
-      "avgPrice": 3316,
+      "avgPrice": 3234,
       "retailEst": 1000,
-      "avgDiscount": -231.6,
-      "count": 19
+      "avgDiscount": -223.4,
+      "count": 20
     },
     "Ibanez": {
       "avgPrice": 2744,
@@ -11286,9 +11272,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1078.944072102452,
-      "count": 58,
-      "avgPctDrop": 18.6
+      "totalPctDrop": 1045.4852682546896,
+      "count": 57,
+      "avgPctDrop": 18.3
     },
     "byBrand": {
       "Gretsch": {
@@ -11386,11 +11372,6 @@
         "count": 1,
         "avgPctDrop": 9.1
       },
-      "TopHat": {
-        "totalPctDrop": 33.45880384776244,
-        "count": 1,
-        "avgPctDrop": 33.5
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
@@ -11453,6 +11434,14 @@
       "livePct": 76
     },
     "byBrand": {
+      "PRS": {
+        "total": 20,
+        "sold": 7,
+        "fake": 0,
+        "live": 13,
+        "soldPct": 35,
+        "livePct": 65
+      },
       "Kiesel": {
         "total": 14,
         "sold": 6,
@@ -11564,14 +11553,6 @@
         "live": 2,
         "soldPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 19,
-        "sold": 7,
-        "fake": 0,
-        "live": 12,
-        "soldPct": 37,
-        "livePct": 63
       },
       "Burny": {
         "total": 1,
@@ -11925,14 +11906,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "TopHat": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12187,15 +12160,15 @@
       }
     ],
     "byCondition": {
-      "Good": {
-        "total": 52,
-        "sold": 7,
-        "rate": 13
-      },
       "Excellent": {
         "total": 109,
         "sold": 34,
         "rate": 31
+      },
+      "Good": {
+        "total": 52,
+        "sold": 7,
+        "rate": 13
       },
       "Non Functioning": {
         "total": 1,
@@ -12287,6 +12260,21 @@
         "savings": 1601
       },
       {
+        "title": "Paul Reed Smith NF53 2023 - McCarty Tobacco Sunburst",
+        "url": "https://reverb.com/item/96406212-paul-reed-smith-nf53-2023-mccarty-tobacco-sunburst",
+        "price": "$1,675",
+        "priceNum": 1675,
+        "brand": "PRS",
+        "condition": "Excellent",
+        "watchers": 7,
+        "views": 54,
+        "daysListed": 0,
+        "image": "https://rvb-img.reverb.com/i/s--FpHv7b_t--/quality=medium-low,height=800,width=800,fit=contain/4ea0906c-0f54-4048-90bc-c753fb9345ed.jpeg",
+        "modelAvg": 2691,
+        "pctVsAvg": -38,
+        "savings": 1016
+      },
+      {
         "title": "Gibson Melody Maker Sparkling Burgundy 1968",
         "url": "https://www.chicagomusicexchange.com/products/gibson-melody-maker-sparkling-burgundy-1968-2520334",
         "price": "$1,895",
@@ -12361,6 +12349,20 @@
         "image": "https://rvb-img.reverb.com/i/s--6er7adZc--/quality=medium-low,height=800,width=800,fit=contain/d844689a-4618-4ef8-9a3e-6f9adf185b25.jpg",
         "modelAvg": 4531,
         "pctVsAvg": 52
+      },
+      {
+        "title": "1999 PRS McCarty Soapbar 10 Electric Guitar Black Brown Woodgrain",
+        "url": "https://reverb.com/item/96371671-1999-prs-mccarty-soapbar-10-electric-guitar-black-brown-woodgrain-with-case",
+        "price": "$4,000",
+        "priceNum": 4000,
+        "brand": "PRS",
+        "condition": "Good",
+        "watchers": 8,
+        "views": 129,
+        "daysListed": 1,
+        "image": "https://rvb-img.reverb.com/i/s--QtJTPOdF--/quality=medium-low,height=800,width=800,fit=contain/bd7ce5ec-d92a-4df4-84ae-4937e1287d40.jpeg",
+        "modelAvg": 2691,
+        "pctVsAvg": 49
       },
       {
         "title": "Gibson Melody Maker D Single Cut 1961 - Sunburst",
@@ -12805,6 +12807,24 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 13,
+      "sum": 41665.17,
+      "avg": 3205,
+      "min": 1500,
+      "max": 6895,
+      "sold": 6,
+      "soldSum": 15997.17,
+      "soldAvg": 2666,
+      "live": 7,
+      "sellRate": 46,
+      "totalDays": 122.49999999999999,
+      "soldCount": 6,
+      "avgDaysToSell": 20.4
+    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -12819,7 +12839,7 @@
       "soldAvg": 1488,
       "live": 7,
       "sellRate": 42,
-      "totalDays": 129.9,
+      "totalDays": 130,
       "soldCount": 5,
       "avgDaysToSell": 26
     },
@@ -12837,7 +12857,7 @@
       "soldAvg": 3800,
       "live": 22,
       "sellRate": 12,
-      "totalDays": 47.599999999999994,
+      "totalDays": 47.699999999999996,
       "soldCount": 3,
       "avgDaysToSell": 15.9
     },
@@ -12872,9 +12892,9 @@
       "soldAvg": 1425,
       "live": 3,
       "sellRate": 40,
-      "totalDays": 32.7,
+      "totalDays": 32.9,
       "soldCount": 2,
-      "avgDaysToSell": 16.4
+      "avgDaysToSell": 16.5
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -12890,7 +12910,7 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 91.4,
+      "totalDays": 91.5,
       "soldCount": 3,
       "avgDaysToSell": 30.5
     },
@@ -12943,9 +12963,9 @@
       "soldAvg": 5066,
       "live": 1,
       "sellRate": 75,
-      "totalDays": 59.6,
+      "totalDays": 59.9,
       "soldCount": 3,
-      "avgDaysToSell": 19.9
+      "avgDaysToSell": 20
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -12964,24 +12984,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 12,
-      "sum": 39990.17,
-      "avg": 3333,
-      "min": 1500,
-      "max": 6895,
-      "sold": 6,
-      "soldSum": 15997.17,
-      "soldAvg": 2666,
-      "live": 6,
-      "sellRate": 50,
-      "totalDays": 122.3,
-      "soldCount": 6,
-      "avgDaysToSell": 20.4
-    },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
@@ -12996,9 +12998,9 @@
       "soldAvg": 2434,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 52.3,
+      "totalDays": 52.5,
       "soldCount": 3,
-      "avgDaysToSell": 17.4
+      "avgDaysToSell": 17.5
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -13014,9 +13016,9 @@
       "soldAvg": 1240,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 3.3,
+      "totalDays": 3.4,
       "soldCount": 1,
-      "avgDaysToSell": 3.3
+      "avgDaysToSell": 3.4
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13273,9 +13275,9 @@
       "soldAvg": 3107,
       "live": 2,
       "sellRate": 67,
-      "totalDays": 80.9,
+      "totalDays": 81.2,
       "soldCount": 4,
-      "avgDaysToSell": 20.2
+      "avgDaysToSell": 20.3
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13309,9 +13311,9 @@
       "soldAvg": 8499,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 3.2,
+      "totalDays": 3.3,
       "soldCount": 1,
-      "avgDaysToSell": 3.2
+      "avgDaysToSell": 3.3
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13344,9 +13346,9 @@
       "soldAvg": 2099,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 14.2,
+      "totalDays": 14.3,
       "soldCount": 1,
-      "avgDaysToSell": 14.2
+      "avgDaysToSell": 14.3
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -13481,7 +13483,7 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 58.4,
+      "totalDays": 58.599999999999994,
       "soldCount": 3,
       "avgDaysToSell": 19.5
     },
@@ -13688,9 +13690,9 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 53,
+      "totalDays": 53.1,
       "soldCount": 2,
-      "avgDaysToSell": 26.5
+      "avgDaysToSell": 26.6
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13724,9 +13726,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 26.1,
+      "totalDays": 26.2,
       "soldCount": 1,
-      "avgDaysToSell": 26.1
+      "avgDaysToSell": 26.2
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13747,8 +13749,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 75,
-    "totalOffers": 156,
+    "withOffers": 76,
+    "totalOffers": 157,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 65
   },
@@ -13771,7 +13773,7 @@
     },
     {
       "label": "6–15",
-      "total": 56,
+      "total": 57,
       "sold": 14,
       "rate": 25
     },
@@ -13783,7 +13785,7 @@
     },
     {
       "label": "31+",
-      "total": 61,
+      "total": 60,
       "sold": 14,
       "rate": 23
     }
@@ -13845,21 +13847,21 @@
     },
     {
       "state": "NY",
-      "total": 10,
+      "total": 11,
       "sold": 2,
-      "rate": 20
-    },
-    {
-      "state": "TX",
-      "total": 10,
-      "sold": 4,
-      "rate": 40
+      "rate": 18
     },
     {
       "state": "OR",
       "total": 9,
       "sold": 1,
       "rate": 11
+    },
+    {
+      "state": "TX",
+      "total": 9,
+      "sold": 4,
+      "rate": 44
     },
     {
       "state": "TN",
