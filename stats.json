@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T21:11:52.544Z",
+  "generatedAt": "2026-04-27T21:39:36.909Z",
   "totalLinks": 303,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 297,
   "overall": {
     "count": 297,
-    "sum": 1080676.27,
-    "avg": 3639,
+    "sum": 1077679.27,
+    "avg": 3629,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 284,
-    "sum": 744047.28,
-    "avg": 2620,
+    "sum": 741050.28,
+    "avg": 2609,
     "min": 33,
     "max": 8300,
     "median": 2225
@@ -133,10 +133,10 @@
   "byMonth": {
     "2026-04": {
       "count": 167,
-      "sum": 489583.92,
+      "sum": 486586.92,
       "min": 70,
       "max": 15500,
-      "avg": 2932
+      "avg": 2914
     },
     "2026-03": {
       "count": 130,
@@ -149,10 +149,10 @@
   "byCategory": {
     "reverb": {
       "count": 266,
-      "sum": 805899.36,
+      "sum": 802902.36,
       "min": 33,
       "max": 35900,
-      "avg": 3030
+      "avg": 3018
     },
     "marketplace": {
       "count": 31,
@@ -165,10 +165,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 266,
-      "sum": 805899.36,
+      "sum": 802902.36,
       "min": 33,
       "max": 35900,
-      "avg": 3030
+      "avg": 3018
     },
     "davesguitar.com": {
       "count": 1,
@@ -242,6 +242,37 @@
     }
   },
   "byModel": {
+    "vintage-furch-oom-sr-hard": {
+      "displayName": "Furch Vintage 2 OOM-SR Hard case Parlor 12-fret",
+      "brand": "Vintage",
+      "model": "Furch OOM-SR Hard",
+      "variant": null,
+      "count": 1,
+      "sum": 2842,
+      "min": 2842,
+      "max": 2842,
+      "sightings": [
+        {
+          "price": 2842,
+          "date": "2026-04-27T21:39:21.081Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Furch Vintage 2 OOM-SR Hard case Parlor 12-fret",
+          "url": "https://reverb.com/item/92162854-furch-vintage-2-oom-sr-hard-case-parlor-12-fret",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 2842,
+          "min": 2842,
+          "max": 2842,
+          "avg": 2842
+        }
+      },
+      "avg": 2842
+    },
     "parker-fly-deluxe-fake": {
       "displayName": "Parker Fly Deluxe — Fake Interactions? 1996 Ferrari Red",
       "brand": "Parker",
@@ -5425,37 +5456,6 @@
       },
       "avg": 1599
     },
-    "ibanez-rg1570-prestige": {
-      "displayName": "1 of 1 Ibanez RG1570 Prestige Custom - Steve Vai JEM",
-      "brand": "Ibanez",
-      "model": "RG1570",
-      "variant": "Prestige",
-      "count": 1,
-      "sum": 5839,
-      "min": 5839,
-      "max": 5839,
-      "sightings": [
-        {
-          "price": 5839,
-          "date": "2026-04-19T23:39:56.608Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1 of 1 Ibanez RG1570 Prestige Custom - Steve Vai JEM",
-          "url": "https://reverb.com/ca/item/92734591-1-of-1-ibanez-rg1570-prestige-custom-steve-vai-jem",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 5839,
-          "min": 5839,
-          "max": 5839,
-          "avg": 5839
-        }
-      },
-      "avg": 5839
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9647,9 +9647,23 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 25,
+      "sum": 110354.10999999999,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4414,
+      "min": 135,
+      "max": 14670
+    },
     "Excellent": {
-      "count": 105,
-      "sum": 376950.73,
+      "count": 104,
+      "sum": 371111.73,
       "sold": {
         "count": 30,
         "sum": 119230.45,
@@ -9657,7 +9671,7 @@
         "min": 190,
         "max": 35900
       },
-      "avg": 3590,
+      "avg": 3568,
       "min": 190,
       "max": 35900
     },
@@ -9688,20 +9702,6 @@
       "avg": 2431,
       "min": 70,
       "max": 11475
-    },
-    "Brand New": {
-      "count": 24,
-      "sum": 107512.10999999999,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4480,
-      "min": 135,
-      "max": 14670
     },
     "Non Functioning": {
       "count": 1,
@@ -9779,7 +9779,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2932,
+      "avg": 2914,
       "count": 167
     },
     "03": {
@@ -9934,18 +9934,18 @@
     "0-500": 15,
     "500-1k": 26,
     "1k-2k": 81,
-    "2k-3k": 74,
+    "2k-3k": 75,
     "3k-5k": 58,
-    "5k-10k": 34,
+    "5k-10k": 33,
     "10k+": 9
   },
   "priceDistributionFiltered": {
     "0-500": 15,
     "500-1k": 26,
     "1k-2k": 81,
-    "2k-3k": 74,
+    "2k-3k": 75,
     "3k-5k": 58,
-    "5k-10k": 30,
+    "5k-10k": 29,
     "10k+": 0
   },
   "daysOnMarket": {
@@ -10361,7 +10361,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-27": 12,
+    "2026-04-27": 13,
     "2026-04-26": 19,
     "2026-04-25": 20,
     "2026-04-24": 34,
@@ -10369,7 +10369,6 @@
     "2026-04-22": 17,
     "2026-04-21": 22,
     "2026-04-20": 11,
-    "2026-04-19": 1,
     "2026-03-28": 7,
     "2026-03-29": 17,
     "2026-03-30": 29,
@@ -10391,7 +10390,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 35
+      "count": 36
     },
     {
       "username": "jazee_",
@@ -10466,8 +10465,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2932,
-    "pctBelowAvg": 19,
+    "avg": 2914,
+    "pctBelowAvg": 20,
     "count": 167
   },
   "topVoted": [],
@@ -10491,10 +10490,10 @@
       "count": 23
     },
     "Ibanez": {
-      "avgPrice": 3610,
+      "avgPrice": 3470,
       "retailEst": 1000,
-      "avgDiscount": -261,
-      "count": 17
+      "avgDiscount": -247,
+      "count": 16
     },
     "Kiesel": {
       "avgPrice": 1421,
@@ -11407,6 +11406,14 @@
       "livePct": 76
     },
     "byBrand": {
+      "Vintage": {
+        "total": 10,
+        "sold": 0,
+        "fake": 0,
+        "live": 10,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Parker": {
         "total": 2,
         "sold": 1,
@@ -11424,12 +11431,12 @@
         "livePct": 75
       },
       "Ibanez": {
-        "total": 17,
+        "total": 16,
         "sold": 6,
         "fake": 0,
-        "live": 11,
-        "soldPct": 35,
-        "livePct": 65
+        "live": 10,
+        "soldPct": 38,
+        "livePct": 63
       },
       "Gibson": {
         "total": 30,
@@ -11508,14 +11515,6 @@
         "sold": 0,
         "fake": 0,
         "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Vintage": {
-        "total": 9,
-        "sold": 0,
-        "fake": 0,
-        "live": 9,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12117,7 +12116,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 74,
+        "total": 75,
         "sold": 21,
         "rate": 28
       },
@@ -12129,7 +12128,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 34,
+        "total": 33,
         "sold": 8,
         "rate": 24
       },
@@ -12141,8 +12140,13 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 25,
+        "sold": 5,
+        "rate": 20
+      },
       "Excellent": {
-        "total": 105,
+        "total": 104,
         "sold": 31,
         "rate": 30
       },
@@ -12155,11 +12159,6 @@
         "total": 50,
         "sold": 8,
         "rate": 16
-      },
-      "Brand New": {
-        "total": 24,
-        "sold": 5,
-        "rate": 21
       },
       "Non Functioning": {
         "total": 1,
@@ -12732,9 +12731,9 @@
       "soldAvg": 3107,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 88.1,
+      "totalDays": 88.2,
       "soldCount": 4,
-      "avgDaysToSell": 22
+      "avgDaysToSell": 22.1
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -12750,7 +12749,7 @@
       "soldAvg": 2806,
       "live": 19,
       "sellRate": 17,
-      "totalDays": 69.80000000000001,
+      "totalDays": 69.9,
       "soldCount": 4,
       "avgDaysToSell": 17.5
     },
@@ -12909,7 +12908,7 @@
       "soldAvg": 1488,
       "live": 11,
       "sellRate": 31,
-      "totalDays": 138.9,
+      "totalDays": 139,
       "soldCount": 5,
       "avgDaysToSell": 27.8
     },
@@ -12944,9 +12943,9 @@
       "soldAvg": 1600,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 28.1,
+      "totalDays": 28.2,
       "soldCount": 1,
-      "avgDaysToSell": 28.1
+      "avgDaysToSell": 28.2
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -12996,7 +12995,7 @@
       "soldAvg": 5066,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 65,
+      "totalDays": 65.1,
       "soldCount": 3,
       "avgDaysToSell": 21.7
     },
@@ -13022,17 +13021,17 @@
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
       "tier": "high",
-      "count": 7,
-      "sum": 23476,
-      "avg": 3354,
+      "count": 6,
+      "sum": 17637,
+      "avg": 2940,
       "min": 1099,
       "max": 7019,
       "sold": 2,
       "soldSum": 5599,
       "soldAvg": 2800,
-      "live": 5,
-      "sellRate": 29,
-      "totalDays": 36.1,
+      "live": 4,
+      "sellRate": 33,
+      "totalDays": 36.2,
       "soldCount": 2,
       "avgDaysToSell": 18.1
     },
@@ -13050,9 +13049,9 @@
       "soldAvg": 1240,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 5.1,
+      "totalDays": 5.2,
       "soldCount": 1,
-      "avgDaysToSell": 5.1
+      "avgDaysToSell": 5.2
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13630,7 +13629,7 @@
     "withOffers": 74,
     "totalOffers": 157,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 67
+    "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13651,13 +13650,13 @@
     },
     {
       "label": "6–15",
-      "total": 52,
+      "total": 53,
       "sold": 12,
       "rate": 23
     },
     {
       "label": "16–30",
-      "total": 73,
+      "total": 72,
       "sold": 18,
       "rate": 25
     },
@@ -13670,24 +13669,24 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 176,
       "sold": 46,
       "rate": 26
     },
     "off": {
-      "total": 47,
+      "total": 48,
       "sold": 11,
       "rate": 23
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 113,
+      "total": 114,
       "sold": 21,
-      "rate": 19
+      "rate": 18
     },
     "regular": {
-      "total": 98,
+      "total": 97,
       "sold": 27,
       "rate": 28
     }
@@ -13700,16 +13699,16 @@
       "rate": 23
     },
     {
+      "state": "FL",
+      "total": 14,
+      "sold": 3,
+      "rate": 21
+    },
+    {
       "state": "WA",
       "total": 14,
       "sold": 1,
       "rate": 7
-    },
-    {
-      "state": "FL",
-      "total": 13,
-      "sold": 3,
-      "rate": 23
     },
     {
       "state": "TN",
