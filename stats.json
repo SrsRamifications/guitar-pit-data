@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T13:57:19.515Z",
+  "generatedAt": "2026-04-27T14:45:58.051Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1093568.27,
-    "avg": 3633,
+    "sum": 1092303.27,
+    "avg": 3629,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 288,
-    "sum": 759989.28,
-    "avg": 2639,
+    "sum": 758724.28,
+    "avg": 2634,
     "min": 33,
     "max": 8300,
     "median": 2225
   },
   "outliers": {
-    "thresholdHigh": 8327,
+    "thresholdHigh": 8350,
     "thresholdLow": 0,
     "count": 13,
     "items": [
@@ -133,10 +133,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 502475.92,
+      "sum": 501210.92,
       "min": 70,
       "max": 15500,
-      "avg": 2938
+      "avg": 2931
     },
     "2026-03": {
       "count": 130,
@@ -149,10 +149,10 @@
   "byCategory": {
     "reverb": {
       "count": 270,
-      "sum": 818791.36,
+      "sum": 817526.36,
       "min": 33,
       "max": 35900,
-      "avg": 3033
+      "avg": 3028
     },
     "marketplace": {
       "count": 31,
@@ -165,10 +165,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 270,
-      "sum": 818791.36,
+      "sum": 817526.36,
       "min": 33,
       "max": 35900,
-      "avg": 3033
+      "avg": 3028
     },
     "davesguitar.com": {
       "count": 1,
@@ -242,6 +242,37 @@
     }
   },
   "byModel": {
+    "yamaha-fg-340-dreadnought-guitar": {
+      "displayName": "1980 Yamaha FG-340 Dreadnought Guitar",
+      "brand": "Yamaha",
+      "model": "FG-340 Dreadnought Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 335,
+      "min": 335,
+      "max": 335,
+      "sightings": [
+        {
+          "price": 335,
+          "date": "2026-04-27T14:45:37.589Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1980 Yamaha FG-340 Dreadnought Guitar",
+          "url": "https://reverb.com/item/95698295-1980-yamaha-fg-340-dreadnought-guitar",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 335,
+          "min": 335,
+          "max": 335,
+          "avg": 335
+        }
+      },
+      "avg": 335
+    },
     "hamer-daytona-transparent-usa": {
       "displayName": "Hamer Daytona 1994 - Blue Transparent U.S.A.",
       "brand": "Hamer",
@@ -5422,37 +5453,6 @@
       },
       "avg": 7625
     },
-    "ormsby-headless": {
-      "displayName": "Ormsby Headless Goliath 6 GTR Elite - Copper Print",
-      "brand": "Ormsby",
-      "model": "Headless",
-      "variant": null,
-      "count": 1,
-      "sum": 1600,
-      "min": 1600,
-      "max": 1600,
-      "sightings": [
-        {
-          "price": 1600,
-          "date": "2026-04-19T20:01:16.808Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ormsby Headless Goliath 6 GTR Elite - Copper Print",
-          "url": "https://reverb.com/item/96172001-ormsby-headless-goliath-6-gtr-elite-copper-print",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1600,
-          "min": 1600,
-          "max": 1600,
-          "avg": 1600
-        }
-      },
-      "avg": 1600
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9644,6 +9644,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 110,
+      "sum": 386873.73,
+      "sold": {
+        "count": 30,
+        "sum": 115284.45,
+        "avg": 3843,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3517,
+      "min": 190,
+      "max": 35900
+    },
     "Very Good": {
       "count": 81,
       "sum": 212304.55999999994,
@@ -9657,20 +9671,6 @@
       "avg": 2621,
       "min": 33,
       "max": 15500
-    },
-    "Excellent": {
-      "count": 110,
-      "sum": 388138.73,
-      "sold": {
-        "count": 30,
-        "sum": 115284.45,
-        "avg": 3843,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3529,
-      "min": 190,
-      "max": 35900
     },
     "Good": {
       "count": 51,
@@ -9776,7 +9776,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2938,
+      "avg": 2931,
       "count": 171
     },
     "03": {
@@ -9928,24 +9928,29 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 14,
+    "0-500": 15,
     "500-1k": 26,
-    "1k-2k": 85,
+    "1k-2k": 84,
     "2k-3k": 74,
     "3k-5k": 58,
     "5k-10k": 36,
     "10k+": 8
   },
   "priceDistributionFiltered": {
-    "0-500": 14,
+    "0-500": 15,
     "500-1k": 26,
-    "1k-2k": 85,
+    "1k-2k": 84,
     "2k-3k": 74,
     "3k-5k": 58,
     "5k-10k": 31,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Yamaha": {
+      "sum": 101,
+      "count": 6,
+      "avg": 17
+    },
     "BC Rich": {
       "sum": 290,
       "count": 22,
@@ -9962,7 +9967,7 @@
       "avg": 14
     },
     "Fender": {
-      "sum": 230,
+      "sum": 232,
       "count": 17,
       "avg": 14
     },
@@ -9982,9 +9987,9 @@
       "avg": 15
     },
     "Kiesel": {
-      "sum": 328,
+      "sum": 330,
       "count": 14,
-      "avg": 23
+      "avg": 24
     },
     "Gretsch": {
       "sum": 111,
@@ -10027,7 +10032,7 @@
       "avg": 27
     },
     "Gibson": {
-      "sum": 541,
+      "sum": 543,
       "count": 28,
       "avg": 19
     },
@@ -10042,7 +10047,7 @@
       "avg": 3
     },
     "Ibanez": {
-      "sum": 312,
+      "sum": 313,
       "count": 14,
       "avg": 22
     },
@@ -10076,11 +10081,6 @@
       "count": 1,
       "avg": 4
     },
-    "Yamaha": {
-      "sum": 79,
-      "count": 5,
-      "avg": 16
-    },
     "Fodera": {
       "sum": 24,
       "count": 1,
@@ -10092,7 +10092,7 @@
       "avg": 56
     },
     "Guild": {
-      "sum": 67,
+      "sum": 68,
       "count": 2,
       "avg": 34
     },
@@ -10152,9 +10152,9 @@
       "avg": 5
     },
     "Rickenbacker": {
-      "sum": 5,
+      "sum": 6,
       "count": 1,
-      "avg": 5
+      "avg": 6
     },
     "Orange": {
       "sum": 30,
@@ -10220,11 +10220,6 @@
       "sum": 63,
       "count": 3,
       "avg": 21
-    },
-    "Ormsby": {
-      "sum": 8,
-      "count": 1,
-      "avg": 8
     },
     "Languedoc": {
       "sum": 30,
@@ -10322,7 +10317,7 @@
       "avg": 29
     },
     "Music Man": {
-      "sum": 84,
+      "sum": 85,
       "count": 3,
       "avg": 28
     },
@@ -10358,7 +10353,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-27": 5,
+    "2026-04-27": 6,
     "2026-04-26": 19,
     "2026-04-25": 21,
     "2026-04-24": 35,
@@ -10366,7 +10361,7 @@
     "2026-04-22": 17,
     "2026-04-21": 22,
     "2026-04-20": 12,
-    "2026-04-19": 8,
+    "2026-04-19": 7,
     "2026-03-28": 27,
     "2026-03-29": 17,
     "2026-03-30": 29,
@@ -10384,7 +10379,7 @@
     },
     {
       "username": "greg1213",
-      "count": 43
+      "count": 44
     },
     {
       "username": "YellowJack6",
@@ -10400,7 +10395,7 @@
     },
     {
       "username": "Madero",
-      "count": 19
+      "count": 18
     },
     {
       "username": "Modean",
@@ -10463,7 +10458,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2938,
+    "avg": 2931,
     "pctBelowAvg": 19,
     "count": 171
   },
@@ -11201,11 +11196,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1096.8870771590282,
-      "count": 58,
-      "avgPctDrop": 18.9
+      "totalPctDrop": 1112.0769505767498,
+      "count": 59,
+      "avgPctDrop": 18.8
     },
     "byBrand": {
+      "Yamaha": {
+        "totalPctDrop": 15.18987341772152,
+        "count": 1,
+        "avgPctDrop": 15.2
+      },
       "Hamer": {
         "totalPctDrop": 30.555555555555557,
         "count": 1,
@@ -11368,6 +11368,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Yamaha": {
+        "total": 6,
+        "sold": 0,
+        "fake": 0,
+        "live": 6,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Hamer": {
         "total": 5,
         "sold": 1,
@@ -11608,14 +11616,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Yamaha": {
-        "total": 5,
-        "sold": 0,
-        "fake": 0,
-        "live": 5,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Fodera": {
         "total": 2,
         "sold": 0,
@@ -11848,14 +11848,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Ormsby": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12068,9 +12060,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 14,
+        "total": 15,
         "sold": 2,
-        "rate": 14
+        "rate": 13
       },
       {
         "label": "$500–1k",
@@ -12080,7 +12072,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 85,
+        "total": 84,
         "sold": 20,
         "rate": 24
       },
@@ -12110,15 +12102,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 81,
-        "sold": 21,
-        "rate": 26
-      },
       "Excellent": {
         "total": 110,
         "sold": 31,
         "rate": 28
+      },
+      "Very Good": {
+        "total": 81,
+        "sold": 21,
+        "rate": 26
       },
       "Good": {
         "total": 51,
@@ -12248,7 +12240,7 @@
         "condition": "Good",
         "watchers": 0,
         "views": 0,
-        "daysListed": 4,
+        "daysListed": 5,
         "image": "http://www.chicagomusicexchange.com/cdn/shop/files/gibson-electric-guitars-solid-body-gibson-melody-maker-sparkling-burgundy-1968-gibson-melody-maker-sparkling-burgundy-1968-u7502376202-1231318391.jpg?v=1775496060",
         "modelAvg": 2380,
         "pctVsAvg": -20,
@@ -12787,7 +12779,7 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 95.9,
+      "totalDays": 96,
       "soldCount": 3,
       "avgDaysToSell": 32
     },
@@ -12805,9 +12797,9 @@
       "soldAvg": 8499,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 4.7,
+      "totalDays": 4.8,
       "soldCount": 1,
-      "avgDaysToSell": 4.7
+      "avgDaysToSell": 4.8
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -12875,7 +12867,7 @@
       "soldAvg": 1488,
       "live": 11,
       "sellRate": 31,
-      "totalDays": 137.4,
+      "totalDays": 137.5,
       "soldCount": 5,
       "avgDaysToSell": 27.5
     },
@@ -12927,9 +12919,9 @@
       "soldAvg": 1600,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 27.8,
+      "totalDays": 27.9,
       "soldCount": 1,
-      "avgDaysToSell": 27.8
+      "avgDaysToSell": 27.9
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -12979,9 +12971,9 @@
       "soldAvg": 5066,
       "live": 1,
       "sellRate": 75,
-      "totalDays": 64.1,
+      "totalDays": 64.4,
       "soldCount": 3,
-      "avgDaysToSell": 21.4
+      "avgDaysToSell": 21.5
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13015,9 +13007,9 @@
       "soldAvg": 2800,
       "live": 5,
       "sellRate": 29,
-      "totalDays": 35.5,
+      "totalDays": 35.7,
       "soldCount": 2,
-      "avgDaysToSell": 17.8
+      "avgDaysToSell": 17.9
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -13033,9 +13025,9 @@
       "soldAvg": 1240,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 4.8,
+      "totalDays": 4.9,
       "soldCount": 1,
-      "avgDaysToSell": 4.8
+      "avgDaysToSell": 4.9
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13069,7 +13061,7 @@
       "soldAvg": 3110,
       "live": 20,
       "sellRate": 13,
-      "totalDays": 64.1,
+      "totalDays": 64.19999999999999,
       "soldCount": 3,
       "avgDaysToSell": 21.4
     },
@@ -13276,9 +13268,9 @@
       "soldAvg": 3107,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 86.9,
+      "totalDays": 87.10000000000001,
       "soldCount": 4,
-      "avgDaysToSell": 21.7
+      "avgDaysToSell": 21.8
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13312,9 +13304,9 @@
       "soldAvg": 2099,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 15.7,
+      "totalDays": 15.8,
       "soldCount": 1,
-      "avgDaysToSell": 15.7
+      "avgDaysToSell": 15.8
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -13449,26 +13441,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 62.9,
+      "totalDays": 63.099999999999994,
       "soldCount": 3,
       "avgDaysToSell": 21
-    },
-    "Ormsby|Ormsby Indonesia": {
-      "brand": "Ormsby",
-      "brandLine": "Ormsby Indonesia",
-      "tier": "budget-mid",
-      "count": 1,
-      "sum": 1600,
-      "avg": 1600,
-      "min": 1600,
-      "max": 1600,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -13640,9 +13615,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 27.6,
+      "totalDays": 27.7,
       "soldCount": 1,
-      "avgDaysToSell": 27.6
+      "avgDaysToSell": 27.7
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13670,7 +13645,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 104
+    "avgShippingCost": 103
   },
   "watcherDemand": [
     {
@@ -13681,15 +13656,15 @@
     },
     {
       "label": "1–5",
-      "total": 19,
+      "total": 18,
       "sold": 3,
-      "rate": 16
+      "rate": 17
     },
     {
       "label": "6–15",
-      "total": 55,
+      "total": 56,
       "sold": 13,
-      "rate": 24
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -13731,9 +13706,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 25,
+      "total": 26,
       "sold": 5,
-      "rate": 20
+      "rate": 19
     },
     {
       "state": "FL",
@@ -13755,9 +13730,9 @@
     },
     {
       "state": "TX",
-      "total": 11,
+      "total": 10,
       "sold": 3,
-      "rate": 27
+      "rate": 30
     },
     {
       "state": "TN",
