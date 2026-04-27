@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T03:25:32.513Z",
+  "generatedAt": "2026-04-27T04:56:10.060Z",
   "totalLinks": 306,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 300,
   "overall": {
     "count": 300,
-    "sum": 1089339.27,
-    "avg": 3631,
+    "sum": 1091241.27,
+    "avg": 3637,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 287,
-    "sum": 754760.28,
-    "avg": 2630,
+    "sum": 756662.28,
+    "avg": 2636,
     "min": 33,
     "max": 8300,
-    "median": 2200
+    "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 8327,
+    "thresholdHigh": 8300,
     "thresholdLow": 0,
     "count": 13,
     "items": [
@@ -133,10 +133,10 @@
   "byMonth": {
     "2026-04": {
       "count": 170,
-      "sum": 498246.92,
+      "sum": 500148.92,
       "min": 70,
       "max": 15500,
-      "avg": 2931
+      "avg": 2942
     },
     "2026-03": {
       "count": 130,
@@ -149,10 +149,10 @@
   "byCategory": {
     "reverb": {
       "count": 268,
-      "sum": 813567.36,
+      "sum": 815469.36,
       "min": 33,
       "max": 35900,
-      "avg": 3036
+      "avg": 3043
     },
     "marketplace": {
       "count": 32,
@@ -165,10 +165,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 268,
-      "sum": 813567.36,
+      "sum": 815469.36,
       "min": 33,
       "max": 35900,
-      "avg": 3036
+      "avg": 3043
     },
     "davesguitar.com": {
       "count": 1,
@@ -242,6 +242,37 @@
     }
   },
   "byModel": {
+    "mosrite-one-off": {
+      "displayName": "Mosrite Custom One Off - Black",
+      "brand": "Mosrite",
+      "model": "One Off",
+      "variant": null,
+      "count": 1,
+      "sum": 3000,
+      "min": 3000,
+      "max": 3000,
+      "sightings": [
+        {
+          "price": 3000,
+          "date": "2026-04-27T04:55:53.924Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Mosrite Custom One Off - Black",
+          "url": "https://reverb.com/item/96440181-mosrite-custom-one-off-black",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3000,
+          "min": 3000,
+          "max": 3000,
+          "avg": 3000
+        }
+      },
+      "avg": 3000
+    },
     "prs-mccarty-594-private-stock-limited": {
       "displayName": "PRS McCarty 594 Private Stock Graveyard II Limited",
       "brand": "PRS",
@@ -9606,6 +9637,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 78,
+      "sum": 204482.55999999994,
+      "sold": {
+        "count": 21,
+        "sum": 48173.719999999994,
+        "avg": 2294,
+        "min": 475,
+        "max": 5500
+      },
+      "avg": 2622,
+      "min": 33,
+      "max": 15500
+    },
     "Excellent": {
       "count": 111,
       "sum": 392638.73,
@@ -9647,20 +9692,6 @@
       "avg": 4399,
       "min": 135,
       "max": 14670
-    },
-    "Very Good": {
-      "count": 78,
-      "sum": 202580.55999999994,
-      "sold": {
-        "count": 22,
-        "sum": 49271.85999999999,
-        "avg": 2240,
-        "min": 475,
-        "max": 5500
-      },
-      "avg": 2597,
-      "min": 33,
-      "max": 15500
     },
     "Non Functioning": {
       "count": 1,
@@ -9738,7 +9769,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 2931,
+      "avg": 2942,
       "count": 170
     },
     "03": {
@@ -9892,24 +9923,29 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 26,
-    "1k-2k": 85,
+    "1k-2k": 84,
     "2k-3k": 74,
-    "3k-5k": 58,
+    "3k-5k": 59,
     "5k-10k": 35,
     "10k+": 8
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 26,
-    "1k-2k": 85,
+    "1k-2k": 84,
     "2k-3k": 74,
-    "3k-5k": 58,
+    "3k-5k": 59,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Mosrite": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "PRS": {
-      "sum": 287,
+      "sum": 288,
       "count": 22,
       "avg": 13
     },
@@ -9919,7 +9955,7 @@
       "avg": 13
     },
     "Charvel": {
-      "sum": 34,
+      "sum": 35,
       "count": 4,
       "avg": 9
     },
@@ -9934,7 +9970,7 @@
       "avg": 15
     },
     "Kiesel": {
-      "sum": 318,
+      "sum": 320,
       "count": 14,
       "avg": 23
     },
@@ -9959,9 +9995,9 @@
       "avg": 4
     },
     "Vigier": {
-      "sum": 16,
+      "sum": 17,
       "count": 2,
-      "avg": 8
+      "avg": 9
     },
     "Peavey": {
       "sum": 33,
@@ -9984,7 +10020,7 @@
       "avg": 26
     },
     "Gibson": {
-      "sum": 526,
+      "sum": 527,
       "count": 29,
       "avg": 18
     },
@@ -9999,7 +10035,7 @@
       "avg": 2
     },
     "Ibanez": {
-      "sum": 310,
+      "sum": 311,
       "count": 15,
       "avg": 21
     },
@@ -10024,9 +10060,9 @@
       "avg": 2
     },
     "Aristides": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "PGM Moon": {
       "sum": 3,
@@ -10044,9 +10080,9 @@
       "avg": 24
     },
     "Rick Toone": {
-      "sum": 55,
+      "sum": 56,
       "count": 1,
-      "avg": 55
+      "avg": 56
     },
     "Guild": {
       "sum": 66,
@@ -10089,9 +10125,9 @@
       "avg": 4
     },
     "Seger": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Duesenberg": {
       "sum": 5,
@@ -10124,14 +10160,14 @@
       "avg": 53
     },
     "Knaggs": {
-      "sum": 93,
+      "sum": 94,
       "count": 3,
       "avg": 31
     },
     "K-Line": {
-      "sum": 5,
+      "sum": 6,
       "count": 1,
-      "avg": 5
+      "avg": 6
     },
     "Robin": {
       "sum": 51,
@@ -10149,9 +10185,9 @@
       "avg": 51
     },
     "Novo": {
-      "sum": 54,
+      "sum": 55,
       "count": 2,
-      "avg": 27
+      "avg": 28
     },
     "Seymour Duncan": {
       "sum": 36,
@@ -10244,9 +10280,9 @@
       "avg": 31
     },
     "Framus": {
-      "sum": 31,
+      "sum": 32,
       "count": 1,
-      "avg": 31
+      "avg": 32
     },
     "Danocaster": {
       "sum": 31,
@@ -10294,9 +10330,9 @@
       "avg": 27
     },
     "Cornish": {
-      "sum": 42,
+      "sum": 43,
       "count": 1,
-      "avg": 42
+      "avg": 43
     },
     "Lollar": {
       "sum": 27,
@@ -10304,18 +10340,18 @@
       "avg": 27
     },
     "Suhr": {
-      "sum": 26,
+      "sum": 27,
       "count": 1,
-      "avg": 26
+      "avg": 27
     },
     "Xotic": {
-      "sum": 26,
+      "sum": 27,
       "count": 1,
-      "avg": 26
+      "avg": 27
     }
   },
   "listingsPerDay": {
-    "2026-04-27": 1,
+    "2026-04-27": 2,
     "2026-04-26": 19,
     "2026-04-25": 21,
     "2026-04-24": 35,
@@ -10323,8 +10359,8 @@
     "2026-04-22": 17,
     "2026-04-21": 22,
     "2026-04-20": 12,
-    "2026-04-19": 11,
-    "2026-03-28": 31,
+    "2026-04-19": 10,
+    "2026-03-28": 28,
     "2026-03-29": 17,
     "2026-03-30": 29,
     "2026-03-31": 17
@@ -10333,15 +10369,15 @@
     "reverb": 268,
     "marketplace": 38
   },
-  "activeModelsCount": 226,
+  "activeModelsCount": 224,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 95
+      "count": 96
     },
     {
       "username": "greg1213",
-      "count": 43
+      "count": 42
     },
     {
       "username": "YellowJack6",
@@ -10382,11 +10418,11 @@
       "count": 32
     },
     {
-      "username": "greg1213",
-      "count": 8
+      "username": "Shteefe",
+      "count": 7
     },
     {
-      "username": "Shteefe",
+      "username": "greg1213",
       "count": 7
     },
     {
@@ -10420,7 +10456,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 2931,
+    "avg": 2942,
     "pctBelowAvg": 19,
     "count": 170
   },
@@ -10464,17 +10500,17 @@
     }
   },
   "soldPrices": {
-    "count": 71,
-    "avg": 3333,
+    "count": 70,
+    "avg": 3364,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 411.8,
-      "count": 67,
-      "avgDays": 6.1
+      "totalDays": 411.59999999999997,
+      "count": 66,
+      "avgDays": 6.2
     },
     "byModel": {
       "gibson-sg-custom-custom-shop-limited-edition": {
@@ -11320,14 +11356,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 287,
+      "total": 288,
       "sold": 66,
       "fake": 0,
-      "live": 221,
+      "live": 222,
       "soldPct": 23,
       "livePct": 77
     },
     "byBrand": {
+      "Mosrite": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 24,
         "sold": 7,
@@ -12032,9 +12076,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 85,
-        "sold": 21,
-        "rate": 25
+        "total": 84,
+        "sold": 20,
+        "rate": 24
       },
       {
         "label": "$2k–3k",
@@ -12044,9 +12088,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 58,
+        "total": 59,
         "sold": 15,
-        "rate": 26
+        "rate": 25
       },
       {
         "label": "$5k–10k",
@@ -12062,6 +12106,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 78,
+        "sold": 21,
+        "rate": 27
+      },
       "Excellent": {
         "total": 111,
         "sold": 32,
@@ -12076,11 +12125,6 @@
         "total": 26,
         "sold": 5,
         "rate": 19
-      },
-      "Very Good": {
-        "total": 78,
-        "sold": 22,
-        "rate": 28
       },
       "Non Functioning": {
         "total": 1,
@@ -12274,7 +12318,7 @@
         "condition": "Good",
         "watchers": 0,
         "views": 0,
-        "daysListed": 29,
+        "daysListed": 30,
         "image": "https://rvb-img.reverb.com/i/s--iVtWd1Vf--/quality=medium-low,height=800,width=800,fit=contain/qckwnrsuqgfu4sgwd5ik.jpg",
         "modelAvg": 4919,
         "pctVsAvg": 32
@@ -12460,7 +12504,7 @@
         "condition": "Mint",
         "watchers": 78,
         "views": 3250,
-        "daysListed": 2131,
+        "daysListed": 2132,
         "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12719,9 +12763,9 @@
       "soldAvg": 16365,
       "live": 9,
       "sellRate": 25,
-      "totalDays": 94.6,
+      "totalDays": 94.80000000000001,
       "soldCount": 3,
-      "avgDaysToSell": 31.5
+      "avgDaysToSell": 31.6
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -12755,7 +12799,7 @@
       "soldAvg": 3558,
       "live": 9,
       "sellRate": 40,
-      "totalDays": 145.9,
+      "totalDays": 146.1,
       "soldCount": 6,
       "avgDaysToSell": 24.3
     },
@@ -12807,9 +12851,9 @@
       "soldAvg": 1488,
       "live": 11,
       "sellRate": 31,
-      "totalDays": 135.20000000000002,
+      "totalDays": 135.5,
       "soldCount": 5,
-      "avgDaysToSell": 27
+      "avgDaysToSell": 27.1
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -12859,9 +12903,9 @@
       "soldAvg": 1600,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 27.4,
+      "totalDays": 27.5,
       "soldCount": 1,
-      "avgDaysToSell": 27.4
+      "avgDaysToSell": 27.5
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -12911,9 +12955,9 @@
       "soldAvg": 5066,
       "live": 1,
       "sellRate": 75,
-      "totalDays": 62.9,
+      "totalDays": 63.2,
       "soldCount": 3,
-      "avgDaysToSell": 21
+      "avgDaysToSell": 21.1
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -12947,9 +12991,9 @@
       "soldAvg": 2800,
       "live": 5,
       "sellRate": 29,
-      "totalDays": 34.7,
+      "totalDays": 34.9,
       "soldCount": 2,
-      "avgDaysToSell": 17.4
+      "avgDaysToSell": 17.5
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -12965,9 +13009,9 @@
       "soldAvg": 1240,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 4.4,
+      "totalDays": 4.5,
       "soldCount": 1,
-      "avgDaysToSell": 4.4
+      "avgDaysToSell": 4.5
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13000,9 +13044,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 28.2,
+      "totalDays": 28.3,
       "soldCount": 1,
-      "avgDaysToSell": 28.2
+      "avgDaysToSell": 28.3
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13018,9 +13062,9 @@
       "soldAvg": 3208,
       "live": 20,
       "sellRate": 17,
-      "totalDays": 70.1,
+      "totalDays": 70.5,
       "soldCount": 4,
-      "avgDaysToSell": 17.5
+      "avgDaysToSell": 17.6
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13036,9 +13080,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 3.6,
+      "totalDays": 3.7,
       "soldCount": 1,
-      "avgDaysToSell": 3.6
+      "avgDaysToSell": 3.7
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13225,9 +13269,9 @@
       "soldAvg": 3107,
       "live": 1,
       "sellRate": 80,
-      "totalDays": 85.3,
+      "totalDays": 85.4,
       "soldCount": 4,
-      "avgDaysToSell": 21.3
+      "avgDaysToSell": 21.4
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13415,9 +13459,9 @@
       "soldAvg": 2124,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 61.599999999999994,
+      "totalDays": 61.8,
       "soldCount": 3,
-      "avgDaysToSell": 20.5
+      "avgDaysToSell": 20.6
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -13518,9 +13562,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 230.4,
+      "totalDays": 230.5,
       "soldCount": 2,
-      "avgDaysToSell": 115.2
+      "avgDaysToSell": 115.3
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -13570,7 +13614,7 @@
       "soldAvg": 2150,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 55.1,
+      "totalDays": 55.2,
       "soldCount": 2,
       "avgDaysToSell": 27.6
     },
@@ -13588,9 +13632,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 27.3,
+      "totalDays": 27.4,
       "soldCount": 1,
-      "avgDaysToSell": 27.3
+      "avgDaysToSell": 27.4
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13606,9 +13650,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 27.2,
+      "totalDays": 27.3,
       "soldCount": 1,
-      "avgDaysToSell": 27.2
+      "avgDaysToSell": 27.3
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13647,15 +13691,15 @@
     },
     {
       "label": "1–5",
-      "total": 17,
+      "total": 18,
       "sold": 3,
-      "rate": 18
+      "rate": 17
     },
     {
       "label": "6–15",
-      "total": 56,
-      "sold": 14,
-      "rate": 25
+      "total": 55,
+      "sold": 13,
+      "rate": 24
     },
     {
       "label": "16–30",
@@ -13673,8 +13717,8 @@
   "offersEffect": {
     "on": {
       "total": 176,
-      "sold": 47,
-      "rate": 27
+      "sold": 46,
+      "rate": 26
     },
     "off": {
       "total": 50,
@@ -13690,8 +13734,8 @@
     },
     "regular": {
       "total": 97,
-      "sold": 28,
-      "rate": 29
+      "sold": 27,
+      "rate": 28
     }
   },
   "geoSellThrough": [
@@ -13720,16 +13764,16 @@
       "rate": 8
     },
     {
+      "state": "TX",
+      "total": 11,
+      "sold": 3,
+      "rate": 27
+    },
+    {
       "state": "PA",
       "total": 11,
       "sold": 4,
       "rate": 36
-    },
-    {
-      "state": "TX",
-      "total": 10,
-      "sold": 3,
-      "rate": 30
     },
     {
       "state": "TN",
@@ -13871,12 +13915,6 @@
     },
     {
       "state": "MT",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
-    },
-    {
-      "state": "ENG",
       "total": 2,
       "sold": 1,
       "rate": 50
