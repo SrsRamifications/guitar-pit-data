@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T12:44:47.894Z",
+  "generatedAt": "2026-04-28T13:40:36.764Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1110321.27,
-    "avg": 3689,
+    "sum": 1110721.27,
+    "avg": 3690,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 286,
-    "sum": 754592.28,
-    "avg": 2638,
+    "sum": 754992.28,
+    "avg": 2640,
     "min": 33,
     "max": 7999,
     "median": 2297
@@ -149,10 +149,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 519228.92,
+      "sum": 519628.92,
       "min": 70,
       "max": 15500,
-      "avg": 3036
+      "avg": 3039
     },
     "2026-03": {
       "count": 130,
@@ -165,10 +165,10 @@
   "byCategory": {
     "reverb": {
       "count": 270,
-      "sum": 835544.36,
+      "sum": 835944.36,
       "min": 33,
       "max": 35900,
-      "avg": 3095
+      "avg": 3096
     },
     "marketplace": {
       "count": 31,
@@ -181,10 +181,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 270,
-      "sum": 835544.36,
+      "sum": 835944.36,
       "min": 33,
       "max": 35900,
-      "avg": 3095
+      "avg": 3096
     },
     "davesguitar.com": {
       "count": 1,
@@ -258,6 +258,37 @@
     }
   },
   "byModel": {
+    "music-man-cutlass": {
+      "displayName": "Ernie Ball Music Man Cutlass, Lightweight specimen, 2016, OHSC",
+      "brand": "Music Man",
+      "model": "Cutlass",
+      "variant": null,
+      "count": 1,
+      "sum": 1199,
+      "min": 1199,
+      "max": 1199,
+      "sightings": [
+        {
+          "price": 1199,
+          "date": "2026-04-28T13:40:21.552Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man Cutlass, Lightweight specimen, 2016, OHSC",
+          "url": "https://reverb.com/item/96461278-ernie-ball-music-man-cutlass-lightweight-specimen-2016-ohsc",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1199,
+          "min": 1199,
+          "max": 1199,
+          "avg": 1199
+        }
+      },
+      "avg": 1199
+    },
     "washburn-ec36-m1": {
       "displayName": "Washburn EC36 M1 1988",
       "brand": "Washburn",
@@ -5594,37 +5625,6 @@
       },
       "avg": 4100
     },
-    "kiesel-ae185-piezo": {
-      "displayName": "Carvin AE185 spruce & Mahogany (piezo and electric)",
-      "brand": "Kiesel",
-      "model": "AE185",
-      "variant": "Piezo",
-      "count": 1,
-      "sum": 799,
-      "min": 799,
-      "max": 799,
-      "sightings": [
-        {
-          "price": 799,
-          "date": "2026-04-20T19:34:16.869Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Carvin AE185 spruce & Mahogany (piezo and electric)",
-          "url": "https://reverb.com/item/91166747-carvin-ae185-spruce-mahogany-piezo-and-electric",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 799,
-          "min": 799,
-          "max": 799,
-          "avg": 799
-        }
-      },
-      "avg": 799
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9816,6 +9816,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 87,
+      "sum": 238874.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 60973.72,
+        "avg": 2651,
+        "min": 475,
+        "max": 10800
+      },
+      "avg": 2746,
+      "min": 33,
+      "max": 15500
+    },
     "Excellent": {
       "count": 105,
       "sum": 380096.73,
@@ -9829,20 +9843,6 @@
       "avg": 3620,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 87,
-      "sum": 238474.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 60973.72,
-        "avg": 2651,
-        "min": 475,
-        "max": 10800
-      },
-      "avg": 2741,
-      "min": 33,
-      "max": 15500
     },
     "Good": {
       "count": 51,
@@ -9948,7 +9948,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3036,
+      "avg": 3039,
       "count": 171
     },
     "03": {
@@ -10064,13 +10064,6 @@
       "date": "2026-04-22T12:16:03.011Z"
     },
     {
-      "title": "Carvin AE185 spruce & Mahogany (piezo and electric)",
-      "url": "https://reverb.com/item/91166747-carvin-ae185-spruce-mahogany-piezo-and-electric",
-      "oldPrice": "$825",
-      "newPrice": "$799",
-      "date": "2026-04-21T02:44:20.900Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10097,12 +10090,19 @@
       "oldPrice": "$2,799",
       "newPrice": "$2,659",
       "date": "2026-04-03T07:37:59.231Z"
+    },
+    {
+      "title": "1984 Guild X-88 With Case",
+      "url": "https://reverb.com/item/95519984-1984-guild-x-88-with-case",
+      "oldPrice": "$2,000",
+      "newPrice": "$1,700",
+      "date": "2026-04-01T22:44:47.805Z"
     }
   ],
   "priceDistribution": {
     "0-500": 14,
-    "500-1k": 24,
-    "1k-2k": 80,
+    "500-1k": 23,
+    "1k-2k": 81,
     "2k-3k": 79,
     "3k-5k": 60,
     "5k-10k": 34,
@@ -10110,14 +10110,19 @@
   },
   "priceDistributionFiltered": {
     "0-500": 14,
-    "500-1k": 24,
-    "1k-2k": 80,
+    "500-1k": 23,
+    "1k-2k": 81,
     "2k-3k": 79,
     "3k-5k": 60,
     "5k-10k": 29,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Music Man": {
+      "sum": 88,
+      "count": 4,
+      "avg": 22
+    },
     "Washburn": {
       "sum": 0,
       "count": 1,
@@ -10144,7 +10149,7 @@
       "avg": 19
     },
     "Fender": {
-      "sum": 213,
+      "sum": 214,
       "count": 15,
       "avg": 14
     },
@@ -10164,9 +10169,9 @@
       "avg": 36
     },
     "Gibson": {
-      "sum": 580,
+      "sum": 583,
       "count": 27,
-      "avg": 21
+      "avg": 22
     },
     "Yamaha": {
       "sum": 107,
@@ -10179,7 +10184,7 @@
       "avg": 1
     },
     "PRS": {
-      "sum": 317,
+      "sum": 318,
       "count": 21,
       "avg": 15
     },
@@ -10199,7 +10204,7 @@
       "avg": 16
     },
     "Kiesel": {
-      "sum": 312,
+      "sum": 315,
       "count": 12,
       "avg": 26
     },
@@ -10289,7 +10294,7 @@
       "avg": 35
     },
     "Dunable": {
-      "sum": 35,
+      "sum": 36,
       "count": 2,
       "avg": 18
     },
@@ -10309,7 +10314,7 @@
       "avg": 27
     },
     "Hamer": {
-      "sum": 82,
+      "sum": 83,
       "count": 4,
       "avg": 21
     },
@@ -10464,9 +10469,9 @@
       "avg": 33
     },
     "Danocaster": {
-      "sum": 32,
+      "sum": 33,
       "count": 1,
-      "avg": 32
+      "avg": 33
     },
     "Anderson": {
       "sum": 31,
@@ -10487,11 +10492,6 @@
       "sum": 30,
       "count": 1,
       "avg": 30
-    },
-    "Music Man": {
-      "sum": 86,
-      "count": 3,
-      "avg": 29
     },
     "Friedman": {
       "sum": 57,
@@ -10530,7 +10530,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-28": 8,
+    "2026-04-28": 9,
     "2026-04-27": 15,
     "2026-04-26": 19,
     "2026-04-25": 19,
@@ -10538,7 +10538,7 @@
     "2026-04-23": 32,
     "2026-04-22": 17,
     "2026-04-21": 22,
-    "2026-04-20": 6,
+    "2026-04-20": 5,
     "2026-03-29": 9,
     "2026-03-30": 29,
     "2026-03-31": 17
@@ -10555,7 +10555,7 @@
     },
     {
       "username": "greg1213",
-      "count": 44
+      "count": 43
     },
     {
       "username": "YellowJack6",
@@ -10575,7 +10575,7 @@
     },
     {
       "username": "Modean",
-      "count": 14
+      "count": 15
     },
     {
       "username": "scottcorgan",
@@ -10634,7 +10634,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3036,
+    "avg": 3039,
     "pctBelowAvg": 18,
     "count": 171
   },
@@ -10665,10 +10665,10 @@
       "count": 17
     },
     "Kiesel": {
-      "avgPrice": 1483,
+      "avgPrice": 1529,
       "retailEst": 1000,
-      "avgDiscount": -48.3,
-      "count": 16
+      "avgDiscount": -52.9,
+      "count": 15
     },
     "BC Rich": {
       "avgPrice": 2968,
@@ -11388,9 +11388,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1100.338213994061,
-      "count": 61,
-      "avgPctDrop": 18
+      "totalPctDrop": 1076.5059928310486,
+      "count": 60,
+      "avgPctDrop": 17.9
     },
     "byBrand": {
       "Dean": {
@@ -11419,9 +11419,9 @@
         "avgPctDrop": 18.1
       },
       "Kiesel": {
-        "totalPctDrop": 77.29943397186386,
-        "count": 4,
-        "avgPctDrop": 19.3
+        "totalPctDrop": 53.46721280885148,
+        "count": 3,
+        "avgPctDrop": 17.8
       },
       "PRS": {
         "totalPctDrop": 36.651785714285715,
@@ -11565,6 +11565,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Music Man": {
+        "total": 5,
+        "sold": 4,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 80,
+        "livePct": 20
+      },
       "Washburn": {
         "total": 1,
         "sold": 0,
@@ -11710,12 +11718,12 @@
         "livePct": 100
       },
       "Kiesel": {
-        "total": 16,
+        "total": 15,
         "sold": 4,
         "fake": 0,
-        "live": 12,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 11,
+        "soldPct": 27,
+        "livePct": 73
       },
       "Gretsch": {
         "total": 3,
@@ -12173,14 +12181,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Music Man": {
-        "total": 4,
-        "sold": 4,
-        "fake": 0,
-        "live": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Mayones": {
         "total": 1,
         "sold": 0,
@@ -12263,15 +12263,15 @@
       },
       {
         "label": "$500–1k",
-        "total": 24,
+        "total": 23,
         "sold": 2,
-        "rate": 8
+        "rate": 9
       },
       {
         "label": "$1k–2k",
-        "total": 80,
+        "total": 81,
         "sold": 19,
-        "rate": 24
+        "rate": 23
       },
       {
         "label": "$2k–3k",
@@ -12299,15 +12299,15 @@
       }
     ],
     "byCondition": {
-      "Excellent": {
-        "total": 105,
-        "sold": 30,
-        "rate": 29
-      },
       "Very Good": {
         "total": 87,
         "sold": 23,
         "rate": 26
+      },
+      "Excellent": {
+        "total": 105,
+        "sold": 30,
+        "rate": 29
       },
       "Good": {
         "total": 51,
@@ -12392,7 +12392,7 @@
         "condition": "Excellent",
         "watchers": 34,
         "views": 713,
-        "daysListed": 5,
+        "daysListed": 6,
         "image": "https://rvb-img.reverb.com/i/s--ShKWc51V--/quality=medium-low,height=800,width=800,fit=contain/bf9a4ba0-c598-4418-ac43-f719d824e640.jpeg",
         "modelAvg": 5274,
         "pctVsAvg": -20,
@@ -12571,20 +12571,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "Carvin AE185 spruce & Mahogany (piezo and electric)",
-        "url": "https://reverb.com/item/91166747-carvin-ae185-spruce-mahogany-piezo-and-electric",
-        "price": "$799",
-        "priceNum": 799,
-        "brand": "Kiesel",
-        "condition": "Very Good",
-        "watchers": 121,
-        "views": 2319,
-        "daysListed": 305,
-        "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Vintage 1969 Gibson SG Standard - Rock n Roll Flamethrower! Playe",
         "url": "https://reverb.com/ca/item/95920173-vintage-1969-gibson-sg-standard-rock-n-roll-flamethrower-player-priced",
         "price": "$3,395",
@@ -12595,6 +12581,20 @@
         "views": 1402,
         "daysListed": 16,
         "image": "https://rvb-img.reverb.com/i/s--1wXSIORK--/quality=medium-low,height=800,width=800,fit=contain/20b883fb-6f3d-48b3-8d89-849c886210fe.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "Tokai Love Rock",
+        "url": "https://reverb.com/ca/item/87620163-tokai-love-rock",
+        "price": "$515",
+        "priceNum": 515,
+        "brand": "Tokai",
+        "condition": "Very Good",
+        "watchers": 106,
+        "views": 3701,
+        "daysListed": 421,
+        "image": "https://rvb-img.reverb.com/i/s--cNrpfm1Q--/quality=medium-low,height=800,width=800,fit=contain/bhaaf3xsoim1pzk0wgap.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12797,16 +12797,16 @@
         "pctVsAvg": null
       },
       {
-        "title": "Carvin AE185 spruce & Mahogany (piezo and electric)",
-        "url": "https://reverb.com/item/91166747-carvin-ae185-spruce-mahogany-piezo-and-electric",
-        "price": "$799",
-        "priceNum": 799,
-        "brand": "Kiesel",
-        "condition": "Very Good",
-        "watchers": 121,
-        "views": 2319,
-        "daysListed": 305,
-        "image": "https://rvb-img.reverb.com/i/s--ljS7NPuY--/quality=medium-low,height=800,width=800,fit=contain/miy9vmhvxftqiht9eyln.jpg",
+        "title": "Polaris Wizard - BC Rich Warlock Copy - 1980’s - Blue Burst - w/O",
+        "url": "https://reverb.com/item/91198146-polaris-wizard-bc-rich-warlock-copy-1980-s-blue-burst-w-ohsc",
+        "price": "$400",
+        "priceNum": 400,
+        "brand": "BC Rich",
+        "condition": "Good",
+        "watchers": 39,
+        "views": 1299,
+        "daysListed": 303,
+        "image": "https://rvb-img.reverb.com/i/s--fh5w0q2q--/quality=medium-low,height=800,width=800,fit=contain/ijlhhjakc14uyuyq07mf.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12814,9 +12814,9 @@
     "sweetSpots": [
       {
         "brand": "Music Man",
-        "avgPrice": 2275,
-        "sellRate": 100,
-        "count": 4,
+        "avgPrice": 2060,
+        "sellRate": 80,
+        "count": 5,
         "sold": 4
       },
       {
@@ -12829,6 +12829,24 @@
     ]
   },
   "byBrandLine": {
+    "Music Man|Music Man USA": {
+      "brand": "Music Man",
+      "brandLine": "Music Man USA",
+      "tier": "premium",
+      "count": 3,
+      "sum": 5499,
+      "avg": 1833,
+      "min": 1199,
+      "max": 2200,
+      "sold": 2,
+      "soldSum": 4300,
+      "soldAvg": 2150,
+      "live": 1,
+      "sellRate": 67,
+      "totalDays": 57.9,
+      "soldCount": 2,
+      "avgDaysToSell": 29
+    },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
       "brandLine": "Washburn USA Custom",
@@ -12912,9 +12930,9 @@
       "soldAvg": 14974,
       "live": 8,
       "sellRate": 33,
-      "totalDays": 99.6,
+      "totalDays": 99.8,
       "soldCount": 4,
-      "avgDaysToSell": 24.9
+      "avgDaysToSell": 25
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -12983,7 +13001,7 @@
       "soldAvg": 2806,
       "live": 19,
       "sellRate": 17,
-      "totalDays": 72.30000000000001,
+      "totalDays": 72.5,
       "soldCount": 4,
       "avgDaysToSell": 18.1
     },
@@ -13018,7 +13036,7 @@
       "soldAvg": 7800,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 30.1,
+      "totalDays": 30.200000000000003,
       "soldCount": 2,
       "avgDaysToSell": 15.1
     },
@@ -13054,9 +13072,9 @@
       "soldAvg": 3558,
       "live": 8,
       "sellRate": 43,
-      "totalDays": 154.2,
+      "totalDays": 154.5,
       "soldCount": 6,
-      "avgDaysToSell": 25.7
+      "avgDaysToSell": 25.8
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -13097,17 +13115,17 @@
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
       "tier": "premium",
-      "count": 14,
-      "sum": 20557.98,
-      "avg": 1468,
-      "min": 799,
+      "count": 13,
+      "sum": 19758.98,
+      "avg": 1520,
+      "min": 900,
       "max": 2700,
       "sold": 3,
       "soldSum": 5590,
       "soldAvg": 1863,
-      "live": 11,
-      "sellRate": 21,
-      "totalDays": 115.7,
+      "live": 10,
+      "sellRate": 23,
+      "totalDays": 115.8,
       "soldCount": 3,
       "avgDaysToSell": 38.6
     },
@@ -13248,9 +13266,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 29.6,
+      "totalDays": 29.7,
       "soldCount": 1,
-      "avgDaysToSell": 29.6
+      "avgDaysToSell": 29.7
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13266,9 +13284,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 5,
+      "totalDays": 5.1,
       "soldCount": 1,
-      "avgDaysToSell": 5
+      "avgDaysToSell": 5.1
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13644,9 +13662,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 233.1,
+      "totalDays": 233.3,
       "soldCount": 2,
-      "avgDaysToSell": 116.6
+      "avgDaysToSell": 116.7
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -13665,24 +13683,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Music Man|Music Man USA": {
-      "brand": "Music Man",
-      "brandLine": "Music Man USA",
-      "tier": "premium",
-      "count": 2,
-      "sum": 4300,
-      "avg": 2150,
-      "min": 2100,
-      "max": 2200,
-      "sold": 2,
-      "soldSum": 4300,
-      "soldAvg": 2150,
-      "live": 0,
-      "sellRate": 100,
-      "totalDays": 57.9,
-      "soldCount": 2,
-      "avgDaysToSell": 29
-    },
     "Friedman|Friedman": {
       "brand": "Friedman",
       "brandLine": "Friedman",
@@ -13697,7 +13697,7 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 57.1,
+      "totalDays": 57.2,
       "soldCount": 2,
       "avgDaysToSell": 28.6
     },
@@ -13756,8 +13756,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 75,
-    "totalOffers": 158,
+    "withOffers": 74,
+    "totalOffers": 157,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 67
   },
@@ -13786,13 +13786,13 @@
     },
     {
       "label": "16–30",
-      "total": 70,
+      "total": 71,
       "sold": 17,
       "rate": 24
     },
     {
       "label": "31+",
-      "total": 71,
+      "total": 70,
       "sold": 14,
       "rate": 20
     }
@@ -13824,9 +13824,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 27,
+      "total": 28,
       "sold": 6,
-      "rate": 22
+      "rate": 21
     },
     {
       "state": "FL",
@@ -13907,12 +13907,6 @@
       "rate": 75
     },
     {
-      "state": "AL",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
-    },
-    {
       "state": "IN",
       "total": 4,
       "sold": 0,
@@ -13941,6 +13935,12 @@
       "total": 3,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "AL",
+      "total": 3,
+      "sold": 1,
+      "rate": 33
     },
     {
       "state": "WI",
