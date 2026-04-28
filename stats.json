@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T13:40:36.764Z",
+  "generatedAt": "2026-04-28T13:50:09.976Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,18 +7,18 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1110721.27,
-    "avg": 3690,
+    "sum": 1108216.27,
+    "avg": 3682,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 286,
-    "sum": 754992.28,
-    "avg": 2640,
+    "sum": 752487.28,
+    "avg": 2631,
     "min": 33,
     "max": 7999,
-    "median": 2297
+    "median": 2290
   },
   "outliers": {
     "thresholdHigh": 8240,
@@ -149,10 +149,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 519628.92,
+      "sum": 517123.92,
       "min": 70,
       "max": 15500,
-      "avg": 3039
+      "avg": 3024
     },
     "2026-03": {
       "count": 130,
@@ -163,35 +163,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 270,
-      "sum": 835944.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3096
-    },
     "marketplace": {
-      "count": 31,
-      "sum": 274776.91,
+      "count": 32,
+      "sum": 276371.91,
       "min": 143.99,
       "max": 99000,
-      "avg": 8864
+      "avg": 8637
+    },
+    "reverb": {
+      "count": 269,
+      "sum": 831844.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3092
     }
   },
   "byDomain": {
+    "davesguitar.com": {
+      "count": 2,
+      "sum": 2845,
+      "min": 1250,
+      "max": 1595,
+      "avg": 1423
+    },
     "reverb.com": {
-      "count": 270,
-      "sum": 835944.36,
+      "count": 269,
+      "sum": 831844.36,
       "min": 33,
       "max": 35900,
-      "avg": 3096
-    },
-    "davesguitar.com": {
-      "count": 1,
-      "sum": 1250,
-      "min": 1250,
-      "max": 1250,
-      "avg": 1250
+      "avg": 3092
     },
     "chicagomusicexchange.com": {
       "count": 14,
@@ -5594,37 +5594,6 @@
       },
       "avg": 1667
     },
-    "schecter-sunset-usa-custom-shop": {
-      "displayName": "Schecter Schecter USA Custom Shop Sunset Swirl 24-6 Thorn 2017 - Ibanez 25th Silver Swirl",
-      "brand": "Schecter",
-      "model": "Sunset",
-      "variant": "Usa Custom Shop",
-      "count": 1,
-      "sum": 4100,
-      "min": 4100,
-      "max": 4100,
-      "sightings": [
-        {
-          "price": 4100,
-          "date": "2026-04-20T19:45:38.281Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Schecter Schecter USA Custom Shop Sunset Swirl 24-6 Thorn 2017 - Ibanez 25th Silver Swirl",
-          "url": "https://reverb.com/item/96204182-schecter-schecter-usa-custom-shop-sunset-swirl-24-6-thorn-2017-ibanez-25th-silver-swirl",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4100,
-          "min": 4100,
-          "max": 4100,
-          "avg": 4100
-        }
-      },
-      "avg": 4100
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9816,6 +9785,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 105,
+      "sum": 377591.73,
+      "sold": {
+        "count": 29,
+        "sum": 121535.45,
+        "avg": 4191,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3596,
+      "min": 275,
+      "max": 35900
+    },
     "Very Good": {
       "count": 87,
       "sum": 238874.55999999994,
@@ -9829,20 +9812,6 @@
       "avg": 2746,
       "min": 33,
       "max": 15500
-    },
-    "Excellent": {
-      "count": 105,
-      "sum": 380096.73,
-      "sold": {
-        "count": 29,
-        "sum": 121535.45,
-        "avg": 4191,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3620,
-      "min": 275,
-      "max": 35900
     },
     "Good": {
       "count": 51,
@@ -9948,7 +9917,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3039,
+      "avg": 3024,
       "count": 171
     },
     "03": {
@@ -10102,18 +10071,18 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 81,
+    "1k-2k": 82,
     "2k-3k": 79,
-    "3k-5k": 60,
+    "3k-5k": 59,
     "5k-10k": 34,
     "10k+": 10
   },
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 81,
+    "1k-2k": 82,
     "2k-3k": 79,
-    "3k-5k": 60,
+    "3k-5k": 59,
     "5k-10k": 29,
     "10k+": 0
   },
@@ -10134,7 +10103,7 @@
       "avg": 52
     },
     "Fano": {
-      "sum": 59,
+      "sum": 60,
       "count": 3,
       "avg": 20
     },
@@ -10334,9 +10303,9 @@
       "avg": 6
     },
     "ESP": {
-      "sum": 113,
+      "sum": 114,
       "count": 4,
-      "avg": 28
+      "avg": 29
     },
     "Marshall": {
       "sum": 6,
@@ -10395,11 +10364,6 @@
     },
     "Seymour Duncan": {
       "sum": 40,
-      "count": 2,
-      "avg": 20
-    },
-    "Schecter": {
-      "sum": 39,
       "count": 2,
       "avg": 20
     },
@@ -10473,6 +10437,11 @@
       "count": 1,
       "avg": 33
     },
+    "Schecter": {
+      "sum": 31,
+      "count": 1,
+      "avg": 31
+    },
     "Anderson": {
       "sum": 31,
       "count": 1,
@@ -10530,7 +10499,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-28": 9,
+    "2026-04-28": 10,
     "2026-04-27": 15,
     "2026-04-26": 19,
     "2026-04-25": 19,
@@ -10538,20 +10507,20 @@
     "2026-04-23": 32,
     "2026-04-22": 17,
     "2026-04-21": 22,
-    "2026-04-20": 5,
+    "2026-04-20": 4,
     "2026-03-29": 9,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 270,
-    "marketplace": 37
+    "marketplace": 38,
+    "reverb": 269
   },
-  "activeModelsCount": 202,
+  "activeModelsCount": 201,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 91
+      "count": 90
     },
     {
       "username": "greg1213",
@@ -10575,7 +10544,7 @@
     },
     {
       "username": "Modean",
-      "count": 15
+      "count": 16
     },
     {
       "username": "scottcorgan",
@@ -10634,7 +10603,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3039,
+    "avg": 3024,
     "pctBelowAvg": 18,
     "count": 171
   },
@@ -11557,10 +11526,10 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 289,
+      "total": 288,
       "sold": 67,
       "fake": 0,
-      "live": 222,
+      "live": 221,
       "soldPct": 23,
       "livePct": 77
     },
@@ -12045,14 +12014,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Schecter": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12156,6 +12117,14 @@
         "live": 0,
         "soldPct": 100,
         "livePct": 0
+      },
+      "Schecter": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
       },
       "Anderson": {
         "total": 1,
@@ -12269,7 +12238,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 81,
+        "total": 82,
         "sold": 19,
         "rate": 23
       },
@@ -12281,7 +12250,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 60,
+        "total": 59,
         "sold": 15,
         "rate": 25
       },
@@ -12299,15 +12268,15 @@
       }
     ],
     "byCondition": {
-      "Very Good": {
-        "total": 87,
-        "sold": 23,
-        "rate": 26
-      },
       "Excellent": {
         "total": 105,
         "sold": 30,
         "rate": 29
+      },
+      "Very Good": {
+        "total": 87,
+        "sold": 23,
+        "rate": 26
       },
       "Good": {
         "total": 51,
@@ -12735,7 +12704,7 @@
         "condition": "Excellent",
         "watchers": 51,
         "views": 1885,
-        "daysListed": 471,
+        "daysListed": 472,
         "image": "https://rvb-img.reverb.com/i/s--6JzLgsFN--/quality=medium-low,height=800,width=800,fit=contain/tlf1wyndmgmio2pbzfal.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12843,7 +12812,7 @@
       "soldAvg": 2150,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 57.9,
+      "totalDays": 58,
       "soldCount": 2,
       "avgDaysToSell": 29
     },
@@ -13001,9 +12970,9 @@
       "soldAvg": 2806,
       "live": 19,
       "sellRate": 17,
-      "totalDays": 72.5,
+      "totalDays": 72.6,
       "soldCount": 4,
-      "avgDaysToSell": 18.1
+      "avgDaysToSell": 18.2
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13107,9 +13076,9 @@
       "soldAvg": 2000,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 4.8,
+      "totalDays": 4.9,
       "soldCount": 1,
-      "avgDaysToSell": 4.8
+      "avgDaysToSell": 4.9
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -13125,7 +13094,7 @@
       "soldAvg": 1863,
       "live": 10,
       "sellRate": 23,
-      "totalDays": 115.8,
+      "totalDays": 115.9,
       "soldCount": 3,
       "avgDaysToSell": 38.6
     },
@@ -13563,23 +13532,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Schecter|Schecter USA Custom Shop": {
-      "brand": "Schecter",
-      "brandLine": "Schecter USA Custom Shop",
-      "tier": "ultra",
-      "count": 2,
-      "sum": 6099,
-      "avg": 3050,
-      "min": 1999,
-      "max": 4100,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 2,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -13589,6 +13541,23 @@
       "avg": 2500,
       "min": 2500,
       "max": 2500,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
+    "Schecter|Schecter USA Custom Shop": {
+      "brand": "Schecter",
+      "brandLine": "Schecter USA Custom Shop",
+      "tier": "ultra",
+      "count": 1,
+      "sum": 1999,
+      "avg": 1999,
+      "min": 1999,
+      "max": 1999,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
@@ -13786,7 +13755,7 @@
     },
     {
       "label": "16–30",
-      "total": 71,
+      "total": 70,
       "sold": 17,
       "rate": 24
     },
@@ -13799,7 +13768,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 181,
+      "total": 180,
       "sold": 45,
       "rate": 25
     },
@@ -13816,7 +13785,7 @@
       "rate": 17
     },
     "regular": {
-      "total": 100,
+      "total": 99,
       "sold": 27,
       "rate": 27
     }
@@ -13986,12 +13955,6 @@
     },
     {
       "state": "WY",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "CO",
       "total": 2,
       "sold": 0,
       "rate": 0
