@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T19:25:38.968Z",
+  "generatedAt": "2026-04-28T19:44:30.496Z",
   "totalLinks": 311,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,18 +7,18 @@
   "totalWithPrice": 305,
   "overall": {
     "count": 305,
-    "sum": 1121846.27,
-    "avg": 3678,
+    "sum": 1119979.27,
+    "avg": 3672,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 290,
-    "sum": 766117.28,
-    "avg": 2642,
+    "sum": 764250.28,
+    "avg": 2635,
     "min": 33,
     "max": 7999,
-    "median": 2290
+    "median": 2267
   },
   "outliers": {
     "thresholdHigh": 8110,
@@ -149,10 +149,10 @@
   "byMonth": {
     "2026-04": {
       "count": 175,
-      "sum": 530753.92,
+      "sum": 528886.92,
       "min": 70,
       "max": 15500,
-      "avg": 3033
+      "avg": 3022
     },
     "2026-03": {
       "count": 130,
@@ -165,10 +165,10 @@
   "byCategory": {
     "reverb": {
       "count": 273,
-      "sum": 845474.36,
+      "sum": 843607.36,
       "min": 33,
       "max": 35900,
-      "avg": 3097
+      "avg": 3090
     },
     "marketplace": {
       "count": 32,
@@ -181,10 +181,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 273,
-      "sum": 845474.36,
+      "sum": 843607.36,
       "min": 33,
       "max": 35900,
-      "avg": 3097
+      "avg": 3090
     },
     "davesguitar.com": {
       "count": 2,
@@ -258,6 +258,37 @@
     }
   },
   "byModel": {
+    "gibson-sj-200-studio-walnut-gloss": {
+      "displayName": "Gibson SJ-200 Studio Walnut 2025 - Present Gloss Walnut Burst",
+      "brand": "Gibson",
+      "model": "SJ-200 Studio Walnut",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 2200,
+      "min": 2200,
+      "max": 2200,
+      "sightings": [
+        {
+          "price": 2200,
+          "date": "2026-04-28T19:44:12.446Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson SJ-200 Studio Walnut 2025 - Present Gloss Walnut Burst",
+          "url": "https://reverb.com/item/96176908-gibson-sj-200-studio-walnut-2025-present-gloss-walnut-burst",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2200,
+          "min": 2200,
+          "max": 2200,
+          "avg": 2200
+        }
+      },
+      "avg": 2200
+    },
     "martin-dss-biosphere-ii": {
       "displayName": "Martin DSS Biosphere II #18672 (NAMM)",
       "brand": "Martin",
@@ -5664,37 +5695,6 @@
       },
       "avg": 1495
     },
-    "vigier-excalibur-surfreter-special": {
-      "displayName": "Vigier Excalibur Surfreter Special Fretless - Diamond Black - Gold Hardware - 2011 - Hard Case",
-      "brand": "Vigier",
-      "model": "Excalibur Surfreter Special",
-      "variant": null,
-      "count": 1,
-      "sum": 4067,
-      "min": 4067,
-      "max": 4067,
-      "sightings": [
-        {
-          "price": 4067,
-          "date": "2026-04-21T12:28:20.575Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Vigier Excalibur Surfreter Special Fretless - Diamond Black - Gold Hardware - 2011 - Hard Case",
-          "url": "https://reverb.com/uk/item/95867735-vigier-excalibur-surfreter-special-fretless-diamond-black-gold-hardware-2011-hard-case",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 4067,
-          "min": 4067,
-          "max": 4067,
-          "avg": 4067
-        }
-      },
-      "avg": 4067
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9886,6 +9886,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 108,
+      "sum": 388249.73,
+      "sold": {
+        "count": 30,
+        "sum": 123685.45,
+        "avg": 4123,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3595,
+      "min": 275,
+      "max": 35900
+    },
     "Mint": {
       "count": 5,
       "sum": 12649,
@@ -9927,20 +9941,6 @@
       "avg": 2087,
       "min": 850,
       "max": 4699
-    },
-    "Excellent": {
-      "count": 108,
-      "sum": 390116.73,
-      "sold": {
-        "count": 30,
-        "sum": 123685.45,
-        "avg": 4123,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3612,
-      "min": 275,
-      "max": 35900
     },
     "Good": {
       "count": 49,
@@ -10018,7 +10018,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3033,
+      "avg": 3022,
       "count": 175
     },
     "03": {
@@ -10127,13 +10127,6 @@
       "date": "2026-04-28T07:24:29.255Z"
     },
     {
-      "title": "Vigier Excalibur Surfreter Special Fretless - Diamond Black - Gold Hardware - 2011 - Hard Case",
-      "url": "https://reverb.com/uk/item/95867735-vigier-excalibur-surfreter-special-fretless-diamond-black-gold-hardware-2011-hard-case",
-      "oldPrice": "$4,233",
-      "newPrice": "$4,067",
-      "date": "2026-04-22T12:16:03.011Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10167,14 +10160,21 @@
       "oldPrice": "$2,000",
       "newPrice": "$1,700",
       "date": "2026-04-01T22:44:47.805Z"
+    },
+    {
+      "title": "Ibanez JEM7-RB 1988 - Root Beer",
+      "url": "https://reverb.com/item/95464810-ibanez-jem7-rb-1988-root-beer",
+      "oldPrice": "$5,000",
+      "newPrice": "$4,250",
+      "date": "2026-04-01T17:43:44.200Z"
     }
   ],
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
     "1k-2k": 83,
-    "2k-3k": 81,
-    "3k-5k": 59,
+    "2k-3k": 82,
+    "3k-5k": 58,
     "5k-10k": 35,
     "10k+": 10
   },
@@ -10182,12 +10182,17 @@
     "0-500": 14,
     "500-1k": 23,
     "1k-2k": 83,
-    "2k-3k": 81,
-    "3k-5k": 59,
+    "2k-3k": 82,
+    "3k-5k": 58,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 581,
+      "count": 26,
+      "avg": 22
+    },
     "BC Rich": {
       "sum": 370,
       "count": 26,
@@ -10247,11 +10252,6 @@
       "sum": 72,
       "count": 2,
       "avg": 36
-    },
-    "Gibson": {
-      "sum": 572,
-      "count": 25,
-      "avg": 23
     },
     "Yamaha": {
       "sum": 108,
@@ -10454,14 +10454,9 @@
       "avg": 7
     },
     "Greco": {
-      "sum": 104,
+      "sum": 105,
       "count": 2,
-      "avg": 52
-    },
-    "Vigier": {
-      "sum": 17,
-      "count": 1,
-      "avg": 17
+      "avg": 53
     },
     "Languedoc": {
       "sum": 31,
@@ -10605,14 +10600,14 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-28": 20,
+    "2026-04-28": 21,
     "2026-04-27": 15,
     "2026-04-26": 19,
     "2026-04-25": 19,
     "2026-04-24": 34,
     "2026-04-23": 32,
     "2026-04-22": 17,
-    "2026-04-21": 20,
+    "2026-04-21": 19,
     "2026-03-29": 5,
     "2026-03-30": 29,
     "2026-03-31": 17
@@ -10708,7 +10703,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3033,
+    "avg": 3022,
     "pctBelowAvg": 18,
     "count": 175
   },
@@ -10721,10 +10716,10 @@
       "count": 21
     },
     "Gibson": {
-      "avgPrice": 3287,
+      "avgPrice": 3246,
       "retailEst": 800,
-      "avgDiscount": -310.8,
-      "count": 26
+      "avgDiscount": -305.8,
+      "count": 27
     },
     "PRS": {
       "avgPrice": 3707,
@@ -11484,11 +11479,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1090.799474478225,
+      "totalPctDrop": 1098.651465993662,
       "count": 61,
-      "avgPctDrop": 17.9
+      "avgPctDrop": 18
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 72.28476590531315,
+        "count": 6,
+        "avgPctDrop": 12
+      },
       "Martin": {
         "totalPctDrop": 20.00833680700292,
         "count": 1,
@@ -11559,11 +11559,6 @@
         "count": 1,
         "avgPctDrop": 6.1
       },
-      "Gibson": {
-        "totalPctDrop": 60.28476590531316,
-        "count": 5,
-        "avgPctDrop": 12.1
-      },
       "SAITO": {
         "totalPctDrop": 17.647058823529413,
         "count": 1,
@@ -11603,11 +11598,6 @@
         "totalPctDrop": 10.93638313080772,
         "count": 1,
         "avgPctDrop": 10.9
-      },
-      "Vigier": {
-        "totalPctDrop": 4.148008484562809,
-        "count": 1,
-        "avgPctDrop": 4.1
       },
       "LSL": {
         "totalPctDrop": 10,
@@ -11666,6 +11656,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Gibson": {
+        "total": 29,
+        "sold": 7,
+        "fake": 0,
+        "live": 22,
+        "soldPct": 24,
+        "livePct": 76
+      },
       "Martin": {
         "total": 5,
         "sold": 1,
@@ -11767,14 +11765,6 @@
         "sold": 1,
         "fake": 0,
         "live": 3,
-        "soldPct": 25,
-        "livePct": 75
-      },
-      "Gibson": {
-        "total": 28,
-        "sold": 7,
-        "fake": 0,
-        "live": 21,
         "soldPct": 25,
         "livePct": 75
       },
@@ -12130,14 +12120,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Vigier": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12384,15 +12366,15 @@
       },
       {
         "label": "$2k–3k",
-        "total": 81,
+        "total": 82,
         "sold": 22,
         "rate": 27
       },
       {
         "label": "$3k–5k",
-        "total": 59,
+        "total": 58,
         "sold": 15,
-        "rate": 25
+        "rate": 26
       },
       {
         "label": "$5k–10k",
@@ -12408,6 +12390,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 108,
+        "sold": 31,
+        "rate": 29
+      },
       "Mint": {
         "total": 5,
         "sold": 1,
@@ -12422,11 +12409,6 @@
         "total": 4,
         "sold": 1,
         "rate": 25
-      },
-      "Excellent": {
-        "total": 108,
-        "sold": 31,
-        "rate": 29
       },
       "Good": {
         "total": 49,
@@ -12945,6 +12927,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 22,
+      "sum": 64504,
+      "avg": 2932,
+      "min": 135,
+      "max": 7900,
+      "sold": 4,
+      "soldSum": 11225,
+      "soldAvg": 2806,
+      "live": 18,
+      "sellRate": 18,
+      "totalDays": 73.5,
+      "soldCount": 4,
+      "avgDaysToSell": 18.4
+    },
     "Martin|Martin USA": {
       "brand": "Martin",
       "brandLine": "Martin USA",
@@ -13029,9 +13029,9 @@
       "soldAvg": 2150,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 58.4,
+      "totalDays": 58.5,
       "soldCount": 2,
-      "avgDaysToSell": 29.2
+      "avgDaysToSell": 29.3
     },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
@@ -13117,9 +13117,9 @@
       "soldAvg": 3695,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 1.1,
+      "totalDays": 1.2,
       "soldCount": 1,
-      "avgDaysToSell": 1.1
+      "avgDaysToSell": 1.2
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -13135,27 +13135,9 @@
       "soldAvg": 3107,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 91.8,
+      "totalDays": 92.1,
       "soldCount": 4,
       "avgDaysToSell": 23
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 21,
-      "sum": 62304,
-      "avg": 2967,
-      "min": 135,
-      "max": 7900,
-      "sold": 4,
-      "soldSum": 11225,
-      "soldAvg": 2806,
-      "live": 17,
-      "sellRate": 19,
-      "totalDays": 73.5,
-      "soldCount": 4,
-      "avgDaysToSell": 18.4
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13206,9 +13188,9 @@
       "soldAvg": 8499,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 5.9,
+      "totalDays": 6,
       "soldCount": 1,
-      "avgDaysToSell": 5.9
+      "avgDaysToSell": 6
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13224,7 +13206,7 @@
       "soldAvg": 3558,
       "live": 8,
       "sellRate": 43,
-      "totalDays": 155.7,
+      "totalDays": 155.79999999999998,
       "soldCount": 6,
       "avgDaysToSell": 26
     },
@@ -13591,9 +13573,9 @@
       "soldAvg": 2099,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 16.9,
+      "totalDays": 17,
       "soldCount": 1,
-      "avgDaysToSell": 16.9
+      "avgDaysToSell": 17
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -13655,23 +13637,6 @@
       "avg": 2850,
       "min": 2850,
       "max": 2850,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
-    "Vigier|Vigier": {
-      "brand": "Vigier",
-      "brandLine": "Vigier",
-      "tier": "premium",
-      "count": 1,
-      "sum": 4067,
-      "avg": 4067,
-      "min": 4067,
-      "max": 4067,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
@@ -13975,6 +13940,12 @@
       "rate": 7
     },
     {
+      "state": "TX",
+      "total": 12,
+      "sold": 4,
+      "rate": 33
+    },
+    {
       "state": "IL",
       "total": 12,
       "sold": 2,
@@ -13991,12 +13962,6 @@
       "total": 11,
       "sold": 1,
       "rate": 9
-    },
-    {
-      "state": "TX",
-      "total": 11,
-      "sold": 4,
-      "rate": 36
     },
     {
       "state": "NY",
