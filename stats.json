@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-04-28T14:26:24.297Z",
-  "totalLinks": 308,
+  "generatedAt": "2026-04-28T14:37:05.408Z",
+  "totalLinks": 309,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
-  "removedCount": 9,
-  "totalWithPrice": 302,
+  "removedCount": 8,
+  "totalWithPrice": 303,
   "overall": {
-    "count": 302,
-    "sum": 1110948.27,
-    "avg": 3679,
+    "count": 303,
+    "sum": 1112047.27,
+    "avg": 3670,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 287,
-    "sum": 755219.28,
-    "avg": 2631,
+    "count": 289,
+    "sum": 764618.28,
+    "avg": 2646,
     "min": 33,
-    "max": 7999,
+    "max": 8300,
     "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 8240,
+    "thresholdHigh": 8300,
     "thresholdLow": 0,
-    "count": 15,
+    "count": 14,
     "items": [
       {
         "title": "Languedoc G2 Natural 2013 - Zac Brown",
@@ -135,24 +135,16 @@
         "image": "https://cdn11.bigcommerce.com/s-givyq91jn6/products/31817/images/240706/Charvel_1_PFCG0209-6__47200.1776793890.1280.1280__99168.1776888951.386.513.jpg?c=1",
         "condition": null,
         "postedAt": "2026-04-22T20:38:45.709Z"
-      },
-      {
-        "title": "Fodera Imperial Custom",
-        "url": "https://reverb.com/item/95619581-fodera-imperial-custom",
-        "price": "$8,300",
-        "image": "https://rvb-img.reverb.com/i/s--Q1sMg5eq--/quality=medium-low,height=800,width=800,fit=contain/b98304ba-091a-44b3-b535-9c44c54c4de5.jpeg",
-        "condition": "Excellent",
-        "postedAt": "2026-04-24T04:22:51.170Z"
       }
     ]
   },
   "byMonth": {
     "2026-04": {
-      "count": 172,
-      "sum": 519855.92,
+      "count": 173,
+      "sum": 520954.92,
       "min": 70,
       "max": 15500,
-      "avg": 3022
+      "avg": 3011
     },
     "2026-03": {
       "count": 130,
@@ -164,11 +156,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 270,
-      "sum": 834576.36,
+      "count": 271,
+      "sum": 835675.36,
       "min": 33,
       "max": 35900,
-      "avg": 3091
+      "avg": 3084
     },
     "marketplace": {
       "count": 32,
@@ -180,11 +172,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 270,
-      "sum": 834576.36,
+      "count": 271,
+      "sum": 835675.36,
       "min": 33,
       "max": 35900,
-      "avg": 3091
+      "avg": 3084
     },
     "davesguitar.com": {
       "count": 2,
@@ -258,6 +250,37 @@
     }
   },
   "byModel": {
+    "ibanez-original-prestige-signature": {
+      "displayName": "Ibanez Prestige Josh Smith Signature FLATV1 (2022) - Black #09615 with Original Hard Case",
+      "brand": "Ibanez",
+      "model": "Original",
+      "variant": "Prestige Signature",
+      "count": 1,
+      "sum": 1099,
+      "min": 1099,
+      "max": 1099,
+      "sightings": [
+        {
+          "price": 1099,
+          "date": "2026-04-28T14:36:50.217Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez Prestige Josh Smith Signature FLATV1 (2022) - Black #09615 with Original Hard Case",
+          "url": "https://reverb.com/item/95163305-ibanez-prestige-josh-smith-signature-flatv1-2022-black-09615-with-original-hard-case",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1099,
+          "min": 1099,
+          "max": 1099,
+          "avg": 1099
+        }
+      },
+      "avg": 1099
+    },
     "nash-t-72-tl": {
       "displayName": "Nash T-72 TL",
       "brand": "Nash",
@@ -9831,6 +9854,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 89,
+      "sum": 242423.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 60973.72,
+        "avg": 2651,
+        "min": 475,
+        "max": 10800
+      },
+      "avg": 2724,
+      "min": 33,
+      "max": 15500
+    },
     "Excellent": {
       "count": 105,
       "sum": 377873.73,
@@ -9844,20 +9881,6 @@
       "avg": 3599,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 88,
-      "sum": 241324.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 60973.72,
-        "avg": 2651,
-        "min": 475,
-        "max": 10800
-      },
-      "avg": 2742,
-      "min": 33,
-      "max": 15500
     },
     "Good": {
       "count": 51,
@@ -9963,8 +9986,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3022,
-      "count": 172
+      "avg": 3011,
+      "count": 173
     },
     "03": {
       "name": "Mar",
@@ -10117,7 +10140,7 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 82,
+    "1k-2k": 83,
     "2k-3k": 80,
     "3k-5k": 59,
     "5k-10k": 34,
@@ -10126,13 +10149,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 82,
+    "1k-2k": 83,
     "2k-3k": 80,
     "3k-5k": 59,
-    "5k-10k": 29,
+    "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 371,
+      "count": 18,
+      "avg": 21
+    },
     "Nash": {
       "sum": 0,
       "count": 1,
@@ -10149,9 +10177,9 @@
       "avg": 22
     },
     "Washburn": {
-      "sum": 0,
+      "sum": 1,
       "count": 1,
-      "avg": 0
+      "avg": 1
     },
     "Dean": {
       "sum": 52,
@@ -10167,11 +10195,6 @@
       "sum": 64,
       "count": 3,
       "avg": 21
-    },
-    "Ibanez": {
-      "sum": 330,
-      "count": 17,
-      "avg": 19
     },
     "Fender": {
       "sum": 214,
@@ -10194,7 +10217,7 @@
       "avg": 36
     },
     "Gibson": {
-      "sum": 584,
+      "sum": 585,
       "count": 27,
       "avg": 22
     },
@@ -10224,7 +10247,7 @@
       "avg": 2
     },
     "Kiesel": {
-      "sum": 316,
+      "sum": 317,
       "count": 12,
       "avg": 26
     },
@@ -10550,7 +10573,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-28": 12,
+    "2026-04-28": 13,
     "2026-04-27": 15,
     "2026-04-26": 19,
     "2026-04-25": 19,
@@ -10564,10 +10587,10 @@
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 270,
+    "reverb": 271,
     "marketplace": 38
   },
-  "activeModelsCount": 201,
+  "activeModelsCount": 202,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10590,12 +10613,12 @@
       "count": 22
     },
     {
-      "username": "Madero",
+      "username": "Modean",
       "count": 17
     },
     {
-      "username": "Modean",
-      "count": 16
+      "username": "Madero",
+      "count": 17
     },
     {
       "username": "scottcorgan",
@@ -10654,9 +10677,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3022,
+    "avg": 3011,
     "pctBelowAvg": 18,
-    "count": 172
+    "count": 173
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10679,10 +10702,10 @@
       "count": 23
     },
     "Ibanez": {
-      "avgPrice": 3368,
+      "avgPrice": 3242,
       "retailEst": 1000,
-      "avgDiscount": -236.8,
-      "count": 17
+      "avgDiscount": -224.2,
+      "count": 18
     },
     "Kiesel": {
       "avgPrice": 1529,
@@ -11592,14 +11615,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 289,
+      "total": 290,
       "sold": 68,
       "fake": 0,
-      "live": 221,
-      "soldPct": 24,
-      "livePct": 76
+      "live": 222,
+      "soldPct": 23,
+      "livePct": 77
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 18,
+        "sold": 6,
+        "fake": 0,
+        "live": 12,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Nash": {
         "total": 1,
         "sold": 0,
@@ -11655,14 +11686,6 @@
         "live": 3,
         "soldPct": 25,
         "livePct": 75
-      },
-      "Ibanez": {
-        "total": 17,
-        "sold": 6,
-        "fake": 0,
-        "live": 11,
-        "soldPct": 35,
-        "livePct": 65
       },
       "Aria": {
         "total": 1,
@@ -12312,7 +12335,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 82,
+        "total": 83,
         "sold": 19,
         "rate": 23
       },
@@ -12342,15 +12365,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 89,
+        "sold": 23,
+        "rate": 26
+      },
       "Excellent": {
         "total": 105,
         "sold": 31,
         "rate": 30
-      },
-      "Very Good": {
-        "total": 88,
-        "sold": 23,
-        "rate": 26
       },
       "Good": {
         "total": 51,
@@ -12879,6 +12902,24 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Prestige": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Prestige",
+      "tier": "high",
+      "count": 8,
+      "sum": 20457,
+      "avg": 2557,
+      "min": 1099,
+      "max": 7019,
+      "sold": 2,
+      "soldSum": 5599,
+      "soldAvg": 2800,
+      "live": 6,
+      "sellRate": 25,
+      "totalDays": 37.7,
+      "soldCount": 2,
+      "avgDaysToSell": 18.9
+    },
     "Nash|Nash": {
       "brand": "Nash",
       "brandLine": "Nash",
@@ -12966,24 +13007,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Ibanez|Ibanez Prestige": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Prestige",
-      "tier": "high",
-      "count": 7,
-      "sum": 19358,
-      "avg": 2765,
-      "min": 1099,
-      "max": 7019,
-      "sold": 2,
-      "soldSum": 5599,
-      "soldAvg": 2800,
-      "live": 5,
-      "sellRate": 29,
-      "totalDays": 37.6,
-      "soldCount": 2,
-      "avgDaysToSell": 18.8
-    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -12998,7 +13021,7 @@
       "soldAvg": 14974,
       "live": 8,
       "sellRate": 33,
-      "totalDays": 99.8,
+      "totalDays": 99.9,
       "soldCount": 4,
       "avgDaysToSell": 25
     },
@@ -13280,9 +13303,9 @@
       "soldAvg": 5066,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 67.2,
+      "totalDays": 67.4,
       "soldCount": 3,
-      "avgDaysToSell": 22.4
+      "avgDaysToSell": 22.5
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13765,9 +13788,9 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 57.2,
+      "totalDays": 57.3,
       "soldCount": 2,
-      "avgDaysToSell": 28.6
+      "avgDaysToSell": 28.7
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13831,7 +13854,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 104
+    "avgShippingCost": 103
   },
   "watcherDemand": [
     {
@@ -13860,7 +13883,7 @@
     },
     {
       "label": "31+",
-      "total": 70,
+      "total": 71,
       "sold": 14,
       "rate": 20
     }
@@ -13872,14 +13895,14 @@
       "rate": 25
     },
     "off": {
-      "total": 47,
+      "total": 48,
       "sold": 11,
       "rate": 23
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 115,
+      "total": 116,
       "sold": 20,
       "rate": 17
     },
@@ -13927,16 +13950,16 @@
       "rate": 36
     },
     {
+      "state": "PA",
+      "total": 10,
+      "sold": 3,
+      "rate": 30
+    },
+    {
       "state": "TN",
       "total": 10,
       "sold": 4,
       "rate": 40
-    },
-    {
-      "state": "PA",
-      "total": 9,
-      "sold": 3,
-      "rate": 33
     },
     {
       "state": "NY",
