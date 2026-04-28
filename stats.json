@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T13:50:09.976Z",
+  "generatedAt": "2026-04-28T14:18:40.082Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,18 +7,18 @@
   "totalWithPrice": 301,
   "overall": {
     "count": 301,
-    "sum": 1108216.27,
-    "avg": 3682,
+    "sum": 1108999.27,
+    "avg": 3684,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 286,
-    "sum": 752487.28,
-    "avg": 2631,
+    "sum": 753270.28,
+    "avg": 2634,
     "min": 33,
     "max": 7999,
-    "median": 2290
+    "median": 2297
   },
   "outliers": {
     "thresholdHigh": 8240,
@@ -149,10 +149,10 @@
   "byMonth": {
     "2026-04": {
       "count": 171,
-      "sum": 517123.92,
+      "sum": 517906.92,
       "min": 70,
       "max": 15500,
-      "avg": 3024
+      "avg": 3029
     },
     "2026-03": {
       "count": 130,
@@ -163,35 +163,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 269,
+      "sum": 832627.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3095
+    },
     "marketplace": {
       "count": 32,
       "sum": 276371.91,
       "min": 143.99,
       "max": 99000,
       "avg": 8637
-    },
-    "reverb": {
-      "count": 269,
-      "sum": 831844.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3092
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 269,
+      "sum": 832627.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3095
+    },
     "davesguitar.com": {
       "count": 2,
       "sum": 2845,
       "min": 1250,
       "max": 1595,
       "avg": 1423
-    },
-    "reverb.com": {
-      "count": 269,
-      "sum": 831844.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3092
     },
     "chicagomusicexchange.com": {
       "count": 14,
@@ -258,6 +258,37 @@
     }
   },
   "byModel": {
+    "vintage-telecaster-standard": {
+      "displayName": "Shabat Lion Standard Telecaster 2022 - Sunburst",
+      "brand": "Vintage",
+      "model": "Telecaster",
+      "variant": "Standard",
+      "count": 1,
+      "sum": 2450,
+      "min": 2450,
+      "max": 2450,
+      "sightings": [
+        {
+          "price": 2450,
+          "date": "2026-04-28T14:18:22.515Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Shabat Lion Standard Telecaster 2022 - Sunburst",
+          "url": "https://reverb.com/item/96432646-shabat-lion-standard-telecaster-2022-sunburst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2450,
+          "min": 2450,
+          "max": 2450,
+          "avg": 2450
+        }
+      },
+      "avg": 2450
+    },
     "music-man-cutlass": {
       "displayName": "Ernie Ball Music Man Cutlass, Lightweight specimen, 2016, OHSC",
       "brand": "Music Man",
@@ -379,6 +410,21 @@
           "max": 2150,
           "avg": 2150
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2150,
+        "min": 2150,
+        "max": 2150,
+        "prices": [
+          {
+            "price": 2150,
+            "askingPrice": 2150,
+            "date": "2026-04-28T13:50:10.875Z",
+            "title": "Fano RB6 2012 Checked Nitro Relic Natural",
+            "url": "https://reverb.com/item/96467200-fano-rb6-2012-checked-nitro-relic-natural"
+          }
+        ]
       },
       "avg": 2150
     },
@@ -5563,37 +5609,6 @@
       },
       "avg": 1100
     },
-    "eastman-sb56n-top-gold-top": {
-      "displayName": "Eastman SB56/n Gold Top Used",
-      "brand": "Eastman",
-      "model": "SB56/n Top",
-      "variant": "Gold Top",
-      "count": 1,
-      "sum": 1667,
-      "min": 1667,
-      "max": 1667,
-      "sightings": [
-        {
-          "price": 1667,
-          "date": "2026-04-20T21:43:40.100Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman SB56/n Gold Top Used",
-          "url": "https://reverb.com/item/95371311-eastman-sb56-n-gold-top-used",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1667,
-          "min": 1667,
-          "max": 1667,
-          "avg": 1667
-        }
-      },
-      "avg": 1667
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9785,23 +9800,9 @@
     }
   },
   "byCondition": {
-    "Excellent": {
-      "count": 105,
-      "sum": 377591.73,
-      "sold": {
-        "count": 29,
-        "sum": 121535.45,
-        "avg": 4191,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3596,
-      "min": 275,
-      "max": 35900
-    },
     "Very Good": {
-      "count": 87,
-      "sum": 238874.55999999994,
+      "count": 88,
+      "sum": 241324.55999999994,
       "sold": {
         "count": 23,
         "sum": 60973.72,
@@ -9809,9 +9810,23 @@
         "min": 475,
         "max": 10800
       },
-      "avg": 2746,
+      "avg": 2742,
       "min": 33,
       "max": 15500
+    },
+    "Excellent": {
+      "count": 104,
+      "sum": 375924.73,
+      "sold": {
+        "count": 30,
+        "sum": 123685.45,
+        "avg": 4123,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3615,
+      "min": 275,
+      "max": 35900
     },
     "Good": {
       "count": 51,
@@ -9917,7 +9932,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3024,
+      "avg": 3029,
       "count": 171
     },
     "03": {
@@ -10071,8 +10086,8 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 82,
-    "2k-3k": 79,
+    "1k-2k": 81,
+    "2k-3k": 80,
     "3k-5k": 59,
     "5k-10k": 34,
     "10k+": 10
@@ -10080,15 +10095,20 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 82,
-    "2k-3k": 79,
+    "1k-2k": 81,
+    "2k-3k": 80,
     "3k-5k": 59,
     "5k-10k": 29,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 132,
+      "count": 9,
+      "avg": 15
+    },
     "Music Man": {
-      "sum": 88,
+      "sum": 89,
       "count": 4,
       "avg": 22
     },
@@ -10113,7 +10133,7 @@
       "avg": 21
     },
     "Ibanez": {
-      "sum": 329,
+      "sum": 330,
       "count": 17,
       "avg": 19
     },
@@ -10167,13 +10187,8 @@
       "count": 1,
       "avg": 2
     },
-    "Vintage": {
-      "sum": 130,
-      "count": 8,
-      "avg": 16
-    },
     "Kiesel": {
-      "sum": 315,
+      "sum": 316,
       "count": 12,
       "avg": 26
     },
@@ -10198,9 +10213,9 @@
       "avg": 18
     },
     "Eastman": {
-      "sum": 72,
-      "count": 4,
-      "avg": 18
+      "sum": 37,
+      "count": 3,
+      "avg": 12
     },
     "G&L": {
       "sum": 3,
@@ -10258,7 +10273,7 @@
       "avg": 57
     },
     "Guild": {
-      "sum": 69,
+      "sum": 70,
       "count": 2,
       "avg": 35
     },
@@ -10313,9 +10328,9 @@
       "avg": 6
     },
     "Rickenbacker": {
-      "sum": 6,
+      "sum": 7,
       "count": 1,
-      "avg": 6
+      "avg": 7
     },
     "Orange": {
       "sum": 31,
@@ -10499,7 +10514,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-28": 10,
+    "2026-04-28": 11,
     "2026-04-27": 15,
     "2026-04-26": 19,
     "2026-04-25": 19,
@@ -10507,20 +10522,20 @@
     "2026-04-23": 32,
     "2026-04-22": 17,
     "2026-04-21": 22,
-    "2026-04-20": 4,
+    "2026-04-20": 3,
     "2026-03-29": 9,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 38,
-    "reverb": 269
+    "reverb": 269,
+    "marketplace": 38
   },
   "activeModelsCount": 201,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 90
+      "count": 89
     },
     {
       "username": "greg1213",
@@ -10556,7 +10571,7 @@
     },
     {
       "username": "hibby_",
-      "count": 6
+      "count": 7
     }
   ],
   "topDealHunters": [
@@ -10570,7 +10585,7 @@
     },
     {
       "username": "greg1213",
-      "count": 6
+      "count": 7
     },
     {
       "username": "Madero",
@@ -10603,7 +10618,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3024,
+    "avg": 3029,
     "pctBelowAvg": 18,
     "count": 171
   },
@@ -10647,19 +10662,27 @@
     }
   },
   "soldPrices": {
-    "count": 70,
-    "avg": 3604,
+    "count": 71,
+    "avg": 3584,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 402.8,
-      "count": 66,
-      "avgDays": 6.1
+      "totalDays": 403.3,
+      "count": 67,
+      "avgDays": 6
     },
     "byModel": {
+      "fano-rb6-checked-nitro": {
+        "displayName": "Fano RB6 2012 Checked Nitro Relic Natural",
+        "totalDays": 0.5,
+        "count": 1,
+        "fastest": 0.5,
+        "slowest": 0.5,
+        "avgDays": 0.5
+      },
       "fender-stratocaster-player": {
         "displayName": "Fender Stratocaster 1963 Player Grade, Olympic White Refinish",
         "totalDays": 0.4,
@@ -11150,6 +11173,13 @@
       }
     },
     "byBrand": {
+      "Fano": {
+        "totalDays": 0.5,
+        "count": 1,
+        "fastest": 0.5,
+        "slowest": 0.5,
+        "avgDays": 0.5
+      },
       "Fender": {
         "totalDays": 36.60000000000001,
         "count": 6,
@@ -11527,13 +11557,21 @@
   "sellThrough": {
     "overall": {
       "total": 288,
-      "sold": 67,
+      "sold": 68,
       "fake": 0,
-      "live": 221,
-      "soldPct": 23,
-      "livePct": 77
+      "live": 220,
+      "soldPct": 24,
+      "livePct": 76
     },
     "byBrand": {
+      "Vintage": {
+        "total": 12,
+        "sold": 0,
+        "fake": 0,
+        "live": 12,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Music Man": {
         "total": 5,
         "sold": 4,
@@ -11560,11 +11598,11 @@
       },
       "Fano": {
         "total": 3,
-        "sold": 0,
+        "sold": 1,
         "fake": 0,
-        "live": 3,
-        "soldPct": 0,
-        "livePct": 100
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       },
       "Martin": {
         "total": 4,
@@ -11605,14 +11643,6 @@
         "live": 22,
         "soldPct": 12,
         "livePct": 88
-      },
-      "Vintage": {
-        "total": 11,
-        "sold": 0,
-        "fake": 0,
-        "live": 11,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Parker": {
         "total": 2,
@@ -11727,12 +11757,12 @@
         "livePct": 100
       },
       "Eastman": {
-        "total": 4,
+        "total": 3,
         "sold": 1,
         "fake": 0,
-        "live": 3,
-        "soldPct": 25,
-        "livePct": 75
+        "live": 2,
+        "soldPct": 33,
+        "livePct": 67
       },
       "G&L": {
         "total": 1,
@@ -12238,15 +12268,15 @@
       },
       {
         "label": "$1k–2k",
-        "total": 82,
+        "total": 81,
         "sold": 19,
         "rate": 23
       },
       {
         "label": "$2k–3k",
-        "total": 79,
-        "sold": 21,
-        "rate": 27
+        "total": 80,
+        "sold": 22,
+        "rate": 28
       },
       {
         "label": "$3k–5k",
@@ -12268,15 +12298,15 @@
       }
     ],
     "byCondition": {
-      "Excellent": {
-        "total": 105,
-        "sold": 30,
-        "rate": 29
-      },
       "Very Good": {
-        "total": 87,
+        "total": 88,
         "sold": 23,
         "rate": 26
+      },
+      "Excellent": {
+        "total": 104,
+        "sold": 31,
+        "rate": 30
       },
       "Good": {
         "total": 51,
@@ -12789,6 +12819,13 @@
         "sold": 4
       },
       {
+        "brand": "Eastman",
+        "avgPrice": 1365,
+        "sellRate": 33,
+        "count": 3,
+        "sold": 1
+      },
+      {
         "brand": "Epiphone",
         "avgPrice": 1133,
         "sellRate": 33,
@@ -12842,13 +12879,14 @@
       "avg": 2400,
       "min": 2150,
       "max": 2650,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 3,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
+      "sold": 1,
+      "soldSum": 2150,
+      "soldAvg": 2150,
+      "live": 2,
+      "sellRate": 33,
+      "totalDays": 0.5,
+      "soldCount": 1,
+      "avgDaysToSell": 0.5
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -12881,7 +12919,7 @@
       "soldAvg": 2800,
       "live": 5,
       "sellRate": 29,
-      "totalDays": 37.5,
+      "totalDays": 37.6,
       "soldCount": 2,
       "avgDaysToSell": 18.8
     },
@@ -12952,9 +12990,9 @@
       "soldAvg": 3107,
       "live": 3,
       "sellRate": 57,
-      "totalDays": 90.9,
+      "totalDays": 91,
       "soldCount": 4,
-      "avgDaysToSell": 22.7
+      "avgDaysToSell": 22.8
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13094,9 +13132,9 @@
       "soldAvg": 1863,
       "live": 10,
       "sellRate": 23,
-      "totalDays": 115.9,
+      "totalDays": 116,
       "soldCount": 3,
-      "avgDaysToSell": 38.6
+      "avgDaysToSell": 38.7
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -13119,19 +13157,19 @@
       "brand": "Eastman",
       "brandLine": "Eastman",
       "tier": "mid",
-      "count": 4,
-      "sum": 5762,
-      "avg": 1441,
+      "count": 3,
+      "sum": 4095,
+      "avg": 1365,
       "min": 1195,
-      "max": 1667,
+      "max": 1600,
       "sold": 1,
       "soldSum": 1600,
       "soldAvg": 1600,
-      "live": 3,
-      "sellRate": 25,
-      "totalDays": 28.8,
+      "live": 2,
+      "sellRate": 33,
+      "totalDays": 28.9,
       "soldCount": 1,
-      "avgDaysToSell": 28.8
+      "avgDaysToSell": 28.9
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -13181,7 +13219,7 @@
       "soldAvg": 5066,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 67.1,
+      "totalDays": 67.2,
       "soldCount": 3,
       "avgDaysToSell": 22.4
     },
@@ -13217,9 +13255,9 @@
       "soldAvg": 1240,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 5.8,
+      "totalDays": 5.9,
       "soldCount": 1,
-      "avgDaysToSell": 5.8
+      "avgDaysToSell": 5.9
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13684,9 +13722,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 28.7,
+      "totalDays": 28.8,
       "soldCount": 1,
-      "avgDaysToSell": 28.7
+      "avgDaysToSell": 28.8
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13702,9 +13740,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 28.6,
+      "totalDays": 28.7,
       "soldCount": 1,
-      "avgDaysToSell": 28.6
+      "avgDaysToSell": 28.7
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -13725,14 +13763,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 74,
-    "totalOffers": 157,
+    "withOffers": 73,
+    "totalOffers": 156,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 67
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 103
+    "avgShippingCost": 104
   },
   "watcherDemand": [
     {
@@ -13756,8 +13794,8 @@
     {
       "label": "16–30",
       "total": 70,
-      "sold": 17,
-      "rate": 24
+      "sold": 18,
+      "rate": 26
     },
     {
       "label": "31+",
@@ -13769,8 +13807,8 @@
   "offersEffect": {
     "on": {
       "total": 180,
-      "sold": 45,
-      "rate": 25
+      "sold": 46,
+      "rate": 26
     },
     "off": {
       "total": 47,
@@ -13780,14 +13818,14 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 115,
+      "total": 114,
       "sold": 20,
-      "rate": 17
+      "rate": 18
     },
     "regular": {
-      "total": 99,
-      "sold": 27,
-      "rate": 27
+      "total": 100,
+      "sold": 28,
+      "rate": 28
     }
   },
   "geoSellThrough": [
@@ -13890,8 +13928,8 @@
     {
       "state": "NJ",
       "total": 3,
-      "sold": 0,
-      "rate": 0
+      "sold": 1,
+      "rate": 33
     },
     {
       "state": "Stockholm",
@@ -13922,6 +13960,12 @@
       "total": 3,
       "sold": 2,
       "rate": 67
+    },
+    {
+      "state": "SC",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "DE",
@@ -13976,12 +14020,6 @@
       "total": 2,
       "sold": 1,
       "rate": 50
-    },
-    {
-      "state": "NH",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "AB",
