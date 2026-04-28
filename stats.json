@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-28T14:18:40.082Z",
-  "totalLinks": 307,
+  "generatedAt": "2026-04-28T14:26:24.297Z",
+  "totalLinks": 308,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
-  "removedCount": 10,
-  "totalWithPrice": 301,
+  "removedCount": 9,
+  "totalWithPrice": 302,
   "overall": {
-    "count": 301,
-    "sum": 1108999.27,
-    "avg": 3684,
+    "count": 302,
+    "sum": 1110948.27,
+    "avg": 3679,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 286,
-    "sum": 753270.28,
-    "avg": 2634,
+    "count": 287,
+    "sum": 755219.28,
+    "avg": 2631,
     "min": 33,
     "max": 7999,
-    "median": 2297
+    "median": 2295
   },
   "outliers": {
     "thresholdHigh": 8240,
@@ -148,11 +148,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 171,
-      "sum": 517906.92,
+      "count": 172,
+      "sum": 519855.92,
       "min": 70,
       "max": 15500,
-      "avg": 3029
+      "avg": 3022
     },
     "2026-03": {
       "count": 130,
@@ -164,11 +164,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 269,
-      "sum": 832627.36,
+      "count": 270,
+      "sum": 834576.36,
       "min": 33,
       "max": 35900,
-      "avg": 3095
+      "avg": 3091
     },
     "marketplace": {
       "count": 32,
@@ -180,11 +180,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 269,
-      "sum": 832627.36,
+      "count": 270,
+      "sum": 834576.36,
       "min": 33,
       "max": 35900,
-      "avg": 3095
+      "avg": 3091
     },
     "davesguitar.com": {
       "count": 2,
@@ -258,6 +258,37 @@
     }
   },
   "byModel": {
+    "nash-t-72-tl": {
+      "displayName": "Nash T-72 TL",
+      "brand": "Nash",
+      "model": "T-72 TL",
+      "variant": null,
+      "count": 1,
+      "sum": 1949,
+      "min": 1949,
+      "max": 1949,
+      "sightings": [
+        {
+          "price": 1949,
+          "date": "2026-04-28T14:26:07.647Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash T-72 TL",
+          "url": "https://reverb.com/item/96475862-nash-t-72-tl",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1949,
+          "min": 1949,
+          "max": 1949,
+          "avg": 1949
+        }
+      },
+      "avg": 1949
+    },
     "vintage-telecaster-standard": {
       "displayName": "Shabat Lion Standard Telecaster 2022 - Sunburst",
       "brand": "Vintage",
@@ -9800,6 +9831,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 105,
+      "sum": 377873.73,
+      "sold": {
+        "count": 30,
+        "sum": 123685.45,
+        "avg": 4123,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3599,
+      "min": 275,
+      "max": 35900
+    },
     "Very Good": {
       "count": 88,
       "sum": 241324.55999999994,
@@ -9813,20 +9858,6 @@
       "avg": 2742,
       "min": 33,
       "max": 15500
-    },
-    "Excellent": {
-      "count": 104,
-      "sum": 375924.73,
-      "sold": {
-        "count": 30,
-        "sum": 123685.45,
-        "avg": 4123,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3615,
-      "min": 275,
-      "max": 35900
     },
     "Good": {
       "count": 51,
@@ -9932,8 +9963,8 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3029,
-      "count": 171
+      "avg": 3022,
+      "count": 172
     },
     "03": {
       "name": "Mar",
@@ -10086,7 +10117,7 @@
   "priceDistribution": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 81,
+    "1k-2k": 82,
     "2k-3k": 80,
     "3k-5k": 59,
     "5k-10k": 34,
@@ -10095,13 +10126,18 @@
   "priceDistributionFiltered": {
     "0-500": 14,
     "500-1k": 23,
-    "1k-2k": 81,
+    "1k-2k": 82,
     "2k-3k": 80,
     "3k-5k": 59,
     "5k-10k": 29,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Nash": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Vintage": {
       "sum": 132,
       "count": 9,
@@ -10158,7 +10194,7 @@
       "avg": 36
     },
     "Gibson": {
-      "sum": 583,
+      "sum": 584,
       "count": 27,
       "avg": 22
     },
@@ -10514,7 +10550,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-28": 11,
+    "2026-04-28": 12,
     "2026-04-27": 15,
     "2026-04-26": 19,
     "2026-04-25": 19,
@@ -10523,12 +10559,12 @@
     "2026-04-22": 17,
     "2026-04-21": 22,
     "2026-04-20": 3,
-    "2026-03-29": 9,
+    "2026-03-29": 8,
     "2026-03-30": 29,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "reverb": 269,
+    "reverb": 270,
     "marketplace": 38
   },
   "activeModelsCount": 201,
@@ -10539,7 +10575,7 @@
     },
     {
       "username": "greg1213",
-      "count": 43
+      "count": 44
     },
     {
       "username": "YellowJack6",
@@ -10618,9 +10654,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3029,
+    "avg": 3022,
     "pctBelowAvg": 18,
-    "count": 171
+    "count": 172
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11556,14 +11592,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 288,
+      "total": 289,
       "sold": 68,
       "fake": 0,
-      "live": 220,
+      "live": 221,
       "soldPct": 24,
       "livePct": 76
     },
     "byBrand": {
+      "Nash": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Vintage": {
         "total": 12,
         "sold": 0,
@@ -12268,7 +12312,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 81,
+        "total": 82,
         "sold": 19,
         "rate": 23
       },
@@ -12298,15 +12342,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 105,
+        "sold": 31,
+        "rate": 30
+      },
       "Very Good": {
         "total": 88,
         "sold": 23,
         "rate": 26
-      },
-      "Excellent": {
-        "total": 104,
-        "sold": 31,
-        "rate": 30
       },
       "Good": {
         "total": 51,
@@ -12835,6 +12879,23 @@
     ]
   },
   "byBrandLine": {
+    "Nash|Nash": {
+      "brand": "Nash",
+      "brandLine": "Nash",
+      "tier": "premium",
+      "count": 1,
+      "sum": 1949,
+      "avg": 1949,
+      "min": 1949,
+      "max": 1949,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
       "brandLine": "Music Man USA",
@@ -13008,7 +13069,7 @@
       "soldAvg": 2806,
       "live": 19,
       "sellRate": 17,
-      "totalDays": 72.6,
+      "totalDays": 72.69999999999999,
       "soldCount": 4,
       "avgDaysToSell": 18.2
     },
@@ -13781,9 +13842,9 @@
     },
     {
       "label": "1–5",
-      "total": 15,
+      "total": 16,
       "sold": 3,
-      "rate": 20
+      "rate": 19
     },
     {
       "label": "6–15",
@@ -13806,9 +13867,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 180,
+      "total": 181,
       "sold": 46,
-      "rate": 26
+      "rate": 25
     },
     "off": {
       "total": 47,
@@ -13818,9 +13879,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 114,
+      "total": 115,
       "sold": 20,
-      "rate": 18
+      "rate": 17
     },
     "regular": {
       "total": 100,
@@ -13854,6 +13915,12 @@
       "rate": 8
     },
     {
+      "state": "OR",
+      "total": 11,
+      "sold": 1,
+      "rate": 9
+    },
+    {
       "state": "TX",
       "total": 11,
       "sold": 4,
@@ -13864,12 +13931,6 @@
       "total": 10,
       "sold": 4,
       "rate": 40
-    },
-    {
-      "state": "OR",
-      "total": 10,
-      "sold": 1,
-      "rate": 10
     },
     {
       "state": "PA",
