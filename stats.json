@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T02:02:21.335Z",
+  "generatedAt": "2026-04-29T02:04:59.419Z",
   "totalLinks": 311,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 305,
   "overall": {
     "count": 305,
-    "sum": 1129837.26,
-    "avg": 3704,
+    "sum": 1131577.26,
+    "avg": 3710,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 289,
-    "sum": 763112.27,
-    "avg": 2641,
+    "sum": 764852.27,
+    "avg": 2647,
     "min": 33,
     "max": 7999,
-    "median": 2284.16
+    "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 8102,
+    "thresholdHigh": 8042,
     "thresholdLow": 0,
     "count": 16,
     "items": [
@@ -157,10 +157,10 @@
   "byMonth": {
     "2026-04": {
       "count": 175,
-      "sum": 538744.91,
+      "sum": 540484.91,
       "min": 70,
       "max": 15500,
-      "avg": 3079
+      "avg": 3088
     },
     "2026-03": {
       "count": 130,
@@ -173,10 +173,10 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 850965.36,
+      "sum": 852705.36,
       "min": 33,
       "max": 35900,
-      "avg": 3129
+      "avg": 3135
     },
     "marketplace": {
       "count": 33,
@@ -189,10 +189,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 850965.36,
+      "sum": 852705.36,
       "min": 33,
       "max": 35900,
-      "avg": 3129
+      "avg": 3135
     },
     "musicgoround.com": {
       "count": 1,
@@ -273,6 +273,37 @@
     }
   },
   "byModel": {
+    "nash-les-paul-heavy-aged": {
+      "displayName": "Nash T-56 GT 2023 Heavy Aged Les Paul Gold",
+      "brand": "Nash",
+      "model": "Les Paul",
+      "variant": "Heavy Aged",
+      "count": 1,
+      "sum": 2300,
+      "min": 2300,
+      "max": 2300,
+      "sightings": [
+        {
+          "price": 2300,
+          "date": "2026-04-29T02:04:43.470Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash T-56 GT 2023 Heavy Aged Les Paul Gold",
+          "url": "https://reverb.com/item/96453414-nash-t-56-gt-2023-heavy-aged-les-paul-gold",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2300,
+          "min": 2300,
+          "max": 2300,
+          "avg": 2300
+        }
+      },
+      "avg": 2300
+    },
     "ibanez-s470": {
       "displayName": "Ibanez S470 1997 Japan *MINT*",
       "brand": "Ibanez",
@@ -5695,37 +5726,6 @@
       },
       "avg": 1995
     },
-    "yamaha-fg300d-1980s": {
-      "displayName": "Yamaha FG300D 1980’s - Natural",
-      "brand": "Yamaha",
-      "model": "FG300D 1980’s",
-      "variant": null,
-      "count": 1,
-      "sum": 560,
-      "min": 560,
-      "max": 560,
-      "sightings": [
-        {
-          "price": 560,
-          "date": "2026-04-21T14:14:36.043Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Yamaha FG300D 1980’s - Natural",
-          "url": "https://reverb.com/item/96228828-yamaha-fg300d-1980-s-natural",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 560,
-          "min": 560,
-          "max": 560,
-          "avg": 560
-        }
-      },
-      "avg": 560
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9917,6 +9917,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 108,
+      "sum": 388771.73,
+      "sold": {
+        "count": 30,
+        "sum": 123685.45,
+        "avg": 4123,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3600,
+      "min": 275,
+      "max": 35900
+    },
     "Mint": {
       "count": 7,
       "sum": 16296,
@@ -9932,8 +9946,8 @@
       "max": 5000
     },
     "Very Good": {
-      "count": 88,
-      "sum": 252316.55999999994,
+      "count": 87,
+      "sum": 251756.55999999994,
       "sold": {
         "count": 21,
         "sum": 56779.719999999994,
@@ -9941,23 +9955,9 @@
         "min": 475,
         "max": 10800
       },
-      "avg": 2867,
+      "avg": 2894,
       "min": 33,
       "max": 15500
-    },
-    "Excellent": {
-      "count": 107,
-      "sum": 386471.73,
-      "sold": {
-        "count": 30,
-        "sum": 123685.45,
-        "avg": 4123,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3612,
-      "min": 275,
-      "max": 35900
     },
     "Fair": {
       "count": 4,
@@ -10049,7 +10049,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3079,
+      "avg": 3088,
       "count": 175
     },
     "03": {
@@ -10202,23 +10202,28 @@
   ],
   "priceDistribution": {
     "0-500": 13,
-    "500-1k": 23,
+    "500-1k": 22,
     "1k-2k": 82,
-    "2k-3k": 84,
+    "2k-3k": 85,
     "3k-5k": 57,
     "5k-10k": 35,
     "10k+": 11
   },
   "priceDistributionFiltered": {
     "0-500": 13,
-    "500-1k": 23,
+    "500-1k": 22,
     "1k-2k": 82,
-    "2k-3k": 84,
+    "2k-3k": 85,
     "3k-5k": 57,
     "5k-10k": 30,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Nash": {
+      "sum": 1,
+      "count": 2,
+      "avg": 1
+    },
     "Huss & Dalton": {
       "sum": 0,
       "count": 1,
@@ -10243,11 +10248,6 @@
       "sum": 367,
       "count": 18,
       "avg": 20
-    },
-    "Nash": {
-      "sum": 0,
-      "count": 1,
-      "avg": 0
     },
     "Vintage": {
       "sum": 127,
@@ -10290,9 +10290,9 @@
       "avg": 36
     },
     "Yamaha": {
-      "sum": 110,
-      "count": 6,
-      "avg": 18
+      "sum": 102,
+      "count": 5,
+      "avg": 20
     },
     "Mosrite": {
       "sum": 2,
@@ -10636,7 +10636,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-29": 3,
+    "2026-04-29": 4,
     "2026-04-28": 23,
     "2026-04-27": 15,
     "2026-04-26": 19,
@@ -10644,7 +10644,7 @@
     "2026-04-24": 34,
     "2026-04-23": 32,
     "2026-04-22": 17,
-    "2026-04-21": 14,
+    "2026-04-21": 13,
     "2026-03-30": 26,
     "2026-03-31": 17
   },
@@ -10739,7 +10739,7 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3079,
+    "avg": 3088,
     "pctBelowAvg": 17,
     "count": 175
   },
@@ -11672,6 +11672,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Nash": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Ibanez": {
         "total": 19,
         "sold": 5,
@@ -11679,14 +11687,6 @@
         "live": 14,
         "soldPct": 26,
         "livePct": 74
-      },
-      "Nash": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
       },
       "Huss & Dalton": {
         "total": 1,
@@ -11793,10 +11793,10 @@
         "livePct": 75
       },
       "Yamaha": {
-        "total": 6,
+        "total": 5,
         "sold": 0,
         "fake": 0,
-        "live": 6,
+        "live": 5,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12378,9 +12378,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 23,
+        "total": 22,
         "sold": 4,
-        "rate": 17
+        "rate": 18
       },
       {
         "label": "$1k–2k",
@@ -12390,7 +12390,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 84,
+        "total": 85,
         "sold": 22,
         "rate": 26
       },
@@ -12414,20 +12414,20 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 108,
+        "sold": 31,
+        "rate": 29
+      },
       "Mint": {
         "total": 7,
         "sold": 1,
         "rate": 14
       },
       "Very Good": {
-        "total": 88,
+        "total": 87,
         "sold": 21,
         "rate": 24
-      },
-      "Excellent": {
-        "total": 107,
-        "sold": 31,
-        "rate": 29
       },
       "Fair": {
         "total": 4,
@@ -12958,6 +12958,23 @@
     ]
   },
   "byBrandLine": {
+    "Nash|Nash": {
+      "brand": "Nash",
+      "brandLine": "Nash",
+      "tier": "premium",
+      "count": 3,
+      "sum": 6498,
+      "avg": 2166,
+      "min": 1949,
+      "max": 2300,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 3,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
@@ -12975,23 +12992,6 @@
       "totalDays": 30.4,
       "soldCount": 1,
       "avgDaysToSell": 30.4
-    },
-    "Nash|Nash": {
-      "brand": "Nash",
-      "brandLine": "Nash",
-      "tier": "premium",
-      "count": 2,
-      "sum": 4198,
-      "avg": 2099,
-      "min": 1949,
-      "max": 2249,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 2,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13904,7 +13904,7 @@
     },
     {
       "label": "1–5",
-      "total": 16,
+      "total": 15,
       "sold": 2,
       "rate": 13
     },
@@ -13916,7 +13916,7 @@
     },
     {
       "label": "16–30",
-      "total": 79,
+      "total": 80,
       "sold": 18,
       "rate": 23
     },
@@ -13941,12 +13941,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 116,
+      "total": 117,
       "sold": 21,
       "rate": 18
     },
     "regular": {
-      "total": 101,
+      "total": 100,
       "sold": 26,
       "rate": 26
     }
@@ -14085,13 +14085,13 @@
       "rate": 67
     },
     {
-      "state": "GA",
+      "state": "CO",
       "total": 2,
       "sold": 0,
       "rate": 0
     },
     {
-      "state": "NH",
+      "state": "GA",
       "total": 2,
       "sold": 0,
       "rate": 0
