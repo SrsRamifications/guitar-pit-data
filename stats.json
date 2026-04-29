@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T11:25:36.049Z",
+  "generatedAt": "2026-04-29T12:13:30.854Z",
   "totalLinks": 312,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 306,
   "overall": {
     "count": 306,
-    "sum": 1135587.26,
-    "avg": 3711,
+    "sum": 1139505.26,
+    "avg": 3724,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 290,
-    "sum": 768862.27,
-    "avg": 2651,
+    "sum": 772780.27,
+    "avg": 2665,
     "min": 33,
     "max": 7999,
-    "median": 2299
+    "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 8016,
+    "thresholdHigh": 8002,
     "thresholdLow": 0,
     "count": 16,
     "items": [
@@ -157,10 +157,10 @@
   "byMonth": {
     "2026-04": {
       "count": 176,
-      "sum": 544494.91,
+      "sum": 548412.91,
       "min": 70,
       "max": 15500,
-      "avg": 3094
+      "avg": 3116
     },
     "2026-03": {
       "count": 130,
@@ -171,35 +171,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 272,
+      "sum": 859084.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3158
+    },
     "marketplace": {
       "count": 34,
       "sum": 280420.9,
       "min": 143.99,
       "max": 99000,
       "avg": 8248
-    },
-    "reverb": {
-      "count": 272,
-      "sum": 855166.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3144
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 272,
+      "sum": 859084.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3158
+    },
     "guitarcenter.com": {
       "count": 10,
       "sum": 13413.93,
       "min": 143.99,
       "max": 2599.99,
       "avg": 1341
-    },
-    "reverb.com": {
-      "count": 272,
-      "sum": 855166.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3144
     },
     "musicgoround.com": {
       "count": 1,
@@ -273,6 +273,37 @@
     }
   },
   "byModel": {
+    "suhr-classic": {
+      "displayName": "Suhr Select Classic T Ponderosa Pine (2018 Collection)",
+      "brand": "Suhr",
+      "model": "Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 5417,
+      "min": 5417,
+      "max": 5417,
+      "sightings": [
+        {
+          "price": 5417,
+          "date": "2026-04-29T12:13:14.083Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Select Classic T Ponderosa Pine (2018 Collection)",
+          "url": "https://reverb.com/item/96511521-suhr-select-classic-t-ponderosa-pine-2018-collection",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 5417,
+          "min": 5417,
+          "max": 5417,
+          "avg": 5417
+        }
+      },
+      "avg": 5417
+    },
     "schecter-sls-elite-5-evil-satin": {
       "displayName": "Schecter Guitar Research SLS Elite-5 Evil Twin 5-String Electric Bass Satin Black",
       "brand": "Schecter",
@@ -5772,37 +5803,6 @@
       },
       "avg": 2500
     },
-    "kiesel-aries-evertune-a6e-evertune": {
-      "displayName": "Kiesel Aries 6 Evertune A6E - Matte Blood Red w/OHSC",
-      "brand": "Kiesel",
-      "model": "Aries Evertune A6E",
-      "variant": "Evertune",
-      "count": 1,
-      "sum": 1499,
-      "min": 1499,
-      "max": 1499,
-      "sightings": [
-        {
-          "price": 1499,
-          "date": "2026-04-21T15:28:07.191Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel Aries 6 Evertune A6E - Matte Blood Red w/OHSC",
-          "url": "https://reverb.com/item/95721158-kiesel-aries-6-evertune-a6e-matte-blood-red-w-ohsc",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1499,
-          "min": 1499,
-          "max": 1499,
-          "avg": 1499
-        }
-      },
-      "avg": 1499
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9948,6 +9948,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 110,
+      "sum": 396867.73,
+      "sold": {
+        "count": 31,
+        "sum": 126185.45,
+        "avg": 4070,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3608,
+      "min": 275,
+      "max": 35900
+    },
     "Used": {
       "count": 14,
       "sum": 119398.93000000001,
@@ -9960,8 +9974,8 @@
       "max": 99000
     },
     "Very Good": {
-      "count": 86,
-      "sum": 251538.55999999994,
+      "count": 85,
+      "sum": 250039.55999999994,
       "sold": {
         "count": 21,
         "sum": 58556.79,
@@ -9969,23 +9983,9 @@
         "min": 475,
         "max": 10800
       },
-      "avg": 2925,
+      "avg": 2942,
       "min": 33,
       "max": 15500
-    },
-    "Excellent": {
-      "count": 109,
-      "sum": 391450.73,
-      "sold": {
-        "count": 31,
-        "sum": 126185.45,
-        "avg": 4070,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3591,
-      "min": 275,
-      "max": 35900
     },
     "Mint": {
       "count": 7,
@@ -10080,7 +10080,7 @@
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3094,
+      "avg": 3116,
       "count": 176
     },
     "03": {
@@ -10182,13 +10182,6 @@
       "date": "2026-04-28T03:24:00.097Z"
     },
     {
-      "title": "Kiesel Aries 6 Evertune A6E - Matte Blood Red w/OHSC",
-      "url": "https://reverb.com/item/95721158-kiesel-aries-6-evertune-a6e-matte-blood-red-w-ohsc",
-      "oldPrice": "$1,599",
-      "newPrice": "$1,499",
-      "date": "2026-04-24T13:35:33.213Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10229,34 +10222,46 @@
       "oldPrice": "$5,000",
       "newPrice": "$4,250",
       "date": "2026-04-01T17:43:44.200Z"
+    },
+    {
+      "title": "Fender Custom Shop Yngwie Malmsteen Signature Stratocaster",
+      "url": "https://reverb.com/item/95516404",
+      "oldPrice": "$3,800",
+      "newPrice": "$3,600",
+      "date": "2026-04-04T03:37:48.990Z"
     }
   ],
   "priceDistribution": {
     "0-500": 13,
     "500-1k": 22,
-    "1k-2k": 81,
+    "1k-2k": 80,
     "2k-3k": 87,
     "3k-5k": 57,
-    "5k-10k": 35,
+    "5k-10k": 36,
     "10k+": 11
   },
   "priceDistributionFiltered": {
     "0-500": 13,
     "500-1k": 22,
-    "1k-2k": 81,
+    "1k-2k": 80,
     "2k-3k": 87,
     "3k-5k": 57,
-    "5k-10k": 30,
+    "5k-10k": 31,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Suhr": {
+      "sum": 29,
+      "count": 2,
+      "avg": 15
+    },
     "Schecter": {
       "sum": 32,
       "count": 2,
       "avg": 16
     },
     "Ibanez": {
-      "sum": 380,
+      "sum": 381,
       "count": 20,
       "avg": 19
     },
@@ -10271,17 +10276,17 @@
       "avg": 1
     },
     "Gibson": {
-      "sum": 607,
+      "sum": 608,
       "count": 27,
-      "avg": 22
+      "avg": 23
     },
     "Fender": {
-      "sum": 190,
+      "sum": 191,
       "count": 16,
       "avg": 12
     },
     "BC Rich": {
-      "sum": 384,
+      "sum": 385,
       "count": 25,
       "avg": 15
     },
@@ -10311,7 +10316,7 @@
       "avg": 21
     },
     "Martin": {
-      "sum": 66,
+      "sum": 67,
       "count": 3,
       "avg": 22
     },
@@ -10336,7 +10341,7 @@
       "avg": 2
     },
     "PRS": {
-      "sum": 333,
+      "sum": 338,
       "count": 21,
       "avg": 16
     },
@@ -10351,14 +10356,14 @@
       "avg": 3
     },
     "Kiesel": {
-      "sum": 324,
-      "count": 12,
-      "avg": 27
+      "sum": 312,
+      "count": 11,
+      "avg": 28
     },
     "Gretsch": {
-      "sum": 114,
+      "sum": 115,
       "count": 2,
-      "avg": 57
+      "avg": 58
     },
     "Fryette": {
       "sum": 7,
@@ -10436,9 +10441,9 @@
       "avg": 58
     },
     "Guild": {
-      "sum": 70,
+      "sum": 71,
       "count": 2,
-      "avg": 35
+      "avg": 36
     },
     "Dunable": {
       "sum": 37,
@@ -10551,9 +10556,9 @@
       "avg": 32
     },
     "Seymour Duncan": {
-      "sum": 32,
+      "sum": 33,
       "count": 1,
-      "avg": 32
+      "avg": 33
     },
     "B.C. Rich": {
       "sum": 99,
@@ -10650,11 +10655,6 @@
       "count": 1,
       "avg": 29
     },
-    "Suhr": {
-      "sum": 29,
-      "count": 1,
-      "avg": 29
-    },
     "Xotic": {
       "sum": 29,
       "count": 1,
@@ -10662,7 +10662,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-29": 7,
+    "2026-04-29": 8,
     "2026-04-28": 23,
     "2026-04-27": 15,
     "2026-04-26": 19,
@@ -10670,15 +10670,15 @@
     "2026-04-24": 34,
     "2026-04-23": 32,
     "2026-04-22": 17,
-    "2026-04-21": 11,
-    "2026-03-30": 19,
+    "2026-04-21": 10,
+    "2026-03-30": 18,
     "2026-03-31": 17
   },
   "categoryDistribution": {
-    "marketplace": 40,
-    "reverb": 272
+    "reverb": 272,
+    "marketplace": 40
   },
-  "activeModelsCount": 191,
+  "activeModelsCount": 190,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10765,8 +10765,8 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3094,
-    "pctBelowAvg": 17,
+    "avg": 3116,
+    "pctBelowAvg": 16,
     "count": 176
   },
   "topVoted": [],
@@ -10796,10 +10796,10 @@
       "count": 21
     },
     "Kiesel": {
-      "avgPrice": 1529,
+      "avgPrice": 1531,
       "retailEst": 1000,
-      "avgDiscount": -52.9,
-      "count": 15
+      "avgDiscount": -53.1,
+      "count": 14
     },
     "BC Rich": {
       "avgPrice": 2944,
@@ -11534,9 +11534,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1063.6787397804221,
-      "count": 59,
-      "avgPctDrop": 18
+      "totalPctDrop": 1057.424831087489,
+      "count": 58,
+      "avgPctDrop": 18.2
     },
     "byBrand": {
       "Gibson": {
@@ -11580,9 +11580,9 @@
         "avgPctDrop": 18.1
       },
       "Kiesel": {
-        "totalPctDrop": 53.46721280885148,
-        "count": 3,
-        "avgPctDrop": 17.8
+        "totalPctDrop": 47.2133041159184,
+        "count": 2,
+        "avgPctDrop": 23.6
       },
       "PRS": {
         "totalPctDrop": 36.651785714285715,
@@ -11706,6 +11706,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Suhr": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Schecter": {
         "total": 2,
         "sold": 0,
@@ -11883,12 +11891,12 @@
         "livePct": 100
       },
       "Kiesel": {
-        "total": 15,
+        "total": 14,
         "sold": 5,
         "fake": 0,
-        "live": 10,
-        "soldPct": 33,
-        "livePct": 67
+        "live": 9,
+        "soldPct": 36,
+        "livePct": 64
       },
       "Gretsch": {
         "total": 3,
@@ -12378,14 +12386,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Suhr": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Xotic": {
         "total": 1,
         "sold": 0,
@@ -12410,7 +12410,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 81,
+        "total": 80,
         "sold": 16,
         "rate": 20
       },
@@ -12428,9 +12428,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 35,
+        "total": 36,
         "sold": 8,
-        "rate": 23
+        "rate": 22
       },
       {
         "label": "$10k+",
@@ -12440,20 +12440,20 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 110,
+        "sold": 32,
+        "rate": 29
+      },
       "Used": {
         "total": 14,
         "sold": 0,
         "rate": 0
       },
       "Very Good": {
-        "total": 86,
+        "total": 85,
         "sold": 21,
-        "rate": 24
-      },
-      "Excellent": {
-        "total": 109,
-        "sold": 32,
-        "rate": 29
+        "rate": 25
       },
       "Mint": {
         "total": 7,
@@ -12518,7 +12518,7 @@
         "condition": "Excellent",
         "watchers": 20,
         "views": 252,
-        "daysListed": 3,
+        "daysListed": 4,
         "image": "https://rvb-img.reverb.com/i/s--FpHv7b_t--/quality=medium-low,height=800,width=800,fit=contain/4ea0906c-0f54-4048-90bc-c753fb9345ed.jpeg",
         "modelAvg": 2675,
         "pctVsAvg": -39,
@@ -12962,9 +12962,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1520,
-        "sellRate": 33,
-        "count": 15,
+        "avgPrice": 1521,
+        "sellRate": 36,
+        "count": 14,
         "sold": 5
       },
       {
@@ -12984,6 +12984,23 @@
     ]
   },
   "byBrandLine": {
+    "Suhr|Suhr": {
+      "brand": "Suhr",
+      "brandLine": "Suhr",
+      "tier": "premium",
+      "count": 2,
+      "sum": 7667,
+      "avg": 3834,
+      "min": 2250,
+      "max": 5417,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez J.Custom",
@@ -12998,9 +13015,9 @@
       "soldAvg": 3066,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 95.1,
+      "totalDays": 95.30000000000001,
       "soldCount": 5,
-      "avgDaysToSell": 19
+      "avgDaysToSell": 19.1
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -13033,9 +13050,9 @@
       "soldAvg": 4500,
       "live": 8,
       "sellRate": 11,
-      "totalDays": 30.8,
+      "totalDays": 30.9,
       "soldCount": 1,
-      "avgDaysToSell": 30.8
+      "avgDaysToSell": 30.9
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13051,7 +13068,7 @@
       "soldAvg": 2806,
       "live": 19,
       "sellRate": 17,
-      "totalDays": 76.2,
+      "totalDays": 76.30000000000001,
       "soldCount": 4,
       "avgDaysToSell": 19.1
     },
@@ -13086,9 +13103,9 @@
       "soldAvg": 1240,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 6.7,
+      "totalDays": 6.8,
       "soldCount": 1,
-      "avgDaysToSell": 6.7
+      "avgDaysToSell": 6.8
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -13306,17 +13323,17 @@
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
       "tier": "premium",
-      "count": 13,
-      "sum": 19754.98,
-      "avg": 1520,
+      "count": 12,
+      "sum": 18255.98,
+      "avg": 1521,
       "min": 900,
       "max": 2700,
       "sold": 4,
       "soldSum": 6589,
       "soldAvg": 1647,
-      "live": 9,
-      "sellRate": 31,
-      "totalDays": 121.99999999999999,
+      "live": 8,
+      "sellRate": 33,
+      "totalDays": 122.1,
       "soldCount": 4,
       "avgDaysToSell": 30.5
     },
@@ -13351,9 +13368,9 @@
       "soldAvg": 1600,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 29.7,
+      "totalDays": 29.8,
       "soldCount": 1,
-      "avgDaysToSell": 29.7
+      "avgDaysToSell": 29.8
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -13403,9 +13420,9 @@
       "soldAvg": 5066,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 69.8,
+      "totalDays": 70.1,
       "soldCount": 3,
-      "avgDaysToSell": 23.3
+      "avgDaysToSell": 23.4
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13836,9 +13853,9 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 59,
+      "totalDays": 59.1,
       "soldCount": 2,
-      "avgDaysToSell": 29.5
+      "avgDaysToSell": 29.6
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13854,9 +13871,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 29.6,
+      "totalDays": 29.7,
       "soldCount": 1,
-      "avgDaysToSell": 29.6
+      "avgDaysToSell": 29.7
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13872,9 +13889,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 29.5,
+      "totalDays": 29.6,
       "soldCount": 1,
-      "avgDaysToSell": 29.5
+      "avgDaysToSell": 29.6
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -13892,28 +13909,11 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Suhr|Suhr": {
-      "brand": "Suhr",
-      "brandLine": "Suhr",
-      "tier": "premium",
-      "count": 1,
-      "sum": 2250,
-      "avg": 2250,
-      "min": 2250,
-      "max": 2250,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     }
   },
   "offerActivity": {
-    "withOffers": 77,
-    "totalOffers": 161,
+    "withOffers": 76,
+    "totalOffers": 160,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 67
   },
@@ -13930,9 +13930,9 @@
     },
     {
       "label": "1–5",
-      "total": 14,
+      "total": 15,
       "sold": 2,
-      "rate": 14
+      "rate": 13
     },
     {
       "label": "6–15",
@@ -13948,7 +13948,7 @@
     },
     {
       "label": "31+",
-      "total": 70,
+      "total": 69,
       "sold": 14,
       "rate": 20
     }
@@ -14015,16 +14015,16 @@
       "rate": 36
     },
     {
-      "state": "NY",
-      "total": 10,
-      "sold": 1,
-      "rate": 10
-    },
-    {
       "state": "OR",
       "total": 10,
       "sold": 2,
       "rate": 20
+    },
+    {
+      "state": "NY",
+      "total": 9,
+      "sold": 1,
+      "rate": 11
     },
     {
       "state": "TN",
