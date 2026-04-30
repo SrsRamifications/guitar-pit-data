@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-04-30T20:07:07.630Z",
-  "totalLinks": 311,
+  "generatedAt": "2026-04-30T21:03:55.955Z",
+  "totalLinks": 310,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
-  "removedCount": 9,
-  "totalWithPrice": 304,
+  "removedCount": 10,
+  "totalWithPrice": 303,
   "overall": {
-    "count": 304,
-    "sum": 1118940.28,
-    "avg": 3681,
+    "count": 303,
+    "sum": 1117343.28,
+    "avg": 3688,
     "min": 33,
     "max": 99000
   },
   "filtered": {
-    "count": 288,
-    "sum": 752223.29,
-    "avg": 2612,
+    "count": 287,
+    "sum": 750626.29,
+    "avg": 2615,
     "min": 33,
     "max": 7999,
-    "median": 2297
+    "median": 2295
   },
   "outliers": {
-    "thresholdHigh": 8002,
+    "thresholdHigh": 8042,
     "thresholdLow": 0,
     "count": 16,
     "items": [
@@ -156,11 +156,11 @@
   },
   "byMonth": {
     "2026-04": {
-      "count": 174,
-      "sum": 527847.93,
+      "count": 173,
+      "sum": 526250.93,
       "min": 70,
       "max": 15500,
-      "avg": 3034
+      "avg": 3042
     },
     "2026-03": {
       "count": 130,
@@ -173,26 +173,26 @@
   "byCategory": {
     "reverb": {
       "count": 272,
-      "sum": 846043.36,
+      "sum": 847150.36,
       "min": 33,
       "max": 35900,
-      "avg": 3110
+      "avg": 3115
     },
     "marketplace": {
-      "count": 32,
-      "sum": 272896.92,
+      "count": 31,
+      "sum": 270192.92,
       "min": 297,
       "max": 99000,
-      "avg": 8528
+      "avg": 8716
     }
   },
   "byDomain": {
     "reverb.com": {
       "count": 272,
-      "sum": 846043.36,
+      "sum": 847150.36,
       "min": 33,
       "max": 35900,
-      "avg": 3110
+      "avg": 3115
     },
     "guitarcenter.com": {
       "count": 9,
@@ -216,11 +216,11 @@
       "avg": 1423
     },
     "chicagomusicexchange.com": {
-      "count": 14,
-      "sum": 220245.99,
+      "count": 13,
+      "sum": 217541.99,
       "min": 1195,
       "max": 99000,
-      "avg": 15732
+      "avg": 16734
     },
     "waltgracevintage.com": {
       "count": 1,
@@ -266,6 +266,68 @@
     }
   },
   "byModel": {
+    "prs-tremonti": {
+      "displayName": "PRS Tremonti 2025 Brand New",
+      "brand": "PRS",
+      "model": "Tremonti",
+      "variant": null,
+      "count": 2,
+      "sum": 6275,
+      "min": 2500,
+      "max": 3775,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-04-23T01:50:41.765Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Tremonti Stoptail 2015 - Charcoal Gray Smokeburst",
+          "url": "https://reverb.com/item/96289706-prs-tremonti-stoptail-2015-charcoal-gray-smokeburst",
+          "condition": "Good"
+        },
+        {
+          "price": 3775,
+          "date": "2026-04-30T21:03:39.557Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Tremonti 2025 Brand New",
+          "url": "https://reverb.com/item/96067847-prs-tremonti-2025-brand-new",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3775,
+          "min": 3775,
+          "max": 3775,
+          "avg": 3775
+        },
+        "Good": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2500,
+        "min": 2500,
+        "max": 2500,
+        "prices": [
+          {
+            "price": 2500,
+            "askingPrice": 2500,
+            "date": "2026-04-24T18:05:10.317Z",
+            "title": "PRS Tremonti Stoptail 2015 - Charcoal Gray Smokeburst",
+            "url": "https://reverb.com/item/96289706-prs-tremonti-stoptail-2015-charcoal-gray-smokeburst"
+          }
+        ]
+      },
+      "avg": 3138
+    },
     "bc-rich-ironbird-extreme-mk2": {
       "displayName": "BC Rich Ironbird Extreme MK2 7, Black (SR) (60265)",
       "brand": "BC Rich",
@@ -668,37 +730,6 @@
         }
       },
       "avg": 500
-    },
-    "two-rock-studio-signature": {
-      "displayName": "Two Rock Studio signature",
-      "brand": "Two Rock",
-      "model": "Studio",
-      "variant": "Signature",
-      "count": 1,
-      "sum": 2668,
-      "min": 2668,
-      "max": 2668,
-      "sightings": [
-        {
-          "price": 2668,
-          "date": "2026-04-29T20:33:58.098Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Two Rock Studio signature",
-          "url": "https://reverb.com/item/96402211",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2668,
-          "min": 2668,
-          "max": 2668,
-          "avg": 2668
-        }
-      },
-      "avg": 2668
     },
     "frank-brothers-radar-trillium": {
       "displayName": "Frank Brothers Radar 2024 - Trillium White",
@@ -5386,52 +5417,6 @@
       },
       "avg": 650
     },
-    "prs-tremonti": {
-      "displayName": "PRS Tremonti Stoptail 2015 - Charcoal Gray Smokeburst",
-      "brand": "PRS",
-      "model": "Tremonti",
-      "variant": null,
-      "count": 1,
-      "sum": 2500,
-      "min": 2500,
-      "max": 2500,
-      "sightings": [
-        {
-          "price": 2500,
-          "date": "2026-04-23T01:50:41.765Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS Tremonti Stoptail 2015 - Charcoal Gray Smokeburst",
-          "url": "https://reverb.com/item/96289706-prs-tremonti-stoptail-2015-charcoal-gray-smokeburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 2500,
-          "min": 2500,
-          "max": 2500,
-          "avg": 2500
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2500,
-        "min": 2500,
-        "max": 2500,
-        "prices": [
-          {
-            "price": 2500,
-            "askingPrice": 2500,
-            "date": "2026-04-24T18:05:10.317Z",
-            "title": "PRS Tremonti Stoptail 2015 - Charcoal Gray Smokeburst",
-            "url": "https://reverb.com/item/96289706-prs-tremonti-stoptail-2015-charcoal-gray-smokeburst"
-          }
-        ]
-      },
-      "avg": 2500
-    },
     "ibanez-ar350-artist": {
       "displayName": "Ibanez AR350-PW Artist 1985 - Polar White",
       "brand": "Ibanez",
@@ -5816,37 +5801,6 @@
         }
       },
       "avg": 2195
-    },
-    "duesenberg-fantom-lumina": {
-      "displayName": "Duesenberg Fantom S Lumina Green",
-      "brand": "Duesenberg",
-      "model": "Fantom Lumina",
-      "variant": null,
-      "count": 1,
-      "sum": 2704,
-      "min": 2704,
-      "max": 2704,
-      "sightings": [
-        {
-          "price": 2704,
-          "date": "2026-04-22T05:09:27.689Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Duesenberg Fantom S Lumina Green",
-          "url": "https://www.chicagomusicexchange.com/products/duesenberg-fantom-s-lumina-green-serial-251035-2243676?variant=42962578112647",
-          "condition": "New"
-        }
-      ],
-      "byCondition": {
-        "New": {
-          "count": 1,
-          "sum": 2704,
-          "min": 2704,
-          "max": 2704,
-          "avg": 2704
-        }
-      },
-      "avg": 2704
     },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
@@ -9995,7 +9949,7 @@
   "byCondition": {
     "Excellent": {
       "count": 109,
-      "sum": 391557.73,
+      "sum": 392664.73,
       "sold": {
         "count": 34,
         "sum": 135466.45,
@@ -10003,7 +9957,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3592,
+      "avg": 3602,
       "min": 275,
       "max": 35900
     },
@@ -10111,22 +10065,22 @@
       "max": 1710
     },
     "New": {
-      "count": 2,
-      "sum": 7028,
+      "count": 1,
+      "sum": 4324,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 3514,
-      "min": 2704,
+      "avg": 4324,
+      "min": 4324,
       "max": 4324
     }
   },
   "seasonal": {
     "04": {
       "name": "Apr",
-      "avg": 3034,
-      "count": 174
+      "avg": 3042,
+      "count": 173
     },
     "03": {
       "name": "Mar",
@@ -10280,8 +10234,8 @@
     "0-500": 14,
     "500-1k": 24,
     "1k-2k": 77,
-    "2k-3k": 87,
-    "3k-5k": 59,
+    "2k-3k": 85,
+    "3k-5k": 60,
     "5k-10k": 32,
     "10k+": 11
   },
@@ -10289,20 +10243,20 @@
     "0-500": 14,
     "500-1k": 24,
     "1k-2k": 77,
-    "2k-3k": 87,
-    "3k-5k": 59,
+    "2k-3k": 85,
+    "3k-5k": 60,
     "5k-10k": 27,
     "10k+": 0
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 376,
+      "count": 23,
+      "avg": 16
+    },
     "BC Rich": {
       "sum": 408,
       "count": 26,
-      "avg": 16
-    },
-    "PRS": {
-      "sum": 361,
-      "count": 22,
       "avg": 16
     },
     "Fender": {
@@ -10339,11 +10293,6 @@
       "sum": 4,
       "count": 2,
       "avg": 2
-    },
-    "Two Rock": {
-      "sum": 5,
-      "count": 1,
-      "avg": 5
     },
     "Frank": {
       "sum": 34,
@@ -10411,7 +10360,7 @@
       "avg": 38
     },
     "Yamaha": {
-      "sum": 111,
+      "sum": 112,
       "count": 5,
       "avg": 22
     },
@@ -10550,11 +10499,6 @@
       "count": 1,
       "avg": 8
     },
-    "Duesenberg": {
-      "sum": 9,
-      "count": 1,
-      "avg": 9
-    },
     "Languedoc": {
       "sum": 33,
       "count": 1,
@@ -10692,22 +10636,22 @@
     }
   },
   "listingsPerDay": {
-    "2026-04-30": 11,
-    "2026-04-29": 13,
+    "2026-04-30": 12,
+    "2026-04-29": 12,
     "2026-04-28": 22,
     "2026-04-27": 15,
     "2026-04-26": 18,
     "2026-04-25": 19,
     "2026-04-24": 34,
     "2026-04-23": 31,
-    "2026-04-22": 13,
-    "2026-03-31": 5
+    "2026-04-22": 12,
+    "2026-03-31": 3
   },
   "categoryDistribution": {
     "reverb": 272,
-    "marketplace": 39
+    "marketplace": 38
   },
-  "activeModelsCount": 161,
+  "activeModelsCount": 158,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10723,7 +10667,7 @@
     },
     {
       "username": "jazee_",
-      "count": 22
+      "count": 21
     },
     {
       "username": "Shteefe",
@@ -10739,7 +10683,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 12
+      "count": 13
     },
     {
       "username": "scottcorgan",
@@ -10794,9 +10738,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3034,
+    "avg": 3042,
     "pctBelowAvg": 18,
-    "count": 174
+    "count": 173
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10813,10 +10757,10 @@
       "count": 27
     },
     "PRS": {
-      "avgPrice": 3632,
+      "avgPrice": 3638,
       "retailEst": 1000,
-      "avgDiscount": -263.2,
-      "count": 24
+      "avgDiscount": -263.8,
+      "count": 25
     },
     "Ibanez": {
       "avgPrice": 3155,
@@ -11624,11 +11568,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1125.838095788132,
+      "totalPctDrop": 1122.3794097657467,
       "count": 60,
-      "avgPctDrop": 18.8
+      "avgPctDrop": 18.7
     },
     "byBrand": {
+      "PRS": {
+        "totalPctDrop": 62.97891852314781,
+        "count": 4,
+        "avgPctDrop": 15.7
+      },
       "ESP": {
         "totalPctDrop": 59.470737240279796,
         "count": 2,
@@ -11638,11 +11587,6 @@
         "totalPctDrop": 4.2105263157894735,
         "count": 1,
         "avgPctDrop": 4.2
-      },
-      "Two Rock": {
-        "totalPctDrop": 16.677076826983136,
-        "count": 1,
-        "avgPctDrop": 16.7
       },
       "Gibson": {
         "totalPctDrop": 73.08476590531316,
@@ -11688,11 +11632,6 @@
         "totalPctDrop": 53.664917019144205,
         "count": 2,
         "avgPctDrop": 26.8
-      },
-      "PRS": {
-        "totalPctDrop": 49.76052771855011,
-        "count": 3,
-        "avgPctDrop": 16.6
       },
       "Gretsch": {
         "totalPctDrop": 10.164271047227926,
@@ -11788,14 +11727,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 292,
+      "total": 291,
       "sold": 73,
       "fake": 0,
-      "live": 219,
+      "live": 218,
       "soldPct": 25,
       "livePct": 75
     },
     "byBrand": {
+      "PRS": {
+        "total": 25,
+        "sold": 9,
+        "fake": 0,
+        "live": 16,
+        "soldPct": 36,
+        "livePct": 64
+      },
       "BC Rich": {
         "total": 27,
         "sold": 3,
@@ -11803,14 +11750,6 @@
         "live": 24,
         "soldPct": 11,
         "livePct": 89
-      },
-      "PRS": {
-        "total": 24,
-        "sold": 9,
-        "fake": 0,
-        "live": 15,
-        "soldPct": 38,
-        "livePct": 63
       },
       "Fender": {
         "total": 24,
@@ -11873,14 +11812,6 @@
         "sold": 0,
         "fake": 0,
         "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
-      "Two Rock": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
         "soldPct": 0,
         "livePct": 100
       },
@@ -12244,14 +12175,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Duesenberg": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Languedoc": {
         "total": 1,
         "sold": 0,
@@ -12490,15 +12413,15 @@
       },
       {
         "label": "$2k–3k",
-        "total": 87,
+        "total": 85,
         "sold": 24,
         "rate": 28
       },
       {
         "label": "$3k–5k",
-        "total": 59,
+        "total": 60,
         "sold": 17,
-        "rate": 29
+        "rate": 28
       },
       {
         "label": "$5k–10k",
@@ -12560,7 +12483,7 @@
         "rate": 0
       },
       "New": {
-        "total": 2,
+        "total": 1,
         "sold": 0,
         "rate": 0
       }
@@ -12577,7 +12500,7 @@
         "condition": "Very Good",
         "watchers": 18,
         "views": 210,
-        "daysListed": 32,
+        "daysListed": 33,
         "image": "https://rvb-img.reverb.com/i/s--a63HZwtM--/quality=medium-low,height=800,width=800,fit=contain/91fd262f-9c28-4cf0-b434-77f7988789a5.jpg",
         "modelAvg": 2900,
         "pctVsAvg": -55,
@@ -13020,7 +12943,7 @@
         "condition": "Brand New",
         "watchers": 17,
         "views": 434,
-        "daysListed": 327,
+        "daysListed": 328,
         "image": "https://rvb-img.reverb.com/i/s--8J5FHCfn--/quality=medium-low,height=800,width=800,fit=contain/argbu1g0pmi6sv62mcwp.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -13065,6 +12988,24 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 16,
+      "sum": 58083.17,
+      "avg": 3630,
+      "min": 1599,
+      "max": 6895,
+      "sold": 6,
+      "soldSum": 21347.17,
+      "soldAvg": 3558,
+      "live": 10,
+      "sellRate": 38,
+      "totalDays": 168.29999999999998,
+      "soldCount": 6,
+      "avgDaysToSell": 28.1
+    },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
       "brandLine": "BC Rich Import",
@@ -13079,27 +13020,9 @@
       "soldAvg": 999,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 7.3,
+      "totalDays": 7.4,
       "soldCount": 1,
-      "avgDaysToSell": 7.3
-    },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 15,
-      "sum": 54308.17,
-      "avg": 3621,
-      "min": 1599,
-      "max": 6895,
-      "sold": 6,
-      "soldSum": 21347.17,
-      "soldAvg": 3558,
-      "live": 9,
-      "sellRate": 40,
-      "totalDays": 168.1,
-      "soldCount": 6,
-      "avgDaysToSell": 28
+      "avgDaysToSell": 7.4
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13288,9 +13211,9 @@
       "soldAvg": 2806,
       "live": 18,
       "sellRate": 18,
-      "totalDays": 81.5,
+      "totalDays": 81.80000000000001,
       "soldCount": 4,
-      "avgDaysToSell": 20.4
+      "avgDaysToSell": 20.5
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -13341,7 +13264,7 @@
       "soldAvg": 2150,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 62.5,
+      "totalDays": 62.6,
       "soldCount": 2,
       "avgDaysToSell": 31.3
     },
@@ -13394,7 +13317,7 @@
       "soldAvg": 19065,
       "live": 8,
       "sellRate": 27,
-      "totalDays": 69.80000000000001,
+      "totalDays": 69.9,
       "soldCount": 3,
       "avgDaysToSell": 23.3
     },
@@ -13465,9 +13388,9 @@
       "soldAvg": 7800,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 34.699999999999996,
+      "totalDays": 34.8,
       "soldCount": 2,
-      "avgDaysToSell": 17.3
+      "avgDaysToSell": 17.4
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13483,7 +13406,7 @@
       "soldAvg": 6649,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 12.1,
+      "totalDays": 12.2,
       "soldCount": 2,
       "avgDaysToSell": 6.1
     },
@@ -13518,9 +13441,9 @@
       "soldAvg": 2000,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 7.1,
+      "totalDays": 7.2,
       "soldCount": 1,
-      "avgDaysToSell": 7.1
+      "avgDaysToSell": 7.2
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -13536,7 +13459,7 @@
       "soldAvg": 1647,
       "live": 7,
       "sellRate": 36,
-      "totalDays": 127.5,
+      "totalDays": 127.6,
       "soldCount": 4,
       "avgDaysToSell": 31.9
     },
@@ -13642,9 +13565,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 31.9,
+      "totalDays": 32,
       "soldCount": 1,
-      "avgDaysToSell": 31.9
+      "avgDaysToSell": 32
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -13784,23 +13707,6 @@
       "soldCount": 1,
       "avgDaysToSell": 8
     },
-    "Duesenberg|Duesenberg": {
-      "brand": "Duesenberg",
-      "brandLine": "Duesenberg",
-      "tier": "premium",
-      "count": 1,
-      "sum": 2704,
-      "avg": 2704,
-      "min": 2704,
-      "max": 2704,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -13900,9 +13806,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 237.8,
+      "totalDays": 237.9,
       "soldCount": 2,
-      "avgDaysToSell": 118.9
+      "avgDaysToSell": 119
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -13935,7 +13841,7 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 61.7,
+      "totalDays": 61.8,
       "soldCount": 2,
       "avgDaysToSell": 30.9
     },
@@ -14012,9 +13918,9 @@
   },
   "offerActivity": {
     "withOffers": 76,
-    "totalOffers": 162,
+    "totalOffers": 161,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 65
+    "offersEnabledPct": 66
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -14035,13 +13941,13 @@
     },
     {
       "label": "6–15",
-      "total": 52,
+      "total": 51,
       "sold": 12,
-      "rate": 23
+      "rate": 24
     },
     {
       "label": "16–30",
-      "total": 75,
+      "total": 76,
       "sold": 22,
       "rate": 29
     },
@@ -14054,12 +13960,12 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 178,
+      "total": 179,
       "sold": 47,
       "rate": 26
     },
     "off": {
-      "total": 52,
+      "total": 51,
       "sold": 15,
       "rate": 29
     }
@@ -14168,7 +14074,7 @@
       "rate": 75
     },
     {
-      "state": "QC",
+      "state": "KS",
       "total": 3,
       "sold": 1,
       "rate": 33
@@ -14216,12 +14122,6 @@
       "rate": 67
     },
     {
-      "state": "KS",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
-    },
-    {
       "state": "CO",
       "total": 2,
       "sold": 0,
@@ -14232,6 +14132,12 @@
       "total": 2,
       "sold": 2,
       "rate": 100
+    },
+    {
+      "state": "QC",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "IA",
