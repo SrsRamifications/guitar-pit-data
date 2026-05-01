@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T15:25:23.066Z",
+  "generatedAt": "2026-05-01T17:29:33.524Z",
   "totalLinks": 309,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1097811.27,
-    "avg": 3635,
+    "sum": 1099061.27,
+    "avg": 3639,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 287,
-    "sum": 739573.28,
-    "avg": 2577,
+    "sum": 740823.28,
+    "avg": 2581,
     "min": 33,
     "max": 8199,
     "median": 2284.16
   },
   "outliers": {
-    "thresholdHigh": 8287,
+    "thresholdHigh": 8285,
     "thresholdLow": 0,
     "count": 15,
     "items": [
@@ -148,18 +148,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 12,
-      "sum": 25608.99,
+      "count": 13,
+      "sum": 27508.99,
       "min": 230,
       "max": 8199,
-      "avg": 2134
+      "avg": 2116
     },
     "2026-04": {
-      "count": 160,
-      "sum": 481109.93,
+      "count": 159,
+      "sum": 480459.93,
       "min": 70,
       "max": 15500,
-      "avg": 3007
+      "avg": 3022
     },
     "2026-03": {
       "count": 130,
@@ -172,10 +172,10 @@
   "byCategory": {
     "reverb": {
       "count": 271,
-      "sum": 834817.36,
+      "sum": 836067.36,
       "min": 33,
       "max": 35900,
-      "avg": 3081
+      "avg": 3085
     },
     "marketplace": {
       "count": 31,
@@ -188,10 +188,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 271,
-      "sum": 834817.36,
+      "sum": 836067.36,
       "min": 33,
       "max": 35900,
-      "avg": 3081
+      "avg": 3085
     },
     "guitarcenter.com": {
       "count": 10,
@@ -258,6 +258,37 @@
     }
   },
   "byModel": {
+    "xotic-bc-warlock-extreme-floyd-rose": {
+      "displayName": "B.C. Warlock Extreme Exotic Electric Guitar W/Floyd Rose - Black Cherry",
+      "brand": "Xotic",
+      "model": "B.C. Warlock Extreme",
+      "variant": "Floyd Rose",
+      "count": 1,
+      "sum": 1900,
+      "min": 1900,
+      "max": 1900,
+      "sightings": [
+        {
+          "price": 1900,
+          "date": "2026-05-01T17:29:17.386Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Warlock Extreme Exotic Electric Guitar W/Floyd Rose - Black Cherry",
+          "url": "https://reverb.com/item/96585834-b-c-warlock-extreme-exotic-electric-guitar-w-floyd-rose-black-cherry",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1900,
+          "min": 1900,
+          "max": 1900,
+          "avg": 1900
+        }
+      },
+      "avg": 1900
+    },
     "bc-rich-steve-smyth-string": {
       "displayName": "B.C. Rich Steve Smyth 6 string SSSBO",
       "brand": "BC Rich",
@@ -9887,6 +9918,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 26,
+      "sum": 109174.10999999999,
+      "sold": {
+        "count": 1,
+        "sum": 4548.17,
+        "avg": 4548,
+        "min": 4548.17,
+        "max": 4548.17
+      },
+      "avg": 4199,
+      "min": 135,
+      "max": 14670
+    },
     "Excellent": {
       "count": 109,
       "sum": 389770.73,
@@ -9929,20 +9974,6 @@
       "min": 400,
       "max": 5000
     },
-    "Brand New": {
-      "count": 25,
-      "sum": 107274.10999999999,
-      "sold": {
-        "count": 1,
-        "sum": 4548.17,
-        "avg": 4548,
-        "min": 4548.17,
-        "max": 4548.17
-      },
-      "avg": 4291,
-      "min": 135,
-      "max": 14670
-    },
     "Used": {
       "count": 14,
       "sum": 119174.93000000001,
@@ -9955,16 +9986,16 @@
       "max": 99000
     },
     "Good": {
-      "count": 47,
-      "sum": 117636.95,
+      "count": 46,
+      "sum": 116986.95,
       "sold": {
-        "count": 7,
-        "sum": 13785.48,
-        "avg": 1969,
-        "min": 650,
+        "count": 6,
+        "sum": 13135.48,
+        "avg": 2189,
+        "min": 999,
         "max": 4777.5
       },
-      "avg": 2503,
+      "avg": 2543,
       "min": 70,
       "max": 11475
     },
@@ -10019,13 +10050,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2134,
-      "count": 12
+      "avg": 2116,
+      "count": 13
     },
     "04": {
       "name": "Apr",
-      "avg": 3007,
-      "count": 160
+      "avg": 3022,
+      "count": 159
     },
     "03": {
       "name": "Mar",
@@ -10177,8 +10208,8 @@
   ],
   "priceDistribution": {
     "0-500": 16,
-    "500-1k": 25,
-    "1k-2k": 76,
+    "500-1k": 24,
+    "1k-2k": 77,
     "2k-3k": 85,
     "3k-5k": 60,
     "5k-10k": 29,
@@ -10186,18 +10217,23 @@
   },
   "priceDistributionFiltered": {
     "0-500": 16,
-    "500-1k": 25,
-    "1k-2k": 76,
+    "500-1k": 24,
+    "1k-2k": 77,
     "2k-3k": 85,
     "3k-5k": 60,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
-    "BC Rich": {
-      "sum": 412,
-      "count": 25,
+    "Xotic": {
+      "sum": 31,
+      "count": 2,
       "avg": 16
+    },
+    "BC Rich": {
+      "sum": 414,
+      "count": 25,
+      "avg": 17
     },
     "Squier": {
       "sum": 90,
@@ -10205,7 +10241,7 @@
       "avg": 90
     },
     "Hamer": {
-      "sum": 68,
+      "sum": 69,
       "count": 3,
       "avg": 23
     },
@@ -10235,9 +10271,9 @@
       "avg": 18
     },
     "Vintage": {
-      "sum": 139,
+      "sum": 140,
       "count": 8,
-      "avg": 17
+      "avg": 18
     },
     "Kiesel": {
       "sum": 340,
@@ -10300,7 +10336,7 @@
       "avg": 18
     },
     "Ibanez": {
-      "sum": 423,
+      "sum": 424,
       "count": 20,
       "avg": 21
     },
@@ -10345,14 +10381,14 @@
       "avg": 39
     },
     "Yamaha": {
-      "sum": 115,
+      "sum": 116,
       "count": 5,
       "avg": 23
     },
     "Mosrite": {
-      "sum": 4,
+      "sum": 5,
       "count": 1,
-      "avg": 4
+      "avg": 5
     },
     "Charvel": {
       "sum": 45,
@@ -10430,9 +10466,9 @@
       "avg": 8
     },
     "Fodera": {
-      "sum": 28,
+      "sum": 29,
       "count": 1,
-      "avg": 28
+      "avg": 29
     },
     "Rick Toone": {
       "sum": 60,
@@ -10445,19 +10481,19 @@
       "avg": 21
     },
     "Luxxtone": {
-      "sum": 42,
+      "sum": 43,
       "count": 2,
-      "avg": 21
+      "avg": 22
     },
     "Positive Grid": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Kemper": {
-      "sum": 30,
+      "sum": 31,
       "count": 1,
-      "avg": 30
+      "avg": 31
     },
     "Languedoc": {
       "sum": 34,
@@ -10475,14 +10511,14 @@
       "avg": 34
     },
     "Fender Custom Shop": {
-      "sum": 69,
+      "sum": 70,
       "count": 2,
       "avg": 35
     },
     "Milkman": {
-      "sum": 34,
+      "sum": 35,
       "count": 1,
-      "avg": 34
+      "avg": 35
     },
     "Seymour Duncan": {
       "sum": 35,
@@ -10578,15 +10614,10 @@
       "sum": 31,
       "count": 1,
       "avg": 31
-    },
-    "Xotic": {
-      "sum": 31,
-      "count": 1,
-      "avg": 31
     }
   },
   "listingsPerDay": {
-    "2026-05-01": 12,
+    "2026-05-01": 13,
     "2026-04-30": 11,
     "2026-04-29": 12,
     "2026-04-28": 22,
@@ -10595,13 +10626,13 @@
     "2026-04-25": 19,
     "2026-04-24": 33,
     "2026-04-23": 30,
-    "2026-04-22": 2
+    "2026-04-22": 1
   },
   "categoryDistribution": {
     "reverb": 271,
     "marketplace": 38
   },
-  "activeModelsCount": 156,
+  "activeModelsCount": 157,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10613,7 +10644,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 33
+      "count": 34
     },
     {
       "username": "jazee_",
@@ -10621,7 +10652,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 21
+      "count": 20
     },
     {
       "username": "Modean",
@@ -10655,7 +10686,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 9
+      "count": 8
     },
     {
       "username": "Modean",
@@ -10688,9 +10719,9 @@
   ],
   "bestMonth": {
     "name": "May",
-    "avg": 2134,
-    "pctBelowAvg": 41,
-    "count": 12
+    "avg": 2116,
+    "pctBelowAvg": 42,
+    "count": 13
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10732,16 +10763,16 @@
     }
   },
   "soldPrices": {
-    "count": 74,
-    "avg": 3422,
+    "count": 73,
+    "avg": 3460,
     "min": 230,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 474.3999999999999,
-      "count": 70,
+      "totalDays": 468.3999999999999,
+      "count": 69,
       "avgDays": 6.8
     },
     "byModel": {
@@ -11654,14 +11685,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 291,
+      "total": 292,
       "sold": 71,
       "fake": 0,
-      "live": 220,
+      "live": 221,
       "soldPct": 24,
       "livePct": 76
     },
     "byBrand": {
+      "Xotic": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "BC Rich": {
         "total": 26,
         "sold": 3,
@@ -12309,14 +12348,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Xotic": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
       }
     },
     "byPriceRange": [
@@ -12328,13 +12359,13 @@
       },
       {
         "label": "$500–1k",
-        "total": 25,
-        "sold": 5,
-        "rate": 20
+        "total": 24,
+        "sold": 4,
+        "rate": 17
       },
       {
         "label": "$1k–2k",
-        "total": 76,
+        "total": 77,
         "sold": 16,
         "rate": 21
       },
@@ -12364,6 +12395,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 26,
+        "sold": 5,
+        "rate": 19
+      },
       "Excellent": {
         "total": 109,
         "sold": 32,
@@ -12379,20 +12415,15 @@
         "sold": 1,
         "rate": 11
       },
-      "Brand New": {
-        "total": 25,
-        "sold": 5,
-        "rate": 20
-      },
       "Used": {
         "total": 15,
         "sold": 0,
         "rate": 0
       },
       "Good": {
-        "total": 47,
-        "sold": 8,
-        "rate": 17
+        "total": 46,
+        "sold": 7,
+        "rate": 15
       },
       "Fair": {
         "total": 4,
@@ -12546,7 +12577,7 @@
         "condition": "Excellent",
         "watchers": 196,
         "views": 3861,
-        "daysListed": 500,
+        "daysListed": 501,
         "image": "https://rvb-img.reverb.com/i/s--5zEilTV8--/quality=medium-low,height=800,width=800,fit=contain/sgpha8qzk6s6vlnv5qkc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12688,7 +12719,7 @@
         "condition": "Brand New",
         "watchers": 15,
         "views": 535,
-        "daysListed": 800,
+        "daysListed": 801,
         "image": "https://rvb-img.reverb.com/i/s--a5umF5Wz--/quality=medium-low,height=800,width=800,fit=contain/npwpzey5zkpbz4dy56el.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12758,7 +12789,7 @@
         "condition": "Excellent",
         "watchers": 196,
         "views": 3861,
-        "daysListed": 500,
+        "daysListed": 501,
         "image": "https://rvb-img.reverb.com/i/s--5zEilTV8--/quality=medium-low,height=800,width=800,fit=contain/sgpha8qzk6s6vlnv5qkc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12997,9 +13028,9 @@
       "soldAvg": 3500,
       "live": 7,
       "sellRate": 13,
-      "totalDays": 8.9,
+      "totalDays": 9,
       "soldCount": 1,
-      "avgDaysToSell": 8.9
+      "avgDaysToSell": 9
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -13015,9 +13046,9 @@
       "soldAvg": 1647,
       "live": 8,
       "sellRate": 33,
-      "totalDays": 130.70000000000002,
+      "totalDays": 131,
       "soldCount": 4,
-      "avgDaysToSell": 32.7
+      "avgDaysToSell": 32.8
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13033,9 +13064,9 @@
       "soldAvg": 3558,
       "live": 10,
       "sellRate": 38,
-      "totalDays": 172.9,
+      "totalDays": 173.4,
       "soldCount": 6,
-      "avgDaysToSell": 28.8
+      "avgDaysToSell": 28.9
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13085,9 +13116,9 @@
       "soldAvg": 930,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 5.9,
+      "totalDays": 6,
       "soldCount": 1,
-      "avgDaysToSell": 5.9
+      "avgDaysToSell": 6
     },
     "Taylor|Taylor Mexico": {
       "brand": "Taylor",
@@ -13154,9 +13185,9 @@
       "soldAvg": 3066,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 106.1,
+      "totalDays": 106.6,
       "soldCount": 5,
-      "avgDaysToSell": 21.2
+      "avgDaysToSell": 21.3
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -13189,9 +13220,9 @@
       "soldAvg": 4500,
       "live": 8,
       "sellRate": 11,
-      "totalDays": 33,
+      "totalDays": 33.1,
       "soldCount": 1,
-      "avgDaysToSell": 33
+      "avgDaysToSell": 33.1
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13207,9 +13238,9 @@
       "soldAvg": 2806,
       "live": 18,
       "sellRate": 18,
-      "totalDays": 84.69999999999999,
+      "totalDays": 85.1,
       "soldCount": 4,
-      "avgDaysToSell": 21.2
+      "avgDaysToSell": 21.3
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -13259,9 +13290,9 @@
       "soldAvg": 1832,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 67.80000000000001,
+      "totalDays": 68.1,
       "soldCount": 3,
-      "avgDaysToSell": 22.6
+      "avgDaysToSell": 22.7
     },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
@@ -13294,9 +13325,9 @@
       "soldAvg": 2150,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 3.6,
+      "totalDays": 3.7,
       "soldCount": 1,
-      "avgDaysToSell": 3.6
+      "avgDaysToSell": 3.7
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13312,7 +13343,7 @@
       "soldAvg": 19065,
       "live": 7,
       "sellRate": 30,
-      "totalDays": 72.2,
+      "totalDays": 72.4,
       "soldCount": 3,
       "avgDaysToSell": 24.1
     },
@@ -13330,9 +13361,9 @@
       "soldAvg": 3695,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4,
+      "totalDays": 4.1,
       "soldCount": 1,
-      "avgDaysToSell": 4
+      "avgDaysToSell": 4.1
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -13365,9 +13396,9 @@
       "soldAvg": 7800,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 36.3,
+      "totalDays": 36.5,
       "soldCount": 2,
-      "avgDaysToSell": 18.2
+      "avgDaysToSell": 18.3
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13383,9 +13414,9 @@
       "soldAvg": 4799,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 4.9,
+      "totalDays": 5,
       "soldCount": 1,
-      "avgDaysToSell": 4.9
+      "avgDaysToSell": 5
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -13418,9 +13449,9 @@
       "soldAvg": 2000,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 7.9,
+      "totalDays": 8,
       "soldCount": 1,
-      "avgDaysToSell": 7.9
+      "avgDaysToSell": 8
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -13453,9 +13484,9 @@
       "soldAvg": 1600,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 31.9,
+      "totalDays": 32,
       "soldCount": 1,
-      "avgDaysToSell": 31.9
+      "avgDaysToSell": 32
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -13488,9 +13519,9 @@
       "soldAvg": 5066,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 76.4,
+      "totalDays": 76.7,
       "soldCount": 3,
-      "avgDaysToSell": 25.5
+      "avgDaysToSell": 25.6
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13506,7 +13537,7 @@
       "soldAvg": 2350,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 20.7,
+      "totalDays": 20.8,
       "soldCount": 2,
       "avgDaysToSell": 10.4
     },
@@ -13524,9 +13555,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 32.7,
+      "totalDays": 32.8,
       "soldCount": 1,
-      "avgDaysToSell": 32.7
+      "avgDaysToSell": 32.8
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13542,9 +13573,9 @@
       "soldAvg": 999,
       "live": 5,
       "sellRate": 17,
-      "totalDays": 8.1,
+      "totalDays": 8.2,
       "soldCount": 1,
-      "avgDaysToSell": 8.1
+      "avgDaysToSell": 8.2
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -13662,9 +13693,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 39.8,
+      "totalDays": 39.9,
       "soldCount": 1,
-      "avgDaysToSell": 39.8
+      "avgDaysToSell": 39.9
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -13748,9 +13779,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 239.4,
+      "totalDays": 239.5,
       "soldCount": 2,
-      "avgDaysToSell": 119.7
+      "avgDaysToSell": 119.8
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -13783,9 +13814,9 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 63.3,
+      "totalDays": 63.5,
       "soldCount": 2,
-      "avgDaysToSell": 31.7
+      "avgDaysToSell": 31.8
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13801,9 +13832,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 31.8,
+      "totalDays": 31.9,
       "soldCount": 1,
-      "avgDaysToSell": 31.8
+      "avgDaysToSell": 31.9
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13819,9 +13850,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 31.7,
+      "totalDays": 31.8,
       "soldCount": 1,
-      "avgDaysToSell": 31.7
+      "avgDaysToSell": 31.8
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -13845,7 +13876,7 @@
     "withOffers": 76,
     "totalOffers": 159,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 65
+    "offersEnabledPct": 64
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13860,15 +13891,15 @@
     },
     {
       "label": "1–5",
-      "total": 16,
+      "total": 17,
       "sold": 2,
-      "rate": 13
+      "rate": 12
     },
     {
       "label": "6–15",
-      "total": 50,
-      "sold": 13,
-      "rate": 26
+      "total": 49,
+      "sold": 12,
+      "rate": 24
     },
     {
       "label": "16–30",
@@ -13885,20 +13916,20 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 175,
-      "sold": 44,
+      "total": 174,
+      "sold": 43,
       "rate": 25
     },
     "off": {
-      "total": 54,
+      "total": 55,
       "sold": 16,
-      "rate": 30
+      "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
       "total": 113,
-      "sold": 22,
+      "sold": 21,
       "rate": 19
     },
     "regular": {
@@ -13916,9 +13947,9 @@
     },
     {
       "state": "IL",
-      "total": 13,
-      "sold": 2,
-      "rate": 15
+      "total": 12,
+      "sold": 1,
+      "rate": 8
     },
     {
       "state": "FL",
@@ -13981,6 +14012,12 @@
       "rate": 0
     },
     {
+      "state": "IN",
+      "total": 4,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "WI",
       "total": 4,
       "sold": 0,
@@ -14039,12 +14076,6 @@
       "total": 3,
       "sold": 1,
       "rate": 33
-    },
-    {
-      "state": "IN",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "NC",
