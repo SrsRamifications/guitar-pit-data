@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T00:04:35.466Z",
+  "generatedAt": "2026-05-01T01:09:07.209Z",
   "totalLinks": 309,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1112028.28,
-    "avg": 3682,
+    "sum": 1111778.27,
+    "avg": 3681,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 286,
-    "sum": 745291.29,
-    "avg": 2606,
+    "sum": 745041.28,
+    "avg": 2605,
     "min": 33,
     "max": 7999,
     "median": 2290
   },
   "outliers": {
-    "thresholdHigh": 8042,
+    "thresholdHigh": 8102,
     "thresholdLow": 0,
     "count": 16,
     "items": [
@@ -156,18 +156,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 1,
-      "sum": 2000,
-      "min": 2000,
+      "count": 2,
+      "sum": 3299.99,
+      "min": 1299.99,
       "max": 2000,
-      "avg": 2000
+      "avg": 1650
     },
     "2026-04": {
-      "count": 171,
-      "sum": 518935.93,
+      "count": 170,
+      "sum": 517385.93,
       "min": 70,
       "max": 15500,
-      "avg": 3035
+      "avg": 3043
     },
     "2026-03": {
       "count": 130,
@@ -178,35 +178,35 @@
     }
   },
   "byCategory": {
-    "reverb": {
-      "count": 271,
-      "sum": 841835.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3106
-    },
     "marketplace": {
-      "count": 31,
-      "sum": 270192.92,
+      "count": 32,
+      "sum": 271492.91,
       "min": 297,
       "max": 99000,
-      "avg": 8716
+      "avg": 8484
+    },
+    "reverb": {
+      "count": 270,
+      "sum": 840285.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3112
     }
   },
   "byDomain": {
-    "reverb.com": {
-      "count": 271,
-      "sum": 841835.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3106
-    },
     "guitarcenter.com": {
-      "count": 9,
-      "sum": 11889.94,
+      "count": 10,
+      "sum": 13189.93,
       "min": 297,
       "max": 2599.99,
-      "avg": 1321
+      "avg": 1319
+    },
+    "reverb.com": {
+      "count": 270,
+      "sum": 840285.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3112
     },
     "musicgoround.com": {
       "count": 1,
@@ -273,6 +273,37 @@
     }
   },
   "byModel": {
+    "vintage-stratocaster-american-deluxe": {
+      "displayName": "Vintage 1984 Fender American Deluxe Stratocaster Plus Carribean Blue Solid Body Electric Guitar Carribean Blue",
+      "brand": "Vintage",
+      "model": "Stratocaster",
+      "variant": "American Deluxe",
+      "count": 1,
+      "sum": 1299.99,
+      "min": 1299.99,
+      "max": 1299.99,
+      "sightings": [
+        {
+          "price": 1299.99,
+          "date": "2026-05-01T01:08:52.397Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1984 Fender American Deluxe Stratocaster Plus Carribean Blue Solid Body Electric Guitar Carribean Blue",
+          "url": "https://www.guitarcenter.com/Used/Fender/Vintage-Vintage-1984-Fender-American-Deluxe-Stratocaster-Plus-Carribean-Blue-Solid-Body-Electric-Guitar.gc?algoliaQueryID=d2a8970e937cd0771115da5b2bf3ccc2&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1299.99,
+          "min": 1299.99,
+          "max": 1299.99,
+          "avg": 1300
+        }
+      },
+      "avg": 1300
+    },
     "kiesel-aries-bolt-on-bass-bass-vi-baritone": {
       "displayName": "Kiesel Aries Bolt-On 6 Bass VI 30 Inch Scale Baritone",
       "brand": "Kiesel",
@@ -5747,37 +5778,6 @@
       },
       "avg": 7495
     },
-    "hamer-t-51-butterscotch-usa": {
-      "displayName": "Hamer (USA) T-51 1993 - Butterscotch",
-      "brand": "Hamer",
-      "model": "T-51 Butterscotch",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 1550,
-      "min": 1550,
-      "max": 1550,
-      "sightings": [
-        {
-          "price": 1550,
-          "date": "2026-04-22T13:29:42.511Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Hamer (USA) T-51 1993 - Butterscotch",
-          "url": "https://reverb.com/item/95914392-hamer-usa-t-51-1993-butterscotch",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1550,
-          "min": 1550,
-          "max": 1550,
-          "avg": 1550
-        }
-      },
-      "avg": 1550
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9923,6 +9923,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 14,
+      "sum": 119174.93000000001,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8512,
+      "min": 297,
+      "max": 99000
+    },
     "Excellent": {
       "count": 109,
       "sum": 389418.73,
@@ -9951,20 +9962,9 @@
       "min": 70,
       "max": 11475
     },
-    "Used": {
-      "count": 13,
-      "sum": 117874.94,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 9067,
-      "min": 297,
-      "max": 99000
-    },
     "Very Good": {
-      "count": 84,
-      "sum": 240607.55999999994,
+      "count": 83,
+      "sum": 239057.55999999994,
       "sold": {
         "count": 23,
         "sum": 60874.79,
@@ -9972,7 +9972,7 @@
         "min": 475,
         "max": 10800
       },
-      "avg": 2864,
+      "avg": 2880,
       "min": 33,
       "max": 15500
     },
@@ -10055,13 +10055,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2000,
-      "count": 1
+      "avg": 1650,
+      "count": 2
     },
     "04": {
       "name": "Apr",
-      "avg": 3035,
-      "count": 171
+      "avg": 3043,
+      "count": 170
     },
     "03": {
       "name": "Mar",
@@ -10169,13 +10169,6 @@
       "date": "2026-04-24T21:17:11.390Z"
     },
     {
-      "title": "Hamer (USA) T-51 1993 - Butterscotch",
-      "url": "https://reverb.com/item/95914392-hamer-usa-t-51-1993-butterscotch",
-      "oldPrice": "$1,599",
-      "newPrice": "$1,550",
-      "date": "2026-04-30T03:24:41.171Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10209,6 +10202,13 @@
       "oldPrice": "$2,000",
       "newPrice": "$1,700",
       "date": "2026-04-01T22:44:47.805Z"
+    },
+    {
+      "title": "Ibanez JEM7-RB 1988 - Root Beer",
+      "url": "https://reverb.com/item/95464810-ibanez-jem7-rb-1988-root-beer",
+      "oldPrice": "$5,000",
+      "newPrice": "$4,250",
+      "date": "2026-04-01T17:43:44.200Z"
     }
   ],
   "priceDistribution": {
@@ -10230,6 +10230,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 133,
+      "count": 8,
+      "avg": 17
+    },
     "Kiesel": {
       "sum": 328,
       "count": 12,
@@ -10315,11 +10320,6 @@
       "count": 26,
       "avg": 24
     },
-    "Vintage": {
-      "sum": 132,
-      "count": 7,
-      "avg": 19
-    },
     "Music Man": {
       "sum": 98,
       "count": 4,
@@ -10371,9 +10371,9 @@
       "avg": 59
     },
     "Fryette": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Hiwatt": {
       "sum": 7,
@@ -10466,9 +10466,9 @@
       "avg": 30
     },
     "Hamer": {
-      "sum": 91,
-      "count": 4,
-      "avg": 23
+      "sum": 73,
+      "count": 3,
+      "avg": 24
     },
     "Revv": {
       "sum": 8,
@@ -10536,9 +10536,9 @@
       "avg": 34
     },
     "Hoyer": {
-      "sum": 34,
+      "sum": 35,
       "count": 1,
-      "avg": 34
+      "avg": 35
     },
     "Fractal Audio": {
       "sum": 35,
@@ -10617,7 +10617,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-01": 1,
+    "2026-05-01": 2,
     "2026-04-30": 12,
     "2026-04-29": 12,
     "2026-04-28": 22,
@@ -10626,11 +10626,11 @@
     "2026-04-25": 19,
     "2026-04-24": 34,
     "2026-04-23": 30,
-    "2026-04-22": 11
+    "2026-04-22": 10
   },
   "categoryDistribution": {
-    "reverb": 271,
-    "marketplace": 38
+    "marketplace": 39,
+    "reverb": 270
   },
   "activeModelsCount": 155,
   "topPosters": [
@@ -10640,7 +10640,7 @@
     },
     {
       "username": "greg1213",
-      "count": 49
+      "count": 50
     },
     {
       "username": "YellowJack6",
@@ -10656,7 +10656,7 @@
     },
     {
       "username": "Modean",
-      "count": 19
+      "count": 18
     },
     {
       "username": "Madero",
@@ -10719,9 +10719,9 @@
   ],
   "bestMonth": {
     "name": "May",
-    "avg": 2000,
-    "pctBelowAvg": 46,
-    "count": 1
+    "avg": 1650,
+    "pctBelowAvg": 55,
+    "count": 2
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11549,9 +11549,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1126.2312870101277,
-      "count": 60,
-      "avgPctDrop": 18.8
+      "totalPctDrop": 1117.6767147387413,
+      "count": 59,
+      "avgPctDrop": 18.9
     },
     "byBrand": {
       "PRS": {
@@ -11600,9 +11600,9 @@
         "avgPctDrop": 15.2
       },
       "Hamer": {
-        "totalPctDrop": 39.11012782694199,
-        "count": 2,
-        "avgPctDrop": 19.6
+        "totalPctDrop": 30.555555555555557,
+        "count": 1,
+        "avgPctDrop": 30.6
       },
       "Fender": {
         "totalPctDrop": 129.24931154596908,
@@ -11716,6 +11716,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Vintage": {
+        "total": 11,
+        "sold": 1,
+        "fake": 0,
+        "live": 10,
+        "soldPct": 9,
+        "livePct": 91
+      },
       "Kiesel": {
         "total": 14,
         "sold": 5,
@@ -11868,14 +11876,6 @@
         "soldPct": 20,
         "livePct": 80
       },
-      "Vintage": {
-        "total": 10,
-        "sold": 1,
-        "fake": 0,
-        "live": 9,
-        "soldPct": 10,
-        "livePct": 90
-      },
       "Music Man": {
         "total": 5,
         "sold": 4,
@@ -11925,12 +11925,12 @@
         "livePct": 100
       },
       "Hamer": {
-        "total": 5,
+        "total": 4,
         "sold": 1,
         "fake": 0,
-        "live": 4,
-        "soldPct": 20,
-        "livePct": 80
+        "live": 3,
+        "soldPct": 25,
+        "livePct": 75
       },
       "Mosrite": {
         "total": 1,
@@ -12418,6 +12418,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 15,
+        "sold": 0,
+        "rate": 0
+      },
       "Excellent": {
         "total": 109,
         "sold": 35,
@@ -12428,15 +12433,10 @@
         "sold": 8,
         "rate": 16
       },
-      "Used": {
-        "total": 14,
-        "sold": 0,
-        "rate": 0
-      },
       "Very Good": {
-        "total": 84,
+        "total": 83,
         "sold": 23,
-        "rate": 27
+        "rate": 28
       },
       "Mint": {
         "total": 8,
@@ -12642,7 +12642,7 @@
         "condition": "Good",
         "watchers": 153,
         "views": 2096,
-        "daysListed": 703,
+        "daysListed": 704,
         "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12784,7 +12784,7 @@
         "condition": "Good",
         "watchers": 153,
         "views": 2096,
-        "daysListed": 703,
+        "daysListed": 704,
         "image": "https://rvb-img.reverb.com/i/s--LY_RUd6o--/quality=medium-low,height=800,width=800,fit=contain/axgkyvt5qajfxynk55wm.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12826,7 +12826,7 @@
         "condition": "Mint",
         "watchers": 88,
         "views": 2614,
-        "daysListed": 485,
+        "daysListed": 486,
         "image": "https://rvb-img.reverb.com/i/s--xennhFxT--/quality=medium-low,height=800,width=800,fit=contain/kfqzsprxofheihlwu7qc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12983,9 +12983,9 @@
       "soldAvg": 1647,
       "live": 8,
       "sellRate": 33,
-      "totalDays": 128.1,
+      "totalDays": 128.3,
       "soldCount": 4,
-      "avgDaysToSell": 32
+      "avgDaysToSell": 32.1
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -13001,9 +13001,9 @@
       "soldAvg": 3558,
       "live": 10,
       "sellRate": 38,
-      "totalDays": 168.89999999999998,
+      "totalDays": 169.3,
       "soldCount": 6,
-      "avgDaysToSell": 28.1
+      "avgDaysToSell": 28.2
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13157,9 +13157,9 @@
       "soldAvg": 3066,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 102.69999999999999,
+      "totalDays": 103.10000000000001,
       "soldCount": 5,
-      "avgDaysToSell": 20.5
+      "avgDaysToSell": 20.6
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -13263,9 +13263,9 @@
       "soldAvg": 2150,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 62.8,
+      "totalDays": 62.9,
       "soldCount": 2,
-      "avgDaysToSell": 31.4
+      "avgDaysToSell": 31.5
     },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
@@ -13298,9 +13298,9 @@
       "soldAvg": 2150,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 2.9,
+      "totalDays": 3,
       "soldCount": 1,
-      "avgDaysToSell": 2.9
+      "avgDaysToSell": 3
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13316,9 +13316,9 @@
       "soldAvg": 19065,
       "live": 7,
       "sellRate": 30,
-      "totalDays": 70.19999999999999,
+      "totalDays": 70.4,
       "soldCount": 3,
-      "avgDaysToSell": 23.4
+      "avgDaysToSell": 23.5
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -13352,23 +13352,23 @@
       "soldAvg": 3695,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 3.3,
+      "totalDays": 3.4,
       "soldCount": 1,
-      "avgDaysToSell": 3.3
+      "avgDaysToSell": 3.4
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
       "brandLine": "Hamer Import",
       "tier": "budget-mid",
-      "count": 2,
-      "sum": 2800,
-      "avg": 1400,
+      "count": 1,
+      "sum": 1250,
+      "avg": 1250,
       "min": 1250,
-      "max": 1550,
+      "max": 1250,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 2,
+      "live": 1,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -13387,9 +13387,9 @@
       "soldAvg": 7800,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 35,
+      "totalDays": 35.1,
       "soldCount": 2,
-      "avgDaysToSell": 17.5
+      "avgDaysToSell": 17.6
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13405,9 +13405,9 @@
       "soldAvg": 6649,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 12.399999999999999,
+      "totalDays": 12.5,
       "soldCount": 2,
-      "avgDaysToSell": 6.2
+      "avgDaysToSell": 6.3
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -13510,9 +13510,9 @@
       "soldAvg": 5066,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 74.5,
+      "totalDays": 74.6,
       "soldCount": 3,
-      "avgDaysToSell": 24.8
+      "avgDaysToSell": 24.9
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13528,9 +13528,9 @@
       "soldAvg": 2350,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 20,
+      "totalDays": 20.1,
       "soldCount": 2,
-      "avgDaysToSell": 10
+      "avgDaysToSell": 10.1
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13666,9 +13666,9 @@
       "soldAvg": 475,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 39.1,
+      "totalDays": 39.2,
       "soldCount": 1,
-      "avgDaysToSell": 39.1
+      "avgDaysToSell": 39.2
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -13684,9 +13684,9 @@
       "soldAvg": 5000,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 8.1,
+      "totalDays": 8.2,
       "soldCount": 1,
-      "avgDaysToSell": 8.1
+      "avgDaysToSell": 8.2
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -13787,7 +13787,7 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 238.1,
+      "totalDays": 238.2,
       "soldCount": 2,
       "avgDaysToSell": 119.1
     },
@@ -13822,9 +13822,9 @@
       "soldAvg": 2197,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 62,
+      "totalDays": 62.1,
       "soldCount": 2,
-      "avgDaysToSell": 31
+      "avgDaysToSell": 31.1
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -13928,7 +13928,7 @@
     },
     {
       "label": "16–30",
-      "total": 76,
+      "total": 75,
       "sold": 22,
       "rate": 29
     },
@@ -13941,7 +13941,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 177,
+      "total": 176,
       "sold": 47,
       "rate": 27
     },
@@ -13958,7 +13958,7 @@
       "rate": 21
     },
     "regular": {
-      "total": 104,
+      "total": 103,
       "sold": 30,
       "rate": 29
     }
@@ -14014,9 +14014,9 @@
     },
     {
       "state": "TN",
-      "total": 9,
+      "total": 8,
       "sold": 4,
-      "rate": 44
+      "rate": 50
     },
     {
       "state": "MD",
