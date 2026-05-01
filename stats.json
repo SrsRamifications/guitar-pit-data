@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T23:25:16.843Z",
+  "generatedAt": "2026-05-01T00:04:35.466Z",
   "totalLinks": 309,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1112223.28,
-    "avg": 3683,
+    "sum": 1112028.28,
+    "avg": 3682,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 286,
-    "sum": 745486.29,
-    "avg": 2607,
+    "sum": 745291.29,
+    "avg": 2606,
     "min": 33,
     "max": 7999,
     "median": 2290
@@ -155,12 +155,19 @@
     ]
   },
   "byMonth": {
+    "2026-05": {
+      "count": 1,
+      "sum": 2000,
+      "min": 2000,
+      "max": 2000,
+      "avg": 2000
+    },
     "2026-04": {
-      "count": 172,
-      "sum": 521130.93,
+      "count": 171,
+      "sum": 518935.93,
       "min": 70,
       "max": 15500,
-      "avg": 3030
+      "avg": 3035
     },
     "2026-03": {
       "count": 130,
@@ -173,10 +180,10 @@
   "byCategory": {
     "reverb": {
       "count": 271,
-      "sum": 842030.36,
+      "sum": 841835.36,
       "min": 33,
       "max": 35900,
-      "avg": 3107
+      "avg": 3106
     },
     "marketplace": {
       "count": 31,
@@ -189,10 +196,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 271,
-      "sum": 842030.36,
+      "sum": 841835.36,
       "min": 33,
       "max": 35900,
-      "avg": 3107
+      "avg": 3106
     },
     "guitarcenter.com": {
       "count": 9,
@@ -266,6 +273,37 @@
     }
   },
   "byModel": {
+    "kiesel-aries-bolt-on-bass-bass-vi-baritone": {
+      "displayName": "Kiesel Aries Bolt-On 6 Bass VI 30 Inch Scale Baritone",
+      "brand": "Kiesel",
+      "model": "Aries Bolt-On Bass",
+      "variant": "Bass Vi Baritone",
+      "count": 1,
+      "sum": 2000,
+      "min": 2000,
+      "max": 2000,
+      "sightings": [
+        {
+          "price": 2000,
+          "date": "2026-05-01T00:04:19.648Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Aries Bolt-On 6 Bass VI 30 Inch Scale Baritone",
+          "url": "https://reverb.com/item/96567599-kiesel-aries-bolt-on-6-bass-vi-30-inch-scale-baritone",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2000,
+          "min": 2000,
+          "max": 2000,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "prs-tremonti": {
       "displayName": "PRS Tremonti 2025 Brand New",
       "brand": "PRS",
@@ -5740,37 +5778,6 @@
       },
       "avg": 1550
     },
-    "esp-telecaster": {
-      "displayName": "ESP Tele Custom 1980s NYC",
-      "brand": "ESP",
-      "model": "Telecaster",
-      "variant": null,
-      "count": 1,
-      "sum": 2195,
-      "min": 2195,
-      "max": 2195,
-      "sightings": [
-        {
-          "price": 2195,
-          "date": "2026-04-22T05:31:29.584Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "ESP Tele Custom 1980s NYC",
-          "url": "https://reverb.com/item/91598724-esp-tele-custom-1980s-nyc",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2195,
-          "min": 2195,
-          "max": 2195,
-          "avg": 2195
-        }
-      },
-      "avg": 2195
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9917,8 +9924,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 108,
-      "sum": 387418.73,
+      "count": 109,
+      "sum": 389418.73,
       "sold": {
         "count": 34,
         "sum": 135466.45,
@@ -9926,7 +9933,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3587,
+      "avg": 3573,
       "min": 275,
       "max": 35900
     },
@@ -9956,8 +9963,8 @@
       "max": 99000
     },
     "Very Good": {
-      "count": 85,
-      "sum": 242802.55999999994,
+      "count": 84,
+      "sum": 240607.55999999994,
       "sold": {
         "count": 23,
         "sum": 60874.79,
@@ -9965,7 +9972,7 @@
         "min": 475,
         "max": 10800
       },
-      "avg": 2857,
+      "avg": 2864,
       "min": 33,
       "max": 15500
     },
@@ -10046,10 +10053,15 @@
     }
   },
   "seasonal": {
+    "05": {
+      "name": "May",
+      "avg": 2000,
+      "count": 1
+    },
     "04": {
       "name": "Apr",
-      "avg": 3030,
-      "count": 172
+      "avg": 3035,
+      "count": 171
     },
     "03": {
       "name": "Mar",
@@ -10218,13 +10230,18 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 328,
+      "count": 12,
+      "avg": 27
+    },
     "PRS": {
       "sum": 376,
       "count": 23,
       "avg": 16
     },
     "BC Rich": {
-      "sum": 408,
+      "sum": 409,
       "count": 26,
       "avg": 16
     },
@@ -10279,7 +10296,7 @@
       "avg": 18
     },
     "Ibanez": {
-      "sum": 406,
+      "sum": 407,
       "count": 20,
       "avg": 20
     },
@@ -10347,11 +10364,6 @@
       "sum": 4,
       "count": 1,
       "avg": 4
-    },
-    "Kiesel": {
-      "sum": 328,
-      "count": 11,
-      "avg": 30
     },
     "Gretsch": {
       "sum": 117,
@@ -10589,9 +10601,9 @@
       "avg": 46
     },
     "Lollar": {
-      "sum": 30,
+      "sum": 31,
       "count": 1,
-      "avg": 30
+      "avg": 31
     },
     "Novo": {
       "sum": 30,
@@ -10605,6 +10617,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-05-01": 1,
     "2026-04-30": 12,
     "2026-04-29": 12,
     "2026-04-28": 22,
@@ -10613,7 +10626,7 @@
     "2026-04-25": 19,
     "2026-04-24": 34,
     "2026-04-23": 30,
-    "2026-04-22": 12
+    "2026-04-22": 11
   },
   "categoryDistribution": {
     "reverb": 271,
@@ -10647,7 +10660,7 @@
     },
     {
       "username": "Madero",
-      "count": 15
+      "count": 14
     },
     {
       "username": "WontonGG",
@@ -10655,7 +10668,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 9
+      "count": 10
     },
     {
       "username": "hibby_",
@@ -10705,10 +10718,10 @@
     }
   ],
   "bestMonth": {
-    "name": "Apr",
-    "avg": 3030,
-    "pctBelowAvg": 18,
-    "count": 172
+    "name": "May",
+    "avg": 2000,
+    "pctBelowAvg": 46,
+    "count": 1
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10737,10 +10750,10 @@
       "count": 21
     },
     "Kiesel": {
-      "avgPrice": 1572,
+      "avgPrice": 1602,
       "retailEst": 1000,
-      "avgDiscount": -57.2,
-      "count": 13
+      "avgDiscount": -60.2,
+      "count": 14
     },
     "BC Rich": {
       "avgPrice": 2682,
@@ -11703,6 +11716,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 14,
+        "sold": 5,
+        "fake": 0,
+        "live": 9,
+        "soldPct": 36,
+        "livePct": 64
+      },
       "PRS": {
         "total": 25,
         "sold": 9,
@@ -11728,12 +11749,12 @@
         "livePct": 74
       },
       "ESP": {
-        "total": 6,
+        "total": 5,
         "sold": 1,
         "fake": 0,
-        "live": 5,
-        "soldPct": 17,
-        "livePct": 83
+        "live": 4,
+        "soldPct": 20,
+        "livePct": 80
       },
       "G&L": {
         "total": 2,
@@ -11934,14 +11955,6 @@
         "live": 1,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Kiesel": {
-        "total": 13,
-        "sold": 5,
-        "fake": 0,
-        "live": 8,
-        "soldPct": 38,
-        "livePct": 62
       },
       "Gretsch": {
         "total": 3,
@@ -12406,7 +12419,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 108,
+        "total": 109,
         "sold": 35,
         "rate": 32
       },
@@ -12421,7 +12434,7 @@
         "rate": 0
       },
       "Very Good": {
-        "total": 85,
+        "total": 84,
         "sold": 23,
         "rate": 27
       },
@@ -12934,9 +12947,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1569,
-        "sellRate": 38,
-        "count": 13,
+        "avgPrice": 1605,
+        "sellRate": 36,
+        "count": 14,
         "sold": 5
       },
       {
@@ -12956,6 +12969,24 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 12,
+      "sum": 19257.98,
+      "avg": 1605,
+      "min": 950,
+      "max": 2700,
+      "sold": 4,
+      "soldSum": 6589,
+      "soldAvg": 1647,
+      "live": 8,
+      "sellRate": 33,
+      "totalDays": 128.1,
+      "soldCount": 4,
+      "avgDaysToSell": 32
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -13013,15 +13044,15 @@
       "brand": "ESP",
       "brandLine": "ESP USA",
       "tier": "premium",
-      "count": 3,
-      "sum": 8407,
-      "avg": 2802,
-      "min": 2195,
+      "count": 2,
+      "sum": 6212,
+      "avg": 3106,
+      "min": 2312,
       "max": 3900,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 3,
+      "live": 2,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -13040,9 +13071,9 @@
       "soldAvg": 930,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 5.2,
+      "totalDays": 5.3,
       "soldCount": 1,
-      "avgDaysToSell": 5.2
+      "avgDaysToSell": 5.3
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -13126,7 +13157,7 @@
       "soldAvg": 3066,
       "live": 4,
       "sellRate": 56,
-      "totalDays": 102.6,
+      "totalDays": 102.69999999999999,
       "soldCount": 5,
       "avgDaysToSell": 20.5
     },
@@ -13161,9 +13192,9 @@
       "soldAvg": 4500,
       "live": 8,
       "sellRate": 11,
-      "totalDays": 32.3,
+      "totalDays": 32.4,
       "soldCount": 1,
-      "avgDaysToSell": 32.3
+      "avgDaysToSell": 32.4
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -13179,7 +13210,7 @@
       "soldAvg": 2806,
       "live": 18,
       "sellRate": 18,
-      "totalDays": 82.2,
+      "totalDays": 82.30000000000001,
       "soldCount": 4,
       "avgDaysToSell": 20.6
     },
@@ -13214,9 +13245,9 @@
       "soldAvg": 1240,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 8.2,
+      "totalDays": 8.3,
       "soldCount": 1,
-      "avgDaysToSell": 8.2
+      "avgDaysToSell": 8.3
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -13303,9 +13334,9 @@
       "soldAvg": 3500,
       "live": 8,
       "sellRate": 11,
-      "totalDays": 8.2,
+      "totalDays": 8.3,
       "soldCount": 1,
-      "avgDaysToSell": 8.2
+      "avgDaysToSell": 8.3
     },
     "Parker|Parker Fly Deluxe": {
       "brand": "Parker",
@@ -13413,24 +13444,6 @@
       "soldCount": 1,
       "avgDaysToSell": 7.3
     },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 11,
-      "sum": 17257.98,
-      "avg": 1569,
-      "min": 950,
-      "max": 2700,
-      "sold": 4,
-      "soldSum": 6589,
-      "soldAvg": 1647,
-      "live": 7,
-      "sellRate": 36,
-      "totalDays": 127.99999999999999,
-      "soldCount": 4,
-      "avgDaysToSell": 32
-    },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
       "brandLine": "Gretsch Professional",
@@ -13462,9 +13475,9 @@
       "soldAvg": 1600,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 31.2,
+      "totalDays": 31.3,
       "soldCount": 1,
-      "avgDaysToSell": 31.2
+      "avgDaysToSell": 31.3
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -13497,7 +13510,7 @@
       "soldAvg": 5066,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 74.30000000000001,
+      "totalDays": 74.5,
       "soldCount": 3,
       "avgDaysToSell": 24.8
     },
@@ -13827,9 +13840,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 31.1,
+      "totalDays": 31.2,
       "soldCount": 1,
-      "avgDaysToSell": 31.1
+      "avgDaysToSell": 31.2
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -13862,9 +13875,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 31,
+      "totalDays": 31.1,
       "soldCount": 1,
-      "avgDaysToSell": 31
+      "avgDaysToSell": 31.1
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -13888,7 +13901,7 @@
     "withOffers": 77,
     "totalOffers": 162,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 66
+    "offersEnabledPct": 65
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13909,9 +13922,9 @@
     },
     {
       "label": "6–15",
-      "total": 51,
+      "total": 52,
       "sold": 12,
-      "rate": 24
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -13921,31 +13934,31 @@
     },
     {
       "label": "31+",
-      "total": 71,
+      "total": 70,
       "sold": 17,
       "rate": 24
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 178,
+      "total": 177,
       "sold": 47,
-      "rate": 26
+      "rate": 27
     },
     "off": {
-      "total": 51,
+      "total": 52,
       "sold": 15,
       "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 113,
+      "total": 112,
       "sold": 23,
-      "rate": 20
+      "rate": 21
     },
     "regular": {
-      "total": 103,
+      "total": 104,
       "sold": 30,
       "rate": 29
     }
@@ -13956,6 +13969,12 @@
       "total": 29,
       "sold": 8,
       "rate": 28
+    },
+    {
+      "state": "FL",
+      "total": 13,
+      "sold": 4,
+      "rate": 31
     },
     {
       "state": "WA",
@@ -13970,22 +13989,16 @@
       "rate": 17
     },
     {
-      "state": "FL",
-      "total": 12,
-      "sold": 4,
-      "rate": 33
-    },
-    {
-      "state": "NY",
-      "total": 11,
-      "sold": 0,
-      "rate": 0
-    },
-    {
       "state": "TX",
       "total": 11,
       "sold": 4,
       "rate": 36
+    },
+    {
+      "state": "NY",
+      "total": 10,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "PA",
