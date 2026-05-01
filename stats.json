@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T01:09:07.209Z",
+  "generatedAt": "2026-05-01T01:10:33.317Z",
   "totalLinks": 309,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1111778.27,
-    "avg": 3681,
+    "sum": 1110309.27,
+    "avg": 3677,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 286,
-    "sum": 745041.28,
-    "avg": 2605,
+    "sum": 743572.28,
+    "avg": 2600,
     "min": 33,
     "max": 7999,
     "median": 2290
   },
   "outliers": {
-    "thresholdHigh": 8102,
+    "thresholdHigh": 8240,
     "thresholdLow": 0,
     "count": 16,
     "items": [
@@ -156,18 +156,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 2,
-      "sum": 3299.99,
-      "min": 1299.99,
+      "count": 3,
+      "sum": 3529.99,
+      "min": 230,
       "max": 2000,
-      "avg": 1650
+      "avg": 1177
     },
     "2026-04": {
-      "count": 170,
-      "sum": 517385.93,
+      "count": 169,
+      "sum": 515686.93,
       "min": 70,
       "max": 15500,
-      "avg": 3043
+      "avg": 3051
     },
     "2026-03": {
       "count": 130,
@@ -178,35 +178,35 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 270,
+      "sum": 838816.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3107
+    },
     "marketplace": {
       "count": 32,
       "sum": 271492.91,
       "min": 297,
       "max": 99000,
       "avg": 8484
-    },
-    "reverb": {
-      "count": 270,
-      "sum": 840285.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3112
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 270,
+      "sum": 838816.36,
+      "min": 33,
+      "max": 35900,
+      "avg": 3107
+    },
     "guitarcenter.com": {
       "count": 10,
       "sum": 13189.93,
       "min": 297,
       "max": 2599.99,
       "avg": 1319
-    },
-    "reverb.com": {
-      "count": 270,
-      "sum": 840285.36,
-      "min": 33,
-      "max": 35900,
-      "avg": 3112
     },
     "musicgoround.com": {
       "count": 1,
@@ -273,6 +273,37 @@
     }
   },
   "byModel": {
+    "warmoth-stratocaster-59": {
+      "displayName": "Warmoth Strat Neck Wenge Ebony '59 neck profile",
+      "brand": "Warmoth",
+      "model": "Stratocaster",
+      "variant": "59",
+      "count": 1,
+      "sum": 230,
+      "min": 230,
+      "max": 230,
+      "sightings": [
+        {
+          "price": 230,
+          "date": "2026-05-01T01:10:18.622Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Warmoth Strat Neck Wenge Ebony '59 neck profile",
+          "url": "https://reverb.com/item/96559191-warmoth-strat-neck-wenge-ebony-59-neck-profile",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 230,
+          "min": 230,
+          "max": 230,
+          "avg": 230
+        }
+      },
+      "avg": 230
+    },
     "vintage-stratocaster-american-deluxe": {
       "displayName": "Vintage 1984 Fender American Deluxe Stratocaster Plus Carribean Blue Solid Body Electric Guitar Carribean Blue",
       "brand": "Vintage",
@@ -9923,6 +9954,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 84,
+      "sum": 239287.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 60874.79,
+        "avg": 2647,
+        "min": 475,
+        "max": 10800
+      },
+      "avg": 2849,
+      "min": 33,
+      "max": 15500
+    },
     "Used": {
       "count": 14,
       "sum": 119174.93000000001,
@@ -9935,16 +9980,16 @@
       "max": 99000
     },
     "Excellent": {
-      "count": 109,
-      "sum": 389418.73,
+      "count": 108,
+      "sum": 387719.73,
       "sold": {
-        "count": 34,
-        "sum": 135466.45,
-        "avg": 3984,
+        "count": 33,
+        "sum": 133767.45,
+        "avg": 4054,
         "min": 275,
         "max": 35900
       },
-      "avg": 3573,
+      "avg": 3590,
       "min": 275,
       "max": 35900
     },
@@ -9961,20 +10006,6 @@
       "avg": 2623,
       "min": 70,
       "max": 11475
-    },
-    "Very Good": {
-      "count": 83,
-      "sum": 239057.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 60874.79,
-        "avg": 2647,
-        "min": 475,
-        "max": 10800
-      },
-      "avg": 2880,
-      "min": 33,
-      "max": 15500
     },
     "Mint": {
       "count": 8,
@@ -10055,13 +10086,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 1650,
-      "count": 2
+      "avg": 1177,
+      "count": 3
     },
     "04": {
       "name": "Apr",
-      "avg": 3043,
-      "count": 170
+      "avg": 3051,
+      "count": 169
     },
     "03": {
       "name": "Mar",
@@ -10212,24 +10243,29 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 14,
+    "0-500": 15,
     "500-1k": 24,
-    "1k-2k": 77,
+    "1k-2k": 76,
     "2k-3k": 85,
     "3k-5k": 60,
     "5k-10k": 31,
     "10k+": 11
   },
   "priceDistributionFiltered": {
-    "0-500": 14,
+    "0-500": 15,
     "500-1k": 24,
-    "1k-2k": 77,
+    "1k-2k": 76,
     "2k-3k": 85,
     "3k-5k": 60,
     "5k-10k": 26,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Warmoth": {
+      "sum": 34,
+      "count": 2,
+      "avg": 17
+    },
     "Vintage": {
       "sum": 133,
       "count": 8,
@@ -10525,11 +10561,6 @@
       "count": 2,
       "avg": 34
     },
-    "Warmoth": {
-      "sum": 34,
-      "count": 1,
-      "avg": 34
-    },
     "Greco": {
       "sum": 34,
       "count": 1,
@@ -10617,7 +10648,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-01": 2,
+    "2026-05-01": 3,
     "2026-04-30": 12,
     "2026-04-29": 12,
     "2026-04-28": 22,
@@ -10626,13 +10657,13 @@
     "2026-04-25": 19,
     "2026-04-24": 34,
     "2026-04-23": 30,
-    "2026-04-22": 10
+    "2026-04-22": 9
   },
   "categoryDistribution": {
-    "marketplace": 39,
-    "reverb": 270
+    "reverb": 270,
+    "marketplace": 39
   },
-  "activeModelsCount": 155,
+  "activeModelsCount": 156,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -10640,11 +10671,11 @@
     },
     {
       "username": "greg1213",
-      "count": 50
+      "count": 51
     },
     {
       "username": "YellowJack6",
-      "count": 34
+      "count": 33
     },
     {
       "username": "jazee_",
@@ -10694,7 +10725,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 4
+      "count": 3
     },
     {
       "username": "Madero",
@@ -10719,9 +10750,9 @@
   ],
   "bestMonth": {
     "name": "May",
-    "avg": 1650,
-    "pctBelowAvg": 55,
-    "count": 2
+    "avg": 1177,
+    "pctBelowAvg": 68,
+    "count": 3
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10763,17 +10794,17 @@
     }
   },
   "soldPrices": {
-    "count": 77,
-    "avg": 3496,
+    "count": 76,
+    "avg": 3520,
     "min": 275,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 483.3999999999999,
-      "count": 73,
-      "avgDays": 6.6
+      "totalDays": 480.7,
+      "count": 72,
+      "avgDays": 6.7
     },
     "byModel": {
       "ibanez-flying-v-mij": {
@@ -11708,14 +11739,22 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 290,
+      "total": 291,
       "sold": 73,
       "fake": 0,
-      "live": 217,
+      "live": 218,
       "soldPct": 25,
       "livePct": 75
     },
     "byBrand": {
+      "Warmoth": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Vintage": {
         "total": 11,
         "sold": 1,
@@ -12220,14 +12259,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Warmoth": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Greco": {
         "total": 1,
         "sold": 0,
@@ -12376,9 +12407,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 14,
+        "total": 15,
         "sold": 2,
-        "rate": 14
+        "rate": 13
       },
       {
         "label": "$500–1k",
@@ -12388,9 +12419,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 77,
-        "sold": 17,
-        "rate": 22
+        "total": 76,
+        "sold": 16,
+        "rate": 21
       },
       {
         "label": "$2k–3k",
@@ -12418,25 +12449,25 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 84,
+        "sold": 23,
+        "rate": 27
+      },
       "Used": {
         "total": 15,
         "sold": 0,
         "rate": 0
       },
       "Excellent": {
-        "total": 109,
-        "sold": 35,
-        "rate": 32
+        "total": 108,
+        "sold": 34,
+        "rate": 31
       },
       "Good": {
         "total": 49,
         "sold": 8,
         "rate": 16
-      },
-      "Very Good": {
-        "total": 83,
-        "sold": 23,
-        "rate": 28
       },
       "Mint": {
         "total": 8,
@@ -13898,8 +13929,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 77,
-    "totalOffers": 162,
+    "withOffers": 76,
+    "totalOffers": 161,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 65
   },
@@ -13922,15 +13953,15 @@
     },
     {
       "label": "6–15",
-      "total": 52,
+      "total": 53,
       "sold": 12,
       "rate": 23
     },
     {
       "label": "16–30",
-      "total": 75,
-      "sold": 22,
-      "rate": 29
+      "total": 74,
+      "sold": 21,
+      "rate": 28
     },
     {
       "label": "31+",
@@ -13941,21 +13972,21 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 176,
-      "sold": 47,
-      "rate": 27
+      "total": 175,
+      "sold": 46,
+      "rate": 26
     },
     "off": {
-      "total": 52,
+      "total": 53,
       "sold": 15,
-      "rate": 29
+      "rate": 28
     }
   },
   "sellerType": {
     "preferred": {
       "total": 112,
-      "sold": 23,
-      "rate": 21
+      "sold": 22,
+      "rate": 20
     },
     "regular": {
       "total": 103,
@@ -14014,9 +14045,9 @@
     },
     {
       "state": "TN",
-      "total": 8,
+      "total": 9,
       "sold": 4,
-      "rate": 50
+      "rate": 44
     },
     {
       "state": "MD",
@@ -14047,12 +14078,6 @@
       "total": 4,
       "sold": 1,
       "rate": 25
-    },
-    {
-      "state": "NC",
-      "total": 4,
-      "sold": 3,
-      "rate": 75
     },
     {
       "state": "KS",
@@ -14095,6 +14120,12 @@
       "total": 3,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "NC",
+      "total": 3,
+      "sold": 2,
+      "rate": 67
     },
     {
       "state": "CT",
