@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T17:29:33.524Z",
+  "generatedAt": "2026-05-01T17:43:54.621Z",
   "totalLinks": 309,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 302,
   "overall": {
     "count": 302,
-    "sum": 1099061.27,
-    "avg": 3639,
+    "sum": 1098566.27,
+    "avg": 3638,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 287,
-    "sum": 740823.28,
-    "avg": 2581,
+    "sum": 740328.28,
+    "avg": 2580,
     "min": 33,
     "max": 8199,
     "median": 2284.16
   },
   "outliers": {
-    "thresholdHigh": 8285,
+    "thresholdHigh": 8287,
     "thresholdLow": 0,
     "count": 15,
     "items": [
@@ -148,18 +148,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 13,
-      "sum": 27508.99,
+      "count": 14,
+      "sum": 28858.99,
       "min": 230,
       "max": 8199,
-      "avg": 2116
+      "avg": 2061
     },
     "2026-04": {
-      "count": 159,
-      "sum": 480459.93,
+      "count": 158,
+      "sum": 478614.93,
       "min": 70,
       "max": 15500,
-      "avg": 3022
+      "avg": 3029
     },
     "2026-03": {
       "count": 130,
@@ -172,10 +172,10 @@
   "byCategory": {
     "reverb": {
       "count": 271,
-      "sum": 836067.36,
+      "sum": 835572.36,
       "min": 33,
       "max": 35900,
-      "avg": 3085
+      "avg": 3083
     },
     "marketplace": {
       "count": 31,
@@ -188,10 +188,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 271,
-      "sum": 836067.36,
+      "sum": 835572.36,
       "min": 33,
       "max": 35900,
-      "avg": 3085
+      "avg": 3083
     },
     "guitarcenter.com": {
       "count": 10,
@@ -258,6 +258,37 @@
     }
   },
   "byModel": {
+    "kiesel-aries-bolt-on": {
+      "displayName": "Kiesel Aries Bolt-On 6",
+      "brand": "Kiesel",
+      "model": "Aries Bolt-On",
+      "variant": null,
+      "count": 1,
+      "sum": 1350,
+      "min": 1350,
+      "max": 1350,
+      "sightings": [
+        {
+          "price": 1350,
+          "date": "2026-05-01T17:43:38.961Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Aries Bolt-On 6",
+          "url": "https://reverb.com/item/96469340-kiesel-aries-bolt-on-6",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1350,
+          "min": 1350,
+          "max": 1350,
+          "avg": 1350
+        }
+      },
+      "avg": 1350
+    },
     "xotic-bc-warlock-extreme-floyd-rose": {
       "displayName": "B.C. Warlock Extreme Exotic Electric Guitar W/Floyd Rose - Black Cherry",
       "brand": "Xotic",
@@ -5758,52 +5789,6 @@
       },
       "avg": 650
     },
-    "ibanez-ar350-artist": {
-      "displayName": "Ibanez AR350-PW Artist 1985 - Polar White",
-      "brand": "Ibanez",
-      "model": "AR350",
-      "variant": "Artist",
-      "count": 1,
-      "sum": 1845,
-      "min": 1845,
-      "max": 1845,
-      "sightings": [
-        {
-          "price": 1845,
-          "date": "2026-04-22T23:10:02.285Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez AR350-PW Artist 1985 - Polar White",
-          "url": "https://reverb.com/item/96287614-ibanez-ar350-pw-artist-1985-polar-white",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1845,
-          "min": 1845,
-          "max": 1845,
-          "avg": 1845
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1845,
-        "min": 1845,
-        "max": 1845,
-        "prices": [
-          {
-            "price": 1845,
-            "askingPrice": 1845,
-            "date": "2026-04-25T19:22:28.588Z",
-            "title": "Ibanez AR350-PW Artist 1985 - Polar White",
-            "url": "https://reverb.com/item/96287614-ibanez-ar350-pw-artist-1985-polar-white"
-          }
-        ]
-      },
-      "avg": 1845
-    },
     "ibanez-metal-usa": {
       "displayName": "Ibanez UCMD USA Custom Metal Design Series RG 1989 - 1991 - Animal Print",
       "brand": "Ibanez",
@@ -9918,6 +9903,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 110,
+      "sum": 391120.73,
+      "sold": {
+        "count": 31,
+        "sum": 127785.45,
+        "avg": 4122,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3556,
+      "min": 275,
+      "max": 35900
+    },
     "Brand New": {
       "count": 26,
       "sum": 109174.10999999999,
@@ -9932,31 +9931,17 @@
       "min": 135,
       "max": 14670
     },
-    "Excellent": {
-      "count": 109,
-      "sum": 389770.73,
-      "sold": {
-        "count": 31,
-        "sum": 127785.45,
-        "avg": 4122,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3576,
-      "min": 275,
-      "max": 35900
-    },
     "Very Good": {
-      "count": 84,
-      "sum": 235487.55999999994,
+      "count": 83,
+      "sum": 233642.55999999994,
       "sold": {
-        "count": 24,
-        "sum": 61059.79,
-        "avg": 2544,
+        "count": 23,
+        "sum": 59214.79,
+        "avg": 2575,
         "min": 230,
         "max": 10800
       },
-      "avg": 2803,
+      "avg": 2815,
       "min": 33,
       "max": 15500
     },
@@ -10050,13 +10035,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2116,
-      "count": 13
+      "avg": 2061,
+      "count": 14
     },
     "04": {
       "name": "Apr",
-      "avg": 3022,
-      "count": 159
+      "avg": 3029,
+      "count": 158
     },
     "03": {
       "name": "Mar",
@@ -10185,13 +10170,6 @@
       "date": "2026-04-26T03:22:54.337Z"
     },
     {
-      "title": "Ibanez AR350-PW Artist 1985 - Polar White",
-      "url": "https://reverb.com/item/96287614-ibanez-ar350-pw-artist-1985-polar-white",
-      "oldPrice": "$2,000",
-      "newPrice": "$1,845",
-      "date": "2026-04-24T21:17:11.390Z"
-    },
-    {
       "title": "Patrick James Eggle MACON SINGLE CUT CARVED TOP 2021",
       "url": "https://reverb.com/item/95489696-patrick-james-eggle-macon-single-cut-carved-top-2021",
       "oldPrice": "$5,533.75",
@@ -10204,6 +10182,13 @@
       "oldPrice": "$1,204.41",
       "newPrice": "$1,201.80",
       "date": "2026-03-27T23:42:48.757Z"
+    },
+    {
+      "title": "Fractal Audio AX8",
+      "url": "https://reverb.com/item/94215529-fractal-audio-ax8",
+      "oldPrice": "$672.36",
+      "newPrice": "$668.31",
+      "date": "2026-03-27T23:42:55.870Z"
     }
   ],
   "priceDistribution": {
@@ -10225,6 +10210,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 342,
+      "count": 13,
+      "avg": 26
+    },
     "Xotic": {
       "sum": 31,
       "count": 2,
@@ -10274,11 +10264,6 @@
       "sum": 140,
       "count": 8,
       "avg": 18
-    },
-    "Kiesel": {
-      "sum": 340,
-      "count": 12,
-      "avg": 28
     },
     "PRS": {
       "sum": 398,
@@ -10336,9 +10321,9 @@
       "avg": 18
     },
     "Ibanez": {
-      "sum": 424,
-      "count": 20,
-      "avg": 21
+      "sum": 415,
+      "count": 19,
+      "avg": 22
     },
     "Nash": {
       "sum": 7,
@@ -10617,7 +10602,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-01": 13,
+    "2026-05-01": 14,
     "2026-04-30": 11,
     "2026-04-29": 12,
     "2026-04-28": 22,
@@ -10625,8 +10610,7 @@
     "2026-04-26": 18,
     "2026-04-25": 19,
     "2026-04-24": 33,
-    "2026-04-23": 30,
-    "2026-04-22": 1
+    "2026-04-23": 30
   },
   "categoryDistribution": {
     "reverb": 271,
@@ -10636,7 +10620,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 85
+      "count": 84
     },
     {
       "username": "greg1213",
@@ -10672,13 +10656,13 @@
     },
     {
       "username": "hibby_",
-      "count": 7
+      "count": 8
     }
   ],
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 29
+      "count": 28
     },
     {
       "username": "greg1213",
@@ -10719,9 +10703,9 @@
   ],
   "bestMonth": {
     "name": "May",
-    "avg": 2116,
-    "pctBelowAvg": 42,
-    "count": 13
+    "avg": 2061,
+    "pctBelowAvg": 43,
+    "count": 14
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10744,16 +10728,16 @@
       "count": 25
     },
     "Ibanez": {
-      "avgPrice": 3156,
+      "avgPrice": 3222,
       "retailEst": 1000,
-      "avgDiscount": -215.6,
-      "count": 21
+      "avgDiscount": -222.2,
+      "count": 20
     },
     "Kiesel": {
-      "avgPrice": 1593,
+      "avgPrice": 1577,
       "retailEst": 1000,
-      "avgDiscount": -59.3,
-      "count": 14
+      "avgDiscount": -57.7,
+      "count": 15
     },
     "BC Rich": {
       "avgPrice": 2679,
@@ -10763,16 +10747,16 @@
     }
   },
   "soldPrices": {
-    "count": 73,
-    "avg": 3460,
+    "count": 72,
+    "avg": 3482,
     "min": 230,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 468.3999999999999,
-      "count": 69,
+      "totalDays": 465.59999999999997,
+      "count": 68,
       "avgDays": 6.8
     },
     "byModel": {
@@ -10959,14 +10943,6 @@
         "fastest": 1.8,
         "slowest": 1.8,
         "avgDays": 1.8
-      },
-      "ibanez-ar350-artist": {
-        "displayName": "Ibanez AR350-PW Artist 1985 - Polar White",
-        "totalDays": 2.8,
-        "count": 1,
-        "fastest": 2.8,
-        "slowest": 2.8,
-        "avgDays": 2.8
       },
       "fender-telecaster": {
         "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
@@ -11306,11 +11282,11 @@
         "avgDays": 0.3
       },
       "Ibanez": {
-        "totalDays": 5.8999999999999995,
-        "count": 6,
+        "totalDays": 3.1,
+        "count": 5,
         "fastest": 0.1,
-        "slowest": 2.8,
-        "avgDays": 1
+        "slowest": 1.2,
+        "avgDays": 0.6
       },
       "Fender": {
         "totalDays": 5.1,
@@ -11526,9 +11502,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1103.391000453027,
-      "count": 58,
-      "avgPctDrop": 19
+      "totalPctDrop": 1095.6410004530267,
+      "count": 57,
+      "avgPctDrop": 19.2
     },
     "byBrand": {
       "PRS": {
@@ -11626,15 +11602,15 @@
         "count": 1,
         "avgPctDrop": 18.8
       },
-      "Ibanez": {
-        "totalPctDrop": 57.67401215805471,
-        "count": 3,
-        "avgPctDrop": 19.2
-      },
       "LSL": {
         "totalPctDrop": 10,
         "count": 1,
         "avgPctDrop": 10
+      },
+      "Ibanez": {
+        "totalPctDrop": 49.92401215805471,
+        "count": 2,
+        "avgPctDrop": 25
       },
       "Vintage": {
         "totalPctDrop": 26.130434782608695,
@@ -11686,13 +11662,21 @@
   "sellThrough": {
     "overall": {
       "total": 292,
-      "sold": 71,
+      "sold": 70,
       "fake": 0,
-      "live": 221,
+      "live": 222,
       "soldPct": 24,
       "livePct": 76
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 15,
+        "sold": 5,
+        "fake": 0,
+        "live": 10,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Xotic": {
         "total": 2,
         "sold": 0,
@@ -11772,14 +11756,6 @@
         "live": 10,
         "soldPct": 9,
         "livePct": 91
-      },
-      "Kiesel": {
-        "total": 14,
-        "sold": 5,
-        "fake": 0,
-        "live": 9,
-        "soldPct": 36,
-        "livePct": 64
       },
       "PRS": {
         "total": 25,
@@ -11870,12 +11846,12 @@
         "livePct": 100
       },
       "Ibanez": {
-        "total": 21,
-        "sold": 6,
+        "total": 20,
+        "sold": 5,
         "fake": 0,
         "live": 15,
-        "soldPct": 29,
-        "livePct": 71
+        "soldPct": 25,
+        "livePct": 75
       },
       "Nash": {
         "total": 3,
@@ -12366,8 +12342,8 @@
       {
         "label": "$1k–2k",
         "total": 77,
-        "sold": 16,
-        "rate": 21
+        "sold": 15,
+        "rate": 19
       },
       {
         "label": "$2k–3k",
@@ -12395,20 +12371,20 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 110,
+        "sold": 32,
+        "rate": 29
+      },
       "Brand New": {
         "total": 26,
         "sold": 5,
         "rate": 19
       },
-      "Excellent": {
-        "total": 109,
-        "sold": 32,
-        "rate": 29
-      },
       "Very Good": {
-        "total": 84,
-        "sold": 24,
-        "rate": 29
+        "total": 83,
+        "sold": 23,
+        "rate": 28
       },
       "Mint": {
         "total": 9,
@@ -12924,9 +12900,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1594,
-        "sellRate": 36,
-        "count": 14,
+        "avgPrice": 1575,
+        "sellRate": 33,
+        "count": 15,
         "sold": 5
       },
       {
@@ -12946,6 +12922,24 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 13,
+      "sum": 20477.98,
+      "avg": 1575,
+      "min": 950,
+      "max": 2700,
+      "sold": 4,
+      "soldSum": 6589,
+      "soldAvg": 1647,
+      "live": 9,
+      "sellRate": 31,
+      "totalDays": 131.10000000000002,
+      "soldCount": 4,
+      "avgDaysToSell": 32.8
+    },
     "Squier|Squier": {
       "brand": "Squier",
       "brandLine": "Squier",
@@ -13032,24 +13026,6 @@
       "soldCount": 1,
       "avgDaysToSell": 9
     },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 12,
-      "sum": 19127.98,
-      "avg": 1594,
-      "min": 950,
-      "max": 2700,
-      "sold": 4,
-      "soldSum": 6589,
-      "soldAvg": 1647,
-      "live": 8,
-      "sellRate": 33,
-      "totalDays": 131,
-      "soldCount": 4,
-      "avgDaysToSell": 32.8
-    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -13064,7 +13040,7 @@
       "soldAvg": 3558,
       "live": 10,
       "sellRate": 38,
-      "totalDays": 173.4,
+      "totalDays": 173.5,
       "soldCount": 6,
       "avgDaysToSell": 28.9
     },
@@ -13175,19 +13151,19 @@
       "brand": "Ibanez",
       "brandLine": "Ibanez J.Custom",
       "tier": "premium",
-      "count": 9,
-      "sum": 37303,
-      "avg": 4145,
-      "min": 1845,
+      "count": 8,
+      "sum": 35458,
+      "avg": 4432,
+      "min": 2040,
       "max": 13000,
-      "sold": 5,
-      "soldSum": 15328,
-      "soldAvg": 3066,
+      "sold": 4,
+      "soldSum": 13483,
+      "soldAvg": 3371,
       "live": 4,
-      "sellRate": 56,
-      "totalDays": 106.6,
-      "soldCount": 5,
-      "avgDaysToSell": 21.3
+      "sellRate": 50,
+      "totalDays": 97.80000000000001,
+      "soldCount": 4,
+      "avgDaysToSell": 24.5
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -13343,9 +13319,9 @@
       "soldAvg": 19065,
       "live": 7,
       "sellRate": 30,
-      "totalDays": 72.4,
+      "totalDays": 72.5,
       "soldCount": 3,
-      "avgDaysToSell": 24.1
+      "avgDaysToSell": 24.2
     },
     "Parker|Parker Fly Deluxe": {
       "brand": "Parker",
@@ -13779,7 +13755,7 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 239.5,
+      "totalDays": 239.60000000000002,
       "soldCount": 2,
       "avgDaysToSell": 119.8
     },
@@ -13897,13 +13873,13 @@
     },
     {
       "label": "6–15",
-      "total": 49,
-      "sold": 12,
-      "rate": 24
+      "total": 48,
+      "sold": 11,
+      "rate": 23
     },
     {
       "label": "16–30",
-      "total": 80,
+      "total": 81,
       "sold": 20,
       "rate": 25
     },
@@ -13917,8 +13893,8 @@
   "offersEffect": {
     "on": {
       "total": 174,
-      "sold": 43,
-      "rate": 25
+      "sold": 42,
+      "rate": 24
     },
     "off": {
       "total": 55,
@@ -13934,8 +13910,8 @@
     },
     "regular": {
       "total": 103,
-      "sold": 29,
-      "rate": 28
+      "sold": 28,
+      "rate": 27
     }
   },
   "geoSellThrough": [
@@ -14030,6 +14006,12 @@
       "rate": 25
     },
     {
+      "state": "KS",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "IA",
       "total": 3,
       "sold": 0,
@@ -14040,12 +14022,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "KS",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "NJ",
