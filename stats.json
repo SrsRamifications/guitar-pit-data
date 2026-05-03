@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T06:01:09.800Z",
+  "generatedAt": "2026-05-03T06:02:02.116Z",
   "totalLinks": 305,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,21 +7,21 @@
   "totalWithPrice": 298,
   "overall": {
     "count": 298,
-    "sum": 1153731.25,
-    "avg": 3872,
+    "sum": 1150397.25,
+    "avg": 3860,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 281,
-    "sum": 707254.27,
-    "avg": 2517,
+    "sum": 703920.27,
+    "avg": 2505,
     "min": 33,
     "max": 8000,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
-    "thresholdHigh": 8092,
+    "thresholdHigh": 8100,
     "thresholdLow": 0,
     "count": 17,
     "items": [
@@ -164,18 +164,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 30,
-      "sum": 144083.97,
+      "count": 31,
+      "sum": 144933.97,
       "min": 230,
       "max": 79999.99,
-      "avg": 4803
+      "avg": 4675
     },
     "2026-04": {
-      "count": 138,
-      "sum": 418554.93,
+      "count": 137,
+      "sum": 414370.93,
       "min": 70,
       "max": 15500,
-      "avg": 3033
+      "avg": 3025
     },
     "2026-03": {
       "count": 130,
@@ -188,10 +188,10 @@
   "byCategory": {
     "reverb": {
       "count": 269,
-      "sum": 820119.36,
+      "sum": 816785.36,
       "min": 33,
       "max": 35900,
-      "avg": 3049
+      "avg": 3036
     },
     "marketplace": {
       "count": 29,
@@ -204,10 +204,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 269,
-      "sum": 820119.36,
+      "sum": 816785.36,
       "min": 33,
       "max": 35900,
-      "avg": 3049
+      "avg": 3036
     },
     "guitarcenter.com": {
       "count": 11,
@@ -274,6 +274,37 @@
     }
   },
   "byModel": {
+    "esp-arrow-evertune": {
+      "displayName": "ESP LTD Arrow-1000 Evertune 2022 - Present - Black",
+      "brand": "ESP",
+      "model": "Arrow",
+      "variant": "Evertune",
+      "count": 1,
+      "sum": 850,
+      "min": 850,
+      "max": 850,
+      "sightings": [
+        {
+          "price": 850,
+          "date": "2026-05-03T06:01:47.650Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP LTD Arrow-1000 Evertune 2022 - Present - Black",
+          "url": "https://reverb.com/item/95581551-esp-ltd-arrow-1000-evertune-2022-present-black",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 850,
+          "min": 850,
+          "max": 850,
+          "avg": 850
+        }
+      },
+      "avg": 850
+    },
     "esp-viper-evertune-satin": {
       "displayName": "ESP LTD Viper-1000 EVERTUNE, Black Satin, WITH CASE! MINT!",
       "brand": "ESP",
@@ -5731,37 +5762,6 @@
       },
       "avg": 70
     },
-    "gibson-es-359": {
-      "displayName": "2014 Gibson ES-359 - Vintage Sunburst",
-      "brand": "Gibson",
-      "model": "ES-359",
-      "variant": null,
-      "count": 1,
-      "sum": 4184,
-      "min": 4184,
-      "max": 4184,
-      "sightings": [
-        {
-          "price": 4184,
-          "date": "2026-04-23T05:08:19.549Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2014 Gibson ES-359 - Vintage Sunburst",
-          "url": "https://reverb.com/ca/item/52847532-2014-gibson-es-359-vintage-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 4184,
-          "min": 4184,
-          "max": 4184,
-          "avg": 4184
-        }
-      },
-      "avg": 4184
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9884,6 +9884,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 81,
+      "sum": 213383.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 55764.79,
+        "avg": 2425,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2634,
+      "min": 33,
+      "max": 15500
+    },
     "Excellent": {
       "count": 112,
       "sum": 398020.73,
@@ -9897,20 +9911,6 @@
       "avg": 3554,
       "min": 275,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 81,
-      "sum": 216717.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 55764.79,
-        "avg": 2425,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2676,
-      "min": 33,
-      "max": 15500
     },
     "Brand New": {
       "count": 27,
@@ -10016,13 +10016,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 4803,
-      "count": 30
+      "avg": 4675,
+      "count": 31
     },
     "04": {
       "name": "Apr",
-      "avg": 3033,
-      "count": 138
+      "avg": 3025,
+      "count": 137
     },
     "03": {
       "name": "Mar",
@@ -10174,31 +10174,31 @@
   ],
   "priceDistribution": {
     "0-500": 16,
-    "500-1k": 24,
+    "500-1k": 25,
     "1k-2k": 81,
     "2k-3k": 79,
-    "3k-5k": 59,
+    "3k-5k": 58,
     "5k-10k": 27,
     "10k+": 12
   },
   "priceDistributionFiltered": {
     "0-500": 16,
-    "500-1k": 24,
+    "500-1k": 25,
     "1k-2k": 81,
     "2k-3k": 79,
-    "3k-5k": 59,
+    "3k-5k": 58,
     "5k-10k": 22,
     "10k+": 0
   },
   "daysOnMarket": {
     "ESP": {
       "sum": 115,
-      "count": 5,
-      "avg": 23
+      "count": 6,
+      "avg": 19
     },
     "Gibson": {
-      "sum": 616,
-      "count": 25,
+      "sum": 601,
+      "count": 24,
       "avg": 25
     },
     "Schecter": {
@@ -10568,7 +10568,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-03": 6,
+    "2026-05-03": 7,
     "2026-05-02": 10,
     "2026-05-01": 14,
     "2026-04-30": 10,
@@ -10578,7 +10578,7 @@
     "2026-04-26": 17,
     "2026-04-25": 19,
     "2026-04-24": 31,
-    "2026-04-23": 14
+    "2026-04-23": 13
   },
   "categoryDistribution": {
     "reverb": 269,
@@ -10588,7 +10588,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 84
+      "count": 85
     },
     {
       "username": "greg1213",
@@ -10608,7 +10608,7 @@
     },
     {
       "username": "jazee_",
-      "count": 18
+      "count": 17
     },
     {
       "username": "Madero",
@@ -10671,9 +10671,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3033,
+    "avg": 3025,
     "pctBelowAvg": 22,
-    "count": 138
+    "count": 137
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10684,10 +10684,10 @@
       "count": 19
     },
     "Gibson": {
-      "avgPrice": 6305,
+      "avgPrice": 6390,
       "retailEst": 800,
-      "avgDiscount": -688.1,
-      "count": 26
+      "avgDiscount": -698.7,
+      "count": 25
     },
     "PRS": {
       "avgPrice": 3509,
@@ -11643,20 +11643,20 @@
     },
     "byBrand": {
       "ESP": {
-        "total": 6,
+        "total": 7,
         "sold": 1,
         "fake": 0,
-        "live": 5,
-        "soldPct": 17,
-        "livePct": 83
+        "live": 6,
+        "soldPct": 14,
+        "livePct": 86
       },
       "Gibson": {
-        "total": 28,
+        "total": 27,
         "sold": 5,
         "fake": 0,
-        "live": 23,
-        "soldPct": 18,
-        "livePct": 82
+        "live": 22,
+        "soldPct": 19,
+        "livePct": 81
       },
       "Schecter": {
         "total": 3,
@@ -12300,9 +12300,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 24,
+        "total": 25,
         "sold": 5,
-        "rate": 21
+        "rate": 20
       },
       {
         "label": "$1k–2k",
@@ -12318,7 +12318,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 59,
+        "total": 58,
         "sold": 18,
         "rate": 31
       },
@@ -12336,15 +12336,15 @@
       }
     ],
     "byCondition": {
-      "Excellent": {
-        "total": 112,
-        "sold": 34,
-        "rate": 30
-      },
       "Very Good": {
         "total": 81,
         "sold": 23,
         "rate": 28
+      },
+      "Excellent": {
+        "total": 112,
+        "sold": 34,
+        "rate": 30
       },
       "Brand New": {
         "total": 27,
@@ -12876,15 +12876,15 @@
       "brand": "ESP",
       "brandLine": "LTD",
       "tier": "budget",
-      "count": 1,
-      "sum": 950,
-      "avg": 950,
-      "min": 950,
+      "count": 2,
+      "sum": 1800,
+      "avg": 900,
+      "min": 850,
       "max": 950,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 1,
+      "live": 2,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -12893,16 +12893,16 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 20,
-      "sum": 60779,
-      "avg": 3039,
+      "count": 19,
+      "sum": 56595,
+      "avg": 2979,
       "min": 135,
       "max": 11048,
       "sold": 2,
       "soldSum": 3830,
       "soldAvg": 1915,
-      "live": 18,
-      "sellRate": 10,
+      "live": 17,
+      "sellRate": 11,
       "totalDays": 70.9,
       "soldCount": 2,
       "avgDaysToSell": 35.5
@@ -13835,8 +13835,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 77,
-    "totalOffers": 160,
+    "withOffers": 76,
+    "totalOffers": 157,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 64
   },
@@ -13859,7 +13859,7 @@
     },
     {
       "label": "6–15",
-      "total": 47,
+      "total": 48,
       "sold": 11,
       "rate": 23
     },
@@ -13871,7 +13871,7 @@
     },
     {
       "label": "31+",
-      "total": 67,
+      "total": 66,
       "sold": 16,
       "rate": 24
     }
@@ -13890,12 +13890,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 115,
+      "total": 114,
       "sold": 23,
       "rate": 20
     },
     "regular": {
-      "total": 99,
+      "total": 100,
       "sold": 28,
       "rate": 28
     }
@@ -13903,9 +13903,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 25,
+      "total": 26,
       "sold": 7,
-      "rate": 28
+      "rate": 27
     },
     {
       "state": "NY",
