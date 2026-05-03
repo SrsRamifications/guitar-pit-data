@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T18:09:43.462Z",
+  "generatedAt": "2026-05-03T19:01:11.158Z",
   "totalLinks": 303,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 296,
   "overall": {
     "count": 296,
-    "sum": 1141401.26,
-    "avg": 3856,
+    "sum": 1140756.26,
+    "avg": 3854,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 279,
-    "sum": 694924.28,
-    "avg": 2491,
+    "sum": 694279.28,
+    "avg": 2488,
     "min": 33,
     "max": 8000,
     "median": 2199.99
@@ -164,18 +164,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 35,
-      "sum": 147819.97,
+      "count": 36,
+      "sum": 153569.97,
       "min": 95,
       "max": 79999.99,
-      "avg": 4223
+      "avg": 4266
     },
     "2026-04": {
-      "count": 131,
-      "sum": 402488.94,
+      "count": 130,
+      "sum": 396093.94,
       "min": 308,
       "max": 15500,
-      "avg": 3072
+      "avg": 3047
     },
     "2026-03": {
       "count": 130,
@@ -188,10 +188,10 @@
   "byCategory": {
     "reverb": {
       "count": 268,
-      "sum": 808589.36,
+      "sum": 807944.36,
       "min": 33,
       "max": 35900,
-      "avg": 3017
+      "avg": 3015
     },
     "marketplace": {
       "count": 28,
@@ -204,10 +204,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 268,
-      "sum": 808589.36,
+      "sum": 807944.36,
       "min": 33,
       "max": 35900,
-      "avg": 3017
+      "avg": 3015
     },
     "guitarcenter.com": {
       "count": 10,
@@ -274,6 +274,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-standard-custom-shop-1959": {
+      "displayName": "Gibson Custom Shop 1959 Les Paul Standard Reissue Murphy Lab Ultra Light Aging 2024 - Southern Fade",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "Custom Shop 1959",
+      "count": 1,
+      "sum": 5750,
+      "min": 5750,
+      "max": 5750,
+      "sightings": [
+        {
+          "price": 5750,
+          "date": "2026-05-03T19:00:53.612Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop 1959 Les Paul Standard Reissue Murphy Lab Ultra Light Aging 2024 - Southern Fade",
+          "url": "https://reverb.com/item/96677040-gibson-custom-shop-1959-les-paul-standard-reissue-murphy-lab-ultra-light-aging-2024-southern-fade",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 5750,
+          "min": 5750,
+          "max": 5750,
+          "avg": 5750
+        }
+      },
+      "avg": 5750
+    },
     "vintage-sg": {
       "displayName": "Vintage Yamaha SG-30 1974 - Natural",
       "brand": "Vintage",
@@ -5647,37 +5678,6 @@
       },
       "avg": 9990
     },
-    "fender-stratocaster-masterbuilt-nos": {
-      "displayName": "Fender Todd Krause Masterbuilt '56 Stratocaster NOS 2024 - Surf Green",
-      "brand": "Fender",
-      "model": "Stratocaster",
-      "variant": "Masterbuilt Nos",
-      "count": 1,
-      "sum": 6395,
-      "min": 6395,
-      "max": 6395,
-      "sightings": [
-        {
-          "price": 6395,
-          "date": "2026-04-23T05:29:19.503Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Fender Todd Krause Masterbuilt '56 Stratocaster NOS 2024 - Surf Green",
-          "url": "https://reverb.com/item/96294801-fender-todd-krause-masterbuilt-56-stratocaster-nos-2024-surf-green",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 6395,
-          "min": 6395,
-          "max": 6395,
-          "avg": 6395
-        }
-      },
-      "avg": 6395
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9800,6 +9800,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 85,
+      "sum": 221469.55999999994,
+      "sold": {
+        "count": 23,
+        "sum": 55764.79,
+        "avg": 2425,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2606,
+      "min": 33,
+      "max": 15500
+    },
     "Good": {
       "count": 38,
       "sum": 97372.95,
@@ -9814,23 +9828,9 @@
       "min": 308,
       "max": 11475
     },
-    "Very Good": {
-      "count": 84,
-      "sum": 215719.55999999994,
-      "sold": {
-        "count": 23,
-        "sum": 55764.79,
-        "avg": 2425,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2568,
-      "min": 33,
-      "max": 15500
-    },
     "Excellent": {
-      "count": 110,
-      "sum": 390438.73,
+      "count": 109,
+      "sum": 384043.73,
       "sold": {
         "count": 32,
         "sum": 130083.45,
@@ -9838,7 +9838,7 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3549,
+      "avg": 3523,
       "min": 275,
       "max": 35900
     },
@@ -9932,13 +9932,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 4223,
-      "count": 35
+      "avg": 4266,
+      "count": 36
     },
     "04": {
       "name": "Apr",
-      "avg": 3072,
-      "count": 131
+      "avg": 3047,
+      "count": 130
     },
     "03": {
       "name": "Mar",
@@ -10107,15 +10107,15 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 592,
+      "count": 25,
+      "avg": 24
+    },
     "Vintage": {
       "sum": 172,
       "count": 9,
       "avg": 19
-    },
-    "Gibson": {
-      "sum": 592,
-      "count": 24,
-      "avg": 25
     },
     "First Act": {
       "sum": 1,
@@ -10158,8 +10158,8 @@
       "avg": 15
     },
     "Fender": {
-      "sum": 224,
-      "count": 15,
+      "sum": 213,
+      "count": 14,
       "avg": 15
     },
     "Kiesel": {
@@ -10243,7 +10243,7 @@
       "avg": 19
     },
     "Ibanez": {
-      "sum": 443,
+      "sum": 444,
       "count": 18,
       "avg": 25
     },
@@ -10489,7 +10489,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-03": 11,
+    "2026-05-03": 12,
     "2026-05-02": 10,
     "2026-05-01": 14,
     "2026-04-30": 10,
@@ -10499,7 +10499,7 @@
     "2026-04-26": 17,
     "2026-04-25": 19,
     "2026-04-24": 31,
-    "2026-04-23": 8
+    "2026-04-23": 7
   },
   "categoryDistribution": {
     "reverb": 268,
@@ -10592,23 +10592,23 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3072,
-    "pctBelowAvg": 20,
-    "count": 131
+    "avg": 3047,
+    "pctBelowAvg": 21,
+    "count": 130
   },
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6179,
+      "avgPrice": 6166,
       "retailEst": 800,
-      "avgDiscount": -672.3,
-      "count": 18
+      "avgDiscount": -670.7,
+      "count": 17
     },
     "Gibson": {
-      "avgPrice": 6377,
+      "avgPrice": 6353,
       "retailEst": 800,
-      "avgDiscount": -697.1,
-      "count": 25
+      "avgDiscount": -694.1,
+      "count": 26
     },
     "PRS": {
       "avgPrice": 3509,
@@ -11555,6 +11555,14 @@
       "livePct": 76
     },
     "byBrand": {
+      "Gibson": {
+        "total": 28,
+        "sold": 4,
+        "fake": 0,
+        "live": 24,
+        "soldPct": 14,
+        "livePct": 86
+      },
       "Vintage": {
         "total": 12,
         "sold": 1,
@@ -11562,14 +11570,6 @@
         "live": 11,
         "soldPct": 8,
         "livePct": 92
-      },
-      "Gibson": {
-        "total": 27,
-        "sold": 4,
-        "fake": 0,
-        "live": 23,
-        "soldPct": 15,
-        "livePct": 85
       },
       "First Act": {
         "total": 1,
@@ -11636,12 +11636,12 @@
         "livePct": 33
       },
       "Fender": {
-        "total": 20,
+        "total": 19,
         "sold": 6,
         "fake": 0,
-        "live": 14,
-        "soldPct": 30,
-        "livePct": 70
+        "live": 13,
+        "soldPct": 32,
+        "livePct": 68
       },
       "Orange": {
         "total": 1,
@@ -12257,18 +12257,18 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 85,
+        "sold": 23,
+        "rate": 27
+      },
       "Good": {
         "total": 38,
         "sold": 4,
         "rate": 11
       },
-      "Very Good": {
-        "total": 84,
-        "sold": 23,
-        "rate": 27
-      },
       "Excellent": {
-        "total": 110,
+        "total": 109,
         "sold": 34,
         "rate": 31
       },
@@ -12793,6 +12793,24 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson Custom Shop": {
+      "brand": "Gibson",
+      "brandLine": "Gibson Custom Shop",
+      "tier": "ultra",
+      "count": 5,
+      "sum": 100947.99,
+      "avg": 20190,
+      "min": 3500,
+      "max": 79999.99,
+      "sold": 3,
+      "soldSum": 15198,
+      "soldAvg": 5066,
+      "live": 2,
+      "sellRate": 60,
+      "totalDays": 82.80000000000001,
+      "soldCount": 3,
+      "avgDaysToSell": 27.6
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -12807,9 +12825,9 @@
       "soldAvg": 2400,
       "live": 18,
       "sellRate": 5,
-      "totalDays": 45.9,
+      "totalDays": 46,
       "soldCount": 1,
-      "avgDaysToSell": 45.9
+      "avgDaysToSell": 46
     },
     "ESP|LTD": {
       "brand": "ESP",
@@ -12876,9 +12894,9 @@
       "soldAvg": 2131,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 69.1,
+      "totalDays": 69.30000000000001,
       "soldCount": 3,
-      "avgDaysToSell": 23
+      "avgDaysToSell": 23.1
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -12894,7 +12912,7 @@
       "soldAvg": 3769,
       "live": 10,
       "sellRate": 33,
-      "totalDays": 174.8,
+      "totalDays": 174.9,
       "soldCount": 5,
       "avgDaysToSell": 35
     },
@@ -12933,24 +12951,6 @@
       "soldCount": 1,
       "avgDaysToSell": 1.1
     },
-    "Gibson|Gibson Custom Shop": {
-      "brand": "Gibson",
-      "brandLine": "Gibson Custom Shop",
-      "tier": "ultra",
-      "count": 4,
-      "sum": 95197.99,
-      "avg": 23799,
-      "min": 3500,
-      "max": 79999.99,
-      "sold": 3,
-      "soldSum": 15198,
-      "soldAvg": 5066,
-      "live": 1,
-      "sellRate": 75,
-      "totalDays": 82.7,
-      "soldCount": 3,
-      "avgDaysToSell": 27.6
-    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -12965,7 +12965,7 @@
       "soldAvg": 1647,
       "live": 9,
       "sellRate": 31,
-      "totalDays": 139.10000000000002,
+      "totalDays": 139.20000000000002,
       "soldCount": 4,
       "avgDaysToSell": 34.8
     },
@@ -13051,9 +13051,9 @@
       "soldAvg": 8199,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 2.8,
+      "totalDays": 2.9,
       "soldCount": 1,
-      "avgDaysToSell": 2.8
+      "avgDaysToSell": 2.9
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -13155,7 +13155,7 @@
       "soldAvg": 3371,
       "live": 4,
       "sellRate": 50,
-      "totalDays": 105.80000000000001,
+      "totalDays": 105.9,
       "soldCount": 4,
       "avgDaysToSell": 26.5
     },
@@ -13190,9 +13190,9 @@
       "soldAvg": 3275,
       "live": 6,
       "sellRate": 25,
-      "totalDays": 40.2,
+      "totalDays": 40.300000000000004,
       "soldCount": 2,
-      "avgDaysToSell": 20.1
+      "avgDaysToSell": 20.2
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -13242,7 +13242,7 @@
       "soldAvg": 1832,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 74.1,
+      "totalDays": 74.2,
       "soldCount": 3,
       "avgDaysToSell": 24.7
     },
@@ -13296,7 +13296,7 @@
       "soldAvg": 19065,
       "live": 5,
       "sellRate": 38,
-      "totalDays": 78.5,
+      "totalDays": 78.6,
       "soldCount": 3,
       "avgDaysToSell": 26.2
     },
@@ -13402,9 +13402,9 @@
       "soldAvg": 2000,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 10,
+      "totalDays": 10.1,
       "soldCount": 1,
-      "avgDaysToSell": 10
+      "avgDaysToSell": 10.1
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -13473,9 +13473,9 @@
       "soldAvg": 3599,
       "live": 3,
       "sellRate": 25,
-      "totalDays": 34.8,
+      "totalDays": 34.9,
       "soldCount": 1,
-      "avgDaysToSell": 34.8
+      "avgDaysToSell": 34.9
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -13584,15 +13584,15 @@
       "brand": "Fender",
       "brandLine": "Fender Masterbuilt",
       "tier": "ultra",
-      "count": 2,
-      "sum": 16385,
-      "avg": 8193,
-      "min": 6395,
+      "count": 1,
+      "sum": 9990,
+      "avg": 9990,
+      "min": 9990,
       "max": 9990,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 2,
+      "live": 1,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -13680,9 +13680,9 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 243.60000000000002,
+      "totalDays": 243.7,
       "soldCount": 2,
-      "avgDaysToSell": 121.8
+      "avgDaysToSell": 121.9
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -13715,9 +13715,9 @@
       "soldAvg": 5999,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 33.9,
+      "totalDays": 34,
       "soldCount": 1,
-      "avgDaysToSell": 33.9
+      "avgDaysToSell": 34
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -13733,9 +13733,9 @@
       "soldAvg": 4778,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 33.8,
+      "totalDays": 33.9,
       "soldCount": 1,
-      "avgDaysToSell": 33.8
+      "avgDaysToSell": 33.9
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -13768,13 +13768,13 @@
   "watcherDemand": [
     {
       "label": "1–5",
-      "total": 15,
+      "total": 16,
       "sold": 3,
-      "rate": 20
+      "rate": 19
     },
     {
       "label": "6–15",
-      "total": 51,
+      "total": 50,
       "sold": 11,
       "rate": 22
     },
@@ -13793,14 +13793,14 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 169,
+      "total": 170,
       "sold": 43,
       "rate": 25
     },
     "off": {
-      "total": 57,
+      "total": 56,
       "sold": 16,
-      "rate": 28
+      "rate": 29
     }
   },
   "sellerType": {
@@ -13859,16 +13859,16 @@
       "rate": 11
     },
     {
+      "state": "PA",
+      "total": 8,
+      "sold": 3,
+      "rate": 38
+    },
+    {
       "state": "TN",
       "total": 8,
       "sold": 5,
       "rate": 63
-    },
-    {
-      "state": "PA",
-      "total": 7,
-      "sold": 3,
-      "rate": 43
     },
     {
       "state": "WI",
@@ -14019,12 +14019,6 @@
       "total": 2,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "MT",
-      "total": 2,
-      "sold": 1,
-      "rate": 50
     },
     {
       "state": "RI",
