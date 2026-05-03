@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T05:09:05.843Z",
+  "generatedAt": "2026-05-03T05:40:21.824Z",
   "totalLinks": 305,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 298,
   "overall": {
     "count": 298,
-    "sum": 1156839.25,
-    "avg": 3882,
+    "sum": 1157477.25,
+    "avg": 3884,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 282,
-    "sum": 718561.27,
-    "avg": 2548,
+    "sum": 719199.27,
+    "avg": 2550,
     "min": 33,
     "max": 8199,
     "median": 2200
@@ -156,18 +156,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 27,
-      "sum": 138581.97,
+      "count": 28,
+      "sum": 139734.97,
       "min": 230,
       "max": 79999.99,
-      "avg": 5133
+      "avg": 4991
     },
     "2026-04": {
-      "count": 141,
-      "sum": 427164.93,
+      "count": 140,
+      "sum": 426649.93,
       "min": 70,
       "max": 15500,
-      "avg": 3030
+      "avg": 3047
     },
     "2026-03": {
       "count": 130,
@@ -180,10 +180,10 @@
   "byCategory": {
     "reverb": {
       "count": 269,
-      "sum": 823227.36,
+      "sum": 823865.36,
       "min": 33,
       "max": 35900,
-      "avg": 3060
+      "avg": 3063
     },
     "marketplace": {
       "count": 29,
@@ -196,10 +196,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 269,
-      "sum": 823227.36,
+      "sum": 823865.36,
       "min": 33,
       "max": 35900,
-      "avg": 3060
+      "avg": 3063
     },
     "guitarcenter.com": {
       "count": 11,
@@ -266,6 +266,37 @@
     }
   },
   "byModel": {
+    "schecter-original-usa-sss": {
+      "displayName": "Early 1990s Schecter USA California Custom Strat-Style – Ash Body, SSS + Original Schecter Case",
+      "brand": "Schecter",
+      "model": "Original",
+      "variant": "Usa Sss",
+      "count": 1,
+      "sum": 1153,
+      "min": 1153,
+      "max": 1153,
+      "sightings": [
+        {
+          "price": 1153,
+          "date": "2026-05-03T05:40:06.375Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Early 1990s Schecter USA California Custom Strat-Style – Ash Body, SSS + Original Schecter Case",
+          "url": "https://reverb.com/item/96595991",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1153,
+          "min": 1153,
+          "max": 1153,
+          "avg": 1153
+        }
+      },
+      "avg": 1153
+    },
     "jackson-soloist-custom-shop": {
       "displayName": "2023 Jackson Custom Shop SL2H Soloist Champagne Sparkle",
       "brand": "Jackson",
@@ -5738,37 +5769,6 @@
       },
       "avg": 3395
     },
-    "tokai-love-rock": {
-      "displayName": "Tokai Love Rock",
-      "brand": "Tokai",
-      "model": "Love Rock",
-      "variant": null,
-      "count": 1,
-      "sum": 515,
-      "min": 515,
-      "max": 515,
-      "sightings": [
-        {
-          "price": 515,
-          "date": "2026-04-23T04:59:37.633Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Tokai Love Rock",
-          "url": "https://reverb.com/ca/item/87620163-tokai-love-rock",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 515,
-          "min": 515,
-          "max": 515,
-          "avg": 515
-        }
-      },
-      "avg": 515
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9891,6 +9891,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 82,
+      "sum": 221413.55999999994,
+      "sold": {
+        "count": 24,
+        "sum": 59159.79,
+        "avg": 2465,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2700,
+      "min": 33,
+      "max": 15500
+    },
     "Excellent": {
       "count": 111,
       "sum": 397070.73,
@@ -9918,20 +9932,6 @@
       "avg": 4114,
       "min": 135,
       "max": 14670
-    },
-    "Very Good": {
-      "count": 82,
-      "sum": 220775.55999999994,
-      "sold": {
-        "count": 24,
-        "sum": 59159.79,
-        "avg": 2465,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2692,
-      "min": 33,
-      "max": 15500
     },
     "Used": {
       "count": 15,
@@ -10023,13 +10023,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 5133,
-      "count": 27
+      "avg": 4991,
+      "count": 28
     },
     "04": {
       "name": "Apr",
-      "avg": 3030,
-      "count": 141
+      "avg": 3047,
+      "count": 140
     },
     "03": {
       "name": "Mar",
@@ -10181,8 +10181,8 @@
   ],
   "priceDistribution": {
     "0-500": 16,
-    "500-1k": 24,
-    "1k-2k": 80,
+    "500-1k": 23,
+    "1k-2k": 81,
     "2k-3k": 79,
     "3k-5k": 60,
     "5k-10k": 27,
@@ -10190,14 +10190,19 @@
   },
   "priceDistributionFiltered": {
     "0-500": 16,
-    "500-1k": 24,
-    "1k-2k": 80,
+    "500-1k": 23,
+    "1k-2k": 81,
     "2k-3k": 79,
     "3k-5k": 60,
     "5k-10k": 23,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Schecter": {
+      "sum": 40,
+      "count": 3,
+      "avg": 13
+    },
     "Jackson": {
       "sum": 218,
       "count": 8,
@@ -10214,7 +10219,7 @@
       "avg": 23
     },
     "PRS": {
-      "sum": 395,
+      "sum": 396,
       "count": 22,
       "avg": 18
     },
@@ -10229,9 +10234,9 @@
       "avg": 14
     },
     "Fender": {
-      "sum": 231,
+      "sum": 232,
       "count": 16,
-      "avg": 14
+      "avg": 15
     },
     "Vintage": {
       "sum": 151,
@@ -10239,7 +10244,7 @@
       "avg": 17
     },
     "Kiesel": {
-      "sum": 359,
+      "sum": 360,
       "count": 13,
       "avg": 28
     },
@@ -10249,7 +10254,7 @@
       "avg": 18
     },
     "BC Rich": {
-      "sum": 438,
+      "sum": 441,
       "count": 24,
       "avg": 18
     },
@@ -10309,9 +10314,9 @@
       "avg": 31
     },
     "Washburn": {
-      "sum": 8,
+      "sum": 9,
       "count": 2,
-      "avg": 4
+      "avg": 5
     },
     "Frank": {
       "sum": 39,
@@ -10322,11 +10327,6 @@
       "sum": 37,
       "count": 2,
       "avg": 19
-    },
-    "Schecter": {
-      "sum": 39,
-      "count": 2,
-      "avg": 20
     },
     "Ibanez": {
       "sum": 433,
@@ -10575,7 +10575,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-03": 3,
+    "2026-05-03": 4,
     "2026-05-02": 10,
     "2026-05-01": 14,
     "2026-04-30": 10,
@@ -10585,7 +10585,7 @@
     "2026-04-26": 17,
     "2026-04-25": 19,
     "2026-04-24": 31,
-    "2026-04-23": 17
+    "2026-04-23": 16
   },
   "categoryDistribution": {
     "reverb": 269,
@@ -10678,9 +10678,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3030,
+    "avg": 3047,
     "pctBelowAvg": 22,
-    "count": 141
+    "count": 140
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11657,6 +11657,14 @@
       "livePct": 75
     },
     "byBrand": {
+      "Schecter": {
+        "total": 3,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Jackson": {
         "total": 8,
         "sold": 1,
@@ -11873,14 +11881,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Schecter": {
-        "total": 2,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "Ibanez": {
         "total": 19,
         "sold": 6,
@@ -11938,12 +11938,12 @@
         "livePct": 100
       },
       "Tokai": {
-        "total": 4,
+        "total": 3,
         "sold": 2,
         "fake": 0,
-        "live": 2,
-        "soldPct": 50,
-        "livePct": 50
+        "live": 1,
+        "soldPct": 67,
+        "livePct": 33
       },
       "Yamaha": {
         "total": 5,
@@ -12315,15 +12315,15 @@
       },
       {
         "label": "$500–1k",
-        "total": 24,
+        "total": 23,
         "sold": 5,
-        "rate": 21
+        "rate": 22
       },
       {
         "label": "$1k–2k",
-        "total": 80,
+        "total": 81,
         "sold": 14,
-        "rate": 18
+        "rate": 17
       },
       {
         "label": "$2k–3k",
@@ -12351,6 +12351,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 82,
+        "sold": 24,
+        "rate": 29
+      },
       "Excellent": {
         "total": 111,
         "sold": 34,
@@ -12360,11 +12365,6 @@
         "total": 27,
         "sold": 6,
         "rate": 22
-      },
-      "Very Good": {
-        "total": 82,
-        "sold": 24,
-        "rate": 29
       },
       "Used": {
         "total": 16,
@@ -12608,20 +12608,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "Tokai Love Rock",
-        "url": "https://reverb.com/ca/item/87620163-tokai-love-rock",
-        "price": "$515",
-        "priceNum": 515,
-        "brand": "Tokai",
-        "condition": "Very Good",
-        "watchers": 106,
-        "views": 3762,
-        "daysListed": 425,
-        "image": "https://rvb-img.reverb.com/i/s--cNrpfm1Q--/quality=medium-low,height=800,width=800,fit=contain/bhaaf3xsoim1pzk0wgap.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Dean USA Patents Pending ML Classic Black - Open Box",
         "url": "https://reverb.com/item/85732695-dean-usa-patents-pending-ml-classic-black-open-box",
         "price": "$2,390",
@@ -12632,6 +12618,20 @@
         "views": 1637,
         "daysListed": 531,
         "image": "https://rvb-img.reverb.com/i/s--wlckuAx8--/quality=medium-low,height=800,width=800,fit=contain/l55e4ccr7ttbohabncyw.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
+        "title": "Ibanez S470 1997 Japan *MINT*",
+        "url": "https://reverb.com/item/86407766-ibanez-s470-1997-japan-mint",
+        "price": "$1,405",
+        "priceNum": 1405,
+        "brand": "Ibanez",
+        "condition": "Mint",
+        "watchers": 89,
+        "views": 2698,
+        "daysListed": 488,
+        "image": "https://rvb-img.reverb.com/i/s--xennhFxT--/quality=medium-low,height=800,width=800,fit=contain/kfqzsprxofheihlwu7qc.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -12702,7 +12702,7 @@
         "condition": "Brand New",
         "watchers": 38,
         "views": 1261,
-        "daysListed": 764,
+        "daysListed": 765,
         "image": "https://rvb-img.reverb.com/i/s--c5GxADkW--/quality=medium-low,height=800,width=800,fit=contain/vztcb7uwzzhmw2uvsp16.jpg",
         "modelAvg": null,
         "pctVsAvg": null
@@ -12778,20 +12778,6 @@
         "pctVsAvg": null
       },
       {
-        "title": "Tokai Love Rock",
-        "url": "https://reverb.com/ca/item/87620163-tokai-love-rock",
-        "price": "$515",
-        "priceNum": 515,
-        "brand": "Tokai",
-        "condition": "Very Good",
-        "watchers": 106,
-        "views": 3762,
-        "daysListed": 425,
-        "image": "https://rvb-img.reverb.com/i/s--cNrpfm1Q--/quality=medium-low,height=800,width=800,fit=contain/bhaaf3xsoim1pzk0wgap.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
         "title": "Martin DSS Biosphere II #18672 (NAMM)",
         "url": "https://reverb.com/item/88092234-martin-dss-biosphere-ii-18672-namm",
         "price": "$1,919",
@@ -12846,6 +12832,20 @@
         "image": "https://rvb-img.reverb.com/i/s--sPiNRT-j--/quality=medium-low,height=800,width=800,fit=contain/d1xu64yqud2gsnbq3pv2.jpg",
         "modelAvg": null,
         "pctVsAvg": null
+      },
+      {
+        "title": "Polaris Wizard - BC Rich Warlock Copy - 1980’s - Blue Burst - w/O",
+        "url": "https://reverb.com/item/91198146-polaris-wizard-bc-rich-warlock-copy-1980-s-blue-burst-w-ohsc",
+        "price": "$400",
+        "priceNum": 400,
+        "brand": "BC Rich",
+        "condition": "Good",
+        "watchers": 39,
+        "views": 1328,
+        "daysListed": 307,
+        "image": "https://rvb-img.reverb.com/i/s--fh5w0q2q--/quality=medium-low,height=800,width=800,fit=contain/ijlhhjakc14uyuyq07mf.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
       }
     ],
     "sweetSpots": [
@@ -12865,9 +12865,9 @@
       },
       {
         "brand": "Tokai",
-        "avgPrice": 920,
-        "sellRate": 50,
-        "count": 4,
+        "avgPrice": 1056,
+        "sellRate": 67,
+        "count": 3,
         "sold": 2
       },
       {
@@ -12887,6 +12887,23 @@
     ]
   },
   "byBrandLine": {
+    "Schecter|Schecter USA Custom Shop": {
+      "brand": "Schecter",
+      "brandLine": "Schecter USA Custom Shop",
+      "tier": "ultra",
+      "count": 2,
+      "sum": 3152,
+      "avg": 1576,
+      "min": 1153,
+      "max": 1999,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
       "brandLine": "Jackson USA Custom Shop",
@@ -12936,7 +12953,7 @@
       "soldAvg": 3769,
       "live": 10,
       "sellRate": 33,
-      "totalDays": 171.9,
+      "totalDays": 172.2,
       "soldCount": 5,
       "avgDaysToSell": 34.4
     },
@@ -13025,7 +13042,7 @@
       "soldAvg": 1647,
       "live": 9,
       "sellRate": 31,
-      "totalDays": 137,
+      "totalDays": 137.10000000000002,
       "soldCount": 4,
       "avgDaysToSell": 34.3
     },
@@ -13215,9 +13232,9 @@
       "soldAvg": 3371,
       "live": 4,
       "sellRate": 50,
-      "totalDays": 103.6,
+      "totalDays": 103.80000000000001,
       "soldCount": 4,
-      "avgDaysToSell": 25.9
+      "avgDaysToSell": 26
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -13302,7 +13319,7 @@
       "soldAvg": 1832,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 72.5,
+      "totalDays": 72.6,
       "soldCount": 3,
       "avgDaysToSell": 24.2
     },
@@ -13338,9 +13355,9 @@
       "soldAvg": 2150,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 5.1,
+      "totalDays": 5.2,
       "soldCount": 1,
-      "avgDaysToSell": 5.1
+      "avgDaysToSell": 5.2
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -13356,9 +13373,9 @@
       "soldAvg": 19065,
       "live": 6,
       "sellRate": 33,
-      "totalDays": 76.80000000000001,
+      "totalDays": 77,
       "soldCount": 3,
-      "avgDaysToSell": 25.6
+      "avgDaysToSell": 25.7
     },
     "Parker|Parker Fly Deluxe": {
       "brand": "Parker",
@@ -13409,9 +13426,9 @@
       "soldAvg": 7800,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 39.400000000000006,
+      "totalDays": 39.5,
       "soldCount": 2,
-      "avgDaysToSell": 19.7
+      "avgDaysToSell": 19.8
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -13515,9 +13532,9 @@
       "soldAvg": 2350,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 22.2,
+      "totalDays": 22.3,
       "soldCount": 2,
-      "avgDaysToSell": 11.1
+      "avgDaysToSell": 11.2
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -13688,26 +13705,9 @@
       "soldAvg": 475,
       "live": 1,
       "sellRate": 50,
-      "totalDays": 41.3,
+      "totalDays": 41.4,
       "soldCount": 1,
-      "avgDaysToSell": 41.3
-    },
-    "Schecter|Schecter USA Custom Shop": {
-      "brand": "Schecter",
-      "brandLine": "Schecter USA Custom Shop",
-      "tier": "ultra",
-      "count": 1,
-      "sum": 1999,
-      "avg": 1999,
-      "min": 1999,
-      "max": 1999,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
+      "avgDaysToSell": 41.4
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -13757,7 +13757,7 @@
       "soldAvg": 2399,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 242.5,
+      "totalDays": 242.60000000000002,
       "soldCount": 2,
       "avgDaysToSell": 121.3
     },
@@ -13836,7 +13836,7 @@
     "withOffers": 75,
     "totalOffers": 158,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 62
+    "offersEnabledPct": 63
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -13851,9 +13851,9 @@
     },
     {
       "label": "1–5",
-      "total": 14,
+      "total": 15,
       "sold": 3,
-      "rate": 21
+      "rate": 20
     },
     {
       "label": "6–15",
@@ -13869,31 +13869,31 @@
     },
     {
       "label": "31+",
-      "total": 70,
+      "total": 69,
       "sold": 17,
-      "rate": 24
+      "rate": 25
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 168,
+      "total": 169,
       "sold": 44,
       "rate": 26
     },
     "off": {
-      "total": 59,
+      "total": 58,
       "sold": 17,
       "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 117,
+      "total": 116,
       "sold": 24,
       "rate": 21
     },
     "regular": {
-      "total": 97,
+      "total": 98,
       "sold": 28,
       "rate": 29
     }
@@ -13960,16 +13960,16 @@
       "rate": 43
     },
     {
-      "state": "OH",
-      "total": 6,
-      "sold": 1,
-      "rate": 17
-    },
-    {
       "state": "ON",
       "total": 6,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "OH",
+      "total": 6,
+      "sold": 1,
+      "rate": 17
     },
     {
       "state": "WI",
