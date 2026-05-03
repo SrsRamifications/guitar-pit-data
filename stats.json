@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T03:46:07.370Z",
+  "generatedAt": "2026-05-03T03:48:48.769Z",
   "totalLinks": 307,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 300,
   "overall": {
     "count": 300,
-    "sum": 1167003.25,
-    "avg": 3890,
+    "sum": 1167607.25,
+    "avg": 3892,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 285,
-    "sum": 737065.27,
-    "avg": 2586,
+    "sum": 737669.27,
+    "avg": 2588,
     "min": 33,
     "max": 8300,
     "median": 2249
@@ -148,18 +148,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 26,
-      "sum": 135073.97,
+      "count": 27,
+      "sum": 138572.97,
       "min": 230,
       "max": 79999.99,
-      "avg": 5195
+      "avg": 5132
     },
     "2026-04": {
-      "count": 144,
-      "sum": 440836.93,
+      "count": 143,
+      "sum": 437941.93,
       "min": 70,
       "max": 15500,
-      "avg": 3061
+      "avg": 3063
     },
     "2026-03": {
       "count": 130,
@@ -172,10 +172,10 @@
   "byCategory": {
     "reverb": {
       "count": 271,
-      "sum": 833391.36,
+      "sum": 833995.36,
       "min": 33,
       "max": 35900,
-      "avg": 3075
+      "avg": 3077
     },
     "marketplace": {
       "count": 29,
@@ -188,10 +188,10 @@
   "byDomain": {
     "reverb.com": {
       "count": 271,
-      "sum": 833391.36,
+      "sum": 833995.36,
       "min": 33,
       "max": 35900,
-      "avg": 3075
+      "avg": 3077
     },
     "guitarcenter.com": {
       "count": 11,
@@ -258,6 +258,37 @@
     }
   },
   "byModel": {
+    "jackson-soloist-custom-shop": {
+      "displayName": "2023 Jackson Custom Shop SL2H Soloist Champagne Sparkle",
+      "brand": "Jackson",
+      "model": "Soloist",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 3499,
+      "min": 3499,
+      "max": 3499,
+      "sightings": [
+        {
+          "price": 3499,
+          "date": "2026-05-03T03:48:32.797Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2023 Jackson Custom Shop SL2H Soloist Champagne Sparkle",
+          "url": "https://reverb.com/item/96637381-2023-jackson-custom-shop-sl2h-soloist-champagne-sparkle",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3499,
+          "min": 3499,
+          "max": 3499,
+          "avg": 3499
+        }
+      },
+      "avg": 3499
+    },
     "lollar-berly-berlybird-from": {
       "displayName": "Berly Berlybird New from Authorized Dealer 2026 - Lake Placid Blue",
       "brand": "Lollar",
@@ -5732,37 +5763,6 @@
       },
       "avg": 515
     },
-    "martin-d-28": {
-      "displayName": "Clean! 1975 Martin D-28 Dreadnought Acoustic Guitar Natural + OHSC",
-      "brand": "Martin",
-      "model": "D-28",
-      "variant": null,
-      "count": 1,
-      "sum": 2895,
-      "min": 2895,
-      "max": 2895,
-      "sightings": [
-        {
-          "price": 2895,
-          "date": "2026-04-23T04:17:09.303Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Clean! 1975 Martin D-28 Dreadnought Acoustic Guitar Natural + OHSC",
-          "url": "https://reverb.com/item/96290691",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2895,
-          "min": 2895,
-          "max": 2895,
-          "avg": 2895
-        }
-      },
-      "avg": 2895
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9885,6 +9885,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 112,
+      "sum": 400852.73,
+      "sold": {
+        "count": 31,
+        "sum": 128585.45,
+        "avg": 4148,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3579,
+      "min": 275,
+      "max": 35900
+    },
     "Brand New": {
       "count": 27,
       "sum": 111073.10999999999,
@@ -9898,20 +9912,6 @@
       "avg": 4114,
       "min": 135,
       "max": 14670
-    },
-    "Excellent": {
-      "count": 112,
-      "sum": 400248.73,
-      "sold": {
-        "count": 31,
-        "sum": 128585.45,
-        "avg": 4148,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3574,
-      "min": 275,
-      "max": 35900
     },
     "Very Good": {
       "count": 83,
@@ -10017,13 +10017,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 5195,
-      "count": 26
+      "avg": 5132,
+      "count": 27
     },
     "04": {
       "name": "Apr",
-      "avg": 3061,
-      "count": 144
+      "avg": 3063,
+      "count": 143
     },
     "03": {
       "name": "Mar",
@@ -10177,8 +10177,8 @@
     "0-500": 16,
     "500-1k": 24,
     "1k-2k": 80,
-    "2k-3k": 80,
-    "3k-5k": 60,
+    "2k-3k": 79,
+    "3k-5k": 61,
     "5k-10k": 28,
     "10k+": 12
   },
@@ -10186,12 +10186,17 @@
     "0-500": 16,
     "500-1k": 24,
     "1k-2k": 80,
-    "2k-3k": 80,
-    "3k-5k": 60,
+    "2k-3k": 79,
+    "3k-5k": 61,
     "5k-10k": 25,
     "10k+": 0
   },
   "daysOnMarket": {
+    "Jackson": {
+      "sum": 218,
+      "count": 8,
+      "avg": 27
+    },
     "Lollar": {
       "sum": 34,
       "count": 2,
@@ -10218,7 +10223,7 @@
       "avg": 14
     },
     "Fender": {
-      "sum": 227,
+      "sum": 228,
       "count": 16,
       "avg": 14
     },
@@ -10233,9 +10238,9 @@
       "avg": 28
     },
     "Xotic": {
-      "sum": 34,
+      "sum": 35,
       "count": 2,
-      "avg": 17
+      "avg": 18
     },
     "BC Rich": {
       "sum": 438,
@@ -10343,9 +10348,9 @@
       "avg": 24
     },
     "Martin": {
-      "sum": 76,
-      "count": 3,
-      "avg": 25
+      "sum": 66,
+      "count": 2,
+      "avg": 33
     },
     "Tokai": {
       "sum": 82,
@@ -10396,11 +10401,6 @@
       "sum": 49,
       "count": 3,
       "avg": 16
-    },
-    "Jackson": {
-      "sum": 218,
-      "count": 7,
-      "avg": 31
     },
     "Caparison": {
       "sum": 22,
@@ -10569,8 +10569,8 @@
     }
   },
   "listingsPerDay": {
+    "2026-05-03": 3,
     "2026-05-02": 10,
-    "2026-05-03": 2,
     "2026-05-01": 14,
     "2026-04-30": 11,
     "2026-04-29": 12,
@@ -10579,7 +10579,7 @@
     "2026-04-26": 17,
     "2026-04-25": 19,
     "2026-04-24": 32,
-    "2026-04-23": 18
+    "2026-04-23": 17
   },
   "categoryDistribution": {
     "reverb": 271,
@@ -10589,7 +10589,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 82
+      "count": 83
     },
     {
       "username": "greg1213",
@@ -10600,11 +10600,11 @@
       "count": 32
     },
     {
-      "username": "jazee_",
-      "count": 21
+      "username": "Modean",
+      "count": 20
     },
     {
-      "username": "Modean",
+      "username": "jazee_",
       "count": 20
     },
     {
@@ -10672,9 +10672,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3061,
+    "avg": 3063,
     "pctBelowAvg": 21,
-    "count": 144
+    "count": 143
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -11614,6 +11614,14 @@
       "livePct": 77
     },
     "byBrand": {
+      "Jackson": {
+        "total": 8,
+        "sold": 1,
+        "fake": 0,
+        "live": 7,
+        "soldPct": 13,
+        "livePct": 88
+      },
       "Lollar": {
         "total": 2,
         "sold": 0,
@@ -11855,12 +11863,12 @@
         "livePct": 100
       },
       "Martin": {
-        "total": 5,
+        "total": 4,
         "sold": 1,
         "fake": 0,
-        "live": 4,
-        "soldPct": 20,
-        "livePct": 80
+        "live": 3,
+        "soldPct": 25,
+        "livePct": 75
       },
       "Music Man": {
         "total": 5,
@@ -11965,14 +11973,6 @@
         "live": 2,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Jackson": {
-        "total": 7,
-        "sold": 1,
-        "fake": 0,
-        "live": 6,
-        "soldPct": 14,
-        "livePct": 86
       },
       "Caparison": {
         "total": 2,
@@ -12284,13 +12284,13 @@
       },
       {
         "label": "$2k–3k",
-        "total": 80,
+        "total": 79,
         "sold": 22,
         "rate": 28
       },
       {
         "label": "$3k–5k",
-        "total": 60,
+        "total": 61,
         "sold": 18,
         "rate": 30
       },
@@ -12308,15 +12308,15 @@
       }
     ],
     "byCondition": {
-      "Brand New": {
-        "total": 27,
-        "sold": 5,
-        "rate": 19
-      },
       "Excellent": {
         "total": 112,
         "sold": 33,
         "rate": 29
+      },
+      "Brand New": {
+        "total": 27,
+        "sold": 5,
+        "rate": 19
       },
       "Very Good": {
         "total": 83,
@@ -12844,6 +12844,23 @@
     ]
   },
   "byBrandLine": {
+    "Jackson|Jackson USA Custom Shop": {
+      "brand": "Jackson",
+      "brandLine": "Jackson USA Custom Shop",
+      "tier": "ultra",
+      "count": 3,
+      "sum": 15498.99,
+      "avg": 5166,
+      "min": 3499,
+      "max": 6000,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 3,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Friedman|Friedman": {
       "brand": "Friedman",
       "brandLine": "Friedman",
@@ -13198,15 +13215,15 @@
       "brand": "Martin",
       "brandLine": "Martin USA",
       "tier": "premium",
-      "count": 3,
-      "sum": 9614,
-      "avg": 3205,
+      "count": 2,
+      "sum": 6719,
+      "avg": 3360,
       "min": 1919,
       "max": 4800,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 3,
+      "live": 2,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -13440,23 +13457,6 @@
       "totalDays": 33.4,
       "soldCount": 1,
       "avgDaysToSell": 33.4
-    },
-    "Jackson|Jackson USA Custom Shop": {
-      "brand": "Jackson",
-      "brandLine": "Jackson USA Custom Shop",
-      "tier": "ultra",
-      "count": 2,
-      "sum": 11999.99,
-      "avg": 6000,
-      "min": 5999.99,
-      "max": 6000,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 2,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -13814,9 +13814,9 @@
     },
     {
       "label": "6–15",
-      "total": 46,
+      "total": 47,
       "sold": 11,
-      "rate": 24
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -13826,7 +13826,7 @@
     },
     {
       "label": "31+",
-      "total": 69,
+      "total": 68,
       "sold": 15,
       "rate": 22
     }
@@ -13845,12 +13845,12 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 119,
+      "total": 118,
       "sold": 21,
       "rate": 18
     },
     "regular": {
-      "total": 97,
+      "total": 98,
       "sold": 27,
       "rate": 28
     }
@@ -13858,9 +13858,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 26,
+      "total": 25,
       "sold": 7,
-      "rate": 27
+      "rate": 28
     },
     {
       "state": "IL",
@@ -13999,6 +13999,12 @@
       "total": 3,
       "sold": 2,
       "rate": 67
+    },
+    {
+      "state": "NH",
+      "total": 2,
+      "sold": 0,
+      "rate": 0
     },
     {
       "state": "KY",
