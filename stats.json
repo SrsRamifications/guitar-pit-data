@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T18:07:36.584Z",
+  "generatedAt": "2026-05-03T18:09:43.462Z",
   "totalLinks": 303,
   "totalBeforeFilter": 348,
   "fakeCount": 3,
@@ -7,15 +7,15 @@
   "totalWithPrice": 296,
   "overall": {
     "count": 296,
-    "sum": 1141651.25,
-    "avg": 3857,
+    "sum": 1141401.26,
+    "avg": 3856,
     "min": 33,
     "max": 99000
   },
   "filtered": {
     "count": 279,
-    "sum": 695174.27,
-    "avg": 2492,
+    "sum": 694924.28,
+    "avg": 2491,
     "min": 33,
     "max": 8000,
     "median": 2199.99
@@ -164,18 +164,18 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 34,
-      "sum": 147269.97,
+      "count": 35,
+      "sum": 147819.97,
       "min": 95,
       "max": 79999.99,
-      "avg": 4331
+      "avg": 4223
     },
     "2026-04": {
-      "count": 132,
-      "sum": 403288.93,
+      "count": 131,
+      "sum": 402488.94,
       "min": 308,
       "max": 15500,
-      "avg": 3055
+      "avg": 3072
     },
     "2026-03": {
       "count": 130,
@@ -187,34 +187,34 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 267,
-      "sum": 808039.36,
+      "count": 268,
+      "sum": 808589.36,
       "min": 33,
       "max": 35900,
-      "avg": 3026
+      "avg": 3017
     },
     "marketplace": {
-      "count": 29,
-      "sum": 333611.89,
+      "count": 28,
+      "sum": 332811.9,
       "min": 599,
       "max": 99000,
-      "avg": 11504
+      "avg": 11886
     }
   },
   "byDomain": {
     "reverb.com": {
-      "count": 267,
-      "sum": 808039.36,
+      "count": 268,
+      "sum": 808589.36,
       "min": 33,
       "max": 35900,
-      "avg": 3026
+      "avg": 3017
     },
     "guitarcenter.com": {
-      "count": 11,
-      "sum": 94392.91,
+      "count": 10,
+      "sum": 93592.92,
       "min": 599.99,
       "max": 79999.99,
-      "avg": 8581
+      "avg": 9359
     },
     "musicgoround.com": {
       "count": 1,
@@ -274,6 +274,37 @@
     }
   },
   "byModel": {
+    "vintage-sg": {
+      "displayName": "Vintage Yamaha SG-30 1974 - Natural",
+      "brand": "Vintage",
+      "model": "SG",
+      "variant": null,
+      "count": 1,
+      "sum": 550,
+      "min": 550,
+      "max": 550,
+      "sightings": [
+        {
+          "price": 550,
+          "date": "2026-05-03T18:09:28.737Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage Yamaha SG-30 1974 - Natural",
+          "url": "https://reverb.com/item/95517965-vintage-yamaha-sg-30-1974-natural",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 550,
+          "min": 550,
+          "max": 550,
+          "avg": 550
+        }
+      },
+      "avg": 550
+    },
     "gibson-sg-standard": {
       "displayName": "2016 Gibson SG Standard - 6.86 LBS",
       "brand": "Gibson",
@@ -5647,37 +5678,6 @@
       },
       "avg": 6395
     },
-    "bc-rich-kkv-tribal-solid": {
-      "displayName": "Used B.C. Rich KKV TRIBAL Solid Body Electric Guitar TRIBAL",
-      "brand": "BC Rich",
-      "model": "KKV TRIBAL Solid",
-      "variant": null,
-      "count": 1,
-      "sum": 799.99,
-      "min": 799.99,
-      "max": 799.99,
-      "sightings": [
-        {
-          "price": 799.99,
-          "date": "2026-04-23T05:20:18.232Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used B.C. Rich KKV TRIBAL Solid Body Electric Guitar TRIBAL",
-          "url": "https://www.guitarcenter.com/Used/BC-Rich/Used-BC-Rich-KKV-TRIBAL-Solid-Body-Electric-Guitar-122101085.gc?algoliaQueryID=1fbaaff75983eae9b243c0df8c9be423&algoliaIndexName=cD-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 799.99,
-          "min": 799.99,
-          "max": 799.99,
-          "avg": 800
-        }
-      },
-      "avg": 800
-    },
     "gibson-les-paul-custom": {
       "displayName": "Gibson Les Paul Custom 1978 - 1985 Silverburst",
       "brand": "Gibson",
@@ -9800,6 +9800,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 38,
+      "sum": 97372.95,
+      "sold": {
+        "count": 4,
+        "sum": 9205.48,
+        "avg": 2301,
+        "min": 999,
+        "max": 4777.5
+      },
+      "avg": 2562,
+      "min": 308,
+      "max": 11475
+    },
     "Very Good": {
       "count": 84,
       "sum": 215719.55999999994,
@@ -9843,13 +9857,13 @@
       "max": 14670
     },
     "Used": {
-      "count": 15,
-      "sum": 200377.91000000003,
+      "count": 14,
+      "sum": 199577.92000000004,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 13359,
+      "avg": 14256,
       "min": 599.99,
       "max": 99000
     },
@@ -9877,20 +9891,6 @@
       "avg": 1895,
       "min": 400,
       "max": 5000
-    },
-    "Good": {
-      "count": 37,
-      "sum": 96822.95,
-      "sold": {
-        "count": 4,
-        "sum": 9205.48,
-        "avg": 2301,
-        "min": 999,
-        "max": 4777.5
-      },
-      "avg": 2617,
-      "min": 308,
-      "max": 11475
     },
     "Fair": {
       "count": 4,
@@ -9932,13 +9932,13 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 4331,
-      "count": 34
+      "avg": 4223,
+      "count": 35
     },
     "04": {
       "name": "Apr",
-      "avg": 3055,
-      "count": 132
+      "avg": 3072,
+      "count": 131
     },
     "03": {
       "name": "Mar",
@@ -10107,6 +10107,11 @@
     "10k+": 0
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 172,
+      "count": 9,
+      "avg": 19
+    },
     "Gibson": {
       "sum": 592,
       "count": 24,
@@ -10157,11 +10162,6 @@
       "count": 15,
       "avg": 15
     },
-    "Vintage": {
-      "sum": 136,
-      "count": 8,
-      "avg": 17
-    },
     "Kiesel": {
       "sum": 368,
       "count": 13,
@@ -10173,8 +10173,8 @@
       "avg": 18
     },
     "BC Rich": {
-      "sum": 433,
-      "count": 22,
+      "sum": 422,
+      "count": 21,
       "avg": 20
     },
     "Hamer": {
@@ -10489,7 +10489,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-03": 10,
+    "2026-05-03": 11,
     "2026-05-02": 10,
     "2026-05-01": 14,
     "2026-04-30": 10,
@@ -10499,11 +10499,11 @@
     "2026-04-26": 17,
     "2026-04-25": 19,
     "2026-04-24": 31,
-    "2026-04-23": 9
+    "2026-04-23": 8
   },
   "categoryDistribution": {
-    "reverb": 267,
-    "marketplace": 36
+    "reverb": 268,
+    "marketplace": 35
   },
   "activeModelsCount": 155,
   "topPosters": [
@@ -10513,11 +10513,11 @@
     },
     {
       "username": "greg1213",
-      "count": 59
+      "count": 60
     },
     {
       "username": "YellowJack6",
-      "count": 30
+      "count": 29
     },
     {
       "username": "Modean",
@@ -10592,9 +10592,9 @@
   ],
   "bestMonth": {
     "name": "Apr",
-    "avg": 3055,
-    "pctBelowAvg": 21,
-    "count": 132
+    "avg": 3072,
+    "pctBelowAvg": 20,
+    "count": 131
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -10629,10 +10629,10 @@
       "count": 15
     },
     "BC Rich": {
-      "avgPrice": 2798,
+      "avgPrice": 2888,
       "retailEst": 200,
-      "avgDiscount": -1298.8,
-      "count": 23
+      "avgDiscount": -1344.2,
+      "count": 22
     }
   },
   "soldPrices": {
@@ -11555,6 +11555,14 @@
       "livePct": 76
     },
     "byBrand": {
+      "Vintage": {
+        "total": 12,
+        "sold": 1,
+        "fake": 0,
+        "live": 11,
+        "soldPct": 8,
+        "livePct": 92
+      },
       "Gibson": {
         "total": 27,
         "sold": 4,
@@ -11643,14 +11651,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Vintage": {
-        "total": 11,
-        "sold": 1,
-        "fake": 0,
-        "live": 10,
-        "soldPct": 9,
-        "livePct": 91
-      },
       "Kiesel": {
         "total": 15,
         "sold": 5,
@@ -11668,12 +11668,12 @@
         "livePct": 100
       },
       "BC Rich": {
-        "total": 23,
+        "total": 22,
         "sold": 4,
         "fake": 0,
-        "live": 19,
-        "soldPct": 17,
-        "livePct": 83
+        "live": 18,
+        "soldPct": 18,
+        "livePct": 82
       },
       "Squier": {
         "total": 2,
@@ -12257,6 +12257,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 38,
+        "sold": 4,
+        "rate": 11
+      },
       "Very Good": {
         "total": 84,
         "sold": 23,
@@ -12273,7 +12278,7 @@
         "rate": 22
       },
       "Used": {
-        "total": 16,
+        "total": 15,
         "sold": 0,
         "rate": 0
       },
@@ -12285,11 +12290,6 @@
       "Mint": {
         "total": 9,
         "sold": 1,
-        "rate": 11
-      },
-      "Good": {
-        "total": 37,
-        "sold": 4,
         "rate": 11
       },
       "Fair": {
@@ -12444,6 +12444,20 @@
         "pctVsAvg": null
       },
       {
+        "title": "Vintage Yamaha SG-30 1974 - Natural",
+        "url": "https://reverb.com/item/95517965-vintage-yamaha-sg-30-1974-natural",
+        "price": "$550",
+        "priceNum": 550,
+        "brand": "Vintage",
+        "condition": "Good",
+        "watchers": 170,
+        "views": 1355,
+        "daysListed": 36,
+        "image": "https://rvb-img.reverb.com/i/s--AepY0NYz--/quality=medium-low,height=800,width=800,fit=contain/fd9510a9-851a-450c-88df-cf34a71f3206.jpg",
+        "modelAvg": null,
+        "pctVsAvg": null
+      },
+      {
         "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
         "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
         "price": "$875",
@@ -12524,20 +12538,6 @@
         "views": 1642,
         "daysListed": 531,
         "image": "https://rvb-img.reverb.com/i/s--wlckuAx8--/quality=medium-low,height=800,width=800,fit=contain/l55e4ccr7ttbohabncyw.jpg",
-        "modelAvg": null,
-        "pctVsAvg": null
-      },
-      {
-        "title": "2020 Bedell Limited Edition Dreadnought Brazillian Adirondack Nat",
-        "url": "https://reverb.com/item/34347457-2020-bedell-limited-edition-dreadnought-brazillian-adirondack-natural",
-        "price": "$5,000",
-        "priceNum": 5000,
-        "brand": "Bedell",
-        "condition": "Mint",
-        "watchers": 78,
-        "views": 3250,
-        "daysListed": 2138,
-        "image": "https://rvb-img.reverb.com/i/s--2MFhfX-I--/quality=medium-low,height=800,width=800,fit=contain/zcydz35pssczemrgxipa.jpg",
         "modelAvg": null,
         "pctVsAvg": null
       }
@@ -13756,8 +13756,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 76,
-    "totalOffers": 155,
+    "withOffers": 77,
+    "totalOffers": 157,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 63
   },
@@ -13786,16 +13786,16 @@
     },
     {
       "label": "31+",
-      "total": 66,
+      "total": 67,
       "sold": 14,
       "rate": 21
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 168,
+      "total": 169,
       "sold": 43,
-      "rate": 26
+      "rate": 25
     },
     "off": {
       "total": 57,
@@ -13805,9 +13805,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 112,
+      "total": 113,
       "sold": 22,
-      "rate": 20
+      "rate": 19
     },
     "regular": {
       "total": 100,
@@ -13823,16 +13823,16 @@
       "rate": 25
     },
     {
+      "state": "TX",
+      "total": 13,
+      "sold": 4,
+      "rate": 31
+    },
+    {
       "state": "NY",
       "total": 12,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "TX",
-      "total": 12,
-      "sold": 4,
-      "rate": 33
     },
     {
       "state": "IL",
