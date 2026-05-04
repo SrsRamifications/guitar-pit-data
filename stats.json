@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T17:56:47.912Z",
+  "generatedAt": "2026-05-04T18:07:27.732Z",
   "totalLinks": 325,
   "totalBeforeFilter": 376,
   "fakeCount": 3,
@@ -365,6 +365,21 @@
           "avg": 5999
         }
       },
+      "soldData": {
+        "count": 1,
+        "avg": 5999,
+        "min": 5999,
+        "max": 5999,
+        "prices": [
+          {
+            "price": 5999,
+            "askingPrice": 5999,
+            "date": "2026-05-04T17:58:59.689+00:00",
+            "title": "Gibson classic goldtop les paul with transperformance tuning system - gold",
+            "url": "https://reverb.com/item/96727609-gibson-classic-goldtop-with-transperformance-tuning-system-gold"
+          }
+        ]
+      },
       "avg": 5999
     },
     "fender-mustang-usa": {
@@ -460,37 +475,6 @@
       },
       "avg": 1350
     },
-    "kiesel-delos": {
-      "displayName": "Kiesel Delos 6 - 2023",
-      "brand": "Kiesel",
-      "model": "Delos",
-      "variant": null,
-      "count": 1,
-      "sum": 1300,
-      "min": 1300,
-      "max": 1300,
-      "sightings": [
-        {
-          "price": 1300,
-          "date": "2026-05-04T03:32:37.111+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel Delos 6 - 2023",
-          "url": "https://reverb.com/item/96692330-kiesel-delos-6-2023",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1300,
-          "min": 1300,
-          "max": 1300,
-          "avg": 1300
-        }
-      },
-      "avg": 1300
-    },
     "kiesel-vanquish": {
       "displayName": "Kiesel Vanquish 6",
       "brand": "Kiesel",
@@ -536,6 +520,37 @@
         ]
       },
       "avg": 1055
+    },
+    "kiesel-delos": {
+      "displayName": "Kiesel Delos 6 - 2023",
+      "brand": "Kiesel",
+      "model": "Delos",
+      "variant": null,
+      "count": 1,
+      "sum": 1300,
+      "min": 1300,
+      "max": 1300,
+      "sightings": [
+        {
+          "price": 1300,
+          "date": "2026-05-04T03:32:37.111+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Delos 6 - 2023",
+          "url": "https://reverb.com/item/96692330-kiesel-delos-6-2023",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1300,
+          "min": 1300,
+          "max": 1300,
+          "avg": 1300
+        }
+      },
+      "avg": 1300
     },
     "jackson-warrior-custom-shop": {
       "displayName": "Jackson Warrior Custom Shop - Cayan Magenta Splatter",
@@ -10586,9 +10601,9 @@
       "count": 120,
       "sum": 422740.73,
       "sold": {
-        "count": 36,
-        "sum": 140163.45,
-        "avg": 3893,
+        "count": 37,
+        "sum": 146162.45,
+        "avg": 3950,
         "min": 275,
         "max": 35900
       },
@@ -10930,7 +10945,7 @@
       "avg": 26
     },
     "Schecter": {
-      "sum": 46,
+      "sum": 47,
       "count": 4,
       "avg": 12
     },
@@ -10965,7 +10980,7 @@
       "avg": 16
     },
     "Friedman": {
-      "sum": 72,
+      "sum": 73,
       "count": 3,
       "avg": 24
     },
@@ -11265,9 +11280,9 @@
       "avg": 38
     },
     "Fractal Audio": {
-      "sum": 38,
+      "sum": 39,
       "count": 1,
-      "avg": 38
+      "avg": 39
     },
     "Danocaster": {
       "sum": 39,
@@ -11344,7 +11359,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 29
+      "count": 30
     },
     {
       "username": "greg1213",
@@ -11429,19 +11444,27 @@
     }
   },
   "soldPrices": {
-    "count": 81,
-    "avg": 3358,
+    "count": 82,
+    "avg": 3390,
     "min": 230,
     "max": 35900,
     "avgDiscount": 0
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 526.8000000000002,
-      "count": 76,
-      "avgDays": 6.9
+      "totalDays": 526.9000000000002,
+      "count": 77,
+      "avgDays": 6.8
     },
     "byModel": {
+      "gibson-classic-goldtop": {
+        "displayName": "Gibson classic goldtop les paul with transperformance tuning system - gold",
+        "totalDays": 0.1,
+        "count": 1,
+        "fastest": 0.1,
+        "slowest": 0.1,
+        "avgDays": 0.1
+      },
       "kiesel-vanquish": {
         "displayName": "Kiesel Vanquish 6",
         "totalDays": 0.7,
@@ -12020,6 +12043,13 @@
       }
     },
     "byBrand": {
+      "Gibson": {
+        "totalDays": 58.8,
+        "count": 7,
+        "fastest": 0.1,
+        "slowest": 19.2,
+        "avgDays": 8.4
+      },
       "Kiesel": {
         "totalDays": 37.3,
         "count": 6,
@@ -12075,13 +12105,6 @@
         "fastest": 0.2,
         "slowest": 7,
         "avgDays": 2
-      },
-      "Gibson": {
-        "totalDays": 58.7,
-        "count": 6,
-        "fastest": 0.1,
-        "slowest": 19.2,
-        "avgDays": 9.8
       },
       "Vintage": {
         "totalDays": 24.1,
@@ -12440,9 +12463,9 @@
   "sellThrough": {
     "overall": {
       "total": 306,
-      "sold": 79,
+      "sold": 80,
       "fake": 0,
-      "live": 227,
+      "live": 226,
       "soldPct": 26,
       "livePct": 74
     },
@@ -12465,11 +12488,11 @@
       },
       "Gibson": {
         "total": 32,
-        "sold": 6,
+        "sold": 7,
         "fake": 0,
-        "live": 26,
-        "soldPct": 19,
-        "livePct": 81
+        "live": 25,
+        "soldPct": 22,
+        "livePct": 78
       },
       "Fender": {
         "total": 22,
@@ -13154,8 +13177,8 @@
       {
         "label": "$5k–10k",
         "total": 31,
-        "sold": 6,
-        "rate": 19
+        "sold": 7,
+        "rate": 23
       },
       {
         "label": "$10k+",
@@ -13167,8 +13190,8 @@
     "byCondition": {
       "Excellent": {
         "total": 120,
-        "sold": 38,
-        "rate": 32
+        "sold": 39,
+        "rate": 33
       },
       "Good": {
         "total": 41,
@@ -13294,14 +13317,14 @@
       "avg": 3157,
       "min": 135,
       "max": 11048,
-      "sold": 3,
-      "soldSum": 6010,
-      "soldAvg": 2003,
-      "live": 20,
-      "sellRate": 13,
-      "totalDays": 88.69999999999999,
-      "soldCount": 3,
-      "avgDaysToSell": 29.6
+      "sold": 4,
+      "soldSum": 12009,
+      "soldAvg": 3002,
+      "live": 19,
+      "sellRate": 17,
+      "totalDays": 88.9,
+      "soldCount": 4,
+      "avgDaysToSell": 22.2
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -13334,9 +13357,9 @@
       "soldAvg": 999,
       "live": 6,
       "sellRate": 14,
-      "totalDays": 11.2,
+      "totalDays": 11.3,
       "soldCount": 1,
-      "avgDaysToSell": 11.2
+      "avgDaysToSell": 11.3
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -13474,9 +13497,9 @@
       "soldAvg": 3769,
       "live": 10,
       "sellRate": 33,
-      "totalDays": 179.70000000000002,
+      "totalDays": 179.8,
       "soldCount": 5,
-      "avgDaysToSell": 35.9
+      "avgDaysToSell": 36
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -13492,9 +13515,9 @@
       "soldAvg": 750,
       "live": 2,
       "sellRate": 33,
-      "totalDays": 2,
+      "totalDays": 2.1,
       "soldCount": 1,
-      "avgDaysToSell": 2
+      "avgDaysToSell": 2.1
     },
     "Parker|Parker Fly": {
       "brand": "Parker",
@@ -13789,9 +13812,9 @@
       "soldAvg": 3000,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 6.6,
+      "totalDays": 6.7,
       "soldCount": 1,
-      "avgDaysToSell": 6.6
+      "avgDaysToSell": 6.7
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -13878,7 +13901,7 @@
       "soldAvg": 7800,
       "live": 1,
       "sellRate": 67,
-      "totalDays": 42.5,
+      "totalDays": 42.599999999999994,
       "soldCount": 2,
       "avgDaysToSell": 21.3
     },
@@ -13896,9 +13919,9 @@
       "soldAvg": 4799,
       "live": 0,
       "sellRate": 100,
-      "totalDays": 8,
+      "totalDays": 8.1,
       "soldCount": 1,
-      "avgDaysToSell": 8
+      "avgDaysToSell": 8.1
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -14267,8 +14290,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 85,
-    "totalOffers": 179,
+    "withOffers": 86,
+    "totalOffers": 180,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 63
   },
@@ -14285,15 +14308,15 @@
     },
     {
       "label": "1–5",
-      "total": 15,
-      "sold": 3,
-      "rate": 20
+      "total": 14,
+      "sold": 4,
+      "rate": 29
     },
     {
       "label": "6–15",
-      "total": 55,
+      "total": 56,
       "sold": 13,
-      "rate": 24
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -14311,8 +14334,8 @@
   "offersEffect": {
     "on": {
       "total": 182,
-      "sold": 51,
-      "rate": 28
+      "sold": 52,
+      "rate": 29
     },
     "off": {
       "total": 65,
@@ -14323,8 +14346,8 @@
   "sellerType": {
     "preferred": {
       "total": 124,
-      "sold": 27,
-      "rate": 22
+      "sold": 28,
+      "rate": 23
     },
     "regular": {
       "total": 110,
@@ -14342,8 +14365,8 @@
     {
       "state": "TX",
       "total": 15,
-      "sold": 6,
-      "rate": 40
+      "sold": 7,
+      "rate": 47
     },
     {
       "state": "FL",
