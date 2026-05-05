@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-05T12:35:05.879Z",
-  "totalLinks": 1009,
-  "totalEver": 1054,
-  "totalBeforeFilter": 1054,
+  "generatedAt": "2026-05-05T12:43:35.070Z",
+  "totalLinks": 1010,
+  "totalEver": 1055,
+  "totalBeforeFilter": 1055,
   "fakeCount": 5,
   "removedCount": 490,
-  "totalWithPrice": 993,
+  "totalWithPrice": 994,
   "overall": {
-    "count": 967,
-    "sum": 2698123.14,
-    "avg": 2790,
+    "count": 968,
+    "sum": 2698802.14,
+    "avg": 2788,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 967,
-    "sum": 2698123.14,
-    "avg": 2790,
+    "count": 968,
+    "sum": 2698802.14,
+    "avg": 2788,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11421,
+    "thresholdHigh": 11455,
     "thresholdLow": 0,
     "count": 26,
     "items": [
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 62,
-      "sum": 152807.97,
+      "count": 63,
+      "sum": 153486.97,
       "min": 95,
       "max": 9999,
-      "avg": 2465
+      "avg": 2436
     },
     "2026-04": {
       "count": 778,
@@ -227,11 +227,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 840,
-      "sum": 2334354.31,
+      "count": 841,
+      "sum": 2335033.31,
       "min": 7,
       "max": 11053,
-      "avg": 2779
+      "avg": 2776
     },
     "marketplace": {
       "count": 26,
@@ -250,11 +250,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 840,
-      "sum": 2334354.31,
+      "count": 841,
+      "sum": 2335033.31,
       "min": 7,
       "max": 11053,
-      "avg": 2779
+      "avg": 2776
     },
     "guitarcenter.com": {
       "count": 47,
@@ -489,6 +489,45 @@
     }
   },
   "byModel": {
+    "taylor": {
+      "displayName": "Taylor 310 1998 - 2005 - Natural",
+      "brand": "Taylor",
+      "variant": null,
+      "count": 2,
+      "sum": 1204,
+      "min": 525,
+      "max": 679,
+      "sightings": [
+        {
+          "price": 525,
+          "date": "2026-04-30T02:32:48.126+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Taylor 110 2012 - Natural",
+          "url": "https://reverb.com/item/95019498-taylor-110-2012-natural",
+          "condition": "Very Good"
+        },
+        {
+          "price": 679,
+          "date": "2026-05-05T12:43:18.066+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Taylor 310 1998 - 2005 - Natural",
+          "url": "https://reverb.com/item/96741368-taylor-310-1998-2005-natural",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 2,
+          "sum": 1204,
+          "min": 525,
+          "max": 679,
+          "avg": 602
+        }
+      },
+      "avg": 602
+    },
     "heritage-h150-gloss": {
       "displayName": "Heritage H150 2025 Gloss Lacquer",
       "brand": "Heritage",
@@ -2789,36 +2828,6 @@
         }
       },
       "avg": 400
-    },
-    "taylor": {
-      "displayName": "Taylor 110 2012 - Natural",
-      "brand": "Taylor",
-      "variant": null,
-      "count": 1,
-      "sum": 525,
-      "min": 525,
-      "max": 525,
-      "sightings": [
-        {
-          "price": 525,
-          "date": "2026-04-30T02:32:48.126+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Taylor 110 2012 - Natural",
-          "url": "https://reverb.com/item/95019498-taylor-110-2012-natural",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 525,
-          "min": 525,
-          "max": 525,
-          "avg": 525
-        }
-      },
-      "avg": 525
     },
     "cort-jazz-bass": {
       "displayName": "Cort GB34JJ Bass Guitar - 3 Tone Sunburst",
@@ -12129,6 +12138,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 103,
+      "sum": 264037.55999999994,
+      "sold": {
+        "count": 28,
+        "sum": 66685.79000000001,
+        "avg": 2382,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2563,
+      "min": 33,
+      "max": 14450
+    },
     "Excellent": {
       "count": 139,
       "sum": 491177.73,
@@ -12142,20 +12165,6 @@
       "avg": 3534,
       "min": 225,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 102,
-      "sum": 263358.55999999994,
-      "sold": {
-        "count": 28,
-        "sum": 66685.79000000001,
-        "avg": 2382,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2582,
-      "min": 33,
-      "max": 14450
     },
     "Used": {
       "count": 16,
@@ -12261,9 +12270,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2465,
-      "median": 1688,
-      "count": 62
+      "avg": 2436,
+      "median": 1675,
+      "count": 63
     },
     "04": {
       "name": "Apr",
@@ -12422,7 +12431,7 @@
   ],
   "priceDistribution": {
     "0-500": 59,
-    "500-1k": 82,
+    "500-1k": 83,
     "1k-2k": 289,
     "2k-3k": 208,
     "3k-5k": 208,
@@ -12431,7 +12440,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 59,
-    "500-1k": 82,
+    "500-1k": 83,
     "1k-2k": 289,
     "2k-3k": 208,
     "3k-5k": 208,
@@ -12439,6 +12448,11 @@
     "10k+": 11
   },
   "daysOnMarket": {
+    "Taylor": {
+      "sum": 132,
+      "count": 6,
+      "avg": 22
+    },
     "Heritage": {
       "sum": 25,
       "count": 2,
@@ -12465,7 +12479,7 @@
       "avg": 22
     },
     "Fender": {
-      "sum": 1515,
+      "sum": 1516,
       "count": 68,
       "avg": 22
     },
@@ -12475,7 +12489,7 @@
       "avg": 18
     },
     "Echopark": {
-      "sum": 433,
+      "sum": 436,
       "count": 18,
       "avg": 24
     },
@@ -12505,7 +12519,7 @@
       "avg": 11
     },
     "Gibson": {
-      "sum": 3034,
+      "sum": 3036,
       "count": 126,
       "avg": 24
     },
@@ -12540,7 +12554,7 @@
       "avg": 20
     },
     "First Act": {
-      "sum": 70,
+      "sum": 71,
       "count": 4,
       "avg": 18
     },
@@ -12604,15 +12618,10 @@
       "count": 4,
       "avg": 20
     },
-    "Taylor": {
-      "sum": 131,
-      "count": 5,
-      "avg": 26
-    },
     "Cort": {
-      "sum": 100,
+      "sum": 101,
       "count": 2,
-      "avg": 50
+      "avg": 51
     },
     "Marshall": {
       "sum": 109,
@@ -12635,7 +12644,7 @@
       "avg": 21
     },
     "Ibanez": {
-      "sum": 1026,
+      "sum": 1027,
       "count": 42,
       "avg": 24
     },
@@ -12825,9 +12834,9 @@
       "avg": 14
     },
     "Floyd Rose": {
-      "sum": 58,
+      "sum": 59,
       "count": 2,
-      "avg": 29
+      "avg": 30
     },
     "K-Line": {
       "sum": 36,
@@ -12950,7 +12959,7 @@
       "avg": 19
     },
     "Castedosa": {
-      "sum": 215,
+      "sum": 216,
       "count": 8,
       "avg": 27
     },
@@ -13015,9 +13024,9 @@
       "avg": 21
     },
     "Gravity": {
-      "sum": 21,
+      "sum": 22,
       "count": 1,
-      "avg": 21
+      "avg": 22
     },
     "Reverend": {
       "sum": 22,
@@ -13276,7 +13285,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-05": 5,
+    "2026-05-05": 6,
     "2026-05-04": 20,
     "2026-05-03": 14,
     "2026-05-02": 10,
@@ -13309,7 +13318,7 @@
     "2026-04-05": 15
   },
   "categoryDistribution": {
-    "reverb": 857,
+    "reverb": 858,
     "marketplace": 37,
     "other": 115
   },
@@ -13321,7 +13330,7 @@
     },
     {
       "username": "greg1213",
-      "count": 190
+      "count": 191
     },
     {
       "username": "yellowjack6",
@@ -14865,15 +14874,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 981,
+      "total": 982,
       "sold": 262,
       "fake": 0,
-      "live": 242,
+      "live": 243,
       "removed": 477,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Taylor": {
+        "total": 6,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "removed": 3,
+        "soldPct": 17,
+        "livePct": 33
+      },
       "Heritage": {
         "total": 2,
         "sold": 0,
@@ -15188,15 +15206,6 @@
         "removed": 2,
         "soldPct": 25,
         "livePct": 25
-      },
-      "Taylor": {
-        "total": 5,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "removed": 3,
-        "soldPct": 20,
-        "livePct": 20
       },
       "Cort": {
         "total": 3,
@@ -16542,10 +16551,10 @@
         "soldPct": 14
       },
       {
-        "brand": "Hamer",
+        "brand": "Taylor",
         "total": 6,
         "sold": 1,
-        "live": 4,
+        "live": 2,
         "soldPct": 17
       }
     ],
@@ -16558,7 +16567,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 82,
+        "total": 83,
         "sold": 25,
         "rate": 30
       },
@@ -16594,15 +16603,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 103,
+        "sold": 28,
+        "rate": 27
+      },
       "Excellent": {
         "total": 139,
         "sold": 41,
         "rate": 29
-      },
-      "Very Good": {
-        "total": 102,
-        "sold": 28,
-        "rate": 27
       },
       "Used": {
         "total": 17,
@@ -16744,7 +16753,7 @@
       "live": 1,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 202.9,
+      "totalDays": 203.1,
       "soldCount": 8,
       "avgDaysToSell": 25.4
     },
@@ -16763,7 +16772,7 @@
       "live": 11,
       "removed": 37,
       "sellRate": 31,
-      "totalDays": 642.7,
+      "totalDays": 643.1,
       "soldCount": 22,
       "avgDaysToSell": 29.2
     },
@@ -16782,9 +16791,9 @@
       "live": 6,
       "removed": 22,
       "sellRate": 30,
-      "totalDays": 347.3,
+      "totalDays": 347.49999999999994,
       "soldCount": 12,
-      "avgDaysToSell": 28.9
+      "avgDaysToSell": 29
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -16820,7 +16829,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 41,
-      "totalDays": 349.9,
+      "totalDays": 350.09999999999997,
       "soldCount": 14,
       "avgDaysToSell": 25
     },
@@ -16896,7 +16905,7 @@
       "live": 19,
       "removed": 55,
       "sellRate": 21,
-      "totalDays": 475.90000000000003,
+      "totalDays": 476,
       "soldCount": 20,
       "avgDaysToSell": 23.8
     },
@@ -16971,9 +16980,9 @@
       "live": 4,
       "removed": 10,
       "sellRate": 7,
-      "totalDays": 16.7,
+      "totalDays": 16.8,
       "soldCount": 1,
-      "avgDaysToSell": 16.7
+      "avgDaysToSell": 16.8
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -17026,7 +17035,7 @@
       "live": 2,
       "removed": 17,
       "sellRate": 39,
-      "totalDays": 348.20000000000005,
+      "totalDays": 348.3,
       "soldCount": 12,
       "avgDaysToSell": 29
     },
@@ -17402,9 +17411,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 44,
+      "totalDays": 44.1,
       "soldCount": 2,
-      "avgDaysToSell": 22
+      "avgDaysToSell": 22.1
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -17644,9 +17653,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 33.2,
+      "totalDays": 33.3,
       "soldCount": 1,
-      "avgDaysToSell": 33.2
+      "avgDaysToSell": 33.3
     },
     "Fender|Fender Masterbuilt": {
       "brand": "Fender",
@@ -17681,7 +17690,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 77.30000000000001,
+      "totalDays": 77.4,
       "soldCount": 2,
       "avgDaysToSell": 38.7
     },
@@ -18463,7 +18472,7 @@
     },
     {
       "label": "6–15",
-      "total": 64,
+      "total": 65,
       "sold": 14,
       "rate": 22
     },
@@ -18487,7 +18496,7 @@
       "rate": 27
     },
     "off": {
-      "total": 73,
+      "total": 74,
       "sold": 17,
       "rate": 23
     }
@@ -18499,7 +18508,7 @@
       "rate": 21
     },
     "regular": {
-      "total": 127,
+      "total": 128,
       "sold": 34,
       "rate": 27
     }
@@ -18513,9 +18522,9 @@
     },
     {
       "state": "TX",
-      "total": 16,
+      "total": 17,
       "sold": 7,
-      "rate": 44
+      "rate": 41
     },
     {
       "state": "WA",
