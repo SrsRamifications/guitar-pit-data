@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-05T21:50:04.736Z",
-  "totalLinks": 1016,
-  "totalEver": 1062,
-  "totalBeforeFilter": 1062,
+  "generatedAt": "2026-05-05T21:52:22.052Z",
+  "totalLinks": 1017,
+  "totalEver": 1063,
+  "totalBeforeFilter": 1063,
   "fakeCount": 5,
   "removedCount": 491,
-  "totalWithPrice": 999,
+  "totalWithPrice": 1000,
   "overall": {
-    "count": 973,
-    "sum": 2709459.14,
-    "avg": 2785,
+    "count": 974,
+    "sum": 2711959.13,
+    "avg": 2784,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 973,
-    "sum": 2709459.14,
-    "avg": 2785,
+    "count": 974,
+    "sum": 2711959.13,
+    "avg": 2784,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11275,
+    "thresholdHigh": 11241,
     "thresholdLow": 0,
     "count": 26,
     "items": [
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 68,
-      "sum": 163495.97,
+      "count": 69,
+      "sum": 165995.96,
       "min": 95,
       "max": 9999,
-      "avg": 2404
+      "avg": 2406
     },
     "2026-04": {
       "count": 778,
@@ -226,19 +226,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 27,
+      "sum": 78436.88,
+      "min": 599,
+      "max": 10495,
+      "avg": 2905
+    },
     "reverb": {
       "count": 846,
       "sum": 2345690.31,
       "min": 7,
       "max": 11053,
       "avg": 2773
-    },
-    "marketplace": {
-      "count": 26,
-      "sum": 75936.89,
-      "min": 599,
-      "max": 10495,
-      "avg": 2921
     },
     "other": {
       "count": 101,
@@ -249,19 +249,19 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 48,
+      "sum": 91537.55,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1907
+    },
     "reverb.com": {
       "count": 846,
       "sum": 2345690.31,
       "min": 7,
       "max": 11053,
       "avg": 2773
-    },
-    "guitarcenter.com": {
-      "count": 47,
-      "sum": 89037.56,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1894
     },
     "musicgoround.com": {
       "count": 3,
@@ -1312,37 +1312,6 @@
       },
       "avg": 1350
     },
-    "kiesel-delos": {
-      "displayName": "Kiesel Delos 6 - 2023",
-      "brand": "Kiesel",
-      "model": "Delos",
-      "variant": null,
-      "count": 1,
-      "sum": 1300,
-      "min": 1300,
-      "max": 1300,
-      "sightings": [
-        {
-          "price": 1300,
-          "date": "2026-05-04T03:32:37.111+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Kiesel Delos 6 - 2023",
-          "url": "https://reverb.com/item/96692330-kiesel-delos-6-2023",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1300,
-          "min": 1300,
-          "max": 1300,
-          "avg": 1300
-        }
-      },
-      "avg": 1300
-    },
     "kiesel-vanquish": {
       "displayName": "Kiesel Vanquish 6",
       "brand": "Kiesel",
@@ -1450,6 +1419,37 @@
         }
       },
       "avg": 2695
+    },
+    "kiesel-delos": {
+      "displayName": "Kiesel Delos 6 - 2023",
+      "brand": "Kiesel",
+      "model": "Delos",
+      "variant": null,
+      "count": 1,
+      "sum": 1300,
+      "min": 1300,
+      "max": 1300,
+      "sightings": [
+        {
+          "price": 1300,
+          "date": "2026-05-04T03:32:37.111+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Delos 6 - 2023",
+          "url": "https://reverb.com/item/96692330-kiesel-delos-6-2023",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1300,
+          "min": 1300,
+          "max": 1300,
+          "avg": 1300
+        }
+      },
+      "avg": 1300
     },
     "bizen-works-standard-gold-top": {
       "displayName": "2021 Bizen Works Standard Gold Top",
@@ -12256,6 +12256,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 17,
+      "sum": 205677.89000000004,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 12099,
+      "min": 599.99,
+      "max": 99000
+    },
     "Good": {
       "count": 48,
       "sum": 113398.95,
@@ -12297,17 +12308,6 @@
       "avg": 3522,
       "min": 225,
       "max": 35900
-    },
-    "Used": {
-      "count": 16,
-      "sum": 203177.90000000002,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 12699,
-      "min": 599.99,
-      "max": 99000
     },
     "Mint": {
       "count": 10,
@@ -12388,9 +12388,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2404,
-      "median": 1688,
-      "count": 68
+      "avg": 2406,
+      "median": 1700,
+      "count": 69
     },
     "04": {
       "name": "Apr",
@@ -12551,7 +12551,7 @@
     "0-500": 59,
     "500-1k": 84,
     "1k-2k": 293,
-    "2k-3k": 206,
+    "2k-3k": 207,
     "3k-5k": 210,
     "5k-10k": 110,
     "10k+": 37
@@ -12560,7 +12560,7 @@
     "0-500": 59,
     "500-1k": 84,
     "1k-2k": 293,
-    "2k-3k": 206,
+    "2k-3k": 207,
     "3k-5k": 210,
     "5k-10k": 110,
     "10k+": 11
@@ -13408,7 +13408,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-05": 12,
+    "2026-05-05": 13,
     "2026-05-04": 20,
     "2026-05-03": 14,
     "2026-05-02": 10,
@@ -13441,8 +13441,8 @@
     "2026-04-05": 4
   },
   "categoryDistribution": {
+    "marketplace": 38,
     "reverb": 864,
-    "marketplace": 37,
     "other": 115
   },
   "activeModelsCount": 223,
@@ -13453,7 +13453,7 @@
     },
     {
       "username": "greg1213",
-      "count": 193
+      "count": 194
     },
     {
       "username": "yellowjack6",
@@ -16714,7 +16714,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 206,
+        "total": 207,
         "sold": 69,
         "rate": 33
       },
@@ -16738,6 +16738,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 18,
+        "sold": 0,
+        "rate": 0
+      },
       "Good": {
         "total": 48,
         "sold": 8,
@@ -16752,11 +16757,6 @@
         "total": 141,
         "sold": 41,
         "rate": 29
-      },
-      "Used": {
-        "total": 17,
-        "sold": 0,
-        "rate": 0
       },
       "Mint": {
         "total": 10,
@@ -16870,7 +16870,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 40,
-      "totalDays": 355.2,
+      "totalDays": 355.3,
       "soldCount": 14,
       "avgDaysToSell": 25.4
     },
@@ -16889,7 +16889,7 @@
       "live": 20,
       "removed": 55,
       "sellRate": 21,
-      "totalDays": 483.7,
+      "totalDays": 483.8,
       "soldCount": 20,
       "avgDaysToSell": 24.2
     },
@@ -17433,7 +17433,7 @@
       "live": 3,
       "removed": 5,
       "sellRate": 43,
-      "totalDays": 149.3,
+      "totalDays": 149.39999999999998,
       "soldCount": 6,
       "avgDaysToSell": 24.9
     },
@@ -17583,7 +17583,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 75.9,
+      "totalDays": 76,
       "soldCount": 4,
       "avgDaysToSell": 19
     },
