@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-05T19:20:04.899Z",
-  "totalLinks": 1012,
-  "totalEver": 1057,
-  "totalBeforeFilter": 1057,
+  "generatedAt": "2026-05-05T19:32:49.965Z",
+  "totalLinks": 1013,
+  "totalEver": 1058,
+  "totalBeforeFilter": 1058,
   "fakeCount": 5,
   "removedCount": 491,
-  "totalWithPrice": 996,
+  "totalWithPrice": 997,
   "overall": {
-    "count": 970,
-    "sum": 2704511.14,
-    "avg": 2788,
+    "count": 971,
+    "sum": 2706461.14,
+    "avg": 2787,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 970,
-    "sum": 2704511.14,
-    "avg": 2788,
+    "count": 971,
+    "sum": 2706461.14,
+    "avg": 2787,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11455,
+    "thresholdHigh": 11275,
     "thresholdLow": 0,
     "count": 26,
     "items": [
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 65,
-      "sum": 158547.97,
+      "count": 66,
+      "sum": 160497.97,
       "min": 95,
       "max": 9999,
-      "avg": 2439
+      "avg": 2432
     },
     "2026-04": {
       "count": 778,
@@ -227,11 +227,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 843,
-      "sum": 2340742.31,
+      "count": 844,
+      "sum": 2342692.31,
       "min": 7,
       "max": 11053,
-      "avg": 2777
+      "avg": 2776
     },
     "marketplace": {
       "count": 26,
@@ -250,11 +250,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 843,
-      "sum": 2340742.31,
+      "count": 844,
+      "sum": 2342692.31,
       "min": 7,
       "max": 11053,
-      "avg": 2777
+      "avg": 2776
     },
     "guitarcenter.com": {
       "count": 47,
@@ -489,6 +489,37 @@
     }
   },
   "byModel": {
+    "gibson-b-25": {
+      "displayName": "Gibson B-25 1969 Sunburst",
+      "brand": "Gibson",
+      "model": "B-25",
+      "variant": null,
+      "count": 1,
+      "sum": 1950,
+      "min": 1950,
+      "max": 1950,
+      "sightings": [
+        {
+          "price": 1950,
+          "date": "2026-05-05T19:32:31.336+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson B-25 1969 Sunburst",
+          "url": "https://reverb.com/item/96606941-gibson-b-25-1969-sunburst",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1950,
+          "min": 1950,
+          "max": 1950,
+          "avg": 1950
+        }
+      },
+      "avg": 1950
+    },
     "greco-howard-roberts-hr-680": {
       "displayName": "1978 Greco Howard Roberts HR-680 - Wine Red",
       "brand": "Greco",
@@ -590,37 +621,6 @@
       },
       "avg": 602
     },
-    "music-man-axis": {
-      "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
-      "brand": "Music Man",
-      "model": "Axis",
-      "variant": null,
-      "count": 1,
-      "sum": 1675,
-      "min": 1675,
-      "max": 1675,
-      "sightings": [
-        {
-          "price": 1675,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
-          "url": "https://reverb.com/item/96744400-ernie-ball-music-man-axis-super-sport-mm90-ht-2002-2014-various",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1675,
-          "min": 1675,
-          "max": 1675,
-          "avg": 1675
-        }
-      },
-      "avg": 1675
-    },
     "prs-mccarty-594-artist-package": {
       "displayName": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
       "brand": "PRS",
@@ -682,6 +682,37 @@
         }
       },
       "avg": 2000
+    },
+    "music-man-axis": {
+      "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
+      "brand": "Music Man",
+      "model": "Axis",
+      "variant": null,
+      "count": 1,
+      "sum": 1675,
+      "min": 1675,
+      "max": 1675,
+      "sightings": [
+        {
+          "price": 1675,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
+          "url": "https://reverb.com/item/96744400-ernie-ball-music-man-axis-super-sport-mm90-ht-2002-2014-various",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1675,
+          "min": 1675,
+          "max": 1675,
+          "avg": 1675
+        }
+      },
+      "avg": 1675
     },
     "marconilab-headless": {
       "displayName": "Marconilab Ego hyper LSD headless guitar",
@@ -12215,6 +12246,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 104,
+      "sum": 266744.55999999994,
+      "sold": {
+        "count": 29,
+        "sum": 72435.79,
+        "avg": 2498,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2565,
+      "min": 33,
+      "max": 14450
+    },
     "Excellent": {
       "count": 141,
       "sum": 496574.73,
@@ -12228,20 +12273,6 @@
       "avg": 3522,
       "min": 225,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 103,
-      "sum": 264794.55999999994,
-      "sold": {
-        "count": 29,
-        "sum": 72435.79,
-        "avg": 2498,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2571,
-      "min": 33,
-      "max": 14450
     },
     "Used": {
       "count": 16,
@@ -12347,9 +12378,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2439,
-      "median": 1700,
-      "count": 65
+      "avg": 2432,
+      "median": 1798,
+      "count": 66
     },
     "04": {
       "name": "Apr",
@@ -12509,7 +12540,7 @@
   "priceDistribution": {
     "0-500": 59,
     "500-1k": 84,
-    "1k-2k": 290,
+    "1k-2k": 291,
     "2k-3k": 206,
     "3k-5k": 210,
     "5k-10k": 110,
@@ -12518,13 +12549,18 @@
   "priceDistributionFiltered": {
     "0-500": 59,
     "500-1k": 84,
-    "1k-2k": 290,
+    "1k-2k": 291,
     "2k-3k": 206,
     "3k-5k": 210,
     "5k-10k": 110,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 3083,
+      "count": 127,
+      "avg": 24
+    },
     "Greco": {
       "sum": 193,
       "count": 8,
@@ -12540,13 +12576,8 @@
       "count": 6,
       "avg": 22
     },
-    "Music Man": {
-      "sum": 451,
-      "count": 18,
-      "avg": 25
-    },
     "PRS": {
-      "sum": 2212,
+      "sum": 2213,
       "count": 86,
       "avg": 26
     },
@@ -12554,6 +12585,11 @@
       "sum": 27,
       "count": 2,
       "avg": 14
+    },
+    "Music Man": {
+      "sum": 451,
+      "count": 18,
+      "avg": 25
     },
     "Marconilab": {
       "sum": 20,
@@ -12604,11 +12640,6 @@
       "sum": 12,
       "count": 1,
       "avg": 12
-    },
-    "Gibson": {
-      "sum": 3080,
-      "count": 126,
-      "avg": 24
     },
     "BC Rich": {
       "sum": 1451,
@@ -13367,7 +13398,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-05": 8,
+    "2026-05-05": 9,
     "2026-05-04": 20,
     "2026-05-03": 14,
     "2026-05-02": 10,
@@ -13397,14 +13428,14 @@
     "2026-04-08": 41,
     "2026-04-07": 16,
     "2026-04-06": 31,
-    "2026-04-05": 12
+    "2026-04-05": 10
   },
   "categoryDistribution": {
-    "reverb": 860,
+    "reverb": 861,
     "marketplace": 37,
     "other": 115
   },
-  "activeModelsCount": 222,
+  "activeModelsCount": 223,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -13423,12 +13454,12 @@
       "count": 87
     },
     {
-      "username": "wontongg",
+      "username": "madero",
       "count": 54
     },
     {
-      "username": "madero",
-      "count": 53
+      "username": "wontongg",
+      "count": 54
     },
     {
       "username": "Modean",
@@ -13498,10 +13529,10 @@
       "count": 72
     },
     "Gibson": {
-      "avgPrice": 7638,
+      "avgPrice": 7594,
       "retailEst": 800,
-      "avgDiscount": -854.8,
-      "count": 128
+      "avgDiscount": -849.3,
+      "count": 129
     },
     "ESP": {
       "avgPrice": 3919187,
@@ -14760,11 +14791,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1407.6266068433229,
-      "count": 71,
-      "avgPctDrop": 19.8
+      "totalPctDrop": 1416.5476717662561,
+      "count": 72,
+      "avgPctDrop": 19.7
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 81.55557907965257,
+        "count": 7,
+        "avgPctDrop": 11.7
+      },
       "Lollar": {
         "totalPctDrop": 31.580842635938062,
         "count": 1,
@@ -14799,11 +14835,6 @@
         "totalPctDrop": 50.055617352614014,
         "count": 1,
         "avgPctDrop": 50.1
-      },
-      "Gibson": {
-        "totalPctDrop": 72.63451415671938,
-        "count": 6,
-        "avgPctDrop": 12.1
       },
       "Shabat": {
         "totalPctDrop": 20.004000800160032,
@@ -14959,15 +14990,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 984,
+      "total": 985,
       "sold": 263,
       "fake": 0,
-      "live": 243,
+      "live": 244,
       "removed": 478,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Gibson": {
+        "total": 131,
+        "sold": 33,
+        "fake": 0,
+        "live": 25,
+        "removed": 73,
+        "soldPct": 25,
+        "livePct": 19
+      },
       "Greco": {
         "total": 8,
         "sold": 1,
@@ -14995,15 +15035,6 @@
         "soldPct": 17,
         "livePct": 33
       },
-      "Music Man": {
-        "total": 19,
-        "sold": 11,
-        "fake": 0,
-        "live": 1,
-        "removed": 7,
-        "soldPct": 58,
-        "livePct": 5
-      },
       "PRS": {
         "total": 89,
         "sold": 26,
@@ -15021,6 +15052,15 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 50
+      },
+      "Music Man": {
+        "total": 19,
+        "sold": 11,
+        "fake": 0,
+        "live": 1,
+        "removed": 7,
+        "soldPct": 58,
+        "livePct": 5
       },
       "Marconilab": {
         "total": 2,
@@ -15120,15 +15160,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 130,
-        "sold": 33,
-        "fake": 0,
-        "live": 24,
-        "removed": 73,
-        "soldPct": 25,
-        "livePct": 18
       },
       "BC Rich": {
         "total": 65,
@@ -16667,7 +16698,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 290,
+        "total": 291,
         "sold": 75,
         "rate": 26
       },
@@ -16697,15 +16728,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 104,
+        "sold": 29,
+        "rate": 28
+      },
       "Excellent": {
         "total": 141,
         "sold": 41,
         "rate": 29
-      },
-      "Very Good": {
-        "total": 103,
-        "sold": 29,
-        "rate": 28
       },
       "Used": {
         "total": 17,
@@ -16814,6 +16845,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 95,
+      "sum": 732613.94,
+      "avg": 7712,
+      "min": 135,
+      "max": 443302,
+      "sold": 20,
+      "soldSum": 60410.979999999996,
+      "soldAvg": 3021,
+      "live": 20,
+      "removed": 55,
+      "sellRate": 21,
+      "totalDays": 481.90000000000003,
+      "soldCount": 20,
+      "avgDaysToSell": 24.1
+    },
     "Strandberg|Strandberg Import": {
       "brand": "Strandberg",
       "brandLine": "Strandberg Import",
@@ -16831,25 +16881,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Music Man|Music Man USA": {
-      "brand": "Music Man",
-      "brandLine": "Music Man USA",
-      "tier": "premium",
-      "count": 14,
-      "sum": 32738,
-      "avg": 2338,
-      "min": 1195,
-      "max": 4643,
-      "sold": 8,
-      "soldSum": 16575,
-      "soldAvg": 2072,
-      "live": 1,
-      "removed": 5,
-      "sellRate": 57,
-      "totalDays": 205.09999999999997,
-      "soldCount": 8,
-      "avgDaysToSell": 25.6
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -16888,6 +16919,25 @@
       "totalDays": 0,
       "soldCount": 0
     },
+    "Music Man|Music Man USA": {
+      "brand": "Music Man",
+      "brandLine": "Music Man USA",
+      "tier": "premium",
+      "count": 14,
+      "sum": 32738,
+      "avg": 2338,
+      "min": 1195,
+      "max": 4643,
+      "sold": 8,
+      "soldSum": 16575,
+      "soldAvg": 2072,
+      "live": 1,
+      "removed": 5,
+      "sellRate": 57,
+      "totalDays": 205.2,
+      "soldCount": 8,
+      "avgDaysToSell": 25.7
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -16903,7 +16953,7 @@
       "live": 6,
       "removed": 22,
       "sellRate": 30,
-      "totalDays": 350.8,
+      "totalDays": 350.9,
       "soldCount": 12,
       "avgDaysToSell": 29.2
     },
@@ -16941,7 +16991,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 41,
-      "totalDays": 353.8,
+      "totalDays": 353.90000000000003,
       "soldCount": 14,
       "avgDaysToSell": 25.3
     },
@@ -17001,25 +17051,6 @@
       "totalDays": 64,
       "soldCount": 3,
       "avgDaysToSell": 21.3
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 94,
-      "sum": 730663.94,
-      "avg": 7773,
-      "min": 135,
-      "max": 443302,
-      "sold": 20,
-      "soldSum": 60410.979999999996,
-      "soldAvg": 3021,
-      "live": 19,
-      "removed": 55,
-      "sellRate": 21,
-      "totalDays": 481.7,
-      "soldCount": 20,
-      "avgDaysToSell": 24.1
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -17223,9 +17254,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 114.19999999999999,
+      "totalDays": 114.29999999999998,
       "soldCount": 5,
-      "avgDaysToSell": 22.8
+      "avgDaysToSell": 22.9
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -17317,7 +17348,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 30,
-      "totalDays": 338.7,
+      "totalDays": 338.8,
       "soldCount": 6,
       "avgDaysToSell": 56.5
     },
@@ -17392,7 +17423,7 @@
       "live": 3,
       "removed": 5,
       "sellRate": 43,
-      "totalDays": 148.60000000000002,
+      "totalDays": 148.8,
       "soldCount": 6,
       "avgDaysToSell": 24.8
     },
@@ -17486,9 +17517,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 8.1,
+      "totalDays": 8.2,
       "soldCount": 1,
-      "avgDaysToSell": 8.1
+      "avgDaysToSell": 8.2
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -17542,7 +17573,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 75.5,
+      "totalDays": 75.6,
       "soldCount": 4,
       "avgDaysToSell": 18.9
     },
@@ -17561,9 +17592,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 30.9,
+      "totalDays": 31,
       "soldCount": 1,
-      "avgDaysToSell": 30.9
+      "avgDaysToSell": 31
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -17599,7 +17630,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 53.1,
+      "totalDays": 53.2,
       "soldCount": 2,
       "avgDaysToSell": 26.6
     },
@@ -18584,7 +18615,7 @@
     },
     {
       "label": "6–15",
-      "total": 67,
+      "total": 68,
       "sold": 14,
       "rate": 21
     },
@@ -18603,7 +18634,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 205,
+      "total": 206,
       "sold": 55,
       "rate": 27
     },
@@ -18620,7 +18651,7 @@
       "rate": 20
     },
     "regular": {
-      "total": 129,
+      "total": 130,
       "sold": 35,
       "rate": 27
     }
@@ -18785,6 +18816,12 @@
     {
       "state": "Stockholm",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "VA",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
