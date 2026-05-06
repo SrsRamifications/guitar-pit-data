@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-06T15:35:05.558Z",
-  "totalLinks": 1027,
-  "totalEver": 1073,
-  "totalBeforeFilter": 1073,
+  "generatedAt": "2026-05-06T15:44:52.803Z",
+  "totalLinks": 1028,
+  "totalEver": 1074,
+  "totalBeforeFilter": 1074,
   "fakeCount": 5,
   "removedCount": 492,
-  "totalWithPrice": 1010,
+  "totalWithPrice": 1011,
   "overall": {
-    "count": 984,
-    "sum": 2736541.13,
-    "avg": 2781,
+    "count": 985,
+    "sum": 2738040.13,
+    "avg": 2780,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 984,
-    "sum": 2736541.13,
-    "avg": 2781,
+    "count": 985,
+    "sum": 2738040.13,
+    "avg": 2780,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 79,
-      "sum": 191349.96,
+      "count": 80,
+      "sum": 192848.96,
       "min": 95,
       "max": 9999,
-      "avg": 2422
+      "avg": 2411
     },
     "2026-04": {
       "count": 778,
@@ -227,11 +227,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 856,
-      "sum": 2370272.31,
+      "count": 857,
+      "sum": 2371771.31,
       "min": 7,
       "max": 11053,
-      "avg": 2769
+      "avg": 2768
     },
     "marketplace": {
       "count": 27,
@@ -250,11 +250,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 856,
-      "sum": 2370272.31,
+      "count": 857,
+      "sum": 2371771.31,
       "min": 7,
       "max": 11053,
-      "avg": 2769
+      "avg": 2768
     },
     "guitarcenter.com": {
       "count": 48,
@@ -489,6 +489,37 @@
     }
   },
   "byModel": {
+    "music-man-st-vincent-signature-hh": {
+      "displayName": "Ernie Ball Music Man St. Vincent Signature HH 2018 Charcoal Sparkle",
+      "brand": "Music Man",
+      "model": "St. Vincent",
+      "variant": "Signature Hh",
+      "count": 1,
+      "sum": 1499,
+      "min": 1499,
+      "max": 1499,
+      "sightings": [
+        {
+          "price": 1499,
+          "date": "2026-05-06T15:44:36.061+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man St. Vincent Signature HH 2018 Charcoal Sparkle",
+          "url": "https://reverb.com/item/96822515-ernie-ball-music-man-st-vincent-signature-hh-2018-charcoal-sparkle",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1499,
+          "min": 1499,
+          "max": 1499,
+          "avg": 1499
+        }
+      },
+      "avg": 1499
+    },
     "gibson-lg-1-plays-sounds": {
       "displayName": "Gibson LG-1 1965 - Sunburst - Plays & Sounds AMAZING!",
       "brand": "Gibson",
@@ -12574,6 +12605,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 108,
+      "sum": 280738.55999999994,
+      "sold": {
+        "count": 32,
+        "sum": 77156.79,
+        "avg": 2411,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2599,
+      "min": 33,
+      "max": 14450
+    },
     "Excellent": {
       "count": 148,
       "sum": 509268.73,
@@ -12598,20 +12643,6 @@
       "avg": 1031,
       "min": 449,
       "max": 1710
-    },
-    "Very Good": {
-      "count": 107,
-      "sum": 279239.55999999994,
-      "sold": {
-        "count": 32,
-        "sum": 77156.79,
-        "avg": 2411,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2610,
-      "min": 33,
-      "max": 14450
     },
     "Used": {
       "count": 17,
@@ -12706,9 +12737,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2422,
+      "avg": 2411,
       "median": 1700,
-      "count": 79
+      "count": 80
     },
     "04": {
       "name": "Apr",
@@ -12868,7 +12899,7 @@
   "priceDistribution": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 297,
+    "1k-2k": 298,
     "2k-3k": 207,
     "3k-5k": 212,
     "5k-10k": 111,
@@ -12877,13 +12908,18 @@
   "priceDistributionFiltered": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 297,
+    "1k-2k": 298,
     "2k-3k": 207,
     "3k-5k": 212,
     "5k-10k": 111,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Music Man": {
+      "sum": 469,
+      "count": 19,
+      "avg": 25
+    },
     "Gibson": {
       "sum": 3201,
       "count": 130,
@@ -12924,11 +12960,6 @@
       "count": 1,
       "avg": 2
     },
-    "Music Man": {
-      "sum": 469,
-      "count": 18,
-      "avg": 26
-    },
     "Heritage": {
       "sum": 29,
       "count": 2,
@@ -12940,7 +12971,7 @@
       "avg": 11
     },
     "Fender": {
-      "sum": 1594,
+      "sum": 1595,
       "count": 68,
       "avg": 23
     },
@@ -12955,7 +12986,7 @@
       "avg": 25
     },
     "ESP": {
-      "sum": 545,
+      "sum": 546,
       "count": 23,
       "avg": 24
     },
@@ -13210,9 +13241,9 @@
       "avg": 25
     },
     "Luxxtone": {
-      "sum": 52,
+      "sum": 53,
       "count": 2,
-      "avg": 26
+      "avg": 27
     },
     "Positive Grid": {
       "sum": 13,
@@ -13230,7 +13261,7 @@
       "avg": 14
     },
     "Epiphone": {
-      "sum": 179,
+      "sum": 180,
       "count": 6,
       "avg": 30
     },
@@ -13726,7 +13757,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-06": 7,
+    "2026-05-06": 8,
     "2026-05-05": 16,
     "2026-05-04": 20,
     "2026-05-03": 14,
@@ -13756,14 +13787,14 @@
     "2026-04-09": 29,
     "2026-04-08": 41,
     "2026-04-07": 16,
-    "2026-04-06": 26
+    "2026-04-06": 24
   },
   "categoryDistribution": {
-    "reverb": 874,
+    "reverb": 875,
     "marketplace": 38,
     "other": 115
   },
-  "activeModelsCount": 232,
+  "activeModelsCount": 233,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -13887,10 +13918,10 @@
       "count": 25
     },
     "Music Man": {
-      "avgPrice": 2291,
+      "avgPrice": 2252,
       "retailEst": 1500,
-      "avgDiscount": -52.7,
-      "count": 19
+      "avgDiscount": -50.1,
+      "count": 20
     },
     "Schecter": {
       "avgPrice": 2183,
@@ -15369,15 +15400,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 996,
+      "total": 997,
       "sold": 266,
       "fake": 0,
-      "live": 251,
+      "live": 252,
       "removed": 479,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Music Man": {
+        "total": 20,
+        "sold": 11,
+        "fake": 0,
+        "live": 2,
+        "removed": 7,
+        "soldPct": 55,
+        "livePct": 10
+      },
       "Gibson": {
         "total": 134,
         "sold": 33,
@@ -15449,15 +15489,6 @@
         "removed": 5,
         "soldPct": 13,
         "livePct": 25
-      },
-      "Music Man": {
-        "total": 19,
-        "sold": 11,
-        "fake": 0,
-        "live": 1,
-        "removed": 7,
-        "soldPct": 58,
-        "livePct": 5
       },
       "Heritage": {
         "total": 2,
@@ -16942,10 +16973,10 @@
       },
       {
         "brand": "Music Man",
-        "total": 19,
+        "total": 20,
         "sold": 11,
-        "live": 1,
-        "soldPct": 58
+        "live": 2,
+        "soldPct": 55
       },
       {
         "brand": "Knaggs",
@@ -17077,7 +17108,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 297,
+        "total": 298,
         "sold": 78,
         "rate": 26
       },
@@ -17107,6 +17138,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 109,
+        "sold": 32,
+        "rate": 29
+      },
       "Excellent": {
         "total": 148,
         "sold": 42,
@@ -17116,11 +17152,6 @@
         "total": 4,
         "sold": 0,
         "rate": 0
-      },
-      "Very Good": {
-        "total": 108,
-        "sold": 32,
-        "rate": 30
       },
       "Used": {
         "total": 18,
@@ -17224,6 +17255,25 @@
     ]
   },
   "byBrandLine": {
+    "Music Man|Music Man USA": {
+      "brand": "Music Man",
+      "brandLine": "Music Man USA",
+      "tier": "premium",
+      "count": 15,
+      "sum": 34237,
+      "avg": 2282,
+      "min": 1195,
+      "max": 4643,
+      "sold": 8,
+      "soldSum": 16575,
+      "soldAvg": 2072,
+      "live": 2,
+      "removed": 5,
+      "sellRate": 53,
+      "totalDays": 212,
+      "soldCount": 8,
+      "avgDaysToSell": 26.5
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -17239,7 +17289,7 @@
       "live": 22,
       "removed": 55,
       "sellRate": 21,
-      "totalDays": 498.4,
+      "totalDays": 498.9,
       "soldCount": 20,
       "avgDaysToSell": 24.9
     },
@@ -17258,9 +17308,9 @@
       "live": 2,
       "removed": 17,
       "sellRate": 41,
-      "totalDays": 363.3,
+      "totalDays": 363.4,
       "soldCount": 13,
-      "avgDaysToSell": 27.9
+      "avgDaysToSell": 28
     },
     "Yamaha|Yamaha Pacifica": {
       "brand": "Yamaha",
@@ -17350,7 +17400,7 @@
       "live": 12,
       "removed": 37,
       "sellRate": 32,
-      "totalDays": 668.1999999999999,
+      "totalDays": 668.4,
       "soldCount": 23,
       "avgDaysToSell": 29.1
     },
@@ -17369,7 +17419,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 40,
-      "totalDays": 365.6,
+      "totalDays": 365.70000000000005,
       "soldCount": 14,
       "avgDaysToSell": 26.1
     },
@@ -17390,25 +17440,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Music Man|Music Man USA": {
-      "brand": "Music Man",
-      "brandLine": "Music Man USA",
-      "tier": "premium",
-      "count": 14,
-      "sum": 32738,
-      "avg": 2338,
-      "min": 1195,
-      "max": 4643,
-      "sold": 8,
-      "soldSum": 16575,
-      "soldAvg": 2072,
-      "live": 1,
-      "removed": 5,
-      "sellRate": 57,
-      "totalDays": 211.9,
-      "soldCount": 8,
-      "avgDaysToSell": 26.5
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -17462,9 +17493,9 @@
       "live": 4,
       "removed": 9,
       "sellRate": 24,
-      "totalDays": 109.3,
+      "totalDays": 109.4,
       "soldCount": 4,
-      "avgDaysToSell": 27.3
+      "avgDaysToSell": 27.4
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -17538,7 +17569,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 42,
-      "totalDays": 118.89999999999999,
+      "totalDays": 118.99999999999999,
       "soldCount": 5,
       "avgDaysToSell": 23.8
     },
@@ -17557,7 +17588,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 96.8,
+      "totalDays": 96.89999999999999,
       "soldCount": 4,
       "avgDaysToSell": 24.2
     },
@@ -17668,9 +17699,9 @@
       "live": 2,
       "removed": 1,
       "sellRate": 25,
-      "totalDays": 3.9,
+      "totalDays": 4,
       "soldCount": 1,
-      "avgDaysToSell": 3.9
+      "avgDaysToSell": 4
     },
     "Parker|Parker Fly": {
       "brand": "Parker",
@@ -17800,7 +17831,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 30,
-      "totalDays": 343.70000000000005,
+      "totalDays": 343.8,
       "soldCount": 6,
       "avgDaysToSell": 57.3
     },
@@ -17931,9 +17962,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 35.2,
+      "totalDays": 35.3,
       "soldCount": 2,
-      "avgDaysToSell": 17.6
+      "avgDaysToSell": 17.7
     },
     "Parker|Parker Fly Deluxe": {
       "brand": "Parker",
@@ -17987,7 +18018,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 46.300000000000004,
+      "totalDays": 46.400000000000006,
       "soldCount": 2,
       "avgDaysToSell": 23.2
     },
@@ -18006,7 +18037,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 78.80000000000001,
+      "totalDays": 78.9,
       "soldCount": 4,
       "avgDaysToSell": 19.7
     },
@@ -18434,7 +18465,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 275.1,
+      "totalDays": 275.20000000000005,
       "soldCount": 3,
       "avgDaysToSell": 91.7
     },
@@ -19006,8 +19037,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 106,
-    "totalOffers": 216,
+    "withOffers": 107,
+    "totalOffers": 217,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 25
   },
@@ -19024,9 +19055,9 @@
     },
     {
       "label": "1–5",
-      "total": 17,
+      "total": 18,
       "sold": 6,
-      "rate": 35
+      "rate": 33
     },
     {
       "label": "6–15",
@@ -19049,7 +19080,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 216,
+      "total": 217,
       "sold": 56,
       "rate": 26
     },
@@ -19061,7 +19092,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 141,
+      "total": 142,
       "sold": 30,
       "rate": 21
     },
@@ -19109,16 +19140,16 @@
       "rate": 31
     },
     {
+      "state": "PA",
+      "total": 12,
+      "sold": 4,
+      "rate": 33
+    },
+    {
       "state": "MD",
       "total": 11,
       "sold": 2,
       "rate": 18
-    },
-    {
-      "state": "PA",
-      "total": 11,
-      "sold": 4,
-      "rate": 36
     },
     {
       "state": "TN",
