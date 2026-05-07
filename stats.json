@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-07T01:05:07.814Z",
-  "totalLinks": 1031,
-  "totalEver": 1079,
-  "totalBeforeFilter": 1079,
+  "generatedAt": "2026-05-07T01:06:43.756Z",
+  "totalLinks": 1032,
+  "totalEver": 1080,
+  "totalBeforeFilter": 1080,
   "fakeCount": 6,
   "removedCount": 493,
-  "totalWithPrice": 1014,
+  "totalWithPrice": 1015,
   "overall": {
-    "count": 988,
-    "sum": 2745640.13,
-    "avg": 2779,
+    "count": 989,
+    "sum": 2747440.13,
+    "avg": 2778,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 988,
-    "sum": 2745640.13,
-    "avg": 2779,
+    "count": 989,
+    "sum": 2747440.13,
+    "avg": 2778,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 83,
-      "sum": 200448.96,
+      "count": 84,
+      "sum": 202248.96,
       "min": 95,
       "max": 9999,
-      "avg": 2415
+      "avg": 2408
     },
     "2026-04": {
       "count": 778,
@@ -227,11 +227,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 860,
-      "sum": 2379371.31,
+      "count": 861,
+      "sum": 2381171.31,
       "min": 7,
       "max": 11053,
-      "avg": 2767
+      "avg": 2766
     },
     "marketplace": {
       "count": 27,
@@ -250,11 +250,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 860,
-      "sum": 2379371.31,
+      "count": 861,
+      "sum": 2381171.31,
       "min": 7,
       "max": 11053,
-      "avg": 2767
+      "avg": 2766
     },
     "guitarcenter.com": {
       "count": 48,
@@ -489,6 +489,37 @@
     }
   },
   "byModel": {
+    "gibson-melody-maker": {
+      "displayName": "1968 Gibson Melody Maker Red (Changed Pickup, Guard, Bridge)",
+      "brand": "Gibson",
+      "model": "Melody Maker",
+      "variant": null,
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-05-07T01:06:25.768+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1968 Gibson Melody Maker Red (Changed Pickup, Guard, Bridge)",
+          "url": "https://reverb.com/item/96728347-1968-gibson-melody-maker-red-changed-pickup-guard-bridge",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
+    },
     "fender-stratocaster-custom-shop": {
       "displayName": "Fender Custom Shop GT11 Stratocaster Relic",
       "brand": "Fender",
@@ -12713,6 +12744,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 50,
+      "sum": 116876.95,
+      "sold": {
+        "count": 7,
+        "sum": 14335.48,
+        "avg": 2048,
+        "min": 999,
+        "max": 4777.5
+      },
+      "avg": 2338,
+      "min": 70,
+      "max": 11475
+    },
     "Excellent": {
       "count": 149,
       "sum": 512168.73,
@@ -12740,20 +12785,6 @@
       "avg": 2603,
       "min": 33,
       "max": 14450
-    },
-    "Good": {
-      "count": 49,
-      "sum": 115076.95,
-      "sold": {
-        "count": 7,
-        "sum": 14335.48,
-        "avg": 2048,
-        "min": 999,
-        "max": 4777.5
-      },
-      "avg": 2349,
-      "min": 70,
-      "max": 11475
     },
     "B-Stock": {
       "count": 4,
@@ -12845,9 +12876,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2415,
+      "avg": 2408,
       "median": 1700,
-      "count": 83
+      "count": 84
     },
     "04": {
       "name": "Apr",
@@ -13007,7 +13038,7 @@
   "priceDistribution": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 299,
+    "1k-2k": 300,
     "2k-3k": 208,
     "3k-5k": 213,
     "5k-10k": 111,
@@ -13016,13 +13047,18 @@
   "priceDistributionFiltered": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 299,
+    "1k-2k": 300,
     "2k-3k": 208,
     "3k-5k": 213,
     "5k-10k": 111,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 3222,
+      "count": 131,
+      "avg": 25
+    },
     "Fender": {
       "sum": 1601,
       "count": 70,
@@ -13032,11 +13068,6 @@
       "sum": 469,
       "count": 20,
       "avg": 23
-    },
-    "Gibson": {
-      "sum": 3222,
-      "count": 130,
-      "avg": 25
     },
     "Yamaha": {
       "sum": 494,
@@ -13865,6 +13896,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-05-07": 1,
     "2026-05-06": 11,
     "2026-05-05": 16,
     "2026-05-04": 20,
@@ -13897,11 +13929,11 @@
     "2026-04-07": 16
   },
   "categoryDistribution": {
-    "reverb": 878,
+    "reverb": 879,
     "marketplace": 38,
     "other": 115
   },
-  "activeModelsCount": 235,
+  "activeModelsCount": 236,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -13920,11 +13952,11 @@
       "count": 87
     },
     {
-      "username": "wontongg",
-      "count": 55
+      "username": "madero",
+      "count": 56
     },
     {
-      "username": "madero",
+      "username": "wontongg",
       "count": 55
     },
     {
@@ -13995,10 +14027,10 @@
       "count": 74
     },
     "Gibson": {
-      "avgPrice": 7474,
+      "avgPrice": 7432,
       "retailEst": 800,
-      "avgDiscount": -834.3,
-      "count": 132
+      "avgDiscount": -828.9,
+      "count": 133
     },
     "ESP": {
       "avgPrice": 3919186,
@@ -15523,15 +15555,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1000,
+      "total": 1001,
       "sold": 268,
       "fake": 0,
-      "live": 252,
+      "live": 253,
       "removed": 480,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Gibson": {
+        "total": 135,
+        "sold": 34,
+        "fake": 0,
+        "live": 27,
+        "removed": 74,
+        "soldPct": 25,
+        "livePct": 20
+      },
       "Fender": {
         "total": 77,
         "sold": 21,
@@ -15549,15 +15590,6 @@
         "removed": 7,
         "soldPct": 57,
         "livePct": 10
-      },
-      "Gibson": {
-        "total": 134,
-        "sold": 34,
-        "fake": 0,
-        "live": 26,
-        "removed": 74,
-        "soldPct": 25,
-        "livePct": 19
       },
       "Yamaha": {
         "total": 20,
@@ -17231,7 +17263,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 299,
+        "total": 300,
         "sold": 80,
         "rate": 27
       },
@@ -17261,6 +17293,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 50,
+        "sold": 8,
+        "rate": 16
+      },
       "Excellent": {
         "total": 149,
         "sold": 43,
@@ -17270,11 +17307,6 @@
         "total": 110,
         "sold": 33,
         "rate": 30
-      },
-      "Good": {
-        "total": 49,
-        "sold": 8,
-        "rate": 16
       },
       "B-Stock": {
         "total": 4,
@@ -17378,6 +17410,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 98,
+      "sum": 737362.94,
+      "avg": 7524,
+      "min": 135,
+      "max": 443302,
+      "sold": 21,
+      "soldSum": 62109.979999999996,
+      "soldAvg": 2958,
+      "live": 21,
+      "removed": 56,
+      "sellRate": 21,
+      "totalDays": 507.50000000000006,
+      "soldCount": 21,
+      "avgDaysToSell": 24.2
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -17415,25 +17466,6 @@
       "totalDays": 215.5,
       "soldCount": 9,
       "avgDaysToSell": 23.9
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 97,
-      "sum": 735562.94,
-      "avg": 7583,
-      "min": 135,
-      "max": 443302,
-      "sold": 21,
-      "soldSum": 62109.979999999996,
-      "soldAvg": 2958,
-      "live": 20,
-      "removed": 56,
-      "sellRate": 22,
-      "totalDays": 507.50000000000006,
-      "soldCount": 21,
-      "avgDaysToSell": 24.2
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -19178,9 +19210,9 @@
     },
     {
       "label": "1–5",
-      "total": 18,
+      "total": 19,
       "sold": 7,
-      "rate": 39
+      "rate": 37
     },
     {
       "label": "6–15",
@@ -19203,7 +19235,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 220,
+      "total": 221,
       "sold": 58,
       "rate": 26
     },
@@ -19215,9 +19247,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 144,
+      "total": 145,
       "sold": 31,
-      "rate": 22
+      "rate": 21
     },
     "regular": {
       "total": 140,
@@ -19399,6 +19431,12 @@
       "total": 3,
       "sold": 0,
       "rate": 0
+    },
+    {
+      "state": "OK",
+      "total": 2,
+      "sold": 1,
+      "rate": 50
     },
     {
       "state": "VA",
