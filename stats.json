@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-07T02:35:05.550Z",
-  "totalLinks": 1032,
-  "totalEver": 1080,
-  "totalBeforeFilter": 1080,
+  "generatedAt": "2026-05-07T02:42:43.110Z",
+  "totalLinks": 1033,
+  "totalEver": 1081,
+  "totalBeforeFilter": 1081,
   "fakeCount": 6,
   "removedCount": 493,
-  "totalWithPrice": 1015,
+  "totalWithPrice": 1016,
   "overall": {
-    "count": 989,
-    "sum": 2747678.13,
-    "avg": 2778,
+    "count": 990,
+    "sum": 2748778.12,
+    "avg": 2777,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 989,
-    "sum": 2747678.13,
-    "avg": 2778,
+    "count": 990,
+    "sum": 2748778.12,
+    "avg": 2777,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 84,
-      "sum": 202269.96,
+      "count": 85,
+      "sum": 203369.95,
       "min": 95,
       "max": 9999,
-      "avg": 2408
+      "avg": 2393
     },
     "2026-04": {
       "count": 778,
@@ -226,19 +226,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 28,
+      "sum": 79536.87,
+      "min": 599,
+      "max": 10495,
+      "avg": 2841
+    },
     "reverb": {
       "count": 861,
       "sum": 2381409.31,
       "min": 7,
       "max": 11059,
       "avg": 2766
-    },
-    "marketplace": {
-      "count": 27,
-      "sum": 78436.88,
-      "min": 599,
-      "max": 10495,
-      "avg": 2905
     },
     "other": {
       "count": 101,
@@ -249,19 +249,19 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 49,
+      "sum": 92637.54,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1891
+    },
     "reverb.com": {
       "count": 861,
       "sum": 2381409.31,
       "min": 7,
       "max": 11059,
       "avg": 2766
-    },
-    "guitarcenter.com": {
-      "count": 48,
-      "sum": 91537.55,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1907
     },
     "musicgoround.com": {
       "count": 3,
@@ -489,6 +489,37 @@
     }
   },
   "byModel": {
+    "mesa-boogie-dual-rectifier": {
+      "displayName": "Used MESA/Boogie Dual Rectifier Roadster Tube Guitar Combo Amp",
+      "brand": "Mesa Boogie",
+      "model": "Dual Rectifier",
+      "variant": null,
+      "count": 1,
+      "sum": 1099.99,
+      "min": 1099.99,
+      "max": 1099.99,
+      "sightings": [
+        {
+          "price": 1099.99,
+          "date": "2026-05-07T02:42:26.728+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used MESA/Boogie Dual Rectifier Roadster Tube Guitar Combo Amp",
+          "url": "https://www.guitarcenter.com/Used/MESA-Boogie/Used-MESA-Boogie-Dual-Rectifier-Roadster-Tube-Guitar-Combo-Amp-120121004.gc?algoliaQueryID=8ae6c2b13570395321098bd53f91bfe0&algoliaIndexName=pLH-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1099.99,
+          "min": 1099.99,
+          "max": 1099.99,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
+    },
     "gibson-melody-maker": {
       "displayName": "1968 Gibson Melody Maker Red (Changed Pickup, Guard, Bridge)",
       "brand": "Gibson",
@@ -1847,6 +1878,37 @@
       },
       "avg": 1350
     },
+    "bizen-works-standard-gold-top": {
+      "displayName": "2021 Bizen Works Standard Gold Top",
+      "brand": "Bizen Works",
+      "model": "Standard",
+      "variant": "Gold Top",
+      "count": 1,
+      "sum": 3675,
+      "min": 3675,
+      "max": 3675,
+      "sightings": [
+        {
+          "price": 3675,
+          "date": "2026-05-04T03:32:37.111+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2021 Bizen Works Standard Gold Top",
+          "url": "https://reverb.com/item/96691111-2021-bizen-works-standard-gold-top",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3675,
+          "min": 3675,
+          "max": 3675,
+          "avg": 3675
+        }
+      },
+      "avg": 3675
+    },
     "kiesel-vanquish": {
       "displayName": "Kiesel Vanquish 6",
       "brand": "Kiesel",
@@ -1923,37 +1985,6 @@
         }
       },
       "avg": 5600
-    },
-    "bizen-works-standard-gold-top": {
-      "displayName": "2021 Bizen Works Standard Gold Top",
-      "brand": "Bizen Works",
-      "model": "Standard",
-      "variant": "Gold Top",
-      "count": 1,
-      "sum": 3675,
-      "min": 3675,
-      "max": 3675,
-      "sightings": [
-        {
-          "price": 3675,
-          "date": "2026-05-04T03:32:37.111+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2021 Bizen Works Standard Gold Top",
-          "url": "https://reverb.com/item/96691111-2021-bizen-works-standard-gold-top",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 3675,
-          "min": 3675,
-          "max": 3675,
-          "avg": 3675
-        }
-      },
-      "avg": 3675
     },
     "kiesel-delos": {
       "displayName": "Kiesel Delos 6 - 2023",
@@ -12759,6 +12790,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 18,
+      "sum": 206777.88000000006,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 11488,
+      "min": 599.99,
+      "max": 99000
+    },
     "Good": {
       "count": 50,
       "sum": 116904.95,
@@ -12811,17 +12853,6 @@
       "avg": 1031,
       "min": 449,
       "max": 1710
-    },
-    "Used": {
-      "count": 17,
-      "sum": 205677.89000000004,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 12099,
-      "min": 599.99,
-      "max": 99000
     },
     "Mint": {
       "count": 10,
@@ -12891,9 +12922,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2408,
+      "avg": 2393,
       "median": 1700,
-      "count": 84
+      "count": 85
     },
     "04": {
       "name": "Apr",
@@ -13053,7 +13084,7 @@
   "priceDistribution": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 300,
+    "1k-2k": 301,
     "2k-3k": 208,
     "3k-5k": 213,
     "5k-10k": 111,
@@ -13062,13 +13093,18 @@
   "priceDistributionFiltered": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 300,
+    "1k-2k": 301,
     "2k-3k": 208,
     "3k-5k": 213,
     "5k-10k": 111,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Mesa Boogie": {
+      "sum": 66,
+      "count": 3,
+      "avg": 22
+    },
     "Gibson": {
       "sum": 3230,
       "count": 131,
@@ -13090,7 +13126,7 @@
       "avg": 25
     },
     "Ibanez": {
-      "sum": 1083,
+      "sum": 1084,
       "count": 44,
       "avg": 25
     },
@@ -13140,7 +13176,7 @@
       "avg": 25
     },
     "ESP": {
-      "sum": 553,
+      "sum": 554,
       "count": 23,
       "avg": 24
     },
@@ -13164,15 +13200,15 @@
       "count": 63,
       "avg": 24
     },
-    "Jackson": {
-      "sum": 651,
-      "count": 25,
-      "avg": 26
-    },
     "Bizen Works": {
       "sum": 3,
       "count": 1,
       "avg": 3
+    },
+    "Jackson": {
+      "sum": 651,
+      "count": 25,
+      "avg": 26
     },
     "Schecter": {
       "sum": 204,
@@ -13245,7 +13281,7 @@
       "avg": 6
     },
     "Warmoth": {
-      "sum": 82,
+      "sum": 83,
       "count": 4,
       "avg": 21
     },
@@ -13440,9 +13476,9 @@
       "avg": 16
     },
     "Brian Moore": {
-      "sum": 14,
+      "sum": 15,
       "count": 1,
-      "avg": 14
+      "avg": 15
     },
     "Duesenberg": {
       "sum": 50,
@@ -13784,11 +13820,6 @@
       "count": 1,
       "avg": 31
     },
-    "Mesa Boogie": {
-      "sum": 66,
-      "count": 2,
-      "avg": 33
-    },
     "Kauer": {
       "sum": 33,
       "count": 1,
@@ -13911,7 +13942,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-07": 1,
+    "2026-05-07": 2,
     "2026-05-06": 11,
     "2026-05-05": 16,
     "2026-05-04": 20,
@@ -13944,11 +13975,11 @@
     "2026-04-07": 13
   },
   "categoryDistribution": {
+    "marketplace": 39,
     "reverb": 879,
-    "marketplace": 38,
     "other": 115
   },
-  "activeModelsCount": 236,
+  "activeModelsCount": 237,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -13960,7 +13991,7 @@
     },
     {
       "username": "yellowjack6",
-      "count": 91
+      "count": 92
     },
     {
       "username": "shteefe",
@@ -15578,15 +15609,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1001,
+      "total": 1002,
       "sold": 269,
       "fake": 0,
-      "live": 252,
+      "live": 253,
       "removed": 480,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Mesa Boogie": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "removed": 1,
+        "soldPct": 33,
+        "livePct": 33
+      },
       "Gibson": {
         "total": 135,
         "sold": 34,
@@ -15767,15 +15807,6 @@
         "soldPct": 28,
         "livePct": 32
       },
-      "Jackson": {
-        "total": 25,
-        "sold": 3,
-        "fake": 0,
-        "live": 8,
-        "removed": 14,
-        "soldPct": 12,
-        "livePct": 32
-      },
       "Bizen Works": {
         "total": 1,
         "sold": 0,
@@ -15784,6 +15815,15 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
+      },
+      "Jackson": {
+        "total": 25,
+        "sold": 3,
+        "fake": 0,
+        "live": 8,
+        "removed": 14,
+        "soldPct": 12,
+        "livePct": 32
       },
       "Schecter": {
         "total": 10,
@@ -16892,15 +16932,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Mesa Boogie": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "removed": 1,
-        "soldPct": 50,
-        "livePct": 0
-      },
       "Kauer": {
         "total": 1,
         "sold": 0,
@@ -17286,7 +17317,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 300,
+        "total": 301,
         "sold": 80,
         "rate": 27
       },
@@ -17316,6 +17347,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 19,
+        "sold": 0,
+        "rate": 0
+      },
       "Good": {
         "total": 50,
         "sold": 8,
@@ -17333,11 +17369,6 @@
       },
       "B-Stock": {
         "total": 4,
-        "sold": 0,
-        "rate": 0
-      },
-      "Used": {
-        "total": 18,
         "sold": 0,
         "rate": 0
       },
@@ -17403,6 +17434,13 @@
         "sold": 15
       },
       {
+        "brand": "Mesa Boogie",
+        "avgPrice": 1117,
+        "sellRate": 33,
+        "count": 3,
+        "sold": 1
+      },
+      {
         "brand": "Cort",
         "avgPrice": 995,
         "sellRate": 33,
@@ -17455,7 +17493,7 @@
       "live": 21,
       "removed": 56,
       "sellRate": 21,
-      "totalDays": 508.7999999999999,
+      "totalDays": 508.99999999999994,
       "soldCount": 21,
       "avgDaysToSell": 24.2
     },
@@ -17474,7 +17512,7 @@
       "live": 8,
       "removed": 22,
       "sellRate": 29,
-      "totalDays": 366.40000000000003,
+      "totalDays": 366.50000000000006,
       "soldCount": 12,
       "avgDaysToSell": 30.5
     },
@@ -17493,7 +17531,7 @@
       "live": 2,
       "removed": 5,
       "sellRate": 56,
-      "totalDays": 216,
+      "totalDays": 216.1,
       "soldCount": 9,
       "avgDaysToSell": 24
     },
@@ -17585,7 +17623,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 40,
-      "totalDays": 156.4,
+      "totalDays": 156.60000000000002,
       "soldCount": 6,
       "avgDaysToSell": 26.1
     },
@@ -17623,7 +17661,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 40,
-      "totalDays": 372,
+      "totalDays": 372.1,
       "soldCount": 14,
       "avgDaysToSell": 26.6
     },
@@ -17922,9 +17960,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 120.69999999999999,
+      "totalDays": 120.80000000000001,
       "soldCount": 5,
-      "avgDaysToSell": 24.1
+      "avgDaysToSell": 24.2
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -18016,7 +18054,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 30,
-      "totalDays": 346.5,
+      "totalDays": 346.6,
       "soldCount": 6,
       "avgDaysToSell": 57.8
     },
@@ -18091,7 +18129,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 41.9,
+      "totalDays": 42,
       "soldCount": 2,
       "avgDaysToSell": 21
     },
@@ -18166,9 +18204,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 9.4,
+      "totalDays": 9.5,
       "soldCount": 1,
-      "avgDaysToSell": 9.4
+      "avgDaysToSell": 9.5
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -18222,7 +18260,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 80.69999999999999,
+      "totalDays": 80.80000000000001,
       "soldCount": 4,
       "avgDaysToSell": 20.2
     },
@@ -18241,9 +18279,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 32.2,
+      "totalDays": 32.3,
       "soldCount": 1,
-      "avgDaysToSell": 32.2
+      "avgDaysToSell": 32.3
     },
     "PRS|PRS S2": {
       "brand": "PRS",
