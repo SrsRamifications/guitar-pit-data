@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-07T03:35:04.652Z",
-  "totalLinks": 1034,
-  "totalEver": 1082,
-  "totalBeforeFilter": 1082,
+  "generatedAt": "2026-05-07T03:36:14.578Z",
+  "totalLinks": 1035,
+  "totalEver": 1083,
+  "totalBeforeFilter": 1083,
   "fakeCount": 6,
   "removedCount": 493,
-  "totalWithPrice": 1017,
+  "totalWithPrice": 1018,
   "overall": {
-    "count": 991,
-    "sum": 2750428.11,
-    "avg": 2775,
+    "count": 992,
+    "sum": 2751778.11,
+    "avg": 2774,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 991,
-    "sum": 2750428.11,
-    "avg": 2775,
+    "count": 992,
+    "sum": 2751778.11,
+    "avg": 2774,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11117,
+    "thresholdHigh": 11151,
     "thresholdLow": 0,
     "count": 26,
     "items": [
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 86,
-      "sum": 205019.94,
+      "count": 87,
+      "sum": 206369.94,
       "min": 95,
       "max": 9999,
-      "avg": 2384
+      "avg": 2372
     },
     "2026-04": {
       "count": 778,
@@ -226,19 +226,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 862,
+      "sum": 2382759.31,
+      "min": 7,
+      "max": 11059,
+      "avg": 2764
+    },
     "marketplace": {
       "count": 29,
       "sum": 81186.86,
       "min": 599,
       "max": 10495,
       "avg": 2800
-    },
-    "reverb": {
-      "count": 861,
-      "sum": 2381409.31,
-      "min": 7,
-      "max": 11059,
-      "avg": 2766
     },
     "other": {
       "count": 101,
@@ -249,19 +249,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 862,
+      "sum": 2382759.31,
+      "min": 7,
+      "max": 11059,
+      "avg": 2764
+    },
     "guitarcenter.com": {
       "count": 50,
       "sum": 94287.53,
       "min": 139.99,
       "max": 5499.99,
       "avg": 1886
-    },
-    "reverb.com": {
-      "count": 861,
-      "sum": 2381409.31,
-      "min": 7,
-      "max": 11059,
-      "avg": 2766
     },
     "musicgoround.com": {
       "count": 3,
@@ -490,12 +490,12 @@
   },
   "byModel": {
     "mesa-boogie-dual-rectifier": {
-      "displayName": "Used MESA/Boogie Dual Rectifier 100W Tube Guitar Amp Head",
+      "displayName": "Mesa Boogie Dual Rectifier \"Multi-Watt\" 3-Channel 100-Watt Guitar Amp Head 2010 - 2020",
       "brand": "Mesa Boogie",
       "model": "Dual Rectifier",
       "variant": null,
-      "count": 2,
-      "sum": 2749.98,
+      "count": 3,
+      "sum": 4099.98,
       "min": 1099.99,
       "max": 1649.99,
       "sightings": [
@@ -516,9 +516,25 @@
           "title": "Used MESA/Boogie Dual Rectifier 100W Tube Guitar Amp Head",
           "url": "https://www.guitarcenter.com/Used/MESA-Boogie/Used-MESA-Boogie-Dual-Rectifier-100W-Tube-Guitar-Amp-Head-122110956.gc?algoliaQueryID=96cc9b16fbd817773aa8569b368e938b&algoliaIndexName=guitarcenter",
           "condition": "Used"
+        },
+        {
+          "price": 1350,
+          "date": "2026-05-07T03:35:56.141+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Mesa Boogie Dual Rectifier \"Multi-Watt\" 3-Channel 100-Watt Guitar Amp Head 2010 - 2020",
+          "url": "https://reverb.com/item/96430903-mesa-boogie-dual-rectifier-multi-watt-3-channel-100-watt-guitar-amp-head-2010-2020",
+          "condition": "Very Good"
         }
       ],
       "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1350,
+          "min": 1350,
+          "max": 1350,
+          "avg": 1350
+        },
         "Used": {
           "count": 2,
           "sum": 2749.98,
@@ -527,7 +543,8 @@
           "avg": 1375
         }
       },
-      "avg": 1375
+      "avg": 1367,
+      "trends": {}
     },
     "gibson-melody-maker": {
       "displayName": "1968 Gibson Melody Maker Red (Changed Pickup, Guard, Bridge)",
@@ -12814,6 +12831,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 110,
+      "sum": 285261.55999999994,
+      "sold": {
+        "count": 34,
+        "sum": 79334.79,
+        "avg": 2333,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2593,
+      "min": 33,
+      "max": 14450
+    },
     "Used": {
       "count": 19,
       "sum": 208427.87000000005,
@@ -12852,20 +12883,6 @@
       "avg": 3438,
       "min": 173,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 109,
-      "sum": 283911.55999999994,
-      "sold": {
-        "count": 34,
-        "sum": 79334.79,
-        "avg": 2333,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2605,
-      "min": 33,
-      "max": 14450
     },
     "B-Stock": {
       "count": 4,
@@ -12946,9 +12963,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2384,
+      "avg": 2372,
       "median": 1700,
-      "count": 86
+      "count": 87
     },
     "04": {
       "name": "Apr",
@@ -13108,7 +13125,7 @@
   "priceDistribution": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 302,
+    "1k-2k": 303,
     "2k-3k": 208,
     "3k-5k": 213,
     "5k-10k": 111,
@@ -13117,7 +13134,7 @@
   "priceDistributionFiltered": {
     "0-500": 61,
     "500-1k": 85,
-    "1k-2k": 302,
+    "1k-2k": 303,
     "2k-3k": 208,
     "3k-5k": 213,
     "5k-10k": 111,
@@ -13125,9 +13142,9 @@
   },
   "daysOnMarket": {
     "Mesa Boogie": {
-      "sum": 66,
-      "count": 4,
-      "avg": 17
+      "sum": 73,
+      "count": 5,
+      "avg": 15
     },
     "Gibson": {
       "sum": 3234,
@@ -13360,7 +13377,7 @@
       "avg": 27
     },
     "Tokai": {
-      "sum": 136,
+      "sum": 137,
       "count": 4,
       "avg": 34
     },
@@ -13966,7 +13983,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-07": 3,
+    "2026-05-07": 4,
     "2026-05-06": 11,
     "2026-05-05": 16,
     "2026-05-04": 20,
@@ -13999,8 +14016,8 @@
     "2026-04-07": 13
   },
   "categoryDistribution": {
+    "reverb": 880,
     "marketplace": 40,
-    "reverb": 879,
     "other": 115
   },
   "activeModelsCount": 237,
@@ -15422,11 +15439,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1473.3226213525409,
-      "count": 77,
+      "totalPctDrop": 1489.5757230895135,
+      "count": 78,
       "avgPctDrop": 19.1
     },
     "byBrand": {
+      "Mesa Boogie": {
+        "totalPctDrop": 16.253101736972706,
+        "count": 1,
+        "avgPctDrop": 16.3
+      },
       "Gibson": {
         "totalPctDrop": 88.22224574631923,
         "count": 8,
@@ -15641,23 +15663,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1003,
+      "total": 1004,
       "sold": 270,
       "fake": 0,
-      "live": 253,
+      "live": 254,
       "removed": 480,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
       "Mesa Boogie": {
-        "total": 4,
+        "total": 5,
         "sold": 1,
         "fake": 0,
-        "live": 2,
+        "live": 3,
         "removed": 1,
-        "soldPct": 25,
-        "livePct": 50
+        "soldPct": 20,
+        "livePct": 60
       },
       "Gibson": {
         "total": 135,
@@ -17349,7 +17371,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 302,
+        "total": 303,
         "sold": 80,
         "rate": 26
       },
@@ -17379,6 +17401,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 111,
+        "sold": 34,
+        "rate": 31
+      },
       "Used": {
         "total": 20,
         "sold": 0,
@@ -17393,11 +17420,6 @@
         "total": 149,
         "sold": 44,
         "rate": 30
-      },
-      "Very Good": {
-        "total": 110,
-        "sold": 34,
-        "rate": 31
       },
       "B-Stock": {
         "total": 4,
@@ -17518,7 +17540,7 @@
       "live": 21,
       "removed": 56,
       "sellRate": 21,
-      "totalDays": 509.59999999999997,
+      "totalDays": 509.7,
       "soldCount": 21,
       "avgDaysToSell": 24.3
     },
@@ -17556,9 +17578,9 @@
       "live": 2,
       "removed": 5,
       "sellRate": 56,
-      "totalDays": 216.4,
+      "totalDays": 216.5,
       "soldCount": 9,
-      "avgDaysToSell": 24
+      "avgDaysToSell": 24.1
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -17741,9 +17763,9 @@
       "live": 4,
       "removed": 9,
       "sellRate": 24,
-      "totalDays": 111.3,
+      "totalDays": 111.4,
       "soldCount": 4,
-      "avgDaysToSell": 27.8
+      "avgDaysToSell": 27.9
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -17836,7 +17858,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 98.8,
+      "totalDays": 98.89999999999999,
       "soldCount": 4,
       "avgDaysToSell": 24.7
     },
@@ -19285,8 +19307,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 113,
-    "totalOffers": 227,
+    "withOffers": 114,
+    "totalOffers": 229,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 25
   },
@@ -19315,7 +19337,7 @@
     },
     {
       "label": "16–30",
-      "total": 97,
+      "total": 98,
       "sold": 25,
       "rate": 26
     },
@@ -19328,7 +19350,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 221,
+      "total": 222,
       "sold": 59,
       "rate": 27
     },
@@ -19345,7 +19367,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 140,
+      "total": 141,
       "sold": 39,
       "rate": 28
     }
