@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-07T00:35:05.685Z",
-  "totalLinks": 1031,
-  "totalEver": 1077,
-  "totalBeforeFilter": 1077,
+  "generatedAt": "2026-05-07T00:41:41.328Z",
+  "totalLinks": 1032,
+  "totalEver": 1078,
+  "totalBeforeFilter": 1078,
   "fakeCount": 5,
   "removedCount": 493,
-  "totalWithPrice": 1014,
+  "totalWithPrice": 1015,
   "overall": {
-    "count": 988,
-    "sum": 2745640.13,
-    "avg": 2779,
+    "count": 989,
+    "sum": 2745790.13,
+    "avg": 2776,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 988,
-    "sum": 2745640.13,
-    "avg": 2779,
+    "count": 989,
+    "sum": 2745790.13,
+    "avg": 2776,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11241,
+    "thresholdHigh": 11275,
     "thresholdLow": 0,
     "count": 26,
     "items": [
@@ -204,11 +204,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 83,
-      "sum": 200448.96,
+      "count": 84,
+      "sum": 200598.96,
       "min": 95,
       "max": 9999,
-      "avg": 2415
+      "avg": 2388
     },
     "2026-04": {
       "count": 778,
@@ -227,11 +227,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 860,
-      "sum": 2379371.31,
+      "count": 861,
+      "sum": 2379521.31,
       "min": 7,
       "max": 11053,
-      "avg": 2767
+      "avg": 2764
     },
     "marketplace": {
       "count": 27,
@@ -250,11 +250,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 860,
-      "sum": 2379371.31,
+      "count": 861,
+      "sum": 2379521.31,
       "min": 7,
       "max": 11053,
-      "avg": 2767
+      "avg": 2764
     },
     "guitarcenter.com": {
       "count": 48,
@@ -489,6 +489,37 @@
     }
   },
   "byModel": {
+    "echopark-arcane-foil-neck": {
+      "displayName": "Echopark Arcane Gold foil neck pickup Mid 2010s - See photos",
+      "brand": "Echopark",
+      "model": "Arcane foil neck",
+      "variant": null,
+      "count": 1,
+      "sum": 150,
+      "min": 150,
+      "max": 150,
+      "sightings": [
+        {
+          "price": 150,
+          "date": "2026-05-07T00:41:22.939+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark Arcane Gold foil neck pickup Mid 2010s - See photos",
+          "url": "https://reverb.com/item/96836665-echopark-arcane-gold-foil-neck-pickup-mid-2010s-see-photos",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 150,
+          "min": 150,
+          "max": 150,
+          "avg": 150
+        }
+      },
+      "avg": 150
+    },
     "fender-stratocaster-custom-shop": {
       "displayName": "Fender Custom Shop GT11 Stratocaster Relic",
       "brand": "Fender",
@@ -1213,37 +1244,6 @@
       },
       "avg": 602
     },
-    "heritage-h150-gloss": {
-      "displayName": "Heritage H150 2025 Gloss Lacquer",
-      "brand": "Heritage",
-      "model": "H150",
-      "variant": "Gloss",
-      "count": 1,
-      "sum": 1700,
-      "min": 1700,
-      "max": 1700,
-      "sightings": [
-        {
-          "price": 1700,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Heritage H150 2025 Gloss Lacquer",
-          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1700,
-          "min": 1700,
-          "max": 1700,
-          "avg": 1700
-        }
-      },
-      "avg": 1700
-    },
     "music-man-axis": {
       "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
       "brand": "Music Man",
@@ -1274,6 +1274,37 @@
         }
       },
       "avg": 1675
+    },
+    "heritage-h150-gloss": {
+      "displayName": "Heritage H150 2025 Gloss Lacquer",
+      "brand": "Heritage",
+      "model": "H150",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 1700,
+      "min": 1700,
+      "max": 1700,
+      "sightings": [
+        {
+          "price": 1700,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Heritage H150 2025 Gloss Lacquer",
+          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "avg": 1700
     },
     "prs-mccarty-594-artist-package": {
       "displayName": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
@@ -12714,8 +12745,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 149,
-      "sum": 512168.73,
+      "count": 150,
+      "sum": 512318.73,
       "sold": {
         "count": 40,
         "sum": 159410.45,
@@ -12723,8 +12754,8 @@
         "min": 275,
         "max": 35900
       },
-      "avg": 3437,
-      "min": 172,
+      "avg": 3415,
+      "min": 150,
       "max": 35900
     },
     "Very Good": {
@@ -12845,9 +12876,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2415,
+      "avg": 2388,
       "median": 1700,
-      "count": 83
+      "count": 84
     },
     "04": {
       "name": "Apr",
@@ -13005,7 +13036,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 61,
+    "0-500": 62,
     "500-1k": 85,
     "1k-2k": 299,
     "2k-3k": 208,
@@ -13014,7 +13045,7 @@
     "10k+": 37
   },
   "priceDistributionFiltered": {
-    "0-500": 61,
+    "0-500": 62,
     "500-1k": 85,
     "1k-2k": 299,
     "2k-3k": 208,
@@ -13023,6 +13054,11 @@
     "10k+": 11
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 456,
+      "count": 19,
+      "avg": 24
+    },
     "Fender": {
       "sum": 1601,
       "count": 70,
@@ -13087,11 +13123,6 @@
       "sum": 37,
       "count": 2,
       "avg": 19
-    },
-    "Echopark": {
-      "sum": 456,
-      "count": 18,
-      "avg": 25
     },
     "ESP": {
       "sum": 551,
@@ -13865,6 +13896,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-05-07": 1,
     "2026-05-06": 11,
     "2026-05-05": 16,
     "2026-05-04": 20,
@@ -13897,11 +13929,11 @@
     "2026-04-07": 16
   },
   "categoryDistribution": {
-    "reverb": 878,
+    "reverb": 879,
     "marketplace": 38,
     "other": 115
   },
-  "activeModelsCount": 235,
+  "activeModelsCount": 236,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -13920,11 +13952,11 @@
       "count": 87
     },
     {
-      "username": "wontongg",
-      "count": 55
+      "username": "madero",
+      "count": 56
     },
     {
-      "username": "madero",
+      "username": "wontongg",
       "count": 55
     },
     {
@@ -14055,10 +14087,10 @@
       "count": 37
     },
     "Echopark": {
-      "avgPrice": 4400,
+      "avgPrice": 4176,
       "retailEst": 2500,
-      "avgDiscount": -76,
-      "count": 18
+      "avgDiscount": -67,
+      "count": 19
     },
     "Eastman": {
       "avgPrice": 1536,
@@ -15523,15 +15555,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1000,
+      "total": 1001,
       "sold": 268,
       "fake": 0,
-      "live": 252,
+      "live": 253,
       "removed": 480,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Echopark": {
+        "total": 19,
+        "sold": 4,
+        "fake": 0,
+        "live": 6,
+        "removed": 9,
+        "soldPct": 21,
+        "livePct": 32
+      },
       "Fender": {
         "total": 77,
         "sold": 21,
@@ -15657,15 +15698,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 50
-      },
-      "Echopark": {
-        "total": 18,
-        "sold": 4,
-        "fake": 0,
-        "live": 5,
-        "removed": 9,
-        "soldPct": 22,
-        "livePct": 28
       },
       "ESP": {
         "total": 24,
@@ -17219,7 +17251,7 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 61,
+        "total": 62,
         "sold": 14,
         "rate": 23
       },
@@ -17262,7 +17294,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 149,
+        "total": 150,
         "sold": 43,
         "rate": 29
       },
@@ -17378,6 +17410,25 @@
     ]
   },
   "byBrandLine": {
+    "Echopark|Echopark": {
+      "brand": "Echopark",
+      "brandLine": "Echopark",
+      "tier": "premium",
+      "count": 18,
+      "sum": 75695.98999999999,
+      "avg": 4205,
+      "min": 150,
+      "max": 11500,
+      "sold": 4,
+      "soldSum": 15182,
+      "soldAvg": 3796,
+      "live": 5,
+      "removed": 9,
+      "sellRate": 22,
+      "totalDays": 110.79999999999998,
+      "soldCount": 4,
+      "avgDaysToSell": 27.7
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -17393,9 +17444,9 @@
       "live": 8,
       "removed": 22,
       "sellRate": 29,
-      "totalDays": 365.29999999999995,
+      "totalDays": 365.4,
       "soldCount": 12,
-      "avgDaysToSell": 30.4
+      "avgDaysToSell": 30.5
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -17412,7 +17463,7 @@
       "live": 2,
       "removed": 5,
       "sellRate": 56,
-      "totalDays": 215.3,
+      "totalDays": 215.5,
       "soldCount": 9,
       "avgDaysToSell": 23.9
     },
@@ -17431,7 +17482,7 @@
       "live": 20,
       "removed": 56,
       "sellRate": 22,
-      "totalDays": 506.90000000000003,
+      "totalDays": 507,
       "soldCount": 21,
       "avgDaysToSell": 24.1
     },
@@ -17450,7 +17501,7 @@
       "live": 2,
       "removed": 17,
       "sellRate": 41,
-      "totalDays": 367.90000000000003,
+      "totalDays": 368.00000000000006,
       "soldCount": 13,
       "avgDaysToSell": 28.3
     },
@@ -17542,7 +17593,7 @@
       "live": 12,
       "removed": 37,
       "sellRate": 32,
-      "totalDays": 676.8000000000001,
+      "totalDays": 677.0999999999999,
       "soldCount": 23,
       "avgDaysToSell": 29.4
     },
@@ -17561,7 +17612,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 40,
-      "totalDays": 370.9,
+      "totalDays": 371.09999999999997,
       "soldCount": 14,
       "avgDaysToSell": 26.5
     },
@@ -17600,25 +17651,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Echopark|Echopark": {
-      "brand": "Echopark",
-      "brandLine": "Echopark",
-      "tier": "premium",
-      "count": 17,
-      "sum": 75545.98999999999,
-      "avg": 4444,
-      "min": 2599.99,
-      "max": 11500,
-      "sold": 4,
-      "soldSum": 15182,
-      "soldAvg": 3796,
-      "live": 4,
-      "removed": 9,
-      "sellRate": 24,
-      "totalDays": 110.79999999999998,
-      "soldCount": 4,
-      "avgDaysToSell": 27.7
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -17748,9 +17780,9 @@
       "live": 4,
       "removed": 10,
       "sellRate": 7,
-      "totalDays": 18.2,
+      "totalDays": 18.3,
       "soldCount": 1,
-      "avgDaysToSell": 18.2
+      "avgDaysToSell": 18.3
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -18141,9 +18173,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 47,
+      "totalDays": 47.1,
       "soldCount": 2,
-      "avgDaysToSell": 23.5
+      "avgDaysToSell": 23.6
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -18383,9 +18415,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 34.7,
+      "totalDays": 34.8,
       "soldCount": 1,
-      "avgDaysToSell": 34.7
+      "avgDaysToSell": 34.8
     },
     "Fender|Fender Masterbuilt": {
       "brand": "Fender",
@@ -18420,7 +18452,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 80.30000000000001,
+      "totalDays": 80.4,
       "soldCount": 2,
       "avgDaysToSell": 40.2
     },
@@ -19178,9 +19210,9 @@
     },
     {
       "label": "1–5",
-      "total": 18,
+      "total": 19,
       "sold": 7,
-      "rate": 39
+      "rate": 37
     },
     {
       "label": "6–15",
@@ -19203,7 +19235,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 220,
+      "total": 221,
       "sold": 58,
       "rate": 26
     },
@@ -19220,7 +19252,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 140,
+      "total": 141,
       "sold": 38,
       "rate": 27
     }
@@ -19317,6 +19349,12 @@
       "rate": 17
     },
     {
+      "state": "SC",
+      "total": 5,
+      "sold": 2,
+      "rate": 40
+    },
+    {
       "state": "NJ",
       "total": 5,
       "sold": 2,
@@ -19342,12 +19380,6 @@
     },
     {
       "state": "AL",
-      "total": 4,
-      "sold": 2,
-      "rate": 50
-    },
-    {
-      "state": "SC",
       "total": 4,
       "sold": 2,
       "rate": 50
