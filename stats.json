@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-08T03:20:04.271Z",
-  "totalLinks": 1048,
-  "totalEver": 1098,
-  "totalBeforeFilter": 1098,
+  "generatedAt": "2026-05-08T03:26:07.382Z",
+  "totalLinks": 1049,
+  "totalEver": 1099,
+  "totalBeforeFilter": 1099,
   "fakeCount": 6,
   "removedCount": 498,
-  "totalWithPrice": 1031,
+  "totalWithPrice": 1032,
   "overall": {
-    "count": 1000,
-    "sum": 2731026.1,
-    "avg": 2731,
+    "count": 1001,
+    "sum": 2733026.1,
+    "avg": 2730,
     "min": 3,
     "max": 10900
   },
   "filtered": {
-    "count": 1000,
-    "sum": 2731026.1,
-    "avg": 2731,
+    "count": 1001,
+    "sum": 2733026.1,
+    "avg": 2730,
     "min": 3,
     "max": 10900,
     "median": 2200
@@ -238,11 +238,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 99,
-      "sum": 229777.93,
+      "count": 100,
+      "sum": 231777.93,
       "min": 95,
       "max": 9000,
-      "avg": 2321
+      "avg": 2318
     },
     "2026-04": {
       "count": 774,
@@ -260,19 +260,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 872,
+      "sum": 2382001.31,
+      "min": 7,
+      "max": 10900,
+      "avg": 2732
+    },
     "marketplace": {
       "count": 30,
       "sum": 85286.85,
       "min": 599,
       "max": 10495,
       "avg": 2843
-    },
-    "reverb": {
-      "count": 871,
-      "sum": 2380001.31,
-      "min": 7,
-      "max": 10900,
-      "avg": 2732
     },
     "other": {
       "count": 99,
@@ -283,19 +283,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 872,
+      "sum": 2382001.31,
+      "min": 7,
+      "max": 10900,
+      "avg": 2732
+    },
     "guitarcenter.com": {
       "count": 51,
       "sum": 98387.52,
       "min": 139.99,
       "max": 5499.99,
       "avg": 1929
-    },
-    "reverb.com": {
-      "count": 871,
-      "sum": 2380001.31,
-      "min": 7,
-      "max": 10900,
-      "avg": 2732
     },
     "musicgoround.com": {
       "count": 3,
@@ -523,6 +523,37 @@
     }
   },
   "byModel": {
+    "matchless-clubman-35-watt-guitar": {
+      "displayName": "Matchless Clubman 35-Watt Guitar Amp Head",
+      "brand": "Matchless",
+      "model": "Clubman 35-Watt Guitar",
+      "variant": null,
+      "count": 1,
+      "sum": 2000,
+      "min": 2000,
+      "max": 2000,
+      "sightings": [
+        {
+          "price": 2000,
+          "date": "2026-05-08T03:25:51.861+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Matchless Clubman 35-Watt Guitar Amp Head",
+          "url": "https://reverb.com/item/96868312-matchless-clubman-35-watt-guitar-amp-head",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2000,
+          "min": 2000,
+          "max": 2000,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "gibson-les-paul-custom-classic": {
       "displayName": "Gibson Les Paul Custom Classic 2007 - Ebony",
       "brand": "Gibson",
@@ -1706,37 +1737,6 @@
       },
       "avg": 602
     },
-    "prs-mccarty-594-artist-package": {
-      "displayName": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
-      "brand": "PRS",
-      "model": "McCarty 594",
-      "variant": "Artist Package",
-      "count": 1,
-      "sum": 3500,
-      "min": 3500,
-      "max": 3500,
-      "sightings": [
-        {
-          "price": 3500,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
-          "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3500,
-          "min": 3500,
-          "max": 3500,
-          "avg": 3500
-        }
-      },
-      "avg": 3500
-    },
     "music-man-axis": {
       "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
       "brand": "Music Man",
@@ -1798,6 +1798,37 @@
         }
       },
       "avg": 1700
+    },
+    "prs-mccarty-594-artist-package": {
+      "displayName": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
+      "brand": "PRS",
+      "model": "McCarty 594",
+      "variant": "Artist Package",
+      "count": 1,
+      "sum": 3500,
+      "min": 3500,
+      "max": 3500,
+      "sightings": [
+        {
+          "price": 3500,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
+          "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3500,
+          "min": 3500,
+          "max": 3500,
+          "avg": 3500
+        }
+      },
+      "avg": 3500
     },
     "marconilab-headless": {
       "displayName": "Marconilab Ego hyper LSD headless guitar",
@@ -13265,6 +13296,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 54,
+      "sum": 127232.95,
+      "sold": {
+        "count": 8,
+        "sum": 16035.48,
+        "avg": 2004,
+        "min": 999,
+        "max": 4777.5
+      },
+      "avg": 2356,
+      "min": 70,
+      "max": 11475
+    },
     "Used": {
       "count": 20,
       "sum": 212527.86000000004,
@@ -13275,20 +13320,6 @@
       "avg": 10626,
       "min": 599.99,
       "max": 99000
-    },
-    "Good": {
-      "count": 53,
-      "sum": 125232.95,
-      "sold": {
-        "count": 8,
-        "sum": 16035.48,
-        "avg": 2004,
-        "min": 999,
-        "max": 4777.5
-      },
-      "avg": 2363,
-      "min": 70,
-      "max": 11475
     },
     "Excellent": {
       "count": 154,
@@ -13397,9 +13428,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2321,
-      "median": 1800,
-      "count": 99
+      "avg": 2318,
+      "median": 1825,
+      "count": 100
     },
     "04": {
       "name": "Apr",
@@ -13423,18 +13454,18 @@
       "date": "2026-05-07T17:50:13.965+00:00"
     },
     {
-      "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
-      "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
-      "oldPrice": "$4,000",
-      "newPrice": "$3,500",
-      "date": "2026-05-05T05:50:07.32+00:00"
-    },
-    {
       "title": "Heritage H150 2025 Gloss Lacquer",
       "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
       "oldPrice": "$2,000",
       "newPrice": "$1,700",
       "date": "2026-05-06T05:50:28.932+00:00"
+    },
+    {
+      "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
+      "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
+      "oldPrice": "$4,000",
+      "newPrice": "$3,500",
+      "date": "2026-05-05T05:50:07.32+00:00"
     },
     {
       "title": "Cipher Guitars IRONBIRD Tribute(Compare to BC Rich) 2026 - Royal blue and black crackle, high end upgrades, BRAND NEW",
@@ -13560,7 +13591,7 @@
     "0-500": 61,
     "500-1k": 86,
     "1k-2k": 305,
-    "2k-3k": 215,
+    "2k-3k": 216,
     "3k-5k": 216,
     "5k-10k": 110,
     "10k+": 38
@@ -13569,12 +13600,17 @@
     "0-500": 61,
     "500-1k": 86,
     "1k-2k": 305,
-    "2k-3k": 215,
+    "2k-3k": 216,
     "3k-5k": 216,
     "5k-10k": 110,
     "10k+": 7
   },
   "daysOnMarket": {
+    "Matchless": {
+      "sum": 30,
+      "count": 2,
+      "avg": 15
+    },
     "Gibson": {
       "sum": 3417,
       "count": 134,
@@ -13601,7 +13637,7 @@
       "avg": 24
     },
     "Ibanez": {
-      "sum": 1129,
+      "sum": 1131,
       "count": 45,
       "avg": 25
     },
@@ -13616,7 +13652,7 @@
       "avg": 16
     },
     "Fender": {
-      "sum": 1676,
+      "sum": 1677,
       "count": 70,
       "avg": 24
     },
@@ -13626,7 +13662,7 @@
       "avg": 25
     },
     "Yamaha": {
-      "sum": 517,
+      "sum": 518,
       "count": 20,
       "avg": 26
     },
@@ -13636,7 +13672,7 @@
       "avg": 28
     },
     "PRS": {
-      "sum": 2400,
+      "sum": 2402,
       "count": 88,
       "avg": 27
     },
@@ -13696,7 +13732,7 @@
       "avg": 14
     },
     "BC Rich": {
-      "sum": 1589,
+      "sum": 1592,
       "count": 63,
       "avg": 25
     },
@@ -13721,7 +13757,7 @@
       "avg": 19
     },
     "Vintage": {
-      "sum": 474,
+      "sum": 475,
       "count": 21,
       "avg": 23
     },
@@ -13801,7 +13837,7 @@
       "avg": 12
     },
     "Frank": {
-      "sum": 69,
+      "sum": 70,
       "count": 3,
       "avg": 23
     },
@@ -13836,7 +13872,7 @@
       "avg": 11
     },
     "Charvel": {
-      "sum": 282,
+      "sum": 283,
       "count": 12,
       "avg": 24
     },
@@ -13866,7 +13902,7 @@
       "avg": 14
     },
     "Eastman": {
-      "sum": 347,
+      "sum": 348,
       "count": 14,
       "avg": 25
     },
@@ -13971,7 +14007,7 @@
       "avg": 26
     },
     "Rickenbacker": {
-      "sum": 561,
+      "sum": 562,
       "count": 24,
       "avg": 23
     },
@@ -14255,11 +14291,6 @@
       "count": 1,
       "avg": 30
     },
-    "Matchless": {
-      "sum": 30,
-      "count": 1,
-      "avg": 30
-    },
     "Ampeg": {
       "sum": 62,
       "count": 2,
@@ -14326,9 +14357,9 @@
       "avg": 35
     },
     "Obstructures": {
-      "sum": 35,
+      "sum": 36,
       "count": 1,
-      "avg": 35
+      "avg": 36
     },
     "Mojotone": {
       "sum": 36,
@@ -14381,9 +14412,9 @@
       "avg": 41
     },
     "Languedoc": {
-      "sum": 40,
+      "sum": 41,
       "count": 1,
-      "avg": 40
+      "avg": 41
     },
     "Fender Custom Shop": {
       "sum": 82,
@@ -14422,7 +14453,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-08": 3,
+    "2026-05-08": 4,
     "2026-05-07": 14,
     "2026-05-06": 11,
     "2026-05-05": 16,
@@ -14455,11 +14486,11 @@
     "2026-04-08": 37
   },
   "categoryDistribution": {
+    "reverb": 893,
     "marketplace": 41,
-    "reverb": 892,
     "other": 115
   },
-  "activeModelsCount": 247,
+  "activeModelsCount": 248,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -14479,7 +14510,7 @@
     },
     {
       "username": "madero",
-      "count": 57
+      "count": 58
     },
     {
       "username": "wontongg",
@@ -16174,15 +16205,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1014,
+      "total": 1015,
       "sold": 277,
       "fake": 0,
-      "live": 252,
+      "live": 253,
       "removed": 485,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Matchless": {
+        "total": 2,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "removed": 0,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Gibson": {
         "total": 139,
         "sold": 34,
@@ -17416,15 +17456,6 @@
         "soldPct": 0,
         "livePct": 0
       },
-      "Matchless": {
-        "total": 1,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "removed": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Ampeg": {
         "total": 2,
         "sold": 0,
@@ -17897,7 +17928,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 215,
+        "total": 216,
         "sold": 72,
         "rate": 33
       },
@@ -17921,15 +17952,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 54,
+        "sold": 9,
+        "rate": 17
+      },
       "Used": {
         "total": 21,
         "sold": 0,
         "rate": 0
-      },
-      "Good": {
-        "total": 53,
-        "sold": 9,
-        "rate": 17
       },
       "Excellent": {
         "total": 154,
@@ -18414,7 +18445,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 42,
-      "totalDays": 126.3,
+      "totalDays": 126.39999999999999,
       "soldCount": 5,
       "avgDaysToSell": 25.3
     },
@@ -18657,7 +18688,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 30,
-      "totalDays": 352.6,
+      "totalDays": 352.70000000000005,
       "soldCount": 6,
       "avgDaysToSell": 58.8
     },
@@ -18713,9 +18744,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 36.2,
+      "totalDays": 36.3,
       "soldCount": 1,
-      "avgDaysToSell": 36.2
+      "avgDaysToSell": 36.3
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -19827,8 +19858,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 121,
-    "totalOffers": 243,
+    "withOffers": 122,
+    "totalOffers": 245,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 26
   },
@@ -19857,7 +19888,7 @@
     },
     {
       "label": "16–30",
-      "total": 104,
+      "total": 105,
       "sold": 28,
       "rate": 27
     },
@@ -19870,7 +19901,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 230,
+      "total": 231,
       "sold": 65,
       "rate": 28
     },
@@ -19882,7 +19913,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 152,
+      "total": 153,
       "sold": 34,
       "rate": 22
     },
@@ -19913,9 +19944,9 @@
     },
     {
       "state": "IL",
-      "total": 15,
+      "total": 16,
       "sold": 3,
-      "rate": 20
+      "rate": 19
     },
     {
       "state": "FL",
