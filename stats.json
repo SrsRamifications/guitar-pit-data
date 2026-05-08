@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-08T21:35:05.086Z",
-  "totalLinks": 1062,
-  "totalEver": 1112,
-  "totalBeforeFilter": 1112,
+  "generatedAt": "2026-05-08T21:43:06.760Z",
+  "totalLinks": 1063,
+  "totalEver": 1113,
+  "totalBeforeFilter": 1113,
   "fakeCount": 6,
   "removedCount": 498,
-  "totalWithPrice": 1045,
+  "totalWithPrice": 1046,
   "overall": {
-    "count": 1013,
-    "sum": 2753336.1,
-    "avg": 2718,
+    "count": 1014,
+    "sum": 2754835.1,
+    "avg": 2717,
     "min": 3,
     "max": 10800
   },
   "filtered": {
-    "count": 1013,
-    "sum": 2753336.1,
-    "avg": 2718,
+    "count": 1014,
+    "sum": 2754835.1,
+    "avg": 2717,
     "min": 3,
     "max": 10800,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
     "thresholdHigh": 10801,
@@ -244,11 +244,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 113,
-      "sum": 263107.93,
+      "count": 114,
+      "sum": 264606.93,
       "min": 95,
       "max": 9000,
-      "avg": 2328
+      "avg": 2321
     },
     "2026-04": {
       "count": 773,
@@ -267,11 +267,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 882,
-      "sum": 2396417.31,
+      "count": 883,
+      "sum": 2397916.31,
       "min": 7,
       "max": 10800,
-      "avg": 2717
+      "avg": 2716
     },
     "marketplace": {
       "count": 32,
@@ -290,11 +290,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 882,
-      "sum": 2396417.31,
+      "count": 883,
+      "sum": 2397916.31,
       "min": 7,
       "max": 10800,
-      "avg": 2717
+      "avg": 2716
     },
     "guitarcenter.com": {
       "count": 52,
@@ -529,6 +529,37 @@
     }
   },
   "byModel": {
+    "gibson-melody-maker-60s": {
+      "displayName": "Gibson SG Melody Maker D White Late '60s",
+      "brand": "Gibson",
+      "model": "Melody Maker",
+      "variant": "60s",
+      "count": 1,
+      "sum": 1499,
+      "min": 1499,
+      "max": 1499,
+      "sightings": [
+        {
+          "price": 1499,
+          "date": "2026-05-08T21:42:49.353+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson SG Melody Maker D White Late '60s",
+          "url": "https://reverb.com/item/96910815-gibson-sg-melody-maker-d-white-late-60s",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1499,
+          "min": 1499,
+          "max": 1499,
+          "avg": 1499
+        }
+      },
+      "avg": 1499
+    },
     "dunable-r2": {
       "displayName": "Dunable R2 2023 - Red Tobacco burst",
       "brand": "Dunable",
@@ -13641,6 +13672,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 56,
+      "sum": 133726.95,
+      "sold": {
+        "count": 8,
+        "sum": 16035.48,
+        "avg": 2004,
+        "min": 999,
+        "max": 4777.5
+      },
+      "avg": 2388,
+      "min": 70,
+      "max": 11475
+    },
     "Very Good": {
       "count": 118,
       "sum": 298945.55999999994,
@@ -13708,20 +13753,6 @@
       "min": 135,
       "max": 14670
     },
-    "Good": {
-      "count": 55,
-      "sum": 132227.95,
-      "sold": {
-        "count": 8,
-        "sum": 16035.48,
-        "avg": 2004,
-        "min": 999,
-        "max": 4777.5
-      },
-      "avg": 2404,
-      "min": 70,
-      "max": 11475
-    },
     "B-Stock": {
       "count": 4,
       "sum": 4124,
@@ -13773,9 +13804,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2328,
-      "median": 1850,
-      "count": 113
+      "avg": 2321,
+      "median": 1825,
+      "count": 114
     },
     "04": {
       "name": "Apr",
@@ -13935,7 +13966,7 @@
   "priceDistribution": {
     "0-500": 62,
     "500-1k": 88,
-    "1k-2k": 309,
+    "1k-2k": 310,
     "2k-3k": 219,
     "3k-5k": 217,
     "5k-10k": 112,
@@ -13944,13 +13975,18 @@
   "priceDistributionFiltered": {
     "0-500": 62,
     "500-1k": 88,
-    "1k-2k": 309,
+    "1k-2k": 310,
     "2k-3k": 219,
     "3k-5k": 217,
     "5k-10k": 112,
     "10k+": 6
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 3535,
+      "count": 135,
+      "avg": 26
+    },
     "Dunable": {
       "sum": 137,
       "count": 6,
@@ -13990,11 +14026,6 @@
       "sum": 32,
       "count": 2,
       "avg": 16
-    },
-    "Gibson": {
-      "sum": 3535,
-      "count": 134,
-      "avg": 26
     },
     "Knaggs": {
       "sum": 271,
@@ -14272,7 +14303,7 @@
       "avg": 15
     },
     "Eastman": {
-      "sum": 360,
+      "sum": 361,
       "count": 14,
       "avg": 26
     },
@@ -14803,7 +14834,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-08": 17,
+    "2026-05-08": 18,
     "2026-05-07": 14,
     "2026-05-06": 11,
     "2026-05-05": 16,
@@ -14836,11 +14867,11 @@
     "2026-04-08": 5
   },
   "categoryDistribution": {
-    "reverb": 904,
+    "reverb": 905,
     "marketplace": 43,
     "other": 115
   },
-  "activeModelsCount": 258,
+  "activeModelsCount": 259,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -14859,12 +14890,12 @@
       "count": 89
     },
     {
-      "username": "wontongg",
+      "username": "madero",
       "count": 59
     },
     {
-      "username": "madero",
-      "count": 58
+      "username": "wontongg",
+      "count": 59
     },
     {
       "username": "Modean",
@@ -14934,10 +14965,10 @@
       "count": 74
     },
     "Gibson": {
-      "avgPrice": 7305,
+      "avgPrice": 7263,
       "retailEst": 800,
-      "avgDiscount": -813.1,
-      "count": 137
+      "avgDiscount": -807.8,
+      "count": 138
     },
     "ESP": {
       "avgPrice": 3919187,
@@ -16581,15 +16612,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1024,
+      "total": 1025,
       "sold": 279,
       "fake": 0,
-      "live": 260,
+      "live": 261,
       "removed": 485,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Gibson": {
+        "total": 140,
+        "sold": 34,
+        "fake": 0,
+        "live": 30,
+        "removed": 76,
+        "soldPct": 24,
+        "livePct": 21
+      },
       "Dunable": {
         "total": 6,
         "sold": 3,
@@ -16670,15 +16710,6 @@
         "removed": 0,
         "soldPct": 50,
         "livePct": 50
-      },
-      "Gibson": {
-        "total": 139,
-        "sold": 34,
-        "fake": 0,
-        "live": 29,
-        "removed": 76,
-        "soldPct": 24,
-        "livePct": 21
       },
       "Knaggs": {
         "total": 9,
@@ -18307,9 +18338,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 309,
+        "total": 310,
         "sold": 82,
-        "rate": 27
+        "rate": 26
       },
       {
         "label": "$2k–3k",
@@ -18337,6 +18368,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 56,
+        "sold": 10,
+        "rate": 18
+      },
       "Very Good": {
         "total": 119,
         "sold": 36,
@@ -18361,11 +18397,6 @@
         "total": 31,
         "sold": 6,
         "rate": 19
-      },
-      "Good": {
-        "total": 55,
-        "sold": 10,
-        "rate": 18
       },
       "B-Stock": {
         "total": 4,
@@ -18461,6 +18492,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 102,
+      "sum": 748207.94,
+      "avg": 7335,
+      "min": 135,
+      "max": 443302,
+      "sold": 21,
+      "soldSum": 62109.979999999996,
+      "soldAvg": 2958,
+      "live": 24,
+      "removed": 57,
+      "sellRate": 21,
+      "totalDays": 546.5999999999999,
+      "soldCount": 21,
+      "avgDaysToSell": 26
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -18555,25 +18605,6 @@
       "soldCount": 3,
       "avgDaysToSell": 28.3
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 101,
-      "sum": 746708.94,
-      "avg": 7393,
-      "min": 135,
-      "max": 443302,
-      "sold": 21,
-      "soldSum": 62109.979999999996,
-      "soldAvg": 2958,
-      "live": 23,
-      "removed": 57,
-      "sellRate": 21,
-      "totalDays": 546.5999999999999,
-      "soldCount": 21,
-      "avgDaysToSell": 26
-    },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
       "brandLine": "Knaggs",
@@ -18589,7 +18620,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 44,
-      "totalDays": 105.2,
+      "totalDays": 105.3,
       "soldCount": 4,
       "avgDaysToSell": 26.3
     },
@@ -18608,7 +18639,7 @@
       "live": 2,
       "removed": 18,
       "sellRate": 39,
-      "totalDays": 390.20000000000005,
+      "totalDays": 390.4,
       "soldCount": 13,
       "avgDaysToSell": 30
     },
@@ -18663,7 +18694,7 @@
       "live": 7,
       "removed": 22,
       "sellRate": 31,
-      "totalDays": 389.79999999999995,
+      "totalDays": 390,
       "soldCount": 13,
       "avgDaysToSell": 30
     },
@@ -18774,7 +18805,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 43,
-      "totalDays": 401.99999999999994,
+      "totalDays": 402.09999999999997,
       "soldCount": 15,
       "avgDaysToSell": 26.8
     },
@@ -18905,7 +18936,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 105.9,
+      "totalDays": 106,
       "soldCount": 4,
       "avgDaysToSell": 26.5
     },
@@ -19035,9 +19066,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 23,
+      "totalDays": 23.1,
       "soldCount": 1,
-      "avgDaysToSell": 23
+      "avgDaysToSell": 23.1
     },
     "Friedman|Friedman": {
       "brand": "Friedman",
@@ -19054,7 +19085,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 129.6,
+      "totalDays": 129.7,
       "soldCount": 5,
       "avgDaysToSell": 25.9
     },
@@ -19223,7 +19254,7 @@
       "live": 5,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 214.2,
+      "totalDays": 214.3,
       "soldCount": 8,
       "avgDaysToSell": 26.8
     },
@@ -19613,9 +19644,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 24.9,
+      "totalDays": 25,
       "soldCount": 1,
-      "avgDaysToSell": 24.9
+      "avgDaysToSell": 25
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -19688,9 +19719,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 33.7,
+      "totalDays": 33.8,
       "soldCount": 1,
-      "avgDaysToSell": 33.7
+      "avgDaysToSell": 33.8
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -20267,7 +20298,7 @@
     },
     {
       "label": "6–15",
-      "total": 75,
+      "total": 76,
       "sold": 18,
       "rate": 24
     },
@@ -20286,7 +20317,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 238,
+      "total": 239,
       "sold": 66,
       "rate": 28
     },
@@ -20298,7 +20329,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 160,
+      "total": 161,
       "sold": 35,
       "rate": 22
     },
@@ -20382,6 +20413,12 @@
       "rate": 22
     },
     {
+      "state": "NJ",
+      "total": 8,
+      "sold": 2,
+      "rate": 25
+    },
+    {
       "state": "MA",
       "total": 8,
       "sold": 1,
@@ -20392,12 +20429,6 @@
       "total": 8,
       "sold": 4,
       "rate": 50
-    },
-    {
-      "state": "NJ",
-      "total": 7,
-      "sold": 2,
-      "rate": 29
     },
     {
       "state": "ON",
