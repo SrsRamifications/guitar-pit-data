@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-08T13:21:07.439Z",
-  "totalLinks": 1052,
-  "totalEver": 1102,
-  "totalBeforeFilter": 1102,
+  "generatedAt": "2026-05-08T13:28:52.364Z",
+  "totalLinks": 1053,
+  "totalEver": 1103,
+  "totalBeforeFilter": 1103,
   "fakeCount": 6,
   "removedCount": 498,
-  "totalWithPrice": 1035,
+  "totalWithPrice": 1036,
   "overall": {
-    "count": 1004,
-    "sum": 2739266.1,
-    "avg": 2728,
+    "count": 1005,
+    "sum": 2740116.1,
+    "avg": 2726,
     "min": 3,
     "max": 10900
   },
   "filtered": {
-    "count": 1004,
-    "sum": 2739266.1,
-    "avg": 2728,
+    "count": 1005,
+    "sum": 2740116.1,
+    "avg": 2726,
     "min": 3,
     "max": 10900,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
     "thresholdHigh": 10941,
@@ -238,11 +238,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 103,
-      "sum": 238017.93,
+      "count": 104,
+      "sum": 238867.93,
       "min": 95,
       "max": 9000,
-      "avg": 2311
+      "avg": 2297
     },
     "2026-04": {
       "count": 774,
@@ -261,11 +261,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 874,
-      "sum": 2383246.31,
+      "count": 875,
+      "sum": 2384096.31,
       "min": 7,
       "max": 10900,
-      "avg": 2727
+      "avg": 2725
     },
     "marketplace": {
       "count": 31,
@@ -284,11 +284,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 874,
-      "sum": 2383246.31,
+      "count": 875,
+      "sum": 2384096.31,
       "min": 7,
       "max": 10900,
-      "avg": 2727
+      "avg": 2725
     },
     "chicagomusicexchange.com": {
       "count": 38,
@@ -523,6 +523,37 @@
     }
   },
   "byModel": {
+    "washburn-mr400-usa-custom-shop": {
+      "displayName": "1997 Washburn USA Custom Shop MR400 Transparent Red Electric Guitar",
+      "brand": "Washburn",
+      "model": "MR400",
+      "variant": "Usa Custom Shop",
+      "count": 1,
+      "sum": 850,
+      "min": 850,
+      "max": 850,
+      "sightings": [
+        {
+          "price": 850,
+          "date": "2026-05-08T13:28:37.322+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1997 Washburn USA Custom Shop MR400 Transparent Red Electric Guitar",
+          "url": "https://reverb.com/item/96690863-1997-washburn-usa-custom-shop-mr400-transparent-red-electric-guitar",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 850,
+          "min": 850,
+          "max": 850,
+          "avg": 850
+        }
+      },
+      "avg": 850
+    },
     "ovation-hollowbody": {
       "displayName": "1968 Ovation Model 1232 Tornado Hollowbody Electric Cherry Red",
       "brand": "Ovation",
@@ -13419,6 +13450,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 155,
+      "sum": 529917.73,
+      "sold": {
+        "count": 45,
+        "sum": 172610.45,
+        "avg": 3836,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3419,
+      "min": 172,
+      "max": 35900
+    },
     "Very Good": {
       "count": 116,
       "sum": 294647.55999999994,
@@ -13457,20 +13502,6 @@
       "avg": 10626,
       "min": 599.99,
       "max": 99000
-    },
-    "Excellent": {
-      "count": 154,
-      "sum": 529067.73,
-      "sold": {
-        "count": 45,
-        "sum": 172610.45,
-        "avg": 3836,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3436,
-      "min": 172,
-      "max": 35900
     },
     "B-Stock": {
       "count": 4,
@@ -13551,9 +13582,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2311,
+      "avg": 2297,
       "median": 1800,
-      "count": 103
+      "count": 104
     },
     "04": {
       "name": "Apr",
@@ -13712,7 +13743,7 @@
   ],
   "priceDistribution": {
     "0-500": 62,
-    "500-1k": 86,
+    "500-1k": 87,
     "1k-2k": 306,
     "2k-3k": 216,
     "3k-5k": 217,
@@ -13721,7 +13752,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 62,
-    "500-1k": 86,
+    "500-1k": 87,
     "1k-2k": 306,
     "2k-3k": 216,
     "3k-5k": 217,
@@ -13729,6 +13760,11 @@
     "10k+": 7
   },
   "daysOnMarket": {
+    "Washburn": {
+      "sum": 122,
+      "count": 6,
+      "avg": 20
+    },
     "Ovation": {
       "sum": 91,
       "count": 4,
@@ -13750,7 +13786,7 @@
       "avg": 16
     },
     "Gibson": {
-      "sum": 3493,
+      "sum": 3494,
       "count": 134,
       "avg": 26
     },
@@ -13800,7 +13836,7 @@
       "avg": 25
     },
     "Yamaha": {
-      "sum": 530,
+      "sum": 532,
       "count": 20,
       "avg": 27
     },
@@ -13815,7 +13851,7 @@
       "avg": 28
     },
     "Kiesel": {
-      "sum": 971,
+      "sum": 972,
       "count": 34,
       "avg": 29
     },
@@ -13963,11 +13999,6 @@
       "sum": 121,
       "count": 4,
       "avg": 30
-    },
-    "Washburn": {
-      "sum": 117,
-      "count": 5,
-      "avg": 23
     },
     "Two Rock": {
       "sum": 13,
@@ -14570,13 +14601,13 @@
       "avg": 42
     },
     "Danocaster": {
-      "sum": 42,
+      "sum": 43,
       "count": 1,
-      "avg": 42
+      "avg": 43
     }
   },
   "listingsPerDay": {
-    "2026-05-08": 7,
+    "2026-05-08": 8,
     "2026-05-07": 14,
     "2026-05-06": 11,
     "2026-05-05": 16,
@@ -14609,11 +14640,11 @@
     "2026-04-08": 35
   },
   "categoryDistribution": {
-    "reverb": 895,
+    "reverb": 896,
     "marketplace": 42,
     "other": 115
   },
-  "activeModelsCount": 251,
+  "activeModelsCount": 252,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -14629,7 +14660,7 @@
     },
     {
       "username": "shteefe",
-      "count": 88
+      "count": 89
     },
     {
       "username": "madero",
@@ -16110,11 +16141,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1519.7362073240122,
-      "count": 83,
+      "totalPctDrop": 1534.7362073240124,
+      "count": 84,
       "avgPctDrop": 18.3
     },
     "byBrand": {
+      "Washburn": {
+        "totalPctDrop": 15,
+        "count": 1,
+        "avgPctDrop": 15
+      },
       "Knaggs": {
         "totalPctDrop": 6.71111111111111,
         "count": 1,
@@ -16349,15 +16385,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1018,
+      "total": 1019,
       "sold": 279,
       "fake": 0,
-      "live": 254,
+      "live": 255,
       "removed": 485,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Washburn": {
+        "total": 6,
+        "sold": 3,
+        "fake": 0,
+        "live": 2,
+        "removed": 1,
+        "soldPct": 50,
+        "livePct": 33
+      },
       "Ovation": {
         "total": 4,
         "sold": 0,
@@ -16798,15 +16843,6 @@
         "removed": 2,
         "soldPct": 0,
         "livePct": 50
-      },
-      "Washburn": {
-        "total": 5,
-        "sold": 3,
-        "fake": 0,
-        "live": 1,
-        "removed": 1,
-        "soldPct": 60,
-        "livePct": 20
       },
       "Two Rock": {
         "total": 1,
@@ -17930,18 +17966,18 @@
         "soldPct": 62
       },
       {
-        "brand": "Washburn",
-        "total": 5,
-        "sold": 3,
-        "live": 1,
-        "soldPct": 60
-      },
-      {
         "brand": "Dunable",
         "total": 5,
         "sold": 3,
         "live": 0,
         "soldPct": 60
+      },
+      {
+        "brand": "Washburn",
+        "total": 6,
+        "sold": 3,
+        "live": 2,
+        "soldPct": 50
       },
       {
         "brand": "FGN",
@@ -18060,7 +18096,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 86,
+        "total": 87,
         "sold": 27,
         "rate": 31
       },
@@ -18096,6 +18132,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 155,
+        "sold": 48,
+        "rate": 31
+      },
       "Very Good": {
         "total": 117,
         "sold": 36,
@@ -18110,11 +18151,6 @@
         "total": 21,
         "sold": 0,
         "rate": 0
-      },
-      "Excellent": {
-        "total": 154,
-        "sold": 48,
-        "rate": 31
       },
       "B-Stock": {
         "total": 4,
@@ -18220,6 +18256,25 @@
     ]
   },
   "byBrandLine": {
+    "Washburn|Washburn USA Custom": {
+      "brand": "Washburn",
+      "brandLine": "Washburn USA Custom",
+      "tier": "premium",
+      "count": 3,
+      "sum": 6824,
+      "avg": 2275,
+      "min": 850,
+      "max": 3000,
+      "sold": 2,
+      "soldSum": 5974,
+      "soldAvg": 2987,
+      "live": 1,
+      "removed": 0,
+      "sellRate": 67,
+      "totalDays": 39.2,
+      "soldCount": 2,
+      "avgDaysToSell": 19.6
+    },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
       "brandLine": "Ovation Import",
@@ -18272,7 +18327,7 @@
       "live": 23,
       "removed": 57,
       "sellRate": 21,
-      "totalDays": 539.5,
+      "totalDays": 539.6,
       "soldCount": 21,
       "avgDaysToSell": 25.7
     },
@@ -18310,7 +18365,7 @@
       "live": 2,
       "removed": 18,
       "sellRate": 39,
-      "totalDays": 386.2,
+      "totalDays": 386.3,
       "soldCount": 13,
       "avgDaysToSell": 29.7
     },
@@ -18476,7 +18531,7 @@
       "live": 10,
       "removed": 38,
       "sellRate": 33,
-      "totalDays": 714.6999999999998,
+      "totalDays": 714.9999999999999,
       "soldCount": 24,
       "avgDaysToSell": 29.8
     },
@@ -18495,7 +18550,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 43,
-      "totalDays": 396.8,
+      "totalDays": 396.9,
       "soldCount": 15,
       "avgDaysToSell": 26.5
     },
@@ -18550,7 +18605,7 @@
       "live": 4,
       "removed": 9,
       "sellRate": 24,
-      "totalDays": 117,
+      "totalDays": 117.10000000000001,
       "soldCount": 4,
       "avgDaysToSell": 29.3
     },
@@ -18963,7 +19018,7 @@
       "live": 5,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 211.4,
+      "totalDays": 211.50000000000003,
       "soldCount": 8,
       "avgDaysToSell": 26.4
     },
@@ -18984,25 +19039,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Washburn|Washburn USA Custom": {
-      "brand": "Washburn",
-      "brandLine": "Washburn USA Custom",
-      "tier": "premium",
-      "count": 2,
-      "sum": 5974,
-      "avg": 2987,
-      "min": 2974,
-      "max": 3000,
-      "sold": 2,
-      "soldSum": 5974,
-      "soldAvg": 2987,
-      "live": 0,
-      "removed": 0,
-      "sellRate": 100,
-      "totalDays": 39.1,
-      "soldCount": 2,
-      "avgDaysToSell": 19.6
     },
     "Parker|Parker Fly Deluxe": {
       "brand": "Parker",
@@ -19075,9 +19111,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 86.5,
+      "totalDays": 86.6,
       "soldCount": 4,
-      "avgDaysToSell": 21.6
+      "avgDaysToSell": 21.7
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -19612,9 +19648,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 22.5,
+      "totalDays": 22.6,
       "soldCount": 1,
-      "avgDaysToSell": 22.5
+      "avgDaysToSell": 22.6
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -19703,9 +19739,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 110.5,
+      "totalDays": 110.6,
       "soldCount": 3,
-      "avgDaysToSell": 36.8
+      "avgDaysToSell": 36.9
     },
     "Gibson|Epiphone": {
       "brand": "Gibson",
@@ -20026,7 +20062,7 @@
     },
     {
       "label": "6–15",
-      "total": 72,
+      "total": 73,
       "sold": 18,
       "rate": 25
     },
@@ -20050,7 +20086,7 @@
       "rate": 28
     },
     "off": {
-      "total": 82,
+      "total": 83,
       "sold": 22,
       "rate": 27
     }
@@ -20062,7 +20098,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 146,
+      "total": 147,
       "sold": 44,
       "rate": 30
     }
@@ -20245,6 +20281,12 @@
     {
       "state": "Stockholm",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "DC",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
