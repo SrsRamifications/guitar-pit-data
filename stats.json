@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-08T04:05:05.095Z",
-  "totalLinks": 1049,
-  "totalEver": 1099,
-  "totalBeforeFilter": 1099,
+  "generatedAt": "2026-05-08T04:16:18.604Z",
+  "totalLinks": 1050,
+  "totalEver": 1100,
+  "totalBeforeFilter": 1100,
   "fakeCount": 6,
   "removedCount": 498,
-  "totalWithPrice": 1032,
+  "totalWithPrice": 1033,
   "overall": {
-    "count": 1001,
-    "sum": 2733026.1,
-    "avg": 2730,
+    "count": 1002,
+    "sum": 2738021.1,
+    "avg": 2733,
     "min": 3,
     "max": 10900
   },
   "filtered": {
-    "count": 1001,
-    "sum": 2733026.1,
-    "avg": 2730,
+    "count": 1002,
+    "sum": 2738021.1,
+    "avg": 2733,
     "min": 3,
     "max": 10900,
     "median": 2200
@@ -238,11 +238,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 100,
-      "sum": 231777.93,
+      "count": 101,
+      "sum": 236772.93,
       "min": 95,
       "max": 9000,
-      "avg": 2318
+      "avg": 2344
     },
     "2026-04": {
       "count": 774,
@@ -260,19 +260,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 31,
+      "sum": 90281.85,
+      "min": 599,
+      "max": 10495,
+      "avg": 2912
+    },
     "reverb": {
       "count": 872,
       "sum": 2382001.31,
       "min": 7,
       "max": 10900,
       "avg": 2732
-    },
-    "marketplace": {
-      "count": 30,
-      "sum": 85286.85,
-      "min": 599,
-      "max": 10495,
-      "avg": 2843
     },
     "other": {
       "count": 99,
@@ -283,6 +283,13 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 38,
+      "sum": 140477.98,
+      "min": 350,
+      "max": 9000,
+      "avg": 3697
+    },
     "reverb.com": {
       "count": 872,
       "sum": 2382001.31,
@@ -310,13 +317,6 @@
       "min": 1250,
       "max": 1595,
       "avg": 1423
-    },
-    "chicagomusicexchange.com": {
-      "count": 37,
-      "sum": 135482.98,
-      "min": 350,
-      "max": 9000,
-      "avg": 3662
     },
     "dunableguitars.com": {
       "count": 1,
@@ -523,6 +523,37 @@
     }
   },
   "byModel": {
+    "epiphone-casino": {
+      "displayName": "Epiphone Casino Sunburst 1961",
+      "brand": "Epiphone",
+      "model": "Casino",
+      "variant": null,
+      "count": 1,
+      "sum": 4995,
+      "min": 4995,
+      "max": 4995,
+      "sightings": [
+        {
+          "price": 4995,
+          "date": "2026-05-08T04:16:02.156+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Epiphone Casino Sunburst 1961",
+          "url": "https://www.chicagomusicexchange.com/products/epiphone-casino-sunburst-1961-1412236",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 4995,
+          "min": 4995,
+          "max": 4995,
+          "avg": 4995
+        }
+      },
+      "avg": 4995
+    },
     "matchless-clubman-35-watt-guitar": {
       "displayName": "Matchless Clubman 35-Watt Guitar Amp Head",
       "brand": "Matchless",
@@ -1737,37 +1768,6 @@
       },
       "avg": 602
     },
-    "music-man-axis": {
-      "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
-      "brand": "Music Man",
-      "model": "Axis",
-      "variant": null,
-      "count": 1,
-      "sum": 1675,
-      "min": 1675,
-      "max": 1675,
-      "sightings": [
-        {
-          "price": 1675,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
-          "url": "https://reverb.com/item/96744400-ernie-ball-music-man-axis-super-sport-mm90-ht-2002-2014-various",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1675,
-          "min": 1675,
-          "max": 1675,
-          "avg": 1675
-        }
-      },
-      "avg": 1675
-    },
     "heritage-h150-gloss": {
       "displayName": "Heritage H150 2025 Gloss Lacquer",
       "brand": "Heritage",
@@ -1829,6 +1829,37 @@
         }
       },
       "avg": 3500
+    },
+    "music-man-axis": {
+      "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
+      "brand": "Music Man",
+      "model": "Axis",
+      "variant": null,
+      "count": 1,
+      "sum": 1675,
+      "min": 1675,
+      "max": 1675,
+      "sightings": [
+        {
+          "price": 1675,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
+          "url": "https://reverb.com/item/96744400-ernie-ball-music-man-axis-super-sport-mm90-ht-2002-2014-various",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1675,
+          "min": 1675,
+          "max": 1675,
+          "avg": 1675
+        }
+      },
+      "avg": 1675
     },
     "marconilab-headless": {
       "displayName": "Marconilab Ego hyper LSD headless guitar",
@@ -13297,8 +13328,8 @@
   },
   "byCondition": {
     "Good": {
-      "count": 54,
-      "sum": 127232.95,
+      "count": 55,
+      "sum": 132227.95,
       "sold": {
         "count": 8,
         "sum": 16035.48,
@@ -13306,7 +13337,7 @@
         "min": 999,
         "max": 4777.5
       },
-      "avg": 2356,
+      "avg": 2404,
       "min": 70,
       "max": 11475
     },
@@ -13428,9 +13459,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2318,
-      "median": 1825,
-      "count": 100
+      "avg": 2344,
+      "median": 1850,
+      "count": 101
     },
     "04": {
       "name": "Apr",
@@ -13592,7 +13623,7 @@
     "500-1k": 86,
     "1k-2k": 305,
     "2k-3k": 216,
-    "3k-5k": 216,
+    "3k-5k": 217,
     "5k-10k": 110,
     "10k+": 38
   },
@@ -13601,18 +13632,23 @@
     "500-1k": 86,
     "1k-2k": 305,
     "2k-3k": 216,
-    "3k-5k": 216,
+    "3k-5k": 217,
     "5k-10k": 110,
     "10k+": 7
   },
   "daysOnMarket": {
+    "Epiphone": {
+      "sum": 188,
+      "count": 7,
+      "avg": 27
+    },
     "Matchless": {
       "sum": 30,
       "count": 2,
       "avg": 15
     },
     "Gibson": {
-      "sum": 3425,
+      "sum": 3426,
       "count": 134,
       "avg": 26
     },
@@ -13652,7 +13688,7 @@
       "avg": 16
     },
     "Fender": {
-      "sum": 1679,
+      "sum": 1680,
       "count": 70,
       "avg": 24
     },
@@ -13677,7 +13713,7 @@
       "avg": 27
     },
     "Kiesel": {
-      "sum": 954,
+      "sum": 955,
       "count": 34,
       "avg": 28
     },
@@ -13970,11 +14006,6 @@
       "sum": 47,
       "count": 3,
       "avg": 16
-    },
-    "Epiphone": {
-      "sum": 188,
-      "count": 6,
-      "avg": 31
     },
     "Kemper": {
       "sum": 15,
@@ -14453,7 +14484,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-08": 4,
+    "2026-05-08": 5,
     "2026-05-07": 14,
     "2026-05-06": 11,
     "2026-05-05": 16,
@@ -14486,11 +14517,11 @@
     "2026-04-08": 36
   },
   "categoryDistribution": {
+    "marketplace": 42,
     "reverb": 893,
-    "marketplace": 41,
     "other": 115
   },
-  "activeModelsCount": 248,
+  "activeModelsCount": 249,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -14506,7 +14537,7 @@
     },
     {
       "username": "shteefe",
-      "count": 87
+      "count": 88
     },
     {
       "username": "madero",
@@ -16205,15 +16236,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1015,
+      "total": 1016,
       "sold": 277,
       "fake": 0,
-      "live": 253,
+      "live": 254,
       "removed": 485,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Epiphone": {
+        "total": 7,
+        "sold": 2,
+        "fake": 0,
+        "live": 2,
+        "removed": 3,
+        "soldPct": 29,
+        "livePct": 29
+      },
       "Matchless": {
         "total": 2,
         "sold": 1,
@@ -16915,15 +16955,6 @@
         "removed": 2,
         "soldPct": 33,
         "livePct": 0
-      },
-      "Epiphone": {
-        "total": 6,
-        "sold": 2,
-        "fake": 0,
-        "live": 1,
-        "removed": 3,
-        "soldPct": 33,
-        "livePct": 17
       },
       "Kemper": {
         "total": 1,
@@ -17934,7 +17965,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 216,
+        "total": 217,
         "sold": 59,
         "rate": 27
       },
@@ -17953,9 +17984,9 @@
     ],
     "byCondition": {
       "Good": {
-        "total": 54,
+        "total": 55,
         "sold": 9,
-        "rate": 17
+        "rate": 16
       },
       "Used": {
         "total": 21,
@@ -18060,13 +18091,6 @@
         "sold": 2
       },
       {
-        "brand": "Epiphone",
-        "avgPrice": 1286,
-        "sellRate": 33,
-        "count": 6,
-        "sold": 2
-      },
-      {
         "brand": "Schecter",
         "avgPrice": 2183,
         "sellRate": 30,
@@ -18076,6 +18100,25 @@
     ]
   },
   "byBrandLine": {
+    "Epiphone|Epiphone": {
+      "brand": "Epiphone",
+      "brandLine": "Epiphone",
+      "tier": "budget",
+      "count": 7,
+      "sum": 12708.31,
+      "avg": 1815,
+      "min": 165,
+      "max": 4995,
+      "sold": 2,
+      "soldSum": 640,
+      "soldAvg": 320,
+      "live": 2,
+      "removed": 3,
+      "sellRate": 29,
+      "totalDays": 82.6,
+      "soldCount": 2,
+      "avgDaysToSell": 41.3
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -18091,7 +18134,7 @@
       "live": 23,
       "removed": 57,
       "sellRate": 21,
-      "totalDays": 531.3000000000001,
+      "totalDays": 531.4,
       "soldCount": 21,
       "avgDaysToSell": 25.3
     },
@@ -18129,7 +18172,7 @@
       "live": 2,
       "removed": 18,
       "sellRate": 39,
-      "totalDays": 381.6,
+      "totalDays": 381.70000000000005,
       "soldCount": 13,
       "avgDaysToSell": 29.4
     },
@@ -18184,7 +18227,7 @@
       "live": 8,
       "removed": 22,
       "sellRate": 29,
-      "totalDays": 379.20000000000005,
+      "totalDays": 379.3,
       "soldCount": 12,
       "avgDaysToSell": 31.6
     },
@@ -18203,7 +18246,7 @@
       "live": 1,
       "removed": 5,
       "sellRate": 63,
-      "totalDays": 226.9,
+      "totalDays": 227,
       "soldCount": 10,
       "avgDaysToSell": 22.7
     },
@@ -18314,7 +18357,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 43,
-      "totalDays": 391.1,
+      "totalDays": 391.20000000000005,
       "soldCount": 15,
       "avgDaysToSell": 26.1
     },
@@ -18632,9 +18675,9 @@
       "live": 2,
       "removed": 1,
       "sellRate": 25,
-      "totalDays": 19.4,
+      "totalDays": 19.5,
       "soldCount": 1,
-      "avgDaysToSell": 19.4
+      "avgDaysToSell": 19.5
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -18763,9 +18806,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 44,
+      "totalDays": 44.1,
       "soldCount": 2,
-      "avgDaysToSell": 22
+      "avgDaysToSell": 22.1
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -18782,9 +18825,9 @@
       "live": 5,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 208.3,
+      "totalDays": 208.40000000000003,
       "soldCount": 8,
-      "avgDaysToSell": 26
+      "avgDaysToSell": 26.1
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -18932,9 +18975,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 14.4,
+      "totalDays": 14.5,
       "soldCount": 1,
-      "avgDaysToSell": 14.4
+      "avgDaysToSell": 14.5
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -18988,9 +19031,9 @@
       "live": 2,
       "removed": 9,
       "sellRate": 21,
-      "totalDays": 90.1,
+      "totalDays": 90.19999999999999,
       "soldCount": 3,
-      "avgDaysToSell": 30
+      "avgDaysToSell": 30.1
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -19138,25 +19181,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Epiphone|Epiphone": {
-      "brand": "Epiphone",
-      "brandLine": "Epiphone",
-      "tier": null,
-      "count": 6,
-      "sum": 7713.3099999999995,
-      "avg": 1286,
-      "min": 165,
-      "max": 2175,
-      "sold": 2,
-      "soldSum": 640,
-      "soldAvg": 320,
-      "live": 1,
-      "removed": 3,
-      "sellRate": 33,
-      "totalDays": 82.6,
-      "soldCount": 2,
-      "avgDaysToSell": 41.3
     },
     "Duesenberg|Duesenberg": {
       "brand": "Duesenberg",
@@ -19669,9 +19693,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 28.2,
+      "totalDays": 28.3,
       "soldCount": 1,
-      "avgDaysToSell": 28.2
+      "avgDaysToSell": 28.3
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
