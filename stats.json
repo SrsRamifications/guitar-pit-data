@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-08T19:05:05.437Z",
-  "totalLinks": 1060,
-  "totalEver": 1110,
-  "totalBeforeFilter": 1110,
+  "generatedAt": "2026-05-08T19:07:58.886Z",
+  "totalLinks": 1061,
+  "totalEver": 1111,
+  "totalBeforeFilter": 1111,
   "fakeCount": 6,
   "removedCount": 498,
-  "totalWithPrice": 1043,
+  "totalWithPrice": 1044,
   "overall": {
-    "count": 1012,
-    "sum": 2760437.1,
-    "avg": 2728,
+    "count": 1013,
+    "sum": 2762637.1,
+    "avg": 2727,
     "min": 3,
     "max": 10900
   },
   "filtered": {
-    "count": 1012,
-    "sum": 2760437.1,
-    "avg": 2728,
+    "count": 1013,
+    "sum": 2762637.1,
+    "avg": 2727,
     "min": 3,
     "max": 10900,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 10975,
+    "thresholdHigh": 10941,
     "thresholdLow": 0,
     "count": 31,
     "items": [
@@ -238,11 +238,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 111,
-      "sum": 259308.93,
+      "count": 112,
+      "sum": 261508.93,
       "min": 95,
       "max": 9000,
-      "avg": 2336
+      "avg": 2335
     },
     "2026-04": {
       "count": 774,
@@ -260,19 +260,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 882,
+      "sum": 2405718.31,
+      "min": 7,
+      "max": 10900,
+      "avg": 2728
+    },
     "marketplace": {
       "count": 32,
       "sum": 91180.85,
       "min": 599,
       "max": 10495,
       "avg": 2849
-    },
-    "reverb": {
-      "count": 881,
-      "sum": 2403518.31,
-      "min": 7,
-      "max": 10900,
-      "avg": 2728
     },
     "other": {
       "count": 99,
@@ -283,19 +283,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 882,
+      "sum": 2405718.31,
+      "min": 7,
+      "max": 10900,
+      "avg": 2728
+    },
     "guitarcenter.com": {
       "count": 52,
       "sum": 99286.52,
       "min": 139.99,
       "max": 5499.99,
       "avg": 1909
-    },
-    "reverb.com": {
-      "count": 881,
-      "sum": 2403518.31,
-      "min": 7,
-      "max": 10900,
-      "avg": 2728
     },
     "chicagomusicexchange.com": {
       "count": 38,
@@ -523,6 +523,37 @@
     }
   },
   "byModel": {
+    "dunable-r2": {
+      "displayName": "Dunable R2 2023 - Red Tobacco burst",
+      "brand": "Dunable",
+      "model": "R2",
+      "variant": null,
+      "count": 1,
+      "sum": 2200,
+      "min": 2200,
+      "max": 2200,
+      "sightings": [
+        {
+          "price": 2200,
+          "date": "2026-05-08T19:07:40.637+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Dunable R2 2023 - Red Tobacco burst",
+          "url": "https://reverb.com/item/96905952-dunable-r2-2023-red-tobacco-burst",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2200,
+          "min": 2200,
+          "max": 2200,
+          "avg": 2200
+        }
+      },
+      "avg": 2200
+    },
     "rusti-guitars-motion-satin": {
       "displayName": "Rusti Guitars Motion #2 2016 - Natural satin",
       "brand": "Rusti",
@@ -13604,6 +13635,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 159,
+      "sum": 540090.73,
+      "sold": {
+        "count": 45,
+        "sum": 172610.45,
+        "avg": 3836,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3397,
+      "min": 172,
+      "max": 35900
+    },
     "Used": {
       "count": 21,
       "sum": 213426.86000000004,
@@ -13642,20 +13687,6 @@
       "avg": 1978,
       "min": 400,
       "max": 5000
-    },
-    "Excellent": {
-      "count": 158,
-      "sum": 537890.73,
-      "sold": {
-        "count": 45,
-        "sum": 172610.45,
-        "avg": 3836,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3404,
-      "min": 172,
-      "max": 35900
     },
     "Brand New": {
       "count": 31,
@@ -13736,9 +13767,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2336,
-      "median": 1850,
-      "count": 111
+      "avg": 2335,
+      "median": 1873,
+      "count": 112
     },
     "04": {
       "name": "Apr",
@@ -13899,7 +13930,7 @@
     "0-500": 62,
     "500-1k": 88,
     "1k-2k": 308,
-    "2k-3k": 218,
+    "2k-3k": 219,
     "3k-5k": 217,
     "5k-10k": 112,
     "10k+": 38
@@ -13908,12 +13939,17 @@
     "0-500": 62,
     "500-1k": 88,
     "1k-2k": 308,
-    "2k-3k": 218,
+    "2k-3k": 219,
     "3k-5k": 217,
     "5k-10k": 112,
     "10k+": 7
   },
   "daysOnMarket": {
+    "Dunable": {
+      "sum": 137,
+      "count": 6,
+      "avg": 23
+    },
     "Rusti": {
       "sum": 71,
       "count": 1,
@@ -14278,11 +14314,6 @@
       "sum": 67,
       "count": 1,
       "avg": 67
-    },
-    "Dunable": {
-      "sum": 137,
-      "count": 5,
-      "avg": 27
     },
     "Luxxtone": {
       "sum": 57,
@@ -14766,7 +14797,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-08": 15,
+    "2026-05-08": 16,
     "2026-05-07": 14,
     "2026-05-06": 11,
     "2026-05-05": 16,
@@ -14799,11 +14830,11 @@
     "2026-04-08": 20
   },
   "categoryDistribution": {
+    "reverb": 903,
     "marketplace": 43,
-    "reverb": 902,
     "other": 115
   },
-  "activeModelsCount": 257,
+  "activeModelsCount": 258,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -14811,7 +14842,7 @@
     },
     {
       "username": "greg1213",
-      "count": 202
+      "count": 203
     },
     {
       "username": "yellowjack6",
@@ -16544,15 +16575,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1023,
+      "total": 1024,
       "sold": 279,
       "fake": 0,
-      "live": 259,
+      "live": 260,
       "removed": 485,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
+      "Dunable": {
+        "total": 6,
+        "sold": 3,
+        "fake": 0,
+        "live": 1,
+        "removed": 2,
+        "soldPct": 50,
+        "livePct": 17
+      },
       "Rusti": {
         "total": 1,
         "sold": 0,
@@ -17254,15 +17294,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Dunable": {
-        "total": 5,
-        "sold": 3,
-        "fake": 0,
-        "live": 0,
-        "removed": 2,
-        "soldPct": 60,
-        "livePct": 0
       },
       "Luxxtone": {
         "total": 2,
@@ -18135,10 +18166,10 @@
       },
       {
         "brand": "Dunable",
-        "total": 5,
+        "total": 6,
         "sold": 3,
-        "live": 0,
-        "soldPct": 60
+        "live": 1,
+        "soldPct": 50
       },
       {
         "brand": "Washburn",
@@ -18276,7 +18307,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 218,
+        "total": 219,
         "sold": 73,
         "rate": 33
       },
@@ -18300,6 +18331,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 159,
+        "sold": 48,
+        "rate": 30
+      },
       "Used": {
         "total": 22,
         "sold": 0,
@@ -18314,11 +18350,6 @@
         "total": 11,
         "sold": 2,
         "rate": 18
-      },
-      "Excellent": {
-        "total": 158,
-        "sold": 48,
-        "rate": 30
       },
       "Brand New": {
         "total": 31,
@@ -19111,9 +19142,9 @@
       "live": 1,
       "removed": 2,
       "sellRate": 25,
-      "totalDays": 13,
+      "totalDays": 13.1,
       "soldCount": 1,
-      "avgDaysToSell": 13
+      "avgDaysToSell": 13.1
     },
     "Taylor|Taylor Mexico": {
       "brand": "Taylor",
@@ -19373,7 +19404,7 @@
       "live": 2,
       "removed": 9,
       "sellRate": 21,
-      "totalDays": 92.1,
+      "totalDays": 92.19999999999999,
       "soldCount": 3,
       "avgDaysToSell": 30.7
     },
@@ -19998,9 +20029,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 63.8,
+      "totalDays": 63.9,
       "soldCount": 2,
-      "avgDaysToSell": 31.9
+      "avgDaysToSell": 32
     },
     "Parker|Parker Spanish Fly": {
       "brand": "Parker",
@@ -20206,8 +20237,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 124,
-    "totalOffers": 251,
+    "withOffers": 125,
+    "totalOffers": 252,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 26
   },
@@ -20224,9 +20255,9 @@
     },
     {
       "label": "1–5",
-      "total": 20,
+      "total": 21,
       "sold": 7,
-      "rate": 35
+      "rate": 33
     },
     {
       "label": "6–15",
@@ -20249,7 +20280,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 236,
+      "total": 237,
       "sold": 66,
       "rate": 28
     },
@@ -20261,7 +20292,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 159,
+      "total": 160,
       "sold": 35,
       "rate": 22
     },
@@ -20375,6 +20406,12 @@
       "rate": 0
     },
     {
+      "state": "QC",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "UT",
       "total": 4,
       "sold": 0,
@@ -20433,12 +20470,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "QC",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "DE",
