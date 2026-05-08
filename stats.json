@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-08T01:35:05.296Z",
-  "totalLinks": 1046,
-  "totalEver": 1094,
-  "totalBeforeFilter": 1094,
+  "generatedAt": "2026-05-08T01:43:07.946Z",
+  "totalLinks": 1047,
+  "totalEver": 1095,
+  "totalBeforeFilter": 1095,
   "fakeCount": 6,
   "removedCount": 496,
-  "totalWithPrice": 1029,
+  "totalWithPrice": 1030,
   "overall": {
-    "count": 996,
-    "sum": 2701870.11,
-    "avg": 2713,
+    "count": 997,
+    "sum": 2705370.11,
+    "avg": 2714,
     "min": 3,
     "max": 10495
   },
   "filtered": {
-    "count": 996,
-    "sum": 2701870.11,
-    "avg": 2713,
+    "count": 997,
+    "sum": 2705370.11,
+    "avg": 2714,
     "min": 3,
     "max": 10495,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
     "thresholdHigh": 10775,
@@ -252,11 +252,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 97,
-      "sum": 222245.94,
+      "count": 98,
+      "sum": 225745.94,
       "min": 95,
       "max": 9000,
-      "avg": 2291
+      "avg": 2304
     },
     "2026-04": {
       "count": 772,
@@ -275,11 +275,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 868,
-      "sum": 2354945.31,
+      "count": 869,
+      "sum": 2358445.31,
       "min": 7,
       "max": 10490,
-      "avg": 2713
+      "avg": 2714
     },
     "marketplace": {
       "count": 29,
@@ -298,11 +298,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 868,
-      "sum": 2354945.31,
+      "count": 869,
+      "sum": 2358445.31,
       "min": 7,
       "max": 10490,
-      "avg": 2713
+      "avg": 2714
     },
     "guitarcenter.com": {
       "count": 50,
@@ -537,6 +537,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom-classic": {
+      "displayName": "Gibson Les Paul Custom Classic 2007 - Ebony",
+      "brand": "Gibson",
+      "model": "Les Paul Custom",
+      "variant": "Classic",
+      "count": 1,
+      "sum": 3500,
+      "min": 3500,
+      "max": 3500,
+      "sightings": [
+        {
+          "price": 3500,
+          "date": "2026-05-08T01:42:52.846+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Custom Classic 2007 - Ebony",
+          "url": "https://reverb.com/item/96773716-gibson-les-paul-custom-classic-2007-ebony",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 3500,
+          "min": 3500,
+          "max": 3500,
+          "avg": 3500
+        }
+      },
+      "avg": 3500
+    },
     "gibson-les-paul-standard-50s": {
       "displayName": "Gibson Les Paul Standard '50s Plain Top 2025 - Present - British Racing Green",
       "brand": "Gibson",
@@ -1689,37 +1720,6 @@
       },
       "avg": 602
     },
-    "prs-mccarty-594-artist-package": {
-      "displayName": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
-      "brand": "PRS",
-      "model": "McCarty 594",
-      "variant": "Artist Package",
-      "count": 1,
-      "sum": 3500,
-      "min": 3500,
-      "max": 3500,
-      "sightings": [
-        {
-          "price": 3500,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
-          "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 3500,
-          "min": 3500,
-          "max": 3500,
-          "avg": 3500
-        }
-      },
-      "avg": 3500
-    },
     "music-man-axis": {
       "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
       "brand": "Music Man",
@@ -1750,6 +1750,37 @@
         }
       },
       "avg": 1675
+    },
+    "prs-mccarty-594-artist-package": {
+      "displayName": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
+      "brand": "PRS",
+      "model": "McCarty 594",
+      "variant": "Artist Package",
+      "count": 1,
+      "sum": 3500,
+      "min": 3500,
+      "max": 3500,
+      "sightings": [
+        {
+          "price": 3500,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
+          "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3500,
+          "min": 3500,
+          "max": 3500,
+          "avg": 3500
+        }
+      },
+      "avg": 3500
     },
     "heritage-h150-gloss": {
       "displayName": "Heritage H150 2025 Gloss Lacquer",
@@ -13248,6 +13279,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 53,
+      "sum": 125253.95,
+      "sold": {
+        "count": 8,
+        "sum": 16035.48,
+        "avg": 2004,
+        "min": 999,
+        "max": 4777.5
+      },
+      "avg": 2363,
+      "min": 70,
+      "max": 11475
+    },
     "Excellent": {
       "count": 154,
       "sum": 529132.73,
@@ -13275,20 +13320,6 @@
       "avg": 2574,
       "min": 33,
       "max": 14450
-    },
-    "Good": {
-      "count": 52,
-      "sum": 121753.95,
-      "sold": {
-        "count": 8,
-        "sum": 16035.48,
-        "avg": 2004,
-        "min": 999,
-        "max": 4777.5
-      },
-      "avg": 2341,
-      "min": 70,
-      "max": 11475
     },
     "Used": {
       "count": 19,
@@ -13380,9 +13411,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2291,
+      "avg": 2304,
       "median": 1800,
-      "count": 97
+      "count": 98
     },
     "04": {
       "name": "Apr",
@@ -13544,7 +13575,7 @@
     "500-1k": 86,
     "1k-2k": 305,
     "2k-3k": 215,
-    "3k-5k": 214,
+    "3k-5k": 215,
     "5k-10k": 110,
     "10k+": 38
   },
@@ -13553,11 +13584,16 @@
     "500-1k": 86,
     "1k-2k": 305,
     "2k-3k": 215,
-    "3k-5k": 214,
+    "3k-5k": 215,
     "5k-10k": 110,
     "10k+": 5
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 3407,
+      "count": 134,
+      "avg": 25
+    },
     "Knaggs": {
       "sum": 262,
       "count": 9,
@@ -13573,13 +13609,8 @@
       "count": 3,
       "avg": 14
     },
-    "Gibson": {
-      "sum": 3405,
-      "count": 133,
-      "avg": 26
-    },
     "Anderson": {
-      "sum": 144,
+      "sum": 145,
       "count": 6,
       "avg": 24
     },
@@ -13599,7 +13630,7 @@
       "avg": 16
     },
     "Fender": {
-      "sum": 1672,
+      "sum": 1673,
       "count": 70,
       "avg": 24
     },
@@ -13609,12 +13640,12 @@
       "avg": 24
     },
     "Yamaha": {
-      "sum": 514,
+      "sum": 515,
       "count": 20,
       "avg": 26
     },
     "Taylor": {
-      "sum": 197,
+      "sum": 198,
       "count": 7,
       "avg": 28
     },
@@ -13659,7 +13690,7 @@
       "avg": 26
     },
     "ESP": {
-      "sum": 574,
+      "sum": 576,
       "count": 23,
       "avg": 25
     },
@@ -13954,7 +13985,7 @@
       "avg": 26
     },
     "Rickenbacker": {
-      "sum": 559,
+      "sum": 560,
       "count": 24,
       "avg": 23
     },
@@ -14405,7 +14436,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-08": 1,
+    "2026-05-08": 2,
     "2026-05-07": 14,
     "2026-05-06": 11,
     "2026-05-05": 16,
@@ -14438,11 +14469,11 @@
     "2026-04-08": 40
   },
   "categoryDistribution": {
-    "reverb": 891,
+    "reverb": 892,
     "marketplace": 40,
     "other": 115
   },
-  "activeModelsCount": 246,
+  "activeModelsCount": 247,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -14481,7 +14512,7 @@
       "count": 23
     },
     {
-      "username": "shoegazee_",
+      "username": "hibby_",
       "count": 15
     }
   ],
@@ -14536,10 +14567,10 @@
       "count": 74
     },
     "Gibson": {
-      "avgPrice": 7334,
+      "avgPrice": 7306,
       "retailEst": 800,
-      "avgDiscount": -816.7,
-      "count": 136
+      "avgDiscount": -813.2,
+      "count": 137
     },
     "ESP": {
       "avgPrice": 3919187,
@@ -16157,23 +16188,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1013,
+      "total": 1014,
       "sold": 277,
       "fake": 0,
-      "live": 253,
+      "live": 254,
       "removed": 483,
       "soldPct": 27,
       "livePct": 25
     },
     "byBrand": {
       "Gibson": {
-        "total": 138,
+        "total": 139,
         "sold": 34,
         "fake": 0,
-        "live": 29,
+        "live": 30,
         "removed": 75,
-        "soldPct": 25,
-        "livePct": 21
+        "soldPct": 24,
+        "livePct": 22
       },
       "Knaggs": {
         "total": 9,
@@ -17886,9 +17917,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 214,
+        "total": 215,
         "sold": 59,
-        "rate": 28
+        "rate": 27
       },
       {
         "label": "$5k–10k",
@@ -17904,6 +17935,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 53,
+        "sold": 9,
+        "rate": 17
+      },
       "Excellent": {
         "total": 154,
         "sold": 47,
@@ -17913,11 +17949,6 @@
         "total": 115,
         "sold": 36,
         "rate": 31
-      },
-      "Good": {
-        "total": 52,
-        "sold": 9,
-        "rate": 17
       },
       "Used": {
         "total": 20,
@@ -18032,15 +18063,15 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 100,
-      "sum": 743354.94,
-      "avg": 7434,
+      "count": 101,
+      "sum": 746854.94,
+      "avg": 7395,
       "min": 135,
       "max": 443302,
       "sold": 21,
       "soldSum": 62109.979999999996,
       "soldAvg": 2958,
-      "live": 23,
+      "live": 24,
       "removed": 56,
       "sellRate": 21,
       "totalDays": 529.1999999999999,
@@ -18136,7 +18167,7 @@
       "live": 8,
       "removed": 22,
       "sellRate": 29,
-      "totalDays": 377.9,
+      "totalDays": 378,
       "soldCount": 12,
       "avgDaysToSell": 31.5
     },
@@ -18155,7 +18186,7 @@
       "live": 1,
       "removed": 5,
       "sellRate": 63,
-      "totalDays": 225.9,
+      "totalDays": 226,
       "soldCount": 10,
       "avgDaysToSell": 22.6
     },
@@ -18266,7 +18297,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 43,
-      "totalDays": 389.5,
+      "totalDays": 389.59999999999997,
       "soldCount": 15,
       "avgDaysToSell": 26
     },
@@ -18416,9 +18447,9 @@
       "live": 7,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 102.5,
+      "totalDays": 102.60000000000001,
       "soldCount": 4,
-      "avgDaysToSell": 25.6
+      "avgDaysToSell": 25.7
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -18508,7 +18539,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 11.3,
+      "totalDays": 11.4,
       "soldCount": 2,
       "avgDaysToSell": 5.7
     },
@@ -18640,7 +18671,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 30,
-      "totalDays": 352.3,
+      "totalDays": 352.4,
       "soldCount": 6,
       "avgDaysToSell": 58.7
     },
@@ -18940,9 +18971,9 @@
       "live": 2,
       "removed": 9,
       "sellRate": 21,
-      "totalDays": 89.8,
+      "totalDays": 89.9,
       "soldCount": 3,
-      "avgDaysToSell": 29.9
+      "avgDaysToSell": 30
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -19274,9 +19305,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 279.4,
+      "totalDays": 279.5,
       "soldCount": 3,
-      "avgDaysToSell": 93.1
+      "avgDaysToSell": 93.2
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
@@ -19840,7 +19871,7 @@
     },
     {
       "label": "16–30",
-      "total": 104,
+      "total": 105,
       "sold": 28,
       "rate": 27
     },
@@ -19853,7 +19884,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 229,
+      "total": 230,
       "sold": 65,
       "rate": 28
     },
@@ -19865,9 +19896,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 151,
+      "total": 152,
       "sold": 34,
-      "rate": 23
+      "rate": 22
     },
     "regular": {
       "total": 146,
@@ -19878,7 +19909,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 37,
+      "total": 38,
       "sold": 12,
       "rate": 32
     },
