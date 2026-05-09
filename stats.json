@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-05-09T18:22:58.409Z",
-  "totalLinks": 1072,
-  "totalEver": 1124,
-  "totalBeforeFilter": 1124,
+  "generatedAt": "2026-05-09T18:33:05.197Z",
+  "totalLinks": 1073,
+  "totalEver": 1125,
+  "totalBeforeFilter": 1125,
   "fakeCount": 6,
   "removedCount": 503,
-  "totalWithPrice": 1055,
+  "totalWithPrice": 1056,
   "overall": {
-    "count": 1021,
-    "sum": 2763428.1,
-    "avg": 2707,
+    "count": 1024,
+    "sum": 2789068.1,
+    "avg": 2724,
     "min": 3,
-    "max": 10495
+    "max": 10900
   },
   "filtered": {
-    "count": 1021,
-    "sum": 2763428.1,
-    "avg": 2707,
+    "count": 1024,
+    "sum": 2789068.1,
+    "avg": 2724,
     "min": 3,
-    "max": 10495,
-    "median": 2199.99
+    "max": 10900,
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 10775,
+    "thresholdHigh": 10915,
     "thresholdLow": 0,
-    "count": 34,
+    "count": 32,
     "items": [
       {
         "url": "https://hiendguitar.com/products/esp-original-horizon-iii-liquid-metal-silver-w-gold-package-e1240242?_pos=554&_fid=27e9cc1ec&_ss=c",
@@ -241,37 +241,23 @@
         "price": "$10,995.",
         "condition": null,
         "postedAt": "2026-04-11T19:52:06.812+00:00"
-      },
-      {
-        "url": "https://reverb.com/item/92151199-castedosa-guitars-halcon-standard-aged-3-tone-sunburst-389",
-        "price": "$10,900.",
-        "condition": null,
-        "postedAt": "2026-04-10T04:15:29.447+00:00"
-      },
-      {
-        "title": "Fender Stratocaster 1963 Player Grade, Olympic White Refinish",
-        "url": "https://reverb.com/item/96453817-fender-stratocaster-1963-player-grade-olympic-white-refinish",
-        "price": "$10,800",
-        "image": "https://rvb-img.reverb.com/i/s--F8hawwZW--/quality=medium-low,height=800,width=800,fit=contain/119d0cfe-838b-4b4b-9987-4e896a8a0c02.jpg",
-        "condition": "Very Good",
-        "postedAt": "2026-04-28T00:40:24.288+00:00"
       }
     ]
   },
   "byMonth": {
     "2026-05": {
-      "count": 122,
-      "sum": 284213.93,
+      "count": 123,
+      "sum": 288153.93,
       "min": 95,
       "max": 9000,
-      "avg": 2330
+      "avg": 2343
     },
     "2026-04": {
-      "count": 772,
-      "sum": 2118366.81,
+      "count": 774,
+      "sum": 2140066.81,
       "min": 3,
-      "max": 10490,
-      "avg": 2744
+      "max": 10900,
+      "avg": 2765
     },
     "2026-03": {
       "count": 127,
@@ -282,19 +268,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 892,
+      "sum": 2428753.31,
+      "min": 7,
+      "max": 10900,
+      "avg": 2723
+    },
     "marketplace": {
       "count": 33,
       "sum": 94576.85,
       "min": 599,
       "max": 10495,
       "avg": 2866
-    },
-    "reverb": {
-      "count": 889,
-      "sum": 2403113.31,
-      "min": 7,
-      "max": 10490,
-      "avg": 2703
     },
     "other": {
       "count": 99,
@@ -305,19 +291,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 892,
+      "sum": 2428753.31,
+      "min": 7,
+      "max": 10900,
+      "avg": 2723
+    },
     "chicagomusicexchange.com": {
       "count": 39,
       "sum": 143873.98,
       "min": 350,
       "max": 9000,
       "avg": 3689
-    },
-    "reverb.com": {
-      "count": 889,
-      "sum": 2403113.31,
-      "min": 7,
-      "max": 10490,
-      "avg": 2703
     },
     "guitarcenter.com": {
       "count": 52,
@@ -545,6 +531,36 @@
     }
   },
   "byModel": {
+    "telecaster": {
+      "displayName": "Canalli Brazilian Rosewood Telecaster 2022 - Wax Natural",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 1,
+      "sum": 3940,
+      "min": 3940,
+      "max": 3940,
+      "sightings": [
+        {
+          "price": 3940,
+          "date": "2026-05-09T18:32:46.378+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Canalli Brazilian Rosewood Telecaster 2022 - Wax Natural",
+          "url": "https://reverb.com/item/77260338-canalli-brazilian-rosewood-telecaster-2022-wax-natural",
+          "condition": "Mint"
+        }
+      ],
+      "byCondition": {
+        "Mint": {
+          "count": 1,
+          "sum": 3940,
+          "min": 3940,
+          "max": 3940,
+          "avg": 3940
+        }
+      },
+      "avg": 3940
+    },
     "gibson-es-330": {
       "displayName": "Gibson ES-330 Cherry 1960s",
       "brand": "Gibson",
@@ -2451,6 +2467,37 @@
       },
       "avg": 602
     },
+    "heritage-h150-gloss": {
+      "displayName": "Heritage H150 2025 Gloss Lacquer",
+      "brand": "Heritage",
+      "model": "H150",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 1700,
+      "min": 1700,
+      "max": 1700,
+      "sightings": [
+        {
+          "price": 1700,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Heritage H150 2025 Gloss Lacquer",
+          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "avg": 1700
+    },
     "prs-mccarty-594-artist-package": {
       "displayName": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
       "brand": "PRS",
@@ -2496,37 +2543,6 @@
         ]
       },
       "avg": 3500
-    },
-    "heritage-h150-gloss": {
-      "displayName": "Heritage H150 2025 Gloss Lacquer",
-      "brand": "Heritage",
-      "model": "H150",
-      "variant": "Gloss",
-      "count": 1,
-      "sum": 1700,
-      "min": 1700,
-      "max": 1700,
-      "sightings": [
-        {
-          "price": 1700,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Heritage H150 2025 Gloss Lacquer",
-          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1700,
-          "min": 1700,
-          "max": 1700,
-          "avg": 1700
-        }
-      },
-      "avg": 1700
     },
     "music-man-axis": {
       "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
@@ -13974,6 +13990,20 @@
     }
   },
   "byCondition": {
+    "Mint": {
+      "count": 12,
+      "sum": 25694,
+      "sold": {
+        "count": 2,
+        "sum": 4590,
+        "avg": 2295,
+        "min": 2200,
+        "max": 2390
+      },
+      "avg": 2141,
+      "min": 400,
+      "max": 5000
+    },
     "Good": {
       "count": 58,
       "sum": 138580.94999999998,
@@ -14041,20 +14071,6 @@
       "min": 33,
       "max": 14450
     },
-    "Mint": {
-      "count": 11,
-      "sum": 21754,
-      "sold": {
-        "count": 2,
-        "sum": 4590,
-        "avg": 2295,
-        "min": 2200,
-        "max": 2390
-      },
-      "avg": 1978,
-      "min": 400,
-      "max": 5000
-    },
     "Brand New": {
       "count": 31,
       "sum": 124061.10999999999,
@@ -14109,15 +14125,15 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2330,
-      "median": 1873,
-      "count": 122
+      "avg": 2343,
+      "median": 1895,
+      "count": 123
     },
     "04": {
       "name": "Apr",
-      "avg": 2744,
+      "avg": 2765,
       "median": 2199,
-      "count": 772
+      "count": 774
     },
     "03": {
       "name": "Mar",
@@ -14142,18 +14158,18 @@
       "date": "2026-05-07T17:50:13.965+00:00"
     },
     {
-      "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
-      "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
-      "oldPrice": "$4,000",
-      "newPrice": "$3,500",
-      "date": "2026-05-05T05:50:07.32+00:00"
-    },
-    {
       "title": "Heritage H150 2025 Gloss Lacquer",
       "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
       "oldPrice": "$2,000",
       "newPrice": "$1,700",
       "date": "2026-05-06T05:50:28.932+00:00"
+    },
+    {
+      "title": "PRS McCarty 594 Artist Package Rosewood Neck 2016 - Faded Blue Jean",
+      "url": "https://reverb.com/item/96741213-prs-mccarty-594-artist-package-rosewood-neck-2016-faded-blue-jean",
+      "oldPrice": "$4,000",
+      "newPrice": "$3,500",
+      "date": "2026-05-05T05:50:07.32+00:00"
     },
     {
       "title": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
@@ -14273,7 +14289,7 @@
     "500-1k": 88,
     "1k-2k": 312,
     "2k-3k": 221,
-    "3k-5k": 220,
+    "3k-5k": 221,
     "5k-10k": 112,
     "10k+": 39
   },
@@ -14282,9 +14298,9 @@
     "500-1k": 88,
     "1k-2k": 312,
     "2k-3k": 221,
-    "3k-5k": 220,
+    "3k-5k": 221,
     "5k-10k": 112,
-    "10k+": 5
+    "10k+": 7
   },
   "daysOnMarket": {
     "Gibson": {
@@ -14323,7 +14339,7 @@
       "avg": 72
     },
     "PRS": {
-      "sum": 2563,
+      "sum": 2564,
       "count": 89,
       "avg": 29
     },
@@ -15139,7 +15155,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-09": 5,
+    "2026-05-09": 6,
     "2026-05-08": 22,
     "2026-05-07": 14,
     "2026-05-06": 11,
@@ -15172,11 +15188,11 @@
     "2026-04-09": 13
   },
   "categoryDistribution": {
+    "reverb": 913,
     "marketplace": 45,
-    "reverb": 912,
     "other": 115
   },
-  "activeModelsCount": 265,
+  "activeModelsCount": 266,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -15184,7 +15200,7 @@
     },
     {
       "username": "greg1213",
-      "count": 207
+      "count": 208
     },
     {
       "username": "yellowjack6",
@@ -16705,9 +16721,9 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 1606.3318468013817,
-      "count": 89,
-      "avgPctDrop": 18
+      "totalPctDrop": 1639.495544850576,
+      "count": 90,
+      "avgPctDrop": 18.2
     },
     "byBrand": {
       "Gibson": {
@@ -18692,7 +18708,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 220,
+        "total": 221,
         "sold": 62,
         "rate": 28
       },
@@ -18710,6 +18726,11 @@
       }
     ],
     "byCondition": {
+      "Mint": {
+        "total": 12,
+        "sold": 2,
+        "rate": 17
+      },
       "Good": {
         "total": 58,
         "sold": 11,
@@ -18734,11 +18755,6 @@
         "total": 119,
         "sold": 36,
         "rate": 30
-      },
-      "Mint": {
-        "total": 11,
-        "sold": 2,
-        "rate": 18
       },
       "Brand New": {
         "total": 31,
@@ -18904,7 +18920,7 @@
       "live": 3,
       "removed": 18,
       "sellRate": 38,
-      "totalDays": 400.79999999999995,
+      "totalDays": 400.9,
       "soldCount": 13,
       "avgDaysToSell": 30.8
     },
@@ -18923,7 +18939,7 @@
       "live": 8,
       "removed": 22,
       "sellRate": 30,
-      "totalDays": 401.2,
+      "totalDays": 401.4,
       "soldCount": 13,
       "avgDaysToSell": 30.9
     },
@@ -18942,7 +18958,7 @@
       "live": 2,
       "removed": 5,
       "sellRate": 59,
-      "totalDays": 242.89999999999998,
+      "totalDays": 243,
       "soldCount": 10,
       "avgDaysToSell": 24.3
     },
@@ -19183,7 +19199,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 46,
-      "totalDays": 423.8,
+      "totalDays": 423.9,
       "soldCount": 16,
       "avgDaysToSell": 26.5
     },
@@ -19314,7 +19330,7 @@
       "live": 6,
       "removed": 11,
       "sellRate": 23,
-      "totalDays": 114.80000000000001,
+      "totalDays": 114.9,
       "soldCount": 5,
       "avgDaysToSell": 23
     },
@@ -19406,7 +19422,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 14.7,
+      "totalDays": 14.8,
       "soldCount": 2,
       "avgDaysToSell": 7.4
     },
@@ -19538,7 +19554,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 30,
-      "totalDays": 362.5,
+      "totalDays": 362.59999999999997,
       "soldCount": 6,
       "avgDaysToSell": 60.4
     },
@@ -19745,9 +19761,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 16,
+      "totalDays": 16.1,
       "soldCount": 1,
-      "avgDaysToSell": 16
+      "avgDaysToSell": 16.1
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -19801,9 +19817,9 @@
       "live": 2,
       "removed": 9,
       "sellRate": 21,
-      "totalDays": 94.9,
+      "totalDays": 95,
       "soldCount": 3,
-      "avgDaysToSell": 31.6
+      "avgDaysToSell": 31.7
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -20098,9 +20114,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 284.5,
+      "totalDays": 284.6,
       "soldCount": 3,
-      "avgDaysToSell": 94.8
+      "avgDaysToSell": 94.9
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
@@ -20427,9 +20443,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 29.8,
+      "totalDays": 29.9,
       "soldCount": 1,
-      "avgDaysToSell": 29.8
+      "avgDaysToSell": 29.9
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -20616,9 +20632,9 @@
     }
   },
   "offerActivity": {
-    "withOffers": 127,
-    "totalOffers": 261,
-    "avgOffersPerListing": 2.1,
+    "withOffers": 128,
+    "totalOffers": 262,
+    "avgOffersPerListing": 2,
     "offersEnabledPct": 27
   },
   "shippingInsights": {
@@ -20652,14 +20668,14 @@
     },
     {
       "label": "31+",
-      "total": 112,
+      "total": 113,
       "sold": 29,
       "rate": 26
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 245,
+      "total": 246,
       "sold": 69,
       "rate": 28
     },
@@ -20671,7 +20687,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 165,
+      "total": 166,
       "sold": 37,
       "rate": 22
     },
