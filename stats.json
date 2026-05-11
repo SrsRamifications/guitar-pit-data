@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-11T19:57:09.001Z",
-  "totalLinks": 1087,
-  "totalEver": 1141,
-  "totalBeforeFilter": 1141,
+  "generatedAt": "2026-05-11T19:58:17.888Z",
+  "totalLinks": 1088,
+  "totalEver": 1142,
+  "totalBeforeFilter": 1142,
   "fakeCount": 6,
   "removedCount": 503,
-  "totalWithPrice": 1070,
+  "totalWithPrice": 1071,
   "overall": {
-    "count": 1035,
-    "sum": 2796126.08,
-    "avg": 2702,
+    "count": 1036,
+    "sum": 2802926.08,
+    "avg": 2706,
     "min": 3,
     "max": 10495
   },
   "filtered": {
-    "count": 1035,
-    "sum": 2796126.08,
-    "avg": 2702,
+    "count": 1036,
+    "sum": 2802926.08,
+    "avg": 2706,
     "min": 3,
     "max": 10495,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 10615,
+    "thresholdHigh": 10775,
     "thresholdLow": 0,
     "count": 35,
     "items": [
@@ -268,11 +268,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 136,
-      "sum": 317525.91,
+      "count": 137,
+      "sum": 324325.91,
       "min": 95,
       "max": 9000,
-      "avg": 2335
+      "avg": 2367
     },
     "2026-04": {
       "count": 772,
@@ -291,11 +291,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 901,
-      "sum": 2430811.31,
+      "count": 902,
+      "sum": 2437611.31,
       "min": 7,
       "max": 10490,
-      "avg": 2698
+      "avg": 2702
     },
     "marketplace": {
       "count": 35,
@@ -314,11 +314,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 901,
-      "sum": 2430811.31,
+      "count": 902,
+      "sum": 2437611.31,
       "min": 7,
       "max": 10490,
-      "avg": 2698
+      "avg": 2702
     },
     "guitarcenter.com": {
       "count": 54,
@@ -553,6 +553,37 @@
     }
   },
   "byModel": {
+    "castedosa-standard-humbucker": {
+      "displayName": "New Castedosa Marianna Standard w/ Mini Humbucker Neck - Butterscotch",
+      "brand": "Castedosa",
+      "model": "Standard",
+      "variant": "Humbucker",
+      "count": 1,
+      "sum": 6800,
+      "min": 6800,
+      "max": 6800,
+      "sightings": [
+        {
+          "price": 6800,
+          "date": "2026-05-11T19:58:02.425+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "New Castedosa Marianna Standard w/ Mini Humbucker Neck - Butterscotch",
+          "url": "https://reverb.com/item/96994640-new-castedosa-marianna-standard-w-mini-humbucker-neck-butterscotch",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 6800,
+          "min": 6800,
+          "max": 6800,
+          "avg": 6800
+        }
+      },
+      "avg": 6800
+    },
     "fender-telecaster": {
       "displayName": "Bakelite Reproduction Blackguard Fender Telecaster Broadcaster pick guard lacquered 5 hole nocaster 1950 1951 1952 1953 1954 aged MEDIUM relic",
       "brand": "Fender",
@@ -14472,6 +14503,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 32,
+      "sum": 130861.10999999999,
+      "sold": {
+        "count": 3,
+        "sum": 13746.17,
+        "avg": 4582,
+        "min": 999,
+        "max": 8199
+      },
+      "avg": 4089,
+      "min": 135,
+      "max": 14670
+    },
     "Good": {
       "count": 61,
       "sum": 147114.94999999998,
@@ -14553,20 +14598,6 @@
       "min": 300,
       "max": 4699
     },
-    "Brand New": {
-      "count": 31,
-      "sum": 124061.10999999999,
-      "sold": {
-        "count": 3,
-        "sum": 13746.17,
-        "avg": 4582,
-        "min": 999,
-        "max": 8199
-      },
-      "avg": 4002,
-      "min": 135,
-      "max": 14670
-    },
     "B-Stock": {
       "count": 4,
       "sum": 4124,
@@ -14607,9 +14638,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2335,
-      "median": 1897,
-      "count": 136
+      "avg": 2367,
+      "median": 1899,
+      "count": 137
     },
     "04": {
       "name": "Apr",
@@ -14772,7 +14803,7 @@
     "1k-2k": 317,
     "2k-3k": 226,
     "3k-5k": 221,
-    "5k-10k": 113,
+    "5k-10k": 114,
     "10k+": 40
   },
   "priceDistributionFiltered": {
@@ -14781,10 +14812,15 @@
     "1k-2k": 317,
     "2k-3k": 226,
     "3k-5k": 221,
-    "5k-10k": 113,
+    "5k-10k": 114,
     "10k+": 5
   },
   "daysOnMarket": {
+    "Castedosa": {
+      "sum": 267,
+      "count": 9,
+      "avg": 30
+    },
     "Fender": {
       "sum": 1959,
       "count": 74,
@@ -15320,11 +15356,6 @@
       "count": 1,
       "avg": 26
     },
-    "Castedosa": {
-      "sum": 267,
-      "count": 8,
-      "avg": 33
-    },
     "LSL": {
       "sum": 70,
       "count": 2,
@@ -15637,7 +15668,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-11": 5,
+    "2026-05-11": 6,
     "2026-05-10": 9,
     "2026-05-09": 6,
     "2026-05-08": 22,
@@ -15670,11 +15701,11 @@
     "2026-04-11": 4
   },
   "categoryDistribution": {
-    "reverb": 925,
+    "reverb": 926,
     "marketplace": 47,
     "other": 115
   },
-  "activeModelsCount": 275,
+  "activeModelsCount": 276,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -15694,7 +15725,7 @@
     },
     {
       "username": "madero",
-      "count": 60
+      "count": 61
     },
     {
       "username": "wontongg",
@@ -17504,15 +17535,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1047,
+      "total": 1048,
       "sold": 289,
       "fake": 0,
-      "live": 268,
+      "live": 269,
       "removed": 490,
       "soldPct": 28,
       "livePct": 26
     },
     "byBrand": {
+      "Castedosa": {
+        "total": 9,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "removed": 8,
+        "soldPct": 0,
+        "livePct": 11
+      },
       "Fender": {
         "total": 83,
         "sold": 22,
@@ -18512,15 +18552,6 @@
         "soldPct": 0,
         "livePct": 0
       },
-      "Castedosa": {
-        "total": 8,
-        "sold": 0,
-        "fake": 0,
-        "live": 0,
-        "removed": 8,
-        "soldPct": 0,
-        "livePct": 0
-      },
       "LSL": {
         "total": 2,
         "sold": 0,
@@ -19155,9 +19186,9 @@
     "worstBrands": [
       {
         "brand": "Castedosa",
-        "total": 8,
+        "total": 9,
         "sold": 0,
-        "live": 0,
+        "live": 1,
         "soldPct": 0
       },
       {
@@ -19257,9 +19288,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 113,
+        "total": 114,
         "sold": 21,
-        "rate": 19
+        "rate": 18
       },
       {
         "label": "$10k+",
@@ -19269,6 +19300,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 32,
+        "sold": 7,
+        "rate": 22
+      },
       "Good": {
         "total": 61,
         "sold": 11,
@@ -19298,11 +19334,6 @@
         "total": 5,
         "sold": 1,
         "rate": 20
-      },
-      "Brand New": {
-        "total": 31,
-        "sold": 7,
-        "rate": 23
       },
       "B-Stock": {
         "total": 4,
@@ -19393,6 +19424,24 @@
     ]
   },
   "byBrandLine": {
+    "Castedosa|Castedosa": {
+      "brand": "Castedosa",
+      "brandLine": "Castedosa",
+      "tier": "premium",
+      "count": 7,
+      "sum": 67377,
+      "avg": 9625,
+      "min": 6800,
+      "max": 12280,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "removed": 6,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -19501,7 +19550,7 @@
       "live": 26,
       "removed": 57,
       "sellRate": 22,
-      "totalDays": 621.8,
+      "totalDays": 621.9,
       "soldCount": 23,
       "avgDaysToSell": 27
     },
@@ -20564,9 +20613,9 @@
       "live": 0,
       "removed": 8,
       "sellRate": 11,
-      "totalDays": 27.8,
+      "totalDays": 27.9,
       "soldCount": 1,
-      "avgDaysToSell": 27.8
+      "avgDaysToSell": 27.9
     },
     "K-Line|K-Line": {
       "brand": "K-Line",
@@ -20695,7 +20744,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 290.6,
+      "totalDays": 290.7,
       "soldCount": 3,
       "avgDaysToSell": 96.9
     },
@@ -20826,24 +20875,6 @@
       "totalDays": 25.8,
       "soldCount": 1,
       "avgDaysToSell": 25.8
-    },
-    "Castedosa|Castedosa": {
-      "brand": "Castedosa",
-      "brandLine": "Castedosa",
-      "tier": null,
-      "count": 6,
-      "sum": 60577,
-      "avg": 10096,
-      "min": 8699,
-      "max": 12280,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 0,
-      "removed": 6,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -20987,7 +21018,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 69.9,
+      "totalDays": 70,
       "soldCount": 2,
       "avgDaysToSell": 35
     },
@@ -21213,9 +21244,9 @@
     },
     {
       "label": "1–5",
-      "total": 21,
+      "total": 22,
       "sold": 7,
-      "rate": 33
+      "rate": 32
     },
     {
       "label": "6–15",
@@ -21243,7 +21274,7 @@
       "rate": 29
     },
     "off": {
-      "total": 88,
+      "total": 89,
       "sold": 25,
       "rate": 28
     }
@@ -21255,7 +21286,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 161,
+      "total": 162,
       "sold": 50,
       "rate": 31
     }
@@ -21298,6 +21329,12 @@
       "rate": 25
     },
     {
+      "state": "TN",
+      "total": 13,
+      "sold": 7,
+      "rate": 54
+    },
+    {
       "state": "PA",
       "total": 13,
       "sold": 5,
@@ -21308,12 +21345,6 @@
       "total": 12,
       "sold": 4,
       "rate": 33
-    },
-    {
-      "state": "TN",
-      "total": 12,
-      "sold": 7,
-      "rate": 58
     },
     {
       "state": "OR",
