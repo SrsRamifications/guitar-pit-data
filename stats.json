@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T21:57:08.997Z",
+  "generatedAt": "2026-05-11T22:12:09.906Z",
   "totalLinks": 1090,
   "totalEver": 1146,
   "totalBeforeFilter": 1146,
@@ -707,11 +707,18 @@
         }
       },
       "soldData": {
-        "count": 1,
-        "avg": 10495,
-        "min": 10495,
+        "count": 2,
+        "avg": 5393,
+        "min": 290,
         "max": 10495,
         "prices": [
+          {
+            "price": 290,
+            "askingPrice": 290,
+            "date": "2026-05-11T21:57:14.189+00:00",
+            "title": "Bakelite Reproduction Blackguard Fender Telecaster Broadcaster pick guard lacquered 5 hole nocaster 1950 1951 1952 1953 1954 aged MEDIUM relic",
+            "url": "https://reverb.com/item/96974911-bakelite-reproduction-blackguard-fender-telecaster-broadcaster-pick-guard-lacquered-5-hole-nocaster-1950-1951-1952-1953-1954-aged-medium-relic"
+          },
           {
             "price": 10495,
             "askingPrice": 10495,
@@ -14597,10 +14604,10 @@
       "count": 61,
       "sum": 147114.94999999998,
       "sold": {
-        "count": 9,
-        "sum": 19535.469999999998,
-        "avg": 2171,
-        "min": 999,
+        "count": 10,
+        "sum": 19825.469999999998,
+        "avg": 1983,
+        "min": 290,
         "max": 4777.5
       },
       "avg": 2412,
@@ -15831,7 +15838,7 @@
     },
     {
       "username": "greg1213",
-      "count": 39
+      "count": 40
     },
     {
       "username": "shteefe",
@@ -15966,19 +15973,27 @@
     }
   },
   "soldPrices": {
-    "count": 292,
-    "avg": 2714,
+    "count": 293,
+    "avg": 2706,
     "min": 26,
     "max": 35900,
     "avgDiscount": 12
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 1590.1999999999994,
-      "count": 283,
+      "totalDays": 1590.7999999999993,
+      "count": 284,
       "avgDays": 5.6
     },
     "byModel": {
+      "fender-telecaster": {
+        "displayName": "Bakelite Reproduction Blackguard Fender Telecaster Broadcaster pick guard lacquered 5 hole nocaster 1950 1951 1952 1953 1954 aged MEDIUM relic",
+        "totalDays": 1.2999999999999998,
+        "count": 2,
+        "fastest": 0.6,
+        "slowest": 0.7,
+        "avgDays": 0.6
+      },
       "ibanez-k7-fb-korn-fire-signature": {
         "displayName": "Ibanez K7-FB Korn Signature 2001 - 2006 - Fire Spark Blue",
         "totalDays": 0.8,
@@ -16603,14 +16618,6 @@
         "slowest": 5.9,
         "avgDays": 5.9
       },
-      "eastman-sb54tv": {
-        "displayName": "Eastman SB54/TV, Gold",
-        "totalDays": 0.9,
-        "count": 1,
-        "fastest": 0.9,
-        "slowest": 0.9,
-        "avgDays": 0.9
-      },
       "prs-mccarty": {
         "displayName": "2000 PRS McCarty Soapbar Royal Blue Electric Guitar",
         "totalDays": 0.3,
@@ -16618,6 +16625,14 @@
         "fastest": 0.3,
         "slowest": 0.3,
         "avgDays": 0.3
+      },
+      "eastman-sb54tv": {
+        "displayName": "Eastman SB54/TV, Gold",
+        "totalDays": 0.9,
+        "count": 1,
+        "fastest": 0.9,
+        "slowest": 0.9,
+        "avgDays": 0.9
       },
       "tokai-stratocaster": {
         "displayName": "Tokai ST55 Springy Sound Stratocaster 1980 - Metallic Red Matching Headstock",
@@ -16747,14 +16762,6 @@
         "slowest": 0.4,
         "avgDays": 0.4
       },
-      "fender-telecaster": {
-        "displayName": "Fender 1967 Telecaster Refin USED/VINTAGE | Tapestry Music",
-        "totalDays": 0.7,
-        "count": 1,
-        "fastest": 0.7,
-        "slowest": 0.7,
-        "avgDays": 0.7
-      },
       "parker-fly-sitka-transparent-artist": {
         "displayName": "Parker Fly Artist Sitka 1998 - Transparent Butterscotch",
         "totalDays": 0.1,
@@ -16829,6 +16836,13 @@
       }
     },
     "byBrand": {
+      "Fender": {
+        "totalDays": 79.6,
+        "count": 22,
+        "fastest": 0,
+        "slowest": 30,
+        "avgDays": 3.6
+      },
       "Ibanez": {
         "totalDays": 43.80000000000001,
         "count": 16,
@@ -16856,13 +16870,6 @@
         "fastest": 0,
         "slowest": 44,
         "avgDays": 5.8
-      },
-      "Fender": {
-        "totalDays": 79,
-        "count": 21,
-        "fastest": 0,
-        "slowest": 30,
-        "avgDays": 3.8
       },
       "Music Man": {
         "totalDays": 19.700000000000003,
@@ -17620,12 +17627,12 @@
   "sellThrough": {
     "overall": {
       "total": 1049,
-      "sold": 290,
+      "sold": 291,
       "fake": 0,
-      "live": 268,
+      "live": 267,
       "removed": 491,
       "soldPct": 28,
-      "livePct": 26
+      "livePct": 25
     },
     "byBrand": {
       "PRS": {
@@ -17648,12 +17655,12 @@
       },
       "Fender": {
         "total": 83,
-        "sold": 22,
+        "sold": 23,
         "fake": 0,
-        "live": 25,
+        "live": 24,
         "removed": 36,
-        "soldPct": 27,
-        "livePct": 30
+        "soldPct": 28,
+        "livePct": 29
       },
       "Ibanez": {
         "total": 47,
@@ -19343,8 +19350,8 @@
       {
         "label": "Under $500",
         "total": 65,
-        "sold": 15,
-        "rate": 23
+        "sold": 16,
+        "rate": 25
       },
       {
         "label": "$500–1k",
@@ -19391,8 +19398,8 @@
       },
       "Good": {
         "total": 61,
-        "sold": 11,
-        "rate": 18
+        "sold": 12,
+        "rate": 20
       },
       "Excellent": {
         "total": 168,
@@ -19523,7 +19530,7 @@
       "live": 11,
       "removed": 38,
       "sellRate": 34,
-      "totalDays": 802.0000000000002,
+      "totalDays": 802.4000000000002,
       "soldCount": 25,
       "avgDaysToSell": 32.1
     },
@@ -19554,15 +19561,15 @@
       "avg": 8226,
       "min": 290,
       "max": 51500,
-      "sold": 13,
-      "soldSum": 90069,
-      "soldAvg": 6928,
-      "live": 12,
+      "sold": 14,
+      "soldSum": 90359,
+      "soldAvg": 6454,
+      "live": 11,
       "removed": 22,
-      "sellRate": 28,
-      "totalDays": 429.2,
-      "soldCount": 13,
-      "avgDaysToSell": 33
+      "sellRate": 30,
+      "totalDays": 429.9,
+      "soldCount": 14,
+      "avgDaysToSell": 30.7
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -19579,9 +19586,9 @@
       "live": 4,
       "removed": 5,
       "sellRate": 44,
-      "totalDays": 186.2,
+      "totalDays": 186.60000000000002,
       "soldCount": 7,
-      "avgDaysToSell": 26.6
+      "avgDaysToSell": 26.7
     },
     "Fender|Squier": {
       "brand": "Fender",
@@ -19653,7 +19660,7 @@
       "live": 26,
       "removed": 57,
       "sellRate": 22,
-      "totalDays": 623.8000000000001,
+      "totalDays": 623.9,
       "soldCount": 23,
       "avgDaysToSell": 27.1
     },
@@ -19672,7 +19679,7 @@
       "live": 4,
       "removed": 18,
       "sellRate": 37,
-      "totalDays": 426.4,
+      "totalDays": 426.7,
       "soldCount": 13,
       "avgDaysToSell": 32.8
     },
@@ -19728,7 +19735,7 @@
       "live": 1,
       "removed": 5,
       "sellRate": 65,
-      "totalDays": 271.3,
+      "totalDays": 271.5,
       "soldCount": 11,
       "avgDaysToSell": 24.7
     },
@@ -19765,7 +19772,7 @@
       "live": 6,
       "removed": 9,
       "sellRate": 21,
-      "totalDays": 130.3,
+      "totalDays": 130.4,
       "soldCount": 4,
       "avgDaysToSell": 32.6
     },
@@ -19931,7 +19938,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 46,
-      "totalDays": 458.29999999999995,
+      "totalDays": 458.3999999999999,
       "soldCount": 16,
       "avgDaysToSell": 28.6
     },
@@ -19987,9 +19994,9 @@
       "live": 2,
       "removed": 4,
       "sellRate": 14,
-      "totalDays": 30,
+      "totalDays": 30.1,
       "soldCount": 1,
-      "avgDaysToSell": 30
+      "avgDaysToSell": 30.1
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -20006,7 +20013,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 80.6,
+      "totalDays": 80.8,
       "soldCount": 3,
       "avgDaysToSell": 26.9
     },
@@ -20025,9 +20032,9 @@
       "live": 2,
       "removed": 4,
       "sellRate": 33,
-      "totalDays": 82.30000000000001,
+      "totalDays": 82.4,
       "soldCount": 3,
-      "avgDaysToSell": 27.4
+      "avgDaysToSell": 27.5
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -20044,9 +20051,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 42,
-      "totalDays": 145.2,
+      "totalDays": 145.29999999999998,
       "soldCount": 5,
-      "avgDaysToSell": 29
+      "avgDaysToSell": 29.1
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -20231,9 +20238,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 19,
+      "totalDays": 19.1,
       "soldCount": 1,
-      "avgDaysToSell": 19
+      "avgDaysToSell": 19.1
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -20362,7 +20369,7 @@
       "live": 5,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 238.3,
+      "totalDays": 238.5,
       "soldCount": 8,
       "avgDaysToSell": 29.8
     },
@@ -20550,7 +20557,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 30.9,
+      "totalDays": 31,
       "soldCount": 2,
       "avgDaysToSell": 15.5
     },
@@ -20569,7 +20576,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 109.99999999999999,
+      "totalDays": 110.1,
       "soldCount": 4,
       "avgDaysToSell": 27.5
     },
@@ -20735,9 +20742,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 115,
+      "totalDays": 115.1,
       "soldCount": 2,
-      "avgDaysToSell": 57.5
+      "avgDaysToSell": 57.6
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -21335,8 +21342,8 @@
     {
       "label": "6–15",
       "total": 82,
-      "sold": 18,
-      "rate": 22
+      "sold": 19,
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -21354,7 +21361,7 @@
   "offersEffect": {
     "on": {
       "total": 256,
-      "sold": 74,
+      "sold": 75,
       "rate": 29
     },
     "off": {
@@ -21371,7 +21378,7 @@
     },
     "regular": {
       "total": 163,
-      "sold": 50,
+      "sold": 51,
       "rate": 31
     }
   },
@@ -21379,8 +21386,8 @@
     {
       "state": "CA",
       "total": 39,
-      "sold": 14,
-      "rate": 36
+      "sold": 15,
+      "rate": 38
     },
     {
       "state": "TX",
