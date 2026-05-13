@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-12T23:57:12.124Z",
-  "totalLinks": 1106,
-  "totalEver": 1166,
-  "totalBeforeFilter": 1166,
+  "generatedAt": "2026-05-13T00:00:07.316Z",
+  "totalLinks": 1107,
+  "totalEver": 1167,
+  "totalBeforeFilter": 1167,
   "fakeCount": 6,
   "removedCount": 508,
-  "totalWithPrice": 1089,
+  "totalWithPrice": 1090,
   "overall": {
-    "count": 1060,
-    "sum": 2922551.07,
-    "avg": 2757,
+    "count": 1061,
+    "sum": 2924201.07,
+    "avg": 2756,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1060,
-    "sum": 2922551.07,
-    "avg": 2757,
+    "count": 1061,
+    "sum": 2924201.07,
+    "avg": 2756,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -228,11 +228,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 155,
-      "sum": 378470.9,
+      "count": 156,
+      "sum": 380120.9,
       "min": 95,
       "max": 9000,
-      "avg": 2442
+      "avg": 2437
     },
     "2026-04": {
       "count": 778,
@@ -250,19 +250,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 924,
+      "sum": 2531792.31,
+      "min": 7,
+      "max": 11055,
+      "avg": 2740
+    },
     "marketplace": {
       "count": 36,
       "sum": 104576.82,
       "min": 599,
       "max": 10495,
       "avg": 2905
-    },
-    "reverb": {
-      "count": 923,
-      "sum": 2530142.31,
-      "min": 7,
-      "max": 11055,
-      "avg": 2741
     },
     "other": {
       "count": 101,
@@ -273,19 +273,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 924,
+      "sum": 2531792.31,
+      "min": 7,
+      "max": 11055,
+      "avg": 2740
+    },
     "guitarcenter.com": {
       "count": 55,
       "sum": 109286.49,
       "min": 139.99,
       "max": 5499.99,
       "avg": 1987
-    },
-    "reverb.com": {
-      "count": 923,
-      "sum": 2530142.31,
-      "min": 7,
-      "max": 11055,
-      "avg": 2741
     },
     "chicagomusicexchange.com": {
       "count": 41,
@@ -513,6 +513,53 @@
     }
   },
   "byModel": {
+    "warmoth-stratocaster": {
+      "displayName": "Koa Stratocaster dream machine partscaster - Natural",
+      "brand": "Warmoth",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 2,
+      "sum": 2000,
+      "min": 350,
+      "max": 1650,
+      "sightings": [
+        {
+          "price": 350,
+          "date": "2026-05-12T14:04:22.671+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Warmoth Strat Neck CBS Fathead One piece Indian Rosewood",
+          "url": "https://reverb.com/item/94895178-warmoth-strat-neck-cbs-fathead-one-piece-indian-rosewood",
+          "condition": "Excellent"
+        },
+        {
+          "price": 1650,
+          "date": "2026-05-12T23:59:48.361+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Koa Stratocaster dream machine partscaster - Natural",
+          "url": "https://reverb.com/item/96394936-koa-stratocaster-dream-machine-partscaster-natural",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1650,
+          "min": 1650,
+          "max": 1650,
+          "avg": 1650
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 350,
+          "min": 350,
+          "max": 350,
+          "avg": 350
+        }
+      },
+      "avg": 1000
+    },
     "vintage-sg-custom": {
       "displayName": "Vintage 1970 Gibson SG CUSTOM WALNUT Walnut Solid Body Electric Guitar Walnut",
       "brand": "Vintage",
@@ -878,37 +925,6 @@
         }
       },
       "avg": 1299
-    },
-    "warmoth-stratocaster": {
-      "displayName": "Warmoth Strat Neck CBS Fathead One piece Indian Rosewood",
-      "brand": "Warmoth",
-      "model": "Stratocaster",
-      "variant": null,
-      "count": 1,
-      "sum": 350,
-      "min": 350,
-      "max": 350,
-      "sightings": [
-        {
-          "price": 350,
-          "date": "2026-05-12T14:04:22.671+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Warmoth Strat Neck CBS Fathead One piece Indian Rosewood",
-          "url": "https://reverb.com/item/94895178-warmoth-strat-neck-cbs-fathead-one-piece-indian-rosewood",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 350,
-          "min": 350,
-          "max": 350,
-          "avg": 350
-        }
-      },
-      "avg": 350
     },
     "arcane-inc-killdozer-wartorn": {
       "displayName": "Arcane Inc. Killdozer Wartorn Black Bridge only 2024 - KILL",
@@ -15035,6 +15051,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 127,
+      "sum": 341119.55999999994,
+      "sold": {
+        "count": 38,
+        "sum": 91808.79000000001,
+        "avg": 2416,
+        "min": 230,
+        "max": 10800
+      },
+      "avg": 2686,
+      "min": 33,
+      "max": 19655
+    },
     "Used": {
       "count": 25,
       "sum": 303426.81999999995,
@@ -15045,20 +15075,6 @@
       "avg": 12137,
       "min": 599.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 126,
-      "sum": 339469.55999999994,
-      "sold": {
-        "count": 38,
-        "sum": 91808.79000000001,
-        "avg": 2416,
-        "min": 230,
-        "max": 10800
-      },
-      "avg": 2694,
-      "min": 33,
-      "max": 19655
     },
     "Excellent": {
       "count": 176,
@@ -15170,9 +15186,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2442,
+      "avg": 2437,
       "median": 1900,
-      "count": 155
+      "count": 156
     },
     "04": {
       "name": "Apr",
@@ -15332,7 +15348,7 @@
   "priceDistribution": {
     "0-500": 71,
     "500-1k": 89,
-    "1k-2k": 318,
+    "1k-2k": 319,
     "2k-3k": 226,
     "3k-5k": 228,
     "5k-10k": 117,
@@ -15341,13 +15357,18 @@
   "priceDistributionFiltered": {
     "0-500": 71,
     "500-1k": 89,
-    "1k-2k": 318,
+    "1k-2k": 319,
     "2k-3k": 226,
     "3k-5k": 228,
     "5k-10k": 117,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Warmoth": {
+      "sum": 189,
+      "count": 6,
+      "avg": 32
+    },
     "Vintage": {
       "sum": 574,
       "count": 22,
@@ -15364,7 +15385,7 @@
       "avg": 24
     },
     "BC Rich": {
-      "sum": 1916,
+      "sum": 1917,
       "count": 68,
       "avg": 28
     },
@@ -15382,11 +15403,6 @@
       "sum": 4145,
       "count": 142,
       "avg": 29
-    },
-    "Warmoth": {
-      "sum": 172,
-      "count": 5,
-      "avg": 34
     },
     "Powers Electric": {
       "sum": 47,
@@ -16200,7 +16216,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-12": 16,
+    "2026-05-12": 17,
     "2026-05-11": 8,
     "2026-05-10": 9,
     "2026-05-09": 6,
@@ -16232,8 +16248,8 @@
     "2026-04-13": 28
   },
   "categoryDistribution": {
+    "reverb": 944,
     "marketplace": 48,
-    "reverb": 943,
     "other": 115
   },
   "activeModelsCount": 293,
@@ -16247,12 +16263,12 @@
       "count": 219
     },
     {
-      "username": "yellowjack6",
+      "username": "shteefe",
       "count": 97
     },
     {
-      "username": "shteefe",
-      "count": 96
+      "username": "yellowjack6",
+      "count": 97
     },
     {
       "username": "madero",
@@ -18113,15 +18129,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1064,
+      "total": 1065,
       "sold": 294,
       "fake": 0,
-      "live": 275,
+      "live": 276,
       "removed": 495,
       "soldPct": 28,
       "livePct": 26
     },
     "byBrand": {
+      "Warmoth": {
+        "total": 6,
+        "sold": 3,
+        "fake": 0,
+        "live": 3,
+        "removed": 0,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Vintage": {
         "total": 26,
         "sold": 3,
@@ -18193,15 +18218,6 @@
         "removed": 76,
         "soldPct": 25,
         "livePct": 23
-      },
-      "Warmoth": {
-        "total": 5,
-        "sold": 3,
-        "fake": 0,
-        "live": 2,
-        "removed": 0,
-        "soldPct": 60,
-        "livePct": 40
       },
       "Arcane": {
         "total": 3,
@@ -19714,18 +19730,18 @@
         "soldPct": 64
       },
       {
-        "brand": "Warmoth",
-        "total": 5,
-        "sold": 3,
-        "live": 2,
-        "soldPct": 60
-      },
-      {
         "brand": "Parker",
         "total": 7,
         "sold": 4,
         "live": 3,
         "soldPct": 57
+      },
+      {
+        "brand": "Warmoth",
+        "total": 6,
+        "sold": 3,
+        "live": 3,
+        "soldPct": 50
       },
       {
         "brand": "Dunable",
@@ -19857,7 +19873,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 318,
+        "total": 319,
         "sold": 90,
         "rate": 28
       },
@@ -19887,15 +19903,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 128,
+        "sold": 38,
+        "rate": 30
+      },
       "Used": {
         "total": 26,
         "sold": 0,
         "rate": 0
-      },
-      "Very Good": {
-        "total": 127,
-        "sold": 38,
-        "rate": 30
       },
       "Excellent": {
         "total": 176,
@@ -19961,9 +19977,9 @@
       },
       {
         "brand": "Warmoth",
-        "avgPrice": 283,
-        "sellRate": 60,
-        "count": 5,
+        "avgPrice": 556,
+        "sellRate": 50,
+        "count": 6,
         "sold": 3
       },
       {
@@ -20081,7 +20097,7 @@
       "live": 10,
       "removed": 11,
       "sellRate": 19,
-      "totalDays": 131,
+      "totalDays": 131.10000000000002,
       "soldCount": 5,
       "avgDaysToSell": 26.2
     },
@@ -20287,9 +20303,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 3.4,
+      "totalDays": 3.5,
       "soldCount": 1,
-      "avgDaysToSell": 3.4
+      "avgDaysToSell": 3.5
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -20324,9 +20340,9 @@
       "live": 1,
       "removed": 5,
       "sellRate": 65,
-      "totalDays": 283.09999999999997,
+      "totalDays": 283.3,
       "soldCount": 11,
-      "avgDaysToSell": 25.7
+      "avgDaysToSell": 25.8
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -20640,7 +20656,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 42,
-      "totalDays": 150.6,
+      "totalDays": 150.70000000000002,
       "soldCount": 5,
       "avgDaysToSell": 30.1
     },
@@ -21856,7 +21872,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 106
+    "avgShippingCost": 105
   },
   "watcherDemand": [
     {
@@ -21879,7 +21895,7 @@
     },
     {
       "label": "16–30",
-      "total": 120,
+      "total": 121,
       "sold": 34,
       "rate": 28
     },
@@ -21892,7 +21908,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 265,
+      "total": 266,
       "sold": 78,
       "rate": 29
     },
@@ -21909,9 +21925,9 @@
       "rate": 23
     },
     "regular": {
-      "total": 171,
+      "total": 172,
       "sold": 54,
-      "rate": 32
+      "rate": 31
     }
   },
   "geoSellThrough": [
@@ -21922,16 +21938,16 @@
       "rate": 38
     },
     {
+      "state": "NY",
+      "total": 21,
+      "sold": 2,
+      "rate": 10
+    },
+    {
       "state": "TX",
       "total": 21,
       "sold": 9,
       "rate": 43
-    },
-    {
-      "state": "NY",
-      "total": 20,
-      "sold": 2,
-      "rate": 10
     },
     {
       "state": "FL",
