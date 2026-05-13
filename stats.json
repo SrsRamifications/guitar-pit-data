@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-13T13:27:11.603Z",
-  "totalLinks": 1123,
-  "totalEver": 1183,
-  "totalBeforeFilter": 1183,
+  "generatedAt": "2026-05-13T13:37:23.612Z",
+  "totalLinks": 1124,
+  "totalEver": 1184,
+  "totalBeforeFilter": 1184,
   "fakeCount": 6,
   "removedCount": 508,
-  "totalWithPrice": 1106,
+  "totalWithPrice": 1107,
   "overall": {
-    "count": 1076,
-    "sum": 2976737.07,
-    "avg": 2766,
+    "count": 1077,
+    "sum": 2978237.07,
+    "avg": 2765,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1076,
-    "sum": 2976737.07,
-    "avg": 2766,
+    "count": 1077,
+    "sum": 2978237.07,
+    "avg": 2765,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -236,11 +236,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 171,
-      "sum": 432737.9,
+      "count": 172,
+      "sum": 434237.9,
       "min": 95,
       "max": 10350,
-      "avg": 2531
+      "avg": 2525
     },
     "2026-04": {
       "count": 778,
@@ -258,19 +258,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 936,
+      "sum": 2569344.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2745
+    },
     "marketplace": {
       "count": 40,
       "sum": 121060.82,
       "min": 499,
       "max": 10495,
       "avg": 3027
-    },
-    "reverb": {
-      "count": 935,
-      "sum": 2567844.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2746
     },
     "other": {
       "count": 101,
@@ -281,6 +281,13 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 936,
+      "sum": 2569344.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2745
+    },
     "chicagomusicexchange.com": {
       "count": 44,
       "sum": 181952.98,
@@ -294,13 +301,6 @@
       "min": 139.99,
       "max": 5499.99,
       "avg": 1960
-    },
-    "reverb.com": {
-      "count": 935,
-      "sum": 2567844.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2746
     },
     "musicgoround.com": {
       "count": 3,
@@ -521,6 +521,37 @@
     }
   },
   "byModel": {
+    "bc-rich-ironbird-nj-series": {
+      "displayName": "BC Rich Ironbird NJ Series Model 420JE Candy Apple Red MIK  - 2000",
+      "brand": "BC Rich",
+      "model": "Ironbird NJ Series",
+      "variant": null,
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-05-13T13:37:05.77+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "BC Rich Ironbird NJ Series Model 420JE Candy Apple Red MIK  - 2000",
+          "url": "https://reverb.com/item/97027919-bc-rich-ironbird-nj-series-model-420je-candy-apple-red-mik-2000",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "collings-470jl-julian-lage": {
       "displayName": "Collings 470JL Julian Lage Black",
       "brand": "Collings",
@@ -15448,6 +15479,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 182,
+      "sum": 602731.73,
+      "sold": {
+        "count": 55,
+        "sum": 192788.45,
+        "avg": 3505,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3312,
+      "min": 171,
+      "max": 35900
+    },
     "Used": {
       "count": 29,
       "sum": 319910.81999999995,
@@ -15472,20 +15517,6 @@
       "avg": 2923,
       "min": 33,
       "max": 32500
-    },
-    "Excellent": {
-      "count": 181,
-      "sum": 601231.73,
-      "sold": {
-        "count": 55,
-        "sum": 192788.45,
-        "avg": 3505,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3322,
-      "min": 171,
-      "max": 35900
     },
     "Fair": {
       "count": 6,
@@ -15583,9 +15614,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2531,
+      "avg": 2525,
       "median": 1900,
-      "count": 171
+      "count": 172
     },
     "04": {
       "name": "Apr",
@@ -15745,7 +15776,7 @@
   "priceDistribution": {
     "0-500": 73,
     "500-1k": 90,
-    "1k-2k": 322,
+    "1k-2k": 323,
     "2k-3k": 227,
     "3k-5k": 232,
     "5k-10k": 120,
@@ -15754,13 +15785,18 @@
   "priceDistributionFiltered": {
     "0-500": 73,
     "500-1k": 90,
-    "1k-2k": 322,
+    "1k-2k": 323,
     "2k-3k": 227,
     "3k-5k": 232,
     "5k-10k": 120,
     "10k+": 12
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 2001,
+      "count": 72,
+      "avg": 28
+    },
     "Collings": {
       "sum": 237,
       "count": 7,
@@ -15771,23 +15807,18 @@
       "count": 92,
       "avg": 32
     },
-    "BC Rich": {
-      "sum": 2000,
-      "count": 71,
-      "avg": 28
-    },
     "Gibson": {
-      "sum": 4241,
+      "sum": 4243,
       "count": 143,
       "avg": 30
     },
     "Fender": {
-      "sum": 2137,
+      "sum": 2139,
       "count": 75,
-      "avg": 28
+      "avg": 29
     },
     "Kiesel": {
-      "sum": 1153,
+      "sum": 1155,
       "count": 35,
       "avg": 33
     },
@@ -15842,7 +15873,7 @@
       "avg": 18
     },
     "Ibanez": {
-      "sum": 1386,
+      "sum": 1387,
       "count": 46,
       "avg": 30
     },
@@ -15852,7 +15883,7 @@
       "avg": 32
     },
     "Hamer": {
-      "sum": 149,
+      "sum": 150,
       "count": 6,
       "avg": 25
     },
@@ -15862,7 +15893,7 @@
       "avg": 30
     },
     "Music Man": {
-      "sum": 615,
+      "sum": 616,
       "count": 21,
       "avg": 29
     },
@@ -16613,7 +16644,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-13": 16,
+    "2026-05-13": 17,
     "2026-05-12": 17,
     "2026-05-11": 8,
     "2026-05-10": 9,
@@ -16646,11 +16677,11 @@
     "2026-04-13": 14
   },
   "categoryDistribution": {
+    "reverb": 957,
     "marketplace": 52,
-    "reverb": 956,
     "other": 115
   },
-  "activeModelsCount": 304,
+  "activeModelsCount": 305,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -16662,7 +16693,7 @@
     },
     {
       "username": "yellowjack6",
-      "count": 103
+      "count": 104
     },
     {
       "username": "shteefe",
@@ -16822,10 +16853,10 @@
       "count": 14
     },
     "BC Rich": {
-      "avgPrice": 3071,
+      "avgPrice": 3050,
       "retailEst": 200,
-      "avgDiscount": -1435.5,
-      "count": 75
+      "avgDiscount": -1425.1,
+      "count": 76
     },
     "Rickenbacker": {
       "avgPrice": 2315,
@@ -18527,15 +18558,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1079,
+      "total": 1080,
       "sold": 294,
       "fake": 0,
-      "live": 290,
+      "live": 291,
       "removed": 495,
       "soldPct": 27,
       "livePct": 27
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 76,
+        "sold": 19,
+        "fake": 0,
+        "live": 31,
+        "removed": 26,
+        "soldPct": 25,
+        "livePct": 41
+      },
       "Collings": {
         "total": 7,
         "sold": 3,
@@ -18553,15 +18593,6 @@
         "removed": 47,
         "soldPct": 31,
         "livePct": 20
-      },
-      "BC Rich": {
-        "total": 75,
-        "sold": 19,
-        "fake": 0,
-        "live": 30,
-        "removed": 26,
-        "soldPct": 25,
-        "livePct": 40
       },
       "Gibson": {
         "total": 148,
@@ -20271,7 +20302,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 322,
+        "total": 323,
         "sold": 90,
         "rate": 28
       },
@@ -20301,6 +20332,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 182,
+        "sold": 58,
+        "rate": 32
+      },
       "Used": {
         "total": 30,
         "sold": 0,
@@ -20310,11 +20346,6 @@
         "total": 133,
         "sold": 38,
         "rate": 29
-      },
-      "Excellent": {
-        "total": 181,
-        "sold": 58,
-        "rate": 32
       },
       "Fair": {
         "total": 6,
@@ -20411,6 +20442,25 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich Import": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich Import",
+      "tier": "budget-mid",
+      "count": 28,
+      "sum": 33500.98,
+      "avg": 1196,
+      "min": 250,
+      "max": 3900,
+      "sold": 5,
+      "soldSum": 4378,
+      "soldAvg": 876,
+      "live": 12,
+      "removed": 11,
+      "sellRate": 18,
+      "totalDays": 133.8,
+      "soldCount": 5,
+      "avgDaysToSell": 26.8
+    },
     "Collings|Collings": {
       "brand": "Collings",
       "brandLine": "Collings",
@@ -20445,7 +20495,7 @@
       "live": 13,
       "removed": 38,
       "sellRate": 33,
-      "totalDays": 843.3,
+      "totalDays": 843.5999999999998,
       "soldCount": 25,
       "avgDaysToSell": 33.7
     },
@@ -20464,28 +20514,9 @@
       "live": 8,
       "removed": 9,
       "sellRate": 26,
-      "totalDays": 385.2,
+      "totalDays": 385.3,
       "soldCount": 6,
       "avgDaysToSell": 64.2
-    },
-    "BC Rich|BC Rich Import": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich Import",
-      "tier": "budget-mid",
-      "count": 27,
-      "sum": 32000.980000000003,
-      "avg": 1185,
-      "min": 250,
-      "max": 3900,
-      "sold": 5,
-      "soldSum": 4378,
-      "soldAvg": 876,
-      "live": 11,
-      "removed": 11,
-      "sellRate": 19,
-      "totalDays": 133.8,
-      "soldCount": 5,
-      "avgDaysToSell": 26.8
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -20502,7 +20533,7 @@
       "live": 27,
       "removed": 57,
       "sellRate": 22,
-      "totalDays": 671.6999999999999,
+      "totalDays": 671.8,
       "soldCount": 24,
       "avgDaysToSell": 28
     },
@@ -20521,7 +20552,7 @@
       "live": 11,
       "removed": 23,
       "sellRate": 29,
-      "totalDays": 452.9,
+      "totalDays": 453,
       "soldCount": 14,
       "avgDaysToSell": 32.4
     },
@@ -20540,7 +20571,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 47,
-      "totalDays": 498.59999999999997,
+      "totalDays": 498.7,
       "soldCount": 17,
       "avgDaysToSell": 29.3
     },
@@ -20559,7 +20590,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 83,
-      "totalDays": 152.8,
+      "totalDays": 152.89999999999998,
       "soldCount": 5,
       "avgDaysToSell": 30.6
     },
@@ -20744,7 +20775,7 @@
       "live": 4,
       "removed": 18,
       "sellRate": 37,
-      "totalDays": 446.3,
+      "totalDays": 446.40000000000003,
       "soldCount": 13,
       "avgDaysToSell": 34.3
     },
@@ -21189,9 +21220,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 22.299999999999997,
+      "totalDays": 22.4,
       "soldCount": 2,
-      "avgDaysToSell": 11.1
+      "avgDaysToSell": 11.2
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -21395,9 +21426,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 106.49999999999999,
+      "totalDays": 106.6,
       "soldCount": 4,
-      "avgDaysToSell": 26.6
+      "avgDaysToSell": 26.7
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -22273,7 +22304,7 @@
     },
     {
       "label": "6–15",
-      "total": 84,
+      "total": 85,
       "sold": 21,
       "rate": 25
     },
@@ -22297,14 +22328,14 @@
       "rate": 28
     },
     "off": {
-      "total": 100,
+      "total": 101,
       "sold": 26,
       "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 185,
+      "total": 186,
       "sold": 41,
       "rate": 22
     },
@@ -22504,6 +22535,12 @@
     {
       "state": "Stockholm",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "ID",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
