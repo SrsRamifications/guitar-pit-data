@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-14T16:57:11.483Z",
-  "totalLinks": 1140,
-  "totalEver": 1202,
-  "totalBeforeFilter": 1202,
+  "generatedAt": "2026-05-14T17:00:15.152Z",
+  "totalLinks": 1141,
+  "totalEver": 1203,
+  "totalBeforeFilter": 1203,
   "fakeCount": 6,
   "removedCount": 514,
-  "totalWithPrice": 1123,
+  "totalWithPrice": 1124,
   "overall": {
-    "count": 1092,
-    "sum": 3015750.05,
-    "avg": 2762,
+    "count": 1093,
+    "sum": 3016950.04,
+    "avg": 2760,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1092,
-    "sum": 3015750.05,
-    "avg": 2762,
+    "count": 1093,
+    "sum": 3016950.04,
+    "avg": 2760,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -244,11 +244,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 187,
-      "sum": 471880.88,
+      "count": 188,
+      "sum": 473080.87,
       "min": 95,
       "max": 10350,
-      "avg": 2523
+      "avg": 2516
     },
     "2026-04": {
       "count": 778,
@@ -266,19 +266,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 43,
+      "sum": 127160.79,
+      "min": 499,
+      "max": 10495,
+      "avg": 2957
+    },
     "reverb": {
       "count": 949,
       "sum": 2601957.31,
       "min": 7,
       "max": 11053,
       "avg": 2742
-    },
-    "marketplace": {
-      "count": 42,
-      "sum": 125960.8,
-      "min": 499,
-      "max": 10495,
-      "avg": 2999
     },
     "other": {
       "count": 101,
@@ -289,19 +289,19 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 59,
+      "sum": 115885.46,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1964
+    },
     "reverb.com": {
       "count": 949,
       "sum": 2601957.31,
       "min": 7,
       "max": 11053,
       "avg": 2742
-    },
-    "guitarcenter.com": {
-      "count": 58,
-      "sum": 114685.47,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1977
     },
     "chicagomusicexchange.com": {
       "count": 44,
@@ -529,6 +529,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-studio-evertune": {
+      "displayName": "Used Gibson Les Paul Studio with Evertune Bridge Smokehouse Burst Solid Body Electric Guitar Smokehouse Burst",
+      "brand": "Gibson",
+      "model": "Les Paul Studio",
+      "variant": "Evertune",
+      "count": 1,
+      "sum": 1199.99,
+      "min": 1199.99,
+      "max": 1199.99,
+      "sightings": [
+        {
+          "price": 1199.99,
+          "date": "2026-05-14T16:59:58.76+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Gibson Les Paul Studio with Evertune Bridge Smokehouse Burst Solid Body Electric Guitar Smokehouse Burst",
+          "url": "https://www.guitarcenter.com/Used/Gibson/Used-Gibson-Les-Paul-Studio-with-Evertune-Bridge-Smokehouse-Burst-Solid-Body-Electric-Guitar.gc?algoliaQueryID=a7c264634f00c41d75332722991c1c75&algoliaIndexName=cD-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1199.99,
+          "min": 1199.99,
+          "max": 1199.99,
+          "avg": 1200
+        }
+      },
+      "avg": 1200
+    },
     "prs-custom-24": {
       "displayName": "PRS Custom 24 Vintage Sunburst 1990",
       "brand": "PRS",
@@ -16081,6 +16112,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 32,
+      "sum": 326010.79,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 10188,
+      "min": 499,
+      "max": 99000
+    },
     "Very Good": {
       "count": 139,
       "sum": 402765.55999999994,
@@ -16122,17 +16164,6 @@
       "avg": 2326,
       "min": 70,
       "max": 11475
-    },
-    "Used": {
-      "count": 31,
-      "sum": 324810.8,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 10478,
-      "min": 499,
-      "max": 99000
     },
     "Fair": {
       "count": 6,
@@ -16216,9 +16247,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2523,
+      "avg": 2516,
       "median": 1900,
-      "count": 187
+      "count": 188
     },
     "04": {
       "name": "Apr",
@@ -16378,7 +16409,7 @@
   "priceDistribution": {
     "0-500": 74,
     "500-1k": 91,
-    "1k-2k": 328,
+    "1k-2k": 329,
     "2k-3k": 231,
     "3k-5k": 235,
     "5k-10k": 121,
@@ -16387,13 +16418,18 @@
   "priceDistributionFiltered": {
     "0-500": 74,
     "500-1k": 91,
-    "1k-2k": 328,
+    "1k-2k": 329,
     "2k-3k": 231,
     "3k-5k": 235,
     "5k-10k": 121,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4417,
+      "count": 145,
+      "avg": 30
+    },
     "PRS": {
       "sum": 3015,
       "count": 93,
@@ -16418,11 +16454,6 @@
       "sum": 274,
       "count": 7,
       "avg": 39
-    },
-    "Gibson": {
-      "sum": 4417,
-      "count": 144,
-      "avg": 31
     },
     "BC Rich": {
       "sum": 2082,
@@ -17251,7 +17282,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-14": 7,
+    "2026-05-14": 8,
     "2026-05-13": 26,
     "2026-05-12": 17,
     "2026-05-11": 8,
@@ -17284,11 +17315,11 @@
     "2026-04-14": 5
   },
   "categoryDistribution": {
+    "marketplace": 55,
     "reverb": 971,
-    "marketplace": 54,
     "other": 115
   },
-  "activeModelsCount": 316,
+  "activeModelsCount": 317,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -17320,7 +17351,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 29
+      "count": 30
     },
     {
       "username": "jazee_",
@@ -17382,10 +17413,10 @@
       "count": 81
     },
     "Gibson": {
-      "avgPrice": 7466,
+      "avgPrice": 7424,
       "retailEst": 800,
-      "avgDiscount": -833.2,
-      "count": 147
+      "avgDiscount": -828,
+      "count": 148
     },
     "Epiphone": {
       "avgPrice": 1932,
@@ -19247,15 +19278,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1096,
+      "total": 1097,
       "sold": 302,
       "fake": 0,
-      "live": 293,
+      "live": 294,
       "removed": 501,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 150,
+        "sold": 37,
+        "fake": 0,
+        "live": 36,
+        "removed": 77,
+        "soldPct": 25,
+        "livePct": 24
+      },
       "PRS": {
         "total": 96,
         "sold": 29,
@@ -19300,15 +19340,6 @@
         "removed": 3,
         "soldPct": 29,
         "livePct": 29
-      },
-      "Gibson": {
-        "total": 149,
-        "sold": 37,
-        "fake": 0,
-        "live": 35,
-        "removed": 77,
-        "soldPct": 25,
-        "livePct": 23
       },
       "BC Rich": {
         "total": 77,
@@ -21000,7 +21031,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 328,
+        "total": 329,
         "sold": 93,
         "rate": 28
       },
@@ -21030,6 +21061,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 33,
+        "sold": 0,
+        "rate": 0
+      },
       "Very Good": {
         "total": 140,
         "sold": 41,
@@ -21044,11 +21080,6 @@
         "total": 65,
         "sold": 13,
         "rate": 20
-      },
-      "Used": {
-        "total": 32,
-        "sold": 0,
-        "rate": 0
       },
       "Fair": {
         "total": 6,
@@ -21168,6 +21199,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 110,
+      "sum": 761655.9199999999,
+      "avg": 6924,
+      "min": 135,
+      "max": 443302,
+      "sold": 24,
+      "soldSum": 68208.97,
+      "soldAvg": 2842,
+      "live": 29,
+      "removed": 57,
+      "sellRate": 22,
+      "totalDays": 698.9999999999999,
+      "soldCount": 24,
+      "avgDaysToSell": 29.1
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -21242,25 +21292,6 @@
       "totalDays": 120.6,
       "soldCount": 2,
       "avgDaysToSell": 60.3
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 109,
-      "sum": 760455.9299999999,
-      "avg": 6977,
-      "min": 135,
-      "max": 443302,
-      "sold": 24,
-      "soldSum": 68208.97,
-      "soldAvg": 2842,
-      "live": 28,
-      "removed": 57,
-      "sellRate": 22,
-      "totalDays": 698.9999999999999,
-      "soldCount": 24,
-      "avgDaysToSell": 29.1
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -21428,9 +21459,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 83,
-      "totalDays": 158.7,
+      "totalDays": 158.8,
       "soldCount": 5,
-      "avgDaysToSell": 31.7
+      "avgDaysToSell": 31.8
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -22228,9 +22259,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 39.8,
+      "totalDays": 39.9,
       "soldCount": 1,
-      "avgDaysToSell": 39.8
+      "avgDaysToSell": 39.9
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -22266,7 +22297,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 70.9,
+      "totalDays": 71,
       "soldCount": 2,
       "avgDaysToSell": 35.5
     },
