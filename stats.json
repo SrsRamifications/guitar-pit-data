@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-16T20:57:09.631Z",
-  "totalLinks": 1174,
-  "totalEver": 1243,
-  "totalBeforeFilter": 1243,
+  "generatedAt": "2026-05-16T21:05:54.943Z",
+  "totalLinks": 1175,
+  "totalEver": 1244,
+  "totalBeforeFilter": 1244,
   "fakeCount": 7,
   "removedCount": 524,
-  "totalWithPrice": 1157,
+  "totalWithPrice": 1158,
   "overall": {
-    "count": 1126,
-    "sum": 3113089.04,
-    "avg": 2765,
+    "count": 1127,
+    "sum": 3114288.04,
+    "avg": 2763,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1126,
-    "sum": 3113089.04,
-    "avg": 2765,
+    "count": 1127,
+    "sum": 3114288.04,
+    "avg": 2763,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11421,
+    "thresholdHigh": 11455,
     "thresholdLow": 0,
     "count": 31,
     "items": [
@@ -244,11 +244,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 221,
-      "sum": 570855.87,
+      "count": 222,
+      "sum": 572054.87,
       "min": 95,
       "max": 10350,
-      "avg": 2583
+      "avg": 2577
     },
     "2026-04": {
       "count": 778,
@@ -267,11 +267,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 978,
-      "sum": 2686816.31,
+      "count": 979,
+      "sum": 2688015.31,
       "min": 7,
       "max": 11053,
-      "avg": 2747
+      "avg": 2746
     },
     "marketplace": {
       "count": 47,
@@ -290,11 +290,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 978,
-      "sum": 2686816.31,
+      "count": 979,
+      "sum": 2688015.31,
       "min": 7,
       "max": 11053,
-      "avg": 2747
+      "avg": 2746
     },
     "chicagomusicexchange.com": {
       "count": 48,
@@ -529,6 +529,37 @@
     }
   },
   "byModel": {
+    "ibanez-standard": {
+      "displayName": "Ibanez RG565-CA Standard 1991 - 1992 - Candy Apple Red",
+      "brand": "Ibanez",
+      "model": "Standard",
+      "variant": null,
+      "count": 1,
+      "sum": 1199,
+      "min": 1199,
+      "max": 1199,
+      "sightings": [
+        {
+          "price": 1199,
+          "date": "2026-05-16T21:05:37.996+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG565-CA Standard 1991 - 1992 - Candy Apple Red",
+          "url": "https://reverb.com/item/97169500-ibanez-rg565-ca-standard-1991-1992-candy-apple-red",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1199,
+          "min": 1199,
+          "max": 1199,
+          "avg": 1199
+        }
+      },
+      "avg": 1199
+    },
     "echopark-explorer": {
       "displayName": "Echopark Futurina - Moderne Explorer V",
       "brand": "Echopark",
@@ -958,37 +989,6 @@
       },
       "avg": 4250
     },
-    "prs-mccarty-594-usa": {
-      "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
-      "brand": "PRS",
-      "model": "McCarty 594",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 2450,
-      "min": 2450,
-      "max": 2450,
-      "sightings": [
-        {
-          "price": 2450,
-          "date": "2026-05-15T22:16:46.499+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 594 2019 - Charcoal Burst USA",
-          "url": "https://reverb.com/item/97142151-prs-mccarty-594-2019-charcoal-burst-usa",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2450,
-          "min": 2450,
-          "max": 2450,
-          "avg": 2450
-        }
-      },
-      "avg": 2450
-    },
     "prs-mccarty-1994": {
       "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
       "brand": "PRS",
@@ -1028,6 +1028,37 @@
         }
       },
       "avg": 2026
+    },
+    "prs-mccarty-594-usa": {
+      "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
+      "brand": "PRS",
+      "model": "McCarty 594",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2450,
+      "min": 2450,
+      "max": 2450,
+      "sightings": [
+        {
+          "price": 2450,
+          "date": "2026-05-15T22:16:46.499+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 594 2019 - Charcoal Burst USA",
+          "url": "https://reverb.com/item/97142151-prs-mccarty-594-2019-charcoal-burst-usa",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2450,
+          "min": 2450,
+          "max": 2450,
+          "avg": 2450
+        }
+      },
+      "avg": 2450
     },
     "original": {
       "displayName": "The Beatles Rare Finds Combo “White Album & Butcher Album 1968-79 | Original “Unplayed” | Stage 3 “Peeled - Butcher” | Original “Embossed” White Album”",
@@ -17062,6 +17093,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 201,
+      "sum": 683336.73,
+      "sold": {
+        "count": 61,
+        "sum": 209076.45,
+        "avg": 3427,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3400,
+      "min": 171,
+      "max": 35900
+    },
     "Brand New": {
       "count": 39,
       "sum": 163182.11000000002,
@@ -17075,20 +17120,6 @@
       "avg": 4184,
       "min": 135,
       "max": 14670
-    },
-    "Excellent": {
-      "count": 200,
-      "sum": 682137.73,
-      "sold": {
-        "count": 61,
-        "sum": 209076.45,
-        "avg": 3427,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3411,
-      "min": 171,
-      "max": 35900
     },
     "Used": {
       "count": 36,
@@ -17197,9 +17228,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2583,
+      "avg": 2577,
       "median": 1975,
-      "count": 221
+      "count": 222
     },
     "04": {
       "name": "Apr",
@@ -17359,7 +17390,7 @@
   "priceDistribution": {
     "0-500": 75,
     "500-1k": 93,
-    "1k-2k": 340,
+    "1k-2k": 341,
     "2k-3k": 238,
     "3k-5k": 242,
     "5k-10k": 126,
@@ -17368,13 +17399,18 @@
   "priceDistributionFiltered": {
     "0-500": 75,
     "500-1k": 93,
-    "1k-2k": 340,
+    "1k-2k": 341,
     "2k-3k": 238,
     "3k-5k": 242,
     "5k-10k": 126,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 1540,
+      "count": 49,
+      "avg": 31
+    },
     "Echopark": {
       "sum": 638,
       "count": 20,
@@ -17424,11 +17460,6 @@
       "sum": 781,
       "count": 24,
       "avg": 33
-    },
-    "Ibanez": {
-      "sum": 1540,
-      "count": 48,
-      "avg": 32
     },
     "BC Rich": {
       "sum": 2234,
@@ -18237,7 +18268,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-16": 16,
+    "2026-05-16": 17,
     "2026-05-15": 16,
     "2026-05-14": 9,
     "2026-05-13": 26,
@@ -18270,11 +18301,11 @@
     "2026-04-16": 4
   },
   "categoryDistribution": {
-    "reverb": 1000,
+    "reverb": 1001,
     "marketplace": 59,
     "other": 115
   },
-  "activeModelsCount": 336,
+  "activeModelsCount": 337,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18286,7 +18317,7 @@
     },
     {
       "username": "shteefe",
-      "count": 113
+      "count": 114
     },
     {
       "username": "YellowJack6",
@@ -18392,10 +18423,10 @@
       "count": 100
     },
     "Ibanez": {
-      "avgPrice": 3273,
+      "avgPrice": 3231,
       "retailEst": 1000,
-      "avgDiscount": -227.3,
-      "count": 49
+      "avgDiscount": -223.1,
+      "count": 50
     },
     "Jackson": {
       "avgPrice": 4290,
@@ -20312,15 +20343,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1127,
+      "total": 1128,
       "sold": 310,
       "fake": 0,
-      "live": 308,
+      "live": 309,
       "removed": 509,
-      "soldPct": 28,
+      "soldPct": 27,
       "livePct": 27
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 50,
+        "sold": 16,
+        "fake": 0,
+        "live": 17,
+        "removed": 17,
+        "soldPct": 32,
+        "livePct": 34
+      },
       "Echopark": {
         "total": 24,
         "sold": 4,
@@ -20410,15 +20450,6 @@
         "removed": 14,
         "soldPct": 28,
         "livePct": 16
-      },
-      "Ibanez": {
-        "total": 49,
-        "sold": 16,
-        "fake": 0,
-        "live": 16,
-        "removed": 17,
-        "soldPct": 33,
-        "livePct": 33
       },
       "BC Rich": {
         "total": 78,
@@ -22074,7 +22105,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 340,
+        "total": 341,
         "sold": 96,
         "rate": 28
       },
@@ -22104,15 +22135,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 201,
+        "sold": 64,
+        "rate": 32
+      },
       "Brand New": {
         "total": 39,
         "sold": 7,
         "rate": 18
-      },
-      "Excellent": {
-        "total": 200,
-        "sold": 64,
-        "rate": 32
       },
       "Used": {
         "total": 37,
@@ -22235,6 +22266,24 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Standard": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Standard",
+      "tier": "budget-mid",
+      "count": 2,
+      "sum": 2999,
+      "avg": 1500,
+      "min": 1199,
+      "max": 1800,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
@@ -22288,7 +22337,7 @@
       "live": 30,
       "removed": 57,
       "sellRate": 22,
-      "totalDays": 753.9000000000001,
+      "totalDays": 754.1000000000001,
       "soldCount": 25,
       "avgDaysToSell": 30.2
     },
@@ -22326,7 +22375,7 @@
       "live": 18,
       "removed": 38,
       "sellRate": 32,
-      "totalDays": 927.3000000000002,
+      "totalDays": 927.4000000000001,
       "soldCount": 26,
       "avgDaysToSell": 35.7
     },
@@ -22401,7 +22450,7 @@
       "live": 11,
       "removed": 25,
       "sellRate": 28,
-      "totalDays": 499.3,
+      "totalDays": 499.4,
       "soldCount": 14,
       "avgDaysToSell": 35.7
     },
@@ -22420,9 +22469,9 @@
       "live": 6,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 277.9,
+      "totalDays": 278,
       "soldCount": 8,
-      "avgDaysToSell": 34.7
+      "avgDaysToSell": 34.8
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -22625,7 +22674,7 @@
       "live": 7,
       "removed": 10,
       "sellRate": 53,
-      "totalDays": 887.6999999999999,
+      "totalDays": 887.8,
       "soldCount": 19,
       "avgDaysToSell": 46.7
     },
@@ -22663,7 +22712,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 43,
-      "totalDays": 65.3,
+      "totalDays": 65.39999999999999,
       "soldCount": 3,
       "avgDaysToSell": 21.8
     },
@@ -22755,9 +22804,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 20,
-      "totalDays": 28.1,
+      "totalDays": 28.2,
       "soldCount": 1,
-      "avgDaysToSell": 28.1
+      "avgDaysToSell": 28.2
     },
     "Fender|Squier": {
       "brand": "Fender",
@@ -22977,24 +23026,6 @@
       "soldAvg": null,
       "live": 1,
       "removed": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
-    "Ibanez|Ibanez Standard": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Standard",
-      "tier": "budget-mid",
-      "count": 1,
-      "sum": 1800,
-      "avg": 1800,
-      "min": 1800,
-      "max": 1800,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "removed": 0,
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
@@ -24033,9 +24064,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 47,
+      "totalDays": 47.1,
       "soldCount": 1,
-      "avgDaysToSell": 47
+      "avgDaysToSell": 47.1
     },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
@@ -24117,7 +24148,7 @@
     },
     {
       "label": "6–15",
-      "total": 95,
+      "total": 96,
       "sold": 22,
       "rate": 23
     },
@@ -24136,7 +24167,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 307,
+      "total": 308,
       "sold": 92,
       "rate": 30
     },
@@ -24148,7 +24179,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 211,
+      "total": 212,
       "sold": 47,
       "rate": 22
     },
@@ -24161,9 +24192,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 50,
+      "total": 51,
       "sold": 17,
-      "rate": 34
+      "rate": 33
     },
     {
       "state": "NY",
