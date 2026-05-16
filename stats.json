@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-16T18:27:09.802Z",
-  "totalLinks": 1170,
-  "totalEver": 1239,
-  "totalBeforeFilter": 1239,
+  "generatedAt": "2026-05-16T18:28:25.200Z",
+  "totalLinks": 1171,
+  "totalEver": 1240,
+  "totalBeforeFilter": 1240,
   "fakeCount": 7,
   "removedCount": 523,
-  "totalWithPrice": 1153,
+  "totalWithPrice": 1154,
   "overall": {
-    "count": 1122,
-    "sum": 3099976.04,
-    "avg": 2763,
+    "count": 1123,
+    "sum": 3101871.04,
+    "avg": 2762,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1122,
-    "sum": 3099976.04,
-    "avg": 2763,
+    "count": 1123,
+    "sum": 3101871.04,
+    "avg": 2762,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -244,11 +244,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 217,
-      "sum": 557491.87,
+      "count": 218,
+      "sum": 559386.87,
       "min": 95,
       "max": 10350,
-      "avg": 2569
+      "avg": 2566
     },
     "2026-04": {
       "count": 778,
@@ -267,8 +267,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 975,
-      "sum": 2674898.31,
+      "count": 976,
+      "sum": 2676793.31,
       "min": 7,
       "max": 11053,
       "avg": 2743
@@ -290,8 +290,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 975,
-      "sum": 2674898.31,
+      "count": 976,
+      "sum": 2676793.31,
       "min": 7,
       "max": 11053,
       "avg": 2743
@@ -529,6 +529,63 @@
     }
   },
   "byModel": {
+    "gibson-melody-maker": {
+      "displayName": "Gibson Melody Maker Sparkling Burgundy 1968",
+      "brand": "Gibson",
+      "model": "Melody Maker",
+      "variant": null,
+      "count": 3,
+      "sum": 5670,
+      "min": 1800,
+      "max": 1975,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-05-07T01:06:25.768+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1968 Gibson Melody Maker Red (Changed Pickup, Guard, Bridge)",
+          "url": "https://reverb.com/item/96728347-1968-gibson-melody-maker-red-changed-pickup-guard-bridge",
+          "condition": "Good"
+        },
+        {
+          "price": 1975,
+          "date": "2026-05-16T00:35:18.45+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1961 Gibson Melody Maker D Single Cutaway - Cherry -",
+          "url": "https://reverb.com/item/96959023-1961-gibson-melody-maker-d-single-cutaway-cherry",
+          "condition": "Very Good"
+        },
+        {
+          "price": 1895,
+          "date": "2026-05-16T18:28:05.872+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Melody Maker Sparkling Burgundy 1968",
+          "url": "https://reverb.com/item/95714191",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 3695,
+          "min": 1800,
+          "max": 1895,
+          "avg": 1848
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 1975,
+          "min": 1975,
+          "max": 1975,
+          "avg": 1975
+        }
+      },
+      "avg": 1890,
+      "trends": {}
+    },
     "collings-soco": {
       "displayName": "Collings SoCo Sunburst",
       "brand": "Collings",
@@ -807,53 +864,6 @@
         }
       },
       "avg": 4250
-    },
-    "gibson-melody-maker": {
-      "displayName": "1961 Gibson Melody Maker D Single Cutaway - Cherry -",
-      "brand": "Gibson",
-      "model": "Melody Maker",
-      "variant": null,
-      "count": 2,
-      "sum": 3775,
-      "min": 1800,
-      "max": 1975,
-      "sightings": [
-        {
-          "price": 1800,
-          "date": "2026-05-07T01:06:25.768+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1968 Gibson Melody Maker Red (Changed Pickup, Guard, Bridge)",
-          "url": "https://reverb.com/item/96728347-1968-gibson-melody-maker-red-changed-pickup-guard-bridge",
-          "condition": "Good"
-        },
-        {
-          "price": 1975,
-          "date": "2026-05-16T00:35:18.45+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1961 Gibson Melody Maker D Single Cutaway - Cherry -",
-          "url": "https://reverb.com/item/96959023-1961-gibson-melody-maker-d-single-cutaway-cherry",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1975,
-          "min": 1975,
-          "max": 1975,
-          "avg": 1975
-        },
-        "Good": {
-          "count": 1,
-          "sum": 1800,
-          "min": 1800,
-          "max": 1800,
-          "avg": 1800
-        }
-      },
-      "avg": 1888
     },
     "prs-mccarty-594-usa": {
       "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
@@ -5747,6 +5757,52 @@
       },
       "avg": 602
     },
+    "heritage-h150-gloss": {
+      "displayName": "Heritage H150 2025 Gloss Lacquer",
+      "brand": "Heritage",
+      "model": "H150",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 1700,
+      "min": 1700,
+      "max": 1700,
+      "sightings": [
+        {
+          "price": 1700,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Heritage H150 2025 Gloss Lacquer",
+          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1700,
+        "min": 1700,
+        "max": 1700,
+        "prices": [
+          {
+            "price": 1700,
+            "askingPrice": 1700,
+            "date": "2026-05-11T04:33:59.408+00:00",
+            "title": "Heritage H150 2025 Gloss Lacquer",
+            "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer"
+          }
+        ]
+      },
+      "avg": 1700
+    },
     "music-man-axis": {
       "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
       "brand": "Music Man",
@@ -5838,52 +5894,6 @@
         ]
       },
       "avg": 3500
-    },
-    "heritage-h150-gloss": {
-      "displayName": "Heritage H150 2025 Gloss Lacquer",
-      "brand": "Heritage",
-      "model": "H150",
-      "variant": "Gloss",
-      "count": 1,
-      "sum": 1700,
-      "min": 1700,
-      "max": 1700,
-      "sightings": [
-        {
-          "price": 1700,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Heritage H150 2025 Gloss Lacquer",
-          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1700,
-          "min": 1700,
-          "max": 1700,
-          "avg": 1700
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1700,
-        "min": 1700,
-        "max": 1700,
-        "prices": [
-          {
-            "price": 1700,
-            "askingPrice": 1700,
-            "date": "2026-05-11T04:33:59.408+00:00",
-            "title": "Heritage H150 2025 Gloss Lacquer",
-            "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer"
-          }
-        ]
-      },
-      "avg": 1700
     },
     "marconilab-headless": {
       "displayName": "Marconilab Ego hyper LSD headless guitar",
@@ -16959,6 +16969,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 72,
+      "sum": 162815.95,
+      "sold": {
+        "count": 12,
+        "sum": 22375.469999999998,
+        "avg": 1865,
+        "min": 290,
+        "max": 4777.5
+      },
+      "avg": 2261,
+      "min": 70,
+      "max": 11475
+    },
     "Excellent": {
       "count": 199,
       "sum": 679862.73,
@@ -16983,20 +17007,6 @@
       "avg": 9603,
       "min": 499,
       "max": 99000
-    },
-    "Good": {
-      "count": 71,
-      "sum": 160920.95,
-      "sold": {
-        "count": 12,
-        "sum": 22375.469999999998,
-        "avg": 1865,
-        "min": 290,
-        "max": 4777.5
-      },
-      "avg": 2266,
-      "min": 70,
-      "max": 11475
     },
     "Very Good": {
       "count": 144,
@@ -17094,9 +17104,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2569,
+      "avg": 2566,
       "median": 1975,
-      "count": 217
+      "count": 218
     },
     "04": {
       "name": "Apr",
@@ -17211,6 +17221,13 @@
       "date": "2026-05-11T12:28:53.867+00:00"
     },
     {
+      "title": "Heritage H150 2025 Gloss Lacquer",
+      "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
+      "oldPrice": "$2,000",
+      "newPrice": "$1,700",
+      "date": "2026-05-06T05:50:28.932+00:00"
+    },
+    {
       "title": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
       "url": "https://reverb.com/item/96744400-ernie-ball-music-man-axis-super-sport-mm90-ht-2002-2014-various",
       "oldPrice": "$1,675",
@@ -17223,13 +17240,6 @@
       "oldPrice": "$4,000",
       "newPrice": "$3,500",
       "date": "2026-05-05T05:50:07.32+00:00"
-    },
-    {
-      "title": "Heritage H150 2025 Gloss Lacquer",
-      "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
-      "oldPrice": "$2,000",
-      "newPrice": "$1,700",
-      "date": "2026-05-06T05:50:28.932+00:00"
     },
     {
       "title": "Yamaha FG-200 Jumbo Dreadnought 1972 - 1976 - Natural",
@@ -17256,7 +17266,7 @@
   "priceDistribution": {
     "0-500": 75,
     "500-1k": 93,
-    "1k-2k": 338,
+    "1k-2k": 339,
     "2k-3k": 237,
     "3k-5k": 242,
     "5k-10k": 125,
@@ -17265,13 +17275,18 @@
   "priceDistributionFiltered": {
     "0-500": 75,
     "500-1k": 93,
-    "1k-2k": 338,
+    "1k-2k": 339,
     "2k-3k": 237,
     "3k-5k": 242,
     "5k-10k": 125,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4760,
+      "count": 147,
+      "avg": 32
+    },
     "Collings": {
       "sum": 260,
       "count": 8,
@@ -17301,11 +17316,6 @@
       "sum": 97,
       "count": 4,
       "avg": 24
-    },
-    "Gibson": {
-      "sum": 4720,
-      "count": 146,
-      "avg": 32
     },
     "Fender": {
       "sum": 2379,
@@ -18134,7 +18144,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-16": 12,
+    "2026-05-16": 13,
     "2026-05-15": 16,
     "2026-05-14": 9,
     "2026-05-13": 26,
@@ -18167,7 +18177,7 @@
     "2026-04-16": 6
   },
   "categoryDistribution": {
-    "reverb": 997,
+    "reverb": 998,
     "marketplace": 58,
     "other": 115
   },
@@ -18207,7 +18217,7 @@
     },
     {
       "username": "jazee_",
-      "count": 23
+      "count": 24
     },
     {
       "username": "hibby_",
@@ -18265,10 +18275,10 @@
       "count": 84
     },
     "Gibson": {
-      "avgPrice": 7385,
+      "avgPrice": 7349,
       "retailEst": 800,
-      "avgDiscount": -823.2,
-      "count": 149
+      "avgDiscount": -818.6,
+      "count": 150
     },
     "Epiphone": {
       "avgPrice": 1898,
@@ -18557,6 +18567,14 @@
         "slowest": 2.1,
         "avgDays": 2.1
       },
+      "heritage-h150-gloss": {
+        "displayName": "Heritage H150 2025 Gloss Lacquer",
+        "totalDays": 6.1,
+        "count": 1,
+        "fastest": 6.1,
+        "slowest": 6.1,
+        "avgDays": 6.1
+      },
       "music-man-axis": {
         "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
         "totalDays": 6.1,
@@ -18572,14 +18590,6 @@
         "fastest": 4.7,
         "slowest": 4.7,
         "avgDays": 4.7
-      },
-      "heritage-h150-gloss": {
-        "displayName": "Heritage H150 2025 Gloss Lacquer",
-        "totalDays": 6.1,
-        "count": 1,
-        "fastest": 6.1,
-        "slowest": 6.1,
-        "avgDays": 6.1
       },
       "marconilab-headless": {
         "displayName": "Marconilab Ego hyper LSD headless guitar",
@@ -19925,20 +19935,20 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 2050.0179796494695,
-      "count": 122,
-      "avgPctDrop": 16.8
+      "totalPctDrop": 2055.03051097779,
+      "count": 123,
+      "avgPctDrop": 16.7
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 178.78358487968376,
+        "count": 15,
+        "avgPctDrop": 11.9
+      },
       "Jackson": {
         "totalPctDrop": 85.17408123791103,
         "count": 4,
         "avgPctDrop": 21.3
-      },
-      "Gibson": {
-        "totalPctDrop": 173.77105355136297,
-        "count": 14,
-        "avgPctDrop": 12.4
       },
       "Echopark": {
         "totalPctDrop": 50.87667487011211,
@@ -20209,15 +20219,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1123,
+      "total": 1124,
       "sold": 310,
       "fake": 0,
-      "live": 305,
+      "live": 306,
       "removed": 508,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 152,
+        "sold": 38,
+        "fake": 0,
+        "live": 37,
+        "removed": 77,
+        "soldPct": 25,
+        "livePct": 24
+      },
       "Collings": {
         "total": 8,
         "sold": 4,
@@ -20271,15 +20290,6 @@
         "removed": 3,
         "soldPct": 0,
         "livePct": 25
-      },
-      "Gibson": {
-        "total": 151,
-        "sold": 38,
-        "fake": 0,
-        "live": 36,
-        "removed": 77,
-        "soldPct": 25,
-        "livePct": 24
       },
       "Echopark": {
         "total": 22,
@@ -21971,7 +21981,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 338,
+        "total": 339,
         "sold": 96,
         "rate": 28
       },
@@ -22001,6 +22011,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 72,
+        "sold": 14,
+        "rate": 19
+      },
       "Excellent": {
         "total": 199,
         "sold": 64,
@@ -22010,11 +22025,6 @@
         "total": 36,
         "sold": 1,
         "rate": 3
-      },
-      "Good": {
-        "total": 71,
-        "sold": 14,
-        "rate": 20
       },
       "Very Good": {
         "total": 145,
@@ -22132,6 +22142,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 112,
+      "sum": 765272.9199999999,
+      "avg": 6833,
+      "min": 135,
+      "max": 443302,
+      "sold": 25,
+      "soldSum": 69808.97,
+      "soldAvg": 2792,
+      "live": 30,
+      "removed": 57,
+      "sellRate": 22,
+      "totalDays": 751.3999999999999,
+      "soldCount": 25,
+      "avgDaysToSell": 30.1
+    },
     "Collings|Collings": {
       "brand": "Collings",
       "brandLine": "Collings",
@@ -22245,25 +22274,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 111,
-      "sum": 763377.9199999999,
-      "avg": 6877,
-      "min": 135,
-      "max": 443302,
-      "sold": 25,
-      "soldSum": 69808.97,
-      "soldAvg": 2792,
-      "live": 29,
-      "removed": 57,
-      "sellRate": 23,
-      "totalDays": 751.3999999999999,
-      "soldCount": 25,
-      "avgDaysToSell": 30.1
-    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
@@ -22336,9 +22346,9 @@
       "live": 7,
       "removed": 11,
       "sellRate": 28,
-      "totalDays": 426.59999999999997,
+      "totalDays": 426.7,
       "soldCount": 7,
-      "avgDaysToSell": 60.9
+      "avgDaysToSell": 61
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -23990,10 +24000,10 @@
     }
   },
   "offerActivity": {
-    "withOffers": 152,
-    "totalOffers": 325,
+    "withOffers": 153,
+    "totalOffers": 327,
     "avgOffersPerListing": 2.1,
-    "offersEnabledPct": 30
+    "offersEnabledPct": 31
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -24026,14 +24036,14 @@
     },
     {
       "label": "31+",
-      "total": 141,
+      "total": 142,
       "sold": 41,
       "rate": 29
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 304,
+      "total": 305,
       "sold": 92,
       "rate": 30
     },
@@ -24045,7 +24055,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 209,
+      "total": 210,
       "sold": 47,
       "rate": 22
     },
@@ -24076,9 +24086,9 @@
     },
     {
       "state": "IL",
-      "total": 22,
+      "total": 23,
       "sold": 5,
-      "rate": 23
+      "rate": 22
     },
     {
       "state": "WA",
