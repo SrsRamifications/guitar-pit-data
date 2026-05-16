@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-16T19:42:09.521Z",
-  "totalLinks": 1172,
-  "totalEver": 1241,
-  "totalBeforeFilter": 1241,
+  "generatedAt": "2026-05-16T19:43:20.128Z",
+  "totalLinks": 1173,
+  "totalEver": 1242,
+  "totalBeforeFilter": 1242,
   "fakeCount": 7,
   "removedCount": 523,
-  "totalWithPrice": 1155,
+  "totalWithPrice": 1156,
   "overall": {
-    "count": 1124,
-    "sum": 3103066.04,
-    "avg": 2761,
+    "count": 1125,
+    "sum": 3105541.04,
+    "avg": 2760,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1124,
-    "sum": 3103066.04,
-    "avg": 2761,
+    "count": 1125,
+    "sum": 3105541.04,
+    "avg": 2760,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11455,
+    "thresholdHigh": 11421,
     "thresholdLow": 0,
     "count": 31,
     "items": [
@@ -244,11 +244,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 219,
-      "sum": 560581.87,
+      "count": 220,
+      "sum": 563056.87,
       "min": 95,
       "max": 10350,
-      "avg": 2560
+      "avg": 2559
     },
     "2026-04": {
       "count": 778,
@@ -266,19 +266,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 977,
+      "sum": 2679268.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2742
+    },
     "marketplace": {
       "count": 47,
       "sum": 138440.79,
       "min": 499,
       "max": 10495,
       "avg": 2946
-    },
-    "reverb": {
-      "count": 976,
-      "sum": 2676793.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2743
     },
     "other": {
       "count": 101,
@@ -289,19 +289,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 977,
+      "sum": 2679268.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2742
+    },
     "chicagomusicexchange.com": {
       "count": 48,
       "sum": 193232.98,
       "min": 350,
       "max": 11099,
       "avg": 4026
-    },
-    "reverb.com": {
-      "count": 976,
-      "sum": 2676793.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2743
     },
     "guitarcenter.com": {
       "count": 59,
@@ -529,6 +529,37 @@
     }
   },
   "byModel": {
+    "echopark-clarence-goldfoil-light": {
+      "displayName": "Echopark Clarence Goldfoil Light 2017 - Aged Vintage Blonde",
+      "brand": "Echopark",
+      "model": "Clarence Goldfoil Light",
+      "variant": null,
+      "count": 1,
+      "sum": 2475,
+      "min": 2475,
+      "max": 2475,
+      "sightings": [
+        {
+          "price": 2475,
+          "date": "2026-05-16T19:43:02.362+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark Clarence Goldfoil Light 2017 - Aged Vintage Blonde",
+          "url": "https://reverb.com/item/97169186-echopark-clarence-goldfoil-light-2017-aged-vintage-blonde",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2475,
+          "min": 2475,
+          "max": 2475,
+          "avg": 2475
+        }
+      },
+      "avg": 2475
+    },
     "suhr-hombre-18-watt-1x12": {
       "displayName": "Suhr Hombre 18-Watt 1x12\" Guitar Combo Amp",
       "brand": "Suhr",
@@ -896,37 +927,6 @@
       },
       "avg": 4250
     },
-    "prs-mccarty-594-usa": {
-      "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
-      "brand": "PRS",
-      "model": "McCarty 594",
-      "variant": "Usa",
-      "count": 1,
-      "sum": 2650,
-      "min": 2650,
-      "max": 2650,
-      "sightings": [
-        {
-          "price": 2650,
-          "date": "2026-05-15T22:16:46.499+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 594 2019 - Charcoal Burst USA",
-          "url": "https://reverb.com/item/97142151-prs-mccarty-594-2019-charcoal-burst-usa",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2650,
-          "min": 2650,
-          "max": 2650,
-          "avg": 2650
-        }
-      },
-      "avg": 2650
-    },
     "prs-mccarty-1994": {
       "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
       "brand": "PRS",
@@ -966,6 +966,37 @@
         }
       },
       "avg": 2026
+    },
+    "prs-mccarty-594-usa": {
+      "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
+      "brand": "PRS",
+      "model": "McCarty 594",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2650,
+      "min": 2650,
+      "max": 2650,
+      "sightings": [
+        {
+          "price": 2650,
+          "date": "2026-05-15T22:16:46.499+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 594 2019 - Charcoal Burst USA",
+          "url": "https://reverb.com/item/97142151-prs-mccarty-594-2019-charcoal-burst-usa",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2650,
+          "min": 2650,
+          "max": 2650,
+          "avg": 2650
+        }
+      },
+      "avg": 2650
     },
     "original": {
       "displayName": "The Beatles Rare Finds Combo “White Album & Butcher Album 1968-79 | Original “Unplayed” | Stage 3 “Peeled - Butcher” | Original “Embossed” White Album”",
@@ -5788,52 +5819,6 @@
       },
       "avg": 602
     },
-    "heritage-h150-gloss": {
-      "displayName": "Heritage H150 2025 Gloss Lacquer",
-      "brand": "Heritage",
-      "model": "H150",
-      "variant": "Gloss",
-      "count": 1,
-      "sum": 1700,
-      "min": 1700,
-      "max": 1700,
-      "sightings": [
-        {
-          "price": 1700,
-          "date": "2026-05-05T02:12:49.044+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Heritage H150 2025 Gloss Lacquer",
-          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1700,
-          "min": 1700,
-          "max": 1700,
-          "avg": 1700
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 1700,
-        "min": 1700,
-        "max": 1700,
-        "prices": [
-          {
-            "price": 1700,
-            "askingPrice": 1700,
-            "date": "2026-05-11T04:33:59.408+00:00",
-            "title": "Heritage H150 2025 Gloss Lacquer",
-            "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer"
-          }
-        ]
-      },
-      "avg": 1700
-    },
     "music-man-axis": {
       "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
       "brand": "Music Man",
@@ -5925,6 +5910,52 @@
         ]
       },
       "avg": 3500
+    },
+    "heritage-h150-gloss": {
+      "displayName": "Heritage H150 2025 Gloss Lacquer",
+      "brand": "Heritage",
+      "model": "H150",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 1700,
+      "min": 1700,
+      "max": 1700,
+      "sightings": [
+        {
+          "price": 1700,
+          "date": "2026-05-05T02:12:49.044+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Heritage H150 2025 Gloss Lacquer",
+          "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1700,
+        "min": 1700,
+        "max": 1700,
+        "prices": [
+          {
+            "price": 1700,
+            "askingPrice": 1700,
+            "date": "2026-05-11T04:33:59.408+00:00",
+            "title": "Heritage H150 2025 Gloss Lacquer",
+            "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer"
+          }
+        ]
+      },
+      "avg": 1700
     },
     "marconilab-headless": {
       "displayName": "Marconilab Ego hyper LSD headless guitar",
@@ -17000,6 +17031,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 200,
+      "sum": 682337.73,
+      "sold": {
+        "count": 61,
+        "sum": 209076.45,
+        "avg": 3427,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3412,
+      "min": 171,
+      "max": 35900
+    },
     "Used": {
       "count": 36,
       "sum": 337290.7899999999,
@@ -17024,20 +17069,6 @@
       "avg": 2261,
       "min": 70,
       "max": 11475
-    },
-    "Excellent": {
-      "count": 199,
-      "sum": 679862.73,
-      "sold": {
-        "count": 61,
-        "sum": 209076.45,
-        "avg": 3427,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3416,
-      "min": 171,
-      "max": 35900
     },
     "Very Good": {
       "count": 144,
@@ -17135,9 +17166,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2560,
+      "avg": 2559,
       "median": 1975,
-      "count": 219
+      "count": 220
     },
     "04": {
       "name": "Apr",
@@ -17252,13 +17283,6 @@
       "date": "2026-05-11T12:28:53.867+00:00"
     },
     {
-      "title": "Heritage H150 2025 Gloss Lacquer",
-      "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
-      "oldPrice": "$2,000",
-      "newPrice": "$1,700",
-      "date": "2026-05-06T05:50:28.932+00:00"
-    },
-    {
       "title": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
       "url": "https://reverb.com/item/96744400-ernie-ball-music-man-axis-super-sport-mm90-ht-2002-2014-various",
       "oldPrice": "$1,675",
@@ -17271,6 +17295,13 @@
       "oldPrice": "$4,000",
       "newPrice": "$3,500",
       "date": "2026-05-05T05:50:07.32+00:00"
+    },
+    {
+      "title": "Heritage H150 2025 Gloss Lacquer",
+      "url": "https://reverb.com/item/96744823-heritage-h150-2025-gloss-lacquer",
+      "oldPrice": "$2,000",
+      "newPrice": "$1,700",
+      "date": "2026-05-06T05:50:28.932+00:00"
     },
     {
       "title": "Yamaha FG-200 Jumbo Dreadnought 1972 - 1976 - Natural",
@@ -17298,7 +17329,7 @@
     "0-500": 75,
     "500-1k": 93,
     "1k-2k": 340,
-    "2k-3k": 237,
+    "2k-3k": 238,
     "3k-5k": 242,
     "5k-10k": 125,
     "10k+": 43
@@ -17307,12 +17338,17 @@
     "0-500": 75,
     "500-1k": 93,
     "1k-2k": 340,
-    "2k-3k": 237,
+    "2k-3k": 238,
     "3k-5k": 242,
     "5k-10k": 125,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 638,
+      "count": 20,
+      "avg": 32
+    },
     "Suhr": {
       "sum": 361,
       "count": 12,
@@ -17387,11 +17423,6 @@
       "sum": 286,
       "count": 7,
       "avg": 41
-    },
-    "Echopark": {
-      "sum": 638,
-      "count": 19,
-      "avg": 34
     },
     "Mayones": {
       "sum": 50,
@@ -18175,7 +18206,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-16": 14,
+    "2026-05-16": 15,
     "2026-05-15": 16,
     "2026-05-14": 9,
     "2026-05-13": 26,
@@ -18208,11 +18239,11 @@
     "2026-04-16": 6
   },
   "categoryDistribution": {
+    "reverb": 999,
     "marketplace": 59,
-    "reverb": 998,
     "other": 115
   },
-  "activeModelsCount": 334,
+  "activeModelsCount": 335,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18232,7 +18263,7 @@
     },
     {
       "username": "madero",
-      "count": 66
+      "count": 67
     },
     {
       "username": "wontongg",
@@ -18372,10 +18403,10 @@
       "count": 38
     },
     "Echopark": {
-      "avgPrice": 4143,
+      "avgPrice": 4070,
       "retailEst": 2500,
-      "avgDiscount": -65.7,
-      "count": 22
+      "avgDiscount": -62.8,
+      "count": 23
     },
     "Castedosa": {
       "avgPrice": 8790,
@@ -18598,14 +18629,6 @@
         "slowest": 2.1,
         "avgDays": 2.1
       },
-      "heritage-h150-gloss": {
-        "displayName": "Heritage H150 2025 Gloss Lacquer",
-        "totalDays": 6.1,
-        "count": 1,
-        "fastest": 6.1,
-        "slowest": 6.1,
-        "avgDays": 6.1
-      },
       "music-man-axis": {
         "displayName": "Ernie Ball Music Man Axis Super Sport MM90 HT 2002 - 2014 - Various",
         "totalDays": 6.1,
@@ -18621,6 +18644,14 @@
         "fastest": 4.7,
         "slowest": 4.7,
         "avgDays": 4.7
+      },
+      "heritage-h150-gloss": {
+        "displayName": "Heritage H150 2025 Gloss Lacquer",
+        "totalDays": 6.1,
+        "count": 1,
+        "fastest": 6.1,
+        "slowest": 6.1,
+        "avgDays": 6.1
       },
       "marconilab-headless": {
         "displayName": "Marconilab Ego hyper LSD headless guitar",
@@ -20250,15 +20281,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1125,
+      "total": 1126,
       "sold": 310,
       "fake": 0,
-      "live": 307,
+      "live": 308,
       "removed": 508,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Echopark": {
+        "total": 23,
+        "sold": 4,
+        "fake": 0,
+        "live": 10,
+        "removed": 9,
+        "soldPct": 17,
+        "livePct": 43
+      },
       "Suhr": {
         "total": 12,
         "sold": 3,
@@ -20321,15 +20361,6 @@
         "removed": 3,
         "soldPct": 0,
         "livePct": 25
-      },
-      "Echopark": {
-        "total": 22,
-        "sold": 4,
-        "fake": 0,
-        "live": 9,
-        "removed": 9,
-        "soldPct": 18,
-        "livePct": 41
       },
       "Fender": {
         "total": 87,
@@ -21991,10 +22022,10 @@
       },
       {
         "brand": "Echopark",
-        "total": 22,
+        "total": 23,
         "sold": 4,
-        "live": 9,
-        "soldPct": 18
+        "live": 10,
+        "soldPct": 17
       }
     ],
     "byPriceRange": [
@@ -22018,7 +22049,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 237,
+        "total": 238,
         "sold": 78,
         "rate": 33
       },
@@ -22042,6 +22073,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 200,
+        "sold": 64,
+        "rate": 32
+      },
       "Used": {
         "total": 37,
         "sold": 1,
@@ -22051,11 +22087,6 @@
         "total": 72,
         "sold": 14,
         "rate": 19
-      },
-      "Excellent": {
-        "total": 199,
-        "sold": 64,
-        "rate": 32
       },
       "Very Good": {
         "total": 145,
@@ -22173,6 +22204,25 @@
     ]
   },
   "byBrandLine": {
+    "Echopark|Echopark": {
+      "brand": "Echopark",
+      "brandLine": "Echopark",
+      "tier": "premium",
+      "count": 22,
+      "sum": 89970.98999999999,
+      "avg": 4090,
+      "min": 1750,
+      "max": 11500,
+      "sold": 4,
+      "soldSum": 15182,
+      "soldAvg": 3796,
+      "live": 9,
+      "removed": 9,
+      "sellRate": 18,
+      "totalDays": 150,
+      "soldCount": 4,
+      "avgDaysToSell": 37.5
+    },
     "Suhr|Suhr": {
       "brand": "Suhr",
       "brandLine": "Suhr",
@@ -22304,25 +22354,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Echopark|Echopark": {
-      "brand": "Echopark",
-      "brandLine": "Echopark",
-      "tier": "premium",
-      "count": 21,
-      "sum": 87495.98999999999,
-      "avg": 4166,
-      "min": 1750,
-      "max": 11500,
-      "sold": 4,
-      "soldSum": 15182,
-      "soldAvg": 3796,
-      "live": 8,
-      "removed": 9,
-      "sellRate": 19,
-      "totalDays": 150,
-      "soldCount": 4,
-      "avgDaysToSell": 37.5
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -22469,9 +22500,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 124.8,
+      "totalDays": 124.9,
       "soldCount": 2,
-      "avgDaysToSell": 62.4
+      "avgDaysToSell": 62.5
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -24049,9 +24080,9 @@
     },
     {
       "label": "1–5",
-      "total": 27,
+      "total": 28,
       "sold": 9,
-      "rate": 33
+      "rate": 32
     },
     {
       "label": "6–15",
@@ -24074,7 +24105,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 305,
+      "total": 306,
       "sold": 92,
       "rate": 30
     },
@@ -24091,7 +24122,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 194,
+      "total": 195,
       "sold": 63,
       "rate": 32
     }
@@ -24110,16 +24141,16 @@
       "rate": 8
     },
     {
+      "state": "IL",
+      "total": 24,
+      "sold": 5,
+      "rate": 21
+    },
+    {
       "state": "TX",
       "total": 24,
       "sold": 10,
       "rate": 42
-    },
-    {
-      "state": "IL",
-      "total": 23,
-      "sold": 5,
-      "rate": 22
     },
     {
       "state": "WA",
