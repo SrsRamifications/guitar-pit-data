@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-16T17:12:20.095Z",
-  "totalLinks": 1166,
-  "totalEver": 1235,
-  "totalBeforeFilter": 1235,
+  "generatedAt": "2026-05-16T17:19:56.237Z",
+  "totalLinks": 1167,
+  "totalEver": 1236,
+  "totalBeforeFilter": 1236,
   "fakeCount": 7,
   "removedCount": 523,
-  "totalWithPrice": 1149,
+  "totalWithPrice": 1150,
   "overall": {
-    "count": 1118,
-    "sum": 3088391.04,
+    "count": 1119,
+    "sum": 3090986.04,
     "avg": 2762,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1118,
-    "sum": 3088391.04,
+    "count": 1119,
+    "sum": 3090986.04,
     "avg": 2762,
     "min": 3,
     "max": 11099,
@@ -244,8 +244,8 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 213,
-      "sum": 545906.87,
+      "count": 214,
+      "sum": 548501.87,
       "min": 95,
       "max": 10350,
       "avg": 2563
@@ -266,19 +266,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 44,
+      "sum": 129755.79,
+      "min": 499,
+      "max": 10495,
+      "avg": 2949
+    },
     "reverb": {
       "count": 974,
       "sum": 2673398.31,
       "min": 7,
       "max": 11053,
       "avg": 2745
-    },
-    "marketplace": {
-      "count": 43,
-      "sum": 127160.79,
-      "min": 499,
-      "max": 10495,
-      "avg": 2957
     },
     "other": {
       "count": 101,
@@ -289,6 +289,13 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 45,
+      "sum": 184547.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 4101
+    },
     "reverb.com": {
       "count": 974,
       "sum": 2673398.31,
@@ -302,13 +309,6 @@
       "min": 139.99,
       "max": 5499.99,
       "avg": 1964
-    },
-    "chicagomusicexchange.com": {
-      "count": 44,
-      "sum": 181952.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 4135
     },
     "musicgoround.com": {
       "count": 3,
@@ -529,6 +529,37 @@
     }
   },
   "byModel": {
+    "prs-dgt": {
+      "displayName": "PRS DGT Antique White 2013",
+      "brand": "PRS",
+      "model": "DGT",
+      "variant": null,
+      "count": 1,
+      "sum": 2595,
+      "min": 2595,
+      "max": 2595,
+      "sightings": [
+        {
+          "price": 2595,
+          "date": "2026-05-16T17:19:37.339+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS DGT Antique White 2013",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/prs-dgt-antique-white-2013-2555658",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2595,
+          "min": 2595,
+          "max": 2595,
+          "avg": 2595
+        }
+      },
+      "avg": 2595
+    },
     "jackson-soloist-usa-custom-shop": {
       "displayName": "Jackson USA Custom Shop Soloist – Late 80s – Neck-Thru – Floyd Rose – HSS – Original Case",
       "brand": "Jackson",
@@ -16897,6 +16928,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 33,
+      "sum": 328605.79,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 9958,
+      "min": 499,
+      "max": 99000
+    },
     "Excellent": {
       "count": 198,
       "sum": 678362.73,
@@ -16981,17 +17023,6 @@
       "min": 135,
       "max": 14670
     },
-    "Used": {
-      "count": 32,
-      "sum": 326010.79,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 10188,
-      "min": 499,
-      "max": 99000
-    },
     "B-Stock": {
       "count": 4,
       "sum": 4124,
@@ -17034,7 +17065,7 @@
       "name": "May",
       "avg": 2563,
       "median": 1975,
-      "count": 213
+      "count": 214
     },
     "04": {
       "name": "Apr",
@@ -17195,7 +17226,7 @@
     "0-500": 75,
     "500-1k": 93,
     "1k-2k": 337,
-    "2k-3k": 235,
+    "2k-3k": 236,
     "3k-5k": 241,
     "5k-10k": 125,
     "10k+": 43
@@ -17204,21 +17235,26 @@
     "0-500": 75,
     "500-1k": 93,
     "1k-2k": 337,
-    "2k-3k": 235,
+    "2k-3k": 236,
     "3k-5k": 241,
     "5k-10k": 125,
     "10k+": 12
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 3206,
+      "count": 98,
+      "avg": 33
+    },
     "Jackson": {
-      "sum": 921,
+      "sum": 922,
       "count": 27,
       "avg": 34
     },
     "Strandberg": {
-      "sum": 12,
+      "sum": 13,
       "count": 2,
-      "avg": 6
+      "avg": 7
     },
     "Suhr": {
       "sum": 359,
@@ -17229,11 +17265,6 @@
       "sum": 97,
       "count": 4,
       "avg": 24
-    },
-    "PRS": {
-      "sum": 3206,
-      "count": 97,
-      "avg": 33
     },
     "Gibson": {
       "sum": 4714,
@@ -17331,7 +17362,7 @@
       "avg": 37
     },
     "Kiesel": {
-      "sum": 1266,
+      "sum": 1267,
       "count": 35,
       "avg": 36
     },
@@ -18072,7 +18103,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-16": 8,
+    "2026-05-16": 9,
     "2026-05-15": 16,
     "2026-05-14": 9,
     "2026-05-13": 26,
@@ -18105,11 +18136,11 @@
     "2026-04-16": 6
   },
   "categoryDistribution": {
+    "marketplace": 56,
     "reverb": 996,
-    "marketplace": 55,
     "other": 115
   },
-  "activeModelsCount": 331,
+  "activeModelsCount": 332,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18121,7 +18152,7 @@
     },
     {
       "username": "shteefe",
-      "count": 109
+      "count": 110
     },
     {
       "username": "YellowJack6",
@@ -18221,10 +18252,10 @@
       "count": 25
     },
     "PRS": {
-      "avgPrice": 4013,
+      "avgPrice": 3999,
       "retailEst": 1000,
-      "avgDiscount": -301.3,
-      "count": 99
+      "avgDiscount": -299.9,
+      "count": 100
     },
     "Ibanez": {
       "avgPrice": 3273,
@@ -20147,15 +20178,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1121,
+      "total": 1122,
       "sold": 310,
       "fake": 0,
-      "live": 303,
+      "live": 304,
       "removed": 508,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "PRS": {
+        "total": 101,
+        "sold": 31,
+        "fake": 0,
+        "live": 23,
+        "removed": 47,
+        "soldPct": 31,
+        "livePct": 23
+      },
       "Jackson": {
         "total": 29,
         "sold": 3,
@@ -20191,15 +20231,6 @@
         "removed": 3,
         "soldPct": 0,
         "livePct": 25
-      },
-      "PRS": {
-        "total": 100,
-        "sold": 31,
-        "fake": 0,
-        "live": 22,
-        "removed": 47,
-        "soldPct": 31,
-        "livePct": 22
       },
       "Gibson": {
         "total": 151,
@@ -21915,7 +21946,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 235,
+        "total": 236,
         "sold": 78,
         "rate": 33
       },
@@ -21939,6 +21970,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 34,
+        "sold": 1,
+        "rate": 3
+      },
       "Excellent": {
         "total": 198,
         "sold": 64,
@@ -21968,11 +22004,6 @@
         "total": 38,
         "sold": 7,
         "rate": 18
-      },
-      "Used": {
-        "total": 33,
-        "sold": 1,
-        "rate": 3
       },
       "B-Stock": {
         "total": 4,
@@ -22070,6 +22101,25 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 82,
+      "sum": 313760.25,
+      "avg": 3826,
+      "min": 675,
+      "max": 14000,
+      "sold": 26,
+      "soldSum": 86306.12,
+      "soldAvg": 3319,
+      "live": 18,
+      "removed": 38,
+      "sellRate": 32,
+      "totalDays": 923.4999999999999,
+      "soldCount": 26,
+      "avgDaysToSell": 35.5
+    },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
       "brandLine": "Jackson USA Custom Shop",
@@ -22145,25 +22195,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 81,
-      "sum": 311165.25,
-      "avg": 3842,
-      "min": 675,
-      "max": 14000,
-      "sold": 26,
-      "soldSum": 86306.12,
-      "soldAvg": 3319,
-      "live": 17,
-      "removed": 38,
-      "sellRate": 32,
-      "totalDays": 923.1999999999999,
-      "soldCount": 26,
-      "avgDaysToSell": 35.5
-    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -22198,7 +22229,7 @@
       "live": 8,
       "removed": 9,
       "sellRate": 19,
-      "totalDays": 149.5,
+      "totalDays": 149.6,
       "soldCount": 4,
       "avgDaysToSell": 37.4
     },
@@ -22236,7 +22267,7 @@
       "live": 6,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 276.8,
+      "totalDays": 276.90000000000003,
       "soldCount": 8,
       "avgDaysToSell": 34.6
     },
@@ -22347,9 +22378,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 124.6,
+      "totalDays": 124.69999999999999,
       "soldCount": 2,
-      "avgDaysToSell": 62.3
+      "avgDaysToSell": 62.4
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -22385,7 +22416,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 41,
-      "totalDays": 219.89999999999998,
+      "totalDays": 220,
       "soldCount": 7,
       "avgDaysToSell": 31.4
     },
@@ -22460,7 +22491,7 @@
       "live": 7,
       "removed": 10,
       "sellRate": 53,
-      "totalDays": 884.9000000000001,
+      "totalDays": 885,
       "soldCount": 19,
       "avgDaysToSell": 46.6
     },
@@ -22646,7 +22677,7 @@
       "live": 3,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 484,
+      "totalDays": 484.2,
       "soldCount": 13,
       "avgDaysToSell": 37.2
     },
@@ -23279,7 +23310,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 35.7,
+      "totalDays": 35.8,
       "soldCount": 2,
       "avgDaysToSell": 17.9
     },
