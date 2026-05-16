@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-16T19:27:09.707Z",
-  "totalLinks": 1171,
-  "totalEver": 1240,
-  "totalBeforeFilter": 1240,
+  "generatedAt": "2026-05-16T19:40:04.338Z",
+  "totalLinks": 1172,
+  "totalEver": 1241,
+  "totalBeforeFilter": 1241,
   "fakeCount": 7,
   "removedCount": 523,
-  "totalWithPrice": 1154,
+  "totalWithPrice": 1155,
   "overall": {
-    "count": 1123,
-    "sum": 3101871.04,
-    "avg": 2762,
+    "count": 1124,
+    "sum": 3103066.04,
+    "avg": 2761,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1123,
-    "sum": 3101871.04,
-    "avg": 2762,
+    "count": 1124,
+    "sum": 3103066.04,
+    "avg": 2761,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11421,
+    "thresholdHigh": 11455,
     "thresholdLow": 0,
     "count": 31,
     "items": [
@@ -244,11 +244,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 218,
-      "sum": 559386.87,
+      "count": 219,
+      "sum": 560581.87,
       "min": 95,
       "max": 10350,
-      "avg": 2566
+      "avg": 2560
     },
     "2026-04": {
       "count": 778,
@@ -266,19 +266,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 47,
+      "sum": 138440.79,
+      "min": 499,
+      "max": 10495,
+      "avg": 2946
+    },
     "reverb": {
       "count": 976,
       "sum": 2676793.31,
       "min": 7,
       "max": 11053,
       "avg": 2743
-    },
-    "marketplace": {
-      "count": 46,
-      "sum": 137245.79,
-      "min": 499,
-      "max": 10495,
-      "avg": 2984
     },
     "other": {
       "count": 101,
@@ -289,19 +289,19 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 48,
+      "sum": 193232.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 4026
+    },
     "reverb.com": {
       "count": 976,
       "sum": 2676793.31,
       "min": 7,
       "max": 11053,
       "avg": 2743
-    },
-    "chicagomusicexchange.com": {
-      "count": 47,
-      "sum": 192037.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 4086
     },
     "guitarcenter.com": {
       "count": 59,
@@ -529,6 +529,37 @@
     }
   },
   "byModel": {
+    "suhr-hombre-18-watt-1x12": {
+      "displayName": "Suhr Hombre 18-Watt 1x12\" Guitar Combo Amp",
+      "brand": "Suhr",
+      "model": "Hombre 18-Watt 1x12\"",
+      "variant": null,
+      "count": 1,
+      "sum": 1195,
+      "min": 1195,
+      "max": 1195,
+      "sightings": [
+        {
+          "price": 1195,
+          "date": "2026-05-16T19:39:47.124+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Hombre 18-Watt 1x12\" Guitar Combo Amp",
+          "url": "https://www.chicagomusicexchange.com/collections/amps-used/products/suhr-hombre-18-watt-1x12-guitar-combo-amp-2567067",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1195,
+          "min": 1195,
+          "max": 1195,
+          "avg": 1195
+        }
+      },
+      "avg": 1195
+    },
     "gibson-melody-maker": {
       "displayName": "Gibson Melody Maker Sparkling Burgundy 1968",
       "brand": "Gibson",
@@ -16969,6 +17000,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 36,
+      "sum": 337290.7899999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 9369,
+      "min": 499,
+      "max": 99000
+    },
     "Good": {
       "count": 72,
       "sum": 162815.95,
@@ -16996,17 +17038,6 @@
       "avg": 3416,
       "min": 171,
       "max": 35900
-    },
-    "Used": {
-      "count": 35,
-      "sum": 336095.7899999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 9603,
-      "min": 499,
-      "max": 99000
     },
     "Very Good": {
       "count": 144,
@@ -17104,9 +17135,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2566,
+      "avg": 2560,
       "median": 1975,
-      "count": 218
+      "count": 219
     },
     "04": {
       "name": "Apr",
@@ -17266,7 +17297,7 @@
   "priceDistribution": {
     "0-500": 75,
     "500-1k": 93,
-    "1k-2k": 339,
+    "1k-2k": 340,
     "2k-3k": 237,
     "3k-5k": 242,
     "5k-10k": 125,
@@ -17275,13 +17306,18 @@
   "priceDistributionFiltered": {
     "0-500": 75,
     "500-1k": 93,
-    "1k-2k": 339,
+    "1k-2k": 340,
     "2k-3k": 237,
     "3k-5k": 242,
     "5k-10k": 125,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Suhr": {
+      "sum": 361,
+      "count": 12,
+      "avg": 30
+    },
     "Gibson": {
       "sum": 4763,
       "count": 147,
@@ -17306,11 +17342,6 @@
       "sum": 13,
       "count": 2,
       "avg": 7
-    },
-    "Suhr": {
-      "sum": 360,
-      "count": 11,
-      "avg": 33
     },
     "Alvarez": {
       "sum": 97,
@@ -17348,7 +17379,7 @@
       "avg": 39
     },
     "Schecter": {
-      "sum": 309,
+      "sum": 310,
       "count": 12,
       "avg": 26
     },
@@ -17448,7 +17479,7 @@
       "avg": 28
     },
     "Yamaha": {
-      "sum": 700,
+      "sum": 701,
       "count": 21,
       "avg": 33
     },
@@ -18144,7 +18175,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-16": 13,
+    "2026-05-16": 14,
     "2026-05-15": 16,
     "2026-05-14": 9,
     "2026-05-13": 26,
@@ -18177,11 +18208,11 @@
     "2026-04-16": 6
   },
   "categoryDistribution": {
+    "marketplace": 59,
     "reverb": 998,
-    "marketplace": 58,
     "other": 115
   },
-  "activeModelsCount": 333,
+  "activeModelsCount": 334,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18193,7 +18224,7 @@
     },
     {
       "username": "shteefe",
-      "count": 112
+      "count": 113
     },
     {
       "username": "YellowJack6",
@@ -18329,10 +18360,10 @@
       "count": 12
     },
     "Suhr": {
-      "avgPrice": 3372,
+      "avgPrice": 3191,
       "retailEst": 2500,
-      "avgDiscount": -34.9,
-      "count": 11
+      "avgDiscount": -27.6,
+      "count": 12
     },
     "Kiesel": {
       "avgPrice": 1560,
@@ -20219,15 +20250,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1124,
+      "total": 1125,
       "sold": 310,
       "fake": 0,
-      "live": 306,
+      "live": 307,
       "removed": 508,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Suhr": {
+        "total": 12,
+        "sold": 3,
+        "fake": 0,
+        "live": 4,
+        "removed": 5,
+        "soldPct": 25,
+        "livePct": 33
+      },
       "Gibson": {
         "total": 152,
         "sold": 38,
@@ -20272,15 +20312,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Suhr": {
-        "total": 11,
-        "sold": 3,
-        "fake": 0,
-        "live": 3,
-        "removed": 5,
-        "soldPct": 27,
-        "livePct": 27
       },
       "Alvarez": {
         "total": 4,
@@ -21981,7 +22012,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 339,
+        "total": 340,
         "sold": 96,
         "rate": 28
       },
@@ -22011,6 +22042,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 37,
+        "sold": 1,
+        "rate": 3
+      },
       "Good": {
         "total": 72,
         "sold": 14,
@@ -22020,11 +22056,6 @@
         "total": 199,
         "sold": 64,
         "rate": 32
-      },
-      "Used": {
-        "total": 36,
-        "sold": 1,
-        "rate": 3
       },
       "Very Good": {
         "total": 145,
@@ -22142,6 +22173,25 @@
     ]
   },
   "byBrandLine": {
+    "Suhr|Suhr": {
+      "brand": "Suhr",
+      "brandLine": "Suhr",
+      "tier": "premium",
+      "count": 11,
+      "sum": 35695,
+      "avg": 3245,
+      "min": 1195,
+      "max": 7250,
+      "sold": 3,
+      "soldSum": 12744,
+      "soldAvg": 4248,
+      "live": 4,
+      "removed": 4,
+      "sellRate": 27,
+      "totalDays": 97.1,
+      "soldCount": 3,
+      "avgDaysToSell": 32.4
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -22157,7 +22207,7 @@
       "live": 30,
       "removed": 57,
       "sellRate": 22,
-      "totalDays": 752.1999999999999,
+      "totalDays": 752.5,
       "soldCount": 25,
       "avgDaysToSell": 30.1
     },
@@ -22176,7 +22226,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 139,
+      "totalDays": 139.10000000000002,
       "soldCount": 4,
       "avgDaysToSell": 34.8
     },
@@ -22195,7 +22245,7 @@
       "live": 18,
       "removed": 38,
       "sellRate": 32,
-      "totalDays": 925.6999999999999,
+      "totalDays": 925.9,
       "soldCount": 26,
       "avgDaysToSell": 35.6
     },
@@ -22237,25 +22287,6 @@
       "soldCount": 1,
       "avgDaysToSell": 45.2
     },
-    "Suhr|Suhr": {
-      "brand": "Suhr",
-      "brandLine": "Suhr",
-      "tier": "premium",
-      "count": 10,
-      "sum": 34500,
-      "avg": 3450,
-      "min": 2150,
-      "max": 7250,
-      "sold": 3,
-      "soldSum": 12744,
-      "soldAvg": 4248,
-      "live": 3,
-      "removed": 4,
-      "sellRate": 30,
-      "totalDays": 97,
-      "soldCount": 3,
-      "avgDaysToSell": 32.3
-    },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
       "brandLine": "Alvarez",
@@ -22289,7 +22320,7 @@
       "live": 8,
       "removed": 9,
       "sellRate": 19,
-      "totalDays": 149.9,
+      "totalDays": 150,
       "soldCount": 4,
       "avgDaysToSell": 37.5
     },
@@ -22327,7 +22358,7 @@
       "live": 6,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 277.5,
+      "totalDays": 277.6,
       "soldCount": 8,
       "avgDaysToSell": 34.7
     },
@@ -22346,7 +22377,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 28,
-      "totalDays": 426.9,
+      "totalDays": 427,
       "soldCount": 7,
       "avgDaysToSell": 61
     },
@@ -22476,7 +22507,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 41,
-      "totalDays": 220.40000000000003,
+      "totalDays": 220.60000000000002,
       "soldCount": 7,
       "avgDaysToSell": 31.5
     },
@@ -22532,7 +22563,7 @@
       "live": 7,
       "removed": 10,
       "sellRate": 53,
-      "totalDays": 886.5,
+      "totalDays": 886.8,
       "soldCount": 19,
       "avgDaysToSell": 46.7
     },
@@ -22589,9 +22620,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 19.1,
+      "totalDays": 19.2,
       "soldCount": 1,
-      "avgDaysToSell": 19.1
+      "avgDaysToSell": 19.2
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -22718,7 +22749,7 @@
       "live": 3,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 485.20000000000005,
+      "totalDays": 485.40000000000003,
       "soldCount": 13,
       "avgDaysToSell": 37.3
     },
@@ -22774,7 +22805,7 @@
       "live": 1,
       "removed": 5,
       "sellRate": 65,
-      "totalDays": 325.2,
+      "totalDays": 325.3,
       "soldCount": 11,
       "avgDaysToSell": 29.6
     },
@@ -22921,9 +22952,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 60.2,
+      "totalDays": 60.3,
       "soldCount": 1,
-      "avgDaysToSell": 60.2
+      "avgDaysToSell": 60.3
     },
     "Strandberg|Strandberg Import": {
       "brand": "Strandberg",
@@ -22958,9 +22989,9 @@
       "live": 1,
       "removed": 4,
       "sellRate": 29,
-      "totalDays": 51.599999999999994,
+      "totalDays": 51.7,
       "soldCount": 2,
-      "avgDaysToSell": 25.8
+      "avgDaysToSell": 25.9
     },
     "Fano|Fano": {
       "brand": "Fano",
