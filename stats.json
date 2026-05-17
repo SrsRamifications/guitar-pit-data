@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-17T15:49:31.634Z",
-  "totalLinks": 1187,
-  "totalEver": 1257,
-  "totalBeforeFilter": 1257,
+  "generatedAt": "2026-05-17T15:54:12.983Z",
+  "totalLinks": 1188,
+  "totalEver": 1258,
+  "totalBeforeFilter": 1258,
   "fakeCount": 7,
   "removedCount": 526,
-  "totalWithPrice": 1170,
+  "totalWithPrice": 1171,
   "overall": {
-    "count": 1138,
-    "sum": 3135783.03,
+    "count": 1139,
+    "sum": 3138778.03,
     "avg": 2756,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1138,
-    "sum": 3135783.03,
+    "count": 1139,
+    "sum": 3138778.03,
     "avg": 2756,
     "min": 3,
     "max": 11099,
@@ -252,11 +252,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 233,
-      "sum": 593989.86,
+      "count": 234,
+      "sum": 596984.86,
       "min": 95,
       "max": 10350,
-      "avg": 2549
+      "avg": 2551
     },
     "2026-04": {
       "count": 778,
@@ -275,11 +275,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 49,
-      "sum": 141885.78,
+      "count": 50,
+      "sum": 144880.78,
       "min": 499,
       "max": 10495,
-      "avg": 2896
+      "avg": 2898
     },
     "reverb": {
       "count": 988,
@@ -298,11 +298,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 49,
-      "sum": 195427.98,
+      "count": 50,
+      "sum": 198422.98,
       "min": 350,
       "max": 11099,
-      "avg": 3988
+      "avg": 3968
     },
     "reverb.com": {
       "count": 988,
@@ -537,6 +537,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-goldtop-reissue": {
+      "displayName": "Gibson Custom '57 Les Paul Goldtop Reissue Gold 1997",
+      "brand": "Gibson",
+      "model": "Les Paul",
+      "variant": "Goldtop Reissue",
+      "count": 1,
+      "sum": 2995,
+      "min": 2995,
+      "max": 2995,
+      "sightings": [
+        {
+          "price": 2995,
+          "date": "2026-05-17T15:53:54.306+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom '57 Les Paul Goldtop Reissue Gold 1997",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gibson-custom-57-les-paul-goldtop-reissue-gold-1997-2548952",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2995,
+          "min": 2995,
+          "max": 2995,
+          "avg": 2995
+        }
+      },
+      "avg": 2995
+    },
     "fender-stratocaster-custom-shop-classic": {
       "displayName": "Fender Custom Shop Classic Player Stratocaster Blonde 2000",
       "brand": "Fender",
@@ -1354,6 +1385,46 @@
       },
       "avg": 4250
     },
+    "prs-mccarty-1994": {
+      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+      "brand": "PRS",
+      "model": "McCarty 1994",
+      "variant": null,
+      "count": 2,
+      "sum": 4051,
+      "min": 1951,
+      "max": 2100,
+      "sightings": [
+        {
+          "price": 2100,
+          "date": "2026-04-30T17:51:13.017+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - Black",
+          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
+          "condition": "Good"
+        },
+        {
+          "price": 1951,
+          "date": "2026-05-15T22:16:46.499+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 4051,
+          "min": 1951,
+          "max": 2100,
+          "avg": 2026
+        }
+      },
+      "avg": 2026
+    },
     "prs-mccarty-594-usa": {
       "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
       "brand": "PRS",
@@ -1399,46 +1470,6 @@
         ]
       },
       "avg": 2450
-    },
-    "prs-mccarty-1994": {
-      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-      "brand": "PRS",
-      "model": "McCarty 1994",
-      "variant": null,
-      "count": 2,
-      "sum": 4051,
-      "min": 1951,
-      "max": 2100,
-      "sightings": [
-        {
-          "price": 2100,
-          "date": "2026-04-30T17:51:13.017+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - Black",
-          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
-          "condition": "Good"
-        },
-        {
-          "price": 1951,
-          "date": "2026-05-15T22:16:46.499+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 2,
-          "sum": 4051,
-          "min": 1951,
-          "max": 2100,
-          "avg": 2026
-        }
-      },
-      "avg": 2026
     },
     "original": {
       "displayName": "The Beatles Rare Finds Combo “White Album & Butcher Album 1968-79 | Original “Unplayed” | Stage 3 “Peeled - Butcher” | Original “Embossed” White Album”",
@@ -17457,13 +17488,13 @@
   },
   "byCondition": {
     "Used": {
-      "count": 38,
-      "sum": 340735.7799999999,
+      "count": 39,
+      "sum": 343730.7799999999,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 8967,
+      "avg": 8814,
       "min": 499,
       "max": 99000
     },
@@ -17591,9 +17622,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2549,
+      "avg": 2551,
       "median": 1999,
-      "count": 233
+      "count": 234
     },
     "04": {
       "name": "Apr",
@@ -17754,7 +17785,7 @@
     "0-500": 77,
     "500-1k": 94,
     "1k-2k": 342,
-    "2k-3k": 244,
+    "2k-3k": 245,
     "3k-5k": 243,
     "5k-10k": 126,
     "10k+": 44
@@ -17763,14 +17794,19 @@
     "0-500": 77,
     "500-1k": 94,
     "1k-2k": 342,
-    "2k-3k": 244,
+    "2k-3k": 245,
     "3k-5k": 243,
     "5k-10k": 126,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4897,
+      "count": 150,
+      "avg": 33
+    },
     "Fender": {
-      "sum": 2455,
+      "sum": 2456,
       "count": 79,
       "avg": 31
     },
@@ -17793,11 +17829,6 @@
       "sum": 340,
       "count": 13,
       "avg": 26
-    },
-    "Gibson": {
-      "sum": 4897,
-      "count": 149,
-      "avg": 33
     },
     "Ibanez": {
       "sum": 1586,
@@ -17825,7 +17856,7 @@
       "avg": 33
     },
     "Jackson": {
-      "sum": 947,
+      "sum": 948,
       "count": 27,
       "avg": 35
     },
@@ -17900,7 +17931,7 @@
       "avg": 4
     },
     "Kiesel": {
-      "sum": 1300,
+      "sum": 1301,
       "count": 35,
       "avg": 37
     },
@@ -18050,9 +18081,9 @@
       "avg": 30
     },
     "Shabat": {
-      "sum": 167,
+      "sum": 168,
       "count": 5,
-      "avg": 33
+      "avg": 34
     },
     "Lollar": {
       "sum": 63,
@@ -18631,7 +18662,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-17": 10,
+    "2026-05-17": 11,
     "2026-05-16": 19,
     "2026-05-15": 16,
     "2026-05-14": 9,
@@ -18661,14 +18692,14 @@
     "2026-04-20": 19,
     "2026-04-19": 22,
     "2026-04-18": 37,
-    "2026-04-17": 12
+    "2026-04-17": 11
   },
   "categoryDistribution": {
-    "marketplace": 61,
+    "marketplace": 62,
     "reverb": 1011,
     "other": 115
   },
-  "activeModelsCount": 347,
+  "activeModelsCount": 348,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18680,7 +18711,7 @@
     },
     {
       "username": "shteefe",
-      "count": 116
+      "count": 117
     },
     {
       "username": "YellowJack6",
@@ -18762,10 +18793,10 @@
       "count": 85
     },
     "Gibson": {
-      "avgPrice": 7288,
+      "avgPrice": 7260,
       "retailEst": 800,
-      "avgDiscount": -811,
-      "count": 152
+      "avgDiscount": -807.5,
+      "count": 153
     },
     "Epiphone": {
       "avgPrice": 1898,
@@ -20750,15 +20781,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1138,
+      "total": 1139,
       "sold": 314,
       "fake": 0,
-      "live": 313,
+      "live": 314,
       "removed": 511,
       "soldPct": 28,
       "livePct": 28
     },
     "byBrand": {
+      "Gibson": {
+        "total": 155,
+        "sold": 38,
+        "fake": 0,
+        "live": 39,
+        "removed": 78,
+        "soldPct": 25,
+        "livePct": 25
+      },
       "Fender": {
         "total": 88,
         "sold": 24,
@@ -20803,15 +20843,6 @@
         "removed": 5,
         "soldPct": 8,
         "livePct": 54
-      },
-      "Gibson": {
-        "total": 154,
-        "sold": 38,
-        "fake": 0,
-        "live": 38,
-        "removed": 78,
-        "soldPct": 25,
-        "livePct": 25
       },
       "Ibanez": {
         "total": 52,
@@ -22518,9 +22549,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 244,
+        "total": 245,
         "sold": 82,
-        "rate": 34
+        "rate": 33
       },
       {
         "label": "$3k–5k",
@@ -22543,7 +22574,7 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 39,
+        "total": 40,
         "sold": 3,
         "rate": 8
       },
@@ -22673,6 +22704,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 115,
+      "sum": 773776.9199999999,
+      "avg": 6728,
+      "min": 135,
+      "max": 443302,
+      "sold": 25,
+      "soldSum": 69808.97,
+      "soldAvg": 2792,
+      "live": 32,
+      "removed": 58,
+      "sellRate": 22,
+      "totalDays": 773.9000000000001,
+      "soldCount": 25,
+      "avgDaysToSell": 31
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -22691,25 +22741,6 @@
       "totalDays": 510.3,
       "soldCount": 14,
       "avgDaysToSell": 36.5
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 114,
-      "sum": 770781.9199999999,
-      "avg": 6761,
-      "min": 135,
-      "max": 443302,
-      "sold": 25,
-      "soldSum": 69808.97,
-      "soldAvg": 2792,
-      "live": 31,
-      "removed": 58,
-      "sellRate": 22,
-      "totalDays": 773.8000000000002,
-      "soldCount": 25,
-      "avgDaysToSell": 31
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -22763,7 +22794,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 17,
-      "totalDays": 153.4,
+      "totalDays": 153.5,
       "soldCount": 4,
       "avgDaysToSell": 38.4
     },
@@ -22801,7 +22832,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 142.3,
+      "totalDays": 142.4,
       "soldCount": 4,
       "avgDaysToSell": 35.6
     },
@@ -22820,7 +22851,7 @@
       "live": 17,
       "removed": 38,
       "sellRate": 33,
-      "totalDays": 949.4999999999998,
+      "totalDays": 949.7999999999998,
       "soldCount": 27,
       "avgDaysToSell": 35.2
     },
@@ -22839,7 +22870,7 @@
       "live": 4,
       "removed": 10,
       "sellRate": 13,
-      "totalDays": 163.9,
+      "totalDays": 164,
       "soldCount": 2,
       "avgDaysToSell": 82
     },
@@ -22895,7 +22926,7 @@
       "live": 6,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 284.2,
+      "totalDays": 284.3,
       "soldCount": 8,
       "avgDaysToSell": 35.5
     },
@@ -23267,7 +23298,7 @@
       "live": 3,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 495.4,
+      "totalDays": 495.5,
       "soldCount": 13,
       "avgDaysToSell": 38.1
     },
@@ -23360,7 +23391,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 57.300000000000004,
+      "totalDays": 57.4,
       "soldCount": 2,
       "avgDaysToSell": 28.7
     },
@@ -23769,9 +23800,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 122.9,
+      "totalDays": 123,
       "soldCount": 4,
-      "avgDaysToSell": 30.7
+      "avgDaysToSell": 30.8
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
