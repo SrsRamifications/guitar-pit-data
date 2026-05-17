@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-17T15:42:14.616Z",
-  "totalLinks": 1185,
-  "totalEver": 1255,
-  "totalBeforeFilter": 1255,
+  "generatedAt": "2026-05-17T15:43:35.888Z",
+  "totalLinks": 1186,
+  "totalEver": 1256,
+  "totalBeforeFilter": 1256,
   "fakeCount": 7,
   "removedCount": 526,
-  "totalWithPrice": 1168,
+  "totalWithPrice": 1169,
   "overall": {
-    "count": 1136,
-    "sum": 3133193.03,
-    "avg": 2758,
+    "count": 1137,
+    "sum": 3133588.03,
+    "avg": 2756,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1136,
-    "sum": 3133193.03,
-    "avg": 2758,
+    "count": 1137,
+    "sum": 3133588.03,
+    "avg": 2756,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11455,
+    "thresholdHigh": 11275,
     "thresholdLow": 0,
     "count": 32,
     "items": [
@@ -252,11 +252,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 231,
-      "sum": 591399.86,
+      "count": 232,
+      "sum": 591794.86,
       "min": 95,
       "max": 10350,
-      "avg": 2560
+      "avg": 2551
     },
     "2026-04": {
       "count": 778,
@@ -274,19 +274,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 988,
+      "sum": 2706065.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2739
+    },
     "marketplace": {
       "count": 48,
       "sum": 139690.78,
       "min": 499,
       "max": 10495,
       "avg": 2910
-    },
-    "reverb": {
-      "count": 987,
-      "sum": 2705670.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2741
     },
     "other": {
       "count": 101,
@@ -297,19 +297,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 988,
+      "sum": 2706065.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2739
+    },
     "guitarcenter.com": {
       "count": 60,
       "sum": 117135.45,
       "min": 139.99,
       "max": 5499.99,
       "avg": 1952
-    },
-    "reverb.com": {
-      "count": 987,
-      "sum": 2705670.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2741
     },
     "chicagomusicexchange.com": {
       "count": 48,
@@ -537,6 +537,37 @@
     }
   },
   "byModel": {
+    "warmoth-stratocaster-hhh": {
+      "displayName": "Warmoth Stratocaster Loaded Pickguard HHH TV Jones",
+      "brand": "Warmoth",
+      "model": "Stratocaster",
+      "variant": "Hhh",
+      "count": 1,
+      "sum": 395,
+      "min": 395,
+      "max": 395,
+      "sightings": [
+        {
+          "price": 395,
+          "date": "2026-05-17T15:43:18.608+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Warmoth Stratocaster Loaded Pickguard HHH TV Jones",
+          "url": "https://reverb.com/item/96242013-warmoth-stratocaster-loaded-pickguard-hhh-tv-jones",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 395,
+          "min": 395,
+          "max": 395,
+          "avg": 395
+        }
+      },
+      "avg": 395
+    },
     "prs-eg-ii-solid": {
       "displayName": "Used PRS EG II Gold Solid Body Electric Guitar Gold",
       "brand": "PRS",
@@ -17394,6 +17425,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 207,
+      "sum": 712290.73,
+      "sold": {
+        "count": 64,
+        "sum": 216931.44,
+        "avg": 3390,
+        "min": 275,
+        "max": 35900
+      },
+      "avg": 3441,
+      "min": 171,
+      "max": 35900
+    },
     "Used": {
       "count": 37,
       "sum": 338540.7799999999,
@@ -17404,20 +17449,6 @@
       "avg": 9150,
       "min": 499,
       "max": 99000
-    },
-    "Excellent": {
-      "count": 206,
-      "sum": 711895.73,
-      "sold": {
-        "count": 64,
-        "sum": 216931.44,
-        "avg": 3390,
-        "min": 275,
-        "max": 35900
-      },
-      "avg": 3456,
-      "min": 171,
-      "max": 35900
     },
     "Very Good": {
       "count": 146,
@@ -17529,9 +17560,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2560,
-      "median": 1999,
-      "count": 231
+      "avg": 2551,
+      "median": 1987,
+      "count": 232
     },
     "04": {
       "name": "Apr",
@@ -17689,7 +17720,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 76,
+    "0-500": 77,
     "500-1k": 94,
     "1k-2k": 342,
     "2k-3k": 243,
@@ -17698,7 +17729,7 @@
     "10k+": 44
   },
   "priceDistributionFiltered": {
-    "0-500": 76,
+    "0-500": 77,
     "500-1k": 94,
     "1k-2k": 342,
     "2k-3k": 243,
@@ -17707,6 +17738,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Warmoth": {
+      "sum": 245,
+      "count": 7,
+      "avg": 35
+    },
     "PRS": {
       "sum": 3300,
       "count": 99,
@@ -17778,7 +17814,7 @@
       "avg": 33
     },
     "BC Rich": {
-      "sum": 2298,
+      "sum": 2299,
       "count": 74,
       "avg": 31
     },
@@ -17846,11 +17882,6 @@
       "sum": 154,
       "count": 6,
       "avg": 26
-    },
-    "Warmoth": {
-      "sum": 219,
-      "count": 6,
-      "avg": 37
     },
     "Parker": {
       "sum": 247,
@@ -18569,7 +18600,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-17": 8,
+    "2026-05-17": 9,
     "2026-05-16": 19,
     "2026-05-15": 16,
     "2026-05-14": 9,
@@ -18602,11 +18633,11 @@
     "2026-04-17": 12
   },
   "categoryDistribution": {
+    "reverb": 1011,
     "marketplace": 60,
-    "reverb": 1010,
     "other": 115
   },
-  "activeModelsCount": 345,
+  "activeModelsCount": 346,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18638,7 +18669,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 30
+      "count": 31
     },
     {
       "username": "jazee_",
@@ -20399,11 +20430,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 2115.1193221666013,
-      "count": 128,
-      "avgPctDrop": 16.5
+      "totalPctDrop": 2135.321342368622,
+      "count": 129,
+      "avgPctDrop": 16.6
     },
     "byBrand": {
+      "Warmoth": {
+        "totalPctDrop": 37.849079025549614,
+        "count": 2,
+        "avgPctDrop": 18.9
+      },
       "Ibanez": {
         "totalPctDrop": 67.55221728625985,
         "count": 4,
@@ -20448,11 +20484,6 @@
         "totalPctDrop": 12.222222222222221,
         "count": 1,
         "avgPctDrop": 12.2
-      },
-      "Warmoth": {
-        "totalPctDrop": 17.647058823529413,
-        "count": 1,
-        "avgPctDrop": 17.6
       },
       "Grosh": {
         "totalPctDrop": 22.692132787630744,
@@ -20688,15 +20719,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1136,
+      "total": 1137,
       "sold": 314,
       "fake": 0,
-      "live": 311,
+      "live": 312,
       "removed": 511,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Warmoth": {
+        "total": 7,
+        "sold": 3,
+        "fake": 0,
+        "live": 4,
+        "removed": 0,
+        "soldPct": 43,
+        "livePct": 57
+      },
       "PRS": {
         "total": 102,
         "sold": 32,
@@ -20948,15 +20988,6 @@
         "removed": 2,
         "soldPct": 43,
         "livePct": 29
-      },
-      "Warmoth": {
-        "total": 6,
-        "sold": 3,
-        "fake": 0,
-        "live": 3,
-        "removed": 0,
-        "soldPct": 50,
-        "livePct": 50
       },
       "Parker": {
         "total": 7,
@@ -22328,13 +22359,6 @@
         "soldPct": 50
       },
       {
-        "brand": "Warmoth",
-        "total": 6,
-        "sold": 3,
-        "live": 3,
-        "soldPct": 50
-      },
-      {
         "brand": "Dunable",
         "total": 6,
         "sold": 3,
@@ -22357,6 +22381,13 @@
       },
       {
         "brand": "Knaggs",
+        "total": 9,
+        "sold": 4,
+        "live": 2,
+        "soldPct": 44
+      },
+      {
+        "brand": "Gretsch",
         "total": 9,
         "sold": 4,
         "live": 2,
@@ -22438,9 +22469,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 76,
+        "total": 77,
         "sold": 18,
-        "rate": 24
+        "rate": 23
       },
       {
         "label": "$500–1k",
@@ -22480,15 +22511,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 207,
+        "sold": 67,
+        "rate": 32
+      },
       "Used": {
         "total": 38,
         "sold": 3,
         "rate": 8
-      },
-      "Excellent": {
-        "total": 206,
-        "sold": 67,
-        "rate": 33
       },
       "Very Good": {
         "total": 147,
@@ -22560,17 +22591,17 @@
         "sold": 20
       },
       {
-        "brand": "Warmoth",
-        "avgPrice": 556,
+        "brand": "FGN",
+        "avgPrice": 1977,
         "sellRate": 50,
         "count": 6,
         "sold": 3
       },
       {
-        "brand": "FGN",
-        "avgPrice": 1977,
-        "sellRate": 50,
-        "count": 6,
+        "brand": "Warmoth",
+        "avgPrice": 529,
+        "sellRate": 43,
+        "count": 7,
         "sold": 3
       },
       {
@@ -22852,7 +22883,7 @@
       "live": 6,
       "removed": 12,
       "sellRate": 28,
-      "totalDays": 432.7,
+      "totalDays": 432.8,
       "soldCount": 7,
       "avgDaysToSell": 61.8
     },
@@ -23000,7 +23031,7 @@
       "live": 11,
       "removed": 11,
       "sellRate": 21,
-      "totalDays": 158.89999999999998,
+      "totalDays": 159,
       "soldCount": 6,
       "avgDaysToSell": 26.5
     },
@@ -23298,9 +23329,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 57.2,
+      "totalDays": 57.300000000000004,
       "soldCount": 2,
-      "avgDaysToSell": 28.6
+      "avgDaysToSell": 28.7
     },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
@@ -24469,14 +24500,14 @@
     }
   },
   "offerActivity": {
-    "withOffers": 162,
-    "totalOffers": 345,
+    "withOffers": 163,
+    "totalOffers": 346,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 31
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 108
+    "avgShippingCost": 107
   },
   "watcherDemand": [
     {
@@ -24499,7 +24530,7 @@
     },
     {
       "label": "16–30",
-      "total": 139,
+      "total": 140,
       "sold": 38,
       "rate": 27
     },
@@ -24512,7 +24543,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 315,
+      "total": 316,
       "sold": 96,
       "rate": 30
     },
@@ -24529,7 +24560,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 198,
+      "total": 199,
       "sold": 65,
       "rate": 33
     }
@@ -24596,13 +24627,13 @@
       "rate": 46
     },
     {
-      "state": "OH",
-      "total": 11,
+      "state": "OR",
+      "total": 12,
       "sold": 3,
-      "rate": 27
+      "rate": 25
     },
     {
-      "state": "OR",
+      "state": "OH",
       "total": 11,
       "sold": 3,
       "rate": 27
