@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-17T15:43:35.888Z",
-  "totalLinks": 1186,
-  "totalEver": 1256,
-  "totalBeforeFilter": 1256,
+  "generatedAt": "2026-05-17T15:49:31.634Z",
+  "totalLinks": 1187,
+  "totalEver": 1257,
+  "totalBeforeFilter": 1257,
   "fakeCount": 7,
   "removedCount": 526,
-  "totalWithPrice": 1169,
+  "totalWithPrice": 1170,
   "overall": {
-    "count": 1137,
-    "sum": 3133588.03,
+    "count": 1138,
+    "sum": 3135783.03,
     "avg": 2756,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1137,
-    "sum": 3133588.03,
+    "count": 1138,
+    "sum": 3135783.03,
     "avg": 2756,
     "min": 3,
     "max": 11099,
@@ -252,11 +252,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 232,
-      "sum": 591794.86,
+      "count": 233,
+      "sum": 593989.86,
       "min": 95,
       "max": 10350,
-      "avg": 2551
+      "avg": 2549
     },
     "2026-04": {
       "count": 778,
@@ -274,19 +274,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 49,
+      "sum": 141885.78,
+      "min": 499,
+      "max": 10495,
+      "avg": 2896
+    },
     "reverb": {
       "count": 988,
       "sum": 2706065.31,
       "min": 7,
       "max": 11053,
       "avg": 2739
-    },
-    "marketplace": {
-      "count": 48,
-      "sum": 139690.78,
-      "min": 499,
-      "max": 10495,
-      "avg": 2910
     },
     "other": {
       "count": 101,
@@ -297,6 +297,13 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 49,
+      "sum": 195427.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 3988
+    },
     "reverb.com": {
       "count": 988,
       "sum": 2706065.31,
@@ -310,13 +317,6 @@
       "min": 139.99,
       "max": 5499.99,
       "avg": 1952
-    },
-    "chicagomusicexchange.com": {
-      "count": 48,
-      "sum": 193232.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 4026
     },
     "musicgoround.com": {
       "count": 3,
@@ -537,6 +537,37 @@
     }
   },
   "byModel": {
+    "fender-stratocaster-custom-shop-classic": {
+      "displayName": "Fender Custom Shop Classic Player Stratocaster Blonde 2000",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": "Custom Shop Classic",
+      "count": 1,
+      "sum": 2195,
+      "min": 2195,
+      "max": 2195,
+      "sightings": [
+        {
+          "price": 2195,
+          "date": "2026-05-17T15:49:12.28+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop Classic Player Stratocaster Blonde 2000",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/fender-custom-shop-classic-player-stratocaster-blonde-2561961",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2195,
+          "min": 2195,
+          "max": 2195,
+          "avg": 2195
+        }
+      },
+      "avg": 2195
+    },
     "warmoth-stratocaster-hhh": {
       "displayName": "Warmoth Stratocaster Loaded Pickguard HHH TV Jones",
       "brand": "Warmoth",
@@ -17425,6 +17456,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 38,
+      "sum": 340735.7799999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8967,
+      "min": 499,
+      "max": 99000
+    },
     "Excellent": {
       "count": 207,
       "sum": 712290.73,
@@ -17438,17 +17480,6 @@
       "avg": 3441,
       "min": 171,
       "max": 35900
-    },
-    "Used": {
-      "count": 37,
-      "sum": 338540.7799999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 9150,
-      "min": 499,
-      "max": 99000
     },
     "Very Good": {
       "count": 146,
@@ -17560,9 +17591,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2551,
-      "median": 1987,
-      "count": 232
+      "avg": 2549,
+      "median": 1999,
+      "count": 233
     },
     "04": {
       "name": "Apr",
@@ -17723,7 +17754,7 @@
     "0-500": 77,
     "500-1k": 94,
     "1k-2k": 342,
-    "2k-3k": 243,
+    "2k-3k": 244,
     "3k-5k": 243,
     "5k-10k": 126,
     "10k+": 44
@@ -17732,19 +17763,24 @@
     "0-500": 77,
     "500-1k": 94,
     "1k-2k": 342,
-    "2k-3k": 243,
+    "2k-3k": 244,
     "3k-5k": 243,
     "5k-10k": 126,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 2455,
+      "count": 79,
+      "avg": 31
+    },
     "Warmoth": {
       "sum": 245,
       "count": 7,
       "avg": 35
     },
     "PRS": {
-      "sum": 3300,
+      "sum": 3301,
       "count": 99,
       "avg": 33
     },
@@ -17754,7 +17790,7 @@
       "avg": 18
     },
     "Greco": {
-      "sum": 339,
+      "sum": 340,
       "count": 13,
       "avg": 26
     },
@@ -17803,11 +17839,6 @@
       "count": 4,
       "avg": 25
     },
-    "Fender": {
-      "sum": 2455,
-      "count": 78,
-      "avg": 31
-    },
     "ESP": {
       "sum": 801,
       "count": 24,
@@ -17834,7 +17865,7 @@
       "avg": 27
     },
     "Dean": {
-      "sum": 291,
+      "sum": 292,
       "count": 7,
       "avg": 42
     },
@@ -18600,7 +18631,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-17": 9,
+    "2026-05-17": 10,
     "2026-05-16": 19,
     "2026-05-15": 16,
     "2026-05-14": 9,
@@ -18633,11 +18664,11 @@
     "2026-04-17": 12
   },
   "categoryDistribution": {
+    "marketplace": 61,
     "reverb": 1011,
-    "marketplace": 60,
     "other": 115
   },
-  "activeModelsCount": 346,
+  "activeModelsCount": 347,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18649,7 +18680,7 @@
     },
     {
       "username": "shteefe",
-      "count": 115
+      "count": 116
     },
     {
       "username": "YellowJack6",
@@ -18725,10 +18756,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5515,
+      "avgPrice": 5476,
       "retailEst": 800,
-      "avgDiscount": -589.4,
-      "count": 84
+      "avgDiscount": -584.5,
+      "count": 85
     },
     "Gibson": {
       "avgPrice": 7288,
@@ -20719,15 +20750,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1137,
+      "total": 1138,
       "sold": 314,
       "fake": 0,
-      "live": 312,
+      "live": 313,
       "removed": 511,
       "soldPct": 28,
-      "livePct": 27
+      "livePct": 28
     },
     "byBrand": {
+      "Fender": {
+        "total": 88,
+        "sold": 24,
+        "fake": 0,
+        "live": 25,
+        "removed": 39,
+        "soldPct": 27,
+        "livePct": 28
+      },
       "Warmoth": {
         "total": 7,
         "sold": 3,
@@ -20844,15 +20884,6 @@
         "removed": 3,
         "soldPct": 0,
         "livePct": 25
-      },
-      "Fender": {
-        "total": 87,
-        "sold": 24,
-        "fake": 0,
-        "live": 24,
-        "removed": 39,
-        "soldPct": 28,
-        "livePct": 28
       },
       "ESP": {
         "total": 25,
@@ -22487,7 +22518,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 243,
+        "total": 244,
         "sold": 82,
         "rate": 34
       },
@@ -22511,15 +22542,15 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 39,
+        "sold": 3,
+        "rate": 8
+      },
       "Excellent": {
         "total": 207,
         "sold": 67,
         "rate": 32
-      },
-      "Used": {
-        "total": 38,
-        "sold": 3,
-        "rate": 8
       },
       "Very Good": {
         "total": 147,
@@ -22642,6 +22673,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 51,
+      "sum": 401641.97,
+      "avg": 7875,
+      "min": 290,
+      "max": 51500,
+      "sold": 14,
+      "soldSum": 90359,
+      "soldAvg": 6454,
+      "live": 12,
+      "removed": 25,
+      "sellRate": 27,
+      "totalDays": 510.3,
+      "soldCount": 14,
+      "avgDaysToSell": 36.5
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -22657,9 +22707,9 @@
       "live": 31,
       "removed": 58,
       "sellRate": 22,
-      "totalDays": 773.5000000000001,
+      "totalDays": 773.8000000000002,
       "soldCount": 25,
-      "avgDaysToSell": 30.9
+      "avgDaysToSell": 31
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -22770,7 +22820,7 @@
       "live": 17,
       "removed": 38,
       "sellRate": 33,
-      "totalDays": 949.3999999999997,
+      "totalDays": 949.4999999999998,
       "soldCount": 27,
       "avgDaysToSell": 35.2
     },
@@ -22829,25 +22879,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 50,
-      "sum": 399446.97,
-      "avg": 7989,
-      "min": 290,
-      "max": 51500,
-      "sold": 14,
-      "soldSum": 90359,
-      "soldAvg": 6454,
-      "live": 11,
-      "removed": 25,
-      "sellRate": 28,
-      "totalDays": 510.3,
-      "soldCount": 14,
-      "avgDaysToSell": 36.5
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -23050,7 +23081,7 @@
       "live": 7,
       "removed": 10,
       "sellRate": 53,
-      "totalDays": 902.5000000000001,
+      "totalDays": 902.7,
       "soldCount": 19,
       "avgDaysToSell": 47.5
     },
@@ -23217,9 +23248,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 108.8,
+      "totalDays": 108.9,
       "soldCount": 1,
-      "avgDaysToSell": 108.8
+      "avgDaysToSell": 108.9
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -24220,9 +24251,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 31.6,
+      "totalDays": 31.7,
       "soldCount": 1,
-      "avgDaysToSell": 31.6
+      "avgDaysToSell": 31.7
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
