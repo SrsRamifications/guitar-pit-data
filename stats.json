@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-17T15:27:09.777Z",
-  "totalLinks": 1184,
-  "totalEver": 1254,
-  "totalBeforeFilter": 1254,
+  "generatedAt": "2026-05-17T15:32:17.631Z",
+  "totalLinks": 1185,
+  "totalEver": 1255,
+  "totalBeforeFilter": 1255,
   "fakeCount": 7,
   "removedCount": 526,
-  "totalWithPrice": 1167,
+  "totalWithPrice": 1168,
   "overall": {
-    "count": 1135,
-    "sum": 3131943.04,
-    "avg": 2759,
+    "count": 1136,
+    "sum": 3133193.03,
+    "avg": 2758,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1135,
-    "sum": 3131943.04,
-    "avg": 2759,
+    "count": 1136,
+    "sum": 3133193.03,
+    "avg": 2758,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -252,11 +252,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 230,
-      "sum": 590149.87,
+      "count": 231,
+      "sum": 591399.86,
       "min": 95,
       "max": 10350,
-      "avg": 2566
+      "avg": 2560
     },
     "2026-04": {
       "count": 778,
@@ -274,19 +274,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 48,
+      "sum": 139690.78,
+      "min": 499,
+      "max": 10495,
+      "avg": 2910
+    },
     "reverb": {
       "count": 987,
       "sum": 2705670.31,
       "min": 7,
       "max": 11053,
       "avg": 2741
-    },
-    "marketplace": {
-      "count": 47,
-      "sum": 138440.79,
-      "min": 499,
-      "max": 10495,
-      "avg": 2946
     },
     "other": {
       "count": 101,
@@ -297,6 +297,13 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 60,
+      "sum": 117135.45,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1952
+    },
     "reverb.com": {
       "count": 987,
       "sum": 2705670.31,
@@ -310,13 +317,6 @@
       "min": 350,
       "max": 11099,
       "avg": 4026
-    },
-    "guitarcenter.com": {
-      "count": 59,
-      "sum": 115885.46,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1964
     },
     "musicgoround.com": {
       "count": 3,
@@ -537,6 +537,37 @@
     }
   },
   "byModel": {
+    "prs-eg-ii-solid": {
+      "displayName": "Used PRS EG II Gold Solid Body Electric Guitar Gold",
+      "brand": "PRS",
+      "model": "EG II Solid",
+      "variant": null,
+      "count": 1,
+      "sum": 1249.99,
+      "min": 1249.99,
+      "max": 1249.99,
+      "sightings": [
+        {
+          "price": 1249.99,
+          "date": "2026-05-17T15:32:01.927+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used PRS EG II Gold Solid Body Electric Guitar Gold",
+          "url": "https://www.guitarcenter.com/Used/PRS/Used-PRS-EG-II-Gold-Solid-Body-Electric-Guitar.gc?algoliaQueryID=30e2a9b2c62a63f0706b4ef4b0041607&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1249.99,
+          "min": 1249.99,
+          "max": 1249.99,
+          "avg": 1250
+        }
+      },
+      "avg": 1250
+    },
     "john-page-guitars-ashburn-sss-sss-flame-maple": {
       "displayName": "John Page Guitars Ashburn - SSS - Red Translucent, Ash Body, Roasted Flame Maple Neck, Birdseye Maple Fingerboard",
       "brand": "John Page",
@@ -17363,6 +17394,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 37,
+      "sum": 338540.7799999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 9150,
+      "min": 499,
+      "max": 99000
+    },
     "Excellent": {
       "count": 206,
       "sum": 711895.73,
@@ -17418,17 +17460,6 @@
       "avg": 2237,
       "min": 70,
       "max": 11475
-    },
-    "Used": {
-      "count": 36,
-      "sum": 337290.7899999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 9369,
-      "min": 499,
-      "max": 99000
     },
     "Mint": {
       "count": 13,
@@ -17498,9 +17529,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2566,
+      "avg": 2560,
       "median": 1999,
-      "count": 230
+      "count": 231
     },
     "04": {
       "name": "Apr",
@@ -17660,7 +17691,7 @@
   "priceDistribution": {
     "0-500": 76,
     "500-1k": 94,
-    "1k-2k": 341,
+    "1k-2k": 342,
     "2k-3k": 243,
     "3k-5k": 243,
     "5k-10k": 126,
@@ -17669,13 +17700,18 @@
   "priceDistributionFiltered": {
     "0-500": 76,
     "500-1k": 94,
-    "1k-2k": 341,
+    "1k-2k": 342,
     "2k-3k": 243,
     "3k-5k": 243,
     "5k-10k": 126,
     "10k+": 12
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 3300,
+      "count": 99,
+      "avg": 33
+    },
     "John Page": {
       "sum": 36,
       "count": 2,
@@ -17687,7 +17723,7 @@
       "avg": 26
     },
     "Gibson": {
-      "sum": 4894,
+      "sum": 4897,
       "count": 149,
       "avg": 33
     },
@@ -17715,11 +17751,6 @@
       "sum": 267,
       "count": 8,
       "avg": 33
-    },
-    "PRS": {
-      "sum": 3300,
-      "count": 98,
-      "avg": 34
     },
     "Jackson": {
       "sum": 947,
@@ -17912,9 +17943,9 @@
       "avg": 20
     },
     "Mesa Boogie": {
-      "sum": 127,
+      "sum": 128,
       "count": 5,
-      "avg": 25
+      "avg": 26
     },
     "Taylor": {
       "sum": 267,
@@ -18538,7 +18569,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-17": 7,
+    "2026-05-17": 8,
     "2026-05-16": 19,
     "2026-05-15": 16,
     "2026-05-14": 9,
@@ -18571,11 +18602,11 @@
     "2026-04-17": 12
   },
   "categoryDistribution": {
+    "marketplace": 60,
     "reverb": 1010,
-    "marketplace": 59,
     "other": 115
   },
-  "activeModelsCount": 344,
+  "activeModelsCount": 345,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -18587,7 +18618,7 @@
     },
     {
       "username": "shteefe",
-      "count": 114
+      "count": 115
     },
     {
       "username": "YellowJack6",
@@ -18687,10 +18718,10 @@
       "count": 25
     },
     "PRS": {
-      "avgPrice": 3997,
+      "avgPrice": 3969,
       "retailEst": 1000,
-      "avgDiscount": -299.7,
-      "count": 100
+      "avgDiscount": -296.9,
+      "count": 101
     },
     "Ibanez": {
       "avgPrice": 3530,
@@ -20657,15 +20688,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1135,
+      "total": 1136,
       "sold": 314,
       "fake": 0,
-      "live": 310,
+      "live": 311,
       "removed": 511,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "PRS": {
+        "total": 102,
+        "sold": 32,
+        "fake": 0,
+        "live": 23,
+        "removed": 47,
+        "soldPct": 31,
+        "livePct": 23
+      },
       "John Page": {
         "total": 2,
         "sold": 1,
@@ -20737,15 +20777,6 @@
         "removed": 3,
         "soldPct": 50,
         "livePct": 13
-      },
-      "PRS": {
-        "total": 101,
-        "sold": 32,
-        "fake": 0,
-        "live": 22,
-        "removed": 47,
-        "soldPct": 32,
-        "livePct": 22
       },
       "Jackson": {
         "total": 29,
@@ -22419,7 +22450,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 341,
+        "total": 342,
         "sold": 96,
         "rate": 28
       },
@@ -22449,6 +22480,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 38,
+        "sold": 3,
+        "rate": 8
+      },
       "Excellent": {
         "total": 206,
         "sold": 67,
@@ -22468,11 +22504,6 @@
         "total": 73,
         "sold": 15,
         "rate": 21
-      },
-      "Used": {
-        "total": 37,
-        "sold": 3,
-        "rate": 8
       },
       "Mint": {
         "total": 13,
@@ -22595,7 +22626,7 @@
       "live": 31,
       "removed": 58,
       "sellRate": 22,
-      "totalDays": 773.1,
+      "totalDays": 773.2,
       "soldCount": 25,
       "avgDaysToSell": 30.9
     },
@@ -22708,7 +22739,7 @@
       "live": 17,
       "removed": 38,
       "sellRate": 33,
-      "totalDays": 949.0999999999997,
+      "totalDays": 949.1999999999997,
       "soldCount": 27,
       "avgDaysToSell": 35.2
     },
@@ -22783,7 +22814,7 @@
       "live": 11,
       "removed": 25,
       "sellRate": 28,
-      "totalDays": 510.1,
+      "totalDays": 510.20000000000005,
       "soldCount": 14,
       "avgDaysToSell": 36.4
     },
