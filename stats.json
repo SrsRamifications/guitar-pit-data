@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-19T13:27:10.135Z",
-  "totalLinks": 1204,
-  "totalEver": 1276,
-  "totalBeforeFilter": 1276,
+  "generatedAt": "2026-05-19T13:34:03.421Z",
+  "totalLinks": 1205,
+  "totalEver": 1277,
+  "totalBeforeFilter": 1277,
   "fakeCount": 7,
   "removedCount": 536,
-  "totalWithPrice": 1187,
+  "totalWithPrice": 1188,
   "overall": {
-    "count": 1154,
-    "sum": 3185843.03,
-    "avg": 2761,
+    "count": 1155,
+    "sum": 3187518.03,
+    "avg": 2760,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1154,
-    "sum": 3185843.03,
-    "avg": 2761,
+    "count": 1155,
+    "sum": 3187518.03,
+    "avg": 2760,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11455,
+    "thresholdHigh": 11421,
     "thresholdLow": 0,
     "count": 33,
     "items": [
@@ -260,11 +260,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 249,
-      "sum": 644671.86,
+      "count": 250,
+      "sum": 646346.86,
       "min": 92,
       "max": 10350,
-      "avg": 2589
+      "avg": 2585
     },
     "2026-04": {
       "count": 778,
@@ -283,11 +283,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1002,
-      "sum": 2748930.31,
+      "count": 1003,
+      "sum": 2750605.31,
       "min": 7,
       "max": 11053,
-      "avg": 2743
+      "avg": 2742
     },
     "marketplace": {
       "count": 51,
@@ -306,11 +306,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1002,
-      "sum": 2748930.31,
+      "count": 1003,
+      "sum": 2750605.31,
       "min": 7,
       "max": 11053,
-      "avg": 2743
+      "avg": 2742
     },
     "chicagomusicexchange.com": {
       "count": 51,
@@ -545,6 +545,37 @@
     }
   },
   "byModel": {
+    "kiesel-lightspeed": {
+      "displayName": "Kiesel Lightspeed",
+      "brand": "Kiesel",
+      "model": "Lightspeed",
+      "variant": null,
+      "count": 1,
+      "sum": 1675,
+      "min": 1675,
+      "max": 1675,
+      "sightings": [
+        {
+          "price": 1675,
+          "date": "2026-05-19T13:33:44.635+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Lightspeed",
+          "url": "https://reverb.com/item/97169709-kiesel-lightspeed",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1675,
+          "min": 1675,
+          "max": 1675,
+          "avg": 1675
+        }
+      },
+      "avg": 1675
+    },
     "fender-stratocaster": {
       "displayName": "Fender Stratocaster 1962 Sunburst",
       "brand": "Fender",
@@ -18074,6 +18105,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 212,
+      "sum": 731547.73,
+      "sold": {
+        "count": 68,
+        "sum": 220666.44,
+        "avg": 3245,
+        "min": 171,
+        "max": 35900
+      },
+      "avg": 3451,
+      "min": 171,
+      "max": 35900
+    },
     "Very Good": {
       "count": 153,
       "sum": 456854.55999999994,
@@ -18101,20 +18146,6 @@
       "avg": 4142,
       "min": 92,
       "max": 14670
-    },
-    "Excellent": {
-      "count": 211,
-      "sum": 729872.73,
-      "sold": {
-        "count": 68,
-        "sum": 220666.44,
-        "avg": 3245,
-        "min": 171,
-        "max": 35900
-      },
-      "avg": 3459,
-      "min": 171,
-      "max": 35900
     },
     "Good": {
       "count": 74,
@@ -18209,9 +18240,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2589,
+      "avg": 2585,
       "median": 2000,
-      "count": 249
+      "count": 250
     },
     "04": {
       "name": "Apr",
@@ -18371,7 +18402,7 @@
   "priceDistribution": {
     "0-500": 79,
     "500-1k": 95,
-    "1k-2k": 344,
+    "1k-2k": 345,
     "2k-3k": 249,
     "3k-5k": 246,
     "5k-10k": 129,
@@ -18380,20 +18411,25 @@
   "priceDistributionFiltered": {
     "0-500": 79,
     "500-1k": 95,
-    "1k-2k": 344,
+    "1k-2k": 345,
     "2k-3k": 249,
     "3k-5k": 246,
     "5k-10k": 129,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 1277,
+      "count": 35,
+      "avg": 36
+    },
     "Fender": {
-      "sum": 2607,
+      "sum": 2609,
       "count": 80,
       "avg": 33
     },
     "Ibanez": {
-      "sum": 1686,
+      "sum": 1687,
       "count": 52,
       "avg": 32
     },
@@ -18541,11 +18577,6 @@
       "sum": 6,
       "count": 1,
       "avg": 6
-    },
-    "Kiesel": {
-      "sum": 1272,
-      "count": 34,
-      "avg": 37
     },
     "Nash": {
       "sum": 165,
@@ -19249,7 +19280,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-19": 2,
+    "2026-05-19": 3,
     "2026-05-18": 6,
     "2026-05-17": 19,
     "2026-05-16": 19,
@@ -19282,11 +19313,11 @@
     "2026-04-19": 14
   },
   "categoryDistribution": {
-    "reverb": 1026,
+    "reverb": 1027,
     "marketplace": 63,
     "other": 115
   },
-  "activeModelsCount": 359,
+  "activeModelsCount": 360,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -19318,7 +19349,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 32
+      "count": 33
     },
     {
       "username": "jazee_",
@@ -19440,10 +19471,10 @@
       "count": 12
     },
     "Kiesel": {
-      "avgPrice": 1560,
+      "avgPrice": 1563,
       "retailEst": 1000,
-      "avgDiscount": -56,
-      "count": 38
+      "avgDiscount": -56.3,
+      "count": 39
     },
     "Echopark": {
       "avgPrice": 4230,
@@ -21159,11 +21190,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 2268.301596793697,
-      "count": 135,
-      "avgPctDrop": 16.8
+      "totalPctDrop": 2292.1652331573337,
+      "count": 136,
+      "avgPctDrop": 16.9
     },
     "byBrand": {
+      "Kiesel": {
+        "totalPctDrop": 108.1470149212421,
+        "count": 6,
+        "avgPctDrop": 18
+      },
       "Fender": {
         "totalPctDrop": 193.48969190672577,
         "count": 12,
@@ -21283,11 +21319,6 @@
         "totalPctDrop": 8.16326530612245,
         "count": 1,
         "avgPctDrop": 8.2
-      },
-      "Kiesel": {
-        "totalPctDrop": 84.28337855760574,
-        "count": 5,
-        "avgPctDrop": 16.9
       },
       "James Tyler": {
         "totalPctDrop": 12.121212121212121,
@@ -21448,15 +21479,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1154,
+      "total": 1155,
       "sold": 326,
       "fake": 0,
-      "live": 308,
+      "live": 309,
       "removed": 520,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 40,
+        "sold": 20,
+        "fake": 0,
+        "live": 9,
+        "removed": 11,
+        "soldPct": 50,
+        "livePct": 23
+      },
       "Fender": {
         "total": 89,
         "sold": 26,
@@ -21735,15 +21775,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Kiesel": {
-        "total": 39,
-        "sold": 20,
-        "fake": 0,
-        "live": 8,
-        "removed": 11,
-        "soldPct": 51,
-        "livePct": 21
       },
       "Nash": {
         "total": 7,
@@ -23089,10 +23120,10 @@
       },
       {
         "brand": "Kiesel",
-        "total": 39,
+        "total": 40,
         "sold": 20,
-        "live": 8,
-        "soldPct": 51
+        "live": 9,
+        "soldPct": 50
       },
       {
         "brand": "Collings",
@@ -23210,7 +23241,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 344,
+        "total": 345,
         "sold": 99,
         "rate": 29
       },
@@ -23240,6 +23271,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 212,
+        "sold": 71,
+        "rate": 33
+      },
       "Very Good": {
         "total": 154,
         "sold": 47,
@@ -23249,11 +23285,6 @@
         "total": 43,
         "sold": 7,
         "rate": 16
-      },
-      "Excellent": {
-        "total": 211,
-        "sold": 71,
-        "rate": 34
       },
       "Good": {
         "total": 74,
@@ -23321,9 +23352,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1559,
-        "sellRate": 51,
-        "count": 39,
+        "avgPrice": 1562,
+        "sellRate": 50,
+        "count": 40,
         "sold": 20
       },
       {
@@ -23378,6 +23409,25 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 37,
+      "sum": 57784.98,
+      "avg": 1562,
+      "min": 650,
+      "max": 4300,
+      "sold": 19,
+      "soldSum": 25767,
+      "soldAvg": 1356,
+      "live": 8,
+      "removed": 10,
+      "sellRate": 51,
+      "totalDays": 938.9,
+      "soldCount": 19,
+      "avgDaysToSell": 49.4
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -23431,7 +23481,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 71,
-      "totalDays": 182.8,
+      "totalDays": 182.89999999999998,
       "soldCount": 5,
       "avgDaysToSell": 36.6
     },
@@ -23525,7 +23575,7 @@
       "live": 17,
       "removed": 39,
       "sellRate": 33,
-      "totalDays": 1000.7999999999998,
+      "totalDays": 1001.0999999999998,
       "soldCount": 27,
       "avgDaysToSell": 37.1
     },
@@ -23601,7 +23651,7 @@
       "live": 29,
       "removed": 60,
       "sellRate": 23,
-      "totalDays": 827.8,
+      "totalDays": 827.9,
       "soldCount": 26,
       "avgDaysToSell": 31.8
     },
@@ -23713,7 +23763,7 @@
       "live": 6,
       "removed": 12,
       "sellRate": 28,
-      "totalDays": 446.1,
+      "totalDays": 446.2,
       "soldCount": 7,
       "avgDaysToSell": 63.7
     },
@@ -23768,7 +23818,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 36,
-      "totalDays": 194.7,
+      "totalDays": 194.8,
       "soldCount": 4,
       "avgDaysToSell": 48.7
     },
@@ -23864,25 +23914,6 @@
       "totalDays": 170.4,
       "soldCount": 6,
       "avgDaysToSell": 28.4
-    },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 36,
-      "sum": 56109.98,
-      "avg": 1559,
-      "min": 650,
-      "max": 4300,
-      "sold": 19,
-      "soldSum": 25767,
-      "soldAvg": 1356,
-      "live": 7,
-      "removed": 10,
-      "sellRate": 53,
-      "totalDays": 938.8000000000001,
-      "soldCount": 19,
-      "avgDaysToSell": 49.4
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -24047,7 +24078,7 @@
       "live": 3,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 518.3,
+      "totalDays": 518.4,
       "soldCount": 13,
       "avgDaysToSell": 39.9
     },
@@ -24513,9 +24544,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 130.5,
+      "totalDays": 130.6,
       "soldCount": 4,
-      "avgDaysToSell": 32.6
+      "avgDaysToSell": 32.7
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -25268,7 +25299,7 @@
     },
     {
       "label": "16–30",
-      "total": 140,
+      "total": 141,
       "sold": 41,
       "rate": 29
     },
@@ -25281,7 +25312,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 324,
+      "total": 325,
       "sold": 102,
       "rate": 31
     },
@@ -25298,7 +25329,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 206,
+      "total": 207,
       "sold": 71,
       "rate": 34
     }
@@ -25378,9 +25409,9 @@
     },
     {
       "state": "NJ",
-      "total": 10,
+      "total": 11,
       "sold": 4,
-      "rate": 40
+      "rate": 36
     },
     {
       "state": "NC",
