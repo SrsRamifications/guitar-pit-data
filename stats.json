@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-20T12:57:11.086Z",
-  "totalLinks": 1222,
-  "totalEver": 1294,
-  "totalBeforeFilter": 1294,
+  "generatedAt": "2026-05-20T13:04:18.603Z",
+  "totalLinks": 1223,
+  "totalEver": 1295,
+  "totalBeforeFilter": 1295,
   "fakeCount": 7,
   "removedCount": 543,
-  "totalWithPrice": 1205,
+  "totalWithPrice": 1206,
   "overall": {
-    "count": 1172,
-    "sum": 3232106.02,
-    "avg": 2758,
+    "count": 1173,
+    "sum": 3232166.01,
+    "avg": 2755,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1172,
-    "sum": 3232106.02,
-    "avg": 2758,
+    "count": 1173,
+    "sum": 3232166.01,
+    "avg": 2755,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11241,
+    "thresholdHigh": 11275,
     "thresholdLow": 0,
     "count": 33,
     "items": [
@@ -260,11 +260,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 267,
-      "sum": 691150.85,
-      "min": 92,
+      "count": 268,
+      "sum": 691210.84,
+      "min": 59.99,
       "max": 10350,
-      "avg": 2589
+      "avg": 2579
     },
     "2026-04": {
       "count": 778,
@@ -282,19 +282,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 53,
+      "sum": 149616.76,
+      "min": 59.99,
+      "max": 10495,
+      "avg": 2823
+    },
     "reverb": {
       "count": 1019,
       "sum": 2794717.31,
       "min": 7,
       "max": 11053,
       "avg": 2743
-    },
-    "marketplace": {
-      "count": 52,
-      "sum": 149556.77,
-      "min": 475.99,
-      "max": 10495,
-      "avg": 2876
     },
     "other": {
       "count": 101,
@@ -305,6 +305,13 @@
     }
   },
   "byDomain": {
+    "gibson.com": {
+      "count": 2,
+      "sum": 2658.99,
+      "min": 59.99,
+      "max": 2599,
+      "avg": 1329
+    },
     "reverb.com": {
       "count": 1019,
       "sum": 2794717.31,
@@ -395,13 +402,6 @@
       "min": 4999.99,
       "max": 10495,
       "avg": 7747
-    },
-    "gibson.com": {
-      "count": 1,
-      "sum": 2599,
-      "min": 2599,
-      "max": 2599,
-      "avg": 2599
     },
     "daddario.com": {
       "count": 2,
@@ -545,6 +545,37 @@
     }
   },
   "byModel": {
+    "gibson-pickup-revives-the-humbucker": {
+      "displayName": "Gibson Pickup Shop revives the T-Top humbucker with period-correct spe",
+      "brand": "Gibson",
+      "model": "Pickup revives the",
+      "variant": "Humbucker",
+      "count": 1,
+      "sum": 59.99,
+      "min": 59.99,
+      "max": 59.99,
+      "sightings": [
+        {
+          "price": 59.99,
+          "date": "2026-05-20T13:04:01.242+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Pickup Shop revives the T-Top humbucker with period-correct spe",
+          "url": "https://www.gibson.com/blogs/gibson-gazette/gibson-pickup-shop-launches-1968-t-top-reissue-humbucker",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 59.99,
+          "min": 59.99,
+          "max": 59.99,
+          "avg": 60
+        }
+      },
+      "avg": 60
+    },
     "echopark-clarence-goldfoil-light": {
       "displayName": "Echopark Clarence Goldfoil Light 2017 - Aged Vintage Blonde",
       "brand": "Echopark",
@@ -18753,9 +18784,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2589,
+      "avg": 2579,
       "median": 2000,
-      "count": 267
+      "count": 268
     },
     "04": {
       "name": "Apr",
@@ -18913,7 +18944,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 80,
+    "0-500": 81,
     "500-1k": 95,
     "1k-2k": 353,
     "2k-3k": 252,
@@ -18922,7 +18953,7 @@
     "10k+": 45
   },
   "priceDistributionFiltered": {
-    "0-500": 80,
+    "0-500": 81,
     "500-1k": 95,
     "1k-2k": 353,
     "2k-3k": 252,
@@ -18931,15 +18962,15 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5318,
+      "count": 153,
+      "avg": 35
+    },
     "Echopark": {
       "sum": 723,
       "count": 22,
       "avg": 33
-    },
-    "Gibson": {
-      "sum": 5316,
-      "count": 152,
-      "avg": 35
     },
     "Framus": {
       "sum": 119,
@@ -18962,7 +18993,7 @@
       "avg": 24
     },
     "Kiesel": {
-      "sum": 1308,
+      "sum": 1309,
       "count": 36,
       "avg": 36
     },
@@ -18972,7 +19003,7 @@
       "avg": 26
     },
     "PRS": {
-      "sum": 3595,
+      "sum": 3596,
       "count": 101,
       "avg": 36
     },
@@ -19147,7 +19178,7 @@
       "avg": 32
     },
     "Dunable": {
-      "sum": 208,
+      "sum": 209,
       "count": 6,
       "avg": 35
     },
@@ -19327,7 +19358,7 @@
       "avg": 40
     },
     "Burny": {
-      "sum": 81,
+      "sum": 82,
       "count": 2,
       "avg": 41
     },
@@ -19412,7 +19443,7 @@
       "avg": 38
     },
     "Rickenbacker": {
-      "sum": 863,
+      "sum": 864,
       "count": 24,
       "avg": 36
     },
@@ -19793,7 +19824,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-20": 8,
+    "2026-05-20": 9,
     "2026-05-19": 12,
     "2026-05-18": 6,
     "2026-05-17": 19,
@@ -19826,11 +19857,11 @@
     "2026-04-20": 17
   },
   "categoryDistribution": {
+    "marketplace": 65,
     "reverb": 1043,
-    "marketplace": 64,
     "other": 115
   },
-  "activeModelsCount": 374,
+  "activeModelsCount": 375,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -19846,7 +19877,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 109
+      "count": 110
     },
     {
       "username": "madero",
@@ -19924,10 +19955,10 @@
       "count": 86
     },
     "Gibson": {
-      "avgPrice": 7209,
+      "avgPrice": 7163,
       "retailEst": 800,
-      "avgDiscount": -801.1,
-      "count": 155
+      "avgDiscount": -795.4,
+      "count": 156
     },
     "Epiphone": {
       "avgPrice": 1897,
@@ -22037,15 +22068,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1171,
+      "total": 1172,
       "sold": 331,
       "fake": 0,
-      "live": 315,
+      "live": 316,
       "removed": 525,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 158,
+        "sold": 40,
+        "fake": 0,
+        "live": 38,
+        "removed": 80,
+        "soldPct": 25,
+        "livePct": 24
+      },
       "Echopark": {
         "total": 26,
         "sold": 5,
@@ -22054,15 +22094,6 @@
         "removed": 11,
         "soldPct": 19,
         "livePct": 38
-      },
-      "Gibson": {
-        "total": 157,
-        "sold": 40,
-        "fake": 0,
-        "live": 37,
-        "removed": 80,
-        "soldPct": 25,
-        "livePct": 24
       },
       "Framus": {
         "total": 4,
@@ -23787,7 +23818,7 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 80,
+        "total": 81,
         "sold": 21,
         "rate": 26
       },
@@ -23967,6 +23998,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 118,
+      "sum": 780415.9099999999,
+      "avg": 6614,
+      "min": 59.99,
+      "max": 443302,
+      "sold": 27,
+      "soldSum": 72628.97,
+      "soldAvg": 2690,
+      "live": 31,
+      "removed": 60,
+      "sellRate": 23,
+      "totalDays": 871.1,
+      "soldCount": 27,
+      "avgDaysToSell": 32.3
+    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
@@ -23985,25 +24035,6 @@
       "totalDays": 170.5,
       "soldCount": 5,
       "avgDaysToSell": 34.1
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 117,
-      "sum": 780355.9199999999,
-      "avg": 6670,
-      "min": 135,
-      "max": 443302,
-      "sold": 27,
-      "soldSum": 72628.97,
-      "soldAvg": 2690,
-      "live": 30,
-      "removed": 60,
-      "sellRate": 23,
-      "totalDays": 871.0000000000001,
-      "soldCount": 27,
-      "avgDaysToSell": 32.3
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -24880,7 +24911,7 @@
       "live": 2,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 213.89999999999998,
+      "totalDays": 214,
       "soldCount": 6,
       "avgDaysToSell": 35.7
     },
