@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-20T20:42:12.656Z",
-  "totalLinks": 1227,
-  "totalEver": 1299,
-  "totalBeforeFilter": 1299,
+  "generatedAt": "2026-05-20T20:53:46.302Z",
+  "totalLinks": 1228,
+  "totalEver": 1300,
+  "totalBeforeFilter": 1300,
   "fakeCount": 7,
   "removedCount": 545,
-  "totalWithPrice": 1210,
+  "totalWithPrice": 1211,
   "overall": {
-    "count": 1176,
-    "sum": 3234689.01,
-    "avg": 2751,
+    "count": 1177,
+    "sum": 3236368.01,
+    "avg": 2750,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1176,
-    "sum": 3234689.01,
-    "avg": 2751,
+    "count": 1177,
+    "sum": 3236368.01,
+    "avg": 2750,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -268,11 +268,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 271,
-      "sum": 693733.84,
+      "count": 272,
+      "sum": 695412.84,
       "min": 59.99,
       "max": 10350,
-      "avg": 2560
+      "avg": 2557
     },
     "2026-04": {
       "count": 778,
@@ -291,11 +291,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1022,
-      "sum": 2797240.31,
+      "count": 1023,
+      "sum": 2798919.31,
       "min": 7,
       "max": 11053,
-      "avg": 2737
+      "avg": 2736
     },
     "marketplace": {
       "count": 53,
@@ -314,11 +314,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1022,
-      "sum": 2797240.31,
+      "count": 1023,
+      "sum": 2798919.31,
       "min": 7,
       "max": 11053,
-      "avg": 2737
+      "avg": 2736
     },
     "gibson.com": {
       "count": 2,
@@ -553,6 +553,93 @@
     }
   },
   "byModel": {
+    "gibson-sg-standard": {
+      "displayName": "Gibson SG Standard 1978- Walnut",
+      "brand": "Gibson",
+      "model": "SG Standard",
+      "variant": null,
+      "count": 3,
+      "sum": 5278,
+      "min": 1199,
+      "max": 2400,
+      "sightings": [
+        {
+          "price": 2400,
+          "date": "2026-03-30T22:26:04.836+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson CME Exclusive SG Standard with T-Type Pickups, Tortoise Pickguard 2018 - Shell Pink",
+          "url": "https://reverb.com/item/95166723-gibson-cme-exclusive-sg-standard-with-t-type-pickups-tortoise-pickguard-2018-shell-pink",
+          "condition": "Very Good"
+        },
+        {
+          "price": 1199,
+          "date": "2026-05-03T18:07:21.66+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2016 Gibson SG Standard - 6.86 LBS",
+          "url": "https://reverb.com/item/96673976-2016-gibson-sg-standard-6-86-lbs",
+          "condition": "Very Good"
+        },
+        {
+          "price": 1679,
+          "date": "2026-05-20T20:53:28.985+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson SG Standard 1978- Walnut",
+          "url": "https://reverb.com/item/97310739-gibson-sg-standard-1978-walnut",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1679,
+          "min": 1679,
+          "max": 1679,
+          "avg": 1679
+        },
+        "Very Good": {
+          "count": 2,
+          "sum": 3599,
+          "min": 1199,
+          "max": 2400,
+          "avg": 1800
+        }
+      },
+      "soldData": {
+        "count": 2,
+        "avg": 1800,
+        "min": 1199,
+        "max": 2400,
+        "prices": [
+          {
+            "price": 1199,
+            "askingPrice": 1199,
+            "date": "2026-05-12T08:29:38.686+00:00",
+            "title": "2016 Gibson SG Standard - 6.86 LBS",
+            "url": "https://reverb.com/item/96673976-2016-gibson-sg-standard-6-86-lbs"
+          },
+          {
+            "price": 2400,
+            "askingPrice": 2400,
+            "date": "2026-04-06T03:01:37.81+00:00",
+            "title": "Gibson CME Exclusive SG Standard with T-Type Pickups, Tortoise Pickguard 2018 - Shell Pink",
+            "url": "https://reverb.com/item/95166723-gibson-cme-exclusive-sg-standard-with-t-type-pickups-tortoise-pickguard-2018-shell-pink"
+          }
+        ]
+      },
+      "avg": 1759,
+      "trends": {
+        "d30": {
+          "direction": "down",
+          "pctChange": -40,
+          "recentAvg": 1439,
+          "olderAvg": 2400,
+          "recentCount": 2
+        }
+      }
+    },
     "eastman-semi-hollow": {
       "displayName": "2020s Eastman T486RD Semi-hollow 335-Style Electric Guitar (VIDEO! Fresh Work, Ready)",
       "brand": "Eastman",
@@ -8708,68 +8795,6 @@
         ]
       },
       "avg": 550
-    },
-    "gibson-sg-standard": {
-      "displayName": "2016 Gibson SG Standard - 6.86 LBS",
-      "brand": "Gibson",
-      "model": "SG Standard",
-      "variant": null,
-      "count": 2,
-      "sum": 3599,
-      "min": 1199,
-      "max": 2400,
-      "sightings": [
-        {
-          "price": 2400,
-          "date": "2026-03-30T22:26:04.836+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson CME Exclusive SG Standard with T-Type Pickups, Tortoise Pickguard 2018 - Shell Pink",
-          "url": "https://reverb.com/item/95166723-gibson-cme-exclusive-sg-standard-with-t-type-pickups-tortoise-pickguard-2018-shell-pink",
-          "condition": "Very Good"
-        },
-        {
-          "price": 1199,
-          "date": "2026-05-03T18:07:21.66+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "2016 Gibson SG Standard - 6.86 LBS",
-          "url": "https://reverb.com/item/96673976-2016-gibson-sg-standard-6-86-lbs",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 2,
-          "sum": 3599,
-          "min": 1199,
-          "max": 2400,
-          "avg": 1800
-        }
-      },
-      "soldData": {
-        "count": 2,
-        "avg": 1800,
-        "min": 1199,
-        "max": 2400,
-        "prices": [
-          {
-            "price": 1199,
-            "askingPrice": 1199,
-            "date": "2026-05-12T08:29:38.686+00:00",
-            "title": "2016 Gibson SG Standard - 6.86 LBS",
-            "url": "https://reverb.com/item/96673976-2016-gibson-sg-standard-6-86-lbs"
-          },
-          {
-            "price": 2400,
-            "askingPrice": 2400,
-            "date": "2026-04-06T03:01:37.81+00:00",
-            "title": "Gibson CME Exclusive SG Standard with T-Type Pickups, Tortoise Pickguard 2018 - Shell Pink",
-            "url": "https://reverb.com/item/95166723-gibson-cme-exclusive-sg-standard-with-t-type-pickups-tortoise-pickguard-2018-shell-pink"
-          }
-        ]
-      },
-      "avg": 1800
     },
     "first-act-me501": {
       "displayName": "First Act ME501, Recent",
@@ -18840,6 +18865,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 76,
+      "sum": 168734.95,
+      "sold": {
+        "count": 16,
+        "sum": 27244.469999999998,
+        "avg": 1703,
+        "min": 290,
+        "max": 4777.5
+      },
+      "avg": 2220,
+      "min": 70,
+      "max": 11475
+    },
     "Very Good": {
       "count": 159,
       "sum": 468429.55999999994,
@@ -18907,20 +18946,6 @@
       "min": 92,
       "max": 14670
     },
-    "Good": {
-      "count": 75,
-      "sum": 167055.95,
-      "sold": {
-        "count": 16,
-        "sum": 27244.469999999998,
-        "avg": 1703,
-        "min": 290,
-        "max": 4777.5
-      },
-      "avg": 2227,
-      "min": 70,
-      "max": 11475
-    },
     "New": {
       "count": 2,
       "sum": 8524,
@@ -18975,9 +19000,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2560,
+      "avg": 2557,
       "median": 1999,
-      "count": 271
+      "count": 272
     },
     "04": {
       "name": "Apr",
@@ -19137,7 +19162,7 @@
   "priceDistribution": {
     "0-500": 82,
     "500-1k": 95,
-    "1k-2k": 355,
+    "1k-2k": 356,
     "2k-3k": 252,
     "3k-5k": 249,
     "5k-10k": 131,
@@ -19146,13 +19171,18 @@
   "priceDistributionFiltered": {
     "0-500": 82,
     "500-1k": 95,
-    "1k-2k": 355,
+    "1k-2k": 356,
     "2k-3k": 252,
     "3k-5k": 249,
     "5k-10k": 131,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5365,
+      "count": 154,
+      "avg": 35
+    },
     "Eastman": {
       "sum": 606,
       "count": 15,
@@ -19167,11 +19197,6 @@
       "sum": 94,
       "count": 4,
       "avg": 24
-    },
-    "Gibson": {
-      "sum": 5365,
-      "count": 153,
-      "avg": 35
     },
     "Echopark": {
       "sum": 724,
@@ -19209,7 +19234,7 @@
       "avg": 36
     },
     "BC Rich": {
-      "sum": 2530,
+      "sum": 2531,
       "count": 75,
       "avg": 34
     },
@@ -19224,7 +19249,7 @@
       "avg": 36
     },
     "Fender": {
-      "sum": 2701,
+      "sum": 2702,
       "count": 80,
       "avg": 34
     },
@@ -20015,7 +20040,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-20": 13,
+    "2026-05-20": 14,
     "2026-05-19": 12,
     "2026-05-18": 6,
     "2026-05-17": 19,
@@ -20048,7 +20073,7 @@
     "2026-04-20": 7
   },
   "categoryDistribution": {
-    "reverb": 1047,
+    "reverb": 1048,
     "marketplace": 65,
     "other": 115
   },
@@ -20084,7 +20109,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 34
+      "count": 35
     },
     {
       "username": "jazee_",
@@ -20146,10 +20171,10 @@
       "count": 86
     },
     "Gibson": {
-      "avgPrice": 7163,
+      "avgPrice": 7128,
       "retailEst": 800,
-      "avgDiscount": -795.4,
-      "count": 156
+      "avgDiscount": -791,
+      "count": 157
     },
     "Epiphone": {
       "avgPrice": 1897,
@@ -22303,15 +22328,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1175,
+      "total": 1176,
       "sold": 335,
       "fake": 0,
-      "live": 313,
+      "live": 314,
       "removed": 527,
-      "soldPct": 29,
+      "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 159,
+        "sold": 41,
+        "fake": 0,
+        "live": 38,
+        "removed": 80,
+        "soldPct": 26,
+        "livePct": 24
+      },
       "Eastman": {
         "total": 15,
         "sold": 3,
@@ -22338,15 +22372,6 @@
         "removed": 0,
         "soldPct": 80,
         "livePct": 20
-      },
-      "Gibson": {
-        "total": 158,
-        "sold": 41,
-        "fake": 0,
-        "live": 37,
-        "removed": 80,
-        "soldPct": 26,
-        "livePct": 23
       },
       "Echopark": {
         "total": 26,
@@ -24065,7 +24090,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 355,
+        "total": 356,
         "sold": 102,
         "rate": 29
       },
@@ -24095,6 +24120,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 76,
+        "sold": 18,
+        "rate": 24
+      },
       "Very Good": {
         "total": 160,
         "sold": 49,
@@ -24119,11 +24149,6 @@
         "total": 44,
         "sold": 7,
         "rate": 16
-      },
-      "Good": {
-        "total": 75,
-        "sold": 18,
-        "rate": 24
       },
       "New": {
         "total": 2,
@@ -24233,6 +24258,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 119,
+      "sum": 782094.9099999999,
+      "avg": 6572,
+      "min": 59.99,
+      "max": 443302,
+      "sold": 28,
+      "soldSum": 72688.95999999999,
+      "soldAvg": 2596,
+      "live": 31,
+      "removed": 60,
+      "sellRate": 24,
+      "totalDays": 880.4000000000001,
+      "soldCount": 28,
+      "avgDaysToSell": 31.4
+    },
     "Eastman|Eastman": {
       "brand": "Eastman",
       "brandLine": "Eastman",
@@ -24267,28 +24311,9 @@
       "live": 10,
       "removed": 11,
       "sellRate": 48,
-      "totalDays": 963.4999999999999,
+      "totalDays": 963.6999999999999,
       "soldCount": 19,
       "avgDaysToSell": 50.7
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 118,
-      "sum": 780415.9099999999,
-      "avg": 6614,
-      "min": 59.99,
-      "max": 443302,
-      "sold": 28,
-      "soldSum": 72688.95999999999,
-      "soldAvg": 2596,
-      "live": 30,
-      "removed": 60,
-      "sellRate": 24,
-      "totalDays": 880.4000000000001,
-      "soldCount": 28,
-      "avgDaysToSell": 31.4
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -24362,7 +24387,7 @@
       "live": 11,
       "removed": 12,
       "sellRate": 21,
-      "totalDays": 178.2,
+      "totalDays": 178.3,
       "soldCount": 6,
       "avgDaysToSell": 29.7
     },
@@ -24419,7 +24444,7 @@
       "live": 11,
       "removed": 25,
       "sellRate": 31,
-      "totalDays": 594,
+      "totalDays": 594.2,
       "soldCount": 16,
       "avgDaysToSell": 37.1
     },
@@ -24457,7 +24482,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 71,
-      "totalDays": 189.29999999999998,
+      "totalDays": 189.4,
       "soldCount": 5,
       "avgDaysToSell": 37.9
     },
@@ -24607,7 +24632,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 113.1,
+      "totalDays": 113.19999999999999,
       "soldCount": 4,
       "avgDaysToSell": 28.3
     },
@@ -24663,9 +24688,9 @@
       "live": 6,
       "removed": 12,
       "sellRate": 28,
-      "totalDays": 455.2,
+      "totalDays": 455.4,
       "soldCount": 7,
-      "avgDaysToSell": 65
+      "avgDaysToSell": 65.1
     },
     "Schecter|Schecter USA Custom Shop": {
       "brand": "Schecter",
@@ -24718,7 +24743,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 36,
-      "totalDays": 199.9,
+      "totalDays": 200,
       "soldCount": 4,
       "avgDaysToSell": 50
     },
@@ -24959,7 +24984,7 @@
       "live": 3,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 533.9,
+      "totalDays": 534,
       "soldCount": 13,
       "avgDaysToSell": 41.1
     },
@@ -25220,7 +25245,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 36.9,
+      "totalDays": 37,
       "soldCount": 2,
       "avgDaysToSell": 18.5
     },
@@ -25723,9 +25748,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 317.8,
+      "totalDays": 317.9,
       "soldCount": 3,
-      "avgDaysToSell": 105.9
+      "avgDaysToSell": 106
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
@@ -26112,9 +26137,9 @@
     },
     {
       "label": "1–5",
-      "total": 29,
+      "total": 30,
       "sold": 12,
-      "rate": 41
+      "rate": 40
     },
     {
       "label": "6–15",
@@ -26137,7 +26162,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 338,
+      "total": 339,
       "sold": 107,
       "rate": 32
     },
@@ -26149,7 +26174,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 237,
+      "total": 238,
       "sold": 54,
       "rate": 23
     },
@@ -26186,9 +26211,9 @@
     },
     {
       "state": "FL",
-      "total": 22,
+      "total": 23,
       "sold": 10,
-      "rate": 45
+      "rate": 43
     },
     {
       "state": "WA",
