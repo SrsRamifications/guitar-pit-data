@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-20T01:12:10.399Z",
-  "totalLinks": 1215,
-  "totalEver": 1287,
-  "totalBeforeFilter": 1287,
+  "generatedAt": "2026-05-20T01:26:54.665Z",
+  "totalLinks": 1216,
+  "totalEver": 1288,
+  "totalBeforeFilter": 1288,
   "fakeCount": 7,
   "removedCount": 540,
-  "totalWithPrice": 1198,
+  "totalWithPrice": 1199,
   "overall": {
-    "count": 1165,
-    "sum": 3219519.03,
-    "avg": 2764,
+    "count": 1166,
+    "sum": 3220619.03,
+    "avg": 2762,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1165,
-    "sum": 3219519.03,
-    "avg": 2764,
+    "count": 1166,
+    "sum": 3220619.03,
+    "avg": 2762,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11421,
+    "thresholdHigh": 11455,
     "thresholdLow": 0,
     "count": 33,
     "items": [
@@ -260,11 +260,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 260,
-      "sum": 678539.86,
+      "count": 261,
+      "sum": 679639.86,
       "min": 92,
       "max": 10350,
-      "avg": 2610
+      "avg": 2604
     },
     "2026-04": {
       "count": 778,
@@ -283,11 +283,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1013,
-      "sum": 2782606.31,
+      "count": 1014,
+      "sum": 2783706.31,
       "min": 7,
       "max": 11053,
-      "avg": 2747
+      "avg": 2745
     },
     "marketplace": {
       "count": 51,
@@ -306,11 +306,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1013,
-      "sum": 2782606.31,
+      "count": 1014,
+      "sum": 2783706.31,
       "min": 7,
       "max": 11053,
-      "avg": 2747
+      "avg": 2745
     },
     "chicagomusicexchange.com": {
       "count": 51,
@@ -545,6 +545,37 @@
     }
   },
   "byModel": {
+    "kiesel-dc-150": {
+      "displayName": "Carvin DC-150",
+      "brand": "Kiesel",
+      "model": "DC-150",
+      "variant": null,
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-05-20T01:26:37.235+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Carvin DC-150",
+          "url": "https://reverb.com/item/97269159-carvin-dc-150",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
+    },
     "echopark-echocaster-64-candy-nitro": {
       "displayName": "2026 Echopark Echocaster 64'  Candy Apple Red Aged Nitro Finish",
       "brand": "Echopark",
@@ -18408,6 +18439,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 217,
+      "sum": 749146.73,
+      "sold": {
+        "count": 70,
+        "sum": 225854.44,
+        "avg": 3226,
+        "min": 171,
+        "max": 35900
+      },
+      "avg": 3452,
+      "min": 171,
+      "max": 35900
+    },
     "Brand New": {
       "count": 44,
       "sum": 183416.11000000002,
@@ -18421,20 +18466,6 @@
       "avg": 4169,
       "min": 92,
       "max": 14670
-    },
-    "Excellent": {
-      "count": 216,
-      "sum": 748046.73,
-      "sold": {
-        "count": 70,
-        "sum": 225854.44,
-        "avg": 3226,
-        "min": 171,
-        "max": 35900
-      },
-      "avg": 3463,
-      "min": 171,
-      "max": 35900
     },
     "Very Good": {
       "count": 157,
@@ -18543,9 +18574,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2610,
+      "avg": 2604,
       "median": 2000,
-      "count": 260
+      "count": 261
     },
     "04": {
       "name": "Apr",
@@ -18705,7 +18736,7 @@
   "priceDistribution": {
     "0-500": 79,
     "500-1k": 95,
-    "1k-2k": 350,
+    "1k-2k": 351,
     "2k-3k": 249,
     "3k-5k": 249,
     "5k-10k": 131,
@@ -18714,13 +18745,18 @@
   "priceDistributionFiltered": {
     "0-500": 79,
     "500-1k": 95,
-    "1k-2k": 350,
+    "1k-2k": 351,
     "2k-3k": 249,
     "3k-5k": 249,
     "5k-10k": 131,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 1288,
+      "count": 36,
+      "avg": 36
+    },
     "Echopark": {
       "sum": 699,
       "count": 21,
@@ -18761,13 +18797,8 @@
       "count": 23,
       "avg": 33
     },
-    "Kiesel": {
-      "sum": 1288,
-      "count": 35,
-      "avg": 37
-    },
     "Fender": {
-      "sum": 2625,
+      "sum": 2626,
       "count": 80,
       "avg": 33
     },
@@ -18867,9 +18898,9 @@
       "avg": 44
     },
     "Mayones": {
-      "sum": 56,
+      "sum": 57,
       "count": 2,
-      "avg": 28
+      "avg": 29
     },
     "Epiphone": {
       "sum": 348,
@@ -19312,9 +19343,9 @@
       "avg": 34
     },
     "LSL": {
-      "sum": 86,
+      "sum": 87,
       "count": 2,
-      "avg": 43
+      "avg": 44
     },
     "Balaguer": {
       "sum": 35,
@@ -19502,9 +19533,9 @@
       "avg": 47
     },
     "Mojotone": {
-      "sum": 47,
+      "sum": 48,
       "count": 1,
-      "avg": 47
+      "avg": 48
     },
     "Bilt": {
       "sum": 48,
@@ -19583,7 +19614,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-20": 1,
+    "2026-05-20": 2,
     "2026-05-19": 12,
     "2026-05-18": 6,
     "2026-05-17": 19,
@@ -19616,11 +19647,11 @@
     "2026-04-20": 19
   },
   "categoryDistribution": {
-    "reverb": 1037,
+    "reverb": 1038,
     "marketplace": 63,
     "other": 115
   },
-  "activeModelsCount": 368,
+  "activeModelsCount": 369,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -19660,7 +19691,7 @@
     },
     {
       "username": "hibby_",
-      "count": 15
+      "count": 16
     }
   ],
   "topDealHunters": [
@@ -19774,10 +19805,10 @@
       "count": 12
     },
     "Kiesel": {
-      "avgPrice": 1562,
+      "avgPrice": 1550,
       "retailEst": 1000,
-      "avgDiscount": -56.2,
-      "count": 40
+      "avgDiscount": -55,
+      "count": 41
     },
     "Echopark": {
       "avgPrice": 4273,
@@ -21814,15 +21845,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1164,
+      "total": 1165,
       "sold": 330,
       "fake": 0,
-      "live": 311,
+      "live": 312,
       "removed": 523,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 42,
+        "sold": 20,
+        "fake": 0,
+        "live": 10,
+        "removed": 12,
+        "soldPct": 48,
+        "livePct": 24
+      },
       "Echopark": {
         "total": 25,
         "sold": 5,
@@ -21849,15 +21889,6 @@
         "removed": 2,
         "soldPct": 40,
         "livePct": 20
-      },
-      "Kiesel": {
-        "total": 41,
-        "sold": 20,
-        "fake": 0,
-        "live": 9,
-        "removed": 12,
-        "soldPct": 49,
-        "livePct": 22
       },
       "PRS": {
         "total": 104,
@@ -23483,10 +23514,10 @@
       },
       {
         "brand": "Kiesel",
-        "total": 41,
+        "total": 42,
         "sold": 20,
-        "live": 9,
-        "soldPct": 49
+        "live": 10,
+        "soldPct": 48
       }
     ],
     "worstBrands": [
@@ -23576,7 +23607,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 350,
+        "total": 351,
         "sold": 102,
         "rate": 29
       },
@@ -23606,15 +23637,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 217,
+        "sold": 73,
+        "rate": 34
+      },
       "Brand New": {
         "total": 44,
         "sold": 7,
         "rate": 16
-      },
-      "Excellent": {
-        "total": 216,
-        "sold": 73,
-        "rate": 34
       },
       "Very Good": {
         "total": 158,
@@ -23694,9 +23725,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1560,
-        "sellRate": 49,
-        "count": 41,
+        "avgPrice": 1548,
+        "sellRate": 48,
+        "count": 42,
         "sold": 20
       },
       {
@@ -23751,6 +23782,25 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 39,
+      "sum": 60385.98,
+      "avg": 1548,
+      "min": 650,
+      "max": 4300,
+      "sold": 19,
+      "soldSum": 25767,
+      "soldAvg": 1356,
+      "live": 9,
+      "removed": 11,
+      "sellRate": 49,
+      "totalDays": 948.3000000000001,
+      "soldCount": 19,
+      "avgDaysToSell": 49.9
+    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
@@ -23766,7 +23816,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 21,
-      "totalDays": 168.1,
+      "totalDays": 168.2,
       "soldCount": 5,
       "avgDaysToSell": 33.6
     },
@@ -23785,28 +23835,9 @@
       "live": 29,
       "removed": 60,
       "sellRate": 23,
-      "totalDays": 857.8000000000001,
+      "totalDays": 858.4,
       "soldCount": 27,
       "avgDaysToSell": 31.8
-    },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 38,
-      "sum": 59285.98,
-      "avg": 1560,
-      "min": 650,
-      "max": 4300,
-      "sold": 19,
-      "soldSum": 25767,
-      "soldAvg": 1356,
-      "live": 8,
-      "removed": 11,
-      "sellRate": 50,
-      "totalDays": 948.0999999999999,
-      "soldCount": 19,
-      "avgDaysToSell": 49.9
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -23823,7 +23854,7 @@
       "live": 16,
       "removed": 40,
       "sellRate": 33,
-      "totalDays": 1038.1000000000001,
+      "totalDays": 1038.3999999999999,
       "soldCount": 28,
       "avgDaysToSell": 37.1
     },
@@ -23842,7 +23873,7 @@
       "live": 11,
       "removed": 12,
       "sellRate": 21,
-      "totalDays": 173.3,
+      "totalDays": 173.39999999999998,
       "soldCount": 6,
       "avgDaysToSell": 28.9
     },
@@ -23937,7 +23968,7 @@
       "live": 7,
       "removed": 8,
       "sellRate": 35,
-      "totalDays": 303.4,
+      "totalDays": 303.49999999999994,
       "soldCount": 8,
       "avgDaysToSell": 37.9
     },
@@ -24069,7 +24100,7 @@
       "live": 5,
       "removed": 10,
       "sellRate": 12,
-      "totalDays": 168.70000000000002,
+      "totalDays": 168.8,
       "soldCount": 2,
       "avgDaysToSell": 84.4
     },
@@ -24162,7 +24193,7 @@
       "live": 6,
       "removed": 12,
       "sellRate": 28,
-      "totalDays": 449.5,
+      "totalDays": 449.6,
       "soldCount": 7,
       "avgDaysToSell": 64.2
     },
@@ -24439,9 +24470,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 111.2,
+      "totalDays": 111.3,
       "soldCount": 1,
-      "avgDaysToSell": 111.2
+      "avgDaysToSell": 111.3
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -24458,7 +24489,7 @@
       "live": 3,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 524.0999999999999,
+      "totalDays": 524.3,
       "soldCount": 13,
       "avgDaysToSell": 40.3
     },
@@ -24496,9 +24527,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 62,
+      "totalDays": 62.2,
       "soldCount": 2,
-      "avgDaysToSell": 31
+      "avgDaysToSell": 31.1
     },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
@@ -24664,7 +24695,7 @@
       "live": 2,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 211,
+      "totalDays": 211.2,
       "soldCount": 6,
       "avgDaysToSell": 35.2
     },
@@ -24738,9 +24769,9 @@
       "live": 2,
       "removed": 1,
       "sellRate": 25,
-      "totalDays": 17.3,
+      "totalDays": 17.4,
       "soldCount": 1,
-      "avgDaysToSell": 17.3
+      "avgDaysToSell": 17.4
     },
     "Parker|Parker Fly": {
       "brand": "Parker",
@@ -24868,7 +24899,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 73.1,
+      "totalDays": 73.2,
       "soldCount": 2,
       "avgDaysToSell": 36.6
     },
@@ -24887,7 +24918,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 132.39999999999998,
+      "totalDays": 132.5,
       "soldCount": 4,
       "avgDaysToSell": 33.1
     },
@@ -25241,7 +25272,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 315.29999999999995,
+      "totalDays": 315.4,
       "soldCount": 3,
       "avgDaysToSell": 105.1
     },
@@ -25332,9 +25363,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 34,
+      "totalDays": 34.1,
       "soldCount": 1,
-      "avgDaysToSell": 34
+      "avgDaysToSell": 34.1
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -25636,9 +25667,9 @@
     },
     {
       "label": "6–15",
-      "total": 102,
+      "total": 103,
       "sold": 24,
-      "rate": 24
+      "rate": 23
     },
     {
       "label": "16–30",
@@ -25655,7 +25686,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 331,
+      "total": 332,
       "sold": 105,
       "rate": 32
     },
@@ -25672,7 +25703,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 211,
+      "total": 212,
       "sold": 74,
       "rate": 35
     }
@@ -25841,6 +25872,12 @@
       "rate": 50
     },
     {
+      "state": "WY",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "ID",
       "total": 3,
       "sold": 0,
@@ -25944,12 +25981,6 @@
     },
     {
       "state": "NM",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "WY",
       "total": 2,
       "sold": 0,
       "rate": 0
