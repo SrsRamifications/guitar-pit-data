@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-20T02:42:11.565Z",
-  "totalLinks": 1218,
-  "totalEver": 1290,
-  "totalBeforeFilter": 1290,
+  "generatedAt": "2026-05-20T02:49:34.214Z",
+  "totalLinks": 1219,
+  "totalEver": 1291,
+  "totalBeforeFilter": 1291,
   "fakeCount": 7,
   "removedCount": 540,
-  "totalWithPrice": 1201,
+  "totalWithPrice": 1202,
   "overall": {
-    "count": 1168,
-    "sum": 3225989.03,
-    "avg": 2762,
+    "count": 1169,
+    "sum": 3226465.02,
+    "avg": 2760,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1168,
-    "sum": 3225989.03,
-    "avg": 2762,
+    "count": 1169,
+    "sum": 3226465.02,
+    "avg": 2760,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11421,
+    "thresholdHigh": 11455,
     "thresholdLow": 0,
     "count": 33,
     "items": [
@@ -260,11 +260,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 263,
-      "sum": 685009.86,
+      "count": 264,
+      "sum": 685485.85,
       "min": 92,
       "max": 10350,
-      "avg": 2605
+      "avg": 2597
     },
     "2026-04": {
       "count": 778,
@@ -282,19 +282,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 52,
+      "sum": 149556.77,
+      "min": 475.99,
+      "max": 10495,
+      "avg": 2876
+    },
     "reverb": {
       "count": 1016,
       "sum": 2789076.31,
       "min": 7,
       "max": 11053,
       "avg": 2745
-    },
-    "marketplace": {
-      "count": 51,
-      "sum": 149080.78,
-      "min": 499,
-      "max": 10495,
-      "avg": 2923
     },
     "other": {
       "count": 101,
@@ -305,6 +305,13 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 61,
+      "sum": 117611.44,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1928
+    },
     "reverb.com": {
       "count": 1016,
       "sum": 2789076.31,
@@ -318,13 +325,6 @@
       "min": 350,
       "max": 11099,
       "avg": 3973
-    },
-    "guitarcenter.com": {
-      "count": 60,
-      "sum": 117135.45,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1952
     },
     "musicgoround.com": {
       "count": 3,
@@ -545,6 +545,37 @@
     }
   },
   "byModel": {
+    "cort-kx700-evertune": {
+      "displayName": "Used Cort kx700 evertune black matte Solid Body Electric Guitar black matte",
+      "brand": "Cort",
+      "model": "kx700",
+      "variant": "Evertune",
+      "count": 1,
+      "sum": 475.99,
+      "min": 475.99,
+      "max": 475.99,
+      "sightings": [
+        {
+          "price": 475.99,
+          "date": "2026-05-20T02:49:17.257+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Cort kx700 evertune black matte Solid Body Electric Guitar black matte",
+          "url": "https://www.guitarcenter.com/Used/Cort/Used-Cort-kx700-evertune-black-matte-Solid-Body-Electric-Guitar.gc",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 475.99,
+          "min": 475.99,
+          "max": 475.99,
+          "avg": 476
+        }
+      },
+      "avg": 476
+    },
     "music-man-stingray": {
       "displayName": "used Ernie Ball Music Man StingRay II Deluxe Cory Wong in Polaris White, MINT Condition with original Mono soft case!",
       "brand": "Music Man",
@@ -18501,6 +18532,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 40,
+      "sum": 344206.7699999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8605,
+      "min": 475.99,
+      "max": 99000
+    },
     "Mint": {
       "count": 14,
       "sum": 30307,
@@ -18582,17 +18624,6 @@
       "min": 4200,
       "max": 4324
     },
-    "Used": {
-      "count": 39,
-      "sum": 343730.7799999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 8814,
-      "min": 499,
-      "max": 99000
-    },
     "Fair": {
       "count": 7,
       "sum": 10042,
@@ -18636,9 +18667,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2605,
+      "avg": 2597,
       "median": 2000,
-      "count": 263
+      "count": 264
     },
     "04": {
       "name": "Apr",
@@ -18796,7 +18827,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 79,
+    "0-500": 80,
     "500-1k": 95,
     "1k-2k": 351,
     "2k-3k": 251,
@@ -18805,7 +18836,7 @@
     "10k+": 45
   },
   "priceDistributionFiltered": {
-    "0-500": 79,
+    "0-500": 80,
     "500-1k": 95,
     "1k-2k": 351,
     "2k-3k": 251,
@@ -18814,6 +18845,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Cort": {
+      "sum": 129,
+      "count": 3,
+      "avg": 43
+    },
     "Music Man": {
       "sum": 754,
       "count": 24,
@@ -18830,19 +18866,19 @@
       "avg": 36
     },
     "Echopark": {
-      "sum": 701,
+      "sum": 702,
       "count": 21,
       "avg": 33
     },
     "Gibson": {
-      "sum": 5228,
+      "sum": 5229,
       "count": 151,
       "avg": 35
     },
     "First Act": {
-      "sum": 127,
+      "sum": 128,
       "count": 5,
-      "avg": 25
+      "avg": 26
     },
     "PRS": {
       "sum": 3518,
@@ -18850,7 +18886,7 @@
       "avg": 35
     },
     "BC Rich": {
-      "sum": 2466,
+      "sum": 2468,
       "count": 75,
       "avg": 33
     },
@@ -18925,7 +18961,7 @@
       "avg": 28
     },
     "Suhr": {
-      "sum": 397,
+      "sum": 398,
       "count": 12,
       "avg": 33
     },
@@ -18960,7 +18996,7 @@
       "avg": 29
     },
     "Dean": {
-      "sum": 308,
+      "sum": 309,
       "count": 7,
       "avg": 44
     },
@@ -18970,7 +19006,7 @@
       "avg": 29
     },
     "Epiphone": {
-      "sum": 349,
+      "sum": 351,
       "count": 8,
       "avg": 44
     },
@@ -19133,11 +19169,6 @@
       "sum": 19,
       "count": 1,
       "avg": 19
-    },
-    "Cort": {
-      "sum": 129,
-      "count": 2,
-      "avg": 65
     },
     "Marshall": {
       "sum": 166,
@@ -19580,7 +19611,7 @@
       "avg": 46
     },
     "Millimetric": {
-      "sum": 195,
+      "sum": 196,
       "count": 4,
       "avg": 49
     },
@@ -19676,7 +19707,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-20": 4,
+    "2026-05-20": 5,
     "2026-05-19": 12,
     "2026-05-18": 6,
     "2026-05-17": 19,
@@ -19709,11 +19740,11 @@
     "2026-04-20": 18
   },
   "categoryDistribution": {
+    "marketplace": 64,
     "reverb": 1040,
-    "marketplace": 63,
     "other": 115
   },
-  "activeModelsCount": 371,
+  "activeModelsCount": 372,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -19745,7 +19776,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 33
+      "count": 34
     },
     {
       "username": "jazee_",
@@ -21907,15 +21938,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1167,
+      "total": 1168,
       "sold": 330,
       "fake": 0,
-      "live": 314,
+      "live": 315,
       "removed": 523,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Cort": {
+        "total": 4,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "removed": 1,
+        "soldPct": 25,
+        "livePct": 50
+      },
       "Music Man": {
         "total": 25,
         "sold": 14,
@@ -22518,15 +22558,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Cort": {
-        "total": 3,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "removed": 1,
-        "soldPct": 33,
-        "livePct": 33
       },
       "Marshall": {
         "total": 4,
@@ -23657,9 +23688,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 79,
+        "total": 80,
         "sold": 21,
-        "rate": 27
+        "rate": 26
       },
       {
         "label": "$500–1k",
@@ -23699,6 +23730,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 41,
+        "sold": 5,
+        "rate": 12
+      },
       "Mint": {
         "total": 14,
         "sold": 2,
@@ -23728,11 +23764,6 @@
         "total": 2,
         "sold": 0,
         "rate": 0
-      },
-      "Used": {
-        "total": 40,
-        "sold": 5,
-        "rate": 13
       },
       "Fair": {
         "total": 7,
@@ -23828,13 +23859,6 @@
         "sold": 1
       },
       {
-        "brand": "Cort",
-        "avgPrice": 995,
-        "sellRate": 33,
-        "count": 3,
-        "sold": 1
-      },
-      {
         "brand": "Tokai",
         "avgPrice": 1059,
         "sellRate": 33,
@@ -23859,7 +23883,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 55,
-      "totalDays": 361.5,
+      "totalDays": 361.6,
       "soldCount": 11,
       "avgDaysToSell": 32.9
     },
@@ -23878,7 +23902,7 @@
       "live": 9,
       "removed": 11,
       "sellRate": 49,
-      "totalDays": 949.4,
+      "totalDays": 949.5,
       "soldCount": 19,
       "avgDaysToSell": 50
     },
@@ -23916,7 +23940,7 @@
       "live": 29,
       "removed": 60,
       "sellRate": 23,
-      "totalDays": 859.4999999999999,
+      "totalDays": 859.5999999999999,
       "soldCount": 27,
       "avgDaysToSell": 31.8
     },
@@ -23935,7 +23959,7 @@
       "live": 16,
       "removed": 40,
       "sellRate": 33,
-      "totalDays": 1039.7999999999997,
+      "totalDays": 1039.8999999999996,
       "soldCount": 28,
       "avgDaysToSell": 37.1
     },
@@ -24030,7 +24054,7 @@
       "live": 7,
       "removed": 8,
       "sellRate": 35,
-      "totalDays": 303.9,
+      "totalDays": 304,
       "soldCount": 8,
       "avgDaysToSell": 38
     },
@@ -24105,7 +24129,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 35,
-      "totalDays": 243.60000000000002,
+      "totalDays": 243.7,
       "soldCount": 7,
       "avgDaysToSell": 34.8
     },
@@ -24199,7 +24223,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 110.2,
+      "totalDays": 110.3,
       "soldCount": 4,
       "avgDaysToSell": 27.6
     },
@@ -24218,7 +24242,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 152.2,
+      "totalDays": 152.3,
       "soldCount": 4,
       "avgDaysToSell": 38.1
     },
@@ -24255,7 +24279,7 @@
       "live": 6,
       "removed": 12,
       "sellRate": 28,
-      "totalDays": 450,
+      "totalDays": 450.1,
       "soldCount": 7,
       "avgDaysToSell": 64.3
     },
@@ -24682,9 +24706,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 63.5,
+      "totalDays": 63.6,
       "soldCount": 1,
-      "avgDaysToSell": 63.5
+      "avgDaysToSell": 63.6
     },
     "Strandberg|Strandberg Import": {
       "brand": "Strandberg",
@@ -24719,9 +24743,9 @@
       "live": 1,
       "removed": 4,
       "sellRate": 29,
-      "totalDays": 58.2,
+      "totalDays": 58.3,
       "soldCount": 2,
-      "avgDaysToSell": 29.1
+      "avgDaysToSell": 29.2
     },
     "Fano|Fano": {
       "brand": "Fano",
