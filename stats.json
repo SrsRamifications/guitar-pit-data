@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-20T03:12:10.996Z",
-  "totalLinks": 1220,
-  "totalEver": 1292,
-  "totalBeforeFilter": 1292,
+  "generatedAt": "2026-05-20T03:12:39.387Z",
+  "totalLinks": 1221,
+  "totalEver": 1293,
+  "totalBeforeFilter": 1293,
   "fakeCount": 7,
   "removedCount": 540,
-  "totalWithPrice": 1203,
+  "totalWithPrice": 1204,
   "overall": {
-    "count": 1170,
-    "sum": 3227965.02,
-    "avg": 2759,
+    "count": 1171,
+    "sum": 3229755.02,
+    "avg": 2758,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1170,
-    "sum": 3227965.02,
-    "avg": 2759,
+    "count": 1171,
+    "sum": 3229755.02,
+    "avg": 2758,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11455,
+    "thresholdHigh": 11421,
     "thresholdLow": 0,
     "count": 33,
     "items": [
@@ -260,11 +260,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 265,
-      "sum": 686985.85,
+      "count": 266,
+      "sum": 688775.85,
       "min": 92,
       "max": 10350,
-      "avg": 2592
+      "avg": 2589
     },
     "2026-04": {
       "count": 778,
@@ -283,11 +283,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1017,
-      "sum": 2790576.31,
+      "count": 1018,
+      "sum": 2792366.31,
       "min": 7,
       "max": 11053,
-      "avg": 2744
+      "avg": 2743
     },
     "marketplace": {
       "count": 52,
@@ -306,11 +306,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1017,
-      "sum": 2790576.31,
+      "count": 1018,
+      "sum": 2792366.31,
       "min": 7,
       "max": 11053,
-      "avg": 2744
+      "avg": 2743
     },
     "guitarcenter.com": {
       "count": 61,
@@ -545,6 +545,37 @@
     }
   },
   "byModel": {
+    "gibson-ca-mk-81": {
+      "displayName": "Ca. 1975 Gibson MK-81",
+      "brand": "Gibson",
+      "model": "Ca. MK-81",
+      "variant": null,
+      "count": 1,
+      "sum": 1790,
+      "min": 1790,
+      "max": 1790,
+      "sightings": [
+        {
+          "price": 1790,
+          "date": "2026-05-20T03:12:22.271+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ca. 1975 Gibson MK-81",
+          "url": "https://reverb.com/item/97271394-ca-1975-gibson-mk-81",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1790,
+          "min": 1790,
+          "max": 1790,
+          "avg": 1790
+        }
+      },
+      "avg": 1790
+    },
     "framus-flying-v-artist-gloss": {
       "displayName": "NEW! RARE Framus WH-1 WH1 D-series Artist Wolf Hoffmann Accept Flying V 2022 gloss white_258",
       "brand": "Framus",
@@ -18563,6 +18594,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 158,
+      "sum": 467354.55999999994,
+      "sold": {
+        "count": 49,
+        "sum": 110332.79000000001,
+        "avg": 2252,
+        "min": 100,
+        "max": 10800
+      },
+      "avg": 2958,
+      "min": 33,
+      "max": 32500
+    },
     "Mint": {
       "count": 15,
       "sum": 31807,
@@ -18615,20 +18660,6 @@
       "avg": 4169,
       "min": 92,
       "max": 14670
-    },
-    "Very Good": {
-      "count": 157,
-      "sum": 465564.55999999994,
-      "sold": {
-        "count": 49,
-        "sum": 110332.79000000001,
-        "avg": 2252,
-        "min": 100,
-        "max": 10800
-      },
-      "avg": 2965,
-      "min": 33,
-      "max": 32500
     },
     "Good": {
       "count": 75,
@@ -18698,9 +18729,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2592,
+      "avg": 2589,
       "median": 2000,
-      "count": 265
+      "count": 266
     },
     "04": {
       "name": "Apr",
@@ -18860,7 +18891,7 @@
   "priceDistribution": {
     "0-500": 80,
     "500-1k": 95,
-    "1k-2k": 352,
+    "1k-2k": 353,
     "2k-3k": 251,
     "3k-5k": 249,
     "5k-10k": 131,
@@ -18869,13 +18900,18 @@
   "priceDistributionFiltered": {
     "0-500": 80,
     "500-1k": 95,
-    "1k-2k": 352,
+    "1k-2k": 353,
     "2k-3k": 251,
     "3k-5k": 249,
     "5k-10k": 131,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5230,
+      "count": 152,
+      "avg": 34
+    },
     "Framus": {
       "sum": 116,
       "count": 4,
@@ -18905,11 +18941,6 @@
       "sum": 702,
       "count": 21,
       "avg": 33
-    },
-    "Gibson": {
-      "sum": 5230,
-      "count": 151,
-      "avg": 35
     },
     "First Act": {
       "sum": 128,
@@ -19738,7 +19769,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-20": 6,
+    "2026-05-20": 7,
     "2026-05-19": 12,
     "2026-05-18": 6,
     "2026-05-17": 19,
@@ -19771,11 +19802,11 @@
     "2026-04-20": 18
   },
   "categoryDistribution": {
-    "reverb": 1041,
+    "reverb": 1042,
     "marketplace": 64,
     "other": 115
   },
-  "activeModelsCount": 373,
+  "activeModelsCount": 374,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -19783,7 +19814,7 @@
     },
     {
       "username": "greg1213",
-      "count": 235
+      "count": 236
     },
     {
       "username": "shteefe",
@@ -19869,10 +19900,10 @@
       "count": 86
     },
     "Gibson": {
-      "avgPrice": 7244,
+      "avgPrice": 7209,
       "retailEst": 800,
-      "avgDiscount": -805.5,
-      "count": 154
+      "avgDiscount": -801.1,
+      "count": 155
     },
     "Epiphone": {
       "avgPrice": 1897,
@@ -21974,15 +22005,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1169,
+      "total": 1170,
       "sold": 330,
       "fake": 0,
-      "live": 316,
+      "live": 317,
       "removed": 523,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 157,
+        "sold": 40,
+        "fake": 0,
+        "live": 37,
+        "removed": 80,
+        "soldPct": 25,
+        "livePct": 24
+      },
       "Framus": {
         "total": 4,
         "sold": 3,
@@ -22036,15 +22076,6 @@
         "removed": 9,
         "soldPct": 20,
         "livePct": 44
-      },
-      "Gibson": {
-        "total": 156,
-        "sold": 40,
-        "fake": 0,
-        "live": 36,
-        "removed": 80,
-        "soldPct": 26,
-        "livePct": 23
       },
       "First Act": {
         "total": 5,
@@ -23736,7 +23767,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 352,
+        "total": 353,
         "sold": 102,
         "rate": 29
       },
@@ -23766,6 +23797,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 159,
+        "sold": 49,
+        "rate": 31
+      },
       "Mint": {
         "total": 15,
         "sold": 2,
@@ -23785,11 +23821,6 @@
         "total": 44,
         "sold": 7,
         "rate": 16
-      },
-      "Very Good": {
-        "total": 158,
-        "sold": 49,
-        "rate": 31
       },
       "Good": {
         "total": 75,
@@ -23904,6 +23935,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 117,
+      "sum": 780379.9199999999,
+      "avg": 6670,
+      "min": 135,
+      "max": 443302,
+      "sold": 27,
+      "soldSum": 72628.97,
+      "soldAvg": 2690,
+      "live": 30,
+      "removed": 60,
+      "sellRate": 23,
+      "totalDays": 860.1,
+      "soldCount": 27,
+      "avgDaysToSell": 31.9
+    },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
       "brandLine": "Music Man USA",
@@ -23960,25 +24010,6 @@
       "totalDays": 168.4,
       "soldCount": 5,
       "avgDaysToSell": 33.7
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 116,
-      "sum": 778589.9199999999,
-      "avg": 6712,
-      "min": 135,
-      "max": 443302,
-      "sold": 27,
-      "soldSum": 72628.97,
-      "soldAvg": 2690,
-      "live": 29,
-      "removed": 60,
-      "sellRate": 23,
-      "totalDays": 860.1,
-      "soldCount": 27,
-      "avgDaysToSell": 31.9
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -25783,9 +25814,9 @@
     },
     {
       "label": "1–5",
-      "total": 29,
+      "total": 30,
       "sold": 12,
-      "rate": 41
+      "rate": 40
     },
     {
       "label": "6–15",
@@ -25808,9 +25839,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 333,
+      "total": 334,
       "sold": 105,
-      "rate": 32
+      "rate": 31
     },
     "off": {
       "total": 127,
@@ -25820,7 +25851,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 234,
+      "total": 235,
       "sold": 54,
       "rate": 23
     },
@@ -25982,6 +26013,12 @@
       "rate": 40
     },
     {
+      "state": "OK",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "VA",
       "total": 4,
       "sold": 1,
@@ -26016,12 +26053,6 @@
       "total": 3,
       "sold": 0,
       "rate": 0
-    },
-    {
-      "state": "OK",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
     },
     {
       "state": "AB",
