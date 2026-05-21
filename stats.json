@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-21T21:12:18.440Z",
-  "totalLinks": 1246,
-  "totalEver": 1319,
-  "totalBeforeFilter": 1319,
+  "generatedAt": "2026-05-21T21:27:09.815Z",
+  "totalLinks": 1247,
+  "totalEver": 1320,
+  "totalBeforeFilter": 1320,
   "fakeCount": 7,
   "removedCount": 545,
-  "totalWithPrice": 1229,
+  "totalWithPrice": 1230,
   "overall": {
-    "count": 1193,
-    "sum": 3268259.81,
-    "avg": 2740,
+    "count": 1194,
+    "sum": 3270446.81,
+    "avg": 2739,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1193,
-    "sum": 3268259.81,
-    "avg": 2740,
+    "count": 1194,
+    "sum": 3270446.81,
+    "avg": 2739,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
     "thresholdHigh": 11275,
@@ -284,11 +284,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 288,
-      "sum": 728216.64,
+      "count": 289,
+      "sum": 730403.64,
       "min": 39.81,
       "max": 10350,
-      "avg": 2529
+      "avg": 2527
     },
     "2026-04": {
       "count": 778,
@@ -307,8 +307,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1037,
-      "sum": 2830021.31,
+      "count": 1038,
+      "sum": 2832208.31,
       "min": 7,
       "max": 11053,
       "avg": 2729
@@ -330,8 +330,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1037,
-      "sum": 2830021.31,
+      "count": 1038,
+      "sum": 2832208.31,
       "min": 7,
       "max": 11053,
       "avg": 2729
@@ -569,6 +569,46 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-traditional-evertune": {
+      "displayName": "Gibson Les Paul Traditional 2013 - Honeyburst w/ Evertune + Bare Knuckles Black Dog & The Mule pickups",
+      "brand": "Gibson",
+      "model": "Les Paul Traditional",
+      "variant": "Evertune",
+      "count": 2,
+      "sum": 4374,
+      "min": 2187,
+      "max": 2187,
+      "sightings": [
+        {
+          "price": 2187,
+          "date": "2026-05-10T20:43:13.851+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Traditional 2013 - Honeyburst with Evertune bridge and Bare Knuckles pickups",
+          "url": "https://reverb.com/item/96948378-gibson-les-paul-traditional-2013-honeyburst-with-evertune-bridge-and-bare-knuckles-pickups",
+          "condition": "Very Good"
+        },
+        {
+          "price": 2187,
+          "date": "2026-05-21T21:26:54.006+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Traditional 2013 - Honeyburst w/ Evertune + Bare Knuckles Black Dog & The Mule pickups",
+          "url": "https://reverb.com/item/96948378-gibson-les-paul-traditional-2013-honeyburst-w-evertune-bare-knuckles-black-dog-the-mule-pickups",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 2,
+          "sum": 4374,
+          "min": 2187,
+          "max": 2187,
+          "avg": 2187
+        }
+      },
+      "avg": 2187
+    },
     "bc-rich-warlock-extreme-exotic-spalted": {
       "displayName": "B.C. Rich Warlock Extreme Exotic FR - Spalted Maple - 6-String Electric Guitar",
       "brand": "BC Rich",
@@ -3554,46 +3594,6 @@
       },
       "avg": 4250
     },
-    "prs-mccarty-1994": {
-      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-      "brand": "PRS",
-      "model": "McCarty 1994",
-      "variant": null,
-      "count": 2,
-      "sum": 4051,
-      "min": 1951,
-      "max": 2100,
-      "sightings": [
-        {
-          "price": 2100,
-          "date": "2026-04-30T17:51:13.017+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - Black",
-          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
-          "condition": "Good"
-        },
-        {
-          "price": 1951,
-          "date": "2026-05-15T22:16:46.499+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 2,
-          "sum": 4051,
-          "min": 1951,
-          "max": 2100,
-          "avg": 2026
-        }
-      },
-      "avg": 2026
-    },
     "prs-mccarty-594-usa": {
       "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
       "brand": "PRS",
@@ -3639,6 +3639,46 @@
         ]
       },
       "avg": 2450
+    },
+    "prs-mccarty-1994": {
+      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+      "brand": "PRS",
+      "model": "McCarty 1994",
+      "variant": null,
+      "count": 2,
+      "sum": 4051,
+      "min": 1951,
+      "max": 2100,
+      "sightings": [
+        {
+          "price": 2100,
+          "date": "2026-04-30T17:51:13.017+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - Black",
+          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
+          "condition": "Good"
+        },
+        {
+          "price": 1951,
+          "date": "2026-05-15T22:16:46.499+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 4051,
+          "min": 1951,
+          "max": 2100,
+          "avg": 2026
+        }
+      },
+      "avg": 2026
     },
     "original": {
       "displayName": "The Beatles Rare Finds Combo “White Album & Butcher Album 1968-79 | Original “Unplayed” | Stage 3 “Peeled - Butcher” | Original “Embossed” White Album”",
@@ -6317,37 +6357,6 @@
         }
       },
       "avg": 1216
-    },
-    "gibson-les-paul-traditional-evertune": {
-      "displayName": "Gibson Les Paul Traditional 2013 - Honeyburst with Evertune bridge and Bare Knuckles pickups",
-      "brand": "Gibson",
-      "model": "Les Paul Traditional",
-      "variant": "Evertune",
-      "count": 1,
-      "sum": 2187,
-      "min": 2187,
-      "max": 2187,
-      "sightings": [
-        {
-          "price": 2187,
-          "date": "2026-05-10T20:43:13.851+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Les Paul Traditional 2013 - Honeyburst with Evertune bridge and Bare Knuckles pickups",
-          "url": "https://reverb.com/item/96948378-gibson-les-paul-traditional-2013-honeyburst-with-evertune-bridge-and-bare-knuckles-pickups",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 2187,
-          "min": 2187,
-          "max": 2187,
-          "avg": 2187
-        }
-      },
-      "avg": 2187
     },
     "gibson-sg": {
       "displayName": "Used 1972 Gibson SG Deluxe Cherry Solid Body Electric Guitar Cherry",
@@ -19467,6 +19476,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 167,
+      "sum": 482839.55999999994,
+      "sold": {
+        "count": 50,
+        "sum": 112707.79000000001,
+        "avg": 2254,
+        "min": 100,
+        "max": 10800
+      },
+      "avg": 2891,
+      "min": 33,
+      "max": 32500
+    },
     "Excellent": {
       "count": 229,
       "sum": 809855.73,
@@ -19480,20 +19503,6 @@
       "avg": 3536,
       "min": 65,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 166,
-      "sum": 480652.55999999994,
-      "sold": {
-        "count": 50,
-        "sum": 112707.79000000001,
-        "avg": 2254,
-        "min": 100,
-        "max": 10800
-      },
-      "avg": 2895,
-      "min": 33,
-      "max": 32500
     },
     "Mint": {
       "count": 16,
@@ -19602,9 +19611,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2529,
-      "median": 1987,
-      "count": 288
+      "avg": 2527,
+      "median": 1999,
+      "count": 289
     },
     "04": {
       "name": "Apr",
@@ -19765,7 +19774,7 @@
     "0-500": 84,
     "500-1k": 98,
     "1k-2k": 360,
-    "2k-3k": 255,
+    "2k-3k": 256,
     "3k-5k": 252,
     "5k-10k": 132,
     "10k+": 48
@@ -19774,12 +19783,17 @@
     "0-500": 84,
     "500-1k": 98,
     "1k-2k": 360,
-    "2k-3k": 255,
+    "2k-3k": 256,
     "3k-5k": 252,
     "5k-10k": 132,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5530,
+      "count": 155,
+      "avg": 36
+    },
     "BC Rich": {
       "sum": 2613,
       "count": 78,
@@ -19835,11 +19849,6 @@
       "count": 16,
       "avg": 39
     },
-    "Gibson": {
-      "sum": 5519,
-      "count": 154,
-      "avg": 36
-    },
     "Arcane": {
       "sum": 98,
       "count": 4,
@@ -19891,7 +19900,7 @@
       "avg": 38
     },
     "ESP": {
-      "sum": 909,
+      "sum": 910,
       "count": 25,
       "avg": 36
     },
@@ -20642,7 +20651,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-21": 15,
+    "2026-05-21": 16,
     "2026-05-20": 17,
     "2026-05-19": 12,
     "2026-05-18": 6,
@@ -20675,7 +20684,7 @@
     "2026-04-21": 3
   },
   "categoryDistribution": {
-    "reverb": 1063,
+    "reverb": 1064,
     "marketplace": 68,
     "other": 115
   },
@@ -20711,7 +20720,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 38
+      "count": 39
     },
     {
       "username": "jazee_",
@@ -20773,10 +20782,10 @@
       "count": 89
     },
     "Gibson": {
-      "avgPrice": 7128,
+      "avgPrice": 7097,
       "retailEst": 800,
-      "avgDiscount": -791,
-      "count": 157
+      "avgDiscount": -787.1,
+      "count": 158
     },
     "Epiphone": {
       "avgPrice": 1897,
@@ -22663,11 +22672,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 2504.9881184498486,
-      "count": 151,
+      "totalPctDrop": 2517.4030163273014,
+      "count": 152,
       "avgPctDrop": 16.6
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 191.1984827571367,
+        "count": 16,
+        "avgPctDrop": 11.9
+      },
       "Kiesel": {
         "totalPctDrop": 138.60678503618462,
         "count": 8,
@@ -22717,11 +22731,6 @@
         "totalPctDrop": 72.55221728625985,
         "count": 5,
         "avgPctDrop": 14.5
-      },
-      "Gibson": {
-        "totalPctDrop": 178.78358487968376,
-        "count": 15,
-        "avgPctDrop": 11.9
       },
       "Suhr": {
         "totalPctDrop": 4.001600640256102,
@@ -22972,15 +22981,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1193,
+      "total": 1194,
       "sold": 339,
       "fake": 0,
-      "live": 327,
+      "live": 328,
       "removed": 527,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 160,
+        "sold": 41,
+        "fake": 0,
+        "live": 39,
+        "removed": 80,
+        "soldPct": 26,
+        "livePct": 24
+      },
       "BC Rich": {
         "total": 82,
         "sold": 21,
@@ -23088,15 +23106,6 @@
         "removed": 9,
         "soldPct": 19,
         "livePct": 25
-      },
-      "Gibson": {
-        "total": 159,
-        "sold": 41,
-        "fake": 0,
-        "live": 38,
-        "removed": 80,
-        "soldPct": 26,
-        "livePct": 24
       },
       "Arcane": {
         "total": 5,
@@ -24740,7 +24749,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 255,
+        "total": 256,
         "sold": 89,
         "rate": 35
       },
@@ -24764,15 +24773,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 168,
+        "sold": 50,
+        "rate": 30
+      },
       "Excellent": {
         "total": 229,
         "sold": 78,
         "rate": 34
-      },
-      "Very Good": {
-        "total": 167,
-        "sold": 50,
-        "rate": 30
       },
       "Mint": {
         "total": 16,
@@ -24902,6 +24911,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 120,
+      "sum": 784293.9099999999,
+      "avg": 6536,
+      "min": 59.99,
+      "max": 443302,
+      "sold": 28,
+      "soldSum": 72688.95999999999,
+      "soldAvg": 2596,
+      "live": 32,
+      "removed": 60,
+      "sellRate": 23,
+      "totalDays": 909.0000000000001,
+      "soldCount": 28,
+      "avgDaysToSell": 32.5
+    },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
       "brandLine": "BC Rich Import",
@@ -24917,9 +24945,9 @@
       "live": 13,
       "removed": 12,
       "sellRate": 19,
-      "totalDays": 184.4,
+      "totalDays": 184.5,
       "soldCount": 6,
-      "avgDaysToSell": 30.7
+      "avgDaysToSell": 30.8
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -24973,7 +25001,7 @@
       "live": 11,
       "removed": 11,
       "sellRate": 48,
-      "totalDays": 983.8999999999999,
+      "totalDays": 984.3,
       "soldCount": 20,
       "avgDaysToSell": 49.2
     },
@@ -25029,7 +25057,7 @@
       "live": 3,
       "removed": 0,
       "sellRate": 63,
-      "totalDays": 194.49999999999997,
+      "totalDays": 194.6,
       "soldCount": 5,
       "avgDaysToSell": 38.9
     },
@@ -25104,28 +25132,9 @@
       "live": 4,
       "removed": 9,
       "sellRate": 19,
-      "totalDays": 131.3,
+      "totalDays": 131.4,
       "soldCount": 3,
       "avgDaysToSell": 43.8
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 119,
-      "sum": 782106.9099999999,
-      "avg": 6572,
-      "min": 59.99,
-      "max": 443302,
-      "sold": 28,
-      "soldSum": 72688.95999999999,
-      "soldAvg": 2596,
-      "live": 31,
-      "removed": 60,
-      "sellRate": 24,
-      "totalDays": 908.7,
-      "soldCount": 28,
-      "avgDaysToSell": 32.5
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -25142,7 +25151,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 55,
-      "totalDays": 380.80000000000007,
+      "totalDays": 381,
       "soldCount": 11,
       "avgDaysToSell": 34.6
     },
@@ -25161,9 +25170,9 @@
       "live": 14,
       "removed": 41,
       "sellRate": 35,
-      "totalDays": 1094.5,
+      "totalDays": 1095.2,
       "soldCount": 29,
-      "avgDaysToSell": 37.7
+      "avgDaysToSell": 37.8
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -25199,9 +25208,9 @@
       "live": 7,
       "removed": 8,
       "sellRate": 35,
-      "totalDays": 317.99999999999994,
+      "totalDays": 318.09999999999997,
       "soldCount": 8,
-      "avgDaysToSell": 39.7
+      "avgDaysToSell": 39.8
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -25237,7 +25246,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 35,
-      "totalDays": 255.89999999999998,
+      "totalDays": 256,
       "soldCount": 7,
       "avgDaysToSell": 36.6
     },
@@ -25331,9 +25340,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 117.29999999999998,
+      "totalDays": 117.4,
       "soldCount": 4,
-      "avgDaysToSell": 29.3
+      "avgDaysToSell": 29.4
     },
     "Collings|Collings": {
       "brand": "Collings",
@@ -25350,7 +25359,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 159.3,
+      "totalDays": 159.39999999999998,
       "soldCount": 4,
       "avgDaysToSell": 39.8
     },
@@ -25387,7 +25396,7 @@
       "live": 6,
       "removed": 12,
       "sellRate": 28,
-      "totalDays": 462.5,
+      "totalDays": 462.6,
       "soldCount": 7,
       "avgDaysToSell": 66.1
     },
@@ -25424,7 +25433,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 36,
-      "totalDays": 204,
+      "totalDays": 204.1,
       "soldCount": 4,
       "avgDaysToSell": 51
     },
@@ -25665,7 +25674,7 @@
       "live": 3,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 546.1,
+      "totalDays": 546.2,
       "soldCount": 13,
       "avgDaysToSell": 42
     },
@@ -25740,9 +25749,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 44,
-      "totalDays": 156.9,
+      "totalDays": 157.2,
       "soldCount": 4,
-      "avgDaysToSell": 39.2
+      "avgDaysToSell": 39.3
     },
     "Ibanez|Ibanez GIO": {
       "brand": "Ibanez",
@@ -25777,9 +25786,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 62.2,
+      "totalDays": 62.3,
       "soldCount": 1,
-      "avgDaysToSell": 62.2
+      "avgDaysToSell": 62.3
     },
     "Taylor|Taylor Baby": {
       "brand": "Taylor",
@@ -25871,7 +25880,7 @@
       "live": 2,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 222,
+      "totalDays": 222.1,
       "soldCount": 6,
       "avgDaysToSell": 37
     },
@@ -26075,7 +26084,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 139.8,
+      "totalDays": 139.9,
       "soldCount": 4,
       "avgDaysToSell": 35
     },
@@ -26113,7 +26122,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 56.3,
+      "totalDays": 56.4,
       "soldCount": 2,
       "avgDaysToSell": 28.2
     },
@@ -26132,9 +26141,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 85.2,
+      "totalDays": 85.30000000000001,
       "soldCount": 2,
-      "avgDaysToSell": 42.6
+      "avgDaysToSell": 42.7
     },
     "Vigier|Vigier": {
       "brand": "Vigier",
@@ -26188,7 +26197,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 149.8,
+      "totalDays": 150,
       "soldCount": 4,
       "avgDaysToSell": 37.5
     },
@@ -26702,9 +26711,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 48.2,
+      "totalDays": 48.3,
       "soldCount": 1,
-      "avgDaysToSell": 48.2
+      "avgDaysToSell": 48.3
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -26763,8 +26772,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 180,
-    "totalOffers": 398,
+    "withOffers": 181,
+    "totalOffers": 399,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 33
   },
@@ -26793,7 +26802,7 @@
     },
     {
       "label": "16–30",
-      "total": 146,
+      "total": 147,
       "sold": 42,
       "rate": 29
     },
@@ -26806,7 +26815,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 349,
+      "total": 350,
       "sold": 107,
       "rate": 31
     },
@@ -26823,7 +26832,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 221,
+      "total": 222,
       "sold": 80,
       "rate": 36
     }
@@ -26980,6 +26989,12 @@
       "rate": 40
     },
     {
+      "state": "AZ",
+      "total": 4,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "OK",
       "total": 4,
       "sold": 1,
@@ -27017,12 +27032,6 @@
     },
     {
       "state": "TOKYO",
-      "total": 3,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "AZ",
       "total": 3,
       "sold": 0,
       "rate": 0
