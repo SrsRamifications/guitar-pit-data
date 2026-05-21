@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-21T20:57:08.549Z",
-  "totalLinks": 1245,
-  "totalEver": 1318,
-  "totalBeforeFilter": 1318,
+  "generatedAt": "2026-05-21T20:57:38.806Z",
+  "totalLinks": 1246,
+  "totalEver": 1319,
+  "totalBeforeFilter": 1319,
   "fakeCount": 7,
   "removedCount": 545,
-  "totalWithPrice": 1228,
+  "totalWithPrice": 1229,
   "overall": {
-    "count": 1192,
-    "sum": 3267259.81,
-    "avg": 2741,
+    "count": 1193,
+    "sum": 3268259.81,
+    "avg": 2740,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1192,
-    "sum": 3267259.81,
-    "avg": 2741,
+    "count": 1193,
+    "sum": 3268259.81,
+    "avg": 2740,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
-    "thresholdHigh": 11443,
+    "thresholdHigh": 11275,
     "thresholdLow": 0,
     "count": 36,
     "items": [
@@ -284,11 +284,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 287,
-      "sum": 727216.64,
+      "count": 288,
+      "sum": 728216.64,
       "min": 39.81,
       "max": 10350,
-      "avg": 2534
+      "avg": 2529
     },
     "2026-04": {
       "count": 778,
@@ -306,19 +306,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 1037,
+      "sum": 2830021.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2729
+    },
     "marketplace": {
       "count": 55,
       "sum": 150406.56,
       "min": 39.81,
       "max": 10495,
       "avg": 2735
-    },
-    "reverb": {
-      "count": 1036,
-      "sum": 2829021.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2731
     },
     "other": {
       "count": 101,
@@ -329,19 +329,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 1037,
+      "sum": 2830021.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2729
+    },
     "musicgoround.com": {
       "count": 4,
       "sum": 6749.95,
       "min": 749.99,
       "max": 2599.99,
       "avg": 1687
-    },
-    "reverb.com": {
-      "count": 1036,
-      "sum": 2829021.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2731
     },
     "musiciansfriend.com": {
       "count": 2,
@@ -569,6 +569,37 @@
     }
   },
   "byModel": {
+    "bc-rich-warlock-extreme-exotic-spalted": {
+      "displayName": "B.C. Rich Warlock Extreme Exotic FR - Spalted Maple - 6-String Electric Guitar",
+      "brand": "BC Rich",
+      "model": "Warlock Extreme Exotic",
+      "variant": "Spalted",
+      "count": 1,
+      "sum": 1000,
+      "min": 1000,
+      "max": 1000,
+      "sightings": [
+        {
+          "price": 1000,
+          "date": "2026-05-21T20:57:25.316+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Warlock Extreme Exotic FR - Spalted Maple - 6-String Electric Guitar",
+          "url": "https://reverb.com/item/97317706-b-c-rich-warlock-extreme-exotic-fr-spalted-maple-6-string-electric-guitar",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1000,
+          "min": 1000,
+          "max": 1000,
+          "avg": 1000
+        }
+      },
+      "avg": 1000
+    },
     "fender-rr7-mij": {
       "displayName": "Used Fender HEARTSFIELD RR7 MIJ Vintage Double Cutaway Electric Guitar Natural 6-String 41132-S000013501",
       "brand": "Fender",
@@ -19436,6 +19467,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 229,
+      "sum": 809855.73,
+      "sold": {
+        "count": 75,
+        "sum": 233142.44,
+        "avg": 3109,
+        "min": 65,
+        "max": 35900
+      },
+      "avg": 3536,
+      "min": 65,
+      "max": 35900
+    },
     "Very Good": {
       "count": 166,
       "sum": 480652.55999999994,
@@ -19463,20 +19508,6 @@
       "avg": 2237,
       "min": 400,
       "max": 5000
-    },
-    "Excellent": {
-      "count": 228,
-      "sum": 808855.73,
-      "sold": {
-        "count": 75,
-        "sum": 233142.44,
-        "avg": 3109,
-        "min": 65,
-        "max": 35900
-      },
-      "avg": 3548,
-      "min": 65,
-      "max": 35900
     },
     "Good": {
       "count": 77,
@@ -19571,9 +19602,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2534,
-      "median": 1999,
-      "count": 287
+      "avg": 2529,
+      "median": 1987,
+      "count": 288
     },
     "04": {
       "name": "Apr",
@@ -19733,7 +19764,7 @@
   "priceDistribution": {
     "0-500": 84,
     "500-1k": 98,
-    "1k-2k": 359,
+    "1k-2k": 360,
     "2k-3k": 255,
     "3k-5k": 252,
     "5k-10k": 132,
@@ -19742,13 +19773,18 @@
   "priceDistributionFiltered": {
     "0-500": 84,
     "500-1k": 98,
-    "1k-2k": 359,
+    "1k-2k": 360,
     "2k-3k": 255,
     "3k-5k": 252,
     "5k-10k": 132,
     "10k+": 12
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 2613,
+      "count": 78,
+      "avg": 34
+    },
     "Fender": {
       "sum": 2811,
       "count": 83,
@@ -19778,11 +19814,6 @@
       "sum": 321,
       "count": 8,
       "avg": 40
-    },
-    "BC Rich": {
-      "sum": 2612,
-      "count": 77,
-      "avg": 34
     },
     "PRS": {
       "sum": 3713,
@@ -20611,7 +20642,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-21": 14,
+    "2026-05-21": 15,
     "2026-05-20": 17,
     "2026-05-19": 12,
     "2026-05-18": 6,
@@ -20644,11 +20675,11 @@
     "2026-04-21": 3
   },
   "categoryDistribution": {
+    "reverb": 1063,
     "marketplace": 68,
-    "reverb": 1062,
     "other": 115
   },
-  "activeModelsCount": 392,
+  "activeModelsCount": 393,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -20664,7 +20695,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 112
+      "count": 113
     },
     {
       "username": "madero",
@@ -20826,10 +20857,10 @@
       "count": 16
     },
     "BC Rich": {
-      "avgPrice": 3017,
+      "avgPrice": 2992,
       "retailEst": 200,
-      "avgDiscount": -1408.5,
-      "count": 81
+      "avgDiscount": -1396.2,
+      "count": 82
     },
     "Rickenbacker": {
       "avgPrice": 2315,
@@ -22941,15 +22972,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1192,
+      "total": 1193,
       "sold": 339,
       "fake": 0,
-      "live": 326,
+      "live": 327,
       "removed": 527,
       "soldPct": 28,
       "livePct": 27
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 82,
+        "sold": 21,
+        "fake": 0,
+        "live": 31,
+        "removed": 30,
+        "soldPct": 26,
+        "livePct": 38
+      },
       "Fender": {
         "total": 92,
         "sold": 27,
@@ -23012,15 +23052,6 @@
         "removed": 4,
         "soldPct": 33,
         "livePct": 22
-      },
-      "BC Rich": {
-        "total": 81,
-        "sold": 21,
-        "fake": 0,
-        "live": 30,
-        "removed": 30,
-        "soldPct": 26,
-        "livePct": 37
       },
       "PRS": {
         "total": 105,
@@ -24703,7 +24734,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 359,
+        "total": 360,
         "sold": 103,
         "rate": 29
       },
@@ -24733,6 +24764,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 229,
+        "sold": 78,
+        "rate": 34
+      },
       "Very Good": {
         "total": 167,
         "sold": 50,
@@ -24742,11 +24778,6 @@
         "total": 16,
         "sold": 2,
         "rate": 13
-      },
-      "Excellent": {
-        "total": 228,
-        "sold": 78,
-        "rate": 34
       },
       "Good": {
         "total": 77,
@@ -24871,6 +24902,25 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich Import": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich Import",
+      "tier": "budget-mid",
+      "count": 31,
+      "sum": 35785.98,
+      "avg": 1154,
+      "min": 250,
+      "max": 3900,
+      "sold": 6,
+      "soldSum": 4877,
+      "soldAvg": 813,
+      "live": 13,
+      "removed": 12,
+      "sellRate": 19,
+      "totalDays": 184.3,
+      "soldCount": 6,
+      "avgDaysToSell": 30.7
+    },
     "Fender|Fender Japan": {
       "brand": "Fender",
       "brandLine": "Fender Japan",
@@ -25038,25 +25088,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "BC Rich|BC Rich Import": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich Import",
-      "tier": "budget-mid",
-      "count": 30,
-      "sum": 34785.98,
-      "avg": 1160,
-      "min": 250,
-      "max": 3900,
-      "sold": 6,
-      "soldSum": 4877,
-      "soldAvg": 813,
-      "live": 12,
-      "removed": 12,
-      "sellRate": 20,
-      "totalDays": 184.3,
-      "soldCount": 6,
-      "avgDaysToSell": 30.7
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -26739,7 +26770,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 106
+    "avgShippingCost": 107
   },
   "watcherDemand": [
     {
@@ -26762,7 +26793,7 @@
     },
     {
       "label": "16–30",
-      "total": 145,
+      "total": 146,
       "sold": 42,
       "rate": 29
     },
@@ -26775,7 +26806,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 348,
+      "total": 349,
       "sold": 107,
       "rate": 31
     },
@@ -26792,7 +26823,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 220,
+      "total": 221,
       "sold": 80,
       "rate": 36
     }
@@ -26800,9 +26831,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 58,
+      "total": 59,
       "sold": 23,
-      "rate": 40
+      "rate": 39
     },
     {
       "state": "NY",
