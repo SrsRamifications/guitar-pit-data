@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-23T03:18:28.650Z",
-  "totalLinks": 1254,
-  "totalEver": 1330,
-  "totalBeforeFilter": 1330,
+  "generatedAt": "2026-05-23T03:28:06.027Z",
+  "totalLinks": 1255,
+  "totalEver": 1331,
+  "totalBeforeFilter": 1331,
   "fakeCount": 9,
   "removedCount": 548,
-  "totalWithPrice": 1237,
+  "totalWithPrice": 1238,
   "overall": {
-    "count": 1200,
-    "sum": 3304031.79,
-    "avg": 2753,
+    "count": 1201,
+    "sum": 3308831.78,
+    "avg": 2755,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1200,
-    "sum": 3304031.79,
-    "avg": 2753,
+    "count": 1201,
+    "sum": 3308831.78,
+    "avg": 2755,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 295,
-      "sum": 763902.62,
+      "count": 296,
+      "sum": 768702.61,
       "min": 39.81,
       "max": 10350,
-      "avg": 2590
+      "avg": 2597
     },
     "2026-04": {
       "count": 778,
@@ -314,19 +314,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 59,
+      "sum": 171746.53,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2911
+    },
     "reverb": {
       "count": 1041,
       "sum": 2849253.31,
       "min": 7,
       "max": 11053,
       "avg": 2737
-    },
-    "marketplace": {
-      "count": 58,
-      "sum": 166946.54,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2878
     },
     "other": {
       "count": 101,
@@ -337,6 +337,13 @@
     }
   },
   "byDomain": {
+    "tapestrymusic.com": {
+      "count": 3,
+      "sum": 20294.98,
+      "min": 4799.99,
+      "max": 10495,
+      "avg": 6765
+    },
     "reverb.com": {
       "count": 1041,
       "sum": 2849253.31,
@@ -434,13 +441,6 @@
       "min": 4399,
       "max": 4399,
       "avg": 4399
-    },
-    "tapestrymusic.com": {
-      "count": 2,
-      "sum": 15494.99,
-      "min": 4999.99,
-      "max": 10495,
-      "avg": 7747
     },
     "gibson.com": {
       "count": 1,
@@ -4099,46 +4099,6 @@
       },
       "avg": 4250
     },
-    "prs-mccarty-1994": {
-      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-      "brand": "PRS",
-      "model": "McCarty 1994",
-      "variant": null,
-      "count": 2,
-      "sum": 4051,
-      "min": 1951,
-      "max": 2100,
-      "sightings": [
-        {
-          "price": 2100,
-          "date": "2026-04-30T17:51:13.017+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - Black",
-          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
-          "condition": "Good"
-        },
-        {
-          "price": 1951,
-          "date": "2026-05-15T22:16:46.499+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 2,
-          "sum": 4051,
-          "min": 1951,
-          "max": 2100,
-          "avg": 2026
-        }
-      },
-      "avg": 2026
-    },
     "prs-mccarty-594-usa": {
       "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
       "brand": "PRS",
@@ -4184,6 +4144,46 @@
         ]
       },
       "avg": 2450
+    },
+    "prs-mccarty-1994": {
+      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+      "brand": "PRS",
+      "model": "McCarty 1994",
+      "variant": null,
+      "count": 2,
+      "sum": 4051,
+      "min": 1951,
+      "max": 2100,
+      "sightings": [
+        {
+          "price": 2100,
+          "date": "2026-04-30T17:51:13.017+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - Black",
+          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
+          "condition": "Good"
+        },
+        {
+          "price": 1951,
+          "date": "2026-05-15T22:16:46.499+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 4051,
+          "min": 1951,
+          "max": 2100,
+          "avg": 2026
+        }
+      },
+      "avg": 2026
     },
     "original": {
       "displayName": "The Beatles Rare Finds Combo “White Album & Butcher Album 1968-79 | Original “Unplayed” | Stage 3 “Peeled - Butcher” | Original “Embossed” White Album”",
@@ -19947,9 +19947,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2590,
+      "avg": 2597,
       "median": 2000,
-      "count": 295
+      "count": 296
     },
     "04": {
       "name": "Apr",
@@ -20111,7 +20111,7 @@
     "500-1k": 98,
     "1k-2k": 362,
     "2k-3k": 258,
-    "3k-5k": 252,
+    "3k-5k": 253,
     "5k-10k": 135,
     "10k+": 49
   },
@@ -20120,33 +20120,33 @@
     "500-1k": 98,
     "1k-2k": 362,
     "2k-3k": 258,
-    "3k-5k": 252,
+    "3k-5k": 253,
     "5k-10k": 135,
     "10k+": 12
   },
   "daysOnMarket": {
     "Gibson": {
-      "sum": 5702,
+      "sum": 5703,
       "count": 156,
       "avg": 37
     },
     "PRS": {
-      "sum": 3827,
+      "sum": 3829,
       "count": 105,
       "avg": 36
     },
     "Ibanez": {
-      "sum": 1859,
+      "sum": 1861,
       "count": 54,
       "avg": 34
     },
     "Fender": {
-      "sum": 2891,
+      "sum": 2892,
       "count": 83,
       "avg": 35
     },
     "BC Rich": {
-      "sum": 2704,
+      "sum": 2708,
       "count": 78,
       "avg": 35
     },
@@ -20176,17 +20176,17 @@
       "avg": 41
     },
     "Charvel": {
-      "sum": 464,
+      "sum": 465,
       "count": 13,
       "avg": 36
     },
     "Vintage": {
-      "sum": 889,
+      "sum": 890,
       "count": 28,
       "avg": 32
     },
     "Eastman": {
-      "sum": 640,
+      "sum": 641,
       "count": 16,
       "avg": 40
     },
@@ -20211,9 +20211,9 @@
       "avg": 46
     },
     "Music Man": {
-      "sum": 827,
+      "sum": 828,
       "count": 24,
-      "avg": 34
+      "avg": 35
     },
     "Xotic": {
       "sum": 104,
@@ -20226,7 +20226,7 @@
       "avg": 29
     },
     "Yamaha": {
-      "sum": 834,
+      "sum": 835,
       "count": 22,
       "avg": 38
     },
@@ -20236,7 +20236,7 @@
       "avg": 39
     },
     "ESP": {
-      "sum": 939,
+      "sum": 940,
       "count": 25,
       "avg": 38
     },
@@ -20471,7 +20471,7 @@
       "avg": 27
     },
     "Frank": {
-      "sum": 114,
+      "sum": 115,
       "count": 3,
       "avg": 38
     },
@@ -20606,7 +20606,7 @@
       "avg": 41
     },
     "Rickenbacker": {
-      "sum": 921,
+      "sum": 922,
       "count": 24,
       "avg": 38
     },
@@ -20731,7 +20731,7 @@
       "avg": 38
     },
     "FGN": {
-      "sum": 267,
+      "sum": 268,
       "count": 6,
       "avg": 45
     },
@@ -20881,9 +20881,9 @@
       "avg": 49
     },
     "Bogner": {
-      "sum": 49,
+      "sum": 50,
       "count": 1,
-      "avg": 49
+      "avg": 50
     },
     "Nik Huber": {
       "sum": 50,
@@ -20901,9 +20901,9 @@
       "avg": 50
     },
     "Obstructures": {
-      "sum": 50,
+      "sum": 51,
       "count": 1,
-      "avg": 50
+      "avg": 51
     },
     "Mojotone": {
       "sum": 51,
@@ -20946,9 +20946,9 @@
       "avg": 55
     },
     "Languedoc": {
-      "sum": 55,
+      "sum": 56,
       "count": 1,
-      "avg": 55
+      "avg": 56
     },
     "Fender Custom Shop": {
       "sum": 112,
@@ -20987,7 +20987,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-23": 2,
+    "2026-05-23": 3,
     "2026-05-22": 5,
     "2026-05-21": 18,
     "2026-05-20": 16,
@@ -21020,8 +21020,8 @@
     "2026-04-23": 26
   },
   "categoryDistribution": {
+    "marketplace": 72,
     "reverb": 1068,
-    "marketplace": 71,
     "other": 115
   },
   "activeModelsCount": 398,
@@ -21060,7 +21060,7 @@
     },
     {
       "username": "jazee_",
-      "count": 25
+      "count": 26
     },
     {
       "username": "hibby_",
@@ -25152,9 +25152,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 252,
+        "total": 253,
         "sold": 67,
-        "rate": 27
+        "rate": 26
       },
       {
         "label": "$5k–10k",
@@ -25349,7 +25349,7 @@
       "live": 7,
       "removed": 12,
       "sellRate": 27,
-      "totalDays": 471.1,
+      "totalDays": 471.2,
       "soldCount": 7,
       "avgDaysToSell": 67.3
     },
@@ -25444,7 +25444,7 @@
       "live": 29,
       "removed": 61,
       "sellRate": 25,
-      "totalDays": 967.0000000000001,
+      "totalDays": 967.1000000000001,
       "soldCount": 30,
       "avgDaysToSell": 32.2
     },
@@ -26266,7 +26266,7 @@
       "live": 1,
       "removed": 4,
       "sellRate": 29,
-      "totalDays": 64.3,
+      "totalDays": 64.4,
       "soldCount": 2,
       "avgDaysToSell": 32.2
     },
@@ -26304,7 +26304,7 @@
       "live": 2,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 229.5,
+      "totalDays": 229.59999999999997,
       "soldCount": 6,
       "avgDaysToSell": 38.3
     },
@@ -26452,9 +26452,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 51.2,
+      "totalDays": 51.3,
       "soldCount": 1,
-      "avgDaysToSell": 51.2
+      "avgDaysToSell": 51.3
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -26602,9 +26602,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 154.89999999999998,
+      "totalDays": 155,
       "soldCount": 4,
-      "avgDaysToSell": 38.7
+      "avgDaysToSell": 38.8
     },
     "PRS|PRS SE": {
       "brand": "PRS",
