@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-23T17:21:16.779Z",
-  "totalLinks": 1265,
-  "totalEver": 1346,
-  "totalBeforeFilter": 1346,
+  "generatedAt": "2026-05-23T17:24:04.314Z",
+  "totalLinks": 1266,
+  "totalEver": 1347,
+  "totalBeforeFilter": 1347,
   "fakeCount": 9,
   "removedCount": 550,
-  "totalWithPrice": 1248,
+  "totalWithPrice": 1249,
   "overall": {
-    "count": 1211,
-    "sum": 3328005.77,
-    "avg": 2748,
+    "count": 1212,
+    "sum": 3329854.77,
+    "avg": 2747,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1211,
-    "sum": 3328005.77,
-    "avg": 2748,
+    "count": 1212,
+    "sum": 3329854.77,
+    "avg": 2747,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11455,
+    "thresholdHigh": 11415,
     "thresholdLow": 0,
     "count": 37,
     "items": [
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 306,
-      "sum": 787876.6,
+      "count": 307,
+      "sum": 789725.6,
       "min": 39.81,
       "max": 10350,
-      "avg": 2575
+      "avg": 2572
     },
     "2026-04": {
       "count": 778,
@@ -314,19 +314,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 1049,
+      "sum": 2865232.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2731
+    },
     "marketplace": {
       "count": 62,
       "sum": 176790.52,
       "min": 39.81,
       "max": 10495,
       "avg": 2851
-    },
-    "reverb": {
-      "count": 1048,
-      "sum": 2863383.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2732
     },
     "other": {
       "count": 101,
@@ -337,6 +337,13 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 1049,
+      "sum": 2865232.31,
+      "min": 7,
+      "max": 11053,
+      "avg": 2731
+    },
     "davesguitar.com": {
       "count": 4,
       "sum": 5889,
@@ -350,13 +357,6 @@
       "min": 749.99,
       "max": 2799.99,
       "avg": 1925
-    },
-    "reverb.com": {
-      "count": 1048,
-      "sum": 2863383.31,
-      "min": 7,
-      "max": 11053,
-      "avg": 2732
     },
     "tapestrymusic.com": {
       "count": 3,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "prs-s2-vela-wood-library": {
+      "displayName": "PRS S2 Vela Black Limba Wood Library Electric Guitar - Natural",
+      "brand": "PRS",
+      "model": "S2 Vela",
+      "variant": "Wood Library",
+      "count": 1,
+      "sum": 1849,
+      "min": 1849,
+      "max": 1849,
+      "sightings": [
+        {
+          "price": 1849,
+          "date": "2026-05-23T17:23:44.933+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS S2 Vela Black Limba Wood Library Electric Guitar - Natural",
+          "url": "https://reverb.com/item/97384880-prs-s2-vela-black-limba-wood-library-electric-guitar-natural",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1849,
+          "min": 1849,
+          "max": 1849,
+          "avg": 1849
+        }
+      },
+      "avg": 1849
+    },
     "s2-vela-satin": {
       "displayName": "S2 Vela Satin '25",
       "model": "S2 Vela",
@@ -20068,6 +20099,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 49,
+      "sum": 215026.11000000002,
+      "sold": {
+        "count": 3,
+        "sum": 13746.17,
+        "avg": 4582,
+        "min": 999,
+        "max": 8199
+      },
+      "avg": 4388,
+      "min": 92,
+      "max": 14670
+    },
     "Very Good": {
       "count": 172,
       "sum": 484775.55999999994,
@@ -20081,20 +20126,6 @@
       "avg": 2818,
       "min": 33,
       "max": 27500
-    },
-    "Brand New": {
-      "count": 48,
-      "sum": 213177.11000000002,
-      "sold": {
-        "count": 3,
-        "sum": 13746.17,
-        "avg": 4582,
-        "min": 999,
-        "max": 8199
-      },
-      "avg": 4441,
-      "min": 92,
-      "max": 14670
     },
     "Good": {
       "count": 77,
@@ -20203,9 +20234,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2575,
+      "avg": 2572,
       "median": 1999,
-      "count": 306
+      "count": 307
     },
     "04": {
       "name": "Apr",
@@ -20365,7 +20396,7 @@
   "priceDistribution": {
     "0-500": 83,
     "500-1k": 100,
-    "1k-2k": 367,
+    "1k-2k": 368,
     "2k-3k": 259,
     "3k-5k": 255,
     "5k-10k": 135,
@@ -20374,7 +20405,7 @@
   "priceDistributionFiltered": {
     "0-500": 83,
     "500-1k": 100,
-    "1k-2k": 367,
+    "1k-2k": 368,
     "2k-3k": 259,
     "3k-5k": 255,
     "5k-10k": 135,
@@ -20382,8 +20413,8 @@
   },
   "daysOnMarket": {
     "PRS": {
-      "sum": 3914,
-      "count": 106,
+      "sum": 3915,
+      "count": 107,
       "avg": 37
     },
     "Fender": {
@@ -20807,9 +20838,9 @@
       "avg": 30
     },
     "Fodera": {
-      "sum": 50,
+      "sum": 51,
       "count": 1,
-      "avg": 50
+      "avg": 51
     },
     "Rick Toone": {
       "sum": 82,
@@ -20862,7 +20893,7 @@
       "avg": 42
     },
     "Rickenbacker": {
-      "sum": 940,
+      "sum": 941,
       "count": 24,
       "avg": 39
     },
@@ -20977,9 +21008,9 @@
       "avg": 47
     },
     "Balaguer": {
-      "sum": 38,
+      "sum": 39,
       "count": 1,
-      "avg": 38
+      "avg": 39
     },
     "Teuffel": {
       "sum": 38,
@@ -21243,7 +21274,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-23": 13,
+    "2026-05-23": 14,
     "2026-05-22": 5,
     "2026-05-21": 18,
     "2026-05-20": 16,
@@ -21276,15 +21307,15 @@
     "2026-04-23": 5
   },
   "categoryDistribution": {
+    "reverb": 1076,
     "marketplace": 75,
-    "reverb": 1075,
     "other": 115
   },
-  "activeModelsCount": 394,
+  "activeModelsCount": 395,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 343
+      "count": 344
     },
     {
       "username": "greg1213",
@@ -21392,10 +21423,10 @@
       "count": 26
     },
     "PRS": {
-      "avgPrice": 4312,
+      "avgPrice": 4289,
       "retailEst": 1000,
-      "avgDiscount": -331.2,
-      "count": 108
+      "avgDiscount": -328.9,
+      "count": 109
     },
     "Ibanez": {
       "avgPrice": 3405,
@@ -23634,23 +23665,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1209,
+      "total": 1210,
       "sold": 347,
       "fake": 0,
-      "live": 330,
+      "live": 331,
       "removed": 532,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
       "PRS": {
-        "total": 109,
+        "total": 110,
         "sold": 36,
         "fake": 0,
-        "live": 23,
+        "live": 24,
         "removed": 50,
         "soldPct": 33,
-        "livePct": 21
+        "livePct": 22
       },
       "Fender": {
         "total": 94,
@@ -25396,7 +25427,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 367,
+        "total": 368,
         "sold": 107,
         "rate": 29
       },
@@ -25426,15 +25457,15 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 49,
+        "sold": 7,
+        "rate": 14
+      },
       "Very Good": {
         "total": 173,
         "sold": 53,
         "rate": 31
-      },
-      "Brand New": {
-        "total": 48,
-        "sold": 7,
-        "rate": 15
       },
       "Good": {
         "total": 77,
@@ -25571,6 +25602,25 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 86,
+      "sum": 327408.24,
+      "avg": 3807,
+      "min": 675,
+      "max": 14000,
+      "sold": 31,
+      "soldSum": 99340.10999999999,
+      "soldAvg": 3205,
+      "live": 14,
+      "removed": 41,
+      "sellRate": 36,
+      "totalDays": 1154.7,
+      "soldCount": 31,
+      "avgDaysToSell": 37.2
+    },
     "PRS|PRS S2": {
       "brand": "PRS",
       "brandLine": "PRS S2",
@@ -25605,7 +25655,7 @@
       "live": 13,
       "removed": 25,
       "sellRate": 31,
-      "totalDays": 662.8,
+      "totalDays": 662.9,
       "soldCount": 17,
       "avgDaysToSell": 39
     },
@@ -25681,7 +25731,7 @@
       "live": 4,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 568.2,
+      "totalDays": 568.3000000000001,
       "soldCount": 13,
       "avgDaysToSell": 43.7
     },
@@ -25723,25 +25773,6 @@
       "soldCount": 2,
       "avgDaysToSell": 40.2
     },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 85,
-      "sum": 325559.24,
-      "avg": 3830,
-      "min": 675,
-      "max": 14000,
-      "sold": 31,
-      "soldSum": 99340.10999999999,
-      "soldAvg": 3205,
-      "live": 13,
-      "removed": 41,
-      "sellRate": 36,
-      "totalDays": 1154.7,
-      "soldCount": 31,
-      "avgDaysToSell": 37.2
-    },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
@@ -25776,9 +25807,9 @@
       "live": 7,
       "removed": 7,
       "sellRate": 33,
-      "totalDays": 269.1,
+      "totalDays": 269.2,
       "soldCount": 7,
-      "avgDaysToSell": 38.4
+      "avgDaysToSell": 38.5
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -25795,7 +25826,7 @@
       "live": 29,
       "removed": 61,
       "sellRate": 25,
-      "totalDays": 984.4000000000001,
+      "totalDays": 984.5000000000001,
       "soldCount": 30,
       "avgDaysToSell": 32.8
     },
@@ -25964,7 +25995,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 55,
-      "totalDays": 401.2,
+      "totalDays": 401.3,
       "soldCount": 11,
       "avgDaysToSell": 36.5
     },
@@ -26560,7 +26591,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 116.00000000000001,
+      "totalDays": 116.2,
       "soldCount": 3,
       "avgDaysToSell": 38.7
     },
@@ -26858,7 +26889,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 157.20000000000002,
+      "totalDays": 157.3,
       "soldCount": 4,
       "avgDaysToSell": 39.3
     },
@@ -27457,7 +27488,7 @@
     },
     {
       "label": "6–15",
-      "total": 108,
+      "total": 109,
       "sold": 27,
       "rate": 25
     },
@@ -27481,14 +27512,14 @@
       "rate": 31
     },
     "off": {
-      "total": 140,
+      "total": 141,
       "sold": 40,
-      "rate": 29
+      "rate": 28
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 255,
+      "total": 256,
       "sold": 57,
       "rate": 22
     },
@@ -27614,6 +27645,12 @@
       "rate": 0
     },
     {
+      "state": "MI",
+      "total": 6,
+      "sold": 2,
+      "rate": 33
+    },
+    {
       "state": "SC",
       "total": 6,
       "sold": 2,
@@ -27648,12 +27685,6 @@
       "total": 5,
       "sold": 1,
       "rate": 20
-    },
-    {
-      "state": "MI",
-      "total": 5,
-      "sold": 2,
-      "rate": 40
     },
     {
       "state": "KS",
