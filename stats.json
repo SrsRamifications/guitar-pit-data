@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-05-23T17:03:38.964Z",
-  "totalLinks": 1262,
-  "totalEver": 1342,
-  "totalBeforeFilter": 1342,
+  "generatedAt": "2026-05-23T17:08:41.624Z",
+  "totalLinks": 1263,
+  "totalEver": 1343,
+  "totalBeforeFilter": 1343,
   "fakeCount": 9,
   "removedCount": 550,
-  "totalWithPrice": 1245,
+  "totalWithPrice": 1246,
   "overall": {
-    "count": 1208,
-    "sum": 3322961.78,
-    "avg": 2751,
+    "count": 1209,
+    "sum": 3324961.77,
+    "avg": 2750,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1208,
-    "sum": 3322961.78,
-    "avg": 2751,
+    "count": 1209,
+    "sum": 3324961.77,
+    "avg": 2750,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 303,
-      "sum": 782832.61,
+      "count": 304,
+      "sum": 784832.6,
       "min": 39.81,
       "max": 10350,
-      "avg": 2584
+      "avg": 2582
     },
     "2026-04": {
       "count": 778,
@@ -314,19 +314,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 60,
+      "sum": 173746.52,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2896
+    },
     "reverb": {
       "count": 1048,
       "sum": 2863383.31,
       "min": 7,
       "max": 11053,
       "avg": 2732
-    },
-    "marketplace": {
-      "count": 59,
-      "sum": 171746.53,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2911
     },
     "other": {
       "count": 101,
@@ -337,6 +337,13 @@
     }
   },
   "byDomain": {
+    "musicgoround.com": {
+      "count": 6,
+      "sum": 11549.93,
+      "min": 749.99,
+      "max": 2799.99,
+      "avg": 1925
+    },
     "reverb.com": {
       "count": 1048,
       "sum": 2863383.31,
@@ -357,13 +364,6 @@
       "min": 9900,
       "max": 9900,
       "avg": 9900
-    },
-    "musicgoround.com": {
-      "count": 5,
-      "sum": 9549.94,
-      "min": 749.99,
-      "max": 2799.99,
-      "avg": 1910
     },
     "guitarcenter.com": {
       "count": 63,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "fender-stratocaster-custom-shop-contemporary": {
+      "displayName": "Used Fender STRATOCASTER CUSTOM SHOP CONTEMPORARY S Type Electric Guitar Black 6-String 40111-S000182274",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": "Custom Shop Contemporary",
+      "count": 1,
+      "sum": 1999.99,
+      "min": 1999.99,
+      "max": 1999.99,
+      "sightings": [
+        {
+          "price": 1999.99,
+          "date": "2026-05-23T17:08:19.022+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Fender STRATOCASTER CUSTOM SHOP CONTEMPORARY S Type Electric Guitar Black 6-String 40111-S000182274",
+          "url": "https://musicgoround.com/locations/roseville-mn/product/S000182274/Fender-STRATOCATER-CUSTOM-SHOP-CONTEMPOR",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 1999.99,
+          "min": 1999.99,
+          "max": 1999.99,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "epiphone-1970s-wilshire-matsumoku": {
       "displayName": "1970s Epiphone Wilshire Natural Matsumoku Japan Vintage Hard Case",
       "brand": "Epiphone",
@@ -20111,9 +20142,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2584,
+      "avg": 2582,
       "median": 2000,
-      "count": 303
+      "count": 304
     },
     "04": {
       "name": "Apr",
@@ -20273,7 +20304,7 @@
   "priceDistribution": {
     "0-500": 83,
     "500-1k": 100,
-    "1k-2k": 364,
+    "1k-2k": 365,
     "2k-3k": 259,
     "3k-5k": 255,
     "5k-10k": 135,
@@ -20282,13 +20313,18 @@
   "priceDistributionFiltered": {
     "0-500": 83,
     "500-1k": 100,
-    "1k-2k": 364,
+    "1k-2k": 365,
     "2k-3k": 259,
     "3k-5k": 255,
     "5k-10k": 135,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 2972,
+      "count": 85,
+      "avg": 35
+    },
     "Epiphone": {
       "sum": 380,
       "count": 9,
@@ -20298,11 +20334,6 @@
       "sum": 1496,
       "count": 42,
       "avg": 36
-    },
-    "Fender": {
-      "sum": 2972,
-      "count": 84,
-      "avg": 35
     },
     "Gibson": {
       "sum": 5829,
@@ -20315,7 +20346,7 @@
       "avg": 37
     },
     "Ibanez": {
-      "sum": 1904,
+      "sum": 1905,
       "count": 54,
       "avg": 35
     },
@@ -21040,9 +21071,9 @@
       "avg": 48
     },
     "Kauer": {
-      "sum": 49,
+      "sum": 50,
       "count": 1,
-      "avg": 49
+      "avg": 50
     },
     "Bogner": {
       "sum": 50,
@@ -21151,7 +21182,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-23": 10,
+    "2026-05-23": 11,
     "2026-05-22": 5,
     "2026-05-21": 18,
     "2026-05-20": 16,
@@ -21184,11 +21215,11 @@
     "2026-04-23": 5
   },
   "categoryDistribution": {
+    "marketplace": 73,
     "reverb": 1075,
-    "marketplace": 72,
     "other": 115
   },
-  "activeModelsCount": 391,
+  "activeModelsCount": 392,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -21200,7 +21231,7 @@
     },
     {
       "username": "shteefe",
-      "count": 125
+      "count": 126
     },
     {
       "username": "YellowJack6",
@@ -21276,10 +21307,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5653,
+      "avgPrice": 5613,
       "retailEst": 800,
-      "avgDiscount": -606.7,
-      "count": 90
+      "avgDiscount": -601.7,
+      "count": 91
     },
     "Gibson": {
       "avgPrice": 7113,
@@ -23542,15 +23573,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1207,
+      "total": 1208,
       "sold": 347,
       "fake": 0,
-      "live": 328,
+      "live": 329,
       "removed": 532,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Fender": {
+        "total": 94,
+        "sold": 28,
+        "fake": 0,
+        "live": 26,
+        "removed": 40,
+        "soldPct": 30,
+        "livePct": 28
+      },
       "Epiphone": {
         "total": 12,
         "sold": 4,
@@ -23568,15 +23608,6 @@
         "removed": 12,
         "soldPct": 44,
         "livePct": 31
-      },
-      "Fender": {
-        "total": 93,
-        "sold": 28,
-        "fake": 0,
-        "live": 25,
-        "removed": 40,
-        "soldPct": 30,
-        "livePct": 27
       },
       "Echopark": {
         "total": 28,
@@ -25304,7 +25335,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 364,
+        "total": 365,
         "sold": 107,
         "rate": 29
       },
@@ -25479,6 +25510,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 55,
+      "sum": 445847.95999999996,
+      "avg": 8106,
+      "min": 425,
+      "max": 51500,
+      "sold": 17,
+      "soldSum": 114508,
+      "soldAvg": 6736,
+      "live": 13,
+      "removed": 25,
+      "sellRate": 31,
+      "totalDays": 662.8,
+      "soldCount": 17,
+      "avgDaysToSell": 39
+    },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
       "brandLine": "Epiphone",
@@ -25513,28 +25563,9 @@
       "live": 14,
       "removed": 11,
       "sellRate": 44,
-      "totalDays": 1020.7000000000002,
+      "totalDays": 1020.8000000000002,
       "soldCount": 20,
       "avgDaysToSell": 51
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 54,
-      "sum": 443847.97,
-      "avg": 8219,
-      "min": 425,
-      "max": 51500,
-      "sold": 17,
-      "soldSum": 114508,
-      "soldAvg": 6736,
-      "live": 12,
-      "removed": 25,
-      "sellRate": 31,
-      "totalDays": 662.8,
-      "soldCount": 17,
-      "avgDaysToSell": 39
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -25589,7 +25620,7 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 475.20000000000005,
+      "totalDays": 475.29999999999995,
       "soldCount": 7,
       "avgDaysToSell": 67.9
     },
@@ -25646,9 +25677,9 @@
       "live": 7,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 340.6,
+      "totalDays": 340.70000000000005,
       "soldCount": 9,
-      "avgDaysToSell": 37.8
+      "avgDaysToSell": 37.9
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -25684,7 +25715,7 @@
       "live": 29,
       "removed": 61,
       "sellRate": 25,
-      "totalDays": 984.1,
+      "totalDays": 984.4000000000001,
       "soldCount": 30,
       "avgDaysToSell": 32.8
     },
@@ -26152,9 +26183,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 26,
+      "totalDays": 26.1,
       "soldCount": 1,
-      "avgDaysToSell": 26
+      "avgDaysToSell": 26.1
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
