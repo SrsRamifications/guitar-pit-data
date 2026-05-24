@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-24T18:18:29.018Z",
-  "totalLinks": 1279,
-  "totalEver": 1365,
-  "totalBeforeFilter": 1365,
+  "generatedAt": "2026-05-24T18:31:37.312Z",
+  "totalLinks": 1280,
+  "totalEver": 1366,
+  "totalBeforeFilter": 1366,
   "fakeCount": 9,
   "removedCount": 554,
-  "totalWithPrice": 1262,
+  "totalWithPrice": 1263,
   "overall": {
-    "count": 1225,
-    "sum": 3368100.76,
+    "count": 1226,
+    "sum": 3370100.75,
     "avg": 2749,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1225,
-    "sum": 3368100.76,
+    "count": 1226,
+    "sum": 3370100.75,
     "avg": 2749,
     "min": 3,
     "max": 11099,
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 320,
-      "sum": 828094.59,
+      "count": 321,
+      "sum": 830094.58,
       "min": 39.81,
       "max": 10350,
-      "avg": 2588
+      "avg": 2586
     },
     "2026-04": {
       "count": 778,
@@ -315,11 +315,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 63,
-      "sum": 177790.51,
+      "count": 64,
+      "sum": 179790.5,
       "min": 39.81,
       "max": 10495,
-      "avg": 2822
+      "avg": 2809
     },
     "reverb": {
       "count": 1061,
@@ -337,6 +337,13 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 64,
+      "sum": 123511.41,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1930
+    },
     "musicgoround.com": {
       "count": 7,
       "sum": 12549.92,
@@ -371,13 +378,6 @@
       "min": 9900,
       "max": 9900,
       "avg": 9900
-    },
-    "guitarcenter.com": {
-      "count": 63,
-      "sum": 121511.42,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1929
     },
     "musiciansfriend.com": {
       "count": 2,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "marshall-silver-jubilee": {
+      "displayName": "Marshall 2555X Silver Jubilee 100W Tube Guitar Head",
+      "brand": "Marshall",
+      "model": "Silver Jubilee",
+      "variant": null,
+      "count": 1,
+      "sum": 1999.99,
+      "min": 1999.99,
+      "max": 1999.99,
+      "sightings": [
+        {
+          "price": 1999.99,
+          "date": "2026-05-24T18:31:19.219+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Marshall 2555X Silver Jubilee 100W Tube Guitar Head",
+          "url": "https://www.guitarcenter.com/Marshall/2555X-Silver-Jubilee-100W-Tube-Guitar-Head-1416325125694.gc?algoliaQueryID=8a98275c0eed25f4320b5825c3f65fba&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1999.99,
+          "min": 1999.99,
+          "max": 1999.99,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "airline-town-and-country": {
       "displayName": "Used Airline TOWN AND COUNTRY Vintage Electric Guitar Sunburst 6-String 40111-S000184592",
       "brand": "Airline",
@@ -20548,6 +20579,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 43,
+      "sum": 350106.7399999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8142,
+      "min": 475.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 176,
       "sum": 498126.55999999994,
@@ -20603,17 +20645,6 @@
       "avg": 2404,
       "min": 70,
       "max": 17995
-    },
-    "Used": {
-      "count": 42,
-      "sum": 348106.7499999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 8288,
-      "min": 475.99,
-      "max": 99000
     },
     "Mint": {
       "count": 16,
@@ -20683,9 +20714,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2588,
+      "avg": 2586,
       "median": 2000,
-      "count": 320
+      "count": 321
     },
     "04": {
       "name": "Apr",
@@ -20845,7 +20876,7 @@
   "priceDistribution": {
     "0-500": 84,
     "500-1k": 101,
-    "1k-2k": 371,
+    "1k-2k": 372,
     "2k-3k": 262,
     "3k-5k": 259,
     "5k-10k": 136,
@@ -20854,13 +20885,18 @@
   "priceDistributionFiltered": {
     "0-500": 84,
     "500-1k": 101,
-    "1k-2k": 371,
+    "1k-2k": 372,
     "2k-3k": 262,
     "3k-5k": 259,
     "5k-10k": 136,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Marshall": {
+      "sum": 186,
+      "count": 5,
+      "avg": 37
+    },
     "Airline": {
       "sum": 0,
       "count": 1,
@@ -20887,12 +20923,12 @@
       "avg": 39
     },
     "Ibanez": {
-      "sum": 1960,
+      "sum": 1961,
       "count": 55,
       "avg": 36
     },
     "PRS": {
-      "sum": 4024,
+      "sum": 4025,
       "count": 108,
       "avg": 37
     },
@@ -20977,7 +21013,7 @@
       "avg": 48
     },
     "Music Man": {
-      "sum": 872,
+      "sum": 873,
       "count": 24,
       "avg": 36
     },
@@ -20997,7 +21033,7 @@
       "avg": 40
     },
     "Jackson": {
-      "sum": 1178,
+      "sum": 1179,
       "count": 29,
       "avg": 41
     },
@@ -21210,11 +21246,6 @@
       "sum": 24,
       "count": 1,
       "avg": 24
-    },
-    "Marshall": {
-      "sum": 186,
-      "count": 4,
-      "avg": 47
     },
     "Two Rock": {
       "sum": 29,
@@ -21733,7 +21764,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-24": 4,
+    "2026-05-24": 5,
     "2026-05-23": 23,
     "2026-05-22": 5,
     "2026-05-21": 18,
@@ -21766,11 +21797,11 @@
     "2026-04-24": 14
   },
   "categoryDistribution": {
-    "marketplace": 76,
+    "marketplace": 77,
     "reverb": 1088,
     "other": 115
   },
-  "activeModelsCount": 386,
+  "activeModelsCount": 387,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -21782,7 +21813,7 @@
     },
     {
       "username": "shteefe",
-      "count": 128
+      "count": 129
     },
     {
       "username": "YellowJack6",
@@ -24156,15 +24187,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1223,
+      "total": 1224,
       "sold": 351,
       "fake": 0,
-      "live": 336,
+      "live": 337,
       "removed": 536,
       "soldPct": 29,
-      "livePct": 27
+      "livePct": 28
     },
     "byBrand": {
+      "Marshall": {
+        "total": 5,
+        "sold": 0,
+        "fake": 0,
+        "live": 3,
+        "removed": 2,
+        "soldPct": 0,
+        "livePct": 60
+      },
       "Airline": {
         "total": 1,
         "sold": 0,
@@ -24821,15 +24861,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Marshall": {
-        "total": 4,
-        "sold": 0,
-        "fake": 0,
-        "live": 2,
-        "removed": 2,
-        "soldPct": 0,
-        "livePct": 50
       },
       "Two Rock": {
         "total": 1,
@@ -25872,6 +25903,13 @@
         "soldPct": 0
       },
       {
+        "brand": "Marshall",
+        "total": 5,
+        "sold": 0,
+        "live": 3,
+        "soldPct": 0
+      },
+      {
         "brand": "Seger",
         "total": 5,
         "sold": 0,
@@ -25912,13 +25950,6 @@
         "sold": 1,
         "live": 2,
         "soldPct": 20
-      },
-      {
-        "brand": "Mesa Boogie",
-        "total": 5,
-        "sold": 1,
-        "live": 2,
-        "soldPct": 20
       }
     ],
     "byPriceRange": [
@@ -25936,7 +25967,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 371,
+        "total": 372,
         "sold": 108,
         "rate": 29
       },
@@ -25966,6 +25997,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 44,
+        "sold": 6,
+        "rate": 14
+      },
       "Very Good": {
         "total": 177,
         "sold": 53,
@@ -25985,11 +26021,6 @@
         "total": 77,
         "sold": 20,
         "rate": 26
-      },
-      "Used": {
-        "total": 43,
-        "sold": 6,
-        "rate": 14
       },
       "Mint": {
         "total": 16,
@@ -26202,7 +26233,7 @@
       "live": 13,
       "removed": 25,
       "sellRate": 32,
-      "totalDays": 681.5,
+      "totalDays": 681.9,
       "soldCount": 18,
       "avgDaysToSell": 37.9
     },
@@ -26221,7 +26252,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 40,
-      "totalDays": 44.7,
+      "totalDays": 44.8,
       "soldCount": 2,
       "avgDaysToSell": 22.4
     },
@@ -26297,7 +26328,7 @@
       "live": 2,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 138.6,
+      "totalDays": 138.7,
       "soldCount": 6,
       "avgDaysToSell": 23.1
     },
@@ -26335,7 +26366,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 215.5,
+      "totalDays": 215.60000000000002,
       "soldCount": 4,
       "avgDaysToSell": 53.9
     },
@@ -26354,7 +26385,7 @@
       "live": 14,
       "removed": 11,
       "sellRate": 44,
-      "totalDays": 1041.6000000000001,
+      "totalDays": 1041.8,
       "soldCount": 20,
       "avgDaysToSell": 52.1
     },
@@ -26373,7 +26404,7 @@
       "live": 4,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 580.7,
+      "totalDays": 580.8000000000001,
       "soldCount": 13,
       "avgDaysToSell": 44.7
     },
@@ -26392,9 +26423,9 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 482.5,
+      "totalDays": 482.7,
       "soldCount": 7,
-      "avgDaysToSell": 68.9
+      "avgDaysToSell": 69
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -26487,7 +26518,7 @@
       "live": 13,
       "removed": 12,
       "sellRate": 19,
-      "totalDays": 201.6,
+      "totalDays": 201.70000000000002,
       "soldCount": 6,
       "avgDaysToSell": 33.6
     },
@@ -26562,7 +26593,7 @@
       "live": 3,
       "removed": 0,
       "sellRate": 63,
-      "totalDays": 208.8,
+      "totalDays": 208.9,
       "soldCount": 5,
       "avgDaysToSell": 41.8
     },
@@ -26599,9 +26630,9 @@
       "live": 3,
       "removed": 9,
       "sellRate": 25,
-      "totalDays": 222.10000000000002,
+      "totalDays": 222.20000000000002,
       "soldCount": 4,
-      "avgDaysToSell": 55.5
+      "avgDaysToSell": 55.6
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -26618,7 +26649,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 55,
-      "totalDays": 412.59999999999997,
+      "totalDays": 412.69999999999993,
       "soldCount": 11,
       "avgDaysToSell": 37.5
     },
@@ -27620,9 +27651,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 329.5,
+      "totalDays": 329.6,
       "soldCount": 3,
-      "avgDaysToSell": 109.8
+      "avgDaysToSell": 109.9
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
