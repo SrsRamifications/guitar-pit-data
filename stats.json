@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-24T23:03:31.472Z",
-  "totalLinks": 1281,
-  "totalEver": 1367,
-  "totalBeforeFilter": 1367,
+  "generatedAt": "2026-05-24T23:12:35.850Z",
+  "totalLinks": 1282,
+  "totalEver": 1368,
+  "totalBeforeFilter": 1368,
   "fakeCount": 9,
   "removedCount": 554,
-  "totalWithPrice": 1264,
+  "totalWithPrice": 1265,
   "overall": {
-    "count": 1227,
-    "sum": 3371194.75,
-    "avg": 2748,
+    "count": 1228,
+    "sum": 3372543.75,
+    "avg": 2746,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1227,
-    "sum": 3371194.75,
-    "avg": 2748,
+    "count": 1228,
+    "sum": 3372543.75,
+    "avg": 2746,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11415,
+    "thresholdHigh": 11275,
     "thresholdLow": 0,
     "count": 37,
     "items": [
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 322,
-      "sum": 831188.58,
+      "count": 323,
+      "sum": 832537.58,
       "min": 39.81,
       "max": 10350,
-      "avg": 2581
+      "avg": 2578
     },
     "2026-04": {
       "count": 778,
@@ -315,11 +315,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1062,
-      "sum": 2903572.31,
+      "count": 1063,
+      "sum": 2904921.31,
       "min": 7,
       "max": 11053,
-      "avg": 2734
+      "avg": 2733
     },
     "marketplace": {
       "count": 64,
@@ -338,11 +338,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1062,
-      "sum": 2903572.31,
+      "count": 1063,
+      "sum": 2904921.31,
       "min": 7,
       "max": 11053,
-      "avg": 2734
+      "avg": 2733
     },
     "guitarcenter.com": {
       "count": 64,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "gibson-hp-antique": {
+      "displayName": "Gibson HP 635 W 2017 - Antique Natural",
+      "brand": "Gibson",
+      "model": "HP Antique",
+      "variant": null,
+      "count": 1,
+      "sum": 1349,
+      "min": 1349,
+      "max": 1349,
+      "sightings": [
+        {
+          "price": 1349,
+          "date": "2026-05-24T23:12:18.448+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson HP 635 W 2017 - Antique Natural",
+          "url": "https://reverb.com/item/97468045-gibson-hp-635-w-2017-antique-natural",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1349,
+          "min": 1349,
+          "max": 1349,
+          "avg": 1349
+        }
+      },
+      "avg": 1349
+    },
     "bc-rich-original-mij": {
       "displayName": "B.C. Rich Mockingbird Bass 1986 - White original vintage NJ MIJ Japan mocking bird AK",
       "brand": "BC Rich",
@@ -20655,6 +20686,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 240,
+      "sum": 840019.73,
+      "sold": {
+        "count": 83,
+        "sum": 252328.44,
+        "avg": 3040,
+        "min": 65,
+        "max": 35900
+      },
+      "avg": 3500,
+      "min": 65,
+      "max": 35900
+    },
     "Good": {
       "count": 78,
       "sum": 186510.95,
@@ -20693,20 +20738,6 @@
       "avg": 2830,
       "min": 33,
       "max": 27500
-    },
-    "Excellent": {
-      "count": 239,
-      "sum": 838670.73,
-      "sold": {
-        "count": 83,
-        "sum": 252328.44,
-        "avg": 3040,
-        "min": 65,
-        "max": 35900
-      },
-      "avg": 3509,
-      "min": 65,
-      "max": 35900
     },
     "Brand New": {
       "count": 51,
@@ -20790,9 +20821,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2581,
+      "avg": 2578,
       "median": 2000,
-      "count": 322
+      "count": 323
     },
     "04": {
       "name": "Apr",
@@ -20952,7 +20983,7 @@
   "priceDistribution": {
     "0-500": 84,
     "500-1k": 101,
-    "1k-2k": 373,
+    "1k-2k": 374,
     "2k-3k": 262,
     "3k-5k": 259,
     "5k-10k": 136,
@@ -20961,13 +20992,18 @@
   "priceDistributionFiltered": {
     "0-500": 84,
     "500-1k": 101,
-    "1k-2k": 373,
+    "1k-2k": 374,
     "2k-3k": 262,
     "3k-5k": 259,
     "5k-10k": 136,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5999,
+      "count": 157,
+      "avg": 38
+    },
     "BC Rich": {
       "sum": 2849,
       "count": 79,
@@ -21032,11 +21068,6 @@
       "sum": 1542,
       "count": 42,
       "avg": 37
-    },
-    "Gibson": {
-      "sum": 5998,
-      "count": 156,
-      "avg": 38
     },
     "Anderson": {
       "sum": 270,
@@ -21840,7 +21871,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-24": 6,
+    "2026-05-24": 7,
     "2026-05-23": 23,
     "2026-05-22": 5,
     "2026-05-21": 18,
@@ -21873,11 +21904,11 @@
     "2026-04-24": 3
   },
   "categoryDistribution": {
-    "reverb": 1089,
+    "reverb": 1090,
     "marketplace": 77,
     "other": 115
   },
-  "activeModelsCount": 379,
+  "activeModelsCount": 380,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -21885,7 +21916,7 @@
     },
     {
       "username": "greg1213",
-      "count": 239
+      "count": 240
     },
     {
       "username": "shteefe",
@@ -21971,10 +22002,10 @@
       "count": 93
     },
     "Gibson": {
-      "avgPrice": 7114,
+      "avgPrice": 7078,
       "retailEst": 800,
-      "avgDiscount": -789.3,
-      "count": 159
+      "avgDiscount": -784.8,
+      "count": 160
     },
     "Epiphone": {
       "avgPrice": 1854,
@@ -24294,15 +24325,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1225,
+      "total": 1226,
       "sold": 354,
       "fake": 0,
-      "live": 335,
+      "live": 336,
       "removed": 536,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 162,
+        "sold": 44,
+        "fake": 0,
+        "live": 35,
+        "removed": 83,
+        "soldPct": 27,
+        "livePct": 22
+      },
       "BC Rich": {
         "total": 84,
         "sold": 21,
@@ -24437,15 +24477,6 @@
         "removed": 12,
         "soldPct": 44,
         "livePct": 31
-      },
-      "Gibson": {
-        "total": 161,
-        "sold": 44,
-        "fake": 0,
-        "live": 34,
-        "removed": 83,
-        "soldPct": 27,
-        "livePct": 21
       },
       "Anderson": {
         "total": 9,
@@ -26074,7 +26105,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 373,
+        "total": 374,
         "sold": 109,
         "rate": 29
       },
@@ -26104,6 +26135,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 240,
+        "sold": 86,
+        "rate": 36
+      },
       "Good": {
         "total": 78,
         "sold": 21,
@@ -26118,11 +26154,6 @@
         "total": 177,
         "sold": 53,
         "rate": 30
-      },
-      "Excellent": {
-        "total": 239,
-        "sold": 86,
-        "rate": 36
       },
       "Brand New": {
         "total": 51,
@@ -26249,6 +26280,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 121,
+      "sum": 788491.9199999999,
+      "avg": 6516,
+      "min": 135,
+      "max": 443302,
+      "sold": 31,
+      "soldSum": 83293.97,
+      "soldAvg": 2687,
+      "live": 27,
+      "removed": 63,
+      "sellRate": 26,
+      "totalDays": 1037.4999999999998,
+      "soldCount": 31,
+      "avgDaysToSell": 33.5
+    },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
       "brandLine": "BC Rich Import",
@@ -26359,7 +26409,7 @@
       "live": 13,
       "removed": 25,
       "sellRate": 32,
-      "totalDays": 685.1,
+      "totalDays": 685.2,
       "soldCount": 18,
       "avgDaysToSell": 38.1
     },
@@ -26378,7 +26428,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 40,
-      "totalDays": 45.1,
+      "totalDays": 45.2,
       "soldCount": 2,
       "avgDaysToSell": 22.6
     },
@@ -26435,7 +26485,7 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1193.0000000000002,
+      "totalDays": 1193.3000000000002,
       "soldCount": 31,
       "avgDaysToSell": 38.5
     },
@@ -26492,7 +26542,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 216.29999999999998,
+      "totalDays": 216.4,
       "soldCount": 4,
       "avgDaysToSell": 54.1
     },
@@ -26511,7 +26561,7 @@
       "live": 14,
       "removed": 11,
       "sellRate": 44,
-      "totalDays": 1045.6000000000001,
+      "totalDays": 1045.7,
       "soldCount": 20,
       "avgDaysToSell": 52.3
     },
@@ -26530,7 +26580,7 @@
       "live": 4,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 583.1000000000001,
+      "totalDays": 583.2,
       "soldCount": 13,
       "avgDaysToSell": 44.9
     },
@@ -26549,7 +26599,7 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 483.90000000000003,
+      "totalDays": 484,
       "soldCount": 7,
       "avgDaysToSell": 69.1
     },
@@ -26590,25 +26640,6 @@
       "totalDays": 351.9,
       "soldCount": 9,
       "avgDaysToSell": 39.1
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 120,
-      "sum": 787142.9199999999,
-      "avg": 6560,
-      "min": 135,
-      "max": 443302,
-      "sold": 31,
-      "soldSum": 83293.97,
-      "soldAvg": 2687,
-      "live": 26,
-      "removed": 63,
-      "sellRate": 26,
-      "totalDays": 1037.2999999999997,
-      "soldCount": 31,
-      "avgDaysToSell": 33.5
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -26700,7 +26731,7 @@
       "live": 3,
       "removed": 0,
       "sellRate": 63,
-      "totalDays": 209.8,
+      "totalDays": 209.89999999999998,
       "soldCount": 5,
       "avgDaysToSell": 42
     },
@@ -27462,9 +27493,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 152.10000000000002,
+      "totalDays": 152.2,
       "soldCount": 4,
-      "avgDaysToSell": 38
+      "avgDaysToSell": 38.1
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -28124,9 +28155,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 3,
+      "total": 4,
       "sold": 2,
-      "rate": 67
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -28155,7 +28186,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 363,
+      "total": 364,
       "sold": 113,
       "rate": 31
     },
@@ -28172,7 +28203,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 231,
+      "total": 232,
       "sold": 87,
       "rate": 38
     }
@@ -28186,7 +28217,7 @@
     },
     {
       "state": "NY",
-      "total": 34,
+      "total": 35,
       "sold": 3,
       "rate": 9
     },
