@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-25T03:03:28.672Z",
-  "totalLinks": 1283,
-  "totalEver": 1369,
-  "totalBeforeFilter": 1369,
+  "generatedAt": "2026-05-25T03:14:52.104Z",
+  "totalLinks": 1284,
+  "totalEver": 1370,
+  "totalBeforeFilter": 1370,
   "fakeCount": 9,
   "removedCount": 554,
-  "totalWithPrice": 1266,
+  "totalWithPrice": 1267,
   "overall": {
-    "count": 1229,
-    "sum": 3372203.75,
-    "avg": 2744,
+    "count": 1230,
+    "sum": 3379202.75,
+    "avg": 2747,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1229,
-    "sum": 3372203.75,
-    "avg": 2744,
+    "count": 1230,
+    "sum": 3379202.75,
+    "avg": 2747,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11308,
+    "thresholdHigh": 11448,
     "thresholdLow": 0,
     "count": 37,
     "items": [
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 324,
-      "sum": 832197.58,
+      "count": 325,
+      "sum": 839196.58,
       "min": 39.81,
       "max": 10350,
-      "avg": 2569
+      "avg": 2582
     },
     "2026-04": {
       "count": 778,
@@ -314,19 +314,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 65,
+      "sum": 186789.5,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2874
+    },
     "reverb": {
       "count": 1064,
       "sum": 2904581.31,
       "min": 7,
       "max": 11053,
       "avg": 2730
-    },
-    "marketplace": {
-      "count": 64,
-      "sum": 179790.5,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2809
     },
     "other": {
       "count": 101,
@@ -337,6 +337,13 @@
     }
   },
   "byDomain": {
+    "gibson.com": {
+      "count": 2,
+      "sum": 9598,
+      "min": 2599,
+      "max": 6999,
+      "avg": 4799
+    },
     "reverb.com": {
       "count": 1064,
       "sum": 2904581.31,
@@ -441,13 +448,6 @@
       "min": 4399,
       "max": 4399,
       "avg": 4399
-    },
-    "gibson.com": {
-      "count": 1,
-      "sum": 2599,
-      "min": 2599,
-      "max": 2599,
-      "avg": 2599
     },
     "daddario.com": {
       "count": 2,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "gibson-standard-reissue": {
+      "displayName": "Gibson Mod™ Collection 1964 Trini Lopez Standard Reissue, Natural Beau",
+      "brand": "Gibson",
+      "model": "Standard",
+      "variant": "Reissue",
+      "count": 1,
+      "sum": 6999,
+      "min": 6999,
+      "max": 6999,
+      "sightings": [
+        {
+          "price": 6999,
+          "date": "2026-05-25T03:14:29.943+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Mod™ Collection 1964 Trini Lopez Standard Reissue, Natural Beau",
+          "url": "https://www.gibson.com/products/gibson-mod-collection-1964-trini-lopez-standard-reissue-natural-beauty",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 6999,
+          "min": 6999,
+          "max": 6999,
+          "avg": 6999
+        }
+      },
+      "avg": 6999
+    },
     "lollar-tron-humbucker-pair": {
       "displayName": "LOLLARTRON HUMBUCKER PAIR - NICKEL",
       "brand": "Lollar",
@@ -1824,11 +1855,11 @@
       "avg": 3689,
       "trends": {
         "d30": {
-          "direction": "up",
-          "pctChange": 17,
-          "recentAvg": 3915,
-          "olderAvg": 3350,
-          "recentCount": 3
+          "direction": "down",
+          "pctChange": -37,
+          "recentAvg": 2725,
+          "olderAvg": 4331,
+          "recentCount": 2
         }
       }
     },
@@ -20882,9 +20913,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2569,
-      "median": 1999,
-      "count": 324
+      "avg": 2582,
+      "median": 2000,
+      "count": 325
     },
     "04": {
       "name": "Apr",
@@ -21047,7 +21078,7 @@
     "1k-2k": 374,
     "2k-3k": 262,
     "3k-5k": 259,
-    "5k-10k": 136,
+    "5k-10k": 137,
     "10k+": 49
   },
   "priceDistributionFiltered": {
@@ -21056,19 +21087,19 @@
     "1k-2k": 374,
     "2k-3k": 262,
     "3k-5k": 259,
-    "5k-10k": 136,
+    "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 6014,
+      "count": 158,
+      "avg": 38
+    },
     "Lollar": {
       "sum": 78,
       "count": 3,
       "avg": 26
-    },
-    "Gibson": {
-      "sum": 6013,
-      "count": 157,
-      "avg": 38
     },
     "BC Rich": {
       "sum": 2861,
@@ -21091,7 +21122,7 @@
       "avg": 35
     },
     "ESP": {
-      "sum": 990,
+      "sum": 991,
       "count": 27,
       "avg": 37
     },
@@ -21111,7 +21142,7 @@
       "avg": 36
     },
     "PRS": {
-      "sum": 4040,
+      "sum": 4041,
       "count": 108,
       "avg": 37
     },
@@ -21161,7 +21192,7 @@
       "avg": 38
     },
     "Vintage": {
-      "sum": 944,
+      "sum": 945,
       "count": 28,
       "avg": 34
     },
@@ -21181,7 +21212,7 @@
       "avg": 34
     },
     "Cort": {
-      "sum": 144,
+      "sum": 145,
       "count": 3,
       "avg": 48
     },
@@ -21211,12 +21242,12 @@
       "avg": 41
     },
     "Kramer": {
-      "sum": 161,
+      "sum": 162,
       "count": 5,
       "avg": 32
     },
     "Warmoth": {
-      "sum": 296,
+      "sum": 297,
       "count": 7,
       "avg": 42
     },
@@ -21226,9 +21257,9 @@
       "avg": 25
     },
     "Greco": {
-      "sum": 435,
+      "sum": 437,
       "count": 13,
-      "avg": 33
+      "avg": 34
     },
     "Collings": {
       "sum": 324,
@@ -21436,7 +21467,7 @@
       "avg": 45
     },
     "Tokai": {
-      "sum": 110,
+      "sum": 111,
       "count": 3,
       "avg": 37
     },
@@ -21686,7 +21717,7 @@
       "avg": 40
     },
     "Gretsch": {
-      "sum": 337,
+      "sum": 339,
       "count": 7,
       "avg": 48
     },
@@ -21776,9 +21807,9 @@
       "avg": 46
     },
     "AXL": {
-      "sum": 92,
+      "sum": 94,
       "count": 2,
-      "avg": 46
+      "avg": 47
     },
     "Rocktron": {
       "sum": 47,
@@ -21836,7 +21867,7 @@
       "avg": 51
     },
     "Millimetric": {
-      "sum": 216,
+      "sum": 217,
       "count": 4,
       "avg": 54
     },
@@ -21932,6 +21963,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-05-25": 1,
     "2026-05-24": 8,
     "2026-05-23": 23,
     "2026-05-22": 5,
@@ -21961,14 +21993,14 @@
     "2026-04-28": 23,
     "2026-04-27": 15,
     "2026-04-26": 19,
-    "2026-04-25": 20
+    "2026-04-25": 19
   },
   "categoryDistribution": {
+    "marketplace": 78,
     "reverb": 1091,
-    "marketplace": 77,
     "other": 115
   },
-  "activeModelsCount": 377,
+  "activeModelsCount": 378,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -21976,7 +22008,7 @@
     },
     {
       "username": "greg1213",
-      "count": 240
+      "count": 241
     },
     {
       "username": "shteefe",
@@ -22064,8 +22096,8 @@
     "Gibson": {
       "avgPrice": 7078,
       "retailEst": 800,
-      "avgDiscount": -784.8,
-      "count": 160
+      "avgDiscount": -784.7,
+      "count": 161
     },
     "Epiphone": {
       "avgPrice": 1854,
@@ -24408,15 +24440,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1227,
+      "total": 1228,
       "sold": 356,
       "fake": 0,
-      "live": 335,
+      "live": 336,
       "removed": 536,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Gibson": {
+        "total": 163,
+        "sold": 44,
+        "fake": 0,
+        "live": 36,
+        "removed": 83,
+        "soldPct": 27,
+        "livePct": 22
+      },
       "Lollar": {
         "total": 4,
         "sold": 0,
@@ -24425,15 +24466,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 75
-      },
-      "Gibson": {
-        "total": 162,
-        "sold": 44,
-        "fake": 0,
-        "live": 35,
-        "removed": 83,
-        "soldPct": 27,
-        "livePct": 22
       },
       "BC Rich": {
         "total": 84,
@@ -26206,7 +26238,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 136,
+        "total": 137,
         "sold": 23,
         "rate": 17
       },
@@ -26367,18 +26399,18 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 121,
-      "sum": 788491.9199999999,
-      "avg": 6516,
+      "count": 122,
+      "sum": 795490.9199999999,
+      "avg": 6520,
       "min": 135,
       "max": 443302,
       "sold": 31,
       "soldSum": 83293.97,
       "soldAvg": 2687,
-      "live": 27,
+      "live": 28,
       "removed": 63,
-      "sellRate": 26,
-      "totalDays": 1042,
+      "sellRate": 25,
+      "totalDays": 1042.3000000000002,
       "soldCount": 31,
       "avgDaysToSell": 33.6
     },
@@ -26454,7 +26486,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 193.39999999999998,
+      "totalDays": 193.5,
       "soldCount": 5,
       "avgDaysToSell": 38.7
     },
@@ -26492,9 +26524,9 @@
       "live": 13,
       "removed": 25,
       "sellRate": 32,
-      "totalDays": 688.1,
+      "totalDays": 688.5,
       "soldCount": 18,
-      "avgDaysToSell": 38.2
+      "avgDaysToSell": 38.3
     },
     "ESP|LTD": {
       "brand": "ESP",
@@ -26530,9 +26562,9 @@
       "live": 1,
       "removed": 8,
       "sellRate": 10,
-      "totalDays": 41.1,
+      "totalDays": 41.2,
       "soldCount": 1,
-      "avgDaysToSell": 41.1
+      "avgDaysToSell": 41.2
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -26568,7 +26600,7 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1198.3999999999999,
+      "totalDays": 1198.7,
       "soldCount": 31,
       "avgDaysToSell": 38.7
     },
@@ -26625,7 +26657,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 217,
+      "totalDays": 217.10000000000002,
       "soldCount": 4,
       "avgDaysToSell": 54.3
     },
@@ -26644,7 +26676,7 @@
       "live": 14,
       "removed": 11,
       "sellRate": 44,
-      "totalDays": 1049.1,
+      "totalDays": 1049.3,
       "soldCount": 20,
       "avgDaysToSell": 52.5
     },
@@ -26663,7 +26695,7 @@
       "live": 4,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 585.0999999999999,
+      "totalDays": 585.1999999999999,
       "soldCount": 13,
       "avgDaysToSell": 45
     },
@@ -26908,9 +26940,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 20,
-      "totalDays": 44.2,
+      "totalDays": 44.3,
       "soldCount": 1,
-      "avgDaysToSell": 44.2
+      "avgDaysToSell": 44.3
     },
     "Kramer|Kramer USA Vintage": {
       "brand": "Kramer",
@@ -27057,7 +27089,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 141.5,
+      "totalDays": 141.6,
       "soldCount": 2,
       "avgDaysToSell": 70.8
     },
@@ -27076,9 +27108,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 20,
+      "totalDays": 20.1,
       "soldCount": 1,
-      "avgDaysToSell": 20
+      "avgDaysToSell": 20.1
     },
     "Solar Guitars|Solar Guitars": {
       "brand": "Solar Guitars",
@@ -27873,7 +27905,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 330.5,
+      "totalDays": 330.6,
       "soldCount": 3,
       "avgDaysToSell": 110.2
     },
@@ -28073,7 +28105,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 96.5,
+      "totalDays": 96.6,
       "soldCount": 2,
       "avgDaysToSell": 48.3
     },
