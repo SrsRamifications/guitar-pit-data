@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-25T17:48:27.865Z",
-  "totalLinks": 1285,
-  "totalEver": 1375,
-  "totalBeforeFilter": 1375,
+  "generatedAt": "2026-05-25T17:51:47.053Z",
+  "totalLinks": 1286,
+  "totalEver": 1376,
+  "totalBeforeFilter": 1376,
   "fakeCount": 9,
   "removedCount": 554,
-  "totalWithPrice": 1268,
+  "totalWithPrice": 1269,
   "overall": {
-    "count": 1231,
-    "sum": 3381316.75,
+    "count": 1232,
+    "sum": 3384787.75,
     "avg": 2747,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1231,
-    "sum": 3381316.75,
+    "count": 1232,
+    "sum": 3384787.75,
     "avg": 2747,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11445,
+    "thresholdHigh": 11305,
     "thresholdLow": 0,
     "count": 37,
     "items": [
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 326,
-      "sum": 841310.58,
+      "count": 327,
+      "sum": 844781.58,
       "min": 39.81,
       "max": 10350,
-      "avg": 2581
+      "avg": 2583
     },
     "2026-04": {
       "count": 778,
@@ -315,11 +315,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1065,
-      "sum": 2906695.31,
+      "count": 1066,
+      "sum": 2910166.31,
       "min": 7,
       "max": 11053,
-      "avg": 2729
+      "avg": 2730
     },
     "marketplace": {
       "count": 65,
@@ -338,11 +338,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1065,
-      "sum": 2906695.31,
+      "count": 1066,
+      "sum": 2910166.31,
       "min": 7,
       "max": 11053,
-      "avg": 2729
+      "avg": 2730
     },
     "gibson.com": {
       "count": 2,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "schecter-telecaster": {
+      "displayName": "Schecter PT Telecaster Van Nutys era 1979 - Ash",
+      "brand": "Schecter",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 1,
+      "sum": 3471,
+      "min": 3471,
+      "max": 3471,
+      "sightings": [
+        {
+          "price": 3471,
+          "date": "2026-05-25T17:51:19.756+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Schecter PT Telecaster Van Nutys era 1979 - Ash",
+          "url": "https://reverb.com/item/97487639-schecter-pt-telecaster-van-nutys-era-1979-ash",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3471,
+          "min": 3471,
+          "max": 3471,
+          "avg": 3471
+        }
+      },
+      "avg": 3471
+    },
     "music-man-sabre": {
       "displayName": "Ernie Ball Music Man Sabre, 2023, Gorgeou flamed maple top and neck, Great conditions",
       "brand": "Music Man",
@@ -20862,6 +20893,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 177,
+      "sum": 500947.55999999994,
+      "sold": {
+        "count": 54,
+        "sum": 118455.79000000001,
+        "avg": 2194,
+        "min": 100,
+        "max": 10800
+      },
+      "avg": 2830,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 242,
       "sum": 842483.73,
@@ -20900,20 +20945,6 @@
       "avg": 8142,
       "min": 475.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 176,
-      "sum": 497476.55999999994,
-      "sold": {
-        "count": 54,
-        "sum": 118455.79000000001,
-        "avg": 2194,
-        "min": 100,
-        "max": 10800
-      },
-      "avg": 2827,
-      "min": 33,
-      "max": 27500
     },
     "Brand New": {
       "count": 51,
@@ -20997,9 +21028,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2581,
-      "median": 1999,
-      "count": 326
+      "avg": 2583,
+      "median": 2000,
+      "count": 327
     },
     "04": {
       "name": "Apr",
@@ -21161,7 +21192,7 @@
     "500-1k": 101,
     "1k-2k": 375,
     "2k-3k": 262,
-    "3k-5k": 259,
+    "3k-5k": 260,
     "5k-10k": 137,
     "10k+": 49
   },
@@ -21170,18 +21201,23 @@
     "500-1k": 101,
     "1k-2k": 375,
     "2k-3k": 262,
-    "3k-5k": 259,
+    "3k-5k": 260,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Schecter": {
+      "sum": 416,
+      "count": 13,
+      "avg": 32
+    },
     "Music Man": {
       "sum": 899,
       "count": 25,
       "avg": 36
     },
     "Gibson": {
-      "sum": 6147,
+      "sum": 6150,
       "count": 158,
       "avg": 39
     },
@@ -21211,7 +21247,7 @@
       "avg": 36
     },
     "ESP": {
-      "sum": 1011,
+      "sum": 1012,
       "count": 27,
       "avg": 37
     },
@@ -21221,7 +21257,7 @@
       "avg": 23
     },
     "Rickenbacker": {
-      "sum": 991,
+      "sum": 992,
       "count": 25,
       "avg": 40
     },
@@ -21261,7 +21297,7 @@
       "avg": 31
     },
     "G&L": {
-      "sum": 171,
+      "sum": 172,
       "count": 6,
       "avg": 29
     },
@@ -21369,11 +21405,6 @@
       "sum": 48,
       "count": 1,
       "avg": 48
-    },
-    "Schecter": {
-      "sum": 416,
-      "count": 12,
-      "avg": 35
     },
     "Mayones": {
       "sum": 68,
@@ -22047,7 +22078,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-25": 2,
+    "2026-05-25": 3,
     "2026-05-24": 8,
     "2026-05-23": 23,
     "2026-05-22": 5,
@@ -22080,11 +22111,11 @@
     "2026-04-25": 12
   },
   "categoryDistribution": {
-    "reverb": 1092,
+    "reverb": 1093,
     "marketplace": 78,
     "other": 115
   },
-  "activeModelsCount": 375,
+  "activeModelsCount": 376,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -22095,8 +22126,8 @@
       "count": 241
     },
     {
-      "username": "shteefe",
-      "count": 129
+      "username": "Shteefe",
+      "count": 130
     },
     {
       "username": "YellowJack6",
@@ -22220,10 +22251,10 @@
       "count": 26
     },
     "Schecter": {
-      "avgPrice": 2374,
+      "avgPrice": 2458,
       "retailEst": 1000,
-      "avgDiscount": -137.3,
-      "count": 12
+      "avgDiscount": -145.8,
+      "count": 13
     },
     "Charvel": {
       "avgPrice": 2787,
@@ -24548,15 +24579,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1229,
+      "total": 1230,
       "sold": 359,
       "fake": 0,
-      "live": 334,
+      "live": 335,
       "removed": 536,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Schecter": {
+        "total": 13,
+        "sold": 3,
+        "fake": 0,
+        "live": 6,
+        "removed": 4,
+        "soldPct": 23,
+        "livePct": 46
+      },
       "Music Man": {
         "total": 26,
         "sold": 14,
@@ -24907,15 +24947,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Schecter": {
-        "total": 12,
-        "sold": 3,
-        "fake": 0,
-        "live": 5,
-        "removed": 4,
-        "soldPct": 25,
-        "livePct": 42
       },
       "Mayones": {
         "total": 2,
@@ -26340,7 +26371,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 259,
+        "total": 260,
         "sold": 70,
         "rate": 27
       },
@@ -26358,6 +26389,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 178,
+        "sold": 54,
+        "rate": 30
+      },
       "Excellent": {
         "total": 242,
         "sold": 86,
@@ -26372,11 +26408,6 @@
         "total": 44,
         "sold": 6,
         "rate": 14
-      },
-      "Very Good": {
-        "total": 177,
-        "sold": 54,
-        "rate": 31
       },
       "Brand New": {
         "total": 51,
@@ -26503,6 +26534,24 @@
     ]
   },
   "byBrandLine": {
+    "Schecter|Schecter Japan": {
+      "brand": "Schecter",
+      "brandLine": "Schecter Japan",
+      "tier": "high",
+      "count": 2,
+      "sum": 6983,
+      "avg": 3492,
+      "min": 3471,
+      "max": 3512,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
       "brandLine": "Music Man USA",
@@ -26537,7 +26586,7 @@
       "live": 26,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1078.5,
+      "totalDays": 1078.6,
       "soldCount": 33,
       "avgDaysToSell": 32.7
     },
@@ -27285,24 +27334,6 @@
       "avg": 3650,
       "min": 3650,
       "max": 3650,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "removed": 0,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
-    "Schecter|Schecter Japan": {
-      "brand": "Schecter",
-      "brandLine": "Schecter Japan",
-      "tier": "high",
-      "count": 1,
-      "sum": 3512,
-      "avg": 3512,
-      "min": 3512,
-      "max": 3512,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
@@ -28384,9 +28415,9 @@
     },
     {
       "label": "1–5",
-      "total": 35,
+      "total": 36,
       "sold": 13,
-      "rate": 37
+      "rate": 36
     },
     {
       "label": "6–15",
@@ -28409,7 +28440,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 364,
+      "total": 365,
       "sold": 116,
       "rate": 32
     },
@@ -28426,7 +28457,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 233,
+      "total": 234,
       "sold": 87,
       "rate": 37
     }
