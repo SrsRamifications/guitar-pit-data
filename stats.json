@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-25T22:03:30.300Z",
-  "totalLinks": 1288,
-  "totalEver": 1379,
-  "totalBeforeFilter": 1379,
+  "generatedAt": "2026-05-25T22:18:25.791Z",
+  "totalLinks": 1289,
+  "totalEver": 1380,
+  "totalBeforeFilter": 1380,
   "fakeCount": 9,
   "removedCount": 556,
-  "totalWithPrice": 1271,
+  "totalWithPrice": 1272,
   "overall": {
-    "count": 1234,
-    "sum": 3390790.75,
-    "avg": 2748,
+    "count": 1235,
+    "sum": 3391485.75,
+    "avg": 2746,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1234,
-    "sum": 3390790.75,
-    "avg": 2748,
+    "count": 1235,
+    "sum": 3391485.75,
+    "avg": 2746,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
     "thresholdHigh": 11305,
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 329,
-      "sum": 850784.58,
+      "count": 330,
+      "sum": 851479.58,
       "min": 39.81,
       "max": 10350,
-      "avg": 2586
+      "avg": 2580
     },
     "2026-04": {
       "count": 778,
@@ -315,11 +315,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1068,
-      "sum": 2916169.31,
+      "count": 1069,
+      "sum": 2916864.31,
       "min": 7,
       "max": 11053,
-      "avg": 2730
+      "avg": 2729
     },
     "marketplace": {
       "count": 65,
@@ -338,11 +338,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1068,
-      "sum": 2916169.31,
+      "count": 1069,
+      "sum": 2916864.31,
       "min": 7,
       "max": 11053,
-      "avg": 2730
+      "avg": 2729
     },
     "gibson.com": {
       "count": 2,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "bc-rich-jazz-bass": {
+      "displayName": "1990s B.C. Rich Innovator PJ Bass - Red",
+      "brand": "BC Rich",
+      "model": "Jazz Bass",
+      "variant": null,
+      "count": 1,
+      "sum": 695,
+      "min": 695,
+      "max": 695,
+      "sightings": [
+        {
+          "price": 695,
+          "date": "2026-05-25T22:18:08.326+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1990s B.C. Rich Innovator PJ Bass - Red",
+          "url": "https://reverb.com/item/97000227-1990s-b-c-rich-innovator-pj-bass-red",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 695,
+          "min": 695,
+          "max": 695,
+          "avg": 695
+        }
+      },
+      "avg": 695
+    },
     "ibanez-rg-usa": {
       "displayName": "Ibanez USA Custom RG \"Streetwise\" Graphic 1991 with hard case",
       "brand": "Ibanez",
@@ -20999,6 +21030,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 244,
+      "sum": 846931.73,
+      "sold": {
+        "count": 84,
+        "sum": 253703.44,
+        "avg": 3020,
+        "min": 65,
+        "max": 35900
+      },
+      "avg": 3471,
+      "min": 65,
+      "max": 35900
+    },
     "Very Good": {
       "count": 178,
       "sum": 503197.55999999994,
@@ -21012,20 +21057,6 @@
       "avg": 2827,
       "min": 33,
       "max": 27500
-    },
-    "Excellent": {
-      "count": 243,
-      "sum": 846236.73,
-      "sold": {
-        "count": 84,
-        "sum": 253703.44,
-        "avg": 3020,
-        "min": 65,
-        "max": 35900
-      },
-      "avg": 3482,
-      "min": 65,
-      "max": 35900
     },
     "Good": {
       "count": 78,
@@ -21134,9 +21165,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2586,
+      "avg": 2580,
       "median": 2000,
-      "count": 329
+      "count": 330
     },
     "04": {
       "name": "Apr",
@@ -21295,7 +21326,7 @@
   ],
   "priceDistribution": {
     "0-500": 85,
-    "500-1k": 101,
+    "500-1k": 102,
     "1k-2k": 375,
     "2k-3k": 263,
     "3k-5k": 261,
@@ -21304,7 +21335,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 85,
-    "500-1k": 101,
+    "500-1k": 102,
     "1k-2k": 375,
     "2k-3k": 263,
     "3k-5k": 261,
@@ -21312,8 +21343,13 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 2941,
+      "count": 80,
+      "avg": 37
+    },
     "Ibanez": {
-      "sum": 2018,
+      "sum": 2019,
       "count": 56,
       "avg": 36
     },
@@ -21328,7 +21364,7 @@
       "avg": 36
     },
     "Gibson": {
-      "sum": 6154,
+      "sum": 6155,
       "count": 158,
       "avg": 39
     },
@@ -21336,11 +21372,6 @@
       "sum": 80,
       "count": 3,
       "avg": 27
-    },
-    "BC Rich": {
-      "sum": 2927,
-      "count": 79,
-      "avg": 37
     },
     "Marshall": {
       "sum": 191,
@@ -21353,7 +21384,7 @@
       "avg": 1
     },
     "Fender": {
-      "sum": 3166,
+      "sum": 3167,
       "count": 87,
       "avg": 36
     },
@@ -22184,7 +22215,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-25": 5,
+    "2026-05-25": 6,
     "2026-05-24": 8,
     "2026-05-23": 23,
     "2026-05-22": 5,
@@ -22217,11 +22248,11 @@
     "2026-04-25": 2
   },
   "categoryDistribution": {
-    "reverb": 1095,
+    "reverb": 1096,
     "marketplace": 78,
     "other": 115
   },
-  "activeModelsCount": 368,
+  "activeModelsCount": 369,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -22237,7 +22268,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 113
+      "count": 114
     },
     {
       "username": "Madero",
@@ -22399,10 +22430,10 @@
       "count": 16
     },
     "BC Rich": {
-      "avgPrice": 2985,
+      "avgPrice": 2958,
       "retailEst": 200,
-      "avgDiscount": -1392.5,
-      "count": 84
+      "avgDiscount": -1379,
+      "count": 85
     },
     "Rickenbacker": {
       "avgPrice": 2328,
@@ -24395,15 +24426,15 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 2743.063347421516,
-      "count": 167,
+      "totalPctDrop": 2750.2729602386057,
+      "count": 168,
       "avgPctDrop": 16.4
     },
     "byBrand": {
       "BC Rich": {
-        "totalPctDrop": 237.77584223562417,
-        "count": 13,
-        "avgPctDrop": 18.3
+        "totalPctDrop": 244.9854550527136,
+        "count": 14,
+        "avgPctDrop": 17.5
       },
       "Echopark": {
         "totalPctDrop": 98.2007343252217,
@@ -24709,15 +24740,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1231,
+      "total": 1232,
       "sold": 362,
       "fake": 0,
-      "live": 331,
+      "live": 332,
       "removed": 538,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 85,
+        "sold": 22,
+        "fake": 0,
+        "live": 32,
+        "removed": 31,
+        "soldPct": 26,
+        "livePct": 38
+      },
       "Ibanez": {
         "total": 58,
         "sold": 19,
@@ -24762,15 +24802,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 75
-      },
-      "BC Rich": {
-        "total": 84,
-        "sold": 22,
-        "fake": 0,
-        "live": 31,
-        "removed": 31,
-        "soldPct": 26,
-        "livePct": 37
       },
       "Marshall": {
         "total": 5,
@@ -26483,9 +26514,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 101,
+        "total": 102,
         "sold": 36,
-        "rate": 36
+        "rate": 35
       },
       {
         "label": "$1k–2k",
@@ -26519,15 +26550,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 244,
+        "sold": 87,
+        "rate": 36
+      },
       "Very Good": {
         "total": 179,
         "sold": 56,
         "rate": 31
-      },
-      "Excellent": {
-        "total": 243,
-        "sold": 87,
-        "rate": 36
       },
       "Good": {
         "total": 78,
@@ -26716,7 +26747,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 52,
-      "totalDays": 425.4,
+      "totalDays": 425.70000000000005,
       "soldCount": 11,
       "avgDaysToSell": 38.7
     },
@@ -26735,7 +26766,7 @@
       "live": 25,
       "removed": 63,
       "sellRate": 28,
-      "totalDays": 1093.3,
+      "totalDays": 1093.4999999999998,
       "soldCount": 34,
       "avgDaysToSell": 32.2
     },
@@ -26773,9 +26804,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 46,
-      "totalDays": 246.2,
+      "totalDays": 246.29999999999998,
       "soldCount": 6,
-      "avgDaysToSell": 41
+      "avgDaysToSell": 41.1
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -26811,9 +26842,9 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 197.2,
+      "totalDays": 197.4,
       "soldCount": 5,
-      "avgDaysToSell": 39.4
+      "avgDaysToSell": 39.5
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -26849,7 +26880,7 @@
       "live": 12,
       "removed": 26,
       "sellRate": 32,
-      "totalDays": 702.4,
+      "totalDays": 702.5,
       "soldCount": 18,
       "avgDaysToSell": 39
     },
@@ -26906,9 +26937,9 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 284.3,
+      "totalDays": 284.59999999999997,
       "soldCount": 7,
-      "avgDaysToSell": 40.6
+      "avgDaysToSell": 40.7
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -26925,9 +26956,9 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1222.7,
+      "totalDays": 1223.4,
       "soldCount": 31,
-      "avgDaysToSell": 39.4
+      "avgDaysToSell": 39.5
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -26982,9 +27013,9 @@
       "live": 5,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 220.1,
+      "totalDays": 220.29999999999998,
       "soldCount": 4,
-      "avgDaysToSell": 55
+      "avgDaysToSell": 55.1
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -27001,9 +27032,9 @@
       "live": 13,
       "removed": 11,
       "sellRate": 47,
-      "totalDays": 1069.9,
+      "totalDays": 1070.2,
       "soldCount": 21,
-      "avgDaysToSell": 50.9
+      "avgDaysToSell": 51
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -27020,9 +27051,9 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 594.5000000000001,
+      "totalDays": 594.8000000000001,
       "soldCount": 13,
-      "avgDaysToSell": 45.7
+      "avgDaysToSell": 45.8
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -27058,9 +27089,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 22,
-      "totalDays": 84.8,
+      "totalDays": 84.9,
       "soldCount": 2,
-      "avgDaysToSell": 42.4
+      "avgDaysToSell": 42.5
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -27077,7 +27108,7 @@
       "live": 7,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 360.6,
+      "totalDays": 360.7,
       "soldCount": 9,
       "avgDaysToSell": 40.1
     },
@@ -27115,9 +27146,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 4,
+      "totalDays": 4.1,
       "soldCount": 1,
-      "avgDaysToSell": 4
+      "avgDaysToSell": 4.1
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -27284,9 +27315,9 @@
       "live": 5,
       "removed": 10,
       "sellRate": 12,
-      "totalDays": 180.4,
+      "totalDays": 180.5,
       "soldCount": 2,
-      "avgDaysToSell": 90.2
+      "avgDaysToSell": 90.3
     },
     "Ibanez|Ibanez Standard": {
       "brand": "Ibanez",
@@ -27395,9 +27426,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 143,
+      "totalDays": 143.1,
       "soldCount": 2,
-      "avgDaysToSell": 71.5
+      "avgDaysToSell": 71.6
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -27730,7 +27761,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 122.6,
+      "totalDays": 122.80000000000001,
       "soldCount": 3,
       "avgDaysToSell": 40.9
     },
@@ -27804,9 +27835,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 33,
+      "totalDays": 33.1,
       "soldCount": 1,
-      "avgDaysToSell": 33
+      "avgDaysToSell": 33.1
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -27971,7 +28002,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 44.9,
+      "totalDays": 45,
       "soldCount": 2,
       "avgDaysToSell": 22.5
     },
@@ -27990,7 +28021,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 166,
+      "totalDays": 166.1,
       "soldCount": 4,
       "avgDaysToSell": 41.5
     },
@@ -28045,9 +28076,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 53.6,
+      "totalDays": 53.7,
       "soldCount": 1,
-      "avgDaysToSell": 53.6
+      "avgDaysToSell": 53.7
     },
     "Fender|Fender Masterbuilt": {
       "brand": "Fender",
@@ -28531,7 +28562,7 @@
     "withOffers": 190,
     "totalOffers": 419,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 34
+    "offersEnabledPct": 33
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -28552,7 +28583,7 @@
     },
     {
       "label": "6–15",
-      "total": 114,
+      "total": 115,
       "sold": 29,
       "rate": 25
     },
@@ -28576,7 +28607,7 @@
       "rate": 32
     },
     "off": {
-      "total": 147,
+      "total": 148,
       "sold": 43,
       "rate": 29
     }
@@ -28588,7 +28619,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 234,
+      "total": 235,
       "sold": 89,
       "rate": 38
     }
@@ -28614,9 +28645,9 @@
     },
     {
       "state": "TX",
-      "total": 28,
+      "total": 29,
       "sold": 13,
-      "rate": 46
+      "rate": 45
     },
     {
       "state": "FL",
