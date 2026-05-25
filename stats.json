@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-25T20:33:22.560Z",
-  "totalLinks": 1287,
-  "totalEver": 1378,
-  "totalBeforeFilter": 1378,
+  "generatedAt": "2026-05-25T20:42:39.081Z",
+  "totalLinks": 1288,
+  "totalEver": 1379,
+  "totalBeforeFilter": 1379,
   "fakeCount": 9,
   "removedCount": 555,
-  "totalWithPrice": 1270,
+  "totalWithPrice": 1271,
   "overall": {
-    "count": 1233,
-    "sum": 3388540.75,
+    "count": 1234,
+    "sum": 3390790.75,
     "avg": 2748,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1233,
-    "sum": 3388540.75,
+    "count": 1234,
+    "sum": 3390790.75,
     "avg": 2748,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
     "thresholdHigh": 11305,
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 328,
-      "sum": 848534.58,
+      "count": 329,
+      "sum": 850784.58,
       "min": 39.81,
       "max": 10350,
-      "avg": 2587
+      "avg": 2586
     },
     "2026-04": {
       "count": 778,
@@ -315,11 +315,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1067,
-      "sum": 2913919.31,
+      "count": 1068,
+      "sum": 2916169.31,
       "min": 7,
       "max": 11053,
-      "avg": 2731
+      "avg": 2730
     },
     "marketplace": {
       "count": 65,
@@ -338,11 +338,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1067,
-      "sum": 2913919.31,
+      "count": 1068,
+      "sum": 2916169.31,
       "min": 7,
       "max": 11053,
-      "avg": 2731
+      "avg": 2730
     },
     "gibson.com": {
       "count": 2,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "ibanez-rg-usa": {
+      "displayName": "Ibanez USA Custom RG \"Streetwise\" Graphic 1991 with hard case",
+      "brand": "Ibanez",
+      "model": "RG",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2250,
+      "min": 2250,
+      "max": 2250,
+      "sightings": [
+        {
+          "price": 2250,
+          "date": "2026-05-25T20:42:19.981+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez USA Custom RG \"Streetwise\" Graphic 1991 with hard case",
+          "url": "https://reverb.com/item/97507977-ibanez-usa-custom-rg-streetwise-graphic-1991-with-hard-case",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2250,
+          "min": 2250,
+          "max": 2250,
+          "avg": 2250
+        }
+      },
+      "avg": 2250
+    },
     "headless-multiscale": {
       "displayName": "Island Instruments Forty Four Fan Fret Headless Multiscale",
       "model": "Headless",
@@ -20938,6 +20969,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 178,
+      "sum": 503197.55999999994,
+      "sold": {
+        "count": 54,
+        "sum": 118455.79000000001,
+        "avg": 2194,
+        "min": 100,
+        "max": 10800
+      },
+      "avg": 2827,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 243,
       "sum": 846236.73,
@@ -20951,20 +20996,6 @@
       "avg": 3482,
       "min": 65,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 177,
-      "sum": 500947.55999999994,
-      "sold": {
-        "count": 54,
-        "sum": 118455.79000000001,
-        "avg": 2194,
-        "min": 100,
-        "max": 10800
-      },
-      "avg": 2830,
-      "min": 33,
-      "max": 27500
     },
     "Good": {
       "count": 78,
@@ -21073,9 +21104,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2587,
+      "avg": 2586,
       "median": 2000,
-      "count": 328
+      "count": 329
     },
     "04": {
       "name": "Apr",
@@ -21236,7 +21267,7 @@
     "0-500": 85,
     "500-1k": 101,
     "1k-2k": 375,
-    "2k-3k": 262,
+    "2k-3k": 263,
     "3k-5k": 261,
     "5k-10k": 137,
     "10k+": 49
@@ -21245,12 +21276,17 @@
     "0-500": 85,
     "500-1k": 101,
     "1k-2k": 375,
-    "2k-3k": 262,
+    "2k-3k": 263,
     "3k-5k": 261,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 2018,
+      "count": 56,
+      "avg": 36
+    },
     "Schecter": {
       "sum": 420,
       "count": 13,
@@ -21262,7 +21298,7 @@
       "avg": 36
     },
     "Gibson": {
-      "sum": 6153,
+      "sum": 6154,
       "count": 158,
       "avg": 39
     },
@@ -21305,11 +21341,6 @@
       "sum": 992,
       "count": 25,
       "avg": 40
-    },
-    "Ibanez": {
-      "sum": 2018,
-      "count": 55,
-      "avg": 37
     },
     "PRS": {
       "sum": 4137,
@@ -22123,7 +22154,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-25": 4,
+    "2026-05-25": 5,
     "2026-05-24": 8,
     "2026-05-23": 23,
     "2026-05-22": 5,
@@ -22156,15 +22187,15 @@
     "2026-04-25": 5
   },
   "categoryDistribution": {
-    "reverb": 1094,
+    "reverb": 1095,
     "marketplace": 78,
     "other": 115
   },
-  "activeModelsCount": 370,
+  "activeModelsCount": 371,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 346
+      "count": 347
     },
     {
       "username": "greg1213",
@@ -22278,10 +22309,10 @@
       "count": 110
     },
     "Ibanez": {
-      "avgPrice": 3405,
+      "avgPrice": 3385,
       "retailEst": 1000,
-      "avgDiscount": -240.5,
-      "count": 57
+      "avgDiscount": -238.5,
+      "count": 58
     },
     "Jackson": {
       "avgPrice": 4440,
@@ -24632,15 +24663,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1230,
+      "total": 1231,
       "sold": 360,
       "fake": 0,
-      "live": 333,
+      "live": 334,
       "removed": 537,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 58,
+        "sold": 18,
+        "fake": 0,
+        "live": 21,
+        "removed": 19,
+        "soldPct": 31,
+        "livePct": 36
+      },
       "Schecter": {
         "total": 13,
         "sold": 3,
@@ -24757,15 +24797,6 @@
         "removed": 24,
         "soldPct": 4,
         "livePct": 4
-      },
-      "Ibanez": {
-        "total": 57,
-        "sold": 18,
-        "fake": 0,
-        "live": 20,
-        "removed": 19,
-        "soldPct": 32,
-        "livePct": 35
       },
       "PRS": {
         "total": 111,
@@ -26418,7 +26449,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 262,
+        "total": 263,
         "sold": 97,
         "rate": 37
       },
@@ -26442,15 +26473,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 179,
+        "sold": 54,
+        "rate": 30
+      },
       "Excellent": {
         "total": 243,
         "sold": 87,
         "rate": 36
-      },
-      "Very Good": {
-        "total": 178,
-        "sold": 54,
-        "rate": 30
       },
       "Good": {
         "total": 78,
@@ -26587,6 +26618,24 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez USA Custom": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez USA Custom",
+      "tier": "ultra",
+      "count": 3,
+      "sum": 5600,
+      "avg": 1867,
+      "min": 850,
+      "max": 2500,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "removed": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Schecter|Schecter Japan": {
       "brand": "Schecter",
       "brandLine": "Schecter Japan",
@@ -26639,7 +26688,7 @@
       "live": 26,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1082.8,
+      "totalDays": 1083.1,
       "soldCount": 33,
       "avgDaysToSell": 32.8
     },
@@ -26715,7 +26764,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 197.1,
+      "totalDays": 197.2,
       "soldCount": 5,
       "avgDaysToSell": 39.4
     },
@@ -26829,7 +26878,7 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1220.7999999999997,
+      "totalDays": 1221.2,
       "soldCount": 31,
       "avgDaysToSell": 39.4
     },
@@ -26848,7 +26897,7 @@
       "live": 2,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 145.1,
+      "totalDays": 145.2,
       "soldCount": 6,
       "avgDaysToSell": 24.2
     },
@@ -26905,7 +26954,7 @@
       "live": 13,
       "removed": 11,
       "sellRate": 47,
-      "totalDays": 1068.4999999999998,
+      "totalDays": 1068.6,
       "soldCount": 21,
       "avgDaysToSell": 50.9
     },
@@ -26924,7 +26973,7 @@
       "live": 4,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 593.8,
+      "totalDays": 593.9,
       "soldCount": 13,
       "avgDaysToSell": 45.7
     },
@@ -26981,7 +27030,7 @@
       "live": 7,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 359.9,
+      "totalDays": 359.99999999999994,
       "soldCount": 9,
       "avgDaysToSell": 40
     },
@@ -27188,9 +27237,9 @@
       "live": 5,
       "removed": 10,
       "sellRate": 12,
-      "totalDays": 180.29999999999998,
+      "totalDays": 180.4,
       "soldCount": 2,
-      "avgDaysToSell": 90.1
+      "avgDaysToSell": 90.2
     },
     "Ibanez|Ibanez Standard": {
       "brand": "Ibanez",
@@ -27226,7 +27275,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 175.10000000000002,
+      "totalDays": 175.2,
       "soldCount": 4,
       "avgDaysToSell": 43.8
     },
@@ -27466,9 +27515,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 117,
+      "totalDays": 117.1,
       "soldCount": 1,
-      "avgDaysToSell": 117
+      "avgDaysToSell": 117.1
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -27504,7 +27553,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 73.7,
+      "totalDays": 73.8,
       "soldCount": 2,
       "avgDaysToSell": 36.9
     },
@@ -27800,9 +27849,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 155.7,
+      "totalDays": 155.8,
       "soldCount": 4,
-      "avgDaysToSell": 38.9
+      "avgDaysToSell": 39
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -28188,9 +28237,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 39.8,
+      "totalDays": 39.9,
       "soldCount": 1,
-      "avgDaysToSell": 39.8
+      "avgDaysToSell": 39.9
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -28320,24 +28369,6 @@
       "soldCount": 1,
       "avgDaysToSell": 45.9
     },
-    "Ibanez|Ibanez USA Custom": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez USA Custom",
-      "tier": null,
-      "count": 2,
-      "sum": 3350,
-      "avg": 1675,
-      "min": 850,
-      "max": 2500,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "removed": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "ESP|ESP Original": {
       "brand": "ESP",
       "brandLine": "ESP Original",
@@ -28453,7 +28484,7 @@
     "withOffers": 190,
     "totalOffers": 419,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 33
+    "offersEnabledPct": 34
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -28462,9 +28493,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 4,
+      "total": 5,
       "sold": 2,
-      "rate": 50
+      "rate": 40
     },
     {
       "label": "1–5",
@@ -28493,7 +28524,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 366,
+      "total": 367,
       "sold": 117,
       "rate": 32
     },
@@ -28505,7 +28536,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 266,
+      "total": 267,
       "sold": 63,
       "rate": 24
     },
@@ -28753,6 +28784,12 @@
     {
       "state": "Stockholm",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "WV",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
