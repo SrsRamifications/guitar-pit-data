@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-25T23:48:28.926Z",
-  "totalLinks": 1289,
-  "totalEver": 1380,
-  "totalBeforeFilter": 1380,
+  "generatedAt": "2026-05-25T23:53:24.945Z",
+  "totalLinks": 1290,
+  "totalEver": 1381,
+  "totalBeforeFilter": 1381,
   "fakeCount": 9,
   "removedCount": 556,
-  "totalWithPrice": 1272,
+  "totalWithPrice": 1273,
   "overall": {
-    "count": 1235,
-    "sum": 3391485.75,
-    "avg": 2746,
+    "count": 1236,
+    "sum": 3392485.75,
+    "avg": 2745,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1235,
-    "sum": 3391485.75,
-    "avg": 2746,
+    "count": 1236,
+    "sum": 3392485.75,
+    "avg": 2745,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11305,
+    "thresholdHigh": 11308,
     "thresholdLow": 0,
     "count": 37,
     "items": [
@@ -292,11 +292,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 330,
-      "sum": 851479.58,
+      "count": 331,
+      "sum": 852479.58,
       "min": 39.81,
       "max": 10350,
-      "avg": 2580
+      "avg": 2575
     },
     "2026-04": {
       "count": 778,
@@ -315,11 +315,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1069,
-      "sum": 2916864.31,
+      "count": 1070,
+      "sum": 2917864.31,
       "min": 7,
       "max": 11053,
-      "avg": 2729
+      "avg": 2727
     },
     "marketplace": {
       "count": 65,
@@ -338,11 +338,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1069,
-      "sum": 2916864.31,
+      "count": 1070,
+      "sum": 2917864.31,
       "min": 7,
       "max": 11053,
-      "avg": 2729
+      "avg": 2727
     },
     "gibson.com": {
       "count": 2,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "prs-eg4": {
+      "displayName": "1990 PRS EG4",
+      "brand": "PRS",
+      "model": "EG4",
+      "variant": null,
+      "count": 1,
+      "sum": 1000,
+      "min": 1000,
+      "max": 1000,
+      "sightings": [
+        {
+          "price": 1000,
+          "date": "2026-05-25T23:53:07.524+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1990 PRS EG4",
+          "url": "https://reverb.com/item/87933785-1990-prs-eg4",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1000,
+          "min": 1000,
+          "max": 1000,
+          "avg": 1000
+        }
+      },
+      "avg": 1000
+    },
     "bc-rich-jazz-bass": {
       "displayName": "1990s B.C. Rich Innovator PJ Bass - Red",
       "brand": "BC Rich",
@@ -21030,6 +21061,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 179,
+      "sum": 504197.55999999994,
+      "sold": {
+        "count": 56,
+        "sum": 125705.79000000001,
+        "avg": 2245,
+        "min": 100,
+        "max": 10800
+      },
+      "avg": 2817,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 244,
       "sum": 846931.73,
@@ -21043,20 +21088,6 @@
       "avg": 3471,
       "min": 65,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 178,
-      "sum": 503197.55999999994,
-      "sold": {
-        "count": 56,
-        "sum": 125705.79000000001,
-        "avg": 2245,
-        "min": 100,
-        "max": 10800
-      },
-      "avg": 2827,
-      "min": 33,
-      "max": 27500
     },
     "Good": {
       "count": 78,
@@ -21165,9 +21196,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2580,
+      "avg": 2575,
       "median": 2000,
-      "count": 330
+      "count": 331
     },
     "04": {
       "name": "Apr",
@@ -21327,7 +21358,7 @@
   "priceDistribution": {
     "0-500": 85,
     "500-1k": 102,
-    "1k-2k": 375,
+    "1k-2k": 376,
     "2k-3k": 263,
     "3k-5k": 261,
     "5k-10k": 137,
@@ -21336,13 +21367,18 @@
   "priceDistributionFiltered": {
     "0-500": 85,
     "500-1k": 102,
-    "1k-2k": 375,
+    "1k-2k": 376,
     "2k-3k": 263,
     "3k-5k": 261,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 4142,
+      "count": 109,
+      "avg": 38
+    },
     "BC Rich": {
       "sum": 2942,
       "count": 80,
@@ -21402,11 +21438,6 @@
       "sum": 992,
       "count": 25,
       "avg": 40
-    },
-    "PRS": {
-      "sum": 4137,
-      "count": 108,
-      "avg": 38
     },
     "Suhr": {
       "sum": 471,
@@ -21689,7 +21720,7 @@
       "avg": 40
     },
     "Guild": {
-      "sum": 275,
+      "sum": 276,
       "count": 6,
       "avg": 46
     },
@@ -22215,7 +22246,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-25": 6,
+    "2026-05-25": 7,
     "2026-05-24": 8,
     "2026-05-23": 23,
     "2026-05-22": 5,
@@ -22247,11 +22278,11 @@
     "2026-04-26": 19
   },
   "categoryDistribution": {
-    "reverb": 1096,
+    "reverb": 1097,
     "marketplace": 78,
     "other": 115
   },
-  "activeModelsCount": 368,
+  "activeModelsCount": 369,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -22263,7 +22294,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 130
+      "count": 131
     },
     {
       "username": "YellowJack6",
@@ -22363,10 +22394,10 @@
       "count": 28
     },
     "PRS": {
-      "avgPrice": 4313,
+      "avgPrice": 4283,
       "retailEst": 1000,
-      "avgDiscount": -331.3,
-      "count": 110
+      "avgDiscount": -328.3,
+      "count": 111
     },
     "Ibanez": {
       "avgPrice": 3385,
@@ -24425,11 +24456,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 2750.2729602386057,
-      "count": 168,
+      "totalPctDrop": 2776.198886164532,
+      "count": 169,
       "avgPctDrop": 16.4
     },
     "byBrand": {
+      "PRS": {
+        "totalPctDrop": 133.2912373576274,
+        "count": 6,
+        "avgPctDrop": 22.2
+      },
       "BC Rich": {
         "totalPctDrop": 244.9854550527136,
         "count": 14,
@@ -24585,11 +24621,6 @@
         "count": 1,
         "avgPctDrop": 31.6
       },
-      "PRS": {
-        "totalPctDrop": 107.36531143170149,
-        "count": 5,
-        "avgPctDrop": 21.5
-      },
       "Fano": {
         "totalPctDrop": 8.001600320064012,
         "count": 1,
@@ -24739,15 +24770,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1232,
+      "total": 1233,
       "sold": 362,
       "fake": 0,
-      "live": 332,
+      "live": 333,
       "removed": 538,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "PRS": {
+        "total": 112,
+        "sold": 36,
+        "fake": 0,
+        "live": 26,
+        "removed": 50,
+        "soldPct": 32,
+        "livePct": 23
+      },
       "BC Rich": {
         "total": 85,
         "sold": 22,
@@ -24873,15 +24913,6 @@
         "removed": 24,
         "soldPct": 4,
         "livePct": 4
-      },
-      "PRS": {
-        "total": 111,
-        "sold": 36,
-        "fake": 0,
-        "live": 25,
-        "removed": 50,
-        "soldPct": 32,
-        "livePct": 23
       },
       "Suhr": {
         "total": 13,
@@ -26519,7 +26550,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 375,
+        "total": 376,
         "sold": 112,
         "rate": 30
       },
@@ -26549,15 +26580,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 180,
+        "sold": 56,
+        "rate": 31
+      },
       "Excellent": {
         "total": 244,
         "sold": 87,
         "rate": 36
-      },
-      "Very Good": {
-        "total": 179,
-        "sold": 56,
-        "rate": 31
       },
       "Good": {
         "total": 78,
@@ -26765,7 +26796,7 @@
       "live": 25,
       "removed": 63,
       "sellRate": 28,
-      "totalDays": 1096.1,
+      "totalDays": 1096.3,
       "soldCount": 34,
       "avgDaysToSell": 32.2
     },
@@ -26860,9 +26891,9 @@
       "live": 7,
       "removed": 4,
       "sellRate": 8,
-      "totalDays": 54.3,
+      "totalDays": 54.4,
       "soldCount": 1,
-      "avgDaysToSell": 54.3
+      "avgDaysToSell": 54.4
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -26898,7 +26929,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 49.5,
+      "totalDays": 49.6,
       "soldCount": 3,
       "avgDaysToSell": 16.5
     },
@@ -26955,7 +26986,7 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1225.3000000000002,
+      "totalDays": 1225.4,
       "soldCount": 31,
       "avgDaysToSell": 39.5
     },
@@ -27031,7 +27062,7 @@
       "live": 13,
       "removed": 11,
       "sellRate": 47,
-      "totalDays": 1071.3,
+      "totalDays": 1071.5,
       "soldCount": 21,
       "avgDaysToSell": 51
     },
@@ -27107,7 +27138,7 @@
       "live": 7,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 361,
+      "totalDays": 361.09999999999997,
       "soldCount": 9,
       "avgDaysToSell": 40.1
     },
@@ -28020,7 +28051,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 166.3,
+      "totalDays": 166.4,
       "soldCount": 4,
       "avgDaysToSell": 41.6
     },
@@ -28561,11 +28592,11 @@
     "withOffers": 190,
     "totalOffers": 419,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 33
+    "offersEnabledPct": 34
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 106
+    "avgShippingCost": 107
   },
   "watcherDemand": [
     {
@@ -28588,7 +28619,7 @@
     },
     {
       "label": "16–30",
-      "total": 153,
+      "total": 154,
       "sold": 45,
       "rate": 29
     },
@@ -28601,7 +28632,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 367,
+      "total": 368,
       "sold": 119,
       "rate": 32
     },
@@ -28613,7 +28644,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 267,
+      "total": 268,
       "sold": 64,
       "rate": 24
     },
@@ -28691,6 +28722,12 @@
       "rate": 21
     },
     {
+      "state": "OH",
+      "total": 13,
+      "sold": 3,
+      "rate": 23
+    },
+    {
       "state": "NJ",
       "total": 13,
       "sold": 6,
@@ -28701,12 +28738,6 @@
       "total": 12,
       "sold": 4,
       "rate": 33
-    },
-    {
-      "state": "OH",
-      "total": 12,
-      "sold": 3,
-      "rate": 25
     },
     {
       "state": "NC",
