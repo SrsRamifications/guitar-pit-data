@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-26T23:48:29.679Z",
-  "totalLinks": 1308,
-  "totalEver": 1400,
-  "totalBeforeFilter": 1400,
+  "generatedAt": "2026-05-26T23:54:42.186Z",
+  "totalLinks": 1309,
+  "totalEver": 1401,
+  "totalBeforeFilter": 1401,
   "fakeCount": 9,
   "removedCount": 557,
-  "totalWithPrice": 1290,
+  "totalWithPrice": 1291,
   "overall": {
-    "count": 1252,
-    "sum": 3423314.69,
+    "count": 1253,
+    "sum": 3425639.69,
     "avg": 2734,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1252,
-    "sum": 3423314.69,
+    "count": 1253,
+    "sum": 3425639.69,
     "avg": 2734,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
     "thresholdHigh": 11117,
@@ -300,11 +300,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 347,
-      "sum": 883081.52,
+      "count": 348,
+      "sum": 885406.52,
       "min": 39.81,
       "max": 10350,
-      "avg": 2545
+      "avg": 2544
     },
     "2026-04": {
       "count": 778,
@@ -323,8 +323,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1080,
-      "sum": 2933693.31,
+      "count": 1081,
+      "sum": 2936018.31,
       "min": 7,
       "max": 11053,
       "avg": 2716
@@ -346,8 +346,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1080,
-      "sum": 2933693.31,
+      "count": 1081,
+      "sum": 2936018.31,
       "min": 7,
       "max": 11053,
       "avg": 2716
@@ -592,6 +592,37 @@
     }
   },
   "byModel": {
+    "friedman-bullseye": {
+      "displayName": "Friedman Vintage T Bullseye 2025",
+      "brand": "Friedman",
+      "model": "Bullseye",
+      "variant": null,
+      "count": 1,
+      "sum": 2325,
+      "min": 2325,
+      "max": 2325,
+      "sightings": [
+        {
+          "price": 2325,
+          "date": "2026-05-26T23:54:23.078+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Friedman Vintage T Bullseye 2025",
+          "url": "https://reverb.com/item/97536323-friedman-vintage-t-bullseye-2025",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 2325,
+          "min": 2325,
+          "max": 2325,
+          "avg": 2325
+        }
+      },
+      "avg": 2325
+    },
     "aristides-t0r": {
       "displayName": "Aristides T/0r Shell Pink",
       "brand": "Aristides",
@@ -21617,6 +21648,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 80,
+      "sum": 244022.95,
+      "sold": {
+        "count": 18,
+        "sum": 31902.469999999998,
+        "avg": 1772,
+        "min": 550,
+        "max": 4777.5
+      },
+      "avg": 3050,
+      "min": 70,
+      "max": 55000
+    },
     "Very Good": {
       "count": 186,
       "sum": 515671.55999999994,
@@ -21655,20 +21700,6 @@
       "avg": 7451,
       "min": 475.99,
       "max": 99000
-    },
-    "Good": {
-      "count": 79,
-      "sum": 241697.95,
-      "sold": {
-        "count": 18,
-        "sum": 31902.469999999998,
-        "avg": 1772,
-        "min": 550,
-        "max": 4777.5
-      },
-      "avg": 3059,
-      "min": 70,
-      "max": 55000
     },
     "Brand New": {
       "count": 51,
@@ -21752,9 +21783,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2545,
+      "avg": 2544,
       "median": 2000,
-      "count": 347
+      "count": 348
     },
     "04": {
       "name": "Apr",
@@ -21915,7 +21946,7 @@
     "0-500": 85,
     "500-1k": 104,
     "1k-2k": 381,
-    "2k-3k": 271,
+    "2k-3k": 272,
     "3k-5k": 263,
     "5k-10k": 136,
     "10k+": 50
@@ -21924,12 +21955,17 @@
     "0-500": 85,
     "500-1k": 104,
     "1k-2k": 381,
-    "2k-3k": 271,
+    "2k-3k": 272,
     "3k-5k": 263,
     "5k-10k": 136,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Friedman": {
+      "sum": 247,
+      "count": 9,
+      "avg": 27
+    },
     "Aristides": {
       "sum": 170,
       "count": 5,
@@ -22001,7 +22037,7 @@
       "avg": 37
     },
     "Lollar": {
-      "sum": 83,
+      "sum": 84,
       "count": 3,
       "avg": 28
     },
@@ -22064,11 +22100,6 @@
       "sum": 178,
       "count": 6,
       "avg": 30
-    },
-    "Friedman": {
-      "sum": 247,
-      "count": 8,
-      "avg": 31
     },
     "Dean": {
       "sum": 361,
@@ -22296,7 +22327,7 @@
       "avg": 41
     },
     "Guild": {
-      "sum": 281,
+      "sum": 282,
       "count": 6,
       "avg": 47
     },
@@ -22802,7 +22833,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-26": 18,
+    "2026-05-26": 19,
     "2026-05-25": 7,
     "2026-05-24": 8,
     "2026-05-23": 23,
@@ -22834,11 +22865,11 @@
     "2026-04-27": 15
   },
   "categoryDistribution": {
-    "reverb": 1108,
+    "reverb": 1109,
     "marketplace": 85,
     "other": 115
   },
-  "activeModelsCount": 369,
+  "activeModelsCount": 370,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -22866,7 +22897,7 @@
     },
     {
       "username": "Modean",
-      "count": 65
+      "count": 66
     },
     {
       "username": "scottcorgan",
@@ -25379,15 +25410,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1249,
+      "total": 1250,
       "sold": 367,
       "fake": 0,
-      "live": 343,
+      "live": 344,
       "removed": 539,
       "soldPct": 29,
-      "livePct": 27
+      "livePct": 28
     },
     "byBrand": {
+      "Friedman": {
+        "total": 9,
+        "sold": 5,
+        "fake": 0,
+        "live": 4,
+        "removed": 0,
+        "soldPct": 56,
+        "livePct": 44
+      },
       "Aristides": {
         "total": 5,
         "sold": 4,
@@ -25648,15 +25688,6 @@
         "removed": 4,
         "soldPct": 11,
         "livePct": 44
-      },
-      "Friedman": {
-        "total": 8,
-        "sold": 5,
-        "fake": 0,
-        "live": 3,
-        "removed": 0,
-        "soldPct": 63,
-        "livePct": 38
       },
       "Dean": {
         "total": 9,
@@ -27016,13 +27047,6 @@
         "soldPct": 67
       },
       {
-        "brand": "Friedman",
-        "total": 8,
-        "sold": 5,
-        "live": 3,
-        "soldPct": 63
-      },
-      {
         "brand": "First Act",
         "total": 5,
         "sold": 3,
@@ -27049,6 +27073,13 @@
         "sold": 4,
         "live": 3,
         "soldPct": 57
+      },
+      {
+        "brand": "Friedman",
+        "total": 9,
+        "sold": 5,
+        "live": 4,
+        "soldPct": 56
       },
       {
         "brand": "Music Man",
@@ -27165,7 +27196,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 271,
+        "total": 272,
         "sold": 100,
         "rate": 37
       },
@@ -27189,6 +27220,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 80,
+        "sold": 22,
+        "rate": 28
+      },
       "Very Good": {
         "total": 187,
         "sold": 59,
@@ -27203,11 +27239,6 @@
         "total": 50,
         "sold": 6,
         "rate": 12
-      },
-      "Good": {
-        "total": 79,
-        "sold": 22,
-        "rate": 28
       },
       "Brand New": {
         "total": 51,
@@ -27334,6 +27365,25 @@
     ]
   },
   "byBrandLine": {
+    "Friedman|Friedman": {
+      "brand": "Friedman",
+      "brandLine": "Friedman",
+      "tier": "premium",
+      "count": 9,
+      "sum": 21750,
+      "avg": 2417,
+      "min": 1899,
+      "max": 3759,
+      "sold": 5,
+      "soldSum": 10271,
+      "soldAvg": 2054,
+      "live": 4,
+      "removed": 0,
+      "sellRate": 56,
+      "totalDays": 220.09999999999997,
+      "soldCount": 5,
+      "avgDaysToSell": 44
+    },
     "Aristides|Aristides": {
       "brand": "Aristides",
       "brandLine": "Aristides",
@@ -27349,7 +27399,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 80,
-      "totalDays": 170.3,
+      "totalDays": 170.4,
       "soldCount": 4,
       "avgDaysToSell": 42.6
     },
@@ -27406,7 +27456,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 370.00000000000006,
+      "totalDays": 370.1,
       "soldCount": 9,
       "avgDaysToSell": 41.1
     },
@@ -27425,7 +27475,7 @@
       "live": 27,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1130.1000000000001,
+      "totalDays": 1130.3000000000002,
       "soldCount": 34,
       "avgDaysToSell": 33.2
     },
@@ -27631,9 +27681,9 @@
       "live": 7,
       "removed": 4,
       "sellRate": 8,
-      "totalDays": 55.3,
+      "totalDays": 55.4,
       "soldCount": 1,
-      "avgDaysToSell": 55.3
+      "avgDaysToSell": 55.4
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -27669,7 +27719,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 52.5,
+      "totalDays": 52.6,
       "soldCount": 3,
       "avgDaysToSell": 17.5
     },
@@ -27726,7 +27776,7 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1256.3000000000002,
+      "totalDays": 1256.4,
       "soldCount": 31,
       "avgDaysToSell": 40.5
     },
@@ -27802,7 +27852,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 49,
-      "totalDays": 1099.5,
+      "totalDays": 1099.7,
       "soldCount": 22,
       "avgDaysToSell": 50
     },
@@ -27920,25 +27970,6 @@
       "soldCount": 1,
       "avgDaysToSell": 18.1
     },
-    "Friedman|Friedman": {
-      "brand": "Friedman",
-      "brandLine": "Friedman",
-      "tier": "premium",
-      "count": 8,
-      "sum": 19425,
-      "avg": 2428,
-      "min": 1899,
-      "max": 3759,
-      "sold": 5,
-      "soldSum": 10271,
-      "soldAvg": 2054,
-      "live": 3,
-      "removed": 0,
-      "sellRate": 63,
-      "totalDays": 220.09999999999997,
-      "soldCount": 5,
-      "avgDaysToSell": 44
-    },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
       "brandLine": "Charvel USA",
@@ -27972,7 +28003,7 @@
       "live": 3,
       "removed": 9,
       "sellRate": 25,
-      "totalDays": 231.10000000000002,
+      "totalDays": 231.2,
       "soldCount": 4,
       "avgDaysToSell": 57.8
     },
@@ -29082,9 +29113,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 100.2,
+      "totalDays": 100.30000000000001,
       "soldCount": 2,
-      "avgDaysToSell": 50.1
+      "avgDaysToSell": 50.2
     },
     "Parker|Parker Spanish Fly": {
       "brand": "Parker",
@@ -29217,9 +29248,9 @@
     },
     {
       "label": "1–5",
-      "total": 38,
+      "total": 39,
       "sold": 13,
-      "rate": 34
+      "rate": 33
     },
     {
       "label": "6–15",
@@ -29242,9 +29273,9 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 378,
+      "total": 379,
       "sold": 123,
-      "rate": 33
+      "rate": 32
     },
     "off": {
       "total": 149,
@@ -29254,7 +29285,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 275,
+      "total": 276,
       "sold": 67,
       "rate": 24
     },
@@ -29279,9 +29310,9 @@
     },
     {
       "state": "IL",
-      "total": 31,
+      "total": 32,
       "sold": 8,
-      "rate": 26
+      "rate": 25
     },
     {
       "state": "TX",
