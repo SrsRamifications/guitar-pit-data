@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-26T00:03:29.788Z",
-  "totalLinks": 1290,
-  "totalEver": 1381,
-  "totalBeforeFilter": 1381,
+  "generatedAt": "2026-05-26T00:17:20.275Z",
+  "totalLinks": 1291,
+  "totalEver": 1382,
+  "totalBeforeFilter": 1382,
   "fakeCount": 9,
   "removedCount": 556,
-  "totalWithPrice": 1273,
+  "totalWithPrice": 1274,
   "overall": {
-    "count": 1236,
-    "sum": 3392485.75,
+    "count": 1237,
+    "sum": 3394985.74,
     "avg": 2745,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1236,
-    "sum": 3392485.75,
+    "count": 1237,
+    "sum": 3394985.74,
     "avg": 2745,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
     "thresholdHigh": 11308,
@@ -292,8 +292,8 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 331,
-      "sum": 852479.58,
+      "count": 332,
+      "sum": 854979.57,
       "min": 39.81,
       "max": 10350,
       "avg": 2575
@@ -314,19 +314,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 66,
+      "sum": 189289.49,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2868
+    },
     "reverb": {
       "count": 1070,
       "sum": 2917864.31,
       "min": 7,
       "max": 11053,
       "avg": 2727
-    },
-    "marketplace": {
-      "count": 65,
-      "sum": 186789.5,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2874
     },
     "other": {
       "count": 101,
@@ -337,6 +337,13 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 65,
+      "sum": 126011.4,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1939
+    },
     "reverb.com": {
       "count": 1070,
       "sum": 2917864.31,
@@ -350,13 +357,6 @@
       "min": 2599,
       "max": 6999,
       "avg": 4799
-    },
-    "guitarcenter.com": {
-      "count": 64,
-      "sum": 123511.41,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1930
     },
     "musicgoround.com": {
       "count": 7,
@@ -584,6 +584,37 @@
     }
   },
   "byModel": {
+    "bilt-sg": {
+      "displayName": "Used Bilt ESG Gold Antigua Solid Body Electric Guitar Gold Antigua",
+      "brand": "Bilt",
+      "model": "SG",
+      "variant": null,
+      "count": 1,
+      "sum": 2499.99,
+      "min": 2499.99,
+      "max": 2499.99,
+      "sightings": [
+        {
+          "price": 2499.99,
+          "date": "2026-05-26T00:17:01.475+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used Bilt ESG Gold Antigua Solid Body Electric Guitar Gold Antigua",
+          "url": "https://www.guitarcenter.com/Used/Bilt/Used-Bilt-ESG-Gold-Antigua-Solid-Body-Electric-Guitar.gc?algoliaQueryID=9aba8706e1840a865e142fdc4f02806b&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2499.99,
+          "min": 2499.99,
+          "max": 2499.99,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "prs-eg4": {
       "displayName": "1990 PRS EG4",
       "brand": "PRS",
@@ -21061,6 +21092,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 44,
+      "sum": 352606.72999999986,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 8014,
+      "min": 475.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 179,
       "sum": 504197.55999999994,
@@ -21102,17 +21144,6 @@
       "avg": 2391,
       "min": 70,
       "max": 17995
-    },
-    "Used": {
-      "count": 43,
-      "sum": 350106.7399999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 8142,
-      "min": 475.99,
-      "max": 99000
     },
     "Brand New": {
       "count": 51,
@@ -21198,7 +21229,7 @@
       "name": "May",
       "avg": 2575,
       "median": 2000,
-      "count": 331
+      "count": 332
     },
     "04": {
       "name": "Apr",
@@ -21359,7 +21390,7 @@
     "0-500": 85,
     "500-1k": 102,
     "1k-2k": 376,
-    "2k-3k": 263,
+    "2k-3k": 264,
     "3k-5k": 261,
     "5k-10k": 137,
     "10k+": 49
@@ -21368,12 +21399,17 @@
     "0-500": 85,
     "500-1k": 102,
     "1k-2k": 376,
-    "2k-3k": 263,
+    "2k-3k": 264,
     "3k-5k": 261,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Bilt": {
+      "sum": 54,
+      "count": 2,
+      "avg": 27
+    },
     "PRS": {
       "sum": 4142,
       "count": 109,
@@ -21455,7 +21491,7 @@
       "avg": 44
     },
     "Kiesel": {
-      "sum": 1585,
+      "sum": 1586,
       "count": 42,
       "avg": 38
     },
@@ -21955,14 +21991,14 @@
       "avg": 39
     },
     "Aluminati": {
-      "sum": 39,
+      "sum": 40,
       "count": 1,
-      "avg": 39
+      "avg": 40
     },
     "Contriver Guitars": {
-      "sum": 39,
+      "sum": 40,
       "count": 1,
-      "avg": 39
+      "avg": 40
     },
     "Gold Tone": {
       "sum": 40,
@@ -22169,11 +22205,6 @@
       "count": 1,
       "avg": 53
     },
-    "Bilt": {
-      "sum": 54,
-      "count": 1,
-      "avg": 54
-    },
     "Atkin": {
       "sum": 54,
       "count": 1,
@@ -22246,6 +22277,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-05-26": 1,
     "2026-05-25": 7,
     "2026-05-24": 8,
     "2026-05-23": 23,
@@ -22278,11 +22310,11 @@
     "2026-04-26": 19
   },
   "categoryDistribution": {
+    "marketplace": 79,
     "reverb": 1097,
-    "marketplace": 78,
     "other": 115
   },
-  "activeModelsCount": 369,
+  "activeModelsCount": 370,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -22294,7 +22326,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 131
+      "count": 132
     },
     {
       "username": "YellowJack6",
@@ -24770,15 +24802,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1233,
+      "total": 1234,
       "sold": 362,
       "fake": 0,
-      "live": 333,
+      "live": 334,
       "removed": 538,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Bilt": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "removed": 1,
+        "soldPct": 0,
+        "livePct": 50
+      },
       "PRS": {
         "total": 112,
         "sold": 36,
@@ -26246,15 +26287,6 @@
         "soldPct": 100,
         "livePct": 0
       },
-      "Bilt": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 0,
-        "removed": 1,
-        "soldPct": 0,
-        "livePct": 0
-      },
       "Atkin": {
         "total": 1,
         "sold": 0,
@@ -26556,7 +26588,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 263,
+        "total": 264,
         "sold": 99,
         "rate": 38
       },
@@ -26580,6 +26612,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 45,
+        "sold": 6,
+        "rate": 13
+      },
       "Very Good": {
         "total": 180,
         "sold": 56,
@@ -26594,11 +26631,6 @@
         "total": 78,
         "sold": 22,
         "rate": 28
-      },
-      "Used": {
-        "total": 44,
-        "sold": 6,
-        "rate": 14
       },
       "Brand New": {
         "total": 51,
@@ -26725,6 +26757,24 @@
     ]
   },
   "byBrandLine": {
+    "Bilt|Bilt": {
+      "brand": "Bilt",
+      "brandLine": "Bilt",
+      "tier": "premium",
+      "count": 2,
+      "sum": 4999.99,
+      "avg": 2500,
+      "min": 2499.99,
+      "max": 2500,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "removed": 1,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez USA Custom",
@@ -26740,9 +26790,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 0.1,
+      "totalDays": 0.2,
       "soldCount": 1,
-      "avgDaysToSell": 0.1
+      "avgDaysToSell": 0.2
     },
     "Schecter|Schecter Japan": {
       "brand": "Schecter",
@@ -26777,7 +26827,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 52,
-      "totalDays": 426.3,
+      "totalDays": 426.4,
       "soldCount": 11,
       "avgDaysToSell": 38.8
     },
@@ -26796,9 +26846,9 @@
       "live": 25,
       "removed": 63,
       "sellRate": 28,
-      "totalDays": 1096.4,
+      "totalDays": 1096.5,
       "soldCount": 34,
-      "avgDaysToSell": 32.2
+      "avgDaysToSell": 32.3
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -26910,7 +26960,7 @@
       "live": 12,
       "removed": 26,
       "sellRate": 32,
-      "totalDays": 703.8000000000001,
+      "totalDays": 704.2,
       "soldCount": 18,
       "avgDaysToSell": 39.1
     },
@@ -26929,9 +26979,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 49.6,
+      "totalDays": 49.7,
       "soldCount": 3,
-      "avgDaysToSell": 16.5
+      "avgDaysToSell": 16.6
     },
     "Rickenbacker|Rickenbacker": {
       "brand": "Rickenbacker",
@@ -26967,7 +27017,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 284.7,
+      "totalDays": 284.9,
       "soldCount": 7,
       "avgDaysToSell": 40.7
     },
@@ -27062,7 +27112,7 @@
       "live": 13,
       "removed": 11,
       "sellRate": 47,
-      "totalDays": 1071.5,
+      "totalDays": 1071.9,
       "soldCount": 21,
       "avgDaysToSell": 51
     },
@@ -27081,7 +27131,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 595.4000000000001,
+      "totalDays": 595.5999999999999,
       "soldCount": 13,
       "avgDaysToSell": 45.8
     },
@@ -27138,7 +27188,7 @@
       "live": 7,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 361.2,
+      "totalDays": 361.29999999999995,
       "soldCount": 9,
       "avgDaysToSell": 40.1
     },
@@ -27232,9 +27282,9 @@
       "live": 3,
       "removed": 0,
       "sellRate": 63,
-      "totalDays": 215.09999999999997,
+      "totalDays": 215.3,
       "soldCount": 5,
-      "avgDaysToSell": 43
+      "avgDaysToSell": 43.1
     },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
@@ -27288,9 +27338,9 @@
       "live": 5,
       "removed": 3,
       "sellRate": 11,
-      "totalDays": 6.2,
+      "totalDays": 6.3,
       "soldCount": 1,
-      "avgDaysToSell": 6.2
+      "avgDaysToSell": 6.3
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -27512,9 +27562,9 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 120.1,
+      "totalDays": 120.19999999999999,
       "soldCount": 4,
-      "avgDaysToSell": 30
+      "avgDaysToSell": 30.1
     },
     "Parker|Parker Fly Deluxe": {
       "brand": "Parker",
@@ -27531,9 +27581,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 28.3,
+      "totalDays": 28.4,
       "soldCount": 1,
-      "avgDaysToSell": 28.3
+      "avgDaysToSell": 28.4
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -27698,7 +27748,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 44,
-      "totalDays": 173.6,
+      "totalDays": 173.7,
       "soldCount": 4,
       "avgDaysToSell": 43.4
     },
@@ -27957,7 +28007,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 156.3,
+      "totalDays": 156.39999999999998,
       "soldCount": 4,
       "avgDaysToSell": 39.1
     },
@@ -27976,9 +28026,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 51.1,
+      "totalDays": 51.2,
       "soldCount": 1,
-      "avgDaysToSell": 51.1
+      "avgDaysToSell": 51.2
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -27995,7 +28045,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 93.5,
+      "totalDays": 93.6,
       "soldCount": 2,
       "avgDaysToSell": 46.8
     },
@@ -28217,9 +28267,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 50.8,
+      "totalDays": 50.9,
       "soldCount": 1,
-      "avgDaysToSell": 50.8
+      "avgDaysToSell": 50.9
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -28550,24 +28600,6 @@
       "totalDays": 56.2,
       "soldCount": 1,
       "avgDaysToSell": 56.2
-    },
-    "Bilt|Bilt": {
-      "brand": "Bilt",
-      "brandLine": "Bilt",
-      "tier": null,
-      "count": 1,
-      "sum": 2500,
-      "avg": 2500,
-      "min": 2500,
-      "max": 2500,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 0,
-      "removed": 1,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     },
     "Ibanez|Ibanez LACS": {
       "brand": "Ibanez",
