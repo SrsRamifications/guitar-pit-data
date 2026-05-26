@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-26T19:33:29.984Z",
-  "totalLinks": 1304,
-  "totalEver": 1396,
-  "totalBeforeFilter": 1396,
+  "generatedAt": "2026-05-26T19:40:09.760Z",
+  "totalLinks": 1305,
+  "totalEver": 1397,
+  "totalBeforeFilter": 1397,
   "fakeCount": 9,
   "removedCount": 557,
-  "totalWithPrice": 1286,
+  "totalWithPrice": 1287,
   "overall": {
-    "count": 1248,
-    "sum": 3416366.69,
-    "avg": 2737,
+    "count": 1249,
+    "sum": 3417566.69,
+    "avg": 2736,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1248,
-    "sum": 3416366.69,
-    "avg": 2737,
+    "count": 1249,
+    "sum": 3417566.69,
+    "avg": 2736,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
-    "thresholdHigh": 11108,
+    "thresholdHigh": 11117,
     "thresholdLow": 0,
     "count": 38,
     "items": [
@@ -300,11 +300,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 343,
-      "sum": 876133.52,
+      "count": 344,
+      "sum": 877333.52,
       "min": 39.81,
       "max": 10350,
-      "avg": 2554
+      "avg": 2550
     },
     "2026-04": {
       "count": 778,
@@ -323,11 +323,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1076,
-      "sum": 2926745.31,
+      "count": 1077,
+      "sum": 2927945.31,
       "min": 7,
       "max": 11053,
-      "avg": 2720
+      "avg": 2719
     },
     "marketplace": {
       "count": 71,
@@ -346,11 +346,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1076,
-      "sum": 2926745.31,
+      "count": 1077,
+      "sum": 2927945.31,
       "min": 7,
       "max": 11053,
-      "avg": 2720
+      "avg": 2719
     },
     "guitarcenter.com": {
       "count": 70,
@@ -592,6 +592,53 @@
     }
   },
   "byModel": {
+    "ibanez-prestige-evertune": {
+      "displayName": "2012 Ibanez FR1620 Prestige With Evertune Bridge - Black With OHSC",
+      "brand": "Ibanez",
+      "model": "Prestige",
+      "variant": "Evertune",
+      "count": 2,
+      "sum": 2359,
+      "min": 1159,
+      "max": 1200,
+      "sightings": [
+        {
+          "price": 1159,
+          "date": "2026-04-25T02:15:26.336+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG652KFX-KB Prestige, *PLEASE READ* RH 6-String Electric Guitar, Evertune Bridge, Fishman Fluence, Gotoh Locking Tuners",
+          "url": "https://reverb.com/item/96341834-ibanez-rg652kfx-kb-prestige-please-read-rh-6-string-electric-guitar-evertune-bridge-fishman-fluence-gotoh-locking-tuners",
+          "condition": "Good"
+        },
+        {
+          "price": 1200,
+          "date": "2026-05-26T19:39:53.095+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2012 Ibanez FR1620 Prestige With Evertune Bridge - Black With OHSC",
+          "url": "https://reverb.com/item/97540583-2012-ibanez-fr1620-prestige-with-evertune-bridge-black-with-ohsc",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1200,
+          "min": 1200,
+          "max": 1200,
+          "avg": 1200
+        },
+        "Good": {
+          "count": 1,
+          "sum": 1159,
+          "min": 1159,
+          "max": 1159,
+          "avg": 1159
+        }
+      },
+      "avg": 1180
+    },
     "gibson-es-135": {
       "displayName": "2001 Gibson ES-135 w/ Lollar Pickups",
       "brand": "Gibson",
@@ -15698,37 +15745,6 @@
       },
       "avg": 995
     },
-    "ibanez-prestige-evertune": {
-      "displayName": "Ibanez RG652KFX-KB Prestige, *PLEASE READ* RH 6-String Electric Guitar, Evertune Bridge, Fishman Fluence, Gotoh Locking Tuners",
-      "brand": "Ibanez",
-      "model": "Prestige",
-      "variant": "Evertune",
-      "count": 1,
-      "sum": 1159,
-      "min": 1159,
-      "max": 1159,
-      "sightings": [
-        {
-          "price": 1159,
-          "date": "2026-04-25T02:15:26.336+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez RG652KFX-KB Prestige, *PLEASE READ* RH 6-String Electric Guitar, Evertune Bridge, Fishman Fluence, Gotoh Locking Tuners",
-          "url": "https://reverb.com/item/96341834-ibanez-rg652kfx-kb-prestige-please-read-rh-6-string-electric-guitar-evertune-bridge-fishman-fluence-gotoh-locking-tuners",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 1,
-          "sum": 1159,
-          "min": 1159,
-          "max": 1159,
-          "avg": 1159
-        }
-      },
-      "avg": 1159
-    },
     "levinson-blade-offset": {
       "displayName": "1991 Levinson Blade MG-2 Offset Electric Guitar Trans Black w/ Active EQ/Boost, Japan",
       "brand": "Levinson Blade",
@@ -21479,6 +21495,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 184,
+      "sum": 511396.55999999994,
+      "sold": {
+        "count": 59,
+        "sum": 128450.79000000001,
+        "avg": 2177,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2779,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 246,
       "sum": 849697.73,
@@ -21492,20 +21522,6 @@
       "avg": 3454,
       "min": 65,
       "max": 35900
-    },
-    "Very Good": {
-      "count": 183,
-      "sum": 510196.55999999994,
-      "sold": {
-        "count": 59,
-        "sum": 128450.79000000001,
-        "avg": 2177,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2788,
-      "min": 33,
-      "max": 27500
     },
     "Used": {
       "count": 49,
@@ -21614,9 +21630,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2554,
+      "avg": 2550,
       "median": 2000,
-      "count": 343
+      "count": 344
     },
     "04": {
       "name": "Apr",
@@ -21776,7 +21792,7 @@
   "priceDistribution": {
     "0-500": 85,
     "500-1k": 103,
-    "1k-2k": 379,
+    "1k-2k": 380,
     "2k-3k": 271,
     "3k-5k": 262,
     "5k-10k": 136,
@@ -21785,13 +21801,18 @@
   "priceDistributionFiltered": {
     "0-500": 85,
     "500-1k": 103,
-    "1k-2k": 379,
+    "1k-2k": 380,
     "2k-3k": 271,
     "3k-5k": 262,
     "5k-10k": 136,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 2073,
+      "count": 57,
+      "avg": 36
+    },
     "Gibson": {
       "sum": 6313,
       "count": 160,
@@ -21842,11 +21863,6 @@
       "count": 80,
       "avg": 38
     },
-    "Ibanez": {
-      "sum": 2073,
-      "count": 56,
-      "avg": 37
-    },
     "Schecter": {
       "sum": 431,
       "count": 13,
@@ -21893,7 +21909,7 @@
       "avg": 41
     },
     "Suhr": {
-      "sum": 483,
+      "sum": 484,
       "count": 13,
       "avg": 37
     },
@@ -22664,7 +22680,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-26": 14,
+    "2026-05-26": 15,
     "2026-05-25": 7,
     "2026-05-24": 8,
     "2026-05-23": 23,
@@ -22697,15 +22713,15 @@
     "2026-04-26": 3
   },
   "categoryDistribution": {
-    "reverb": 1104,
+    "reverb": 1105,
     "marketplace": 85,
     "other": 115
   },
-  "activeModelsCount": 367,
+  "activeModelsCount": 368,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 348
+      "count": 349
     },
     {
       "username": "greg1213",
@@ -22819,10 +22835,10 @@
       "count": 111
     },
     "Ibanez": {
-      "avgPrice": 3385,
+      "avgPrice": 3348,
       "retailEst": 1000,
-      "avgDiscount": -238.5,
-      "count": 58
+      "avgDiscount": -234.8,
+      "count": 59
     },
     "Jackson": {
       "avgPrice": 4440,
@@ -25227,15 +25243,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1245,
+      "total": 1246,
       "sold": 366,
       "fake": 0,
-      "live": 340,
+      "live": 341,
       "removed": 539,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 59,
+        "sold": 19,
+        "fake": 0,
+        "live": 21,
+        "removed": 19,
+        "soldPct": 32,
+        "livePct": 36
+      },
       "Gibson": {
         "total": 165,
         "sold": 47,
@@ -25325,15 +25350,6 @@
         "removed": 31,
         "soldPct": 27,
         "livePct": 36
-      },
-      "Ibanez": {
-        "total": 58,
-        "sold": 19,
-        "fake": 0,
-        "live": 20,
-        "removed": 19,
-        "soldPct": 33,
-        "livePct": 34
       },
       "Schecter": {
         "total": 13,
@@ -27007,7 +27023,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 379,
+        "total": 380,
         "sold": 114,
         "rate": 30
       },
@@ -27037,15 +27053,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 185,
+        "sold": 59,
+        "rate": 32
+      },
       "Excellent": {
         "total": 246,
         "sold": 88,
         "rate": 36
-      },
-      "Very Good": {
-        "total": 184,
-        "sold": 59,
-        "rate": 32
       },
       "Used": {
         "total": 50,
@@ -27189,6 +27205,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Prestige": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Prestige",
+      "tier": "high",
+      "count": 25,
+      "sum": 52854.99,
+      "avg": 2114,
+      "min": 999,
+      "max": 7019,
+      "sold": 9,
+      "soldSum": 15366.42,
+      "soldAvg": 1707,
+      "live": 8,
+      "removed": 8,
+      "sellRate": 36,
+      "totalDays": 368.7,
+      "soldCount": 9,
+      "avgDaysToSell": 41
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -27334,7 +27369,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 52,
-      "totalDays": 435.2,
+      "totalDays": 435.3,
       "soldCount": 11,
       "avgDaysToSell": 39.6
     },
@@ -27410,9 +27445,9 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 201.70000000000002,
+      "totalDays": 201.8,
       "soldCount": 5,
-      "avgDaysToSell": 40.3
+      "avgDaysToSell": 40.4
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -27505,7 +27540,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 290.5,
+      "totalDays": 290.6,
       "soldCount": 7,
       "avgDaysToSell": 41.5
     },
@@ -27524,7 +27559,7 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1250.3,
+      "totalDays": 1250.6,
       "soldCount": 31,
       "avgDaysToSell": 40.3
     },
@@ -27543,7 +27578,7 @@
       "live": 2,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 150.9,
+      "totalDays": 151,
       "soldCount": 6,
       "avgDaysToSell": 25.2
     },
@@ -27619,7 +27654,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 605.2,
+      "totalDays": 605.4,
       "soldCount": 13,
       "avgDaysToSell": 46.6
     },
@@ -27660,25 +27695,6 @@
       "totalDays": 86.6,
       "soldCount": 2,
       "avgDaysToSell": 43.3
-    },
-    "Ibanez|Ibanez Prestige": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Prestige",
-      "tier": "high",
-      "count": 24,
-      "sum": 51654.99,
-      "avg": 2152,
-      "min": 999,
-      "max": 7019,
-      "sold": 9,
-      "soldSum": 15366.42,
-      "soldAvg": 1707,
-      "live": 7,
-      "removed": 8,
-      "sellRate": 38,
-      "totalDays": 368.59999999999997,
-      "soldCount": 9,
-      "avgDaysToSell": 41
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
@@ -28292,9 +28308,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 70.2,
+      "totalDays": 70.3,
       "soldCount": 1,
-      "avgDaysToSell": 70.2
+      "avgDaysToSell": 70.3
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -29071,9 +29087,9 @@
     },
     {
       "label": "1–5",
-      "total": 37,
+      "total": 38,
       "sold": 13,
-      "rate": 35
+      "rate": 34
     },
     {
       "label": "6–15",
@@ -29101,14 +29117,14 @@
       "rate": 33
     },
     "off": {
-      "total": 148,
+      "total": 149,
       "sold": 44,
       "rate": 30
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 272,
+      "total": 273,
       "sold": 66,
       "rate": 24
     },
@@ -29174,16 +29190,16 @@
       "rate": 31
     },
     {
+      "state": "WI",
+      "total": 15,
+      "sold": 4,
+      "rate": 27
+    },
+    {
       "state": "OR",
       "total": 14,
       "sold": 5,
       "rate": 36
-    },
-    {
-      "state": "WI",
-      "total": 14,
-      "sold": 4,
-      "rate": 29
     },
     {
       "state": "CO",
