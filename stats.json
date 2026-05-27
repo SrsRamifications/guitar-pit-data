@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-27T16:18:29.170Z",
-  "totalLinks": 1313,
-  "totalEver": 1406,
-  "totalBeforeFilter": 1406,
+  "generatedAt": "2026-05-27T16:26:05.216Z",
+  "totalLinks": 1314,
+  "totalEver": 1407,
+  "totalBeforeFilter": 1407,
   "fakeCount": 9,
   "removedCount": 560,
-  "totalWithPrice": 1295,
+  "totalWithPrice": 1296,
   "overall": {
-    "count": 1257,
-    "sum": 3435196.69,
-    "avg": 2733,
+    "count": 1258,
+    "sum": 3437196.69,
+    "avg": 2732,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1257,
-    "sum": 3435196.69,
-    "avg": 2733,
+    "count": 1258,
+    "sum": 3437196.69,
+    "avg": 2732,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11150,
+    "thresholdHigh": 11126,
     "thresholdLow": 0,
     "count": 38,
     "items": [
@@ -300,11 +300,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 352,
-      "sum": 894946.52,
+      "count": 353,
+      "sum": 896946.52,
       "min": 39.81,
       "max": 10350,
-      "avg": 2542
+      "avg": 2541
     },
     "2026-04": {
       "count": 778,
@@ -323,11 +323,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1085,
-      "sum": 2945575.31,
+      "count": 1086,
+      "sum": 2947575.31,
       "min": 7,
       "max": 11053,
-      "avg": 2715
+      "avg": 2714
     },
     "marketplace": {
       "count": 71,
@@ -346,11 +346,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1085,
-      "sum": 2945575.31,
+      "count": 1086,
+      "sum": 2947575.31,
       "min": 7,
       "max": 11053,
-      "avg": 2715
+      "avg": 2714
     },
     "guitarcenter.com": {
       "count": 70,
@@ -592,6 +592,37 @@
     }
   },
   "byModel": {
+    "kiesel-scb6m": {
+      "displayName": "KIESEL SCB6M  2017 - WHITE",
+      "brand": "Kiesel",
+      "model": "SCB6M",
+      "variant": null,
+      "count": 1,
+      "sum": 2000,
+      "min": 2000,
+      "max": 2000,
+      "sightings": [
+        {
+          "price": 2000,
+          "date": "2026-05-27T16:25:45.227+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "KIESEL SCB6M  2017 - WHITE",
+          "url": "https://reverb.com/item/97425492-kiesel-scb6m-2017-white",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2000,
+          "min": 2000,
+          "max": 2000,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "gibson-es-335-humbucker-p90": {
       "displayName": "Stonewall Pickups Slutty Wolf H90 Humbucker Size P90 Set, Cream P-90s for Gibson Les Paul SG ES-335",
       "brand": "Gibson",
@@ -21751,8 +21782,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 249,
-      "sum": 854119.73,
+      "count": 250,
+      "sum": 856119.73,
       "sold": {
         "count": 87,
         "sum": 258777.44,
@@ -21760,7 +21791,7 @@
         "min": 65,
         "max": 35900
       },
-      "avg": 3430,
+      "avg": 3424,
       "min": 65,
       "max": 35900
     },
@@ -21885,9 +21916,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2542,
+      "avg": 2541,
       "median": 2000,
-      "count": 352
+      "count": 353
     },
     "04": {
       "name": "Apr",
@@ -22048,7 +22079,7 @@
     "0-500": 86,
     "500-1k": 105,
     "1k-2k": 381,
-    "2k-3k": 273,
+    "2k-3k": 274,
     "3k-5k": 263,
     "5k-10k": 137,
     "10k+": 50
@@ -22057,12 +22088,17 @@
     "0-500": 86,
     "500-1k": 105,
     "1k-2k": 381,
-    "2k-3k": 273,
+    "2k-3k": 274,
     "3k-5k": 263,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 1668,
+      "count": 43,
+      "avg": 39
+    },
     "Gibson": {
       "sum": 6461,
       "count": 161,
@@ -22084,7 +22120,7 @@
       "avg": 35
     },
     "BC Rich": {
-      "sum": 3094,
+      "sum": 3095,
       "count": 81,
       "avg": 38
     },
@@ -22188,20 +22224,15 @@
       "count": 1,
       "avg": 4
     },
-    "Kiesel": {
-      "sum": 1664,
-      "count": 42,
-      "avg": 40
-    },
     "Anderson": {
       "sum": 297,
       "count": 9,
       "avg": 33
     },
     "G&L": {
-      "sum": 182,
+      "sum": 183,
       "count": 6,
-      "avg": 30
+      "avg": 31
     },
     "Dean": {
       "sum": 369,
@@ -22214,7 +22245,7 @@
       "avg": 41
     },
     "Eastman": {
-      "sum": 716,
+      "sum": 717,
       "count": 16,
       "avg": 45
     },
@@ -22699,9 +22730,9 @@
       "avg": 43
     },
     "ABASI": {
-      "sum": 43,
+      "sum": 44,
       "count": 1,
-      "avg": 43
+      "avg": 44
     },
     "Aria": {
       "sum": 44,
@@ -22894,7 +22925,7 @@
       "avg": 60
     },
     "Fender Custom Shop": {
-      "sum": 121,
+      "sum": 122,
       "count": 2,
       "avg": 61
     },
@@ -22930,7 +22961,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-27": 4,
+    "2026-05-27": 5,
     "2026-05-26": 19,
     "2026-05-25": 7,
     "2026-05-24": 8,
@@ -22963,11 +22994,11 @@
     "2026-04-27": 5
   },
   "categoryDistribution": {
-    "reverb": 1113,
+    "reverb": 1114,
     "marketplace": 85,
     "other": 115
   },
-  "activeModelsCount": 363,
+  "activeModelsCount": 364,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -22975,7 +23006,7 @@
     },
     {
       "username": "greg1213",
-      "count": 246
+      "count": 247
     },
     {
       "username": "Shteefe",
@@ -23127,10 +23158,10 @@
       "count": 13
     },
     "Kiesel": {
-      "avgPrice": 1502,
+      "avgPrice": 1512,
       "retailEst": 1000,
-      "avgDiscount": -50.2,
-      "count": 47
+      "avgDiscount": -51.2,
+      "count": 48
     },
     "Echopark": {
       "avgPrice": 4214,
@@ -25528,15 +25559,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1254,
+      "total": 1255,
       "sold": 368,
       "fake": 0,
-      "live": 344,
+      "live": 345,
       "removed": 542,
       "soldPct": 29,
       "livePct": 27
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 49,
+        "sold": 23,
+        "fake": 0,
+        "live": 13,
+        "removed": 13,
+        "soldPct": 47,
+        "livePct": 27
+      },
       "Gibson": {
         "total": 166,
         "sold": 47,
@@ -25788,15 +25828,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Kiesel": {
-        "total": 48,
-        "sold": 23,
-        "fake": 0,
-        "live": 12,
-        "removed": 13,
-        "soldPct": 48,
-        "livePct": 25
       },
       "Anderson": {
         "total": 9,
@@ -27314,9 +27345,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 273,
+        "total": 274,
         "sold": 100,
-        "rate": 37
+        "rate": 36
       },
       {
         "label": "$3k–5k",
@@ -27339,7 +27370,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 249,
+        "total": 250,
         "sold": 90,
         "rate": 36
       },
@@ -27447,9 +27478,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1498,
-        "sellRate": 48,
-        "count": 48,
+        "avgPrice": 1509,
+        "sellRate": 47,
+        "count": 49,
         "sold": 23
       },
       {
@@ -27483,6 +27514,25 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 46,
+      "sum": 69413.98000000001,
+      "avg": 1509,
+      "min": 650,
+      "max": 4300,
+      "sold": 22,
+      "soldSum": 29720,
+      "soldAvg": 1351,
+      "live": 12,
+      "removed": 12,
+      "sellRate": 48,
+      "totalDays": 1114.6999999999998,
+      "soldCount": 22,
+      "avgDaysToSell": 50.7
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -27498,7 +27548,7 @@
       "live": 28,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1153.4,
+      "totalDays": 1153.6,
       "soldCount": 34,
       "avgDaysToSell": 33.9
     },
@@ -27574,7 +27624,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 56,
-      "totalDays": 223.4,
+      "totalDays": 223.5,
       "soldCount": 5,
       "avgDaysToSell": 44.7
     },
@@ -27631,9 +27681,9 @@
       "live": 14,
       "removed": 12,
       "sellRate": 21,
-      "totalDays": 225.7,
+      "totalDays": 225.90000000000003,
       "soldCount": 7,
-      "avgDaysToSell": 32.2
+      "avgDaysToSell": 32.3
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -27913,7 +27963,7 @@
       "live": 15,
       "removed": 41,
       "sellRate": 36,
-      "totalDays": 1277.3,
+      "totalDays": 1277.4,
       "soldCount": 31,
       "avgDaysToSell": 41.2
     },
@@ -27955,25 +28005,6 @@
       "soldCount": 2,
       "avgDaysToSell": 34
     },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 45,
-      "sum": 67413.98000000001,
-      "avg": 1498,
-      "min": 650,
-      "max": 4300,
-      "sold": 22,
-      "soldSum": 29720,
-      "soldAvg": 1351,
-      "live": 11,
-      "removed": 12,
-      "sellRate": 49,
-      "totalDays": 1114.6,
-      "soldCount": 22,
-      "avgDaysToSell": 50.7
-    },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
       "brandLine": "Gibson Custom Shop",
@@ -28008,7 +28039,7 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 503,
+      "totalDays": 503.1,
       "soldCount": 7,
       "avgDaysToSell": 71.9
     },
@@ -28235,7 +28266,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 182.4,
+      "totalDays": 182.5,
       "soldCount": 4,
       "avgDaysToSell": 45.6
     },
@@ -28957,9 +28988,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 57.7,
+      "totalDays": 57.8,
       "soldCount": 1,
-      "avgDaysToSell": 57.7
+      "avgDaysToSell": 57.8
     },
     "Vintage|Fender Custom Shop": {
       "brand": "Vintage",
@@ -29366,9 +29397,9 @@
     },
     {
       "label": "1–5",
-      "total": 36,
+      "total": 37,
       "sold": 13,
-      "rate": 36
+      "rate": 35
     },
     {
       "label": "6–15",
@@ -29391,7 +29422,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 380,
+      "total": 381,
       "sold": 124,
       "rate": 33
     },
@@ -29408,7 +29439,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 240,
+      "total": 241,
       "sold": 92,
       "rate": 38
     }
@@ -29529,6 +29560,12 @@
       "rate": 0
     },
     {
+      "state": "GA",
+      "total": 6,
+      "sold": 1,
+      "rate": 17
+    },
+    {
       "state": "VA",
       "total": 6,
       "sold": 1,
@@ -29548,12 +29585,6 @@
     },
     {
       "state": "KS",
-      "total": 5,
-      "sold": 1,
-      "rate": 20
-    },
-    {
-      "state": "GA",
       "total": 5,
       "sold": 1,
       "rate": 20
