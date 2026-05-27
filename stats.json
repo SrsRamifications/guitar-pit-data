@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-27T23:33:30.477Z",
-  "totalLinks": 1321,
-  "totalEver": 1415,
-  "totalBeforeFilter": 1415,
+  "generatedAt": "2026-05-27T23:35:24.204Z",
+  "totalLinks": 1322,
+  "totalEver": 1416,
+  "totalBeforeFilter": 1416,
   "fakeCount": 9,
   "removedCount": 563,
-  "totalWithPrice": 1303,
+  "totalWithPrice": 1304,
   "overall": {
-    "count": 1265,
-    "sum": 3453622.68,
+    "count": 1266,
+    "sum": 3455622.67,
     "avg": 2730,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1265,
-    "sum": 3453622.68,
+    "count": 1266,
+    "sum": 3455622.67,
     "avg": 2730,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11122,
+    "thresholdHigh": 11104,
     "thresholdLow": 0,
     "count": 38,
     "items": [
@@ -300,11 +300,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 360,
-      "sum": 913372.51,
+      "count": 361,
+      "sum": 915372.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2537
+      "avg": 2536
     },
     "2026-04": {
       "count": 778,
@@ -322,19 +322,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 73,
+      "sum": 205289.42,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2812
+    },
     "reverb": {
       "count": 1092,
       "sum": 2962501.31,
       "min": 7,
       "max": 11053,
       "avg": 2713
-    },
-    "marketplace": {
-      "count": 72,
-      "sum": 203289.43,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2823
     },
     "other": {
       "count": 101,
@@ -345,19 +345,19 @@
     }
   },
   "byDomain": {
+    "guitarcenter.com": {
+      "count": 72,
+      "sum": 142011.33,
+      "min": 139.99,
+      "max": 5499.99,
+      "avg": 1972
+    },
     "reverb.com": {
       "count": 1092,
       "sum": 2962501.31,
       "min": 7,
       "max": 11053,
       "avg": 2713
-    },
-    "guitarcenter.com": {
-      "count": 71,
-      "sum": 140011.34,
-      "min": 139.99,
-      "max": 5499.99,
-      "avg": 1972
     },
     "gibson.com": {
       "count": 2,
@@ -592,6 +592,37 @@
     }
   },
   "byModel": {
+    "vintage-les-paul-studio": {
+      "displayName": "Vintage 1985 Gibson Les Paul Studio Ebony Solid Body Electric Guitar Ebony",
+      "brand": "Vintage",
+      "model": "Les Paul Studio",
+      "variant": null,
+      "count": 1,
+      "sum": 1999.99,
+      "min": 1999.99,
+      "max": 1999.99,
+      "sightings": [
+        {
+          "price": 1999.99,
+          "date": "2026-05-27T23:35:04.48+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1985 Gibson Les Paul Studio Ebony Solid Body Electric Guitar Ebony",
+          "url": "https://www.guitarcenter.com/Used/Gibson/Vintage-Vintage-1985-Gibson-Les-Paul-Studio-Ebony-Solid-Body-Electric-Guitar-121776817.gc?algoliaQueryID=97b535f40a394ff45d99b1129ef58f3b&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 1999.99,
+          "min": 1999.99,
+          "max": 1999.99,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "greco-jazz-bass": {
       "displayName": "GRECO Electric Bass (Jazz Bass) « GNECO » Lawsuit era / pre serial number 1971-1974",
       "brand": "Greco",
@@ -21982,6 +22013,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 51,
+      "sum": 368606.6599999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7228,
+      "min": 475.99,
+      "max": 99000
+    },
     "Good": {
       "count": 82,
       "sum": 250985.95,
@@ -22009,17 +22051,6 @@
       "avg": 3418,
       "min": 65,
       "max": 35900
-    },
-    "Used": {
-      "count": 50,
-      "sum": 366606.66999999987,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7332,
-      "min": 475.99,
-      "max": 99000
     },
     "Very Good": {
       "count": 188,
@@ -22117,9 +22148,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2537,
+      "avg": 2536,
       "median": 2000,
-      "count": 360
+      "count": 361
     },
     "04": {
       "name": "Apr",
@@ -22279,7 +22310,7 @@
   "priceDistribution": {
     "0-500": 86,
     "500-1k": 106,
-    "1k-2k": 383,
+    "1k-2k": 384,
     "2k-3k": 275,
     "3k-5k": 267,
     "5k-10k": 136,
@@ -22288,13 +22319,18 @@
   "priceDistributionFiltered": {
     "0-500": 86,
     "500-1k": 106,
-    "1k-2k": 383,
+    "1k-2k": 384,
     "2k-3k": 275,
     "3k-5k": 267,
     "5k-10k": 136,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 1030,
+      "count": 32,
+      "avg": 32
+    },
     "Greco": {
       "sum": 474,
       "count": 14,
@@ -22369,11 +22405,6 @@
       "sum": 178,
       "count": 6,
       "avg": 30
-    },
-    "Vintage": {
-      "sum": 1030,
-      "count": 31,
-      "avg": 33
     },
     "Strandberg": {
       "sum": 37,
@@ -23167,7 +23198,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-27": 12,
+    "2026-05-27": 13,
     "2026-05-26": 19,
     "2026-05-25": 7,
     "2026-05-24": 8,
@@ -23199,11 +23230,11 @@
     "2026-04-28": 23
   },
   "categoryDistribution": {
+    "marketplace": 87,
     "reverb": 1120,
-    "marketplace": 86,
     "other": 115
   },
-  "activeModelsCount": 365,
+  "activeModelsCount": 366,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -23215,7 +23246,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 139
+      "count": 140
     },
     {
       "username": "YellowJack6",
@@ -25772,15 +25803,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1261,
+      "total": 1262,
       "sold": 369,
       "fake": 0,
-      "live": 347,
+      "live": 348,
       "removed": 545,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Vintage": {
+        "total": 37,
+        "sold": 7,
+        "fake": 0,
+        "live": 17,
+        "removed": 13,
+        "soldPct": 19,
+        "livePct": 46
+      },
       "Greco": {
         "total": 14,
         "sold": 1,
@@ -25942,15 +25982,6 @@
         "removed": 2,
         "soldPct": 50,
         "livePct": 17
-      },
-      "Vintage": {
-        "total": 36,
-        "sold": 7,
-        "fake": 0,
-        "live": 16,
-        "removed": 13,
-        "soldPct": 19,
-        "livePct": 44
       },
       "Strandberg": {
         "total": 4,
@@ -27540,9 +27571,9 @@
       },
       {
         "brand": "Vintage",
-        "total": 36,
+        "total": 37,
         "sold": 7,
-        "live": 16,
+        "live": 17,
         "soldPct": 19
       }
     ],
@@ -27561,7 +27592,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 383,
+        "total": 384,
         "sold": 116,
         "rate": 30
       },
@@ -27591,6 +27622,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 52,
+        "sold": 6,
+        "rate": 12
+      },
       "Good": {
         "total": 82,
         "sold": 22,
@@ -27600,11 +27636,6 @@
         "total": 254,
         "sold": 91,
         "rate": 36
-      },
-      "Used": {
-        "total": 51,
-        "sold": 6,
-        "rate": 12
       },
       "Very Good": {
         "total": 189,
@@ -27808,7 +27839,7 @@
       "live": 28,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1163.6,
+      "totalDays": 1163.7,
       "soldCount": 34,
       "avgDaysToSell": 34.2
     },
@@ -27941,7 +27972,7 @@
       "live": 13,
       "removed": 12,
       "sellRate": 24,
-      "totalDays": 242.60000000000002,
+      "totalDays": 242.70000000000002,
       "soldCount": 8,
       "avgDaysToSell": 30.3
     },
@@ -29210,9 +29241,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 58,
+      "totalDays": 58.1,
       "soldCount": 1,
-      "avgDaysToSell": 58
+      "avgDaysToSell": 58.1
     },
     "Vintage|Fender Custom Shop": {
       "brand": "Vintage",
