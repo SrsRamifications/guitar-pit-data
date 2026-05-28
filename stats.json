@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-28T15:03:28.992Z",
-  "totalLinks": 1325,
-  "totalEver": 1419,
-  "totalBeforeFilter": 1419,
+  "generatedAt": "2026-05-28T15:04:21.516Z",
+  "totalLinks": 1326,
+  "totalEver": 1420,
+  "totalBeforeFilter": 1420,
   "fakeCount": 9,
   "removedCount": 564,
-  "totalWithPrice": 1307,
+  "totalWithPrice": 1308,
   "overall": {
-    "count": 1269,
-    "sum": 3464428.67,
-    "avg": 2730,
+    "count": 1270,
+    "sum": 3468228.67,
+    "avg": 2731,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1269,
-    "sum": 3464428.67,
-    "avg": 2730,
+    "count": 1270,
+    "sum": 3468228.67,
+    "avg": 2731,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11126,
+    "thresholdHigh": 11108,
     "thresholdLow": 0,
     "count": 38,
     "items": [
@@ -300,11 +300,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 364,
-      "sum": 924161.5,
+      "count": 365,
+      "sum": 927961.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2539
+      "avg": 2542
     },
     "2026-04": {
       "count": 778,
@@ -323,11 +323,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1095,
-      "sum": 2971307.31,
+      "count": 1096,
+      "sum": 2975107.31,
       "min": 7,
       "max": 11053,
-      "avg": 2714
+      "avg": 2715
     },
     "marketplace": {
       "count": 73,
@@ -346,11 +346,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1095,
-      "sum": 2971307.31,
+      "count": 1096,
+      "sum": 2975107.31,
       "min": 7,
       "max": 11053,
-      "avg": 2714
+      "avg": 2715
     },
     "guitarcenter.com": {
       "count": 72,
@@ -592,6 +592,87 @@
     }
   },
   "byModel": {
+    "ibanez-rg": {
+      "displayName": "Ibanez JCRG2104 Sugi J. Custom 2021 - Nebulous Blue",
+      "brand": "Ibanez",
+      "model": "RG",
+      "variant": null,
+      "count": 4,
+      "sum": 8598,
+      "min": 999,
+      "max": 3800,
+      "sightings": [
+        {
+          "price": 1699,
+          "date": "2026-03-28T03:58:02.342+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG8470G - Black",
+          "url": "https://reverb.com/item/95506194-ibanez-rg8470g-black",
+          "condition": "Very Good"
+        },
+        {
+          "price": 2100,
+          "date": "2026-05-05T23:39:51.354+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG8540ZD-BX J. Custom 2012 - 2017 - Black Onyx",
+          "url": "https://reverb.com/item/96773176-ibanez-rg8540zd-bx-j-custom-2012-2017-black-onyx",
+          "condition": "Very Good"
+        },
+        {
+          "price": 999,
+          "date": "2026-05-19T01:52:37.481+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG 550 1987 - Road Flare Red",
+          "url": "https://reverb.com/item/97231309-ibanez-rg-550-1987-road-flare-red",
+          "condition": "Very Good"
+        },
+        {
+          "price": 3800,
+          "date": "2026-05-28T15:04:04.084+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez JCRG2104 Sugi J. Custom 2021 - Nebulous Blue",
+          "url": "https://reverb.com/item/97625462-ibanez-jcrg2104-sugi-j-custom-2021-nebulous-blue",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3800,
+          "min": 3800,
+          "max": 3800,
+          "avg": 3800
+        },
+        "Very Good": {
+          "count": 3,
+          "sum": 4798,
+          "min": 999,
+          "max": 2100,
+          "avg": 1599
+        }
+      },
+      "avg": 2150,
+      "trends": {
+        "d30": {
+          "direction": "up",
+          "pctChange": 35,
+          "recentAvg": 2300,
+          "olderAvg": 1699,
+          "recentCount": 3
+        },
+        "d60": {
+          "direction": "up",
+          "pctChange": 35,
+          "recentAvg": 2300,
+          "olderAvg": 1699,
+          "recentCount": 3
+        }
+      }
+    },
     "prs-mark-holcomb-present-signature": {
       "displayName": "PRS Mark Holcomb Signature 2025 - Present - Holcomb Blue Wraparound Burst",
       "brand": "PRS",
@@ -4984,71 +5065,6 @@
         }
       },
       "avg": 1675
-    },
-    "ibanez-rg": {
-      "displayName": "Ibanez RG 550 1987 - Road Flare Red",
-      "brand": "Ibanez",
-      "model": "RG",
-      "variant": null,
-      "count": 3,
-      "sum": 4798,
-      "min": 999,
-      "max": 2100,
-      "sightings": [
-        {
-          "price": 1699,
-          "date": "2026-03-28T03:58:02.342+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez RG8470G - Black",
-          "url": "https://reverb.com/item/95506194-ibanez-rg8470g-black",
-          "condition": "Very Good"
-        },
-        {
-          "price": 2100,
-          "date": "2026-05-05T23:39:51.354+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez RG8540ZD-BX J. Custom 2012 - 2017 - Black Onyx",
-          "url": "https://reverb.com/item/96773176-ibanez-rg8540zd-bx-j-custom-2012-2017-black-onyx",
-          "condition": "Very Good"
-        },
-        {
-          "price": 999,
-          "date": "2026-05-19T01:52:37.481+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez RG 550 1987 - Road Flare Red",
-          "url": "https://reverb.com/item/97231309-ibanez-rg-550-1987-road-flare-red",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 3,
-          "sum": 4798,
-          "min": 999,
-          "max": 2100,
-          "avg": 1599
-        }
-      },
-      "avg": 1599,
-      "trends": {
-        "d30": {
-          "direction": "down",
-          "pctChange": -9,
-          "recentAvg": 1550,
-          "olderAvg": 1699,
-          "recentCount": 2
-        },
-        "d60": {
-          "direction": "down",
-          "pctChange": -9,
-          "recentAvg": 1550,
-          "olderAvg": 1699,
-          "recentCount": 2
-        }
-      }
     },
     "friedman-rg": {
       "displayName": "Friedman Vintage S 2026 - White Over Two Tone Blue Metallic (Large Checkerboard) w/OHSC",
@@ -22090,8 +22106,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 255,
-      "sum": 869345.73,
+      "count": 256,
+      "sum": 873145.73,
       "sold": {
         "count": 89,
         "sum": 260577.44,
@@ -22099,7 +22115,7 @@
         "min": 65,
         "max": 35900
       },
-      "avg": 3409,
+      "avg": 3411,
       "min": 65,
       "max": 35900
     },
@@ -22224,9 +22240,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2539,
+      "avg": 2542,
       "median": 2000,
-      "count": 364
+      "count": 365
     },
     "04": {
       "name": "Apr",
@@ -22388,7 +22404,7 @@
     "500-1k": 106,
     "1k-2k": 385,
     "2k-3k": 275,
-    "3k-5k": 269,
+    "3k-5k": 270,
     "5k-10k": 136,
     "10k+": 50
   },
@@ -22397,11 +22413,16 @@
     "500-1k": 106,
     "1k-2k": 385,
     "2k-3k": 275,
-    "3k-5k": 269,
+    "3k-5k": 270,
     "5k-10k": 136,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 2182,
+      "count": 58,
+      "avg": 38
+    },
     "PRS": {
       "sum": 4389,
       "count": 111,
@@ -22461,11 +22482,6 @@
       "sum": 3171,
       "count": 81,
       "avg": 39
-    },
-    "Ibanez": {
-      "sum": 2182,
-      "count": 57,
-      "avg": 38
     },
     "Gretsch": {
       "sum": 396,
@@ -23274,7 +23290,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-28": 3,
+    "2026-05-28": 4,
     "2026-05-27": 13,
     "2026-05-26": 19,
     "2026-05-25": 7,
@@ -23307,7 +23323,7 @@
     "2026-04-28": 10
   },
   "categoryDistribution": {
-    "reverb": 1123,
+    "reverb": 1124,
     "marketplace": 87,
     "other": 115
   },
@@ -23315,7 +23331,7 @@
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 351
+      "count": 352
     },
     {
       "username": "greg1213",
@@ -23429,10 +23445,10 @@
       "count": 114
     },
     "Ibanez": {
-      "avgPrice": 3348,
+      "avgPrice": 3355,
       "retailEst": 1000,
-      "avgDiscount": -234.8,
-      "count": 59
+      "avgDiscount": -235.5,
+      "count": 60
     },
     "Jackson": {
       "avgPrice": 4440,
@@ -25893,15 +25909,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1264,
+      "total": 1265,
       "sold": 370,
       "fake": 0,
-      "live": 348,
+      "live": 349,
       "removed": 546,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 60,
+        "sold": 19,
+        "fake": 0,
+        "live": 22,
+        "removed": 19,
+        "soldPct": 32,
+        "livePct": 37
+      },
       "PRS": {
         "total": 115,
         "sold": 36,
@@ -26036,15 +26061,6 @@
         "removed": 32,
         "soldPct": 28,
         "livePct": 35
-      },
-      "Ibanez": {
-        "total": 59,
-        "sold": 19,
-        "fake": 0,
-        "live": 21,
-        "removed": 19,
-        "soldPct": 32,
-        "livePct": 36
       },
       "Gretsch": {
         "total": 11,
@@ -27694,7 +27710,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 269,
+        "total": 270,
         "sold": 70,
         "rate": 26
       },
@@ -27713,7 +27729,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 255,
+        "total": 256,
         "sold": 92,
         "rate": 36
       },
@@ -27857,6 +27873,24 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Sugi": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Sugi",
+      "tier": "ultra",
+      "count": 1,
+      "sum": 3800,
+      "avg": 3800,
+      "min": 3800,
+      "max": 3800,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 1,
+      "removed": 0,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -27872,7 +27906,7 @@
       "live": 18,
       "removed": 41,
       "sellRate": 34,
-      "totalDays": 1306.8999999999999,
+      "totalDays": 1307,
       "soldCount": 31,
       "avgDaysToSell": 42.2
     },
@@ -27910,7 +27944,7 @@
       "live": 13,
       "removed": 12,
       "sellRate": 47,
-      "totalDays": 1135.6999999999998,
+      "totalDays": 1135.7999999999997,
       "soldCount": 22,
       "avgDaysToSell": 51.6
     },
@@ -27986,7 +28020,7 @@
       "live": 6,
       "removed": 3,
       "sellRate": 31,
-      "totalDays": 231,
+      "totalDays": 231.10000000000002,
       "soldCount": 4,
       "avgDaysToSell": 57.8
     },
@@ -29725,7 +29759,7 @@
     "withOffers": 200,
     "totalOffers": 435,
     "avgOffersPerListing": 2.2,
-    "offersEnabledPct": 34
+    "offersEnabledPct": 35
   },
   "shippingInsights": {
     "freeShippingPct": 0,
@@ -29734,9 +29768,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 4,
+      "total": 5,
       "sold": 3,
-      "rate": 75
+      "rate": 60
     },
     {
       "label": "1–5",
@@ -29765,7 +29799,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 387,
+      "total": 388,
       "sold": 125,
       "rate": 32
     },
@@ -29782,7 +29816,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 246,
+      "total": 247,
       "sold": 93,
       "rate": 38
     }
@@ -29849,16 +29883,16 @@
       "rate": 25
     },
     {
-      "state": "OR",
+      "state": "CO",
       "total": 14,
       "sold": 5,
       "rate": 36
     },
     {
-      "state": "CO",
-      "total": 13,
+      "state": "OR",
+      "total": 14,
       "sold": 5,
-      "rate": 38
+      "rate": 36
     },
     {
       "state": "OH",
