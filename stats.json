@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-28T19:06:15.196Z",
-  "totalLinks": 1336,
-  "totalEver": 1431,
-  "totalBeforeFilter": 1431,
+  "generatedAt": "2026-05-28T19:14:23.518Z",
+  "totalLinks": 1337,
+  "totalEver": 1432,
+  "totalBeforeFilter": 1432,
   "fakeCount": 9,
   "removedCount": 565,
-  "totalWithPrice": 1318,
+  "totalWithPrice": 1319,
   "overall": {
-    "count": 1279,
-    "sum": 3489637.67,
-    "avg": 2728,
+    "count": 1280,
+    "sum": 3490186.67,
+    "avg": 2727,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1279,
-    "sum": 3489637.67,
-    "avg": 2728,
+    "count": 1280,
+    "sum": 3490186.67,
+    "avg": 2727,
     "min": 3,
     "max": 11099,
-    "median": 2199.99
+    "median": 2200
   },
   "outliers": {
     "thresholdHigh": 11150,
@@ -308,11 +308,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 374,
-      "sum": 949370.5,
+      "count": 375,
+      "sum": 949919.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2538
+      "avg": 2533
     },
     "2026-04": {
       "count": 778,
@@ -330,19 +330,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 75,
+      "sum": 206633.42,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2755
+    },
     "reverb": {
       "count": 1104,
       "sum": 2995721.31,
       "min": 7,
       "max": 11053,
       "avg": 2714
-    },
-    "marketplace": {
-      "count": 74,
-      "sum": 206084.42,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2785
     },
     "other": {
       "count": 101,
@@ -353,6 +353,13 @@
     }
   },
   "byDomain": {
+    "musiciansfriend.com": {
+      "count": 3,
+      "sum": 963.8,
+      "min": 39.81,
+      "max": 549,
+      "avg": 321
+    },
     "reverb.com": {
       "count": 1104,
       "sum": 2995721.31,
@@ -401,13 +408,6 @@
       "min": 9900,
       "max": 9900,
       "avg": 9900
-    },
-    "musiciansfriend.com": {
-      "count": 2,
-      "sum": 414.8,
-      "min": 39.81,
-      "max": 374.99,
-      "avg": 207
     },
     "chicagomusicexchange.com": {
       "count": 51,
@@ -600,6 +600,37 @@
     }
   },
   "byModel": {
+    "kramer-nbspbaretta": {
+      "displayName": "Kramer&nbsp;Baretta",
+      "brand": "Kramer",
+      "model": "&nbsp;Baretta",
+      "variant": null,
+      "count": 1,
+      "sum": 549,
+      "min": 549,
+      "max": 549,
+      "sightings": [
+        {
+          "price": 549,
+          "date": "2026-05-28T19:14:07.335+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kramer&nbsp;Baretta",
+          "url": "https://www.musiciansfriend.com/guitars/kramer-baretta-viper-electric-guitar/m17910000001000",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 549,
+          "min": 549,
+          "max": 549,
+          "avg": 549
+        }
+      },
+      "avg": 549
+    },
     "bc-rich-ironbird-trans": {
       "displayName": "Bc rich Ironbird 1986 | Trans green",
       "brand": "BC Rich",
@@ -22520,9 +22551,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2538,
+      "avg": 2533,
       "median": 2000,
-      "count": 374
+      "count": 375
     },
     "04": {
       "name": "Apr",
@@ -22681,7 +22712,7 @@
   ],
   "priceDistribution": {
     "0-500": 87,
-    "500-1k": 108,
+    "500-1k": 109,
     "1k-2k": 387,
     "2k-3k": 277,
     "3k-5k": 271,
@@ -22690,7 +22721,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 87,
-    "500-1k": 108,
+    "500-1k": 109,
     "1k-2k": 387,
     "2k-3k": 277,
     "3k-5k": 271,
@@ -22698,6 +22729,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Kramer": {
+      "sum": 184,
+      "count": 7,
+      "avg": 26
+    },
     "BC Rich": {
       "sum": 3181,
       "count": 83,
@@ -22754,12 +22790,12 @@
       "avg": 36
     },
     "Gibson": {
-      "sum": 6633,
+      "sum": 6634,
       "count": 161,
       "avg": 41
     },
     "Epiphone": {
-      "sum": 427,
+      "sum": 428,
       "count": 10,
       "avg": 43
     },
@@ -22787,11 +22823,6 @@
       "sum": 33,
       "count": 2,
       "avg": 17
-    },
-    "Kramer": {
-      "sum": 184,
-      "count": 6,
-      "avg": 31
     },
     "Strandberg": {
       "sum": 40,
@@ -23570,7 +23601,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-28": 14,
+    "2026-05-28": 15,
     "2026-05-27": 13,
     "2026-05-26": 19,
     "2026-05-25": 7,
@@ -23603,15 +23634,15 @@
     "2026-04-28": 3
   },
   "categoryDistribution": {
+    "marketplace": 89,
     "reverb": 1133,
-    "marketplace": 88,
     "other": 115
   },
-  "activeModelsCount": 359,
+  "activeModelsCount": 360,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 353
+      "count": 354
     },
     {
       "username": "greg1213",
@@ -26197,15 +26228,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1274,
+      "total": 1275,
       "sold": 371,
       "fake": 0,
-      "live": 356,
+      "live": 357,
       "removed": 547,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Kramer": {
+        "total": 7,
+        "sold": 3,
+        "fake": 0,
+        "live": 2,
+        "removed": 2,
+        "soldPct": 43,
+        "livePct": 29
+      },
       "BC Rich": {
         "total": 88,
         "sold": 24,
@@ -26385,15 +26425,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Kramer": {
-        "total": 6,
-        "sold": 3,
-        "fake": 0,
-        "live": 1,
-        "removed": 2,
-        "soldPct": 50,
-        "livePct": 17
       },
       "Strandberg": {
         "total": 4,
@@ -27892,10 +27923,10 @@
         "soldPct": 50
       },
       {
-        "brand": "Kramer",
+        "brand": "Dunable",
         "total": 6,
         "sold": 3,
-        "live": 1,
+        "live": 0,
         "soldPct": 50
       }
     ],
@@ -27980,7 +28011,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 108,
+        "total": 109,
         "sold": 37,
         "rate": 34
       },
@@ -28110,13 +28141,6 @@
         "sold": 4
       },
       {
-        "brand": "Kramer",
-        "avgPrice": 2166,
-        "sellRate": 50,
-        "count": 6,
-        "sold": 3
-      },
-      {
         "brand": "FGN",
         "avgPrice": 1977,
         "sellRate": 50,
@@ -28129,6 +28153,13 @@
         "sellRate": 45,
         "count": 51,
         "sold": 23
+      },
+      {
+        "brand": "Kramer",
+        "avgPrice": 1935,
+        "sellRate": 43,
+        "count": 7,
+        "sold": 3
       },
       {
         "brand": "Taylor",
@@ -28161,6 +28192,25 @@
     ]
   },
   "byBrandLine": {
+    "Kramer|Kramer USA Vintage": {
+      "brand": "Kramer",
+      "brandLine": "Kramer USA Vintage",
+      "tier": "premium",
+      "count": 4,
+      "sum": 8349,
+      "avg": 2087,
+      "min": 549,
+      "max": 3000,
+      "sold": 1,
+      "soldSum": 2300,
+      "soldAvg": 2300,
+      "live": 1,
+      "removed": 2,
+      "sellRate": 25,
+      "totalDays": 10.9,
+      "soldCount": 1,
+      "avgDaysToSell": 10.9
+    },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
       "brandLine": "BC Rich Import",
@@ -28176,7 +28226,7 @@
       "live": 13,
       "removed": 13,
       "sellRate": 24,
-      "totalDays": 249.20000000000002,
+      "totalDays": 249.3,
       "soldCount": 8,
       "avgDaysToSell": 31.2
     },
@@ -28195,7 +28245,7 @@
       "live": 19,
       "removed": 42,
       "sellRate": 34,
-      "totalDays": 1312.1999999999998,
+      "totalDays": 1312.3,
       "soldCount": 31,
       "avgDaysToSell": 42.3
     },
@@ -28344,7 +28394,7 @@
       "live": 28,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1191.4999999999998,
+      "totalDays": 1191.5999999999997,
       "soldCount": 34,
       "avgDaysToSell": 35
     },
@@ -28363,9 +28413,9 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 456.8999999999999,
+      "totalDays": 457.09999999999997,
       "soldCount": 11,
-      "avgDaysToSell": 41.5
+      "avgDaysToSell": 41.6
     },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
@@ -28439,9 +28489,9 @@
       "live": 1,
       "removed": 4,
       "sellRate": 29,
-      "totalDays": 40,
+      "totalDays": 40.1,
       "soldCount": 2,
-      "avgDaysToSell": 20
+      "avgDaysToSell": 20.1
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -28458,7 +28508,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 386.29999999999995,
+      "totalDays": 386.4,
       "soldCount": 9,
       "avgDaysToSell": 42.9
     },
@@ -28588,7 +28638,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 46,
-      "totalDays": 263.5,
+      "totalDays": 263.59999999999997,
       "soldCount": 6,
       "avgDaysToSell": 43.9
     },
@@ -28853,7 +28903,7 @@
       "live": 3,
       "removed": 9,
       "sellRate": 25,
-      "totalDays": 238.3,
+      "totalDays": 238.4,
       "soldCount": 4,
       "avgDaysToSell": 59.6
     },
@@ -28894,25 +28944,6 @@
       "totalDays": 47.9,
       "soldCount": 1,
       "avgDaysToSell": 47.9
-    },
-    "Kramer|Kramer USA Vintage": {
-      "brand": "Kramer",
-      "brandLine": "Kramer USA Vintage",
-      "tier": "premium",
-      "count": 3,
-      "sum": 7800,
-      "avg": 2600,
-      "min": 2300,
-      "max": 3000,
-      "sold": 1,
-      "soldSum": 2300,
-      "soldAvg": 2300,
-      "live": 0,
-      "removed": 2,
-      "sellRate": 33,
-      "totalDays": 10.8,
-      "soldCount": 1,
-      "avgDaysToSell": 10.8
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -29134,9 +29165,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 40.1,
+      "totalDays": 40.2,
       "soldCount": 1,
-      "avgDaysToSell": 40.1
+      "avgDaysToSell": 40.2
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -29227,9 +29258,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 19.2,
+      "totalDays": 19.3,
       "soldCount": 1,
-      "avgDaysToSell": 19.2
+      "avgDaysToSell": 19.3
     },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
