@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-28T17:18:29.891Z",
-  "totalLinks": 1331,
-  "totalEver": 1425,
-  "totalBeforeFilter": 1425,
+  "generatedAt": "2026-05-28T17:24:20.391Z",
+  "totalLinks": 1332,
+  "totalEver": 1426,
+  "totalBeforeFilter": 1426,
   "fakeCount": 9,
   "removedCount": 564,
-  "totalWithPrice": 1313,
+  "totalWithPrice": 1314,
   "overall": {
-    "count": 1274,
-    "sum": 3483070.67,
-    "avg": 2734,
+    "count": 1275,
+    "sum": 3483869.67,
+    "avg": 2732,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1274,
-    "sum": 3483070.67,
-    "avg": 2734,
+    "count": 1275,
+    "sum": 3483869.67,
+    "avg": 2732,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
-    "thresholdHigh": 11108,
+    "thresholdHigh": 11126,
     "thresholdLow": 0,
     "count": 39,
     "items": [
@@ -308,11 +308,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 369,
-      "sum": 942803.5,
+      "count": 370,
+      "sum": 943602.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2555
+      "avg": 2550
     },
     "2026-04": {
       "count": 778,
@@ -331,11 +331,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1099,
-      "sum": 2989154.31,
+      "count": 1100,
+      "sum": 2989953.31,
       "min": 7,
       "max": 11053,
-      "avg": 2720
+      "avg": 2718
     },
     "marketplace": {
       "count": 74,
@@ -354,11 +354,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1099,
-      "sum": 2989154.31,
+      "count": 1100,
+      "sum": 2989953.31,
       "min": 7,
       "max": 11053,
-      "avg": 2720
+      "avg": 2718
     },
     "davesguitar.com": {
       "count": 5,
@@ -600,6 +600,37 @@
     }
   },
   "byModel": {
+    "fender-telecaster-classic-player": {
+      "displayName": "2014 Fender Classic Player Triple Telecaster w/ Gig Bag",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": "Classic Player",
+      "count": 1,
+      "sum": 799,
+      "min": 799,
+      "max": 799,
+      "sightings": [
+        {
+          "price": 799,
+          "date": "2026-05-28T17:24:02.753+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2014 Fender Classic Player Triple Telecaster w/ Gig Bag",
+          "url": "https://reverb.com/item/96123293-2014-fender-classic-player-triple-telecaster-w-gig-bag",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 799,
+          "min": 799,
+          "max": 799,
+          "avg": 799
+        }
+      },
+      "avg": 799
+    },
     "prs-custom-24": {
       "displayName": "PRS Custom 24 1986 - Vintage Yellow/Amber Falme Top",
       "brand": "PRS",
@@ -22246,6 +22277,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 191,
+      "sum": 524260.55999999994,
+      "sold": {
+        "count": 59,
+        "sum": 128450.79000000001,
+        "avg": 2177,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2745,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 259,
       "sum": 956211.73,
@@ -22273,20 +22318,6 @@
       "avg": 2364,
       "min": 400,
       "max": 5000
-    },
-    "Very Good": {
-      "count": 190,
-      "sum": 523461.55999999994,
-      "sold": {
-        "count": 59,
-        "sum": 128450.79000000001,
-        "avg": 2177,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2755,
-      "min": 33,
-      "max": 27500
     },
     "Fair": {
       "count": 8,
@@ -22381,9 +22412,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2555,
+      "avg": 2550,
       "median": 2000,
-      "count": 369
+      "count": 370
     },
     "04": {
       "name": "Apr",
@@ -22542,7 +22573,7 @@
   ],
   "priceDistribution": {
     "0-500": 86,
-    "500-1k": 107,
+    "500-1k": 108,
     "1k-2k": 386,
     "2k-3k": 275,
     "3k-5k": 271,
@@ -22551,7 +22582,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 86,
-    "500-1k": 107,
+    "500-1k": 108,
     "1k-2k": 386,
     "2k-3k": 275,
     "3k-5k": 271,
@@ -22559,6 +22590,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 3446,
+      "count": 88,
+      "avg": 39
+    },
     "PRS": {
       "sum": 4395,
       "count": 112,
@@ -22625,7 +22661,7 @@
       "avg": 36
     },
     "BC Rich": {
-      "sum": 3178,
+      "sum": 3179,
       "count": 81,
       "avg": 39
     },
@@ -22684,18 +22720,13 @@
       "count": 1,
       "avg": 4
     },
-    "Fender": {
-      "sum": 3425,
-      "count": 87,
-      "avg": 39
-    },
     "Arcane": {
       "sum": 130,
       "count": 5,
       "avg": 26
     },
     "Rickenbacker": {
-      "sum": 1065,
+      "sum": 1066,
       "count": 25,
       "avg": 43
     },
@@ -23010,9 +23041,9 @@
       "avg": 35
     },
     "Fodera": {
-      "sum": 55,
+      "sum": 56,
       "count": 1,
-      "avg": 55
+      "avg": 56
     },
     "Rick Toone": {
       "sum": 87,
@@ -23175,9 +23206,9 @@
       "avg": 52
     },
     "Balaguer": {
-      "sum": 43,
+      "sum": 44,
       "count": 1,
-      "avg": 43
+      "avg": 44
     },
     "Teuffel": {
       "sum": 43,
@@ -23431,7 +23462,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-28": 9,
+    "2026-05-28": 10,
     "2026-05-27": 13,
     "2026-05-26": 19,
     "2026-05-25": 7,
@@ -23464,11 +23495,11 @@
     "2026-04-28": 6
   },
   "categoryDistribution": {
-    "reverb": 1128,
+    "reverb": 1129,
     "marketplace": 88,
     "other": 115
   },
-  "activeModelsCount": 358,
+  "activeModelsCount": 359,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -23476,7 +23507,7 @@
     },
     {
       "username": "greg1213",
-      "count": 248
+      "count": 249
     },
     {
       "username": "Shteefe",
@@ -23556,10 +23587,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6275,
+      "avgPrice": 6218,
       "retailEst": 800,
-      "avgDiscount": -684.4,
-      "count": 95
+      "avgDiscount": -677.3,
+      "count": 96
     },
     "Gibson": {
       "avgPrice": 6981,
@@ -26050,15 +26081,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1270,
+      "total": 1271,
       "sold": 370,
       "fake": 0,
-      "live": 354,
+      "live": 355,
       "removed": 546,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Fender": {
+        "total": 99,
+        "sold": 29,
+        "fake": 0,
+        "live": 28,
+        "removed": 42,
+        "soldPct": 29,
+        "livePct": 28
+      },
       "PRS": {
         "total": 116,
         "sold": 36,
@@ -26085,15 +26125,6 @@
         "removed": 19,
         "soldPct": 31,
         "livePct": 38
-      },
-      "Fender": {
-        "total": 98,
-        "sold": 29,
-        "fake": 0,
-        "live": 27,
-        "removed": 42,
-        "soldPct": 30,
-        "livePct": 28
       },
       "Kiesel": {
         "total": 51,
@@ -27833,9 +27864,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 107,
+        "total": 108,
         "sold": 37,
-        "rate": 35
+        "rate": 34
       },
       {
         "label": "$1k–2k",
@@ -27869,6 +27900,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 192,
+        "sold": 59,
+        "rate": 31
+      },
       "Excellent": {
         "total": 259,
         "sold": 92,
@@ -27878,11 +27914,6 @@
         "total": 17,
         "sold": 2,
         "rate": 12
-      },
-      "Very Good": {
-        "total": 191,
-        "sold": 59,
-        "rate": 31
       },
       "Fair": {
         "total": 8,
@@ -28014,6 +28045,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Mexico": {
+      "brand": "Fender",
+      "brandLine": "Fender Mexico",
+      "tier": "mid",
+      "count": 6,
+      "sum": 4676.99,
+      "avg": 779,
+      "min": 349,
+      "max": 2179,
+      "sold": 1,
+      "soldSum": 750,
+      "soldAvg": 750,
+      "live": 4,
+      "removed": 1,
+      "sellRate": 17,
+      "totalDays": 26,
+      "soldCount": 1,
+      "avgDaysToSell": 26
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -28029,7 +28079,7 @@
       "live": 19,
       "removed": 41,
       "sellRate": 34,
-      "totalDays": 1309.6000000000001,
+      "totalDays": 1309.7,
       "soldCount": 31,
       "avgDaysToSell": 42.2
     },
@@ -28084,7 +28134,7 @@
       "live": 13,
       "removed": 27,
       "sellRate": 31,
-      "totalDays": 752.8,
+      "totalDays": 752.9000000000001,
       "soldCount": 18,
       "avgDaysToSell": 41.8
     },
@@ -28103,7 +28153,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1137.7,
+      "totalDays": 1137.8,
       "soldCount": 22,
       "avgDaysToSell": 51.7
     },
@@ -28159,7 +28209,7 @@
       "live": 28,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1188.5,
+      "totalDays": 1188.6,
       "soldCount": 34,
       "avgDaysToSell": 35
     },
@@ -28178,7 +28228,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 456.20000000000005,
+      "totalDays": 456.3,
       "soldCount": 11,
       "avgDaysToSell": 41.5
     },
@@ -28235,7 +28285,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 80,
-      "totalDays": 177.20000000000002,
+      "totalDays": 177.3,
       "soldCount": 4,
       "avgDaysToSell": 44.3
     },
@@ -28422,9 +28472,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 46,
-      "totalDays": 263,
+      "totalDays": 263.1,
       "soldCount": 6,
-      "avgDaysToSell": 43.8
+      "avgDaysToSell": 43.9
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -28460,7 +28510,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 211.3,
+      "totalDays": 211.40000000000003,
       "soldCount": 5,
       "avgDaysToSell": 42.3
     },
@@ -28536,9 +28586,9 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 304,
+      "totalDays": 304.2,
       "soldCount": 7,
-      "avgDaysToSell": 43.4
+      "avgDaysToSell": 43.5
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -28574,7 +28624,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 628.2,
+      "totalDays": 628.3000000000001,
       "soldCount": 13,
       "avgDaysToSell": 48.3
     },
@@ -28616,25 +28666,6 @@
       "soldCount": 2,
       "avgDaysToSell": 45.2
     },
-    "Fender|Fender Mexico": {
-      "brand": "Fender",
-      "brandLine": "Fender Mexico",
-      "tier": "mid",
-      "count": 5,
-      "sum": 3877.99,
-      "avg": 776,
-      "min": 349,
-      "max": 2179,
-      "sold": 1,
-      "soldSum": 750,
-      "soldAvg": 750,
-      "live": 3,
-      "removed": 1,
-      "sellRate": 20,
-      "totalDays": 26,
-      "soldCount": 1,
-      "avgDaysToSell": 26
-    },
     "Fender|Fender Japan": {
       "brand": "Fender",
       "brandLine": "Fender Japan",
@@ -28650,9 +28681,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 6.8,
+      "totalDays": 6.9,
       "soldCount": 1,
-      "avgDaysToSell": 6.8
+      "avgDaysToSell": 6.9
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -28893,9 +28924,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 148.6,
+      "totalDays": 148.7,
       "soldCount": 2,
-      "avgDaysToSell": 74.3
+      "avgDaysToSell": 74.4
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -29192,7 +29223,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 131,
+      "totalDays": 131.2,
       "soldCount": 3,
       "avgDaysToSell": 43.7
     },
@@ -29266,9 +29297,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 35.8,
+      "totalDays": 35.9,
       "soldCount": 1,
-      "avgDaysToSell": 35.8
+      "avgDaysToSell": 35.9
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -29395,7 +29426,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 47.7,
+      "totalDays": 47.8,
       "soldCount": 2,
       "avgDaysToSell": 23.9
     },
@@ -29897,8 +29928,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 200,
-    "totalOffers": 435,
+    "withOffers": 201,
+    "totalOffers": 436,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 35
   },
@@ -29927,7 +29958,7 @@
     },
     {
       "label": "16–30",
-      "total": 166,
+      "total": 167,
       "sold": 47,
       "rate": 28
     },
@@ -29945,14 +29976,14 @@
       "rate": 32
     },
     "off": {
-      "total": 156,
+      "total": 157,
       "sold": 45,
       "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 285,
+      "total": 286,
       "sold": 68,
       "rate": 24
     },
@@ -29971,7 +30002,7 @@
     },
     {
       "state": "NY",
-      "total": 40,
+      "total": 41,
       "sold": 4,
       "rate": 10
     },
