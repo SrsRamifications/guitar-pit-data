@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-28T18:18:29.912Z",
-  "totalLinks": 1333,
-  "totalEver": 1427,
-  "totalBeforeFilter": 1427,
+  "generatedAt": "2026-05-28T18:22:59.053Z",
+  "totalLinks": 1334,
+  "totalEver": 1428,
+  "totalBeforeFilter": 1428,
   "fakeCount": 9,
   "removedCount": 565,
-  "totalWithPrice": 1315,
+  "totalWithPrice": 1316,
   "overall": {
-    "count": 1276,
-    "sum": 3485969.67,
+    "count": 1277,
+    "sum": 3488369.67,
     "avg": 2732,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1276,
-    "sum": 3485969.67,
+    "count": 1277,
+    "sum": 3488369.67,
     "avg": 2732,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11126,
+    "thresholdHigh": 11108,
     "thresholdLow": 0,
     "count": 39,
     "items": [
@@ -308,8 +308,8 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 371,
-      "sum": 945702.5,
+      "count": 372,
+      "sum": 948102.5,
       "min": 39.81,
       "max": 10350,
       "avg": 2549
@@ -331,11 +331,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1101,
-      "sum": 2992053.31,
+      "count": 1102,
+      "sum": 2994453.31,
       "min": 7,
       "max": 11053,
-      "avg": 2718
+      "avg": 2717
     },
     "marketplace": {
       "count": 74,
@@ -354,11 +354,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1101,
-      "sum": 2992053.31,
+      "count": 1102,
+      "sum": 2994453.31,
       "min": 7,
       "max": 11053,
-      "avg": 2718
+      "avg": 2717
     },
     "davesguitar.com": {
       "count": 5,
@@ -600,6 +600,37 @@
     }
   },
   "byModel": {
+    "bc-rich-draco": {
+      "displayName": "B.C. Rich Draco 2007 - Black",
+      "brand": "BC Rich",
+      "model": "Draco",
+      "variant": null,
+      "count": 1,
+      "sum": 2400,
+      "min": 2400,
+      "max": 2400,
+      "sightings": [
+        {
+          "price": 2400,
+          "date": "2026-05-28T18:22:39.394+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Draco 2007 - Black",
+          "url": "https://reverb.com/item/97623019-b-c-rich-draco-2007-black",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2400,
+          "min": 2400,
+          "max": 2400,
+          "avg": 2400
+        }
+      },
+      "avg": 2400
+    },
     "prs-single-cut-satin": {
       "displayName": "PRS Singlecut Soapbar 2008 - Satin Dark mahogany",
       "brand": "PRS",
@@ -22323,6 +22354,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 260,
+      "sum": 958611.73,
+      "sold": {
+        "count": 90,
+        "sum": 264227.44,
+        "avg": 2936,
+        "min": 65,
+        "max": 35900
+      },
+      "avg": 3687,
+      "min": 65,
+      "max": 73634
+    },
     "Very Good": {
       "count": 192,
       "sum": 526360.5599999999,
@@ -22336,20 +22381,6 @@
       "avg": 2741,
       "min": 33,
       "max": 27500
-    },
-    "Excellent": {
-      "count": 259,
-      "sum": 956211.73,
-      "sold": {
-        "count": 90,
-        "sum": 264227.44,
-        "avg": 2936,
-        "min": 65,
-        "max": 35900
-      },
-      "avg": 3692,
-      "min": 65,
-      "max": 73634
     },
     "Mint": {
       "count": 17,
@@ -22460,7 +22491,7 @@
       "name": "May",
       "avg": 2549,
       "median": 2000,
-      "count": 371
+      "count": 372
     },
     "04": {
       "name": "Apr",
@@ -22621,7 +22652,7 @@
     "0-500": 86,
     "500-1k": 108,
     "1k-2k": 386,
-    "2k-3k": 276,
+    "2k-3k": 277,
     "3k-5k": 271,
     "5k-10k": 137,
     "10k+": 51
@@ -22630,12 +22661,17 @@
     "0-500": 86,
     "500-1k": 108,
     "1k-2k": 386,
-    "2k-3k": 276,
+    "2k-3k": 277,
     "3k-5k": 271,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 3180,
+      "count": 82,
+      "avg": 39
+    },
     "PRS": {
       "sum": 4396,
       "count": 113,
@@ -22652,7 +22688,7 @@
       "avg": 39
     },
     "Ibanez": {
-      "sum": 2185,
+      "sum": 2186,
       "count": 59,
       "avg": 37
     },
@@ -22705,11 +22741,6 @@
       "sum": 180,
       "count": 5,
       "avg": 36
-    },
-    "BC Rich": {
-      "sum": 3180,
-      "count": 81,
-      "avg": 39
     },
     "Gretsch": {
       "sum": 397,
@@ -22837,7 +22868,7 @@
       "avg": 44
     },
     "Jackson": {
-      "sum": 1294,
+      "sum": 1295,
       "count": 29,
       "avg": 45
     },
@@ -23508,7 +23539,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-28": 11,
+    "2026-05-28": 12,
     "2026-05-27": 13,
     "2026-05-26": 19,
     "2026-05-25": 7,
@@ -23541,11 +23572,11 @@
     "2026-04-28": 4
   },
   "categoryDistribution": {
-    "reverb": 1130,
+    "reverb": 1131,
     "marketplace": 88,
     "other": 115
   },
-  "activeModelsCount": 358,
+  "activeModelsCount": 359,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -23561,7 +23592,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 116
+      "count": 117
     },
     {
       "username": "Madero",
@@ -23729,10 +23760,10 @@
       "count": 16
     },
     "BC Rich": {
-      "avgPrice": 2932,
+      "avgPrice": 2926,
       "retailEst": 200,
-      "avgDiscount": -1366.1,
-      "count": 86
+      "avgDiscount": -1363.1,
+      "count": 87
     },
     "Rickenbacker": {
       "avgPrice": 2328,
@@ -26135,15 +26166,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1272,
+      "total": 1273,
       "sold": 371,
       "fake": 0,
-      "live": 354,
+      "live": 355,
       "removed": 547,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 87,
+        "sold": 24,
+        "fake": 0,
+        "live": 31,
+        "removed": 32,
+        "soldPct": 28,
+        "livePct": 36
+      },
       "PRS": {
         "total": 117,
         "sold": 36,
@@ -26287,15 +26327,6 @@
         "removed": 4,
         "soldPct": 29,
         "livePct": 14
-      },
-      "BC Rich": {
-        "total": 86,
-        "sold": 24,
-        "fake": 0,
-        "live": 30,
-        "removed": 32,
-        "soldPct": 28,
-        "livePct": 35
       },
       "Gretsch": {
         "total": 11,
@@ -27930,7 +27961,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 276,
+        "total": 277,
         "sold": 100,
         "rate": 36
       },
@@ -27954,15 +27985,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 260,
+        "sold": 93,
+        "rate": 36
+      },
       "Very Good": {
         "total": 193,
         "sold": 59,
         "rate": 31
-      },
-      "Excellent": {
-        "total": 259,
-        "sold": 93,
-        "rate": 36
       },
       "Mint": {
         "total": 17,
@@ -28188,7 +28219,7 @@
       "live": 13,
       "removed": 27,
       "sellRate": 31,
-      "totalDays": 753.5,
+      "totalDays": 753.5999999999999,
       "soldCount": 18,
       "avgDaysToSell": 41.9
     },
@@ -28207,7 +28238,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1138.5,
+      "totalDays": 1138.6000000000001,
       "soldCount": 22,
       "avgDaysToSell": 51.8
     },
@@ -28301,7 +28332,7 @@
       "live": 6,
       "removed": 3,
       "sellRate": 31,
-      "totalDays": 231.5,
+      "totalDays": 231.60000000000002,
       "soldCount": 4,
       "avgDaysToSell": 57.9
     },
@@ -28320,7 +28351,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 56,
-      "totalDays": 228.8,
+      "totalDays": 228.9,
       "soldCount": 5,
       "avgDaysToSell": 45.8
     },
@@ -28678,7 +28709,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 628.7,
+      "totalDays": 628.8000000000001,
       "soldCount": 13,
       "avgDaysToSell": 48.4
     },
@@ -28697,7 +28728,7 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 510.5,
+      "totalDays": 510.6,
       "soldCount": 7,
       "avgDaysToSell": 72.9
     },
@@ -30001,9 +30032,9 @@
     },
     {
       "label": "1–5",
-      "total": 38,
+      "total": 39,
       "sold": 13,
-      "rate": 34
+      "rate": 33
     },
     {
       "label": "6–15",
@@ -30026,7 +30057,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 392,
+      "total": 393,
       "sold": 126,
       "rate": 32
     },
@@ -30043,7 +30074,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 249,
+      "total": 250,
       "sold": 94,
       "rate": 38
     }
@@ -30069,9 +30100,9 @@
     },
     {
       "state": "TX",
-      "total": 30,
+      "total": 31,
       "sold": 14,
-      "rate": 47
+      "rate": 45
     },
     {
       "state": "FL",
