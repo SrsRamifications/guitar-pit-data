@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-28T19:33:29.975Z",
-  "totalLinks": 1339,
-  "totalEver": 1434,
-  "totalBeforeFilter": 1434,
+  "generatedAt": "2026-05-28T19:43:08.516Z",
+  "totalLinks": 1340,
+  "totalEver": 1435,
+  "totalBeforeFilter": 1435,
   "fakeCount": 9,
   "removedCount": 565,
-  "totalWithPrice": 1321,
+  "totalWithPrice": 1322,
   "overall": {
-    "count": 1282,
-    "sum": 3493816.67,
-    "avg": 2725,
+    "count": 1283,
+    "sum": 3498616.67,
+    "avg": 2727,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1282,
-    "sum": 3493816.67,
-    "avg": 2725,
+    "count": 1283,
+    "sum": 3498616.67,
+    "avg": 2727,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
     "thresholdHigh": 11150,
@@ -308,11 +308,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 377,
-      "sum": 953549.5,
+      "count": 378,
+      "sum": 958349.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2529
+      "avg": 2535
     },
     "2026-04": {
       "count": 778,
@@ -331,11 +331,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1106,
-      "sum": 2999351.31,
+      "count": 1107,
+      "sum": 3004151.31,
       "min": 7,
       "max": 11053,
-      "avg": 2712
+      "avg": 2714
     },
     "marketplace": {
       "count": 75,
@@ -354,11 +354,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1106,
-      "sum": 2999351.31,
+      "count": 1107,
+      "sum": 3004151.31,
       "min": 7,
       "max": 11053,
-      "avg": 2712
+      "avg": 2714
     },
     "musiciansfriend.com": {
       "count": 3,
@@ -600,6 +600,37 @@
     }
   },
   "byModel": {
+    "epiphone-62-wilshire-super-usa-custom-shop": {
+      "displayName": "Epiphone USA Custom Shop '62 Reissue Wilshire 2009 Super RARE White Finish (43)",
+      "brand": "Epiphone",
+      "model": "'62 Wilshire Super",
+      "variant": "Usa Custom Shop",
+      "count": 1,
+      "sum": 4800,
+      "min": 4800,
+      "max": 4800,
+      "sightings": [
+        {
+          "price": 4800,
+          "date": "2026-05-28T19:42:48.072+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Epiphone USA Custom Shop '62 Reissue Wilshire 2009 Super RARE White Finish (43)",
+          "url": "https://reverb.com/item/97632596-epiphone-usa-custom-shop-62-reissue-wilshire-2009-super-rare-white-finish-43",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4800,
+          "min": 4800,
+          "max": 4800,
+          "avg": 4800
+        }
+      },
+      "avg": 4800
+    },
     "suhr-modern-satin": {
       "displayName": "Suhr Modern Walnut top Mahogany body Satin",
       "brand": "Suhr",
@@ -22425,6 +22456,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 194,
+      "sum": 531228.5599999999,
+      "sold": {
+        "count": 59,
+        "sum": 128450.79000000001,
+        "avg": 2177,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2738,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 261,
       "sum": 961361.73,
@@ -22452,20 +22497,6 @@
       "avg": 1647,
       "min": 300,
       "max": 4699
-    },
-    "Very Good": {
-      "count": 193,
-      "sum": 526428.5599999999,
-      "sold": {
-        "count": 59,
-        "sum": 128450.79000000001,
-        "avg": 2177,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2728,
-      "min": 33,
-      "max": 27500
     },
     "Good": {
       "count": 83,
@@ -22560,9 +22591,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2529,
+      "avg": 2535,
       "median": 2000,
-      "count": 377
+      "count": 378
     },
     "04": {
       "name": "Apr",
@@ -22724,7 +22755,7 @@
     "500-1k": 110,
     "1k-2k": 387,
     "2k-3k": 278,
-    "3k-5k": 271,
+    "3k-5k": 272,
     "5k-10k": 137,
     "10k+": 51
   },
@@ -22733,13 +22764,18 @@
     "500-1k": 110,
     "1k-2k": 387,
     "2k-3k": 278,
-    "3k-5k": 271,
+    "3k-5k": 272,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Epiphone": {
+      "sum": 428,
+      "count": 11,
+      "avg": 39
+    },
     "Suhr": {
-      "sum": 510,
+      "sum": 511,
       "count": 15,
       "avg": 34
     },
@@ -22749,7 +22785,7 @@
       "avg": 26
     },
     "BC Rich": {
-      "sum": 3182,
+      "sum": 3183,
       "count": 83,
       "avg": 38
     },
@@ -22803,11 +22839,6 @@
       "count": 161,
       "avg": 41
     },
-    "Epiphone": {
-      "sum": 428,
-      "count": 10,
-      "avg": 43
-    },
     "Friedman": {
       "sum": 265,
       "count": 9,
@@ -22844,7 +22875,7 @@
       "avg": 30
     },
     "Schecter": {
-      "sum": 457,
+      "sum": 458,
       "count": 13,
       "avg": 35
     },
@@ -23610,7 +23641,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-28": 17,
+    "2026-05-28": 18,
     "2026-05-27": 13,
     "2026-05-26": 19,
     "2026-05-25": 7,
@@ -23643,11 +23674,11 @@
     "2026-04-28": 3
   },
   "categoryDistribution": {
-    "reverb": 1135,
+    "reverb": 1136,
     "marketplace": 89,
     "other": 115
   },
-  "activeModelsCount": 360,
+  "activeModelsCount": 361,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -23659,7 +23690,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 142
+      "count": 143
     },
     {
       "username": "YellowJack6",
@@ -23747,10 +23778,10 @@
       "count": 164
     },
     "Epiphone": {
-      "avgPrice": 1757,
+      "avgPrice": 1974,
       "retailEst": 560,
-      "avgDiscount": -213.8,
-      "count": 13
+      "avgDiscount": -252.6,
+      "count": 14
     },
     "ESP": {
       "avgPrice": 3244059,
@@ -26237,15 +26268,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1276,
+      "total": 1277,
       "sold": 371,
       "fake": 0,
-      "live": 358,
+      "live": 359,
       "removed": 547,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Epiphone": {
+        "total": 14,
+        "sold": 4,
+        "fake": 0,
+        "live": 7,
+        "removed": 3,
+        "soldPct": 29,
+        "livePct": 50
+      },
       "Suhr": {
         "total": 15,
         "sold": 6,
@@ -26371,15 +26411,6 @@
         "removed": 7,
         "soldPct": 52,
         "livePct": 22
-      },
-      "Epiphone": {
-        "total": 13,
-        "sold": 4,
-        "fake": 0,
-        "live": 6,
-        "removed": 3,
-        "soldPct": 31,
-        "livePct": 46
       },
       "Friedman": {
         "total": 9,
@@ -28038,7 +28069,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 271,
+        "total": 272,
         "sold": 71,
         "rate": 26
       },
@@ -28056,6 +28087,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 195,
+        "sold": 59,
+        "rate": 30
+      },
       "Excellent": {
         "total": 261,
         "sold": 93,
@@ -28065,11 +28101,6 @@
         "total": 9,
         "sold": 2,
         "rate": 22
-      },
-      "Very Good": {
-        "total": 194,
-        "sold": 59,
-        "rate": 30
       },
       "Good": {
         "total": 83,
@@ -28190,17 +28221,29 @@
         "sellRate": 33,
         "count": 6,
         "sold": 2
-      },
-      {
-        "brand": "Epiphone",
-        "avgPrice": 1757,
-        "sellRate": 31,
-        "count": 13,
-        "sold": 4
       }
     ]
   },
   "byBrandLine": {
+    "Epiphone|Epiphone": {
+      "brand": "Epiphone",
+      "brandLine": "Epiphone",
+      "tier": "budget",
+      "count": 14,
+      "sum": 27642.31,
+      "avg": 1974,
+      "min": 165,
+      "max": 4995,
+      "sold": 4,
+      "soldSum": 8335,
+      "soldAvg": 2084,
+      "live": 7,
+      "removed": 3,
+      "sellRate": 29,
+      "totalDays": 231.70000000000002,
+      "soldCount": 4,
+      "avgDaysToSell": 57.9
+    },
     "Suhr|Suhr": {
       "brand": "Suhr",
       "brandLine": "Suhr",
@@ -28216,7 +28259,7 @@
       "live": 4,
       "removed": 4,
       "sellRate": 43,
-      "totalDays": 162.9,
+      "totalDays": 163,
       "soldCount": 6,
       "avgDaysToSell": 27.2
     },
@@ -28273,7 +28316,7 @@
       "live": 19,
       "removed": 42,
       "sellRate": 34,
-      "totalDays": 1312.3,
+      "totalDays": 1312.6999999999998,
       "soldCount": 31,
       "avgDaysToSell": 42.3
     },
@@ -28366,7 +28409,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1139.8,
+      "totalDays": 1140,
       "soldCount": 22,
       "avgDaysToSell": 51.8
     },
@@ -28422,28 +28465,9 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 457.2,
+      "totalDays": 457.3,
       "soldCount": 11,
       "avgDaysToSell": 41.6
-    },
-    "Epiphone|Epiphone": {
-      "brand": "Epiphone",
-      "brandLine": "Epiphone",
-      "tier": "budget",
-      "count": 13,
-      "sum": 22842.31,
-      "avg": 1757,
-      "min": 165,
-      "max": 4995,
-      "sold": 4,
-      "soldSum": 8335,
-      "soldAvg": 2084,
-      "live": 6,
-      "removed": 3,
-      "sellRate": 31,
-      "totalDays": 231.70000000000002,
-      "soldCount": 4,
-      "avgDaysToSell": 57.9
     },
     "Friedman|Friedman": {
       "brand": "Friedman",
@@ -28517,7 +28541,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 386.59999999999997,
+      "totalDays": 386.8,
       "soldCount": 9,
       "avgDaysToSell": 43
     },
@@ -28685,9 +28709,9 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 211.70000000000002,
+      "totalDays": 211.8,
       "soldCount": 5,
-      "avgDaysToSell": 42.3
+      "avgDaysToSell": 42.4
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -28761,7 +28785,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 304.5,
+      "totalDays": 304.7,
       "soldCount": 7,
       "avgDaysToSell": 43.5
     },
@@ -28799,7 +28823,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 629.2,
+      "totalDays": 629.4,
       "soldCount": 13,
       "avgDaysToSell": 48.4
     },
@@ -28875,9 +28899,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 13,
-      "totalDays": 19.9,
+      "totalDays": 20,
       "soldCount": 1,
-      "avgDaysToSell": 19.9
+      "avgDaysToSell": 20
     },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
@@ -29080,9 +29104,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 148.8,
+      "totalDays": 148.9,
       "soldCount": 2,
-      "avgDaysToSell": 74.4
+      "avgDaysToSell": 74.5
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -29361,9 +29385,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 72.2,
+      "totalDays": 72.3,
       "soldCount": 1,
-      "avgDaysToSell": 72.2
+      "avgDaysToSell": 72.3
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -30103,9 +30127,9 @@
     },
     {
       "label": "1–5",
-      "total": 40,
+      "total": 41,
       "sold": 13,
-      "rate": 33
+      "rate": 32
     },
     {
       "label": "6–15",
@@ -30133,7 +30157,7 @@
       "rate": 32
     },
     "off": {
-      "total": 159,
+      "total": 160,
       "sold": 45,
       "rate": 28
     }
@@ -30145,7 +30169,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 253,
+      "total": 254,
       "sold": 94,
       "rate": 37
     }
@@ -30212,6 +30236,12 @@
       "rate": 25
     },
     {
+      "state": "OH",
+      "total": 14,
+      "sold": 3,
+      "rate": 21
+    },
+    {
       "state": "CO",
       "total": 14,
       "sold": 5,
@@ -30222,12 +30252,6 @@
       "total": 14,
       "sold": 5,
       "rate": 36
-    },
-    {
-      "state": "OH",
-      "total": 13,
-      "sold": 3,
-      "rate": 23
     },
     {
       "state": "NJ",
