@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-28T16:03:33.590Z",
-  "totalLinks": 1326,
-  "totalEver": 1420,
-  "totalBeforeFilter": 1420,
+  "generatedAt": "2026-05-28T16:03:41.854Z",
+  "totalLinks": 1327,
+  "totalEver": 1421,
+  "totalBeforeFilter": 1421,
   "fakeCount": 9,
   "removedCount": 564,
-  "totalWithPrice": 1308,
+  "totalWithPrice": 1309,
   "overall": {
-    "count": 1270,
-    "sum": 3468228.67,
-    "avg": 2731,
+    "count": 1271,
+    "sum": 3469023.67,
+    "avg": 2729,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1270,
-    "sum": 3468228.67,
-    "avg": 2731,
+    "count": 1271,
+    "sum": 3469023.67,
+    "avg": 2729,
     "min": 3,
     "max": 11099,
-    "median": 2200
+    "median": 2199.99
   },
   "outliers": {
-    "thresholdHigh": 11108,
+    "thresholdHigh": 11126,
     "thresholdLow": 0,
     "count": 38,
     "items": [
@@ -300,11 +300,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 365,
-      "sum": 927961.5,
+      "count": 366,
+      "sum": 928756.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2542
+      "avg": 2538
     },
     "2026-04": {
       "count": 778,
@@ -322,19 +322,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 74,
+      "sum": 206084.42,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2785
+    },
     "reverb": {
       "count": 1096,
       "sum": 2975107.31,
       "min": 7,
       "max": 11053,
       "avg": 2715
-    },
-    "marketplace": {
-      "count": 73,
-      "sum": 205289.42,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2812
     },
     "other": {
       "count": 101,
@@ -345,6 +345,13 @@
     }
   },
   "byDomain": {
+    "davesguitar.com": {
+      "count": 5,
+      "sum": 6684,
+      "min": 795,
+      "max": 1849,
+      "avg": 1337
+    },
     "reverb.com": {
       "count": 1096,
       "sum": 2975107.31,
@@ -372,13 +379,6 @@
       "min": 749.99,
       "max": 2799.99,
       "avg": 1793
-    },
-    "davesguitar.com": {
-      "count": 4,
-      "sum": 5889,
-      "min": 1195,
-      "max": 1849,
-      "avg": 1472
     },
     "tapestrymusic.com": {
       "count": 3,
@@ -592,6 +592,37 @@
     }
   },
   "byModel": {
+    "kiesel-dc135": {
+      "displayName": "DC135 '01",
+      "brand": "Kiesel",
+      "model": "DC135",
+      "variant": null,
+      "count": 1,
+      "sum": 795,
+      "min": 795,
+      "max": 795,
+      "sightings": [
+        {
+          "price": 795,
+          "date": "2026-05-28T16:03:28.535+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "DC135 '01",
+          "url": "https://www.davesguitar.com/collections/just-in/products/dc135-01",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 795,
+          "min": 795,
+          "max": 795,
+          "avg": 795
+        }
+      },
+      "avg": 795
+    },
     "ibanez-rg": {
       "displayName": "Ibanez JCRG2104 Sugi J. Custom 2021 - Nebulous Blue",
       "brand": "Ibanez",
@@ -22105,6 +22136,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 190,
+      "sum": 523461.55999999994,
+      "sold": {
+        "count": 59,
+        "sum": 128450.79000000001,
+        "avg": 2177,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2755,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 256,
       "sum": 873145.73,
@@ -22132,20 +22177,6 @@
       "avg": 1743,
       "min": 300,
       "max": 4699
-    },
-    "Very Good": {
-      "count": 189,
-      "sum": 522666.55999999994,
-      "sold": {
-        "count": 59,
-        "sum": 128450.79000000001,
-        "avg": 2177,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2765,
-      "min": 33,
-      "max": 27500
     },
     "Used": {
       "count": 51,
@@ -22240,9 +22271,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2542,
+      "avg": 2538,
       "median": 2000,
-      "count": 365
+      "count": 366
     },
     "04": {
       "name": "Apr",
@@ -22401,7 +22432,7 @@
   ],
   "priceDistribution": {
     "0-500": 86,
-    "500-1k": 106,
+    "500-1k": 107,
     "1k-2k": 385,
     "2k-3k": 275,
     "3k-5k": 270,
@@ -22410,7 +22441,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 86,
-    "500-1k": 106,
+    "500-1k": 107,
     "1k-2k": 385,
     "2k-3k": 275,
     "3k-5k": 270,
@@ -22418,6 +22449,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 1712,
+      "count": 45,
+      "avg": 38
+    },
     "Ibanez": {
       "sum": 2184,
       "count": 58,
@@ -22452,11 +22488,6 @@
       "sum": 507,
       "count": 14,
       "avg": 36
-    },
-    "Kiesel": {
-      "sum": 1712,
-      "count": 44,
-      "avg": 39
     },
     "Gibson": {
       "sum": 6620,
@@ -23290,7 +23321,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-28": 4,
+    "2026-05-28": 5,
     "2026-05-27": 13,
     "2026-05-26": 19,
     "2026-05-25": 7,
@@ -23323,11 +23354,11 @@
     "2026-04-28": 6
   },
   "categoryDistribution": {
+    "marketplace": 88,
     "reverb": 1124,
-    "marketplace": 87,
     "other": 115
   },
-  "activeModelsCount": 354,
+  "activeModelsCount": 355,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -23355,7 +23386,7 @@
     },
     {
       "username": "Modean",
-      "count": 67
+      "count": 68
     },
     {
       "username": "scottcorgan",
@@ -23487,10 +23518,10 @@
       "count": 14
     },
     "Kiesel": {
-      "avgPrice": 1539,
+      "avgPrice": 1524,
       "retailEst": 1000,
-      "avgDiscount": -53.9,
-      "count": 49
+      "avgDiscount": -52.4,
+      "count": 50
     },
     "Echopark": {
       "avgPrice": 4195,
@@ -25909,15 +25940,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1265,
+      "total": 1266,
       "sold": 370,
       "fake": 0,
-      "live": 349,
+      "live": 350,
       "removed": 546,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 51,
+        "sold": 23,
+        "fake": 0,
+        "live": 15,
+        "removed": 13,
+        "soldPct": 45,
+        "livePct": 29
+      },
       "Ibanez": {
         "total": 60,
         "sold": 19,
@@ -25980,15 +26020,6 @@
         "removed": 5,
         "soldPct": 43,
         "livePct": 21
-      },
-      "Kiesel": {
-        "total": 50,
-        "sold": 23,
-        "fake": 0,
-        "live": 14,
-        "removed": 13,
-        "soldPct": 46,
-        "livePct": 28
       },
       "Gibson": {
         "total": 166,
@@ -27692,7 +27723,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 106,
+        "total": 107,
         "sold": 37,
         "rate": 35
       },
@@ -27728,6 +27759,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 191,
+        "sold": 59,
+        "rate": 31
+      },
       "Excellent": {
         "total": 256,
         "sold": 92,
@@ -27737,11 +27773,6 @@
         "total": 8,
         "sold": 2,
         "rate": 25
-      },
-      "Very Good": {
-        "total": 190,
-        "sold": 59,
-        "rate": 31
       },
       "Used": {
         "total": 52,
@@ -27837,9 +27868,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1536,
-        "sellRate": 46,
-        "count": 50,
+        "avgPrice": 1521,
+        "sellRate": 45,
+        "count": 51,
         "sold": 23
       },
       {
@@ -27873,6 +27904,25 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 48,
+      "sum": 73007.98,
+      "avg": 1521,
+      "min": 650,
+      "max": 4300,
+      "sold": 22,
+      "soldSum": 29720,
+      "soldAvg": 1351,
+      "live": 14,
+      "removed": 12,
+      "sellRate": 46,
+      "totalDays": 1136.4999999999998,
+      "soldCount": 22,
+      "avgDaysToSell": 51.7
+    },
     "Ibanez|Ibanez Sugi": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Sugi",
@@ -27928,25 +27978,6 @@
       "totalDays": 162,
       "soldCount": 6,
       "avgDaysToSell": 27
-    },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 47,
-      "sum": 72212.98,
-      "avg": 1536,
-      "min": 650,
-      "max": 4300,
-      "sold": 22,
-      "soldSum": 29720,
-      "soldAvg": 1351,
-      "live": 13,
-      "removed": 12,
-      "sellRate": 47,
-      "totalDays": 1136.4999999999998,
-      "soldCount": 22,
-      "avgDaysToSell": 51.7
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
