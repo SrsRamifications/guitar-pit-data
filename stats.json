@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-29T00:33:30.052Z",
-  "totalLinks": 1345,
-  "totalEver": 1440,
-  "totalBeforeFilter": 1440,
+  "generatedAt": "2026-05-29T00:46:11.220Z",
+  "totalLinks": 1346,
+  "totalEver": 1441,
+  "totalBeforeFilter": 1441,
   "fakeCount": 9,
   "removedCount": 566,
-  "totalWithPrice": 1327,
+  "totalWithPrice": 1328,
   "overall": {
-    "count": 1287,
-    "sum": 3512205.67,
-    "avg": 2729,
+    "count": 1288,
+    "sum": 3517204.67,
+    "avg": 2731,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1287,
-    "sum": 3512205.67,
-    "avg": 2729,
+    "count": 1288,
+    "sum": 3517204.67,
+    "avg": 2731,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11150,
+    "thresholdHigh": 11202,
     "thresholdLow": 0,
     "count": 40,
     "items": [
@@ -316,11 +316,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 382,
-      "sum": 971938.5,
+      "count": 383,
+      "sum": 976937.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2544
+      "avg": 2551
     },
     "2026-04": {
       "count": 778,
@@ -339,11 +339,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1111,
-      "sum": 3017740.31,
+      "count": 1112,
+      "sum": 3022739.31,
       "min": 7,
       "max": 11053,
-      "avg": 2716
+      "avg": 2718
     },
     "marketplace": {
       "count": 75,
@@ -362,11 +362,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1111,
-      "sum": 3017740.31,
+      "count": 1112,
+      "sum": 3022739.31,
       "min": 7,
       "max": 11053,
-      "avg": 2716
+      "avg": 2718
     },
     "musiciansfriend.com": {
       "count": 3,
@@ -608,6 +608,37 @@
     }
   },
   "byModel": {
+    "bc-rich-80s-ironbird-series": {
+      "displayName": "B.C. Rich 80’s Ironbird U Series Red Sparkle",
+      "brand": "BC Rich",
+      "model": "80’s Ironbird Series",
+      "variant": null,
+      "count": 1,
+      "sum": 4999,
+      "min": 4999,
+      "max": 4999,
+      "sightings": [
+        {
+          "price": 4999,
+          "date": "2026-05-29T00:45:51.832+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich 80’s Ironbird U Series Red Sparkle",
+          "url": "https://reverb.com/item/97645383-b-c-rich-80-s-ironbird-u-series-red-sparkle",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4999,
+          "min": 4999,
+          "max": 4999,
+          "avg": 4999
+        }
+      },
+      "avg": 4999
+    },
     "prs-custom-24": {
       "displayName": "PRS Custom 24 1985",
       "brand": "PRS",
@@ -22575,6 +22606,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 196,
+      "sum": 540722.5599999999,
+      "sold": {
+        "count": 59,
+        "sum": 128450.79000000001,
+        "avg": 2177,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2759,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 265,
       "sum": 999575.73,
@@ -22588,20 +22633,6 @@
       "avg": 3772,
       "min": 65,
       "max": 73634
-    },
-    "Very Good": {
-      "count": 195,
-      "sum": 535723.5599999999,
-      "sold": {
-        "count": 59,
-        "sum": 128450.79000000001,
-        "avg": 2177,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2747,
-      "min": 33,
-      "max": 27500
     },
     "Fair": {
       "count": 9,
@@ -22710,9 +22741,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2544,
+      "avg": 2551,
       "median": 2000,
-      "count": 382
+      "count": 383
     },
     "04": {
       "name": "Apr",
@@ -22874,7 +22905,7 @@
     "500-1k": 110,
     "1k-2k": 388,
     "2k-3k": 278,
-    "3k-5k": 275,
+    "3k-5k": 276,
     "5k-10k": 137,
     "10k+": 52
   },
@@ -22883,11 +22914,16 @@
     "500-1k": 110,
     "1k-2k": 388,
     "2k-3k": 278,
-    "3k-5k": 275,
+    "3k-5k": 276,
     "5k-10k": 137,
     "10k+": 12
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 3187,
+      "count": 84,
+      "avg": 38
+    },
     "PRS": {
       "sum": 4402,
       "count": 114,
@@ -22904,7 +22940,7 @@
       "avg": 38
     },
     "Vintage": {
-      "sum": 1079,
+      "sum": 1080,
       "count": 33,
       "avg": 33
     },
@@ -22923,11 +22959,6 @@
       "count": 7,
       "avg": 26
     },
-    "BC Rich": {
-      "sum": 3187,
-      "count": 83,
-      "avg": 38
-    },
     "Fender": {
       "sum": 3451,
       "count": 88,
@@ -22939,7 +22970,7 @@
       "avg": 39
     },
     "Ibanez": {
-      "sum": 2190,
+      "sum": 2191,
       "count": 59,
       "avg": 37
     },
@@ -23034,7 +23065,7 @@
       "avg": 26
     },
     "Rickenbacker": {
-      "sum": 1067,
+      "sum": 1068,
       "count": 25,
       "avg": 43
     },
@@ -23760,7 +23791,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-29": 1,
+    "2026-05-29": 2,
     "2026-05-28": 22,
     "2026-05-27": 13,
     "2026-05-26": 19,
@@ -23793,11 +23824,11 @@
     "2026-04-29": 12
   },
   "categoryDistribution": {
-    "reverb": 1141,
+    "reverb": 1142,
     "marketplace": 89,
     "other": 115
   },
-  "activeModelsCount": 361,
+  "activeModelsCount": 362,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -23813,7 +23844,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 118
+      "count": 119
     },
     {
       "username": "Madero",
@@ -23987,10 +24018,10 @@
       "count": 16
     },
     "BC Rich": {
-      "avgPrice": 2907,
+      "avgPrice": 2930,
       "retailEst": 200,
-      "avgDiscount": -1353.3,
-      "count": 88
+      "avgDiscount": -1365,
+      "count": 89
     },
     "Rickenbacker": {
       "avgPrice": 2328,
@@ -26393,15 +26424,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1282,
+      "total": 1283,
       "sold": 371,
       "fake": 0,
-      "live": 363,
+      "live": 364,
       "removed": 548,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 89,
+        "sold": 24,
+        "fake": 0,
+        "live": 33,
+        "removed": 32,
+        "soldPct": 27,
+        "livePct": 37
+      },
       "PRS": {
         "total": 118,
         "sold": 36,
@@ -26464,15 +26504,6 @@
         "removed": 2,
         "soldPct": 43,
         "livePct": 29
-      },
-      "BC Rich": {
-        "total": 88,
-        "sold": 24,
-        "fake": 0,
-        "live": 32,
-        "removed": 32,
-        "soldPct": 27,
-        "livePct": 36
       },
       "Fender": {
         "total": 99,
@@ -28194,7 +28225,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 275,
+        "total": 276,
         "sold": 71,
         "rate": 26
       },
@@ -28212,15 +28243,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 197,
+        "sold": 59,
+        "rate": 30
+      },
       "Excellent": {
         "total": 265,
         "sold": 93,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 196,
-        "sold": 59,
-        "rate": 30
       },
       "Fair": {
         "total": 9,
@@ -28372,9 +28403,9 @@
       "live": 20,
       "removed": 42,
       "sellRate": 33,
-      "totalDays": 1319.0000000000002,
+      "totalDays": 1319.6000000000001,
       "soldCount": 31,
-      "avgDaysToSell": 42.5
+      "avgDaysToSell": 42.6
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -28429,9 +28460,9 @@
       "live": 8,
       "removed": 3,
       "sellRate": 27,
-      "totalDays": 232.5,
+      "totalDays": 232.7,
       "soldCount": 4,
-      "avgDaysToSell": 58.1
+      "avgDaysToSell": 58.2
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -28560,7 +28591,7 @@
       "live": 13,
       "removed": 27,
       "sellRate": 31,
-      "totalDays": 758.2,
+      "totalDays": 758.5,
       "soldCount": 18,
       "avgDaysToSell": 42.1
     },
@@ -28579,7 +28610,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1144.4,
+      "totalDays": 1144.7,
       "soldCount": 22,
       "avgDaysToSell": 52
     },
@@ -28616,7 +28647,7 @@
       "live": 28,
       "removed": 63,
       "sellRate": 27,
-      "totalDays": 1198.7,
+      "totalDays": 1199,
       "soldCount": 34,
       "avgDaysToSell": 35.3
     },
@@ -28635,7 +28666,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 459.5,
+      "totalDays": 459.79999999999995,
       "soldCount": 11,
       "avgDaysToSell": 41.8
     },
@@ -28673,7 +28704,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 80,
-      "totalDays": 178.4,
+      "totalDays": 178.5,
       "soldCount": 4,
       "avgDaysToSell": 44.6
     },
@@ -28879,7 +28910,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 212.79999999999998,
+      "totalDays": 212.9,
       "soldCount": 5,
       "avgDaysToSell": 42.6
     },
@@ -28936,9 +28967,9 @@
       "live": 1,
       "removed": 8,
       "sellRate": 10,
-      "totalDays": 45,
+      "totalDays": 45.1,
       "soldCount": 1,
-      "avgDaysToSell": 45
+      "avgDaysToSell": 45.1
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -28955,9 +28986,9 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 306.19999999999993,
+      "totalDays": 306.29999999999995,
       "soldCount": 7,
-      "avgDaysToSell": 43.7
+      "avgDaysToSell": 43.8
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -28993,7 +29024,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 631.8,
+      "totalDays": 631.9999999999999,
       "soldCount": 13,
       "avgDaysToSell": 48.6
     },
@@ -29031,9 +29062,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 22,
-      "totalDays": 91,
+      "totalDays": 91.1,
       "soldCount": 2,
-      "avgDaysToSell": 45.5
+      "avgDaysToSell": 45.6
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -29144,9 +29175,9 @@
       "live": 4,
       "removed": 11,
       "sellRate": 12,
-      "totalDays": 186.60000000000002,
+      "totalDays": 186.7,
       "soldCount": 2,
-      "avgDaysToSell": 93.3
+      "avgDaysToSell": 93.4
     },
     "Ibanez|Ibanez Standard": {
       "brand": "Ibanez",
@@ -29274,9 +29305,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 23.9,
+      "totalDays": 24,
       "soldCount": 1,
-      "avgDaysToSell": 23.9
+      "avgDaysToSell": 24
     },
     "Solar Guitars|Solar Guitars": {
       "brand": "Solar Guitars",
@@ -29536,7 +29567,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 131.9,
+      "totalDays": 132.1,
       "soldCount": 3,
       "avgDaysToSell": 44
     },
@@ -29794,9 +29825,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 56.7,
+      "totalDays": 56.8,
       "soldCount": 1,
-      "avgDaysToSell": 56.7
+      "avgDaysToSell": 56.8
     },
     "Fender|Fender Masterbuilt": {
       "brand": "Fender",
@@ -29942,7 +29973,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 342.2,
+      "totalDays": 342.29999999999995,
       "soldCount": 3,
       "avgDaysToSell": 114.1
     },
@@ -30142,7 +30173,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 104.30000000000001,
+      "totalDays": 104.4,
       "soldCount": 2,
       "avgDaysToSell": 52.2
     },
@@ -30259,9 +30290,9 @@
     },
     {
       "label": "1–5",
-      "total": 41,
+      "total": 42,
       "sold": 13,
-      "rate": 32
+      "rate": 31
     },
     {
       "label": "6–15",
@@ -30284,7 +30315,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 399,
+      "total": 400,
       "sold": 126,
       "rate": 32
     },
@@ -30301,7 +30332,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 255,
+      "total": 256,
       "sold": 94,
       "rate": 37
     }
@@ -30452,6 +30483,12 @@
       "rate": 50
     },
     {
+      "state": "OK",
+      "total": 5,
+      "sold": 1,
+      "rate": 20
+    },
+    {
       "state": "KS",
       "total": 5,
       "sold": 1,
@@ -30486,12 +30523,6 @@
       "total": 4,
       "sold": 2,
       "rate": 50
-    },
-    {
-      "state": "OK",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
     },
     {
       "state": "KY",
