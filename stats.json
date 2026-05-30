@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-05-30T19:03:30.425Z",
-  "totalLinks": 1369,
-  "totalEver": 1471,
-  "totalBeforeFilter": 1471,
+  "generatedAt": "2026-05-30T19:05:05.675Z",
+  "totalLinks": 1370,
+  "totalEver": 1472,
+  "totalBeforeFilter": 1472,
   "fakeCount": 9,
   "removedCount": 568,
-  "totalWithPrice": 1334,
+  "totalWithPrice": 1335,
   "overall": {
-    "count": 1294,
-    "sum": 3532136.67,
-    "avg": 2730,
+    "count": 1295,
+    "sum": 3536331.67,
+    "avg": 2731,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1294,
-    "sum": 3532136.67,
-    "avg": 2730,
+    "count": 1295,
+    "sum": 3536331.67,
+    "avg": 2731,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11117,
+    "thresholdHigh": 11193,
     "thresholdLow": 0,
     "count": 40,
     "items": [
@@ -316,11 +316,11 @@
   },
   "byMonth": {
     "2026-05": {
-      "count": 389,
-      "sum": 991869.5,
+      "count": 390,
+      "sum": 996064.5,
       "min": 39.81,
       "max": 10350,
-      "avg": 2550
+      "avg": 2554
     },
     "2026-04": {
       "count": 778,
@@ -338,19 +338,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 76,
+      "sum": 210828.42,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 2774
+    },
     "reverb": {
       "count": 1118,
       "sum": 3037671.31,
       "min": 7,
       "max": 11053,
       "avg": 2717
-    },
-    "marketplace": {
-      "count": 75,
-      "sum": 206633.42,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2755
     },
     "other": {
       "count": 101,
@@ -361,6 +361,13 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 52,
+      "sum": 206817.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 3977
+    },
     "reverb.com": {
       "count": 1118,
       "sum": 3037671.31,
@@ -416,13 +423,6 @@
       "min": 9900,
       "max": 9900,
       "avg": 9900
-    },
-    "chicagomusicexchange.com": {
-      "count": 51,
-      "sum": 202622.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 3973
     },
     "dunableguitars.com": {
       "count": 1,
@@ -608,6 +608,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-standard-58-bigsby": {
+      "displayName": "Gibson Custom '58 Les Paul Standard Bigsby Cherry 2019",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "58 Bigsby",
+      "count": 1,
+      "sum": 4195,
+      "min": 4195,
+      "max": 4195,
+      "sightings": [
+        {
+          "price": 4195,
+          "date": "2026-05-30T19:04:38.701+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom '58 Les Paul Standard Bigsby Cherry 2019",
+          "url": "https://www.chicagomusicexchange.com/products/gibson-custom-58-les-paul-standard-bigsby-cherry-2019-2581070",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 4195,
+          "min": 4195,
+          "max": 4195,
+          "avg": 4195
+        }
+      },
+      "avg": 4195
+    },
     "bc-rich-draco-d-xtender-string-thru": {
       "displayName": "2011 B.C. Rich Draco Black w/ D-Xtender, String-Thru Bridge, Locking Tuners",
       "brand": "BC Rich",
@@ -22828,6 +22859,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 52,
+      "sum": 372801.6599999999,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7169,
+      "min": 475.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 198,
       "sum": 543941.56,
@@ -22912,17 +22954,6 @@
       "min": 400,
       "max": 5000
     },
-    "Used": {
-      "count": 51,
-      "sum": 368606.6599999999,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7228,
-      "min": 475.99,
-      "max": 99000
-    },
     "New": {
       "count": 2,
       "sum": 8524,
@@ -22963,9 +22994,9 @@
   "seasonal": {
     "05": {
       "name": "May",
-      "avg": 2550,
+      "avg": 2554,
       "median": 2000,
-      "count": 389
+      "count": 390
     },
     "04": {
       "name": "Apr",
@@ -23127,7 +23158,7 @@
     "500-1k": 111,
     "1k-2k": 391,
     "2k-3k": 278,
-    "3k-5k": 277,
+    "3k-5k": 278,
     "5k-10k": 138,
     "10k+": 52
   },
@@ -23136,11 +23167,16 @@
     "500-1k": 111,
     "1k-2k": 391,
     "2k-3k": 278,
-    "3k-5k": 277,
+    "3k-5k": 278,
     "5k-10k": 138,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 6955,
+      "count": 162,
+      "avg": 43
+    },
     "BC Rich": {
       "sum": 3401,
       "count": 85,
@@ -23225,11 +23261,6 @@
       "sum": 18,
       "count": 1,
       "avg": 18
-    },
-    "Gibson": {
-      "sum": 6954,
-      "count": 161,
-      "avg": 43
     },
     "Friedman": {
       "sum": 283,
@@ -24013,7 +24044,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-05-30": 7,
+    "2026-05-30": 8,
     "2026-05-29": 18,
     "2026-05-28": 22,
     "2026-05-27": 13,
@@ -24046,11 +24077,11 @@
     "2026-04-30": 2
   },
   "categoryDistribution": {
+    "marketplace": 90,
     "reverb": 1165,
-    "marketplace": 89,
     "other": 115
   },
-  "activeModelsCount": 349,
+  "activeModelsCount": 350,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -24062,7 +24093,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 146
+      "count": 147
     },
     {
       "username": "YellowJack6",
@@ -24144,10 +24175,10 @@
       "count": 96
     },
     "Gibson": {
-      "avgPrice": 6981,
+      "avgPrice": 6964,
       "retailEst": 800,
-      "avgDiscount": -772.6,
-      "count": 164
+      "avgDiscount": -770.5,
+      "count": 165
     },
     "Epiphone": {
       "avgPrice": 2143,
@@ -26667,15 +26698,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1288,
+      "total": 1289,
       "sold": 373,
       "fake": 0,
-      "live": 365,
+      "live": 366,
       "removed": 550,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Gibson": {
+        "total": 167,
+        "sold": 47,
+        "fake": 0,
+        "live": 36,
+        "removed": 84,
+        "soldPct": 28,
+        "livePct": 22
+      },
       "BC Rich": {
         "total": 90,
         "sold": 25,
@@ -26828,15 +26868,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 0
-      },
-      "Gibson": {
-        "total": 166,
-        "sold": 47,
-        "fake": 0,
-        "live": 35,
-        "removed": 84,
-        "soldPct": 28,
-        "livePct": 21
       },
       "Music Man": {
         "total": 27,
@@ -28468,7 +28499,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 277,
+        "total": 278,
         "sold": 72,
         "rate": 26
       },
@@ -28486,6 +28517,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 53,
+        "sold": 6,
+        "rate": 11
+      },
       "Very Good": {
         "total": 199,
         "sold": 60,
@@ -28514,11 +28550,6 @@
       "Mint": {
         "total": 17,
         "sold": 2,
-        "rate": 12
-      },
-      "Used": {
-        "total": 52,
-        "sold": 6,
         "rate": 12
       },
       "New": {
@@ -28624,6 +28655,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 126,
+      "sum": 805043.9099999999,
+      "avg": 6389,
+      "min": 135,
+      "max": 443302,
+      "sold": 34,
+      "soldSum": 96791.97,
+      "soldAvg": 2847,
+      "live": 29,
+      "removed": 63,
+      "sellRate": 27,
+      "totalDays": 1259.4999999999998,
+      "soldCount": 34,
+      "avgDaysToSell": 37
+    },
     "Nash|Nash": {
       "brand": "Nash",
       "brandLine": "Nash",
@@ -28903,7 +28953,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1183.2,
+      "totalDays": 1183.3,
       "soldCount": 22,
       "avgDaysToSell": 53.8
     },
@@ -28924,25 +28974,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 125,
-      "sum": 800848.9099999999,
-      "avg": 6407,
-      "min": 135,
-      "max": 443302,
-      "sold": 34,
-      "soldSum": 96791.97,
-      "soldAvg": 2847,
-      "live": 28,
-      "removed": 63,
-      "sellRate": 27,
-      "totalDays": 1259.3999999999999,
-      "soldCount": 34,
-      "avgDaysToSell": 37
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -29223,9 +29254,9 @@
       "live": 7,
       "removed": 4,
       "sellRate": 8,
-      "totalDays": 59.1,
+      "totalDays": 59.2,
       "soldCount": 1,
-      "avgDaysToSell": 59.1
+      "avgDaysToSell": 59.2
     },
     "ESP|LTD": {
       "brand": "ESP",
@@ -29242,7 +29273,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 63.9,
+      "totalDays": 64,
       "soldCount": 3,
       "avgDaysToSell": 21.3
     },
