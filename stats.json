@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T21:48:29.062Z",
+  "generatedAt": "2026-06-01T21:55:19.731Z",
   "totalLinks": 1398,
   "totalEver": 1501,
   "totalBeforeFilter": 1501,
@@ -698,6 +698,21 @@
           "max": 4195,
           "avg": 4195
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 4195,
+        "min": 4195,
+        "max": 4195,
+        "prices": [
+          {
+            "price": 4195,
+            "askingPrice": 4195,
+            "date": "2026-06-01T21:54:48.362+00:00",
+            "title": "Gibson Custom '58 Les Paul Standard Bigsby Cherry 2019",
+            "url": "https://www.chicagomusicexchange.com/products/gibson-custom-58-les-paul-standard-bigsby-cherry-2019-2581070"
+          }
+        ]
       },
       "avg": 4195
     },
@@ -7278,46 +7293,6 @@
       },
       "avg": 4250
     },
-    "prs-mccarty-1994": {
-      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-      "brand": "PRS",
-      "model": "McCarty 1994",
-      "variant": null,
-      "count": 2,
-      "sum": 4051,
-      "min": 1951,
-      "max": 2100,
-      "sightings": [
-        {
-          "price": 2100,
-          "date": "2026-04-30T17:51:13.017+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - Black",
-          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
-          "condition": "Good"
-        },
-        {
-          "price": 1951,
-          "date": "2026-05-15T22:16:46.499+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
-          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
-          "condition": "Good"
-        }
-      ],
-      "byCondition": {
-        "Good": {
-          "count": 2,
-          "sum": 4051,
-          "min": 1951,
-          "max": 2100,
-          "avg": 2026
-        }
-      },
-      "avg": 2026
-    },
     "prs-mccarty-594-usa": {
       "displayName": "PRS McCarty 594 2019 - Charcoal Burst USA",
       "brand": "PRS",
@@ -7363,6 +7338,46 @@
         ]
       },
       "avg": 2450
+    },
+    "prs-mccarty-1994": {
+      "displayName": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+      "brand": "PRS",
+      "model": "McCarty 1994",
+      "variant": null,
+      "count": 2,
+      "sum": 4051,
+      "min": 1951,
+      "max": 2100,
+      "sightings": [
+        {
+          "price": 2100,
+          "date": "2026-04-30T17:51:13.017+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - Black",
+          "url": "https://reverb.com/item/96558050-prs-mccarty-1994-2007-black",
+          "condition": "Good"
+        },
+        {
+          "price": 1951,
+          "date": "2026-05-15T22:16:46.499+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 1994 - 2007 - McCarty Cherry Sunburst",
+          "url": "https://reverb.com/item/97143165-prs-mccarty-1994-2007-mccarty-cherry-sunburst",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 4051,
+          "min": 1951,
+          "max": 2100,
+          "avg": 2026
+        }
+      },
+      "avg": 2026
     },
     "original": {
       "displayName": "The Beatles Rare Finds Combo “White Album & Butcher Album 1968-79 | Original “Unplayed” | Stage 3 “Peeled - Butcher” | Original “Embossed” White Album”",
@@ -24192,7 +24207,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 45
+      "count": 46
     },
     {
       "username": "YellowJack6",
@@ -24347,19 +24362,27 @@
     }
   },
   "soldPrices": {
-    "count": 380,
-    "avg": 2593,
+    "count": 381,
+    "avg": 2597,
     "min": 26,
     "max": 35900,
     "avgDiscount": 12
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 3532.0999999999995,
-      "count": 371,
+      "totalDays": 3534.1999999999994,
+      "count": 372,
       "avgDays": 9.5
     },
     "byModel": {
+      "gibson-les-paul-standard-58-bigsby": {
+        "displayName": "Gibson Custom '58 Les Paul Standard Bigsby Cherry 2019",
+        "totalDays": 2.1,
+        "count": 1,
+        "fastest": 2.1,
+        "slowest": 2.1,
+        "avgDays": 2.1
+      },
       "bc-rich-ironbird-trans": {
         "displayName": "Bc rich Ironbird 1986 | Trans green",
         "totalDays": 1.9,
@@ -25834,6 +25857,13 @@
       }
     },
     "byBrand": {
+      "Gibson": {
+        "totalDays": 305.7999999999999,
+        "count": 47,
+        "fastest": 0,
+        "slowest": 44,
+        "avgDays": 6.5
+      },
       "BC Rich": {
         "totalDays": 357.2,
         "count": 25,
@@ -25854,13 +25884,6 @@
         "fastest": 0,
         "slowest": 14.4,
         "avgDays": 3.1
-      },
-      "Gibson": {
-        "totalDays": 303.6999999999999,
-        "count": 46,
-        "fastest": 0,
-        "slowest": 44,
-        "avgDays": 6.6
       },
       "Airline": {
         "totalDays": 0.2,
@@ -26756,22 +26779,22 @@
   "sellThrough": {
     "overall": {
       "total": 1291,
-      "sold": 373,
+      "sold": 374,
       "fake": 0,
-      "live": 368,
+      "live": 367,
       "removed": 550,
       "soldPct": 29,
-      "livePct": 29
+      "livePct": 28
     },
     "byBrand": {
       "Gibson": {
         "total": 168,
-        "sold": 47,
+        "sold": 48,
         "fake": 0,
-        "live": 37,
+        "live": 36,
         "removed": 84,
-        "soldPct": 28,
-        "livePct": 22
+        "soldPct": 29,
+        "livePct": 21
       },
       "BC Rich": {
         "total": 91,
@@ -28557,7 +28580,7 @@
       {
         "label": "$3k–5k",
         "total": 279,
-        "sold": 72,
+        "sold": 73,
         "rate": 26
       },
       {
@@ -28576,8 +28599,8 @@
     "byCondition": {
       "Used": {
         "total": 55,
-        "sold": 6,
-        "rate": 11
+        "sold": 7,
+        "rate": 13
       },
       "Very Good": {
         "total": 199,
@@ -28721,15 +28744,15 @@
       "avg": 6374,
       "min": 135,
       "max": 443302,
-      "sold": 34,
-      "soldSum": 96791.97,
-      "soldAvg": 2847,
-      "live": 30,
+      "sold": 35,
+      "soldSum": 100986.97,
+      "soldAvg": 2885,
+      "live": 29,
       "removed": 63,
-      "sellRate": 27,
-      "totalDays": 1331,
-      "soldCount": 34,
-      "avgDaysToSell": 39.1
+      "sellRate": 28,
+      "totalDays": 1333.3999999999999,
+      "soldCount": 35,
+      "avgDaysToSell": 38.1
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -28746,9 +28769,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 147.7,
+      "totalDays": 147.8,
       "soldCount": 4,
-      "avgDaysToSell": 36.9
+      "avgDaysToSell": 37
     },
     "PRS|PRS CE": {
       "brand": "PRS",
@@ -28991,7 +29014,7 @@
       "live": 13,
       "removed": 27,
       "sellRate": 31,
-      "totalDays": 828.1999999999999,
+      "totalDays": 828.4,
       "soldCount": 18,
       "avgDaysToSell": 46
     },
@@ -29010,7 +29033,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1229.7,
+      "totalDays": 1229.9,
       "soldCount": 22,
       "avgDaysToSell": 55.9
     },
@@ -29047,7 +29070,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 502.20000000000005,
+      "totalDays": 502.3,
       "soldCount": 11,
       "avgDaysToSell": 45.7
     },
@@ -29123,9 +29146,9 @@
       "live": 8,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 423.40000000000003,
+      "totalDays": 423.5,
       "soldCount": 9,
-      "avgDaysToSell": 47
+      "avgDaysToSell": 47.1
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -29216,9 +29239,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 7,
+      "totalDays": 7.1,
       "soldCount": 1,
-      "avgDaysToSell": 7
+      "avgDaysToSell": 7.1
     },
     "Schecter|Schecter Japan": {
       "brand": "Schecter",
@@ -29330,9 +29353,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 70.3,
+      "totalDays": 70.4,
       "soldCount": 3,
-      "avgDaysToSell": 23.4
+      "avgDaysToSell": 23.5
     },
     "Rickenbacker|Rickenbacker": {
       "brand": "Rickenbacker",
@@ -29368,7 +29391,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 333.1,
+      "totalDays": 333.2,
       "soldCount": 7,
       "avgDaysToSell": 47.6
     },
@@ -29425,7 +29448,7 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 539.6,
+      "totalDays": 539.7,
       "soldCount": 7,
       "avgDaysToSell": 77.1
     },
@@ -29705,9 +29728,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 35.2,
+      "totalDays": 35.3,
       "soldCount": 1,
-      "avgDaysToSell": 35.2
+      "avgDaysToSell": 35.3
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -30077,7 +30100,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 183.9,
+      "totalDays": 184,
       "soldCount": 4,
       "avgDaysToSell": 46
     },
