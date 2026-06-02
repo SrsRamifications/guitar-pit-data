@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-02T14:48:29.430Z",
-  "totalLinks": 1400,
-  "totalEver": 1503,
-  "totalBeforeFilter": 1503,
+  "generatedAt": "2026-06-02T15:02:06.462Z",
+  "totalLinks": 1401,
+  "totalEver": 1504,
+  "totalBeforeFilter": 1504,
   "fakeCount": 9,
   "removedCount": 568,
-  "totalWithPrice": 1337,
+  "totalWithPrice": 1338,
   "overall": {
-    "count": 1297,
-    "sum": 3549821.67,
-    "avg": 2737,
+    "count": 1298,
+    "sum": 3550971.67,
+    "avg": 2736,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1297,
-    "sum": 3549821.67,
-    "avg": 2737,
+    "count": 1298,
+    "sum": 3550971.67,
+    "avg": 2736,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11308,
+    "thresholdHigh": 11317,
     "thresholdLow": 0,
     "count": 40,
     "items": [
@@ -315,6 +315,13 @@
     ]
   },
   "byMonth": {
+    "2026-06": {
+      "count": 1,
+      "sum": 1150,
+      "min": 1150,
+      "max": 1150,
+      "avg": 1150
+    },
     "2026-05": {
       "count": 392,
       "sum": 1009554.5,
@@ -339,11 +346,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 78,
-      "sum": 224318.42,
+      "count": 79,
+      "sum": 225468.42,
       "min": 39.81,
       "max": 10495,
-      "avg": 2876
+      "avg": 2854
     },
     "reverb": {
       "count": 1118,
@@ -361,6 +368,13 @@
     }
   },
   "byDomain": {
+    "davesguitar.com": {
+      "count": 6,
+      "sum": 7834,
+      "min": 795,
+      "max": 1849,
+      "avg": 1306
+    },
     "chicagomusicexchange.com": {
       "count": 54,
       "sum": 220307.98,
@@ -381,13 +395,6 @@
       "min": 39.81,
       "max": 549,
       "avg": 321
-    },
-    "davesguitar.com": {
-      "count": 5,
-      "sum": 6684,
-      "min": 795,
-      "max": 1849,
-      "avg": 1337
     },
     "guitarcenter.com": {
       "count": 72,
@@ -608,6 +615,37 @@
     }
   },
   "byModel": {
+    "vintage-hollowbody-se-piezo": {
+      "displayName": "SE Hollowbody II Piezo '25",
+      "brand": "Vintage",
+      "model": "Hollowbody",
+      "variant": "Se Piezo",
+      "count": 1,
+      "sum": 1150,
+      "min": 1150,
+      "max": 1150,
+      "sightings": [
+        {
+          "price": 1150,
+          "date": "2026-06-02T15:01:50.648+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "SE Hollowbody II Piezo '25",
+          "url": "https://www.davesguitar.com/collections/just-in/products/se-hollowbody-ii-piezo-143",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1150,
+          "min": 1150,
+          "max": 1150,
+          "avg": 1150
+        }
+      },
+      "avg": 1150
+    },
     "gibson-les-paul-reissue": {
       "displayName": "Gibson Custom M2M '57 Les Paul Reissue Alpine White 2016",
       "brand": "Gibson",
@@ -22936,6 +22974,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 199,
+      "sum": 545091.56,
+      "sold": {
+        "count": 60,
+        "sum": 131973.79,
+        "avg": 2200,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2739,
+      "min": 33,
+      "max": 27500
+    },
     "Used": {
       "count": 54,
       "sum": 386291.65999999986,
@@ -22946,20 +22998,6 @@
       "avg": 7154,
       "min": 475.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 198,
-      "sum": 543941.56,
-      "sold": {
-        "count": 60,
-        "sum": 131973.79,
-        "avg": 2200,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2747,
-      "min": 33,
-      "max": 27500
     },
     "Excellent": {
       "count": 267,
@@ -23069,6 +23107,12 @@
     }
   },
   "seasonal": {
+    "06": {
+      "name": "Jun",
+      "avg": 1150,
+      "median": 1150,
+      "count": 1
+    },
     "05": {
       "name": "May",
       "avg": 2575,
@@ -23233,7 +23277,7 @@
   "priceDistribution": {
     "0-500": 87,
     "500-1k": 111,
-    "1k-2k": 391,
+    "1k-2k": 392,
     "2k-3k": 278,
     "3k-5k": 279,
     "5k-10k": 139,
@@ -23242,15 +23286,20 @@
   "priceDistributionFiltered": {
     "0-500": 87,
     "500-1k": 111,
-    "1k-2k": 391,
+    "1k-2k": 392,
     "2k-3k": 278,
     "3k-5k": 279,
     "5k-10k": 139,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Vintage": {
+      "sum": 1241,
+      "count": 34,
+      "avg": 37
+    },
     "Gibson": {
-      "sum": 7237,
+      "sum": 7240,
       "count": 161,
       "avg": 45
     },
@@ -23289,11 +23338,6 @@
       "count": 7,
       "avg": 43
     },
-    "Vintage": {
-      "sum": 1241,
-      "count": 33,
-      "avg": 38
-    },
     "Epiphone": {
       "sum": 388,
       "count": 10,
@@ -23310,7 +23354,7 @@
       "avg": 31
     },
     "Fender": {
-      "sum": 3881,
+      "sum": 3883,
       "count": 88,
       "avg": 44
     },
@@ -23320,7 +23364,7 @@
       "avg": 42
     },
     "Kiesel": {
-      "sum": 1936,
+      "sum": 1937,
       "count": 45,
       "avg": 43
     },
@@ -23380,7 +23424,7 @@
       "avg": 40
     },
     "Music Man": {
-      "sum": 1098,
+      "sum": 1099,
       "count": 25,
       "avg": 44
     },
@@ -23440,9 +23484,9 @@
       "avg": 46
     },
     "Cort": {
-      "sum": 74,
+      "sum": 75,
       "count": 2,
-      "avg": 37
+      "avg": 38
     },
     "Xotic": {
       "sum": 148,
@@ -23465,7 +23509,7 @@
       "avg": 49
     },
     "Warmoth": {
-      "sum": 356,
+      "sum": 357,
       "count": 7,
       "avg": 51
     },
@@ -23610,7 +23654,7 @@
       "avg": 45
     },
     "Shabat": {
-      "sum": 246,
+      "sum": 247,
       "count": 5,
       "avg": 49
     },
@@ -24116,7 +24160,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-02": 2,
+    "2026-06-02": 3,
     "2026-06-01": 3,
     "2026-05-31": 17,
     "2026-05-30": 16,
@@ -24149,11 +24193,11 @@
     "2026-05-03": 5
   },
   "categoryDistribution": {
+    "marketplace": 93,
     "reverb": 1193,
-    "marketplace": 92,
     "other": 115
   },
-  "activeModelsCount": 321,
+  "activeModelsCount": 322,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -24176,12 +24220,12 @@
       "count": 89
     },
     {
-      "username": "wontongg",
+      "username": "Modean",
       "count": 73
     },
     {
-      "username": "Modean",
-      "count": 72
+      "username": "wontongg",
+      "count": 73
     },
     {
       "username": "scottcorgan",
@@ -26778,15 +26822,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1291,
+      "total": 1292,
       "sold": 374,
       "fake": 0,
-      "live": 367,
+      "live": 368,
       "removed": 550,
       "soldPct": 29,
       "livePct": 28
     },
     "byBrand": {
+      "Vintage": {
+        "total": 39,
+        "sold": 7,
+        "fake": 0,
+        "live": 19,
+        "removed": 13,
+        "soldPct": 18,
+        "livePct": 49
+      },
       "Gibson": {
         "total": 168,
         "sold": 48,
@@ -26866,15 +26919,6 @@
         "live": 7,
         "removed": 4,
         "soldPct": 27,
-        "livePct": 47
-      },
-      "Vintage": {
-        "total": 38,
-        "sold": 7,
-        "fake": 0,
-        "live": 18,
-        "removed": 13,
-        "soldPct": 18,
         "livePct": 47
       },
       "Suhr": {
@@ -28546,9 +28590,9 @@
       },
       {
         "brand": "Vintage",
-        "total": 38,
+        "total": 39,
         "sold": 7,
-        "live": 18,
+        "live": 19,
         "soldPct": 18
       }
     ],
@@ -28567,7 +28611,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 391,
+        "total": 392,
         "sold": 117,
         "rate": 30
       },
@@ -28597,15 +28641,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 200,
+        "sold": 60,
+        "rate": 30
+      },
       "Used": {
         "total": 55,
         "sold": 7,
         "rate": 13
-      },
-      "Very Good": {
-        "total": 199,
-        "sold": 60,
-        "rate": 30
       },
       "Excellent": {
         "total": 267,
@@ -28750,7 +28794,7 @@
       "live": 29,
       "removed": 63,
       "sellRate": 28,
-      "totalDays": 1357.9000000000003,
+      "totalDays": 1358.1000000000004,
       "soldCount": 35,
       "avgDaysToSell": 38.8
     },
@@ -28826,7 +28870,7 @@
       "live": 20,
       "removed": 42,
       "sellRate": 33,
-      "totalDays": 1461.2,
+      "totalDays": 1461.6,
       "soldCount": 31,
       "avgDaysToSell": 47.1
     },
@@ -28845,9 +28889,9 @@
       "live": 4,
       "removed": 4,
       "sellRate": 11,
-      "totalDays": 24.7,
+      "totalDays": 24.8,
       "soldCount": 1,
-      "avgDaysToSell": 24.7
+      "avgDaysToSell": 24.8
     },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
@@ -29014,7 +29058,7 @@
       "live": 13,
       "removed": 27,
       "sellRate": 31,
-      "totalDays": 841,
+      "totalDays": 841.1,
       "soldCount": 18,
       "avgDaysToSell": 46.7
     },
@@ -29033,7 +29077,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1245.4,
+      "totalDays": 1245.7,
       "soldCount": 22,
       "avgDaysToSell": 56.6
     },
@@ -29070,7 +29114,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 510.0999999999999,
+      "totalDays": 510.29999999999995,
       "soldCount": 11,
       "avgDaysToSell": 46.4
     },
@@ -29108,7 +29152,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 80,
-      "totalDays": 196.79999999999998,
+      "totalDays": 196.89999999999998,
       "soldCount": 4,
       "avgDaysToSell": 49.2
     },
@@ -29146,7 +29190,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 429.90000000000003,
+      "totalDays": 430.00000000000006,
       "soldCount": 9,
       "avgDaysToSell": 47.8
     },
@@ -29277,9 +29321,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 46,
-      "totalDays": 292.4,
+      "totalDays": 292.5,
       "soldCount": 6,
-      "avgDaysToSell": 48.7
+      "avgDaysToSell": 48.8
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -29315,9 +29359,9 @@
       "live": 12,
       "removed": 11,
       "sellRate": 18,
-      "totalDays": 235.7,
+      "totalDays": 235.89999999999998,
       "soldCount": 5,
-      "avgDaysToSell": 47.1
+      "avgDaysToSell": 47.2
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -29391,9 +29435,9 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 338.2,
+      "totalDays": 338.5,
       "soldCount": 7,
-      "avgDaysToSell": 48.3
+      "avgDaysToSell": 48.4
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -29429,9 +29473,9 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 686.8,
+      "totalDays": 687.1,
       "soldCount": 13,
-      "avgDaysToSell": 52.8
+      "avgDaysToSell": 52.9
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -29467,9 +29511,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 22,
-      "totalDays": 100.2,
+      "totalDays": 100.30000000000001,
       "soldCount": 2,
-      "avgDaysToSell": 50.1
+      "avgDaysToSell": 50.2
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -29486,9 +29530,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 11.7,
+      "totalDays": 11.8,
       "soldCount": 1,
-      "avgDaysToSell": 11.7
+      "avgDaysToSell": 11.8
     },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
@@ -29561,9 +29605,9 @@
       "live": 4,
       "removed": 11,
       "sellRate": 12,
-      "totalDays": 195.8,
+      "totalDays": 195.9,
       "soldCount": 2,
-      "avgDaysToSell": 97.9
+      "avgDaysToSell": 98
     },
     "Ibanez|Ibanez Standard": {
       "brand": "Ibanez",
@@ -29672,9 +29716,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 158.39999999999998,
+      "totalDays": 158.5,
       "soldCount": 2,
-      "avgDaysToSell": 79.2
+      "avgDaysToSell": 79.3
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -29934,7 +29978,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 145.7,
+      "totalDays": 145.9,
       "soldCount": 3,
       "avgDaysToSell": 48.6
     },
@@ -30008,9 +30052,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 40.7,
+      "totalDays": 40.8,
       "soldCount": 1,
-      "avgDaysToSell": 40.7
+      "avgDaysToSell": 40.8
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -30137,9 +30181,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 52.6,
+      "totalDays": 52.7,
       "soldCount": 2,
-      "avgDaysToSell": 26.3
+      "avgDaysToSell": 26.4
     },
     "PRS|PRS SE": {
       "brand": "PRS",
