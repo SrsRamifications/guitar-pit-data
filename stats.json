@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-04T00:03:35.745Z",
-  "totalLinks": 1419,
-  "totalEver": 1522,
-  "totalBeforeFilter": 1522,
+  "generatedAt": "2026-06-04T00:10:58.705Z",
+  "totalLinks": 1420,
+  "totalEver": 1523,
+  "totalBeforeFilter": 1523,
   "fakeCount": 9,
   "removedCount": 568,
-  "totalWithPrice": 1340,
+  "totalWithPrice": 1341,
   "overall": {
-    "count": 1300,
-    "sum": 3558716.67,
-    "avg": 2737,
+    "count": 1301,
+    "sum": 3561561.67,
+    "avg": 2738,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1300,
-    "sum": 3558716.67,
-    "avg": 2737,
+    "count": 1301,
+    "sum": 3561561.67,
+    "avg": 2738,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -316,11 +316,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 3,
-      "sum": 8895,
+      "count": 4,
+      "sum": 11740,
       "min": 1150,
       "max": 3995,
-      "avg": 2965
+      "avg": 2935
     },
     "2026-05": {
       "count": 392,
@@ -346,8 +346,8 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 81,
-      "sum": 233213.42,
+      "count": 82,
+      "sum": 236058.42,
       "min": 39.81,
       "max": 10495,
       "avg": 2879
@@ -368,19 +368,19 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 55,
+      "sum": 223152.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 4057
+    },
     "davesguitar.com": {
       "count": 8,
       "sum": 15579,
       "min": 795,
       "max": 3995,
       "avg": 1947
-    },
-    "chicagomusicexchange.com": {
-      "count": 54,
-      "sum": 220307.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 4080
     },
     "reverb.com": {
       "count": 1118,
@@ -615,6 +615,37 @@
     }
   },
   "byModel": {
+    "prs-mccarty-standard": {
+      "displayName": "PRS McCarty Standard Natural 2002",
+      "brand": "PRS",
+      "model": "McCarty",
+      "variant": "Standard",
+      "count": 1,
+      "sum": 2845,
+      "min": 2845,
+      "max": 2845,
+      "sightings": [
+        {
+          "price": 2845,
+          "date": "2026-06-04T00:10:42.639+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty Standard Natural 2002",
+          "url": "https://www.chicagomusicexchange.com/products/prs-mccarty-standard-natural-2002-2535140",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2845,
+          "min": 2845,
+          "max": 2845,
+          "avg": 2845
+        }
+      },
+      "avg": 2845
+    },
     "modern-10-top": {
       "displayName": "Modern Eagle V 10 Top '25",
       "model": "Modern",
@@ -23042,6 +23073,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 55,
+      "sum": 389136.65999999986,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 7075,
+      "min": 475.99,
+      "max": 99000
+    },
     "Excellent": {
       "count": 268,
       "sum": 1009806.73,
@@ -23069,17 +23111,6 @@
       "avg": 2744,
       "min": 33,
       "max": 27500
-    },
-    "Used": {
-      "count": 54,
-      "sum": 386291.65999999986,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 7154,
-      "min": 475.99,
-      "max": 99000
     },
     "Good": {
       "count": 84,
@@ -23177,9 +23208,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2965,
-      "median": 3750,
-      "count": 3
+      "avg": 2935,
+      "median": 3298,
+      "count": 4
     },
     "05": {
       "name": "May",
@@ -23346,7 +23377,7 @@
     "0-500": 87,
     "500-1k": 111,
     "1k-2k": 392,
-    "2k-3k": 278,
+    "2k-3k": 279,
     "3k-5k": 281,
     "5k-10k": 139,
     "10k+": 52
@@ -23355,12 +23386,17 @@
     "0-500": 87,
     "500-1k": 111,
     "1k-2k": 392,
-    "2k-3k": 278,
+    "2k-3k": 279,
     "3k-5k": 281,
     "5k-10k": 139,
     "10k+": 12
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 5092,
+      "count": 116,
+      "avg": 44
+    },
     "Vintage": {
       "sum": 1278,
       "count": 34,
@@ -23380,11 +23416,6 @@
       "sum": 261,
       "count": 7,
       "avg": 37
-    },
-    "PRS": {
-      "sum": 5092,
-      "count": 115,
-      "avg": 44
     },
     "Framus": {
       "sum": 181,
@@ -23432,7 +23463,7 @@
       "avg": 43
     },
     "Kiesel": {
-      "sum": 1987,
+      "sum": 1988,
       "count": 45,
       "avg": 44
     },
@@ -23947,14 +23978,14 @@
       "avg": 48
     },
     "Aluminati": {
-      "sum": 48,
+      "sum": 49,
       "count": 1,
-      "avg": 48
+      "avg": 49
     },
     "Contriver Guitars": {
-      "sum": 48,
+      "sum": 49,
       "count": 1,
-      "avg": 48
+      "avg": 49
     },
     "Gold Tone": {
       "sum": 49,
@@ -24228,6 +24259,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-06-04": 1,
     "2026-06-03": 11,
     "2026-06-02": 10,
     "2026-06-01": 3,
@@ -24260,11 +24292,11 @@
     "2026-05-05": 16
   },
   "categoryDistribution": {
+    "marketplace": 97,
     "reverb": 1208,
-    "marketplace": 96,
     "other": 115
   },
-  "activeModelsCount": 303,
+  "activeModelsCount": 304,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -24296,7 +24328,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 54
+      "count": 55
     },
     {
       "username": "jazee_",
@@ -24376,10 +24408,10 @@
       "count": 30
     },
     "PRS": {
-      "avgPrice": 4473,
+      "avgPrice": 4459,
       "retailEst": 1000,
-      "avgDiscount": -347.3,
-      "count": 118
+      "avgDiscount": -345.9,
+      "count": 119
     },
     "Ibanez": {
       "avgPrice": 3324,
@@ -26889,15 +26921,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1293,
+      "total": 1294,
       "sold": 374,
       "fake": 0,
-      "live": 369,
+      "live": 370,
       "removed": 550,
       "soldPct": 29,
       "livePct": 29
     },
     "byBrand": {
+      "PRS": {
+        "total": 120,
+        "sold": 36,
+        "fake": 0,
+        "live": 33,
+        "removed": 51,
+        "soldPct": 30,
+        "livePct": 28
+      },
       "Vintage": {
         "total": 39,
         "sold": 7,
@@ -26942,15 +26983,6 @@
         "removed": 2,
         "soldPct": 50,
         "livePct": 25
-      },
-      "PRS": {
-        "total": 119,
-        "sold": 36,
-        "fake": 0,
-        "live": 32,
-        "removed": 51,
-        "soldPct": 30,
-        "livePct": 27
       },
       "Framus": {
         "total": 5,
@@ -28684,7 +28716,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 278,
+        "total": 279,
         "sold": 100,
         "rate": 36
       },
@@ -28708,6 +28740,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 56,
+        "sold": 7,
+        "rate": 13
+      },
       "Excellent": {
         "total": 268,
         "sold": 93,
@@ -28717,11 +28754,6 @@
         "total": 201,
         "sold": 60,
         "rate": 30
-      },
-      "Used": {
-        "total": 55,
-        "sold": 7,
-        "rate": 13
       },
       "Good": {
         "total": 84,
@@ -28846,6 +28878,25 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 94,
+      "sum": 387601.24,
+      "avg": 4123,
+      "min": 675,
+      "max": 29120,
+      "sold": 31,
+      "soldSum": 99340.10999999999,
+      "soldAvg": 3205,
+      "live": 21,
+      "removed": 42,
+      "sellRate": 33,
+      "totalDays": 1504.5,
+      "soldCount": 31,
+      "avgDaysToSell": 48.5
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -28921,25 +28972,6 @@
       "totalDays": 54.1,
       "soldCount": 1,
       "avgDaysToSell": 54.1
-    },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 93,
-      "sum": 384756.24,
-      "avg": 4137,
-      "min": 675,
-      "max": 29120,
-      "sold": 31,
-      "soldSum": 99340.10999999999,
-      "soldAvg": 3205,
-      "live": 20,
-      "removed": 42,
-      "sellRate": 33,
-      "totalDays": 1504.5,
-      "soldCount": 31,
-      "avgDaysToSell": 48.5
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -29125,7 +29157,7 @@
       "live": 13,
       "removed": 27,
       "sellRate": 31,
-      "totalDays": 865.8,
+      "totalDays": 865.9999999999999,
       "soldCount": 18,
       "avgDaysToSell": 48.1
     },
@@ -29144,7 +29176,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1275.7,
+      "totalDays": 1275.9,
       "soldCount": 22,
       "avgDaysToSell": 58
     },
@@ -29200,7 +29232,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 56,
-      "totalDays": 260.09999999999997,
+      "totalDays": 260.2,
       "soldCount": 5,
       "avgDaysToSell": 52
     },
@@ -29257,7 +29289,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 442.20000000000005,
+      "totalDays": 442.29999999999995,
       "soldCount": 9,
       "avgDaysToSell": 49.1
     },
@@ -29295,7 +29327,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 111.5,
+      "totalDays": 111.6,
       "soldCount": 2,
       "avgDaysToSell": 55.8
     },
@@ -29540,7 +29572,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 703.4,
+      "totalDays": 703.5999999999999,
       "soldCount": 13,
       "avgDaysToSell": 54.1
     },
@@ -29653,9 +29685,9 @@
       "live": 5,
       "removed": 3,
       "sellRate": 11,
-      "totalDays": 15.2,
+      "totalDays": 15.3,
       "soldCount": 1,
-      "avgDaysToSell": 15.2
+      "avgDaysToSell": 15.3
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -29988,7 +30020,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 44,
-      "totalDays": 209.6,
+      "totalDays": 209.7,
       "soldCount": 4,
       "avgDaysToSell": 52.4
     },
@@ -30395,9 +30427,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 59.8,
+      "totalDays": 59.9,
       "soldCount": 1,
-      "avgDaysToSell": 59.8
+      "avgDaysToSell": 59.9
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
