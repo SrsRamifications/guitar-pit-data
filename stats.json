@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-06T19:48:28.745Z",
-  "totalLinks": 1462,
-  "totalEver": 1569,
-  "totalBeforeFilter": 1569,
+  "generatedAt": "2026-06-06T19:54:38.567Z",
+  "totalLinks": 1463,
+  "totalEver": 1570,
+  "totalBeforeFilter": 1570,
   "fakeCount": 9,
   "removedCount": 568,
-  "totalWithPrice": 1342,
+  "totalWithPrice": 1343,
   "overall": {
-    "count": 1302,
-    "sum": 3561854.67,
-    "avg": 2736,
+    "count": 1303,
+    "sum": 3565849.67,
+    "avg": 2737,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1302,
-    "sum": 3561854.67,
-    "avg": 2736,
+    "count": 1303,
+    "sum": 3565849.67,
+    "avg": 2737,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -316,11 +316,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 5,
-      "sum": 12033,
+      "count": 6,
+      "sum": 16028,
       "min": 293,
       "max": 3995,
-      "avg": 2407
+      "avg": 2671
     },
     "2026-05": {
       "count": 392,
@@ -346,11 +346,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 83,
-      "sum": 236351.42,
+      "count": 84,
+      "sum": 240346.42,
       "min": 39.81,
       "max": 10495,
-      "avg": 2848
+      "avg": 2861
     },
     "reverb": {
       "count": 1118,
@@ -368,19 +368,19 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 56,
+      "sum": 227147.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 4056
+    },
     "guitarcenter.com": {
       "count": 73,
       "sum": 142304.33,
       "min": 139.99,
       "max": 5499.99,
       "avg": 1949
-    },
-    "chicagomusicexchange.com": {
-      "count": 55,
-      "sum": 223152.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 4057
     },
     "davesguitar.com": {
       "count": 8,
@@ -615,6 +615,37 @@
     }
   },
   "byModel": {
+    "fender-pro-amp": {
+      "displayName": "Fender Pro Amp 1952",
+      "brand": "Fender",
+      "model": "Pro Amp",
+      "variant": null,
+      "count": 1,
+      "sum": 3995,
+      "min": 3995,
+      "max": 3995,
+      "sightings": [
+        {
+          "price": 3995,
+          "date": "2026-06-06T19:54:19.009+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Pro Amp 1952",
+          "url": "https://www.chicagomusicexchange.com/products/fender-pro-amp-1952-2565369",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3995,
+          "min": 3995,
+          "max": 3995,
+          "avg": 3995
+        }
+      },
+      "avg": 3995
+    },
     "maxon-tod": {
       "displayName": "Maxon TOD-9 True Tube Overdrive Effects Pedal Metallic Copper",
       "brand": "Maxon",
@@ -23104,6 +23135,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 201,
+      "sum": 552836.56,
+      "sold": {
+        "count": 60,
+        "sum": 131973.79,
+        "avg": 2200,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2750,
+      "min": 33,
+      "max": 27500
+    },
     "Used": {
       "count": 56,
       "sum": 389429.65999999986,
@@ -23128,20 +23173,6 @@
       "avg": 3768,
       "min": 65,
       "max": 73563
-    },
-    "Very Good": {
-      "count": 200,
-      "sum": 548841.56,
-      "sold": {
-        "count": 60,
-        "sum": 131973.79,
-        "avg": 2200,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2744,
-      "min": 33,
-      "max": 27500
     },
     "Good": {
       "count": 84,
@@ -23239,9 +23270,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2407,
-      "median": 2845,
-      "count": 5
+      "avg": 2671,
+      "median": 3298,
+      "count": 6
     },
     "05": {
       "name": "May",
@@ -23409,7 +23440,7 @@
     "500-1k": 111,
     "1k-2k": 392,
     "2k-3k": 279,
-    "3k-5k": 281,
+    "3k-5k": 282,
     "5k-10k": 139,
     "10k+": 52
   },
@@ -23418,18 +23449,23 @@
     "500-1k": 111,
     "1k-2k": 392,
     "2k-3k": 279,
-    "3k-5k": 281,
+    "3k-5k": 282,
     "5k-10k": 139,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 4238,
+      "count": 89,
+      "avg": 48
+    },
     "Maxon": {
       "sum": 2,
       "count": 1,
       "avg": 2
     },
     "PRS": {
-      "sum": 5437,
+      "sum": 5438,
       "count": 116,
       "avg": 47
     },
@@ -23488,13 +23524,8 @@
       "count": 7,
       "avg": 35
     },
-    "Fender": {
-      "sum": 4238,
-      "count": 88,
-      "avg": 48
-    },
     "Ibanez": {
-      "sum": 2718,
+      "sum": 2719,
       "count": 59,
       "avg": 46
     },
@@ -24295,7 +24326,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-06": 5,
+    "2026-06-06": 6,
     "2026-06-05": 7,
     "2026-06-04": 31,
     "2026-06-03": 11,
@@ -24328,11 +24359,11 @@
     "2026-05-07": 1
   },
   "categoryDistribution": {
+    "marketplace": 99,
     "reverb": 1249,
-    "marketplace": 98,
     "other": 115
   },
-  "activeModelsCount": 277,
+  "activeModelsCount": 278,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -24344,7 +24375,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 156
+      "count": 157
     },
     {
       "username": "YellowJack6",
@@ -24420,10 +24451,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6217,
+      "avgPrice": 6194,
       "retailEst": 800,
-      "avgDiscount": -677.2,
-      "count": 96
+      "avgDiscount": -674.3,
+      "count": 97
     },
     "Gibson": {
       "avgPrice": 6949,
@@ -26957,15 +26988,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1295,
+      "total": 1296,
       "sold": 374,
       "fake": 0,
-      "live": 371,
+      "live": 372,
       "removed": 550,
       "soldPct": 29,
       "livePct": 29
     },
     "byBrand": {
+      "Fender": {
+        "total": 100,
+        "sold": 29,
+        "fake": 0,
+        "live": 29,
+        "removed": 42,
+        "soldPct": 29,
+        "livePct": 29
+      },
       "Maxon": {
         "total": 1,
         "sold": 0,
@@ -27091,15 +27131,6 @@
         "removed": 2,
         "soldPct": 43,
         "livePct": 29
-      },
-      "Fender": {
-        "total": 99,
-        "sold": 29,
-        "fake": 0,
-        "live": 28,
-        "removed": 42,
-        "soldPct": 29,
-        "livePct": 28
       },
       "Ibanez": {
         "total": 61,
@@ -28767,7 +28798,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 281,
+        "total": 282,
         "sold": 73,
         "rate": 26
       },
@@ -28785,6 +28816,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 202,
+        "sold": 60,
+        "rate": 30
+      },
       "Used": {
         "total": 57,
         "sold": 7,
@@ -28794,11 +28830,6 @@
         "total": 268,
         "sold": 93,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 201,
-        "sold": 60,
-        "rate": 30
       },
       "Good": {
         "total": 84,
@@ -28923,6 +28954,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 59,
+      "sum": 533752.96,
+      "avg": 9047,
+      "min": 425,
+      "max": 73563,
+      "sold": 18,
+      "soldSum": 116507.99,
+      "soldAvg": 6473,
+      "live": 14,
+      "removed": 27,
+      "sellRate": 31,
+      "totalDays": 916.7,
+      "soldCount": 18,
+      "avgDaysToSell": 50.9
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -28938,9 +28988,9 @@
       "live": 21,
       "removed": 42,
       "sellRate": 33,
-      "totalDays": 1591.8,
+      "totalDays": 1592.3,
       "soldCount": 31,
-      "avgDaysToSell": 51.3
+      "avgDaysToSell": 51.4
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -28957,7 +29007,7 @@
       "live": 29,
       "removed": 63,
       "sellRate": 28,
-      "totalDays": 1505,
+      "totalDays": 1505.2,
       "soldCount": 35,
       "avgDaysToSell": 43
     },
@@ -28995,9 +29045,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 65.5,
+      "totalDays": 65.6,
       "soldCount": 1,
-      "avgDaysToSell": 65.5
+      "avgDaysToSell": 65.6
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -29071,9 +29121,9 @@
       "live": 7,
       "removed": 4,
       "sellRate": 27,
-      "totalDays": 267.70000000000005,
+      "totalDays": 267.9,
       "soldCount": 4,
-      "avgDaysToSell": 66.9
+      "avgDaysToSell": 67
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -29128,7 +29178,7 @@
       "live": 12,
       "removed": 13,
       "sellRate": 26,
-      "totalDays": 331.3,
+      "totalDays": 331.4,
       "soldCount": 9,
       "avgDaysToSell": 36.8
     },
@@ -29187,25 +29237,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 58,
-      "sum": 529757.96,
-      "avg": 9134,
-      "min": 425,
-      "max": 73563,
-      "sold": 18,
-      "soldSum": 116507.99,
-      "soldAvg": 6473,
-      "live": 13,
-      "removed": 27,
-      "sellRate": 31,
-      "totalDays": 916.7,
-      "soldCount": 18,
-      "avgDaysToSell": 50.9
-    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -29221,7 +29252,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1337.9999999999998,
+      "totalDays": 1338.1999999999998,
       "soldCount": 22,
       "avgDaysToSell": 60.8
     },
@@ -29258,7 +29289,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 556.4,
+      "totalDays": 556.6,
       "soldCount": 11,
       "avgDaysToSell": 50.6
     },
@@ -29617,7 +29648,7 @@
       "live": 3,
       "removed": 20,
       "sellRate": 36,
-      "totalDays": 737.4999999999999,
+      "totalDays": 737.5999999999999,
       "soldCount": 13,
       "avgDaysToSell": 56.7
     },
@@ -29655,9 +29686,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 22,
-      "totalDays": 108.6,
+      "totalDays": 108.7,
       "soldCount": 2,
-      "avgDaysToSell": 54.3
+      "avgDaysToSell": 54.4
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -29749,7 +29780,7 @@
       "live": 4,
       "removed": 11,
       "sellRate": 12,
-      "totalDays": 204.2,
+      "totalDays": 204.29999999999998,
       "soldCount": 2,
       "avgDaysToSell": 102.1
     },
