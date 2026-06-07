@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-07T19:03:23.872Z",
-  "totalLinks": 1477,
-  "totalEver": 1584,
-  "totalBeforeFilter": 1584,
+  "generatedAt": "2026-06-07T19:04:38.255Z",
+  "totalLinks": 1478,
+  "totalEver": 1585,
+  "totalBeforeFilter": 1585,
   "fakeCount": 9,
   "removedCount": 568,
-  "totalWithPrice": 1350,
+  "totalWithPrice": 1351,
   "overall": {
-    "count": 1310,
-    "sum": 3582911.66,
-    "avg": 2735,
+    "count": 1311,
+    "sum": 3584410.66,
+    "avg": 2734,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1310,
-    "sum": 3582911.66,
-    "avg": 2735,
+    "count": 1311,
+    "sum": 3584410.66,
+    "avg": 2734,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -316,11 +316,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 13,
-      "sum": 33089.99,
+      "count": 14,
+      "sum": 34588.99,
       "min": 293,
       "max": 6460,
-      "avg": 2545
+      "avg": 2471
     },
     "2026-05": {
       "count": 392,
@@ -346,11 +346,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 91,
-      "sum": 257408.41,
+      "count": 92,
+      "sum": 258907.41,
       "min": 39.81,
       "max": 10495,
-      "avg": 2829
+      "avg": 2814
     },
     "reverb": {
       "count": 1118,
@@ -369,11 +369,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 62,
-      "sum": 241909.98,
+      "count": 63,
+      "sum": 243408.98,
       "min": 350,
       "max": 11099,
-      "avg": 3902
+      "avg": 3864
     },
     "long-mcquade.com": {
       "count": 2,
@@ -615,6 +615,37 @@
     }
   },
   "byModel": {
+    "prs-hollowbody-se-baritone": {
+      "displayName": "PRS SE Ed Sheeran Flat Back Hollowbody I Baritone Piezo Kaleidoscope",
+      "brand": "PRS",
+      "model": "Hollowbody",
+      "variant": "Se Baritone",
+      "count": 1,
+      "sum": 1499,
+      "min": 1499,
+      "max": 1499,
+      "sightings": [
+        {
+          "price": 1499,
+          "date": "2026-06-07T19:04:21.178+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS SE Ed Sheeran Flat Back Hollowbody I Baritone Piezo Kaleidoscope",
+          "url": "https://www.chicagomusicexchange.com/en-ca/collections/electric-guitars-hollow-body/products/prs-se-ed-sheeran-flat-back-hollowbody-i-baritone-piezo-2548654",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1499,
+          "min": 1499,
+          "max": 1499,
+          "avg": 1499
+        }
+      },
+      "avg": 1499
+    },
     "fender-telecaster-american-performer": {
       "displayName": "Fender American Performer Timber Sugar Pine Telecaster Sunburst 2025",
       "brand": "Fender",
@@ -23339,6 +23370,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 54,
+      "sum": 228870.11000000002,
+      "sold": {
+        "count": 4,
+        "sum": 15146.17,
+        "avg": 3787,
+        "min": 999,
+        "max": 8199
+      },
+      "avg": 4238,
+      "min": 92,
+      "max": 14670
+    },
     "Used": {
       "count": 57,
       "sum": 390324.65999999986,
@@ -23349,20 +23394,6 @@
       "avg": 6848,
       "min": 293,
       "max": 99000
-    },
-    "Brand New": {
-      "count": 53,
-      "sum": 227371.11000000002,
-      "sold": {
-        "count": 4,
-        "sum": 15146.17,
-        "avg": 3787,
-        "min": 999,
-        "max": 8199
-      },
-      "avg": 4290,
-      "min": 92,
-      "max": 14670
     },
     "New": {
       "count": 5,
@@ -23474,9 +23505,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2545,
-      "median": 2300,
-      "count": 13
+      "avg": 2471,
+      "median": 1947,
+      "count": 14
     },
     "05": {
       "name": "May",
@@ -23642,7 +23673,7 @@
   "priceDistribution": {
     "0-500": 88,
     "500-1k": 113,
-    "1k-2k": 394,
+    "1k-2k": 395,
     "2k-3k": 280,
     "3k-5k": 283,
     "5k-10k": 140,
@@ -23651,13 +23682,18 @@
   "priceDistributionFiltered": {
     "0-500": 88,
     "500-1k": 113,
-    "1k-2k": 394,
+    "1k-2k": 395,
     "2k-3k": 280,
     "3k-5k": 283,
     "5k-10k": 140,
     "10k+": 12
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 5552,
+      "count": 117,
+      "avg": 47
+    },
     "Fender": {
       "sum": 4327,
       "count": 90,
@@ -23679,7 +23715,7 @@
       "avg": 53
     },
     "Gibson": {
-      "sum": 8064,
+      "sum": 8065,
       "count": 162,
       "avg": 50
     },
@@ -23692,11 +23728,6 @@
       "sum": 3,
       "count": 1,
       "avg": 3
-    },
-    "PRS": {
-      "sum": 5552,
-      "count": 116,
-      "avg": 48
     },
     "Vintage": {
       "sum": 1414,
@@ -24535,7 +24566,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-07": 12,
+    "2026-06-07": 13,
     "2026-06-06": 8,
     "2026-06-05": 7,
     "2026-06-04": 31,
@@ -24568,11 +24599,11 @@
     "2026-05-08": 7
   },
   "categoryDistribution": {
-    "marketplace": 106,
+    "marketplace": 107,
     "reverb": 1256,
     "other": 115
   },
-  "activeModelsCount": 272,
+  "activeModelsCount": 273,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -24608,7 +24639,7 @@
     },
     {
       "username": "jazee_",
-      "count": 29
+      "count": 30
     },
     {
       "username": "hibby_",
@@ -24684,10 +24715,10 @@
       "count": 30
     },
     "PRS": {
-      "avgPrice": 4459,
+      "avgPrice": 4435,
       "retailEst": 1000,
-      "avgDiscount": -345.9,
-      "count": 119
+      "avgDiscount": -343.5,
+      "count": 120
     },
     "Ibanez": {
       "avgPrice": 3324,
@@ -27197,15 +27228,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1303,
+      "total": 1304,
       "sold": 374,
       "fake": 0,
-      "live": 379,
+      "live": 380,
       "removed": 550,
       "soldPct": 29,
       "livePct": 29
     },
     "byBrand": {
+      "PRS": {
+        "total": 121,
+        "sold": 36,
+        "fake": 0,
+        "live": 34,
+        "removed": 51,
+        "soldPct": 30,
+        "livePct": 28
+      },
       "Fender": {
         "total": 101,
         "sold": 29,
@@ -27268,15 +27308,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "PRS": {
-        "total": 120,
-        "sold": 36,
-        "fake": 0,
-        "live": 33,
-        "removed": 51,
-        "soldPct": 30,
-        "livePct": 28
       },
       "Vintage": {
         "total": 39,
@@ -29004,7 +29035,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 394,
+        "total": 395,
         "sold": 117,
         "rate": 30
       },
@@ -29034,15 +29065,15 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 54,
+        "sold": 8,
+        "rate": 15
+      },
       "Used": {
         "total": 58,
         "sold": 7,
         "rate": 12
-      },
-      "Brand New": {
-        "total": 53,
-        "sold": 8,
-        "rate": 15
       },
       "New": {
         "total": 5,
@@ -29172,6 +29203,24 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS SE": {
+      "brand": "PRS",
+      "brandLine": "PRS SE",
+      "tier": "budget",
+      "count": 2,
+      "sum": 2998,
+      "avg": 1499,
+      "min": 1499,
+      "max": 1499,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Fender|Fender USA": {
       "brand": "Fender",
       "brandLine": "Fender USA",
@@ -29301,7 +29350,7 @@
       "live": 21,
       "removed": 42,
       "sellRate": 33,
-      "totalDays": 1622.1000000000001,
+      "totalDays": 1622.2,
       "soldCount": 31,
       "avgDaysToSell": 52.3
     },
@@ -29320,7 +29369,7 @@
       "live": 29,
       "removed": 63,
       "sellRate": 28,
-      "totalDays": 1539.4,
+      "totalDays": 1539.5000000000002,
       "soldCount": 35,
       "avgDaysToSell": 44
     },
@@ -29565,7 +29614,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1359.2,
+      "totalDays": 1359.3,
       "soldCount": 22,
       "avgDaysToSell": 61.8
     },
@@ -30596,24 +30645,6 @@
       "totalDays": 57.8,
       "soldCount": 2,
       "avgDaysToSell": 28.9
-    },
-    "PRS|PRS SE": {
-      "brand": "PRS",
-      "brandLine": "PRS SE",
-      "tier": "budget",
-      "count": 1,
-      "sum": 1499,
-      "avg": 1499,
-      "min": 1499,
-      "max": 1499,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "removed": 0,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
     },
     "Fodera|Fodera": {
       "brand": "Fodera",
