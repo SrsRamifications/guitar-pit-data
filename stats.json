@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-07T18:49:06.839Z",
-  "totalLinks": 1476,
-  "totalEver": 1583,
-  "totalBeforeFilter": 1583,
+  "generatedAt": "2026-06-07T19:03:23.872Z",
+  "totalLinks": 1477,
+  "totalEver": 1584,
+  "totalBeforeFilter": 1584,
   "fakeCount": 9,
   "removedCount": 568,
-  "totalWithPrice": 1349,
+  "totalWithPrice": 1350,
   "overall": {
-    "count": 1309,
-    "sum": 3582016.66,
-    "avg": 2736,
+    "count": 1310,
+    "sum": 3582911.66,
+    "avg": 2735,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1309,
-    "sum": 3582016.66,
-    "avg": 2736,
+    "count": 1310,
+    "sum": 3582911.66,
+    "avg": 2735,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11317,
+    "thresholdHigh": 11350,
     "thresholdLow": 0,
     "count": 40,
     "items": [
@@ -316,11 +316,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 12,
-      "sum": 32194.99,
+      "count": 13,
+      "sum": 33089.99,
       "min": 293,
       "max": 6460,
-      "avg": 2683
+      "avg": 2545
     },
     "2026-05": {
       "count": 392,
@@ -346,11 +346,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 90,
-      "sum": 256513.41,
+      "count": 91,
+      "sum": 257408.41,
       "min": 39.81,
       "max": 10495,
-      "avg": 2850
+      "avg": 2829
     },
     "reverb": {
       "count": 1118,
@@ -368,19 +368,19 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 62,
+      "sum": 241909.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 3902
+    },
     "long-mcquade.com": {
       "count": 2,
       "sum": 8299.98,
       "min": 2299.99,
       "max": 5999.99,
       "avg": 4150
-    },
-    "chicagomusicexchange.com": {
-      "count": 61,
-      "sum": 241014.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 3951
     },
     "guitarcenter.com": {
       "count": 73,
@@ -615,6 +615,37 @@
     }
   },
   "byModel": {
+    "fender-telecaster-american-performer": {
+      "displayName": "Fender American Performer Timber Sugar Pine Telecaster Sunburst 2025",
+      "brand": "Fender",
+      "model": "Telecaster",
+      "variant": "American Performer",
+      "count": 1,
+      "sum": 895,
+      "min": 895,
+      "max": 895,
+      "sightings": [
+        {
+          "price": 895,
+          "date": "2026-06-07T19:03:07.553+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender American Performer Timber Sugar Pine Telecaster Sunburst 2025",
+          "url": "https://www.chicagomusicexchange.com/products/fender-american-performer-timber-sugar-pine-telecaster-2578869",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 895,
+          "min": 895,
+          "max": 895,
+          "avg": 895
+        }
+      },
+      "avg": 895
+    },
     "charvel-dk24-signature-satin": {
       "displayName": "Charvel Guitars - Angel Vivaldi Signature DK24-7 NOVA, Maple Fingerboard - Satin Sage Green",
       "brand": "Charvel",
@@ -23308,6 +23339,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 57,
+      "sum": 390324.65999999986,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 6848,
+      "min": 293,
+      "max": 99000
+    },
     "Brand New": {
       "count": 53,
       "sum": 227371.11000000002,
@@ -23360,17 +23402,6 @@
       "avg": 2750,
       "min": 33,
       "max": 27500
-    },
-    "Used": {
-      "count": 56,
-      "sum": 389429.65999999986,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 6954,
-      "min": 293,
-      "max": 99000
     },
     "Excellent": {
       "count": 268,
@@ -23443,9 +23474,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2683,
-      "median": 2572,
-      "count": 12
+      "avg": 2545,
+      "median": 2300,
+      "count": 13
     },
     "05": {
       "name": "May",
@@ -23610,7 +23641,7 @@
   ],
   "priceDistribution": {
     "0-500": 88,
-    "500-1k": 112,
+    "500-1k": 113,
     "1k-2k": 394,
     "2k-3k": 280,
     "3k-5k": 283,
@@ -23619,7 +23650,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 88,
-    "500-1k": 112,
+    "500-1k": 113,
     "1k-2k": 394,
     "2k-3k": 280,
     "3k-5k": 283,
@@ -23627,6 +23658,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 4327,
+      "count": 90,
+      "avg": 48
+    },
     "Charvel": {
       "sum": 671,
       "count": 14,
@@ -23638,7 +23674,7 @@
       "avg": 47
     },
     "Jackson": {
-      "sum": 1585,
+      "sum": 1586,
       "count": 30,
       "avg": 53
     },
@@ -23651,11 +23687,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Fender": {
-      "sum": 4327,
-      "count": 89,
-      "avg": 49
     },
     "Maxon": {
       "sum": 3,
@@ -23708,7 +23739,7 @@
       "avg": 44
     },
     "Suhr": {
-      "sum": 659,
+      "sum": 660,
       "count": 15,
       "avg": 44
     },
@@ -24504,7 +24535,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-07": 11,
+    "2026-06-07": 12,
     "2026-06-06": 8,
     "2026-06-05": 7,
     "2026-06-04": 31,
@@ -24537,11 +24568,11 @@
     "2026-05-08": 7
   },
   "categoryDistribution": {
-    "marketplace": 105,
+    "marketplace": 106,
     "reverb": 1256,
     "other": 115
   },
-  "activeModelsCount": 271,
+  "activeModelsCount": 272,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -24565,7 +24596,7 @@
     },
     {
       "username": "Modean",
-      "count": 88
+      "count": 89
     },
     {
       "username": "wontongg",
@@ -24629,10 +24660,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6194,
+      "avgPrice": 6140,
       "retailEst": 800,
-      "avgDiscount": -674.3,
-      "count": 97
+      "avgDiscount": -667.5,
+      "count": 98
     },
     "Gibson": {
       "avgPrice": 6946,
@@ -27166,15 +27197,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1302,
+      "total": 1303,
       "sold": 374,
       "fake": 0,
-      "live": 378,
+      "live": 379,
       "removed": 550,
       "soldPct": 29,
       "livePct": 29
     },
     "byBrand": {
+      "Fender": {
+        "total": 101,
+        "sold": 29,
+        "fake": 0,
+        "live": 30,
+        "removed": 42,
+        "soldPct": 29,
+        "livePct": 30
+      },
       "Charvel": {
         "total": 14,
         "sold": 5,
@@ -27219,15 +27259,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 100,
-        "sold": 29,
-        "fake": 0,
-        "live": 29,
-        "removed": 42,
-        "soldPct": 29,
-        "livePct": 29
       },
       "Maxon": {
         "total": 1,
@@ -28967,7 +28998,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 112,
+        "total": 113,
         "sold": 37,
         "rate": 33
       },
@@ -29003,6 +29034,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 58,
+        "sold": 7,
+        "rate": 12
+      },
       "Brand New": {
         "total": 53,
         "sold": 8,
@@ -29022,11 +29058,6 @@
         "total": 202,
         "sold": 60,
         "rate": 30
-      },
-      "Used": {
-        "total": 57,
-        "sold": 7,
-        "rate": 12
       },
       "Excellent": {
         "total": 268,
@@ -29141,6 +29172,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender USA": {
+      "brand": "Fender",
+      "brandLine": "Fender USA",
+      "tier": "high",
+      "count": 14,
+      "sum": 18886.989999999998,
+      "avg": 1349,
+      "min": 800,
+      "max": 2499,
+      "sold": 6,
+      "soldSum": 7454,
+      "soldAvg": 1242,
+      "live": 4,
+      "removed": 4,
+      "sellRate": 43,
+      "totalDays": 323.5,
+      "soldCount": 6,
+      "avgDaysToSell": 53.9
+    },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
       "brandLine": "Charvel Pro-Mod",
@@ -29175,7 +29225,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 22,
-      "totalDays": 278.20000000000005,
+      "totalDays": 278.3,
       "soldCount": 4,
       "avgDaysToSell": 69.6
     },
@@ -29213,7 +29263,7 @@
       "live": 4,
       "removed": 20,
       "sellRate": 35,
-      "totalDays": 748.9000000000001,
+      "totalDays": 749,
       "soldCount": 13,
       "avgDaysToSell": 57.6
     },
@@ -29251,7 +29301,7 @@
       "live": 21,
       "removed": 42,
       "sellRate": 33,
-      "totalDays": 1621.5000000000002,
+      "totalDays": 1622.1000000000001,
       "soldCount": 31,
       "avgDaysToSell": 52.3
     },
@@ -29270,7 +29320,7 @@
       "live": 29,
       "removed": 63,
       "sellRate": 28,
-      "totalDays": 1538.9,
+      "totalDays": 1539.4,
       "soldCount": 35,
       "avgDaysToSell": 44
     },
@@ -29384,7 +29434,7 @@
       "live": 7,
       "removed": 4,
       "sellRate": 27,
-      "totalDays": 271.6,
+      "totalDays": 271.70000000000005,
       "soldCount": 4,
       "avgDaysToSell": 67.9
     },
@@ -29403,9 +29453,9 @@
       "live": 4,
       "removed": 4,
       "sellRate": 43,
-      "totalDays": 222.8,
+      "totalDays": 222.9,
       "soldCount": 6,
-      "avgDaysToSell": 37.1
+      "avgDaysToSell": 37.2
     },
     "Kramer|Kramer USA Vintage": {
       "brand": "Kramer",
@@ -29441,7 +29491,7 @@
       "live": 12,
       "removed": 13,
       "sellRate": 26,
-      "totalDays": 340.09999999999997,
+      "totalDays": 340.2,
       "soldCount": 9,
       "avgDaysToSell": 37.8
     },
@@ -29515,7 +29565,7 @@
       "live": 14,
       "removed": 12,
       "sellRate": 46,
-      "totalDays": 1358.8,
+      "totalDays": 1359.2,
       "soldCount": 22,
       "avgDaysToSell": 61.8
     },
@@ -29552,7 +29602,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 50,
-      "totalDays": 566.6999999999999,
+      "totalDays": 566.9,
       "soldCount": 11,
       "avgDaysToSell": 51.5
     },
@@ -29571,7 +29621,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 56,
-      "totalDays": 279,
+      "totalDays": 279.1,
       "soldCount": 5,
       "avgDaysToSell": 55.8
     },
@@ -29590,7 +29640,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 80,
-      "totalDays": 217.39999999999998,
+      "totalDays": 217.59999999999997,
       "soldCount": 4,
       "avgDaysToSell": 54.4
     },
@@ -29628,7 +29678,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 36,
-      "totalDays": 476.20000000000005,
+      "totalDays": 476.3,
       "soldCount": 9,
       "avgDaysToSell": 52.9
     },
@@ -29647,9 +29697,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 76.8,
+      "totalDays": 76.9,
       "soldCount": 2,
-      "avgDaysToSell": 38.4
+      "avgDaysToSell": 38.5
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -29666,9 +29716,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 119,
+      "totalDays": 119.1,
       "soldCount": 2,
-      "avgDaysToSell": 59.5
+      "avgDaysToSell": 59.6
     },
     "Strandberg|Strandberg Import": {
       "brand": "Strandberg",
@@ -29743,25 +29793,6 @@
       "totalDays": 26.5,
       "soldCount": 1,
       "avgDaysToSell": 26.5
-    },
-    "Fender|Fender USA": {
-      "brand": "Fender",
-      "brandLine": "Fender USA",
-      "tier": "high",
-      "count": 13,
-      "sum": 17991.989999999998,
-      "avg": 1384,
-      "min": 800,
-      "max": 2499,
-      "sold": 6,
-      "soldSum": 7454,
-      "soldAvg": 1242,
-      "live": 3,
-      "removed": 4,
-      "sellRate": 46,
-      "totalDays": 323.4,
-      "soldCount": 6,
-      "avgDaysToSell": 53.9
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -29873,7 +29904,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 374.20000000000005,
+      "totalDays": 374.3,
       "soldCount": 7,
       "avgDaysToSell": 53.5
     },
@@ -29892,7 +29923,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 90.1,
+      "totalDays": 90.2,
       "soldCount": 2,
       "avgDaysToSell": 45.1
     },
@@ -29911,7 +29942,7 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 580.8,
+      "totalDays": 580.9,
       "soldCount": 7,
       "avgDaysToSell": 83
     },
@@ -30024,9 +30055,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 226.89999999999998,
+      "totalDays": 227,
       "soldCount": 4,
-      "avgDaysToSell": 56.7
+      "avgDaysToSell": 56.8
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -30302,9 +30333,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 44,
-      "totalDays": 224.5,
+      "totalDays": 224.8,
       "soldCount": 4,
-      "avgDaysToSell": 56.1
+      "avgDaysToSell": 56.2
     },
     "Yamaha|Yamaha Pacifica": {
       "brand": "Yamaha",
@@ -30321,9 +30352,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 79.1,
+      "totalDays": 79.2,
       "soldCount": 1,
-      "avgDaysToSell": 79.1
+      "avgDaysToSell": 79.2
     },
     "Taylor|Taylor Baby": {
       "brand": "Taylor",
@@ -30525,7 +30556,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 207.4,
+      "totalDays": 207.5,
       "soldCount": 4,
       "avgDaysToSell": 51.9
     },
@@ -30983,9 +31014,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 65.1,
+      "totalDays": 65.2,
       "soldCount": 1,
-      "avgDaysToSell": 65.1
+      "avgDaysToSell": 65.2
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
