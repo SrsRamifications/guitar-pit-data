@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-10T03:22:24.358Z",
-  "totalLinks": 1514,
-  "totalEver": 1624,
-  "totalBeforeFilter": 1624,
+  "generatedAt": "2026-06-10T03:26:30.119Z",
+  "totalLinks": 1515,
+  "totalEver": 1625,
+  "totalBeforeFilter": 1625,
   "fakeCount": 10,
   "removedCount": 593,
-  "totalWithPrice": 1369,
+  "totalWithPrice": 1370,
   "overall": {
-    "count": 1329,
-    "sum": 3631754.66,
-    "avg": 2733,
+    "count": 1330,
+    "sum": 3638753.66,
+    "avg": 2736,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1329,
-    "sum": 3631754.66,
-    "avg": 2733,
+    "count": 1330,
+    "sum": 3638753.66,
+    "avg": 2736,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11150,
+    "thresholdHigh": 11226,
     "thresholdLow": 0,
     "count": 40,
     "items": [
@@ -316,11 +316,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 32,
-      "sum": 83809.99,
+      "count": 33,
+      "sum": 90808.99,
       "min": 6,
       "max": 7000,
-      "avg": 2619
+      "avg": 2752
     },
     "2026-05": {
       "count": 392,
@@ -346,11 +346,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1133,
-      "sum": 3079004.31,
+      "count": 1134,
+      "sum": 3086003.31,
       "min": 7,
       "max": 11053,
-      "avg": 2718
+      "avg": 2721
     },
     "marketplace": {
       "count": 95,
@@ -369,11 +369,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1133,
-      "sum": 3079004.31,
+      "count": 1134,
+      "sum": 3086003.31,
       "min": 7,
       "max": 11053,
-      "avg": 2718
+      "avg": 2721
     },
     "guitarcenter.com": {
       "count": 74,
@@ -615,6 +615,37 @@
     }
   },
   "byModel": {
+    "castedosa-semi-hollow": {
+      "displayName": "Castedosa Guitars Marianna Semi-Hollow - 6.88lbs - x16458",
+      "brand": "Castedosa",
+      "model": "Semi-Hollow",
+      "variant": null,
+      "count": 1,
+      "sum": 6999,
+      "min": 6999,
+      "max": 6999,
+      "sightings": [
+        {
+          "price": 6999,
+          "date": "2026-06-10T03:26:09.928+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Castedosa Guitars Marianna Semi-Hollow - 6.88lbs - x16458",
+          "url": "https://reverb.com/item/96369970-castedosa-guitars-marianna-semi-hollow-6-88lbs-x16458",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 6999,
+          "min": 6999,
+          "max": 6999,
+          "avg": 6999
+        }
+      },
+      "avg": 6999
+    },
     "esp-stratocaster-custom-shop": {
       "displayName": "1993 ESP Japan Custom Shop Strat Alder Body - Marble Paint",
       "brand": "ESP",
@@ -24015,6 +24046,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 204,
+      "sum": 568112.56,
+      "sold": {
+        "count": 63,
+        "sum": 139931.78999999998,
+        "avg": 2221,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2785,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 271,
       "sum": 1017365.73,
@@ -24042,20 +24087,6 @@
       "avg": 2931,
       "min": 70,
       "max": 55000
-    },
-    "Very Good": {
-      "count": 203,
-      "sum": 561113.56,
-      "sold": {
-        "count": 63,
-        "sum": 139931.78999999998,
-        "avg": 2221,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2764,
-      "min": 33,
-      "max": 27500
     },
     "Fair": {
       "count": 10,
@@ -24150,9 +24181,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2619,
-      "median": 2250,
-      "count": 32
+      "avg": 2752,
+      "median": 2300,
+      "count": 33
     },
     "05": {
       "name": "May",
@@ -24321,7 +24352,7 @@
     "1k-2k": 398,
     "2k-3k": 281,
     "3k-5k": 288,
-    "5k-10k": 144,
+    "5k-10k": 145,
     "10k+": 52
   },
   "priceDistributionFiltered": {
@@ -24330,17 +24361,22 @@
     "1k-2k": 398,
     "2k-3k": 281,
     "3k-5k": 288,
-    "5k-10k": 144,
+    "5k-10k": 145,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Castedosa": {
+      "sum": 602,
+      "count": 11,
+      "avg": 55
+    },
     "ESP": {
-      "sum": 1492,
+      "sum": 1493,
       "count": 30,
       "avg": 50
     },
     "Ibanez": {
-      "sum": 2904,
+      "sum": 2905,
       "count": 60,
       "avg": 48
     },
@@ -24375,12 +24411,12 @@
       "avg": 52
     },
     "PRS": {
-      "sum": 5803,
+      "sum": 5805,
       "count": 117,
       "avg": 50
     },
     "Fender": {
-      "sum": 4518,
+      "sum": 4519,
       "count": 90,
       "avg": 50
     },
@@ -24390,7 +24426,7 @@
       "avg": 50
     },
     "Eastman": {
-      "sum": 833,
+      "sum": 834,
       "count": 17,
       "avg": 49
     },
@@ -24405,12 +24441,12 @@
       "avg": 5
     },
     "Vintage": {
-      "sum": 1488,
+      "sum": 1489,
       "count": 34,
       "avg": 44
     },
     "BC Rich": {
-      "sum": 4189,
+      "sum": 4191,
       "count": 85,
       "avg": 49
     },
@@ -24565,7 +24601,7 @@
       "avg": 47
     },
     "Yamaha": {
-      "sum": 1230,
+      "sum": 1231,
       "count": 22,
       "avg": 56
     },
@@ -24623,11 +24659,6 @@
       "sum": 408,
       "count": 7,
       "avg": 58
-    },
-    "Castedosa": {
-      "sum": 556,
-      "count": 10,
-      "avg": 56
     },
     "Powers Electric": {
       "sum": 103,
@@ -25216,7 +25247,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-10": 3,
+    "2026-06-10": 4,
     "2026-06-09": 14,
     "2026-06-08": 16,
     "2026-06-07": 16,
@@ -25249,11 +25280,11 @@
     "2026-05-11": 4
   },
   "categoryDistribution": {
-    "reverb": 1289,
+    "reverb": 1290,
     "marketplace": 110,
     "other": 115
   },
-  "activeModelsCount": 267,
+  "activeModelsCount": 268,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -25265,7 +25296,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 159
+      "count": 160
     },
     {
       "username": "YellowJack6",
@@ -25431,10 +25462,10 @@
       "count": 29
     },
     "Castedosa": {
-      "avgPrice": 8790,
+      "avgPrice": 8627,
       "retailEst": 2500,
-      "avgDiscount": -251.6,
-      "count": 10
+      "avgDiscount": -245.1,
+      "count": 11
     },
     "Eastman": {
       "avgPrice": 1436,
@@ -28032,15 +28063,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1316,
+      "total": 1317,
       "sold": 391,
       "fake": 0,
-      "live": 354,
+      "live": 355,
       "removed": 571,
       "soldPct": 30,
       "livePct": 27
     },
     "byBrand": {
+      "Castedosa": {
+        "total": 11,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "removed": 9,
+        "soldPct": 0,
+        "livePct": 18
+      },
       "ESP": {
         "total": 31,
         "sold": 8,
@@ -28571,15 +28611,6 @@
         "removed": 0,
         "soldPct": 71,
         "livePct": 29
-      },
-      "Castedosa": {
-        "total": 10,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "removed": 9,
-        "soldPct": 0,
-        "livePct": 10
       },
       "Two Notes": {
         "total": 1,
@@ -29755,9 +29786,9 @@
     "worstBrands": [
       {
         "brand": "Castedosa",
-        "total": 10,
+        "total": 11,
         "sold": 0,
-        "live": 1,
+        "live": 2,
         "soldPct": 0
       },
       {
@@ -29857,7 +29888,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 144,
+        "total": 145,
         "sold": 26,
         "rate": 18
       },
@@ -29869,6 +29900,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 205,
+        "sold": 63,
+        "rate": 31
+      },
       "Excellent": {
         "total": 271,
         "sold": 100,
@@ -29878,11 +29914,6 @@
         "total": 88,
         "sold": 24,
         "rate": 27
-      },
-      "Very Good": {
-        "total": 204,
-        "sold": 63,
-        "rate": 31
       },
       "Fair": {
         "total": 10,
@@ -30007,6 +30038,24 @@
     ]
   },
   "byBrandLine": {
+    "Castedosa|Castedosa": {
+      "brand": "Castedosa",
+      "brandLine": "Castedosa",
+      "tier": "premium",
+      "count": 9,
+      "sum": 81265,
+      "avg": 9029,
+      "min": 6800,
+      "max": 12280,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "removed": 7,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
       "brandLine": "ESP Custom Shop",
@@ -30154,9 +30203,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 339.8,
+      "totalDays": 339.9,
       "soldCount": 7,
-      "avgDaysToSell": 48.5
+      "avgDaysToSell": 48.6
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -31080,24 +31129,6 @@
       "soldCount": 1,
       "avgDaysToSell": 52.5
     },
-    "Castedosa|Castedosa": {
-      "brand": "Castedosa",
-      "brandLine": "Castedosa",
-      "tier": "premium",
-      "count": 8,
-      "sum": 74266,
-      "avg": 9283,
-      "min": 6800,
-      "max": 12280,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "removed": 7,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Squier|Squier": {
       "brand": "Squier",
       "brandLine": "Squier",
@@ -31929,14 +31960,14 @@
     },
     {
       "label": "31+",
-      "total": 222,
+      "total": 223,
       "sold": 69,
       "rate": 31
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 408,
+      "total": 409,
       "sold": 135,
       "rate": 33
     },
@@ -31948,7 +31979,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 314,
+      "total": 315,
       "sold": 75,
       "rate": 24
     },
@@ -31967,7 +31998,7 @@
     },
     {
       "state": "NY",
-      "total": 45,
+      "total": 46,
       "sold": 5,
       "rate": 11
     },
