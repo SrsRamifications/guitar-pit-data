@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-11T17:05:22.672Z",
-  "totalLinks": 1537,
-  "totalEver": 1649,
-  "totalBeforeFilter": 1649,
+  "generatedAt": "2026-06-11T17:08:40.754Z",
+  "totalLinks": 1538,
+  "totalEver": 1650,
+  "totalBeforeFilter": 1650,
   "fakeCount": 10,
   "removedCount": 599,
-  "totalWithPrice": 1392,
+  "totalWithPrice": 1393,
   "overall": {
-    "count": 1351,
-    "sum": 3702876.66,
-    "avg": 2741,
+    "count": 1352,
+    "sum": 3704676.66,
+    "avg": 2740,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1351,
-    "sum": 3702876.66,
-    "avg": 2741,
+    "count": 1352,
+    "sum": 3704676.66,
+    "avg": 2740,
     "min": 3,
     "max": 11099,
     "median": 2200
@@ -324,11 +324,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 54,
-      "sum": 155047.99,
+      "count": 55,
+      "sum": 156847.99,
       "min": 6,
       "max": 7799,
-      "avg": 2871
+      "avg": 2852
     },
     "2026-05": {
       "count": 392,
@@ -354,8 +354,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1155,
-      "sum": 3150126.31,
+      "count": 1156,
+      "sum": 3151926.31,
       "min": 7,
       "max": 11053,
       "avg": 2727
@@ -377,8 +377,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1155,
-      "sum": 3150126.31,
+      "count": 1156,
+      "sum": 3151926.31,
       "min": 7,
       "max": 11053,
       "avg": 2727
@@ -623,6 +623,37 @@
     }
   },
   "byModel": {
+    "grosh-classic": {
+      "displayName": "Grosh Guitars Retro Classic 2009 - Trans Blonde",
+      "brand": "Grosh",
+      "model": "Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-06-11T17:08:22.911+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Grosh Guitars Retro Classic 2009 - Trans Blonde",
+          "url": "https://reverb.com/item/98100130-grosh-guitars-retro-classic-2009-trans-blonde",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
+    },
     "parker-nylon-fly-transparent": {
       "displayName": "1999 Parker Nylon Fly Transparent Butterscotch",
       "brand": "Parker",
@@ -24604,6 +24635,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 212,
+      "sum": 586765.56,
+      "sold": {
+        "count": 65,
+        "sum": 142821.78999999998,
+        "avg": 2197,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 2768,
+      "min": 33,
+      "max": 27500
+    },
     "Excellent": {
       "count": 281,
       "sum": 1059101.73,
@@ -24617,20 +24662,6 @@
       "avg": 3769,
       "min": 65,
       "max": 73427
-    },
-    "Very Good": {
-      "count": 211,
-      "sum": 584965.56,
-      "sold": {
-        "count": 65,
-        "sum": 142821.78999999998,
-        "avg": 2197,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 2772,
-      "min": 33,
-      "max": 27500
     },
     "Brand New": {
       "count": 61,
@@ -24739,9 +24770,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2871,
-      "median": 2401,
-      "count": 54
+      "avg": 2852,
+      "median": 2300,
+      "count": 55
     },
     "05": {
       "name": "May",
@@ -24907,7 +24938,7 @@
   "priceDistribution": {
     "0-500": 92,
     "500-1k": 118,
-    "1k-2k": 402,
+    "1k-2k": 403,
     "2k-3k": 286,
     "3k-5k": 292,
     "5k-10k": 149,
@@ -24916,13 +24947,18 @@
   "priceDistributionFiltered": {
     "0-500": 92,
     "500-1k": 118,
-    "1k-2k": 402,
+    "1k-2k": 403,
     "2k-3k": 286,
     "3k-5k": 292,
     "5k-10k": 149,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Grosh": {
+      "sum": 2,
+      "count": 2,
+      "avg": 1
+    },
     "Parker": {
       "sum": 422,
       "count": 8,
@@ -25002,11 +25038,6 @@
       "sum": 21,
       "count": 2,
       "avg": 11
-    },
-    "Grosh": {
-      "sum": 2,
-      "count": 1,
-      "avg": 2
     },
     "Fender": {
       "sum": 4597,
@@ -25805,7 +25836,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-11": 17,
+    "2026-06-11": 18,
     "2026-06-10": 9,
     "2026-06-09": 14,
     "2026-06-08": 16,
@@ -25838,11 +25869,11 @@
     "2026-05-12": 8
   },
   "categoryDistribution": {
-    "reverb": 1311,
+    "reverb": 1312,
     "marketplace": 111,
     "other": 115
   },
-  "activeModelsCount": 273,
+  "activeModelsCount": 274,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -25854,7 +25885,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 164
+      "count": 165
     },
     {
       "username": "YellowJack6",
@@ -28661,15 +28692,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1333,
+      "total": 1334,
       "sold": 396,
       "fake": 0,
-      "live": 360,
+      "live": 361,
       "removed": 577,
       "soldPct": 30,
       "livePct": 27
     },
     "byBrand": {
+      "Grosh": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "removed": 0,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Parker": {
         "total": 8,
         "sold": 5,
@@ -28822,15 +28862,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Grosh": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "removed": 0,
-        "soldPct": 50,
-        "livePct": 50
       },
       "Charvel": {
         "total": 14,
@@ -30468,7 +30499,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 402,
+        "total": 403,
         "sold": 121,
         "rate": 30
       },
@@ -30498,15 +30529,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 213,
+        "sold": 65,
+        "rate": 31
+      },
       "Excellent": {
         "total": 281,
         "sold": 102,
         "rate": 36
-      },
-      "Very Good": {
-        "total": 212,
-        "sold": 65,
-        "rate": 31
       },
       "Brand New": {
         "total": 61,
@@ -30620,6 +30651,13 @@
         "sold": 3
       },
       {
+        "brand": "Grosh",
+        "avgPrice": 1866,
+        "sellRate": 33,
+        "count": 3,
+        "sold": 1
+      },
+      {
         "brand": "Heritage",
         "avgPrice": 1648,
         "sellRate": 33,
@@ -30636,6 +30674,25 @@
     ]
   },
   "byBrandLine": {
+    "Grosh|Don Grosh": {
+      "brand": "Grosh",
+      "brandLine": "Don Grosh",
+      "tier": "premium",
+      "count": 3,
+      "sum": 5599,
+      "avg": 1866,
+      "min": 1700,
+      "max": 2099,
+      "sold": 1,
+      "soldSum": 1700,
+      "soldAvg": 1700,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 33,
+      "totalDays": 133.9,
+      "soldCount": 1,
+      "avgDaysToSell": 133.9
+    },
     "Parker|Parker Spanish Fly": {
       "brand": "Parker",
       "brandLine": "Parker Spanish Fly",
@@ -30670,7 +30727,7 @@
       "live": 31,
       "removed": 65,
       "sellRate": 27,
-      "totalDays": 1692,
+      "totalDays": 1692.2000000000003,
       "soldCount": 36,
       "avgDaysToSell": 47
     },
@@ -30859,28 +30916,9 @@
       "live": 8,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 535.5,
+      "totalDays": 535.5999999999999,
       "soldCount": 10,
       "avgDaysToSell": 53.6
-    },
-    "Grosh|Don Grosh": {
-      "brand": "Grosh",
-      "brandLine": "Don Grosh",
-      "tier": "premium",
-      "count": 2,
-      "sum": 3799,
-      "avg": 1900,
-      "min": 1700,
-      "max": 2099,
-      "sold": 1,
-      "soldSum": 1700,
-      "soldAvg": 1700,
-      "live": 1,
-      "removed": 0,
-      "sellRate": 50,
-      "totalDays": 133.9,
-      "soldCount": 1,
-      "avgDaysToSell": 133.9
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -31518,7 +31556,7 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 608.2,
+      "totalDays": 608.3,
       "soldCount": 7,
       "avgDaysToSell": 86.9
     },
@@ -32522,8 +32560,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 220,
-    "totalOffers": 470,
+    "withOffers": 221,
+    "totalOffers": 471,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 32
   },
@@ -32540,9 +32578,9 @@
     },
     {
       "label": "1–5",
-      "total": 47,
+      "total": 48,
       "sold": 15,
-      "rate": 32
+      "rate": 31
     },
     {
       "label": "6–15",
@@ -32565,7 +32603,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 425,
+      "total": 426,
       "sold": 136,
       "rate": 32
     },
@@ -32577,7 +32615,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 323,
+      "total": 324,
       "sold": 79,
       "rate": 24
     },
@@ -32608,9 +32646,9 @@
     },
     {
       "state": "IL",
-      "total": 39,
+      "total": 40,
       "sold": 12,
-      "rate": 31
+      "rate": 30
     },
     {
       "state": "FL",
