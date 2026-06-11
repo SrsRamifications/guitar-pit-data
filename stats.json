@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-11T18:18:38.286Z",
-  "totalLinks": 1538,
-  "totalEver": 1650,
-  "totalBeforeFilter": 1650,
+  "generatedAt": "2026-06-11T18:30:37.579Z",
+  "totalLinks": 1539,
+  "totalEver": 1651,
+  "totalBeforeFilter": 1651,
   "fakeCount": 10,
   "removedCount": 599,
-  "totalWithPrice": 1393,
+  "totalWithPrice": 1394,
   "overall": {
-    "count": 1352,
-    "sum": 3704676.66,
-    "avg": 2740,
+    "count": 1353,
+    "sum": 3704683.66,
+    "avg": 2738,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1352,
-    "sum": 3704676.66,
-    "avg": 2740,
+    "count": 1353,
+    "sum": 3704683.66,
+    "avg": 2738,
     "min": 3,
     "max": 11099,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11317,
+    "thresholdHigh": 11350,
     "thresholdLow": 0,
     "count": 41,
     "items": [
@@ -324,11 +324,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 55,
-      "sum": 156847.99,
+      "count": 56,
+      "sum": 156854.99,
       "min": 6,
       "max": 7799,
-      "avg": 2852
+      "avg": 2801
     },
     "2026-05": {
       "count": 392,
@@ -353,19 +353,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 96,
+      "sum": 264925.41,
+      "min": 6,
+      "max": 10495,
+      "avg": 2760
+    },
     "reverb": {
       "count": 1156,
       "sum": 3151926.31,
       "min": 7,
       "max": 11053,
       "avg": 2727
-    },
-    "marketplace": {
-      "count": 95,
-      "sum": 264918.41,
-      "min": 6,
-      "max": 10495,
-      "avg": 2789
     },
     "other": {
       "count": 101,
@@ -376,6 +376,13 @@
     }
   },
   "byDomain": {
+    "themusiczoo.com": {
+      "count": 4,
+      "sum": 1018,
+      "min": 6,
+      "max": 999,
+      "avg": 255
+    },
     "reverb.com": {
       "count": 1156,
       "sum": 3151926.31,
@@ -389,13 +396,6 @@
       "min": 139.99,
       "max": 5999,
       "avg": 2004
-    },
-    "themusiczoo.com": {
-      "count": 3,
-      "sum": 1011,
-      "min": 6,
-      "max": 999,
-      "avg": 337
     },
     "chicagomusicexchange.com": {
       "count": 63,
@@ -623,6 +623,37 @@
     }
   },
   "byModel": {
+    "bc-rich-mockingbird-quilt-top-usa-custom-shop": {
+      "displayName": "B.C. Rich USA Custom Shop Mockingbird Quilt Top Cherry Red 2026 #2506012",
+      "brand": "BC Rich",
+      "model": "Mockingbird Quilt Top",
+      "variant": "Usa Custom Shop",
+      "count": 1,
+      "sum": 7,
+      "min": 7,
+      "max": 7,
+      "sightings": [
+        {
+          "price": 7,
+          "date": "2026-06-11T18:30:21.621+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich USA Custom Shop Mockingbird Quilt Top Cherry Red 2026 #2506012",
+          "url": "https://www.themusiczoo.com/products/b-c-rich-usa-custom-shop-mockingbird-quilt-top-cherry-red-2026",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 7,
+          "min": 7,
+          "max": 7,
+          "avg": 7
+        }
+      },
+      "avg": 7
+    },
     "grosh-classic": {
       "displayName": "Grosh Guitars Retro Classic 2009 - Trans Blonde",
       "brand": "Grosh",
@@ -24785,9 +24816,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2852,
-      "median": 2300,
-      "count": 55
+      "avg": 2801,
+      "median": 2275,
+      "count": 56
     },
     "05": {
       "name": "May",
@@ -24951,7 +24982,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 92,
+    "0-500": 93,
     "500-1k": 118,
     "1k-2k": 403,
     "2k-3k": 286,
@@ -24960,7 +24991,7 @@
     "10k+": 53
   },
   "priceDistributionFiltered": {
-    "0-500": 92,
+    "0-500": 93,
     "500-1k": 118,
     "1k-2k": 403,
     "2k-3k": 286,
@@ -24969,6 +25000,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 4342,
+      "count": 88,
+      "avg": 49
+    },
     "Grosh": {
       "sum": 2,
       "count": 2,
@@ -25005,7 +25041,7 @@
       "avg": 52
     },
     "Jackson": {
-      "sum": 1710,
+      "sum": 1711,
       "count": 33,
       "avg": 52
     },
@@ -25024,11 +25060,6 @@
       "count": 7,
       "avg": 47
     },
-    "BC Rich": {
-      "sum": 4342,
-      "count": 87,
-      "avg": 50
-    },
     "Castedosa": {
       "sum": 625,
       "count": 12,
@@ -25040,7 +25071,7 @@
       "avg": 51
     },
     "Ibanez": {
-      "sum": 3013,
+      "sum": 3014,
       "count": 60,
       "avg": 50
     },
@@ -25160,7 +25191,7 @@
       "avg": 49
     },
     "Music Man": {
-      "sum": 1324,
+      "sum": 1325,
       "count": 25,
       "avg": 53
     },
@@ -25851,7 +25882,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-11": 18,
+    "2026-06-11": 19,
     "2026-06-10": 9,
     "2026-06-09": 14,
     "2026-06-08": 16,
@@ -25881,11 +25912,11 @@
     "2026-05-15": 16,
     "2026-05-14": 9,
     "2026-05-13": 26,
-    "2026-05-12": 8
+    "2026-05-12": 7
   },
   "categoryDistribution": {
+    "marketplace": 112,
     "reverb": 1312,
-    "marketplace": 111,
     "other": 115
   },
   "activeModelsCount": 274,
@@ -26078,10 +26109,10 @@
       "count": 18
     },
     "BC Rich": {
-      "avgPrice": 2961,
+      "avgPrice": 2929,
       "retailEst": 200,
-      "avgDiscount": -1380.4,
-      "count": 93
+      "avgDiscount": -1364.7,
+      "count": 94
     },
     "Rickenbacker": {
       "avgPrice": 2328,
@@ -28715,15 +28746,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1334,
+      "total": 1335,
       "sold": 397,
       "fake": 0,
-      "live": 360,
+      "live": 361,
       "removed": 577,
       "soldPct": 30,
       "livePct": 27
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 94,
+        "sold": 25,
+        "fake": 0,
+        "live": 35,
+        "removed": 34,
+        "soldPct": 27,
+        "livePct": 37
+      },
       "Grosh": {
         "total": 3,
         "sold": 1,
@@ -28831,15 +28871,6 @@
         "removed": 2,
         "soldPct": 25,
         "livePct": 50
-      },
-      "BC Rich": {
-        "total": 93,
-        "sold": 25,
-        "fake": 0,
-        "live": 34,
-        "removed": 34,
-        "soldPct": 27,
-        "livePct": 37
       },
       "Castedosa": {
         "total": 12,
@@ -30510,9 +30541,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 92,
+        "total": 93,
         "sold": 31,
-        "rate": 34
+        "rate": 33
       },
       {
         "label": "$500–1k",
@@ -30697,6 +30728,25 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich Import": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich Import",
+      "tier": "budget-mid",
+      "count": 36,
+      "sum": 40782.98,
+      "avg": 1133,
+      "min": 7,
+      "max": 3900,
+      "sold": 9,
+      "soldSum": 7876,
+      "soldAvg": 875,
+      "live": 13,
+      "removed": 14,
+      "sellRate": 25,
+      "totalDays": 376,
+      "soldCount": 9,
+      "avgDaysToSell": 41.8
+    },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
       "brandLine": "Don Grosh",
@@ -30769,7 +30819,7 @@
       "live": 14,
       "removed": 13,
       "sellRate": 46,
-      "totalDays": 1448.5,
+      "totalDays": 1448.7,
       "soldCount": 23,
       "avgDaysToSell": 63
     },
@@ -30788,7 +30838,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 40,
-      "totalDays": 246.6,
+      "totalDays": 246.70000000000002,
       "soldCount": 6,
       "avgDaysToSell": 41.1
     },
@@ -30885,25 +30935,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "BC Rich|BC Rich Import": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich Import",
-      "tier": "budget-mid",
-      "count": 35,
-      "sum": 40775.98,
-      "avg": 1165,
-      "min": 250,
-      "max": 3900,
-      "sold": 9,
-      "soldSum": 7876,
-      "soldAvg": 875,
-      "live": 12,
-      "removed": 14,
-      "sellRate": 26,
-      "totalDays": 375.9000000000001,
-      "soldCount": 9,
-      "avgDaysToSell": 41.8
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -31033,9 +31064,9 @@
       "live": 4,
       "removed": 10,
       "sellRate": 22,
-      "totalDays": 294.1,
+      "totalDays": 294.20000000000005,
       "soldCount": 4,
-      "avgDaysToSell": 73.5
+      "avgDaysToSell": 73.6
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -31052,7 +31083,7 @@
       "live": 4,
       "removed": 20,
       "sellRate": 35,
-      "totalDays": 796.7000000000002,
+      "totalDays": 796.8000000000002,
       "soldCount": 13,
       "avgDaysToSell": 61.3
     },
@@ -31071,7 +31102,7 @@
       "live": 9,
       "removed": 31,
       "sellRate": 32,
-      "totalDays": 1033.3,
+      "totalDays": 1033.6000000000001,
       "soldCount": 19,
       "avgDaysToSell": 54.4
     },
@@ -31090,7 +31121,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 63,
-      "totalDays": 200.29999999999998,
+      "totalDays": 200.4,
       "soldCount": 5,
       "avgDaysToSell": 40.1
     },
@@ -31166,7 +31197,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 27,
-      "totalDays": 287.5,
+      "totalDays": 287.6,
       "soldCount": 4,
       "avgDaysToSell": 71.9
     },
@@ -31296,7 +31327,7 @@
       "live": 2,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 319.8,
+      "totalDays": 319.9,
       "soldCount": 6,
       "avgDaysToSell": 53.3
     },
@@ -31446,9 +31477,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 30.4,
+      "totalDays": 30.5,
       "soldCount": 1,
-      "avgDaysToSell": 30.4
+      "avgDaysToSell": 30.5
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -31503,7 +31534,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 99.8,
+      "totalDays": 99.9,
       "soldCount": 3,
       "avgDaysToSell": 33.3
     },
@@ -31579,9 +31610,9 @@
       "live": 6,
       "removed": 13,
       "sellRate": 27,
-      "totalDays": 608.5,
+      "totalDays": 608.7,
       "soldCount": 7,
-      "avgDaysToSell": 86.9
+      "avgDaysToSell": 87
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -32322,9 +32353,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 383.5,
+      "totalDays": 383.6,
       "soldCount": 3,
-      "avgDaysToSell": 127.8
+      "avgDaysToSell": 127.9
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
