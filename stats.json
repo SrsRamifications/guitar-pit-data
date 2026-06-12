@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-12T16:20:59.633Z",
-  "totalLinks": 1330,
-  "totalEver": 1665,
-  "totalBeforeFilter": 1665,
+  "generatedAt": "2026-06-12T16:23:34.072Z",
+  "totalLinks": 1331,
+  "totalEver": 1666,
+  "totalBeforeFilter": 1666,
   "fakeCount": 18,
   "removedCount": 540,
-  "totalWithPrice": 1315,
+  "totalWithPrice": 1316,
   "overall": {
-    "count": 1276,
-    "sum": 3603714.47,
-    "avg": 2824,
+    "count": 1277,
+    "sum": 3604464.47,
+    "avg": 2823,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1276,
-    "sum": 3603714.47,
-    "avg": 2824,
+    "count": 1277,
+    "sum": 3604464.47,
+    "avg": 2823,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -332,11 +332,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 61,
-      "sum": 185412.99,
+      "count": 62,
+      "sum": 186162.99,
       "min": 500,
       "max": 7899,
-      "avg": 3040
+      "avg": 3003
     },
     "2026-05": {
       "count": 360,
@@ -362,11 +362,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1090,
-      "sum": 3070803.09,
+      "count": 1091,
+      "sum": 3071553.09,
       "min": 33,
       "max": 10933,
-      "avg": 2817
+      "avg": 2815
     },
     "marketplace": {
       "count": 85,
@@ -385,11 +385,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1090,
-      "sum": 3070803.09,
+      "count": 1091,
+      "sum": 3071553.09,
       "min": 33,
       "max": 10933,
-      "avg": 2817
+      "avg": 2815
     },
     "guitarcenter.com": {
       "count": 70,
@@ -631,6 +631,37 @@
     }
   },
   "byModel": {
+    "yamaha-ll25-t-made-in": {
+      "displayName": "Yamaha LL25-T 1990 - Made in Japan LL Series Acoustic Dreadnaught",
+      "brand": "Yamaha",
+      "model": "LL25-T Made in",
+      "variant": null,
+      "count": 1,
+      "sum": 750,
+      "min": 750,
+      "max": 750,
+      "sightings": [
+        {
+          "price": 750,
+          "date": "2026-06-12T16:23:16.635+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Yamaha LL25-T 1990 - Made in Japan LL Series Acoustic Dreadnaught",
+          "url": "https://reverb.com/item/98154749",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 750,
+          "min": 750,
+          "max": 750,
+          "avg": 750
+        }
+      },
+      "avg": 750
+    },
     "novo-serus-starry-night": {
       "displayName": "2023 Novo Serus T Starry Night",
       "brand": "Novo",
@@ -39000,6 +39031,15 @@
     }
   },
   "byBrandPrice": {
+    "Yamaha": {
+      "count": 22,
+      "min": 269,
+      "max": 9790.68,
+      "soldCount": 7,
+      "outliersExcluded": 0,
+      "avg": 1876,
+      "soldAvg": 2585
+    },
     "Novo": {
       "count": 8,
       "min": 2850,
@@ -39575,15 +39615,6 @@
       "outliersExcluded": 0,
       "avg": 1336,
       "soldAvg": 1047
-    },
-    "Yamaha": {
-      "count": 21,
-      "min": 269,
-      "max": 9790.68,
-      "soldCount": 7,
-      "outliersExcluded": 0,
-      "avg": 1929,
-      "soldAvg": 2585
     },
     "Mighty Mite": {
       "count": 1,
@@ -40829,6 +40860,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 138,
+      "sum": 415641.26,
+      "sold": {
+        "count": 43,
+        "sum": 88238.22999999998,
+        "avg": 2052,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 3012,
+      "min": 70,
+      "max": 55000
+    },
     "Excellent": {
       "count": 459,
       "sum": 1927483.8699999994,
@@ -40856,20 +40901,6 @@
       "avg": 3950,
       "min": 33,
       "max": 437713.69
-    },
-    "Good": {
-      "count": 137,
-      "sum": 414891.26,
-      "sold": {
-        "count": 43,
-        "sum": 88238.22999999998,
-        "avg": 2052,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 3028,
-      "min": 70,
-      "max": 55000
     },
     "Brand New": {
       "count": 104,
@@ -40964,9 +40995,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3040,
-      "median": 2500,
-      "count": 61
+      "avg": 3003,
+      "median": 2400,
+      "count": 62
     },
     "05": {
       "name": "May",
@@ -41131,7 +41162,7 @@
   ],
   "priceDistribution": {
     "0-500": 53,
-    "500-1k": 109,
+    "500-1k": 110,
     "1k-2k": 398,
     "2k-3k": 276,
     "3k-5k": 284,
@@ -41140,7 +41171,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 53,
-    "500-1k": 109,
+    "500-1k": 110,
     "1k-2k": 398,
     "2k-3k": 276,
     "3k-5k": 284,
@@ -41148,6 +41179,11 @@
     "10k+": 10
   },
   "daysOnMarket": {
+    "Yamaha": {
+      "sum": 935,
+      "count": 17,
+      "avg": 55
+    },
     "Novo": {
       "sum": 314,
       "count": 6,
@@ -41467,11 +41503,6 @@
       "sum": 65,
       "count": 2,
       "avg": 33
-    },
-    "Yamaha": {
-      "sum": 935,
-      "count": 16,
-      "avg": 58
     },
     "Mighty Mite": {
       "sum": 75,
@@ -41864,9 +41895,9 @@
       "avg": 59
     },
     "ABASI": {
-      "sum": 59,
+      "sum": 60,
       "count": 1,
-      "avg": 59
+      "avg": 60
     },
     "Gravity": {
       "sum": 60,
@@ -41894,9 +41925,9 @@
       "avg": 66
     },
     "RKS": {
-      "sum": 126,
+      "sum": 127,
       "count": 2,
-      "avg": 63
+      "avg": 64
     },
     "Seagull": {
       "sum": 62,
@@ -42034,9 +42065,9 @@
       "avg": 76
     },
     "Fender Custom Shop": {
-      "sum": 76,
+      "sum": 77,
       "count": 1,
-      "avg": 76
+      "avg": 77
     },
     "Hoyer": {
       "sum": 77,
@@ -42055,7 +42086,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-12": 11,
+    "2026-06-12": 12,
     "2026-06-11": 18,
     "2026-06-10": 8,
     "2026-06-09": 13,
@@ -42084,11 +42115,11 @@
     "2026-05-13": 7
   },
   "categoryDistribution": {
-    "reverb": 1119,
+    "reverb": 1120,
     "marketplace": 98,
     "other": 113
   },
-  "activeModelsCount": 241,
+  "activeModelsCount": 242,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -42096,7 +42127,7 @@
     },
     {
       "username": "greg1213",
-      "count": 240
+      "count": 241
     },
     {
       "username": "Shteefe",
@@ -42290,10 +42321,10 @@
       "count": 15
     },
     "Yamaha": {
-      "avgPrice": 1929,
+      "avgPrice": 1876,
       "retailEst": 300,
-      "avgDiscount": -543,
-      "count": 21
+      "avgDiscount": -525.2,
+      "count": 22
     }
   },
   "soldPrices": {
@@ -46062,15 +46093,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1299,
+      "total": 1300,
       "sold": 417,
       "fake": 0,
-      "live": 378,
+      "live": 379,
       "removed": 504,
       "soldPct": 32,
       "livePct": 29
     },
     "byBrand": {
+      "Yamaha": {
+        "total": 22,
+        "sold": 7,
+        "fake": 0,
+        "live": 5,
+        "removed": 10,
+        "soldPct": 32,
+        "livePct": 23
+      },
       "Novo": {
         "total": 8,
         "sold": 3,
@@ -46664,15 +46704,6 @@
         "removed": 2,
         "soldPct": 50,
         "livePct": 0
-      },
-      "Yamaha": {
-        "total": 21,
-        "sold": 7,
-        "fake": 0,
-        "live": 4,
-        "removed": 10,
-        "soldPct": 33,
-        "livePct": 19
       },
       "Mighty Mite": {
         "total": 1,
@@ -48133,9 +48164,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 109,
+        "total": 110,
         "sold": 42,
-        "rate": 39
+        "rate": 38
       },
       {
         "label": "$1k–2k",
@@ -48169,6 +48200,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 138,
+        "sold": 49,
+        "rate": 36
+      },
       "Excellent": {
         "total": 459,
         "sold": 168,
@@ -48177,11 +48213,6 @@
       "Very Good": {
         "total": 373,
         "sold": 135,
-        "rate": 36
-      },
-      "Good": {
-        "total": 137,
-        "sold": 49,
         "rate": 36
       },
       "Brand New": {
@@ -48313,9 +48344,9 @@
       },
       {
         "brand": "Yamaha",
-        "avgPrice": 1929,
-        "sellRate": 33,
-        "count": 21,
+        "avgPrice": 1876,
+        "sellRate": 32,
+        "count": 22,
         "sold": 7
       }
     ]
@@ -48412,7 +48443,7 @@
       "live": 34,
       "removed": 53,
       "sellRate": 35,
-      "totalDays": 2997.4000000000005,
+      "totalDays": 2997.5000000000005,
       "soldCount": 47,
       "avgDaysToSell": 63.8
     },
@@ -48450,7 +48481,7 @@
       "live": 13,
       "removed": 12,
       "sellRate": 31,
-      "totalDays": 750.1,
+      "totalDays": 750.2,
       "soldCount": 11,
       "avgDaysToSell": 68.2
     },
@@ -48657,9 +48688,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 78.60000000000001,
+      "totalDays": 78.7,
       "soldCount": 2,
-      "avgDaysToSell": 39.3
+      "avgDaysToSell": 39.4
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -50325,9 +50356,9 @@
     },
     {
       "label": "1–5",
-      "total": 47,
+      "total": 48,
       "sold": 14,
-      "rate": 30
+      "rate": 29
     },
     {
       "label": "6–15",
@@ -50350,7 +50381,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 412,
+      "total": 413,
       "sold": 129,
       "rate": 31
     },
@@ -50367,7 +50398,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 263,
+      "total": 264,
       "sold": 94,
       "rate": 36
     }
@@ -50399,9 +50430,9 @@
     },
     {
       "state": "FL",
-      "total": 32,
+      "total": 33,
       "sold": 15,
-      "rate": 47
+      "rate": 45
     },
     {
       "state": "WA",
