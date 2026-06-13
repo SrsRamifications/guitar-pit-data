@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-13T20:03:51.789Z",
-  "totalLinks": 1347,
-  "totalEver": 1685,
-  "totalBeforeFilter": 1685,
+  "generatedAt": "2026-06-13T20:06:34.477Z",
+  "totalLinks": 1348,
+  "totalEver": 1686,
+  "totalBeforeFilter": 1686,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1332,
+  "totalWithPrice": 1333,
   "overall": {
-    "count": 1292,
-    "sum": 3639483.47,
-    "avg": 2817,
+    "count": 1293,
+    "sum": 3648886.47,
+    "avg": 2822,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1292,
-    "sum": 3639483.47,
-    "avg": 2817,
+    "count": 1293,
+    "sum": 3648886.47,
+    "avg": 2822,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 77,
-      "sum": 220827.99,
+      "count": 78,
+      "sum": 230230.99,
       "min": 500,
-      "max": 7899,
-      "avg": 2868
+      "max": 9403,
+      "avg": 2952
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1106,
-      "sum": 3106572.09,
+      "count": 1107,
+      "sum": 3115975.09,
       "min": 33,
       "max": 10933,
-      "avg": 2809
+      "avg": 2815
     },
     "marketplace": {
       "count": 85,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1106,
-      "sum": 3106572.09,
+      "count": 1107,
+      "sum": 3115975.09,
       "min": 33,
       "max": 10933,
-      "avg": 2809
+      "avg": 2815
     },
     "guitarcenter.com": {
       "count": 70,
@@ -639,6 +639,46 @@
     }
   },
   "byModel": {
+    "gibson-330": {
+      "displayName": "Gibson 1968 ES-330TD Sparkling Burgundy",
+      "brand": "Gibson",
+      "model": "330",
+      "variant": null,
+      "count": 2,
+      "sum": 14303,
+      "min": 4900,
+      "max": 9403,
+      "sightings": [
+        {
+          "price": 4900,
+          "date": "2026-05-19T20:28:15.645+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson ES-330TD 1966 - Sunburst",
+          "url": "https://reverb.com/item/97271213-gibson-es-330td-1966-sunburst",
+          "condition": "Very Good"
+        },
+        {
+          "price": 9403,
+          "date": "2026-06-13T20:06:16.387+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson 1968 ES-330TD Sparkling Burgundy",
+          "url": "https://reverb.com/item/98128360",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 2,
+          "sum": 14303,
+          "min": 4900,
+          "max": 9403,
+          "avg": 7152
+        }
+      },
+      "avg": 7152
+    },
     "kiesel-string-vader": {
       "displayName": "Custom Kiesel 6 string Vader  2026",
       "brand": "Kiesel",
@@ -8324,37 +8364,6 @@
         }
       },
       "avg": 5299
-    },
-    "gibson-330": {
-      "displayName": "Gibson ES-330TD 1966 - Sunburst",
-      "brand": "Gibson",
-      "model": "330",
-      "variant": null,
-      "count": 1,
-      "sum": 4900,
-      "min": 4900,
-      "max": 4900,
-      "sightings": [
-        {
-          "price": 4900,
-          "date": "2026-05-19T20:28:15.645+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson ES-330TD 1966 - Sunburst",
-          "url": "https://reverb.com/item/97271213-gibson-es-330td-1966-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 4900,
-          "min": 4900,
-          "max": 4900,
-          "avg": 4900
-        }
-      },
-      "avg": 4900
     },
     "first-act-sheena-s-0609031-custom-shop": {
       "displayName": "2006 First Act Custom Shop Sheena - Blonde #S-0609031",
@@ -39588,6 +39597,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 170,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 60,
+      "outliersExcluded": 1,
+      "avg": 3483,
+      "soldAvg": 3221
+    },
     "Kiesel": {
       "count": 56,
       "min": 650,
@@ -39614,15 +39632,6 @@
       "outliersExcluded": 0,
       "avg": 3372,
       "soldAvg": 3269
-    },
-    "Gibson": {
-      "count": 169,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 60,
-      "outliersExcluded": 1,
-      "avg": 3448,
-      "soldAvg": 3221
     },
     "PRS": {
       "count": 118,
@@ -41417,6 +41426,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 379,
+      "sum": 1498568.56,
+      "sold": {
+        "count": 137,
+        "sum": 307601.17999999993,
+        "avg": 2245,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 3954,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 467,
       "sum": 1998288.8699999992,
@@ -41430,20 +41453,6 @@
       "avg": 4279,
       "min": 269,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 378,
-      "sum": 1489165.56,
-      "sold": {
-        "count": 137,
-        "sum": 307601.17999999993,
-        "avg": 2245,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 3940,
-      "min": 33,
-      "max": 437713.69
     },
     "Mint": {
       "count": 32,
@@ -41552,9 +41561,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2868,
-      "median": 2295,
-      "count": 77
+      "avg": 2952,
+      "median": 2297,
+      "count": 78
     },
     "05": {
       "name": "May",
@@ -41723,7 +41732,7 @@
     "1k-2k": 402,
     "2k-3k": 281,
     "3k-5k": 287,
-    "5k-10k": 146,
+    "5k-10k": 147,
     "10k+": 50
   },
   "priceDistributionFiltered": {
@@ -41732,10 +41741,15 @@
     "1k-2k": 402,
     "2k-3k": 281,
     "3k-5k": 287,
-    "5k-10k": 146,
+    "5k-10k": 147,
     "10k+": 10
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 7606,
+      "count": 145,
+      "avg": 52
+    },
     "Kiesel": {
       "sum": 2091,
       "count": 48,
@@ -41750,11 +41764,6 @@
       "sum": 387,
       "count": 7,
       "avg": 55
-    },
-    "Gibson": {
-      "sum": 7604,
-      "count": 144,
-      "avg": 53
     },
     "PRS": {
       "sum": 5891,
@@ -42187,7 +42196,7 @@
       "avg": 40
     },
     "Morgan": {
-      "sum": 113,
+      "sum": 114,
       "count": 2,
       "avg": 57
     },
@@ -42643,7 +42652,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-13": 11,
+    "2026-06-13": 12,
     "2026-06-12": 17,
     "2026-06-11": 18,
     "2026-06-10": 8,
@@ -42672,7 +42681,7 @@
     "2026-05-14": 1
   },
   "categoryDistribution": {
-    "reverb": 1136,
+    "reverb": 1137,
     "marketplace": 98,
     "other": 113
   },
@@ -42684,7 +42693,7 @@
     },
     {
       "username": "greg1213",
-      "count": 241
+      "count": 242
     },
     {
       "username": "Shteefe",
@@ -42770,10 +42779,10 @@
       "count": 90
     },
     "Gibson": {
-      "avgPrice": 5911,
+      "avgPrice": 5930,
       "retailEst": 800,
-      "avgDiscount": -638.8,
-      "count": 174
+      "avgDiscount": -641.3,
+      "count": 175
     },
     "Epiphone": {
       "avgPrice": 2092,
@@ -46682,15 +46691,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1316,
+      "total": 1317,
       "sold": 422,
       "fake": 0,
-      "live": 384,
+      "live": 385,
       "removed": 510,
       "soldPct": 32,
       "livePct": 29
     },
     "byBrand": {
+      "Gibson": {
+        "total": 177,
+        "sold": 60,
+        "fake": 0,
+        "live": 42,
+        "removed": 75,
+        "soldPct": 34,
+        "livePct": 24
+      },
       "Kiesel": {
         "total": 59,
         "sold": 23,
@@ -46717,15 +46735,6 @@
         "removed": 2,
         "soldPct": 56,
         "livePct": 22
-      },
-      "Gibson": {
-        "total": 176,
-        "sold": 60,
-        "fake": 0,
-        "live": 41,
-        "removed": 75,
-        "soldPct": 34,
-        "livePct": 23
       },
       "PRS": {
         "total": 125,
@@ -48777,7 +48786,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 146,
+        "total": 147,
         "sold": 29,
         "rate": 20
       },
@@ -48789,14 +48798,14 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 379,
+        "sold": 137,
+        "rate": 36
+      },
       "Excellent": {
         "total": 467,
         "sold": 168,
-        "rate": 36
-      },
-      "Very Good": {
-        "total": 378,
-        "sold": 137,
         "rate": 36
       },
       "Mint": {
@@ -48934,6 +48943,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 136,
+      "sum": 840876.0499999999,
+      "avg": 6183,
+      "min": 135,
+      "max": 437713.69,
+      "sold": 47,
+      "soldSum": 130609.96,
+      "soldAvg": 2779,
+      "live": 35,
+      "removed": 54,
+      "sellRate": 35,
+      "totalDays": 3051.7999999999997,
+      "soldCount": 47,
+      "avgDaysToSell": 64.9
+    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -48971,25 +48999,6 @@
       "totalDays": 660.5,
       "soldCount": 11,
       "avgDaysToSell": 60
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 135,
-      "sum": 831473.05,
-      "avg": 6159,
-      "min": 135,
-      "max": 437713.69,
-      "sold": 47,
-      "soldSum": 130609.96,
-      "soldAvg": 2779,
-      "live": 34,
-      "removed": 54,
-      "sellRate": 35,
-      "totalDays": 3051.6,
-      "soldCount": 47,
-      "avgDaysToSell": 64.9
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -49101,7 +49110,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 44,
-      "totalDays": 798.4,
+      "totalDays": 798.5,
       "soldCount": 8,
       "avgDaysToSell": 99.8
     },
@@ -49158,7 +49167,7 @@
       "live": 3,
       "removed": 21,
       "sellRate": 33,
-      "totalDays": 826.4000000000001,
+      "totalDays": 826.5000000000001,
       "soldCount": 12,
       "avgDaysToSell": 68.9
     },
@@ -49929,9 +49938,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 28,
+      "totalDays": 28.1,
       "soldCount": 1,
-      "avgDaysToSell": 28
+      "avgDaysToSell": 28.1
     },
     "Collings|Collings": {
       "brand": "Collings",
@@ -50136,9 +50145,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 69.9,
+      "totalDays": 70,
       "soldCount": 1,
-      "avgDaysToSell": 69.9
+      "avgDaysToSell": 70
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -50193,9 +50202,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 179.5,
+      "totalDays": 179.6,
       "soldCount": 3,
-      "avgDaysToSell": 59.8
+      "avgDaysToSell": 59.9
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -50304,7 +50313,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 141.10000000000002,
+      "totalDays": 141.2,
       "soldCount": 2,
       "avgDaysToSell": 70.6
     },
@@ -50944,7 +50953,7 @@
     },
     {
       "label": "6–15",
-      "total": 120,
+      "total": 121,
       "sold": 34,
       "rate": 28
     },
@@ -50968,14 +50977,14 @@
       "rate": 32
     },
     "off": {
-      "total": 175,
+      "total": 176,
       "sold": 47,
       "rate": 27
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 310,
+      "total": 311,
       "sold": 75,
       "rate": 24
     },
@@ -51241,6 +51250,12 @@
     {
       "state": "Stockholm",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "OSAKA",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
