@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-13T20:18:50.557Z",
-  "totalLinks": 1348,
-  "totalEver": 1686,
-  "totalBeforeFilter": 1686,
+  "generatedAt": "2026-06-13T20:26:12.764Z",
+  "totalLinks": 1349,
+  "totalEver": 1687,
+  "totalBeforeFilter": 1687,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1333,
+  "totalWithPrice": 1334,
   "overall": {
-    "count": 1293,
-    "sum": 3648886.47,
-    "avg": 2822,
+    "count": 1294,
+    "sum": 3650454.47,
+    "avg": 2821,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1293,
-    "sum": 3648886.47,
-    "avg": 2822,
+    "count": 1294,
+    "sum": 3650454.47,
+    "avg": 2821,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 78,
-      "sum": 230230.99,
+      "count": 79,
+      "sum": 231798.99,
       "min": 500,
       "max": 9403,
-      "avg": 2952
+      "avg": 2934
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1107,
-      "sum": 3115975.09,
+      "count": 1108,
+      "sum": 3117543.09,
       "min": 33,
       "max": 10933,
-      "avg": 2815
+      "avg": 2814
     },
     "marketplace": {
       "count": 85,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1107,
-      "sum": 3115975.09,
+      "count": 1108,
+      "sum": 3117543.09,
       "min": 33,
       "max": 10933,
-      "avg": 2815
+      "avg": 2814
     },
     "guitarcenter.com": {
       "count": 70,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "washburn-ec29-spitfire-ii": {
+      "displayName": "Washburn EC29 Spitfire II White Crackle 1988",
+      "brand": "Washburn",
+      "model": "EC29 Spitfire II",
+      "variant": null,
+      "count": 1,
+      "sum": 1568,
+      "min": 1568,
+      "max": 1568,
+      "sightings": [
+        {
+          "price": 1568,
+          "date": "2026-06-13T20:25:54.361+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Washburn EC29 Spitfire II White Crackle 1988",
+          "url": "https://reverb.com/item/85111655",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 1568,
+          "min": 1568,
+          "max": 1568,
+          "avg": 1568
+        }
+      },
+      "avg": 1568
+    },
     "gibson-330": {
       "displayName": "Gibson 1968 ES-330TD Sparkling Burgundy",
       "brand": "Gibson",
@@ -39597,6 +39628,15 @@
     }
   },
   "byBrandPrice": {
+    "Washburn": {
+      "count": 8,
+      "min": 450,
+      "max": 4799,
+      "soldCount": 3,
+      "outliersExcluded": 0,
+      "avg": 2108,
+      "soldAvg": 3200
+    },
     "Gibson": {
       "count": 170,
       "min": 135,
@@ -39947,15 +39987,6 @@
       "outliersExcluded": 0,
       "avg": 3226,
       "soldAvg": 2499
-    },
-    "Washburn": {
-      "count": 7,
-      "min": 450,
-      "max": 4799,
-      "soldCount": 3,
-      "outliersExcluded": 0,
-      "avg": 2185,
-      "soldAvg": 3200
     },
     "Guyatone": {
       "count": 1,
@@ -41426,6 +41457,20 @@
     }
   },
   "byCondition": {
+    "Fair": {
+      "count": 20,
+      "sum": 36167.01,
+      "sold": {
+        "count": 8,
+        "sum": 20965.989999999998,
+        "avg": 2621,
+        "min": 69,
+        "max": 4799
+      },
+      "avg": 1808,
+      "min": 69,
+      "max": 4799
+    },
     "Very Good": {
       "count": 379,
       "sum": 1498568.56,
@@ -41496,20 +41541,6 @@
       "min": 135,
       "max": 14670
     },
-    "Fair": {
-      "count": 19,
-      "sum": 34599.01,
-      "sold": {
-        "count": 8,
-        "sum": 20965.989999999998,
-        "avg": 2621,
-        "min": 69,
-        "max": 4799
-      },
-      "avg": 1821,
-      "min": 69,
-      "max": 4799
-    },
     "Used": {
       "count": 50,
       "sum": 223090.71000000008,
@@ -41561,9 +41592,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2952,
-      "median": 2297,
-      "count": 78
+      "avg": 2934,
+      "median": 2295,
+      "count": 79
     },
     "05": {
       "name": "May",
@@ -41729,7 +41760,7 @@
   "priceDistribution": {
     "0-500": 53,
     "500-1k": 113,
-    "1k-2k": 402,
+    "1k-2k": 403,
     "2k-3k": 281,
     "3k-5k": 287,
     "5k-10k": 147,
@@ -41738,7 +41769,7 @@
   "priceDistributionFiltered": {
     "0-500": 53,
     "500-1k": 113,
-    "1k-2k": 402,
+    "1k-2k": 403,
     "2k-3k": 281,
     "3k-5k": 287,
     "5k-10k": 147,
@@ -41766,7 +41797,7 @@
       "avg": 55
     },
     "PRS": {
-      "sum": 5892,
+      "sum": 5893,
       "count": 115,
       "avg": 51
     },
@@ -41796,7 +41827,7 @@
       "avg": 51
     },
     "Yamaha": {
-      "sum": 953,
+      "sum": 954,
       "count": 17,
       "avg": 56
     },
@@ -42011,7 +42042,7 @@
       "avg": 21
     },
     "Schecter": {
-      "sum": 666,
+      "sum": 667,
       "count": 13,
       "avg": 51
     },
@@ -42652,7 +42683,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-13": 12,
+    "2026-06-13": 13,
     "2026-06-12": 17,
     "2026-06-11": 18,
     "2026-06-10": 8,
@@ -42681,11 +42712,11 @@
     "2026-05-14": 1
   },
   "categoryDistribution": {
-    "reverb": 1137,
+    "reverb": 1138,
     "marketplace": 98,
     "other": 113
   },
-  "activeModelsCount": 244,
+  "activeModelsCount": 245,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -46307,11 +46338,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 3024.6097697754817,
-      "count": 188,
+      "totalPctDrop": 3037.979935521338,
+      "count": 189,
       "avgPctDrop": 16.1
     },
     "byBrand": {
+      "Washburn": {
+        "totalPctDrop": 43.370165745856355,
+        "count": 4,
+        "avgPctDrop": 10.8
+      },
       "Kiesel": {
         "totalPctDrop": 242.63069575793048,
         "count": 14,
@@ -46361,11 +46397,6 @@
         "totalPctDrop": 16.000528680941052,
         "count": 2,
         "avgPctDrop": 8
-      },
-      "Washburn": {
-        "totalPctDrop": 30,
-        "count": 3,
-        "avgPctDrop": 10
       },
       "Epiphone": {
         "totalPctDrop": 48.632139446335685,
@@ -46691,15 +46722,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1317,
+      "total": 1318,
       "sold": 422,
       "fake": 0,
-      "live": 385,
+      "live": 386,
       "removed": 510,
       "soldPct": 32,
       "livePct": 29
     },
     "byBrand": {
+      "Washburn": {
+        "total": 8,
+        "sold": 3,
+        "fake": 0,
+        "live": 3,
+        "removed": 2,
+        "soldPct": 38,
+        "livePct": 38
+      },
       "Gibson": {
         "total": 177,
         "sold": 60,
@@ -47059,15 +47099,6 @@
         "removed": 6,
         "soldPct": 10,
         "livePct": 30
-      },
-      "Washburn": {
-        "total": 7,
-        "sold": 3,
-        "fake": 0,
-        "live": 2,
-        "removed": 2,
-        "soldPct": 43,
-        "livePct": 29
       },
       "Guyatone": {
         "total": 1,
@@ -48768,9 +48799,9 @@
       },
       {
         "label": "$1k–2k",
-        "total": 402,
+        "total": 403,
         "sold": 139,
-        "rate": 35
+        "rate": 34
       },
       {
         "label": "$2k–3k",
@@ -48798,6 +48829,11 @@
       }
     ],
     "byCondition": {
+      "Fair": {
+        "total": 20,
+        "sold": 8,
+        "rate": 40
+      },
       "Very Good": {
         "total": 379,
         "sold": 137,
@@ -48822,11 +48858,6 @@
         "total": 104,
         "sold": 16,
         "rate": 15
-      },
-      "Fair": {
-        "total": 19,
-        "sold": 8,
-        "rate": 42
       },
       "Used": {
         "total": 51,
@@ -48885,13 +48916,6 @@
         "sold": 8
       },
       {
-        "brand": "Washburn",
-        "avgPrice": 2185,
-        "sellRate": 43,
-        "count": 7,
-        "sold": 3
-      },
-      {
         "brand": "G&L",
         "avgPrice": 1606,
         "sellRate": 43,
@@ -48911,6 +48935,13 @@
         "sellRate": 39,
         "count": 59,
         "sold": 23
+      },
+      {
+        "brand": "Washburn",
+        "avgPrice": 2108,
+        "sellRate": 38,
+        "count": 8,
+        "sold": 3
       },
       {
         "brand": "Hamer",
@@ -48943,6 +48974,25 @@
     ]
   },
   "byBrandLine": {
+    "Washburn|Washburn Import": {
+      "brand": "Washburn",
+      "brandLine": "Washburn Import",
+      "tier": "budget-mid",
+      "count": 4,
+      "sum": 8617,
+      "avg": 2154,
+      "min": 450,
+      "max": 4799,
+      "sold": 2,
+      "soldSum": 6599,
+      "soldAvg": 3300,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 50,
+      "totalDays": 141.3,
+      "soldCount": 2,
+      "avgDaysToSell": 70.7
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -48958,7 +49008,7 @@
       "live": 35,
       "removed": 54,
       "sellRate": 35,
-      "totalDays": 3052.1,
+      "totalDays": 3052.4999999999995,
       "soldCount": 47,
       "avgDaysToSell": 64.9
     },
@@ -49015,7 +49065,7 @@
       "live": 16,
       "removed": 45,
       "sellRate": 37,
-      "totalDays": 2092.0999999999995,
+      "totalDays": 2092.2999999999993,
       "soldCount": 36,
       "avgDaysToSell": 58.1
     },
@@ -49110,7 +49160,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 44,
-      "totalDays": 798.5,
+      "totalDays": 798.6,
       "soldCount": 8,
       "avgDaysToSell": 99.8
     },
@@ -49148,7 +49198,7 @@
       "live": 12,
       "removed": 13,
       "sellRate": 32,
-      "totalDays": 764.7,
+      "totalDays": 764.9,
       "soldCount": 12,
       "avgDaysToSell": 63.7
     },
@@ -49355,7 +49405,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 63,
-      "totalDays": 210.8,
+      "totalDays": 210.89999999999998,
       "soldCount": 5,
       "avgDaysToSell": 42.2
     },
@@ -49504,7 +49554,7 @@
       "live": 8,
       "removed": 26,
       "sellRate": 39,
-      "totalDays": 1741.3999999999999,
+      "totalDays": 1741.6,
       "soldCount": 22,
       "avgDaysToSell": 79.2
     },
@@ -49541,9 +49591,9 @@
       "live": 5,
       "removed": 4,
       "sellRate": 59,
-      "totalDays": 787.1,
+      "totalDays": 787.1999999999999,
       "soldCount": 13,
-      "avgDaysToSell": 60.5
+      "avgDaysToSell": 60.6
     },
     "Friedman|Friedman": {
       "brand": "Friedman",
@@ -49598,7 +49648,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 43,
-      "totalDays": 135.89999999999998,
+      "totalDays": 136,
       "soldCount": 3,
       "avgDaysToSell": 45.3
     },
@@ -49749,7 +49799,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 450.1,
+      "totalDays": 450.20000000000005,
       "soldCount": 7,
       "avgDaysToSell": 64.3
     },
@@ -49863,7 +49913,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 22,
-      "totalDays": 122.7,
+      "totalDays": 122.80000000000001,
       "soldCount": 2,
       "avgDaysToSell": 61.4
     },
@@ -50297,25 +50347,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Washburn|Washburn Import": {
-      "brand": "Washburn",
-      "brandLine": "Washburn Import",
-      "tier": "budget-mid",
-      "count": 3,
-      "sum": 7049,
-      "avg": 2350,
-      "min": 450,
-      "max": 4799,
-      "sold": 2,
-      "soldSum": 6599,
-      "soldAvg": 3300,
-      "live": 1,
-      "removed": 0,
-      "sellRate": 67,
-      "totalDays": 141.2,
-      "soldCount": 2,
-      "avgDaysToSell": 70.6
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -50965,7 +50996,7 @@
     },
     {
       "label": "31+",
-      "total": 229,
+      "total": 230,
       "sold": 68,
       "rate": 30
     }
@@ -50977,7 +51008,7 @@
       "rate": 32
     },
     "off": {
-      "total": 176,
+      "total": 177,
       "sold": 47,
       "rate": 27
     }
@@ -50989,7 +51020,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 273,
+      "total": 274,
       "sold": 96,
       "rate": 35
     }
