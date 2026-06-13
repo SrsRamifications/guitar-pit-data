@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-13T00:41:13.808Z",
-  "totalLinks": 1336,
-  "totalEver": 1673,
-  "totalBeforeFilter": 1673,
+  "generatedAt": "2026-06-13T00:55:57.440Z",
+  "totalLinks": 1337,
+  "totalEver": 1674,
+  "totalBeforeFilter": 1674,
   "fakeCount": 18,
   "removedCount": 542,
-  "totalWithPrice": 1321,
+  "totalWithPrice": 1322,
   "overall": {
-    "count": 1282,
-    "sum": 3612184.47,
-    "avg": 2818,
+    "count": 1283,
+    "sum": 3613023.47,
+    "avg": 2816,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1282,
-    "sum": 3612184.47,
-    "avg": 2818,
+    "count": 1283,
+    "sum": 3613023.47,
+    "avg": 2816,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -332,11 +332,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 67,
-      "sum": 193882.99,
+      "count": 68,
+      "sum": 194721.99,
       "min": 500,
       "max": 7899,
-      "avg": 2894
+      "avg": 2864
     },
     "2026-05": {
       "count": 360,
@@ -362,11 +362,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1096,
-      "sum": 3079273.09,
+      "count": 1097,
+      "sum": 3080112.09,
       "min": 33,
       "max": 10933,
-      "avg": 2810
+      "avg": 2808
     },
     "marketplace": {
       "count": 85,
@@ -385,11 +385,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1096,
-      "sum": 3079273.09,
+      "count": 1097,
+      "sum": 3080112.09,
       "min": 33,
       "max": 10933,
-      "avg": 2810
+      "avg": 2808
     },
     "guitarcenter.com": {
       "count": 70,
@@ -631,6 +631,37 @@
     }
   },
   "byModel": {
+    "epiphone-les-paul-custom-classic": {
+      "displayName": "2014 Epiphone Les Paul Custom Classic - Ebony Black",
+      "brand": "Epiphone",
+      "model": "Les Paul Custom",
+      "variant": "Classic",
+      "count": 1,
+      "sum": 839,
+      "min": 839,
+      "max": 839,
+      "sightings": [
+        {
+          "price": 839,
+          "date": "2026-06-13T00:55:40.607+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2014 Epiphone Les Paul Custom Classic - Ebony Black",
+          "url": "https://reverb.com/item/98162218",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 839,
+          "min": 839,
+          "max": 839,
+          "avg": 839
+        }
+      },
+      "avg": 839
+    },
     "kiesel-om6-multiscale-usa": {
       "displayName": "Kiesel Osiris Multiscale OM6 6-String Electric Guitar Crackle Finish USA American Fanned Frets 2020",
       "brand": "Kiesel",
@@ -39261,6 +39292,15 @@
     }
   },
   "byBrandPrice": {
+    "Epiphone": {
+      "count": 18,
+      "min": 165,
+      "max": 4995,
+      "soldCount": 4,
+      "outliersExcluded": 0,
+      "avg": 2092,
+      "soldAvg": 2586
+    },
     "Kiesel": {
       "count": 53,
       "min": 650,
@@ -39593,15 +39633,6 @@
       "outliersExcluded": 0,
       "avg": 2185,
       "soldAvg": 3200
-    },
-    "Epiphone": {
-      "count": 17,
-      "min": 165,
-      "max": 4995,
-      "soldCount": 4,
-      "outliersExcluded": 0,
-      "avg": 2166,
-      "soldAvg": 2586
     },
     "Guyatone": {
       "count": 1,
@@ -41090,6 +41121,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 374,
+      "sum": 1474189.56,
+      "sold": {
+        "count": 137,
+        "sum": 307601.17999999993,
+        "avg": 2245,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 3942,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 461,
       "sum": 1931783.8699999994,
@@ -41131,20 +41176,6 @@
       "avg": 2988,
       "min": 70,
       "max": 55000
-    },
-    "Very Good": {
-      "count": 373,
-      "sum": 1473350.56,
-      "sold": {
-        "count": 137,
-        "sum": 307601.17999999993,
-        "avg": 2245,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 3950,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 104,
@@ -41225,9 +41256,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2894,
-      "median": 2250,
-      "count": 67
+      "avg": 2864,
+      "median": 2225,
+      "count": 68
     },
     "05": {
       "name": "May",
@@ -41392,7 +41423,7 @@
   ],
   "priceDistribution": {
     "0-500": 53,
-    "500-1k": 112,
+    "500-1k": 113,
     "1k-2k": 400,
     "2k-3k": 277,
     "3k-5k": 285,
@@ -41401,7 +41432,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 53,
-    "500-1k": 112,
+    "500-1k": 113,
     "1k-2k": 400,
     "2k-3k": 277,
     "3k-5k": 285,
@@ -41409,6 +41440,11 @@
     "10k+": 10
   },
   "daysOnMarket": {
+    "Epiphone": {
+      "sum": 563,
+      "count": 12,
+      "avg": 47
+    },
     "Kiesel": {
       "sum": 2065,
       "count": 46,
@@ -41425,7 +41461,7 @@
       "avg": 45
     },
     "BC Rich": {
-      "sum": 4376,
+      "sum": 4378,
       "count": 87,
       "avg": 50
     },
@@ -41475,7 +41511,7 @@
       "avg": 54
     },
     "Dean": {
-      "sum": 328,
+      "sum": 329,
       "count": 7,
       "avg": 47
     },
@@ -41485,7 +41521,7 @@
       "avg": 48
     },
     "Ibanez": {
-      "sum": 3112,
+      "sum": 3113,
       "count": 60,
       "avg": 52
     },
@@ -41495,9 +41531,9 @@
       "avg": 3
     },
     "Canopée": {
-      "sum": 2,
+      "sum": 3,
       "count": 1,
-      "avg": 2
+      "avg": 3
     },
     "Grez": {
       "sum": 82,
@@ -41593,11 +41629,6 @@
       "sum": 372,
       "count": 7,
       "avg": 53
-    },
-    "Epiphone": {
-      "sum": 563,
-      "count": 11,
-      "avg": 51
     },
     "Kramer": {
       "sum": 262,
@@ -42316,6 +42347,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-06-13": 1,
     "2026-06-12": 17,
     "2026-06-11": 18,
     "2026-06-10": 8,
@@ -42341,10 +42373,10 @@
     "2026-05-17": 16,
     "2026-05-16": 17,
     "2026-05-15": 15,
-    "2026-05-14": 9
+    "2026-05-14": 8
   },
   "categoryDistribution": {
-    "reverb": 1125,
+    "reverb": 1126,
     "marketplace": 98,
     "other": 113
   },
@@ -42372,7 +42404,7 @@
     },
     {
       "username": "Modean",
-      "count": 73
+      "count": 74
     },
     {
       "username": "wontongg",
@@ -42448,10 +42480,10 @@
       "count": 173
     },
     "Epiphone": {
-      "avgPrice": 2166,
+      "avgPrice": 2092,
       "retailEst": 560,
-      "avgDiscount": -286.7,
-      "count": 17
+      "avgDiscount": -273.6,
+      "count": 18
     },
     "ESP": {
       "avgPrice": 3244117,
@@ -46354,15 +46386,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1305,
+      "total": 1306,
       "sold": 422,
       "fake": 0,
-      "live": 377,
+      "live": 378,
       "removed": 506,
       "soldPct": 32,
       "livePct": 29
     },
     "byBrand": {
+      "Epiphone": {
+        "total": 18,
+        "sold": 4,
+        "fake": 0,
+        "live": 8,
+        "removed": 6,
+        "soldPct": 22,
+        "livePct": 44
+      },
       "Kiesel": {
         "total": 56,
         "sold": 23,
@@ -46704,15 +46745,6 @@
         "removed": 2,
         "soldPct": 43,
         "livePct": 29
-      },
-      "Epiphone": {
-        "total": 17,
-        "sold": 4,
-        "fake": 0,
-        "live": 7,
-        "removed": 6,
-        "soldPct": 24,
-        "livePct": 41
       },
       "Guyatone": {
         "total": 1,
@@ -48388,6 +48420,13 @@
         "soldPct": 20
       },
       {
+        "brand": "Epiphone",
+        "total": 18,
+        "sold": 4,
+        "live": 8,
+        "soldPct": 22
+      },
+      {
         "brand": "Knaggs",
         "total": 9,
         "sold": 2,
@@ -48400,13 +48439,6 @@
         "sold": 8,
         "live": 15,
         "soldPct": 23
-      },
-      {
-        "brand": "Epiphone",
-        "total": 17,
-        "sold": 4,
-        "live": 7,
-        "soldPct": 24
       },
       {
         "brand": "Echopark",
@@ -48425,7 +48457,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 112,
+        "total": 113,
         "sold": 44,
         "rate": 39
       },
@@ -48461,6 +48493,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 374,
+        "sold": 137,
+        "rate": 37
+      },
       "Excellent": {
         "total": 461,
         "sold": 168,
@@ -48475,11 +48512,6 @@
         "total": 140,
         "sold": 51,
         "rate": 36
-      },
-      "Very Good": {
-        "total": 373,
-        "sold": 137,
-        "rate": 37
       },
       "Brand New": {
         "total": 104,
@@ -48613,6 +48645,25 @@
     ]
   },
   "byBrandLine": {
+    "Epiphone|Epiphone": {
+      "brand": "Epiphone",
+      "brandLine": "Epiphone",
+      "tier": "budget",
+      "count": 18,
+      "sum": 37656.11,
+      "avg": 2092,
+      "min": 165,
+      "max": 4995,
+      "sold": 4,
+      "soldSum": 10345,
+      "soldAvg": 2586,
+      "live": 8,
+      "removed": 6,
+      "sellRate": 22,
+      "totalDays": 281.2,
+      "soldCount": 4,
+      "avgDaysToSell": 70.3
+    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -48628,7 +48679,7 @@
       "live": 18,
       "removed": 13,
       "sellRate": 42,
-      "totalDays": 1700.5,
+      "totalDays": 1700.7,
       "soldCount": 22,
       "avgDaysToSell": 77.3
     },
@@ -48647,7 +48698,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 44,
-      "totalDays": 791.9999999999999,
+      "totalDays": 792.0999999999999,
       "soldCount": 8,
       "avgDaysToSell": 99
     },
@@ -48666,7 +48717,7 @@
       "live": 15,
       "removed": 45,
       "sellRate": 38,
-      "totalDays": 2062.6,
+      "totalDays": 2063.1,
       "soldCount": 36,
       "avgDaysToSell": 57.3
     },
@@ -48704,7 +48755,7 @@
       "live": 13,
       "removed": 12,
       "sellRate": 32,
-      "totalDays": 754.9,
+      "totalDays": 755.1,
       "soldCount": 12,
       "avgDaysToSell": 62.9
     },
@@ -48723,9 +48774,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 247.3,
+      "totalDays": 247.39999999999998,
       "soldCount": 3,
-      "avgDaysToSell": 82.4
+      "avgDaysToSell": 82.5
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -48742,7 +48793,7 @@
       "live": 3,
       "removed": 21,
       "sellRate": 33,
-      "totalDays": 816.8,
+      "totalDays": 816.9,
       "soldCount": 12,
       "avgDaysToSell": 68.1
     },
@@ -48761,7 +48812,7 @@
       "live": 34,
       "removed": 53,
       "sellRate": 35,
-      "totalDays": 3013.399999999999,
+      "totalDays": 3014.199999999999,
       "soldCount": 47,
       "avgDaysToSell": 64.1
     },
@@ -48780,7 +48831,7 @@
       "live": 4,
       "removed": 10,
       "sellRate": 26,
-      "totalDays": 318.79999999999995,
+      "totalDays": 318.9,
       "soldCount": 5,
       "avgDaysToSell": 63.8
     },
@@ -48968,7 +49019,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 79.3,
+      "totalDays": 79.39999999999999,
       "soldCount": 2,
       "avgDaysToSell": 39.7
     },
@@ -48987,7 +49038,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 63,
-      "totalDays": 206.6,
+      "totalDays": 206.7,
       "soldCount": 5,
       "avgDaysToSell": 41.3
     },
@@ -49065,25 +49116,6 @@
       "totalDays": 45.9,
       "soldCount": 1,
       "avgDaysToSell": 45.9
-    },
-    "Epiphone|Epiphone": {
-      "brand": "Epiphone",
-      "brandLine": "Epiphone",
-      "tier": "budget",
-      "count": 17,
-      "sum": 36817.11,
-      "avg": 2166,
-      "min": 165,
-      "max": 4995,
-      "sold": 4,
-      "soldSum": 10345,
-      "soldAvg": 2586,
-      "live": 7,
-      "removed": 6,
-      "sellRate": 24,
-      "totalDays": 281.2,
-      "soldCount": 4,
-      "avgDaysToSell": 70.3
     },
     "Kramer|Kramer USA Vintage": {
       "brand": "Kramer",
@@ -49174,9 +49206,9 @@
       "live": 8,
       "removed": 26,
       "sellRate": 39,
-      "totalDays": 1723.5,
+      "totalDays": 1723.8,
       "soldCount": 22,
-      "avgDaysToSell": 78.3
+      "avgDaysToSell": 78.4
     },
     "Ibanez|Ibanez Sugi": {
       "brand": "Ibanez",
@@ -49211,7 +49243,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 59,
-      "totalDays": 776.4999999999999,
+      "totalDays": 776.6999999999999,
       "soldCount": 13,
       "avgDaysToSell": 59.7
     },
@@ -49249,7 +49281,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 172.5,
+      "totalDays": 172.6,
       "soldCount": 3,
       "avgDaysToSell": 57.5
     },
@@ -49287,7 +49319,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 75,
-      "totalDays": 117.5,
+      "totalDays": 117.6,
       "soldCount": 3,
       "avgDaysToSell": 39.2
     },
@@ -49419,7 +49451,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 445.20000000000005,
+      "totalDays": 445.30000000000007,
       "soldCount": 7,
       "avgDaysToSell": 63.6
     },
@@ -49608,9 +49640,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 27.2,
+      "totalDays": 27.3,
       "soldCount": 1,
-      "avgDaysToSell": 27.2
+      "avgDaysToSell": 27.3
     },
     "Collings|Collings": {
       "brand": "Collings",
@@ -49702,9 +49734,9 @@
       "live": 1,
       "removed": 2,
       "sellRate": 25,
-      "totalDays": 38.9,
+      "totalDays": 39,
       "soldCount": 1,
-      "avgDaysToSell": 38.9
+      "avgDaysToSell": 39
     },
     "Solar Guitars|Solar Guitars": {
       "brand": "Solar Guitars",
@@ -49815,9 +49847,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 69.1,
+      "totalDays": 69.2,
       "soldCount": 1,
-      "avgDaysToSell": 69.1
+      "avgDaysToSell": 69.2
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -49872,9 +49904,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 177.1,
+      "totalDays": 177.2,
       "soldCount": 3,
-      "avgDaysToSell": 59
+      "avgDaysToSell": 59.1
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -49983,7 +50015,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 139.5,
+      "totalDays": 139.60000000000002,
       "soldCount": 2,
       "avgDaysToSell": 69.8
     },
@@ -50315,9 +50347,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 60,
+      "totalDays": 60.1,
       "soldCount": 1,
-      "avgDaysToSell": 60
+      "avgDaysToSell": 60.1
     },
     "Powers Electric|Rickenbacker": {
       "brand": "Powers Electric",
@@ -50617,9 +50649,9 @@
     },
     {
       "label": "1–5",
-      "total": 45,
+      "total": 46,
       "sold": 14,
-      "rate": 31
+      "rate": 30
     },
     {
       "label": "6–15",
@@ -50642,7 +50674,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 415,
+      "total": 416,
       "sold": 133,
       "rate": 32
     },
@@ -50654,7 +50686,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 305,
+      "total": 306,
       "sold": 75,
       "rate": 25
     },
@@ -50709,9 +50741,9 @@
     },
     {
       "state": "PA",
-      "total": 18,
+      "total": 19,
       "sold": 5,
-      "rate": 28
+      "rate": 26
     },
     {
       "state": "MD",
