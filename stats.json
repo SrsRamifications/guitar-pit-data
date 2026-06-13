@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-13T05:08:32.858Z",
-  "totalLinks": 1341,
-  "totalEver": 1678,
-  "totalBeforeFilter": 1678,
+  "generatedAt": "2026-06-13T05:12:16.127Z",
+  "totalLinks": 1342,
+  "totalEver": 1679,
+  "totalBeforeFilter": 1679,
   "fakeCount": 18,
   "removedCount": 542,
-  "totalWithPrice": 1326,
+  "totalWithPrice": 1327,
   "overall": {
-    "count": 1286,
-    "sum": 3625262.47,
-    "avg": 2819,
+    "count": 1287,
+    "sum": 3627061.47,
+    "avg": 2818,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1286,
-    "sum": 3625262.47,
-    "avg": 2819,
+    "count": 1287,
+    "sum": 3627061.47,
+    "avg": 2818,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 71,
-      "sum": 206956.99,
+      "count": 72,
+      "sum": 208755.99,
       "min": 500,
       "max": 7899,
-      "avg": 2915
+      "avg": 2899
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1100,
-      "sum": 3092351.09,
+      "count": 1101,
+      "sum": 3094150.09,
       "min": 33,
       "max": 10933,
-      "avg": 2811
+      "avg": 2810
     },
     "marketplace": {
       "count": 85,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1100,
-      "sum": 3092351.09,
+      "count": 1101,
+      "sum": 3094150.09,
       "min": 33,
       "max": 10933,
-      "avg": 2811
+      "avg": 2810
     },
     "guitarcenter.com": {
       "count": 70,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "gibson-explorer-70s": {
+      "displayName": "Gibson '70s Explorer, 2025, OHSC, Lightweight, Exceptional condition",
+      "brand": "Gibson",
+      "model": "Explorer",
+      "variant": "70s",
+      "count": 1,
+      "sum": 1799,
+      "min": 1799,
+      "max": 1799,
+      "sightings": [
+        {
+          "price": 1799,
+          "date": "2026-06-13T05:11:58.067+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson '70s Explorer, 2025, OHSC, Lightweight, Exceptional condition",
+          "url": "https://reverb.com/item/97715911",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1799,
+          "min": 1799,
+          "max": 1799,
+          "avg": 1799
+        }
+      },
+      "avg": 1799
+    },
     "prs-custom-24-burl-10-top": {
       "displayName": "1989 PRS Custom 24 Brazilian Burl 10 Top Gold. CU24 Paul Reed Smith 10T",
       "brand": "PRS",
@@ -39402,6 +39433,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 169,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 60,
+      "outliersExcluded": 1,
+      "avg": 3448,
+      "soldAvg": 3221
+    },
     "PRS": {
       "count": 118,
       "min": 649,
@@ -39491,15 +39531,6 @@
       "outliersExcluded": 0,
       "avg": 1876,
       "soldAvg": 2585
-    },
-    "Gibson": {
-      "count": 168,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 60,
-      "outliersExcluded": 1,
-      "avg": 3458,
-      "soldAvg": 3221
     },
     "Mule": {
       "count": 3,
@@ -41231,6 +41262,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 464,
+      "sum": 1991590.8699999994,
+      "sold": {
+        "count": 165,
+        "sum": 486987.89999999997,
+        "avg": 2951,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4292,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 376,
       "sum": 1483441.56,
@@ -41244,20 +41289,6 @@
       "avg": 3945,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 463,
-      "sum": 1989791.8699999992,
-      "sold": {
-        "count": 165,
-        "sum": 486987.89999999997,
-        "avg": 2951,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4298,
-      "min": 269,
-      "max": 190000
     },
     "Mint": {
       "count": 32,
@@ -41366,9 +41397,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2915,
-      "median": 2300,
-      "count": 71
+      "avg": 2899,
+      "median": 2275,
+      "count": 72
     },
     "05": {
       "name": "May",
@@ -41534,7 +41565,7 @@
   "priceDistribution": {
     "0-500": 53,
     "500-1k": 113,
-    "1k-2k": 400,
+    "1k-2k": 401,
     "2k-3k": 278,
     "3k-5k": 286,
     "5k-10k": 146,
@@ -41543,13 +41574,18 @@
   "priceDistributionFiltered": {
     "0-500": 53,
     "500-1k": 113,
-    "1k-2k": 400,
+    "1k-2k": 401,
     "2k-3k": 278,
     "3k-5k": 286,
     "5k-10k": 146,
     "10k+": 10
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 7493,
+      "count": 144,
+      "avg": 52
+    },
     "PRS": {
       "sum": 5813,
       "count": 115,
@@ -41589,11 +41625,6 @@
       "sum": 939,
       "count": 17,
       "avg": 55
-    },
-    "Gibson": {
-      "sum": 7480,
-      "count": 143,
-      "avg": 52
     },
     "Mule": {
       "sum": 17,
@@ -41636,7 +41667,7 @@
       "avg": 49
     },
     "Ibanez": {
-      "sum": 3125,
+      "sum": 3126,
       "count": 60,
       "avg": 52
     },
@@ -41701,7 +41732,7 @@
       "avg": 7
     },
     "Fender": {
-      "sum": 3981,
+      "sum": 3982,
       "count": 77,
       "avg": 52
     },
@@ -42457,7 +42488,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-13": 5,
+    "2026-06-13": 6,
     "2026-06-12": 17,
     "2026-06-11": 18,
     "2026-06-10": 8,
@@ -42486,11 +42517,11 @@
     "2026-05-14": 4
   },
   "categoryDistribution": {
-    "reverb": 1130,
+    "reverb": 1131,
     "marketplace": 98,
     "other": 113
   },
-  "activeModelsCount": 240,
+  "activeModelsCount": 241,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -42518,7 +42549,7 @@
     },
     {
       "username": "wontongg",
-      "count": 70
+      "count": 71
     },
     {
       "username": "scottcorgan",
@@ -42584,10 +42615,10 @@
       "count": 90
     },
     "Gibson": {
-      "avgPrice": 5934,
+      "avgPrice": 5911,
       "retailEst": 800,
-      "avgDiscount": -641.8,
-      "count": 173
+      "avgDiscount": -638.8,
+      "count": 174
     },
     "Epiphone": {
       "avgPrice": 2092,
@@ -46496,15 +46527,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1310,
+      "total": 1311,
       "sold": 422,
       "fake": 0,
-      "live": 382,
+      "live": 383,
       "removed": 506,
       "soldPct": 32,
       "livePct": 29
     },
     "byBrand": {
+      "Gibson": {
+        "total": 176,
+        "sold": 60,
+        "fake": 0,
+        "live": 42,
+        "removed": 74,
+        "soldPct": 34,
+        "livePct": 24
+      },
       "PRS": {
         "total": 125,
         "sold": 40,
@@ -46593,15 +46633,6 @@
         "live": 5,
         "removed": 10,
         "soldPct": 32,
-        "livePct": 23
-      },
-      "Gibson": {
-        "total": 175,
-        "sold": 60,
-        "fake": 0,
-        "live": 41,
-        "removed": 74,
-        "soldPct": 34,
         "livePct": 23
       },
       "Mule": {
@@ -48573,7 +48604,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 400,
+        "total": 401,
         "sold": 139,
         "rate": 35
       },
@@ -48603,14 +48634,14 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 464,
+        "sold": 168,
+        "rate": 36
+      },
       "Very Good": {
         "total": 376,
         "sold": 137,
-        "rate": 36
-      },
-      "Excellent": {
-        "total": 463,
-        "sold": 168,
         "rate": 36
       },
       "Mint": {
@@ -48748,6 +48779,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 135,
+      "sum": 831473.05,
+      "avg": 6159,
+      "min": 135,
+      "max": 437713.69,
+      "sold": 47,
+      "soldSum": 130609.96,
+      "soldAvg": 2779,
+      "live": 35,
+      "removed": 53,
+      "sellRate": 35,
+      "totalDays": 3022.4000000000005,
+      "soldCount": 47,
+      "avgDaysToSell": 64.3
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -48763,7 +48813,7 @@
       "live": 16,
       "removed": 45,
       "sellRate": 37,
-      "totalDays": 2069.0000000000005,
+      "totalDays": 2069.1000000000004,
       "soldCount": 36,
       "avgDaysToSell": 57.5
     },
@@ -48858,7 +48908,7 @@
       "live": 18,
       "removed": 13,
       "sellRate": 42,
-      "totalDays": 1704.5000000000002,
+      "totalDays": 1704.6000000000001,
       "soldCount": 22,
       "avgDaysToSell": 77.5
     },
@@ -48896,9 +48946,9 @@
       "live": 6,
       "removed": 4,
       "sellRate": 33,
-      "totalDays": 227.2,
+      "totalDays": 227.3,
       "soldCount": 5,
-      "avgDaysToSell": 45.4
+      "avgDaysToSell": 45.5
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -48937,25 +48987,6 @@
       "totalDays": 819,
       "soldCount": 12,
       "avgDaysToSell": 68.3
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 134,
-      "sum": 829674.0499999999,
-      "avg": 6192,
-      "min": 135,
-      "max": 437713.69,
-      "sold": 47,
-      "soldSum": 130609.96,
-      "soldAvg": 2779,
-      "live": 34,
-      "removed": 53,
-      "sellRate": 35,
-      "totalDays": 3022.2000000000007,
-      "soldCount": 47,
-      "avgDaysToSell": 64.3
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -49309,7 +49340,7 @@
       "live": 8,
       "removed": 26,
       "sellRate": 39,
-      "totalDays": 1727.7,
+      "totalDays": 1727.8000000000002,
       "soldCount": 22,
       "avgDaysToSell": 78.5
     },
@@ -49346,7 +49377,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 59,
-      "totalDays": 778.8,
+      "totalDays": 778.9,
       "soldCount": 13,
       "avgDaysToSell": 59.9
     },
@@ -49535,9 +49566,9 @@
       "live": 1,
       "removed": 4,
       "sellRate": 38,
-      "totalDays": 179.4,
+      "totalDays": 179.6,
       "soldCount": 3,
-      "avgDaysToSell": 59.8
+      "avgDaysToSell": 59.9
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -49611,7 +49642,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 32,
-      "totalDays": 412.30000000000007,
+      "totalDays": 412.4000000000001,
       "soldCount": 7,
       "avgDaysToSell": 58.9
     },
@@ -49762,7 +49793,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 248.6,
+      "totalDays": 248.70000000000002,
       "soldCount": 4,
       "avgDaysToSell": 62.2
     },
@@ -49988,9 +50019,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 87.6,
+      "totalDays": 87.7,
       "soldCount": 1,
-      "avgDaysToSell": 87.6
+      "avgDaysToSell": 87.7
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -50579,9 +50610,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 62.6,
+      "totalDays": 62.7,
       "soldCount": 1,
-      "avgDaysToSell": 62.6
+      "avgDaysToSell": 62.7
     },
     "Gibson|Rickenbacker": {
       "brand": "Gibson",
@@ -50770,7 +50801,7 @@
     },
     {
       "label": "31+",
-      "total": 224,
+      "total": 225,
       "sold": 68,
       "rate": 30
     }
@@ -50782,14 +50813,14 @@
       "rate": 32
     },
     "off": {
-      "total": 172,
+      "total": 173,
       "sold": 47,
       "rate": 27
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 307,
+      "total": 308,
       "sold": 75,
       "rate": 24
     },
@@ -50802,7 +50833,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 67,
+      "total": 68,
       "sold": 23,
       "rate": 34
     },
