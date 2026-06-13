@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-13T23:03:50.800Z",
-  "totalLinks": 1353,
-  "totalEver": 1691,
-  "totalBeforeFilter": 1691,
+  "generatedAt": "2026-06-13T23:15:02.999Z",
+  "totalLinks": 1354,
+  "totalEver": 1692,
+  "totalBeforeFilter": 1692,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1338,
+  "totalWithPrice": 1339,
   "overall": {
-    "count": 1298,
-    "sum": 3657281.47,
-    "avg": 2818,
+    "count": 1299,
+    "sum": 3658351.47,
+    "avg": 2816,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1298,
-    "sum": 3657281.47,
-    "avg": 2818,
+    "count": 1299,
+    "sum": 3658351.47,
+    "avg": 2816,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 83,
-      "sum": 238625.99,
+      "count": 84,
+      "sum": 239695.99,
       "min": 500,
       "max": 9403,
-      "avg": 2875
+      "avg": 2854
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1111,
-      "sum": 3120975.09,
+      "count": 1112,
+      "sum": 3122045.09,
       "min": 33,
       "max": 10933,
-      "avg": 2809
+      "avg": 2808
     },
     "marketplace": {
       "count": 86,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1111,
-      "sum": 3120975.09,
+      "count": 1112,
+      "sum": 3122045.09,
       "min": 33,
       "max": 10933,
-      "avg": 2809
+      "avg": 2808
     },
     "chicagomusicexchange.com": {
       "count": 60,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "ibanez-pt": {
+      "displayName": "Ibanez JIVA10 Nita Strauss, Exceptional near mint condition, OHSC",
+      "brand": "Ibanez",
+      "model": "PT",
+      "variant": null,
+      "count": 1,
+      "sum": 1070,
+      "min": 1070,
+      "max": 1070,
+      "sightings": [
+        {
+          "price": 1070,
+          "date": "2026-06-13T23:14:45.83+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez JIVA10 Nita Strauss, Exceptional near mint condition, OHSC",
+          "url": "https://reverb.com/item/98000399",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1070,
+          "min": 1070,
+          "max": 1070,
+          "avg": 1070
+        }
+      },
+      "avg": 1070
+    },
     "eastman-henry-james-juliet-signature-gloss": {
       "displayName": "Eastman Henry James Signature Juliet Truetone Gloss Sunburst",
       "brand": "Eastman",
@@ -39737,6 +39768,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 63,
+      "min": 173.3,
+      "max": 7019,
+      "soldCount": 24,
+      "outliersExcluded": 4,
+      "avg": 2160,
+      "soldAvg": 2102
+    },
     "Eastman": {
       "count": 19,
       "min": 849,
@@ -39799,15 +39839,6 @@
       "outliersExcluded": 0,
       "avg": 1598,
       "soldAvg": 1301
-    },
-    "Ibanez": {
-      "count": 62,
-      "min": 173.3,
-      "max": 7019,
-      "soldCount": 24,
-      "outliersExcluded": 4,
-      "avg": 2177,
-      "soldAvg": 2102
     },
     "Shabat": {
       "count": 9,
@@ -41584,6 +41615,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 468,
+      "sum": 1999358.8699999992,
+      "sold": {
+        "count": 165,
+        "sum": 486987.89999999997,
+        "avg": 2951,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4272,
+      "min": 269,
+      "max": 190000
+    },
     "Mint": {
       "count": 33,
       "sum": 145902.83000000002,
@@ -41651,20 +41696,6 @@
       "min": 69,
       "max": 4799
     },
-    "Excellent": {
-      "count": 467,
-      "sum": 1998288.8699999992,
-      "sold": {
-        "count": 165,
-        "sum": 486987.89999999997,
-        "avg": 2951,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4279,
-      "min": 269,
-      "max": 190000
-    },
     "Good": {
       "count": 140,
       "sum": 418296.26,
@@ -41719,9 +41750,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2875,
-      "median": 2250,
-      "count": 83
+      "avg": 2854,
+      "median": 2225,
+      "count": 84
     },
     "05": {
       "name": "May",
@@ -41887,7 +41918,7 @@
   "priceDistribution": {
     "0-500": 53,
     "500-1k": 113,
-    "1k-2k": 406,
+    "1k-2k": 407,
     "2k-3k": 281,
     "3k-5k": 288,
     "5k-10k": 147,
@@ -41896,13 +41927,18 @@
   "priceDistributionFiltered": {
     "0-500": 53,
     "500-1k": 113,
-    "1k-2k": 406,
+    "1k-2k": 407,
     "2k-3k": 281,
     "3k-5k": 288,
     "5k-10k": 147,
     "10k+": 10
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 3170,
+      "count": 62,
+      "avg": 51
+    },
     "Suhr": {
       "sum": 734,
       "count": 17,
@@ -41919,7 +41955,7 @@
       "avg": 17
     },
     "Gibson": {
-      "sum": 7609,
+      "sum": 7610,
       "count": 145,
       "avg": 52
     },
@@ -41927,11 +41963,6 @@
       "sum": 2092,
       "count": 48,
       "avg": 44
-    },
-    "Ibanez": {
-      "sum": 3170,
-      "count": 61,
-      "avg": 52
     },
     "Shabat": {
       "sum": 387,
@@ -42820,7 +42851,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-13": 17,
+    "2026-06-13": 18,
     "2026-06-12": 17,
     "2026-06-11": 18,
     "2026-06-10": 8,
@@ -42848,11 +42879,11 @@
     "2026-05-15": 15
   },
   "categoryDistribution": {
-    "reverb": 1141,
+    "reverb": 1142,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 247,
+  "activeModelsCount": 248,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -42871,12 +42902,12 @@
       "count": 114
     },
     {
-      "username": "Madero",
+      "username": "Modean",
       "count": 78
     },
     {
-      "username": "Modean",
-      "count": 77
+      "username": "Madero",
+      "count": 78
     },
     {
       "username": "wontongg",
@@ -42970,10 +43001,10 @@
       "count": 124
     },
     "Ibanez": {
-      "avgPrice": 3119,
+      "avgPrice": 3089,
       "retailEst": 1000,
-      "avgDiscount": -211.9,
-      "count": 67
+      "avgDiscount": -208.9,
+      "count": 68
     },
     "Jackson": {
       "avgPrice": 4463,
@@ -46858,15 +46889,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1322,
+      "total": 1323,
       "sold": 422,
       "fake": 0,
-      "live": 390,
+      "live": 391,
       "removed": 510,
       "soldPct": 32,
       "livePct": 30
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 68,
+        "sold": 24,
+        "fake": 0,
+        "live": 24,
+        "removed": 20,
+        "soldPct": 35,
+        "livePct": 35
+      },
       "Eastman": {
         "total": 19,
         "sold": 8,
@@ -46929,15 +46969,6 @@
         "removed": 14,
         "soldPct": 39,
         "livePct": 37
-      },
-      "Ibanez": {
-        "total": 67,
-        "sold": 24,
-        "fake": 0,
-        "live": 23,
-        "removed": 20,
-        "soldPct": 36,
-        "livePct": 34
       },
       "Shabat": {
         "total": 9,
@@ -48953,7 +48984,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 406,
+        "total": 407,
         "sold": 139,
         "rate": 34
       },
@@ -48983,6 +49014,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 468,
+        "sold": 168,
+        "rate": 36
+      },
       "Mint": {
         "total": 33,
         "sold": 4,
@@ -49007,11 +49043,6 @@
         "total": 20,
         "sold": 8,
         "rate": 40
-      },
-      "Excellent": {
-        "total": 467,
-        "sold": 168,
-        "rate": 36
       },
       "Good": {
         "total": 140,
@@ -49128,6 +49159,24 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez GIO": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez GIO",
+      "tier": "budget",
+      "count": 4,
+      "sum": 3525.3,
+      "avg": 881,
+      "min": 173.3,
+      "max": 1437,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "removed": 2,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Eastman|Eastman": {
       "brand": "Eastman",
       "brandLine": "Eastman",
@@ -49143,7 +49192,7 @@
       "live": 5,
       "removed": 6,
       "sellRate": 42,
-      "totalDays": 799.4,
+      "totalDays": 799.5,
       "soldCount": 8,
       "avgDaysToSell": 99.9
     },
@@ -49200,7 +49249,7 @@
       "live": 35,
       "removed": 54,
       "sellRate": 35,
-      "totalDays": 3057.6,
+      "totalDays": 3057.8999999999996,
       "soldCount": 47,
       "avgDaysToSell": 65.1
     },
@@ -49219,7 +49268,7 @@
       "live": 21,
       "removed": 13,
       "sellRate": 39,
-      "totalDays": 1720.9000000000003,
+      "totalDays": 1721.0000000000002,
       "soldCount": 22,
       "avgDaysToSell": 78.2
     },
@@ -49257,7 +49306,7 @@
       "live": 16,
       "removed": 45,
       "sellRate": 37,
-      "totalDays": 2096.0000000000005,
+      "totalDays": 2096.2000000000003,
       "soldCount": 36,
       "avgDaysToSell": 58.2
     },
@@ -49333,9 +49382,9 @@
       "live": 8,
       "removed": 6,
       "sellRate": 22,
-      "totalDays": 284.79999999999995,
+      "totalDays": 285,
       "soldCount": 4,
-      "avgDaysToSell": 71.2
+      "avgDaysToSell": 71.3
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -49352,7 +49401,7 @@
       "live": 12,
       "removed": 13,
       "sellRate": 32,
-      "totalDays": 766.3000000000001,
+      "totalDays": 766.5,
       "soldCount": 12,
       "avgDaysToSell": 63.9
     },
@@ -49371,7 +49420,7 @@
       "live": 3,
       "removed": 21,
       "sellRate": 33,
-      "totalDays": 827.8,
+      "totalDays": 828,
       "soldCount": 12,
       "avgDaysToSell": 69
     },
@@ -49559,7 +49608,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 63,
-      "totalDays": 211.4,
+      "totalDays": 211.5,
       "soldCount": 5,
       "avgDaysToSell": 42.3
     },
@@ -49675,24 +49724,6 @@
       "totalDays": 0,
       "soldCount": 0
     },
-    "Ibanez|Ibanez GIO": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez GIO",
-      "tier": "budget",
-      "count": 3,
-      "sum": 2455.3,
-      "avg": 818,
-      "min": 173.3,
-      "max": 1437,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "removed": 2,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -49708,7 +49739,7 @@
       "live": 8,
       "removed": 26,
       "sellRate": 39,
-      "totalDays": 1743.8999999999996,
+      "totalDays": 1744.1,
       "soldCount": 22,
       "avgDaysToSell": 79.3
     },
@@ -49764,7 +49795,7 @@
       "live": 2,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 333,
+      "totalDays": 333.09999999999997,
       "soldCount": 6,
       "avgDaysToSell": 55.5
     },
@@ -49915,9 +49946,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 32.6,
+      "totalDays": 32.7,
       "soldCount": 1,
-      "avgDaysToSell": 32.6
+      "avgDaysToSell": 32.7
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -49972,7 +50003,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 106.4,
+      "totalDays": 106.5,
       "soldCount": 3,
       "avgDaysToSell": 35.5
     },
@@ -50048,9 +50079,9 @@
       "live": 6,
       "removed": 14,
       "sellRate": 23,
-      "totalDays": 327.2,
+      "totalDays": 327.3,
       "soldCount": 6,
-      "avgDaysToSell": 54.5
+      "avgDaysToSell": 54.6
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -50535,7 +50566,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 158.4,
+      "totalDays": 158.5,
       "soldCount": 3,
       "avgDaysToSell": 52.8
     },
@@ -50701,7 +50732,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 314.2,
+      "totalDays": 314.29999999999995,
       "soldCount": 2,
       "avgDaysToSell": 157.1
     },
@@ -51108,9 +51139,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 73,
+      "totalDays": 73.1,
       "soldCount": 1,
-      "avgDaysToSell": 73
+      "avgDaysToSell": 73.1
     }
   },
   "offerActivity": {
@@ -51132,9 +51163,9 @@
     },
     {
       "label": "1–5",
-      "total": 44,
+      "total": 45,
       "sold": 14,
-      "rate": 32
+      "rate": 31
     },
     {
       "label": "6–15",
@@ -51162,14 +51193,14 @@
       "rate": 32
     },
     "off": {
-      "total": 179,
+      "total": 180,
       "sold": 47,
       "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 314,
+      "total": 315,
       "sold": 75,
       "rate": 24
     },
@@ -51182,9 +51213,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 70,
+      "total": 71,
       "sold": 23,
-      "rate": 33
+      "rate": 32
     },
     {
       "state": "NY",
