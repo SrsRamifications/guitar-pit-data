@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-14T01:18:50.314Z",
-  "totalLinks": 1357,
-  "totalEver": 1696,
-  "totalBeforeFilter": 1696,
+  "generatedAt": "2026-06-14T01:29:10.282Z",
+  "totalLinks": 1358,
+  "totalEver": 1697,
+  "totalBeforeFilter": 1697,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1342,
+  "totalWithPrice": 1343,
   "overall": {
-    "count": 1302,
-    "sum": 3670093.47,
-    "avg": 2819,
+    "count": 1303,
+    "sum": 3680093.47,
+    "avg": 2824,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1302,
-    "sum": 3670093.47,
-    "avg": 2819,
+    "count": 1303,
+    "sum": 3680093.47,
+    "avg": 2824,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 87,
-      "sum": 251437.99,
+      "count": 88,
+      "sum": 261437.99,
       "min": 500,
-      "max": 9403,
-      "avg": 2890
+      "max": 10000,
+      "avg": 2971
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1115,
-      "sum": 3133787.09,
+      "count": 1116,
+      "sum": 3143787.09,
       "min": 33,
       "max": 10933,
-      "avg": 2811
+      "avg": 2817
     },
     "marketplace": {
       "count": 86,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1115,
-      "sum": 3133787.09,
+      "count": 1116,
+      "sum": 3143787.09,
       "min": 33,
       "max": 10933,
-      "avg": 2811
+      "avg": 2817
     },
     "chicagomusicexchange.com": {
       "count": 60,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "bc-rich-warlock-custom-shop-gloss": {
+      "displayName": "B.C. Rich WARLOCK Custom Shop 1998 - Gloss Black",
+      "brand": "BC Rich",
+      "model": "WARLOCK",
+      "variant": "Custom Shop Gloss",
+      "count": 1,
+      "sum": 10000,
+      "min": 10000,
+      "max": 10000,
+      "sightings": [
+        {
+          "price": 10000,
+          "date": "2026-06-14T01:28:52.611+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich WARLOCK Custom Shop 1998 - Gloss Black",
+          "url": "https://reverb.com/item/97985954",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 10000,
+          "min": 10000,
+          "max": 10000,
+          "avg": 10000
+        }
+      },
+      "avg": 10000
+    },
     "gibson-flying-v": {
       "displayName": "Gibson Flying V Custom 2019 - Present - Ebony",
       "brand": "Gibson",
@@ -39846,6 +39877,15 @@
     }
   },
   "byBrandPrice": {
+    "BC Rich": {
+      "count": 93,
+      "min": 33,
+      "max": 10350,
+      "soldCount": 28,
+      "outliersExcluded": 1,
+      "avg": 2755,
+      "soldAvg": 2253
+    },
     "Gibson": {
       "count": 171,
       "min": 135,
@@ -39989,15 +40029,6 @@
       "outliersExcluded": 0,
       "avg": 2092,
       "soldAvg": 2586
-    },
-    "BC Rich": {
-      "count": 92,
-      "min": 33,
-      "max": 10350,
-      "soldCount": 28,
-      "outliersExcluded": 1,
-      "avg": 2677,
-      "soldAvg": 2253
     },
     "Yamaha": {
       "count": 22,
@@ -41702,6 +41733,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 471,
+      "sum": 2017457.8699999994,
+      "sold": {
+        "count": 165,
+        "sum": 486987.89999999997,
+        "avg": 2951,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4283,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 381,
       "sum": 1503394.56,
@@ -41715,20 +41760,6 @@
       "avg": 3946,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 470,
-      "sum": 2007457.8699999994,
-      "sold": {
-        "count": 165,
-        "sum": 486987.89999999997,
-        "avg": 2951,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4271,
-      "min": 269,
-      "max": 190000
     },
     "Mint": {
       "count": 33,
@@ -41837,9 +41868,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2890,
-      "median": 2295,
-      "count": 87
+      "avg": 2971,
+      "median": 2297,
+      "count": 88
     },
     "05": {
       "name": "May",
@@ -42009,7 +42040,7 @@
     "2k-3k": 281,
     "3k-5k": 291,
     "5k-10k": 147,
-    "10k+": 50
+    "10k+": 51
   },
   "priceDistributionFiltered": {
     "0-500": 53,
@@ -42018,9 +42049,14 @@
     "2k-3k": 281,
     "3k-5k": 291,
     "5k-10k": 147,
-    "10k+": 10
+    "10k+": 11
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 4474,
+      "count": 88,
+      "avg": 51
+    },
     "Gibson": {
       "sum": 7614,
       "count": 146,
@@ -42062,12 +42098,12 @@
       "avg": 44
     },
     "Shabat": {
-      "sum": 387,
+      "sum": 388,
       "count": 7,
       "avg": 55
     },
     "PRS": {
-      "sum": 5897,
+      "sum": 5898,
       "count": 115,
       "avg": 51
     },
@@ -42085,11 +42121,6 @@
       "sum": 575,
       "count": 12,
       "avg": 48
-    },
-    "BC Rich": {
-      "sum": 4467,
-      "count": 87,
-      "avg": 51
     },
     "Yamaha": {
       "sum": 955,
@@ -42227,7 +42258,7 @@
       "avg": 54
     },
     "Anderson": {
-      "sum": 467,
+      "sum": 468,
       "count": 10,
       "avg": 47
     },
@@ -42887,9 +42918,9 @@
       "avg": 72
     },
     "Mojotone": {
-      "sum": 72,
+      "sum": 73,
       "count": 1,
-      "avg": 72
+      "avg": 73
     },
     "Atkin": {
       "sum": 73,
@@ -42943,7 +42974,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-14": 2,
+    "2026-06-14": 3,
     "2026-06-13": 19,
     "2026-06-12": 17,
     "2026-06-11": 18,
@@ -42972,11 +43003,11 @@
     "2026-05-15": 13
   },
   "categoryDistribution": {
-    "reverb": 1145,
+    "reverb": 1146,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 249,
+  "activeModelsCount": 250,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -42992,7 +43023,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 114
+      "count": 115
     },
     {
       "username": "Madero",
@@ -43166,10 +43197,10 @@
       "count": 19
     },
     "BC Rich": {
-      "avgPrice": 2898,
+      "avgPrice": 2971,
       "retailEst": 200,
-      "avgDiscount": -1348.9,
-      "count": 96
+      "avgDiscount": -1385.5,
+      "count": 97
     },
     "Rickenbacker": {
       "avgPrice": 2241,
@@ -46598,11 +46629,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 3081.4238533728385,
-      "count": 190,
-      "avgPctDrop": 16.2
+      "totalPctDrop": 3104.500776449762,
+      "count": 191,
+      "avgPctDrop": 16.3
     },
     "byBrand": {
+      "BC Rich": {
+        "totalPctDrop": 283.51845188658837,
+        "count": 16,
+        "avgPctDrop": 17.7
+      },
       "Eastman": {
         "totalPctDrop": 58.988789646372595,
         "count": 3,
@@ -46697,11 +46733,6 @@
         "totalPctDrop": 4.545454545454546,
         "count": 1,
         "avgPctDrop": 4.5
-      },
-      "BC Rich": {
-        "totalPctDrop": 260.44152880966533,
-        "count": 15,
-        "avgPctDrop": 17.4
       },
       "Schecter": {
         "totalPctDrop": 19.97956374325468,
@@ -46982,15 +47013,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1326,
+      "total": 1327,
       "sold": 422,
       "fake": 0,
-      "live": 394,
+      "live": 395,
       "removed": 510,
       "soldPct": 32,
       "livePct": 30
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 97,
+        "sold": 29,
+        "fake": 0,
+        "live": 35,
+        "removed": 33,
+        "soldPct": 30,
+        "livePct": 36
+      },
       "Gibson": {
         "total": 178,
         "sold": 60,
@@ -47134,15 +47174,6 @@
         "removed": 6,
         "soldPct": 22,
         "livePct": 44
-      },
-      "BC Rich": {
-        "total": 96,
-        "sold": 29,
-        "fake": 0,
-        "live": 34,
-        "removed": 33,
-        "soldPct": 30,
-        "livePct": 35
       },
       "Yamaha": {
         "total": 22,
@@ -49110,20 +49141,20 @@
       },
       {
         "label": "$10k+",
-        "total": 50,
+        "total": 51,
         "sold": 6,
         "rate": 12
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 471,
+        "sold": 168,
+        "rate": 36
+      },
       "Very Good": {
         "total": 381,
         "sold": 137,
-        "rate": 36
-      },
-      "Excellent": {
-        "total": 470,
-        "sold": 168,
         "rate": 36
       },
       "Mint": {
@@ -49261,6 +49292,25 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich USA Custom Shop": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich USA Custom Shop",
+      "tier": "premium",
+      "count": 27,
+      "sum": 180789.93000000002,
+      "avg": 6696,
+      "min": 1600,
+      "max": 27500,
+      "sold": 6,
+      "soldSum": 33347,
+      "soldAvg": 5558,
+      "live": 7,
+      "removed": 14,
+      "sellRate": 22,
+      "totalDays": 327.79999999999995,
+      "soldCount": 6,
+      "avgDaysToSell": 54.6
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -49276,7 +49326,7 @@
       "live": 36,
       "removed": 54,
       "sellRate": 34,
-      "totalDays": 3062.1999999999994,
+      "totalDays": 3062.4999999999995,
       "soldCount": 47,
       "avgDaysToSell": 65.2
     },
@@ -49332,7 +49382,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 31,
-      "totalDays": 231.39999999999998,
+      "totalDays": 231.5,
       "soldCount": 5,
       "avgDaysToSell": 46.3
     },
@@ -49370,7 +49420,7 @@
       "live": 21,
       "removed": 13,
       "sellRate": 39,
-      "totalDays": 1722.8,
+      "totalDays": 1723.1,
       "soldCount": 22,
       "avgDaysToSell": 78.3
     },
@@ -49389,7 +49439,7 @@
       "live": 10,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 662.8,
+      "totalDays": 662.9,
       "soldCount": 11,
       "avgDaysToSell": 60.3
     },
@@ -49408,7 +49458,7 @@
       "live": 16,
       "removed": 45,
       "sellRate": 37,
-      "totalDays": 2099.5999999999995,
+      "totalDays": 2099.7999999999997,
       "soldCount": 36,
       "avgDaysToSell": 58.3
     },
@@ -49503,7 +49553,7 @@
       "live": 12,
       "removed": 13,
       "sellRate": 32,
-      "totalDays": 767.4000000000001,
+      "totalDays": 767.5,
       "soldCount": 12,
       "avgDaysToSell": 64
     },
@@ -49541,7 +49591,7 @@
       "live": 4,
       "removed": 10,
       "sellRate": 26,
-      "totalDays": 323.9,
+      "totalDays": 324,
       "soldCount": 5,
       "avgDaysToSell": 64.8
     },
@@ -49560,9 +49610,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 138.6,
+      "totalDays": 138.70000000000002,
       "soldCount": 2,
-      "avgDaysToSell": 69.3
+      "avgDaysToSell": 69.4
     },
     "Parker|Parker Spanish Fly": {
       "brand": "Parker",
@@ -49579,9 +49629,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 2.3,
+      "totalDays": 2.4,
       "soldCount": 1,
-      "avgDaysToSell": 2.3
+      "avgDaysToSell": 2.4
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -49878,7 +49928,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 59,
-      "totalDays": 789.8,
+      "totalDays": 789.9,
       "soldCount": 13,
       "avgDaysToSell": 60.8
     },
@@ -50086,7 +50136,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 451.4,
+      "totalDays": 451.49999999999994,
       "soldCount": 7,
       "avgDaysToSell": 64.5
     },
@@ -50124,9 +50174,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 145,
+      "totalDays": 145.1,
       "soldCount": 1,
-      "avgDaysToSell": 145
+      "avgDaysToSell": 145.1
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -50165,25 +50215,6 @@
       "totalDays": 102.6,
       "soldCount": 2,
       "avgDaysToSell": 51.3
-    },
-    "BC Rich|BC Rich USA Custom Shop": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich USA Custom Shop",
-      "tier": "premium",
-      "count": 26,
-      "sum": 170789.93000000002,
-      "avg": 6569,
-      "min": 1600,
-      "max": 27500,
-      "sold": 6,
-      "soldSum": 33347,
-      "soldAvg": 5558,
-      "live": 6,
-      "removed": 14,
-      "sellRate": 23,
-      "totalDays": 327.79999999999995,
-      "soldCount": 6,
-      "avgDaysToSell": 54.6
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -50294,7 +50325,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 252,
+      "totalDays": 252.1,
       "soldCount": 4,
       "avgDaysToSell": 63
     },
@@ -50463,9 +50494,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 97.8,
+      "totalDays": 97.9,
       "soldCount": 2,
-      "avgDaysToSell": 48.9
+      "avgDaysToSell": 49
     },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
@@ -50668,7 +50699,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 158.7,
+      "totalDays": 158.8,
       "soldCount": 3,
       "avgDaysToSell": 52.9
     },
@@ -50907,9 +50938,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 59,
+      "totalDays": 59.1,
       "soldCount": 1,
-      "avgDaysToSell": 59
+      "avgDaysToSell": 59.1
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -51271,7 +51302,7 @@
     },
     {
       "label": "6–15",
-      "total": 121,
+      "total": 122,
       "sold": 34,
       "rate": 28
     },
@@ -51290,7 +51321,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 424,
+      "total": 425,
       "sold": 133,
       "rate": 31
     },
@@ -51307,7 +51338,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 276,
+      "total": 277,
       "sold": 96,
       "rate": 35
     }
@@ -51422,6 +51453,12 @@
       "rate": 50
     },
     {
+      "state": "MO",
+      "total": 7,
+      "sold": 4,
+      "rate": 57
+    },
+    {
       "state": "QC",
       "total": 7,
       "sold": 2,
@@ -51456,12 +51493,6 @@
       "total": 6,
       "sold": 2,
       "rate": 33
-    },
-    {
-      "state": "MO",
-      "total": 6,
-      "sold": 4,
-      "rate": 67
     },
     {
       "state": "OK",
