@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-14T03:18:50.116Z",
-  "totalLinks": 1359,
-  "totalEver": 1698,
-  "totalBeforeFilter": 1698,
+  "generatedAt": "2026-06-14T03:21:38.616Z",
+  "totalLinks": 1360,
+  "totalEver": 1699,
+  "totalBeforeFilter": 1699,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1344,
+  "totalWithPrice": 1345,
   "overall": {
-    "count": 1304,
-    "sum": 3683593.47,
-    "avg": 2825,
+    "count": 1305,
+    "sum": 3683888.47,
+    "avg": 2823,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1304,
-    "sum": 3683593.47,
-    "avg": 2825,
+    "count": 1305,
+    "sum": 3683888.47,
+    "avg": 2823,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 89,
-      "sum": 264937.99,
-      "min": 500,
+      "count": 90,
+      "sum": 265232.99,
+      "min": 295,
       "max": 10000,
-      "avg": 2977
+      "avg": 2947
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1117,
-      "sum": 3147287.09,
+      "count": 1118,
+      "sum": 3147582.09,
       "min": 33,
       "max": 10933,
-      "avg": 2818
+      "avg": 2815
     },
     "marketplace": {
       "count": 86,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1117,
-      "sum": 3147287.09,
+      "count": 1118,
+      "sum": 3147582.09,
       "min": 33,
       "max": 10933,
-      "avg": 2818
+      "avg": 2815
     },
     "chicagomusicexchange.com": {
       "count": 60,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "squier-jaguar-classic-vibe-70s": {
+      "displayName": "Squier Classic Vibe '70s Jaguar 2020 - Present - Daphne Blue",
+      "brand": "Squier",
+      "model": "Jaguar",
+      "variant": "Classic Vibe 70s",
+      "count": 1,
+      "sum": 295,
+      "min": 295,
+      "max": 295,
+      "sightings": [
+        {
+          "price": 295,
+          "date": "2026-06-14T03:21:22.776+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Squier Classic Vibe '70s Jaguar 2020 - Present - Daphne Blue",
+          "url": "https://reverb.com/item/97765797",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 295,
+          "min": 295,
+          "max": 295,
+          "avg": 295
+        }
+      },
+      "avg": 295
+    },
     "ibanez-professional-bob-weir-signature": {
       "displayName": "1978 Ibanez Professional 2681 Bob Weir Signature Pleked",
       "brand": "Ibanez",
@@ -39923,6 +39954,15 @@
     }
   },
   "byBrandPrice": {
+    "Squier": {
+      "count": 6,
+      "min": 295,
+      "max": 446,
+      "soldCount": 1,
+      "outliersExcluded": 0,
+      "avg": 366,
+      "soldAvg": 350
+    },
     "Ibanez": {
       "count": 64,
       "min": 173.3,
@@ -40696,15 +40736,6 @@
       "outliersExcluded": 0,
       "avg": 3033,
       "soldAvg": 2900
-    },
-    "Squier": {
-      "count": 5,
-      "min": 330,
-      "max": 446,
-      "soldCount": 1,
-      "outliersExcluded": 0,
-      "avg": 380,
-      "soldAvg": 350
     },
     "Iron Label": {
       "count": 1,
@@ -41779,6 +41810,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 472,
+      "sum": 2017752.8699999994,
+      "sold": {
+        "count": 165,
+        "sum": 486987.89999999997,
+        "avg": 2951,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4275,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 382,
       "sum": 1506894.56,
@@ -41792,20 +41837,6 @@
       "avg": 3945,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 471,
-      "sum": 2017457.8699999994,
-      "sold": {
-        "count": 165,
-        "sum": 486987.89999999997,
-        "avg": 2951,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4283,
-      "min": 269,
-      "max": 190000
     },
     "Mint": {
       "count": 33,
@@ -41914,9 +41945,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2977,
-      "median": 2300,
-      "count": 89
+      "avg": 2947,
+      "median": 2297,
+      "count": 90
     },
     "05": {
       "name": "May",
@@ -42080,7 +42111,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 53,
+    "0-500": 54,
     "500-1k": 113,
     "1k-2k": 407,
     "2k-3k": 281,
@@ -42089,7 +42120,7 @@
     "10k+": 51
   },
   "priceDistributionFiltered": {
-    "0-500": 53,
+    "0-500": 54,
     "500-1k": 113,
     "1k-2k": 407,
     "2k-3k": 281,
@@ -42098,6 +42129,11 @@
     "10k+": 11
   },
   "daysOnMarket": {
+    "Squier": {
+      "sum": 162,
+      "count": 4,
+      "avg": 41
+    },
     "Ibanez": {
       "sum": 3179,
       "count": 63,
@@ -42189,7 +42225,7 @@
       "avg": 2
     },
     "Jackson": {
-      "sum": 1661,
+      "sum": 1662,
       "count": 30,
       "avg": 55
     },
@@ -42399,7 +42435,7 @@
       "avg": 20
     },
     "Rickenbacker": {
-      "sum": 795,
+      "sum": 796,
       "count": 14,
       "avg": 57
     },
@@ -42517,11 +42553,6 @@
       "sum": 172,
       "count": 3,
       "avg": 57
-    },
-    "Squier": {
-      "sum": 149,
-      "count": 3,
-      "avg": 50
     },
     "Berly": {
       "sum": 37,
@@ -42989,9 +43020,9 @@
       "avg": 77
     },
     "Languedoc": {
-      "sum": 77,
+      "sum": 78,
       "count": 1,
-      "avg": 77
+      "avg": 78
     },
     "LsL Instruments": {
       "sum": 78,
@@ -43020,7 +43051,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-14": 4,
+    "2026-06-14": 5,
     "2026-06-13": 19,
     "2026-06-12": 17,
     "2026-06-11": 18,
@@ -43049,11 +43080,11 @@
     "2026-05-15": 13
   },
   "categoryDistribution": {
-    "reverb": 1147,
+    "reverb": 1148,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 251,
+  "activeModelsCount": 252,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -43069,7 +43100,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 115
+      "count": 116
     },
     {
       "username": "Madero",
@@ -47067,15 +47098,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1328,
+      "total": 1329,
       "sold": 423,
       "fake": 0,
-      "live": 395,
+      "live": 396,
       "removed": 510,
       "soldPct": 32,
       "livePct": 30
     },
     "byBrand": {
+      "Squier": {
+        "total": 6,
+        "sold": 1,
+        "fake": 0,
+        "live": 3,
+        "removed": 2,
+        "soldPct": 17,
+        "livePct": 50
+      },
       "Ibanez": {
         "total": 69,
         "sold": 24,
@@ -47867,15 +47907,6 @@
         "removed": 2,
         "soldPct": 33,
         "livePct": 0
-      },
-      "Squier": {
-        "total": 5,
-        "sold": 1,
-        "fake": 0,
-        "live": 2,
-        "removed": 2,
-        "soldPct": 20,
-        "livePct": 40
       },
       "Iron Label": {
         "total": 1,
@@ -49122,10 +49153,10 @@
       },
       {
         "brand": "Squier",
-        "total": 5,
+        "total": 6,
         "sold": 1,
-        "live": 2,
-        "soldPct": 20
+        "live": 3,
+        "soldPct": 17
       },
       {
         "brand": "Jackson",
@@ -49159,7 +49190,7 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 53,
+        "total": 54,
         "sold": 10,
         "rate": 19
       },
@@ -49201,14 +49232,14 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 472,
+        "sold": 168,
+        "rate": 36
+      },
       "Very Good": {
         "total": 382,
         "sold": 138,
-        "rate": 36
-      },
-      "Excellent": {
-        "total": 471,
-        "sold": 168,
         "rate": 36
       },
       "Mint": {
@@ -49346,6 +49377,25 @@
     ]
   },
   "byBrandLine": {
+    "Squier|Squier": {
+      "brand": "Squier",
+      "brandLine": "Squier",
+      "tier": "budget",
+      "count": 6,
+      "sum": 2195.99,
+      "avg": 366,
+      "min": 295,
+      "max": 446,
+      "sold": 1,
+      "soldSum": 350,
+      "soldAvg": 350,
+      "live": 3,
+      "removed": 2,
+      "sellRate": 17,
+      "totalDays": 56.4,
+      "soldCount": 1,
+      "avgDaysToSell": 56.4
+    },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
@@ -49380,7 +49430,7 @@
       "live": 7,
       "removed": 14,
       "sellRate": 22,
-      "totalDays": 328.3,
+      "totalDays": 328.4,
       "soldCount": 6,
       "avgDaysToSell": 54.7
     },
@@ -49455,7 +49505,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 31,
-      "totalDays": 231.79999999999998,
+      "totalDays": 231.9,
       "soldCount": 5,
       "avgDaysToSell": 46.4
     },
@@ -50020,7 +50070,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 175.79999999999998,
+      "totalDays": 175.89999999999998,
       "soldCount": 3,
       "avgDaysToSell": 58.6
     },
@@ -50171,7 +50221,7 @@
       "live": 1,
       "removed": 4,
       "sellRate": 38,
-      "totalDays": 182.3,
+      "totalDays": 182.4,
       "soldCount": 3,
       "avgDaysToSell": 60.8
     },
@@ -50513,25 +50563,6 @@
       "totalDays": 56.5,
       "soldCount": 1,
       "avgDaysToSell": 56.5
-    },
-    "Squier|Squier": {
-      "brand": "Squier",
-      "brandLine": "Squier",
-      "tier": "budget",
-      "count": 5,
-      "sum": 1900.99,
-      "avg": 380,
-      "min": 330,
-      "max": 446,
-      "sold": 1,
-      "soldSum": 350,
-      "soldAvg": 350,
-      "live": 2,
-      "removed": 2,
-      "sellRate": 20,
-      "totalDays": 56.4,
-      "soldCount": 1,
-      "avgDaysToSell": 56.4
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -51332,8 +51363,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 213,
-    "totalOffers": 432,
+    "withOffers": 214,
+    "totalOffers": 435,
     "avgOffersPerListing": 2,
     "offersEnabledPct": 37
   },
@@ -51368,14 +51399,14 @@
     },
     {
       "label": "31+",
-      "total": 232,
+      "total": 233,
       "sold": 68,
       "rate": 29
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 426,
+      "total": 427,
       "sold": 134,
       "rate": 31
     },
@@ -51392,7 +51423,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 278,
+      "total": 279,
       "sold": 97,
       "rate": 35
     }
@@ -51490,9 +51521,9 @@
     },
     {
       "state": "GA",
-      "total": 8,
+      "total": 9,
       "sold": 2,
-      "rate": 25
+      "rate": 22
     },
     {
       "state": "ON",
