@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-14T12:48:50.539Z",
-  "totalLinks": 1364,
-  "totalEver": 1703,
-  "totalBeforeFilter": 1703,
+  "generatedAt": "2026-06-14T13:03:08.393Z",
+  "totalLinks": 1365,
+  "totalEver": 1704,
+  "totalBeforeFilter": 1704,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1349,
+  "totalWithPrice": 1350,
   "overall": {
-    "count": 1309,
-    "sum": 3691948.47,
+    "count": 1310,
+    "sum": 3693741.47,
     "avg": 2820,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1309,
-    "sum": 3691948.47,
+    "count": 1310,
+    "sum": 3693741.47,
     "avg": 2820,
     "min": 3,
     "max": 11099,
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 94,
-      "sum": 273542.99,
+      "count": 95,
+      "sum": 275335.99,
       "min": 260,
       "max": 10000,
-      "avg": 2910
+      "avg": 2898
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1122,
-      "sum": 3155642.09,
+      "count": 1123,
+      "sum": 3157435.09,
       "min": 33,
       "max": 10933,
-      "avg": 2813
+      "avg": 2812
     },
     "marketplace": {
       "count": 86,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1122,
-      "sum": 3155642.09,
+      "count": 1123,
+      "sum": 3157435.09,
       "min": 33,
       "max": 10933,
-      "avg": 2813
+      "avg": 2812
     },
     "chicagomusicexchange.com": {
       "count": 60,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "bilt-relevator-jhs-josh-signature": {
+      "displayName": "Bilt Relevator JHS Josh Scott Signature",
+      "brand": "Bilt",
+      "model": "Relevator JHS Josh",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 1793,
+      "min": 1793,
+      "max": 1793,
+      "sightings": [
+        {
+          "price": 1793,
+          "date": "2026-06-14T13:02:50.954+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Bilt Relevator JHS Josh Scott Signature",
+          "url": "https://reverb.com/item/98204545",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1793,
+          "min": 1793,
+          "max": 1793,
+          "avg": 1793
+        }
+      },
+      "avg": 1793
+    },
     "gibson-es-335-limited-edition-reissue": {
       "displayName": "Gibson Custom Limited Edition Handpicked 1964 ES-335 Reissue Gloss Heather Poly, Japan Store Special Order",
       "brand": "Gibson",
@@ -40056,6 +40087,15 @@
     }
   },
   "byBrandPrice": {
+    "Bilt": {
+      "count": 3,
+      "min": 1793,
+      "max": 2499.99,
+      "soldCount": 1,
+      "outliersExcluded": 0,
+      "avg": 2164,
+      "soldAvg": 2200
+    },
     "Gibson": {
       "count": 172,
       "min": 135,
@@ -40577,15 +40617,6 @@
       "outliersExcluded": 0,
       "avg": 2021,
       "soldAvg": 1349
-    },
-    "Bilt": {
-      "count": 2,
-      "min": 2200,
-      "max": 2499.99,
-      "soldCount": 1,
-      "outliersExcluded": 0,
-      "avg": 2350,
-      "soldAvg": 2200
     },
     "Island Instruments Forty": {
       "count": 1,
@@ -41912,6 +41943,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 473,
+      "sum": 2019295.8699999994,
+      "sold": {
+        "count": 165,
+        "sum": 486987.89999999997,
+        "avg": 2951,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4269,
+      "min": 269,
+      "max": 190000
+    },
     "Mint": {
       "count": 34,
       "sum": 152184.83000000002,
@@ -41953,20 +41998,6 @@
       "avg": 2968,
       "min": 70,
       "max": 55000
-    },
-    "Excellent": {
-      "count": 472,
-      "sum": 2017502.8699999994,
-      "sold": {
-        "count": 165,
-        "sum": 486987.89999999997,
-        "avg": 2951,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4274,
-      "min": 269,
-      "max": 190000
     },
     "Used": {
       "count": 51,
@@ -42047,9 +42078,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2910,
-      "median": 2273,
-      "count": 94
+      "avg": 2898,
+      "median": 2250,
+      "count": 95
     },
     "05": {
       "name": "May",
@@ -42215,7 +42246,7 @@
   "priceDistribution": {
     "0-500": 56,
     "500-1k": 113,
-    "1k-2k": 408,
+    "1k-2k": 409,
     "2k-3k": 281,
     "3k-5k": 292,
     "5k-10k": 148,
@@ -42224,15 +42255,20 @@
   "priceDistributionFiltered": {
     "0-500": 56,
     "500-1k": 113,
-    "1k-2k": 408,
+    "1k-2k": 409,
     "2k-3k": 281,
     "3k-5k": 292,
     "5k-10k": 148,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Bilt": {
+      "sum": 93,
+      "count": 3,
+      "avg": 31
+    },
     "Gibson": {
-      "sum": 7735,
+      "sum": 7736,
       "count": 147,
       "avg": 53
     },
@@ -42277,12 +42313,12 @@
       "avg": 3
     },
     "Shijie": {
-      "sum": 17,
+      "sum": 18,
       "count": 1,
-      "avg": 17
+      "avg": 18
     },
     "Kiesel": {
-      "sum": 2126,
+      "sum": 2127,
       "count": 48,
       "avg": 44
     },
@@ -42292,7 +42328,7 @@
       "avg": 56
     },
     "PRS": {
-      "sum": 5990,
+      "sum": 5993,
       "count": 115,
       "avg": 52
     },
@@ -42322,9 +42358,9 @@
       "avg": 11
     },
     "Dunable": {
-      "sum": 360,
+      "sum": 361,
       "count": 7,
-      "avg": 51
+      "avg": 52
     },
     "Bernie Rico Junior": {
       "sum": 3,
@@ -42332,7 +42368,7 @@
       "avg": 3
     },
     "Jackson": {
-      "sum": 1680,
+      "sum": 1681,
       "count": 30,
       "avg": 56
     },
@@ -42477,7 +42513,7 @@
       "avg": 46
     },
     "Aristides": {
-      "sum": 263,
+      "sum": 264,
       "count": 5,
       "avg": 53
     },
@@ -42506,11 +42542,6 @@
       "count": 5,
       "avg": 58
     },
-    "Bilt": {
-      "sum": 93,
-      "count": 2,
-      "avg": 47
-    },
     "Island Instruments Forty": {
       "sum": 22,
       "count": 1,
@@ -42537,9 +42568,9 @@
       "avg": 21
     },
     "Rickenbacker": {
-      "sum": 804,
+      "sum": 806,
       "count": 14,
-      "avg": 57
+      "avg": 58
     },
     "Lumiere": {
       "sum": 51,
@@ -42802,7 +42833,7 @@
       "avg": 89
     },
     "Burny": {
-      "sum": 131,
+      "sum": 132,
       "count": 2,
       "avg": 66
     },
@@ -42987,9 +43018,9 @@
       "avg": 70
     },
     "Nik Huber": {
-      "sum": 134,
+      "sum": 135,
       "count": 2,
-      "avg": 67
+      "avg": 68
     },
     "RKS": {
       "sum": 130,
@@ -43153,7 +43184,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-14": 9,
+    "2026-06-14": 10,
     "2026-06-13": 19,
     "2026-06-12": 17,
     "2026-06-11": 18,
@@ -43182,15 +43213,15 @@
     "2026-05-15": 10
   },
   "categoryDistribution": {
-    "reverb": 1152,
+    "reverb": 1153,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 253,
+  "activeModelsCount": 254,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 375
+      "count": 376
     },
     {
       "username": "greg1213",
@@ -47205,15 +47236,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1333,
+      "total": 1334,
       "sold": 423,
       "fake": 0,
-      "live": 400,
+      "live": 401,
       "removed": 510,
       "soldPct": 32,
       "livePct": 30
     },
     "byBrand": {
+      "Bilt": {
+        "total": 3,
+        "sold": 1,
+        "fake": 0,
+        "live": 2,
+        "removed": 0,
+        "soldPct": 33,
+        "livePct": 67
+      },
       "Gibson": {
         "total": 179,
         "sold": 61,
@@ -47743,15 +47783,6 @@
         "live": 4,
         "removed": 3,
         "soldPct": 13,
-        "livePct": 50
-      },
-      "Bilt": {
-        "total": 2,
-        "sold": 1,
-        "fake": 0,
-        "live": 1,
-        "removed": 0,
-        "soldPct": 50,
         "livePct": 50
       },
       "Island Instruments Forty": {
@@ -49309,7 +49340,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 408,
+        "total": 409,
         "sold": 139,
         "rate": 34
       },
@@ -49339,6 +49370,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 473,
+        "sold": 168,
+        "rate": 36
+      },
       "Mint": {
         "total": 34,
         "sold": 4,
@@ -49352,11 +49388,6 @@
       "Good": {
         "total": 141,
         "sold": 51,
-        "rate": 36
-      },
-      "Excellent": {
-        "total": 472,
-        "sold": 168,
         "rate": 36
       },
       "Used": {
@@ -49468,6 +49499,13 @@
         "sold": 3
       },
       {
+        "brand": "Bilt",
+        "avgPrice": 2164,
+        "sellRate": 33,
+        "count": 3,
+        "sold": 1
+      },
+      {
         "brand": "Grez",
         "avgPrice": 2150,
         "sellRate": 33,
@@ -49484,6 +49522,25 @@
     ]
   },
   "byBrandLine": {
+    "Bilt|Bilt": {
+      "brand": "Bilt",
+      "brandLine": "Bilt",
+      "tier": "premium",
+      "count": 3,
+      "sum": 6492.99,
+      "avg": 2164,
+      "min": 1793,
+      "max": 2499.99,
+      "sold": 1,
+      "soldSum": 2200,
+      "soldAvg": 2200,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 33,
+      "totalDays": 73.3,
+      "soldCount": 1,
+      "avgDaysToSell": 73.3
+    },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
       "brandLine": "Gibson USA",
@@ -49499,7 +49556,7 @@
       "live": 36,
       "removed": 54,
       "sellRate": 35,
-      "totalDays": 3084.8999999999987,
+      "totalDays": 3085.2999999999993,
       "soldCount": 48,
       "avgDaysToSell": 64.3
     },
@@ -49555,9 +49612,9 @@
       "live": 11,
       "removed": 8,
       "sellRate": 37,
-      "totalDays": 668.2,
+      "totalDays": 668.3,
       "soldCount": 11,
-      "avgDaysToSell": 60.7
+      "avgDaysToSell": 60.8
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -49574,7 +49631,7 @@
       "live": 7,
       "removed": 14,
       "sellRate": 22,
-      "totalDays": 330.69999999999993,
+      "totalDays": 330.79999999999995,
       "soldCount": 6,
       "avgDaysToSell": 55.1
     },
@@ -49611,7 +49668,7 @@
       "live": 5,
       "removed": 6,
       "sellRate": 42,
-      "totalDays": 803.9999999999999,
+      "totalDays": 804.0999999999999,
       "soldCount": 8,
       "avgDaysToSell": 100.5
     },
@@ -49630,7 +49687,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 31,
-      "totalDays": 233.79999999999998,
+      "totalDays": 233.89999999999998,
       "soldCount": 5,
       "avgDaysToSell": 46.8
     },
@@ -49649,7 +49706,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 142.5,
+      "totalDays": 142.60000000000002,
       "soldCount": 2,
       "avgDaysToSell": 71.3
     },
@@ -49668,7 +49725,7 @@
       "live": 21,
       "removed": 13,
       "sellRate": 39,
-      "totalDays": 1733.6000000000001,
+      "totalDays": 1733.8,
       "soldCount": 22,
       "avgDaysToSell": 78.8
     },
@@ -49687,7 +49744,7 @@
       "live": 16,
       "removed": 45,
       "sellRate": 37,
-      "totalDays": 2117,
+      "totalDays": 2117.1,
       "soldCount": 36,
       "avgDaysToSell": 58.8
     },
@@ -49706,9 +49763,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 251.8,
+      "totalDays": 251.89999999999998,
       "soldCount": 3,
-      "avgDaysToSell": 83.9
+      "avgDaysToSell": 84
     },
     "Kramer|Kramer USA Vintage": {
       "brand": "Kramer",
@@ -49782,7 +49839,7 @@
       "live": 12,
       "removed": 13,
       "sellRate": 32,
-      "totalDays": 773,
+      "totalDays": 773.1,
       "soldCount": 12,
       "avgDaysToSell": 64.4
     },
@@ -49801,7 +49858,7 @@
       "live": 3,
       "removed": 21,
       "sellRate": 33,
-      "totalDays": 834.8,
+      "totalDays": 834.9,
       "soldCount": 12,
       "avgDaysToSell": 69.6
     },
@@ -49820,7 +49877,7 @@
       "live": 4,
       "removed": 10,
       "sellRate": 26,
-      "totalDays": 326.29999999999995,
+      "totalDays": 326.4,
       "soldCount": 5,
       "avgDaysToSell": 65.3
     },
@@ -49951,7 +50008,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 42,
-      "totalDays": 210.29999999999998,
+      "totalDays": 210.4,
       "soldCount": 5,
       "avgDaysToSell": 42.1
     },
@@ -49970,7 +50027,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 82.3,
+      "totalDays": 82.39999999999999,
       "soldCount": 2,
       "avgDaysToSell": 41.2
     },
@@ -49989,7 +50046,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 63,
-      "totalDays": 214.1,
+      "totalDays": 214.2,
       "soldCount": 5,
       "avgDaysToSell": 42.8
     },
@@ -50177,7 +50234,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 177,
+      "totalDays": 177.1,
       "soldCount": 3,
       "avgDaysToSell": 59
     },
@@ -50215,7 +50272,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 75,
-      "totalDays": 122,
+      "totalDays": 122.1,
       "soldCount": 3,
       "avgDaysToSell": 40.7
     },
@@ -50255,25 +50312,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Bilt|Bilt": {
-      "brand": "Bilt",
-      "brandLine": "Bilt",
-      "tier": "premium",
-      "count": 2,
-      "sum": 4699.99,
-      "avg": 2350,
-      "min": 2200,
-      "max": 2499.99,
-      "sold": 1,
-      "soldSum": 2200,
-      "soldAvg": 2200,
-      "live": 1,
-      "removed": 0,
-      "sellRate": 50,
-      "totalDays": 73.3,
-      "soldCount": 1,
-      "avgDaysToSell": 73.3
     },
     "Ibanez|Ibanez USA Custom": {
       "brand": "Ibanez",
@@ -50328,7 +50366,7 @@
       "live": 1,
       "removed": 4,
       "sellRate": 38,
-      "totalDays": 183.5,
+      "totalDays": 183.60000000000002,
       "soldCount": 3,
       "avgDaysToSell": 61.2
     },
@@ -50347,7 +50385,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 454.20000000000005,
+      "totalDays": 454.30000000000007,
       "soldCount": 7,
       "avgDaysToSell": 64.9
     },
@@ -50517,9 +50555,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 28.7,
+      "totalDays": 28.8,
       "soldCount": 1,
-      "avgDaysToSell": 28.7
+      "avgDaysToSell": 28.8
     },
     "Collings|Collings": {
       "brand": "Collings",
@@ -50705,9 +50743,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 70.6,
+      "totalDays": 70.7,
       "soldCount": 1,
-      "avgDaysToSell": 70.6
+      "avgDaysToSell": 70.7
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -50762,9 +50800,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 181.6,
+      "totalDays": 181.7,
       "soldCount": 3,
-      "avgDaysToSell": 60.5
+      "avgDaysToSell": 60.6
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -51477,7 +51515,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 119
+    "avgShippingCost": 118
   },
   "watcherDemand": [
     {
@@ -51488,9 +51526,9 @@
     },
     {
       "label": "1–5",
-      "total": 45,
+      "total": 46,
       "sold": 14,
-      "rate": 31
+      "rate": 30
     },
     {
       "label": "6–15",
@@ -51513,7 +51551,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 431,
+      "total": 432,
       "sold": 134,
       "rate": 31
     },
@@ -51525,9 +51563,9 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 319,
+      "total": 320,
       "sold": 75,
-      "rate": 24
+      "rate": 23
     },
     "regular": {
       "total": 280,
@@ -51597,6 +51635,12 @@
       "rate": 25
     },
     {
+      "state": "NC",
+      "total": 15,
+      "sold": 7,
+      "rate": 47
+    },
+    {
       "state": "NJ",
       "total": 15,
       "sold": 6,
@@ -51607,12 +51651,6 @@
       "total": 14,
       "sold": 2,
       "rate": 14
-    },
-    {
-      "state": "NC",
-      "total": 14,
-      "sold": 7,
-      "rate": 50
     },
     {
       "state": "CO",
