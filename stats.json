@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-14T16:18:51.197Z",
-  "totalLinks": 1369,
-  "totalEver": 1708,
-  "totalBeforeFilter": 1708,
+  "generatedAt": "2026-06-14T16:19:09.578Z",
+  "totalLinks": 1370,
+  "totalEver": 1709,
+  "totalBeforeFilter": 1709,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1354,
+  "totalWithPrice": 1355,
   "overall": {
-    "count": 1314,
-    "sum": 3723538.47,
-    "avg": 2834,
+    "count": 1315,
+    "sum": 3728299.47,
+    "avg": 2835,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1314,
-    "sum": 3723538.47,
-    "avg": 2834,
+    "count": 1315,
+    "sum": 3728299.47,
+    "avg": 2835,
     "min": 3,
     "max": 11099,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11250,
+    "thresholdHigh": 11405,
     "thresholdLow": 0,
     "count": 40,
     "items": [
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 99,
-      "sum": 305132.99,
+      "count": 100,
+      "sum": 309893.99,
       "min": 260,
       "max": 10599,
-      "avg": 3082
+      "avg": 3099
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1127,
-      "sum": 3187232.09,
+      "count": 1128,
+      "sum": 3191993.09,
       "min": 33,
       "max": 10933,
-      "avg": 2828
+      "avg": 2830
     },
     "marketplace": {
       "count": 86,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1127,
-      "sum": 3187232.09,
+      "count": 1128,
+      "sum": 3191993.09,
       "min": 33,
       "max": 10933,
-      "avg": 2828
+      "avg": 2830
     },
     "chicagomusicexchange.com": {
       "count": 60,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "fender-jazzmaster-custom-shop-heavy-relic": {
+      "displayName": "Fender Custom Shop Dealer Select CuNiFe Wide Range 61 Jazzmaster Heavy Relic, Olympic White 2022 ~ Secondhand",
+      "brand": "Fender",
+      "model": "Jazzmaster",
+      "variant": "Custom Shop Heavy Relic",
+      "count": 1,
+      "sum": 4761,
+      "min": 4761,
+      "max": 4761,
+      "sightings": [
+        {
+          "price": 4761,
+          "date": "2026-06-14T16:18:51.056+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop Dealer Select CuNiFe Wide Range 61 Jazzmaster Heavy Relic, Olympic White 2022 ~ Secondhand",
+          "url": "https://reverb.com/item/96552334",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4761,
+          "min": 4761,
+          "max": 4761,
+          "avg": 4761
+        }
+      },
+      "avg": 4761
+    },
     "padalka-supreme-neck-through-carbon": {
       "displayName": "Padalka Supreme 2025 Custom – Neck-Through / Carbon Reinforced / Pegcity Pickups",
       "brand": "Padalka",
@@ -40211,6 +40242,15 @@
     }
   },
   "byBrandPrice": {
+    "Fender": {
+      "count": 79,
+      "min": 599,
+      "max": 10995,
+      "soldCount": 30,
+      "outliersExcluded": 11,
+      "avg": 3060,
+      "soldAvg": 3187
+    },
     "Padalka": {
       "count": 2,
       "min": 4950,
@@ -40489,15 +40529,6 @@
       "outliersExcluded": 0,
       "avg": 3364,
       "soldAvg": 2325
-    },
-    "Fender": {
-      "count": 78,
-      "min": 599,
-      "max": 10995,
-      "soldCount": 30,
-      "outliersExcluded": 11,
-      "avg": 3038,
-      "soldAvg": 3187
     },
     "Gretsch": {
       "count": 12,
@@ -42076,6 +42107,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 385,
+      "sum": 1513423.56,
+      "sold": {
+        "count": 139,
+        "sum": 311312.17999999993,
+        "avg": 2240,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3931,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 476,
       "sum": 2040093.8699999994,
@@ -42103,20 +42148,6 @@
       "avg": 4605,
       "min": 400,
       "max": 46467.6
-    },
-    "Very Good": {
-      "count": 384,
-      "sum": 1508662.56,
-      "sold": {
-        "count": 139,
-        "sum": 311312.17999999993,
-        "avg": 2240,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3929,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 141,
@@ -42211,9 +42242,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3082,
-      "median": 2295,
-      "count": 99
+      "avg": 3099,
+      "median": 2297,
+      "count": 100
     },
     "05": {
       "name": "May",
@@ -42381,7 +42412,7 @@
     "500-1k": 113,
     "1k-2k": 410,
     "2k-3k": 281,
-    "3k-5k": 292,
+    "3k-5k": 293,
     "5k-10k": 150,
     "10k+": 52
   },
@@ -42390,11 +42421,16 @@
     "500-1k": 113,
     "1k-2k": 410,
     "2k-3k": 281,
-    "3k-5k": 292,
+    "3k-5k": 293,
     "5k-10k": 150,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 4149,
+      "count": 78,
+      "avg": 53
+    },
     "Padalka": {
       "sum": 58,
       "count": 2,
@@ -42594,11 +42630,6 @@
       "sum": 8,
       "count": 1,
       "avg": 8
-    },
-    "Fender": {
-      "sum": 4110,
-      "count": 77,
-      "avg": 53
     },
     "Charvel": {
       "sum": 420,
@@ -43327,7 +43358,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-14": 14,
+    "2026-06-14": 15,
     "2026-06-13": 19,
     "2026-06-12": 17,
     "2026-06-11": 18,
@@ -43356,11 +43387,11 @@
     "2026-05-15": 7
   },
   "categoryDistribution": {
-    "reverb": 1157,
+    "reverb": 1158,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 255,
+  "activeModelsCount": 256,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -43392,7 +43423,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 54
+      "count": 55
     },
     {
       "username": "jazee_",
@@ -43448,10 +43479,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6567,
+      "avgPrice": 6547,
       "retailEst": 800,
-      "avgDiscount": -720.9,
-      "count": 90
+      "avgDiscount": -718.4,
+      "count": 91
     },
     "Gibson": {
       "avgPrice": 5920,
@@ -47386,15 +47417,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1338,
+      "total": 1339,
       "sold": 424,
       "fake": 0,
-      "live": 404,
+      "live": 405,
       "removed": 510,
       "soldPct": 32,
       "livePct": 30
     },
     "byBrand": {
+      "Fender": {
+        "total": 94,
+        "sold": 33,
+        "fake": 0,
+        "live": 23,
+        "removed": 38,
+        "soldPct": 35,
+        "livePct": 24
+      },
       "Padalka": {
         "total": 2,
         "sold": 0,
@@ -47673,15 +47713,6 @@
         "removed": 5,
         "soldPct": 30,
         "livePct": 20
-      },
-      "Fender": {
-        "total": 93,
-        "sold": 33,
-        "fake": 0,
-        "live": 22,
-        "removed": 38,
-        "soldPct": 35,
-        "livePct": 24
       },
       "Gretsch": {
         "total": 14,
@@ -49511,7 +49542,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 292,
+        "total": 293,
         "sold": 88,
         "rate": 30
       },
@@ -49529,6 +49560,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 385,
+        "sold": 139,
+        "rate": 36
+      },
       "Excellent": {
         "total": 476,
         "sold": 168,
@@ -49538,11 +49574,6 @@
         "total": 35,
         "sold": 4,
         "rate": 11
-      },
-      "Very Good": {
-        "total": 384,
-        "sold": 139,
-        "rate": 36
       },
       "Good": {
         "total": 141,
@@ -49688,6 +49719,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 57,
+      "sum": 529661.8899999999,
+      "avg": 9292,
+      "min": 1400,
+      "max": 73536,
+      "sold": 22,
+      "soldSum": 133490.99,
+      "soldAvg": 6068,
+      "live": 9,
+      "removed": 26,
+      "sellRate": 39,
+      "totalDays": 1760.1,
+      "soldCount": 22,
+      "avgDaysToSell": 80
+    },
     "Bilt|Bilt": {
       "brand": "Bilt",
       "brandLine": "Bilt",
@@ -50309,25 +50359,6 @@
       "totalDays": 43,
       "soldCount": 1,
       "avgDaysToSell": 43
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 56,
-      "sum": 524900.8899999999,
-      "avg": 9373,
-      "min": 1400,
-      "max": 73536,
-      "sold": 22,
-      "soldSum": 133490.99,
-      "soldAvg": 6068,
-      "live": 8,
-      "removed": 26,
-      "sellRate": 39,
-      "totalDays": 1760.1,
-      "soldCount": 22,
-      "avgDaysToSell": 80
     },
     "Ibanez|Ibanez Sugi": {
       "brand": "Ibanez",
@@ -51710,14 +51741,14 @@
     },
     {
       "label": "31+",
-      "total": 239,
+      "total": 240,
       "sold": 68,
       "rate": 28
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 436,
+      "total": 437,
       "sold": 134,
       "rate": 31
     },
@@ -51729,7 +51760,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 321,
+      "total": 322,
       "sold": 75,
       "rate": 23
     },
@@ -51873,6 +51904,12 @@
       "rate": 14
     },
     {
+      "state": "ENG",
+      "total": 6,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "UT",
       "total": 6,
       "sold": 1,
@@ -51889,12 +51926,6 @@
       "total": 6,
       "sold": 2,
       "rate": 33
-    },
-    {
-      "state": "ENG",
-      "total": 5,
-      "sold": 0,
-      "rate": 0
     },
     {
       "state": "TOKYO",
