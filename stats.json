@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-14T00:18:50.367Z",
-  "totalLinks": 1356,
-  "totalEver": 1695,
-  "totalBeforeFilter": 1695,
+  "generatedAt": "2026-06-14T00:18:56.865Z",
+  "totalLinks": 1357,
+  "totalEver": 1696,
+  "totalBeforeFilter": 1696,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1341,
+  "totalWithPrice": 1342,
   "overall": {
-    "count": 1301,
-    "sum": 3666450.47,
-    "avg": 2818,
+    "count": 1302,
+    "sum": 3670093.47,
+    "avg": 2819,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1301,
-    "sum": 3666450.47,
-    "avg": 2818,
+    "count": 1302,
+    "sum": 3670093.47,
+    "avg": 2819,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 86,
-      "sum": 247794.99,
+      "count": 87,
+      "sum": 251437.99,
       "min": 500,
       "max": 9403,
-      "avg": 2881
+      "avg": 2890
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1114,
-      "sum": 3130144.09,
+      "count": 1115,
+      "sum": 3133787.09,
       "min": 33,
       "max": 10933,
-      "avg": 2810
+      "avg": 2811
     },
     "marketplace": {
       "count": 86,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1114,
-      "sum": 3130144.09,
+      "count": 1115,
+      "sum": 3133787.09,
       "min": 33,
       "max": 10933,
-      "avg": 2810
+      "avg": 2811
     },
     "chicagomusicexchange.com": {
       "count": 60,
@@ -639,6 +639,53 @@
     }
   },
   "byModel": {
+    "gibson-flying-v": {
+      "displayName": "Gibson Flying V Custom 2019 - Present - Ebony",
+      "brand": "Gibson",
+      "model": "Flying V",
+      "variant": null,
+      "count": 2,
+      "sum": 5042.99,
+      "min": 1399.99,
+      "max": 3643,
+      "sightings": [
+        {
+          "price": 1399.99,
+          "date": "2026-04-01T04:55:58.944+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Flying V, Antique Natural w/HSC",
+          "url": "https://reverb.com/item/95580585-gibson-flying-v-antique-natural-w-hsc",
+          "condition": "Excellent"
+        },
+        {
+          "price": 3643,
+          "date": "2026-06-14T00:18:39.01+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Flying V Custom 2019 - Present - Ebony",
+          "url": "https://reverb.com/item/98188699",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 3643,
+          "min": 3643,
+          "max": 3643,
+          "avg": 3643
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 1399.99,
+          "min": 1399.99,
+          "max": 1399.99,
+          "avg": 1400
+        }
+      },
+      "avg": 2521
+    },
     "empress-abernethy-100-year": {
       "displayName": "2025 Abernethy Sonic Empress #199 (100+ year Redwood)",
       "brand": "Empress",
@@ -36534,37 +36581,6 @@
       },
       "avg": 3800
     },
-    "gibson-flying-v": {
-      "displayName": "Gibson Flying V, Antique Natural w/HSC",
-      "brand": "Gibson",
-      "model": "Flying V",
-      "variant": null,
-      "count": 1,
-      "sum": 1399.99,
-      "min": 1399.99,
-      "max": 1399.99,
-      "sightings": [
-        {
-          "price": 1399.99,
-          "date": "2026-04-01T04:55:58.944+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Flying V, Antique Natural w/HSC",
-          "url": "https://reverb.com/item/95580585-gibson-flying-v-antique-natural-w-hsc",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1399.99,
-          "min": 1399.99,
-          "max": 1399.99,
-          "avg": 1400
-        }
-      },
-      "avg": 1400
-    },
     "millimetric-mgs3": {
       "displayName": "Millimetric MGS3 - Purple",
       "brand": "Millimetric",
@@ -39830,6 +39846,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 171,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 60,
+      "outliersExcluded": 1,
+      "avg": 3484,
+      "soldAvg": 3221
+    },
     "Empress": {
       "count": 1,
       "min": 3899,
@@ -39901,15 +39926,6 @@
       "outliersExcluded": 0,
       "avg": 2108,
       "soldAvg": 3200
-    },
-    "Gibson": {
-      "count": 170,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 60,
-      "outliersExcluded": 1,
-      "avg": 3483,
-      "soldAvg": 3221
     },
     "Kiesel": {
       "count": 56,
@@ -41686,6 +41702,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 381,
+      "sum": 1503394.56,
+      "sold": {
+        "count": 137,
+        "sum": 307601.17999999993,
+        "avg": 2245,
+        "min": 95,
+        "max": 10800
+      },
+      "avg": 3946,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 470,
       "sum": 2007457.8699999994,
@@ -41724,20 +41754,6 @@
       "avg": 4441,
       "min": 475.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 380,
-      "sum": 1499751.56,
-      "sold": {
-        "count": 137,
-        "sum": 307601.17999999993,
-        "avg": 2245,
-        "min": 95,
-        "max": 10800
-      },
-      "avg": 3947,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 105,
@@ -41821,9 +41837,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2881,
-      "median": 2273,
-      "count": 86
+      "avg": 2890,
+      "median": 2295,
+      "count": 87
     },
     "05": {
       "name": "May",
@@ -41991,7 +42007,7 @@
     "500-1k": 113,
     "1k-2k": 407,
     "2k-3k": 281,
-    "3k-5k": 290,
+    "3k-5k": 291,
     "5k-10k": 147,
     "10k+": 50
   },
@@ -42000,11 +42016,16 @@
     "500-1k": 113,
     "1k-2k": 407,
     "2k-3k": 281,
-    "3k-5k": 290,
+    "3k-5k": 291,
     "5k-10k": 147,
     "10k+": 10
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 7612,
+      "count": 146,
+      "avg": 52
+    },
     "Empress": {
       "sum": 0,
       "count": 1,
@@ -42034,11 +42055,6 @@
       "sum": 17,
       "count": 1,
       "avg": 17
-    },
-    "Gibson": {
-      "sum": 7612,
-      "count": 145,
-      "avg": 52
     },
     "Kiesel": {
       "sum": 2096,
@@ -42927,7 +42943,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-14": 1,
+    "2026-06-14": 2,
     "2026-06-13": 19,
     "2026-06-12": 17,
     "2026-06-11": 18,
@@ -42956,15 +42972,15 @@
     "2026-05-15": 15
   },
   "categoryDistribution": {
-    "reverb": 1144,
+    "reverb": 1145,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 250,
+  "activeModelsCount": 251,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 373
+      "count": 374
     },
     {
       "username": "greg1213",
@@ -43054,10 +43070,10 @@
       "count": 90
     },
     "Gibson": {
-      "avgPrice": 5930,
+      "avgPrice": 5917,
       "retailEst": 800,
-      "avgDiscount": -641.3,
-      "count": 175
+      "avgDiscount": -639.7,
+      "count": 176
     },
     "Epiphone": {
       "avgPrice": 2092,
@@ -46966,15 +46982,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1325,
+      "total": 1326,
       "sold": 422,
       "fake": 0,
-      "live": 393,
+      "live": 394,
       "removed": 510,
       "soldPct": 32,
       "livePct": 30
     },
     "byBrand": {
+      "Gibson": {
+        "total": 178,
+        "sold": 60,
+        "fake": 0,
+        "live": 43,
+        "removed": 75,
+        "soldPct": 34,
+        "livePct": 24
+      },
       "Empress": {
         "total": 1,
         "sold": 0,
@@ -47046,15 +47071,6 @@
         "removed": 2,
         "soldPct": 38,
         "livePct": 38
-      },
-      "Gibson": {
-        "total": 177,
-        "sold": 60,
-        "fake": 0,
-        "live": 42,
-        "removed": 75,
-        "soldPct": 34,
-        "livePct": 24
       },
       "Kiesel": {
         "total": 59,
@@ -49082,7 +49098,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 290,
+        "total": 291,
         "sold": 87,
         "rate": 30
       },
@@ -49100,6 +49116,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 381,
+        "sold": 137,
+        "rate": 36
+      },
       "Excellent": {
         "total": 470,
         "sold": 168,
@@ -49114,11 +49135,6 @@
         "total": 52,
         "sold": 8,
         "rate": 15
-      },
-      "Very Good": {
-        "total": 380,
-        "sold": 137,
-        "rate": 36
       },
       "Brand New": {
         "total": 105,
@@ -49245,6 +49261,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 137,
+      "sum": 844519.0499999999,
+      "avg": 6164,
+      "min": 135,
+      "max": 437713.69,
+      "sold": 47,
+      "soldSum": 130609.96,
+      "soldAvg": 2779,
+      "live": 36,
+      "removed": 54,
+      "sellRate": 34,
+      "totalDays": 3059.7999999999997,
+      "soldCount": 47,
+      "avgDaysToSell": 65.1
+    },
     "Ibanez|Ibanez GIO": {
       "brand": "Ibanez",
       "brandLine": "Ibanez GIO",
@@ -49319,25 +49354,6 @@
       "totalDays": 141.5,
       "soldCount": 2,
       "avgDaysToSell": 70.8
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 136,
-      "sum": 840876.0499999999,
-      "avg": 6183,
-      "min": 135,
-      "max": 437713.69,
-      "sold": 47,
-      "soldSum": 130609.96,
-      "soldAvg": 2779,
-      "live": 35,
-      "removed": 54,
-      "sellRate": 35,
-      "totalDays": 3059.7999999999997,
-      "soldCount": 47,
-      "avgDaysToSell": 65.1
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -51243,9 +51259,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 5,
+      "total": 6,
       "sold": 3,
-      "rate": 60
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -51274,7 +51290,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 423,
+      "total": 424,
       "sold": 133,
       "rate": 31
     },
@@ -51291,7 +51307,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 275,
+      "total": 276,
       "sold": 96,
       "rate": 35
     }
@@ -51388,6 +51404,12 @@
       "rate": 38
     },
     {
+      "state": "GA",
+      "total": 8,
+      "sold": 1,
+      "rate": 13
+    },
+    {
       "state": "ON",
       "total": 8,
       "sold": 0,
@@ -51404,12 +51426,6 @@
       "total": 7,
       "sold": 2,
       "rate": 29
-    },
-    {
-      "state": "GA",
-      "total": 7,
-      "sold": 1,
-      "rate": 14
     },
     {
       "state": "VA",
