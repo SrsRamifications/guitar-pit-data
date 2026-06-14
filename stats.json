@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-06-14T19:03:51.040Z",
-  "totalLinks": 1378,
-  "totalEver": 1717,
-  "totalBeforeFilter": 1717,
+  "generatedAt": "2026-06-14T19:13:08.961Z",
+  "totalLinks": 1379,
+  "totalEver": 1718,
+  "totalBeforeFilter": 1718,
   "fakeCount": 18,
   "removedCount": 546,
-  "totalWithPrice": 1363,
+  "totalWithPrice": 1364,
   "overall": {
-    "count": 1323,
-    "sum": 3751988.47,
-    "avg": 2836,
+    "count": 1324,
+    "sum": 3753087.47,
+    "avg": 2835,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1323,
-    "sum": 3751988.47,
-    "avg": 2836,
+    "count": 1324,
+    "sum": 3753087.47,
+    "avg": 2835,
     "min": 3,
     "max": 11099,
     "median": 2250
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 108,
-      "sum": 333582.99,
+      "count": 109,
+      "sum": 334681.99,
       "min": 260,
       "max": 10599,
-      "avg": 3089
+      "avg": 3070
     },
     "2026-05": {
       "count": 360,
@@ -370,11 +370,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1136,
-      "sum": 3215682.09,
+      "count": 1137,
+      "sum": 3216781.09,
       "min": 33,
       "max": 10933,
-      "avg": 2831
+      "avg": 2829
     },
     "marketplace": {
       "count": 86,
@@ -393,11 +393,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1136,
-      "sum": 3215682.09,
+      "count": 1137,
+      "sum": 3216781.09,
       "min": 33,
       "max": 10933,
-      "avg": 2831
+      "avg": 2829
     },
     "chicagomusicexchange.com": {
       "count": 60,
@@ -639,6 +639,37 @@
     }
   },
   "byModel": {
+    "ibanez-7420fm-transparent": {
+      "displayName": "Ibanez S 7420FM 1999 - Transparent Blue",
+      "brand": "Ibanez",
+      "model": "7420FM Transparent",
+      "variant": null,
+      "count": 1,
+      "sum": 1099,
+      "min": 1099,
+      "max": 1099,
+      "sightings": [
+        {
+          "price": 1099,
+          "date": "2026-06-14T19:12:51.524+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez S 7420FM 1999 - Transparent Blue",
+          "url": "https://reverb.com/item/98209843",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1099,
+          "min": 1099,
+          "max": 1099,
+          "avg": 1099
+        }
+      },
+      "avg": 1099
+    },
     "fender-telecaster-custom-shop-reissue": {
       "displayName": "Fender Custom Shop '61 Reissue Telecaster Custom Relic",
       "brand": "Fender",
@@ -40483,6 +40514,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 65,
+      "min": 173.3,
+      "max": 7019,
+      "soldCount": 24,
+      "outliersExcluded": 4,
+      "avg": 2164,
+      "soldAvg": 2102
+    },
     "Fender": {
       "count": 83,
       "min": 599,
@@ -40590,15 +40630,6 @@
       "outliersExcluded": 0,
       "avg": 341,
       "soldAvg": 350
-    },
-    "Ibanez": {
-      "count": 64,
-      "min": 173.3,
-      "max": 7019,
-      "soldCount": 24,
-      "outliersExcluded": 4,
-      "avg": 2181,
-      "soldAvg": 2102
     },
     "Empress": {
       "count": 1,
@@ -42348,6 +42379,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 144,
+      "sum": 425462.26,
+      "sold": {
+        "count": 45,
+        "sum": 91648.21999999999,
+        "avg": 2037,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 2955,
+      "min": 70,
+      "max": 55000
+    },
     "Excellent": {
       "count": 479,
       "sum": 2047427.8699999994,
@@ -42389,20 +42434,6 @@
       "avg": 4254,
       "min": 135,
       "max": 14670
-    },
-    "Good": {
-      "count": 143,
-      "sum": 424363.26,
-      "sold": {
-        "count": 45,
-        "sum": 91648.21999999999,
-        "avg": 2037,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 2968,
-      "min": 70,
-      "max": 55000
     },
     "Mint": {
       "count": 35,
@@ -42483,9 +42514,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3089,
-      "median": 2501,
-      "count": 108
+      "avg": 3070,
+      "median": 2500,
+      "count": 109
     },
     "05": {
       "name": "May",
@@ -42651,7 +42682,7 @@
   "priceDistribution": {
     "0-500": 56,
     "500-1k": 113,
-    "1k-2k": 412,
+    "1k-2k": 413,
     "2k-3k": 284,
     "3k-5k": 296,
     "5k-10k": 150,
@@ -42660,13 +42691,18 @@
   "priceDistributionFiltered": {
     "0-500": 56,
     "500-1k": 113,
-    "1k-2k": 412,
+    "1k-2k": 413,
     "2k-3k": 284,
     "3k-5k": 296,
     "5k-10k": 150,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 3231,
+      "count": 64,
+      "avg": 50
+    },
     "Fender": {
       "sum": 4236,
       "count": 82,
@@ -42708,7 +42744,7 @@
       "avg": 31
     },
     "Gibson": {
-      "sum": 7761,
+      "sum": 7762,
       "count": 147,
       "avg": 53
     },
@@ -42721,11 +42757,6 @@
       "sum": 165,
       "count": 4,
       "avg": 41
-    },
-    "Ibanez": {
-      "sum": 3231,
-      "count": 63,
-      "avg": 51
     },
     "Empress": {
       "sum": 1,
@@ -42773,7 +42804,7 @@
       "avg": 35
     },
     "Epiphone": {
-      "sum": 585,
+      "sum": 586,
       "count": 12,
       "avg": 49
     },
@@ -43599,7 +43630,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-14": 23,
+    "2026-06-14": 24,
     "2026-06-13": 19,
     "2026-06-12": 17,
     "2026-06-11": 18,
@@ -43628,15 +43659,15 @@
     "2026-05-15": 6
   },
   "categoryDistribution": {
-    "reverb": 1166,
+    "reverb": 1167,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 263,
+  "activeModelsCount": 264,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 383
+      "count": 384
     },
     {
       "username": "greg1213",
@@ -43750,10 +43781,10 @@
       "count": 124
     },
     "Ibanez": {
-      "avgPrice": 3095,
+      "avgPrice": 3067,
       "retailEst": 1000,
-      "avgDiscount": -209.5,
-      "count": 69
+      "avgDiscount": -206.7,
+      "count": 70
     },
     "Jackson": {
       "avgPrice": 4463,
@@ -47658,15 +47689,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1347,
+      "total": 1348,
       "sold": 424,
       "fake": 0,
-      "live": 413,
+      "live": 414,
       "removed": 510,
       "soldPct": 31,
       "livePct": 31
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 70,
+        "sold": 24,
+        "fake": 0,
+        "live": 26,
+        "removed": 20,
+        "soldPct": 34,
+        "livePct": 37
+      },
       "Fender": {
         "total": 98,
         "sold": 33,
@@ -47774,15 +47814,6 @@
         "removed": 2,
         "soldPct": 13,
         "livePct": 63
-      },
-      "Ibanez": {
-        "total": 69,
-        "sold": 24,
-        "fake": 0,
-        "live": 25,
-        "removed": 20,
-        "soldPct": 35,
-        "livePct": 36
       },
       "Empress": {
         "total": 1,
@@ -49771,7 +49802,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 412,
+        "total": 413,
         "sold": 139,
         "rate": 34
       },
@@ -49801,6 +49832,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 144,
+        "sold": 51,
+        "rate": 35
+      },
       "Excellent": {
         "total": 479,
         "sold": 168,
@@ -49815,11 +49851,6 @@
         "total": 107,
         "sold": 16,
         "rate": 15
-      },
-      "Good": {
-        "total": 143,
-        "sold": 51,
-        "rate": 36
       },
       "Mint": {
         "total": 35,
@@ -49960,6 +49991,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Prestige": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Prestige",
+      "tier": "high",
+      "count": 31,
+      "sum": 63859.34999999999,
+      "avg": 2060,
+      "min": 999,
+      "max": 7019,
+      "sold": 11,
+      "soldSum": 19628.32,
+      "soldAvg": 1784,
+      "live": 12,
+      "removed": 8,
+      "sellRate": 35,
+      "totalDays": 671.1,
+      "soldCount": 11,
+      "avgDaysToSell": 61
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -50032,7 +50082,7 @@
       "live": 36,
       "removed": 54,
       "sellRate": 35,
-      "totalDays": 3097.5000000000005,
+      "totalDays": 3097.7000000000007,
       "soldCount": 48,
       "avgDaysToSell": 64.5
     },
@@ -50072,25 +50122,6 @@
       "totalDays": 57.1,
       "soldCount": 1,
       "avgDaysToSell": 57.1
-    },
-    "Ibanez|Ibanez Prestige": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Prestige",
-      "tier": "high",
-      "count": 30,
-      "sum": 62760.34999999999,
-      "avg": 2092,
-      "min": 999,
-      "max": 7019,
-      "sold": 11,
-      "soldSum": 19628.32,
-      "soldAvg": 1784,
-      "live": 11,
-      "removed": 8,
-      "sellRate": 37,
-      "totalDays": 671.1,
-      "soldCount": 11,
-      "avgDaysToSell": 61
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -50144,7 +50175,7 @@
       "live": 5,
       "removed": 6,
       "sellRate": 42,
-      "totalDays": 806.3,
+      "totalDays": 806.4,
       "soldCount": 8,
       "avgDaysToSell": 100.8
     },
@@ -50201,7 +50232,7 @@
       "live": 21,
       "removed": 13,
       "sellRate": 39,
-      "totalDays": 1739.1000000000001,
+      "totalDays": 1739.2,
       "soldCount": 22,
       "avgDaysToSell": 79.1
     },
@@ -50220,7 +50251,7 @@
       "live": 16,
       "removed": 45,
       "sellRate": 37,
-      "totalDays": 2126.2,
+      "totalDays": 2126.3999999999996,
       "soldCount": 36,
       "avgDaysToSell": 59.1
     },
@@ -50258,9 +50289,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 20,
-      "totalDays": 27.8,
+      "totalDays": 27.9,
       "soldCount": 1,
-      "avgDaysToSell": 27.8
+      "avgDaysToSell": 27.9
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -50465,9 +50496,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 42,
-      "totalDays": 211.59999999999997,
+      "totalDays": 211.8,
       "soldCount": 5,
-      "avgDaysToSell": 42.3
+      "avgDaysToSell": 42.4
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -50634,7 +50665,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 59,
-      "totalDays": 799.3000000000002,
+      "totalDays": 799.5000000000001,
       "soldCount": 13,
       "avgDaysToSell": 61.5
     },
@@ -50691,7 +50722,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 43,
-      "totalDays": 138.8,
+      "totalDays": 138.89999999999998,
       "soldCount": 3,
       "avgDaysToSell": 46.3
     },
@@ -50842,7 +50873,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 108.9,
+      "totalDays": 109,
       "soldCount": 3,
       "avgDaysToSell": 36.3
     },
@@ -51162,7 +51193,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 99.30000000000001,
+      "totalDays": 99.4,
       "soldCount": 2,
       "avgDaysToSell": 49.7
     },
@@ -51829,7 +51860,7 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 137.9,
+      "totalDays": 138,
       "soldCount": 2,
       "avgDaysToSell": 69
     },
@@ -51964,9 +51995,9 @@
     },
     {
       "label": "1–5",
-      "total": 50,
+      "total": 51,
       "sold": 14,
-      "rate": 28
+      "rate": 27
     },
     {
       "label": "6–15",
@@ -51989,7 +52020,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 440,
+      "total": 441,
       "sold": 134,
       "rate": 30
     },
@@ -52006,7 +52037,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 287,
+      "total": 288,
       "sold": 98,
       "rate": 34
     }
@@ -52032,9 +52063,9 @@
     },
     {
       "state": "IL",
-      "total": 36,
+      "total": 37,
       "sold": 10,
-      "rate": 28
+      "rate": 27
     },
     {
       "state": "FL",
