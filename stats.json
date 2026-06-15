@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-15T00:33:55.648Z",
-  "totalLinks": 1379,
-  "totalEver": 1718,
-  "totalBeforeFilter": 1718,
+  "generatedAt": "2026-06-15T00:47:50.807Z",
+  "totalLinks": 1380,
+  "totalEver": 1719,
+  "totalBeforeFilter": 1719,
   "fakeCount": 18,
   "removedCount": 547,
-  "totalWithPrice": 1364,
+  "totalWithPrice": 1365,
   "overall": {
-    "count": 1324,
-    "sum": 3753042.47,
+    "count": 1325,
+    "sum": 3756042.47,
     "avg": 2835,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1324,
-    "sum": 3753042.47,
+    "count": 1325,
+    "sum": 3756042.47,
     "avg": 2835,
     "min": 3,
     "max": 11099,
@@ -340,11 +340,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 109,
-      "sum": 334636.99,
+      "count": 110,
+      "sum": 337636.99,
       "min": 260,
       "max": 10599,
-      "avg": 3070
+      "avg": 3069
     },
     "2026-05": {
       "count": 360,
@@ -370,8 +370,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1137,
-      "sum": 3216736.09,
+      "count": 1138,
+      "sum": 3219736.09,
       "min": 33,
       "max": 10933,
       "avg": 2829
@@ -393,8 +393,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1137,
-      "sum": 3216736.09,
+      "count": 1138,
+      "sum": 3219736.09,
       "min": 33,
       "max": 10933,
       "avg": 2829
@@ -639,6 +639,46 @@
     }
   },
   "byModel": {
+    "anderson-classic": {
+      "displayName": "Tom Anderson Guitarworks T Classic",
+      "brand": "Anderson",
+      "model": "Classic",
+      "variant": null,
+      "count": 2,
+      "sum": 5550,
+      "min": 2550,
+      "max": 3000,
+      "sightings": [
+        {
+          "price": 2550,
+          "date": "2026-03-28T19:18:48.079+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Tom Anderson Hollow T Classic Contoured 2007 - Translucent Blond",
+          "url": "https://reverb.com/item/95515485-tom-anderson-hollow-t-classic-contoured-2007-translucent-blond",
+          "condition": "Excellent"
+        },
+        {
+          "price": 3000,
+          "date": "2026-06-15T00:47:31.955+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Tom Anderson Guitarworks T Classic",
+          "url": "https://reverb.com/uk/item/97932517-tom-anderson-guitarworks-t-classic",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 2,
+          "sum": 5550,
+          "min": 2550,
+          "max": 3000,
+          "avg": 2775
+        }
+      },
+      "avg": 2775
+    },
     "ibanez-7420fm-transparent": {
       "displayName": "Ibanez S 7420FM 1999 - Transparent Blue",
       "brand": "Ibanez",
@@ -10795,10 +10835,10 @@
       "trends": {
         "d30": {
           "direction": "down",
-          "pctChange": -6,
-          "recentAvg": 1935,
-          "olderAvg": 2068,
-          "recentCount": 2
+          "pctChange": -8,
+          "recentAvg": 1895,
+          "olderAvg": 2052,
+          "recentCount": 1
         },
         "d60": {
           "direction": "up",
@@ -39233,37 +39273,6 @@
       },
       "avg": 2300
     },
-    "anderson-classic": {
-      "displayName": "Tom Anderson Hollow T Classic Contoured 2007 - Translucent Blond",
-      "brand": "Anderson",
-      "model": "Classic",
-      "variant": null,
-      "count": 1,
-      "sum": 2550,
-      "min": 2550,
-      "max": 2550,
-      "sightings": [
-        {
-          "price": 2550,
-          "date": "2026-03-28T19:18:48.079+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Tom Anderson Hollow T Classic Contoured 2007 - Translucent Blond",
-          "url": "https://reverb.com/item/95515485-tom-anderson-hollow-t-classic-contoured-2007-translucent-blond",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2550,
-          "min": 2550,
-          "max": 2550,
-          "avg": 2550
-        }
-      },
-      "avg": 2550
-    },
     "gibson-sg-custom-shop-59": {
       "displayName": "Gibson Custom Shop 61/59 SG  VOS",
       "brand": "Gibson",
@@ -40507,6 +40516,15 @@
     }
   },
   "byBrandPrice": {
+    "Anderson": {
+      "count": 11,
+      "min": 2249,
+      "max": 5250,
+      "soldCount": 1,
+      "outliersExcluded": 0,
+      "avg": 3205,
+      "soldAvg": 2499
+    },
     "Ibanez": {
       "count": 65,
       "min": 173.3,
@@ -40947,15 +40965,6 @@
       "outliersExcluded": 0,
       "avg": 2390,
       "soldAvg": 1612
-    },
-    "Anderson": {
-      "count": 10,
-      "min": 2249,
-      "max": 5250,
-      "soldCount": 1,
-      "outliersExcluded": 0,
-      "avg": 3226,
-      "soldAvg": 2499
     },
     "Guyatone": {
       "count": 1,
@@ -42372,6 +42381,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 480,
+      "sum": 2050382.8699999994,
+      "sold": {
+        "count": 165,
+        "sum": 486987.89999999997,
+        "avg": 2951,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4272,
+      "min": 269,
+      "max": 190000
+    },
     "Good": {
       "count": 144,
       "sum": 425462.26,
@@ -42385,20 +42408,6 @@
       "avg": 2955,
       "min": 70,
       "max": 55000
-    },
-    "Excellent": {
-      "count": 479,
-      "sum": 2047382.8699999994,
-      "sold": {
-        "count": 165,
-        "sum": 486987.89999999997,
-        "avg": 2951,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4274,
-      "min": 269,
-      "max": 190000
     },
     "Very Good": {
       "count": 386,
@@ -42507,9 +42516,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3070,
-      "median": 2500,
-      "count": 109
+      "avg": 3069,
+      "median": 2501,
+      "count": 110
     },
     "05": {
       "name": "May",
@@ -42677,7 +42686,7 @@
     "500-1k": 113,
     "1k-2k": 413,
     "2k-3k": 284,
-    "3k-5k": 296,
+    "3k-5k": 297,
     "5k-10k": 150,
     "10k+": 52
   },
@@ -42686,13 +42695,18 @@
     "500-1k": 113,
     "1k-2k": 413,
     "2k-3k": 284,
-    "3k-5k": 296,
+    "3k-5k": 297,
     "5k-10k": 150,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Anderson": {
+      "sum": 486,
+      "count": 11,
+      "avg": 44
+    },
     "Ibanez": {
-      "sum": 3235,
+      "sum": 3236,
       "count": 64,
       "avg": 51
     },
@@ -42712,7 +42726,7 @@
       "avg": 29
     },
     "BC Rich": {
-      "sum": 4557,
+      "sum": 4558,
       "count": 89,
       "avg": 51
     },
@@ -42762,7 +42776,7 @@
       "avg": 3
     },
     "Suhr": {
-      "sum": 751,
+      "sum": 752,
       "count": 17,
       "avg": 44
     },
@@ -42782,7 +42796,7 @@
       "avg": 45
     },
     "PRS": {
-      "sum": 6009,
+      "sum": 6010,
       "count": 115,
       "avg": 52
     },
@@ -42925,11 +42939,6 @@
       "sum": 236,
       "count": 5,
       "avg": 47
-    },
-    "Anderson": {
-      "sum": 477,
-      "count": 10,
-      "avg": 48
     },
     "Washburn": {
       "sum": 386,
@@ -43257,9 +43266,9 @@
       "avg": 50
     },
     "Vigier": {
-      "sum": 193,
+      "sum": 194,
       "count": 3,
-      "avg": 64
+      "avg": 65
     },
     "Peavey": {
       "sum": 50,
@@ -43618,6 +43627,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-06-15": 1,
     "2026-06-14": 24,
     "2026-06-13": 19,
     "2026-06-12": 17,
@@ -43643,14 +43653,14 @@
     "2026-05-19": 11,
     "2026-05-18": 6,
     "2026-05-17": 16,
-    "2026-05-16": 17
+    "2026-05-16": 16
   },
   "categoryDistribution": {
-    "reverb": 1167,
+    "reverb": 1168,
     "marketplace": 99,
     "other": 113
   },
-  "activeModelsCount": 259,
+  "activeModelsCount": 260,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -43810,10 +43820,10 @@
       "count": 17
     },
     "Anderson": {
-      "avgPrice": 3226,
+      "avgPrice": 3205,
       "retailEst": 2500,
-      "avgDiscount": -29,
-      "count": 10
+      "avgDiscount": -28.2,
+      "count": 11
     },
     "Kiesel": {
       "avgPrice": 1597,
@@ -47287,11 +47297,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 3215.544300738581,
-      "count": 196,
+      "totalPctDrop": 3221.794300738581,
+      "count": 197,
       "avgPctDrop": 16.4
     },
     "byBrand": {
+      "Anderson": {
+        "totalPctDrop": 22.504001600640255,
+        "count": 3,
+        "avgPctDrop": 7.5
+      },
       "Fender": {
         "totalPctDrop": 304.48039380567434,
         "count": 17,
@@ -47436,11 +47451,6 @@
         "totalPctDrop": 29.433962264150942,
         "count": 2,
         "avgPctDrop": 14.7
-      },
-      "Anderson": {
-        "totalPctDrop": 16.254001600640255,
-        "count": 2,
-        "avgPctDrop": 8.1
       },
       "Mighty Mite": {
         "totalPctDrop": 47.61904761904761,
@@ -47676,15 +47686,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1348,
+      "total": 1349,
       "sold": 424,
       "fake": 0,
-      "live": 413,
+      "live": 414,
       "removed": 511,
       "soldPct": 31,
       "livePct": 31
     },
     "byBrand": {
+      "Anderson": {
+        "total": 11,
+        "sold": 1,
+        "fake": 0,
+        "live": 4,
+        "removed": 6,
+        "soldPct": 9,
+        "livePct": 36
+      },
       "Ibanez": {
         "total": 70,
         "sold": 24,
@@ -48134,15 +48153,6 @@
         "removed": 0,
         "soldPct": 60,
         "livePct": 40
-      },
-      "Anderson": {
-        "total": 10,
-        "sold": 1,
-        "fake": 0,
-        "live": 3,
-        "removed": 6,
-        "soldPct": 10,
-        "livePct": 30
       },
       "Guyatone": {
         "total": 1,
@@ -49726,10 +49736,10 @@
       },
       {
         "brand": "Anderson",
-        "total": 10,
+        "total": 11,
         "sold": 1,
-        "live": 3,
-        "soldPct": 10
+        "live": 4,
+        "soldPct": 9
       },
       {
         "brand": "Squier",
@@ -49801,7 +49811,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 296,
+        "total": 297,
         "sold": 88,
         "rate": 30
       },
@@ -49819,14 +49829,14 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 480,
+        "sold": 168,
+        "rate": 35
+      },
       "Good": {
         "total": 144,
         "sold": 51,
-        "rate": 35
-      },
-      "Excellent": {
-        "total": 479,
-        "sold": 168,
         "rate": 35
       },
       "Very Good": {
@@ -49978,6 +49988,25 @@
     ]
   },
   "byBrandLine": {
+    "Anderson|Tom Anderson": {
+      "brand": "Anderson",
+      "brandLine": "Tom Anderson",
+      "tier": "premium",
+      "count": 10,
+      "sum": 32359.989999999998,
+      "avg": 3236,
+      "min": 2249,
+      "max": 5250,
+      "sold": 1,
+      "soldSum": 2499,
+      "soldAvg": 2499,
+      "live": 3,
+      "removed": 6,
+      "sellRate": 10,
+      "totalDays": 37.2,
+      "soldCount": 1,
+      "avgDaysToSell": 37.2
+    },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
@@ -50012,9 +50041,9 @@
       "live": 13,
       "removed": 26,
       "sellRate": 36,
-      "totalDays": 1767.4,
+      "totalDays": 1767.8,
       "soldCount": 22,
-      "avgDaysToSell": 80.3
+      "avgDaysToSell": 80.4
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -50031,7 +50060,7 @@
       "live": 13,
       "removed": 13,
       "sellRate": 32,
-      "totalDays": 778.9,
+      "totalDays": 779,
       "soldCount": 12,
       "avgDaysToSell": 64.9
     },
@@ -50069,7 +50098,7 @@
       "live": 36,
       "removed": 54,
       "sellRate": 35,
-      "totalDays": 3108.0999999999995,
+      "totalDays": 3108.7999999999993,
       "soldCount": 48,
       "avgDaysToSell": 64.8
     },
@@ -50219,7 +50248,7 @@
       "live": 21,
       "removed": 13,
       "sellRate": 39,
-      "totalDays": 1744.4000000000003,
+      "totalDays": 1744.6000000000001,
       "soldCount": 22,
       "avgDaysToSell": 79.3
     },
@@ -50238,7 +50267,7 @@
       "live": 16,
       "removed": 45,
       "sellRate": 37,
-      "totalDays": 2134.2999999999997,
+      "totalDays": 2135,
       "soldCount": 36,
       "avgDaysToSell": 59.3
     },
@@ -50257,7 +50286,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 253.2,
+      "totalDays": 253.3,
       "soldCount": 3,
       "avgDaysToSell": 84.4
     },
@@ -50314,7 +50343,7 @@
       "live": 8,
       "removed": 6,
       "sellRate": 22,
-      "totalDays": 289,
+      "totalDays": 289.2,
       "soldCount": 4,
       "avgDaysToSell": 72.3
     },
@@ -50333,7 +50362,7 @@
       "live": 3,
       "removed": 21,
       "sellRate": 33,
-      "totalDays": 840.6,
+      "totalDays": 840.8,
       "soldCount": 12,
       "avgDaysToSell": 70.1
     },
@@ -50352,9 +50381,9 @@
       "live": 4,
       "removed": 10,
       "sellRate": 26,
-      "totalDays": 328.70000000000005,
+      "totalDays": 328.79999999999995,
       "soldCount": 5,
-      "avgDaysToSell": 65.7
+      "avgDaysToSell": 65.8
     },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
@@ -50562,25 +50591,6 @@
       "soldCount": 1,
       "avgDaysToSell": 295.3
     },
-    "Anderson|Tom Anderson": {
-      "brand": "Anderson",
-      "brandLine": "Tom Anderson",
-      "tier": "premium",
-      "count": 9,
-      "sum": 29359.989999999998,
-      "avg": 3262,
-      "min": 2249,
-      "max": 5250,
-      "sold": 1,
-      "soldSum": 2499,
-      "soldAvg": 2499,
-      "live": 2,
-      "removed": 6,
-      "sellRate": 11,
-      "totalDays": 37.2,
-      "soldCount": 1,
-      "avgDaysToSell": 37.2
-    },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
       "brandLine": "Washburn USA Custom",
@@ -50652,7 +50662,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 59,
-      "totalDays": 802.3,
+      "totalDays": 802.6999999999999,
       "soldCount": 13,
       "avgDaysToSell": 61.7
     },
@@ -50841,7 +50851,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 457,
+      "totalDays": 457.20000000000005,
       "soldCount": 7,
       "avgDaysToSell": 65.3
     },
@@ -50898,9 +50908,9 @@
       "live": 7,
       "removed": 8,
       "sellRate": 32,
-      "totalDays": 425.19999999999993,
+      "totalDays": 425.29999999999995,
       "soldCount": 7,
-      "avgDaysToSell": 60.7
+      "avgDaysToSell": 60.8
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -50936,9 +50946,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 22,
-      "totalDays": 125,
+      "totalDays": 125.1,
       "soldCount": 2,
-      "avgDaysToSell": 62.5
+      "avgDaysToSell": 62.6
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -51030,7 +51040,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 255.9,
+      "totalDays": 256,
       "soldCount": 4,
       "avgDaysToSell": 64
     },
@@ -51105,9 +51115,9 @@
       "live": 1,
       "removed": 2,
       "sellRate": 25,
-      "totalDays": 40.9,
+      "totalDays": 41,
       "soldCount": 1,
-      "avgDaysToSell": 40.9
+      "avgDaysToSell": 41
     },
     "Solar Guitars|Solar Guitars": {
       "brand": "Solar Guitars",
@@ -51256,7 +51266,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 183,
+      "totalDays": 183.1,
       "soldCount": 3,
       "avgDaysToSell": 61
     },
@@ -51680,9 +51690,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 62,
+      "totalDays": 62.1,
       "soldCount": 1,
-      "avgDaysToSell": 62
+      "avgDaysToSell": 62.1
     },
     "Powers Electric|Rickenbacker": {
       "brand": "Powers Electric",
@@ -51939,9 +51949,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 73.9,
+      "totalDays": 74,
       "soldCount": 1,
-      "avgDaysToSell": 73.9
+      "avgDaysToSell": 74
     },
     "Fender|Squier": {
       "brand": "Fender",
@@ -51994,7 +52004,7 @@
     },
     {
       "label": "16–30",
-      "total": 187,
+      "total": 188,
       "sold": 52,
       "rate": 28
     },
@@ -52007,7 +52017,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 441,
+      "total": 442,
       "sold": 134,
       "rate": 30
     },
@@ -52024,7 +52034,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 288,
+      "total": 289,
       "sold": 98,
       "rate": 34
     }
@@ -52032,9 +52042,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 73,
+      "total": 74,
       "sold": 23,
-      "rate": 32
+      "rate": 31
     },
     {
       "state": "NY",
