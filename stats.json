@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-15T18:16:04.399Z",
-  "totalLinks": 1370,
-  "totalEver": 1709,
-  "totalBeforeFilter": 1709,
+  "generatedAt": "2026-06-15T18:16:31.284Z",
+  "totalLinks": 1371,
+  "totalEver": 1710,
+  "totalBeforeFilter": 1710,
   "fakeCount": 18,
   "removedCount": 541,
-  "totalWithPrice": 1355,
+  "totalWithPrice": 1356,
   "overall": {
-    "count": 1314,
-    "sum": 3727050.51,
-    "avg": 2836,
+    "count": 1315,
+    "sum": 3731154.51,
+    "avg": 2837,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1314,
-    "sum": 3727050.51,
-    "avg": 2836,
+    "count": 1315,
+    "sum": 3731154.51,
+    "avg": 2837,
     "min": 3,
     "max": 11099,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11250,
+    "thresholdHigh": 11330,
     "thresholdLow": 0,
     "count": 41,
     "items": [
@@ -348,11 +348,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 112,
-      "sum": 345407.98,
+      "count": 113,
+      "sum": 349511.98,
       "min": 260,
       "max": 10599,
-      "avg": 3084
+      "avg": 3093
     },
     "2026-05": {
       "count": 360,
@@ -378,11 +378,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1126,
-      "sum": 3186744.14,
+      "count": 1127,
+      "sum": 3190848.14,
       "min": 33,
       "max": 10933,
-      "avg": 2830
+      "avg": 2831
     },
     "marketplace": {
       "count": 87,
@@ -401,11 +401,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1126,
-      "sum": 3186744.14,
+      "count": 1127,
+      "sum": 3190848.14,
       "min": 33,
       "max": 10933,
-      "avg": 2830
+      "avg": 2831
     },
     "tapestrymusic.com": {
       "count": 4,
@@ -647,6 +647,37 @@
     }
   },
   "byModel": {
+    "luxxtone-el-machete-heavy-heavy-relic": {
+      "displayName": "Luxxtone El Machete 2018 - Heavy relic black over red",
+      "brand": "Luxxtone",
+      "model": "El Machete Heavy",
+      "variant": "Heavy Relic",
+      "count": 1,
+      "sum": 4104,
+      "min": 4104,
+      "max": 4104,
+      "sightings": [
+        {
+          "price": 4104,
+          "date": "2026-06-15T18:16:17.602Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Luxxtone El Machete 2018 - Heavy relic black over red",
+          "url": "https://reverb.com/item/93734436",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4104,
+          "min": 4104,
+          "max": 4104,
+          "avg": 4104
+        }
+      },
+      "avg": 4104
+    },
     "gibson-les-paul-custom-shop-historic": {
       "displayName": "Gibson Custom Shop 2003 Historic Collection 1959 Les Paul Reissue",
       "brand": "Gibson",
@@ -4592,7 +4623,7 @@
       "sightings": [
         {
           "price": 2845,
-          "date": "2026-06-04T00:10:42.639Z",
+          "date": "2026-06-04T00:10:42.639+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "PRS McCarty Standard Natural 2002",
@@ -40221,6 +40252,15 @@
     }
   },
   "byBrandPrice": {
+    "Luxxtone": {
+      "count": 4,
+      "min": 2200,
+      "max": 4324,
+      "soldCount": 2,
+      "outliersExcluded": 0,
+      "avg": 3251,
+      "soldAvg": 2288
+    },
     "Gibson": {
       "count": 172,
       "min": 135,
@@ -41436,15 +41476,6 @@
       "avg": 8300,
       "soldAvg": null
     },
-    "Luxxtone": {
-      "count": 3,
-      "min": 2200,
-      "max": 4324,
-      "soldCount": 2,
-      "outliersExcluded": 0,
-      "avg": 2966,
-      "soldAvg": 2288
-    },
     "Positive Grid": {
       "count": 1,
       "min": 297,
@@ -42077,6 +42108,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 476,
+      "sum": 2067471.8999999994,
+      "sold": {
+        "count": 164,
+        "sum": 485087.91,
+        "avg": 2958,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4343,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 382,
       "sum": 1510345.58,
@@ -42090,20 +42135,6 @@
       "avg": 3954,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 475,
-      "sum": 2063367.8999999994,
-      "sold": {
-        "count": 164,
-        "sum": 485087.91,
-        "avg": 2958,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4344,
-      "min": 269,
-      "max": 190000
     },
     "Good": {
       "count": 143,
@@ -42212,9 +42243,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3084,
-      "median": 2626,
-      "count": 112
+      "avg": 3093,
+      "median": 2750,
+      "count": 113
     },
     "05": {
       "name": "May",
@@ -42382,7 +42413,7 @@
     "500-1k": 110,
     "1k-2k": 410,
     "2k-3k": 283,
-    "3k-5k": 294,
+    "3k-5k": 295,
     "5k-10k": 149,
     "10k+": 53
   },
@@ -42391,11 +42422,16 @@
     "500-1k": 110,
     "1k-2k": 410,
     "2k-3k": 283,
-    "3k-5k": 294,
+    "3k-5k": 295,
     "5k-10k": 149,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Luxxtone": {
+      "sum": 219,
+      "count": 4,
+      "avg": 55
+    },
     "Gibson": {
       "sum": 7646,
       "count": 145,
@@ -43016,11 +43052,6 @@
       "count": 1,
       "avg": 74
     },
-    "Luxxtone": {
-      "sum": 219,
-      "count": 3,
-      "avg": 73
-    },
     "Positive Grid": {
       "sum": 54,
       "count": 1,
@@ -43313,7 +43344,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-15": 4,
+    "2026-06-15": 5,
     "2026-06-14": 24,
     "2026-06-13": 19,
     "2026-06-12": 17,
@@ -43342,11 +43373,11 @@
     "2026-05-16": 5
   },
   "categoryDistribution": {
-    "reverb": 1157,
+    "reverb": 1158,
     "marketplace": 100,
     "other": 113
   },
-  "activeModelsCount": 256,
+  "activeModelsCount": 257,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -43374,7 +43405,7 @@
     },
     {
       "username": "wontongg",
-      "count": 73
+      "count": 74
     },
     {
       "username": "scottcorgan",
@@ -47348,15 +47379,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1339,
+      "total": 1340,
       "sold": 420,
       "fake": 0,
-      "live": 414,
+      "live": 415,
       "removed": 505,
       "soldPct": 31,
       "livePct": 31
     },
     "byBrand": {
+      "Luxxtone": {
+        "total": 4,
+        "sold": 2,
+        "fake": 0,
+        "live": 2,
+        "removed": 0,
+        "soldPct": 50,
+        "livePct": 50
+      },
       "Gibson": {
         "total": 179,
         "sold": 60,
@@ -48599,15 +48639,6 @@
         "soldPct": 0,
         "livePct": 50
       },
-      "Luxxtone": {
-        "total": 3,
-        "sold": 2,
-        "fake": 0,
-        "live": 1,
-        "removed": 0,
-        "soldPct": 67,
-        "livePct": 33
-      },
       "Positive Grid": {
         "total": 1,
         "sold": 0,
@@ -49464,9 +49495,9 @@
       },
       {
         "label": "$3k–5k",
-        "total": 294,
+        "total": 295,
         "sold": 87,
-        "rate": 30
+        "rate": 29
       },
       {
         "label": "$5k–10k",
@@ -49482,15 +49513,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 476,
+        "sold": 167,
+        "rate": 35
+      },
       "Very Good": {
         "total": 382,
         "sold": 137,
         "rate": 36
-      },
-      "Excellent": {
-        "total": 475,
-        "sold": 167,
-        "rate": 35
       },
       "Good": {
         "total": 143,
@@ -49770,7 +49801,7 @@
       "live": 35,
       "removed": 55,
       "sellRate": 34,
-      "totalDays": 3061.5000000000005,
+      "totalDays": 3061.6000000000004,
       "soldCount": 47,
       "avgDaysToSell": 65.1
     },
@@ -51651,7 +51682,7 @@
     },
     {
       "label": "6–15",
-      "total": 123,
+      "total": 124,
       "sold": 35,
       "rate": 28
     },
@@ -51670,7 +51701,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 443,
+      "total": 444,
       "sold": 134,
       "rate": 30
     },
@@ -51687,7 +51718,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 290,
+      "total": 291,
       "sold": 98,
       "rate": 34
     }
@@ -51954,6 +51985,12 @@
     {
       "state": "Stockholm",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "BW",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
