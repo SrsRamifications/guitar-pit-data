@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T01:54:09.577Z",
+  "generatedAt": "2026-06-16T02:09:09.518Z",
   "totalLinks": 1379,
   "totalEver": 1719,
   "totalBeforeFilter": 1719,
@@ -767,11 +767,18 @@
         }
       },
       "soldData": {
-        "count": 1,
-        "avg": 999,
+        "count": 2,
+        "avg": 1175,
         "min": 999,
-        "max": 999,
+        "max": 1350,
         "prices": [
+          {
+            "price": 1350,
+            "askingPrice": 1350,
+            "date": "2026-06-16T01:54:11.685+00:00",
+            "title": "Kiesel Retro Solo 6",
+            "url": "https://reverb.com/item/97174744"
+          },
           {
             "price": 999,
             "askingPrice": 999,
@@ -40507,10 +40514,10 @@
       "count": 57,
       "min": 650,
       "max": 4300,
-      "soldCount": 22,
+      "soldCount": 23,
       "outliersExcluded": 0,
       "avg": 1593,
-      "soldAvg": 1301
+      "soldAvg": 1303
     },
     "BC Rich": {
       "count": 95,
@@ -42377,9 +42384,9 @@
       "count": 478,
       "sum": 2076857.8999999994,
       "sold": {
-        "count": 164,
-        "sum": 485087.91,
-        "avg": 2958,
+        "count": 165,
+        "sum": 486437.91,
+        "avg": 2948,
         "min": 269,
         "max": 35900
       },
@@ -42689,7 +42696,7 @@
       "avg": 45
     },
     "BC Rich": {
-      "sum": 4651,
+      "sum": 4652,
       "count": 90,
       "avg": 52
     },
@@ -42719,7 +42726,7 @@
       "avg": 55
     },
     "Gibson": {
-      "sum": 7655,
+      "sum": 7657,
       "count": 145,
       "avg": 53
     },
@@ -42759,7 +42766,7 @@
       "avg": 31
     },
     "Padalka": {
-      "sum": 61,
+      "sum": 62,
       "count": 2,
       "avg": 31
     },
@@ -42809,7 +42816,7 @@
       "avg": 5
     },
     "PRS": {
-      "sum": 5858,
+      "sum": 5859,
       "count": 111,
       "avg": 53
     },
@@ -42934,7 +42941,7 @@
       "avg": 9
     },
     "Nash": {
-      "sum": 362,
+      "sum": 363,
       "count": 7,
       "avg": 52
     },
@@ -43004,7 +43011,7 @@
       "avg": 53
     },
     "Music Man": {
-      "sum": 1002,
+      "sum": 1003,
       "count": 19,
       "avg": 53
     },
@@ -43204,9 +43211,9 @@
       "avg": 58
     },
     "Kay": {
-      "sum": 122,
+      "sum": 123,
       "count": 2,
-      "avg": 61
+      "avg": 62
     },
     "Frank Brothers": {
       "sum": 186,
@@ -43695,7 +43702,7 @@
     },
     {
       "username": "Modean",
-      "count": 24
+      "count": 25
     },
     {
       "username": "Madero",
@@ -43854,19 +43861,27 @@
     }
   },
   "soldPrices": {
-    "count": 426,
-    "avg": 2732,
+    "count": 427,
+    "avg": 2728,
     "min": 68,
     "max": 35900,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 6686.000000000004,
-      "count": 417,
-      "avgDays": 16
+      "totalDays": 6716.100000000004,
+      "count": 418,
+      "avgDays": 16.1
     },
     "byModel": {
+      "kiesel-solo": {
+        "displayName": "Kiesel Retro Solo 6",
+        "totalDays": 33,
+        "count": 2,
+        "fastest": 2.9,
+        "slowest": 30.1,
+        "avgDays": 16.5
+      },
       "novo-serus-tc-bull": {
         "displayName": "Novo Serus TC Bull Black over Sunburst Relic Serus T",
         "totalDays": 0.2,
@@ -44970,14 +44985,6 @@
         "fastest": 23.9,
         "slowest": 23.9,
         "avgDays": 23.9
-      },
-      "kiesel-solo": {
-        "displayName": "Kiesel Solo 6",
-        "totalDays": 2.9,
-        "count": 1,
-        "fastest": 2.9,
-        "slowest": 2.9,
-        "avgDays": 2.9
       },
       "bc-rich-gunslinger-80s-splatter-usa": {
         "displayName": "B.C. Rich USA Gunslinger 80’s Splatter Pink Sherbet",
@@ -46661,6 +46668,13 @@
       }
     },
     "byBrand": {
+      "Kiesel": {
+        "totalDays": 757.4999999999999,
+        "count": 24,
+        "fastest": 0,
+        "slowest": 297.9,
+        "avgDays": 31.6
+      },
       "Novo": {
         "totalDays": 59.300000000000004,
         "count": 4,
@@ -46709,13 +46723,6 @@
         "fastest": 0,
         "slowest": 4.8,
         "avgDays": 2.3
-      },
-      "Kiesel": {
-        "totalDays": 727.3999999999999,
-        "count": 23,
-        "fastest": 0,
-        "slowest": 297.9,
-        "avgDays": 31.6
       },
       "Fender": {
         "totalDays": 718.0000000000002,
@@ -47664,9 +47671,9 @@
   "sellThrough": {
     "overall": {
       "total": 1348,
-      "sold": 422,
+      "sold": 423,
       "fake": 0,
-      "live": 421,
+      "live": 420,
       "removed": 505,
       "soldPct": 31,
       "livePct": 31
@@ -47683,12 +47690,12 @@
       },
       "Kiesel": {
         "total": 60,
-        "sold": 23,
+        "sold": 24,
         "fake": 0,
-        "live": 22,
+        "live": 21,
         "removed": 15,
-        "soldPct": 38,
-        "livePct": 37
+        "soldPct": 40,
+        "livePct": 35
       },
       "BC Rich": {
         "total": 99,
@@ -49777,8 +49784,8 @@
       {
         "label": "$1k–2k",
         "total": 414,
-        "sold": 138,
-        "rate": 33
+        "sold": 139,
+        "rate": 34
       },
       {
         "label": "$2k–3k",
@@ -49813,7 +49820,7 @@
       },
       "Excellent": {
         "total": 478,
-        "sold": 167,
+        "sold": 168,
         "rate": 35
       },
       "Very Good": {
@@ -49909,9 +49916,9 @@
       {
         "brand": "Kiesel",
         "avgPrice": 1593,
-        "sellRate": 38,
+        "sellRate": 40,
         "count": 60,
-        "sold": 23
+        "sold": 24
       },
       {
         "brand": "Washburn",
@@ -49974,15 +49981,15 @@
       "avg": 1593,
       "min": 650,
       "max": 4300,
-      "sold": 22,
-      "soldSum": 28618,
-      "soldAvg": 1301,
-      "live": 21,
+      "sold": 23,
+      "soldSum": 29968,
+      "soldAvg": 1303,
+      "live": 20,
       "removed": 14,
-      "sellRate": 39,
-      "totalDays": 1767.3,
-      "soldCount": 22,
-      "avgDaysToSell": 80.3
+      "sellRate": 40,
+      "totalDays": 1797.6,
+      "soldCount": 23,
+      "avgDaysToSell": 78.2
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -49999,7 +50006,7 @@
       "live": 14,
       "removed": 13,
       "sellRate": 31,
-      "totalDays": 791.8,
+      "totalDays": 792,
       "soldCount": 12,
       "avgDaysToSell": 66
     },
@@ -50037,9 +50044,9 @@
       "live": 4,
       "removed": 1,
       "sellRate": 55,
-      "totalDays": 345.7,
+      "totalDays": 346.00000000000006,
       "soldCount": 6,
-      "avgDaysToSell": 57.6
+      "avgDaysToSell": 57.7
     },
     "Novo|Novo": {
       "brand": "Novo",
@@ -50075,7 +50082,7 @@
       "live": 4,
       "removed": 21,
       "sellRate": 32,
-      "totalDays": 853.3,
+      "totalDays": 853.4,
       "soldCount": 12,
       "avgDaysToSell": 71.1
     },
@@ -50113,7 +50120,7 @@
       "live": 12,
       "removed": 8,
       "sellRate": 35,
-      "totalDays": 685,
+      "totalDays": 685.1999999999999,
       "soldCount": 11,
       "avgDaysToSell": 62.3
     },
@@ -50132,7 +50139,7 @@
       "live": 13,
       "removed": 26,
       "sellRate": 36,
-      "totalDays": 1790.9,
+      "totalDays": 1791.0000000000002,
       "soldCount": 22,
       "avgDaysToSell": 81.4
     },
@@ -50170,7 +50177,7 @@
       "live": 35,
       "removed": 55,
       "sellRate": 34,
-      "totalDays": 3076.6,
+      "totalDays": 3076.8999999999996,
       "soldCount": 47,
       "avgDaysToSell": 65.5
     },
@@ -50226,7 +50233,7 @@
       "live": 7,
       "removed": 14,
       "sellRate": 22,
-      "totalDays": 340.09999999999997,
+      "totalDays": 340.2,
       "soldCount": 6,
       "avgDaysToSell": 56.7
     },
@@ -50263,7 +50270,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 41,
-      "totalDays": 744.3,
+      "totalDays": 744.4,
       "soldCount": 7,
       "avgDaysToSell": 106.3
     },
@@ -50282,7 +50289,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 31,
-      "totalDays": 241.6,
+      "totalDays": 241.70000000000002,
       "soldCount": 5,
       "avgDaysToSell": 48.3
     },
@@ -50320,9 +50327,9 @@
       "live": 16,
       "removed": 41,
       "sellRate": 39,
-      "totalDays": 2172.2999999999997,
+      "totalDays": 2172.7,
       "soldCount": 36,
-      "avgDaysToSell": 60.3
+      "avgDaysToSell": 60.4
     },
     "Kramer|Kramer USA Vintage": {
       "brand": "Kramer",
@@ -50415,7 +50422,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 142.70000000000002,
+      "totalDays": 142.8,
       "soldCount": 2,
       "avgDaysToSell": 71.4
     },
@@ -50527,9 +50534,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 85.39999999999999,
+      "totalDays": 85.5,
       "soldCount": 2,
-      "avgDaysToSell": 42.7
+      "avgDaysToSell": 42.8
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -50658,7 +50665,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 59,
-      "totalDays": 816,
+      "totalDays": 816.1,
       "soldCount": 13,
       "avgDaysToSell": 62.8
     },
@@ -50677,9 +50684,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 181.6,
+      "totalDays": 181.7,
       "soldCount": 3,
-      "avgDaysToSell": 60.5
+      "avgDaysToSell": 60.6
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -51205,7 +51212,7 @@
       "live": 2,
       "removed": 5,
       "sellRate": 22,
-      "totalDays": 105.5,
+      "totalDays": 105.6,
       "soldCount": 2,
       "avgDaysToSell": 52.8
     },
@@ -51648,9 +51655,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 137.1,
+      "totalDays": 137.2,
       "soldCount": 1,
-      "avgDaysToSell": 137.1
+      "avgDaysToSell": 137.2
     },
     "Asher|Rickenbacker": {
       "brand": "Asher",
@@ -51759,9 +51766,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 137.4,
+      "totalDays": 137.6,
       "soldCount": 2,
-      "avgDaysToSell": 68.7
+      "avgDaysToSell": 68.8
     },
     "Ibanez|Rickenbacker": {
       "brand": "Ibanez",
@@ -51988,14 +51995,14 @@
     {
       "label": "31+",
       "total": 252,
-      "sold": 69,
-      "rate": 27
+      "sold": 70,
+      "rate": 28
     }
   ],
   "offersEffect": {
     "on": {
       "total": 450,
-      "sold": 136,
+      "sold": 137,
       "rate": 30
     },
     "off": {
@@ -52012,8 +52019,8 @@
     },
     "regular": {
       "total": 296,
-      "sold": 99,
-      "rate": 33
+      "sold": 100,
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -52224,8 +52231,8 @@
     {
       "state": "CT",
       "total": 3,
-      "sold": 1,
-      "rate": 33
+      "sold": 2,
+      "rate": 67
     },
     {
       "state": "DC",
