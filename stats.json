@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-20T00:34:08.480Z",
-  "totalLinks": 1423,
-  "totalEver": 1769,
-  "totalBeforeFilter": 1769,
+  "generatedAt": "2026-06-20T00:35:30.811Z",
+  "totalLinks": 1424,
+  "totalEver": 1770,
+  "totalBeforeFilter": 1770,
   "fakeCount": 18,
   "removedCount": 553,
-  "totalWithPrice": 1408,
+  "totalWithPrice": 1409,
   "overall": {
-    "count": 1367,
-    "sum": 3869816.47,
+    "count": 1368,
+    "sum": 3872316.47,
     "avg": 2831,
     "min": 2,
     "max": 11099
   },
   "filtered": {
-    "count": 1367,
-    "sum": 3869816.47,
+    "count": 1368,
+    "sum": 3872316.47,
     "avg": 2831,
     "min": 2,
     "max": 11099,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11172,
+    "thresholdHigh": 11168,
     "thresholdLow": 0,
     "count": 41,
     "items": [
@@ -348,11 +348,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 163,
-      "sum": 487628.98,
+      "count": 164,
+      "sum": 490128.98,
       "min": 2,
       "max": 10599,
-      "avg": 2992
+      "avg": 2989
     },
     "2026-05": {
       "count": 359,
@@ -378,8 +378,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1176,
-      "sum": 3329497.1,
+      "count": 1177,
+      "sum": 3331997.1,
       "min": 33,
       "max": 10933,
       "avg": 2831
@@ -401,8 +401,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1176,
-      "sum": 3329497.1,
+      "count": 1177,
+      "sum": 3331997.1,
       "min": 33,
       "max": 10933,
       "avg": 2831
@@ -647,6 +647,71 @@
     }
   },
   "byModel": {
+    "jackson-soloist": {
+      "displayName": "1984 Jackson Soloist Custom Black",
+      "brand": "Jackson",
+      "model": "Soloist",
+      "variant": null,
+      "count": 3,
+      "sum": 19248,
+      "min": 2500,
+      "max": 8949,
+      "sightings": [
+        {
+          "price": 8949,
+          "date": "2026-05-18T18:45:34.627+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1985 Jackson Soloist Custom All Original",
+          "url": "https://reverb.com/item/94115709-1985-jackson-soloist-custom-all-original",
+          "condition": "Excellent"
+        },
+        {
+          "price": 7799,
+          "date": "2026-06-11T14:42:25.403Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1988 Jackson 12 string soloist - Metallic green",
+          "url": "https://reverb.com/item/98049002-1988-jackson-12-string-soloist-metallic-green",
+          "condition": "Excellent"
+        },
+        {
+          "price": 2500,
+          "date": "2026-06-20T00:35:16.120Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1984 Jackson Soloist Custom Black",
+          "url": "https://reverb.com/item/98419703",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        },
+        "Excellent": {
+          "count": 2,
+          "sum": 16748,
+          "min": 7799,
+          "max": 8949,
+          "avg": 8374
+        }
+      },
+      "avg": 6416,
+      "trends": {
+        "d30": {
+          "direction": "down",
+          "pctChange": -42,
+          "recentAvg": 5150,
+          "olderAvg": 8949,
+          "recentCount": 2
+        }
+      }
+    },
     "james-tyler-studio-elite-hd": {
       "displayName": "James Tyler Studio Elite HD 2026 - Italian Sports Car Red",
       "brand": "James Tyler",
@@ -5778,46 +5843,6 @@
         }
       },
       "avg": 4500
-    },
-    "jackson-soloist": {
-      "displayName": "1988 Jackson 12 string soloist - Metallic green",
-      "brand": "Jackson",
-      "model": "Soloist",
-      "variant": null,
-      "count": 2,
-      "sum": 16748,
-      "min": 7799,
-      "max": 8949,
-      "sightings": [
-        {
-          "price": 8949,
-          "date": "2026-05-18T18:45:34.627+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1985 Jackson Soloist Custom All Original",
-          "url": "https://reverb.com/item/94115709-1985-jackson-soloist-custom-all-original",
-          "condition": "Excellent"
-        },
-        {
-          "price": 7799,
-          "date": "2026-06-11T14:42:25.403Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1988 Jackson 12 string soloist - Metallic green",
-          "url": "https://reverb.com/item/98049002-1988-jackson-12-string-soloist-metallic-green",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 2,
-          "sum": 16748,
-          "min": 7799,
-          "max": 8949,
-          "avg": 8374
-        }
-      },
-      "avg": 8374
     },
     "vintage-ibanez-1970s-made": {
       "displayName": "Vintage Ibanez 2020 1970s Made In Japan",
@@ -41905,6 +41930,15 @@
     }
   },
   "byBrandPrice": {
+    "Jackson": {
+      "count": 37,
+      "min": 6,
+      "max": 10866.17,
+      "soldCount": 7,
+      "outliersExcluded": 0,
+      "avg": 4325,
+      "soldAvg": 2817
+    },
     "James Tyler": {
       "count": 5,
       "min": 1450,
@@ -42048,15 +42082,6 @@
       "outliersExcluded": 0,
       "avg": 1348,
       "soldAvg": 1364
-    },
-    "Jackson": {
-      "count": 36,
-      "min": 6,
-      "max": 10866.17,
-      "soldCount": 7,
-      "outliersExcluded": 0,
-      "avg": 4375,
-      "soldAvg": 2817
     },
     "Lado": {
       "count": 4,
@@ -43815,6 +43840,20 @@
     }
   },
   "byCondition": {
+    "Fair": {
+      "count": 21,
+      "sum": 35835.01,
+      "sold": {
+        "count": 7,
+        "sum": 16465.989999999998,
+        "avg": 2352,
+        "min": 69,
+        "max": 4799
+      },
+      "avg": 1706,
+      "min": 69,
+      "max": 4799
+    },
     "Excellent": {
       "count": 503,
       "sum": 2175325.87,
@@ -43870,20 +43909,6 @@
       "avg": 4565,
       "min": 400,
       "max": 46467.6
-    },
-    "Fair": {
-      "count": 20,
-      "sum": 33335.01,
-      "sold": {
-        "count": 7,
-        "sum": 16465.989999999998,
-        "avg": 2352,
-        "min": 69,
-        "max": 4799
-      },
-      "avg": 1667,
-      "min": 69,
-      "max": 4799
     },
     "Non Functioning": {
       "count": 2,
@@ -43950,9 +43975,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2992,
-      "median": 2325,
-      "count": 163
+      "avg": 2989,
+      "median": 2410,
+      "count": 164
     },
     "05": {
       "name": "May",
@@ -44119,7 +44144,7 @@
     "0-500": 60,
     "500-1k": 115,
     "1k-2k": 427,
-    "2k-3k": 291,
+    "2k-3k": 292,
     "3k-5k": 307,
     "5k-10k": 156,
     "10k+": 52
@@ -44128,12 +44153,17 @@
     "0-500": 60,
     "500-1k": 115,
     "1k-2k": 427,
-    "2k-3k": 291,
+    "2k-3k": 292,
     "3k-5k": 307,
     "5k-10k": 156,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Jackson": {
+      "sum": 1905,
+      "count": 35,
+      "avg": 54
+    },
     "James Tyler": {
       "sum": 305,
       "count": 5,
@@ -44203,11 +44233,6 @@
       "sum": 945,
       "count": 16,
       "avg": 59
-    },
-    "Jackson": {
-      "sum": 1905,
-      "count": 34,
-      "avg": 56
     },
     "Lado": {
       "sum": 192,
@@ -45076,7 +45101,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-20": 1,
+    "2026-06-20": 2,
     "2026-06-19": 16,
     "2026-06-18": 7,
     "2026-06-17": 6,
@@ -45105,7 +45130,7 @@
     "2026-05-21": 16
   },
   "categoryDistribution": {
-    "reverb": 1207,
+    "reverb": 1208,
     "marketplace": 103,
     "other": 113
   },
@@ -45121,7 +45146,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 147
+      "count": 148
     },
     {
       "username": "YellowJack6",
@@ -45233,10 +45258,10 @@
       "count": 69
     },
     "Jackson": {
-      "avgPrice": 4272,
+      "avgPrice": 4228,
       "retailEst": 1000,
-      "avgDiscount": -327.2,
-      "count": 39
+      "avgDiscount": -322.8,
+      "count": 40
     },
     "Music Man": {
       "avgPrice": 2350,
@@ -49263,15 +49288,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1392,
+      "total": 1393,
       "sold": 437,
       "fake": 0,
-      "live": 438,
+      "live": 439,
       "removed": 517,
       "soldPct": 31,
-      "livePct": 31
+      "livePct": 32
     },
     "byBrand": {
+      "Jackson": {
+        "total": 40,
+        "sold": 8,
+        "fake": 0,
+        "live": 19,
+        "removed": 13,
+        "soldPct": 20,
+        "livePct": 48
+      },
       "James Tyler": {
         "total": 5,
         "sold": 0,
@@ -49415,15 +49449,6 @@
         "removed": 6,
         "soldPct": 40,
         "livePct": 30
-      },
-      "Jackson": {
-        "total": 39,
-        "sold": 8,
-        "fake": 0,
-        "live": 18,
-        "removed": 13,
-        "soldPct": 21,
-        "livePct": 46
       },
       "Lado": {
         "total": 4,
@@ -51370,10 +51395,10 @@
       },
       {
         "brand": "Jackson",
-        "total": 39,
+        "total": 40,
         "sold": 8,
-        "live": 18,
-        "soldPct": 21
+        "live": 19,
+        "soldPct": 20
       },
       {
         "brand": "Epiphone",
@@ -51418,7 +51443,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 291,
+        "total": 292,
         "sold": 113,
         "rate": 39
       },
@@ -51442,6 +51467,11 @@
       }
     ],
     "byCondition": {
+      "Fair": {
+        "total": 21,
+        "sold": 7,
+        "rate": 33
+      },
       "Excellent": {
         "total": 503,
         "sold": 178,
@@ -51461,11 +51491,6 @@
         "total": 36,
         "sold": 4,
         "rate": 11
-      },
-      "Fair": {
-        "total": 20,
-        "sold": 7,
-        "rate": 35
       },
       "Non Functioning": {
         "total": 2,
@@ -51674,6 +51699,25 @@
     ]
   },
   "byBrandLine": {
+    "Jackson|Jackson USA": {
+      "brand": "Jackson",
+      "brandLine": "Jackson USA",
+      "tier": "premium",
+      "count": 14,
+      "sum": 64272,
+      "avg": 4591,
+      "min": 2099,
+      "max": 8949,
+      "sold": 1,
+      "soldSum": 2300,
+      "soldAvg": 2300,
+      "live": 11,
+      "removed": 2,
+      "sellRate": 7,
+      "totalDays": 76.9,
+      "soldCount": 1,
+      "avgDaysToSell": 76.9
+    },
     "James Tyler|James Tyler Studio Elite": {
       "brand": "James Tyler",
       "brandLine": "James Tyler Studio Elite",
@@ -51764,7 +51808,7 @@
       "live": 6,
       "removed": 4,
       "sellRate": 57,
-      "totalDays": 867.3,
+      "totalDays": 867.4,
       "soldCount": 13,
       "avgDaysToSell": 66.7
     },
@@ -51973,7 +52017,7 @@
       "live": 14,
       "removed": 26,
       "sellRate": 35,
-      "totalDays": 1877.4000000000003,
+      "totalDays": 1877.5000000000002,
       "soldCount": 22,
       "avgDaysToSell": 85.3
     },
@@ -52052,25 +52096,6 @@
       "totalDays": 300.3,
       "soldCount": 1,
       "avgDaysToSell": 300.3
-    },
-    "Jackson|Jackson USA": {
-      "brand": "Jackson",
-      "brandLine": "Jackson USA",
-      "tier": "premium",
-      "count": 13,
-      "sum": 61772,
-      "avg": 4752,
-      "min": 2099,
-      "max": 8949,
-      "sold": 1,
-      "soldSum": 2300,
-      "soldAvg": 2300,
-      "live": 10,
-      "removed": 2,
-      "sellRate": 8,
-      "totalDays": 76.9,
-      "soldCount": 1,
-      "avgDaysToSell": 76.9
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -52631,7 +52656,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 487,
+      "totalDays": 487.1,
       "soldCount": 7,
       "avgDaysToSell": 69.6
     },
@@ -53008,7 +53033,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 43,
-      "totalDays": 198,
+      "totalDays": 198.1,
       "soldCount": 3,
       "avgDaysToSell": 66
     },
@@ -53679,8 +53704,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 237,
-    "totalOffers": 495,
+    "withOffers": 238,
+    "totalOffers": 496,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 40
   },
@@ -53709,7 +53734,7 @@
     },
     {
       "label": "16–30",
-      "total": 199,
+      "total": 200,
       "sold": 54,
       "rate": 27
     },
@@ -53722,7 +53747,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 477,
+      "total": 478,
       "sold": 145,
       "rate": 30
     },
@@ -53734,7 +53759,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 348,
+      "total": 349,
       "sold": 79,
       "rate": 23
     },
@@ -53932,6 +53957,12 @@
       "rate": 20
     },
     {
+      "state": "MN",
+      "total": 4,
+      "sold": 1,
+      "rate": 25
+    },
+    {
       "state": "IA",
       "total": 4,
       "sold": 1,
@@ -54005,12 +54036,6 @@
     },
     {
       "state": "NV",
-      "total": 3,
-      "sold": 1,
-      "rate": 33
-    },
-    {
-      "state": "MN",
       "total": 3,
       "sold": 1,
       "rate": 33
