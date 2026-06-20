@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:34:08.358Z",
+  "generatedAt": "2026-06-20T20:49:08.455Z",
   "totalLinks": 1437,
   "totalEver": 1783,
   "totalBeforeFilter": 1783,
@@ -1186,11 +1186,18 @@
         }
       },
       "soldData": {
-        "count": 1,
-        "avg": 4400,
+        "count": 2,
+        "avg": 5900,
         "min": 4400,
-        "max": 4400,
+        "max": 7399,
         "prices": [
+          {
+            "price": 7399,
+            "askingPrice": 7399,
+            "date": "2026-06-20T20:34:40.656+00:00",
+            "title": "Gibson Custom Shop 1964 ES-335 \"CME Spec\" Antique Argentine Grey Murphy Lab Ultra Light Aged w/Custom \"S\" Buckers (Serial #160410)",
+            "url": "https://reverb.com/item/97667116"
+          },
           {
             "price": 4400,
             "askingPrice": 4400,
@@ -42404,10 +42411,10 @@
       "count": 182,
       "min": 135,
       "max": 11099,
-      "soldCount": 65,
+      "soldCount": 66,
       "outliersExcluded": 1,
       "avg": 3517,
-      "soldAvg": 3219
+      "soldAvg": 3282
     },
     "Friedman": {
       "count": 12,
@@ -44319,9 +44326,9 @@
       "count": 113,
       "sum": 479161.2299999999,
       "sold": {
-        "count": 11,
-        "sum": 29468.730000000003,
-        "avg": 2679,
+        "count": 12,
+        "sum": 36867.73,
+        "avg": 3072,
         "min": 995,
         "max": 8199
       },
@@ -44646,7 +44653,7 @@
       "avg": 40
     },
     "Gibson": {
-      "sum": 8250,
+      "sum": 8251,
       "count": 150,
       "avg": 55
     },
@@ -44661,7 +44668,7 @@
       "avg": 1
     },
     "Jackson": {
-      "sum": 1938,
+      "sum": 1939,
       "count": 35,
       "avg": 55
     },
@@ -44736,7 +44743,7 @@
       "avg": 37
     },
     "BC Rich": {
-      "sum": 4932,
+      "sum": 4933,
       "count": 89,
       "avg": 55
     },
@@ -45680,7 +45687,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 17
+      "count": 18
     },
     {
       "username": "scottcorgan",
@@ -45837,19 +45844,27 @@
     }
   },
   "soldPrices": {
-    "count": 443,
-    "avg": 2699,
+    "count": 444,
+    "avg": 2710,
     "min": 2,
     "max": 35900,
     "avgDiscount": 11
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 6785.100000000003,
-      "count": 433,
+      "totalDays": 6805.100000000003,
+      "count": 434,
       "avgDays": 15.7
     },
     "byModel": {
+      "gibson-es-335-custom-shop-murphy-lab": {
+        "displayName": "Gibson Custom Shop 1964 ES-335 \"CME Spec\" Antique Argentine Grey Murphy Lab Ultra Light Aged w/Custom \"S\" Buckers (Serial #160410)",
+        "totalDays": 26.7,
+        "count": 2,
+        "fastest": 6.7,
+        "slowest": 20,
+        "avgDays": 13.4
+      },
       "bare-knuckle-b6": {
         "displayName": "Blackmachine B6 2017 - natural",
         "totalDays": 0,
@@ -47970,14 +47985,6 @@
         "slowest": 9.6,
         "avgDays": 9.6
       },
-      "gibson-es-335-custom-shop-murphy-lab": {
-        "displayName": "Gibson Custom Shop Murphy Lab '59 ES-335 Reissue Ultra Light Aged",
-        "totalDays": 6.7,
-        "count": 1,
-        "fastest": 6.7,
-        "slowest": 6.7,
-        "avgDays": 6.7
-      },
       "gl-legacy-custom-shop": {
         "displayName": "G&L Custom Shop Legacy (with new factory neck + mods)",
         "totalDays": 4.2,
@@ -48756,6 +48763,13 @@
       }
     },
     "byBrand": {
+      "Gibson": {
+        "totalDays": 1048.9000000000003,
+        "count": 65,
+        "fastest": 0,
+        "slowest": 269.2,
+        "avgDays": 16.1
+      },
       "Bare Knuckle": {
         "totalDays": 0,
         "count": 1,
@@ -48832,13 +48846,6 @@
         "fastest": 1.1,
         "slowest": 15.9,
         "avgDays": 8.5
-      },
-      "Gibson": {
-        "totalDays": 1028.9,
-        "count": 64,
-        "fastest": 0,
-        "slowest": 269.2,
-        "avgDays": 16.1
       },
       "Yamaha": {
         "totalDays": 214.4,
@@ -49781,9 +49788,9 @@
   "sellThrough": {
     "overall": {
       "total": 1406,
-      "sold": 439,
+      "sold": 440,
       "fake": 0,
-      "live": 449,
+      "live": 448,
       "removed": 518,
       "soldPct": 31,
       "livePct": 32
@@ -49836,11 +49843,11 @@
       },
       "Gibson": {
         "total": 189,
-        "sold": 65,
+        "sold": 66,
         "fake": 0,
-        "live": 48,
+        "live": 47,
         "removed": 76,
-        "soldPct": 34,
+        "soldPct": 35,
         "livePct": 25
       },
       "Friedman": {
@@ -51975,8 +51982,8 @@
       {
         "label": "$5k–10k",
         "total": 161,
-        "sold": 29,
-        "rate": 18
+        "sold": 30,
+        "rate": 19
       },
       {
         "label": "$10k+",
@@ -51993,8 +52000,8 @@
       },
       "Brand New": {
         "total": 113,
-        "sold": 16,
-        "rate": 14
+        "sold": 17,
+        "rate": 15
       },
       "Excellent": {
         "total": 507,
@@ -52252,7 +52259,7 @@
       "live": 16,
       "removed": 26,
       "sellRate": 34,
-      "totalDays": 1895.7000000000003,
+      "totalDays": 1895.8000000000002,
       "soldCount": 22,
       "avgDaysToSell": 86.2
     },
@@ -52271,7 +52278,7 @@
       "live": 39,
       "removed": 55,
       "sellRate": 35,
-      "totalDays": 3421.9999999999995,
+      "totalDays": 3422.4999999999995,
       "soldCount": 51,
       "avgDaysToSell": 67.1
     },
@@ -52290,7 +52297,7 @@
       "live": 4,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 374.4,
+      "totalDays": 374.5,
       "soldCount": 6,
       "avgDaysToSell": 62.4
     },
@@ -52303,15 +52310,15 @@
       "avg": 5196,
       "min": 2750,
       "max": 11099,
-      "sold": 13,
-      "soldSum": 66573.98,
-      "soldAvg": 5121,
-      "live": 5,
+      "sold": 14,
+      "soldSum": 73972.98,
+      "soldAvg": 5284,
+      "live": 4,
       "removed": 21,
-      "sellRate": 33,
-      "totalDays": 926.3000000000001,
-      "soldCount": 13,
-      "avgDaysToSell": 71.3
+      "sellRate": 36,
+      "totalDays": 946.6,
+      "soldCount": 14,
+      "avgDaysToSell": 67.6
     },
     "James Tyler|James Tyler Studio Elite": {
       "brand": "James Tyler",
@@ -52365,7 +52372,7 @@
       "live": 19,
       "removed": 44,
       "sellRate": 36,
-      "totalDays": 2344.3999999999996,
+      "totalDays": 2344.5999999999995,
       "soldCount": 36,
       "avgDaysToSell": 65.1
     },
@@ -52384,7 +52391,7 @@
       "live": 6,
       "removed": 4,
       "sellRate": 57,
-      "totalDays": 878.1999999999999,
+      "totalDays": 878.3,
       "soldCount": 13,
       "avgDaysToSell": 67.6
     },
@@ -52422,7 +52429,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 35,
-      "totalDays": 289.5,
+      "totalDays": 289.7,
       "soldCount": 6,
       "avgDaysToSell": 48.3
     },
@@ -52441,7 +52448,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 56,
-      "totalDays": 245.89999999999998,
+      "totalDays": 246,
       "soldCount": 5,
       "avgDaysToSell": 49.2
     },
@@ -52460,7 +52467,7 @@
       "live": 9,
       "removed": 14,
       "sellRate": 18,
-      "totalDays": 297.6,
+      "totalDays": 297.7,
       "soldCount": 5,
       "avgDaysToSell": 59.5
     },
@@ -52479,7 +52486,7 @@
       "live": 19,
       "removed": 15,
       "sellRate": 42,
-      "totalDays": 1924.7999999999997,
+      "totalDays": 1924.8999999999996,
       "soldCount": 25,
       "avgDaysToSell": 77
     },
@@ -52536,7 +52543,7 @@
       "live": 6,
       "removed": 6,
       "sellRate": 40,
-      "totalDays": 854.6,
+      "totalDays": 854.7,
       "soldCount": 8,
       "avgDaysToSell": 106.8
     },
@@ -52555,7 +52562,7 @@
       "live": 5,
       "removed": 11,
       "sellRate": 27,
-      "totalDays": 360.7,
+      "totalDays": 360.8,
       "soldCount": 6,
       "avgDaysToSell": 60.1
     },
@@ -52593,9 +52600,9 @@
       "live": 14,
       "removed": 13,
       "sellRate": 33,
-      "totalDays": 852.1,
+      "totalDays": 852.5,
       "soldCount": 13,
-      "avgDaysToSell": 65.5
+      "avgDaysToSell": 65.6
     },
     "Schecter|Schecter Korea": {
       "brand": "Schecter",
@@ -52650,9 +52657,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 20,
-      "totalDays": 18.7,
+      "totalDays": 18.8,
       "soldCount": 1,
-      "avgDaysToSell": 18.7
+      "avgDaysToSell": 18.8
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -52669,7 +52676,7 @@
       "live": 1,
       "removed": 4,
       "sellRate": 44,
-      "totalDays": 206.60000000000002,
+      "totalDays": 206.7,
       "soldCount": 4,
       "avgDaysToSell": 51.7
     },
@@ -52745,7 +52752,7 @@
       "live": 12,
       "removed": 8,
       "sellRate": 35,
-      "totalDays": 737.6,
+      "totalDays": 737.7,
       "soldCount": 11,
       "avgDaysToSell": 67.1
     },
@@ -52764,9 +52771,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 85.89999999999999,
+      "totalDays": 86,
       "soldCount": 2,
-      "avgDaysToSell": 42.9
+      "avgDaysToSell": 43
     },
     "ESP|ESP Original": {
       "brand": "ESP",
@@ -52801,7 +52808,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 82.3,
+      "totalDays": 82.4,
       "soldCount": 2,
       "avgDaysToSell": 41.2
     },
@@ -52876,9 +52883,9 @@
       "live": 8,
       "removed": 6,
       "sellRate": 22,
-      "totalDays": 312.4,
+      "totalDays": 312.6,
       "soldCount": 4,
-      "avgDaysToSell": 78.1
+      "avgDaysToSell": 78.2
     },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
@@ -52895,7 +52902,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 152.2,
+      "totalDays": 152.29999999999998,
       "soldCount": 2,
       "avgDaysToSell": 76.1
     },
@@ -52914,9 +52921,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 9.1,
+      "totalDays": 9.2,
       "soldCount": 1,
-      "avgDaysToSell": 9.1
+      "avgDaysToSell": 9.2
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -53156,9 +53163,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 39.5,
+      "totalDays": 39.6,
       "soldCount": 1,
-      "avgDaysToSell": 39.5
+      "avgDaysToSell": 39.6
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -53175,7 +53182,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 492.19999999999993,
+      "totalDays": 492.29999999999995,
       "soldCount": 7,
       "avgDaysToSell": 70.3
     },
@@ -53194,7 +53201,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 127.1,
+      "totalDays": 127.2,
       "soldCount": 3,
       "avgDaysToSell": 42.4
     },
@@ -53213,9 +53220,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 151.8,
+      "totalDays": 151.9,
       "soldCount": 1,
-      "avgDaysToSell": 151.8
+      "avgDaysToSell": 151.9
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -53326,7 +53333,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 279.2,
+      "totalDays": 279.3,
       "soldCount": 4,
       "avgDaysToSell": 69.8
     },
@@ -53476,9 +53483,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 111.39999999999999,
+      "totalDays": 111.5,
       "soldCount": 2,
-      "avgDaysToSell": 55.7
+      "avgDaysToSell": 55.8
     },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
@@ -53663,7 +53670,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 179.10000000000002,
+      "totalDays": 179.2,
       "soldCount": 3,
       "avgDaysToSell": 59.7
     },
@@ -54217,9 +54224,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 79.9,
+      "totalDays": 80,
       "soldCount": 1,
-      "avgDaysToSell": 79.9
+      "avgDaysToSell": 80
     }
   },
   "offerActivity": {
@@ -54254,7 +54261,7 @@
     {
       "label": "16–30",
       "total": 209,
-      "sold": 54,
+      "sold": 55,
       "rate": 26
     },
     {
@@ -54272,15 +54279,15 @@
     },
     "off": {
       "total": 207,
-      "sold": 53,
+      "sold": 54,
       "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
       "total": 358,
-      "sold": 80,
-      "rate": 22
+      "sold": 81,
+      "rate": 23
     },
     "regular": {
       "total": 321,
@@ -54310,8 +54317,8 @@
     {
       "state": "IL",
       "total": 39,
-      "sold": 10,
-      "rate": 26
+      "sold": 11,
+      "rate": 28
     },
     {
       "state": "FL",
