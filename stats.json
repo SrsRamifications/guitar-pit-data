@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-21T18:12:23.882Z",
-  "totalLinks": 1447,
-  "totalEver": 1795,
-  "totalBeforeFilter": 1795,
+  "generatedAt": "2026-06-21T18:12:54.136Z",
+  "totalLinks": 1448,
+  "totalEver": 1796,
+  "totalBeforeFilter": 1796,
   "fakeCount": 18,
   "removedCount": 558,
-  "totalWithPrice": 1432,
+  "totalWithPrice": 1433,
   "overall": {
-    "count": 1388,
-    "sum": 3954971.47,
+    "count": 1389,
+    "sum": 3956771.47,
     "avg": 2849,
     "min": 2,
     "max": 11099
   },
   "filtered": {
-    "count": 1388,
-    "sum": 3954971.47,
+    "count": 1389,
+    "sum": 3956771.47,
     "avg": 2849,
     "min": 2,
     "max": 11099,
-    "median": 2258
+    "median": 2250
   },
   "outliers": {
     "thresholdHigh": 11315,
@@ -372,11 +372,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 183,
-      "sum": 569708.98,
+      "count": 184,
+      "sum": 571508.98,
       "min": 2,
       "max": 10599,
-      "avg": 3113
+      "avg": 3106
     },
     "2026-05": {
       "count": 360,
@@ -402,8 +402,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1196,
-      "sum": 3413853.1,
+      "count": 1197,
+      "sum": 3415653.1,
       "min": 33,
       "max": 10933,
       "avg": 2854
@@ -425,8 +425,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1196,
-      "sum": 3413853.1,
+      "count": 1197,
+      "sum": 3415653.1,
       "min": 33,
       "max": 10933,
       "avg": 2854
@@ -678,6 +678,53 @@
     }
   },
   "byModel": {
+    "kramer-standard": {
+      "displayName": "1980s Kramer American Stagemaster Standard I Electric Guitar w/Decals & Signed Backplate - Used",
+      "brand": "Kramer",
+      "model": "Standard",
+      "variant": null,
+      "count": 2,
+      "sum": 4799.99,
+      "min": 1800,
+      "max": 2999.99,
+      "sightings": [
+        {
+          "price": 2999.99,
+          "date": "2026-04-17T03:11:53.694+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1987 Kramer Stagemaster Standard I - Champagne Pearl - Carved Top Neck Through - Rare Gold Hardware",
+          "url": "https://reverb.com/item/94973369-1987-kramer-stagemaster-standard-i-champagne-pearl-carved-top-neck-through-rare-gold-hardware",
+          "condition": "Excellent"
+        },
+        {
+          "price": 1800,
+          "date": "2026-06-21T18:12:38.568Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1980s Kramer American Stagemaster Standard I Electric Guitar w/Decals & Signed Backplate - Used",
+          "url": "https://reverb.com/item/95078346",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 2999.99,
+          "min": 2999.99,
+          "max": 2999.99,
+          "avg": 3000
+        }
+      },
+      "avg": 2400
+    },
     "martin-grand-j-jumbo-custom-shop": {
       "displayName": "Martin Custom Shop Custom Grand \"J\" Jumbo All-Mahogany (Serial #M3002331)",
       "brand": "Martin",
@@ -28673,37 +28720,6 @@
       },
       "avg": 2750
     },
-    "kramer-standard": {
-      "displayName": "1987 Kramer Stagemaster Standard I - Champagne Pearl - Carved Top Neck Through - Rare Gold Hardware",
-      "brand": "Kramer",
-      "model": "Standard",
-      "variant": null,
-      "count": 1,
-      "sum": 2999.99,
-      "min": 2999.99,
-      "max": 2999.99,
-      "sightings": [
-        {
-          "price": 2999.99,
-          "date": "2026-04-17T03:11:53.694+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "1987 Kramer Stagemaster Standard I - Champagne Pearl - Carved Top Neck Through - Rare Gold Hardware",
-          "url": "https://reverb.com/item/94973369-1987-kramer-stagemaster-standard-i-champagne-pearl-carved-top-neck-through-rare-gold-hardware",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2999.99,
-          "min": 2999.99,
-          "max": 2999.99,
-          "avg": 3000
-        }
-      },
-      "avg": 3000
-    },
     "eastman-e10oossv-antique-varnish": {
       "displayName": "Eastman E10OOSS/V Antique Varnish OO model",
       "brand": "Eastman",
@@ -42684,6 +42700,15 @@
     }
   },
   "byBrandPrice": {
+    "Kramer": {
+      "count": 10,
+      "min": 2,
+      "max": 2999.99,
+      "soldCount": 5,
+      "outliersExcluded": 1,
+      "avg": 1604,
+      "soldAvg": 1360
+    },
     "Martin": {
       "count": 7,
       "min": 1349.99,
@@ -42926,15 +42951,6 @@
       "outliersExcluded": 0,
       "avg": 2993,
       "soldAvg": 1699
-    },
-    "Kramer": {
-      "count": 9,
-      "min": 2,
-      "max": 2999.99,
-      "soldCount": 5,
-      "outliersExcluded": 1,
-      "avg": 1583,
-      "soldAvg": 1360
     },
     "Legator": {
       "count": 1,
@@ -44639,6 +44655,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 148,
+      "sum": 438684.2700000001,
+      "sold": {
+        "count": 46,
+        "sum": 96377.31999999999,
+        "avg": 2095,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 2964,
+      "min": 70,
+      "max": 55000
+    },
     "Brand New": {
       "count": 114,
       "sum": 483389.2299999999,
@@ -44709,20 +44739,6 @@
       "min": 69,
       "max": 4799
     },
-    "Good": {
-      "count": 147,
-      "sum": 436884.27,
-      "sold": {
-        "count": 46,
-        "sum": 96377.31999999999,
-        "avg": 2095,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 2972,
-      "min": 70,
-      "max": 55000
-    },
     "Non Functioning": {
       "count": 2,
       "sum": 2624,
@@ -44774,9 +44790,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3113,
-      "median": 2587,
-      "count": 183
+      "avg": 3106,
+      "median": 2545,
+      "count": 184
     },
     "05": {
       "name": "May",
@@ -44942,7 +44958,7 @@
   "priceDistribution": {
     "0-500": 60,
     "500-1k": 116,
-    "1k-2k": 430,
+    "1k-2k": 431,
     "2k-3k": 294,
     "3k-5k": 315,
     "5k-10k": 162,
@@ -44951,7 +44967,7 @@
   "priceDistributionFiltered": {
     "0-500": 60,
     "500-1k": 116,
-    "1k-2k": 430,
+    "1k-2k": 431,
     "2k-3k": 294,
     "3k-5k": 315,
     "5k-10k": 162,
@@ -45925,7 +45941,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-21": 9,
+    "2026-06-21": 10,
     "2026-06-20": 16,
     "2026-06-19": 16,
     "2026-06-18": 7,
@@ -45954,11 +45970,11 @@
     "2026-05-22": 5
   },
   "categoryDistribution": {
-    "reverb": 1230,
+    "reverb": 1231,
     "marketplace": 104,
     "other": 113
   },
-  "activeModelsCount": 265,
+  "activeModelsCount": 266,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -45974,7 +45990,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 119
+      "count": 120
     },
     {
       "username": "Modean",
@@ -46166,10 +46182,10 @@
       "count": 102
     },
     "Kramer": {
-      "avgPrice": 6924,
+      "avgPrice": 6459,
       "retailEst": 200,
-      "avgDiscount": -3362.2,
-      "count": 10
+      "avgDiscount": -3129.3,
+      "count": 11
     },
     "Rickenbacker": {
       "avgPrice": 2241,
@@ -50151,15 +50167,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1416,
+      "total": 1417,
       "sold": 442,
       "fake": 0,
-      "live": 452,
+      "live": 453,
       "removed": 522,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Kramer": {
+        "total": 11,
+        "sold": 5,
+        "fake": 0,
+        "live": 4,
+        "removed": 2,
+        "soldPct": 45,
+        "livePct": 36
+      },
       "Martin": {
         "total": 9,
         "sold": 3,
@@ -50411,15 +50436,6 @@
         "removed": 2,
         "soldPct": 25,
         "livePct": 25
-      },
-      "Kramer": {
-        "total": 10,
-        "sold": 5,
-        "fake": 0,
-        "live": 3,
-        "removed": 2,
-        "soldPct": 50,
-        "livePct": 30
       },
       "Legator": {
         "total": 1,
@@ -52237,13 +52253,6 @@
         "soldPct": 50
       },
       {
-        "brand": "Kramer",
-        "total": 10,
-        "sold": 5,
-        "live": 3,
-        "soldPct": 50
-      },
-      {
         "brand": "Novo",
         "total": 10,
         "sold": 5,
@@ -52256,6 +52265,13 @@
         "sold": 5,
         "live": 4,
         "soldPct": 50
+      },
+      {
+        "brand": "Kramer",
+        "total": 11,
+        "sold": 5,
+        "live": 4,
+        "soldPct": 45
       }
     ],
     "worstBrands": [
@@ -52345,7 +52361,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 430,
+        "total": 431,
         "sold": 145,
         "rate": 34
       },
@@ -52375,6 +52391,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 148,
+        "sold": 52,
+        "rate": 35
+      },
       "Brand New": {
         "total": 114,
         "sold": 17,
@@ -52399,11 +52420,6 @@
         "total": 21,
         "sold": 7,
         "rate": 33
-      },
-      "Good": {
-        "total": 147,
-        "sold": 52,
-        "rate": 35
       },
       "Non Functioning": {
         "total": 2,
@@ -52607,6 +52623,25 @@
     ]
   },
   "byBrandLine": {
+    "Kramer|Kramer Import": {
+      "brand": "Kramer",
+      "brandLine": "Kramer Import",
+      "tier": "budget-mid",
+      "count": 6,
+      "sum": 7996,
+      "avg": 1333,
+      "min": 2,
+      "max": 1850,
+      "sold": 4,
+      "soldSum": 4501,
+      "soldAvg": 1125,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 67,
+      "totalDays": 147.7,
+      "soldCount": 4,
+      "avgDaysToSell": 36.9
+    },
     "Martin|Martin USA": {
       "brand": "Martin",
       "brandLine": "Martin USA",
@@ -53005,25 +53040,6 @@
       "soldCount": 6,
       "avgDaysToSell": 61
     },
-    "Kramer|Kramer Import": {
-      "brand": "Kramer",
-      "brandLine": "Kramer Import",
-      "tier": "budget-mid",
-      "count": 5,
-      "sum": 6196,
-      "avg": 1239,
-      "min": 2,
-      "max": 1850,
-      "sold": 4,
-      "soldSum": 4501,
-      "soldAvg": 1125,
-      "live": 1,
-      "removed": 0,
-      "sellRate": 80,
-      "totalDays": 147.7,
-      "soldCount": 4,
-      "avgDaysToSell": 36.9
-    },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
       "brandLine": "BC Rich Import",
@@ -53341,9 +53357,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 10,
+      "totalDays": 10.1,
       "soldCount": 1,
-      "avgDaysToSell": 10
+      "avgDaysToSell": 10.1
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -54667,7 +54683,7 @@
     },
     {
       "label": "31+",
-      "total": 276,
+      "total": 277,
       "sold": 78,
       "rate": 28
     }
@@ -54679,14 +54695,14 @@
       "rate": 30
     },
     "off": {
-      "total": 209,
+      "total": 210,
       "sold": 54,
       "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 364,
+      "total": 365,
       "sold": 81,
       "rate": 22
     },
@@ -54758,16 +54774,16 @@
       "rate": 22
     },
     {
+      "state": "NJ",
+      "total": 17,
+      "sold": 7,
+      "rate": 41
+    },
+    {
       "state": "NC",
       "total": 16,
       "sold": 8,
       "rate": 50
-    },
-    {
-      "state": "NJ",
-      "total": 16,
-      "sold": 7,
-      "rate": 44
     },
     {
       "state": "CO",
