@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-24T15:58:10.495Z",
-  "totalLinks": 1478,
-  "totalEver": 1837,
-  "totalBeforeFilter": 1837,
+  "generatedAt": "2026-06-24T16:08:11.818Z",
+  "totalLinks": 1479,
+  "totalEver": 1838,
+  "totalBeforeFilter": 1838,
   "fakeCount": 21,
   "removedCount": 570,
-  "totalWithPrice": 1463,
+  "totalWithPrice": 1464,
   "overall": {
-    "count": 1419,
-    "sum": 4039452.46,
-    "avg": 2847,
+    "count": 1420,
+    "sum": 4041102.46,
+    "avg": 2846,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1419,
-    "sum": 4039452.46,
-    "avg": 2847,
+    "count": 1420,
+    "sum": 4041102.46,
+    "avg": 2846,
     "min": 3,
     "max": 11099,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11106,
+    "thresholdHigh": 11103,
     "thresholdLow": 0,
     "count": 44,
     "items": [
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 217,
-      "sum": 660182.97,
+      "count": 218,
+      "sum": 661832.97,
       "min": 260,
       "max": 10599,
-      "avg": 3042
+      "avg": 3036
     },
     "2026-05": {
       "count": 360,
@@ -404,11 +404,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1228,
-      "sum": 3493147.1,
+      "count": 1229,
+      "sum": 3494797.1,
       "min": 33,
       "max": 10933,
-      "avg": 2845
+      "avg": 2844
     },
     "marketplace": {
       "count": 90,
@@ -427,11 +427,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1228,
-      "sum": 3493147.1,
+      "count": 1229,
+      "sum": 3494797.1,
       "min": 33,
       "max": 10933,
-      "avg": 2845
+      "avg": 2844
     },
     "guitarcenter.com": {
       "count": 72,
@@ -680,6 +680,37 @@
     }
   },
   "byModel": {
+    "yamaha-sa-2100": {
+      "displayName": "Yamaha SA-2100 1985 - Sunburst",
+      "brand": "Yamaha",
+      "model": "SA-2100",
+      "variant": null,
+      "count": 1,
+      "sum": 1650,
+      "min": 1650,
+      "max": 1650,
+      "sightings": [
+        {
+          "price": 1650,
+          "date": "2026-06-24T16:07:56.664+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Yamaha SA-2100 1985 - Sunburst",
+          "url": "https://reverb.com/item/97255332",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1650,
+          "min": 1650,
+          "max": 1650,
+          "avg": 1650
+        }
+      },
+      "avg": 1650
+    },
     "xotic-xscpro-2-with-light": {
       "displayName": "Xotic XSCPRO-2 with HSC - Sunburst - Light Aging",
       "brand": "Xotic",
@@ -43683,6 +43714,15 @@
     }
   },
   "byBrandPrice": {
+    "Yamaha": {
+      "count": 25,
+      "min": 269,
+      "max": 9790.68,
+      "soldCount": 8,
+      "outliersExcluded": 0,
+      "avg": 1834,
+      "soldAvg": 2356
+    },
     "Xotic": {
       "count": 5,
       "min": 1900,
@@ -43817,15 +43857,6 @@
       "outliersExcluded": 0,
       "avg": 1613,
       "soldAvg": 1345
-    },
-    "Yamaha": {
-      "count": 24,
-      "min": 269,
-      "max": 9790.68,
-      "soldCount": 8,
-      "outliersExcluded": 0,
-      "avg": 1842,
-      "soldAvg": 2356
     },
     "Hamer": {
       "count": 9,
@@ -45629,6 +45660,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 410,
+      "sum": 1583431.56,
+      "sold": {
+        "count": 140,
+        "sum": 318061.17999999993,
+        "avg": 2272,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3862,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 527,
       "sum": 2333282.8700000006,
@@ -45653,20 +45698,6 @@
       "avg": 2600,
       "min": 999.99,
       "max": 4200
-    },
-    "Very Good": {
-      "count": 409,
-      "sum": 1581781.56,
-      "sold": {
-        "count": 140,
-        "sum": 318061.17999999993,
-        "avg": 2272,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3867,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 117,
@@ -45775,9 +45806,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3042,
-      "median": 2500,
-      "count": 217
+      "avg": 3036,
+      "median": 2498,
+      "count": 218
     },
     "05": {
       "name": "May",
@@ -45943,7 +45974,7 @@
   "priceDistribution": {
     "0-500": 57,
     "500-1k": 117,
-    "1k-2k": 450,
+    "1k-2k": 451,
     "2k-3k": 295,
     "3k-5k": 325,
     "5k-10k": 164,
@@ -45952,20 +45983,25 @@
   "priceDistributionFiltered": {
     "0-500": 57,
     "500-1k": 117,
-    "1k-2k": 450,
+    "1k-2k": 451,
     "2k-3k": 295,
     "3k-5k": 325,
     "5k-10k": 164,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Yamaha": {
+      "sum": 1013,
+      "count": 18,
+      "avg": 56
+    },
     "PRS": {
-      "sum": 6867,
+      "sum": 6868,
       "count": 122,
       "avg": 56
     },
     "BC Rich": {
-      "sum": 5198,
+      "sum": 5199,
       "count": 92,
       "avg": 57
     },
@@ -46000,7 +46036,7 @@
       "avg": 43
     },
     "Gibson": {
-      "sum": 8483,
+      "sum": 8484,
       "count": 148,
       "avg": 57
     },
@@ -46028,11 +46064,6 @@
       "sum": 2505,
       "count": 52,
       "avg": 48
-    },
-    "Yamaha": {
-      "sum": 977,
-      "count": 17,
-      "avg": 57
     },
     "Hamer": {
       "sum": 430,
@@ -46921,7 +46952,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-24": 2,
+    "2026-06-24": 3,
     "2026-06-23": 13,
     "2026-06-22": 13,
     "2026-06-21": 18,
@@ -46950,11 +46981,11 @@
     "2026-05-25": 5
   },
   "categoryDistribution": {
-    "reverb": 1263,
+    "reverb": 1264,
     "marketplace": 103,
     "other": 112
   },
-  "activeModelsCount": 267,
+  "activeModelsCount": 268,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -46966,7 +46997,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 149
+      "count": 150
     },
     {
       "username": "YellowJack6",
@@ -47186,10 +47217,10 @@
       "count": 15
     },
     "Yamaha": {
-      "avgPrice": 1842,
+      "avgPrice": 1834,
       "retailEst": 300,
-      "avgDiscount": -514,
-      "count": 24
+      "avgDiscount": -511.4,
+      "count": 25
     }
   },
   "soldPrices": {
@@ -51239,15 +51270,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1447,
+      "total": 1448,
       "sold": 447,
       "fake": 0,
-      "live": 466,
+      "live": 467,
       "removed": 534,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Yamaha": {
+        "total": 25,
+        "sold": 8,
+        "fake": 0,
+        "live": 7,
+        "removed": 10,
+        "soldPct": 32,
+        "livePct": 28
+      },
       "Xotic": {
         "total": 5,
         "sold": 1,
@@ -51382,15 +51422,6 @@
         "removed": 17,
         "soldPct": 40,
         "livePct": 34
-      },
-      "Yamaha": {
-        "total": 24,
-        "sold": 8,
-        "fake": 0,
-        "live": 6,
-        "removed": 10,
-        "soldPct": 33,
-        "livePct": 25
       },
       "Hamer": {
         "total": 10,
@@ -53433,7 +53464,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 450,
+        "total": 451,
         "sold": 147,
         "rate": 33
       },
@@ -53463,6 +53494,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 410,
+        "sold": 140,
+        "rate": 34
+      },
       "Excellent": {
         "total": 527,
         "sold": 186,
@@ -53472,11 +53508,6 @@
         "total": 2,
         "sold": 0,
         "rate": 0
-      },
-      "Very Good": {
-        "total": 409,
-        "sold": 140,
-        "rate": 34
       },
       "Brand New": {
         "total": 117,
@@ -53677,13 +53708,6 @@
         "sold": 3
       },
       {
-        "brand": "Yamaha",
-        "avgPrice": 1842,
-        "sellRate": 33,
-        "count": 24,
-        "sold": 8
-      },
-      {
         "brand": "Grez",
         "avgPrice": 2150,
         "sellRate": 33,
@@ -53696,10 +53720,36 @@
         "sellRate": 33,
         "count": 6,
         "sold": 2
+      },
+      {
+        "brand": "Yamaha",
+        "avgPrice": 1834,
+        "sellRate": 32,
+        "count": 25,
+        "sold": 8
       }
     ]
   },
   "byBrandLine": {
+    "Yamaha|Yamaha SG/SA Premium": {
+      "brand": "Yamaha",
+      "brandLine": "Yamaha SG/SA Premium",
+      "tier": "mid",
+      "count": 12,
+      "sum": 21202.649999999998,
+      "avg": 1767,
+      "min": 550,
+      "max": 3700,
+      "sold": 2,
+      "soldSum": 2149,
+      "soldAvg": 1075,
+      "live": 7,
+      "removed": 3,
+      "sellRate": 17,
+      "totalDays": 123.6,
+      "soldCount": 2,
+      "avgDaysToSell": 61.8
+    },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
       "brandLine": "BC Rich Import",
@@ -53715,7 +53765,7 @@
       "live": 15,
       "removed": 14,
       "sellRate": 29,
-      "totalDays": 894.9000000000001,
+      "totalDays": 895,
       "soldCount": 12,
       "avgDaysToSell": 74.6
     },
@@ -53752,7 +53802,7 @@
       "live": 19,
       "removed": 46,
       "sellRate": 38,
-      "totalDays": 2498.3,
+      "totalDays": 2498.4,
       "soldCount": 39,
       "avgDaysToSell": 64.1
     },
@@ -53771,7 +53821,7 @@
       "live": 19,
       "removed": 27,
       "sellRate": 31,
-      "totalDays": 1746.6000000000001,
+      "totalDays": 1747,
       "soldCount": 21,
       "avgDaysToSell": 83.2
     },
@@ -53809,9 +53859,9 @@
       "live": 11,
       "removed": 15,
       "sellRate": 16,
-      "totalDays": 316.70000000000005,
+      "totalDays": 316.9,
       "soldCount": 5,
-      "avgDaysToSell": 63.3
+      "avgDaysToSell": 63.4
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -53866,7 +53916,7 @@
       "live": 38,
       "removed": 58,
       "sellRate": 34,
-      "totalDays": 3524.9,
+      "totalDays": 3525,
       "soldCount": 50,
       "avgDaysToSell": 70.5
     },
@@ -53926,25 +53976,6 @@
       "soldCount": 25,
       "avgDaysToSell": 80.8
     },
-    "Yamaha|Yamaha SG/SA Premium": {
-      "brand": "Yamaha",
-      "brandLine": "Yamaha SG/SA Premium",
-      "tier": "mid",
-      "count": 11,
-      "sum": 19552.649999999998,
-      "avg": 1778,
-      "min": 550,
-      "max": 3700,
-      "sold": 2,
-      "soldSum": 2149,
-      "soldAvg": 1075,
-      "live": 6,
-      "removed": 3,
-      "sellRate": 18,
-      "totalDays": 123.6,
-      "soldCount": 2,
-      "avgDaysToSell": 61.8
-    },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
       "brandLine": "Hamer USA Vintage",
@@ -53979,7 +54010,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 264.9,
+      "totalDays": 265,
       "soldCount": 5,
       "avgDaysToSell": 53
     },
@@ -54035,7 +54066,7 @@
       "live": 6,
       "removed": 6,
       "sellRate": 43,
-      "totalDays": 892.8000000000001,
+      "totalDays": 893,
       "soldCount": 9,
       "avgDaysToSell": 99.2
     },
@@ -54111,7 +54142,7 @@
       "live": 12,
       "removed": 2,
       "sellRate": 13,
-      "totalDays": 185.1,
+      "totalDays": 185.2,
       "soldCount": 2,
       "avgDaysToSell": 92.6
     },
@@ -54149,7 +54180,7 @@
       "live": 4,
       "removed": 21,
       "sellRate": 36,
-      "totalDays": 999.8,
+      "totalDays": 999.9,
       "soldCount": 14,
       "avgDaysToSell": 71.4
     },
@@ -54205,7 +54236,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 927.7,
+      "totalDays": 927.8000000000001,
       "soldCount": 13,
       "avgDaysToSell": 71.4
     },
@@ -54224,9 +54255,9 @@
       "live": 5,
       "removed": 5,
       "sellRate": 41,
-      "totalDays": 317.4,
+      "totalDays": 317.5,
       "soldCount": 7,
-      "avgDaysToSell": 45.3
+      "avgDaysToSell": 45.4
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -54338,7 +54369,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 303,
+      "totalDays": 303.1,
       "soldCount": 5,
       "avgDaysToSell": 60.6
     },
@@ -54769,7 +54800,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 138.5,
+      "totalDays": 138.6,
       "soldCount": 3,
       "avgDaysToSell": 46.2
     },
@@ -54900,9 +54931,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 14,
-      "totalDays": 64.8,
+      "totalDays": 64.9,
       "soldCount": 1,
-      "avgDaysToSell": 64.8
+      "avgDaysToSell": 64.9
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -55348,9 +55379,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 335.6,
+      "totalDays": 335.7,
       "soldCount": 2,
-      "avgDaysToSell": 167.8
+      "avgDaysToSell": 167.9
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
@@ -55736,14 +55767,14 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 83.7,
+      "totalDays": 83.8,
       "soldCount": 1,
-      "avgDaysToSell": 83.7
+      "avgDaysToSell": 83.8
     }
   },
   "offerActivity": {
-    "withOffers": 257,
-    "totalOffers": 554,
+    "withOffers": 258,
+    "totalOffers": 557,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 41
   },
@@ -55772,7 +55803,7 @@
     },
     {
       "label": "16–30",
-      "total": 221,
+      "total": 222,
       "sold": 59,
       "rate": 27
     },
@@ -55785,7 +55816,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 515,
+      "total": 516,
       "sold": 156,
       "rate": 30
     },
@@ -55802,9 +55833,9 @@
       "rate": 22
     },
     "regular": {
-      "total": 339,
+      "total": 340,
       "sold": 117,
-      "rate": 35
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -55857,16 +55888,16 @@
       "rate": 36
     },
     {
+      "state": "MD",
+      "total": 20,
+      "sold": 8,
+      "rate": 40
+    },
+    {
       "state": "WI",
       "total": 19,
       "sold": 4,
       "rate": 21
-    },
-    {
-      "state": "MD",
-      "total": 19,
-      "sold": 8,
-      "rate": 42
     },
     {
       "state": "NC",
