@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-26T15:45:04.618Z",
-  "totalLinks": 1506,
-  "totalEver": 1866,
-  "totalBeforeFilter": 1866,
+  "generatedAt": "2026-06-26T15:59:00.757Z",
+  "totalLinks": 1507,
+  "totalEver": 1867,
+  "totalBeforeFilter": 1867,
   "fakeCount": 21,
   "removedCount": 585,
-  "totalWithPrice": 1489,
+  "totalWithPrice": 1490,
   "overall": {
-    "count": 1445,
-    "sum": 4112862.64,
-    "avg": 2846,
+    "count": 1446,
+    "sum": 4116812.64,
+    "avg": 2847,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1445,
-    "sum": 4112862.64,
-    "avg": 2846,
+    "count": 1446,
+    "sum": 4116812.64,
+    "avg": 2847,
     "min": 3,
     "max": 11099,
-    "median": 2250
+    "median": 2258
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 241,
-      "sum": 727050.95,
+      "count": 242,
+      "sum": 731000.95,
       "min": 260,
       "max": 10599,
-      "avg": 3017
+      "avg": 3021
     },
     "2026-05": {
       "count": 360,
@@ -403,19 +403,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 1250,
+      "sum": 3544517.1,
+      "min": 33,
+      "max": 10933,
+      "avg": 2836
+    },
     "marketplace": {
       "count": 94,
       "sum": 279218.4,
       "min": 39.81,
       "max": 10495,
       "avg": 2970
-    },
-    "reverb": {
-      "count": 1249,
-      "sum": 3540567.1,
-      "min": 33,
-      "max": 10933,
-      "avg": 2835
     },
     "other": {
       "count": 102,
@@ -426,19 +426,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 1250,
+      "sum": 3544517.1,
+      "min": 33,
+      "max": 10933,
+      "avg": 2836
+    },
     "chicagomusicexchange.com": {
       "count": 61,
       "sum": 234114.98,
       "min": 350,
       "max": 11099,
       "avg": 3838
-    },
-    "reverb.com": {
-      "count": 1249,
-      "sum": 3540567.1,
-      "min": 33,
-      "max": 10933,
-      "avg": 2835
     },
     "eddiesguitars.com": {
       "count": 5,
@@ -687,6 +687,37 @@
     }
   },
   "byModel": {
+    "bernie-rico-junior-custom": {
+      "displayName": "One-of-a-Kind Bernie Rico Jr. Custom (2007)",
+      "brand": "Bernie Rico Junior",
+      "model": "Custom",
+      "variant": null,
+      "count": 1,
+      "sum": 3950,
+      "min": 3950,
+      "max": 3950,
+      "sightings": [
+        {
+          "price": 3950,
+          "date": "2026-06-26T15:58:46.178Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "One-of-a-Kind Bernie Rico Jr. Custom (2007)",
+          "url": "https://reverb.com/item/98791117",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3950,
+          "min": 3950,
+          "max": 3950,
+          "avg": 3950
+        }
+      },
+      "avg": 3950
+    },
     "prs-standard": {
       "displayName": "PRS Standard 22 Stoptail Silver 2004",
       "brand": "PRS",
@@ -7931,7 +7962,7 @@
       "sightings": [
         {
           "price": 1799,
-          "date": "2026-06-13T05:11:58.067Z",
+          "date": "2026-06-13T05:11:58.067+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Gibson '70s Explorer, 2025, OHSC, Lightweight, Exceptional condition",
@@ -7957,7 +7988,7 @@
           {
             "price": 1799,
             "askingPrice": 1799,
-            "date": "2026-06-19T11:38:01.251Z",
+            "date": "2026-06-19T11:38:01.251+00:00",
             "title": "Gibson '70s Explorer, 2025, OHSC, Lightweight, Exceptional condition",
             "url": "https://reverb.com/item/97715911"
           }
@@ -44580,6 +44611,15 @@
     }
   },
   "byBrandPrice": {
+    "Bernie Rico Junior": {
+      "count": 2,
+      "min": 3950,
+      "max": 7000,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 5475,
+      "soldAvg": null
+    },
     "PRS": {
       "count": 132,
       "min": 595,
@@ -45173,15 +45213,6 @@
       "outliersExcluded": 0,
       "avg": 3579,
       "soldAvg": 2500
-    },
-    "Bernie Rico Junior": {
-      "count": 1,
-      "min": 7000,
-      "max": 7000,
-      "soldCount": 0,
-      "outliersExcluded": 0,
-      "avg": 7000,
-      "soldAvg": null
     },
     "Parker": {
       "count": 7,
@@ -46535,6 +46566,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 540,
+      "sum": 2364422.870000001,
+      "sold": {
+        "count": 187,
+        "sum": 540940.8999999999,
+        "avg": 2893,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4379,
+      "min": 269,
+      "max": 190000
+    },
     "Used": {
       "count": 52,
       "sum": 228080.71000000008,
@@ -46559,20 +46604,6 @@
       "avg": 3835,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 539,
-      "sum": 2360472.870000001,
-      "sold": {
-        "count": 187,
-        "sum": 540940.8999999999,
-        "avg": 2893,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4379,
-      "min": 269,
-      "max": 190000
     },
     "Good": {
       "count": 154,
@@ -46681,9 +46712,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3017,
+      "avg": 3021,
       "median": 2500,
-      "count": 241
+      "count": 242
     },
     "05": {
       "name": "May",
@@ -46851,7 +46882,7 @@
     "500-1k": 121,
     "1k-2k": 455,
     "2k-3k": 301,
-    "3k-5k": 330,
+    "3k-5k": 331,
     "5k-10k": 170,
     "10k+": 55
   },
@@ -46860,11 +46891,16 @@
     "500-1k": 121,
     "1k-2k": 455,
     "2k-3k": 301,
-    "3k-5k": 330,
+    "3k-5k": 331,
     "5k-10k": 170,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Bernie Rico Junior": {
+      "sum": 15,
+      "count": 2,
+      "avg": 8
+    },
     "PRS": {
       "sum": 6835,
       "count": 124,
@@ -46881,7 +46917,7 @@
       "avg": 46
     },
     "Gibson": {
-      "sum": 8156,
+      "sum": 8157,
       "count": 144,
       "avg": 57
     },
@@ -46921,7 +46957,7 @@
       "avg": 54
     },
     "Fender": {
-      "sum": 5061,
+      "sum": 5062,
       "count": 90,
       "avg": 56
     },
@@ -46946,7 +46982,7 @@
       "avg": 32
     },
     "ESP": {
-      "sum": 1415,
+      "sum": 1416,
       "count": 25,
       "avg": 57
     },
@@ -47111,9 +47147,9 @@
       "avg": 11
     },
     "Gretsch": {
-      "sum": 632,
+      "sum": 633,
       "count": 11,
-      "avg": 57
+      "avg": 58
     },
     "Novo": {
       "sum": 423,
@@ -47189,11 +47225,6 @@
       "sum": 45,
       "count": 2,
       "avg": 23
-    },
-    "Bernie Rico Junior": {
-      "sum": 15,
-      "count": 1,
-      "avg": 15
     },
     "Parker": {
       "sum": 349,
@@ -47381,7 +47412,7 @@
       "avg": 55
     },
     "Collings": {
-      "sum": 318,
+      "sum": 319,
       "count": 5,
       "avg": 64
     },
@@ -47797,7 +47828,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-26": 6,
+    "2026-06-26": 7,
     "2026-06-25": 11,
     "2026-06-24": 11,
     "2026-06-23": 13,
@@ -47826,15 +47857,15 @@
     "2026-05-27": 9
   },
   "categoryDistribution": {
+    "reverb": 1285,
     "marketplace": 109,
-    "reverb": 1284,
     "other": 113
   },
-  "activeModelsCount": 267,
+  "activeModelsCount": 268,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 409
+      "count": 410
     },
     {
       "username": "greg1213",
@@ -52195,15 +52226,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1475,
+      "total": 1476,
       "sold": 459,
       "fake": 0,
-      "live": 468,
+      "live": 469,
       "removed": 548,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Bernie Rico Junior": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "removed": 1,
+        "soldPct": 0,
+        "livePct": 50
+      },
       "PRS": {
         "total": 139,
         "sold": 45,
@@ -52806,15 +52846,6 @@
         "removed": 0,
         "soldPct": 33,
         "livePct": 67
-      },
-      "Bernie Rico Junior": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 0,
-        "removed": 1,
-        "soldPct": 0,
-        "livePct": 0
       },
       "Parker": {
         "total": 8,
@@ -54410,7 +54441,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 330,
+        "total": 331,
         "sold": 96,
         "rate": 29
       },
@@ -54428,6 +54459,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 540,
+        "sold": 191,
+        "rate": 35
+      },
       "Used": {
         "total": 53,
         "sold": 9,
@@ -54437,11 +54473,6 @@
         "total": 416,
         "sold": 142,
         "rate": 34
-      },
-      "Excellent": {
-        "total": 539,
-        "sold": 191,
-        "rate": 35
       },
       "Good": {
         "total": 154,
@@ -54661,6 +54692,13 @@
         "sellRate": 32,
         "count": 25,
         "sold": 8
+      },
+      {
+        "brand": "Hamer",
+        "avgPrice": 2256,
+        "sellRate": 30,
+        "count": 10,
+        "sold": 3
       }
     ]
   },
@@ -54680,7 +54718,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 44,
-      "totalDays": 344,
+      "totalDays": 344.20000000000005,
       "soldCount": 8,
       "avgDaysToSell": 43
     },
@@ -54718,7 +54756,7 @@
       "live": 5,
       "removed": 21,
       "sellRate": 35,
-      "totalDays": 1027.5,
+      "totalDays": 1027.8,
       "soldCount": 14,
       "avgDaysToSell": 73.4
     },
@@ -54737,7 +54775,7 @@
       "live": 41,
       "removed": 59,
       "sellRate": 33,
-      "totalDays": 3624.4999999999995,
+      "totalDays": 3624.9,
       "soldCount": 50,
       "avgDaysToSell": 72.5
     },
@@ -54756,7 +54794,7 @@
       "live": 17,
       "removed": 49,
       "sellRate": 38,
-      "totalDays": 2582.9,
+      "totalDays": 2583.1,
       "soldCount": 40,
       "avgDaysToSell": 64.6
     },
@@ -54775,7 +54813,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 231.60000000000002,
+      "totalDays": 231.7,
       "soldCount": 3,
       "avgDaysToSell": 77.2
     },
@@ -54813,7 +54851,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 38,
-      "totalDays": 802.4,
+      "totalDays": 802.4999999999999,
       "soldCount": 12,
       "avgDaysToSell": 66.9
     },
@@ -54832,7 +54870,7 @@
       "live": 5,
       "removed": 11,
       "sellRate": 30,
-      "totalDays": 388.9,
+      "totalDays": 389,
       "soldCount": 7,
       "avgDaysToSell": 55.6
     },
@@ -54851,7 +54889,7 @@
       "live": 19,
       "removed": 29,
       "sellRate": 31,
-      "totalDays": 1789.5,
+      "totalDays": 1789.6000000000001,
       "soldCount": 22,
       "avgDaysToSell": 81.3
     },
@@ -54870,7 +54908,7 @@
       "live": 22,
       "removed": 16,
       "sellRate": 40,
-      "totalDays": 2069.6,
+      "totalDays": 2069.8999999999996,
       "soldCount": 25,
       "avgDaysToSell": 82.8
     },
@@ -54907,7 +54945,7 @@
       "live": 16,
       "removed": 14,
       "sellRate": 29,
-      "totalDays": 918.6,
+      "totalDays": 918.9000000000001,
       "soldCount": 12,
       "avgDaysToSell": 76.6
     },
@@ -55001,7 +55039,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 229.8,
+      "totalDays": 229.89999999999998,
       "soldCount": 4,
       "avgDaysToSell": 57.5
     },
@@ -55020,7 +55058,7 @@
       "live": 11,
       "removed": 15,
       "sellRate": 16,
-      "totalDays": 326.6,
+      "totalDays": 326.70000000000005,
       "soldCount": 5,
       "avgDaysToSell": 65.3
     },
@@ -55170,7 +55208,7 @@
       "live": 6,
       "removed": 6,
       "sellRate": 43,
-      "totalDays": 910.7,
+      "totalDays": 910.8000000000001,
       "soldCount": 9,
       "avgDaysToSell": 101.2
     },
@@ -55208,9 +55246,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 17,
-      "totalDays": 24.5,
+      "totalDays": 24.6,
       "soldCount": 1,
-      "avgDaysToSell": 24.5
+      "avgDaysToSell": 24.6
     },
     "Chapman|Chapman": {
       "brand": "Chapman",
@@ -55265,7 +55303,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 58,
-      "totalDays": 420,
+      "totalDays": 420.1,
       "soldCount": 7,
       "avgDaysToSell": 60
     },
@@ -55321,7 +55359,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 953.6000000000001,
+      "totalDays": 953.7,
       "soldCount": 13,
       "avgDaysToSell": 73.4
     },
@@ -55454,7 +55492,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 97.5,
+      "totalDays": 97.60000000000001,
       "soldCount": 2,
       "avgDaysToSell": 48.8
     },
@@ -55491,9 +55529,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 216.70000000000002,
+      "totalDays": 216.8,
       "soldCount": 3,
-      "avgDaysToSell": 72.2
+      "avgDaysToSell": 72.3
     },
     "Ibanez|Ibanez GIO": {
       "brand": "Ibanez",
@@ -55547,9 +55585,9 @@
       "live": 8,
       "removed": 6,
       "sellRate": 22,
-      "totalDays": 335.6,
+      "totalDays": 335.8,
       "soldCount": 4,
-      "avgDaysToSell": 83.9
+      "avgDaysToSell": 84
     },
     "Parker|Parker Spanish Fly": {
       "brand": "Parker",
@@ -55566,9 +55604,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 14.9,
+      "totalDays": 15,
       "soldCount": 1,
-      "avgDaysToSell": 14.9
+      "avgDaysToSell": 15
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -55735,9 +55773,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 45.3,
+      "totalDays": 45.4,
       "soldCount": 1,
-      "avgDaysToSell": 45.3
+      "avgDaysToSell": 45.4
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -55754,7 +55792,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 27,
-      "totalDays": 527,
+      "totalDays": 527.1,
       "soldCount": 7,
       "avgDaysToSell": 75.3
     },
@@ -55792,9 +55830,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 157.6,
+      "totalDays": 157.7,
       "soldCount": 1,
-      "avgDaysToSell": 157.6
+      "avgDaysToSell": 157.7
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -55867,7 +55905,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 302.4,
+      "totalDays": 302.5,
       "soldCount": 4,
       "avgDaysToSell": 75.6
     },
@@ -55998,9 +56036,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 123,
+      "totalDays": 123.1,
       "soldCount": 2,
-      "avgDaysToSell": 61.5
+      "avgDaysToSell": 61.6
     },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
@@ -56167,7 +56205,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 196.5,
+      "totalDays": 196.6,
       "soldCount": 3,
       "avgDaysToSell": 65.5
     },
@@ -56406,9 +56444,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 71.6,
+      "totalDays": 71.7,
       "soldCount": 1,
-      "avgDaysToSell": 71.6
+      "avgDaysToSell": 71.7
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -56702,9 +56740,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 85.7,
+      "totalDays": 85.8,
       "soldCount": 1,
-      "avgDaysToSell": 85.7
+      "avgDaysToSell": 85.8
     }
   },
   "offerActivity": {
@@ -56726,7 +56764,7 @@
     },
     {
       "label": "1–5",
-      "total": 48,
+      "total": 49,
       "sold": 14,
       "rate": 29
     },
@@ -56751,7 +56789,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 531,
+      "total": 532,
       "sold": 161,
       "rate": 30
     },
@@ -56768,7 +56806,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 349,
+      "total": 350,
       "sold": 119,
       "rate": 34
     }
@@ -56800,9 +56838,9 @@
     },
     {
       "state": "FL",
-      "total": 38,
+      "total": 39,
       "sold": 19,
-      "rate": 50
+      "rate": 49
     },
     {
       "state": "WA",
