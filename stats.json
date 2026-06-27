@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-27T16:15:29.898Z",
-  "totalLinks": 1515,
-  "totalEver": 1879,
-  "totalBeforeFilter": 1879,
+  "generatedAt": "2026-06-27T16:16:11.224Z",
+  "totalLinks": 1516,
+  "totalEver": 1880,
+  "totalBeforeFilter": 1880,
   "fakeCount": 21,
   "removedCount": 588,
-  "totalWithPrice": 1497,
+  "totalWithPrice": 1498,
   "overall": {
-    "count": 1453,
-    "sum": 4147595.63,
+    "count": 1454,
+    "sum": 4151790.63,
     "avg": 2855,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1453,
-    "sum": 4147595.63,
+    "count": 1454,
+    "sum": 4151790.63,
     "avg": 2855,
     "min": 3,
     "max": 11099,
-    "median": 2275
+    "median": 2279
   },
   "outliers": {
-    "thresholdHigh": 11258,
+    "thresholdHigh": 11303,
     "thresholdLow": 0,
     "count": 44,
     "items": [
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 249,
-      "sum": 761393.94,
+      "count": 250,
+      "sum": 765588.94,
       "min": 260,
       "max": 10599,
-      "avg": 3058
+      "avg": 3062
     },
     "2026-05": {
       "count": 360,
@@ -404,11 +404,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 97,
-      "sum": 294308.39,
+      "count": 98,
+      "sum": 298503.39,
       "min": 39.81,
       "max": 10495,
-      "avg": 3034
+      "avg": 3046
     },
     "reverb": {
       "count": 1254,
@@ -427,11 +427,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 63,
-      "sum": 247204.98,
+      "count": 64,
+      "sum": 251399.98,
       "min": 350,
       "max": 11099,
-      "avg": 3924
+      "avg": 3928
     },
     "reverb.com": {
       "count": 1254,
@@ -687,6 +687,85 @@
     }
   },
   "byModel": {
+    "anderson-classic": {
+      "displayName": "Tom Anderson Drop Top Classic Shorty Ginger Burst 2025",
+      "brand": "Anderson",
+      "model": "Classic",
+      "variant": null,
+      "count": 3,
+      "sum": 9745,
+      "min": 2550,
+      "max": 4195,
+      "sightings": [
+        {
+          "price": 2550,
+          "date": "2026-03-28T19:18:48.079+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Tom Anderson Hollow T Classic Contoured 2007 - Translucent Blond",
+          "url": "https://reverb.com/item/95515485-tom-anderson-hollow-t-classic-contoured-2007-translucent-blond",
+          "condition": "Excellent"
+        },
+        {
+          "price": 3000,
+          "date": "2026-06-15T00:47:31.955Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Tom Anderson Guitarworks T Classic",
+          "url": "https://reverb.com/uk/item/97932517-tom-anderson-guitarworks-t-classic",
+          "condition": "Excellent"
+        },
+        {
+          "price": 4195,
+          "date": "2026-06-27T16:15:55.438Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Tom Anderson Drop Top Classic Shorty Ginger Burst 2025",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/tom-anderson-drop-top-classic-shorty-ginger-burst-2025-2590977",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 4195,
+          "min": 4195,
+          "max": 4195,
+          "avg": 4195
+        },
+        "Excellent": {
+          "count": 2,
+          "sum": 5550,
+          "min": 2550,
+          "max": 3000,
+          "avg": 2775
+        }
+      },
+      "avg": 3248,
+      "trends": {
+        "d30": {
+          "direction": "up",
+          "pctChange": 41,
+          "recentAvg": 3598,
+          "olderAvg": 2550,
+          "recentCount": 2
+        },
+        "d60": {
+          "direction": "up",
+          "pctChange": 41,
+          "recentAvg": 3598,
+          "olderAvg": 2550,
+          "recentCount": 2
+        },
+        "d90": {
+          "direction": "up",
+          "pctChange": 41,
+          "recentAvg": 3598,
+          "olderAvg": 2550,
+          "recentCount": 2
+        }
+      }
+    },
     "fender-stratocaster-custom-shop-reissue": {
       "displayName": "Fender Custom Shop '69 Stratocaster Reissue Journeyman Relic Fiesta Re",
       "brand": "Fender",
@@ -6921,46 +7000,6 @@
       },
       "avg": 28899
     },
-    "anderson-classic": {
-      "displayName": "Tom Anderson Guitarworks T Classic",
-      "brand": "Anderson",
-      "model": "Classic",
-      "variant": null,
-      "count": 2,
-      "sum": 5550,
-      "min": 2550,
-      "max": 3000,
-      "sightings": [
-        {
-          "price": 2550,
-          "date": "2026-03-28T19:18:48.079+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Tom Anderson Hollow T Classic Contoured 2007 - Translucent Blond",
-          "url": "https://reverb.com/item/95515485-tom-anderson-hollow-t-classic-contoured-2007-translucent-blond",
-          "condition": "Excellent"
-        },
-        {
-          "price": 3000,
-          "date": "2026-06-15T00:47:31.955Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Tom Anderson Guitarworks T Classic",
-          "url": "https://reverb.com/uk/item/97932517-tom-anderson-guitarworks-t-classic",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 2,
-          "sum": 5550,
-          "min": 2550,
-          "max": 3000,
-          "avg": 2775
-        }
-      },
-      "avg": 2775
-    },
     "ibanez-7420fm-transparent": {
       "displayName": "Ibanez S 7420FM 1999 - Transparent Blue",
       "brand": "Ibanez",
@@ -7888,7 +7927,7 @@
       "sightings": [
         {
           "price": 1070,
-          "date": "2026-06-13T23:14:45.830Z",
+          "date": "2026-06-13T23:14:45.83+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Ibanez JIVA10 Nita Strauss, Exceptional near mint condition, OHSC",
@@ -7928,7 +7967,7 @@
         },
         {
           "price": 1074,
-          "date": "2026-06-13T21:57:01.031Z",
+          "date": "2026-06-13T21:57:01.031+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Eastman Henry James Signature Juliet Truetone Gloss Sunburst",
@@ -44880,6 +44919,15 @@
     }
   },
   "byBrandPrice": {
+    "Anderson": {
+      "count": 12,
+      "min": 2249,
+      "max": 5250,
+      "soldCount": 1,
+      "outliersExcluded": 0,
+      "avg": 3288,
+      "soldAvg": 2499
+    },
     "Fender": {
       "count": 92,
       "min": 599,
@@ -45374,15 +45422,6 @@
       "outliersExcluded": 0,
       "avg": 2241,
       "soldAvg": 1349
-    },
-    "Anderson": {
-      "count": 11,
-      "min": 2249,
-      "max": 5250,
-      "soldCount": 1,
-      "outliersExcluded": 0,
-      "avg": 3205,
-      "soldAvg": 2499
     },
     "Shabat": {
       "count": 10,
@@ -46836,13 +46875,13 @@
   },
   "byCondition": {
     "Used": {
-      "count": 54,
-      "sum": 241170.71000000005,
+      "count": 55,
+      "sum": 245365.71000000002,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 4466,
+      "avg": 4461,
       "min": 475.99,
       "max": 99000
     },
@@ -46981,9 +47020,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3058,
-      "median": 2500,
-      "count": 249
+      "avg": 3062,
+      "median": 2501,
+      "count": 250
     },
     "05": {
       "name": "May",
@@ -47151,7 +47190,7 @@
     "500-1k": 121,
     "1k-2k": 457,
     "2k-3k": 303,
-    "3k-5k": 333,
+    "3k-5k": 334,
     "5k-10k": 171,
     "10k+": 55
   },
@@ -47160,11 +47199,16 @@
     "500-1k": 121,
     "1k-2k": 457,
     "2k-3k": 303,
-    "3k-5k": 333,
+    "3k-5k": 334,
     "5k-10k": 171,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Anderson": {
+      "sum": 537,
+      "count": 11,
+      "avg": 49
+    },
     "Fender": {
       "sum": 4970,
       "count": 89,
@@ -47435,11 +47479,6 @@
       "count": 4,
       "avg": 44
     },
-    "Anderson": {
-      "sum": 537,
-      "count": 10,
-      "avg": 54
-    },
     "Hallmark": {
       "sum": 83,
       "count": 2,
@@ -47486,7 +47525,7 @@
       "avg": 68
     },
     "Epiphone": {
-      "sum": 359,
+      "sum": 360,
       "count": 8,
       "avg": 45
     },
@@ -47621,7 +47660,7 @@
       "avg": 64
     },
     "G&L": {
-      "sum": 291,
+      "sum": 292,
       "count": 5,
       "avg": 58
     },
@@ -48087,7 +48126,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-27": 3,
+    "2026-06-27": 4,
     "2026-06-26": 12,
     "2026-06-25": 11,
     "2026-06-24": 11,
@@ -48116,7 +48155,7 @@
     "2026-05-28": 17
   },
   "categoryDistribution": {
-    "marketplace": 113,
+    "marketplace": 114,
     "reverb": 1289,
     "other": 113
   },
@@ -48132,7 +48171,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 154
+      "count": 155
     },
     {
       "username": "YellowJack6",
@@ -48280,10 +48319,10 @@
       "count": 19
     },
     "Anderson": {
-      "avgPrice": 3205,
+      "avgPrice": 3288,
       "retailEst": 2500,
-      "avgDiscount": -28.2,
-      "count": 11
+      "avgDiscount": -31.5,
+      "count": 12
     },
     "Kiesel": {
       "avgPrice": 1618,
@@ -52521,15 +52560,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1484,
+      "total": 1485,
       "sold": 462,
       "fake": 0,
-      "live": 471,
+      "live": 472,
       "removed": 551,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Anderson": {
+        "total": 12,
+        "sold": 1,
+        "fake": 0,
+        "live": 5,
+        "removed": 6,
+        "soldPct": 8,
+        "livePct": 42
+      },
       "Fender": {
         "total": 110,
         "sold": 33,
@@ -53033,15 +53081,6 @@
         "removed": 3,
         "soldPct": 11,
         "livePct": 56
-      },
-      "Anderson": {
-        "total": 11,
-        "sold": 1,
-        "fake": 0,
-        "live": 4,
-        "removed": 6,
-        "soldPct": 9,
-        "livePct": 36
       },
       "Shabat": {
         "total": 10,
@@ -54668,10 +54707,10 @@
       },
       {
         "brand": "Anderson",
-        "total": 11,
+        "total": 12,
         "sold": 1,
-        "live": 4,
-        "soldPct": 9
+        "live": 5,
+        "soldPct": 8
       },
       {
         "brand": "Guild",
@@ -54736,7 +54775,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 333,
+        "total": 334,
         "sold": 96,
         "rate": 29
       },
@@ -54755,7 +54794,7 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 55,
+        "total": 56,
         "sold": 10,
         "rate": 18
       },
@@ -55005,6 +55044,25 @@
     ]
   },
   "byBrandLine": {
+    "Anderson|Tom Anderson": {
+      "brand": "Anderson",
+      "brandLine": "Tom Anderson",
+      "tier": "premium",
+      "count": 11,
+      "sum": 36554.99,
+      "avg": 3323,
+      "min": 2249,
+      "max": 5250,
+      "sold": 1,
+      "soldSum": 2499,
+      "soldAvg": 2499,
+      "live": 4,
+      "removed": 6,
+      "sellRate": 9,
+      "totalDays": 49.8,
+      "soldCount": 1,
+      "avgDaysToSell": 49.8
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -55020,7 +55078,7 @@
       "live": 19,
       "removed": 30,
       "sellRate": 31,
-      "totalDays": 1812.1999999999998,
+      "totalDays": 1812.3,
       "soldCount": 22,
       "avgDaysToSell": 82.4
     },
@@ -55779,25 +55837,6 @@
       "totalDays": 318.1,
       "soldCount": 5,
       "avgDaysToSell": 63.6
-    },
-    "Anderson|Tom Anderson": {
-      "brand": "Anderson",
-      "brandLine": "Tom Anderson",
-      "tier": "premium",
-      "count": 10,
-      "sum": 32359.989999999998,
-      "avg": 3236,
-      "min": 2249,
-      "max": 5250,
-      "sold": 1,
-      "soldSum": 2499,
-      "soldAvg": 2499,
-      "live": 3,
-      "removed": 6,
-      "sellRate": 10,
-      "totalDays": 49.8,
-      "soldCount": 1,
-      "avgDaysToSell": 49.8
     },
     "Bilt|Bilt": {
       "brand": "Bilt",
