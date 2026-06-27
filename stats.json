@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-27T16:00:04.777Z",
-  "totalLinks": 1513,
-  "totalEver": 1877,
-  "totalBeforeFilter": 1877,
+  "generatedAt": "2026-06-27T16:14:47.712Z",
+  "totalLinks": 1514,
+  "totalEver": 1878,
+  "totalBeforeFilter": 1878,
   "fakeCount": 21,
   "removedCount": 588,
-  "totalWithPrice": 1495,
+  "totalWithPrice": 1496,
   "overall": {
-    "count": 1451,
-    "sum": 4134505.63,
-    "avg": 2849,
+    "count": 1452,
+    "sum": 4144500.63,
+    "avg": 2854,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1451,
-    "sum": 4134505.63,
-    "avg": 2849,
+    "count": 1452,
+    "sum": 4144500.63,
+    "avg": 2854,
     "min": 3,
     "max": 11099,
-    "median": 2266
+    "median": 2271
   },
   "outliers": {
-    "thresholdHigh": 11258,
+    "thresholdHigh": 11303,
     "thresholdLow": 0,
     "count": 44,
     "items": [
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 247,
-      "sum": 748303.94,
+      "count": 248,
+      "sum": 758298.94,
       "min": 260,
       "max": 10599,
-      "avg": 3030
+      "avg": 3058
     },
     "2026-05": {
       "count": 360,
@@ -403,19 +403,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 96,
+      "sum": 291213.39,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 3033
+    },
     "reverb": {
       "count": 1254,
       "sum": 3560210.1,
       "min": 33,
       "max": 10933,
       "avg": 2839
-    },
-    "marketplace": {
-      "count": 95,
-      "sum": 281218.39,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 2960
     },
     "other": {
       "count": 102,
@@ -426,6 +426,13 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 62,
+      "sum": 244109.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 3937
+    },
     "reverb.com": {
       "count": 1254,
       "sum": 3560210.1,
@@ -439,13 +446,6 @@
       "min": 139.99,
       "max": 5999,
       "avg": 2054
-    },
-    "chicagomusicexchange.com": {
-      "count": 61,
-      "sum": 234114.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 3838
     },
     "eddiesguitars.com": {
       "count": 5,
@@ -687,6 +687,53 @@
     }
   },
   "byModel": {
+    "prs-mccarty-594-private-stock": {
+      "displayName": "PRS Private Stock #9438 McCarty 594 Singlecut w/Brazilian Rosewood Nec",
+      "brand": "PRS",
+      "model": "McCarty 594",
+      "variant": "Private Stock",
+      "count": 2,
+      "sum": 18995,
+      "min": 9000,
+      "max": 9995,
+      "sightings": [
+        {
+          "price": 9000,
+          "date": "2026-06-18T15:11:59.301Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty 594 Private Stock - Thinline Black Subzero Doghair",
+          "url": "https://reverb.com/item/98377465",
+          "condition": "Excellent"
+        },
+        {
+          "price": 9995,
+          "date": "2026-06-27T16:14:31.658Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS Private Stock #9438 McCarty 594 Singlecut w/Brazilian Rosewood Nec",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/prs-private-stock-9438-mccarty-594-singlecut-wbrazilian-2607992",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 9995,
+          "min": 9995,
+          "max": 9995,
+          "avg": 9995
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 9000,
+          "min": 9000,
+          "max": 9000,
+          "avg": 9000
+        }
+      },
+      "avg": 9498
+    },
     "echopark-downtowner-koa": {
       "displayName": "Echopark Downtowner Custom Koa 2014",
       "brand": "Echopark",
@@ -5354,37 +5401,6 @@
       },
       "avg": 4829
     },
-    "prs-mccarty-594-private-stock": {
-      "displayName": "PRS McCarty 594 Private Stock - Thinline Black Subzero Doghair",
-      "brand": "PRS",
-      "model": "McCarty 594",
-      "variant": "Private Stock",
-      "count": 1,
-      "sum": 9000,
-      "min": 9000,
-      "max": 9000,
-      "sightings": [
-        {
-          "price": 9000,
-          "date": "2026-06-18T15:11:59.301Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS McCarty 594 Private Stock - Thinline Black Subzero Doghair",
-          "url": "https://reverb.com/item/98377465",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 9000,
-          "min": 9000,
-          "max": 9000,
-          "avg": 9000
-        }
-      },
-      "avg": 9000
-    },
     "eastman-juliet-bigsby-antique": {
       "displayName": "Used 2022 Eastman Juliet Bigsby Antique Black Varnish",
       "brand": "Eastman",
@@ -7849,7 +7865,7 @@
       "sightings": [
         {
           "price": 3395,
-          "date": "2026-06-13T20:48:24.234Z",
+          "date": "2026-06-13T20:48:24.234+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Suhr Custom Shop Standard HSS Cherry Burst",
@@ -7875,7 +7891,7 @@
           {
             "price": 3395,
             "askingPrice": 3395,
-            "date": "2026-06-24T23:07:50.494Z",
+            "date": "2026-06-24T23:07:50.494+00:00",
             "title": "Suhr Custom Shop Standard HSS Cherry Burst",
             "url": "https://www.chicagomusicexchange.com/collections/new-arrivals/products/suhr-custom-shop-standard-hss-cherry-burst-2596684"
           }
@@ -44825,6 +44841,15 @@
     }
   },
   "byBrandPrice": {
+    "PRS": {
+      "count": 134,
+      "min": 595,
+      "max": 9995,
+      "soldCount": 47,
+      "outliersExcluded": 6,
+      "avg": 3518,
+      "soldAvg": 3223
+    },
     "Echopark": {
       "count": 27,
       "min": 1750,
@@ -44842,15 +44867,6 @@
       "outliersExcluded": 1,
       "avg": 2664,
       "soldAvg": 2082
-    },
-    "PRS": {
-      "count": 133,
-      "min": 595,
-      "max": 9980.14,
-      "soldCount": 47,
-      "outliersExcluded": 6,
-      "avg": 3469,
-      "soldAvg": 3223
     },
     "Nik Huber": {
       "count": 4,
@@ -46780,6 +46796,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 53,
+      "sum": 238075.71000000008,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 4492,
+      "min": 475.99,
+      "max": 99000
+    },
     "Very Good": {
       "count": 419,
       "sum": 1604766.56,
@@ -46832,17 +46859,6 @@
       "avg": 4381,
       "min": 269,
       "max": 190000
-    },
-    "Used": {
-      "count": 52,
-      "sum": 228080.71000000008,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 4386,
-      "min": 475.99,
-      "max": 99000
     },
     "Good": {
       "count": 154,
@@ -46926,9 +46942,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3030,
+      "avg": 3058,
       "median": 2500,
-      "count": 247
+      "count": 248
     },
     "05": {
       "name": "May",
@@ -47097,7 +47113,7 @@
     "1k-2k": 457,
     "2k-3k": 303,
     "3k-5k": 332,
-    "5k-10k": 170,
+    "5k-10k": 171,
     "10k+": 55
   },
   "priceDistributionFiltered": {
@@ -47106,19 +47122,19 @@
     "1k-2k": 457,
     "2k-3k": 303,
     "3k-5k": 332,
-    "5k-10k": 170,
+    "5k-10k": 171,
     "10k+": 11
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 6779,
+      "count": 124,
+      "avg": 55
+    },
     "BC Rich": {
-      "sum": 4652,
+      "sum": 4653,
       "count": 86,
       "avg": 54
-    },
-    "PRS": {
-      "sum": 6778,
-      "count": 123,
-      "avg": 55
     },
     "Bernie Rico Junior": {
       "sum": 17,
@@ -47206,7 +47222,7 @@
       "avg": 49
     },
     "Valley Arts": {
-      "sum": 156,
+      "sum": 157,
       "count": 3,
       "avg": 52
     },
@@ -47546,7 +47562,7 @@
       "avg": 35
     },
     "Marshall": {
-      "sum": 268,
+      "sum": 269,
       "count": 4,
       "avg": 67
     },
@@ -47816,9 +47832,9 @@
       "avg": 85
     },
     "Positive Grid": {
-      "sum": 65,
+      "sum": 66,
       "count": 1,
-      "avg": 65
+      "avg": 66
     },
     "Seger": {
       "sum": 66,
@@ -47956,9 +47972,9 @@
       "avg": 77
     },
     "T's": {
-      "sum": 79,
+      "sum": 80,
       "count": 1,
-      "avg": 79
+      "avg": 80
     },
     "Waterslide": {
       "sum": 80,
@@ -48032,7 +48048,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-27": 1,
+    "2026-06-27": 2,
     "2026-06-26": 12,
     "2026-06-25": 11,
     "2026-06-24": 11,
@@ -48058,14 +48074,14 @@
     "2026-06-02": 3,
     "2026-05-30": 3,
     "2026-05-29": 7,
-    "2026-05-28": 18
+    "2026-05-28": 17
   },
   "categoryDistribution": {
+    "marketplace": 112,
     "reverb": 1289,
-    "marketplace": 111,
     "other": 113
   },
-  "activeModelsCount": 264,
+  "activeModelsCount": 263,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -48077,7 +48093,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 152
+      "count": 153
     },
     {
       "username": "YellowJack6",
@@ -48177,10 +48193,10 @@
       "count": 35
     },
     "PRS": {
-      "avgPrice": 4134,
+      "avgPrice": 4176,
       "retailEst": 1000,
-      "avgDiscount": -313.4,
-      "count": 139
+      "avgDiscount": -317.6,
+      "count": 140
     },
     "Ibanez": {
       "avgPrice": 3130,
@@ -52466,15 +52482,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1482,
+      "total": 1483,
       "sold": 462,
       "fake": 0,
-      "live": 469,
+      "live": 470,
       "removed": 551,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "PRS": {
+        "total": 141,
+        "sold": 47,
+        "fake": 0,
+        "live": 34,
+        "removed": 60,
+        "soldPct": 33,
+        "livePct": 24
+      },
       "Echopark": {
         "total": 28,
         "sold": 7,
@@ -52492,15 +52517,6 @@
         "removed": 35,
         "soldPct": 27,
         "livePct": 41
-      },
-      "PRS": {
-        "total": 140,
-        "sold": 47,
-        "fake": 0,
-        "live": 33,
-        "removed": 60,
-        "soldPct": 34,
-        "livePct": 24
       },
       "Nik Huber": {
         "total": 4,
@@ -54687,9 +54703,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 170,
+        "total": 171,
         "sold": 35,
-        "rate": 21
+        "rate": 20
       },
       {
         "label": "$10k+",
@@ -54699,6 +54715,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 54,
+        "sold": 10,
+        "rate": 19
+      },
       "Very Good": {
         "total": 419,
         "sold": 143,
@@ -54718,11 +54739,6 @@
         "total": 540,
         "sold": 192,
         "rate": 36
-      },
-      "Used": {
-        "total": 53,
-        "sold": 10,
-        "rate": 19
       },
       "Good": {
         "total": 154,
@@ -54950,6 +54966,25 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Private Stock": {
+      "brand": "PRS",
+      "brandLine": "PRS Private Stock",
+      "tier": "ultra",
+      "count": 10,
+      "sum": 119790.98000000001,
+      "avg": 11979,
+      "min": 4420,
+      "max": 26482,
+      "sold": 2,
+      "soldSum": 15599,
+      "soldAvg": 7800,
+      "live": 5,
+      "removed": 3,
+      "sellRate": 20,
+      "totalDays": 150.4,
+      "soldCount": 2,
+      "avgDaysToSell": 75.2
+    },
     "Echopark|Echopark": {
       "brand": "Echopark",
       "brandLine": "Echopark",
@@ -54984,7 +55019,7 @@
       "live": 18,
       "removed": 49,
       "sellRate": 37,
-      "totalDays": 2623.1,
+      "totalDays": 2623.5,
       "soldCount": 40,
       "avgDaysToSell": 65.6
     },
@@ -55041,7 +55076,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 44,
-      "totalDays": 352.20000000000005,
+      "totalDays": 352.29999999999995,
       "soldCount": 8,
       "avgDaysToSell": 44
     },
@@ -55079,7 +55114,7 @@
       "live": 5,
       "removed": 21,
       "sellRate": 35,
-      "totalDays": 1041.8,
+      "totalDays": 1041.9,
       "soldCount": 14,
       "avgDaysToSell": 74.4
     },
@@ -55098,7 +55133,7 @@
       "live": 41,
       "removed": 59,
       "sellRate": 33,
-      "totalDays": 3674.9,
+      "totalDays": 3675.5000000000005,
       "soldCount": 50,
       "avgDaysToSell": 73.5
     },
@@ -55136,7 +55171,7 @@
       "live": 11,
       "removed": 9,
       "sellRate": 38,
-      "totalDays": 814.4999999999999,
+      "totalDays": 814.6,
       "soldCount": 12,
       "avgDaysToSell": 67.9
     },
@@ -55174,9 +55209,9 @@
       "live": 18,
       "removed": 30,
       "sellRate": 31,
-      "totalDays": 1811.6000000000001,
+      "totalDays": 1812,
       "soldCount": 22,
-      "avgDaysToSell": 82.3
+      "avgDaysToSell": 82.4
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -55193,7 +55228,7 @@
       "live": 22,
       "removed": 16,
       "sellRate": 40,
-      "totalDays": 1729.3999999999996,
+      "totalDays": 1729.4999999999995,
       "soldCount": 25,
       "avgDaysToSell": 69.2
     },
@@ -55231,7 +55266,7 @@
       "live": 16,
       "removed": 14,
       "sellRate": 29,
-      "totalDays": 930.9000000000001,
+      "totalDays": 931,
       "soldCount": 12,
       "avgDaysToSell": 77.6
     },
@@ -55288,9 +55323,9 @@
       "live": 6,
       "removed": 4,
       "sellRate": 17,
-      "totalDays": 129.6,
+      "totalDays": 129.7,
       "soldCount": 2,
-      "avgDaysToSell": 64.8
+      "avgDaysToSell": 64.9
     },
     "Strandberg|Strandberg Import": {
       "brand": "Strandberg",
@@ -55344,9 +55379,9 @@
       "live": 11,
       "removed": 15,
       "sellRate": 16,
-      "totalDays": 331.70000000000005,
+      "totalDays": 331.9,
       "soldCount": 5,
-      "avgDaysToSell": 66.3
+      "avgDaysToSell": 66.4
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -55438,7 +55473,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 279.9,
+      "totalDays": 280,
       "soldCount": 5,
       "avgDaysToSell": 56
     },
@@ -55494,7 +55529,7 @@
       "live": 6,
       "removed": 6,
       "sellRate": 43,
-      "totalDays": 919.8000000000001,
+      "totalDays": 920,
       "soldCount": 9,
       "avgDaysToSell": 102.2
     },
@@ -55551,7 +55586,7 @@
       "live": 11,
       "removed": 2,
       "sellRate": 19,
-      "totalDays": 199.1,
+      "totalDays": 199.3,
       "soldCount": 3,
       "avgDaysToSell": 66.4
     },
@@ -55626,28 +55661,9 @@
       "live": 5,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 966.7,
+      "totalDays": 966.8000000000001,
       "soldCount": 13,
       "avgDaysToSell": 74.4
-    },
-    "PRS|PRS Private Stock": {
-      "brand": "PRS",
-      "brandLine": "PRS Private Stock",
-      "tier": "ultra",
-      "count": 9,
-      "sum": 109795.98000000001,
-      "avg": 12200,
-      "min": 4420,
-      "max": 26482,
-      "sold": 2,
-      "soldSum": 15599,
-      "soldAvg": 7800,
-      "live": 4,
-      "removed": 3,
-      "sellRate": 22,
-      "totalDays": 150.4,
-      "soldCount": 2,
-      "avgDaysToSell": 75.2
     },
     "Schecter|Schecter Korea": {
       "brand": "Schecter",
@@ -55721,7 +55737,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 318,
+      "totalDays": 318.1,
       "soldCount": 5,
       "avgDaysToSell": 63.6
     },
@@ -55796,7 +55812,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 219.8,
+      "totalDays": 219.9,
       "soldCount": 3,
       "avgDaysToSell": 73.3
     },
@@ -56097,9 +56113,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 129.8,
+      "totalDays": 129.9,
       "soldCount": 2,
-      "avgDaysToSell": 64.9
+      "avgDaysToSell": 65
     },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
@@ -56190,9 +56206,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 14,
-      "totalDays": 67.8,
+      "totalDays": 67.9,
       "soldCount": 1,
-      "avgDaysToSell": 67.8
+      "avgDaysToSell": 67.9
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -56619,9 +56635,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 341.6,
+      "totalDays": 341.7,
       "soldCount": 2,
-      "avgDaysToSell": 170.8
+      "avgDaysToSell": 170.9
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
