@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-28T06:00:04.820Z",
-  "totalLinks": 1525,
-  "totalEver": 1892,
-  "totalBeforeFilter": 1892,
+  "generatedAt": "2026-06-28T06:04:06.764Z",
+  "totalLinks": 1526,
+  "totalEver": 1893,
+  "totalBeforeFilter": 1893,
   "fakeCount": 21,
   "removedCount": 591,
-  "totalWithPrice": 1507,
+  "totalWithPrice": 1508,
   "overall": {
-    "count": 1463,
-    "sum": 4168839.63,
-    "avg": 2850,
+    "count": 1464,
+    "sum": 4170069.63,
+    "avg": 2848,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1463,
-    "sum": 4168839.63,
-    "avg": 2850,
+    "count": 1464,
+    "sum": 4170069.63,
+    "avg": 2848,
     "min": 3,
     "max": 11099,
-    "median": 2275
+    "median": 2271
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 259,
-      "sum": 782937.94,
+      "count": 260,
+      "sum": 784167.94,
       "min": 260,
       "max": 10599,
-      "avg": 3023
+      "avg": 3016
     },
     "2026-05": {
       "count": 360,
@@ -403,19 +403,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 100,
+      "sum": 302328.39,
+      "min": 39.81,
+      "max": 10495,
+      "avg": 3023
+    },
     "reverb": {
       "count": 1262,
       "sum": 3574664.1,
       "min": 33,
       "max": 10933,
       "avg": 2833
-    },
-    "marketplace": {
-      "count": 99,
-      "sum": 301098.39,
-      "min": 39.81,
-      "max": 10495,
-      "avg": 3041
     },
     "other": {
       "count": 102,
@@ -426,19 +426,19 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 66,
+      "sum": 255224.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 3867
+    },
     "reverb.com": {
       "count": 1262,
       "sum": 3574664.1,
       "min": 33,
       "max": 10933,
       "avg": 2833
-    },
-    "chicagomusicexchange.com": {
-      "count": 65,
-      "sum": 253994.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 3908
     },
     "guitarcenter.com": {
       "count": 73,
@@ -687,6 +687,36 @@
     }
   },
   "byModel": {
+    "silvertone": {
+      "displayName": "Silvertone 1423 Black 1962",
+      "brand": "Silvertone",
+      "variant": null,
+      "count": 1,
+      "sum": 1230,
+      "min": 1230,
+      "max": 1230,
+      "sightings": [
+        {
+          "price": 1230,
+          "date": "2026-06-28T06:03:50.833Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Silvertone 1423 Black 1962",
+          "url": "https://www.chicagomusicexchange.com/products/silvertone-1423-black-1962-2570771?source=google",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1230,
+          "min": 1230,
+          "max": 1230,
+          "avg": 1230
+        }
+      },
+      "avg": 1230
+    },
     "meazzi-professional-franco-cerri": {
       "displayName": "Meazzi PROFESSIONAL FRANCO CERRI 1966 Walnut",
       "brand": "Meazzi",
@@ -7830,7 +7860,7 @@
       "sightings": [
         {
           "price": 1600,
-          "date": "2026-06-14T13:12:38.475Z",
+          "date": "2026-06-14T13:12:38.475+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Valiant Jupiter Yellow Gloss NAMM",
@@ -45193,6 +45223,15 @@
     }
   },
   "byBrandPrice": {
+    "Silvertone": {
+      "count": 1,
+      "min": 1230,
+      "max": 1230,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 1230,
+      "soldAvg": null
+    },
     "Meazzi": {
       "count": 3,
       "min": 1280,
@@ -47167,8 +47206,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 422,
-      "sum": 1609246.56,
+      "count": 423,
+      "sum": 1610476.56,
       "sold": {
         "count": 144,
         "sum": 325284.17999999993,
@@ -47176,7 +47215,7 @@
         "min": 68,
         "max": 10800
       },
-      "avg": 3813,
+      "avg": 3807,
       "min": 33,
       "max": 437713.69
     },
@@ -47312,9 +47351,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 3023,
+      "avg": 3016,
       "median": 2500,
-      "count": 259
+      "count": 260
     },
     "05": {
       "name": "May",
@@ -47480,7 +47519,7 @@
   "priceDistribution": {
     "0-500": 57,
     "500-1k": 122,
-    "1k-2k": 462,
+    "1k-2k": 463,
     "2k-3k": 305,
     "3k-5k": 335,
     "5k-10k": 171,
@@ -47489,13 +47528,18 @@
   "priceDistributionFiltered": {
     "0-500": 57,
     "500-1k": 122,
-    "1k-2k": 462,
+    "1k-2k": 463,
     "2k-3k": 305,
     "3k-5k": 335,
     "5k-10k": 171,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Silvertone": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Meazzi": {
       "sum": 40,
       "count": 1,
@@ -47507,7 +47551,7 @@
       "avg": 11
     },
     "Gibson": {
-      "sum": 8074,
+      "sum": 8075,
       "count": 142,
       "avg": 57
     },
@@ -47907,9 +47951,9 @@
       "avg": 68
     },
     "Golden Gate": {
-      "sum": 30,
+      "sum": 31,
       "count": 1,
-      "avg": 30
+      "avg": 31
     },
     "Ventura": {
       "sum": 31,
@@ -48423,7 +48467,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-28": 8,
+    "2026-06-28": 9,
     "2026-06-27": 5,
     "2026-06-26": 12,
     "2026-06-25": 11,
@@ -48452,11 +48496,11 @@
     "2026-05-29": 4
   },
   "categoryDistribution": {
+    "marketplace": 116,
     "reverb": 1297,
-    "marketplace": 115,
     "other": 113
   },
-  "activeModelsCount": 255,
+  "activeModelsCount": 256,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -48484,7 +48528,7 @@
     },
     {
       "username": "Madero",
-      "count": 84
+      "count": 85
     },
     {
       "username": "scottcorgan",
@@ -52875,15 +52919,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1494,
+      "total": 1495,
       "sold": 463,
       "fake": 0,
-      "live": 478,
+      "live": 479,
       "removed": 553,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Silvertone": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "removed": 0,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Meazzi": {
         "total": 3,
         "sold": 0,
@@ -55096,7 +55149,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 462,
+        "total": 463,
         "sold": 154,
         "rate": 33
       },
@@ -55127,7 +55180,7 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 422,
+        "total": 423,
         "sold": 144,
         "rate": 34
       },
@@ -55420,7 +55473,7 @@
       "live": 42,
       "removed": 59,
       "sellRate": 33,
-      "totalDays": 3704.0000000000005,
+      "totalDays": 3704.5000000000005,
       "soldCount": 50,
       "avgDaysToSell": 74.1
     },
@@ -55496,7 +55549,7 @@
       "live": 18,
       "removed": 31,
       "sellRate": 31,
-      "totalDays": 1824.4999999999998,
+      "totalDays": 1824.5999999999997,
       "soldCount": 22,
       "avgDaysToSell": 82.9
     },
@@ -55515,7 +55568,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 20,
-      "totalDays": 151.5,
+      "totalDays": 151.6,
       "soldCount": 2,
       "avgDaysToSell": 75.8
     },
@@ -55553,7 +55606,7 @@
       "live": 18,
       "removed": 49,
       "sellRate": 37,
-      "totalDays": 2646.7,
+      "totalDays": 2646.8,
       "soldCount": 40,
       "avgDaysToSell": 66.2
     },
@@ -55648,7 +55701,7 @@
       "live": 5,
       "removed": 21,
       "sellRate": 35,
-      "totalDays": 1049.8000000000002,
+      "totalDays": 1049.9,
       "soldCount": 14,
       "avgDaysToSell": 75
     },
@@ -55743,7 +55796,7 @@
       "live": 16,
       "removed": 14,
       "sellRate": 29,
-      "totalDays": 937.6,
+      "totalDays": 937.7,
       "soldCount": 12,
       "avgDaysToSell": 78.1
     },
@@ -56307,9 +56360,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 170,
+      "totalDays": 170.10000000000002,
       "soldCount": 2,
-      "avgDaysToSell": 85
+      "avgDaysToSell": 85.1
     },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
@@ -56420,9 +56473,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 20,
-      "totalDays": 56.5,
+      "totalDays": 56.6,
       "soldCount": 1,
-      "avgDaysToSell": 56.5
+      "avgDaysToSell": 56.6
     },
     "Ibanez|Ibanez Sugi": {
       "brand": "Ibanez",
@@ -56927,7 +56980,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 201.2,
+      "totalDays": 201.3,
       "soldCount": 3,
       "avgDaysToSell": 67.1
     },
@@ -57387,9 +57440,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 84.4,
+      "totalDays": 84.5,
       "soldCount": 1,
-      "avgDaysToSell": 84.4
+      "avgDaysToSell": 84.5
     },
     "Ovation|Ovation USA Premium": {
       "brand": "Ovation",
