@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-29T20:08:32.270Z",
-  "totalLinks": 1542,
-  "totalEver": 1911,
-  "totalBeforeFilter": 1911,
+  "generatedAt": "2026-06-29T20:13:12.245Z",
+  "totalLinks": 1543,
+  "totalEver": 1912,
+  "totalBeforeFilter": 1912,
   "fakeCount": 21,
   "removedCount": 593,
-  "totalWithPrice": 1524,
+  "totalWithPrice": 1525,
   "overall": {
-    "count": 1480,
-    "sum": 4207709.63,
+    "count": 1481,
+    "sum": 4211059.63,
     "avg": 2843,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1480,
-    "sum": 4207709.63,
+    "count": 1481,
+    "sum": 4211059.63,
     "avg": 2843,
     "min": 3,
     "max": 11099,
-    "median": 2271
+    "median": 2275
   },
   "outliers": {
-    "thresholdHigh": 11103,
+    "thresholdHigh": 11099,
     "thresholdLow": 0,
     "count": 44,
     "items": [
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 276,
-      "sum": 821807.94,
+      "count": 277,
+      "sum": 825157.94,
       "min": 260,
       "max": 10599,
-      "avg": 2978
+      "avg": 2979
     },
     "2026-05": {
       "count": 360,
@@ -404,8 +404,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1278,
-      "sum": 3612304.1,
+      "count": 1279,
+      "sum": 3615654.1,
       "min": 33,
       "max": 10933,
       "avg": 2827
@@ -427,8 +427,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1278,
-      "sum": 3612304.1,
+      "count": 1279,
+      "sum": 3615654.1,
       "min": 33,
       "max": 10933,
       "avg": 2827
@@ -687,6 +687,37 @@
     }
   },
   "byModel": {
+    "ibanez-jem77-signature": {
+      "displayName": "Ibanez JEM77-FP Steve Vai Signature 1991 - Black Floral Pattern",
+      "brand": "Ibanez",
+      "model": "JEM77",
+      "variant": "Signature",
+      "count": 1,
+      "sum": 3350,
+      "min": 3350,
+      "max": 3350,
+      "sightings": [
+        {
+          "price": 3350,
+          "date": "2026-06-29T20:12:57.015Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez JEM77-FP Steve Vai Signature 1991 - Black Floral Pattern",
+          "url": "https://reverb.com/item/98941784",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 3350,
+          "min": 3350,
+          "max": 3350,
+          "avg": 3350
+        }
+      },
+      "avg": 3350
+    },
     "hofner-s712-razerwood-string": {
       "displayName": "1979 Hofner S7/12 \"Razerwood\" 12 String Solid Guitar",
       "brand": "Hofner",
@@ -8014,7 +8045,7 @@
       "sightings": [
         {
           "price": 2325,
-          "date": "2026-06-15T21:04:21.469Z",
+          "date": "2026-06-15T21:04:21.469+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Friedman Vintage-S Shoreline Gold 2020",
@@ -45775,6 +45806,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 68,
+      "min": 173.3,
+      "max": 7019,
+      "soldCount": 24,
+      "outliersExcluded": 4,
+      "avg": 2249,
+      "soldAvg": 2241
+    },
     "Hofner": {
       "count": 3,
       "min": 486,
@@ -45882,15 +45922,6 @@
       "outliersExcluded": 0,
       "avg": 2884,
       "soldAvg": 2020
-    },
-    "Ibanez": {
-      "count": 67,
-      "min": 173.3,
-      "max": 7019,
-      "soldCount": 24,
-      "outliersExcluded": 4,
-      "avg": 2233,
-      "soldAvg": 2241
     },
     "Wolfgang Hüttl": {
       "count": 1,
@@ -47766,6 +47797,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 159,
+      "sum": 461513.2700000001,
+      "sold": {
+        "count": 46,
+        "sum": 93729.31999999999,
+        "avg": 2038,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 2903,
+      "min": 70,
+      "max": 55000
+    },
     "Very Good": {
       "count": 429,
       "sum": 1623916.56,
@@ -47779,20 +47824,6 @@
       "avg": 3785,
       "min": 33,
       "max": 437713.69
-    },
-    "Good": {
-      "count": 158,
-      "sum": 458163.2700000001,
-      "sold": {
-        "count": 46,
-        "sum": 93729.31999999999,
-        "avg": 2038,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 2900,
-      "min": 70,
-      "max": 55000
     },
     "Excellent": {
       "count": 547,
@@ -47912,9 +47943,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2978,
-      "median": 2498,
-      "count": 276
+      "avg": 2979,
+      "median": 2500,
+      "count": 277
     },
     "05": {
       "name": "May",
@@ -48082,7 +48113,7 @@
     "500-1k": 123,
     "1k-2k": 468,
     "2k-3k": 312,
-    "3k-5k": 337,
+    "3k-5k": 338,
     "5k-10k": 172,
     "10k+": 55
   },
@@ -48091,11 +48122,16 @@
     "500-1k": 123,
     "1k-2k": 468,
     "2k-3k": 312,
-    "3k-5k": 337,
+    "3k-5k": 338,
     "5k-10k": 172,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 3000,
+      "count": 57,
+      "avg": 53
+    },
     "Hofner": {
       "sum": 98,
       "count": 3,
@@ -48112,7 +48148,7 @@
       "avg": 52
     },
     "Kiesel": {
-      "sum": 2306,
+      "sum": 2307,
       "count": 49,
       "avg": 47
     },
@@ -48132,7 +48168,7 @@
       "avg": 24
     },
     "PRS": {
-      "sum": 6761,
+      "sum": 6762,
       "count": 124,
       "avg": 55
     },
@@ -48140,11 +48176,6 @@
       "sum": 1404,
       "count": 25,
       "avg": 56
-    },
-    "Ibanez": {
-      "sum": 3000,
-      "count": 56,
-      "avg": 54
     },
     "Wolfgang Hüttl": {
       "sum": 58,
@@ -49033,7 +49064,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-29": 8,
+    "2026-06-29": 9,
     "2026-06-28": 17,
     "2026-06-27": 5,
     "2026-06-26": 12,
@@ -49061,11 +49092,11 @@
     "2026-06-02": 3
   },
   "categoryDistribution": {
-    "reverb": 1313,
+    "reverb": 1314,
     "marketplace": 116,
     "other": 113
   },
-  "activeModelsCount": 265,
+  "activeModelsCount": 266,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -49077,7 +49108,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 156
+      "count": 157
     },
     {
       "username": "YellowJack6",
@@ -49183,10 +49214,10 @@
       "count": 144
     },
     "Ibanez": {
-      "avgPrice": 3106,
+      "avgPrice": 3109,
       "retailEst": 1000,
-      "avgDiscount": -210.6,
-      "count": 72
+      "avgDiscount": -210.9,
+      "count": 73
     },
     "Jackson": {
       "avgPrice": 4323,
@@ -53511,15 +53542,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1511,
+      "total": 1512,
       "sold": 467,
       "fake": 0,
-      "live": 489,
+      "live": 490,
       "removed": 555,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 73,
+        "sold": 24,
+        "fake": 0,
+        "live": 28,
+        "removed": 21,
+        "soldPct": 33,
+        "livePct": 38
+      },
       "Hofner": {
         "total": 3,
         "sold": 0,
@@ -53627,15 +53667,6 @@
         "removed": 14,
         "soldPct": 31,
         "livePct": 31
-      },
-      "Ibanez": {
-        "total": 72,
-        "sold": 24,
-        "fake": 0,
-        "live": 27,
-        "removed": 21,
-        "soldPct": 33,
-        "livePct": 38
       },
       "Wolfgang Hüttl": {
         "total": 1,
@@ -55762,7 +55793,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 337,
+        "total": 338,
         "sold": 96,
         "rate": 28
       },
@@ -55780,15 +55811,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 159,
+        "sold": 52,
+        "rate": 33
+      },
       "Very Good": {
         "total": 429,
         "sold": 144,
         "rate": 34
-      },
-      "Good": {
-        "total": 158,
-        "sold": 52,
-        "rate": 33
       },
       "Excellent": {
         "total": 547,
@@ -56059,6 +56090,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez J.Custom": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez J.Custom",
+      "tier": "premium",
+      "count": 25,
+      "sum": 133586.71000000002,
+      "avg": 5343,
+      "min": 1845,
+      "max": 27500,
+      "sold": 8,
+      "soldSum": 23627,
+      "soldAvg": 2953,
+      "live": 10,
+      "removed": 7,
+      "sellRate": 32,
+      "totalDays": 536.1,
+      "soldCount": 8,
+      "avgDaysToSell": 67
+    },
     "Guild|Guild USA": {
       "brand": "Guild",
       "brandLine": "Guild USA",
@@ -56243,7 +56293,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 36,
-      "totalDays": 840.7,
+      "totalDays": 840.8000000000001,
       "soldCount": 12,
       "avgDaysToSell": 70.1
     },
@@ -56262,7 +56312,7 @@
       "live": 41,
       "removed": 60,
       "sellRate": 33,
-      "totalDays": 3783.5000000000005,
+      "totalDays": 3783.6000000000004,
       "soldCount": 50,
       "avgDaysToSell": 75.7
     },
@@ -56319,7 +56369,7 @@
       "live": 18,
       "removed": 31,
       "sellRate": 31,
-      "totalDays": 1859.5,
+      "totalDays": 1859.6,
       "soldCount": 22,
       "avgDaysToSell": 84.5
     },
@@ -56395,7 +56445,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 44,
-      "totalDays": 369.50000000000006,
+      "totalDays": 369.59999999999997,
       "soldCount": 8,
       "avgDaysToSell": 46.2
     },
@@ -56433,7 +56483,7 @@
       "live": 5,
       "removed": 21,
       "sellRate": 35,
-      "totalDays": 1072.1,
+      "totalDays": 1072.2,
       "soldCount": 14,
       "avgDaysToSell": 76.6
     },
@@ -56471,9 +56521,9 @@
       "live": 5,
       "removed": 11,
       "sellRate": 30,
-      "totalDays": 411.09999999999997,
+      "totalDays": 411.3,
       "soldCount": 7,
-      "avgDaysToSell": 58.7
+      "avgDaysToSell": 58.8
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -56493,25 +56543,6 @@
       "totalDays": 956.7,
       "soldCount": 12,
       "avgDaysToSell": 79.7
-    },
-    "Ibanez|Ibanez J.Custom": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez J.Custom",
-      "tier": "premium",
-      "count": 24,
-      "sum": 130236.71,
-      "avg": 5427,
-      "min": 1845,
-      "max": 27500,
-      "sold": 8,
-      "soldSum": 23627,
-      "soldAvg": 2953,
-      "live": 9,
-      "removed": 7,
-      "sellRate": 33,
-      "totalDays": 536.1,
-      "soldCount": 8,
-      "avgDaysToSell": 67
     },
     "PRS|PRS SE": {
       "brand": "PRS",
@@ -56584,7 +56615,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 242.5,
+      "totalDays": 242.59999999999997,
       "soldCount": 4,
       "avgDaysToSell": 60.6
     },
@@ -56772,9 +56803,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 8.4,
+      "totalDays": 8.5,
       "soldCount": 1,
-      "avgDaysToSell": 8.4
+      "avgDaysToSell": 8.5
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -58133,9 +58164,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 9,
+      "total": 10,
       "sold": 5,
-      "rate": 56
+      "rate": 50
     },
     {
       "label": "1–5",
@@ -58164,7 +58195,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 550,
+      "total": 551,
       "sold": 165,
       "rate": 30
     },
@@ -58181,7 +58212,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 362,
+      "total": 363,
       "sold": 124,
       "rate": 34
     }
