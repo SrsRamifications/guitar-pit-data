@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-29T17:03:03.366Z",
-  "totalLinks": 1536,
-  "totalEver": 1905,
-  "totalBeforeFilter": 1905,
+  "generatedAt": "2026-06-29T17:08:56.359Z",
+  "totalLinks": 1537,
+  "totalEver": 1906,
+  "totalBeforeFilter": 1906,
   "fakeCount": 21,
   "removedCount": 592,
-  "totalWithPrice": 1518,
+  "totalWithPrice": 1519,
   "overall": {
-    "count": 1474,
-    "sum": 4193238.63,
+    "count": 1475,
+    "sum": 4195738.63,
     "avg": 2845,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1474,
-    "sum": 4193238.63,
+    "count": 1475,
+    "sum": 4195738.63,
     "avg": 2845,
     "min": 3,
     "max": 11099,
-    "median": 2271
+    "median": 2275
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 270,
-      "sum": 807336.94,
+      "count": 271,
+      "sum": 809836.94,
       "min": 260,
       "max": 10599,
-      "avg": 2990
+      "avg": 2988
     },
     "2026-05": {
       "count": 360,
@@ -404,8 +404,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1272,
-      "sum": 3597833.1,
+      "count": 1273,
+      "sum": 3600333.1,
       "min": 33,
       "max": 10933,
       "avg": 2828
@@ -427,8 +427,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1272,
-      "sum": 3597833.1,
+      "count": 1273,
+      "sum": 3600333.1,
       "min": 33,
       "max": 10933,
       "avg": 2828
@@ -687,6 +687,37 @@
     }
   },
   "byModel": {
+    "echopark-stratocaster": {
+      "displayName": "Echopark 54/64 Stratocaster W/OHSC Surf Green Relic Maple Strat",
+      "brand": "Echopark",
+      "model": "Stratocaster",
+      "variant": null,
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-06-29T17:08:41.667Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Echopark 54/64 Stratocaster W/OHSC Surf Green Relic Maple Strat",
+          "url": "https://reverb.com/item/98950128",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "solar-guitars-ac-6": {
       "displayName": "Solar Guitars Master Series AC 6 N - Raw",
       "brand": "Solar Guitars",
@@ -7871,7 +7902,7 @@
       "sightings": [
         {
           "price": 1099,
-          "date": "2026-06-14T19:12:51.524Z",
+          "date": "2026-06-14T19:12:51.524+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Ibanez S 7420FM 1999 - Transparent Blue",
@@ -45601,6 +45632,15 @@
     }
   },
   "byBrandPrice": {
+    "Echopark": {
+      "count": 28,
+      "min": 1750,
+      "max": 8000,
+      "soldCount": 7,
+      "outliersExcluded": 0,
+      "avg": 4066,
+      "soldAvg": 3525
+    },
     "Solar Guitars": {
       "count": 2,
       "min": 1199.99,
@@ -45735,15 +45775,6 @@
       "outliersExcluded": 14,
       "avg": 3053,
       "soldAvg": 3377
-    },
-    "Echopark": {
-      "count": 27,
-      "min": 1750,
-      "max": 8000,
-      "soldCount": 7,
-      "outliersExcluded": 0,
-      "avg": 4124,
-      "soldAvg": 3525
     },
     "BC Rich": {
       "count": 104,
@@ -47592,6 +47623,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 427,
+      "sum": 1620544.56,
+      "sold": {
+        "count": 144,
+        "sum": 325284.17999999993,
+        "avg": 2259,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3795,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 546,
       "sum": 2377137.870000001,
@@ -47605,20 +47650,6 @@
       "avg": 4354,
       "min": 269,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 426,
-      "sum": 1618044.56,
-      "sold": {
-        "count": 144,
-        "sum": 325284.17999999993,
-        "avg": 2259,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3798,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 121,
@@ -47738,9 +47769,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2990,
-      "median": 2498,
-      "count": 270
+      "avg": 2988,
+      "median": 2500,
+      "count": 271
     },
     "05": {
       "name": "May",
@@ -47907,7 +47938,7 @@
     "0-500": 57,
     "500-1k": 123,
     "1k-2k": 466,
-    "2k-3k": 309,
+    "2k-3k": 310,
     "3k-5k": 336,
     "5k-10k": 172,
     "10k+": 55
@@ -47916,12 +47947,17 @@
     "0-500": 57,
     "500-1k": 123,
     "1k-2k": 466,
-    "2k-3k": 309,
+    "2k-3k": 310,
     "3k-5k": 336,
     "5k-10k": 172,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Echopark": {
+      "sum": 940,
+      "count": 15,
+      "avg": 63
+    },
     "Solar Guitars": {
       "sum": 47,
       "count": 2,
@@ -48138,9 +48174,9 @@
       "avg": 12
     },
     "Friedman": {
-      "sum": 498,
-      "count": 11,
-      "avg": 45
+      "sum": 408,
+      "count": 10,
+      "avg": 41
     },
     "Dunable": {
       "sum": 437,
@@ -48427,11 +48463,6 @@
       "count": 3,
       "avg": 55
     },
-    "Echopark": {
-      "sum": 940,
-      "count": 14,
-      "avg": 67
-    },
     "First Act": {
       "sum": 99,
       "count": 2,
@@ -48658,9 +48689,9 @@
       "avg": 77
     },
     "Duesenberg": {
-      "sum": 156,
+      "sum": 157,
       "count": 2,
-      "avg": 78
+      "avg": 79
     },
     "K-Line": {
       "sum": 146,
@@ -48859,7 +48890,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-29": 2,
+    "2026-06-29": 3,
     "2026-06-28": 17,
     "2026-06-27": 5,
     "2026-06-26": 12,
@@ -48888,15 +48919,15 @@
     "2026-05-30": 3
   },
   "categoryDistribution": {
-    "reverb": 1307,
+    "reverb": 1308,
     "marketplace": 116,
     "other": 113
   },
-  "activeModelsCount": 262,
+  "activeModelsCount": 263,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 411
+      "count": 412
     },
     {
       "username": "greg1213",
@@ -49070,10 +49101,10 @@
       "count": 10
     },
     "Echopark": {
-      "avgPrice": 4107,
+      "avgPrice": 4052,
       "retailEst": 2500,
-      "avgDiscount": -64.3,
-      "count": 28
+      "avgDiscount": -62.1,
+      "count": 29
     },
     "Novo": {
       "avgPrice": 3507,
@@ -53332,15 +53363,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1505,
+      "total": 1506,
       "sold": 467,
       "fake": 0,
-      "live": 484,
+      "live": 485,
       "removed": 554,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Echopark": {
+        "total": 29,
+        "sold": 7,
+        "fake": 0,
+        "live": 13,
+        "removed": 9,
+        "soldPct": 24,
+        "livePct": 45
+      },
       "Solar Guitars": {
         "total": 2,
         "sold": 0,
@@ -53475,15 +53515,6 @@
         "removed": 43,
         "soldPct": 30,
         "livePct": 31
-      },
-      "Echopark": {
-        "total": 28,
-        "sold": 7,
-        "fake": 0,
-        "live": 12,
-        "removed": 9,
-        "soldPct": 25,
-        "livePct": 43
       },
       "BC Rich": {
         "total": 108,
@@ -55577,9 +55608,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 309,
+        "total": 310,
         "sold": 119,
-        "rate": 39
+        "rate": 38
       },
       {
         "label": "$3k–5k",
@@ -55601,15 +55632,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 427,
+        "sold": 144,
+        "rate": 34
+      },
       "Excellent": {
         "total": 546,
         "sold": 195,
         "rate": 36
-      },
-      "Very Good": {
-        "total": 426,
-        "sold": 144,
-        "rate": 34
       },
       "Brand New": {
         "total": 121,
@@ -55880,6 +55911,25 @@
     ]
   },
   "byBrandLine": {
+    "Echopark|Echopark": {
+      "brand": "Echopark",
+      "brandLine": "Echopark",
+      "tier": "premium",
+      "count": 28,
+      "sum": 113846.05999999998,
+      "avg": 4066,
+      "min": 1750,
+      "max": 8000,
+      "sold": 7,
+      "soldSum": 24676.54,
+      "soldAvg": 3525,
+      "live": 12,
+      "removed": 9,
+      "sellRate": 25,
+      "totalDays": 545.1,
+      "soldCount": 7,
+      "avgDaysToSell": 77.9
+    },
     "Solar Guitars|Solar Guitars": {
       "brand": "Solar Guitars",
       "brandLine": "Solar Guitars",
@@ -55932,7 +55982,7 @@
       "live": 21,
       "removed": 49,
       "sellRate": 36,
-      "totalDays": 2704.7,
+      "totalDays": 2704.8,
       "soldCount": 40,
       "avgDaysToSell": 67.6
     },
@@ -55989,9 +56039,9 @@
       "live": 12,
       "removed": 9,
       "sellRate": 36,
-      "totalDays": 839.1999999999999,
+      "totalDays": 839.4,
       "soldCount": 12,
-      "avgDaysToSell": 69.9
+      "avgDaysToSell": 70
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -56008,7 +56058,7 @@
       "live": 42,
       "removed": 59,
       "sellRate": 33,
-      "totalDays": 3776.6,
+      "totalDays": 3776.9,
       "soldCount": 50,
       "avgDaysToSell": 75.5
     },
@@ -56087,25 +56137,6 @@
       "totalDays": 154.4,
       "soldCount": 2,
       "avgDaysToSell": 77.2
-    },
-    "Echopark|Echopark": {
-      "brand": "Echopark",
-      "brandLine": "Echopark",
-      "tier": "premium",
-      "count": 27,
-      "sum": 111346.06,
-      "avg": 4124,
-      "min": 1750,
-      "max": 8000,
-      "sold": 7,
-      "soldSum": 24676.54,
-      "soldAvg": 3525,
-      "live": 11,
-      "removed": 9,
-      "sellRate": 26,
-      "totalDays": 545.1,
-      "soldCount": 7,
-      "avgDaysToSell": 77.9
     },
     "Nik Huber|Nik Huber": {
       "brand": "Nik Huber",
@@ -56255,9 +56286,9 @@
       "live": 22,
       "removed": 16,
       "sellRate": 40,
-      "totalDays": 1778.4999999999998,
+      "totalDays": 1778.8000000000002,
       "soldCount": 25,
-      "avgDaysToSell": 71.1
+      "avgDaysToSell": 71.2
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -56293,9 +56324,9 @@
       "live": 9,
       "removed": 7,
       "sellRate": 33,
-      "totalDays": 534.7,
+      "totalDays": 534.8000000000001,
       "soldCount": 8,
-      "avgDaysToSell": 66.8
+      "avgDaysToSell": 66.9
     },
     "PRS|PRS SE": {
       "brand": "PRS",
@@ -56688,9 +56719,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 87.9,
+      "totalDays": 88,
       "soldCount": 1,
-      "avgDaysToSell": 87.9
+      "avgDaysToSell": 88
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -56707,9 +56738,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 14,
-      "totalDays": 309.9,
+      "totalDays": 310,
       "soldCount": 1,
-      "avgDaysToSell": 309.9
+      "avgDaysToSell": 310
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -56764,9 +56795,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 103.60000000000001,
+      "totalDays": 103.7,
       "soldCount": 2,
-      "avgDaysToSell": 51.8
+      "avgDaysToSell": 51.9
     },
     "ESP|ESP Original": {
       "brand": "ESP",
@@ -57026,9 +57057,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 34.8,
+      "totalDays": 34.9,
       "soldCount": 1,
-      "avgDaysToSell": 34.8
+      "avgDaysToSell": 34.9
     },
     "Schecter|Schecter Japan": {
       "brand": "Schecter",
@@ -57139,7 +57170,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 314.6,
+      "totalDays": 314.70000000000005,
       "soldCount": 4,
       "avgDaysToSell": 78.7
     },
@@ -57214,9 +57245,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 63,
+      "totalDays": 63.1,
       "soldCount": 1,
-      "avgDaysToSell": 63
+      "avgDaysToSell": 63.1
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -57936,9 +57967,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 8,
+      "total": 9,
       "sold": 5,
-      "rate": 63
+      "rate": 56
     },
     {
       "label": "1–5",
@@ -57967,7 +57998,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 544,
+      "total": 545,
       "sold": 165,
       "rate": 30
     },
@@ -57979,7 +58010,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 407,
+      "total": 408,
       "sold": 94,
       "rate": 23
     },
@@ -58051,16 +58082,16 @@
       "rate": 40
     },
     {
+      "state": "NC",
+      "total": 19,
+      "sold": 8,
+      "rate": 42
+    },
+    {
       "state": "NJ",
       "total": 18,
       "sold": 7,
       "rate": 39
-    },
-    {
-      "state": "NC",
-      "total": 18,
-      "sold": 8,
-      "rate": 44
     },
     {
       "state": "OH",
