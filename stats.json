@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-29T19:30:05.147Z",
-  "totalLinks": 1539,
-  "totalEver": 1908,
-  "totalBeforeFilter": 1908,
+  "generatedAt": "2026-06-29T19:35:48.069Z",
+  "totalLinks": 1540,
+  "totalEver": 1909,
+  "totalBeforeFilter": 1909,
   "fakeCount": 21,
   "removedCount": 593,
-  "totalWithPrice": 1521,
+  "totalWithPrice": 1522,
   "overall": {
-    "count": 1477,
-    "sum": 4203137.63,
-    "avg": 2846,
+    "count": 1478,
+    "sum": 4204337.63,
+    "avg": 2845,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1477,
-    "sum": 4203137.63,
-    "avg": 2846,
+    "count": 1478,
+    "sum": 4204337.63,
+    "avg": 2845,
     "min": 3,
     "max": 11099,
-    "median": 2282
+    "median": 2279
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-06": {
-      "count": 273,
-      "sum": 817235.94,
+      "count": 274,
+      "sum": 818435.94,
       "min": 260,
       "max": 10599,
-      "avg": 2994
+      "avg": 2987
     },
     "2026-05": {
       "count": 360,
@@ -404,11 +404,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1275,
-      "sum": 3607732.1,
+      "count": 1276,
+      "sum": 3608932.1,
       "min": 33,
       "max": 10933,
-      "avg": 2830
+      "avg": 2828
     },
     "marketplace": {
       "count": 100,
@@ -427,11 +427,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1275,
-      "sum": 3607732.1,
+      "count": 1276,
+      "sum": 3608932.1,
       "min": 33,
       "max": 10933,
-      "avg": 2830
+      "avg": 2828
     },
     "chicagomusicexchange.com": {
       "count": 66,
@@ -687,6 +687,93 @@
     }
   },
   "byModel": {
+    "gretsch-corvette": {
+      "displayName": "Gretsch Corvette 1965 - Cherry",
+      "brand": "Gretsch",
+      "model": "Corvette",
+      "variant": null,
+      "count": 3,
+      "sum": 3825,
+      "min": 875,
+      "max": 1750,
+      "sightings": [
+        {
+          "price": 875,
+          "date": "2026-04-25T23:12:46.217+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
+          "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
+          "condition": "Good"
+        },
+        {
+          "price": 1750,
+          "date": "2026-04-26T04:09:45.126+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch 6132 Corvette 1962  - Cherry",
+          "url": "https://reverb.com/item/94344583-gretsch-6132-corvette-1962-cherry",
+          "condition": "Very Good"
+        },
+        {
+          "price": 1200,
+          "date": "2026-06-29T19:35:34.484Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gretsch Corvette 1965 - Cherry",
+          "url": "https://reverb.com/item/98952248",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 2075,
+          "min": 875,
+          "max": 1200,
+          "avg": 1038
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 1750,
+          "min": 1750,
+          "max": 1750,
+          "avg": 1750
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 875,
+        "min": 875,
+        "max": 875,
+        "prices": [
+          {
+            "price": 875,
+            "askingPrice": 875,
+            "date": "2026-05-17T20:33:40.792+00:00",
+            "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
+            "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry"
+          }
+        ]
+      },
+      "avg": 1275,
+      "trends": {
+        "d30": {
+          "direction": "down",
+          "pctChange": -9,
+          "recentAvg": 1200,
+          "olderAvg": 1313,
+          "recentCount": 1
+        },
+        "d60": {
+          "direction": "down",
+          "pctChange": -9,
+          "recentAvg": 1200,
+          "olderAvg": 1313,
+          "recentCount": 1
+        }
+      }
+    },
     "kiesel-dc127": {
       "displayName": "Kiesel Custom DC127 2025 - Walnut",
       "brand": "Kiesel",
@@ -7958,7 +8045,7 @@
       "sightings": [
         {
           "price": 3999.99,
-          "date": "2026-06-15T17:58:31.097Z",
+          "date": "2026-06-15T17:58:31.097+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Guild X-175 'Manhattan' 1953 (USED) | Tapestry Music",
@@ -26097,68 +26184,6 @@
         }
       },
       "avg": 1778
-    },
-    "gretsch-corvette": {
-      "displayName": "Gretsch 6132 Corvette 1962  - Cherry",
-      "brand": "Gretsch",
-      "model": "Corvette",
-      "variant": null,
-      "count": 2,
-      "sum": 2625,
-      "min": 875,
-      "max": 1750,
-      "sightings": [
-        {
-          "price": 875,
-          "date": "2026-04-25T23:12:46.217+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
-          "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry",
-          "condition": "Good"
-        },
-        {
-          "price": 1750,
-          "date": "2026-04-26T04:09:45.126+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gretsch 6132 Corvette 1962  - Cherry",
-          "url": "https://reverb.com/item/94344583-gretsch-6132-corvette-1962-cherry",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1750,
-          "min": 1750,
-          "max": 1750,
-          "avg": 1750
-        },
-        "Good": {
-          "count": 1,
-          "sum": 875,
-          "min": 875,
-          "max": 875,
-          "avg": 875
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 875,
-        "min": 875,
-        "max": 875,
-        "prices": [
-          {
-            "price": 875,
-            "askingPrice": 875,
-            "date": "2026-05-17T20:33:40.792+00:00",
-            "title": "Gretsch 6132 Corvette 1961 - 1963 - Cherry",
-            "url": "https://reverb.com/item/93896173-gretsch-6132-corvette-1961-1963-cherry"
-          }
-        ]
-      },
-      "avg": 1313
     },
     "prs-santana": {
       "displayName": "PRS Santana 25th anniversary 2010 - Angry Larry",
@@ -45688,6 +45713,15 @@
     }
   },
   "byBrandPrice": {
+    "Gretsch": {
+      "count": 14,
+      "min": 699.95,
+      "max": 9000,
+      "soldCount": 6,
+      "outliersExcluded": 2,
+      "avg": 2987,
+      "soldAvg": 2169
+    },
     "Kiesel": {
       "count": 64,
       "min": 650,
@@ -46218,15 +46252,6 @@
       "outliersExcluded": 0,
       "avg": 1799,
       "soldAvg": 1799
-    },
-    "Gretsch": {
-      "count": 13,
-      "min": 699.95,
-      "max": 9000,
-      "soldCount": 6,
-      "outliersExcluded": 2,
-      "avg": 3125,
-      "soldAvg": 2169
     },
     "Novo": {
       "count": 10,
@@ -47679,6 +47704,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 158,
+      "sum": 458163.2700000001,
+      "sold": {
+        "count": 46,
+        "sum": 93729.31999999999,
+        "avg": 2038,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 2900,
+      "min": 70,
+      "max": 55000
+    },
     "Excellent": {
       "count": 547,
       "sum": 2379936.870000001,
@@ -47734,20 +47773,6 @@
       "avg": 4205,
       "min": 135,
       "max": 14670
-    },
-    "Good": {
-      "count": 157,
-      "sum": 456963.2700000001,
-      "sold": {
-        "count": 46,
-        "sum": 93729.31999999999,
-        "avg": 2038,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 2911,
-      "min": 70,
-      "max": 55000
     },
     "Used": {
       "count": 56,
@@ -47825,9 +47850,9 @@
   "seasonal": {
     "06": {
       "name": "Jun",
-      "avg": 2994,
+      "avg": 2987,
       "median": 2500,
-      "count": 273
+      "count": 274
     },
     "05": {
       "name": "May",
@@ -47993,7 +48018,7 @@
   "priceDistribution": {
     "0-500": 57,
     "500-1k": 123,
-    "1k-2k": 466,
+    "1k-2k": 467,
     "2k-3k": 311,
     "3k-5k": 337,
     "5k-10k": 172,
@@ -48002,13 +48027,18 @@
   "priceDistributionFiltered": {
     "0-500": 57,
     "500-1k": 123,
-    "1k-2k": 466,
+    "1k-2k": 467,
     "2k-3k": 311,
     "3k-5k": 337,
     "5k-10k": 172,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Gretsch": {
+      "sum": 575,
+      "count": 11,
+      "avg": 52
+    },
     "Kiesel": {
       "sum": 2306,
       "count": 49,
@@ -48090,7 +48120,7 @@
       "avg": 11
     },
     "Suhr": {
-      "sum": 928,
+      "sum": 929,
       "count": 18,
       "avg": 52
     },
@@ -48130,7 +48160,7 @@
       "avg": 55
     },
     "Yamaha": {
-      "sum": 825,
+      "sum": 826,
       "count": 15,
       "avg": 55
     },
@@ -48270,9 +48300,9 @@
       "avg": 13
     },
     "Schecter": {
-      "sum": 749,
+      "sum": 750,
       "count": 12,
-      "avg": 62
+      "avg": 63
     },
     "N/A": {
       "sum": 13,
@@ -48293,11 +48323,6 @@
       "sum": 14,
       "count": 1,
       "avg": 14
-    },
-    "Gretsch": {
-      "sum": 575,
-      "count": 10,
-      "avg": 58
     },
     "Novo": {
       "sum": 265,
@@ -48360,7 +48385,7 @@
       "avg": 65
     },
     "Epiphone": {
-      "sum": 377,
+      "sum": 378,
       "count": 8,
       "avg": 47
     },
@@ -48946,7 +48971,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-06-29": 5,
+    "2026-06-29": 6,
     "2026-06-28": 17,
     "2026-06-27": 5,
     "2026-06-26": 12,
@@ -48974,11 +48999,11 @@
     "2026-06-02": 3
   },
   "categoryDistribution": {
-    "reverb": 1310,
+    "reverb": 1311,
     "marketplace": 116,
     "other": 113
   },
-  "activeModelsCount": 262,
+  "activeModelsCount": 263,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -49006,7 +49031,7 @@
     },
     {
       "username": "Madero",
-      "count": 86
+      "count": 87
     },
     {
       "username": "scottcorgan",
@@ -49126,10 +49151,10 @@
       "count": 11
     },
     "Gretsch": {
-      "avgPrice": 7141,
+      "avgPrice": 6770,
       "retailEst": 400,
-      "avgDiscount": -1685.4,
-      "count": 15
+      "avgDiscount": -1592.5,
+      "count": 16
     },
     "Suhr": {
       "avgPrice": 3207,
@@ -53418,15 +53443,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1508,
+      "total": 1509,
       "sold": 467,
       "fake": 0,
-      "live": 486,
+      "live": 487,
       "removed": 555,
       "soldPct": 31,
       "livePct": 32
     },
     "byBrand": {
+      "Gretsch": {
+        "total": 16,
+        "sold": 6,
+        "fake": 0,
+        "live": 7,
+        "removed": 3,
+        "soldPct": 38,
+        "livePct": 44
+      },
       "Kiesel": {
         "total": 67,
         "sold": 26,
@@ -53966,15 +54000,6 @@
         "removed": 0,
         "soldPct": 100,
         "livePct": 0
-      },
-      "Gretsch": {
-        "total": 15,
-        "sold": 6,
-        "fake": 0,
-        "live": 6,
-        "removed": 3,
-        "soldPct": 40,
-        "livePct": 40
       },
       "Novo": {
         "total": 10,
@@ -55657,7 +55682,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 466,
+        "total": 467,
         "sold": 157,
         "rate": 34
       },
@@ -55687,6 +55712,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 158,
+        "sold": 52,
+        "rate": 33
+      },
       "Excellent": {
         "total": 547,
         "sold": 195,
@@ -55706,11 +55736,6 @@
         "total": 121,
         "sold": 17,
         "rate": 14
-      },
-      "Good": {
-        "total": 157,
-        "sold": 52,
-        "rate": 33
       },
       "Used": {
         "total": 57,
@@ -55981,7 +56006,7 @@
       "live": 23,
       "removed": 16,
       "sellRate": 39,
-      "totalDays": 1781.1,
+      "totalDays": 1781.1999999999998,
       "soldCount": 25,
       "avgDaysToSell": 71.2
     },
@@ -56132,9 +56157,9 @@
       "live": 12,
       "removed": 9,
       "sellRate": 36,
-      "totalDays": 840.5000000000001,
+      "totalDays": 840.6000000000001,
       "soldCount": 12,
-      "avgDaysToSell": 70
+      "avgDaysToSell": 70.1
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -56151,7 +56176,7 @@
       "live": 41,
       "removed": 60,
       "sellRate": 33,
-      "totalDays": 3781.7999999999997,
+      "totalDays": 3782.1000000000004,
       "soldCount": 50,
       "avgDaysToSell": 75.6
     },
@@ -56284,7 +56309,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 44,
-      "totalDays": 369.3,
+      "totalDays": 369.40000000000003,
       "soldCount": 8,
       "avgDaysToSell": 46.2
     },
@@ -56398,7 +56423,7 @@
       "live": 9,
       "removed": 7,
       "sellRate": 33,
-      "totalDays": 535.6,
+      "totalDays": 535.7,
       "soldCount": 8,
       "avgDaysToSell": 67
     },
@@ -56473,7 +56498,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 242.29999999999998,
+      "totalDays": 242.5,
       "soldCount": 4,
       "avgDaysToSell": 60.6
     },
@@ -56755,7 +56780,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 994.6,
+      "totalDays": 994.6999999999999,
       "soldCount": 13,
       "avgDaysToSell": 76.5
     },
@@ -56774,9 +56799,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 88,
+      "totalDays": 88.1,
       "soldCount": 1,
-      "avgDaysToSell": 88
+      "avgDaysToSell": 88.1
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -56793,9 +56818,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 14,
-      "totalDays": 310,
+      "totalDays": 310.1,
       "soldCount": 1,
-      "avgDaysToSell": 310
+      "avgDaysToSell": 310.1
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -56831,7 +56856,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 328.6,
+      "totalDays": 328.7,
       "soldCount": 5,
       "avgDaysToSell": 65.7
     },
@@ -57225,7 +57250,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 315,
+      "totalDays": 315.1,
       "soldCount": 4,
       "avgDaysToSell": 78.8
     },
@@ -57395,9 +57420,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 104.2,
+      "totalDays": 104.3,
       "soldCount": 1,
-      "avgDaysToSell": 104.2
+      "avgDaysToSell": 104.3
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -57874,9 +57899,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 79.2,
+      "totalDays": 79.3,
       "soldCount": 1,
-      "avgDaysToSell": 79.2
+      "avgDaysToSell": 79.3
     },
     "Gibson|Rickenbacker": {
       "brand": "Gibson",
@@ -58028,7 +58053,7 @@
     },
     {
       "label": "1–5",
-      "total": 51,
+      "total": 52,
       "sold": 14,
       "rate": 27
     },
@@ -58053,7 +58078,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 547,
+      "total": 548,
       "sold": 165,
       "rate": 30
     },
@@ -58070,9 +58095,9 @@
       "rate": 23
     },
     "regular": {
-      "total": 359,
+      "total": 360,
       "sold": 124,
-      "rate": 35
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -58179,6 +58204,12 @@
       "rate": 38
     },
     {
+      "state": "MO",
+      "total": 11,
+      "sold": 5,
+      "rate": 45
+    },
+    {
       "state": "KY",
       "total": 10,
       "sold": 3,
@@ -58189,12 +58220,6 @@
       "total": 10,
       "sold": 3,
       "rate": 30
-    },
-    {
-      "state": "MO",
-      "total": 10,
-      "sold": 5,
-      "rate": 50
     },
     {
       "state": "MI",
