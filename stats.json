@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-01T04:49:58.509Z",
-  "totalLinks": 1552,
-  "totalEver": 1929,
-  "totalBeforeFilter": 1929,
+  "generatedAt": "2026-07-01T04:50:29.085Z",
+  "totalLinks": 1553,
+  "totalEver": 1930,
+  "totalBeforeFilter": 1930,
   "fakeCount": 21,
   "removedCount": 596,
-  "totalWithPrice": 1534,
+  "totalWithPrice": 1535,
   "overall": {
-    "count": 1490,
-    "sum": 4251111.63,
-    "avg": 2853,
+    "count": 1491,
+    "sum": 4252611.63,
+    "avg": 2852,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1490,
-    "sum": 4251111.63,
-    "avg": 2853,
+    "count": 1491,
+    "sum": 4252611.63,
+    "avg": 2852,
     "min": 3,
     "max": 11099,
-    "median": 2290
+    "median": 2285
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 3,
-      "sum": 13369,
-      "min": 2300,
+      "count": 4,
+      "sum": 14869,
+      "min": 1500,
       "max": 8000,
-      "avg": 4456
+      "avg": 3717
     },
     "2026-06": {
       "count": 283,
@@ -411,11 +411,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1286,
-      "sum": 3639208.1,
+      "count": 1287,
+      "sum": 3640708.1,
       "min": 33,
       "max": 10933,
-      "avg": 2830
+      "avg": 2829
     },
     "marketplace": {
       "count": 102,
@@ -434,11 +434,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1286,
-      "sum": 3639208.1,
+      "count": 1287,
+      "sum": 3640708.1,
       "min": 33,
       "max": 10933,
-      "avg": 2830
+      "avg": 2829
     },
     "themusiczoo.com": {
       "count": 3,
@@ -694,6 +694,37 @@
     }
   },
   "byModel": {
+    "kiesel-delos-string-guitar-7-string": {
+      "displayName": "Kiesel Delos 2019 - 7 String Guitar",
+      "brand": "Kiesel",
+      "model": "Delos String Guitar",
+      "variant": "7 String",
+      "count": 1,
+      "sum": 1500,
+      "min": 1500,
+      "max": 1500,
+      "sightings": [
+        {
+          "price": 1500,
+          "date": "2026-07-01T04:50:14.467Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel Delos 2019 - 7 String Guitar",
+          "url": "https://reverb.com/item/99007768",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1500,
+          "min": 1500,
+          "max": 1500,
+          "avg": 1500
+        }
+      },
+      "avg": 1500
+    },
     "mcswain-tree-of-life-1-of-1-one-of-a-kind": {
       "displayName": "McSwain \"Tree of Life\" (1 of 1) One of a Kind   1996 - Flame Maple top over Honduran Mahogany. Neck is",
       "brand": "McSwain",
@@ -7557,7 +7588,7 @@
       "sightings": [
         {
           "price": 6225,
-          "date": "2026-06-16T20:04:25.142Z",
+          "date": "2026-06-16T20:04:25.142+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "ESP Custom Shop 1987 - Yellow with White Hardware",
@@ -7597,7 +7628,7 @@
         },
         {
           "price": 1500,
-          "date": "2026-06-16T18:50:22.712Z",
+          "date": "2026-06-16T18:50:22.712+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "PRS Singlecut 2000  Black",
@@ -46325,6 +46356,15 @@
     }
   },
   "byBrandPrice": {
+    "Kiesel": {
+      "count": 65,
+      "min": 650,
+      "max": 4300,
+      "soldCount": 26,
+      "outliersExcluded": 0,
+      "avg": 1634,
+      "soldAvg": 1342
+    },
     "McSwain": {
       "count": 1,
       "min": 8000,
@@ -46423,15 +46463,6 @@
       "outliersExcluded": 2,
       "avg": 2987,
       "soldAvg": 2169
-    },
-    "Kiesel": {
-      "count": 64,
-      "min": 650,
-      "max": 4300,
-      "soldCount": 26,
-      "outliersExcluded": 0,
-      "avg": 1636,
-      "soldAvg": 1342
     },
     "Echopark": {
       "count": 28,
@@ -48334,6 +48365,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 430,
+      "sum": 1625112.56,
+      "sold": {
+        "count": 146,
+        "sum": 330284.17999999993,
+        "avg": 2262,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3779,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 553,
       "sum": 2400533.870000001,
@@ -48361,20 +48406,6 @@
       "avg": 2905,
       "min": 70,
       "max": 55000
-    },
-    "Very Good": {
-      "count": 429,
-      "sum": 1623612.56,
-      "sold": {
-        "count": 146,
-        "sum": 330284.17999999993,
-        "avg": 2262,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3785,
-      "min": 33,
-      "max": 437713.69
     },
     "Mint": {
       "count": 39,
@@ -48480,9 +48511,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 4456,
-      "median": 3069,
-      "count": 3
+      "avg": 3717,
+      "median": 2685,
+      "count": 4
     },
     "06": {
       "name": "Jun",
@@ -48634,7 +48665,7 @@
       "url": "https://reverb.com/item/94684884",
       "oldPrice": "$6,302",
       "newPrice": "$6,225",
-      "date": "2026-06-18T23:35:06.560Z"
+      "date": "2026-06-18T23:35:06.56+00:00"
     },
     {
       "title": "PRS Limited Edition Herman Li Signature Chleo 2025 - Present Charcoal Purple Burst",
@@ -48654,7 +48685,7 @@
   "priceDistribution": {
     "0-500": 57,
     "500-1k": 124,
-    "1k-2k": 470,
+    "1k-2k": 471,
     "2k-3k": 312,
     "3k-5k": 341,
     "5k-10k": 175,
@@ -48663,13 +48694,18 @@
   "priceDistributionFiltered": {
     "0-500": 57,
     "500-1k": 124,
-    "1k-2k": 470,
+    "1k-2k": 471,
     "2k-3k": 312,
     "3k-5k": 341,
     "5k-10k": 175,
     "10k+": 11
   },
   "daysOnMarket": {
+    "Kiesel": {
+      "sum": 2368,
+      "count": 50,
+      "avg": 47
+    },
     "McSwain": {
       "sum": 0,
       "count": 1,
@@ -48724,11 +48760,6 @@
       "sum": 589,
       "count": 11,
       "avg": 54
-    },
-    "Kiesel": {
-      "sum": 2368,
-      "count": 49,
-      "avg": 48
     },
     "Echopark": {
       "sum": 958,
@@ -49612,7 +49643,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-01": 3,
+    "2026-07-01": 4,
     "2026-06-30": 5,
     "2026-06-29": 10,
     "2026-06-28": 17,
@@ -49642,15 +49673,15 @@
     "2026-06-02": 3
   },
   "categoryDistribution": {
-    "reverb": 1321,
+    "reverb": 1322,
     "marketplace": 118,
     "other": 113
   },
-  "activeModelsCount": 273,
+  "activeModelsCount": 274,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 417
+      "count": 418
     },
     {
       "username": "greg1213",
@@ -49812,10 +49843,10 @@
       "count": 14
     },
     "Kiesel": {
-      "avgPrice": 1635,
+      "avgPrice": 1633,
       "retailEst": 1000,
-      "avgDiscount": -63.5,
-      "count": 66
+      "avgDiscount": -63.3,
+      "count": 67
     },
     "Nash": {
       "avgPrice": 1874,
@@ -54247,15 +54278,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1521,
+      "total": 1522,
       "sold": 485,
       "fake": 0,
-      "live": 478,
+      "live": 479,
       "removed": 558,
       "soldPct": 32,
       "livePct": 31
     },
     "byBrand": {
+      "Kiesel": {
+        "total": 68,
+        "sold": 27,
+        "fake": 0,
+        "live": 24,
+        "removed": 17,
+        "soldPct": 40,
+        "livePct": 35
+      },
       "McSwain": {
         "total": 1,
         "sold": 0,
@@ -54354,15 +54394,6 @@
         "removed": 3,
         "soldPct": 38,
         "livePct": 44
-      },
-      "Kiesel": {
-        "total": 67,
-        "sold": 27,
-        "fake": 0,
-        "live": 23,
-        "removed": 17,
-        "soldPct": 40,
-        "livePct": 34
       },
       "Echopark": {
         "total": 29,
@@ -56504,7 +56535,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 470,
+        "total": 471,
         "sold": 164,
         "rate": 35
       },
@@ -56534,6 +56565,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 430,
+        "sold": 147,
+        "rate": 34
+      },
       "Excellent": {
         "total": 553,
         "sold": 197,
@@ -56542,11 +56578,6 @@
       "Good": {
         "total": 160,
         "sold": 54,
-        "rate": 34
-      },
-      "Very Good": {
-        "total": 429,
-        "sold": 147,
         "rate": 34
       },
       "Mint": {
@@ -56756,9 +56787,9 @@
       },
       {
         "brand": "Kiesel",
-        "avgPrice": 1636,
+        "avgPrice": 1634,
         "sellRate": 40,
-        "count": 67,
+        "count": 68,
         "sold": 27
       },
       {
@@ -56813,6 +56844,25 @@
     ]
   },
   "byBrandLine": {
+    "Kiesel|Kiesel / Carvin": {
+      "brand": "Kiesel",
+      "brandLine": "Kiesel / Carvin",
+      "tier": "premium",
+      "count": 65,
+      "sum": 106218.97000000002,
+      "avg": 1634,
+      "min": 650,
+      "max": 4300,
+      "sold": 26,
+      "soldSum": 34885,
+      "soldAvg": 1342,
+      "live": 23,
+      "removed": 16,
+      "sellRate": 40,
+      "totalDays": 1837.5,
+      "soldCount": 26,
+      "avgDaysToSell": 70.7
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -56964,25 +57014,6 @@
       "totalDays": 1.7,
       "soldCount": 1,
       "avgDaysToSell": 1.7
-    },
-    "Kiesel|Kiesel / Carvin": {
-      "brand": "Kiesel",
-      "brandLine": "Kiesel / Carvin",
-      "tier": "premium",
-      "count": 64,
-      "sum": 104718.97000000002,
-      "avg": 1636,
-      "min": 650,
-      "max": 4300,
-      "sold": 26,
-      "soldSum": 34885,
-      "soldAvg": 1342,
-      "live": 22,
-      "removed": 16,
-      "sellRate": 41,
-      "totalDays": 1837.5,
-      "soldCount": 26,
-      "avgDaysToSell": 70.7
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -58223,9 +58254,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 73.5,
+      "totalDays": 73.6,
       "soldCount": 1,
-      "avgDaysToSell": 73.5
+      "avgDaysToSell": 73.6
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -58884,7 +58915,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 118
+    "avgShippingCost": 117
   },
   "watcherDemand": [
     {
@@ -58901,9 +58932,9 @@
     },
     {
       "label": "6–15",
-      "total": 157,
+      "total": 158,
       "sold": 48,
-      "rate": 31
+      "rate": 30
     },
     {
       "label": "16–30",
@@ -58920,7 +58951,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 556,
+      "total": 557,
       "sold": 169,
       "rate": 30
     },
@@ -58937,7 +58968,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 370,
+      "total": 371,
       "sold": 128,
       "rate": 35
     }
@@ -58969,9 +59000,9 @@
     },
     {
       "state": "FL",
-      "total": 39,
+      "total": 40,
       "sold": 20,
-      "rate": 51
+      "rate": 50
     },
     {
       "state": "WA",
