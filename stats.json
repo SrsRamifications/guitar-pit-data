@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-01T16:30:04.904Z",
-  "totalLinks": 1557,
-  "totalEver": 1934,
-  "totalBeforeFilter": 1934,
+  "generatedAt": "2026-07-01T16:33:02.126Z",
+  "totalLinks": 1558,
+  "totalEver": 1935,
+  "totalBeforeFilter": 1935,
   "fakeCount": 21,
   "removedCount": 597,
-  "totalWithPrice": 1539,
+  "totalWithPrice": 1540,
   "overall": {
-    "count": 1495,
-    "sum": 4266698.63,
-    "avg": 2854,
+    "count": 1496,
+    "sum": 4277698.63,
+    "avg": 2859,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1495,
-    "sum": 4266698.63,
-    "avg": 2854,
+    "count": 1496,
+    "sum": 4277698.63,
+    "avg": 2859,
     "min": 3,
     "max": 11099,
-    "median": 2295
+    "median": 2297
   },
   "outliers": {
-    "thresholdHigh": 11103,
+    "thresholdHigh": 11258,
     "thresholdLow": 0,
     "count": 44,
     "items": [
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 8,
-      "sum": 28956,
+      "count": 9,
+      "sum": 39956,
       "min": 1500,
-      "max": 8000,
-      "avg": 3620
+      "max": 11000,
+      "avg": 4440
     },
     "2026-06": {
       "count": 283,
@@ -411,11 +411,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 103,
-      "sum": 320525.39,
+      "count": 104,
+      "sum": 331525.39,
       "min": 39.81,
-      "max": 10495,
-      "avg": 3112
+      "max": 11000,
+      "avg": 3188
     },
     "reverb": {
       "count": 1290,
@@ -434,11 +434,11 @@
   },
   "byDomain": {
     "eddiesguitars.com": {
-      "count": 6,
-      "sum": 31246.98,
+      "count": 7,
+      "sum": 42246.98,
       "min": 1699,
-      "max": 8499,
-      "avg": 5208
+      "max": 11000,
+      "avg": 6035
     },
     "reverb.com": {
       "count": 1290,
@@ -694,6 +694,37 @@
     }
   },
   "byModel": {
+    "fender-stratocaster-custom-shop-nos": {
+      "displayName": "Fender Custom Shop Master Built Dave Murray Stratocaster NOS - Olympic White #DM5201",
+      "brand": "Fender",
+      "model": "Stratocaster",
+      "variant": "Custom Shop Nos",
+      "count": 1,
+      "sum": 11000,
+      "min": 11000,
+      "max": 11000,
+      "sightings": [
+        {
+          "price": 11000,
+          "date": "2026-07-01T16:32:46.791Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop Master Built Dave Murray Stratocaster NOS - Olympic White #DM5201",
+          "url": "https://eddiesguitars.com/electric/fender-custom-shop-master-built-dave-murray-stratocaster-nos-olympic-white-dm5201",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 11000,
+          "min": 11000,
+          "max": 11000,
+          "avg": 11000
+        }
+      },
+      "avg": 11000
+    },
     "shabat-lion-jd-goldtop": {
       "displayName": "Shabat Lion JD Goldtop - amazing guitar!",
       "brand": "Shabat",
@@ -7603,7 +7634,7 @@
       "sightings": [
         {
           "price": 2200,
-          "date": "2026-06-17T03:18:13.745Z",
+          "date": "2026-06-17T03:18:13.745+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Legator Ghost GX6F-CL Coral Headless Multi-Scale #180",
@@ -46479,6 +46510,15 @@
     }
   },
   "byBrandPrice": {
+    "Fender": {
+      "count": 96,
+      "min": 599,
+      "max": 11000,
+      "soldCount": 32,
+      "outliersExcluded": 14,
+      "avg": 3193,
+      "soldAvg": 3575
+    },
     "Shabat": {
       "count": 11,
       "min": 2450,
@@ -46523,15 +46563,6 @@
       "outliersExcluded": 0,
       "avg": 8000,
       "soldAvg": null
-    },
-    "Fender": {
-      "count": 95,
-      "min": 599,
-      "max": 10995,
-      "soldCount": 32,
-      "outliersExcluded": 14,
-      "avg": 3111,
-      "soldAvg": 3575
     },
     "Whitfill": {
       "count": 1,
@@ -48634,9 +48665,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3620,
-      "median": 3010,
-      "count": 8
+      "avg": 4440,
+      "median": 3069,
+      "count": 9
     },
     "06": {
       "name": "Jun",
@@ -48812,7 +48843,7 @@
     "2k-3k": 313,
     "3k-5k": 342,
     "5k-10k": 176,
-    "10k+": 55
+    "10k+": 56
   },
   "priceDistributionFiltered": {
     "0-500": 57,
@@ -48821,9 +48852,14 @@
     "2k-3k": 313,
     "3k-5k": 342,
     "5k-10k": 176,
-    "10k+": 11
+    "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 4785,
+      "count": 87,
+      "avg": 55
+    },
     "Shabat": {
       "sum": 336,
       "count": 6,
@@ -48848,11 +48884,6 @@
       "sum": 1,
       "count": 1,
       "avg": 1
-    },
-    "Fender": {
-      "sum": 4785,
-      "count": 86,
-      "avg": 56
     },
     "Whitfill": {
       "sum": 1,
@@ -49761,7 +49792,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-01": 8,
+    "2026-07-01": 9,
     "2026-06-30": 5,
     "2026-06-29": 10,
     "2026-06-28": 17,
@@ -49791,11 +49822,11 @@
     "2026-06-02": 3
   },
   "categoryDistribution": {
-    "marketplace": 119,
+    "marketplace": 120,
     "reverb": 1325,
     "other": 113
   },
-  "activeModelsCount": 277,
+  "activeModelsCount": 278,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -49883,10 +49914,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6952,
+      "avgPrice": 6989,
       "retailEst": 800,
-      "avgDiscount": -769,
-      "count": 110
+      "avgDiscount": -773.6,
+      "count": 111
     },
     "Gibson": {
       "avgPrice": 5729,
@@ -54412,15 +54443,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1525,
+      "total": 1526,
       "sold": 487,
       "fake": 0,
-      "live": 479,
+      "live": 480,
       "removed": 559,
       "soldPct": 32,
       "livePct": 31
     },
     "byBrand": {
+      "Fender": {
+        "total": 114,
+        "sold": 35,
+        "fake": 0,
+        "live": 35,
+        "removed": 44,
+        "soldPct": 31,
+        "livePct": 31
+      },
       "Shabat": {
         "total": 11,
         "sold": 5,
@@ -54465,15 +54505,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 113,
-        "sold": 35,
-        "fake": 0,
-        "live": 34,
-        "removed": 44,
-        "soldPct": 31,
-        "livePct": 30
       },
       "Whitfill": {
         "total": 1,
@@ -56693,7 +56724,7 @@
       },
       {
         "label": "$10k+",
-        "total": 55,
+        "total": 56,
         "sold": 6,
         "rate": 11
       }
@@ -56978,6 +57009,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Masterbuilt": {
+      "brand": "Fender",
+      "brandLine": "Fender Masterbuilt",
+      "tier": "ultra",
+      "count": 4,
+      "sum": 37384,
+      "avg": 9346,
+      "min": 6395,
+      "max": 11000,
+      "sold": 1,
+      "soldSum": 9999,
+      "soldAvg": 9999,
+      "live": 3,
+      "removed": 0,
+      "sellRate": 25,
+      "totalDays": 1,
+      "soldCount": 1,
+      "avgDaysToSell": 1
+    },
     "Nik Huber|Nik Huber": {
       "brand": "Nik Huber",
       "brandLine": "Nik Huber",
@@ -57054,25 +57104,6 @@
       "soldCount": 51,
       "avgDaysToSell": 76.1
     },
-    "Fender|Fender Masterbuilt": {
-      "brand": "Fender",
-      "brandLine": "Fender Masterbuilt",
-      "tier": "ultra",
-      "count": 3,
-      "sum": 26384,
-      "avg": 8795,
-      "min": 6395,
-      "max": 9999,
-      "sold": 1,
-      "soldSum": 9999,
-      "soldAvg": 9999,
-      "live": 2,
-      "removed": 0,
-      "sellRate": 33,
-      "totalDays": 1,
-      "soldCount": 1,
-      "avgDaysToSell": 1
-    },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
       "brandLine": "Charvel USA Custom Shop",
@@ -57145,7 +57176,7 @@
       "live": 9,
       "removed": 7,
       "sellRate": 36,
-      "totalDays": 552.3,
+      "totalDays": 552.4000000000001,
       "soldCount": 9,
       "avgDaysToSell": 61.4
     },
@@ -57239,7 +57270,7 @@
       "live": 19,
       "removed": 50,
       "sellRate": 37,
-      "totalDays": 2811.6,
+      "totalDays": 2811.7,
       "soldCount": 41,
       "avgDaysToSell": 68.6
     },
@@ -57296,7 +57327,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 36,
-      "totalDays": 862.6999999999999,
+      "totalDays": 862.7999999999998,
       "soldCount": 12,
       "avgDaysToSell": 71.9
     },
@@ -57391,7 +57422,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 44,
-      "totalDays": 384.4,
+      "totalDays": 384.5,
       "soldCount": 8,
       "avgDaysToSell": 48.1
     },
@@ -58445,7 +58476,7 @@
       "live": 2,
       "removed": 5,
       "sellRate": 22,
-      "totalDays": 136.7,
+      "totalDays": 136.8,
       "soldCount": 2,
       "avgDaysToSell": 68.4
     },
@@ -58777,9 +58808,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 152.7,
+      "totalDays": 152.8,
       "soldCount": 1,
-      "avgDaysToSell": 152.7
+      "avgDaysToSell": 152.8
     },
     "Asher|Rickenbacker": {
       "brand": "Asher",
