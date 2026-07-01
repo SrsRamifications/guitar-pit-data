@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-01T16:47:30.396Z",
-  "totalLinks": 1559,
-  "totalEver": 1936,
-  "totalBeforeFilter": 1936,
+  "generatedAt": "2026-07-01T16:51:39.941Z",
+  "totalLinks": 1560,
+  "totalEver": 1937,
+  "totalBeforeFilter": 1937,
   "fakeCount": 21,
   "removedCount": 597,
-  "totalWithPrice": 1541,
+  "totalWithPrice": 1542,
   "overall": {
-    "count": 1497,
-    "sum": 4286193.63,
+    "count": 1498,
+    "sum": 4288193.63,
     "avg": 2863,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1497,
-    "sum": 4286193.63,
+    "count": 1498,
+    "sum": 4288193.63,
     "avg": 2863,
     "min": 3,
     "max": 11099,
-    "median": 2299
+    "median": 2297
   },
   "outliers": {
     "thresholdHigh": 11258,
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 10,
-      "sum": 48451,
+      "count": 11,
+      "sum": 50451,
       "min": 1500,
       "max": 11000,
-      "avg": 4845
+      "avg": 4586
     },
     "2026-06": {
       "count": 283,
@@ -411,8 +411,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1291,
-      "sum": 3661591.1,
+      "count": 1292,
+      "sum": 3663591.1,
       "min": 33,
       "max": 10933,
       "avg": 2836
@@ -434,8 +434,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1291,
-      "sum": 3661591.1,
+      "count": 1292,
+      "sum": 3663591.1,
       "min": 33,
       "max": 10933,
       "avg": 2836
@@ -694,6 +694,37 @@
     }
   },
   "byModel": {
+    "bc-rich-stiii-mid-80s-usa": {
+      "displayName": "Bc Rich STIII Mid 80s - Pink -USA - Vintage",
+      "brand": "BC Rich",
+      "model": "STIII Mid 80s",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 2000,
+      "min": 2000,
+      "max": 2000,
+      "sightings": [
+        {
+          "price": 2000,
+          "date": "2026-07-01T16:51:24.433Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Bc Rich STIII Mid 80s - Pink -USA - Vintage",
+          "url": "https://reverb.com/item/99023890",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2000,
+          "min": 2000,
+          "max": 2000,
+          "avg": 2000
+        }
+      },
+      "avg": 2000
+    },
     "martin-000-18": {
       "displayName": "1954 Martin 000-18 | Natural Finish W/HSC",
       "brand": "Martin",
@@ -46541,6 +46572,15 @@
     }
   },
   "byBrandPrice": {
+    "BC Rich": {
+      "count": 107,
+      "min": 33,
+      "max": 10350,
+      "soldCount": 30,
+      "outliersExcluded": 1,
+      "avg": 2674,
+      "soldAvg": 2051
+    },
     "Martin": {
       "count": 8,
       "min": 1349.99,
@@ -46639,15 +46679,6 @@
       "outliersExcluded": 0,
       "avg": 1874,
       "soldAvg": 1816
-    },
-    "BC Rich": {
-      "count": 106,
-      "min": 33,
-      "max": 10350,
-      "soldCount": 30,
-      "outliersExcluded": 1,
-      "avg": 2680,
-      "soldAvg": 2051
     },
     "Ibanez": {
       "count": 68,
@@ -48551,8 +48582,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 431,
-      "sum": 1633607.56,
+      "count": 432,
+      "sum": 1635607.56,
       "sold": {
         "count": 146,
         "sum": 330284.17999999993,
@@ -48560,7 +48591,7 @@
         "min": 68,
         "max": 10800
       },
-      "avg": 3790,
+      "avg": 3786,
       "min": 33,
       "max": 437713.69
     },
@@ -48696,9 +48727,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 4845,
-      "median": 3606,
-      "count": 10
+      "avg": 4586,
+      "median": 3069,
+      "count": 11
     },
     "06": {
       "name": "Jun",
@@ -48871,7 +48902,7 @@
     "0-500": 57,
     "500-1k": 124,
     "1k-2k": 472,
-    "2k-3k": 313,
+    "2k-3k": 314,
     "3k-5k": 342,
     "5k-10k": 177,
     "10k+": 56
@@ -48880,12 +48911,17 @@
     "0-500": 57,
     "500-1k": 124,
     "1k-2k": 472,
-    "2k-3k": 313,
+    "2k-3k": 314,
     "3k-5k": 342,
     "5k-10k": 177,
     "10k+": 12
   },
   "daysOnMarket": {
+    "BC Rich": {
+      "sum": 4548,
+      "count": 84,
+      "avg": 54
+    },
     "Fender": {
       "sum": 4695,
       "count": 86,
@@ -48935,11 +48971,6 @@
       "sum": 399,
       "count": 9,
       "avg": 44
-    },
-    "BC Rich": {
-      "sum": 4547,
-      "count": 83,
-      "avg": 55
     },
     "Ibanez": {
       "sum": 2747,
@@ -49322,9 +49353,9 @@
       "avg": 23
     },
     "King Snake": {
-      "sum": 25,
+      "sum": 26,
       "count": 1,
-      "avg": 25
+      "avg": 26
     },
     "Framus": {
       "sum": 129,
@@ -49823,7 +49854,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-01": 10,
+    "2026-07-01": 11,
     "2026-06-30": 5,
     "2026-06-29": 10,
     "2026-06-28": 17,
@@ -49853,11 +49884,11 @@
     "2026-06-02": 3
   },
   "categoryDistribution": {
-    "reverb": 1326,
+    "reverb": 1327,
     "marketplace": 120,
     "other": 113
   },
-  "activeModelsCount": 279,
+  "activeModelsCount": 280,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -49873,7 +49904,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 130
+      "count": 131
     },
     {
       "username": "Modean",
@@ -50071,10 +50102,10 @@
       "count": 10
     },
     "BC Rich": {
-      "avgPrice": 2873,
+      "avgPrice": 2865,
       "retailEst": 200,
-      "avgDiscount": -1336.5,
-      "count": 110
+      "avgDiscount": -1332.6,
+      "count": 111
     },
     "Kramer": {
       "avgPrice": 6677,
@@ -54474,15 +54505,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1527,
+      "total": 1528,
       "sold": 487,
       "fake": 0,
-      "live": 481,
+      "live": 482,
       "removed": 559,
       "soldPct": 32,
-      "livePct": 31
+      "livePct": 32
     },
     "byBrand": {
+      "BC Rich": {
+        "total": 111,
+        "sold": 31,
+        "fake": 0,
+        "live": 45,
+        "removed": 35,
+        "soldPct": 28,
+        "livePct": 41
+      },
       "Martin": {
         "total": 11,
         "sold": 3,
@@ -54581,15 +54621,6 @@
         "removed": 3,
         "soldPct": 55,
         "livePct": 18
-      },
-      "BC Rich": {
-        "total": 110,
-        "sold": 31,
-        "fake": 0,
-        "live": 44,
-        "removed": 35,
-        "soldPct": 28,
-        "livePct": 40
       },
       "Ibanez": {
         "total": 73,
@@ -56737,7 +56768,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 313,
+        "total": 314,
         "sold": 121,
         "rate": 39
       },
@@ -56762,7 +56793,7 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 431,
+        "total": 432,
         "sold": 147,
         "rate": 34
       },
@@ -57040,6 +57071,25 @@
     ]
   },
   "byBrandLine": {
+    "BC Rich|BC Rich Import": {
+      "brand": "BC Rich",
+      "brandLine": "BC Rich Import",
+      "tier": "budget-mid",
+      "count": 43,
+      "sum": 50444.95,
+      "avg": 1173,
+      "min": 250,
+      "max": 3899.99,
+      "sold": 13,
+      "soldSum": 14729.98,
+      "soldAvg": 1133,
+      "live": 16,
+      "removed": 14,
+      "sellRate": 30,
+      "totalDays": 987.1,
+      "soldCount": 13,
+      "avgDaysToSell": 75.9
+    },
     "Martin|Martin USA": {
       "brand": "Martin",
       "brandLine": "Martin USA",
@@ -57112,7 +57162,7 @@
       "live": 23,
       "removed": 16,
       "sellRate": 40,
-      "totalDays": 1850,
+      "totalDays": 1850.1000000000001,
       "soldCount": 26,
       "avgDaysToSell": 71.2
     },
@@ -57150,7 +57200,7 @@
       "live": 41,
       "removed": 60,
       "sellRate": 34,
-      "totalDays": 3880.3,
+      "totalDays": 3880.4,
       "soldCount": 51,
       "avgDaysToSell": 76.1
     },
@@ -57339,9 +57389,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 78.7,
+      "totalDays": 78.8,
       "soldCount": 1,
-      "avgDaysToSell": 78.7
+      "avgDaysToSell": 78.8
     },
     "ESP|LTD": {
       "brand": "ESP",
@@ -57491,7 +57541,7 @@
       "live": 3,
       "removed": 21,
       "sellRate": 40,
-      "totalDays": 1130.6000000000001,
+      "totalDays": 1130.7,
       "soldCount": 16,
       "avgDaysToSell": 70.7
     },
@@ -57532,25 +57582,6 @@
       "totalDays": 424,
       "soldCount": 7,
       "avgDaysToSell": 60.6
-    },
-    "BC Rich|BC Rich Import": {
-      "brand": "BC Rich",
-      "brandLine": "BC Rich Import",
-      "tier": "budget-mid",
-      "count": 42,
-      "sum": 48444.95,
-      "avg": 1153,
-      "min": 250,
-      "max": 3899.99,
-      "sold": 13,
-      "soldSum": 14729.98,
-      "soldAvg": 1133,
-      "live": 15,
-      "removed": 14,
-      "sellRate": 31,
-      "totalDays": 987.1,
-      "soldCount": 13,
-      "avgDaysToSell": 75.9
     },
     "PRS|PRS SE": {
       "brand": "PRS",
@@ -57811,9 +57842,9 @@
       "live": 11,
       "removed": 2,
       "sellRate": 19,
-      "totalDays": 211.3,
+      "totalDays": 211.39999999999998,
       "soldCount": 3,
-      "avgDaysToSell": 70.4
+      "avgDaysToSell": 70.5
     },
     "Friedman|Friedman": {
       "brand": "Friedman",
@@ -58450,9 +58481,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 74,
+      "totalDays": 74.1,
       "soldCount": 1,
-      "avgDaysToSell": 74
+      "avgDaysToSell": 74.1
     },
     "Hamer|Hamer Import": {
       "brand": "Hamer",
@@ -58469,7 +58500,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 133.1,
+      "totalDays": 133.2,
       "soldCount": 2,
       "avgDaysToSell": 66.6
     },
@@ -58582,9 +58613,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 76.8,
+      "totalDays": 76.9,
       "soldCount": 1,
-      "avgDaysToSell": 76.8
+      "avgDaysToSell": 76.9
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -59128,7 +59159,7 @@
     },
     {
       "label": "6–15",
-      "total": 158,
+      "total": 159,
       "sold": 48,
       "rate": 30
     },
@@ -59152,7 +59183,7 @@
       "rate": 30
     },
     "off": {
-      "total": 238,
+      "total": 239,
       "sold": 66,
       "rate": 28
     }
@@ -59164,7 +59195,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 372,
+      "total": 373,
       "sold": 128,
       "rate": 34
     }
@@ -59279,6 +59310,12 @@
       "rate": 45
     },
     {
+      "state": "MI",
+      "total": 10,
+      "sold": 3,
+      "rate": 30
+    },
+    {
       "state": "KY",
       "total": 10,
       "sold": 3,
@@ -59295,12 +59332,6 @@
       "total": 9,
       "sold": 1,
       "rate": 11
-    },
-    {
-      "state": "MI",
-      "total": 9,
-      "sold": 3,
-      "rate": 33
     },
     {
       "state": "ENG",
