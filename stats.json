@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-02T04:33:54.496Z",
-  "totalLinks": 1568,
-  "totalEver": 1945,
-  "totalBeforeFilter": 1945,
+  "generatedAt": "2026-07-02T04:38:44.582Z",
+  "totalLinks": 1569,
+  "totalEver": 1946,
+  "totalBeforeFilter": 1946,
   "fakeCount": 21,
   "removedCount": 598,
-  "totalWithPrice": 1549,
+  "totalWithPrice": 1550,
   "overall": {
-    "count": 1505,
-    "sum": 4307498.63,
-    "avg": 2862,
+    "count": 1506,
+    "sum": 4311598.63,
+    "avg": 2863,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1505,
-    "sum": 4307498.63,
-    "avg": 2862,
+    "count": 1506,
+    "sum": 4311598.63,
+    "avg": 2863,
     "min": 3,
     "max": 11099,
-    "median": 2295
+    "median": 2297
   },
   "outliers": {
-    "thresholdHigh": 11103,
+    "thresholdHigh": 11258,
     "thresholdLow": 0,
     "count": 44,
     "items": [
@@ -374,11 +374,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 18,
-      "sum": 69798,
+      "count": 19,
+      "sum": 73898,
       "min": 945,
       "max": 11000,
-      "avg": 3878
+      "avg": 3889
     },
     "2026-06": {
       "count": 283,
@@ -411,11 +411,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1299,
-      "sum": 3682896.1,
+      "count": 1300,
+      "sum": 3686996.1,
       "min": 33,
       "max": 10933,
-      "avg": 2835
+      "avg": 2836
     },
     "marketplace": {
       "count": 104,
@@ -434,11 +434,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1299,
-      "sum": 3682896.1,
+      "count": 1300,
+      "sum": 3686996.1,
       "min": 33,
       "max": 10933,
-      "avg": 2835
+      "avg": 2836
     },
     "eddiesguitars.com": {
       "count": 7,
@@ -694,6 +694,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-custom-shop-goldtop": {
+      "displayName": "Gibson Custom Shop '57 Les Paul Goldtop Reissue 2019",
+      "brand": "Gibson",
+      "model": "Les Paul",
+      "variant": "Custom Shop Goldtop",
+      "count": 1,
+      "sum": 4100,
+      "min": 4100,
+      "max": 4100,
+      "sightings": [
+        {
+          "price": 4100,
+          "date": "2026-07-02T04:38:29.566Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop '57 Les Paul Goldtop Reissue 2019",
+          "url": "https://reverb.com/item/63093114",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4100,
+          "min": 4100,
+          "max": 4100,
+          "avg": 4100
+        }
+      },
+      "avg": 4100
+    },
     "gibson-les-paul-custom-shop-r7": {
       "displayName": "Gibson Custom Shop Les Paul R7 2008 - Candy Apple Red",
       "brand": "Gibson",
@@ -7838,7 +7869,7 @@
       "sightings": [
         {
           "price": 950,
-          "date": "2026-06-18T13:50:21.203Z",
+          "date": "2026-06-18T13:50:21.203+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Used 2022 Eastman Juliet Bigsby Antique Black Varnish",
@@ -7864,7 +7895,7 @@
           {
             "price": 950,
             "askingPrice": 950,
-            "date": "2026-06-23T15:03:02.497Z",
+            "date": "2026-06-23T15:03:02.497+00:00",
             "title": "Used 2022 Eastman Juliet Bigsby Antique Black Varnish",
             "url": "https://reverb.com/item/98305084"
           }
@@ -46811,12 +46842,12 @@
   },
   "byBrandPrice": {
     "Gibson": {
-      "count": 190,
+      "count": 191,
       "min": 135,
       "max": 11099,
       "soldCount": 68,
       "outliersExcluded": 1,
-      "avg": 3528,
+      "avg": 3531,
       "soldAvg": 3319
     },
     "Fender": {
@@ -48819,6 +48850,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 558,
+      "sum": 2420028.870000001,
+      "sold": {
+        "count": 191,
+        "sum": 546606.8999999999,
+        "avg": 2862,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4337,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 434,
       "sum": 1640032.56,
@@ -48846,20 +48891,6 @@
       "avg": 2896,
       "min": 70,
       "max": 55000
-    },
-    "Excellent": {
-      "count": 557,
-      "sum": 2415928.870000001,
-      "sold": {
-        "count": 191,
-        "sum": 546606.8999999999,
-        "avg": 2862,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4337,
-      "min": 269,
-      "max": 190000
     },
     "Brand New": {
       "count": 123,
@@ -48965,9 +48996,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3878,
-      "median": 2675,
-      "count": 18
+      "avg": 3889,
+      "median": 2950,
+      "count": 19
     },
     "06": {
       "name": "Jun",
@@ -49141,7 +49172,7 @@
     "500-1k": 125,
     "1k-2k": 473,
     "2k-3k": 317,
-    "3k-5k": 343,
+    "3k-5k": 344,
     "5k-10k": 178,
     "10k+": 56
   },
@@ -49150,7 +49181,7 @@
     "500-1k": 125,
     "1k-2k": 473,
     "2k-3k": 317,
-    "3k-5k": 343,
+    "3k-5k": 344,
     "5k-10k": 178,
     "10k+": 12
   },
@@ -49161,7 +49192,7 @@
       "avg": 59
     },
     "Fender": {
-      "sum": 4445,
+      "sum": 4447,
       "count": 84,
       "avg": 53
     },
@@ -49181,7 +49212,7 @@
       "avg": 54
     },
     "Jackson": {
-      "sum": 1585,
+      "sum": 1587,
       "count": 30,
       "avg": 53
     },
@@ -49216,7 +49247,7 @@
       "avg": 1
     },
     "Charvel": {
-      "sum": 279,
+      "sum": 280,
       "count": 6,
       "avg": 47
     },
@@ -49371,9 +49402,9 @@
       "avg": 55
     },
     "Kramer": {
-      "sum": 427,
+      "sum": 428,
       "count": 9,
-      "avg": 47
+      "avg": 48
     },
     "Eastman": {
       "sum": 743,
@@ -49566,7 +49597,7 @@
       "avg": 47
     },
     "Castedosa": {
-      "sum": 348,
+      "sum": 349,
       "count": 6,
       "avg": 58
     },
@@ -49646,7 +49677,7 @@
       "avg": 38
     },
     "Rickenbacker": {
-      "sum": 1049,
+      "sum": 1050,
       "count": 14,
       "avg": 75
     },
@@ -50087,7 +50118,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-02": 6,
+    "2026-07-02": 7,
     "2026-07-01": 13,
     "2026-06-30": 5,
     "2026-06-29": 10,
@@ -50118,11 +50149,11 @@
     "2026-06-02": 2
   },
   "categoryDistribution": {
-    "reverb": 1334,
+    "reverb": 1335,
     "marketplace": 121,
     "other": 113
   },
-  "activeModelsCount": 287,
+  "activeModelsCount": 288,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -50146,7 +50177,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 92
+      "count": 93
     },
     {
       "username": "Madero",
@@ -50216,10 +50247,10 @@
       "count": 112
     },
     "Gibson": {
-      "avgPrice": 5723,
+      "avgPrice": 5715,
       "retailEst": 800,
-      "avgDiscount": -615.4,
-      "count": 195
+      "avgDiscount": -614.4,
+      "count": 196
     },
     "Epiphone": {
       "avgPrice": 2092,
@@ -54301,11 +54332,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 3871.8980030727544,
-      "count": 249,
-      "avgPctDrop": 15.5
+      "totalPctDrop": 3920.6480030727544,
+      "count": 250,
+      "avgPctDrop": 15.7
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 365.018963425278,
+        "count": 26,
+        "avgPctDrop": 14
+      },
       "Anderson": {
         "totalPctDrop": 39.96860906524772,
         "count": 5,
@@ -54330,11 +54366,6 @@
         "totalPctDrop": 112.82766277378113,
         "count": 8,
         "avgPctDrop": 14.1
-      },
-      "Gibson": {
-        "totalPctDrop": 316.268963425278,
-        "count": 25,
-        "avgPctDrop": 12.7
       },
       "Peavey": {
         "totalPctDrop": 7.142857142857142,
@@ -54755,20 +54786,20 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1536,
+      "total": 1537,
       "sold": 489,
       "fake": 0,
-      "live": 487,
+      "live": 488,
       "removed": 560,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
       "Gibson": {
-        "total": 199,
+        "total": 200,
         "sold": 68,
         "fake": 0,
-        "live": 49,
+        "live": 50,
         "removed": 82,
         "soldPct": 34,
         "livePct": 25
@@ -57024,7 +57055,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 343,
+        "total": 344,
         "sold": 101,
         "rate": 29
       },
@@ -57042,6 +57073,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 558,
+        "sold": 197,
+        "rate": 35
+      },
       "Very Good": {
         "total": 434,
         "sold": 147,
@@ -57050,11 +57086,6 @@
       "Good": {
         "total": 162,
         "sold": 56,
-        "rate": 35
-      },
-      "Excellent": {
-        "total": 557,
-        "sold": 197,
         "rate": 35
       },
       "Brand New": {
@@ -57325,18 +57356,18 @@
       "brand": "Gibson",
       "brandLine": "Gibson Custom Shop",
       "tier": "ultra",
-      "count": 42,
-      "sum": 218207.33000000002,
-      "avg": 5195,
+      "count": 43,
+      "sum": 222307.33000000002,
+      "avg": 5170,
       "min": 2750,
       "max": 11099,
       "sold": 16,
       "soldSum": 85724.98000000001,
       "soldAvg": 5358,
-      "live": 5,
+      "live": 6,
       "removed": 21,
-      "sellRate": 38,
-      "totalDays": 1138.5000000000002,
+      "sellRate": 37,
+      "totalDays": 1138.6000000000001,
       "soldCount": 16,
       "avgDaysToSell": 71.2
     },
@@ -57374,7 +57405,7 @@
       "live": 20,
       "removed": 50,
       "sellRate": 37,
-      "totalDays": 2832.2,
+      "totalDays": 2832.4,
       "soldCount": 41,
       "avgDaysToSell": 69.1
     },
@@ -57393,7 +57424,7 @@
       "live": 24,
       "removed": 16,
       "sellRate": 39,
-      "totalDays": 1861.9999999999998,
+      "totalDays": 1862.3,
       "soldCount": 26,
       "avgDaysToSell": 71.6
     },
@@ -57544,7 +57575,7 @@
       "live": 40,
       "removed": 61,
       "sellRate": 34,
-      "totalDays": 3905.3000000000006,
+      "totalDays": 3905.5000000000005,
       "soldCount": 51,
       "avgDaysToSell": 76.6
     },
@@ -57601,9 +57632,9 @@
       "live": 12,
       "removed": 15,
       "sellRate": 18,
-      "totalDays": 369.79999999999995,
+      "totalDays": 369.9,
       "soldCount": 6,
-      "avgDaysToSell": 61.6
+      "avgDaysToSell": 61.7
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -57620,7 +57651,7 @@
       "live": 9,
       "removed": 7,
       "sellRate": 36,
-      "totalDays": 556.9000000000001,
+      "totalDays": 557,
       "soldCount": 9,
       "avgDaysToSell": 61.9
     },
@@ -57639,9 +57670,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 2.6,
+      "totalDays": 2.7,
       "soldCount": 1,
-      "avgDaysToSell": 2.6
+      "avgDaysToSell": 2.7
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -57752,7 +57783,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 36,
-      "totalDays": 868.7999999999998,
+      "totalDays": 868.9999999999999,
       "soldCount": 12,
       "avgDaysToSell": 72.4
     },
@@ -57960,7 +57991,7 @@
       "live": 0,
       "removed": 3,
       "sellRate": 63,
-      "totalDays": 254.09999999999997,
+      "totalDays": 254.2,
       "soldCount": 5,
       "avgDaysToSell": 50.8
     },
@@ -58035,7 +58066,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 52,
-      "totalDays": 1009.5,
+      "totalDays": 1009.6,
       "soldCount": 11,
       "avgDaysToSell": 91.8
     },
@@ -58148,7 +58179,7 @@
       "live": 4,
       "removed": 4,
       "sellRate": 38,
-      "totalDays": 298.5,
+      "totalDays": 298.59999999999997,
       "soldCount": 5,
       "avgDaysToSell": 59.7
     },
@@ -58167,7 +58198,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 1025.4,
+      "totalDays": 1025.5,
       "soldCount": 13,
       "avgDaysToSell": 78.9
     },
@@ -58581,7 +58612,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 138.9,
+      "totalDays": 139,
       "soldCount": 2,
       "avgDaysToSell": 69.5
     },
@@ -58637,9 +58668,9 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 324.5,
+      "totalDays": 324.6,
       "soldCount": 4,
-      "avgDaysToSell": 81.1
+      "avgDaysToSell": 81.2
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -59385,8 +59416,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 292,
-    "totalOffers": 624,
+    "withOffers": 293,
+    "totalOffers": 627,
     "avgOffersPerListing": 2.1,
     "offersEnabledPct": 42
   },
@@ -59421,14 +59452,14 @@
     },
     {
       "label": "31+",
-      "total": 328,
+      "total": 329,
       "sold": 95,
       "rate": 29
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 565,
+      "total": 566,
       "sold": 169,
       "rate": 30
     },
@@ -59445,7 +59476,7 @@
       "rate": 24
     },
     "regular": {
-      "total": 375,
+      "total": 376,
       "sold": 128,
       "rate": 34
     }
@@ -59453,9 +59484,9 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 91,
+      "total": 92,
       "sold": 27,
-      "rate": 30
+      "rate": 29
     },
     {
       "state": "NY",
