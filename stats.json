@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-03T19:05:32.691Z",
-  "totalLinks": 1584,
-  "totalEver": 1961,
-  "totalBeforeFilter": 1961,
+  "generatedAt": "2026-07-03T19:08:49.587Z",
+  "totalLinks": 1585,
+  "totalEver": 1962,
+  "totalBeforeFilter": 1962,
   "fakeCount": 21,
   "removedCount": 602,
-  "totalWithPrice": 1565,
+  "totalWithPrice": 1566,
   "overall": {
-    "count": 1520,
-    "sum": 4354588.6,
-    "avg": 2865,
+    "count": 1521,
+    "sum": 4355388.59,
+    "avg": 2864,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1520,
-    "sum": 4354588.6,
-    "avg": 2865,
+    "count": 1521,
+    "sum": 4355388.59,
+    "avg": 2864,
     "min": 3,
     "max": 11099,
     "median": 2299
@@ -382,11 +382,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 33,
-      "sum": 118942.97,
+      "count": 34,
+      "sum": 119742.96,
       "min": 699,
       "max": 11000,
-      "avg": 3604
+      "avg": 3522
     },
     "2026-06": {
       "count": 283,
@@ -419,11 +419,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 107,
-      "sum": 339925.36,
+      "count": 108,
+      "sum": 340725.35,
       "min": 39.81,
       "max": 11000,
-      "avg": 3177
+      "avg": 3155
     },
     "reverb": {
       "count": 1311,
@@ -442,11 +442,11 @@
   },
   "byDomain": {
     "guitarcenter.com": {
-      "count": 76,
-      "sum": 158360.31,
+      "count": 77,
+      "sum": 159160.3,
       "min": 139.99,
       "max": 5999,
-      "avg": 2084
+      "avg": 2067
     },
     "reverb.com": {
       "count": 1311,
@@ -702,6 +702,37 @@
     }
   },
   "byModel": {
+    "fender-1960s-newporter-acoustic": {
+      "displayName": "Vintage 1960s Fender NEWPORTER Natural Acoustic Guitar Natural",
+      "brand": "Fender",
+      "model": "1960s NEWPORTER Acoustic",
+      "variant": null,
+      "count": 1,
+      "sum": 799.99,
+      "min": 799.99,
+      "max": 799.99,
+      "sightings": [
+        {
+          "price": 799.99,
+          "date": "2026-07-03T19:08:28.253Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1960s Fender NEWPORTER Natural Acoustic Guitar Natural",
+          "url": "https://www.guitarcenter.com/Used/Fender/Vintage-Vintage-1960s-Fender-NEWPORTER-Natural-Acoustic-Guitar-121765183.gc?algoliaQueryID=37e2b03f76cdcb630ced54b23f65921b&algoliaIndexName=guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 799.99,
+          "min": 799.99,
+          "max": 799.99,
+          "avg": 800
+        }
+      },
+      "avg": 800
+    },
     "martin-d40-acoustic-electric": {
       "displayName": "Used 2004 Martin D40 Natural Acoustic Electric Guitar Natural",
       "brand": "Martin",
@@ -7904,7 +7935,7 @@
       "sightings": [
         {
           "price": 2100,
-          "date": "2026-06-19T21:46:04.382Z",
+          "date": "2026-06-19T21:46:04.382+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Ernie Ball Music Man Steve Lukather Signature Luke 4",
@@ -7935,7 +7966,7 @@
       "sightings": [
         {
           "price": 3599,
-          "date": "2026-06-19T21:12:03.272Z",
+          "date": "2026-06-19T21:12:03.272+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Aristides 060 Evertune - Originally shown at NAMM 2024",
@@ -47291,6 +47322,15 @@
     }
   },
   "byBrandPrice": {
+    "Fender": {
+      "count": 98,
+      "min": 599,
+      "max": 11000,
+      "soldCount": 34,
+      "outliersExcluded": 14,
+      "avg": 3144,
+      "soldAvg": 3785
+    },
     "Martin": {
       "count": 9,
       "min": 1349.99,
@@ -47398,15 +47438,6 @@
       "outliersExcluded": 0,
       "avg": 7000,
       "soldAvg": null
-    },
-    "Fender": {
-      "count": 97,
-      "min": 599,
-      "max": 11000,
-      "soldCount": 34,
-      "outliersExcluded": 14,
-      "avg": 3168,
-      "soldAvg": 3785
     },
     "Kiesel": {
       "count": 66,
@@ -49310,13 +49341,13 @@
   },
   "byCondition": {
     "Used": {
-      "count": 59,
-      "sum": 256360.68,
+      "count": 60,
+      "sum": 257160.66999999998,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 4345,
+      "avg": 4286,
       "min": 475.99,
       "max": 99000
     },
@@ -49455,9 +49486,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3604,
-      "median": 3069,
-      "count": 33
+      "avg": 3522,
+      "median": 3010,
+      "count": 34
     },
     "06": {
       "name": "Jun",
@@ -49628,7 +49659,7 @@
   ],
   "priceDistribution": {
     "0-500": 58,
-    "500-1k": 127,
+    "500-1k": 128,
     "1k-2k": 473,
     "2k-3k": 320,
     "3k-5k": 351,
@@ -49637,7 +49668,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 58,
-    "500-1k": 127,
+    "500-1k": 128,
     "1k-2k": 473,
     "2k-3k": 320,
     "3k-5k": 351,
@@ -49645,6 +49676,11 @@
     "10k+": 12
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 4504,
+      "count": 84,
+      "avg": 54
+    },
     "Martin": {
       "sum": 195,
       "count": 5,
@@ -49676,9 +49712,9 @@
       "avg": 52
     },
     "Gibson": {
-      "sum": 8014,
+      "sum": 8015,
       "count": 137,
-      "avg": 58
+      "avg": 59
     },
     "Anderson": {
       "sum": 529,
@@ -49699,11 +49735,6 @@
       "sum": 635,
       "count": 15,
       "avg": 42
-    },
-    "Fender": {
-      "sum": 4504,
-      "count": 83,
-      "avg": 54
     },
     "Kiesel": {
       "sum": 2325,
@@ -50562,7 +50593,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-03": 8,
+    "2026-07-03": 9,
     "2026-07-02": 14,
     "2026-07-01": 13,
     "2026-06-30": 5,
@@ -50592,11 +50623,11 @@
     "2026-06-04": 1
   },
   "categoryDistribution": {
-    "marketplace": 124,
+    "marketplace": 125,
     "reverb": 1347,
     "other": 113
   },
-  "activeModelsCount": 297,
+  "activeModelsCount": 298,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -50608,7 +50639,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 162
+      "count": 163
     },
     {
       "username": "YellowJack6",
@@ -50684,10 +50715,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6933,
+      "avgPrice": 6879,
       "retailEst": 800,
-      "avgDiscount": -766.7,
-      "count": 112
+      "avgDiscount": -759.9,
+      "count": 113
     },
     "Gibson": {
       "avgPrice": 5702,
@@ -55259,15 +55290,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1551,
+      "total": 1552,
       "sold": 492,
       "fake": 0,
-      "live": 495,
+      "live": 496,
       "removed": 564,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
+      "Fender": {
+        "total": 117,
+        "sold": 37,
+        "fake": 0,
+        "live": 36,
+        "removed": 44,
+        "soldPct": 32,
+        "livePct": 31
+      },
       "Martin": {
         "total": 12,
         "sold": 3,
@@ -55375,15 +55415,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 0
-      },
-      "Fender": {
-        "total": 116,
-        "sold": 37,
-        "fake": 0,
-        "live": 35,
-        "removed": 44,
-        "soldPct": 32,
-        "livePct": 30
       },
       "Kiesel": {
         "total": 69,
@@ -57519,7 +57550,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 127,
+        "total": 128,
         "sold": 46,
         "rate": 36
       },
@@ -57556,7 +57587,7 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 60,
+        "total": 61,
         "sold": 15,
         "rate": 25
       },
@@ -57899,7 +57930,7 @@
       "live": 22,
       "removed": 50,
       "sellRate": 36,
-      "totalDays": 2898.1,
+      "totalDays": 2898.2,
       "soldCount": 41,
       "avgDaysToSell": 70.7
     },
@@ -57918,7 +57949,7 @@
       "live": 40,
       "removed": 61,
       "sellRate": 34,
-      "totalDays": 4007.8999999999996,
+      "totalDays": 4008.0999999999995,
       "soldCount": 52,
       "avgDaysToSell": 77.1
     },
@@ -57975,9 +58006,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 29,
-      "totalDays": 112,
+      "totalDays": 112.1,
       "soldCount": 2,
-      "avgDaysToSell": 56
+      "avgDaysToSell": 56.1
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -58032,7 +58063,7 @@
       "live": 24,
       "removed": 16,
       "sellRate": 39,
-      "totalDays": 1902.4,
+      "totalDays": 1902.5000000000002,
       "soldCount": 26,
       "avgDaysToSell": 73.2
     },
@@ -58560,9 +58591,9 @@
       "live": 3,
       "removed": 2,
       "sellRate": 17,
-      "totalDays": 46.8,
+      "totalDays": 46.9,
       "soldCount": 1,
-      "avgDaysToSell": 46.8
+      "avgDaysToSell": 46.9
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -58579,7 +58610,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 52,
-      "totalDays": 1027.2,
+      "totalDays": 1027.3,
       "soldCount": 11,
       "avgDaysToSell": 93.4
     },
