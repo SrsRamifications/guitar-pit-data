@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-03T19:05:08.150Z",
-  "totalLinks": 1583,
-  "totalEver": 1960,
-  "totalBeforeFilter": 1960,
+  "generatedAt": "2026-07-03T19:05:32.691Z",
+  "totalLinks": 1584,
+  "totalEver": 1961,
+  "totalBeforeFilter": 1961,
   "fakeCount": 21,
   "removedCount": 602,
-  "totalWithPrice": 1564,
+  "totalWithPrice": 1565,
   "overall": {
-    "count": 1519,
-    "sum": 4350588.61,
-    "avg": 2864,
+    "count": 1520,
+    "sum": 4354588.6,
+    "avg": 2865,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1519,
-    "sum": 4350588.61,
-    "avg": 2864,
+    "count": 1520,
+    "sum": 4354588.6,
+    "avg": 2865,
     "min": 3,
     "max": 11099,
     "median": 2299
@@ -382,11 +382,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 32,
-      "sum": 114942.98,
+      "count": 33,
+      "sum": 118942.97,
       "min": 699,
       "max": 11000,
-      "avg": 3592
+      "avg": 3604
     },
     "2026-06": {
       "count": 283,
@@ -419,11 +419,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 106,
-      "sum": 335925.37,
+      "count": 107,
+      "sum": 339925.36,
       "min": 39.81,
       "max": 11000,
-      "avg": 3169
+      "avg": 3177
     },
     "reverb": {
       "count": 1311,
@@ -442,11 +442,11 @@
   },
   "byDomain": {
     "guitarcenter.com": {
-      "count": 75,
-      "sum": 154360.32,
+      "count": 76,
+      "sum": 158360.31,
       "min": 139.99,
       "max": 5999,
-      "avg": 2058
+      "avg": 2084
     },
     "reverb.com": {
       "count": 1311,
@@ -702,6 +702,37 @@
     }
   },
   "byModel": {
+    "martin-d40-acoustic-electric": {
+      "displayName": "Used 2004 Martin D40 Natural Acoustic Electric Guitar Natural",
+      "brand": "Martin",
+      "model": "D40 Acoustic Electric",
+      "variant": null,
+      "count": 1,
+      "sum": 3999.99,
+      "min": 3999.99,
+      "max": 3999.99,
+      "sightings": [
+        {
+          "price": 3999.99,
+          "date": "2026-07-03T19:05:10.815Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used 2004 Martin D40 Natural Acoustic Electric Guitar Natural",
+          "url": "https://www.guitarcenter.com/Used/Martin/Used-2004-Martin-D40-Natural-Acoustic-Electric-Guitar-121813649.gc?algoliaQueryID=5711c0cdefc2ab13edecc5fcfb558fdd&algoliaIndexName=guitarcenter",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 3999.99,
+          "min": 3999.99,
+          "max": 3999.99,
+          "avg": 4000
+        }
+      },
+      "avg": 4000
+    },
     "washburn-les-paul": {
       "displayName": "Used Washburn Culprit Black Solid Body Electric Guitar Black",
       "brand": "Washburn",
@@ -47260,6 +47291,15 @@
     }
   },
   "byBrandPrice": {
+    "Martin": {
+      "count": 9,
+      "min": 1349.99,
+      "max": 8495,
+      "soldCount": 3,
+      "outliersExcluded": 1,
+      "avg": 3856,
+      "soldAvg": 2790
+    },
     "Washburn": {
       "count": 9,
       "min": 450,
@@ -47385,15 +47425,6 @@
       "outliersExcluded": 0,
       "avg": 2764,
       "soldAvg": 2020
-    },
-    "Martin": {
-      "count": 8,
-      "min": 1349.99,
-      "max": 8495,
-      "soldCount": 3,
-      "outliersExcluded": 1,
-      "avg": 3838,
-      "soldAvg": 2790
     },
     "Shabat": {
       "count": 11,
@@ -49279,13 +49310,13 @@
   },
   "byCondition": {
     "Used": {
-      "count": 58,
-      "sum": 252360.69,
+      "count": 59,
+      "sum": 256360.68,
       "sold": {
         "count": 0,
         "sum": 0
       },
-      "avg": 4351,
+      "avg": 4345,
       "min": 475.99,
       "max": 99000
     },
@@ -49424,9 +49455,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3592,
-      "median": 3010,
-      "count": 32
+      "avg": 3604,
+      "median": 3069,
+      "count": 33
     },
     "06": {
       "name": "Jun",
@@ -49600,7 +49631,7 @@
     "500-1k": 127,
     "1k-2k": 473,
     "2k-3k": 320,
-    "3k-5k": 350,
+    "3k-5k": 351,
     "5k-10k": 179,
     "10k+": 57
   },
@@ -49609,11 +49640,16 @@
     "500-1k": 127,
     "1k-2k": 473,
     "2k-3k": 320,
-    "3k-5k": 350,
+    "3k-5k": 351,
     "5k-10k": 179,
     "10k+": 12
   },
   "daysOnMarket": {
+    "Martin": {
+      "sum": 195,
+      "count": 5,
+      "avg": 39
+    },
     "Washburn": {
       "sum": 426,
       "count": 7,
@@ -49853,11 +49889,6 @@
       "sum": 766,
       "count": 12,
       "avg": 64
-    },
-    "Martin": {
-      "sum": 195,
-      "count": 4,
-      "avg": 49
     },
     "PJD": {
       "sum": 19,
@@ -50531,7 +50562,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-03": 7,
+    "2026-07-03": 8,
     "2026-07-02": 14,
     "2026-07-01": 13,
     "2026-06-30": 5,
@@ -50561,11 +50592,11 @@
     "2026-06-04": 1
   },
   "categoryDistribution": {
-    "marketplace": 123,
+    "marketplace": 124,
     "reverb": 1347,
     "other": 113
   },
-  "activeModelsCount": 296,
+  "activeModelsCount": 297,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -50577,7 +50608,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 161
+      "count": 162
     },
     {
       "username": "YellowJack6",
@@ -50801,6 +50832,12 @@
       "retailEst": 300,
       "avgDiscount": -511.4,
       "count": 25
+    },
+    "Martin": {
+      "avgPrice": 5271,
+      "retailEst": 500,
+      "avgDiscount": -954.1,
+      "count": 10
     },
     "Guild": {
       "avgPrice": 2137,
@@ -55222,15 +55259,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1550,
+      "total": 1551,
       "sold": 492,
       "fake": 0,
-      "live": 494,
+      "live": 495,
       "removed": 564,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
+      "Martin": {
+        "total": 12,
+        "sold": 3,
+        "fake": 0,
+        "live": 6,
+        "removed": 3,
+        "soldPct": 25,
+        "livePct": 50
+      },
       "Washburn": {
         "total": 9,
         "sold": 3,
@@ -55356,15 +55402,6 @@
         "removed": 14,
         "soldPct": 30,
         "livePct": 32
-      },
-      "Martin": {
-        "total": 11,
-        "sold": 3,
-        "fake": 0,
-        "live": 5,
-        "removed": 3,
-        "soldPct": 27,
-        "livePct": 45
       },
       "Shabat": {
         "total": 11,
@@ -57500,7 +57537,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 350,
+        "total": 351,
         "sold": 103,
         "rate": 29
       },
@@ -57519,7 +57556,7 @@
     ],
     "byCondition": {
       "Used": {
-        "total": 59,
+        "total": 60,
         "sold": 15,
         "rate": 25
       },
@@ -57790,6 +57827,25 @@
     ]
   },
   "byBrandLine": {
+    "Martin|Martin USA": {
+      "brand": "Martin",
+      "brandLine": "Martin USA",
+      "tier": "premium",
+      "count": 9,
+      "sum": 47360.99,
+      "avg": 5262,
+      "min": 1919,
+      "max": 17999,
+      "sold": 1,
+      "soldSum": 3025,
+      "soldAvg": 3025,
+      "live": 5,
+      "removed": 3,
+      "sellRate": 11,
+      "totalDays": 31.7,
+      "soldCount": 1,
+      "avgDaysToSell": 31.7
+    },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
       "brandLine": "Jackson USA",
@@ -58035,25 +58091,6 @@
       "totalDays": 1014.4,
       "soldCount": 13,
       "avgDaysToSell": 78
-    },
-    "Martin|Martin USA": {
-      "brand": "Martin",
-      "brandLine": "Martin USA",
-      "tier": "premium",
-      "count": 8,
-      "sum": 43361,
-      "avg": 5420,
-      "min": 1919,
-      "max": 17999,
-      "sold": 1,
-      "soldSum": 3025,
-      "soldAvg": 3025,
-      "live": 4,
-      "removed": 3,
-      "sellRate": 13,
-      "totalDays": 31.7,
-      "soldCount": 1,
-      "avgDaysToSell": 31.7
     },
     "Fender|Fender Masterbuilt": {
       "brand": "Fender",
