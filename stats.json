@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-04T19:16:31.749Z",
-  "totalLinks": 1599,
-  "totalEver": 1981,
-  "totalBeforeFilter": 1981,
+  "generatedAt": "2026-07-04T19:27:00.802Z",
+  "totalLinks": 1600,
+  "totalEver": 1982,
+  "totalBeforeFilter": 1982,
   "fakeCount": 21,
   "removedCount": 606,
-  "totalWithPrice": 1580,
+  "totalWithPrice": 1581,
   "overall": {
-    "count": 1535,
-    "sum": 4399783.58,
+    "count": 1536,
+    "sum": 4402082.58,
     "avg": 2866,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1535,
-    "sum": 4399783.58,
+    "count": 1536,
+    "sum": 4402082.58,
     "avg": 2866,
     "min": 3,
     "max": 11099,
     "median": 2299
   },
   "outliers": {
-    "thresholdHigh": 11258,
+    "thresholdHigh": 11103,
     "thresholdLow": 0,
     "count": 45,
     "items": [
@@ -382,11 +382,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 48,
-      "sum": 162506.95,
+      "count": 49,
+      "sum": 164805.95,
       "min": 699,
       "max": 11000,
-      "avg": 3386
+      "avg": 3363
     },
     "2026-06": {
       "count": 283,
@@ -419,8 +419,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1323,
-      "sum": 3761231.1,
+      "count": 1324,
+      "sum": 3763530.1,
       "min": 33,
       "max": 10933,
       "avg": 2843
@@ -442,8 +442,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1323,
-      "sum": 3761231.1,
+      "count": 1324,
+      "sum": 3763530.1,
       "min": 33,
       "max": 10933,
       "avg": 2843
@@ -709,6 +709,53 @@
     }
   },
   "byModel": {
+    "nash-telecaster": {
+      "displayName": "New 2022 Bill Nash T-63 Telecaster Guitar. Lollars, Maple neck,  Alder body",
+      "brand": "Nash",
+      "model": "Telecaster",
+      "variant": null,
+      "count": 2,
+      "sum": 4318.15,
+      "min": 2019.15,
+      "max": 2299,
+      "sightings": [
+        {
+          "price": 2019.15,
+          "date": "2026-04-10T02:33:38.776+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash Telecaster Early 2000s - Relic'd",
+          "url": "https://reverb.com/item/95354797",
+          "condition": "Excellent"
+        },
+        {
+          "price": 2299,
+          "date": "2026-07-04T19:26:44.989Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "New 2022 Bill Nash T-63 Telecaster Guitar. Lollars, Maple neck,  Alder body",
+          "url": "https://reverb.com/item/72138363",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 2299,
+          "min": 2299,
+          "max": 2299,
+          "avg": 2299
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 2019.15,
+          "min": 2019.15,
+          "max": 2019.15,
+          "avg": 2019
+        }
+      },
+      "avg": 2159
+    },
     "nash-t-63-heavy-w-heavy-relic": {
       "displayName": "Nash T-63 Heavy Relic w. upgrades",
       "brand": "Nash",
@@ -7361,7 +7408,7 @@
       "sightings": [
         {
           "price": 4500,
-          "date": "2026-06-20T19:09:44.015Z",
+          "date": "2026-06-20T19:09:44.015+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Danelectro First Model (1954)",
@@ -38778,37 +38825,6 @@
       },
       "avg": 3895
     },
-    "nash-telecaster": {
-      "displayName": "Nash Telecaster Early 2000s - Relic'd",
-      "brand": "Nash",
-      "model": "Telecaster",
-      "variant": null,
-      "count": 1,
-      "sum": 2019.15,
-      "min": 2019.15,
-      "max": 2019.15,
-      "sightings": [
-        {
-          "price": 2019.15,
-          "date": "2026-04-10T02:33:38.776+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Nash Telecaster Early 2000s - Relic'd",
-          "url": "https://reverb.com/item/95354797",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2019.15,
-          "min": 2019.15,
-          "max": 2019.15,
-          "avg": 2019
-        }
-      },
-      "avg": 2019
-    },
     "martin-c-2": {
       "displayName": "1933 Martin C-2 Conversion to 0-42 Style Flat Top — Joel Whitehead / Brazilian Rosewood — Excellent",
       "brand": "Martin",
@@ -47733,12 +47749,12 @@
   },
   "byBrandPrice": {
     "Nash": {
-      "count": 12,
+      "count": 13,
       "min": 1500,
       "max": 2300,
       "soldCount": 7,
       "outliersExcluded": 0,
-      "avg": 1868,
+      "avg": 1901,
       "soldAvg": 1778
     },
     "ESP": {
@@ -49759,6 +49775,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 124,
+      "sum": 518645.22999999986,
+      "sold": {
+        "count": 13,
+        "sum": 40666.729999999996,
+        "avg": 3128,
+        "min": 995,
+        "max": 8199
+      },
+      "avg": 4183,
+      "min": 135,
+      "max": 14670
+    },
     "Very Good": {
       "count": 445,
       "sum": 1677991.56,
@@ -49840,20 +49870,6 @@
       "min": 400,
       "max": 46467.6
     },
-    "Brand New": {
-      "count": 123,
-      "sum": 516346.22999999986,
-      "sold": {
-        "count": 13,
-        "sum": 40666.729999999996,
-        "avg": 3128,
-        "min": 995,
-        "max": 8199
-      },
-      "avg": 4198,
-      "min": 135,
-      "max": 14670
-    },
     "New": {
       "count": 3,
       "sum": 7199.98,
@@ -49905,9 +49921,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3386,
-      "median": 2632,
-      "count": 48
+      "avg": 3363,
+      "median": 2514,
+      "count": 49
     },
     "06": {
       "name": "Jun",
@@ -50080,7 +50096,7 @@
     "0-500": 58,
     "500-1k": 128,
     "1k-2k": 479,
-    "2k-3k": 325,
+    "2k-3k": 326,
     "3k-5k": 351,
     "5k-10k": 181,
     "10k+": 58
@@ -50089,7 +50105,7 @@
     "0-500": 58,
     "500-1k": 128,
     "1k-2k": 479,
-    "2k-3k": 325,
+    "2k-3k": 326,
     "3k-5k": 351,
     "5k-10k": 181,
     "10k+": 13
@@ -50156,7 +50172,7 @@
       "avg": 62
     },
     "BC Rich": {
-      "sum": 4619,
+      "sum": 4620,
       "count": 83,
       "avg": 56
     },
@@ -50376,7 +50392,7 @@
       "avg": 17
     },
     "Friedman": {
-      "sum": 458,
+      "sum": 459,
       "count": 10,
       "avg": 46
     },
@@ -51007,7 +51023,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-04": 13,
+    "2026-07-04": 14,
     "2026-07-03": 10,
     "2026-07-02": 14,
     "2026-07-01": 13,
@@ -51037,11 +51053,11 @@
     "2026-06-06": 1
   },
   "categoryDistribution": {
-    "reverb": 1359,
+    "reverb": 1360,
     "marketplace": 127,
     "other": 113
   },
-  "activeModelsCount": 309,
+  "activeModelsCount": 310,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -51049,7 +51065,7 @@
     },
     {
       "username": "greg1213",
-      "count": 270
+      "count": 271
     },
     {
       "username": "Shteefe",
@@ -51213,10 +51229,10 @@
       "count": 68
     },
     "Nash": {
-      "avgPrice": 1868,
+      "avgPrice": 1901,
       "retailEst": 1500,
-      "avgDiscount": -24.5,
-      "count": 12
+      "avgDiscount": -26.7,
+      "count": 13
     },
     "Echopark": {
       "avgPrice": 4052,
@@ -55722,23 +55738,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1566,
+      "total": 1567,
       "sold": 495,
       "fake": 0,
-      "live": 503,
+      "live": 504,
       "removed": 568,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
       "Nash": {
-        "total": 12,
+        "total": 13,
         "sold": 7,
         "fake": 0,
-        "live": 2,
+        "live": 3,
         "removed": 3,
-        "soldPct": 58,
-        "livePct": 17
+        "soldPct": 54,
+        "livePct": 23
       },
       "ESP": {
         "total": 38,
@@ -57861,13 +57877,6 @@
         "soldPct": 63
       },
       {
-        "brand": "Nash",
-        "total": 12,
-        "sold": 7,
-        "live": 2,
-        "soldPct": 58
-      },
-      {
         "brand": "Charvel",
         "total": 12,
         "sold": 7,
@@ -57901,6 +57910,13 @@
         "sold": 6,
         "live": 2,
         "soldPct": 55
+      },
+      {
+        "brand": "Nash",
+        "total": 13,
+        "sold": 7,
+        "live": 3,
+        "soldPct": 54
       },
       {
         "brand": "Eastman",
@@ -58003,9 +58019,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 325,
+        "total": 326,
         "sold": 122,
-        "rate": 38
+        "rate": 37
       },
       {
         "label": "$3k–5k",
@@ -58027,6 +58043,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 124,
+        "sold": 22,
+        "rate": 18
+      },
       "Very Good": {
         "total": 445,
         "sold": 148,
@@ -58056,11 +58077,6 @@
         "total": 40,
         "sold": 4,
         "rate": 10
-      },
-      "Brand New": {
-        "total": 123,
-        "sold": 22,
-        "rate": 18
       },
       "New": {
         "total": 3,
@@ -58214,9 +58230,9 @@
       },
       {
         "brand": "Nash",
-        "avgPrice": 1868,
-        "sellRate": 58,
-        "count": 12,
+        "avgPrice": 1901,
+        "sellRate": 54,
+        "count": 13,
         "sold": 7
       },
       {
@@ -58303,18 +58319,18 @@
       "brand": "Nash",
       "brandLine": "Nash",
       "tier": "premium",
-      "count": 12,
-      "sum": 22412.15,
-      "avg": 1868,
+      "count": 13,
+      "sum": 24711.15,
+      "avg": 1901,
       "min": 1500,
       "max": 2300,
       "sold": 7,
       "soldSum": 12445,
       "soldAvg": 1778,
-      "live": 2,
+      "live": 3,
       "removed": 3,
-      "sellRate": 58,
-      "totalDays": 337.79999999999995,
+      "sellRate": 54,
+      "totalDays": 338,
       "soldCount": 7,
       "avgDaysToSell": 48.3
     },
@@ -58352,7 +58368,7 @@
       "live": 7,
       "removed": 22,
       "sellRate": 36,
-      "totalDays": 1180.3,
+      "totalDays": 1180.5,
       "soldCount": 16,
       "avgDaysToSell": 73.8
     },
@@ -58371,7 +58387,7 @@
       "live": 10,
       "removed": 7,
       "sellRate": 35,
-      "totalDays": 580.4,
+      "totalDays": 580.5,
       "soldCount": 9,
       "avgDaysToSell": 64.5
     },
@@ -58390,7 +58406,7 @@
       "live": 12,
       "removed": 10,
       "sellRate": 35,
-      "totalDays": 900.3000000000001,
+      "totalDays": 900.4000000000001,
       "soldCount": 12,
       "avgDaysToSell": 75
     },
@@ -58446,7 +58462,7 @@
       "live": 21,
       "removed": 50,
       "sellRate": 38,
-      "totalDays": 2944.2,
+      "totalDays": 2944.5,
       "soldCount": 43,
       "avgDaysToSell": 68.5
     },
@@ -58617,9 +58633,9 @@
       "live": 23,
       "removed": 17,
       "sellRate": 39,
-      "totalDays": 1927.7000000000003,
+      "totalDays": 1927.9000000000003,
       "soldCount": 26,
-      "avgDaysToSell": 74.1
+      "avgDaysToSell": 74.2
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -58730,9 +58746,9 @@
       "live": 17,
       "removed": 32,
       "sellRate": 33,
-      "totalDays": 2007.6,
+      "totalDays": 2008.1,
       "soldCount": 24,
-      "avgDaysToSell": 83.6
+      "avgDaysToSell": 83.7
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -58749,7 +58765,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 80,
-      "totalDays": 225,
+      "totalDays": 225.1,
       "soldCount": 4,
       "avgDaysToSell": 56.3
     },
@@ -58843,9 +58859,9 @@
       "live": 1,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 169,
+      "totalDays": 169.1,
       "soldCount": 3,
-      "avgDaysToSell": 56.3
+      "avgDaysToSell": 56.4
     },
     "Music Man|Music Man BFR": {
       "brand": "Music Man",
@@ -58957,7 +58973,7 @@
       "live": 4,
       "removed": 11,
       "sellRate": 35,
-      "totalDays": 464,
+      "totalDays": 464.09999999999997,
       "soldCount": 8,
       "avgDaysToSell": 58
     },
@@ -58995,7 +59011,7 @@
       "live": 6,
       "removed": 4,
       "sellRate": 17,
-      "totalDays": 143.9,
+      "totalDays": 144,
       "soldCount": 2,
       "avgDaysToSell": 72
     },
@@ -59107,7 +59123,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 80,
-      "totalDays": 293.9,
+      "totalDays": 294,
       "soldCount": 4,
       "avgDaysToSell": 73.5
     },
@@ -59145,7 +59161,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 58,
-      "totalDays": 477.20000000000005,
+      "totalDays": 477.4000000000001,
       "soldCount": 7,
       "avgDaysToSell": 68.2
     },
@@ -59201,7 +59217,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 1059.5,
+      "totalDays": 1059.6000000000001,
       "soldCount": 13,
       "avgDaysToSell": 81.5
     },
@@ -59483,7 +59499,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 173.1,
+      "totalDays": 173.2,
       "soldCount": 2,
       "avgDaysToSell": 86.6
     },
@@ -59671,9 +59687,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 51.2,
+      "totalDays": 51.3,
       "soldCount": 1,
-      "avgDaysToSell": 51.2
+      "avgDaysToSell": 51.3
     },
     "Parker|Parker Fly Deluxe": {
       "brand": "Parker",
@@ -59766,9 +59782,9 @@
       "live": 2,
       "removed": 5,
       "sellRate": 22,
-      "totalDays": 143,
+      "totalDays": 143.1,
       "soldCount": 2,
-      "avgDaysToSell": 71.5
+      "avgDaysToSell": 71.6
     },
     "Taylor|Taylor Baby": {
       "brand": "Taylor",
@@ -59970,9 +59986,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 90.6,
+      "totalDays": 90.7,
       "soldCount": 1,
-      "avgDaysToSell": 90.6
+      "avgDaysToSell": 90.7
     },
     "Ormsby|Ormsby Indonesia": {
       "brand": "Ormsby",
@@ -60246,9 +60262,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 99.8,
+      "totalDays": 99.9,
       "soldCount": 1,
-      "avgDaysToSell": 99.8
+      "avgDaysToSell": 99.9
     },
     "Yamaha|Yamaha Pacifica": {
       "brand": "Yamaha",
@@ -60370,7 +60386,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 118
+    "avgShippingCost": 117
   },
   "watcherDemand": [
     {
@@ -60399,7 +60415,7 @@
     },
     {
       "label": "31+",
-      "total": 345,
+      "total": 346,
       "sold": 100,
       "rate": 29
     }
@@ -60411,14 +60427,14 @@
       "rate": 30
     },
     "off": {
-      "total": 252,
+      "total": 253,
       "sold": 70,
       "rate": 28
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 428,
+      "total": 429,
       "sold": 100,
       "rate": 23
     },
@@ -60514,6 +60530,12 @@
       "rate": 18
     },
     {
+      "state": "OR",
+      "total": 15,
+      "sold": 5,
+      "rate": 33
+    },
+    {
       "state": "CO",
       "total": 15,
       "sold": 6,
@@ -60524,12 +60546,6 @@
       "total": 14,
       "sold": 1,
       "rate": 7
-    },
-    {
-      "state": "OR",
-      "total": 14,
-      "sold": 5,
-      "rate": 36
     },
     {
       "state": "KY",
