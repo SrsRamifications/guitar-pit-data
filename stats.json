@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-04T19:15:04.902Z",
-  "totalLinks": 1598,
-  "totalEver": 1980,
-  "totalBeforeFilter": 1980,
+  "generatedAt": "2026-07-04T19:16:31.749Z",
+  "totalLinks": 1599,
+  "totalEver": 1981,
+  "totalBeforeFilter": 1981,
   "fakeCount": 21,
   "removedCount": 606,
-  "totalWithPrice": 1579,
+  "totalWithPrice": 1580,
   "overall": {
-    "count": 1534,
-    "sum": 4397983.58,
-    "avg": 2867,
+    "count": 1535,
+    "sum": 4399783.58,
+    "avg": 2866,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1534,
-    "sum": 4397983.58,
-    "avg": 2867,
+    "count": 1535,
+    "sum": 4399783.58,
+    "avg": 2866,
     "min": 3,
     "max": 11099,
     "median": 2299
@@ -382,11 +382,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 47,
-      "sum": 160706.95,
+      "count": 48,
+      "sum": 162506.95,
       "min": 699,
       "max": 11000,
-      "avg": 3419
+      "avg": 3386
     },
     "2026-06": {
       "count": 283,
@@ -419,11 +419,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1322,
-      "sum": 3759431.1,
+      "count": 1323,
+      "sum": 3761231.1,
       "min": 33,
       "max": 10933,
-      "avg": 2844
+      "avg": 2843
     },
     "marketplace": {
       "count": 110,
@@ -442,11 +442,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1322,
-      "sum": 3759431.1,
+      "count": 1323,
+      "sum": 3761231.1,
       "min": 33,
       "max": 10933,
-      "avg": 2844
+      "avg": 2843
     },
     "craigslist.org": {
       "count": 1,
@@ -709,6 +709,37 @@
     }
   },
   "byModel": {
+    "nash-t-63-heavy-w-heavy-relic": {
+      "displayName": "Nash T-63 Heavy Relic w. upgrades",
+      "brand": "Nash",
+      "model": "T-63 Heavy w.",
+      "variant": "Heavy Relic",
+      "count": 1,
+      "sum": 1800,
+      "min": 1800,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-07-04T19:16:16.765Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash T-63 Heavy Relic w. upgrades",
+          "url": "https://reverb.com/item/99114695",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1800
+    },
     "esp-horizon-custom-shop": {
       "displayName": "ESP Horizon-III Pearl White Gold Electric Guitar + Case Made in Japan Kiso Custom Shop Electric Guitar",
       "brand": "ESP",
@@ -7361,7 +7392,7 @@
       "sightings": [
         {
           "price": 4500,
-          "date": "2026-06-20T17:55:06.756Z",
+          "date": "2026-06-20T17:55:06.756+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Jackson USA Select Kelly KE2 Ebony Fingerboard Snow White 567",
@@ -47701,6 +47732,15 @@
     }
   },
   "byBrandPrice": {
+    "Nash": {
+      "count": 12,
+      "min": 1500,
+      "max": 2300,
+      "soldCount": 7,
+      "outliersExcluded": 0,
+      "avg": 1868,
+      "soldAvg": 1778
+    },
     "ESP": {
       "count": 35,
       "min": 850,
@@ -47934,15 +47974,6 @@
       "outliersExcluded": 0,
       "avg": 3621,
       "soldAvg": 4511
-    },
-    "Nash": {
-      "count": 11,
-      "min": 1500,
-      "max": 2300,
-      "soldCount": 7,
-      "outliersExcluded": 0,
-      "avg": 1874,
-      "soldAvg": 1778
     },
     "Hofner": {
       "count": 3,
@@ -49728,6 +49759,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 445,
+      "sum": 1677991.56,
+      "sold": {
+        "count": 147,
+        "sum": 333708.17999999993,
+        "avg": 2270,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3771,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 567,
       "sum": 2455612.870000001,
@@ -49755,20 +49800,6 @@
       "avg": 1923,
       "min": 69,
       "max": 4799
-    },
-    "Very Good": {
-      "count": 444,
-      "sum": 1676191.56,
-      "sold": {
-        "count": 147,
-        "sum": 333708.17999999993,
-        "avg": 2270,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3775,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 164,
@@ -49874,9 +49905,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3419,
-      "median": 2750,
-      "count": 47
+      "avg": 3386,
+      "median": 2632,
+      "count": 48
     },
     "06": {
       "name": "Jun",
@@ -50048,7 +50079,7 @@
   "priceDistribution": {
     "0-500": 58,
     "500-1k": 128,
-    "1k-2k": 478,
+    "1k-2k": 479,
     "2k-3k": 325,
     "3k-5k": 351,
     "5k-10k": 181,
@@ -50057,13 +50088,18 @@
   "priceDistributionFiltered": {
     "0-500": 58,
     "500-1k": 128,
-    "1k-2k": 478,
+    "1k-2k": 479,
     "2k-3k": 325,
     "3k-5k": 351,
     "5k-10k": 181,
     "10k+": 13
   },
   "daysOnMarket": {
+    "Nash": {
+      "sum": 335,
+      "count": 9,
+      "avg": 37
+    },
     "Gibson": {
       "sum": 8063,
       "count": 138,
@@ -50183,11 +50219,6 @@
       "sum": 297,
       "count": 6,
       "avg": 50
-    },
-    "Nash": {
-      "sum": 335,
-      "count": 8,
-      "avg": 42
     },
     "Hofner": {
       "sum": 113,
@@ -50976,7 +51007,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-04": 12,
+    "2026-07-04": 13,
     "2026-07-03": 10,
     "2026-07-02": 14,
     "2026-07-01": 13,
@@ -51006,11 +51037,11 @@
     "2026-06-06": 1
   },
   "categoryDistribution": {
-    "reverb": 1358,
+    "reverb": 1359,
     "marketplace": 127,
     "other": 113
   },
-  "activeModelsCount": 308,
+  "activeModelsCount": 309,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -51018,7 +51049,7 @@
     },
     {
       "username": "greg1213",
-      "count": 269
+      "count": 270
     },
     {
       "username": "Shteefe",
@@ -51182,10 +51213,10 @@
       "count": 68
     },
     "Nash": {
-      "avgPrice": 1874,
+      "avgPrice": 1868,
       "retailEst": 1500,
-      "avgDiscount": -24.9,
-      "count": 11
+      "avgDiscount": -24.5,
+      "count": 12
     },
     "Echopark": {
       "avgPrice": 4052,
@@ -55691,15 +55722,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1565,
+      "total": 1566,
       "sold": 495,
       "fake": 0,
-      "live": 502,
+      "live": 503,
       "removed": 568,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
+      "Nash": {
+        "total": 12,
+        "sold": 7,
+        "fake": 0,
+        "live": 2,
+        "removed": 3,
+        "soldPct": 58,
+        "livePct": 17
+      },
       "ESP": {
         "total": 38,
         "sold": 11,
@@ -55933,15 +55973,6 @@
         "removed": 4,
         "soldPct": 58,
         "livePct": 8
-      },
-      "Nash": {
-        "total": 11,
-        "sold": 7,
-        "fake": 0,
-        "live": 1,
-        "removed": 3,
-        "soldPct": 64,
-        "livePct": 9
       },
       "Hofner": {
         "total": 3,
@@ -57816,13 +57847,6 @@
         "soldPct": 67
       },
       {
-        "brand": "Nash",
-        "total": 11,
-        "sold": 7,
-        "live": 1,
-        "soldPct": 64
-      },
-      {
         "brand": "Aristides",
         "total": 8,
         "sold": 5,
@@ -57835,6 +57859,13 @@
         "sold": 5,
         "live": 2,
         "soldPct": 63
+      },
+      {
+        "brand": "Nash",
+        "total": 12,
+        "sold": 7,
+        "live": 2,
+        "soldPct": 58
       },
       {
         "brand": "Charvel",
@@ -57966,7 +57997,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 478,
+        "total": 479,
         "sold": 167,
         "rate": 35
       },
@@ -57996,6 +58027,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 445,
+        "sold": 148,
+        "rate": 33
+      },
       "Excellent": {
         "total": 567,
         "sold": 200,
@@ -58005,11 +58041,6 @@
         "total": 24,
         "sold": 10,
         "rate": 42
-      },
-      "Very Good": {
-        "total": 444,
-        "sold": 148,
-        "rate": 33
       },
       "Good": {
         "total": 164,
@@ -58183,9 +58214,9 @@
       },
       {
         "brand": "Nash",
-        "avgPrice": 1874,
-        "sellRate": 64,
-        "count": 11,
+        "avgPrice": 1868,
+        "sellRate": 58,
+        "count": 12,
         "sold": 7
       },
       {
@@ -58268,6 +58299,25 @@
     ]
   },
   "byBrandLine": {
+    "Nash|Nash": {
+      "brand": "Nash",
+      "brandLine": "Nash",
+      "tier": "premium",
+      "count": 12,
+      "sum": 22412.15,
+      "avg": 1868,
+      "min": 1500,
+      "max": 2300,
+      "sold": 7,
+      "soldSum": 12445,
+      "soldAvg": 1778,
+      "live": 2,
+      "removed": 3,
+      "sellRate": 58,
+      "totalDays": 337.79999999999995,
+      "soldCount": 7,
+      "avgDaysToSell": 48.3
+    },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
       "brandLine": "ESP Custom Shop",
@@ -58302,7 +58352,7 @@
       "live": 7,
       "removed": 22,
       "sellRate": 36,
-      "totalDays": 1180.2,
+      "totalDays": 1180.3,
       "soldCount": 16,
       "avgDaysToSell": 73.8
     },
@@ -58340,7 +58390,7 @@
       "live": 12,
       "removed": 10,
       "sellRate": 35,
-      "totalDays": 900.2000000000002,
+      "totalDays": 900.3000000000001,
       "soldCount": 12,
       "avgDaysToSell": 75
     },
@@ -58453,9 +58503,9 @@
       "live": 12,
       "removed": 2,
       "sellRate": 18,
-      "totalDays": 220.6,
+      "totalDays": 220.7,
       "soldCount": 3,
-      "avgDaysToSell": 73.5
+      "avgDaysToSell": 73.6
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -58567,7 +58617,7 @@
       "live": 23,
       "removed": 17,
       "sellRate": 39,
-      "totalDays": 1927.6000000000001,
+      "totalDays": 1927.7000000000003,
       "soldCount": 26,
       "avgDaysToSell": 74.1
     },
@@ -58703,25 +58753,6 @@
       "soldCount": 4,
       "avgDaysToSell": 56.3
     },
-    "Nash|Nash": {
-      "brand": "Nash",
-      "brandLine": "Nash",
-      "tier": "premium",
-      "count": 11,
-      "sum": 20612.15,
-      "avg": 1874,
-      "min": 1500,
-      "max": 2300,
-      "sold": 7,
-      "soldSum": 12445,
-      "soldAvg": 1778,
-      "live": 1,
-      "removed": 3,
-      "sellRate": 64,
-      "totalDays": 337.79999999999995,
-      "soldCount": 7,
-      "avgDaysToSell": 48.3
-    },
     "Guild|Guild USA": {
       "brand": "Guild",
       "brandLine": "Guild USA",
@@ -58793,9 +58824,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 81.8,
+      "totalDays": 81.9,
       "soldCount": 1,
-      "avgDaysToSell": 81.8
+      "avgDaysToSell": 81.9
     },
     "ESP|LTD": {
       "brand": "ESP",
@@ -60356,7 +60387,7 @@
     },
     {
       "label": "6–15",
-      "total": 157,
+      "total": 158,
       "sold": 49,
       "rate": 31
     },
@@ -60380,7 +60411,7 @@
       "rate": 30
     },
     "off": {
-      "total": 251,
+      "total": 252,
       "sold": 70,
       "rate": 28
     }
@@ -60392,7 +60423,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 389,
+      "total": 390,
       "sold": 133,
       "rate": 34
     }
@@ -60555,6 +60586,12 @@
       "rate": 13
     },
     {
+      "state": "RI",
+      "total": 7,
+      "sold": 3,
+      "rate": 43
+    },
+    {
       "state": "MN",
       "total": 7,
       "sold": 3,
@@ -60565,12 +60602,6 @@
       "total": 7,
       "sold": 2,
       "rate": 29
-    },
-    {
-      "state": "RI",
-      "total": 6,
-      "sold": 3,
-      "rate": 50
     },
     {
       "state": "OK",
