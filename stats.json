@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-04T18:38:17.459Z",
-  "totalLinks": 1596,
-  "totalEver": 1977,
-  "totalBeforeFilter": 1977,
+  "generatedAt": "2026-07-04T18:41:18.031Z",
+  "totalLinks": 1597,
+  "totalEver": 1978,
+  "totalBeforeFilter": 1978,
   "fakeCount": 21,
   "removedCount": 606,
-  "totalWithPrice": 1577,
+  "totalWithPrice": 1578,
   "overall": {
-    "count": 1532,
-    "sum": 4390233.58,
-    "avg": 2866,
+    "count": 1533,
+    "sum": 4392483.58,
+    "avg": 2865,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1532,
-    "sum": 4390233.58,
-    "avg": 2866,
+    "count": 1533,
+    "sum": 4392483.58,
+    "avg": 2865,
     "min": 3,
     "max": 11099,
     "median": 2299
@@ -382,11 +382,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 45,
-      "sum": 152956.95,
+      "count": 46,
+      "sum": 155206.95,
       "min": 699,
       "max": 11000,
-      "avg": 3399
+      "avg": 3374
     },
     "2026-06": {
       "count": 283,
@@ -418,19 +418,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 110,
+      "sum": 345475.34,
+      "min": 39.81,
+      "max": 11000,
+      "avg": 3141
+    },
     "reverb": {
       "count": 1321,
       "sum": 3753931.1,
       "min": 33,
       "max": 10933,
       "avg": 2842
-    },
-    "marketplace": {
-      "count": 109,
-      "sum": 343225.34,
-      "min": 39.81,
-      "max": 11000,
-      "avg": 3149
     },
     "other": {
       "count": 102,
@@ -441,6 +441,13 @@
     }
   },
   "byDomain": {
+    "craigslist.org": {
+      "count": 1,
+      "sum": 2250,
+      "min": 2250,
+      "max": 2250,
+      "avg": 2250
+    },
     "reverb.com": {
       "count": 1321,
       "sum": 3753931.1,
@@ -702,6 +709,37 @@
     }
   },
   "byModel": {
+    "gibson-es-339-custom-shop": {
+      "displayName": "2009 GIBSON Custom Shop ES-339 Great Condition - Price Drop - musical instruments - by owner - sale - craigslist",
+      "brand": "Gibson",
+      "model": "ES-339",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 2250,
+      "min": 2250,
+      "max": 2250,
+      "sightings": [
+        {
+          "price": 2250,
+          "date": "2026-07-04T18:41:02.069Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2009 GIBSON Custom Shop ES-339 Great Condition - Price Drop - musical instruments - by owner - sale - craigslist",
+          "url": "https://www.craigslist.org/view/d/victoria-2009-gibson-custom-shop-es-339/hrr7B66xHCpYzvMUut2sD6",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 2250,
+          "min": 2250,
+          "max": 2250,
+          "avg": 2250
+        }
+      },
+      "avg": 2250
+    },
     "ibanez-original-mij": {
       "displayName": "Rarely Seen Ibanez 2680 Bob Weir Professional - 1979 - Brown Sunburst (BS) - Original Super 80 Humbuckers - With Original Case - Made in Japan MIJ",
       "brand": "Ibanez",
@@ -7400,7 +7438,7 @@
       "sightings": [
         {
           "price": 6300,
-          "date": "2026-06-20T16:32:03.017Z",
+          "date": "2026-06-20T16:32:03.017+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Mike Sankey Kabo and Koko Headless Fan Fret Multiscale Electric Guitars",
@@ -47632,6 +47670,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 195,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 69,
+      "outliersExcluded": 1,
+      "avg": 3523,
+      "soldAvg": 3327
+    },
     "Ibanez": {
       "count": 72,
       "min": 173.3,
@@ -47694,15 +47741,6 @@
       "outliersExcluded": 0,
       "avg": 1012,
       "soldAvg": null
-    },
-    "Gibson": {
-      "count": 194,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 69,
-      "outliersExcluded": 1,
-      "avg": 3529,
-      "soldAvg": 3327
     },
     "Jackson": {
       "count": 43,
@@ -49805,9 +49843,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3399,
-      "median": 2750,
-      "count": 45
+      "avg": 3374,
+      "median": 2632,
+      "count": 46
     },
     "06": {
       "name": "Jun",
@@ -49980,7 +50018,7 @@
     "0-500": 58,
     "500-1k": 128,
     "1k-2k": 478,
-    "2k-3k": 324,
+    "2k-3k": 325,
     "3k-5k": 351,
     "5k-10k": 180,
     "10k+": 58
@@ -49989,12 +50027,17 @@
     "0-500": 58,
     "500-1k": 128,
     "1k-2k": 478,
-    "2k-3k": 324,
+    "2k-3k": 325,
     "3k-5k": 351,
     "5k-10k": 180,
     "10k+": 13
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 8061,
+      "count": 138,
+      "avg": 58
+    },
     "Ibanez": {
       "sum": 2836,
       "count": 54,
@@ -50024,11 +50067,6 @@
       "sum": 5435,
       "count": 107,
       "avg": 51
-    },
-    "Gibson": {
-      "sum": 8061,
-      "count": 137,
-      "avg": 59
     },
     "Jackson": {
       "sum": 1391,
@@ -50907,7 +50945,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-04": 10,
+    "2026-07-04": 11,
     "2026-07-03": 10,
     "2026-07-02": 14,
     "2026-07-01": 13,
@@ -50937,11 +50975,11 @@
     "2026-06-06": 1
   },
   "categoryDistribution": {
+    "marketplace": 127,
     "reverb": 1357,
-    "marketplace": 126,
     "other": 113
   },
-  "activeModelsCount": 306,
+  "activeModelsCount": 307,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -50953,7 +50991,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 164
+      "count": 165
     },
     {
       "username": "YellowJack6",
@@ -51035,10 +51073,10 @@
       "count": 113
     },
     "Gibson": {
-      "avgPrice": 5680,
+      "avgPrice": 5663,
       "retailEst": 800,
-      "avgDiscount": -610,
-      "count": 199
+      "avgDiscount": -607.9,
+      "count": 200
     },
     "Epiphone": {
       "avgPrice": 2092,
@@ -55622,15 +55660,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1563,
+      "total": 1564,
       "sold": 495,
       "fake": 0,
-      "live": 500,
+      "live": 501,
       "removed": 568,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
+      "Gibson": {
+        "total": 204,
+        "sold": 69,
+        "fake": 0,
+        "live": 52,
+        "removed": 83,
+        "soldPct": 34,
+        "livePct": 25
+      },
       "Ibanez": {
         "total": 77,
         "sold": 25,
@@ -55693,15 +55740,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 203,
-        "sold": 69,
-        "fake": 0,
-        "live": 51,
-        "removed": 83,
-        "soldPct": 34,
-        "livePct": 25
       },
       "Jackson": {
         "total": 47,
@@ -57903,7 +57941,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 324,
+        "total": 325,
         "sold": 122,
         "rate": 38
       },
@@ -58199,6 +58237,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson Custom Shop": {
+      "brand": "Gibson",
+      "brandLine": "Gibson Custom Shop",
+      "tier": "ultra",
+      "count": 45,
+      "sum": 228995.33000000002,
+      "avg": 5089,
+      "min": 2250,
+      "max": 11099,
+      "sold": 16,
+      "soldSum": 85724.98000000001,
+      "soldAvg": 5358,
+      "live": 7,
+      "removed": 22,
+      "sellRate": 36,
+      "totalDays": 1180,
+      "soldCount": 16,
+      "avgDaysToSell": 73.8
+    },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
       "brandLine": "Ibanez J.Custom",
@@ -58289,7 +58346,7 @@
       "live": 21,
       "removed": 50,
       "sellRate": 38,
-      "totalDays": 2943.1,
+      "totalDays": 2943.2999999999997,
       "soldCount": 43,
       "avgDaysToSell": 68.4
     },
@@ -58308,7 +58365,7 @@
       "live": 41,
       "removed": 61,
       "sellRate": 34,
-      "totalDays": 4059.1,
+      "totalDays": 4059.2999999999997,
       "soldCount": 52,
       "avgDaysToSell": 78.1
     },
@@ -58388,25 +58445,6 @@
       "soldCount": 3,
       "avgDaysToSell": 21.3
     },
-    "Gibson|Gibson Custom Shop": {
-      "brand": "Gibson",
-      "brandLine": "Gibson Custom Shop",
-      "tier": "ultra",
-      "count": 44,
-      "sum": 226745.33000000002,
-      "avg": 5153,
-      "min": 2750,
-      "max": 11099,
-      "sold": 16,
-      "soldSum": 85724.98000000001,
-      "soldAvg": 5358,
-      "live": 6,
-      "removed": 22,
-      "sellRate": 36,
-      "totalDays": 1180,
-      "soldCount": 16,
-      "avgDaysToSell": 73.8
-    },
     "G&L|G&L USA": {
       "brand": "G&L",
       "brandLine": "G&L USA",
@@ -58441,9 +58479,9 @@
       "live": 4,
       "removed": 7,
       "sellRate": 42,
-      "totalDays": 409.09999999999997,
+      "totalDays": 409.2,
       "soldCount": 8,
-      "avgDaysToSell": 51.1
+      "avgDaysToSell": 51.2
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -58592,7 +58630,7 @@
       "live": 17,
       "removed": 32,
       "sellRate": 33,
-      "totalDays": 2007.1,
+      "totalDays": 2007.3999999999999,
       "soldCount": 24,
       "avgDaysToSell": 83.6
     },
