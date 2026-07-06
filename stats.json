@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-06T13:31:56.511Z",
-  "totalLinks": 1612,
-  "totalEver": 1998,
-  "totalBeforeFilter": 1998,
+  "generatedAt": "2026-07-06T13:33:19.243Z",
+  "totalLinks": 1613,
+  "totalEver": 1999,
+  "totalBeforeFilter": 1999,
   "fakeCount": 21,
   "removedCount": 611,
-  "totalWithPrice": 1593,
+  "totalWithPrice": 1594,
   "overall": {
-    "count": 1547,
-    "sum": 4420383.27,
-    "avg": 2857,
+    "count": 1548,
+    "sum": 4425963.27,
+    "avg": 2859,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1547,
-    "sum": 4420383.27,
-    "avg": 2857,
+    "count": 1548,
+    "sum": 4425963.27,
+    "avg": 2859,
     "min": 3,
     "max": 11099,
-    "median": 2285
+    "median": 2290
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -390,11 +390,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 60,
-      "sum": 184077.64,
+      "count": 61,
+      "sum": 189657.64,
       "min": 300,
       "max": 11000,
-      "avg": 3068
+      "avg": 3109
     },
     "2026-06": {
       "count": 283,
@@ -427,11 +427,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1331,
-      "sum": 3774418.1,
+      "count": 1332,
+      "sum": 3779998.1,
       "min": 33,
       "max": 10933,
-      "avg": 2836
+      "avg": 2838
     },
     "marketplace": {
       "count": 114,
@@ -450,11 +450,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1331,
-      "sum": 3774418.1,
+      "count": 1332,
+      "sum": 3779998.1,
       "min": 33,
       "max": 10933,
-      "avg": 2836
+      "avg": 2838
     },
     "long-mcquade.com": {
       "count": 3,
@@ -717,6 +717,37 @@
     }
   },
   "byModel": {
+    "weymann-artist-pro-custom": {
+      "displayName": "Weymann USA Artist Pro CUSTOM SHOP Solid Body Electric Guitar SET NECK Limited Edition",
+      "brand": "Weymann",
+      "model": "Artist Pro Custom",
+      "variant": null,
+      "count": 1,
+      "sum": 5580,
+      "min": 5580,
+      "max": 5580,
+      "sightings": [
+        {
+          "price": 5580,
+          "date": "2026-07-06T13:33:04.163Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Weymann USA Artist Pro CUSTOM SHOP Solid Body Electric Guitar SET NECK Limited Edition",
+          "url": "https://reverb.com/item/91589071",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 5580,
+          "min": 5580,
+          "max": 5580,
+          "avg": 5580
+        }
+      },
+      "avg": 5580
+    },
     "prs-gsb019-artist": {
       "displayName": "Paul Reed Smith Artist II -Teal Black- 1993Used [GSB019]",
       "brand": "PRS",
@@ -7356,7 +7387,7 @@
       "sightings": [
         {
           "price": 1850,
-          "date": "2026-06-21T19:56:05.246Z",
+          "date": "2026-06-21T19:56:05.246+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Kiesel Theos 6",
@@ -48238,6 +48269,15 @@
     }
   },
   "byBrandPrice": {
+    "Weymann": {
+      "count": 1,
+      "min": 5580,
+      "max": 5580,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 5580,
+      "soldAvg": null
+    },
     "PRS": {
       "count": 143,
       "min": 595,
@@ -50283,6 +50323,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 126,
+      "sum": 524525.2299999999,
+      "sold": {
+        "count": 13,
+        "sum": 40666.729999999996,
+        "avg": 3128,
+        "min": 995,
+        "max": 8199
+      },
+      "avg": 4163,
+      "min": 135,
+      "max": 14670
+    },
     "Very Good": {
       "count": 448,
       "sum": 1686050.56,
@@ -50310,20 +50364,6 @@
       "avg": 4365,
       "min": 269,
       "max": 190000
-    },
-    "Brand New": {
-      "count": 125,
-      "sum": 518945.22999999986,
-      "sold": {
-        "count": 13,
-        "sum": 40666.729999999996,
-        "avg": 3128,
-        "min": 995,
-        "max": 8199
-      },
-      "avg": 4152,
-      "min": 135,
-      "max": 14670
     },
     "Used": {
       "count": 62,
@@ -50429,9 +50469,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3068,
+      "avg": 3109,
       "median": 2300,
-      "count": 60
+      "count": 61
     },
     "06": {
       "name": "Jun",
@@ -50606,7 +50646,7 @@
     "1k-2k": 484,
     "2k-3k": 328,
     "3k-5k": 351,
-    "5k-10k": 182,
+    "5k-10k": 183,
     "10k+": 59
   },
   "priceDistributionFiltered": {
@@ -50615,7 +50655,7 @@
     "1k-2k": 484,
     "2k-3k": 328,
     "3k-5k": 351,
-    "5k-10k": 182,
+    "5k-10k": 183,
     "10k+": 13
   },
   "daysOnMarket": {
@@ -50650,7 +50690,7 @@
       "avg": 9
     },
     "BC Rich": {
-      "sum": 4237,
+      "sum": 4238,
       "count": 79,
       "avg": 54
     },
@@ -50720,7 +50760,7 @@
       "avg": 42
     },
     "Kiesel": {
-      "sum": 2373,
+      "sum": 2374,
       "count": 48,
       "avg": 49
     },
@@ -51536,7 +51576,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-06": 2,
+    "2026-07-06": 3,
     "2026-07-05": 9,
     "2026-07-04": 15,
     "2026-07-03": 10,
@@ -51568,11 +51608,11 @@
     "2026-06-06": 1
   },
   "categoryDistribution": {
-    "reverb": 1367,
+    "reverb": 1368,
     "marketplace": 132,
     "other": 113
   },
-  "activeModelsCount": 322,
+  "activeModelsCount": 323,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -51596,7 +51636,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 98
+      "count": 99
     },
     {
       "username": "Madero",
@@ -55829,11 +55869,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 4125.800922865292,
-      "count": 267,
+      "totalPctDrop": 4145.800922865292,
+      "count": 268,
       "avgPctDrop": 15.5
     },
     "byBrand": {
+      "Weymann": {
+        "totalPctDrop": 20,
+        "count": 1,
+        "avgPctDrop": 20
+      },
       "Ovation": {
         "totalPctDrop": 26.666666666666668,
         "count": 2,
@@ -56293,15 +56338,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1578,
+      "total": 1579,
       "sold": 501,
       "fake": 0,
-      "live": 504,
+      "live": 505,
       "removed": 573,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
+      "Weymann": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "removed": 0,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "PRS": {
         "total": 150,
         "sold": 52,
@@ -58613,7 +58667,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 182,
+        "total": 183,
         "sold": 40,
         "rate": 22
       },
@@ -58625,6 +58679,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 126,
+        "sold": 22,
+        "rate": 17
+      },
       "Very Good": {
         "total": 448,
         "sold": 150,
@@ -58634,11 +58693,6 @@
         "total": 570,
         "sold": 201,
         "rate": 35
-      },
-      "Brand New": {
-        "total": 125,
-        "sold": 22,
-        "rate": 18
       },
       "Used": {
         "total": 63,
@@ -58988,7 +59042,7 @@
       "live": 17,
       "removed": 32,
       "sellRate": 34,
-      "totalDays": 2050.5,
+      "totalDays": 2050.7,
       "soldCount": 25,
       "avgDaysToSell": 82
     },
@@ -59083,7 +59137,7 @@
       "live": 7,
       "removed": 22,
       "sellRate": 36,
-      "totalDays": 1208.4999999999998,
+      "totalDays": 1208.6,
       "soldCount": 16,
       "avgDaysToSell": 75.5
     },
@@ -59931,9 +59985,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 246.39999999999998,
+      "totalDays": 246.5,
       "soldCount": 3,
-      "avgDaysToSell": 82.1
+      "avgDaysToSell": 82.2
     },
     "Ibanez|Ibanez GIO": {
       "brand": "Ibanez",
@@ -60961,8 +61015,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 299,
-    "totalOffers": 652,
+    "withOffers": 300,
+    "totalOffers": 653,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 43
   },
@@ -60997,14 +61051,14 @@
     },
     {
       "label": "31+",
-      "total": 354,
+      "total": 355,
       "sold": 103,
       "rate": 29
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 584,
+      "total": 585,
       "sold": 175,
       "rate": 30
     },
@@ -61016,7 +61070,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 434,
+      "total": 435,
       "sold": 101,
       "rate": 23
     },
@@ -61065,9 +61119,9 @@
     },
     {
       "state": "PA",
-      "total": 31,
+      "total": 32,
       "sold": 12,
-      "rate": 39
+      "rate": 38
     },
     {
       "state": "TN",
