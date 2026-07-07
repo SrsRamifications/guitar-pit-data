@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-07T18:54:04.918Z",
-  "totalLinks": 1622,
-  "totalEver": 2011,
-  "totalBeforeFilter": 2011,
+  "generatedAt": "2026-07-07T18:59:41.230Z",
+  "totalLinks": 1623,
+  "totalEver": 2012,
+  "totalBeforeFilter": 2012,
   "fakeCount": 21,
   "removedCount": 614,
-  "totalWithPrice": 1603,
+  "totalWithPrice": 1604,
   "overall": {
-    "count": 1557,
-    "sum": 4447124.27,
+    "count": 1558,
+    "sum": 4449624.27,
     "avg": 2856,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1557,
-    "sum": 4447124.27,
+    "count": 1558,
+    "sum": 4449624.27,
     "avg": 2856,
     "min": 3,
     "max": 11099,
-    "median": 2282
+    "median": 2284
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -390,11 +390,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 70,
-      "sum": 211769.64,
+      "count": 71,
+      "sum": 214269.64,
       "min": 300,
       "max": 11000,
-      "avg": 3025
+      "avg": 3018
     },
     "2026-06": {
       "count": 283,
@@ -427,11 +427,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1341,
-      "sum": 3801159.1,
+      "count": 1342,
+      "sum": 3803659.1,
       "min": 33,
       "max": 10933,
-      "avg": 2835
+      "avg": 2834
     },
     "marketplace": {
       "count": 114,
@@ -450,11 +450,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1341,
-      "sum": 3801159.1,
+      "count": 1342,
+      "sum": 3803659.1,
       "min": 33,
       "max": 10933,
-      "avg": 2835
+      "avg": 2834
     },
     "long-mcquade.com": {
       "count": 3,
@@ -717,6 +717,37 @@
     }
   },
   "byModel": {
+    "first-act-sheena-special-quilt-custom-shop": {
+      "displayName": "2008 First Act Custom Shop Sheena Special Edition Green Quilt Top w/ Case",
+      "brand": "First Act",
+      "model": "Sheena Special Quilt",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 2500,
+      "min": 2500,
+      "max": 2500,
+      "sightings": [
+        {
+          "price": 2500,
+          "date": "2026-07-07T18:59:24.685Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2008 First Act Custom Shop Sheena Special Edition Green Quilt Top w/ Case",
+          "url": "https://reverb.com/item/99167339",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2500,
+          "min": 2500,
+          "max": 2500,
+          "avg": 2500
+        }
+      },
+      "avg": 2500
+    },
     "gibson-melody-maker": {
       "displayName": "Gibson Melody Maker 1964 Cherry",
       "brand": "Gibson",
@@ -7352,7 +7383,7 @@
       "sightings": [
         {
           "price": 4200,
-          "date": "2026-06-22T14:46:39.829Z",
+          "date": "2026-06-22T14:46:39.829+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Greco Gm-cst koa 2 2026 - Flamed koa",
@@ -48534,6 +48565,15 @@
     }
   },
   "byBrandPrice": {
+    "First Act": {
+      "count": 5,
+      "min": 95,
+      "max": 2500,
+      "soldCount": 2,
+      "outliersExcluded": 0,
+      "avg": 1569,
+      "soldAvg": 1047
+    },
     "Gibson": {
       "count": 198,
       "min": 135,
@@ -49550,15 +49590,6 @@
       "outliersExcluded": 0,
       "avg": 865,
       "soldAvg": 2299
-    },
-    "First Act": {
-      "count": 4,
-      "min": 95,
-      "max": 2000,
-      "soldCount": 2,
-      "outliersExcluded": 0,
-      "avg": 1336,
-      "soldAvg": 1047
     },
     "Mighty Mite": {
       "count": 1,
@@ -50588,6 +50619,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 576,
+      "sum": 2500697.8700000015,
+      "sold": {
+        "count": 196,
+        "sum": 558772.2699999999,
+        "avg": 2851,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4341,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 452,
       "sum": 1695971.56,
@@ -50601,20 +50646,6 @@
       "avg": 3752,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 575,
-      "sum": 2498197.8700000015,
-      "sold": {
-        "count": 196,
-        "sum": 558772.2699999999,
-        "avg": 2851,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4345,
-      "min": 269,
-      "max": 190000
     },
     "Brand New": {
       "count": 126,
@@ -50734,9 +50765,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3025,
-      "median": 2275,
-      "count": 70
+      "avg": 3018,
+      "median": 2299,
+      "count": 71
     },
     "06": {
       "name": "Jun",
@@ -50909,7 +50940,7 @@
     "0-500": 59,
     "500-1k": 130,
     "1k-2k": 489,
-    "2k-3k": 329,
+    "2k-3k": 330,
     "3k-5k": 353,
     "5k-10k": 184,
     "10k+": 59
@@ -50918,12 +50949,17 @@
     "0-500": 59,
     "500-1k": 130,
     "1k-2k": 489,
-    "2k-3k": 329,
+    "2k-3k": 330,
     "3k-5k": 353,
     "5k-10k": 184,
     "10k+": 13
   },
   "daysOnMarket": {
+    "First Act": {
+      "sum": 116,
+      "count": 3,
+      "avg": 39
+    },
     "Gibson": {
       "sum": 7190,
       "count": 127,
@@ -51474,11 +51510,6 @@
       "count": 3,
       "avg": 63
     },
-    "First Act": {
-      "sum": 115,
-      "count": 2,
-      "avg": 58
-    },
     "John Page": {
       "sum": 138,
       "count": 2,
@@ -51826,7 +51857,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-07": 4,
+    "2026-07-07": 5,
     "2026-07-06": 8,
     "2026-07-05": 9,
     "2026-07-04": 15,
@@ -51858,11 +51889,11 @@
     "2026-06-07": 2
   },
   "categoryDistribution": {
-    "reverb": 1377,
+    "reverb": 1378,
     "marketplace": 132,
     "other": 113
   },
-  "activeModelsCount": 326,
+  "activeModelsCount": 327,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -51874,7 +51905,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 167
+      "count": 168
     },
     {
       "username": "YellowJack6",
@@ -56610,15 +56641,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1588,
+      "total": 1589,
       "sold": 503,
       "fake": 0,
-      "live": 509,
+      "live": 510,
       "removed": 576,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
+      "First Act": {
+        "total": 5,
+        "sold": 2,
+        "fake": 0,
+        "live": 1,
+        "removed": 2,
+        "soldPct": 40,
+        "livePct": 20
+      },
       "Gibson": {
         "total": 207,
         "sold": 72,
@@ -57671,15 +57711,6 @@
         "removed": 1,
         "soldPct": 25,
         "livePct": 50
-      },
-      "First Act": {
-        "total": 4,
-        "sold": 2,
-        "fake": 0,
-        "live": 0,
-        "removed": 2,
-        "soldPct": 50,
-        "livePct": 0
       },
       "Mighty Mite": {
         "total": 1,
@@ -58927,7 +58958,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 329,
+        "total": 330,
         "sold": 125,
         "rate": 38
       },
@@ -58951,15 +58982,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 576,
+        "sold": 202,
+        "rate": 35
+      },
       "Very Good": {
         "total": 452,
         "sold": 150,
         "rate": 33
-      },
-      "Excellent": {
-        "total": 575,
-        "sold": 202,
-        "rate": 35
       },
       "Brand New": {
         "total": 126,
@@ -59130,18 +59161,18 @@
         "sold": 2
       },
       {
-        "brand": "First Act",
-        "avgPrice": 1336,
-        "sellRate": 50,
-        "count": 4,
-        "sold": 2
-      },
-      {
         "brand": "Tokai",
         "avgPrice": 1008,
         "sellRate": 43,
         "count": 7,
         "sold": 3
+      },
+      {
+        "brand": "First Act",
+        "avgPrice": 1569,
+        "sellRate": 40,
+        "count": 5,
+        "sold": 2
       },
       {
         "brand": "Heritage",
@@ -59210,7 +59241,7 @@
       "live": 41,
       "removed": 61,
       "sellRate": 35,
-      "totalDays": 4316,
+      "totalDays": 4316.099999999999,
       "soldCount": 55,
       "avgDaysToSell": 78.5
     },
@@ -59286,7 +59317,7 @@
       "live": 22,
       "removed": 51,
       "sellRate": 37,
-      "totalDays": 3072.6000000000004,
+      "totalDays": 3072.8,
       "soldCount": 43,
       "avgDaysToSell": 71.5
     },
@@ -59323,7 +59354,7 @@
       "live": 11,
       "removed": 7,
       "sellRate": 33,
-      "totalDays": 607.2,
+      "totalDays": 607.4,
       "soldCount": 9,
       "avgDaysToSell": 67.5
     },
@@ -59437,7 +59468,7 @@
       "live": 12,
       "removed": 10,
       "sellRate": 35,
-      "totalDays": 935.9000000000001,
+      "totalDays": 936.1000000000001,
       "soldCount": 12,
       "avgDaysToSell": 78
     },
@@ -59531,7 +59562,7 @@
       "live": 12,
       "removed": 15,
       "sellRate": 21,
-      "totalDays": 411.09999999999997,
+      "totalDays": 411.2,
       "soldCount": 7,
       "avgDaysToSell": 58.7
     },
@@ -59588,7 +59619,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 42,
-      "totalDays": 433.2,
+      "totalDays": 433.3,
       "soldCount": 8,
       "avgDaysToSell": 54.2
     },
@@ -60041,7 +60072,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 52,
-      "totalDays": 1071.1,
+      "totalDays": 1071.2,
       "soldCount": 11,
       "avgDaysToSell": 97.4
     },
@@ -60060,7 +60091,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 80,
-      "totalDays": 305.8,
+      "totalDays": 305.9,
       "soldCount": 4,
       "avgDaysToSell": 76.5
     },
@@ -60098,7 +60129,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 58,
-      "totalDays": 498.1,
+      "totalDays": 498.20000000000005,
       "soldCount": 7,
       "avgDaysToSell": 71.2
     },
@@ -60135,7 +60166,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 57,
-      "totalDays": 1098.2,
+      "totalDays": 1098.3000000000002,
       "soldCount": 13,
       "avgDaysToSell": 84.5
     },
@@ -60474,7 +60505,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 150.1,
+      "totalDays": 150.2,
       "soldCount": 2,
       "avgDaysToSell": 75.1
     },
@@ -60662,7 +60693,7 @@
       "live": 2,
       "removed": 5,
       "sellRate": 22,
-      "totalDays": 148.9,
+      "totalDays": 149,
       "soldCount": 2,
       "avgDaysToSell": 74.5
     },
@@ -60994,9 +61025,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 158.8,
+      "totalDays": 158.9,
       "soldCount": 1,
-      "avgDaysToSell": 158.8
+      "avgDaysToSell": 158.9
     },
     "Asher|Rickenbacker": {
       "brand": "Asher",
@@ -61086,9 +61117,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 92.8,
+      "totalDays": 92.9,
       "soldCount": 1,
-      "avgDaysToSell": 92.8
+      "avgDaysToSell": 92.9
     },
     "Ibanez|Rickenbacker": {
       "brand": "Ibanez",
@@ -61283,9 +61314,9 @@
     },
     {
       "label": "6–15",
-      "total": 160,
+      "total": 161,
       "sold": 49,
-      "rate": 31
+      "rate": 30
     },
     {
       "label": "16–30",
@@ -61302,7 +61333,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 591,
+      "total": 592,
       "sold": 177,
       "rate": 30
     },
@@ -61319,9 +61350,9 @@
       "rate": 23
     },
     "regular": {
-      "total": 397,
+      "total": 398,
       "sold": 137,
-      "rate": 35
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -61351,9 +61382,9 @@
     },
     {
       "state": "FL",
-      "total": 44,
+      "total": 45,
       "sold": 20,
-      "rate": 45
+      "rate": 44
     },
     {
       "state": "WA",
