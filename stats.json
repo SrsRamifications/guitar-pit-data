@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-09T00:10:57.571Z",
-  "totalLinks": 1634,
-  "totalEver": 2024,
-  "totalBeforeFilter": 2024,
+  "generatedAt": "2026-07-09T00:12:20.318Z",
+  "totalLinks": 1635,
+  "totalEver": 2025,
+  "totalBeforeFilter": 2025,
   "fakeCount": 21,
   "removedCount": 618,
-  "totalWithPrice": 1615,
+  "totalWithPrice": 1616,
   "overall": {
-    "count": 1569,
-    "sum": 4484495.25,
-    "avg": 2858,
+    "count": 1570,
+    "sum": 4485395.25,
+    "avg": 2857,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1569,
-    "sum": 4484495.25,
-    "avg": 2858,
+    "count": 1570,
+    "sum": 4485395.25,
+    "avg": 2857,
     "min": 3,
     "max": 11099,
-    "median": 2285
+    "median": 2284
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -390,11 +390,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 82,
-      "sum": 250596.62,
+      "count": 83,
+      "sum": 251496.62,
       "min": 300,
       "max": 11000,
-      "avg": 3056
+      "avg": 3030
     },
     "2026-06": {
       "count": 283,
@@ -427,11 +427,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1351,
-      "sum": 3833380.1,
+      "count": 1352,
+      "sum": 3834280.1,
       "min": 33,
       "max": 10933,
-      "avg": 2837
+      "avg": 2836
     },
     "marketplace": {
       "count": 116,
@@ -450,11 +450,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1351,
-      "sum": 3833380.1,
+      "count": 1352,
+      "sum": 3834280.1,
       "min": 33,
       "max": 10933,
-      "avg": 2837
+      "avg": 2836
     },
     "guitarcenter.com": {
       "count": 81,
@@ -717,6 +717,37 @@
     }
   },
   "byModel": {
+    "greco-les-paul-special": {
+      "displayName": "Greco Les Paul Special Model LJ-600 DiMarzio and Maxon Made in Japan - 1974-75",
+      "brand": "Greco",
+      "model": "Les Paul Special",
+      "variant": null,
+      "count": 1,
+      "sum": 900,
+      "min": 900,
+      "max": 900,
+      "sightings": [
+        {
+          "price": 900,
+          "date": "2026-07-09T00:12:06.688Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Greco Les Paul Special Model LJ-600 DiMarzio and Maxon Made in Japan - 1974-75",
+          "url": "https://reverb.com/item/99235084",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 900,
+          "min": 900,
+          "max": 900,
+          "avg": 900
+        }
+      },
+      "avg": 900
+    },
     "fender-telecaster": {
       "displayName": "Fender Telecaster Deluxe - 1977",
       "brand": "Fender",
@@ -48877,6 +48908,15 @@
     }
   },
   "byBrandPrice": {
+    "Greco": {
+      "count": 17,
+      "min": 756,
+      "max": 4200,
+      "soldCount": 5,
+      "outliersExcluded": 0,
+      "avg": 1738,
+      "soldAvg": 2147
+    },
     "Fender": {
       "count": 102,
       "min": 599,
@@ -49101,15 +49141,6 @@
       "outliersExcluded": 1,
       "avg": 1868,
       "soldAvg": 1720
-    },
-    "Greco": {
-      "count": 16,
-      "min": 756,
-      "max": 4200,
-      "soldCount": 5,
-      "outliersExcluded": 0,
-      "avg": 1790,
-      "soldAvg": 2147
     },
     "Fanta Studio": {
       "count": 1,
@@ -50940,6 +50971,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 455,
+      "sum": 1706351.5599999998,
+      "sold": {
+        "count": 150,
+        "sum": 340857.17999999993,
+        "avg": 2272,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3750,
+      "min": 33,
+      "max": 437713.69
+    },
     "Good": {
       "count": 167,
       "sum": 477572.2700000001,
@@ -50967,20 +51012,6 @@
       "avg": 4153,
       "min": 135,
       "max": 14670
-    },
-    "Very Good": {
-      "count": 454,
-      "sum": 1705451.5599999998,
-      "sold": {
-        "count": 150,
-        "sum": 340857.17999999993,
-        "avg": 2272,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3757,
-      "min": 33,
-      "max": 437713.69
     },
     "Used": {
       "count": 64,
@@ -51086,9 +51117,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3056,
-      "median": 2350,
-      "count": 82
+      "avg": 3030,
+      "median": 2300,
+      "count": 83
     },
     "06": {
       "name": "Jun",
@@ -51259,7 +51290,7 @@
   ],
   "priceDistribution": {
     "0-500": 59,
-    "500-1k": 130,
+    "500-1k": 131,
     "1k-2k": 492,
     "2k-3k": 331,
     "3k-5k": 358,
@@ -51268,7 +51299,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 59,
-    "500-1k": 130,
+    "500-1k": 131,
     "1k-2k": 492,
     "2k-3k": 331,
     "3k-5k": 358,
@@ -51276,6 +51307,11 @@
     "10k+": 13
   },
   "daysOnMarket": {
+    "Greco": {
+      "sum": 470,
+      "count": 11,
+      "avg": 43
+    },
     "Fender": {
       "sum": 4389,
       "count": 82,
@@ -51375,11 +51411,6 @@
       "sum": 398,
       "count": 9,
       "avg": 44
-    },
-    "Greco": {
-      "sum": 470,
-      "count": 10,
-      "avg": 47
     },
     "Framus": {
       "sum": 155,
@@ -52153,7 +52184,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-09": 1,
+    "2026-07-09": 2,
     "2026-07-08": 6,
     "2026-07-07": 9,
     "2026-07-06": 8,
@@ -52186,11 +52217,11 @@
     "2026-06-09": 13
   },
   "categoryDistribution": {
-    "reverb": 1387,
+    "reverb": 1388,
     "marketplace": 134,
     "other": 113
   },
-  "activeModelsCount": 334,
+  "activeModelsCount": 335,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -52222,7 +52253,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 70
+      "count": 71
     },
     {
       "username": "jazee_",
@@ -56951,15 +56982,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1600,
+      "total": 1601,
       "sold": 505,
       "fake": 0,
-      "live": 515,
+      "live": 516,
       "removed": 580,
       "soldPct": 32,
       "livePct": 32
     },
     "byBrand": {
+      "Greco": {
+        "total": 18,
+        "sold": 5,
+        "fake": 0,
+        "live": 6,
+        "removed": 7,
+        "soldPct": 28,
+        "livePct": 33
+      },
       "Fender": {
         "total": 121,
         "sold": 38,
@@ -57193,15 +57233,6 @@
         "removed": 2,
         "soldPct": 42,
         "livePct": 42
-      },
-      "Greco": {
-        "total": 17,
-        "sold": 5,
-        "fake": 0,
-        "live": 5,
-        "removed": 7,
-        "soldPct": 29,
-        "livePct": 29
       },
       "Fanta Studio": {
         "total": 1,
@@ -59256,7 +59287,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 130,
+        "total": 131,
         "sold": 47,
         "rate": 36
       },
@@ -59292,6 +59323,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 455,
+        "sold": 151,
+        "rate": 33
+      },
       "Good": {
         "total": 167,
         "sold": 60,
@@ -59301,11 +59337,6 @@
         "total": 128,
         "sold": 22,
         "rate": 17
-      },
-      "Very Good": {
-        "total": 454,
-        "sold": 151,
-        "rate": 33
       },
       "Used": {
         "total": 65,
@@ -59551,7 +59582,7 @@
       "live": 18,
       "removed": 32,
       "sellRate": 33,
-      "totalDays": 2111.8,
+      "totalDays": 2111.9,
       "soldCount": 25,
       "avgDaysToSell": 84.5
     },
@@ -59626,7 +59657,7 @@
       "live": 23,
       "removed": 51,
       "sellRate": 37,
-      "totalDays": 3125,
+      "totalDays": 3125.1,
       "soldCount": 43,
       "avgDaysToSell": 72.7
     },
@@ -60004,7 +60035,7 @@
       "live": 23,
       "removed": 17,
       "sellRate": 39,
-      "totalDays": 2032.8000000000002,
+      "totalDays": 2032.9000000000003,
       "soldCount": 26,
       "avgDaysToSell": 78.2
     },
@@ -60458,7 +60489,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 58,
-      "totalDays": 506.70000000000005,
+      "totalDays": 506.80000000000007,
       "soldCount": 7,
       "avgDaysToSell": 72.4
     },
@@ -61624,7 +61655,7 @@
     },
     {
       "label": "6–15",
-      "total": 159,
+      "total": 160,
       "sold": 49,
       "rate": 31
     },
@@ -61648,14 +61679,14 @@
       "rate": 30
     },
     "off": {
-      "total": 261,
+      "total": 262,
       "sold": 73,
       "rate": 28
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 445,
+      "total": 446,
       "sold": 105,
       "rate": 24
     },
@@ -61865,6 +61896,12 @@
       "rate": 33
     },
     {
+      "state": "ID",
+      "total": 5,
+      "sold": 1,
+      "rate": 20
+    },
+    {
       "state": "IA",
       "total": 5,
       "sold": 1,
@@ -61878,12 +61915,6 @@
     },
     {
       "state": "LA",
-      "total": 4,
-      "sold": 1,
-      "rate": 25
-    },
-    {
-      "state": "ID",
       "total": 4,
       "sold": 1,
       "rate": 25
