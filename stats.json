@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-12T21:00:09.275Z",
-  "totalLinks": 1681,
-  "totalEver": 2076,
-  "totalBeforeFilter": 2076,
+  "generatedAt": "2026-07-12T21:05:11.100Z",
+  "totalLinks": 1682,
+  "totalEver": 2077,
+  "totalBeforeFilter": 2077,
   "fakeCount": 21,
   "removedCount": 630,
-  "totalWithPrice": 1657,
+  "totalWithPrice": 1658,
   "overall": {
-    "count": 1608,
-    "sum": 4588716.25,
-    "avg": 2854,
+    "count": 1609,
+    "sum": 4590411.25,
+    "avg": 2853,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1608,
-    "sum": 4588716.25,
-    "avg": 2854,
+    "count": 1609,
+    "sum": 4590411.25,
+    "avg": 2853,
     "min": 3,
     "max": 11099,
-    "median": 2284
+    "median": 2282
   },
   "outliers": {
     "thresholdHigh": 11103,
@@ -414,11 +414,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 121,
-      "sum": 355530.62,
+      "count": 122,
+      "sum": 357225.62,
       "min": 300,
       "max": 11000,
-      "avg": 2938
+      "avg": 2928
     },
     "2026-06": {
       "count": 283,
@@ -451,11 +451,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1388,
-      "sum": 3935207.1,
+      "count": 1389,
+      "sum": 3936902.1,
       "min": 33,
       "max": 10933,
-      "avg": 2835
+      "avg": 2834
     },
     "marketplace": {
       "count": 118,
@@ -474,11 +474,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1388,
-      "sum": 3935207.1,
+      "count": 1389,
+      "sum": 3936902.1,
       "min": 33,
       "max": 10933,
-      "avg": 2835
+      "avg": 2834
     },
     "davesguitar.com": {
       "count": 10,
@@ -748,6 +748,37 @@
     }
   },
   "byModel": {
+    "prs-mira-usa": {
+      "displayName": "PRS 2008 USA CORE Mira, 24 Fret Stoptail, Black!",
+      "brand": "PRS",
+      "model": "Mira",
+      "variant": "Usa",
+      "count": 1,
+      "sum": 1695,
+      "min": 1695,
+      "max": 1695,
+      "sightings": [
+        {
+          "price": 1695,
+          "date": "2026-07-12T21:04:53.860Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS 2008 USA CORE Mira, 24 Fret Stoptail, Black!",
+          "url": "https://reverb.com/item/98521948",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1695,
+          "min": 1695,
+          "max": 1695,
+          "avg": 1695
+        }
+      },
+      "avg": 1695
+    },
     "fender-telecaster-american-elite-closet-classic": {
       "displayName": "2016 Fender American Elite Telecaster - Double Bound Black Sparkle - Mint / Closet Classic",
       "brand": "Fender",
@@ -50149,6 +50180,15 @@
     }
   },
   "byBrandPrice": {
+    "PRS": {
+      "count": 150,
+      "min": 595,
+      "max": 9995,
+      "soldCount": 55,
+      "outliersExcluded": 6,
+      "avg": 3470,
+      "soldAvg": 3215
+    },
     "Fender": {
       "count": 105,
       "min": 599,
@@ -50193,15 +50233,6 @@
       "outliersExcluded": 0,
       "avg": 3156,
       "soldAvg": 3312
-    },
-    "PRS": {
-      "count": 149,
-      "min": 595,
-      "max": 9995,
-      "soldCount": 55,
-      "outliersExcluded": 6,
-      "avg": 3482,
-      "soldAvg": 3215
     },
     "Rickenbacker": {
       "count": 16,
@@ -52239,6 +52270,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 595,
+      "sum": 2572098.870000002,
+      "sold": {
+        "count": 201,
+        "sum": 566872.2699999999,
+        "avg": 2820,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4323,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 469,
       "sum": 1734677.5599999998,
@@ -52252,20 +52297,6 @@
       "avg": 3699,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 594,
-      "sum": 2570403.870000002,
-      "sold": {
-        "count": 201,
-        "sum": 566872.2699999999,
-        "avg": 2820,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4327,
-      "min": 269,
-      "max": 190000
     },
     "Good": {
       "count": 173,
@@ -52385,9 +52416,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 2938,
+      "avg": 2928,
       "median": 2300,
-      "count": 121
+      "count": 122
     },
     "06": {
       "name": "Jun",
@@ -52559,7 +52590,7 @@
   "priceDistribution": {
     "0-500": 58,
     "500-1k": 135,
-    "1k-2k": 503,
+    "1k-2k": 504,
     "2k-3k": 343,
     "3k-5k": 365,
     "5k-10k": 191,
@@ -52568,13 +52599,18 @@
   "priceDistributionFiltered": {
     "0-500": 58,
     "500-1k": 135,
-    "1k-2k": 503,
+    "1k-2k": 504,
     "2k-3k": 343,
     "3k-5k": 365,
     "5k-10k": 191,
     "10k+": 13
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 4261,
+      "count": 93,
+      "avg": 46
+    },
     "Fender": {
       "sum": 4415,
       "count": 82,
@@ -52604,11 +52640,6 @@
       "sum": 581,
       "count": 14,
       "avg": 42
-    },
-    "PRS": {
-      "sum": 4240,
-      "count": 92,
-      "avg": 46
     },
     "Gibson": {
       "sum": 6267,
@@ -53447,7 +53478,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-12": 18,
+    "2026-07-12": 19,
     "2026-07-11": 13,
     "2026-07-10": 10,
     "2026-07-09": 7,
@@ -53480,11 +53511,11 @@
     "2026-06-12": 2
   },
   "categoryDistribution": {
-    "reverb": 1431,
+    "reverb": 1432,
     "marketplace": 137,
     "other": 113
   },
-  "activeModelsCount": 332,
+  "activeModelsCount": 333,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -53596,10 +53627,10 @@
       "count": 39
     },
     "PRS": {
-      "avgPrice": 4077,
+      "avgPrice": 4062,
       "retailEst": 1000,
-      "avgDiscount": -307.7,
-      "count": 155
+      "avgDiscount": -306.2,
+      "count": 156
     },
     "Ibanez": {
       "avgPrice": 3055,
@@ -58290,15 +58321,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1642,
+      "total": 1643,
       "sold": 513,
       "fake": 0,
-      "live": 542,
+      "live": 543,
       "removed": 587,
       "soldPct": 31,
       "livePct": 33
     },
     "byBrand": {
+      "PRS": {
+        "total": 157,
+        "sold": 55,
+        "fake": 0,
+        "live": 38,
+        "removed": 64,
+        "soldPct": 35,
+        "livePct": 24
+      },
       "Fender": {
         "total": 125,
         "sold": 38,
@@ -58352,15 +58392,6 @@
         "removed": 9,
         "soldPct": 38,
         "livePct": 19
-      },
-      "PRS": {
-        "total": 156,
-        "sold": 55,
-        "fake": 0,
-        "live": 37,
-        "removed": 64,
-        "soldPct": 35,
-        "livePct": 24
       },
       "Rickenbacker": {
         "total": 17,
@@ -60646,7 +60677,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 503,
+        "total": 504,
         "sold": 176,
         "rate": 35
       },
@@ -60676,15 +60707,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 595,
+        "sold": 207,
+        "rate": 35
+      },
       "Very Good": {
         "total": 469,
         "sold": 154,
         "rate": 33
-      },
-      "Excellent": {
-        "total": 594,
-        "sold": 207,
-        "rate": 35
       },
       "Good": {
         "total": 173,
@@ -60920,6 +60951,25 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS Core": {
+      "brand": "PRS",
+      "brandLine": "PRS Core",
+      "tier": "premium",
+      "count": 122,
+      "sum": 466109.08999999997,
+      "avg": 3821,
+      "min": 649,
+      "max": 28308,
+      "sold": 46,
+      "soldSum": 142938.15,
+      "soldAvg": 3107,
+      "live": 23,
+      "removed": 53,
+      "sellRate": 38,
+      "totalDays": 3307,
+      "soldCount": 46,
+      "avgDaysToSell": 71.9
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -60935,9 +60985,9 @@
       "live": 19,
       "removed": 32,
       "sellRate": 33,
-      "totalDays": 2208.6,
+      "totalDays": 2208.8999999999996,
       "soldCount": 25,
-      "avgDaysToSell": 88.3
+      "avgDaysToSell": 88.4
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -61029,28 +61079,9 @@
       "live": 4,
       "removed": 8,
       "sellRate": 40,
-      "totalDays": 473.90000000000003,
+      "totalDays": 474,
       "soldCount": 8,
-      "avgDaysToSell": 59.2
-    },
-    "PRS|PRS Core": {
-      "brand": "PRS",
-      "brandLine": "PRS Core",
-      "tier": "premium",
-      "count": 121,
-      "sum": 464414.08999999997,
-      "avg": 3838,
-      "min": 649,
-      "max": 28308,
-      "sold": 46,
-      "soldSum": 142938.15,
-      "soldAvg": 3107,
-      "live": 22,
-      "removed": 53,
-      "sellRate": 38,
-      "totalDays": 3306.6,
-      "soldCount": 46,
-      "avgDaysToSell": 71.9
+      "avgDaysToSell": 59.3
     },
     "Rickenbacker|Rickenbacker": {
       "brand": "Rickenbacker",
@@ -61086,7 +61117,7 @@
       "live": 43,
       "removed": 61,
       "sellRate": 35,
-      "totalDays": 4606.2,
+      "totalDays": 4606.700000000001,
       "soldCount": 57,
       "avgDaysToSell": 80.8
     },
@@ -61311,7 +61342,7 @@
       "live": 13,
       "removed": 10,
       "sellRate": 34,
-      "totalDays": 996.9000000000001,
+      "totalDays": 997.0000000000001,
       "soldCount": 12,
       "avgDaysToSell": 83.1
     },
@@ -63057,14 +63088,14 @@
     },
     {
       "label": "31+",
-      "total": 384,
+      "total": 385,
       "sold": 109,
       "rate": 28
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 625,
+      "total": 626,
       "sold": 183,
       "rate": 29
     },
@@ -63076,7 +63107,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 460,
+      "total": 461,
       "sold": 108,
       "rate": 23
     },
@@ -63244,6 +63275,12 @@
       "rate": 13
     },
     {
+      "state": "AZ",
+      "total": 7,
+      "sold": 1,
+      "rate": 14
+    },
+    {
       "state": "RI",
       "total": 7,
       "sold": 4,
@@ -63260,12 +63297,6 @@
       "total": 7,
       "sold": 2,
       "rate": 29
-    },
-    {
-      "state": "AZ",
-      "total": 6,
-      "sold": 1,
-      "rate": 17
     },
     {
       "state": "OK",
