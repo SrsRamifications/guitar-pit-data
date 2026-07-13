@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-13T01:49:35.459Z",
-  "totalLinks": 1689,
-  "totalEver": 2084,
-  "totalBeforeFilter": 2084,
+  "generatedAt": "2026-07-13T01:50:43.914Z",
+  "totalLinks": 1690,
+  "totalEver": 2085,
+  "totalBeforeFilter": 2085,
   "fakeCount": 21,
   "removedCount": 632,
-  "totalWithPrice": 1665,
+  "totalWithPrice": 1666,
   "overall": {
-    "count": 1616,
-    "sum": 4617072.25,
-    "avg": 2857,
+    "count": 1617,
+    "sum": 4625430.25,
+    "avg": 2861,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1616,
-    "sum": 4617072.25,
-    "avg": 2857,
+    "count": 1617,
+    "sum": 4625430.25,
+    "avg": 2861,
     "min": 3,
     "max": 11099,
-    "median": 2281
+    "median": 2282
   },
   "outliers": {
-    "thresholdHigh": 11103,
+    "thresholdHigh": 11258,
     "thresholdLow": 0,
     "count": 49,
     "items": [
@@ -414,11 +414,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 129,
-      "sum": 383586.62,
+      "count": 130,
+      "sum": 391944.62,
       "min": 300,
       "max": 11000,
-      "avg": 2974
+      "avg": 3015
     },
     "2026-06": {
       "count": 283,
@@ -451,11 +451,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1396,
-      "sum": 3963563.1,
+      "count": 1397,
+      "sum": 3971921.1,
       "min": 33,
       "max": 10933,
-      "avg": 2839
+      "avg": 2843
     },
     "marketplace": {
       "count": 118,
@@ -474,11 +474,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1396,
-      "sum": 3963563.1,
+      "count": 1397,
+      "sum": 3971921.1,
       "min": 33,
       "max": 10933,
-      "avg": 2839
+      "avg": 2843
     },
     "davesguitar.com": {
       "count": 10,
@@ -748,6 +748,37 @@
     }
   },
   "byModel": {
+    "ibanez-jpm100": {
+      "displayName": "Ibanez JPM100-P1 signed by Petrucci and Portnoy",
+      "brand": "Ibanez",
+      "model": "JPM100",
+      "variant": null,
+      "count": 1,
+      "sum": 8358,
+      "min": 8358,
+      "max": 8358,
+      "sightings": [
+        {
+          "price": 8358,
+          "date": "2026-07-13T01:50:29.954Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez JPM100-P1 signed by Petrucci and Portnoy",
+          "url": "https://reverb.com/item/87081694",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 8358,
+          "min": 8358,
+          "max": 8358,
+          "avg": 8358
+        }
+      },
+      "avg": 8358
+    },
     "james-tyler-ultimate-weapon-toxic": {
       "displayName": "James Tyler Ultimate Weapon - Toxic Shmear Top with Toxic Grey Back & Sides #26364",
       "brand": "James Tyler",
@@ -7744,7 +7775,7 @@
         },
         {
           "price": 2749,
-          "date": "2026-06-28T00:19:47.225Z",
+          "date": "2026-06-28T00:19:47.225+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "PRS CE 24 Fire Red Holoflake Sprayer's Choice",
@@ -50419,6 +50450,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 75,
+      "min": 173.3,
+      "max": 8358,
+      "soldCount": 26,
+      "outliersExcluded": 4,
+      "avg": 2341,
+      "soldAvg": 2276
+    },
     "James Tyler": {
       "count": 9,
       "min": 1450,
@@ -50616,15 +50656,6 @@
       "outliersExcluded": 0,
       "avg": 4201,
       "soldAvg": 4523
-    },
-    "Ibanez": {
-      "count": 74,
-      "min": 173.3,
-      "max": 7019,
-      "soldCount": 26,
-      "outliersExcluded": 4,
-      "avg": 2260,
-      "soldAvg": 2276
     },
     "Greco": {
       "count": 17,
@@ -52509,6 +52540,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 175,
+      "sum": 520267.2700000001,
+      "sold": {
+        "count": 55,
+        "sum": 119100.32,
+        "avg": 2165,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 2973,
+      "min": 70,
+      "max": 55000
+    },
     "Brand New": {
       "count": 130,
       "sum": 546417.2299999997,
@@ -52536,20 +52581,6 @@
       "avg": 4316,
       "min": 269,
       "max": 190000
-    },
-    "Good": {
-      "count": 174,
-      "sum": 511909.2700000001,
-      "sold": {
-        "count": 55,
-        "sum": 119100.32,
-        "avg": 2165,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 2942,
-      "min": 70,
-      "max": 55000
     },
     "Very Good": {
       "count": 470,
@@ -52655,9 +52686,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 2974,
-      "median": 2299,
-      "count": 129
+      "avg": 3015,
+      "median": 2300,
+      "count": 130
     },
     "06": {
       "name": "Jun",
@@ -52832,7 +52863,7 @@
     "1k-2k": 505,
     "2k-3k": 346,
     "3k-5k": 366,
-    "5k-10k": 193,
+    "5k-10k": 194,
     "10k+": 62
   },
   "priceDistributionFiltered": {
@@ -52841,10 +52872,15 @@
     "1k-2k": 505,
     "2k-3k": 346,
     "3k-5k": 366,
-    "5k-10k": 193,
+    "5k-10k": 194,
     "10k+": 13
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 2532,
+      "count": 49,
+      "avg": 52
+    },
     "James Tyler": {
       "sum": 406,
       "count": 8,
@@ -52959,11 +52995,6 @@
       "sum": 431,
       "count": 9,
       "avg": 48
-    },
-    "Ibanez": {
-      "sum": 2532,
-      "count": 48,
-      "avg": 53
     },
     "Greco": {
       "sum": 515,
@@ -53702,7 +53733,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-13": 4,
+    "2026-07-13": 5,
     "2026-07-12": 22,
     "2026-07-11": 13,
     "2026-07-10": 10,
@@ -53735,11 +53766,11 @@
     "2026-06-13": 16
   },
   "categoryDistribution": {
-    "reverb": 1439,
+    "reverb": 1440,
     "marketplace": 137,
     "other": 113
   },
-  "activeModelsCount": 335,
+  "activeModelsCount": 336,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -53758,12 +53789,12 @@
       "count": 137
     },
     {
-      "username": "Modean",
+      "username": "WontonGG",
       "count": 116
     },
     {
-      "username": "WontonGG",
-      "count": 115
+      "username": "Modean",
+      "count": 116
     },
     {
       "username": "Madero",
@@ -53857,10 +53888,10 @@
       "count": 158
     },
     "Ibanez": {
-      "avgPrice": 3053,
+      "avgPrice": 3120,
       "retailEst": 1000,
-      "avgDiscount": -205.3,
-      "count": 79
+      "avgDiscount": -212,
+      "count": 80
     },
     "Jackson": {
       "avgPrice": 4421,
@@ -58556,15 +58587,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1650,
+      "total": 1651,
       "sold": 515,
       "fake": 0,
-      "live": 546,
+      "live": 547,
       "removed": 589,
       "soldPct": 31,
       "livePct": 33
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 80,
+        "sold": 26,
+        "fake": 0,
+        "live": 31,
+        "removed": 23,
+        "soldPct": 33,
+        "livePct": 39
+      },
       "James Tyler": {
         "total": 9,
         "sold": 1,
@@ -58780,15 +58820,6 @@
         "removed": 2,
         "soldPct": 42,
         "livePct": 42
-      },
-      "Ibanez": {
-        "total": 79,
-        "sold": 26,
-        "fake": 0,
-        "live": 30,
-        "removed": 23,
-        "soldPct": 33,
-        "livePct": 38
       },
       "Greco": {
         "total": 18,
@@ -60930,7 +60961,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 193,
+        "total": 194,
         "sold": 40,
         "rate": 21
       },
@@ -60942,6 +60973,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 175,
+        "sold": 61,
+        "rate": 35
+      },
       "Brand New": {
         "total": 130,
         "sold": 22,
@@ -60950,11 +60986,6 @@
       "Excellent": {
         "total": 599,
         "sold": 208,
-        "rate": 35
-      },
-      "Good": {
-        "total": 174,
-        "sold": 61,
         "rate": 35
       },
       "Very Good": {
@@ -61186,6 +61217,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez J.Custom": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez J.Custom",
+      "tier": "premium",
+      "count": 28,
+      "sum": 145892.71,
+      "avg": 5210,
+      "min": 1845,
+      "max": 27500,
+      "sold": 10,
+      "soldSum": 29022,
+      "soldAvg": 2902,
+      "live": 11,
+      "removed": 7,
+      "sellRate": 36,
+      "totalDays": 662.2,
+      "soldCount": 10,
+      "avgDaysToSell": 66.2
+    },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
       "brandLine": "James Tyler Custom / Special Edition",
@@ -61256,7 +61306,7 @@
       "live": 25,
       "removed": 53,
       "sellRate": 37,
-      "totalDays": 3316.000000000001,
+      "totalDays": 3316.100000000001,
       "soldCount": 46,
       "avgDaysToSell": 72.1
     },
@@ -61275,7 +61325,7 @@
       "live": 44,
       "removed": 61,
       "sellRate": 35,
-      "totalDays": 4617.699999999999,
+      "totalDays": 4617.899999999999,
       "soldCount": 57,
       "avgDaysToSell": 81
     },
@@ -61632,7 +61682,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 34,
-      "totalDays": 999.3,
+      "totalDays": 999.4,
       "soldCount": 12,
       "avgDaysToSell": 83.3
     },
@@ -61691,25 +61741,6 @@
       "totalDays": 20,
       "soldCount": 1,
       "avgDaysToSell": 20
-    },
-    "Ibanez|Ibanez J.Custom": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez J.Custom",
-      "tier": "premium",
-      "count": 27,
-      "sum": 137534.71000000002,
-      "avg": 5094,
-      "min": 1845,
-      "max": 27500,
-      "sold": 10,
-      "soldSum": 29022,
-      "soldAvg": 2902,
-      "live": 10,
-      "removed": 7,
-      "sellRate": 37,
-      "totalDays": 662.2,
-      "soldCount": 10,
-      "avgDaysToSell": 66.2
     },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
@@ -63287,8 +63318,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 317,
-    "totalOffers": 697,
+    "withOffers": 318,
+    "totalOffers": 709,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 44
   },
@@ -63323,14 +63354,14 @@
     },
     {
       "label": "31+",
-      "total": 389,
+      "total": 390,
       "sold": 110,
       "rate": 28
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 630,
+      "total": 631,
       "sold": 183,
       "rate": 29
     },
@@ -63347,7 +63378,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 429,
+      "total": 430,
       "sold": 143,
       "rate": 33
     }
@@ -63636,6 +63667,12 @@
       "rate": 25
     },
     {
+      "state": "01",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "Bangkok",
       "total": 3,
       "sold": 0,
@@ -63691,12 +63728,6 @@
     },
     {
       "state": "SOM",
-      "total": 2,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "01",
       "total": 2,
       "sold": 0,
       "rate": 0
