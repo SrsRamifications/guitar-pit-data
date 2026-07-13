@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-13T19:57:02.292Z",
-  "totalLinks": 1702,
-  "totalEver": 2104,
-  "totalBeforeFilter": 2104,
+  "generatedAt": "2026-07-13T19:58:01.162Z",
+  "totalLinks": 1703,
+  "totalEver": 2105,
+  "totalBeforeFilter": 2105,
   "fakeCount": 21,
   "removedCount": 630,
-  "totalWithPrice": 1682,
+  "totalWithPrice": 1683,
   "overall": {
-    "count": 1634,
-    "sum": 4677529.25,
+    "count": 1635,
+    "sum": 4681029.25,
     "avg": 2863,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1634,
-    "sum": 4677529.25,
+    "count": 1635,
+    "sum": 4681029.25,
     "avg": 2863,
     "min": 3,
     "max": 11099,
-    "median": 2278
+    "median": 2280
   },
   "outliers": {
     "thresholdHigh": 11258,
@@ -406,11 +406,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 144,
-      "sum": 433631.62,
+      "count": 145,
+      "sum": 437131.62,
       "min": 300,
       "max": 11000,
-      "avg": 3011
+      "avg": 3015
     },
     "2026-06": {
       "count": 283,
@@ -443,8 +443,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1414,
-      "sum": 4024020.1,
+      "count": 1415,
+      "sum": 4027520.1,
       "min": 33,
       "max": 10933,
       "avg": 2846
@@ -466,8 +466,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1414,
-      "sum": 4024020.1,
+      "count": 1415,
+      "sum": 4027520.1,
       "min": 33,
       "max": 10933,
       "avg": 2846
@@ -740,6 +740,37 @@
     }
   },
   "byModel": {
+    "fender-glendale-vib-o-lux-bluered": {
+      "displayName": "Glendale Vib-O-Lux 2023 - Blue/red sparkle",
+      "brand": "Fender",
+      "model": "Glendale Vib-O-Lux Blue/red",
+      "variant": null,
+      "count": 1,
+      "sum": 3500,
+      "min": 3500,
+      "max": 3500,
+      "sightings": [
+        {
+          "price": 3500,
+          "date": "2026-07-13T19:57:45.978Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Glendale Vib-O-Lux 2023 - Blue/red sparkle",
+          "url": "https://reverb.com/item/99377032",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3500,
+          "min": 3500,
+          "max": 3500,
+          "avg": 3500
+        }
+      },
+      "avg": 3500
+    },
     "frank-brothers-arcade": {
       "displayName": "Frank Brothers Arcade 2023 - Aged Pelham Blue",
       "brand": "Frank Brothers",
@@ -50888,6 +50919,15 @@
     }
   },
   "byBrandPrice": {
+    "Fender": {
+      "count": 109,
+      "min": 599,
+      "max": 11000,
+      "soldCount": 38,
+      "outliersExcluded": 15,
+      "avg": 3014,
+      "soldAvg": 3596
+    },
     "Frank Brothers": {
       "count": 5,
       "min": 3200,
@@ -50905,15 +50945,6 @@
       "outliersExcluded": 0,
       "avg": 1673,
       "soldAvg": 1347
-    },
-    "Fender": {
-      "count": 108,
-      "min": 599,
-      "max": 11000,
-      "soldCount": 38,
-      "outliersExcluded": 15,
-      "avg": 3009,
-      "soldAvg": 3596
     },
     "Aristides": {
       "count": 9,
@@ -52987,6 +53018,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 604,
+      "sum": 2603721.870000002,
+      "sold": {
+        "count": 204,
+        "sum": 571746.2699999999,
+        "avg": 2803,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4311,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 479,
       "sum": 1727685.5599999998,
@@ -53028,20 +53073,6 @@
       "avg": 4576,
       "min": 400,
       "max": 46467.6
-    },
-    "Excellent": {
-      "count": 603,
-      "sum": 2600221.870000002,
-      "sold": {
-        "count": 204,
-        "sum": 571746.2699999999,
-        "avg": 2803,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4312,
-      "min": 269,
-      "max": 190000
     },
     "Brand New": {
       "count": 130,
@@ -53133,9 +53164,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3011,
-      "median": 2275,
-      "count": 144
+      "avg": 3015,
+      "median": 2299,
+      "count": 145
     },
     "06": {
       "name": "Jun",
@@ -53309,7 +53340,7 @@
     "500-1k": 136,
     "1k-2k": 513,
     "2k-3k": 348,
-    "3k-5k": 371,
+    "3k-5k": 372,
     "5k-10k": 196,
     "10k+": 61
   },
@@ -53318,11 +53349,16 @@
     "500-1k": 136,
     "1k-2k": 513,
     "2k-3k": 348,
-    "3k-5k": 371,
+    "3k-5k": 372,
     "5k-10k": 196,
     "10k+": 13
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 4409,
+      "count": 85,
+      "avg": 52
+    },
     "Frank Brothers": {
       "sum": 181,
       "count": 4,
@@ -53332,11 +53368,6 @@
       "sum": 2434,
       "count": 53,
       "avg": 46
-    },
-    "Fender": {
-      "sum": 4409,
-      "count": 84,
-      "avg": 52
     },
     "Epiphone": {
       "sum": 310,
@@ -54180,7 +54211,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-13": 19,
+    "2026-07-13": 20,
     "2026-07-12": 22,
     "2026-07-11": 13,
     "2026-07-10": 8,
@@ -54213,15 +54244,15 @@
     "2026-06-13": 8
   },
   "categoryDistribution": {
-    "reverb": 1452,
+    "reverb": 1453,
     "marketplace": 137,
     "other": 113
   },
-  "activeModelsCount": 339,
+  "activeModelsCount": 340,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 445
+      "count": 446
     },
     {
       "username": "greg1213",
@@ -54305,10 +54336,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6510,
+      "avgPrice": 6486,
       "retailEst": 800,
-      "avgDiscount": -713.8,
-      "count": 124
+      "avgDiscount": -710.8,
+      "count": 125
     },
     "Gibson": {
       "avgPrice": 5539,
@@ -59072,15 +59103,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1667,
+      "total": 1668,
       "sold": 522,
       "fake": 0,
-      "live": 556,
+      "live": 557,
       "removed": 589,
       "soldPct": 31,
       "livePct": 33
     },
     "byBrand": {
+      "Fender": {
+        "total": 129,
+        "sold": 41,
+        "fake": 0,
+        "live": 45,
+        "removed": 43,
+        "soldPct": 32,
+        "livePct": 35
+      },
       "Frank Brothers": {
         "total": 5,
         "sold": 1,
@@ -59098,15 +59138,6 @@
         "removed": 19,
         "soldPct": 35,
         "livePct": 42
-      },
-      "Fender": {
-        "total": 128,
-        "sold": 41,
-        "fake": 0,
-        "live": 44,
-        "removed": 43,
-        "soldPct": 32,
-        "livePct": 34
       },
       "Aristides": {
         "total": 9,
@@ -61440,7 +61471,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 371,
+        "total": 372,
         "sold": 107,
         "rate": 29
       },
@@ -61458,6 +61489,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 604,
+        "sold": 210,
+        "rate": 35
+      },
       "Very Good": {
         "total": 479,
         "sold": 160,
@@ -61472,11 +61508,6 @@
         "total": 45,
         "sold": 4,
         "rate": 9
-      },
-      "Excellent": {
-        "total": 603,
-        "sold": 210,
-        "rate": 35
       },
       "Brand New": {
         "total": 130,
@@ -61709,6 +61740,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 77,
+      "sum": 693750.8899999999,
+      "avg": 9010,
+      "min": 735,
+      "max": 72382,
+      "sold": 26,
+      "soldSum": 150634.99,
+      "soldAvg": 5794,
+      "live": 20,
+      "removed": 31,
+      "sellRate": 34,
+      "totalDays": 2484.4,
+      "soldCount": 26,
+      "avgDaysToSell": 95.6
+    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -61896,25 +61946,6 @@
       "totalDays": 3351.8000000000006,
       "soldCount": 47,
       "avgDaysToSell": 71.3
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 76,
-      "sum": 690250.8899999999,
-      "avg": 9082,
-      "min": 735,
-      "max": 72382,
-      "sold": 26,
-      "soldSum": 150634.99,
-      "soldAvg": 5794,
-      "live": 19,
-      "removed": 31,
-      "sellRate": 34,
-      "totalDays": 2484.4,
-      "soldCount": 26,
-      "avgDaysToSell": 95.6
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -62344,7 +62375,7 @@
       "live": 6,
       "removed": 23,
       "sellRate": 36,
-      "totalDays": 1324.6999999999998,
+      "totalDays": 1324.8,
       "soldCount": 16,
       "avgDaysToSell": 82.8
     },
@@ -63564,9 +63595,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 90.8,
+      "totalDays": 90.9,
       "soldCount": 1,
-      "avgDaysToSell": 90.8
+      "avgDaysToSell": 90.9
     },
     "Powers Electric|Rickenbacker": {
       "brand": "Powers Electric",
@@ -63828,7 +63859,7 @@
     },
     {
       "label": "1–5",
-      "total": 53,
+      "total": 54,
       "sold": 14,
       "rate": 26
     },
@@ -63853,7 +63884,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 641,
+      "total": 642,
       "sold": 186,
       "rate": 29
     },
@@ -63865,7 +63896,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 470,
+      "total": 471,
       "sold": 109,
       "rate": 23
     },
@@ -63890,9 +63921,9 @@
     },
     {
       "state": "TX",
-      "total": 54,
+      "total": 55,
       "sold": 20,
-      "rate": 37
+      "rate": 36
     },
     {
       "state": "IL",
