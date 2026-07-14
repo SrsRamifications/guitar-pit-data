@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-14T16:31:37.125Z",
-  "totalLinks": 1710,
-  "totalEver": 2113,
-  "totalBeforeFilter": 2113,
+  "generatedAt": "2026-07-14T16:33:05.857Z",
+  "totalLinks": 1711,
+  "totalEver": 2114,
+  "totalBeforeFilter": 2114,
   "fakeCount": 21,
   "removedCount": 631,
-  "totalWithPrice": 1690,
+  "totalWithPrice": 1691,
   "overall": {
-    "count": 1641,
-    "sum": 4705631.25,
-    "avg": 2868,
+    "count": 1642,
+    "sum": 4710631.25,
+    "avg": 2869,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1641,
-    "sum": 4705631.25,
-    "avg": 2868,
+    "count": 1642,
+    "sum": 4710631.25,
+    "avg": 2869,
     "min": 3,
     "max": 11099,
-    "median": 2285
+    "median": 2290
   },
   "outliers": {
     "thresholdHigh": 11303,
@@ -414,11 +414,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 151,
-      "sum": 460561.62,
+      "count": 152,
+      "sum": 465561.62,
       "min": 300,
       "max": 11000,
-      "avg": 3050
+      "avg": 3063
     },
     "2026-06": {
       "count": 283,
@@ -451,11 +451,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1421,
-      "sum": 4052122.1,
+      "count": 1422,
+      "sum": 4057122.1,
       "min": 33,
       "max": 10933,
-      "avg": 2852
+      "avg": 2853
     },
     "marketplace": {
       "count": 118,
@@ -474,11 +474,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1421,
-      "sum": 4052122.1,
+      "count": 1422,
+      "sum": 4057122.1,
       "min": 33,
       "max": 10933,
-      "avg": 2852
+      "avg": 2853
     },
     "davesguitar.com": {
       "count": 10,
@@ -748,6 +748,37 @@
     }
   },
   "byModel": {
+    "gibson-es-330-player": {
+      "displayName": "1967 Gibson ES-330 Very Good Condition Great Player! (131)",
+      "brand": "Gibson",
+      "model": "ES-330",
+      "variant": "Player",
+      "count": 1,
+      "sum": 5000,
+      "min": 5000,
+      "max": 5000,
+      "sightings": [
+        {
+          "price": 5000,
+          "date": "2026-07-14T16:32:50.695Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1967 Gibson ES-330 Very Good Condition Great Player! (131)",
+          "url": "https://reverb.com/item/92839450",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 5000,
+          "min": 5000,
+          "max": 5000,
+          "avg": 5000
+        }
+      },
+      "avg": 5000
+    },
     "gibson-es-330": {
       "displayName": "Gibson ES-330 TD 1966 - Sunburst",
       "brand": "Gibson",
@@ -7766,7 +7797,7 @@
       "sightings": [
         {
           "price": 3350,
-          "date": "2026-06-29T20:12:57.015Z",
+          "date": "2026-06-29T20:12:57.015+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Ibanez JEM77-FP Steve Vai Signature 1991 - Black Floral Pattern",
@@ -7792,7 +7823,7 @@
           {
             "price": 3350,
             "askingPrice": 3350,
-            "date": "2026-06-30T17:30:25.193Z",
+            "date": "2026-06-30T17:30:25.193+00:00",
             "title": "Ibanez JEM77-FP Steve Vai Signature 1991 - Black Floral Pattern",
             "url": "https://reverb.com/item/98941784"
           }
@@ -51168,12 +51199,12 @@
   },
   "byBrandPrice": {
     "Gibson": {
-      "count": 205,
+      "count": 206,
       "min": 135,
       "max": 11099,
       "soldCount": 75,
       "outliersExcluded": 1,
-      "avg": 3502,
+      "avg": 3509,
       "soldAvg": 3243
     },
     "Island": {
@@ -53275,6 +53306,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 480,
+      "sum": 1732308.5599999998,
+      "sold": {
+        "count": 160,
+        "sum": 361173.17999999993,
+        "avg": 2257,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3609,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 610,
       "sum": 2637512.870000002,
@@ -53302,20 +53347,6 @@
       "avg": 4585,
       "min": 400,
       "max": 46467.6
-    },
-    "Very Good": {
-      "count": 479,
-      "sum": 1727308.5599999998,
-      "sold": {
-        "count": 160,
-        "sum": 361173.17999999993,
-        "avg": 2257,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3606,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 179,
@@ -53421,9 +53452,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3050,
-      "median": 2350,
-      "count": 151
+      "avg": 3063,
+      "median": 2375,
+      "count": 152
     },
     "06": {
       "name": "Jun",
@@ -53598,7 +53629,7 @@
     "1k-2k": 514,
     "2k-3k": 349,
     "3k-5k": 373,
-    "5k-10k": 199,
+    "5k-10k": 200,
     "10k+": 62
   },
   "priceDistributionFiltered": {
@@ -53607,7 +53638,7 @@
     "1k-2k": 514,
     "2k-3k": 349,
     "3k-5k": 373,
-    "5k-10k": 199,
+    "5k-10k": 200,
     "10k+": 13
   },
   "daysOnMarket": {
@@ -54468,7 +54499,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-14": 5,
+    "2026-07-14": 6,
     "2026-07-13": 22,
     "2026-07-12": 22,
     "2026-07-11": 13,
@@ -54501,11 +54532,11 @@
     "2026-06-14": 9
   },
   "categoryDistribution": {
-    "reverb": 1460,
+    "reverb": 1461,
     "marketplace": 137,
     "other": 113
   },
-  "activeModelsCount": 325,
+  "activeModelsCount": 326,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -54513,7 +54544,7 @@
     },
     {
       "username": "greg1213",
-      "count": 287
+      "count": 288
     },
     {
       "username": "Shteefe",
@@ -54599,10 +54630,10 @@
       "count": 125
     },
     "Gibson": {
-      "avgPrice": 5541,
+      "avgPrice": 5538,
       "retailEst": 800,
-      "avgDiscount": -592.6,
-      "count": 210
+      "avgDiscount": -592.3,
+      "count": 211
     },
     "Epiphone": {
       "avgPrice": 2100,
@@ -59417,20 +59448,20 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1675,
+      "total": 1676,
       "sold": 527,
       "fake": 0,
-      "live": 558,
+      "live": 559,
       "removed": 590,
       "soldPct": 31,
       "livePct": 33
     },
     "byBrand": {
       "Gibson": {
-        "total": 215,
+        "total": 216,
         "sold": 75,
         "fake": 0,
-        "live": 56,
+        "live": 57,
         "removed": 84,
         "soldPct": 35,
         "livePct": 26
@@ -61809,7 +61840,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 199,
+        "total": 200,
         "sold": 41,
         "rate": 21
       },
@@ -61821,6 +61852,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 480,
+        "sold": 161,
+        "rate": 34
+      },
       "Excellent": {
         "total": 610,
         "sold": 214,
@@ -61830,11 +61866,6 @@
         "total": 46,
         "sold": 4,
         "rate": 9
-      },
-      "Very Good": {
-        "total": 479,
-        "sold": 161,
-        "rate": 34
       },
       "Good": {
         "total": 179,
@@ -62076,15 +62107,15 @@
       "brand": "Gibson",
       "brandLine": "Gibson USA",
       "tier": "high",
-      "count": 165,
-      "sum": 925163.0499999998,
-      "avg": 5607,
+      "count": 166,
+      "sum": 930163.0499999998,
+      "avg": 5603,
       "min": 135,
       "max": 437713.69,
       "sold": 58,
       "soldSum": 156018.96,
       "soldAvg": 2690,
-      "live": 46,
+      "live": 47,
       "removed": 61,
       "sellRate": 35,
       "totalDays": 4820.9,
@@ -62144,7 +62175,7 @@
       "live": 25,
       "removed": 54,
       "sellRate": 37,
-      "totalDays": 3391.7999999999997,
+      "totalDays": 3391.8999999999996,
       "soldCount": 47,
       "avgDaysToSell": 72.2
     },
@@ -62276,7 +62307,7 @@
       "live": 11,
       "removed": 8,
       "sellRate": 34,
-      "totalDays": 678.2,
+      "totalDays": 678.3,
       "soldCount": 10,
       "avgDaysToSell": 67.8
     },
@@ -62594,7 +62625,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 34,
-      "totalDays": 1018.7,
+      "totalDays": 1018.8,
       "soldCount": 12,
       "avgDaysToSell": 84.9
     },
@@ -63613,7 +63644,7 @@
       "live": 2,
       "removed": 5,
       "sellRate": 22,
-      "totalDays": 162.7,
+      "totalDays": 162.8,
       "soldCount": 2,
       "avgDaysToSell": 81.4
     },
@@ -64209,7 +64240,7 @@
     },
     {
       "label": "31+",
-      "total": 396,
+      "total": 397,
       "sold": 111,
       "rate": 28
     }
@@ -64221,7 +64252,7 @@
       "rate": 29
     },
     "off": {
-      "total": 282,
+      "total": 283,
       "sold": 80,
       "rate": 28
     }
@@ -64233,7 +64264,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 443,
+      "total": 444,
       "sold": 151,
       "rate": 34
     }
@@ -64312,16 +64343,16 @@
       "rate": 40
     },
     {
+      "state": "OH",
+      "total": 19,
+      "sold": 5,
+      "rate": 26
+    },
+    {
       "state": "MA",
       "total": 19,
       "sold": 7,
       "rate": 37
-    },
-    {
-      "state": "OH",
-      "total": 18,
-      "sold": 5,
-      "rate": 28
     },
     {
       "state": "OR",
