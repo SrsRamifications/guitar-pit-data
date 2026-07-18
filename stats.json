@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-18T14:52:53.757Z",
-  "totalLinks": 1762,
-  "totalEver": 2180,
-  "totalBeforeFilter": 2180,
+  "generatedAt": "2026-07-18T14:53:29.859Z",
+  "totalLinks": 1763,
+  "totalEver": 2181,
+  "totalBeforeFilter": 2181,
   "fakeCount": 21,
   "removedCount": 644,
-  "totalWithPrice": 1740,
+  "totalWithPrice": 1741,
   "overall": {
-    "count": 1688,
-    "sum": 4848525.24,
-    "avg": 2872,
+    "count": 1689,
+    "sum": 4849575.24,
+    "avg": 2871,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1688,
-    "sum": 4848525.24,
-    "avg": 2872,
+    "count": 1689,
+    "sum": 4849575.24,
+    "avg": 2871,
     "min": 3,
     "max": 11099,
-    "median": 2290
+    "median": 2285
   },
   "outliers": {
-    "thresholdHigh": 11335,
+    "thresholdHigh": 11303,
     "thresholdLow": 0,
     "count": 52,
     "items": [
@@ -438,11 +438,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 198,
-      "sum": 604469.61,
+      "count": 199,
+      "sum": 605519.61,
       "min": 300,
       "max": 11000,
-      "avg": 3053
+      "avg": 3043
     },
     "2026-06": {
       "count": 283,
@@ -474,19 +474,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 1458,
+      "sum": 4151956.1,
+      "min": 33,
+      "max": 10933,
+      "avg": 2848
+    },
     "marketplace": {
       "count": 129,
       "sum": 404542,
       "min": 39.81,
       "max": 11000,
       "avg": 3136
-    },
-    "reverb": {
-      "count": 1457,
-      "sum": 4150906.1,
-      "min": 33,
-      "max": 10933,
-      "avg": 2849
     },
     "other": {
       "count": 102,
@@ -497,19 +497,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 1458,
+      "sum": 4151956.1,
+      "min": 33,
+      "max": 10933,
+      "avg": 2848
+    },
     "chicagomusicexchange.com": {
       "count": 76,
       "sum": 299174.98,
       "min": 350,
       "max": 11099,
       "avg": 3937
-    },
-    "reverb.com": {
-      "count": 1457,
-      "sum": 4150906.1,
-      "min": 33,
-      "max": 10933,
-      "avg": 2849
     },
     "davesguitar.com": {
       "count": 11,
@@ -772,6 +772,68 @@
     }
   },
   "byModel": {
+    "eastman-single-cut": {
+      "displayName": "Eastman SB59-SB Solid Body Single Cutaway 2024 - Sunburst",
+      "brand": "Eastman",
+      "model": "Single Cut",
+      "variant": null,
+      "count": 2,
+      "sum": 1899,
+      "min": 849,
+      "max": 1050,
+      "sightings": [
+        {
+          "price": 849,
+          "date": "2026-04-08T04:28:43.755+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
+          "url": "https://reverb.com/item/95748362-eastman-sb59-sb-solid-body-single-cutaway-2010-present-sunburst",
+          "condition": "Very Good"
+        },
+        {
+          "price": 1050,
+          "date": "2026-07-18T14:53:15.898Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman SB59-SB Solid Body Single Cutaway 2024 - Sunburst",
+          "url": "https://reverb.com/item/94604049",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1050,
+          "min": 1050,
+          "max": 1050,
+          "avg": 1050
+        },
+        "Very Good": {
+          "count": 1,
+          "sum": 849,
+          "min": 849,
+          "max": 849,
+          "avg": 849
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 849,
+        "min": 849,
+        "max": 849,
+        "prices": [
+          {
+            "price": 849,
+            "askingPrice": 849,
+            "date": "2026-04-08T04:28:43.755+00:00",
+            "title": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
+            "url": "https://reverb.com/item/95748362-eastman-sb59-sb-solid-body-single-cutaway-2010-present-sunburst"
+          }
+        ]
+      },
+      "avg": 950
+    },
     "collings-eastside-cl": {
       "displayName": "Collings Eastside CL Black 2024",
       "brand": "Collings",
@@ -45350,52 +45412,6 @@
       },
       "avg": 5350
     },
-    "eastman-single-cut": {
-      "displayName": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
-      "brand": "Eastman",
-      "model": "Single Cut",
-      "variant": null,
-      "count": 1,
-      "sum": 849,
-      "min": 849,
-      "max": 849,
-      "sightings": [
-        {
-          "price": 849,
-          "date": "2026-04-08T04:28:43.755+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
-          "url": "https://reverb.com/item/95748362-eastman-sb59-sb-solid-body-single-cutaway-2010-present-sunburst",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 849,
-          "min": 849,
-          "max": 849,
-          "avg": 849
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 849,
-        "min": 849,
-        "max": 849,
-        "prices": [
-          {
-            "price": 849,
-            "askingPrice": 849,
-            "date": "2026-04-08T04:28:43.755+00:00",
-            "title": "Eastman SB59-SB Solid Body Single Cutaway 2010 - Present - Sunburst",
-            "url": "https://reverb.com/item/95748362-eastman-sb59-sb-solid-body-single-cutaway-2010-present-sunburst"
-          }
-        ]
-      },
-      "avg": 849
-    },
     "prs-custom-24-limited-edition": {
       "displayName": "PRS Custom 24 Mango Top Limited Edition Sprayer's Choice - Cobalt Smokeburst (1 of 1)",
       "brand": "PRS",
@@ -52780,6 +52796,15 @@
     }
   },
   "byBrandPrice": {
+    "Eastman": {
+      "count": 22,
+      "min": 849,
+      "max": 2413.97,
+      "soldCount": 11,
+      "outliersExcluded": 0,
+      "avg": 1339,
+      "soldAvg": 1262
+    },
     "Collings": {
       "count": 8,
       "min": 2850,
@@ -53589,15 +53614,6 @@
       "outliersExcluded": 0,
       "avg": 2260,
       "soldAvg": 2748
-    },
-    "Eastman": {
-      "count": 21,
-      "min": 849,
-      "max": 2413.97,
-      "soldCount": 11,
-      "outliersExcluded": 0,
-      "avg": 1353,
-      "soldAvg": 1262
     },
     "PJD": {
       "count": 1,
@@ -54942,6 +54958,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 629,
+      "sum": 2727243.870000002,
+      "sold": {
+        "count": 215,
+        "sum": 599847.2699999999,
+        "avg": 2790,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4336,
+      "min": 269,
+      "max": 190000
+    },
     "Used": {
       "count": 73,
       "sum": 303425.6299999999,
@@ -54980,20 +55010,6 @@
       "avg": 5328,
       "min": 400,
       "max": 46467.6
-    },
-    "Excellent": {
-      "count": 628,
-      "sum": 2726193.870000002,
-      "sold": {
-        "count": 215,
-        "sum": 599847.2699999999,
-        "avg": 2790,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4341,
-      "min": 269,
-      "max": 190000
     },
     "Very Good": {
       "count": 494,
@@ -55088,9 +55104,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3053,
-      "median": 2449,
-      "count": 198
+      "avg": 3043,
+      "median": 2399,
+      "count": 199
     },
     "06": {
       "name": "Jun",
@@ -55262,7 +55278,7 @@
   "priceDistribution": {
     "0-500": 58,
     "500-1k": 139,
-    "1k-2k": 528,
+    "1k-2k": 529,
     "2k-3k": 357,
     "3k-5k": 388,
     "5k-10k": 205,
@@ -55271,7 +55287,7 @@
   "priceDistributionFiltered": {
     "0-500": 58,
     "500-1k": 139,
-    "1k-2k": 528,
+    "1k-2k": 529,
     "2k-3k": 357,
     "3k-5k": 388,
     "5k-10k": 205,
@@ -56115,7 +56131,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-18": 12,
+    "2026-07-18": 13,
     "2026-07-17": 12,
     "2026-07-16": 6,
     "2026-07-15": 12,
@@ -56148,11 +56164,11 @@
     "2026-06-18": 3
   },
   "categoryDistribution": {
+    "reverb": 1500,
     "marketplace": 150,
-    "reverb": 1499,
     "other": 113
   },
-  "activeModelsCount": 335,
+  "activeModelsCount": 336,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -56176,7 +56192,7 @@
     },
     {
       "username": "Modean",
-      "count": 122
+      "count": 123
     },
     {
       "username": "Madero",
@@ -56378,10 +56394,10 @@
       "count": 10
     },
     "Eastman": {
-      "avgPrice": 1353,
+      "avgPrice": 1339,
       "retailEst": 500,
-      "avgDiscount": -170.6,
-      "count": 21
+      "avgDiscount": -167.8,
+      "count": 22
     },
     "Hamer": {
       "avgPrice": 5034,
@@ -60661,11 +60677,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 4774.554596061873,
-      "count": 301,
+      "totalPctDrop": 4796.719162407313,
+      "count": 302,
       "avgPctDrop": 15.9
     },
     "byBrand": {
+      "Eastman": {
+        "totalPctDrop": 81.15335599181365,
+        "count": 4,
+        "avgPctDrop": 20.3
+      },
       "Gibson": {
         "totalPctDrop": 432.0210747217328,
         "count": 32,
@@ -60900,11 +60921,6 @@
         "totalPctDrop": 35.747730530339226,
         "count": 2,
         "avgPctDrop": 17.9
-      },
-      "Eastman": {
-        "totalPctDrop": 58.988789646372595,
-        "count": 3,
-        "avgPctDrop": 19.7
       },
       "Dunable": {
         "totalPctDrop": 25.769230769230766,
@@ -61165,15 +61181,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1726,
+      "total": 1727,
       "sold": 538,
       "fake": 0,
-      "live": 586,
+      "live": 587,
       "removed": 602,
       "soldPct": 31,
       "livePct": 34
     },
     "byBrand": {
+      "Eastman": {
+        "total": 22,
+        "sold": 11,
+        "fake": 0,
+        "live": 5,
+        "removed": 6,
+        "soldPct": 50,
+        "livePct": 23
+      },
       "Collings": {
         "total": 8,
         "sold": 4,
@@ -62037,15 +62062,6 @@
         "removed": 1,
         "soldPct": 30,
         "livePct": 60
-      },
-      "Eastman": {
-        "total": 21,
-        "sold": 11,
-        "fake": 0,
-        "live": 4,
-        "removed": 6,
-        "soldPct": 52,
-        "livePct": 19
       },
       "PJD": {
         "total": 1,
@@ -63504,10 +63520,10 @@
       },
       {
         "brand": "Eastman",
-        "total": 21,
+        "total": 22,
         "sold": 11,
-        "live": 4,
-        "soldPct": 52
+        "live": 5,
+        "soldPct": 50
       },
       {
         "brand": "Parker",
@@ -63611,7 +63627,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 528,
+        "total": 529,
         "sold": 190,
         "rate": 36
       },
@@ -63641,6 +63657,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 629,
+        "sold": 221,
+        "rate": 35
+      },
       "Used": {
         "total": 74,
         "sold": 18,
@@ -63655,11 +63676,6 @@
         "total": 48,
         "sold": 4,
         "rate": 8
-      },
-      "Excellent": {
-        "total": 628,
-        "sold": 221,
-        "rate": 35
       },
       "Very Good": {
         "total": 494,
@@ -63814,9 +63830,9 @@
       },
       {
         "brand": "Eastman",
-        "avgPrice": 1353,
-        "sellRate": 52,
-        "count": 21,
+        "avgPrice": 1339,
+        "sellRate": 50,
+        "count": 22,
         "sold": 11
       },
       {
@@ -63899,6 +63915,25 @@
     ]
   },
   "byBrandLine": {
+    "Eastman|Eastman": {
+      "brand": "Eastman",
+      "brandLine": "Eastman",
+      "tier": "mid",
+      "count": 22,
+      "sum": 29459.140000000003,
+      "avg": 1339,
+      "min": 849,
+      "max": 2413.97,
+      "sold": 11,
+      "soldSum": 13882.96,
+      "soldAvg": 1262,
+      "live": 5,
+      "removed": 6,
+      "sellRate": 50,
+      "totalDays": 1190.2,
+      "soldCount": 11,
+      "avgDaysToSell": 108.2
+    },
     "Collings|Collings": {
       "brand": "Collings",
       "brandLine": "Collings",
@@ -65083,25 +65118,6 @@
       "soldCount": 1,
       "avgDaysToSell": 86.7
     },
-    "Eastman|Eastman": {
-      "brand": "Eastman",
-      "brandLine": "Eastman",
-      "tier": "mid",
-      "count": 21,
-      "sum": 28409.140000000003,
-      "avg": 1353,
-      "min": 849,
-      "max": 2413.97,
-      "sold": 11,
-      "soldSum": 13882.96,
-      "soldAvg": 1262,
-      "live": 4,
-      "removed": 6,
-      "sellRate": 52,
-      "totalDays": 1190.1000000000001,
-      "soldCount": 11,
-      "avgDaysToSell": 108.2
-    },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
       "brandLine": "Kramer Import",
@@ -66073,8 +66089,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 343,
-    "totalOffers": 771,
+    "withOffers": 344,
+    "totalOffers": 772,
     "avgOffersPerListing": 2.2,
     "offersEnabledPct": 45
   },
@@ -66109,7 +66125,7 @@
     },
     {
       "label": "31+",
-      "total": 413,
+      "total": 414,
       "sold": 116,
       "rate": 28
     }
@@ -66121,7 +66137,7 @@
       "rate": 29
     },
     "off": {
-      "total": 292,
+      "total": 293,
       "sold": 83,
       "rate": 28
     }
@@ -66133,7 +66149,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 462,
+      "total": 463,
       "sold": 157,
       "rate": 34
     }
@@ -66248,6 +66264,12 @@
       "rate": 46
     },
     {
+      "state": "VA",
+      "total": 12,
+      "sold": 2,
+      "rate": 17
+    },
+    {
       "state": "MI",
       "total": 12,
       "sold": 4,
@@ -66264,12 +66286,6 @@
       "total": 12,
       "sold": 5,
       "rate": 42
-    },
-    {
-      "state": "VA",
-      "total": 11,
-      "sold": 2,
-      "rate": 18
     },
     {
       "state": "KY",
