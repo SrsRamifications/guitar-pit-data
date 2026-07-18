@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-18T15:34:18.839Z",
-  "totalLinks": 1764,
-  "totalEver": 2182,
-  "totalBeforeFilter": 2182,
+  "generatedAt": "2026-07-18T15:42:29.940Z",
+  "totalLinks": 1765,
+  "totalEver": 2183,
+  "totalBeforeFilter": 2183,
   "fakeCount": 21,
   "removedCount": 644,
-  "totalWithPrice": 1742,
+  "totalWithPrice": 1743,
   "overall": {
-    "count": 1690,
-    "sum": 4850710.24,
-    "avg": 2870,
+    "count": 1691,
+    "sum": 4854510.24,
+    "avg": 2871,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1690,
-    "sum": 4850710.24,
-    "avg": 2870,
+    "count": 1691,
+    "sum": 4854510.24,
+    "avg": 2871,
     "min": 3,
     "max": 11099,
-    "median": 2284
+    "median": 2285
   },
   "outliers": {
     "thresholdHigh": 11303,
@@ -438,11 +438,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 200,
-      "sum": 606654.61,
+      "count": 201,
+      "sum": 610454.61,
       "min": 300,
       "max": 11000,
-      "avg": 3033
+      "avg": 3037
     },
     "2026-06": {
       "count": 283,
@@ -474,19 +474,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 1459,
+      "sum": 4155756.1,
+      "min": 33,
+      "max": 10933,
+      "avg": 2848
+    },
     "marketplace": {
       "count": 130,
       "sum": 405677,
       "min": 39.81,
       "max": 11000,
       "avg": 3121
-    },
-    "reverb": {
-      "count": 1458,
-      "sum": 4151956.1,
-      "min": 33,
-      "max": 10933,
-      "avg": 2848
     },
     "other": {
       "count": 102,
@@ -497,19 +497,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 1459,
+      "sum": 4155756.1,
+      "min": 33,
+      "max": 10933,
+      "avg": 2848
+    },
     "chicagomusicexchange.com": {
       "count": 77,
       "sum": 300309.98,
       "min": 350,
       "max": 11099,
       "avg": 3900
-    },
-    "reverb.com": {
-      "count": 1458,
-      "sum": 4151956.1,
-      "min": 33,
-      "max": 10933,
-      "avg": 2848
     },
     "davesguitar.com": {
       "count": 11,
@@ -772,6 +772,37 @@
     }
   },
   "byModel": {
+    "aristides-060": {
+      "displayName": "Aristides 060 custom 2024 - Purple chameleon marble sparkle",
+      "brand": "Aristides",
+      "model": "060",
+      "variant": null,
+      "count": 1,
+      "sum": 3800,
+      "min": 3800,
+      "max": 3800,
+      "sightings": [
+        {
+          "price": 3800,
+          "date": "2026-07-18T15:42:14.063+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Aristides 060 custom 2024 - Purple chameleon marble sparkle",
+          "url": "https://reverb.com/item/94769775",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 3800,
+          "min": 3800,
+          "max": 3800,
+          "avg": 3800
+        }
+      },
+      "avg": 3800
+    },
     "ibanez-flatv1-josh-smith-signature": {
       "displayName": "Ibanez FLATV1 Josh Smith Signature Black",
       "brand": "Ibanez",
@@ -52820,6 +52851,15 @@
     }
   },
   "byBrandPrice": {
+    "Aristides": {
+      "count": 11,
+      "min": 2285,
+      "max": 4050,
+      "soldCount": 5,
+      "outliersExcluded": 0,
+      "avg": 3294,
+      "soldAvg": 2867
+    },
     "Ibanez": {
       "count": 81,
       "min": 173.3,
@@ -52936,15 +52976,6 @@
       "outliersExcluded": 0,
       "avg": 2348,
       "soldAvg": 2238
-    },
-    "Aristides": {
-      "count": 10,
-      "min": 2285,
-      "max": 4050,
-      "soldCount": 5,
-      "outliersExcluded": 0,
-      "avg": 3243,
-      "soldAvg": 2867
     },
     "EKO": {
       "count": 3,
@@ -54982,6 +55013,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 630,
+      "sum": 2731043.870000002,
+      "sold": {
+        "count": 215,
+        "sum": 599847.2699999999,
+        "avg": 2790,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4335,
+      "min": 269,
+      "max": 190000
+    },
     "Used": {
       "count": 74,
       "sum": 304560.6299999999,
@@ -54992,20 +55037,6 @@
       "avg": 4116,
       "min": 475.99,
       "max": 99000
-    },
-    "Excellent": {
-      "count": 629,
-      "sum": 2727243.870000002,
-      "sold": {
-        "count": 215,
-        "sum": 599847.2699999999,
-        "avg": 2790,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4336,
-      "min": 269,
-      "max": 190000
     },
     "Good": {
       "count": 184,
@@ -55128,9 +55159,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3033,
-      "median": 2375,
-      "count": 200
+      "avg": 3037,
+      "median": 2399,
+      "count": 201
     },
     "06": {
       "name": "Jun",
@@ -55304,7 +55335,7 @@
     "500-1k": 139,
     "1k-2k": 530,
     "2k-3k": 357,
-    "3k-5k": 388,
+    "3k-5k": 389,
     "5k-10k": 205,
     "10k+": 65
   },
@@ -55313,11 +55344,16 @@
     "500-1k": 139,
     "1k-2k": 530,
     "2k-3k": 357,
-    "3k-5k": 388,
+    "3k-5k": 389,
     "5k-10k": 205,
     "10k+": 13
   },
   "daysOnMarket": {
+    "Aristides": {
+      "sum": 274,
+      "count": 6,
+      "avg": 46
+    },
     "Ibanez": {
       "sum": 2543,
       "count": 50,
@@ -55368,11 +55404,6 @@
       "count": 14,
       "avg": 55
     },
-    "Aristides": {
-      "sum": 274,
-      "count": 5,
-      "avg": 55
-    },
     "EKO": {
       "sum": 38,
       "count": 2,
@@ -55399,7 +55430,7 @@
       "avg": 43
     },
     "BC Rich": {
-      "sum": 3846,
+      "sum": 3847,
       "count": 69,
       "avg": 56
     },
@@ -55829,7 +55860,7 @@
       "avg": 33
     },
     "Luxxtone": {
-      "sum": 119,
+      "sum": 120,
       "count": 2,
       "avg": 60
     },
@@ -56155,7 +56186,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-18": 14,
+    "2026-07-18": 15,
     "2026-07-17": 12,
     "2026-07-16": 6,
     "2026-07-15": 12,
@@ -56188,11 +56219,11 @@
     "2026-06-18": 2
   },
   "categoryDistribution": {
+    "reverb": 1501,
     "marketplace": 151,
-    "reverb": 1500,
     "other": 113
   },
-  "activeModelsCount": 337,
+  "activeModelsCount": 338,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -56220,7 +56251,7 @@
     },
     {
       "username": "Madero",
-      "count": 98
+      "count": 99
     },
     {
       "username": "scottcorgan",
@@ -56412,10 +56443,10 @@
       "count": 12
     },
     "Aristides": {
-      "avgPrice": 3243,
+      "avgPrice": 3294,
       "retailEst": 2500,
-      "avgDiscount": -29.7,
-      "count": 10
+      "avgDiscount": -31.7,
+      "count": 11
     },
     "Eastman": {
       "avgPrice": 1339,
@@ -61205,15 +61236,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1728,
+      "total": 1729,
       "sold": 538,
       "fake": 0,
-      "live": 588,
+      "live": 589,
       "removed": 602,
       "soldPct": 31,
       "livePct": 34
     },
     "byBrand": {
+      "Aristides": {
+        "total": 11,
+        "sold": 5,
+        "fake": 0,
+        "live": 3,
+        "removed": 3,
+        "soldPct": 45,
+        "livePct": 27
+      },
       "Ibanez": {
         "total": 87,
         "sold": 30,
@@ -61339,15 +61379,6 @@
         "removed": 7,
         "soldPct": 60,
         "livePct": 17
-      },
-      "Aristides": {
-        "total": 10,
-        "sold": 5,
-        "fake": 0,
-        "live": 2,
-        "removed": 3,
-        "soldPct": 50,
-        "livePct": 20
       },
       "EKO": {
         "total": 3,
@@ -63557,9 +63588,9 @@
         "soldPct": 50
       },
       {
-        "brand": "Aristides",
-        "total": 10,
-        "sold": 5,
+        "brand": "Collings",
+        "total": 8,
+        "sold": 4,
         "live": 2,
         "soldPct": 50
       }
@@ -63663,7 +63694,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 388,
+        "total": 389,
         "sold": 109,
         "rate": 28
       },
@@ -63681,15 +63712,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 630,
+        "sold": 221,
+        "rate": 35
+      },
       "Used": {
         "total": 75,
         "sold": 18,
         "rate": 24
-      },
-      "Excellent": {
-        "total": 629,
-        "sold": 221,
-        "rate": 35
       },
       "Good": {
         "total": 184,
@@ -63939,6 +63970,25 @@
     ]
   },
   "byBrandLine": {
+    "Aristides|Aristides": {
+      "brand": "Aristides",
+      "brandLine": "Aristides",
+      "tier": "premium",
+      "count": 11,
+      "sum": 36228.99,
+      "avg": 3294,
+      "min": 2285,
+      "max": 4050,
+      "sold": 5,
+      "soldSum": 14334.99,
+      "soldAvg": 2867,
+      "live": 3,
+      "removed": 3,
+      "sellRate": 45,
+      "totalDays": 336.4,
+      "soldCount": 5,
+      "avgDaysToSell": 67.3
+    },
     "Eastman|Eastman": {
       "brand": "Eastman",
       "brandLine": "Eastman",
@@ -63954,7 +64004,7 @@
       "live": 5,
       "removed": 6,
       "sellRate": 50,
-      "totalDays": 1190.4,
+      "totalDays": 1190.5,
       "soldCount": 11,
       "avgDaysToSell": 108.2
     },
@@ -63992,7 +64042,7 @@
       "live": 6,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 213.3,
+      "totalDays": 213.4,
       "soldCount": 3,
       "avgDaysToSell": 71.1
     },
@@ -64011,9 +64061,9 @@
       "live": 50,
       "removed": 62,
       "sellRate": 34,
-      "totalDays": 4683.200000000001,
+      "totalDays": 4683.8,
       "soldCount": 58,
-      "avgDaysToSell": 80.7
+      "avgDaysToSell": 80.8
     },
     "K-Line|K-Line": {
       "brand": "K-Line",
@@ -64049,7 +64099,7 @@
       "live": 19,
       "removed": 31,
       "sellRate": 37,
-      "totalDays": 2650.7000000000003,
+      "totalDays": 2650.9,
       "soldCount": 29,
       "avgDaysToSell": 91.4
     },
@@ -64068,7 +64118,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 38,
-      "totalDays": 1067.1,
+      "totalDays": 1067.1999999999998,
       "soldCount": 14,
       "avgDaysToSell": 76.2
     },
@@ -64087,7 +64137,7 @@
       "live": 8,
       "removed": 23,
       "sellRate": 34,
-      "totalDays": 1401.8,
+      "totalDays": 1401.9,
       "soldCount": 16,
       "avgDaysToSell": 87.6
     },
@@ -64162,7 +64212,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 60,
-      "totalDays": 1246.2999999999997,
+      "totalDays": 1246.3999999999999,
       "soldCount": 15,
       "avgDaysToSell": 83.1
     },
@@ -64181,28 +64231,9 @@
       "live": 24,
       "removed": 57,
       "sellRate": 37,
-      "totalDays": 3578.2000000000003,
+      "totalDays": 3578.6000000000004,
       "soldCount": 47,
       "avgDaysToSell": 76.1
-    },
-    "Aristides|Aristides": {
-      "brand": "Aristides",
-      "brandLine": "Aristides",
-      "tier": "premium",
-      "count": 10,
-      "sum": 32428.989999999998,
-      "avg": 3243,
-      "min": 2285,
-      "max": 4050,
-      "sold": 5,
-      "soldSum": 14334.99,
-      "soldAvg": 2867,
-      "live": 2,
-      "removed": 3,
-      "sellRate": 50,
-      "totalDays": 336.4,
-      "soldCount": 5,
-      "avgDaysToSell": 67.3
     },
     "Schecter|Schecter Budget": {
       "brand": "Schecter",
@@ -64256,7 +64287,7 @@
       "live": 14,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 658.9000000000001,
+      "totalDays": 659.0000000000001,
       "soldCount": 7,
       "avgDaysToSell": 94.1
     },
@@ -64275,7 +64306,7 @@
       "live": 13,
       "removed": 15,
       "sellRate": 22,
-      "totalDays": 585.5999999999999,
+      "totalDays": 585.7,
       "soldCount": 8,
       "avgDaysToSell": 73.2
     },
@@ -64312,9 +64343,9 @@
       "live": 17,
       "removed": 15,
       "sellRate": 30,
-      "totalDays": 1224.2,
+      "totalDays": 1224.3999999999999,
       "soldCount": 14,
-      "avgDaysToSell": 87.4
+      "avgDaysToSell": 87.5
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -64443,9 +64474,9 @@
       "live": 6,
       "removed": 4,
       "sellRate": 44,
-      "totalDays": 407.59999999999997,
+      "totalDays": 407.8,
       "soldCount": 8,
-      "avgDaysToSell": 50.9
+      "avgDaysToSell": 51
     },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
@@ -64499,7 +64530,7 @@
       "live": 10,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 742.1999999999999,
+      "totalDays": 742.3,
       "soldCount": 11,
       "avgDaysToSell": 67.5
     },
@@ -64967,7 +64998,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 80,
-      "totalDays": 280.4,
+      "totalDays": 280.5,
       "soldCount": 4,
       "avgDaysToSell": 70.1
     },
@@ -65024,7 +65055,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 404.1,
+      "totalDays": 404.20000000000005,
       "soldCount": 3,
       "avgDaysToSell": 134.7
     },
@@ -65119,9 +65150,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 24.9,
+      "totalDays": 25,
       "soldCount": 1,
-      "avgDaysToSell": 24.9
+      "avgDaysToSell": 25
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -65308,9 +65339,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 210.8,
+      "totalDays": 210.89999999999998,
       "soldCount": 2,
-      "avgDaysToSell": 105.4
+      "avgDaysToSell": 105.5
     },
     "Parker|Parker Spanish Fly": {
       "brand": "Parker",
@@ -65383,9 +65414,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 20,
-      "totalDays": 76.9,
+      "totalDays": 77,
       "soldCount": 1,
-      "avgDaysToSell": 76.9
+      "avgDaysToSell": 77
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -66051,9 +66082,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 104.8,
+      "totalDays": 104.9,
       "soldCount": 1,
-      "avgDaysToSell": 104.8
+      "avgDaysToSell": 104.9
     },
     "Ovation|Ovation USA Premium": {
       "brand": "Ovation",
@@ -66120,7 +66151,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 116
+    "avgShippingCost": 115
   },
   "watcherDemand": [
     {
@@ -66131,7 +66162,7 @@
     },
     {
       "label": "1–5",
-      "total": 55,
+      "total": 56,
       "sold": 15,
       "rate": 27
     },
@@ -66156,7 +66187,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 677,
+      "total": 678,
       "sold": 195,
       "rate": 29
     },
@@ -66173,7 +66204,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 463,
+      "total": 464,
       "sold": 157,
       "rate": 34
     }
@@ -66211,7 +66242,7 @@
     },
     {
       "state": "WA",
-      "total": 43,
+      "total": 44,
       "sold": 6,
       "rate": 14
     },
