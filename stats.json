@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-18T14:47:30.058Z",
-  "totalLinks": 1759,
-  "totalEver": 2177,
-  "totalBeforeFilter": 2177,
+  "generatedAt": "2026-07-18T14:49:02.651Z",
+  "totalLinks": 1760,
+  "totalEver": 2178,
+  "totalBeforeFilter": 2178,
   "fakeCount": 21,
   "removedCount": 644,
-  "totalWithPrice": 1737,
+  "totalWithPrice": 1738,
   "overall": {
-    "count": 1685,
-    "sum": 4827440.24,
-    "avg": 2865,
+    "count": 1686,
+    "sum": 4834635.24,
+    "avg": 2868,
     "min": 3,
     "max": 11099
   },
   "filtered": {
-    "count": 1685,
-    "sum": 4827440.24,
-    "avg": 2865,
+    "count": 1686,
+    "sum": 4834635.24,
+    "avg": 2868,
     "min": 3,
     "max": 11099,
-    "median": 2282
+    "median": 2284
   },
   "outliers": {
     "thresholdHigh": 11303,
@@ -438,11 +438,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 195,
-      "sum": 583384.61,
+      "count": 196,
+      "sum": 590579.61,
       "min": 300,
       "max": 11000,
-      "avg": 2992
+      "avg": 3013
     },
     "2026-06": {
       "count": 283,
@@ -475,11 +475,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 126,
-      "sum": 383457,
+      "count": 127,
+      "sum": 390652,
       "min": 39.81,
       "max": 11000,
-      "avg": 3043
+      "avg": 3076
     },
     "reverb": {
       "count": 1457,
@@ -498,11 +498,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 73,
-      "sum": 278089.98,
+      "count": 74,
+      "sum": 285284.98,
       "min": 350,
       "max": 11099,
-      "avg": 3809
+      "avg": 3855
     },
     "reverb.com": {
       "count": 1457,
@@ -772,6 +772,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-special-1959": {
+      "displayName": "Gibson Les Paul Special TV Yellow Refin 1959",
+      "brand": "Gibson",
+      "model": "Les Paul Special",
+      "variant": "1959",
+      "count": 1,
+      "sum": 7195,
+      "min": 7195,
+      "max": 7195,
+      "sightings": [
+        {
+          "price": 7195,
+          "date": "2026-07-18T14:48:45.760Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Special TV Yellow Refin 1959",
+          "url": "https://www.chicagomusicexchange.com/collections/electric-guitars-used/products/gibson-les-paul-special-tv-yellow-refin-1959-2612596",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 7195,
+          "min": 7195,
+          "max": 7195,
+          "avg": 7195
+        }
+      },
+      "avg": 7195
+    },
     "k-line-kl90-shoreline": {
       "displayName": "K-Line KL90 Shoreline Gold 2025",
       "brand": "K-Line",
@@ -52687,6 +52718,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 210,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 75,
+      "outliersExcluded": 2,
+      "avg": 3516,
+      "soldAvg": 3243
+    },
     "K-Line": {
       "count": 4,
       "min": 1645,
@@ -52722,15 +52762,6 @@
       "outliersExcluded": 4,
       "avg": 2290,
       "soldAvg": 2269
-    },
-    "Gibson": {
-      "count": 209,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 75,
-      "outliersExcluded": 2,
-      "avg": 3499,
-      "soldAvg": 3243
     },
     "Suhr": {
       "count": 23,
@@ -54849,6 +54880,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 184,
+      "sum": 553257.2700000001,
+      "sold": {
+        "count": 57,
+        "sum": 124698.31999999999,
+        "avg": 2188,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 3007,
+      "min": 70,
+      "max": 55000
+    },
     "Used": {
       "count": 71,
       "sum": 289535.6299999999,
@@ -54901,20 +54946,6 @@
       "avg": 3550,
       "min": 33,
       "max": 437713.69
-    },
-    "Good": {
-      "count": 183,
-      "sum": 546062.2700000001,
-      "sold": {
-        "count": 57,
-        "sum": 124698.31999999999,
-        "avg": 2188,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 2984,
-      "min": 70,
-      "max": 55000
     },
     "Brand New": {
       "count": 131,
@@ -54995,9 +55026,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 2992,
-      "median": 2350,
-      "count": 195
+      "avg": 3013,
+      "median": 2375,
+      "count": 196
     },
     "06": {
       "name": "Jun",
@@ -55172,7 +55203,7 @@
     "1k-2k": 528,
     "2k-3k": 357,
     "3k-5k": 388,
-    "5k-10k": 202,
+    "5k-10k": 203,
     "10k+": 65
   },
   "priceDistributionFiltered": {
@@ -55181,10 +55212,15 @@
     "1k-2k": 528,
     "2k-3k": 357,
     "3k-5k": 388,
-    "5k-10k": 202,
+    "5k-10k": 203,
     "10k+": 13
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5645,
+      "count": 104,
+      "avg": 54
+    },
     "K-Line": {
       "sum": 88,
       "count": 2,
@@ -55204,11 +55240,6 @@
       "sum": 2543,
       "count": 49,
       "avg": 52
-    },
-    "Gibson": {
-      "sum": 5645,
-      "count": 103,
-      "avg": 55
     },
     "Suhr": {
       "sum": 579,
@@ -56022,7 +56053,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-18": 9,
+    "2026-07-18": 10,
     "2026-07-17": 12,
     "2026-07-16": 6,
     "2026-07-15": 12,
@@ -56055,11 +56086,11 @@
     "2026-06-18": 3
   },
   "categoryDistribution": {
-    "marketplace": 147,
+    "marketplace": 148,
     "reverb": 1499,
     "other": 113
   },
-  "activeModelsCount": 332,
+  "activeModelsCount": 333,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -56071,7 +56102,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 174
+      "count": 175
     },
     {
       "username": "YellowJack6",
@@ -56153,10 +56184,10 @@
       "count": 127
     },
     "Gibson": {
-      "avgPrice": 5560,
+      "avgPrice": 5568,
       "retailEst": 800,
-      "avgDiscount": -595,
-      "count": 215
+      "avgDiscount": -595.9,
+      "count": 216
     },
     "Epiphone": {
       "avgPrice": 2085,
@@ -61072,15 +61103,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1723,
+      "total": 1724,
       "sold": 538,
       "fake": 0,
-      "live": 583,
+      "live": 584,
       "removed": 602,
       "soldPct": 31,
       "livePct": 34
     },
     "byBrand": {
+      "Gibson": {
+        "total": 222,
+        "sold": 75,
+        "fake": 0,
+        "live": 62,
+        "removed": 85,
+        "soldPct": 34,
+        "livePct": 28
+      },
       "K-Line": {
         "total": 4,
         "sold": 1,
@@ -61125,15 +61165,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Gibson": {
-        "total": 221,
-        "sold": 75,
-        "fake": 0,
-        "live": 61,
-        "removed": 85,
-        "soldPct": 34,
-        "livePct": 28
       },
       "Suhr": {
         "total": 23,
@@ -63536,7 +63567,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 202,
+        "total": 203,
         "sold": 43,
         "rate": 21
       },
@@ -63548,6 +63579,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 184,
+        "sold": 63,
+        "rate": 34
+      },
       "Used": {
         "total": 72,
         "sold": 18,
@@ -63567,11 +63603,6 @@
         "total": 494,
         "sold": 162,
         "rate": 33
-      },
-      "Good": {
-        "total": 183,
-        "sold": 63,
-        "rate": 34
       },
       "Brand New": {
         "total": 131,
@@ -63806,6 +63837,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 170,
+      "sum": 945665.0399999998,
+      "avg": 5563,
+      "min": 135,
+      "max": 437713.69,
+      "sold": 58,
+      "soldSum": 156018.96,
+      "soldAvg": 2690,
+      "live": 50,
+      "removed": 62,
+      "sellRate": 34,
+      "totalDays": 4681.099999999999,
+      "soldCount": 58,
+      "avgDaysToSell": 80.7
+    },
     "K-Line|K-Line": {
       "brand": "K-Line",
       "brandLine": "K-Line",
@@ -63916,7 +63966,7 @@
       "live": 5,
       "removed": 7,
       "sellRate": 45,
-      "totalDays": 529.9,
+      "totalDays": 530.0999999999999,
       "soldCount": 10,
       "avgDaysToSell": 53
     },
@@ -63991,7 +64041,7 @@
       "live": 24,
       "removed": 57,
       "sellRate": 37,
-      "totalDays": 3576.2000000000003,
+      "totalDays": 3576.4000000000005,
       "soldCount": 47,
       "avgDaysToSell": 76.1
     },
@@ -64050,25 +64100,6 @@
       "totalDays": 422.7,
       "soldCount": 5,
       "avgDaysToSell": 84.5
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 169,
-      "sum": 938470.0399999998,
-      "avg": 5553,
-      "min": 135,
-      "max": 437713.69,
-      "sold": 58,
-      "soldSum": 156018.96,
-      "soldAvg": 2690,
-      "live": 49,
-      "removed": 62,
-      "sellRate": 34,
-      "totalDays": 4681.099999999999,
-      "soldCount": 58,
-      "avgDaysToSell": 80.7
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -64553,9 +64584,9 @@
       "live": 3,
       "removed": 0,
       "sellRate": 40,
-      "totalDays": 97.6,
+      "totalDays": 97.7,
       "soldCount": 2,
-      "avgDaysToSell": 48.8
+      "avgDaysToSell": 48.9
     },
     "Parker|Parker Fly Mojo": {
       "brand": "Parker",
@@ -65439,9 +65470,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 123,
+      "totalDays": 123.1,
       "soldCount": 1,
-      "avgDaysToSell": 123
+      "avgDaysToSell": 123.1
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
