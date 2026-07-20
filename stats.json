@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-20T17:56:44.502Z",
-  "totalLinks": 1790,
-  "totalEver": 2213,
-  "totalBeforeFilter": 2213,
+  "generatedAt": "2026-07-20T18:03:54.698Z",
+  "totalLinks": 1791,
+  "totalEver": 2214,
+  "totalBeforeFilter": 2214,
   "fakeCount": 21,
   "removedCount": 651,
-  "totalWithPrice": 1767,
+  "totalWithPrice": 1768,
   "overall": {
-    "count": 1715,
-    "sum": 4952397.24,
-    "avg": 2888,
+    "count": 1716,
+    "sum": 4958896.24,
+    "avg": 2890,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1715,
-    "sum": 4952397.24,
-    "avg": 2888,
+    "count": 1716,
+    "sum": 4958896.24,
+    "avg": 2890,
     "min": 3,
     "max": 11475,
     "median": 2299
@@ -438,11 +438,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 224,
-      "sum": 696866.61,
+      "count": 225,
+      "sum": 703365.61,
       "min": 300,
       "max": 11000,
-      "avg": 3111
+      "avg": 3126
     },
     "2026-06": {
       "count": 283,
@@ -474,19 +474,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 137,
+      "sum": 446327,
+      "min": 39.81,
+      "max": 11475,
+      "avg": 3258
+    },
     "reverb": {
       "count": 1477,
       "sum": 4219492.1,
       "min": 33,
       "max": 10933,
       "avg": 2857
-    },
-    "marketplace": {
-      "count": 136,
-      "sum": 439828,
-      "min": 39.81,
-      "max": 11475,
-      "avg": 3234
     },
     "other": {
       "count": 102,
@@ -497,19 +497,19 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 83,
+      "sum": 340164.98,
+      "min": 350,
+      "max": 11475,
+      "avg": 4098
+    },
     "reverb.com": {
       "count": 1477,
       "sum": 4219492.1,
       "min": 33,
       "max": 10933,
       "avg": 2857
-    },
-    "chicagomusicexchange.com": {
-      "count": 82,
-      "sum": 333665.98,
-      "min": 350,
-      "max": 11475,
-      "avg": 4069
     },
     "davesguitar.com": {
       "count": 12,
@@ -772,6 +772,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-standard-custom-shop": {
+      "displayName": "Gibson Custom Shop 1956 Les Paul Standard \"CME Spec\" Antique Candy App",
+      "brand": "Gibson",
+      "model": "Les Paul Standard",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 6499,
+      "min": 6499,
+      "max": 6499,
+      "sightings": [
+        {
+          "price": 6499,
+          "date": "2026-07-20T18:03:36.822Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop 1956 Les Paul Standard \"CME Spec\" Antique Candy App",
+          "url": "https://www.chicagomusicexchange.com/en-gb/products/gibson-custom-shop-1956-les-paul-standard-cme-spec-2415405",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 6499,
+          "min": 6499,
+          "max": 6499,
+          "avg": 6499
+        }
+      },
+      "avg": 6499
+    },
     "bc-rich-beast-usa-custom-shop": {
       "displayName": "B.C. Rich USA Custom Shop Beast 2007",
       "brand": "BC Rich",
@@ -7711,7 +7742,7 @@
       "sightings": [
         {
           "price": 2500,
-          "date": "2026-07-07T18:59:24.685Z",
+          "date": "2026-07-07T18:59:24.685+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "2008 First Act Custom Shop Sheena Special Edition Green Quilt Top w/ Case",
@@ -53665,6 +53696,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 216,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 79,
+      "outliersExcluded": 3,
+      "avg": 3588,
+      "soldAvg": 3436
+    },
     "BC Rich": {
       "count": 115,
       "min": 33,
@@ -53700,15 +53740,6 @@
       "outliersExcluded": 14,
       "avg": 3101,
       "soldAvg": 3409
-    },
-    "Gibson": {
-      "count": 215,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 79,
-      "outliersExcluded": 3,
-      "avg": 3574,
-      "soldAvg": 3436
     },
     "James Tyler": {
       "count": 11,
@@ -55827,6 +55858,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 136,
+      "sum": 576775.2299999999,
+      "sold": {
+        "count": 13,
+        "sum": 40666.729999999996,
+        "avg": 3128,
+        "min": 995,
+        "max": 8199
+      },
+      "avg": 4241,
+      "min": 135,
+      "max": 14670
+    },
     "Excellent": {
       "count": 637,
       "sum": 2751261.870000002,
@@ -55865,20 +55910,6 @@
       "avg": 3592,
       "min": 33,
       "max": 437713.69
-    },
-    "Brand New": {
-      "count": 135,
-      "sum": 570276.2299999999,
-      "sold": {
-        "count": 13,
-        "sum": 40666.729999999996,
-        "avg": 3128,
-        "min": 995,
-        "max": 8199
-      },
-      "avg": 4224,
-      "min": 135,
-      "max": 14670
     },
     "Fair": {
       "count": 24,
@@ -55973,9 +56004,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3111,
+      "avg": 3126,
       "median": 2500,
-      "count": 224
+      "count": 225
     },
     "06": {
       "name": "Jun",
@@ -56150,7 +56181,7 @@
     "1k-2k": 533,
     "2k-3k": 363,
     "3k-5k": 394,
-    "5k-10k": 211,
+    "5k-10k": 212,
     "10k+": 66
   },
   "priceDistributionFiltered": {
@@ -56159,10 +56190,15 @@
     "1k-2k": 533,
     "2k-3k": 363,
     "3k-5k": 394,
-    "5k-10k": 211,
+    "5k-10k": 212,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5045,
+      "count": 100,
+      "avg": 50
+    },
     "BC Rich": {
       "sum": 3808,
       "count": 68,
@@ -56213,11 +56249,6 @@
       "count": 17,
       "avg": 36
     },
-    "Gibson": {
-      "sum": 5045,
-      "count": 99,
-      "avg": 51
-    },
     "Aristides": {
       "sum": 288,
       "count": 7,
@@ -56259,7 +56290,7 @@
       "avg": 21
     },
     "Schecter": {
-      "sum": 506,
+      "sum": 507,
       "count": 8,
       "avg": 63
     },
@@ -56524,9 +56555,9 @@
       "avg": 79
     },
     "Silvertone": {
-      "sum": 22,
+      "sum": 23,
       "count": 1,
-      "avg": 22
+      "avg": 23
     },
     "Meazzi": {
       "sum": 62,
@@ -56985,7 +57016,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-20": 13,
+    "2026-07-20": 14,
     "2026-07-19": 10,
     "2026-07-18": 17,
     "2026-07-17": 12,
@@ -57018,11 +57049,11 @@
     "2026-06-20": 2
   },
   "categoryDistribution": {
+    "marketplace": 159,
     "reverb": 1519,
-    "marketplace": 158,
     "other": 113
   },
-  "activeModelsCount": 327,
+  "activeModelsCount": 328,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -57116,10 +57147,10 @@
       "count": 128
     },
     "Gibson": {
-      "avgPrice": 5696,
+      "avgPrice": 5700,
       "retailEst": 800,
-      "avgDiscount": -612,
-      "count": 222
+      "avgDiscount": -612.5,
+      "count": 223
     },
     "Epiphone": {
       "avgPrice": 2077,
@@ -62175,15 +62206,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1753,
+      "total": 1754,
       "sold": 558,
       "fake": 0,
-      "live": 586,
+      "live": 587,
       "removed": 609,
       "soldPct": 32,
       "livePct": 33
     },
     "byBrand": {
+      "Gibson": {
+        "total": 229,
+        "sold": 80,
+        "fake": 0,
+        "live": 62,
+        "removed": 87,
+        "soldPct": 35,
+        "livePct": 27
+      },
       "BC Rich": {
         "total": 119,
         "sold": 34,
@@ -62219,15 +62259,6 @@
         "removed": 43,
         "soldPct": 36,
         "livePct": 32
-      },
-      "Gibson": {
-        "total": 228,
-        "sold": 80,
-        "fake": 0,
-        "live": 61,
-        "removed": 87,
-        "soldPct": 35,
-        "livePct": 27
       },
       "James Tyler": {
         "total": 11,
@@ -64639,7 +64670,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 211,
+        "total": 212,
         "sold": 50,
         "rate": 24
       },
@@ -64651,6 +64682,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 136,
+        "sold": 22,
+        "rate": 16
+      },
       "Excellent": {
         "total": 637,
         "sold": 224,
@@ -64665,11 +64701,6 @@
         "total": 500,
         "sold": 167,
         "rate": 33
-      },
-      "Brand New": {
-        "total": 135,
-        "sold": 22,
-        "rate": 16
       },
       "Fair": {
         "total": 24,
@@ -64916,6 +64947,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson Custom Shop": {
+      "brand": "Gibson",
+      "brandLine": "Gibson Custom Shop",
+      "tier": "ultra",
+      "count": 50,
+      "sum": 293233.32999999996,
+      "avg": 5865,
+      "min": 2250,
+      "max": 31995,
+      "sold": 18,
+      "soldSum": 124990.98000000001,
+      "soldAvg": 6944,
+      "live": 9,
+      "removed": 23,
+      "sellRate": 36,
+      "totalDays": 1437.5000000000002,
+      "soldCount": 18,
+      "avgDaysToSell": 79.9
+    },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
       "brandLine": "BC Rich USA Custom Shop",
@@ -65006,7 +65056,7 @@
       "live": 49,
       "removed": 64,
       "sellRate": 35,
-      "totalDays": 4818.599999999999,
+      "totalDays": 4819.4,
       "soldCount": 61,
       "avgDaysToSell": 79
     },
@@ -65085,25 +65135,6 @@
       "soldCount": 12,
       "avgDaysToSell": 46.2
     },
-    "Gibson|Gibson Custom Shop": {
-      "brand": "Gibson",
-      "brandLine": "Gibson Custom Shop",
-      "tier": "ultra",
-      "count": 49,
-      "sum": 286734.32999999996,
-      "avg": 5852,
-      "min": 2250,
-      "max": 31995,
-      "sold": 18,
-      "soldSum": 124990.98000000001,
-      "soldAvg": 6944,
-      "live": 8,
-      "removed": 23,
-      "sellRate": 37,
-      "totalDays": 1437.4,
-      "soldCount": 18,
-      "avgDaysToSell": 79.9
-    },
     "Aristides|Aristides": {
       "brand": "Aristides",
       "brandLine": "Aristides",
@@ -65157,7 +65188,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1213.4,
+      "totalDays": 1213.6,
       "soldCount": 11,
       "avgDaysToSell": 110.3
     },
@@ -65195,7 +65226,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 42,
-      "totalDays": 223.8,
+      "totalDays": 223.89999999999998,
       "soldCount": 5,
       "avgDaysToSell": 44.8
     },
@@ -65233,7 +65264,7 @@
       "live": 18,
       "removed": 31,
       "sellRate": 38,
-      "totalDays": 2713.7000000000003,
+      "totalDays": 2713.8,
       "soldCount": 30,
       "avgDaysToSell": 90.5
     },
@@ -65289,7 +65320,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 60,
-      "totalDays": 1277.8,
+      "totalDays": 1277.8999999999999,
       "soldCount": 15,
       "avgDaysToSell": 85.2
     },
@@ -65308,7 +65339,7 @@
       "live": 23,
       "removed": 57,
       "sellRate": 38,
-      "totalDays": 3685.0999999999995,
+      "totalDays": 3685.1999999999994,
       "soldCount": 48,
       "avgDaysToSell": 76.8
     },
@@ -65364,7 +65395,7 @@
       "live": 14,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 671.4999999999999,
+      "totalDays": 671.5999999999999,
       "soldCount": 7,
       "avgDaysToSell": 95.9
     },
@@ -65401,9 +65432,9 @@
       "live": 17,
       "removed": 15,
       "sellRate": 30,
-      "totalDays": 1253.6000000000001,
+      "totalDays": 1253.8000000000002,
       "soldCount": 14,
-      "avgDaysToSell": 89.5
+      "avgDaysToSell": 89.6
     },
     "ESP|ESP USA": {
       "brand": "ESP",
@@ -66096,9 +66127,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 27,
+      "totalDays": 27.1,
       "soldCount": 1,
-      "avgDaysToSell": 27
+      "avgDaysToSell": 27.1
     },
     "Hamer|Hamer USA Vintage": {
       "brand": "Hamer",
@@ -66285,9 +66316,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 215,
+      "totalDays": 215.10000000000002,
       "soldCount": 2,
-      "avgDaysToSell": 107.5
+      "avgDaysToSell": 107.6
     },
     "Parker|Parker Spanish Fly": {
       "brand": "Parker",
@@ -66360,9 +66391,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 20,
-      "totalDays": 79,
+      "totalDays": 79.1,
       "soldCount": 1,
-      "avgDaysToSell": 79
+      "avgDaysToSell": 79.1
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -67028,9 +67059,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 106.9,
+      "totalDays": 107,
       "soldCount": 1,
-      "avgDaysToSell": 106.9
+      "avgDaysToSell": 107
     },
     "Ovation|Ovation USA Premium": {
       "brand": "Ovation",
