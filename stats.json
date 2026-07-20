@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-20T19:19:25.664Z",
-  "totalLinks": 1794,
-  "totalEver": 2218,
-  "totalBeforeFilter": 2218,
+  "generatedAt": "2026-07-20T19:22:35.770Z",
+  "totalLinks": 1795,
+  "totalEver": 2219,
+  "totalBeforeFilter": 2219,
   "fakeCount": 21,
   "removedCount": 651,
-  "totalWithPrice": 1771,
+  "totalWithPrice": 1772,
   "overall": {
-    "count": 1719,
-    "sum": 4975156.24,
-    "avg": 2894,
+    "count": 1720,
+    "sum": 4975851.24,
+    "avg": 2893,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1719,
-    "sum": 4975156.24,
-    "avg": 2894,
+    "count": 1720,
+    "sum": 4975851.24,
+    "avg": 2893,
     "min": 3,
     "max": 11475,
-    "median": 2299.99
+    "median": 2299
   },
   "outliers": {
     "thresholdHigh": 11483,
@@ -438,11 +438,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 228,
-      "sum": 719675.61,
+      "count": 229,
+      "sum": 720370.61,
       "min": 300,
       "max": 11000,
-      "avg": 3156
+      "avg": 3146
     },
     "2026-06": {
       "count": 283,
@@ -474,19 +474,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 138,
+      "sum": 447022,
+      "min": 39.81,
+      "max": 11475,
+      "avg": 3239
+    },
     "reverb": {
       "count": 1480,
       "sum": 4235752.1,
       "min": 33,
       "max": 10933,
       "avg": 2862
-    },
-    "marketplace": {
-      "count": 137,
-      "sum": 446327,
-      "min": 39.81,
-      "max": 11475,
-      "avg": 3258
     },
     "other": {
       "count": 102,
@@ -497,6 +497,13 @@
     }
   },
   "byDomain": {
+    "davesguitar.com": {
+      "count": 13,
+      "sum": 20509,
+      "min": 695,
+      "max": 3995,
+      "avg": 1578
+    },
     "reverb.com": {
       "count": 1480,
       "sum": 4235752.1,
@@ -510,13 +517,6 @@
       "min": 350,
       "max": 11475,
       "avg": 4098
-    },
-    "davesguitar.com": {
-      "count": 12,
-      "sum": 19814,
-      "min": 795,
-      "max": 3995,
-      "avg": 1651
     },
     "guitarcenter.com": {
       "count": 82,
@@ -772,6 +772,36 @@
     }
   },
   "byModel": {
+    "katana-mij": {
+      "displayName": "Used MIJ Katana",
+      "model": "Katana",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 695,
+      "min": 695,
+      "max": 695,
+      "sightings": [
+        {
+          "price": 695,
+          "date": "2026-07-20T19:22:03.023Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used MIJ Katana",
+          "url": "https://www.davesguitar.com/collections/just-in/products/used-mij-katana-86",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 695,
+          "min": 695,
+          "max": 695,
+          "avg": 695
+        }
+      },
+      "avg": 695
+    },
     "jackson-soloist-custom-shop": {
       "displayName": "Jackson Custom Shop Soloist 2025 Relic",
       "brand": "Jackson",
@@ -7878,7 +7908,7 @@
       "sightings": [
         {
           "price": 3000,
-          "date": "2026-07-08T01:30:32.124Z",
+          "date": "2026-07-08T01:30:32.124+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "2006 Framus Tennessee Custom",
@@ -55960,6 +55990,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 502,
+      "sum": 1804306.56,
+      "sold": {
+        "count": 165,
+        "sum": 370647.17999999993,
+        "avg": 2246,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3594,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 639,
       "sum": 2760073.870000002,
@@ -55973,20 +56017,6 @@
       "avg": 4319,
       "min": 269,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 501,
-      "sum": 1803611.56,
-      "sold": {
-        "count": 165,
-        "sum": 370647.17999999993,
-        "avg": 2246,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3600,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 136,
@@ -56106,9 +56136,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3156,
-      "median": 2507,
-      "count": 228
+      "avg": 3146,
+      "median": 2500,
+      "count": 229
     },
     "06": {
       "name": "Jun",
@@ -56279,7 +56309,7 @@
   ],
   "priceDistribution": {
     "0-500": 58,
-    "500-1k": 142,
+    "500-1k": 143,
     "1k-2k": 534,
     "2k-3k": 362,
     "3k-5k": 396,
@@ -56288,7 +56318,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 58,
-    "500-1k": 142,
+    "500-1k": 143,
     "1k-2k": 534,
     "2k-3k": 362,
     "3k-5k": 396,
@@ -57118,7 +57148,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-20": 17,
+    "2026-07-20": 18,
     "2026-07-19": 10,
     "2026-07-18": 17,
     "2026-07-17": 12,
@@ -57151,11 +57181,11 @@
     "2026-06-20": 1
   },
   "categoryDistribution": {
+    "marketplace": 160,
     "reverb": 1522,
-    "marketplace": 159,
     "other": 113
   },
-  "activeModelsCount": 330,
+  "activeModelsCount": 331,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -57179,7 +57209,7 @@
     },
     {
       "username": "Modean",
-      "count": 127
+      "count": 128
     },
     {
       "username": "Madero",
@@ -64769,7 +64799,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 142,
+        "total": 143,
         "sold": 48,
         "rate": 34
       },
@@ -64805,15 +64835,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 502,
+        "sold": 167,
+        "rate": 33
+      },
       "Excellent": {
         "total": 639,
         "sold": 224,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 501,
-        "sold": 167,
-        "rate": 33
       },
       "Brand New": {
         "total": 136,
@@ -65085,7 +65115,7 @@
       "live": 6,
       "removed": 11,
       "sellRate": 32,
-      "totalDays": 592,
+      "totalDays": 592.1,
       "soldCount": 8,
       "avgDaysToSell": 74
     },
@@ -65424,7 +65454,7 @@
       "live": 18,
       "removed": 31,
       "sellRate": 38,
-      "totalDays": 2715.5,
+      "totalDays": 2715.6,
       "soldCount": 30,
       "avgDaysToSell": 90.5
     },
@@ -65499,7 +65529,7 @@
       "live": 23,
       "removed": 57,
       "sellRate": 38,
-      "totalDays": 3687.5000000000005,
+      "totalDays": 3687.6000000000004,
       "soldCount": 48,
       "avgDaysToSell": 76.8
     },
@@ -66249,7 +66279,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 17,
-      "totalDays": 175.9,
+      "totalDays": 176,
       "soldCount": 2,
       "avgDaysToSell": 88
     },
@@ -66533,7 +66563,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 205.1,
+      "totalDays": 205.2,
       "soldCount": 2,
       "avgDaysToSell": 102.6
     },
