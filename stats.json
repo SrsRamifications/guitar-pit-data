@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-21T23:07:15.952Z",
-  "totalLinks": 1819,
-  "totalEver": 2252,
-  "totalBeforeFilter": 2252,
+  "generatedAt": "2026-07-21T23:17:09.061Z",
+  "totalLinks": 1820,
+  "totalEver": 2253,
+  "totalBeforeFilter": 2253,
   "fakeCount": 21,
   "removedCount": 658,
-  "totalWithPrice": 1795,
+  "totalWithPrice": 1796,
   "overall": {
-    "count": 1742,
-    "sum": 5038654.64,
+    "count": 1743,
+    "sum": 5040229.64,
     "avg": 2892,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1742,
-    "sum": 5038654.64,
+    "count": 1743,
+    "sum": 5040229.64,
     "avg": 2892,
     "min": 3,
     "max": 11475,
-    "median": 2300
+    "median": 2299.99
   },
   "outliers": {
     "thresholdHigh": 11499,
@@ -446,11 +446,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 251,
-      "sum": 783182.01,
+      "count": 252,
+      "sum": 784757.01,
       "min": 300,
       "max": 11000,
-      "avg": 3120
+      "avg": 3114
     },
     "2026-06": {
       "count": 283,
@@ -483,11 +483,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1500,
-      "sum": 4293413.1,
+      "count": 1501,
+      "sum": 4294988.1,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2861
     },
     "marketplace": {
       "count": 140,
@@ -506,11 +506,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1500,
-      "sum": 4293413.1,
+      "count": 1501,
+      "sum": 4294988.1,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2861
     },
     "chicagomusicexchange.com": {
       "count": 84,
@@ -780,6 +780,37 @@
     }
   },
   "byModel": {
+    "caparison-dellinger-prominence": {
+      "displayName": "Caparison Dellinger Prominence",
+      "brand": "Caparison",
+      "model": "Dellinger Prominence",
+      "variant": null,
+      "count": 1,
+      "sum": 1575,
+      "min": 1575,
+      "max": 1575,
+      "sightings": [
+        {
+          "price": 1575,
+          "date": "2026-07-21T23:16:55.325Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Caparison Dellinger Prominence",
+          "url": "https://reverb.com/item/99614336",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1575,
+          "min": 1575,
+          "max": 1575,
+          "avg": 1575
+        }
+      },
+      "avg": 1575
+    },
     "kiesel-ct6": {
       "displayName": "Kiesel CT6 Natural 2020",
       "brand": "Kiesel",
@@ -7666,7 +7697,7 @@
       "sightings": [
         {
           "price": 2136,
-          "date": "2026-07-11T17:26:38.581Z",
+          "date": "2026-07-11T17:26:38.581+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Jackson AT1 1996 - trans purple - made in USA",
@@ -54535,6 +54566,15 @@
     }
   },
   "byBrandPrice": {
+    "Caparison": {
+      "count": 3,
+      "min": 1575,
+      "max": 2500,
+      "soldCount": 2,
+      "outliersExcluded": 0,
+      "avg": 2092,
+      "soldAvg": 2350
+    },
     "Kiesel": {
       "count": 84,
       "min": 650,
@@ -56074,15 +56114,6 @@
       "avg": 5268,
       "soldAvg": null
     },
-    "Caparison": {
-      "count": 2,
-      "min": 2200,
-      "max": 2500,
-      "soldCount": 2,
-      "outliersExcluded": 0,
-      "avg": 2350,
-      "soldAvg": 2350
-    },
     "Black Bobbin": {
       "count": 1,
       "min": 2969,
@@ -56715,6 +56746,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 189,
+      "sum": 573435.2700000001,
+      "sold": {
+        "count": 58,
+        "sum": 128113.31999999999,
+        "avg": 2209,
+        "min": 399,
+        "max": 8000
+      },
+      "avg": 3034,
+      "min": 70,
+      "max": 55000
+    },
     "Very Good": {
       "count": 509,
       "sum": 1817998.56,
@@ -56753,20 +56798,6 @@
       "avg": 4306,
       "min": 269,
       "max": 190000
-    },
-    "Good": {
-      "count": 188,
-      "sum": 571860.2700000001,
-      "sold": {
-        "count": 58,
-        "sum": 128113.31999999999,
-        "avg": 2209,
-        "min": 399,
-        "max": 8000
-      },
-      "avg": 3042,
-      "min": 70,
-      "max": 55000
     },
     "Brand New": {
       "count": 141,
@@ -56861,9 +56892,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3120,
+      "avg": 3114,
       "median": 2500,
-      "count": 251
+      "count": 252
     },
     "06": {
       "name": "Jun",
@@ -57035,7 +57066,7 @@
   "priceDistribution": {
     "0-500": 58,
     "500-1k": 147,
-    "1k-2k": 540,
+    "1k-2k": 541,
     "2k-3k": 364,
     "3k-5k": 402,
     "5k-10k": 217,
@@ -57044,15 +57075,20 @@
   "priceDistributionFiltered": {
     "0-500": 58,
     "500-1k": 147,
-    "1k-2k": 540,
+    "1k-2k": 541,
     "2k-3k": 364,
     "3k-5k": 402,
     "5k-10k": 217,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Caparison": {
+      "sum": 0,
+      "count": 1,
+      "avg": 0
+    },
     "Kiesel": {
-      "sum": 2222,
+      "sum": 2223,
       "count": 52,
       "avg": 43
     },
@@ -57082,8 +57118,8 @@
       "avg": 44
     },
     "PRS": {
-      "sum": 4405,
-      "count": 97,
+      "sum": 4315,
+      "count": 96,
       "avg": 45
     },
     "Chapman": {
@@ -57137,7 +57173,7 @@
       "avg": 54
     },
     "BC Rich": {
-      "sum": 3516,
+      "sum": 3517,
       "count": 64,
       "avg": 55
     },
@@ -57873,7 +57909,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-21": 15,
+    "2026-07-21": 16,
     "2026-07-20": 27,
     "2026-07-19": 10,
     "2026-07-18": 17,
@@ -57906,15 +57942,15 @@
     "2026-06-21": 1
   },
   "categoryDistribution": {
-    "reverb": 1543,
+    "reverb": 1544,
     "marketplace": 163,
     "other": 113
   },
-  "activeModelsCount": 336,
+  "activeModelsCount": 337,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 468
+      "count": 469
     },
     {
       "username": "greg1213",
@@ -63113,15 +63149,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1780,
+      "total": 1781,
       "sold": 564,
       "fake": 0,
-      "live": 602,
+      "live": 603,
       "removed": 614,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
+      "Caparison": {
+        "total": 3,
+        "sold": 2,
+        "fake": 0,
+        "live": 1,
+        "removed": 0,
+        "soldPct": 67,
+        "livePct": 33
+      },
       "Kiesel": {
         "total": 87,
         "sold": 31,
@@ -64733,15 +64778,6 @@
         "soldPct": 0,
         "livePct": 0
       },
-      "Caparison": {
-        "total": 2,
-        "sold": 2,
-        "fake": 0,
-        "live": 0,
-        "removed": 0,
-        "soldPct": 100,
-        "livePct": 0
-      },
       "Black Bobbin": {
         "total": 1,
         "sold": 0,
@@ -65577,7 +65613,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 540,
+        "total": 541,
         "sold": 194,
         "rate": 36
       },
@@ -65607,6 +65643,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 189,
+        "sold": 66,
+        "rate": 35
+      },
       "Very Good": {
         "total": 509,
         "sold": 167,
@@ -65620,11 +65661,6 @@
       "Excellent": {
         "total": 646,
         "sold": 224,
-        "rate": 35
-      },
-      "Good": {
-        "total": 188,
-        "sold": 66,
         "rate": 35
       },
       "Brand New": {
@@ -65721,6 +65757,13 @@
         "sellRate": 80,
         "count": 5,
         "sold": 4
+      },
+      {
+        "brand": "Caparison",
+        "avgPrice": 2092,
+        "sellRate": 67,
+        "count": 3,
+        "sold": 2
       },
       {
         "brand": "Bilt",
@@ -65844,6 +65887,25 @@
     ]
   },
   "byBrandLine": {
+    "Caparison|Caparison": {
+      "brand": "Caparison",
+      "brandLine": "Caparison",
+      "tier": "premium",
+      "count": 3,
+      "sum": 6275,
+      "avg": 2092,
+      "min": 1575,
+      "max": 2500,
+      "sold": 2,
+      "soldSum": 4700,
+      "soldAvg": 2350,
+      "live": 1,
+      "removed": 0,
+      "sellRate": 67,
+      "totalDays": 102,
+      "soldCount": 2,
+      "avgDaysToSell": 51
+    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -65859,7 +65921,7 @@
       "live": 35,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 2400.5000000000005,
+      "totalDays": 2400.6000000000004,
       "soldCount": 30,
       "avgDaysToSell": 80
     },
@@ -65878,7 +65940,7 @@
       "live": 48,
       "removed": 65,
       "sellRate": 35,
-      "totalDays": 4891.800000000001,
+      "totalDays": 4892.000000000001,
       "soldCount": 62,
       "avgDaysToSell": 78.9
     },
@@ -65897,7 +65959,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 56,
-      "totalDays": 407,
+      "totalDays": 407.1,
       "soldCount": 5,
       "avgDaysToSell": 81.4
     },
@@ -65935,7 +65997,7 @@
       "live": 9,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1460.4,
+      "totalDays": 1460.7,
       "soldCount": 19,
       "avgDaysToSell": 76.9
     },
@@ -65954,7 +66016,7 @@
       "live": 19,
       "removed": 31,
       "sellRate": 38,
-      "totalDays": 2750.0000000000005,
+      "totalDays": 2750.4,
       "soldCount": 30,
       "avgDaysToSell": 91.7
     },
@@ -65973,7 +66035,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 57,
-      "totalDays": 475.19999999999993,
+      "totalDays": 475.4,
       "soldCount": 8,
       "avgDaysToSell": 59.4
     },
@@ -66049,7 +66111,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 230,
+      "totalDays": 230.1,
       "soldCount": 5,
       "avgDaysToSell": 46
     },
@@ -66144,7 +66206,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 167.60000000000002,
+      "totalDays": 167.7,
       "soldCount": 3,
       "avgDaysToSell": 55.9
     },
@@ -66200,7 +66262,7 @@
       "live": 5,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 569.5,
+      "totalDays": 569.6,
       "soldCount": 12,
       "avgDaysToSell": 47.5
     },
@@ -66219,7 +66281,7 @@
       "live": 14,
       "removed": 15,
       "sellRate": 22,
-      "totalDays": 612.1999999999999,
+      "totalDays": 612.3999999999999,
       "soldCount": 8,
       "avgDaysToSell": 76.5
     },
@@ -66238,7 +66300,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 43,
-      "totalDays": 220.39999999999998,
+      "totalDays": 220.49999999999997,
       "soldCount": 3,
       "avgDaysToSell": 73.5
     },
@@ -66350,7 +66412,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1226.8999999999999,
+      "totalDays": 1227,
       "soldCount": 11,
       "avgDaysToSell": 111.5
     },
@@ -66369,7 +66431,7 @@
       "live": 1,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 102.3,
+      "totalDays": 102.4,
       "soldCount": 2,
       "avgDaysToSell": 51.2
     },
@@ -66518,7 +66580,7 @@
       "live": 17,
       "removed": 15,
       "sellRate": 30,
-      "totalDays": 1271,
+      "totalDays": 1271.1999999999998,
       "soldCount": 14,
       "avgDaysToSell": 90.8
     },
@@ -66612,9 +66674,9 @@
       "live": 9,
       "removed": 6,
       "sellRate": 21,
-      "totalDays": 436.9,
+      "totalDays": 437,
       "soldCount": 4,
-      "avgDaysToSell": 109.2
+      "avgDaysToSell": 109.3
     },
     "James Tyler|James Tyler Studio Elite": {
       "brand": "James Tyler",
@@ -67042,9 +67104,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 414.1,
+      "totalDays": 414.2,
       "soldCount": 3,
-      "avgDaysToSell": 138
+      "avgDaysToSell": 138.1
     },
     "PRS|PRS CE": {
       "brand": "PRS",
@@ -67137,7 +67199,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 58,
-      "totalDays": 597.1,
+      "totalDays": 597.2,
       "soldCount": 7,
       "avgDaysToSell": 85.3
     },
@@ -67213,9 +67275,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 292.59999999999997,
+      "totalDays": 292.7,
       "soldCount": 3,
-      "avgDaysToSell": 97.5
+      "avgDaysToSell": 97.6
     },
     "Ibanez|Ibanez GIO": {
       "brand": "Ibanez",
@@ -67439,9 +67501,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 14,
-      "totalDays": 92.1,
+      "totalDays": 92.2,
       "soldCount": 1,
-      "avgDaysToSell": 92.1
+      "avgDaysToSell": 92.2
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -67572,25 +67634,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Caparison|Caparison": {
-      "brand": "Caparison",
-      "brandLine": "Caparison",
-      "tier": "premium",
-      "count": 2,
-      "sum": 4700,
-      "avg": 2350,
-      "min": 2200,
-      "max": 2500,
-      "sold": 2,
-      "soldSum": 4700,
-      "soldAvg": 2350,
-      "live": 0,
-      "removed": 0,
-      "sellRate": 100,
-      "totalDays": 102,
-      "soldCount": 2,
-      "avgDaysToSell": 51
     },
     "Fodera|Fodera": {
       "brand": "Fodera",
@@ -68012,9 +68055,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 111,
+      "totalDays": 111.1,
       "soldCount": 1,
-      "avgDaysToSell": 111
+      "avgDaysToSell": 111.1
     }
   },
   "offerActivity": {
@@ -68030,9 +68073,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 12,
+      "total": 13,
       "sold": 7,
-      "rate": 58
+      "rate": 54
     },
     {
       "label": "1–5",
@@ -68061,7 +68104,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 711,
+      "total": 712,
       "sold": 203,
       "rate": 29
     },
@@ -68073,7 +68116,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 518,
+      "total": 519,
       "sold": 118,
       "rate": 23
     },
@@ -68104,9 +68147,9 @@
     },
     {
       "state": "IL",
-      "total": 56,
+      "total": 57,
       "sold": 16,
-      "rate": 29
+      "rate": 28
     },
     {
       "state": "FL",
