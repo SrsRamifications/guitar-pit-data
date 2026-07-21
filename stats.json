@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-21T00:52:30.327Z",
-  "totalLinks": 1805,
-  "totalEver": 2232,
-  "totalBeforeFilter": 2232,
+  "generatedAt": "2026-07-21T00:55:59.604Z",
+  "totalLinks": 1806,
+  "totalEver": 2233,
+  "totalBeforeFilter": 2233,
   "fakeCount": 21,
   "removedCount": 652,
-  "totalWithPrice": 1781,
+  "totalWithPrice": 1782,
   "overall": {
-    "count": 1729,
-    "sum": 5005493.24,
-    "avg": 2895,
+    "count": 1730,
+    "sum": 5009785.64,
+    "avg": 2896,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1729,
-    "sum": 5005493.24,
-    "avg": 2895,
+    "count": 1730,
+    "sum": 5009785.64,
+    "avg": 2896,
     "min": 3,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 11480,
+    "thresholdHigh": 11496,
     "thresholdLow": 0,
     "count": 52,
     "items": [
@@ -438,11 +438,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 238,
-      "sum": 750012.61,
+      "count": 239,
+      "sum": 754305.01,
       "min": 300,
       "max": 11000,
-      "avg": 3151
+      "avg": 3156
     },
     "2026-06": {
       "count": 283,
@@ -474,19 +474,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 139,
+      "sum": 451314.4,
+      "min": 39.81,
+      "max": 11475,
+      "avg": 3247
+    },
     "reverb": {
       "count": 1489,
       "sum": 4265394.1,
       "min": 33,
       "max": 10933,
       "avg": 2865
-    },
-    "marketplace": {
-      "count": 138,
-      "sum": 447022,
-      "min": 39.81,
-      "max": 11475,
-      "avg": 3239
     },
     "other": {
       "count": 102,
@@ -497,6 +497,13 @@
     }
   },
   "byDomain": {
+    "long-mcquade.com": {
+      "count": 4,
+      "sum": 13461.07,
+      "min": 868.69,
+      "max": 5999.99,
+      "avg": 3365
+    },
     "reverb.com": {
       "count": 1489,
       "sum": 4265394.1,
@@ -531,13 +538,6 @@
       "min": 1599,
       "max": 1599,
       "avg": 1599
-    },
-    "long-mcquade.com": {
-      "count": 3,
-      "sum": 9168.67,
-      "min": 868.69,
-      "max": 5999.99,
-      "avg": 3056
     },
     "craigslist.org": {
       "count": 1,
@@ -772,6 +772,37 @@
     }
   },
   "byModel": {
+    "prs-jon-jourdan-electric-limited-edition-signature": {
+      "displayName": "Paul Reed Smith - Limited Edition Jon Jourdan Signature Electric Guitar with Hardshell Case - Gunmetal Metallic",
+      "brand": "PRS",
+      "model": "Jon Jourdan Electric",
+      "variant": "Limited Edition Signature",
+      "count": 1,
+      "sum": 4292.4,
+      "min": 4292.4,
+      "max": 4292.4,
+      "sightings": [
+        {
+          "price": 4292.4,
+          "date": "2026-07-21T00:55:44.627Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Paul Reed Smith - Limited Edition Jon Jourdan Signature Electric Guitar with Hardshell Case - Gunmetal Metallic",
+          "url": "https://www.long-mcquade.com/512210/Guitars/Electric-Guitars/Paul-Reed-Smith/Limited-Edition-Jon-Jourdan-Signature-Electric-Guitar-with-Hardshell-Case-Gunmetal-Metallic.htm",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 1,
+          "sum": 4292.4,
+          "min": 4292.4,
+          "max": 4292.4,
+          "avg": 4292
+        }
+      },
+      "avg": 4292
+    },
     "prs-jonathan-jourdan-gunmetal-limited": {
       "displayName": "PRS 2026 Jonathan Jourdan Limited Gunmetal Metallic",
       "brand": "PRS",
@@ -54093,12 +54124,12 @@
   },
   "byBrandPrice": {
     "PRS": {
-      "count": 161,
+      "count": 162,
       "min": 595,
       "max": 9995,
       "soldCount": 60,
       "outliersExcluded": 6,
-      "avg": 3490,
+      "avg": 3495,
       "soldAvg": 3374
     },
     "Kramer": {
@@ -56409,9 +56440,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3151,
-      "median": 2515,
-      "count": 238
+      "avg": 3156,
+      "median": 2516,
+      "count": 239
     },
     "06": {
       "name": "Jun",
@@ -56585,7 +56616,7 @@
     "500-1k": 143,
     "1k-2k": 537,
     "2k-3k": 364,
-    "3k-5k": 398,
+    "3k-5k": 399,
     "5k-10k": 215,
     "10k+": 66
   },
@@ -56594,15 +56625,15 @@
     "500-1k": 143,
     "1k-2k": 537,
     "2k-3k": 364,
-    "3k-5k": 398,
+    "3k-5k": 399,
     "5k-10k": 215,
     "10k+": 14
   },
   "daysOnMarket": {
     "PRS": {
       "sum": 4310,
-      "count": 94,
-      "avg": 46
+      "count": 95,
+      "avg": 45
     },
     "Kramer": {
       "sum": 411,
@@ -56640,7 +56671,7 @@
       "avg": 53
     },
     "Suhr": {
-      "sum": 646,
+      "sum": 647,
       "count": 18,
       "avg": 36
     },
@@ -57426,7 +57457,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-21": 1,
+    "2026-07-21": 2,
     "2026-07-20": 27,
     "2026-07-19": 10,
     "2026-07-18": 17,
@@ -57459,11 +57490,11 @@
     "2026-06-21": 18
   },
   "categoryDistribution": {
+    "marketplace": 161,
     "reverb": 1532,
-    "marketplace": 160,
     "other": 113
   },
-  "activeModelsCount": 339,
+  "activeModelsCount": 340,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -57495,7 +57526,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 82
+      "count": 83
     },
     {
       "username": "jazee_",
@@ -57575,10 +57606,10 @@
       "count": 47
     },
     "PRS": {
-      "avgPrice": 4043,
+      "avgPrice": 4044,
       "retailEst": 1000,
-      "avgDiscount": -304.3,
-      "count": 167
+      "avgDiscount": -304.4,
+      "count": 168
     },
     "Ibanez": {
       "avgPrice": 3004,
@@ -62642,20 +62673,20 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1766,
+      "total": 1767,
       "sold": 561,
       "fake": 0,
-      "live": 596,
+      "live": 597,
       "removed": 609,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
       "PRS": {
-        "total": 168,
+        "total": 169,
         "sold": 60,
         "fake": 0,
-        "live": 40,
+        "live": 41,
         "removed": 68,
         "soldPct": 36,
         "livePct": 24
@@ -65109,7 +65140,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 398,
+        "total": 399,
         "sold": 112,
         "rate": 28
       },
@@ -65652,7 +65683,7 @@
       "live": 49,
       "removed": 64,
       "sellRate": 35,
-      "totalDays": 4835.9,
+      "totalDays": 4836.299999999999,
       "soldCount": 61,
       "avgDaysToSell": 79.3
     },
@@ -65727,7 +65758,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 42,
-      "totalDays": 348.3,
+      "totalDays": 348.4,
       "soldCount": 5,
       "avgDaysToSell": 69.7
     },
@@ -66140,9 +66171,9 @@
       "live": 4,
       "removed": 1,
       "sellRate": 38,
-      "totalDays": 291.1,
+      "totalDays": 291.2,
       "soldCount": 3,
-      "avgDaysToSell": 97
+      "avgDaysToSell": 97.1
     },
     "Fender|Fender Masterbuilt": {
       "brand": "Fender",
@@ -66215,7 +66246,7 @@
       "live": 1,
       "removed": 1,
       "sellRate": 60,
-      "totalDays": 304.7,
+      "totalDays": 304.79999999999995,
       "soldCount": 3,
       "avgDaysToSell": 101.6
     },
@@ -66931,9 +66962,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 65.2,
+      "totalDays": 65.3,
       "soldCount": 1,
-      "avgDaysToSell": 65.2
+      "avgDaysToSell": 65.3
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
