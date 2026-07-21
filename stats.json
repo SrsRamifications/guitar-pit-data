@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-21T19:04:18.828Z",
-  "totalLinks": 1812,
-  "totalEver": 2245,
-  "totalBeforeFilter": 2245,
+  "generatedAt": "2026-07-21T19:12:52.160Z",
+  "totalLinks": 1813,
+  "totalEver": 2246,
+  "totalBeforeFilter": 2246,
   "fakeCount": 21,
   "removedCount": 656,
-  "totalWithPrice": 1788,
+  "totalWithPrice": 1789,
   "overall": {
-    "count": 1735,
-    "sum": 5018265.64,
+    "count": 1736,
+    "sum": 5019930.64,
     "avg": 2892,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1735,
-    "sum": 5018265.64,
+    "count": 1736,
+    "sum": 5019930.64,
     "avg": 2892,
     "min": 3,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
-    "thresholdHigh": 11499,
+    "thresholdHigh": 11483,
     "thresholdLow": 0,
     "count": 53,
     "items": [
@@ -446,11 +446,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 244,
-      "sum": 762793.01,
+      "count": 245,
+      "sum": 764458.01,
       "min": 300,
       "max": 11000,
-      "avg": 3126
+      "avg": 3120
     },
     "2026-06": {
       "count": 283,
@@ -483,11 +483,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1494,
-      "sum": 4273874.1,
+      "count": 1495,
+      "sum": 4275539.1,
       "min": 33,
       "max": 10933,
-      "avg": 2861
+      "avg": 2860
     },
     "marketplace": {
       "count": 139,
@@ -506,11 +506,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1494,
-      "sum": 4273874.1,
+      "count": 1495,
+      "sum": 4275539.1,
       "min": 33,
       "max": 10933,
-      "avg": 2861
+      "avg": 2860
     },
     "long-mcquade.com": {
       "count": 4,
@@ -780,6 +780,37 @@
     }
   },
   "byModel": {
+    "nash-t-63-light-medium": {
+      "displayName": "Nash T-63 light / medium relic, lake placid blue",
+      "brand": "Nash",
+      "model": "T-63 light medium",
+      "variant": null,
+      "count": 1,
+      "sum": 1665,
+      "min": 1665,
+      "max": 1665,
+      "sightings": [
+        {
+          "price": 1665,
+          "date": "2026-07-21T19:12:37.758Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Nash T-63 light / medium relic, lake placid blue",
+          "url": "https://reverb.com/item/98668078",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1665,
+          "min": 1665,
+          "max": 1665,
+          "avg": 1665
+        }
+      },
+      "avg": 1665
+    },
     "prs-swamp-ash-special": {
       "displayName": "PRS Swamp Ash Special 2024 - Iris Blue",
       "brand": "PRS",
@@ -7620,7 +7651,7 @@
       "sightings": [
         {
           "price": 5758,
-          "date": "2026-07-11T08:15:22.963Z",
+          "date": "2026-07-11T08:15:22.963+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "TOM ANDERSON USA Guitar works Angel Player \"Arctic White + Rosewood\" (2025)",
@@ -54303,6 +54334,15 @@
     }
   },
   "byBrandPrice": {
+    "Nash": {
+      "count": 14,
+      "min": 1500,
+      "max": 2300,
+      "soldCount": 8,
+      "outliersExcluded": 0,
+      "avg": 1884,
+      "soldAvg": 1781
+    },
     "PRS": {
       "count": 164,
       "min": 595,
@@ -54959,15 +54999,6 @@
       "outliersExcluded": 0,
       "avg": 891,
       "soldAvg": 1100
-    },
-    "Nash": {
-      "count": 13,
-      "min": 1500,
-      "max": 2300,
-      "soldCount": 8,
-      "outliersExcluded": 0,
-      "avg": 1901,
-      "soldAvg": 1781
     },
     "Kauer": {
       "count": 2,
@@ -56483,6 +56514,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 507,
+      "sum": 1815118.56,
+      "sold": {
+        "count": 165,
+        "sum": 370647.17999999993,
+        "avg": 2246,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3580,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 643,
       "sum": 2766981.8700000024,
@@ -56496,20 +56541,6 @@
       "avg": 4303,
       "min": 269,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 506,
-      "sum": 1813453.56,
-      "sold": {
-        "count": 165,
-        "sum": 370647.17999999993,
-        "avg": 2246,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3584,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 188,
@@ -56629,9 +56660,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3126,
-      "median": 2507,
-      "count": 244
+      "avg": 3120,
+      "median": 2500,
+      "count": 245
     },
     "06": {
       "name": "Jun",
@@ -56803,7 +56834,7 @@
   "priceDistribution": {
     "0-500": 58,
     "500-1k": 146,
-    "1k-2k": 537,
+    "1k-2k": 538,
     "2k-3k": 364,
     "3k-5k": 401,
     "5k-10k": 215,
@@ -56812,13 +56843,18 @@
   "priceDistributionFiltered": {
     "0-500": 58,
     "500-1k": 146,
-    "1k-2k": 537,
+    "1k-2k": 538,
     "2k-3k": 364,
     "3k-5k": 401,
     "5k-10k": 215,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Nash": {
+      "sum": 394,
+      "count": 9,
+      "avg": 44
+    },
     "PRS": {
       "sum": 4401,
       "count": 97,
@@ -56880,7 +56916,7 @@
       "avg": 54
     },
     "Gibson": {
-      "sum": 4964,
+      "sum": 4965,
       "count": 98,
       "avg": 51
     },
@@ -57025,7 +57061,7 @@
       "avg": 56
     },
     "Epiphone": {
-      "sum": 365,
+      "sum": 366,
       "count": 7,
       "avg": 52
     },
@@ -57143,11 +57179,6 @@
       "sum": 17,
       "count": 1,
       "avg": 17
-    },
-    "Nash": {
-      "sum": 394,
-      "count": 8,
-      "avg": 49
     },
     "Kauer": {
       "sum": 41,
@@ -57641,7 +57672,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-21": 8,
+    "2026-07-21": 9,
     "2026-07-20": 27,
     "2026-07-19": 10,
     "2026-07-18": 17,
@@ -57674,11 +57705,11 @@
     "2026-06-21": 6
   },
   "categoryDistribution": {
-    "reverb": 1537,
+    "reverb": 1538,
     "marketplace": 162,
     "other": 113
   },
-  "activeModelsCount": 335,
+  "activeModelsCount": 336,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -57710,7 +57741,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 85
+      "count": 86
     },
     {
       "username": "jazee_",
@@ -57856,10 +57887,10 @@
       "count": 85
     },
     "Nash": {
-      "avgPrice": 1901,
+      "avgPrice": 1884,
       "retailEst": 1500,
-      "avgDiscount": -26.7,
-      "count": 13
+      "avgDiscount": -25.6,
+      "count": 14
     },
     "Knaggs": {
       "avgPrice": 3793,
@@ -62865,15 +62896,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1773,
+      "total": 1774,
       "sold": 562,
       "fake": 0,
-      "live": 599,
+      "live": 600,
       "removed": 612,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
+      "Nash": {
+        "total": 14,
+        "sold": 8,
+        "fake": 0,
+        "live": 3,
+        "removed": 3,
+        "soldPct": 57,
+        "livePct": 21
+      },
       "PRS": {
         "total": 171,
         "sold": 60,
@@ -63584,15 +63624,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 0
-      },
-      "Nash": {
-        "total": 13,
-        "sold": 8,
-        "fake": 0,
-        "live": 2,
-        "removed": 3,
-        "soldPct": 62,
-        "livePct": 15
       },
       "Kauer": {
         "total": 2,
@@ -65186,13 +65217,6 @@
         "soldPct": 63
       },
       {
-        "brand": "Nash",
-        "total": 13,
-        "sold": 8,
-        "live": 2,
-        "soldPct": 62
-      },
-      {
         "brand": "Music Man",
         "total": 30,
         "sold": 18,
@@ -65212,6 +65236,13 @@
         "sold": 7,
         "live": 2,
         "soldPct": 58
+      },
+      {
+        "brand": "Nash",
+        "total": 14,
+        "sold": 8,
+        "live": 3,
+        "soldPct": 57
       },
       {
         "brand": "Framus",
@@ -65329,7 +65360,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 537,
+        "total": 538,
         "sold": 194,
         "rate": 36
       },
@@ -65359,15 +65390,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 507,
+        "sold": 167,
+        "rate": 33
+      },
       "Excellent": {
         "total": 643,
         "sold": 224,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 506,
-        "sold": 167,
-        "rate": 33
       },
       "Good": {
         "total": 188,
@@ -65517,18 +65548,18 @@
         "sold": 2
       },
       {
-        "brand": "Nash",
-        "avgPrice": 1901,
-        "sellRate": 62,
-        "count": 13,
-        "sold": 8
-      },
-      {
         "brand": "Grosh",
         "avgPrice": 2073,
         "sellRate": 60,
         "count": 5,
         "sold": 3
+      },
+      {
+        "brand": "Nash",
+        "avgPrice": 1884,
+        "sellRate": 57,
+        "count": 14,
+        "sold": 8
       },
       {
         "brand": "Eastman",
@@ -65624,6 +65655,25 @@
     ]
   },
   "byBrandLine": {
+    "Nash|Nash": {
+      "brand": "Nash",
+      "brandLine": "Nash",
+      "tier": "premium",
+      "count": 14,
+      "sum": 26376.15,
+      "avg": 1884,
+      "min": 1500,
+      "max": 2300,
+      "sold": 8,
+      "soldSum": 14245,
+      "soldAvg": 1781,
+      "live": 3,
+      "removed": 3,
+      "sellRate": 57,
+      "totalDays": 473.79999999999995,
+      "soldCount": 8,
+      "avgDaysToSell": 59.2
+    },
     "PRS|PRS SE": {
       "brand": "PRS",
       "brandLine": "PRS SE",
@@ -65639,7 +65689,7 @@
       "live": 3,
       "removed": 0,
       "sellRate": 40,
-      "totalDays": 72.1,
+      "totalDays": 72.2,
       "soldCount": 2,
       "avgDaysToSell": 36.1
     },
@@ -65658,7 +65708,7 @@
       "live": 24,
       "removed": 57,
       "sellRate": 37,
-      "totalDays": 3735.1,
+      "totalDays": 3735.5000000000005,
       "soldCount": 48,
       "avgDaysToSell": 77.8
     },
@@ -65677,7 +65727,7 @@
       "live": 34,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 2395.6000000000004,
+      "totalDays": 2395.7000000000003,
       "soldCount": 30,
       "avgDaysToSell": 79.9
     },
@@ -65810,7 +65860,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 167.1,
+      "totalDays": 167.2,
       "soldCount": 3,
       "avgDaysToSell": 55.7
     },
@@ -65866,7 +65916,7 @@
       "live": 5,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 567.4999999999999,
+      "totalDays": 567.5999999999999,
       "soldCount": 12,
       "avgDaysToSell": 47.3
     },
@@ -65923,7 +65973,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 43,
-      "totalDays": 219.9,
+      "totalDays": 220,
       "soldCount": 3,
       "avgDaysToSell": 73.3
     },
@@ -65960,7 +66010,7 @@
       "live": 48,
       "removed": 65,
       "sellRate": 35,
-      "totalDays": 4881.399999999999,
+      "totalDays": 4881.699999999999,
       "soldCount": 61,
       "avgDaysToSell": 80
     },
@@ -66054,7 +66104,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1225.2,
+      "totalDays": 1225.3,
       "soldCount": 11,
       "avgDaysToSell": 111.4
     },
@@ -66167,7 +66217,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 60,
-      "totalDays": 1293.3000000000002,
+      "totalDays": 1293.5000000000002,
       "soldCount": 15,
       "avgDaysToSell": 86.2
     },
@@ -66335,7 +66385,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 440.90000000000003,
+      "totalDays": 441.20000000000005,
       "soldCount": 9,
       "avgDaysToSell": 49
     },
@@ -66657,25 +66707,6 @@
       "soldCount": 1,
       "avgDaysToSell": 107.9
     },
-    "Nash|Nash": {
-      "brand": "Nash",
-      "brandLine": "Nash",
-      "tier": "premium",
-      "count": 13,
-      "sum": 24711.15,
-      "avg": 1901,
-      "min": 1500,
-      "max": 2300,
-      "sold": 8,
-      "soldSum": 14245,
-      "soldAvg": 1781,
-      "live": 2,
-      "removed": 3,
-      "sellRate": 62,
-      "totalDays": 473.79999999999995,
-      "soldCount": 8,
-      "avgDaysToSell": 59.2
-    },
     "Ibanez|Ibanez Sugi": {
       "brand": "Ibanez",
       "brandLine": "Ibanez Sugi",
@@ -66709,9 +66740,9 @@
       "live": 4,
       "removed": 2,
       "sellRate": 14,
-      "totalDays": 64.8,
+      "totalDays": 64.9,
       "soldCount": 1,
-      "avgDaysToSell": 64.8
+      "avgDaysToSell": 64.9
     },
     "Jackson|Jackson Pro": {
       "brand": "Jackson",
@@ -66917,7 +66948,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 211.9,
+      "totalDays": 212,
       "soldCount": 2,
       "avgDaysToSell": 106
     },
@@ -67238,7 +67269,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 173.3,
+      "totalDays": 173.39999999999998,
       "soldCount": 2,
       "avgDaysToSell": 86.7
     },
@@ -67810,9 +67841,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 11,
+      "total": 12,
       "sold": 7,
-      "rate": 64
+      "rate": 58
     },
     {
       "label": "1–5",
@@ -67841,7 +67872,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 707,
+      "total": 708,
       "sold": 202,
       "rate": 29
     },
@@ -67858,7 +67889,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 478,
+      "total": 479,
       "sold": 161,
       "rate": 34
     }
@@ -67866,7 +67897,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 114,
+      "total": 115,
       "sold": 38,
       "rate": 33
     },
