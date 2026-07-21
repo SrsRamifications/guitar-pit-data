@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-21T20:49:19.549Z",
-  "totalLinks": 1816,
-  "totalEver": 2249,
-  "totalBeforeFilter": 2249,
+  "generatedAt": "2026-07-21T20:50:32.187Z",
+  "totalLinks": 1817,
+  "totalEver": 2250,
+  "totalBeforeFilter": 2250,
   "fakeCount": 21,
   "removedCount": 656,
-  "totalWithPrice": 1792,
+  "totalWithPrice": 1793,
   "overall": {
-    "count": 1739,
-    "sum": 5031320.64,
-    "avg": 2893,
+    "count": 1740,
+    "sum": 5036019.64,
+    "avg": 2894,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1739,
-    "sum": 5031320.64,
-    "avg": 2893,
+    "count": 1740,
+    "sum": 5036019.64,
+    "avg": 2894,
     "min": 3,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 11499,
@@ -446,11 +446,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 248,
-      "sum": 775848.01,
+      "count": 249,
+      "sum": 780547.01,
       "min": 300,
       "max": 11000,
-      "avg": 3128
+      "avg": 3135
     },
     "2026-06": {
       "count": 283,
@@ -483,11 +483,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1498,
-      "sum": 4286929.1,
+      "count": 1499,
+      "sum": 4291628.1,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2863
     },
     "marketplace": {
       "count": 139,
@@ -506,11 +506,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1498,
-      "sum": 4286929.1,
+      "count": 1499,
+      "sum": 4291628.1,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2863
     },
     "long-mcquade.com": {
       "count": 4,
@@ -780,6 +780,37 @@
     }
   },
   "byModel": {
+    "collings-city-limits-deluxe": {
+      "displayName": "Collings City Limits Deluxe Pre-Owned",
+      "brand": "Collings",
+      "model": "City Limits Deluxe",
+      "variant": null,
+      "count": 1,
+      "sum": 4699,
+      "min": 4699,
+      "max": 4699,
+      "sightings": [
+        {
+          "price": 4699,
+          "date": "2026-07-21T20:50:17.802Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Collings City Limits Deluxe Pre-Owned",
+          "url": "https://reverb.com/item/99618140",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 4699,
+          "min": 4699,
+          "max": 4699,
+          "avg": 4699
+        }
+      },
+      "avg": 4699
+    },
     "guild-x-79-skyhawk-80s": {
       "displayName": "Guild X-79 SKYHAWK 80s",
       "brand": "Guild",
@@ -54412,6 +54443,15 @@
     }
   },
   "byBrandPrice": {
+    "Collings": {
+      "count": 9,
+      "min": 2850,
+      "max": 8800,
+      "soldCount": 5,
+      "outliersExcluded": 0,
+      "avg": 4824,
+      "soldAvg": 4364
+    },
     "Guild": {
       "count": 11,
       "min": 1095,
@@ -54663,15 +54703,6 @@
       "outliersExcluded": 0,
       "avg": 1339,
       "soldAvg": 1262
-    },
-    "Collings": {
-      "count": 8,
-      "min": 2850,
-      "max": 8800,
-      "soldCount": 5,
-      "outliersExcluded": 0,
-      "avg": 4839,
-      "soldAvg": 4364
     },
     "K-Line": {
       "count": 4,
@@ -56592,6 +56623,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 646,
+      "sum": 2781975.8700000024,
+      "sold": {
+        "count": 218,
+        "sum": 609042.2699999999,
+        "avg": 2794,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4306,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 508,
       "sum": 1816213.56,
@@ -56605,20 +56650,6 @@
       "avg": 3575,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 645,
-      "sum": 2777276.8700000024,
-      "sold": {
-        "count": 218,
-        "sum": 609042.2699999999,
-        "avg": 2794,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4306,
-      "min": 269,
-      "max": 190000
     },
     "Good": {
       "count": 188,
@@ -56738,9 +56769,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3128,
-      "median": 2507,
-      "count": 248
+      "avg": 3135,
+      "median": 2514,
+      "count": 249
     },
     "06": {
       "name": "Jun",
@@ -56914,7 +56945,7 @@
     "500-1k": 146,
     "1k-2k": 539,
     "2k-3k": 364,
-    "3k-5k": 401,
+    "3k-5k": 402,
     "5k-10k": 217,
     "10k+": 67
   },
@@ -56923,11 +56954,16 @@
     "500-1k": 146,
     "1k-2k": 539,
     "2k-3k": 364,
-    "3k-5k": 401,
+    "3k-5k": 402,
     "5k-10k": 217,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Collings": {
+      "sum": 139,
+      "count": 4,
+      "avg": 35
+    },
     "Guild": {
       "sum": 197,
       "count": 5,
@@ -56939,7 +56975,7 @@
       "avg": 50
     },
     "Fender": {
-      "sum": 3620,
+      "sum": 3621,
       "count": 73,
       "avg": 50
     },
@@ -57047,11 +57083,6 @@
       "sum": 2415,
       "count": 47,
       "avg": 51
-    },
-    "Collings": {
-      "sum": 139,
-      "count": 3,
-      "avg": 46
     },
     "K-Line": {
       "sum": 3,
@@ -57750,7 +57781,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-21": 12,
+    "2026-07-21": 13,
     "2026-07-20": 27,
     "2026-07-19": 10,
     "2026-07-18": 17,
@@ -57783,15 +57814,15 @@
     "2026-06-21": 3
   },
   "categoryDistribution": {
-    "reverb": 1541,
+    "reverb": 1542,
     "marketplace": 162,
     "other": 113
   },
-  "activeModelsCount": 335,
+  "activeModelsCount": 336,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 467
+      "count": 468
     },
     {
       "username": "greg1213",
@@ -62974,15 +63005,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1777,
+      "total": 1778,
       "sold": 562,
       "fake": 0,
-      "live": 603,
+      "live": 604,
       "removed": 612,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
+      "Collings": {
+        "total": 9,
+        "sold": 5,
+        "fake": 0,
+        "live": 2,
+        "removed": 2,
+        "soldPct": 56,
+        "livePct": 22
+      },
       "Guild": {
         "total": 11,
         "sold": 2,
@@ -63243,15 +63283,6 @@
         "removed": 7,
         "soldPct": 50,
         "livePct": 18
-      },
-      "Collings": {
-        "total": 8,
-        "sold": 5,
-        "fake": 0,
-        "live": 1,
-        "removed": 2,
-        "soldPct": 63,
-        "livePct": 13
       },
       "K-Line": {
         "total": 4,
@@ -65288,13 +65319,6 @@
         "soldPct": 80
       },
       {
-        "brand": "Collings",
-        "total": 8,
-        "sold": 5,
-        "live": 1,
-        "soldPct": 63
-      },
-      {
         "brand": "Music Man",
         "total": 30,
         "sold": 18,
@@ -65328,6 +65352,13 @@
         "sold": 4,
         "live": 2,
         "soldPct": 57
+      },
+      {
+        "brand": "Collings",
+        "total": 9,
+        "sold": 5,
+        "live": 2,
+        "soldPct": 56
       },
       {
         "brand": "Charvel",
@@ -65450,7 +65481,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 401,
+        "total": 402,
         "sold": 112,
         "rate": 28
       },
@@ -65468,15 +65499,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 646,
+        "sold": 224,
+        "rate": 35
+      },
       "Very Good": {
         "total": 508,
         "sold": 167,
         "rate": 33
-      },
-      "Excellent": {
-        "total": 645,
-        "sold": 224,
-        "rate": 35
       },
       "Good": {
         "total": 188,
@@ -65733,6 +65764,25 @@
     ]
   },
   "byBrandLine": {
+    "Collings|Collings": {
+      "brand": "Collings",
+      "brandLine": "Collings",
+      "tier": "premium",
+      "count": 9,
+      "sum": 43413,
+      "avg": 4824,
+      "min": 2850,
+      "max": 8800,
+      "sold": 5,
+      "soldSum": 21819,
+      "soldAvg": 4364,
+      "live": 2,
+      "removed": 2,
+      "sellRate": 56,
+      "totalDays": 406.50000000000006,
+      "soldCount": 5,
+      "avgDaysToSell": 81.3
+    },
     "Guild|Guild Import": {
       "brand": "Guild",
       "brandLine": "Guild Import",
@@ -65767,7 +65817,7 @@
       "live": 9,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1458.6999999999998,
+      "totalDays": 1458.8,
       "soldCount": 19,
       "avgDaysToSell": 76.8
     },
@@ -65805,7 +65855,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 57,
-      "totalDays": 474.5,
+      "totalDays": 474.6,
       "soldCount": 8,
       "avgDaysToSell": 59.3
     },
@@ -66223,25 +66273,6 @@
       "totalDays": 1225.8999999999999,
       "soldCount": 11,
       "avgDaysToSell": 111.4
-    },
-    "Collings|Collings": {
-      "brand": "Collings",
-      "brandLine": "Collings",
-      "tier": "premium",
-      "count": 8,
-      "sum": 38714,
-      "avg": 4839,
-      "min": 2850,
-      "max": 8800,
-      "sold": 5,
-      "soldSum": 21819,
-      "soldAvg": 4364,
-      "live": 1,
-      "removed": 2,
-      "sellRate": 63,
-      "totalDays": 406.50000000000006,
-      "soldCount": 5,
-      "avgDaysToSell": 81.3
     },
     "K-Line|K-Line": {
       "brand": "K-Line",
@@ -66931,9 +66962,9 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 413.8,
+      "totalDays": 413.90000000000003,
       "soldCount": 3,
-      "avgDaysToSell": 137.9
+      "avgDaysToSell": 138
     },
     "PRS|PRS CE": {
       "brand": "PRS",
@@ -67914,14 +67945,14 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 115
+    "avgShippingCost": 114
   },
   "watcherDemand": [
     {
       "label": "0",
-      "total": 14,
+      "total": 15,
       "sold": 7,
-      "rate": 50
+      "rate": 47
     },
     {
       "label": "1–5",
@@ -67955,14 +67986,14 @@
       "rate": 28
     },
     "off": {
-      "total": 300,
+      "total": 301,
       "sold": 86,
       "rate": 29
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 516,
+      "total": 517,
       "sold": 118,
       "rate": 23
     },
@@ -68148,6 +68179,12 @@
       "rate": 13
     },
     {
+      "state": "IA",
+      "total": 7,
+      "sold": 1,
+      "rate": 14
+    },
+    {
       "state": "KS",
       "total": 7,
       "sold": 1,
@@ -68188,12 +68225,6 @@
       "total": 6,
       "sold": 3,
       "rate": 50
-    },
-    {
-      "state": "IA",
-      "total": 6,
-      "sold": 1,
-      "rate": 17
     },
     {
       "state": "NM",
