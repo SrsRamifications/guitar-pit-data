@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-21T20:34:19.474Z",
-  "totalLinks": 1815,
-  "totalEver": 2248,
-  "totalBeforeFilter": 2248,
+  "generatedAt": "2026-07-21T20:48:44.568Z",
+  "totalLinks": 1816,
+  "totalEver": 2249,
+  "totalBeforeFilter": 2249,
   "fakeCount": 21,
   "removedCount": 656,
-  "totalWithPrice": 1791,
+  "totalWithPrice": 1792,
   "overall": {
-    "count": 1738,
-    "sum": 5030225.64,
-    "avg": 2894,
+    "count": 1739,
+    "sum": 5031320.64,
+    "avg": 2893,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1738,
-    "sum": 5030225.64,
-    "avg": 2894,
+    "count": 1739,
+    "sum": 5031320.64,
+    "avg": 2893,
     "min": 3,
     "max": 11475,
-    "median": 2300
+    "median": 2299.99
   },
   "outliers": {
     "thresholdHigh": 11499,
@@ -446,11 +446,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 247,
-      "sum": 774753.01,
+      "count": 248,
+      "sum": 775848.01,
       "min": 300,
       "max": 11000,
-      "avg": 3137
+      "avg": 3128
     },
     "2026-06": {
       "count": 283,
@@ -483,11 +483,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1497,
-      "sum": 4285834.1,
+      "count": 1498,
+      "sum": 4286929.1,
       "min": 33,
       "max": 10933,
-      "avg": 2863
+      "avg": 2862
     },
     "marketplace": {
       "count": 139,
@@ -506,11 +506,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1497,
-      "sum": 4285834.1,
+      "count": 1498,
+      "sum": 4286929.1,
       "min": 33,
       "max": 10933,
-      "avg": 2863
+      "avg": 2862
     },
     "long-mcquade.com": {
       "count": 4,
@@ -780,6 +780,37 @@
     }
   },
   "byModel": {
+    "guild-x-79-skyhawk-80s": {
+      "displayName": "Guild X-79 SKYHAWK 80s",
+      "brand": "Guild",
+      "model": "X-79 SKYHAWK 80s",
+      "variant": null,
+      "count": 1,
+      "sum": 1095,
+      "min": 1095,
+      "max": 1095,
+      "sightings": [
+        {
+          "price": 1095,
+          "date": "2026-07-21T20:48:30.769Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Guild X-79 SKYHAWK 80s",
+          "url": "https://reverb.com/item/99617999",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1095,
+          "min": 1095,
+          "max": 1095,
+          "avg": 1095
+        }
+      },
+      "avg": 1095
+    },
     "gibson-les-paul-custom-shop-59": {
       "displayName": "Gibson M2M Custom Shop '59 Les Paul  _Hand Picked Top _ 2022 - Slow Iced Tea Fade VOS _ Factory Installed Zebra Custombuckers",
       "brand": "Gibson",
@@ -7636,7 +7667,7 @@
       "sightings": [
         {
           "price": 2514,
-          "date": "2026-07-11T15:37:54.990Z",
+          "date": "2026-07-11T15:37:54.99+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Kiesel D6X Delos Mystic Aztec Gold (One-off Finish) Electric Guitar with Hipshot US Contour Tremolo",
@@ -54381,6 +54412,15 @@
     }
   },
   "byBrandPrice": {
+    "Guild": {
+      "count": 11,
+      "min": 1095,
+      "max": 3999.99,
+      "soldCount": 2,
+      "outliersExcluded": 0,
+      "avg": 2042,
+      "soldAvg": 1275
+    },
     "Gibson": {
       "count": 217,
       "min": 135,
@@ -55118,15 +55158,6 @@
       "outliersExcluded": 0,
       "avg": 1221,
       "soldAvg": null
-    },
-    "Guild": {
-      "count": 10,
-      "min": 1200,
-      "max": 3999.99,
-      "soldCount": 2,
-      "outliersExcluded": 0,
-      "avg": 2137,
-      "soldAvg": 1275
     },
     "Gretsch": {
       "count": 14,
@@ -56561,6 +56592,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 508,
+      "sum": 1816213.56,
+      "sold": {
+        "count": 165,
+        "sum": 370647.17999999993,
+        "avg": 2246,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3575,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 645,
       "sum": 2777276.8700000024,
@@ -56574,20 +56619,6 @@
       "avg": 4306,
       "min": 269,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 507,
-      "sum": 1815118.56,
-      "sold": {
-        "count": 165,
-        "sum": 370647.17999999993,
-        "avg": 2246,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3580,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 188,
@@ -56707,9 +56738,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3137,
-      "median": 2514,
-      "count": 247
+      "avg": 3128,
+      "median": 2507,
+      "count": 248
     },
     "06": {
       "name": "Jun",
@@ -56881,7 +56912,7 @@
   "priceDistribution": {
     "0-500": 58,
     "500-1k": 146,
-    "1k-2k": 538,
+    "1k-2k": 539,
     "2k-3k": 364,
     "3k-5k": 401,
     "5k-10k": 217,
@@ -56890,13 +56921,18 @@
   "priceDistributionFiltered": {
     "0-500": 58,
     "500-1k": 146,
-    "1k-2k": 538,
+    "1k-2k": 539,
     "2k-3k": 364,
     "3k-5k": 401,
     "5k-10k": 217,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Guild": {
+      "sum": 197,
+      "count": 5,
+      "avg": 39
+    },
     "Gibson": {
       "sum": 4966,
       "count": 99,
@@ -56973,7 +57009,7 @@
       "avg": 54
     },
     "BC Rich": {
-      "sum": 3515,
+      "sum": 3516,
       "count": 64,
       "avg": 55
     },
@@ -57133,9 +57169,9 @@
       "avg": 9
     },
     "Charvel": {
-      "sum": 312,
-      "count": 6,
-      "avg": 52
+      "sum": 222,
+      "count": 5,
+      "avg": 44
     },
     "Grosh": {
       "sum": 134,
@@ -57266,11 +57302,6 @@
       "sum": 164,
       "count": 3,
       "avg": 55
-    },
-    "Guild": {
-      "sum": 197,
-      "count": 4,
-      "avg": 49
     },
     "Gretsch": {
       "sum": 296,
@@ -57719,7 +57750,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-21": 11,
+    "2026-07-21": 12,
     "2026-07-20": 27,
     "2026-07-19": 10,
     "2026-07-18": 17,
@@ -57752,15 +57783,15 @@
     "2026-06-21": 3
   },
   "categoryDistribution": {
-    "reverb": 1540,
+    "reverb": 1541,
     "marketplace": 162,
     "other": 113
   },
-  "activeModelsCount": 334,
+  "activeModelsCount": 335,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 466
+      "count": 467
     },
     {
       "username": "greg1213",
@@ -58030,10 +58061,10 @@
       "count": 11
     },
     "Guild": {
-      "avgPrice": 2137,
+      "avgPrice": 2042,
       "retailEst": 800,
-      "avgDiscount": -167.1,
-      "count": 10
+      "avgDiscount": -155.3,
+      "count": 11
     }
   },
   "soldPrices": {
@@ -62943,15 +62974,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1776,
+      "total": 1777,
       "sold": 562,
       "fake": 0,
-      "live": 602,
+      "live": 603,
       "removed": 612,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
+      "Guild": {
+        "total": 11,
+        "sold": 2,
+        "fake": 0,
+        "live": 6,
+        "removed": 3,
+        "soldPct": 18,
+        "livePct": 55
+      },
       "Gibson": {
         "total": 230,
         "sold": 81,
@@ -63743,15 +63783,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 67
-      },
-      "Guild": {
-        "total": 10,
-        "sold": 2,
-        "fake": 0,
-        "live": 5,
-        "removed": 3,
-        "soldPct": 20,
-        "livePct": 50
       },
       "Gretsch": {
         "total": 16,
@@ -65357,18 +65388,18 @@
         "soldPct": 14
       },
       {
+        "brand": "Guild",
+        "total": 11,
+        "sold": 2,
+        "live": 6,
+        "soldPct": 18
+      },
+      {
         "brand": "Anderson",
         "total": 16,
         "sold": 3,
         "live": 5,
         "soldPct": 19
-      },
-      {
-        "brand": "Guild",
-        "total": 10,
-        "sold": 2,
-        "live": 5,
-        "soldPct": 20
       },
       {
         "brand": "Mule",
@@ -65407,7 +65438,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 538,
+        "total": 539,
         "sold": 194,
         "rate": 36
       },
@@ -65437,15 +65468,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 508,
+        "sold": 167,
+        "rate": 33
+      },
       "Excellent": {
         "total": 645,
         "sold": 224,
         "rate": 35
-      },
-      "Very Good": {
-        "total": 507,
-        "sold": 167,
-        "rate": 33
       },
       "Good": {
         "total": 188,
@@ -65702,6 +65733,25 @@
     ]
   },
   "byBrandLine": {
+    "Guild|Guild Import": {
+      "brand": "Guild",
+      "brandLine": "Guild Import",
+      "tier": "budget",
+      "count": 6,
+      "sum": 8647,
+      "avg": 1441,
+      "min": 1095,
+      "max": 1700,
+      "sold": 1,
+      "soldSum": 1349,
+      "soldAvg": 1349,
+      "live": 3,
+      "removed": 2,
+      "sellRate": 17,
+      "totalDays": 96.9,
+      "soldCount": 1,
+      "avgDaysToSell": 96.9
+    },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
       "brandLine": "Gibson Custom Shop",
@@ -65717,7 +65767,7 @@
       "live": 9,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1458.4,
+      "totalDays": 1458.6999999999998,
       "soldCount": 19,
       "avgDaysToSell": 76.8
     },
@@ -65736,7 +65786,7 @@
       "live": 19,
       "removed": 31,
       "sellRate": 38,
-      "totalDays": 2746.8999999999996,
+      "totalDays": 2747.2999999999993,
       "soldCount": 30,
       "avgDaysToSell": 91.6
     },
@@ -65755,7 +65805,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 57,
-      "totalDays": 474.40000000000003,
+      "totalDays": 474.5,
       "soldCount": 8,
       "avgDaysToSell": 59.3
     },
@@ -65793,7 +65843,7 @@
       "live": 24,
       "removed": 57,
       "sellRate": 37,
-      "totalDays": 3738.3,
+      "totalDays": 3738.6000000000004,
       "soldCount": 48,
       "avgDaysToSell": 77.9
     },
@@ -65812,7 +65862,7 @@
       "live": 34,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 2397.5000000000005,
+      "totalDays": 2397.7000000000003,
       "soldCount": 30,
       "avgDaysToSell": 79.9
     },
@@ -65945,7 +65995,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 167.3,
+      "totalDays": 167.39999999999998,
       "soldCount": 3,
       "avgDaysToSell": 55.8
     },
@@ -65964,7 +66014,7 @@
       "live": 6,
       "removed": 11,
       "sellRate": 32,
-      "totalDays": 600.6,
+      "totalDays": 600.8000000000001,
       "soldCount": 8,
       "avgDaysToSell": 75.1
     },
@@ -66001,9 +66051,9 @@
       "live": 5,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 568.0999999999999,
+      "totalDays": 568.3,
       "soldCount": 12,
-      "avgDaysToSell": 47.3
+      "avgDaysToSell": 47.4
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -66020,7 +66070,7 @@
       "live": 14,
       "removed": 15,
       "sellRate": 22,
-      "totalDays": 611.3000000000001,
+      "totalDays": 611.5,
       "soldCount": 8,
       "avgDaysToSell": 76.4
     },
@@ -66039,7 +66089,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 43,
-      "totalDays": 220.1,
+      "totalDays": 220.2,
       "soldCount": 3,
       "avgDaysToSell": 73.4
     },
@@ -66076,7 +66126,7 @@
       "live": 48,
       "removed": 65,
       "sellRate": 35,
-      "totalDays": 4885.400000000001,
+      "totalDays": 4885.900000000001,
       "soldCount": 61,
       "avgDaysToSell": 80.1
     },
@@ -66151,9 +66201,9 @@
       "live": 6,
       "removed": 3,
       "sellRate": 10,
-      "totalDays": 49.7,
+      "totalDays": 49.8,
       "soldCount": 1,
-      "avgDaysToSell": 49.7
+      "avgDaysToSell": 49.8
     },
     "Eastman|Eastman": {
       "brand": "Eastman",
@@ -66170,7 +66220,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1225.6999999999998,
+      "totalDays": 1225.8999999999999,
       "soldCount": 11,
       "avgDaysToSell": 111.4
     },
@@ -66189,7 +66239,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 63,
-      "totalDays": 406.40000000000003,
+      "totalDays": 406.50000000000006,
       "soldCount": 5,
       "avgDaysToSell": 81.3
     },
@@ -66208,7 +66258,7 @@
       "live": 1,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 102.10000000000001,
+      "totalDays": 102.2,
       "soldCount": 2,
       "avgDaysToSell": 51.1
     },
@@ -66227,7 +66277,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 38,
-      "totalDays": 1112,
+      "totalDays": 1112.1000000000001,
       "soldCount": 14,
       "avgDaysToSell": 79.4
     },
@@ -66264,7 +66314,7 @@
       "live": 5,
       "removed": 5,
       "sellRate": 60,
-      "totalDays": 1294.4,
+      "totalDays": 1294.5,
       "soldCount": 15,
       "avgDaysToSell": 86.3
     },
@@ -66320,7 +66370,7 @@
       "live": 14,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 678.1999999999999,
+      "totalDays": 678.3,
       "soldCount": 7,
       "avgDaysToSell": 96.9
     },
@@ -66357,7 +66407,7 @@
       "live": 17,
       "removed": 15,
       "sellRate": 30,
-      "totalDays": 1269.3,
+      "totalDays": 1269.7,
       "soldCount": 14,
       "avgDaysToSell": 90.7
     },
@@ -66376,7 +66426,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 29,
-      "totalDays": 330.6,
+      "totalDays": 330.7,
       "soldCount": 4,
       "avgDaysToSell": 82.7
     },
@@ -66451,9 +66501,9 @@
       "live": 9,
       "removed": 6,
       "sellRate": 21,
-      "totalDays": 436.4,
+      "totalDays": 436.6,
       "soldCount": 4,
-      "avgDaysToSell": 109.1
+      "avgDaysToSell": 109.2
     },
     "James Tyler|James Tyler Studio Elite": {
       "brand": "James Tyler",
@@ -66488,7 +66538,7 @@
       "live": 10,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 777.5,
+      "totalDays": 777.6,
       "soldCount": 11,
       "avgDaysToSell": 70.7
     },
@@ -66563,9 +66613,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 20,
-      "totalDays": 182.8,
+      "totalDays": 182.9,
       "soldCount": 1,
-      "avgDaysToSell": 182.8
+      "avgDaysToSell": 182.9
     },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
@@ -66582,7 +66632,7 @@
       "live": 1,
       "removed": 1,
       "sellRate": 60,
-      "totalDays": 307.2,
+      "totalDays": 307.29999999999995,
       "soldCount": 3,
       "avgDaysToSell": 102.4
     },
@@ -66843,9 +66893,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 80,
-      "totalDays": 293.3,
+      "totalDays": 293.4,
       "soldCount": 4,
-      "avgDaysToSell": 73.3
+      "avgDaysToSell": 73.4
     },
     "Guild|Guild USA": {
       "brand": "Guild",
@@ -66976,7 +67026,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 58,
-      "totalDays": 596.4000000000001,
+      "totalDays": 596.5,
       "soldCount": 7,
       "avgDaysToSell": 85.2
     },
@@ -67033,9 +67083,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 147.89999999999998,
+      "totalDays": 148,
       "soldCount": 2,
-      "avgDaysToSell": 73.9
+      "avgDaysToSell": 74
     },
     "Squier|Squier": {
       "brand": "Squier",
@@ -67052,9 +67102,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 292.29999999999995,
+      "totalDays": 292.4,
       "soldCount": 3,
-      "avgDaysToSell": 97.4
+      "avgDaysToSell": 97.5
     },
     "Ibanez|Ibanez GIO": {
       "brand": "Ibanez",
@@ -67108,9 +67158,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 40.1,
+      "totalDays": 40.2,
       "soldCount": 1,
-      "avgDaysToSell": 40.1
+      "avgDaysToSell": 40.2
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -67203,9 +67253,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 70.5,
+      "totalDays": 70.6,
       "soldCount": 1,
-      "avgDaysToSell": 70.5
+      "avgDaysToSell": 70.6
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -67316,9 +67366,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 173.39999999999998,
+      "totalDays": 173.5,
       "soldCount": 2,
-      "avgDaysToSell": 86.7
+      "avgDaysToSell": 86.8
     },
     "Taylor|Taylor Baby": {
       "brand": "Taylor",
@@ -67375,25 +67425,6 @@
       "totalDays": 97,
       "soldCount": 1,
       "avgDaysToSell": 97
-    },
-    "Guild|Guild Import": {
-      "brand": "Guild",
-      "brandLine": "Guild Import",
-      "tier": "budget",
-      "count": 5,
-      "sum": 7552,
-      "avg": 1510,
-      "min": 1349,
-      "max": 1700,
-      "sold": 1,
-      "soldSum": 1349,
-      "soldAvg": 1349,
-      "live": 2,
-      "removed": 2,
-      "sellRate": 20,
-      "totalDays": 96.9,
-      "soldCount": 1,
-      "avgDaysToSell": 96.9
     },
     "Taylor|Taylor Mexico": {
       "brand": "Taylor",
@@ -67870,9 +67901,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 110.9,
+      "totalDays": 111,
       "soldCount": 1,
-      "avgDaysToSell": 110.9
+      "avgDaysToSell": 111
     }
   },
   "offerActivity": {
@@ -67894,7 +67925,7 @@
     },
     {
       "label": "1–5",
-      "total": 57,
+      "total": 58,
       "sold": 15,
       "rate": 26
     },
@@ -67919,7 +67950,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 709,
+      "total": 710,
       "sold": 202,
       "rate": 28
     },
@@ -67931,7 +67962,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 515,
+      "total": 516,
       "sold": 118,
       "rate": 23
     },
@@ -67968,9 +67999,9 @@
     },
     {
       "state": "FL",
-      "total": 51,
+      "total": 52,
       "sold": 23,
-      "rate": 45
+      "rate": 44
     },
     {
       "state": "WA",
