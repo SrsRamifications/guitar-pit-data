@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-22T17:04:20.980Z",
-  "totalLinks": 1828,
-  "totalEver": 2265,
-  "totalBeforeFilter": 2265,
+  "generatedAt": "2026-07-22T17:18:45.849Z",
+  "totalLinks": 1829,
+  "totalEver": 2266,
+  "totalBeforeFilter": 2266,
   "fakeCount": 21,
-  "removedCount": 659,
-  "totalWithPrice": 1802,
+  "removedCount": 660,
+  "totalWithPrice": 1803,
   "overall": {
-    "count": 1749,
-    "sum": 5056101.64,
-    "avg": 2891,
+    "count": 1750,
+    "sum": 5060601.64,
+    "avg": 2892,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1749,
-    "sum": 5056101.64,
-    "avg": 2891,
+    "count": 1750,
+    "sum": 5060601.64,
+    "avg": 2892,
     "min": 3,
     "max": 11475,
     "median": 2299
@@ -446,11 +446,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 258,
-      "sum": 800676.01,
+      "count": 259,
+      "sum": 805176.01,
       "min": 300,
       "max": 11000,
-      "avg": 3103
+      "avg": 3109
     },
     "2026-06": {
       "count": 283,
@@ -483,11 +483,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1505,
-      "sum": 4306904.1,
+      "count": 1506,
+      "sum": 4311404.1,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2863
     },
     "marketplace": {
       "count": 142,
@@ -506,11 +506,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1505,
-      "sum": 4306904.1,
+      "count": 1506,
+      "sum": 4311404.1,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2863
     },
     "chicagomusicexchange.com": {
       "count": 86,
@@ -780,6 +780,37 @@
     }
   },
   "byModel": {
+    "gibson-crimson-guitars-build": {
+      "displayName": "Crimson Guitars Custom Build One Off Like Gibson",
+      "brand": "Gibson",
+      "model": "Crimson Guitars Build",
+      "variant": null,
+      "count": 1,
+      "sum": 4500,
+      "min": 4500,
+      "max": 4500,
+      "sightings": [
+        {
+          "price": 4500,
+          "date": "2026-07-22T17:18:30.301Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Crimson Guitars Custom Build One Off Like Gibson",
+          "url": "https://reverb.com/item/99644916",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 4500,
+          "min": 4500,
+          "max": 4500,
+          "avg": 4500
+        }
+      },
+      "avg": 4500
+    },
     "jennings-voyager-baritone": {
       "displayName": "Jennings Voyager Baritone - Cream",
       "brand": "Jennings",
@@ -7738,7 +7769,7 @@
       "sightings": [
         {
           "price": 2992,
-          "date": "2026-07-12T14:52:21.994Z",
+          "date": "2026-07-12T14:52:21.994+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Don Grosh Bent Top Custom Transparent Amber 1994'",
@@ -54737,6 +54768,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 219,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 81,
+      "outliersExcluded": 3,
+      "avg": 3587,
+      "soldAvg": 3442
+    },
     "Jennings": {
       "count": 1,
       "min": 1650,
@@ -54799,15 +54839,6 @@
       "outliersExcluded": 0,
       "avg": 1663,
       "soldAvg": 1367
-    },
-    "Gibson": {
-      "count": 218,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 81,
-      "outliersExcluded": 3,
-      "avg": 3583,
-      "soldAvg": 3442
     },
     "Guild": {
       "count": 11,
@@ -56926,6 +56957,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 510,
+      "sum": 1822360.56,
+      "sold": {
+        "count": 165,
+        "sum": 370647.17999999993,
+        "avg": 2246,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3573,
+      "min": 33,
+      "max": 437713.69
+    },
     "Good": {
       "count": 190,
       "sum": 575035.2700000001,
@@ -56978,20 +57023,6 @@
       "avg": 4002,
       "min": 475.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 509,
-      "sum": 1817860.56,
-      "sold": {
-        "count": 165,
-        "sum": 370647.17999999993,
-        "avg": 2246,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3571,
-      "min": 33,
-      "max": 437713.69
     },
     "New": {
       "count": 5,
@@ -57072,9 +57103,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3103,
+      "avg": 3109,
       "median": 2500,
-      "count": 258
+      "count": 259
     },
     "06": {
       "name": "Jun",
@@ -57212,7 +57243,7 @@
       "url": "https://reverb.com/item/83891663",
       "oldPrice": "$3,150",
       "newPrice": "$2,992",
-      "date": "2026-07-21T10:40:15.697Z"
+      "date": "2026-07-21T10:40:15.697+00:00"
     },
     {
       "title": "2019 Kiesel Aries A6X  - Trans Gold Satin",
@@ -57248,7 +57279,7 @@
     "500-1k": 147,
     "1k-2k": 544,
     "2k-3k": 366,
-    "3k-5k": 402,
+    "3k-5k": 403,
     "5k-10k": 218,
     "10k+": 67
   },
@@ -57257,11 +57288,16 @@
     "500-1k": 147,
     "1k-2k": 544,
     "2k-3k": 366,
-    "3k-5k": 402,
+    "3k-5k": 403,
     "5k-10k": 218,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4700,
+      "count": 97,
+      "avg": 48
+    },
     "Jennings": {
       "sum": 5,
       "count": 1,
@@ -57286,11 +57322,6 @@
       "sum": 2272,
       "count": 52,
       "avg": 44
-    },
-    "Gibson": {
-      "sum": 4699,
-      "count": 96,
-      "avg": 49
     },
     "Collings": {
       "sum": 143,
@@ -57693,9 +57724,9 @@
       "avg": 64
     },
     "Strandberg": {
-      "sum": 233,
+      "sum": 234,
       "count": 4,
-      "avg": 58
+      "avg": 59
     },
     "Valley Arts": {
       "sum": 30,
@@ -57718,7 +57749,7 @@
       "avg": 67
     },
     "Hamer": {
-      "sum": 259,
+      "sum": 260,
       "count": 5,
       "avg": 52
     },
@@ -58018,9 +58049,9 @@
       "avg": 80
     },
     "Hohner": {
-      "sum": 80,
+      "sum": 81,
       "count": 1,
-      "avg": 80
+      "avg": 81
     },
     "Lollar": {
       "sum": 82,
@@ -58089,7 +58120,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-22": 7,
+    "2026-07-22": 8,
     "2026-07-21": 17,
     "2026-07-20": 27,
     "2026-07-19": 10,
@@ -58122,15 +58153,15 @@
     "2026-06-22": 5
   },
   "categoryDistribution": {
+    "reverb": 1549,
     "marketplace": 167,
-    "reverb": 1548,
     "other": 113
   },
-  "activeModelsCount": 333,
+  "activeModelsCount": 334,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 470
+      "count": 471
     },
     {
       "username": "greg1213",
@@ -58220,10 +58251,10 @@
       "count": 130
     },
     "Gibson": {
-      "avgPrice": 5677,
+      "avgPrice": 5671,
       "retailEst": 800,
-      "avgDiscount": -609.6,
-      "count": 225
+      "avgDiscount": -608.9,
+      "count": 226
     },
     "Epiphone": {
       "avgPrice": 2113,
@@ -63356,15 +63387,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1787,
+      "total": 1788,
       "sold": 567,
       "fake": 0,
       "live": 605,
-      "removed": 615,
+      "removed": 616,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
+      "Gibson": {
+        "total": 232,
+        "sold": 82,
+        "fake": 0,
+        "live": 62,
+        "removed": 88,
+        "soldPct": 35,
+        "livePct": 27
+      },
       "Jennings": {
         "total": 1,
         "sold": 0,
@@ -63405,10 +63445,10 @@
         "total": 4,
         "sold": 3,
         "fake": 0,
-        "live": 1,
-        "removed": 0,
+        "live": 0,
+        "removed": 1,
         "soldPct": 75,
-        "livePct": 25
+        "livePct": 0
       },
       "Collings": {
         "total": 10,
@@ -63427,15 +63467,6 @@
         "removed": 20,
         "soldPct": 36,
         "livePct": 41
-      },
-      "Gibson": {
-        "total": 231,
-        "sold": 82,
-        "fake": 0,
-        "live": 61,
-        "removed": 88,
-        "soldPct": 35,
-        "livePct": 26
       },
       "Guild": {
         "total": 11,
@@ -65841,7 +65872,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 402,
+        "total": 403,
         "sold": 113,
         "rate": 28
       },
@@ -65859,6 +65890,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 510,
+        "sold": 167,
+        "rate": 33
+      },
       "Good": {
         "total": 190,
         "sold": 66,
@@ -65878,11 +65914,6 @@
         "total": 79,
         "sold": 29,
         "rate": 37
-      },
-      "Very Good": {
-        "total": 509,
-        "sold": 167,
-        "rate": 33
       },
       "New": {
         "total": 5,
@@ -66103,6 +66134,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 176,
+      "sum": 973738.0399999998,
+      "avg": 5533,
+      "min": 135,
+      "max": 437713.69,
+      "sold": 62,
+      "soldSum": 177808.96,
+      "soldAvg": 2868,
+      "live": 49,
+      "removed": 65,
+      "sellRate": 35,
+      "totalDays": 4937.499999999999,
+      "soldCount": 62,
+      "avgDaysToSell": 79.6
+    },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
       "brandLine": "Music Man USA",
@@ -66118,9 +66168,9 @@
       "live": 6,
       "removed": 5,
       "sellRate": 58,
-      "totalDays": 1307.1999999999998,
+      "totalDays": 1307.3,
       "soldCount": 15,
-      "avgDaysToSell": 87.1
+      "avgDaysToSell": 87.2
     },
     "Caparison|Caparison": {
       "brand": "Caparison",
@@ -66134,8 +66184,8 @@
       "sold": 3,
       "soldSum": 6195,
       "soldAvg": 2065,
-      "live": 1,
-      "removed": 0,
+      "live": 0,
+      "removed": 1,
       "sellRate": 75,
       "totalDays": 103.4,
       "soldCount": 3,
@@ -66156,9 +66206,9 @@
       "live": 3,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 410.70000000000005,
+      "totalDays": 410.79999999999995,
       "soldCount": 5,
-      "avgDaysToSell": 82.1
+      "avgDaysToSell": 82.2
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -66175,28 +66225,9 @@
       "live": 35,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 2422.3999999999996,
+      "totalDays": 2422.8,
       "soldCount": 30,
-      "avgDaysToSell": 80.7
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 175,
-      "sum": 969238.0399999998,
-      "avg": 5539,
-      "min": 135,
-      "max": 437713.69,
-      "sold": 62,
-      "soldSum": 177808.96,
-      "soldAvg": 2868,
-      "live": 48,
-      "removed": 65,
-      "sellRate": 35,
-      "totalDays": 4936.8,
-      "soldCount": 62,
-      "avgDaysToSell": 79.6
+      "avgDaysToSell": 80.8
     },
     "Guild|Guild Import": {
       "brand": "Guild",
@@ -66251,7 +66282,7 @@
       "live": 19,
       "removed": 31,
       "sellRate": 38,
-      "totalDays": 2772.9,
+      "totalDays": 2773,
       "soldCount": 30,
       "avgDaysToSell": 92.4
     },
@@ -66308,7 +66339,7 @@
       "live": 24,
       "removed": 57,
       "sellRate": 37,
-      "totalDays": 3779.0999999999995,
+      "totalDays": 3779.5999999999995,
       "soldCount": 48,
       "avgDaysToSell": 78.7
     },
@@ -66422,9 +66453,9 @@
       "live": 6,
       "removed": 3,
       "sellRate": 10,
-      "totalDays": 332.9,
+      "totalDays": 333,
       "soldCount": 1,
-      "avgDaysToSell": 332.9
+      "avgDaysToSell": 333
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -66460,7 +66491,7 @@
       "live": 6,
       "removed": 11,
       "sellRate": 32,
-      "totalDays": 607.3,
+      "totalDays": 607.4,
       "soldCount": 8,
       "avgDaysToSell": 75.9
     },
@@ -66497,7 +66528,7 @@
       "live": 5,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 578.4,
+      "totalDays": 578.7,
       "soldCount": 12,
       "avgDaysToSell": 48.2
     },
@@ -66647,7 +66678,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1235.2,
+      "totalDays": 1235.3,
       "soldCount": 11,
       "avgDaysToSell": 112.3
     },
@@ -66685,7 +66716,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 38,
-      "totalDays": 1124.2,
+      "totalDays": 1124.3999999999999,
       "soldCount": 14,
       "avgDaysToSell": 80.3
     },
@@ -66740,9 +66771,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 45,
-      "totalDays": 443.1,
+      "totalDays": 443.29999999999995,
       "soldCount": 5,
-      "avgDaysToSell": 88.6
+      "avgDaysToSell": 88.7
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -66759,7 +66790,7 @@
       "live": 14,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 683.1,
+      "totalDays": 683.1999999999999,
       "soldCount": 7,
       "avgDaysToSell": 97.6
     },
@@ -66815,7 +66846,7 @@
       "live": 4,
       "removed": 6,
       "sellRate": 29,
-      "totalDays": 333.9,
+      "totalDays": 334.1,
       "soldCount": 4,
       "avgDaysToSell": 83.5
     },
@@ -66927,7 +66958,7 @@
       "live": 10,
       "removed": 8,
       "sellRate": 38,
-      "totalDays": 786.8,
+      "totalDays": 787,
       "soldCount": 11,
       "avgDaysToSell": 71.5
     },
@@ -67078,7 +67109,7 @@
       "live": 4,
       "removed": 8,
       "sellRate": 20,
-      "totalDays": 99.8,
+      "totalDays": 99.9,
       "soldCount": 3,
       "avgDaysToSell": 33.3
     },
@@ -67115,9 +67146,9 @@
       "live": 3,
       "removed": 0,
       "sellRate": 40,
-      "totalDays": 105.7,
+      "totalDays": 105.89999999999999,
       "soldCount": 2,
-      "avgDaysToSell": 52.9
+      "avgDaysToSell": 53
     },
     "Parker|Parker Fly Mojo": {
       "brand": "Parker",
@@ -67170,9 +67201,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 29.6,
+      "totalDays": 29.7,
       "soldCount": 1,
-      "avgDaysToSell": 29.6
+      "avgDaysToSell": 29.7
     },
     "Ovation|Ovation Import": {
       "brand": "Ovation",
@@ -67434,9 +67465,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 213.8,
+      "totalDays": 213.9,
       "soldCount": 2,
-      "avgDaysToSell": 106.9
+      "avgDaysToSell": 107
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -67774,9 +67805,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 127.1,
+      "totalDays": 127.2,
       "soldCount": 1,
-      "avgDaysToSell": 127.1
+      "avgDaysToSell": 127.2
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -68141,9 +68172,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 102.1,
+      "totalDays": 102.2,
       "soldCount": 1,
-      "avgDaysToSell": 102.1
+      "avgDaysToSell": 102.2
     },
     "Gibson|Rickenbacker": {
       "brand": "Gibson",
@@ -68289,9 +68320,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 11,
+      "total": 12,
       "sold": 7,
-      "rate": 64
+      "rate": 58
     },
     {
       "label": "1–5",
@@ -68320,7 +68351,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 714,
+      "total": 715,
       "sold": 204,
       "rate": 29
     },
@@ -68337,7 +68368,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 483,
+      "total": 484,
       "sold": 163,
       "rate": 34
     }
@@ -68458,16 +68489,16 @@
       "rate": 29
     },
     {
+      "state": "AZ",
+      "total": 13,
+      "sold": 2,
+      "rate": 15
+    },
+    {
       "state": "GA",
       "total": 13,
       "sold": 5,
       "rate": 38
-    },
-    {
-      "state": "AZ",
-      "total": 12,
-      "sold": 2,
-      "rate": 17
     },
     {
       "state": "VA",
