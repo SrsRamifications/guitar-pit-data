@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-23T00:39:48.361Z",
-  "totalLinks": 1832,
-  "totalEver": 2270,
-  "totalBeforeFilter": 2270,
+  "generatedAt": "2026-07-23T00:49:26.967Z",
+  "totalLinks": 1833,
+  "totalEver": 2271,
+  "totalBeforeFilter": 2271,
   "fakeCount": 21,
   "removedCount": 664,
-  "totalWithPrice": 1808,
+  "totalWithPrice": 1809,
   "overall": {
-    "count": 1754,
-    "sum": 5071632.45,
+    "count": 1755,
+    "sum": 5072982.45,
     "avg": 2891,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1754,
-    "sum": 5071632.45,
+    "count": 1755,
+    "sum": 5072982.45,
     "avg": 2891,
     "min": 3,
     "max": 11475,
-    "median": 2300
+    "median": 2299.99
   },
   "outliers": {
     "thresholdHigh": 11499,
@@ -454,11 +454,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 262,
-      "sum": 819129.01,
+      "count": 263,
+      "sum": 820479.01,
       "min": 300,
       "max": 11000,
-      "avg": 3126
+      "avg": 3120
     },
     "2026-06": {
       "count": 283,
@@ -491,11 +491,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1511,
-      "sum": 4324134.9,
+      "count": 1512,
+      "sum": 4325484.9,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2861
     },
     "marketplace": {
       "count": 142,
@@ -514,11 +514,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1511,
-      "sum": 4324134.9,
+      "count": 1512,
+      "sum": 4325484.9,
       "min": 33,
       "max": 10933,
-      "avg": 2862
+      "avg": 2861
     },
     "chicagomusicexchange.com": {
       "count": 86,
@@ -788,6 +788,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-traditional": {
+      "displayName": "Gibson Les Paul Traditional Pro 2011 - Cherry Red",
+      "brand": "Gibson",
+      "model": "Les Paul Traditional",
+      "variant": null,
+      "count": 1,
+      "sum": 1350,
+      "min": 1350,
+      "max": 1350,
+      "sightings": [
+        {
+          "price": 1350,
+          "date": "2026-07-23T00:49:13.621Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Les Paul Traditional Pro 2011 - Cherry Red",
+          "url": "https://reverb.com/item/99436212",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1350,
+          "min": 1350,
+          "max": 1350,
+          "avg": 1350
+        }
+      },
+      "avg": 1350
+    },
     "esp-flying-v": {
       "displayName": "ESP Flying V 2014 - Blue",
       "brand": "ESP",
@@ -4663,7 +4694,7 @@
         },
         {
           "price": 2599,
-          "date": "2026-07-12T16:46:31.501Z",
+          "date": "2026-07-12T16:46:31.501+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Suhr Pete Thorn SS Standard Signature Guitar with Case - Garnet Red",
@@ -54970,6 +55001,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 219,
+      "min": 135,
+      "max": 11099,
+      "soldCount": 80,
+      "outliersExcluded": 3,
+      "avg": 3573,
+      "soldAvg": 3429
+    },
     "ESP": {
       "count": 45,
       "min": 825,
@@ -55005,15 +55045,6 @@
       "outliersExcluded": 5,
       "avg": 2276,
       "soldAvg": 2233
-    },
-    "Gibson": {
-      "count": 218,
-      "min": 135,
-      "max": 11099,
-      "soldCount": 80,
-      "outliersExcluded": 3,
-      "avg": 3583,
-      "soldAvg": 3429
     },
     "Jennings": {
       "count": 1,
@@ -57169,8 +57200,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 515,
-      "sum": 1839758.56,
+      "count": 516,
+      "sum": 1841108.56,
       "sold": {
         "count": 166,
         "sum": 371597.17999999993,
@@ -57178,7 +57209,7 @@
         "min": 68,
         "max": 10800
       },
-      "avg": 3572,
+      "avg": 3568,
       "min": 33,
       "max": 437713.69
     },
@@ -57314,9 +57345,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3126,
+      "avg": 3120,
       "median": 2500,
-      "count": 262
+      "count": 263
     },
     "06": {
       "name": "Jun",
@@ -57488,7 +57519,7 @@
   "priceDistribution": {
     "0-500": 59,
     "500-1k": 148,
-    "1k-2k": 543,
+    "1k-2k": 544,
     "2k-3k": 367,
     "3k-5k": 404,
     "5k-10k": 219,
@@ -57497,13 +57528,18 @@
   "priceDistributionFiltered": {
     "0-500": 59,
     "500-1k": 148,
-    "1k-2k": 543,
+    "1k-2k": 544,
     "2k-3k": 367,
     "3k-5k": 404,
     "5k-10k": 219,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4617,
+      "count": 97,
+      "avg": 48
+    },
     "ESP": {
       "sum": 1004,
       "count": 22,
@@ -57520,14 +57556,9 @@
       "avg": 0
     },
     "Ibanez": {
-      "sum": 2341,
+      "sum": 2342,
       "count": 46,
       "avg": 51
-    },
-    "Gibson": {
-      "sum": 4617,
-      "count": 96,
-      "avg": 48
     },
     "Jennings": {
       "sum": 5,
@@ -57645,7 +57676,7 @@
       "avg": 45
     },
     "Aristides": {
-      "sum": 302,
+      "sum": 303,
       "count": 7,
       "avg": 43
     },
@@ -58331,7 +58362,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-23": 2,
+    "2026-07-23": 3,
     "2026-07-22": 10,
     "2026-07-21": 17,
     "2026-07-20": 26,
@@ -58364,15 +58395,15 @@
     "2026-06-23": 13
   },
   "categoryDistribution": {
-    "reverb": 1554,
+    "reverb": 1555,
     "marketplace": 167,
     "other": 111
   },
-  "activeModelsCount": 334,
+  "activeModelsCount": 335,
   "topPosters": [
     {
       "username": "theguitarpit",
-      "count": 473
+      "count": 474
     },
     {
       "username": "greg1213",
@@ -58462,10 +58493,10 @@
       "count": 131
     },
     "Gibson": {
-      "avgPrice": 5677,
+      "avgPrice": 5657,
       "retailEst": 800,
-      "avgDiscount": -609.6,
-      "count": 225
+      "avgDiscount": -607.2,
+      "count": 226
     },
     "Epiphone": {
       "avgPrice": 2113,
@@ -63612,15 +63643,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1792,
+      "total": 1793,
       "sold": 567,
       "fake": 0,
-      "live": 606,
+      "live": 607,
       "removed": 619,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
+      "Gibson": {
+        "total": 232,
+        "sold": 81,
+        "fake": 0,
+        "live": 62,
+        "removed": 89,
+        "soldPct": 35,
+        "livePct": 27
+      },
       "ESP": {
         "total": 48,
         "sold": 12,
@@ -63656,15 +63696,6 @@
         "removed": 24,
         "soldPct": 35,
         "livePct": 38
-      },
-      "Gibson": {
-        "total": 231,
-        "sold": 81,
-        "fake": 0,
-        "live": 61,
-        "removed": 89,
-        "soldPct": 35,
-        "livePct": 26
       },
       "Jennings": {
         "total": 1,
@@ -66094,7 +66125,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 543,
+        "total": 544,
         "sold": 195,
         "rate": 36
       },
@@ -66125,7 +66156,7 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 515,
+        "total": 516,
         "sold": 168,
         "rate": 33
       },
@@ -66368,6 +66399,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 176,
+      "sum": 970590.0399999998,
+      "avg": 5515,
+      "min": 135,
+      "max": 437713.69,
+      "sold": 61,
+      "soldSum": 173310.96,
+      "soldAvg": 2841,
+      "live": 49,
+      "removed": 66,
+      "sellRate": 35,
+      "totalDays": 4837.099999999999,
+      "soldCount": 61,
+      "avgDaysToSell": 79.3
+    },
     "ESP|ESP USA": {
       "brand": "ESP",
       "brandLine": "ESP USA",
@@ -66425,25 +66475,6 @@
       "soldCount": 11,
       "avgDaysToSell": 71.9
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 175,
-      "sum": 969240.0399999998,
-      "avg": 5539,
-      "min": 135,
-      "max": 437713.69,
-      "sold": 61,
-      "soldSum": 173310.96,
-      "soldAvg": 2841,
-      "live": 48,
-      "removed": 66,
-      "sellRate": 35,
-      "totalDays": 4836.599999999999,
-      "soldCount": 61,
-      "avgDaysToSell": 79.3
-    },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
       "brandLine": "Music Man USA",
@@ -66459,7 +66490,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 58,
-      "totalDays": 1312.0000000000002,
+      "totalDays": 1312.2,
       "soldCount": 15,
       "avgDaysToSell": 87.5
     },
@@ -66516,7 +66547,7 @@
       "live": 35,
       "removed": 19,
       "sellRate": 36,
-      "totalDays": 2431.7000000000007,
+      "totalDays": 2431.8000000000006,
       "soldCount": 30,
       "avgDaysToSell": 81.1
     },
@@ -66554,7 +66585,7 @@
       "live": 9,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1480.7,
+      "totalDays": 1480.8,
       "soldCount": 19,
       "avgDaysToSell": 77.9
     },
@@ -66573,9 +66604,9 @@
       "live": 19,
       "removed": 32,
       "sellRate": 37,
-      "totalDays": 2782.2,
+      "totalDays": 2782.5,
       "soldCount": 30,
-      "avgDaysToSell": 92.7
+      "avgDaysToSell": 92.8
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -66630,9 +66661,9 @@
       "live": 24,
       "removed": 57,
       "sellRate": 37,
-      "totalDays": 3794.2999999999997,
+      "totalDays": 3794.8999999999996,
       "soldCount": 48,
-      "avgDaysToSell": 79
+      "avgDaysToSell": 79.1
     },
     "Chapman|Chapman": {
       "brand": "Chapman",
@@ -66687,7 +66718,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 366.8,
+      "totalDays": 366.9,
       "soldCount": 4,
       "avgDaysToSell": 91.7
     },
@@ -66725,9 +66756,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 106,
+      "totalDays": 106.2,
       "soldCount": 2,
-      "avgDaysToSell": 53
+      "avgDaysToSell": 53.1
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -67043,7 +67074,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 45,
-      "totalDays": 444.8,
+      "totalDays": 444.9,
       "soldCount": 5,
       "avgDaysToSell": 89
     },
@@ -67099,7 +67130,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 30,
-      "totalDays": 1285.5000000000002,
+      "totalDays": 1285.7,
       "soldCount": 14,
       "avgDaysToSell": 91.8
     },
@@ -67174,7 +67205,7 @@
       "live": 9,
       "removed": 6,
       "sellRate": 21,
-      "totalDays": 441.09999999999997,
+      "totalDays": 441.2,
       "soldCount": 4,
       "avgDaysToSell": 110.3
     },
@@ -67343,7 +67374,7 @@
       "live": 4,
       "removed": 8,
       "sellRate": 20,
-      "totalDays": 100.5,
+      "totalDays": 100.6,
       "soldCount": 3,
       "avgDaysToSell": 33.5
     },
@@ -67604,9 +67635,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 20,
-      "totalDays": 28,
+      "totalDays": 28.1,
       "soldCount": 1,
-      "avgDaysToSell": 28
+      "avgDaysToSell": 28.1
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -67831,7 +67862,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 159.3,
+      "totalDays": 159.39999999999998,
       "soldCount": 2,
       "avgDaysToSell": 79.7
     },
@@ -68296,9 +68327,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 100,
+      "totalDays": 100.1,
       "soldCount": 1,
-      "avgDaysToSell": 100
+      "avgDaysToSell": 100.1
     },
     "Powers Electric|Rickenbacker": {
       "brand": "Powers Electric",
@@ -68560,7 +68591,7 @@
     },
     {
       "label": "1–5",
-      "total": 59,
+      "total": 60,
       "sold": 15,
       "rate": 25
     },
@@ -68585,7 +68616,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 719,
+      "total": 720,
       "sold": 204,
       "rate": 28
     },
@@ -68602,7 +68633,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 485,
+      "total": 486,
       "sold": 163,
       "rate": 34
     }
@@ -68675,16 +68706,16 @@
       "rate": 26
     },
     {
+      "state": "NJ",
+      "total": 22,
+      "sold": 8,
+      "rate": 36
+    },
+    {
       "state": "OH",
       "total": 22,
       "sold": 5,
       "rate": 23
-    },
-    {
-      "state": "NJ",
-      "total": 21,
-      "sold": 8,
-      "rate": 38
     },
     {
       "state": "MA",
