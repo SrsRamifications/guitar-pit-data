@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-23T17:12:57.508Z",
-  "totalLinks": 1840,
-  "totalEver": 2284,
-  "totalBeforeFilter": 2284,
+  "generatedAt": "2026-07-23T17:15:14.756Z",
+  "totalLinks": 1841,
+  "totalEver": 2285,
+  "totalBeforeFilter": 2285,
   "fakeCount": 21,
   "removedCount": 664,
-  "totalWithPrice": 1816,
+  "totalWithPrice": 1817,
   "overall": {
-    "count": 1762,
-    "sum": 5097368.44,
-    "avg": 2893,
+    "count": 1763,
+    "sum": 5106368.44,
+    "avg": 2896,
     "min": 3,
     "max": 11475
   },
   "filtered": {
-    "count": 1762,
-    "sum": 5097368.44,
-    "avg": 2893,
+    "count": 1763,
+    "sum": 5106368.44,
+    "avg": 2896,
     "min": 3,
     "max": 11475,
-    "median": 2299
+    "median": 2299.99
   },
   "outliers": {
     "thresholdHigh": 11499,
@@ -454,11 +454,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 270,
-      "sum": 844895,
+      "count": 271,
+      "sum": 853895,
       "min": 59.99,
       "max": 11000,
-      "avg": 3129
+      "avg": 3151
     },
     "2026-06": {
       "count": 283,
@@ -491,11 +491,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1518,
-      "sum": 4349810.9,
+      "count": 1519,
+      "sum": 4358810.9,
       "min": 33,
       "max": 10933,
-      "avg": 2865
+      "avg": 2870
     },
     "marketplace": {
       "count": 143,
@@ -514,11 +514,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1518,
-      "sum": 4349810.9,
+      "count": 1519,
+      "sum": 4358810.9,
       "min": 33,
       "max": 10933,
-      "avg": 2865
+      "avg": 2870
     },
     "gibson.com": {
       "count": 3,
@@ -788,6 +788,37 @@
     }
   },
   "byModel": {
+    "fender-jaguar-custom-shop-masterbuilt": {
+      "displayName": "Fender Custom Shop Jaguar  NAMM 2019  Showpiece Masterbuilt By Kyle Mcmillin",
+      "brand": "Fender",
+      "model": "Jaguar",
+      "variant": "Custom Shop Masterbuilt",
+      "count": 1,
+      "sum": 9000,
+      "min": 9000,
+      "max": 9000,
+      "sightings": [
+        {
+          "price": 9000,
+          "date": "2026-07-23T17:15:00.508Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender Custom Shop Jaguar  NAMM 2019  Showpiece Masterbuilt By Kyle Mcmillin",
+          "url": "https://reverb.com/item/99604399",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 9000,
+          "min": 9000,
+          "max": 9000,
+          "avg": 9000
+        }
+      },
+      "avg": 9000
+    },
     "bc-rich-mockingbird-class-axe-usa": {
       "displayName": "1992 BC Rich USA Mockingbird, Class Axe Era, Locking Kahler, Hard Case",
       "brand": "BC Rich",
@@ -7803,7 +7834,7 @@
       "sightings": [
         {
           "price": 1575,
-          "date": "2026-07-13T01:32:01.300Z",
+          "date": "2026-07-13T01:32:01.3+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Fender American Ultra HSS Stratocaster limited edition unplayed! 2026 - Graffiti Yellow",
@@ -7829,7 +7860,7 @@
           {
             "price": 1575,
             "askingPrice": 1575,
-            "date": "2026-07-13T06:36:38.214Z",
+            "date": "2026-07-13T06:36:38.214+00:00",
             "title": "Fender American Ultra HSS Stratocaster limited edition unplayed! 2026 - Graffiti Yellow",
             "url": "https://reverb.com/item/99219910"
           }
@@ -55189,6 +55220,15 @@
     }
   },
   "byBrandPrice": {
+    "Fender": {
+      "count": 117,
+      "min": 599,
+      "max": 11475,
+      "soldCount": 45,
+      "outliersExcluded": 14,
+      "avg": 3156,
+      "soldAvg": 3388
+    },
     "BC Rich": {
       "count": 118,
       "min": 33,
@@ -55296,15 +55336,6 @@
       "outliersExcluded": 0,
       "avg": 2337,
       "soldAvg": 2238
-    },
-    "Fender": {
-      "count": 116,
-      "min": 599,
-      "max": 11475,
-      "soldCount": 45,
-      "outliersExcluded": 14,
-      "avg": 3106,
-      "soldAvg": 3388
     },
     "Caparison": {
       "count": 4,
@@ -57387,6 +57418,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 649,
+      "sum": 2796174.6700000023,
+      "sold": {
+        "count": 220,
+        "sum": 613317.2699999999,
+        "avg": 2788,
+        "min": 269,
+        "max": 35900
+      },
+      "avg": 4308,
+      "min": 269,
+      "max": 190000
+    },
     "Very Good": {
       "count": 521,
       "sum": 1861603.56,
@@ -57400,20 +57445,6 @@
       "avg": 3573,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 648,
-      "sum": 2787174.6700000023,
-      "sold": {
-        "count": 220,
-        "sum": 613317.2699999999,
-        "avg": 2788,
-        "min": 269,
-        "max": 35900
-      },
-      "avg": 4301,
-      "min": 269,
-      "max": 190000
     },
     "Mint": {
       "count": 49,
@@ -57533,9 +57564,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3129,
+      "avg": 3151,
       "median": 2500,
-      "count": 270
+      "count": 271
     },
     "06": {
       "name": "Jun",
@@ -57710,7 +57741,7 @@
     "1k-2k": 547,
     "2k-3k": 367,
     "3k-5k": 405,
-    "5k-10k": 221,
+    "5k-10k": 222,
     "10k+": 68
   },
   "priceDistributionFiltered": {
@@ -57719,12 +57750,17 @@
     "1k-2k": 547,
     "2k-3k": 367,
     "3k-5k": 405,
-    "5k-10k": 221,
+    "5k-10k": 222,
     "10k+": 14
   },
   "daysOnMarket": {
+    "Fender": {
+      "sum": 3398,
+      "count": 71,
+      "avg": 48
+    },
     "Gibson": {
-      "sum": 4615,
+      "sum": 4616,
       "count": 97,
       "avg": 48
     },
@@ -57777,11 +57813,6 @@
       "sum": 747,
       "count": 14,
       "avg": 53
-    },
-    "Fender": {
-      "sum": 3398,
-      "count": 70,
-      "avg": 49
     },
     "Caparison": {
       "sum": 4,
@@ -58550,7 +58581,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-23": 10,
+    "2026-07-23": 11,
     "2026-07-22": 10,
     "2026-07-21": 17,
     "2026-07-20": 26,
@@ -58583,11 +58614,11 @@
     "2026-06-23": 4
   },
   "categoryDistribution": {
-    "reverb": 1561,
+    "reverb": 1562,
     "marketplace": 168,
     "other": 111
   },
-  "activeModelsCount": 331,
+  "activeModelsCount": 332,
   "topPosters": [
     {
       "username": "theguitarpit",
@@ -58607,7 +58638,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 136
+      "count": 137
     },
     {
       "username": "Modean",
@@ -58675,10 +58706,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 6333,
+      "avgPrice": 6353,
       "retailEst": 800,
-      "avgDiscount": -691.6,
-      "count": 131
+      "avgDiscount": -694.1,
+      "count": 132
     },
     "Gibson": {
       "avgPrice": 5633,
@@ -63862,15 +63893,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1800,
+      "total": 1801,
       "sold": 571,
       "fake": 0,
-      "live": 610,
+      "live": 611,
       "removed": 619,
       "soldPct": 32,
       "livePct": 34
     },
     "byBrand": {
+      "Fender": {
+        "total": 136,
+        "sold": 48,
+        "fake": 0,
+        "live": 43,
+        "removed": 45,
+        "soldPct": 35,
+        "livePct": 32
+      },
       "BC Rich": {
         "total": 122,
         "sold": 34,
@@ -63978,15 +64018,6 @@
         "removed": 7,
         "soldPct": 58,
         "livePct": 19
-      },
-      "Fender": {
-        "total": 135,
-        "sold": 48,
-        "fake": 0,
-        "live": 42,
-        "removed": 45,
-        "soldPct": 36,
-        "livePct": 31
       },
       "Caparison": {
         "total": 4,
@@ -66362,9 +66393,9 @@
       },
       {
         "label": "$5k–10k",
-        "total": 221,
+        "total": 222,
         "sold": 52,
-        "rate": 24
+        "rate": 23
       },
       {
         "label": "$10k+",
@@ -66374,15 +66405,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 649,
+        "sold": 226,
+        "rate": 35
+      },
       "Very Good": {
         "total": 521,
         "sold": 170,
         "rate": 33
-      },
-      "Excellent": {
-        "total": 648,
-        "sold": 226,
-        "rate": 35
       },
       "Mint": {
         "total": 49,
@@ -66618,6 +66649,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Masterbuilt": {
+      "brand": "Fender",
+      "brandLine": "Fender Masterbuilt",
+      "tier": "ultra",
+      "count": 6,
+      "sum": 57939,
+      "avg": 9657,
+      "min": 6395,
+      "max": 11555,
+      "sold": 2,
+      "soldSum": 20999,
+      "soldAvg": 10500,
+      "live": 4,
+      "removed": 0,
+      "sellRate": 33,
+      "totalDays": 45,
+      "soldCount": 2,
+      "avgDaysToSell": 22.5
+    },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
       "brandLine": "BC Rich USA Custom Shop",
@@ -66709,7 +66759,7 @@
       "live": 25,
       "removed": 57,
       "sellRate": 37,
-      "totalDays": 3827.2999999999997,
+      "totalDays": 3827.3999999999996,
       "soldCount": 48,
       "avgDaysToSell": 79.7
     },
@@ -67464,25 +67514,6 @@
       "totalDays": 299,
       "soldCount": 3,
       "avgDaysToSell": 99.7
-    },
-    "Fender|Fender Masterbuilt": {
-      "brand": "Fender",
-      "brandLine": "Fender Masterbuilt",
-      "tier": "ultra",
-      "count": 5,
-      "sum": 48939,
-      "avg": 9788,
-      "min": 6395,
-      "max": 11555,
-      "sold": 2,
-      "soldSum": 20999,
-      "soldAvg": 10500,
-      "live": 3,
-      "removed": 0,
-      "sellRate": 40,
-      "totalDays": 45,
-      "soldCount": 2,
-      "avgDaysToSell": 22.5
     },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
@@ -68816,7 +68847,7 @@
     },
     {
       "label": "6–15",
-      "total": 197,
+      "total": 198,
       "sold": 55,
       "rate": 28
     },
@@ -68835,7 +68866,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 723,
+      "total": 724,
       "sold": 207,
       "rate": 29
     },
@@ -68852,7 +68883,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 489,
+      "total": 490,
       "sold": 165,
       "rate": 34
     }
@@ -69197,6 +69228,12 @@
     {
       "state": "Stockholm",
       "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
+      "state": "M",
+      "total": 2,
       "sold": 0,
       "rate": 0
     },
