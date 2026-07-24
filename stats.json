@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-07-24T21:11:26.561Z",
-  "totalLinks": 2930,
-  "totalEver": 3633,
-  "totalBeforeFilter": 3633,
+  "generatedAt": "2026-07-24T21:11:37.544Z",
+  "totalLinks": 2931,
+  "totalEver": 3634,
+  "totalBeforeFilter": 3634,
   "fakeCount": 6,
   "removedCount": 1305,
-  "totalWithPrice": 2273,
+  "totalWithPrice": 2274,
   "overall": {
-    "count": 2212,
-    "sum": 6276259.57,
+    "count": 2213,
+    "sum": 6278158.57,
     "avg": 2837,
     "min": 10.49,
     "max": 11099
   },
   "filtered": {
-    "count": 2212,
-    "sum": 6276259.57,
+    "count": 2213,
+    "sum": 6278158.57,
     "avg": 2837,
     "min": 10.49,
     "max": 11099,
@@ -509,11 +509,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 287,
-      "sum": 914920.99,
+      "count": 288,
+      "sum": 916819.99,
       "min": 59.99,
       "max": 11000,
-      "avg": 3188
+      "avg": 3183
     },
     "2026-06": {
       "count": 283,
@@ -560,8 +560,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 1966,
-      "sum": 5528402.04,
+      "count": 1967,
+      "sum": 5530301.04,
       "min": 33,
       "max": 11024.45,
       "avg": 2812
@@ -583,8 +583,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1966,
-      "sum": 5528402.04,
+      "count": 1967,
+      "sum": 5530301.04,
       "min": 33,
       "max": 11024.45,
       "avg": 2812
@@ -857,6 +857,37 @@
     }
   },
   "byModel": {
+    "friedman-telecaster-classic": {
+      "displayName": "Friedman Vintage-T Classic Sugar Pine Light Relic Sunburst 2019 Telecaster Style",
+      "brand": "Friedman",
+      "model": "Telecaster",
+      "variant": "Classic",
+      "count": 1,
+      "sum": 1899,
+      "min": 1899,
+      "max": 1899,
+      "sightings": [
+        {
+          "price": 1899,
+          "date": "2026-07-24T21:11:23.533Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Friedman Vintage-T Classic Sugar Pine Light Relic Sunburst 2019 Telecaster Style",
+          "url": "https://reverb.com/item/99707416",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1899,
+          "min": 1899,
+          "max": 1899,
+          "avg": 1899
+        }
+      },
+      "avg": 1899
+    },
     "frank-brothers-arcade-one-oxblood": {
       "displayName": "Frank Brothers Arcade One 2024 - Aged Oxblood",
       "brand": "Frank Brothers",
@@ -70571,6 +70602,15 @@
     }
   },
   "byBrandPrice": {
+    "Friedman": {
+      "count": 18,
+      "min": 1899,
+      "max": 7500,
+      "soldCount": 10,
+      "outliersExcluded": 0,
+      "avg": 2768,
+      "soldAvg": 2126
+    },
     "Frank Brothers": {
       "count": 11,
       "min": 3200,
@@ -71542,15 +71582,6 @@
       "outliersExcluded": 0,
       "avg": 6300,
       "soldAvg": null
-    },
-    "Friedman": {
-      "count": 17,
-      "min": 1899,
-      "max": 7500,
-      "soldCount": 10,
-      "outliersExcluded": 0,
-      "avg": 2819,
-      "soldAvg": 2126
     },
     "Tausch": {
       "count": 1,
@@ -73093,6 +73124,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 666,
+      "sum": 2209923.4600000014,
+      "sold": {
+        "count": 224,
+        "sum": 481305.3699999999,
+        "avg": 2149,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3318,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 828,
       "sum": 3339115.9900000067,
@@ -73134,20 +73179,6 @@
       "avg": 4214,
       "min": 135,
       "max": 14670
-    },
-    "Very Good": {
-      "count": 665,
-      "sum": 2208024.4600000014,
-      "sold": {
-        "count": 224,
-        "sum": 481305.3699999999,
-        "avg": 2149,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3320,
-      "min": 33,
-      "max": 437713.69
     },
     "Mint": {
       "count": 69,
@@ -73242,9 +73273,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3188,
-      "median": 2514,
-      "count": 287
+      "avg": 3183,
+      "median": 2507,
+      "count": 288
     },
     "06": {
       "name": "Jun",
@@ -73428,7 +73459,7 @@
   "priceDistribution": {
     "0-500": 79,
     "500-1k": 209,
-    "1k-2k": 713,
+    "1k-2k": 714,
     "2k-3k": 445,
     "3k-5k": 477,
     "5k-10k": 273,
@@ -73437,13 +73468,18 @@
   "priceDistributionFiltered": {
     "0-500": 79,
     "500-1k": 209,
-    "1k-2k": 713,
+    "1k-2k": 714,
     "2k-3k": 445,
     "3k-5k": 477,
     "5k-10k": 273,
     "10k+": 16
   },
   "daysOnMarket": {
+    "Friedman": {
+      "sum": 460,
+      "count": 9,
+      "avg": 51
+    },
     "Frank Brothers": {
       "sum": 208,
       "count": 6,
@@ -73949,11 +73985,6 @@
       "count": 2,
       "avg": 37
     },
-    "Friedman": {
-      "sum": 460,
-      "count": 8,
-      "avg": 58
-    },
     "Tausch": {
       "sum": 35,
       "count": 1,
@@ -74246,7 +74277,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-24": 15,
+    "2026-07-24": 16,
     "2026-07-23": 15,
     "2026-07-22": 10,
     "2026-07-21": 17,
@@ -74279,11 +74310,11 @@
     "2026-06-24": 3
   },
   "categoryDistribution": {
-    "reverb": 2374,
+    "reverb": 2375,
     "marketplace": 445,
     "other": 111
   },
-  "activeModelsCount": 336,
+  "activeModelsCount": 337,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -74311,7 +74342,7 @@
     },
     {
       "username": "Modean",
-      "count": 214
+      "count": 215
     },
     {
       "username": "Madero",
@@ -74510,10 +74541,10 @@
       "count": 11
     },
     "Friedman": {
-      "avgPrice": 2819,
+      "avgPrice": 2768,
       "retailEst": 2500,
-      "avgDiscount": -12.8,
-      "count": 17
+      "avgDiscount": -10.7,
+      "count": 18
     },
     "Castedosa": {
       "avgPrice": 8030,
@@ -79399,15 +79430,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2280,
+      "total": 2281,
       "sold": 761,
       "fake": 0,
-      "live": 680,
+      "live": 681,
       "removed": 839,
       "soldPct": 33,
       "livePct": 30
     },
     "byBrand": {
+      "Friedman": {
+        "total": 18,
+        "sold": 10,
+        "fake": 0,
+        "live": 4,
+        "removed": 4,
+        "soldPct": 56,
+        "livePct": 22
+      },
       "Frank Brothers": {
         "total": 11,
         "sold": 2,
@@ -80433,15 +80473,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 0
-      },
-      "Friedman": {
-        "total": 17,
-        "sold": 10,
-        "fake": 0,
-        "live": 3,
-        "removed": 4,
-        "soldPct": 59,
-        "livePct": 18
       },
       "Tausch": {
         "total": 1,
@@ -82108,18 +82139,18 @@
         "soldPct": 59
       },
       {
-        "brand": "Friedman",
-        "total": 17,
-        "sold": 10,
-        "live": 3,
-        "soldPct": 59
-      },
-      {
         "brand": "Eastman",
         "total": 31,
         "sold": 18,
         "live": 5,
         "soldPct": 58
+      },
+      {
+        "brand": "Friedman",
+        "total": 18,
+        "sold": 10,
+        "live": 4,
+        "soldPct": 56
       },
       {
         "brand": "Music Man",
@@ -82223,7 +82254,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 713,
+        "total": 714,
         "sold": 284,
         "rate": 40
       },
@@ -82253,6 +82284,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 666,
+        "sold": 226,
+        "rate": 34
+      },
       "Excellent": {
         "total": 828,
         "sold": 304,
@@ -82267,11 +82303,6 @@
         "total": 187,
         "sold": 35,
         "rate": 19
-      },
-      "Very Good": {
-        "total": 665,
-        "sold": 226,
-        "rate": 34
       },
       "Mint": {
         "total": 69,
@@ -82511,6 +82542,25 @@
     ]
   },
   "byBrandLine": {
+    "Friedman|Friedman": {
+      "brand": "Friedman",
+      "brandLine": "Friedman",
+      "tier": "premium",
+      "count": 14,
+      "sum": 37969,
+      "avg": 2712,
+      "min": 1899,
+      "max": 7500,
+      "sold": 8,
+      "soldSum": 16961,
+      "soldAvg": 2120,
+      "live": 3,
+      "removed": 3,
+      "sellRate": 57,
+      "totalDays": 766.3999999999999,
+      "soldCount": 8,
+      "avgDaysToSell": 95.8
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -83826,25 +83876,6 @@
       "soldCount": 1,
       "avgDaysToSell": 93
     },
-    "Friedman|Friedman": {
-      "brand": "Friedman",
-      "brandLine": "Friedman",
-      "tier": "premium",
-      "count": 13,
-      "sum": 36070,
-      "avg": 2775,
-      "min": 1899,
-      "max": 7500,
-      "sold": 8,
-      "soldSum": 16961,
-      "soldAvg": 2120,
-      "live": 2,
-      "removed": 3,
-      "sellRate": 62,
-      "totalDays": 766.3999999999999,
-      "soldCount": 8,
-      "avgDaysToSell": 95.8
-    },
     "Schecter|Schecter Korea": {
       "brand": "Schecter",
       "brandLine": "Schecter Korea",
@@ -84721,7 +84752,7 @@
     },
     {
       "label": "1–5",
-      "total": 59,
+      "total": 60,
       "sold": 15,
       "rate": 25
     },
@@ -84746,7 +84777,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 732,
+      "total": 733,
       "sold": 210,
       "rate": 29
     },
@@ -84763,9 +84794,9 @@
       "rate": 23
     },
     "regular": {
-      "total": 498,
+      "total": 499,
       "sold": 167,
-      "rate": 34
+      "rate": 33
     }
   },
   "geoSellThrough": [
@@ -84902,16 +84933,16 @@
       "rate": 38
     },
     {
+      "state": "IN",
+      "total": 12,
+      "sold": 1,
+      "rate": 8
+    },
+    {
       "state": "VA",
       "total": 12,
       "sold": 2,
       "rate": 17
-    },
-    {
-      "state": "IN",
-      "total": 11,
-      "sold": 1,
-      "rate": 9
     },
     {
       "state": "KY",
