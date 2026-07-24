@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-24T11:26:26.407Z",
+  "generatedAt": "2026-07-24T11:41:26.760Z",
   "totalLinks": 2945,
   "totalEver": 3622,
   "totalBeforeFilter": 3622,
   "fakeCount": 6,
-  "removedCount": 1199,
-  "totalWithPrice": 2057,
+  "removedCount": 1205,
+  "totalWithPrice": 2065,
   "overall": {
-    "count": 2000,
-    "sum": 5773221.3,
-    "avg": 2887,
+    "count": 2008,
+    "sum": 5791688.65,
+    "avg": 2884,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 2000,
-    "sum": 5773221.3,
-    "avg": 2887,
+    "count": 2008,
+    "sum": 5791688.65,
+    "avg": 2884,
     "min": 10.49,
     "max": 11475,
     "median": 2250
@@ -520,20 +520,20 @@
       "avg": 2003
     },
     "2026-01": {
-      "count": 203,
-      "sum": 563441.33,
+      "count": 211,
+      "sum": 581908.68,
       "min": 110,
       "max": 11024.45,
-      "avg": 2776
+      "avg": 2758
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 1755,
-      "sum": 5017138.76,
+      "count": 1763,
+      "sum": 5035606.11,
       "min": 33,
       "max": 11024.45,
-      "avg": 2859
+      "avg": 2856
     },
     "marketplace": {
       "count": 145,
@@ -552,11 +552,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1755,
-      "sum": 5017138.76,
+      "count": 1763,
+      "sum": 5035606.11,
       "min": 33,
       "max": 11024.45,
-      "avg": 2859
+      "avg": 2856
     },
     "eddiesguitars.com": {
       "count": 8,
@@ -12348,11 +12348,20 @@
       "brand": "PRS",
       "model": "Custom 24",
       "variant": "10-top",
-      "count": 4,
-      "sum": 12844,
+      "count": 5,
+      "sum": 16639,
       "min": 2199,
       "max": 4495,
       "sightings": [
+        {
+          "price": 3795,
+          "date": "2026-01-23T20:23:29.687+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1990 PRS Custom 24 10 Top Green w/ Birds - Brazilian Board",
+          "url": "https://reverb.com/item/92464768",
+          "condition": "Very Good"
+        },
         {
           "price": 4495,
           "date": "2026-04-01T14:19:39.339+00:00",
@@ -12399,11 +12408,11 @@
           "avg": 3215
         },
         "Very Good": {
-          "count": 1,
-          "sum": 3200,
+          "count": 2,
+          "sum": 6995,
           "min": 3200,
-          "max": 3200,
-          "avg": 3200
+          "max": 3795,
+          "avg": 3498
         }
       },
       "soldData": {
@@ -12435,27 +12444,27 @@
           }
         ]
       },
-      "avg": 3211,
+      "avg": 3328,
       "trends": {
         "d30": {
           "direction": "down",
-          "pctChange": -11,
+          "pctChange": -14,
           "recentAvg": 2950,
-          "olderAvg": 3298,
+          "olderAvg": 3422,
           "recentCount": 1
         },
         "d60": {
           "direction": "down",
-          "pctChange": -11,
+          "pctChange": -14,
           "recentAvg": 2950,
-          "olderAvg": 3298,
+          "olderAvg": 3422,
           "recentCount": 1
         },
         "d90": {
           "direction": "down",
-          "pctChange": -11,
+          "pctChange": -14,
           "recentAvg": 2950,
-          "olderAvg": 3298,
+          "olderAvg": 3422,
           "recentCount": 1
         }
       }
@@ -46171,11 +46180,29 @@
       "brand": "Gibson",
       "model": "Original",
       "variant": null,
-      "count": 2,
-      "sum": 3550,
+      "count": 4,
+      "sum": 9449,
       "min": 1750,
-      "max": 1800,
+      "max": 3499,
       "sightings": [
+        {
+          "price": 2400,
+          "date": "2026-01-24T06:10:19.164+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Southern Jumbo Original 2019 - Present - Vintage Sunburst",
+          "url": "https://reverb.com/item/87297239",
+          "condition": "Good"
+        },
+        {
+          "price": 3499,
+          "date": "2026-01-24T06:11:40.154+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "NEW ! Gibson Southern Jumbo Original Vintage Sunburst - 4.35 lbs - Authorized Dealer - In Stock - Warranty- G06311",
+          "url": "https://reverb.com/item/93859967",
+          "condition": "Brand New"
+        },
         {
           "price": 1800,
           "date": "2026-04-01T04:56:11.538+00:00",
@@ -46202,6 +46229,20 @@
           "min": 1750,
           "max": 1800,
           "avg": 1775
+        },
+        "Brand New": {
+          "count": 1,
+          "sum": 3499,
+          "min": 3499,
+          "max": 3499,
+          "avg": 3499
+        },
+        "Good": {
+          "count": 1,
+          "sum": 2400,
+          "min": 2400,
+          "max": 2400,
+          "avg": 2400
         }
       },
       "soldData": {
@@ -46219,7 +46260,8 @@
           }
         ]
       },
-      "avg": 1775
+      "avg": 2362,
+      "trends": {}
     },
     "fano-telecaster": {
       "displayName": "RARE 2012 Fano sp6 - Blonde Light ASH  6.8lb Telecaster meets les paul Alt de facto",
@@ -57343,6 +57385,176 @@
       },
       "avg": 1900
     },
+    "nash-jg-63-light-matching-light-aged": {
+      "displayName": "2025 Nash JG-63 - Light Aged w/ Matching Headstock - Black",
+      "brand": "Nash",
+      "model": "JG-63 Light Matching",
+      "variant": "Light Aged",
+      "count": 1,
+      "sum": 1949,
+      "min": 1949,
+      "max": 1949,
+      "sightings": [
+        {
+          "price": 1949,
+          "date": "2026-01-24T17:33:54.137+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2025 Nash JG-63 - Light Aged w/ Matching Headstock - Black",
+          "url": "https://reverb.com/item/94198702",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1949,
+          "min": 1949,
+          "max": 1949,
+          "avg": 1949
+        }
+      },
+      "avg": 1949
+    },
+    "epiphone-classic": {
+      "displayName": "Epiphone Masterbilt Century Deluxe Classic 2016 - 2019 - Vintage Natural",
+      "brand": "Epiphone",
+      "model": "Classic",
+      "variant": null,
+      "count": 1,
+      "sum": 900,
+      "min": 900,
+      "max": 900,
+      "sightings": [
+        {
+          "price": 900,
+          "date": "2026-01-24T06:04:42.945+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Epiphone Masterbilt Century Deluxe Classic 2016 - 2019 - Vintage Natural",
+          "url": "https://reverb.com/item/93962097",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 900,
+          "min": 900,
+          "max": 900,
+          "avg": 900
+        }
+      },
+      "avg": 900
+    },
+    "eastman-ac630": {
+      "displayName": "Eastman AC630-SB '21",
+      "brand": "Eastman",
+      "model": "AC630",
+      "variant": null,
+      "count": 1,
+      "sum": 1795,
+      "min": 1795,
+      "max": 1795,
+      "sightings": [
+        {
+          "price": 1795,
+          "date": "2026-01-24T05:51:00.47+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Eastman AC630-SB '21",
+          "url": "https://reverb.com/item/94159659",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1795,
+          "min": 1795,
+          "max": 1795,
+          "avg": 1795
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1795,
+        "min": 1795,
+        "max": 1795,
+        "prices": [
+          {
+            "price": 1795,
+            "askingPrice": 1795,
+            "date": "2026-01-24T05:51:00.47+00:00",
+            "title": "Eastman AC630-SB '21",
+            "url": "https://reverb.com/item/94159659"
+          }
+        ]
+      },
+      "avg": 1795
+    },
+    "prs-s2-mccarty": {
+      "displayName": "PRS S2 McCarty 594 - Black Amber",
+      "brand": "PRS",
+      "model": "S2 McCarty",
+      "variant": null,
+      "count": 1,
+      "sum": 1434.43,
+      "min": 1434.43,
+      "max": 1434.43,
+      "sightings": [
+        {
+          "price": 1434.43,
+          "date": "2026-01-24T05:13:28.019+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS S2 McCarty 594 - Black Amber",
+          "url": "https://reverb.com/item/73851000",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1434.43,
+          "min": 1434.43,
+          "max": 1434.43,
+          "avg": 1434
+        }
+      },
+      "avg": 1434
+    },
+    "martin-oahu-hg-28": {
+      "displayName": "Martin O'ahu HG-28 2025",
+      "brand": "Martin",
+      "model": "O'ahu HG-28",
+      "variant": null,
+      "count": 1,
+      "sum": 2694.92,
+      "min": 2694.92,
+      "max": 2694.92,
+      "sightings": [
+        {
+          "price": 2694.92,
+          "date": "2026-01-24T04:09:44.508+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Martin O'ahu HG-28 2025",
+          "url": "https://reverb.com/item/90076905",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 2694.92,
+          "min": 2694.92,
+          "max": 2694.92,
+          "avg": 2695
+        }
+      },
+      "avg": 2695
+    },
     "bc-rich": {
       "displayName": "B.C. Rich",
       "brand": "BC Rich",
@@ -63516,12 +63728,12 @@
       "soldAvg": 1738
     },
     "Gibson": {
-      "count": 241,
+      "count": 243,
       "min": 59.99,
       "max": 11099,
       "soldCount": 89,
       "outliersExcluded": 4,
-      "avg": 3670,
+      "avg": 3664,
       "soldAvg": 3353
     },
     "Charvel": {
@@ -63543,12 +63755,12 @@
       "soldAvg": 1379
     },
     "PRS": {
-      "count": 184,
+      "count": 186,
       "min": 595,
       "max": 11024.45,
       "soldCount": 69,
       "outliersExcluded": 9,
-      "avg": 3588,
+      "avg": 3577,
       "soldAvg": 3334
     },
     "Gavilan": {
@@ -63570,12 +63782,12 @@
       "soldAvg": 2136
     },
     "Epiphone": {
-      "count": 23,
+      "count": 24,
       "min": 165,
       "max": 9795,
       "soldCount": 5,
       "outliersExcluded": 0,
-      "avg": 2365,
+      "avg": 2304,
       "soldAvg": 2189
     },
     "Mule": {
@@ -63813,13 +64025,13 @@
       "soldAvg": 3347
     },
     "Eastman": {
-      "count": 24,
+      "count": 25,
       "min": 818,
       "max": 2413.97,
-      "soldCount": 13,
+      "soldCount": 14,
       "outliersExcluded": 0,
-      "avg": 1314,
-      "soldAvg": 1227
+      "avg": 1333,
+      "soldAvg": 1268
     },
     "Vola": {
       "count": 1,
@@ -63831,12 +64043,12 @@
       "soldAvg": null
     },
     "Martin": {
-      "count": 12,
+      "count": 13,
       "min": 1349.99,
       "max": 8495,
       "soldCount": 3,
       "outliersExcluded": 1,
-      "avg": 3738,
+      "avg": 3658,
       "soldAvg": 2790
     },
     "Valiant": {
@@ -64182,12 +64394,12 @@
       "soldAvg": 1025
     },
     "Nash": {
-      "count": 13,
+      "count": 14,
       "min": 1500,
       "max": 5299,
       "soldCount": 8,
       "outliersExcluded": 0,
-      "avg": 2153,
+      "avg": 2139,
       "soldAvg": 1781
     },
     "Kauer": {
@@ -65876,22 +66088,22 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 738,
-      "sum": 3103965.0900000045,
+      "count": 741,
+      "sum": 3108609.0900000045,
       "sold": {
-        "count": 261,
-        "sum": 688075.7899999999,
-        "avg": 2636,
+        "count": 262,
+        "sum": 689870.7899999999,
+        "avg": 2633,
         "min": 110,
         "max": 35900
       },
-      "avg": 4206,
+      "avg": 4195,
       "min": 110,
       "max": 190000
     },
     "Very Good": {
-      "count": 589,
-      "sum": 2041371.33,
+      "count": 590,
+      "sum": 2045166.33,
       "sold": {
         "count": 192,
         "sum": 413662.8899999999,
@@ -65904,8 +66116,8 @@
       "max": 437713.69
     },
     "Brand New": {
-      "count": 171,
-      "sum": 727457.0999999999,
+      "count": 174,
+      "sum": 735085.45,
       "sold": {
         "count": 22,
         "sum": 76661.15,
@@ -65913,13 +66125,13 @@
         "min": 995,
         "max": 9297.8
       },
-      "avg": 4254,
+      "avg": 4225,
       "min": 135,
       "max": 14670
     },
     "Good": {
-      "count": 226,
-      "sum": 638279.8200000002,
+      "count": 227,
+      "sum": 640679.8200000002,
       "sold": {
         "count": 74,
         "sum": 148467.67,
@@ -65927,7 +66139,7 @@
         "min": 399,
         "max": 8000
       },
-      "avg": 2824,
+      "avg": 2822,
       "min": 70,
       "max": 55000
     },
@@ -66060,9 +66272,9 @@
     },
     "01": {
       "name": "Jan",
-      "avg": 2776,
-      "median": 1849,
-      "count": 203
+      "avg": 2758,
+      "median": 1863,
+      "count": 211
     }
   },
   "recentDrops": [
@@ -66209,19 +66421,19 @@
   ],
   "priceDistribution": {
     "0-500": 69,
-    "500-1k": 179,
-    "1k-2k": 634,
-    "2k-3k": 407,
-    "3k-5k": 440,
+    "500-1k": 180,
+    "1k-2k": 637,
+    "2k-3k": 409,
+    "3k-5k": 442,
     "5k-10k": 254,
     "10k+": 74
   },
   "priceDistributionFiltered": {
     "0-500": 69,
-    "500-1k": 179,
-    "1k-2k": 634,
-    "2k-3k": 407,
-    "3k-5k": 440,
+    "500-1k": 180,
+    "1k-2k": 637,
+    "2k-3k": 409,
+    "3k-5k": 442,
     "5k-10k": 254,
     "10k+": 17
   },
@@ -66232,12 +66444,12 @@
       "avg": 45
     },
     "Fender": {
-      "sum": 3310,
+      "sum": 3311,
       "count": 71,
       "avg": 47
     },
     "Gibson": {
-      "sum": 4628,
+      "sum": 4631,
       "count": 98,
       "avg": 47
     },
@@ -66252,7 +66464,7 @@
       "avg": 43
     },
     "PRS": {
-      "sum": 4033,
+      "sum": 4036,
       "count": 92,
       "avg": 44
     },
@@ -66277,7 +66489,7 @@
       "avg": 47
     },
     "BC Rich": {
-      "sum": 3057,
+      "sum": 3058,
       "count": 58,
       "avg": 53
     },
@@ -66332,9 +66544,9 @@
       "avg": 38
     },
     "Univox": {
-      "sum": 3,
+      "sum": 4,
       "count": 1,
-      "avg": 3
+      "avg": 4
     },
     "Heritage": {
       "sum": 326,
@@ -66482,9 +66694,9 @@
       "avg": 12
     },
     "Grosh": {
-      "sum": 142,
+      "sum": 143,
       "count": 3,
-      "avg": 47
+      "avg": 48
     },
     "T's": {
       "sum": 12,
@@ -67137,7 +67349,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 51
+      "count": 52
     },
     {
       "username": "scottcorgan",
@@ -67182,16 +67394,16 @@
       "count": 11
     },
     "Gibson": {
-      "avgPrice": 5601,
+      "avgPrice": 5580,
       "retailEst": 800,
-      "avgDiscount": -600.1,
-      "count": 249
+      "avgDiscount": -597.5,
+      "count": 251
     },
     "Epiphone": {
-      "avgPrice": 2365,
+      "avgPrice": 2304,
       "retailEst": 560,
-      "avgDiscount": -322.4,
-      "count": 23
+      "avgDiscount": -311.5,
+      "count": 24
     },
     "ESP": {
       "avgPrice": 3224,
@@ -67200,10 +67412,10 @@
       "count": 52
     },
     "PRS": {
-      "avgPrice": 4333,
+      "avgPrice": 4315,
       "retailEst": 1000,
-      "avgDiscount": -333.3,
-      "count": 193
+      "avgDiscount": -331.5,
+      "count": 195
     },
     "Ibanez": {
       "avgPrice": 3242,
@@ -67266,10 +67478,10 @@
       "count": 10
     },
     "Nash": {
-      "avgPrice": 2153,
+      "avgPrice": 2139,
       "retailEst": 1500,
-      "avgDiscount": -43.5,
-      "count": 13
+      "avgDiscount": -42.6,
+      "count": 14
     },
     "Knaggs": {
       "avgPrice": 3743,
@@ -67320,10 +67532,10 @@
       "count": 14
     },
     "Eastman": {
-      "avgPrice": 1314,
+      "avgPrice": 1333,
       "retailEst": 500,
-      "avgDiscount": -162.7,
-      "count": 24
+      "avgDiscount": -166.6,
+      "count": 25
     },
     "Hamer": {
       "avgPrice": 5033,
@@ -67368,10 +67580,10 @@
       "count": 26
     },
     "Martin": {
-      "avgPrice": 4835,
+      "avgPrice": 4682,
       "retailEst": 500,
-      "avgDiscount": -867,
-      "count": 13
+      "avgDiscount": -836.4,
+      "count": 14
     },
     "Taylor": {
       "avgPrice": 1746,
@@ -67387,8 +67599,8 @@
     }
   },
   "soldPrices": {
-    "count": 675,
-    "avg": 2706,
+    "count": 676,
+    "avg": 2705,
     "min": 59.99,
     "max": 35900,
     "avgDiscount": 10
@@ -72191,11 +72403,11 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2065,
-      "sold": 676,
+      "total": 2073,
+      "sold": 677,
       "fake": 0,
-      "live": 649,
-      "removed": 740,
+      "live": 650,
+      "removed": 746,
       "soldPct": 33,
       "livePct": 31
     },
@@ -72237,13 +72449,13 @@
         "livePct": 33
       },
       "Gibson": {
-        "total": 260,
+        "total": 262,
         "sold": 90,
         "fake": 0,
         "live": 69,
-        "removed": 101,
-        "soldPct": 35,
-        "livePct": 27
+        "removed": 103,
+        "soldPct": 34,
+        "livePct": 26
       },
       "Charvel": {
         "total": 14,
@@ -72264,12 +72476,12 @@
         "livePct": 35
       },
       "PRS": {
-        "total": 194,
+        "total": 196,
         "sold": 69,
         "fake": 0,
-        "live": 48,
-        "removed": 77,
-        "soldPct": 36,
+        "live": 49,
+        "removed": 78,
+        "soldPct": 35,
         "livePct": 25
       },
       "Gavilan": {
@@ -72291,13 +72503,13 @@
         "livePct": 40
       },
       "Epiphone": {
-        "total": 23,
+        "total": 24,
         "sold": 5,
         "fake": 0,
         "live": 11,
-        "removed": 7,
-        "soldPct": 22,
-        "livePct": 48
+        "removed": 8,
+        "soldPct": 21,
+        "livePct": 46
       },
       "Mule": {
         "total": 6,
@@ -72534,22 +72746,22 @@
         "livePct": 29
       },
       "Martin": {
-        "total": 16,
+        "total": 17,
         "sold": 3,
         "fake": 0,
         "live": 7,
-        "removed": 6,
-        "soldPct": 19,
-        "livePct": 44
+        "removed": 7,
+        "soldPct": 18,
+        "livePct": 41
       },
       "Eastman": {
-        "total": 24,
-        "sold": 13,
+        "total": 25,
+        "sold": 14,
         "fake": 0,
         "live": 4,
         "removed": 7,
-        "soldPct": 54,
-        "livePct": 17
+        "soldPct": 56,
+        "livePct": 16
       },
       "Jaydee": {
         "total": 1,
@@ -72957,13 +73169,13 @@
         "livePct": 0
       },
       "Nash": {
-        "total": 13,
+        "total": 14,
         "sold": 8,
         "fake": 0,
         "live": 3,
-        "removed": 2,
-        "soldPct": 62,
-        "livePct": 23
+        "removed": 3,
+        "soldPct": 57,
+        "livePct": 21
       },
       "Kauer": {
         "total": 2,
@@ -74746,18 +74958,18 @@
         "soldPct": 63
       },
       {
-        "brand": "Nash",
-        "total": 13,
-        "sold": 8,
-        "live": 3,
-        "soldPct": 62
-      },
-      {
         "brand": "Grosh",
         "total": 5,
         "sold": 3,
         "live": 1,
         "soldPct": 60
+      },
+      {
+        "brand": "Nash",
+        "total": 14,
+        "sold": 8,
+        "live": 3,
+        "soldPct": 57
       },
       {
         "brand": "Friedman",
@@ -74767,18 +74979,18 @@
         "soldPct": 57
       },
       {
+        "brand": "Eastman",
+        "total": 25,
+        "sold": 14,
+        "live": 4,
+        "soldPct": 56
+      },
+      {
         "brand": "Music Man",
         "total": 38,
         "sold": 21,
         "live": 6,
         "soldPct": 55
-      },
-      {
-        "brand": "Eastman",
-        "total": 24,
-        "sold": 13,
-        "live": 4,
-        "soldPct": 54
       },
       {
         "brand": "Dean",
@@ -74839,18 +75051,18 @@
         "soldPct": 17
       },
       {
+        "brand": "Martin",
+        "total": 17,
+        "sold": 3,
+        "live": 7,
+        "soldPct": 18
+      },
+      {
         "brand": "Anderson",
         "total": 17,
         "sold": 3,
         "live": 5,
         "soldPct": 18
-      },
-      {
-        "brand": "Martin",
-        "total": 16,
-        "sold": 3,
-        "live": 7,
-        "soldPct": 19
       },
       {
         "brand": "Frank Brothers",
@@ -74883,25 +75095,25 @@
       },
       {
         "label": "$500–1k",
-        "total": 179,
+        "total": 180,
         "sold": 69,
-        "rate": 39
+        "rate": 38
       },
       {
         "label": "$1k–2k",
-        "total": 634,
-        "sold": 244,
+        "total": 637,
+        "sold": 245,
         "rate": 38
       },
       {
         "label": "$2k–3k",
-        "total": 407,
+        "total": 409,
         "sold": 155,
         "rate": 38
       },
       {
         "label": "$3k–5k",
-        "total": 440,
+        "total": 442,
         "sold": 123,
         "rate": 28
       },
@@ -74920,22 +75132,22 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 738,
-        "sold": 267,
+        "total": 741,
+        "sold": 268,
         "rate": 36
       },
       "Very Good": {
-        "total": 589,
+        "total": 590,
         "sold": 194,
         "rate": 33
       },
       "Brand New": {
-        "total": 171,
+        "total": 174,
         "sold": 32,
-        "rate": 19
+        "rate": 18
       },
       "Good": {
-        "total": 226,
+        "total": 227,
         "sold": 82,
         "rate": 36
       },
@@ -75063,13 +75275,6 @@
         "sold": 2
       },
       {
-        "brand": "Nash",
-        "avgPrice": 2153,
-        "sellRate": 62,
-        "count": 13,
-        "sold": 8
-      },
-      {
         "brand": "Grosh",
         "avgPrice": 2015,
         "sellRate": 60,
@@ -75077,11 +75282,18 @@
         "sold": 3
       },
       {
+        "brand": "Nash",
+        "avgPrice": 2139,
+        "sellRate": 57,
+        "count": 14,
+        "sold": 8
+      },
+      {
         "brand": "Eastman",
-        "avgPrice": 1314,
-        "sellRate": 54,
-        "count": 24,
-        "sold": 13
+        "avgPrice": 1333,
+        "sellRate": 56,
+        "count": 25,
+        "sold": 14
       },
       {
         "brand": "G&L",
@@ -75204,7 +75416,7 @@
       "live": 20,
       "removed": 32,
       "sellRate": 37,
-      "totalDays": 2825.8,
+      "totalDays": 2826.3,
       "soldCount": 30,
       "avgDaysToSell": 94.2
     },
@@ -75242,7 +75454,7 @@
       "live": 51,
       "removed": 66,
       "sellRate": 35,
-      "totalDays": 5216.300000000001,
+      "totalDays": 5217.000000000001,
       "soldCount": 64,
       "avgDaysToSell": 81.5
     },
@@ -75261,9 +75473,9 @@
       "live": 34,
       "removed": 20,
       "sellRate": 38,
-      "totalDays": 2483.2000000000007,
+      "totalDays": 2483.4000000000005,
       "soldCount": 33,
-      "avgDaysToSell": 75.2
+      "avgDaysToSell": 75.3
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -75280,7 +75492,7 @@
       "live": 26,
       "removed": 56,
       "sellRate": 37,
-      "totalDays": 3863.6999999999994,
+      "totalDays": 3864.2999999999993,
       "soldCount": 49,
       "avgDaysToSell": 78.9
     },
@@ -75299,7 +75511,7 @@
       "live": 10,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1508.3,
+      "totalDays": 1508.4,
       "soldCount": 19,
       "avgDaysToSell": 79.4
     },
@@ -75337,7 +75549,7 @@
       "live": 16,
       "removed": 15,
       "sellRate": 21,
-      "totalDays": 632.4999999999999,
+      "totalDays": 632.5999999999999,
       "soldCount": 8,
       "avgDaysToSell": 79.1
     },
@@ -75356,7 +75568,7 @@
       "live": 11,
       "removed": 6,
       "sellRate": 23,
-      "totalDays": 619.3,
+      "totalDays": 619.4,
       "soldCount": 5,
       "avgDaysToSell": 123.9
     },
@@ -75470,9 +75682,9 @@
       "live": 3,
       "removed": 2,
       "sellRate": 17,
-      "totalDays": 99.5,
+      "totalDays": 99.6,
       "soldCount": 1,
-      "avgDaysToSell": 99.5
+      "avgDaysToSell": 99.6
     },
     "PRS|PRS SE": {
       "brand": "PRS",
@@ -75770,7 +75982,7 @@
       "live": 4,
       "removed": 8,
       "sellRate": 50,
-      "totalDays": 599.6,
+      "totalDays": 599.7,
       "soldCount": 12,
       "avgDaysToSell": 50
     },
@@ -75789,9 +76001,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 46,
-      "totalDays": 513.9,
+      "totalDays": 514.1,
       "soldCount": 6,
-      "avgDaysToSell": 85.6
+      "avgDaysToSell": 85.7
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -75827,7 +76039,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1254.7,
+      "totalDays": 1254.8,
       "soldCount": 11,
       "avgDaysToSell": 114.1
     },
@@ -75846,9 +76058,9 @@
       "live": 12,
       "removed": 11,
       "sellRate": 38,
-      "totalDays": 1148.6,
+      "totalDays": 1148.7,
       "soldCount": 14,
-      "avgDaysToSell": 82
+      "avgDaysToSell": 82.1
     },
     "Vola|Vola": {
       "brand": "Vola",
@@ -75957,7 +76169,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1385.6999999999998,
+      "totalDays": 1385.9,
       "soldCount": 14,
       "avgDaysToSell": 86.6
     },
@@ -76106,9 +76318,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 60,
-      "totalDays": 315.09999999999997,
+      "totalDays": 315.2,
       "soldCount": 3,
-      "avgDaysToSell": 105
+      "avgDaysToSell": 105.1
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -76348,9 +76560,9 @@
       "live": 2,
       "removed": 1,
       "sellRate": 40,
-      "totalDays": 214.2,
+      "totalDays": 214.4,
       "soldCount": 2,
-      "avgDaysToSell": 107.1
+      "avgDaysToSell": 107.2
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -76500,7 +76712,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 62,
-      "totalDays": 763.1,
+      "totalDays": 763.3,
       "soldCount": 8,
       "avgDaysToSell": 95.4
     },
@@ -76538,9 +76750,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 20,
-      "totalDays": 115.6,
+      "totalDays": 115.7,
       "soldCount": 1,
-      "avgDaysToSell": 115.6
+      "avgDaysToSell": 115.7
     },
     "Bilt|Bilt": {
       "brand": "Bilt",
@@ -76576,7 +76788,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 300.3,
+      "totalDays": 300.4,
       "soldCount": 3,
       "avgDaysToSell": 100.1
     },
@@ -76651,9 +76863,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 162.2,
+      "totalDays": 162.3,
       "soldCount": 2,
-      "avgDaysToSell": 81.1
+      "avgDaysToSell": 81.2
     },
     "Fender|Fender Mexico": {
       "brand": "Fender",
