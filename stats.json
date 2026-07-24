@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-24T07:56:25.459Z",
+  "generatedAt": "2026-07-24T08:11:27.008Z",
   "totalLinks": 2956,
   "totalEver": 3622,
   "totalBeforeFilter": 3622,
   "fakeCount": 6,
-  "removedCount": 1169,
-  "totalWithPrice": 1980,
+  "removedCount": 1173,
+  "totalWithPrice": 1988,
   "overall": {
-    "count": 1925,
-    "sum": 5582993.79,
-    "avg": 2900,
+    "count": 1933,
+    "sum": 5594855.09,
+    "avg": 2894,
     "min": 10.49,
     "max": 11500
   },
   "filtered": {
-    "count": 1925,
-    "sum": 5582993.79,
-    "avg": 2900,
+    "count": 1933,
+    "sum": 5594855.09,
+    "avg": 2894,
     "min": 10.49,
     "max": 11500,
-    "median": 2275
+    "median": 2266
   },
   "outliers": {
-    "thresholdHigh": 11502,
+    "thresholdHigh": 11511,
     "thresholdLow": 0,
     "count": 55,
     "items": [
@@ -504,20 +504,20 @@
       "avg": 2003
     },
     "2026-01": {
-      "count": 127,
-      "sum": 361713.82,
+      "count": 135,
+      "sum": 373575.12,
       "min": 110,
       "max": 11024.45,
-      "avg": 2848
+      "avg": 2767
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 1680,
-      "sum": 4826911.25,
+      "count": 1688,
+      "sum": 4838772.55,
       "min": 33,
       "max": 11500,
-      "avg": 2873
+      "avg": 2867
     },
     "marketplace": {
       "count": 145,
@@ -536,11 +536,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1680,
-      "sum": 4826911.25,
+      "count": 1688,
+      "sum": 4838772.55,
       "min": 33,
       "max": 11500,
-      "avg": 2873
+      "avg": 2867
     },
     "eddiesguitars.com": {
       "count": 8,
@@ -9180,11 +9180,20 @@
       "brand": "PRS",
       "model": "McCarty",
       "variant": null,
-      "count": 8,
-      "sum": 17692,
+      "count": 9,
+      "sum": 21291,
       "min": 1499,
       "max": 4000,
       "sightings": [
+        {
+          "price": 3599,
+          "date": "2026-01-17T23:04:00.315+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS McCarty Hollowbody Spruce 2004 - Vintage Natural #5078",
+          "url": "https://reverb.com/item/94101947",
+          "condition": "Excellent"
+        },
         {
           "price": 2399,
           "date": "2026-03-30T18:52:31.051+00:00",
@@ -9274,11 +9283,11 @@
           "avg": 1848
         },
         "Excellent": {
-          "count": 1,
-          "sum": 1499,
+          "count": 2,
+          "sum": 5098,
           "min": 1499,
-          "max": 1499,
-          "avg": 1499
+          "max": 3599,
+          "avg": 2549
         }
       },
       "soldData": {
@@ -9331,27 +9340,27 @@
           }
         ]
       },
-      "avg": 2212,
+      "avg": 2366,
       "trends": {
         "d30": {
           "direction": "down",
-          "pctChange": -12,
+          "pctChange": -20,
           "recentAvg": 2031,
-          "olderAvg": 2320,
+          "olderAvg": 2533,
           "recentCount": 3
         },
         "d60": {
           "direction": "down",
-          "pctChange": -12,
+          "pctChange": -20,
           "recentAvg": 2031,
-          "olderAvg": 2320,
+          "olderAvg": 2533,
           "recentCount": 3
         },
         "d90": {
           "direction": "down",
-          "pctChange": -25,
+          "pctChange": -31,
           "recentAvg": 1898,
-          "olderAvg": 2525,
+          "olderAvg": 2740,
           "recentCount": 4
         }
       }
@@ -16172,11 +16181,20 @@
       "brand": "BC Rich",
       "model": "Shredzilla Prophecy Archtop",
       "variant": "Evertune",
-      "count": 1,
-      "sum": 1599,
+      "count": 2,
+      "sum": 3598.99,
       "min": 1599,
-      "max": 1599,
+      "max": 1999.99,
       "sightings": [
+        {
+          "price": 1999.99,
+          "date": "2026-01-17T07:18:24.623+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "BC Rich Shredzilla Prophecy Archtop Electric Guitar Walnut w/ EverTune",
+          "url": "https://reverb.com/item/88418712",
+          "condition": "Brand New"
+        },
         {
           "price": 1599,
           "date": "2026-06-23T17:17:03.929+00:00",
@@ -16194,9 +16212,16 @@
           "min": 1599,
           "max": 1599,
           "avg": 1599
+        },
+        "Brand New": {
+          "count": 1,
+          "sum": 1999.99,
+          "min": 1999.99,
+          "max": 1999.99,
+          "avg": 2000
         }
       },
-      "avg": 1599
+      "avg": 1799
     },
     "fender-stratocaster-custom-shop-limited-edition": {
       "displayName": "Fender Custom Shop Limited Edition SH Strat Heavy Relic Aged Charcoal Frost Metallic",
@@ -57003,6 +57028,237 @@
       },
       "avg": 1900
     },
+    "harley-benton-electric-guitar-kit": {
+      "displayName": "Harley Benton Electric Guitar Kit ST-Style",
+      "brand": "Harley Benton",
+      "model": "Electric Guitar Kit",
+      "variant": null,
+      "count": 1,
+      "sum": 175,
+      "min": 175,
+      "max": 175,
+      "sightings": [
+        {
+          "price": 175,
+          "date": "2026-01-17T22:04:25.047+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Harley Benton Electric Guitar Kit ST-Style",
+          "url": "https://reverb.com/item/70549212",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 175,
+          "min": 175,
+          "max": 175,
+          "avg": 175
+        }
+      },
+      "avg": 175
+    },
+    "ibanez-az42p1-bk-premium-finish-premium": {
+      "displayName": "2023 Ibanez AZ42P1-BK Premium Black Finish w/Gig Bag",
+      "brand": "Ibanez",
+      "model": "AZ42P1-BK Premium Finish",
+      "variant": "Premium",
+      "count": 1,
+      "sum": 698,
+      "min": 698,
+      "max": 698,
+      "sightings": [
+        {
+          "price": 698,
+          "date": "2026-01-17T21:48:16.006+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "2023 Ibanez AZ42P1-BK Premium Black Finish w/Gig Bag",
+          "url": "https://reverb.com/item/93968559",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 698,
+          "min": 698,
+          "max": 698,
+          "avg": 698
+        }
+      },
+      "avg": 698
+    },
+    "esp-eclipse": {
+      "displayName": "ESP Eclipse MA-Hollow 1996-1998 - Mahogany Stain",
+      "brand": "ESP",
+      "model": "Eclipse",
+      "variant": null,
+      "count": 1,
+      "sum": 1750,
+      "min": 1750,
+      "max": 1750,
+      "sightings": [
+        {
+          "price": 1750,
+          "date": "2026-01-17T14:56:08.34+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP Eclipse MA-Hollow 1996-1998 - Mahogany Stain",
+          "url": "https://reverb.com/item/92573311",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1750,
+          "min": 1750,
+          "max": 1750,
+          "avg": 1750
+        }
+      },
+      "avg": 1750
+    },
+    "american-beauty-parisian-jubilee": {
+      "displayName": "American Beauty Parisian Jubilee 2025 - Matte",
+      "brand": "American Beauty",
+      "model": "Parisian Jubilee",
+      "variant": null,
+      "count": 1,
+      "sum": 1050,
+      "min": 1050,
+      "max": 1050,
+      "sightings": [
+        {
+          "price": 1050,
+          "date": "2026-01-17T12:54:44.479+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "American Beauty Parisian Jubilee 2025 - Matte",
+          "url": "https://reverb.com/item/94097398",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 1050,
+          "min": 1050,
+          "max": 1050,
+          "avg": 1050
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1050,
+        "min": 1050,
+        "max": 1050,
+        "prices": [
+          {
+            "price": 1050,
+            "askingPrice": 1050,
+            "date": "2026-01-17T12:54:44.479+00:00",
+            "title": "American Beauty Parisian Jubilee 2025 - Matte",
+            "url": "https://reverb.com/item/94097398"
+          }
+        ]
+      },
+      "avg": 1050
+    },
+    "bc-rich-shredzilla-prophecy-extreme": {
+      "displayName": "B.C. Rich Shredzilla Prophecy Extreme 8 - Black Cherry",
+      "brand": "BC Rich",
+      "model": "Shredzilla Prophecy Extreme",
+      "variant": null,
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-01-17T07:22:57.122+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "B.C. Rich Shredzilla Prophecy Extreme 8 - Black Cherry",
+          "url": "https://reverb.com/item/93938864",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1100,
+        "min": 1100,
+        "max": 1100,
+        "prices": [
+          {
+            "price": 1100,
+            "askingPrice": 1100,
+            "date": "2026-01-17T07:22:57.122+00:00",
+            "title": "B.C. Rich Shredzilla Prophecy Extreme 8 - Black Cherry",
+            "url": "https://reverb.com/item/93938864"
+          }
+        ]
+      },
+      "avg": 1100
+    },
+    "esp-eclipse-mij": {
+      "displayName": "1998 ESP Eclipse MA-250 FR MIJ Natural w/HSC",
+      "brand": "ESP",
+      "model": "Eclipse",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 1489.31,
+      "min": 1489.31,
+      "max": 1489.31,
+      "sightings": [
+        {
+          "price": 1489.31,
+          "date": "2026-01-17T01:30:11.17+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1998 ESP Eclipse MA-250 FR MIJ Natural w/HSC",
+          "url": "https://reverb.com/item/94045376",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1489.31,
+          "min": 1489.31,
+          "max": 1489.31,
+          "avg": 1489
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1489,
+        "min": 1489.31,
+        "max": 1489.31,
+        "prices": [
+          {
+            "price": 1489.31,
+            "askingPrice": 1489.31,
+            "date": "2026-01-17T01:30:11.17+00:00",
+            "title": "1998 ESP Eclipse MA-250 FR MIJ Natural w/HSC",
+            "url": "https://reverb.com/item/94045376"
+          }
+        ]
+      },
+      "avg": 1489
+    },
     "momose-ml-sakura-snake-wse25-wh-selected-for-the-deviser-one-day-guitar-show-2025": {
       "displayName": "momose ML-SAKURA SNAKE WSE'25 (WH) [Selected for the Deviser One Day Guitar Show 2025]",
       "brand": "Momose",
@@ -60924,7 +61180,7 @@
       "soldAvg": 1371
     },
     "PRS": {
-      "count": 176,
+      "count": 177,
       "min": 595,
       "max": 11024.45,
       "soldCount": 65,
@@ -60942,13 +61198,13 @@
       "soldAvg": 9000
     },
     "BC Rich": {
-      "count": 121,
+      "count": 123,
       "min": 33,
       "max": 10350,
-      "soldCount": 33,
+      "soldCount": 34,
       "outliersExcluded": 1,
-      "avg": 2661,
-      "soldAvg": 2188
+      "avg": 2643,
+      "soldAvg": 2156
     },
     "Epiphone": {
       "count": 22,
@@ -60969,13 +61225,13 @@
       "soldAvg": 2975
     },
     "ESP": {
-      "count": 47,
+      "count": 49,
       "min": 825,
       "max": 7499,
-      "soldCount": 12,
+      "soldCount": 13,
       "outliersExcluded": 0,
-      "avg": 3202,
-      "soldAvg": 1863
+      "avg": 3137,
+      "soldAvg": 1834
     },
     "David Thomas McNaught": {
       "count": 1,
@@ -60987,12 +61243,12 @@
       "soldAvg": null
     },
     "Ibanez": {
-      "count": 87,
+      "count": 88,
       "min": 173.3,
       "max": 8340,
       "soldCount": 33,
       "outliersExcluded": 5,
-      "avg": 2252,
+      "avg": 2235,
       "soldAvg": 2138
     },
     "Jennings": {
@@ -63083,6 +63339,24 @@
       "avg": 395,
       "soldAvg": 395
     },
+    "Harley Benton": {
+      "count": 1,
+      "min": 175,
+      "max": 175,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 175,
+      "soldAvg": null
+    },
+    "American Beauty": {
+      "count": 1,
+      "min": 1050,
+      "max": 1050,
+      "soldCount": 1,
+      "outliersExcluded": 0,
+      "avg": 1050,
+      "soldAvg": 1050
+    },
     "Momose": {
       "count": 2,
       "min": 1475,
@@ -63212,44 +63486,44 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 711,
-      "sum": 3011624.1500000036,
+      "count": 713,
+      "sum": 3016323.1500000036,
       "sold": {
-        "count": 247,
-        "sum": 669661.8099999999,
-        "avg": 2711,
+        "count": 248,
+        "sum": 670761.8099999999,
+        "avg": 2705,
         "min": 110,
         "max": 35900
       },
-      "avg": 4236,
+      "avg": 4230,
       "min": 110,
       "max": 190000
     },
     "Very Good": {
-      "count": 570,
-      "sum": 2010012.73,
+      "count": 573,
+      "sum": 2013950.04,
       "sold": {
-        "count": 183,
-        "sum": 400640.2899999999,
-        "avg": 2189,
+        "count": 184,
+        "sum": 402129.5999999999,
+        "avg": 2185,
         "min": 68,
         "max": 10800
       },
-      "avg": 3526,
+      "avg": 3515,
       "min": 33,
       "max": 437713.69
     },
     "Brand New": {
-      "count": 161,
-      "sum": 699454.1399999999,
+      "count": 164,
+      "sum": 702679.1299999999,
       "sold": {
-        "count": 19,
-        "sum": 72011.17,
-        "avg": 3790,
+        "count": 20,
+        "sum": 73061.17,
+        "avg": 3653,
         "min": 995,
         "max": 9297.8
       },
-      "avg": 4344,
+      "avg": 4285,
       "min": 135,
       "max": 14670
     },
@@ -63396,9 +63670,9 @@
     },
     "01": {
       "name": "Jan",
-      "avg": 2848,
-      "median": 2000,
-      "count": 127
+      "avg": 2767,
+      "median": 1999,
+      "count": 135
     }
   },
   "recentDrops": [
@@ -63544,36 +63818,36 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 66,
-    "500-1k": 169,
-    "1k-2k": 600,
+    "0-500": 67,
+    "500-1k": 170,
+    "1k-2k": 605,
     "2k-3k": 396,
-    "3k-5k": 433,
+    "3k-5k": 434,
     "5k-10k": 244,
     "10k+": 72
   },
   "priceDistributionFiltered": {
-    "0-500": 66,
-    "500-1k": 169,
-    "1k-2k": 600,
+    "0-500": 67,
+    "500-1k": 170,
+    "1k-2k": 605,
     "2k-3k": 396,
-    "3k-5k": 433,
+    "3k-5k": 434,
     "5k-10k": 244,
     "10k+": 17
   },
   "daysOnMarket": {
     "Kramer": {
-      "sum": 441,
+      "sum": 442,
       "count": 10,
       "avg": 44
     },
     "Fender": {
-      "sum": 3288,
+      "sum": 3290,
       "count": 71,
       "avg": 46
     },
     "Gibson": {
-      "sum": 4538,
+      "sum": 4539,
       "count": 97,
       "avg": 47
     },
@@ -63588,7 +63862,7 @@
       "avg": 43
     },
     "PRS": {
-      "sum": 4008,
+      "sum": 4010,
       "count": 92,
       "avg": 44
     },
@@ -63608,12 +63882,12 @@
       "avg": 27
     },
     "ESP": {
-      "sum": 1031,
+      "sum": 1032,
       "count": 22,
       "avg": 47
     },
     "BC Rich": {
-      "sum": 3040,
+      "sum": 3041,
       "count": 58,
       "avg": 52
     },
@@ -63623,7 +63897,7 @@
       "avg": 2
     },
     "Ibanez": {
-      "sum": 2320,
+      "sum": 2323,
       "count": 45,
       "avg": 52
     },
@@ -63703,7 +63977,7 @@
       "avg": 28
     },
     "Knaggs": {
-      "sum": 205,
+      "sum": 207,
       "count": 5,
       "avg": 41
     },
@@ -63753,9 +64027,9 @@
       "avg": 40
     },
     "Reichardt": {
-      "sum": 8,
+      "sum": 9,
       "count": 1,
-      "avg": 8
+      "avg": 9
     },
     "Kay": {
       "sum": 95,
@@ -63793,9 +64067,9 @@
       "avg": 40
     },
     "Island": {
-      "sum": 61,
+      "sum": 62,
       "count": 1,
-      "avg": 61
+      "avg": 62
     },
     "Mayones": {
       "sum": 117,
@@ -63873,7 +64147,7 @@
       "avg": 45
     },
     "First Act": {
-      "sum": 164,
+      "sum": 165,
       "count": 3,
       "avg": 55
     },
@@ -63988,7 +64262,7 @@
       "avg": 35
     },
     "Harmony": {
-      "sum": 81,
+      "sum": 82,
       "count": 2,
       "avg": 41
     },
@@ -63998,7 +64272,7 @@
       "avg": 60
     },
     "Yamaha": {
-      "sum": 501,
+      "sum": 502,
       "count": 8,
       "avg": 63
     },
@@ -64023,7 +64297,7 @@
       "avg": 34
     },
     "Huss & Dalton": {
-      "sum": 137,
+      "sum": 138,
       "count": 2,
       "avg": 69
     },
@@ -64461,7 +64735,7 @@
     },
     {
       "username": "Benson Kent",
-      "count": 94
+      "count": 95
     },
     {
       "username": "Shteefe",
@@ -64469,7 +64743,7 @@
     },
     {
       "username": "Modean",
-      "count": 57
+      "count": 58
     },
     {
       "username": "YellowJack6",
@@ -64485,7 +64759,7 @@
     },
     {
       "username": "WontonGG",
-      "count": 26
+      "count": 27
     },
     {
       "username": "jazee_",
@@ -64530,22 +64804,22 @@
       "count": 22
     },
     "ESP": {
-      "avgPrice": 3289,
+      "avgPrice": 3224,
       "retailEst": 2000,
-      "avgDiscount": -64.4,
-      "count": 50
+      "avgDiscount": -61.2,
+      "count": 52
     },
     "PRS": {
-      "avgPrice": 4329,
+      "avgPrice": 4325,
       "retailEst": 1000,
-      "avgDiscount": -332.9,
-      "count": 184
+      "avgDiscount": -332.5,
+      "count": 185
     },
     "Ibanez": {
-      "avgPrice": 3287,
+      "avgPrice": 3259,
       "retailEst": 1000,
-      "avgDiscount": -228.7,
-      "count": 93
+      "avgDiscount": -225.9,
+      "count": 94
     },
     "Jackson": {
       "avgPrice": 4413,
@@ -64662,10 +64936,10 @@
       "count": 10
     },
     "BC Rich": {
-      "avgPrice": 2831,
+      "avgPrice": 2811,
       "retailEst": 200,
-      "avgDiscount": -1315.7,
-      "count": 125
+      "avgDiscount": -1305.7,
+      "count": 127
     },
     "G&L": {
       "avgPrice": 1869,
@@ -64717,8 +64991,8 @@
     }
   },
   "soldPrices": {
-    "count": 640,
-    "avg": 2766,
+    "count": 643,
+    "avg": 2759,
     "min": 59.99,
     "max": 35900,
     "avgDiscount": 10
@@ -69521,11 +69795,11 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1988,
-      "sold": 641,
+      "total": 1996,
+      "sold": 644,
       "fake": 0,
-      "live": 634,
-      "removed": 713,
+      "live": 635,
+      "removed": 717,
       "soldPct": 32,
       "livePct": 32
     },
@@ -69594,11 +69868,11 @@
         "livePct": 36
       },
       "PRS": {
-        "total": 185,
+        "total": 186,
         "sold": 65,
         "fake": 0,
         "live": 47,
-        "removed": 73,
+        "removed": 74,
         "soldPct": 35,
         "livePct": 25
       },
@@ -69612,12 +69886,12 @@
         "livePct": 0
       },
       "BC Rich": {
-        "total": 127,
-        "sold": 36,
+        "total": 129,
+        "sold": 37,
         "fake": 0,
-        "live": 52,
+        "live": 53,
         "removed": 39,
-        "soldPct": 28,
+        "soldPct": 29,
         "livePct": 41
       },
       "Epiphone": {
@@ -69639,13 +69913,13 @@
         "livePct": 50
       },
       "ESP": {
-        "total": 50,
-        "sold": 13,
+        "total": 52,
+        "sold": 14,
         "fake": 0,
         "live": 20,
-        "removed": 17,
-        "soldPct": 26,
-        "livePct": 40
+        "removed": 18,
+        "soldPct": 27,
+        "livePct": 38
       },
       "David Thomas McNaught": {
         "total": 1,
@@ -69657,13 +69931,13 @@
         "livePct": 100
       },
       "Ibanez": {
-        "total": 98,
+        "total": 99,
         "sold": 33,
         "fake": 0,
         "live": 34,
-        "removed": 31,
-        "soldPct": 34,
-        "livePct": 35
+        "removed": 32,
+        "soldPct": 33,
+        "livePct": 34
       },
       "Jennings": {
         "total": 1,
@@ -71888,6 +72162,24 @@
         "soldPct": 100,
         "livePct": 0
       },
+      "Harley Benton": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 0,
+        "removed": 1,
+        "soldPct": 0,
+        "livePct": 0
+      },
+      "American Beauty": {
+        "total": 1,
+        "sold": 1,
+        "fake": 0,
+        "live": 0,
+        "removed": 0,
+        "soldPct": 100,
+        "livePct": 0
+      },
       "Momose": {
         "total": 2,
         "sold": 2,
@@ -72162,20 +72454,20 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 66,
+        "total": 67,
         "sold": 17,
-        "rate": 26
+        "rate": 25
       },
       {
         "label": "$500–1k",
-        "total": 169,
+        "total": 170,
         "sold": 62,
-        "rate": 37
+        "rate": 36
       },
       {
         "label": "$1k–2k",
-        "total": 600,
-        "sold": 220,
+        "total": 605,
+        "sold": 223,
         "rate": 37
       },
       {
@@ -72186,7 +72478,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 433,
+        "total": 434,
         "sold": 123,
         "rate": 28
       },
@@ -72205,18 +72497,18 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 711,
-        "sold": 253,
+        "total": 713,
+        "sold": 254,
         "rate": 36
       },
       "Very Good": {
-        "total": 570,
-        "sold": 185,
+        "total": 573,
+        "sold": 186,
         "rate": 32
       },
       "Brand New": {
-        "total": 161,
-        "sold": 29,
+        "total": 164,
+        "sold": 30,
         "rate": 18
       },
       "Good": {
@@ -72496,9 +72788,9 @@
       "live": 20,
       "removed": 32,
       "sellRate": 37,
-      "totalDays": 2821.3,
+      "totalDays": 2821.6,
       "soldCount": 30,
-      "avgDaysToSell": 94
+      "avgDaysToSell": 94.1
     },
     "K-Line|K-Line": {
       "brand": "K-Line",
@@ -72534,7 +72826,7 @@
       "live": 51,
       "removed": 66,
       "sellRate": 35,
-      "totalDays": 5206.899999999999,
+      "totalDays": 5207.799999999999,
       "soldCount": 64,
       "avgDaysToSell": 81.4
     },
@@ -72553,7 +72845,7 @@
       "live": 34,
       "removed": 20,
       "sellRate": 38,
-      "totalDays": 2479.2999999999997,
+      "totalDays": 2479.4,
       "soldCount": 33,
       "avgDaysToSell": 75.1
     },
@@ -72572,7 +72864,7 @@
       "live": 26,
       "removed": 56,
       "sellRate": 37,
-      "totalDays": 3857.1000000000013,
+      "totalDays": 3857.400000000001,
       "soldCount": 49,
       "avgDaysToSell": 78.7
     },
@@ -72591,7 +72883,7 @@
       "live": 10,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1505.3999999999999,
+      "totalDays": 1505.6999999999998,
       "soldCount": 19,
       "avgDaysToSell": 79.2
     },
@@ -72610,9 +72902,9 @@
       "live": 4,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 46.2,
+      "totalDays": 46.3,
       "soldCount": 2,
-      "avgDaysToSell": 23.1
+      "avgDaysToSell": 23.2
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -72629,7 +72921,7 @@
       "live": 16,
       "removed": 15,
       "sellRate": 21,
-      "totalDays": 631.1,
+      "totalDays": 631.2,
       "soldCount": 8,
       "avgDaysToSell": 78.9
     },
@@ -72667,9 +72959,9 @@
       "live": 5,
       "removed": 6,
       "sellRate": 27,
-      "totalDays": 340.5,
+      "totalDays": 340.6,
       "soldCount": 4,
-      "avgDaysToSell": 85.1
+      "avgDaysToSell": 85.2
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -72705,7 +72997,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 58,
-      "totalDays": 1331.6000000000001,
+      "totalDays": 1331.7,
       "soldCount": 15,
       "avgDaysToSell": 88.8
     },
@@ -72856,9 +73148,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 71,
-      "totalDays": 408.6,
+      "totalDays": 408.79999999999995,
       "soldCount": 4,
-      "avgDaysToSell": 81.7
+      "avgDaysToSell": 81.8
     },
     "Mayones|Mayones": {
       "brand": "Mayones",
@@ -72894,9 +73186,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 108.6,
+      "totalDays": 108.8,
       "soldCount": 2,
-      "avgDaysToSell": 54.3
+      "avgDaysToSell": 54.4
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -72951,7 +73243,7 @@
       "live": 6,
       "removed": 11,
       "sellRate": 39,
-      "totalDays": 747.8000000000001,
+      "totalDays": 747.9,
       "soldCount": 8,
       "avgDaysToSell": 68
     },
@@ -73062,7 +73354,7 @@
       "live": 4,
       "removed": 8,
       "sellRate": 50,
-      "totalDays": 597.9,
+      "totalDays": 598,
       "soldCount": 12,
       "avgDaysToSell": 49.8
     },
@@ -73081,9 +73373,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 46,
-      "totalDays": 513.2,
+      "totalDays": 513.3000000000001,
       "soldCount": 6,
-      "avgDaysToSell": 85.5
+      "avgDaysToSell": 85.6
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -73119,7 +73411,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1252.8999999999999,
+      "totalDays": 1253,
       "soldCount": 11,
       "avgDaysToSell": 113.9
     },
@@ -73138,7 +73430,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 38,
-      "totalDays": 1146.8,
+      "totalDays": 1146.9,
       "soldCount": 14,
       "avgDaysToSell": 81.9
     },
@@ -73193,7 +73485,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 45,
-      "totalDays": 451.40000000000003,
+      "totalDays": 451.5,
       "soldCount": 5,
       "avgDaysToSell": 90.3
     },
@@ -73212,7 +73504,7 @@
       "live": 14,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 693,
+      "totalDays": 693.0999999999999,
       "soldCount": 7,
       "avgDaysToSell": 99
     },
@@ -73249,7 +73541,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1382.9999999999998,
+      "totalDays": 1383.1999999999998,
       "soldCount": 14,
       "avgDaysToSell": 86.4
     },
@@ -73305,7 +73597,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 463.70000000000005,
+      "totalDays": 463.79999999999995,
       "soldCount": 9,
       "avgDaysToSell": 51.5
     },
@@ -73342,9 +73634,9 @@
       "live": 4,
       "removed": 1,
       "sellRate": 38,
-      "totalDays": 301,
+      "totalDays": 301.1,
       "soldCount": 3,
-      "avgDaysToSell": 100.3
+      "avgDaysToSell": 100.4
     },
     "Charvel|Charvel USA": {
       "brand": "Charvel",
@@ -73398,7 +73690,7 @@
       "live": 1,
       "removed": 1,
       "sellRate": 60,
-      "totalDays": 314.6,
+      "totalDays": 314.7,
       "soldCount": 3,
       "avgDaysToSell": 104.9
     },
@@ -73566,9 +73858,9 @@
       "live": 2,
       "removed": 1,
       "sellRate": 25,
-      "totalDays": 110.4,
+      "totalDays": 110.5,
       "soldCount": 1,
-      "avgDaysToSell": 110.4
+      "avgDaysToSell": 110.5
     },
     "Nash|Nash": {
       "brand": "Nash",
@@ -73585,7 +73877,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 67,
-      "totalDays": 494.09999999999997,
+      "totalDays": 494.2,
       "soldCount": 8,
       "avgDaysToSell": 61.8
     },
@@ -73659,7 +73951,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 80,
-      "totalDays": 303.1,
+      "totalDays": 303.20000000000005,
       "soldCount": 4,
       "avgDaysToSell": 75.8
     },
@@ -73905,7 +74197,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 222.10000000000002,
+      "totalDays": 222.2,
       "soldCount": 2,
       "avgDaysToSell": 111.1
     },
@@ -73943,7 +74235,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 161.9,
+      "totalDays": 162,
       "soldCount": 2,
       "avgDaysToSell": 81
     },
@@ -74057,9 +74349,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 68.5,
+      "totalDays": 68.6,
       "soldCount": 1,
-      "avgDaysToSell": 68.5
+      "avgDaysToSell": 68.6
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -74408,9 +74700,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 101.3,
+      "totalDays": 101.4,
       "soldCount": 1,
-      "avgDaysToSell": 101.3
+      "avgDaysToSell": 101.4
     },
     "Powers Electric|Rickenbacker": {
       "brand": "Powers Electric",
