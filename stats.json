@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-24T06:56:25.390Z",
-  "totalLinks": 2960,
+  "generatedAt": "2026-07-24T07:11:26.724Z",
+  "totalLinks": 2959,
   "totalEver": 3622,
   "totalBeforeFilter": 3622,
   "fakeCount": 6,
-  "removedCount": 1157,
-  "totalWithPrice": 1960,
+  "removedCount": 1160,
+  "totalWithPrice": 1967,
   "overall": {
-    "count": 1904,
-    "sum": 5521747.97,
-    "avg": 2900,
+    "count": 1911,
+    "sum": 5532622.66,
+    "avg": 2895,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 1904,
-    "sum": 5521747.97,
-    "avg": 2900,
+    "count": 1911,
+    "sum": 5532622.66,
+    "avg": 2895,
     "min": 10.49,
     "max": 11475,
-    "median": 2295
+    "median": 2282
   },
   "outliers": {
     "thresholdHigh": 11499,
@@ -512,20 +512,20 @@
       "avg": 2003
     },
     "2026-01": {
-      "count": 107,
-      "sum": 311968,
+      "count": 114,
+      "sum": 322842.69,
       "min": 110,
       "max": 11024.45,
-      "avg": 2916
+      "avg": 2832
     }
   },
   "byCategory": {
     "reverb": {
-      "count": 1659,
-      "sum": 4765665.43,
+      "count": 1666,
+      "sum": 4776540.12,
       "min": 33,
       "max": 11024.45,
-      "avg": 2873
+      "avg": 2867
     },
     "marketplace": {
       "count": 145,
@@ -544,11 +544,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 1659,
-      "sum": 4765665.43,
+      "count": 1666,
+      "sum": 4776540.12,
       "min": 33,
       "max": 11024.45,
-      "avg": 2873
+      "avg": 2867
     },
     "eddiesguitars.com": {
       "count": 8,
@@ -7853,11 +7853,20 @@
       "brand": "Suhr",
       "model": "Classic",
       "variant": "Hss",
-      "count": 2,
-      "sum": 4786,
-      "min": 2199,
+      "count": 3,
+      "sum": 6785,
+      "min": 1999,
       "max": 2587,
       "sightings": [
+        {
+          "price": 1999,
+          "date": "2026-01-15T17:59:28.096+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Classic Antique HSS 2015 - Black",
+          "url": "https://reverb.com/item/94027164",
+          "condition": "Good"
+        },
         {
           "price": 2587,
           "date": "2026-06-19T17:17:05.126+00:00",
@@ -7891,6 +7900,13 @@
           "min": 2587,
           "max": 2587,
           "avg": 2587
+        },
+        "Good": {
+          "count": 1,
+          "sum": 1999,
+          "min": 1999,
+          "max": 1999,
+          "avg": 1999
         }
       },
       "soldData": {
@@ -7915,7 +7931,30 @@
           }
         ]
       },
-      "avg": 2393
+      "avg": 2262,
+      "trends": {
+        "d30": {
+          "direction": "down",
+          "pctChange": -4,
+          "recentAvg": 2199,
+          "olderAvg": 2293,
+          "recentCount": 1
+        },
+        "d60": {
+          "direction": "up",
+          "pctChange": 20,
+          "recentAvg": 2393,
+          "olderAvg": 1999,
+          "recentCount": 2
+        },
+        "d90": {
+          "direction": "up",
+          "pctChange": 20,
+          "recentAvg": 2393,
+          "olderAvg": 1999,
+          "recentCount": 2
+        }
+      }
     },
     "gibson-les-paul-custom-classic": {
       "displayName": "Gibson Les Paul Custom Classic Ebony 2007",
@@ -8340,11 +8379,29 @@
       "brand": "Gibson",
       "model": "SG",
       "variant": null,
-      "count": 4,
-      "sum": 7023.99,
+      "count": 6,
+      "sum": 12002.99,
       "min": 1249,
-      "max": 2499.99,
+      "max": 3230,
       "sightings": [
+        {
+          "price": 3230,
+          "date": "2026-01-15T17:43:56.853+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson SG-Z w/ Satriani Autograph 1998 - Verdigris",
+          "url": "https://reverb.com/item/83101181",
+          "condition": "Excellent"
+        },
+        {
+          "price": 1749,
+          "date": "2026-01-15T17:43:56.853+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson SG 90 Double White with Gibson HSC",
+          "url": "https://reverb.com/item/93283305",
+          "condition": "Good"
+        },
         {
           "price": 1249,
           "date": "2026-04-05T23:14:41.733+00:00",
@@ -8396,29 +8453,58 @@
           "min": 2499.99,
           "max": 2499.99,
           "avg": 2500
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 3230,
+          "min": 3230,
+          "max": 3230,
+          "avg": 3230
+        },
+        "Good": {
+          "count": 1,
+          "sum": 1749,
+          "min": 1749,
+          "max": 1749,
+          "avg": 1749
         }
       },
-      "avg": 1756,
+      "soldData": {
+        "count": 1,
+        "avg": 1749,
+        "min": 1749,
+        "max": 1749,
+        "prices": [
+          {
+            "price": 1749,
+            "askingPrice": 1749,
+            "date": "2026-01-15T17:43:56.853+00:00",
+            "title": "Gibson SG 90 Double White with Gibson HSC",
+            "url": "https://reverb.com/item/93283305"
+          }
+        ]
+      },
+      "avg": 2000,
       "trends": {
         "d30": {
           "direction": "down",
-          "pctChange": -19,
+          "pctChange": -29,
           "recentAvg": 1499,
-          "olderAvg": 1842,
+          "olderAvg": 2101,
           "recentCount": 1
         },
         "d60": {
           "direction": "down",
-          "pctChange": -19,
+          "pctChange": -29,
           "recentAvg": 1499,
-          "olderAvg": 1842,
+          "olderAvg": 2101,
           "recentCount": 1
         },
         "d90": {
-          "direction": "up",
-          "pctChange": 32,
+          "direction": "flat",
+          "pctChange": 0,
           "recentAvg": 1999,
-          "olderAvg": 1513,
+          "olderAvg": 2001,
           "recentCount": 2
         }
       }
@@ -56861,6 +56947,175 @@
       },
       "avg": 1900
     },
+    "cort-g250-se-olive-se": {
+      "displayName": "Cort G250 SE 2024 - Olive Dark Green",
+      "brand": "Cort",
+      "model": "G250 SE Olive",
+      "variant": "Se",
+      "count": 1,
+      "sum": 215,
+      "min": 215,
+      "max": 215,
+      "sightings": [
+        {
+          "price": 215,
+          "date": "2026-01-15T16:25:21.155+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Cort G250 SE 2024 - Olive Dark Green",
+          "url": "https://reverb.com/item/94065601",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 215,
+          "min": 215,
+          "max": 215,
+          "avg": 215
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 215,
+        "min": 215,
+        "max": 215,
+        "prices": [
+          {
+            "price": 215,
+            "askingPrice": 215,
+            "date": "2026-01-15T16:25:21.155+00:00",
+            "title": "Cort G250 SE 2024 - Olive Dark Green",
+            "url": "https://reverb.com/item/94065601"
+          }
+        ]
+      },
+      "avg": 215
+    },
+    "kiesel-cs3": {
+      "displayName": "Kiesel cs3 - surf green",
+      "brand": "Kiesel",
+      "model": "cs3",
+      "variant": null,
+      "count": 1,
+      "sum": 1399.99,
+      "min": 1399.99,
+      "max": 1399.99,
+      "sightings": [
+        {
+          "price": 1399.99,
+          "date": "2026-01-15T14:40:14.016+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kiesel cs3 - surf green",
+          "url": "https://reverb.com/item/93727164",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1399.99,
+          "min": 1399.99,
+          "max": 1399.99,
+          "avg": 1400
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 1400,
+        "min": 1399.99,
+        "max": 1399.99,
+        "prices": [
+          {
+            "price": 1399.99,
+            "askingPrice": 1399.99,
+            "date": "2026-01-15T14:40:14.016+00:00",
+            "title": "Kiesel cs3 - surf green",
+            "url": "https://reverb.com/item/93727164"
+          }
+        ]
+      },
+      "avg": 1400
+    },
+    "klein-japan-stele-ash": {
+      "displayName": "Klein Japan <MIJ> sTele Ash [Pre-Owned]【Demo Video!】",
+      "brand": "Klein Japan",
+      "model": "sTele Ash",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 1546.7,
+      "min": 1546.7,
+      "max": 1546.7,
+      "sightings": [
+        {
+          "price": 1546.7,
+          "date": "2026-01-15T04:19:17.076+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Klein Japan <MIJ> sTele Ash [Pre-Owned]【Demo Video!】",
+          "url": "https://reverb.com/item/93837393",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 1546.7,
+          "min": 1546.7,
+          "max": 1546.7,
+          "avg": 1547
+        }
+      },
+      "avg": 1547
+    },
+    "teisco-emperador-335-1960s-mij": {
+      "displayName": "TEISCO 'EMPERADOR' VINTAGE '335' MIJ 1960s GREEN ***CLEARANCE***",
+      "brand": "Teisco",
+      "model": "'EMPERADOR' '335' 1960s",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 735,
+      "min": 735,
+      "max": 735,
+      "sightings": [
+        {
+          "price": 735,
+          "date": "2026-01-15T02:41:58.457+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "TEISCO 'EMPERADOR' VINTAGE '335' MIJ 1960s GREEN ***CLEARANCE***",
+          "url": "https://reverb.com/item/93255593",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 735,
+          "min": 735,
+          "max": 735,
+          "avg": 735
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 735,
+        "min": 735,
+        "max": 735,
+        "prices": [
+          {
+            "price": 735,
+            "askingPrice": 735,
+            "date": "2026-01-15T02:41:58.457+00:00",
+            "title": "TEISCO 'EMPERADOR' VINTAGE '335' MIJ 1960s GREEN ***CLEARANCE***",
+            "url": "https://reverb.com/item/93255593"
+          }
+        ]
+      },
+      "avg": 735
+    },
     "lsl-saticoy-cv-build": {
       "displayName": "LsL Instruments Saticoy 2024 - CV Blue - Custom Build",
       "brand": "LSL",
@@ -60231,13 +60486,13 @@
       "soldAvg": 1670
     },
     "Gibson": {
-      "count": 232,
+      "count": 234,
       "min": 59.99,
       "max": 11099,
-      "soldCount": 85,
+      "soldCount": 86,
       "outliersExcluded": 4,
-      "avg": 3624,
-      "soldAvg": 3426
+      "avg": 3614,
+      "soldAvg": 3407
     },
     "Charvel": {
       "count": 14,
@@ -60249,13 +60504,13 @@
       "soldAvg": 4511
     },
     "Kiesel": {
-      "count": 92,
+      "count": 93,
       "min": 650,
       "max": 4300,
-      "soldCount": 35,
+      "soldCount": 36,
       "outliersExcluded": 0,
-      "avg": 1684,
-      "soldAvg": 1390
+      "avg": 1681,
+      "soldAvg": 1391
     },
     "PRS": {
       "count": 175,
@@ -60402,12 +60657,12 @@
       "soldAvg": 799
     },
     "Suhr": {
-      "count": 27,
+      "count": 28,
       "min": 1999,
       "max": 7250,
       "soldCount": 14,
       "outliersExcluded": 1,
-      "avg": 3009,
+      "avg": 2973,
       "soldAvg": 2961
     },
     "Univox": {
@@ -61455,13 +61710,13 @@
       "soldAvg": 2707
     },
     "Cort": {
-      "count": 4,
-      "min": 315,
+      "count": 5,
+      "min": 215,
       "max": 2299,
-      "soldCount": 1,
+      "soldCount": 2,
       "outliersExcluded": 0,
-      "avg": 865,
-      "soldAvg": 2299
+      "avg": 735,
+      "soldAvg": 1257
     },
     "Mighty Mite": {
       "count": 1,
@@ -62417,6 +62672,24 @@
       "avg": 395,
       "soldAvg": 395
     },
+    "Klein Japan": {
+      "count": 1,
+      "min": 1546.7,
+      "max": 1546.7,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 1547,
+      "soldAvg": null
+    },
+    "Teisco": {
+      "count": 1,
+      "min": 735,
+      "max": 735,
+      "soldCount": 1,
+      "outliersExcluded": 0,
+      "avg": 735,
+      "soldAvg": 735
+    },
     "Gimenez": {
       "count": 1,
       "min": 1500,
@@ -62519,30 +62792,30 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 706,
-      "sum": 3003252.460000003,
+      "count": 710,
+      "sum": 3009644.1500000036,
       "sold": {
-        "count": 245,
-        "sum": 668046.82,
-        "avg": 2727,
+        "count": 247,
+        "sum": 669661.8099999999,
+        "avg": 2711,
         "min": 110,
         "max": 35900
       },
-      "avg": 4254,
+      "avg": 4239,
       "min": 110,
       "max": 190000
     },
     "Very Good": {
-      "count": 564,
-      "sum": 2001853.74,
+      "count": 565,
+      "sum": 2002588.74,
       "sold": {
-        "count": 182,
-        "sum": 399905.2899999999,
-        "avg": 2197,
+        "count": 183,
+        "sum": 400640.2899999999,
+        "avg": 2189,
         "min": 68,
         "max": 10800
       },
-      "avg": 3549,
+      "avg": 3544,
       "min": 33,
       "max": 437713.69
     },
@@ -62561,16 +62834,16 @@
       "max": 14670
     },
     "Good": {
-      "count": 208,
-      "sum": 601009.2700000001,
+      "count": 210,
+      "sum": 604757.2700000001,
       "sold": {
-        "count": 68,
-        "sum": 142023.31,
-        "avg": 2089,
+        "count": 69,
+        "sum": 143772.31,
+        "avg": 2084,
         "min": 399,
         "max": 8000
       },
-      "avg": 2889,
+      "avg": 2880,
       "min": 70,
       "max": 55000
     },
@@ -62700,9 +62973,9 @@
     },
     "01": {
       "name": "Jan",
-      "avg": 2916,
-      "median": 2150,
-      "count": 107
+      "avg": 2832,
+      "median": 2100,
+      "count": 114
     }
   },
   "recentDrops": [
@@ -62848,20 +63121,20 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 64,
-    "500-1k": 165,
-    "1k-2k": 592,
+    "0-500": 65,
+    "500-1k": 166,
+    "1k-2k": 596,
     "2k-3k": 394,
-    "3k-5k": 432,
+    "3k-5k": 433,
     "5k-10k": 241,
     "10k+": 72
   },
   "priceDistributionFiltered": {
-    "0-500": 64,
-    "500-1k": 165,
-    "1k-2k": 592,
+    "0-500": 65,
+    "500-1k": 166,
+    "1k-2k": 596,
     "2k-3k": 394,
-    "3k-5k": 432,
+    "3k-5k": 433,
     "5k-10k": 241,
     "10k+": 16
   },
@@ -62872,12 +63145,12 @@
       "avg": 44
     },
     "Fender": {
-      "sum": 3277,
+      "sum": 3280,
       "count": 71,
       "avg": 46
     },
     "Gibson": {
-      "sum": 4617,
+      "sum": 4621,
       "count": 98,
       "avg": 47
     },
@@ -62892,7 +63165,7 @@
       "avg": 43
     },
     "PRS": {
-      "sum": 4002,
+      "sum": 4005,
       "count": 92,
       "avg": 44
     },
@@ -62912,12 +63185,12 @@
       "avg": 27
     },
     "ESP": {
-      "sum": 1030,
+      "sum": 1031,
       "count": 22,
       "avg": 47
     },
     "BC Rich": {
-      "sum": 3033,
+      "sum": 3036,
       "count": 58,
       "avg": 52
     },
@@ -62957,9 +63230,9 @@
       "avg": 42
     },
     "G&L": {
-      "sum": 260,
+      "sum": 261,
       "count": 6,
-      "avg": 43
+      "avg": 44
     },
     "Chapman": {
       "sum": 104,
@@ -62982,7 +63255,7 @@
       "avg": 65
     },
     "Jackson": {
-      "sum": 926,
+      "sum": 929,
       "count": 21,
       "avg": 44
     },
@@ -63077,7 +63350,7 @@
       "avg": 9
     },
     "Frank Brothers": {
-      "sum": 204,
+      "sum": 205,
       "count": 5,
       "avg": 41
     },
@@ -63182,7 +63455,7 @@
       "avg": 55
     },
     "Washburn": {
-      "sum": 371,
+      "sum": 372,
       "count": 6,
       "avg": 62
     },
@@ -63232,7 +63505,7 @@
       "avg": 54
     },
     "Martin": {
-      "sum": 108,
+      "sum": 109,
       "count": 3,
       "avg": 36
     },
@@ -63242,9 +63515,9 @@
       "avg": 28
     },
     "Patrick James Eggle": {
-      "sum": 23,
+      "sum": 24,
       "count": 1,
-      "avg": 23
+      "avg": 24
     },
     "McSwain": {
       "sum": 23,
@@ -63312,9 +63585,9 @@
       "avg": 60
     },
     "Valley Arts": {
-      "sum": 31,
+      "sum": 32,
       "count": 1,
-      "avg": 31
+      "avg": 32
     },
     "Atkin": {
       "sum": 31,
@@ -63670,6 +63943,11 @@
       "sum": 89,
       "count": 1,
       "avg": 89
+    },
+    "Teisco": {
+      "sum": 42,
+      "count": 1,
+      "avg": 42
     }
   },
   "listingsPerDay": {
@@ -63706,7 +63984,7 @@
     "2026-06-24": 9
   },
   "categoryDistribution": {
-    "reverb": 2407,
+    "reverb": 2406,
     "marketplace": 442,
     "other": 111
   },
@@ -63714,7 +63992,7 @@
   "topPosters": [
     {
       "username": "Benson Kent",
-      "count": 557
+      "count": 556
     },
     {
       "username": "theguitarpit",
@@ -63760,7 +64038,7 @@
     },
     {
       "username": "Benson Kent",
-      "count": 91
+      "count": 93
     },
     {
       "username": "Shteefe",
@@ -63776,7 +64054,7 @@
     },
     {
       "username": "scottcorgan",
-      "count": 38
+      "count": 40
     },
     {
       "username": "Madero",
@@ -63817,10 +64095,10 @@
       "count": 10
     },
     "Gibson": {
-      "avgPrice": 5629,
+      "avgPrice": 5603,
       "retailEst": 800,
-      "avgDiscount": -603.6,
-      "count": 240
+      "avgDiscount": -600.4,
+      "count": 242
     },
     "Epiphone": {
       "avgPrice": 2373,
@@ -63877,10 +64155,10 @@
       "count": 16
     },
     "Suhr": {
-      "avgPrice": 16470,
+      "avgPrice": 15971,
       "retailEst": 2500,
-      "avgDiscount": -558.8,
-      "count": 28
+      "avgDiscount": -538.8,
+      "count": 29
     },
     "Anderson": {
       "avgPrice": 3227,
@@ -63889,10 +64167,10 @@
       "count": 17
     },
     "Kiesel": {
-      "avgPrice": 1682,
+      "avgPrice": 1679,
       "retailEst": 1000,
-      "avgDiscount": -68.2,
-      "count": 94
+      "avgDiscount": -67.9,
+      "count": 95
     },
     "Collings": {
       "avgPrice": 5077,
@@ -64016,8 +64294,8 @@
     }
   },
   "soldPrices": {
-    "count": 633,
-    "avg": 2772,
+    "count": 637,
+    "avg": 2761,
     "min": 59.99,
     "max": 35900,
     "avgDiscount": 10
@@ -68820,11 +69098,11 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 1968,
-      "sold": 634,
+      "total": 1975,
+      "sold": 638,
       "fake": 0,
-      "live": 632,
-      "removed": 702,
+      "live": 633,
+      "removed": 704,
       "soldPct": 32,
       "livePct": 32
     },
@@ -68866,10 +69144,10 @@
         "livePct": 40
       },
       "Gibson": {
-        "total": 251,
-        "sold": 86,
+        "total": 253,
+        "sold": 87,
         "fake": 0,
-        "live": 66,
+        "live": 67,
         "removed": 99,
         "soldPct": 34,
         "livePct": 26
@@ -68884,13 +69162,13 @@
         "livePct": 21
       },
       "Kiesel": {
-        "total": 95,
-        "sold": 36,
+        "total": 96,
+        "sold": 37,
         "fake": 0,
         "live": 35,
         "removed": 24,
-        "soldPct": 38,
-        "livePct": 37
+        "soldPct": 39,
+        "livePct": 36
       },
       "PRS": {
         "total": 184,
@@ -69037,13 +69315,13 @@
         "livePct": 50
       },
       "Suhr": {
-        "total": 29,
+        "total": 30,
         "sold": 14,
         "fake": 0,
         "live": 4,
-        "removed": 11,
-        "soldPct": 48,
-        "livePct": 14
+        "removed": 12,
+        "soldPct": 47,
+        "livePct": 13
       },
       "Univox": {
         "total": 1,
@@ -70162,13 +70440,13 @@
         "livePct": 100
       },
       "Cort": {
-        "total": 4,
-        "sold": 1,
+        "total": 5,
+        "sold": 2,
         "fake": 0,
         "live": 2,
         "removed": 1,
-        "soldPct": 25,
-        "livePct": 50
+        "soldPct": 40,
+        "livePct": 40
       },
       "Mighty Mite": {
         "total": 1,
@@ -71187,6 +71465,24 @@
         "soldPct": 100,
         "livePct": 0
       },
+      "Klein Japan": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 0,
+        "removed": 1,
+        "soldPct": 0,
+        "livePct": 0
+      },
+      "Teisco": {
+        "total": 1,
+        "sold": 1,
+        "fake": 0,
+        "live": 0,
+        "removed": 0,
+        "soldPct": 100,
+        "livePct": 0
+      },
       "Gimenez": {
         "total": 1,
         "sold": 0,
@@ -71434,20 +71730,20 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 64,
-        "sold": 16,
-        "rate": 25
+        "total": 65,
+        "sold": 17,
+        "rate": 26
       },
       {
         "label": "$500–1k",
-        "total": 165,
-        "sold": 60,
-        "rate": 36
+        "total": 166,
+        "sold": 61,
+        "rate": 37
       },
       {
         "label": "$1k–2k",
-        "total": 592,
-        "sold": 217,
+        "total": 596,
+        "sold": 219,
         "rate": 37
       },
       {
@@ -71458,7 +71754,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 432,
+        "total": 433,
         "sold": 123,
         "rate": 28
       },
@@ -71477,13 +71773,13 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 706,
-        "sold": 251,
+        "total": 710,
+        "sold": 253,
         "rate": 36
       },
       "Very Good": {
-        "total": 564,
-        "sold": 184,
+        "total": 565,
+        "sold": 185,
         "rate": 33
       },
       "Brand New": {
@@ -71492,8 +71788,8 @@
         "rate": 18
       },
       "Good": {
-        "total": 208,
-        "sold": 76,
+        "total": 210,
+        "sold": 77,
         "rate": 37
       },
       "Mint": {
@@ -71662,11 +71958,18 @@
         "sold": 2
       },
       {
+        "brand": "Cort",
+        "avgPrice": 735,
+        "sellRate": 40,
+        "count": 5,
+        "sold": 2
+      },
+      {
         "brand": "Kiesel",
-        "avgPrice": 1684,
-        "sellRate": 38,
-        "count": 95,
-        "sold": 36
+        "avgPrice": 1681,
+        "sellRate": 39,
+        "count": 96,
+        "sold": 37
       },
       {
         "brand": "Ovation",
@@ -71735,9 +72038,9 @@
       "live": 5,
       "removed": 2,
       "sellRate": 13,
-      "totalDays": 67.3,
+      "totalDays": 67.4,
       "soldCount": 1,
-      "avgDaysToSell": 67.3
+      "avgDaysToSell": 67.4
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -71754,7 +72057,7 @@
       "live": 20,
       "removed": 32,
       "sellRate": 37,
-      "totalDays": 2820.2999999999997,
+      "totalDays": 2820.4,
       "soldCount": 30,
       "avgDaysToSell": 94
     },
@@ -71792,7 +72095,7 @@
       "live": 51,
       "removed": 66,
       "sellRate": 35,
-      "totalDays": 5204.399999999998,
+      "totalDays": 5205.0999999999985,
       "soldCount": 64,
       "avgDaysToSell": 81.3
     },
@@ -71811,7 +72114,7 @@
       "live": 34,
       "removed": 20,
       "sellRate": 38,
-      "totalDays": 2477.2,
+      "totalDays": 2478,
       "soldCount": 33,
       "avgDaysToSell": 75.1
     },
@@ -71830,7 +72133,7 @@
       "live": 26,
       "removed": 56,
       "sellRate": 37,
-      "totalDays": 3854.7999999999997,
+      "totalDays": 3855.5,
       "soldCount": 49,
       "avgDaysToSell": 78.7
     },
@@ -71849,7 +72152,7 @@
       "live": 10,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1504.6000000000001,
+      "totalDays": 1504.7000000000003,
       "soldCount": 19,
       "avgDaysToSell": 79.2
     },
@@ -71887,7 +72190,7 @@
       "live": 16,
       "removed": 15,
       "sellRate": 21,
-      "totalDays": 631,
+      "totalDays": 631.1,
       "soldCount": 8,
       "avgDaysToSell": 78.9
     },
@@ -71944,7 +72247,7 @@
       "live": 11,
       "removed": 8,
       "sellRate": 37,
-      "totalDays": 804,
+      "totalDays": 804.2,
       "soldCount": 11,
       "avgDaysToSell": 73.1
     },
@@ -71963,7 +72266,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 58,
-      "totalDays": 1330.7,
+      "totalDays": 1331.0000000000002,
       "soldCount": 15,
       "avgDaysToSell": 88.7
     },
@@ -72001,7 +72304,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 418.59999999999997,
+      "totalDays": 418.7,
       "soldCount": 5,
       "avgDaysToSell": 83.7
     },
@@ -72039,7 +72342,7 @@
       "live": 3,
       "removed": 0,
       "sellRate": 40,
-      "totalDays": 77.1,
+      "totalDays": 77.2,
       "soldCount": 2,
       "avgDaysToSell": 38.6
     },
@@ -72114,7 +72417,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 71,
-      "totalDays": 408.29999999999995,
+      "totalDays": 408.5,
       "soldCount": 4,
       "avgDaysToSell": 81.7
     },
@@ -72190,9 +72493,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 44,
-      "totalDays": 278.9,
+      "totalDays": 279,
       "soldCount": 4,
-      "avgDaysToSell": 69.7
+      "avgDaysToSell": 69.8
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -72246,7 +72549,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 57,
-      "totalDays": 231.50000000000003,
+      "totalDays": 231.70000000000002,
       "soldCount": 4,
       "avgDaysToSell": 57.9
     },
@@ -72339,7 +72642,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 46,
-      "totalDays": 512.9,
+      "totalDays": 513.1,
       "soldCount": 6,
       "avgDaysToSell": 85.5
     },
@@ -72377,7 +72680,7 @@
       "live": 4,
       "removed": 7,
       "sellRate": 50,
-      "totalDays": 1252.6,
+      "totalDays": 1252.8,
       "soldCount": 11,
       "avgDaysToSell": 113.9
     },
@@ -72396,7 +72699,7 @@
       "live": 12,
       "removed": 11,
       "sellRate": 38,
-      "totalDays": 1146,
+      "totalDays": 1146.3000000000002,
       "soldCount": 14,
       "avgDaysToSell": 81.9
     },
@@ -72526,9 +72829,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 186.4,
+      "totalDays": 186.5,
       "soldCount": 2,
-      "avgDaysToSell": 93.2
+      "avgDaysToSell": 93.3
     },
     "GJ2|GJ2": {
       "brand": "GJ2",
@@ -72563,7 +72866,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 50,
-      "totalDays": 463.3,
+      "totalDays": 463.70000000000005,
       "soldCount": 9,
       "avgDaysToSell": 51.5
     },
@@ -72936,9 +73239,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 24.7,
+      "totalDays": 24.8,
       "soldCount": 1,
-      "avgDaysToSell": 24.7
+      "avgDaysToSell": 24.8
     },
     "Music Man|Music Man BFR": {
       "brand": "Music Man",
@@ -73050,7 +73353,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 62,
-      "totalDays": 761.8,
+      "totalDays": 761.9000000000001,
       "soldCount": 8,
       "avgDaysToSell": 95.2
     },
@@ -73069,7 +73372,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 216.9,
+      "totalDays": 217,
       "soldCount": 2,
       "avgDaysToSell": 108.5
     },
@@ -73296,7 +73599,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 183.1,
+      "totalDays": 183.2,
       "soldCount": 2,
       "avgDaysToSell": 91.6
     },
@@ -73739,9 +74042,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 109.3,
+      "totalDays": 109.4,
       "soldCount": 1,
-      "avgDaysToSell": 109.3
+      "avgDaysToSell": 109.4
     },
     "Ibanez|Rickenbacker": {
       "brand": "Ibanez",
