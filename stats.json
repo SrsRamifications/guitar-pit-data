@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-27T13:31:57.641Z",
-  "totalLinks": 2967,
-  "totalEver": 3700,
-  "totalBeforeFilter": 3700,
+  "generatedAt": "2026-07-27T13:34:15.765Z",
+  "totalLinks": 2968,
+  "totalEver": 3701,
+  "totalBeforeFilter": 3701,
   "fakeCount": 6,
   "removedCount": 1456,
-  "totalWithPrice": 2659,
+  "totalWithPrice": 2660,
   "overall": {
-    "count": 2584,
-    "sum": 7371232.83,
+    "count": 2585,
+    "sum": 7375732.83,
     "avg": 2853,
     "min": 10.49,
     "max": 11099
   },
   "filtered": {
-    "count": 2584,
-    "sum": 7371232.83,
+    "count": 2585,
+    "sum": 7375732.83,
     "avg": 2853,
     "min": 10.49,
     "max": 11099,
-    "median": 2248
+    "median": 2249
   },
   "outliers": {
-    "thresholdHigh": 11450,
+    "thresholdHigh": 11426,
     "thresholdLow": 0,
     "count": 75,
     "items": [
@@ -621,11 +621,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 341,
-      "sum": 1053059.99,
+      "count": 342,
+      "sum": 1057559.99,
       "min": 59.99,
       "max": 11000,
-      "avg": 3088
+      "avg": 3092
     },
     "2026-06": {
       "count": 285,
@@ -672,11 +672,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2334,
-      "sum": 6612406.3,
+      "count": 2335,
+      "sum": 6616906.3,
       "min": 33,
       "max": 11024.45,
-      "avg": 2833
+      "avg": 2834
     },
     "marketplace": {
       "count": 150,
@@ -695,11 +695,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2334,
-      "sum": 6612406.3,
+      "count": 2335,
+      "sum": 6616906.3,
       "min": 33,
       "max": 11024.45,
-      "avg": 2833
+      "avg": 2834
     },
     "guitarcenter.com": {
       "count": 82,
@@ -969,6 +969,46 @@
     }
   },
   "byModel": {
+    "gibson-j-160e": {
+      "displayName": "Gibson J-160E 1955 - Sunburst",
+      "brand": "Gibson",
+      "model": "J-160E",
+      "variant": null,
+      "count": 2,
+      "sum": 6398.23,
+      "min": 1898.23,
+      "max": 4500,
+      "sightings": [
+        {
+          "price": 1898.23,
+          "date": "2026-02-11T03:49:19.338+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson J-160E 2001",
+          "url": "https://reverb.com/item/93158037",
+          "condition": "Very Good"
+        },
+        {
+          "price": 4500,
+          "date": "2026-07-27T13:34:00.207Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson J-160E 1955 - Sunburst",
+          "url": "https://reverb.com/item/93185317",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 2,
+          "sum": 6398.23,
+          "min": 1898.23,
+          "max": 4500,
+          "avg": 3199
+        }
+      },
+      "avg": 3199
+    },
     "guild-t-100-slim-jim-p90": {
       "displayName": "Guild T-100 Slim Jim with P90 1962 - Sunburst, Franz Pickup",
       "brand": "Guild",
@@ -70693,37 +70733,6 @@
       },
       "avg": 6500
     },
-    "gibson-j-160e": {
-      "displayName": "Gibson J-160E 2001",
-      "brand": "Gibson",
-      "model": "J-160E",
-      "variant": null,
-      "count": 1,
-      "sum": 1898.23,
-      "min": 1898.23,
-      "max": 1898.23,
-      "sightings": [
-        {
-          "price": 1898.23,
-          "date": "2026-02-11T03:49:19.338+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson J-160E 2001",
-          "url": "https://reverb.com/item/93158037",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 1898.23,
-          "min": 1898.23,
-          "max": 1898.23,
-          "avg": 1898
-        }
-      },
-      "avg": 1898
-    },
     "rob-oreilly-midi-pro-2": {
       "displayName": "Pre Owned Rob O'Reilly Guitars\tMIDI Pro 2 Electric Guitar Black",
       "brand": "Rob O'Reilly",
@@ -83015,6 +83024,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 306,
+      "min": 59.99,
+      "max": 11099,
+      "soldCount": 118,
+      "outliersExcluded": 7,
+      "avg": 3591,
+      "soldAvg": 3217
+    },
     "Guild": {
       "count": 25,
       "min": 374,
@@ -83185,15 +83203,6 @@
       "outliersExcluded": 0,
       "avg": 1731,
       "soldAvg": 1888
-    },
-    "Gibson": {
-      "count": 305,
-      "min": 59.99,
-      "max": 11099,
-      "soldCount": 118,
-      "outliersExcluded": 7,
-      "avg": 3588,
-      "soldAvg": 3217
     },
     "Moser": {
       "count": 2,
@@ -85771,6 +85780,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 787,
+      "sum": 2580525.810000004,
+      "sold": {
+        "count": 264,
+        "sum": 556460.88,
+        "avg": 2108,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3279,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 981,
       "sum": 3979539.3600000096,
@@ -85784,20 +85807,6 @@
       "avg": 4057,
       "min": 110,
       "max": 190000
-    },
-    "Very Good": {
-      "count": 786,
-      "sum": 2576025.810000004,
-      "sold": {
-        "count": 264,
-        "sum": 556460.88,
-        "avg": 2108,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3277,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 284,
@@ -85920,9 +85929,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3088,
+      "avg": 3092,
       "median": 2500,
-      "count": 341
+      "count": 342
     },
     "06": {
       "name": "Jun",
@@ -86108,7 +86117,7 @@
     "500-1k": 238,
     "1k-2k": 828,
     "2k-3k": 525,
-    "3k-5k": 565,
+    "3k-5k": 566,
     "5k-10k": 321,
     "10k+": 92
   },
@@ -86117,7 +86126,7 @@
     "500-1k": 238,
     "1k-2k": 828,
     "2k-3k": 525,
-    "3k-5k": 565,
+    "3k-5k": 566,
     "5k-10k": 321,
     "10k+": 17
   },
@@ -86258,7 +86267,7 @@
       "avg": 33
     },
     "Kramer": {
-      "sum": 384,
+      "sum": 385,
       "count": 9,
       "avg": 43
     },
@@ -86498,7 +86507,7 @@
       "avg": 53
     },
     "James Tyler JTG": {
-      "sum": 89,
+      "sum": 90,
       "count": 2,
       "avg": 45
     },
@@ -86653,7 +86662,7 @@
       "avg": 44
     },
     "Rick Toone": {
-      "sum": 79,
+      "sum": 80,
       "count": 2,
       "avg": 40
     },
@@ -86929,7 +86938,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-27": 6,
+    "2026-07-27": 7,
     "2026-07-26": 32,
     "2026-07-25": 20,
     "2026-07-24": 18,
@@ -86962,15 +86971,15 @@
     "2026-06-27": 5
   },
   "categoryDistribution": {
-    "reverb": 2402,
+    "reverb": 2403,
     "marketplace": 454,
     "other": 111
   },
-  "activeModelsCount": 365,
+  "activeModelsCount": 366,
   "topPosters": [
     {
       "username": "Benson Kent",
-      "count": 531
+      "count": 532
     },
     {
       "username": "theguitarpit",
@@ -87073,10 +87082,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 5287,
+      "avgPrice": 5284,
       "retailEst": 800,
-      "avgDiscount": -560.9,
-      "count": 316
+      "avgDiscount": -560.5,
+      "count": 317
     },
     "Epiphone": {
       "avgPrice": 2328,
@@ -91601,11 +91610,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 5454.800775909301,
-      "count": 334,
+      "totalPctDrop": 5461.050775909301,
+      "count": 335,
       "avgPctDrop": 16.3
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 543.1230424993687,
+        "count": 38,
+        "avgPctDrop": 14.3
+      },
       "Hamiltone": {
         "totalPctDrop": 66.8238656663094,
         "count": 1,
@@ -91640,11 +91654,6 @@
         "totalPctDrop": 53.95004123650257,
         "count": 3,
         "avgPctDrop": 18
-      },
-      "Gibson": {
-        "totalPctDrop": 536.8730424993687,
-        "count": 37,
-        "avgPctDrop": 14.5
       },
       "Adam Traub": {
         "totalPctDrop": 10,
@@ -92160,15 +92169,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2667,
+      "total": 2668,
       "sold": 899,
       "fake": 0,
-      "live": 789,
+      "live": 790,
       "removed": 979,
       "soldPct": 34,
       "livePct": 30
     },
     "byBrand": {
+      "Gibson": {
+        "total": 328,
+        "sold": 120,
+        "fake": 0,
+        "live": 84,
+        "removed": 124,
+        "soldPct": 37,
+        "livePct": 26
+      },
       "Guild": {
         "total": 25,
         "sold": 8,
@@ -92339,15 +92357,6 @@
         "removed": 15,
         "soldPct": 33,
         "livePct": 30
-      },
-      "Gibson": {
-        "total": 327,
-        "sold": 120,
-        "fake": 0,
-        "live": 83,
-        "removed": 124,
-        "soldPct": 37,
-        "livePct": 25
       },
       "Moser": {
         "total": 2,
@@ -95248,7 +95257,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 565,
+        "total": 566,
         "sold": 160,
         "rate": 28
       },
@@ -95266,15 +95275,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 787,
+        "sold": 266,
+        "rate": 34
+      },
       "Excellent": {
         "total": 981,
         "sold": 370,
         "rate": 38
-      },
-      "Very Good": {
-        "total": 786,
-        "sold": 266,
-        "rate": 34
       },
       "Good": {
         "total": 284,
@@ -95580,6 +95589,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 185,
+      "sum": 991116.0299999998,
+      "avg": 5357,
+      "min": 59.99,
+      "max": 437713.69,
+      "sold": 64,
+      "soldSum": 179268.94999999998,
+      "soldAvg": 2801,
+      "live": 54,
+      "removed": 67,
+      "sellRate": 35,
+      "totalDays": 5410.999999999999,
+      "soldCount": 64,
+      "avgDaysToSell": 84.5
+    },
     "Guild|Guild Import": {
       "brand": "Guild",
       "brandLine": "Guild Import",
@@ -95652,7 +95680,7 @@
       "live": 24,
       "removed": 32,
       "sellRate": 35,
-      "totalDays": 2918,
+      "totalDays": 2918.3,
       "soldCount": 30,
       "avgDaysToSell": 97.3
     },
@@ -95864,25 +95892,6 @@
       "soldCount": 3,
       "avgDaysToSell": 103.6
     },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 184,
-      "sum": 986616.0299999998,
-      "avg": 5362,
-      "min": 59.99,
-      "max": 437713.69,
-      "sold": 64,
-      "soldSum": 179268.94999999998,
-      "soldAvg": 2801,
-      "live": 53,
-      "removed": 67,
-      "sellRate": 35,
-      "totalDays": 5410.999999999999,
-      "soldCount": 64,
-      "avgDaysToSell": 84.5
-    },
     "Guild|Guild USA": {
       "brand": "Guild",
       "brandLine": "Guild USA",
@@ -95955,7 +95964,7 @@
       "live": 11,
       "removed": 23,
       "sellRate": 36,
-      "totalDays": 1566.9,
+      "totalDays": 1567,
       "soldCount": 19,
       "avgDaysToSell": 82.5
     },
@@ -96049,7 +96058,7 @@
       "live": 5,
       "removed": 7,
       "sellRate": 48,
-      "totalDays": 1288.5000000000002,
+      "totalDays": 1288.6000000000001,
       "soldCount": 11,
       "avgDaysToSell": 117.1
     },
@@ -96144,7 +96153,7 @@
       "live": 14,
       "removed": 17,
       "sellRate": 21,
-      "totalDays": 657,
+      "totalDays": 657.1,
       "soldCount": 8,
       "avgDaysToSell": 82.1
     },
@@ -96163,9 +96172,9 @@
       "live": 11,
       "removed": 6,
       "sellRate": 23,
-      "totalDays": 634.7,
+      "totalDays": 634.8,
       "soldCount": 5,
-      "avgDaysToSell": 126.9
+      "avgDaysToSell": 127
     },
     "Ibanez|Ibanez J.Custom": {
       "brand": "Ibanez",
@@ -96499,7 +96508,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1435.0000000000002,
+      "totalDays": 1435.2,
       "soldCount": 14,
       "avgDaysToSell": 89.7
     },
@@ -96986,9 +96995,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 309.4,
+      "totalDays": 309.5,
       "soldCount": 3,
-      "avgDaysToSell": 103.1
+      "avgDaysToSell": 103.2
     },
     "Ibanez|Ibanez GIO": {
       "brand": "Ibanez",
@@ -97766,15 +97775,15 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 116.6,
+      "totalDays": 116.7,
       "soldCount": 1,
-      "avgDaysToSell": 116.6
+      "avgDaysToSell": 116.7
     }
   },
   "offerActivity": {
-    "withOffers": 392,
-    "totalOffers": 881,
-    "avgOffersPerListing": 2.2,
+    "withOffers": 393,
+    "totalOffers": 886,
+    "avgOffersPerListing": 2.3,
     "offersEnabledPct": 32
   },
   "shippingInsights": {
@@ -97808,14 +97817,14 @@
     },
     {
       "label": "31+",
-      "total": 474,
+      "total": 475,
       "sold": 127,
       "rate": 27
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 766,
+      "total": 767,
       "sold": 216,
       "rate": 28
     },
@@ -97832,9 +97841,9 @@
       "rate": 22
     },
     "regular": {
-      "total": 523,
+      "total": 524,
       "sold": 170,
-      "rate": 33
+      "rate": 32
     }
   },
   "geoSellThrough": [
@@ -97888,9 +97897,9 @@
     },
     {
       "state": "MD",
-      "total": 29,
+      "total": 30,
       "sold": 8,
-      "rate": 28
+      "rate": 27
     },
     {
       "state": "NC",
