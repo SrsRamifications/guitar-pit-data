@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-28T22:14:17.161Z",
-  "totalLinks": 3004,
-  "totalEver": 3747,
-  "totalBeforeFilter": 3747,
+  "generatedAt": "2026-07-28T22:16:22.801Z",
+  "totalLinks": 3005,
+  "totalEver": 3748,
+  "totalBeforeFilter": 3748,
   "fakeCount": 6,
   "removedCount": 1463,
-  "totalWithPrice": 2696,
+  "totalWithPrice": 2697,
   "overall": {
-    "count": 2621,
-    "sum": 7476242.23,
-    "avg": 2852,
+    "count": 2622,
+    "sum": 7480037.23,
+    "avg": 2853,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2621,
-    "sum": 7476242.23,
-    "avg": 2852,
+    "count": 2622,
+    "sum": 7480037.23,
+    "avg": 2853,
     "min": 10.49,
     "max": 11185,
-    "median": 2225
+    "median": 2236
   },
   "outliers": {
-    "thresholdHigh": 11426,
+    "thresholdHigh": 11405,
     "thresholdLow": 0,
     "count": 75,
     "items": [
@@ -621,11 +621,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 378,
-      "sum": 1158060.39,
+      "count": 379,
+      "sum": 1161855.39,
       "min": 59.99,
       "max": 11185,
-      "avg": 3064
+      "avg": 3066
     },
     "2026-06": {
       "count": 285,
@@ -672,11 +672,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2368,
-      "sum": 6701710.3,
+      "count": 2369,
+      "sum": 6705505.3,
       "min": 33,
       "max": 11185,
-      "avg": 2830
+      "avg": 2831
     },
     "marketplace": {
       "count": 153,
@@ -695,11 +695,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2368,
-      "sum": 6701710.3,
+      "count": 2369,
+      "sum": 6705505.3,
       "min": 33,
       "max": 11185,
-      "avg": 2830
+      "avg": 2831
     },
     "eddiesguitars.com": {
       "count": 9,
@@ -969,6 +969,37 @@
     }
   },
   "byModel": {
+    "shabat-lion": {
+      "displayName": "Shabat Lion - Fiesta Red #511",
+      "brand": "Shabat",
+      "model": "Lion",
+      "variant": null,
+      "count": 1,
+      "sum": 3795,
+      "min": 3795,
+      "max": 3795,
+      "sightings": [
+        {
+          "price": 3795,
+          "date": "2026-07-28T22:16:08.537Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Shabat Lion - Fiesta Red #511",
+          "url": "https://reverb.com/item/99836354",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 3795,
+          "min": 3795,
+          "max": 3795,
+          "avg": 3795
+        }
+      },
+      "avg": 3795
+    },
     "kiesel-alan-holdsworth-h2": {
       "displayName": "Carvin Alan Holdsworth H2 Natural",
       "brand": "Kiesel",
@@ -7446,7 +7477,7 @@
       "sightings": [
         {
           "price": 5062,
-          "date": "2026-07-21T00:46:04.292Z",
+          "date": "2026-07-21T00:46:04.292+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "PRS 2026 Jonathan Jourdan Limited Gunmetal Metallic",
@@ -84164,6 +84195,15 @@
     }
   },
   "byBrandPrice": {
+    "Shabat": {
+      "count": 20,
+      "min": 2450,
+      "max": 5599,
+      "soldCount": 7,
+      "outliersExcluded": 0,
+      "avg": 3670,
+      "soldAvg": 3278
+    },
     "Kiesel": {
       "count": 127,
       "min": 650,
@@ -84712,15 +84752,6 @@
       "outliersExcluded": 0,
       "avg": 3483,
       "soldAvg": 3130
-    },
-    "Shabat": {
-      "count": 19,
-      "min": 2450,
-      "max": 5599,
-      "soldCount": 7,
-      "outliersExcluded": 0,
-      "avg": 3663,
-      "soldAvg": 3278
     },
     "Legator": {
       "count": 2,
@@ -86920,6 +86951,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 232,
+      "sum": 1041721.1900000003,
+      "sold": {
+        "count": 34,
+        "sum": 170370.59,
+        "avg": 5011,
+        "min": 580.29,
+        "max": 35099
+      },
+      "avg": 4490,
+      "min": 135,
+      "max": 35099
+    },
     "Excellent": {
       "count": 993,
       "sum": 4017362.36000001,
@@ -86947,20 +86992,6 @@
       "avg": 3258,
       "min": 33,
       "max": 437713.69
-    },
-    "Brand New": {
-      "count": 231,
-      "sum": 1037926.1900000003,
-      "sold": {
-        "count": 34,
-        "sum": 170370.59,
-        "avg": 5011,
-        "min": 580.29,
-        "max": 35099
-      },
-      "avg": 4493,
-      "min": 135,
-      "max": 35099
     },
     "Good": {
       "count": 287,
@@ -87069,9 +87100,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3064,
+      "avg": 3066,
       "median": 2500,
-      "count": 378
+      "count": 379
     },
     "06": {
       "name": "Jun",
@@ -87257,7 +87288,7 @@
     "500-1k": 240,
     "1k-2k": 845,
     "2k-3k": 535,
-    "3k-5k": 568,
+    "3k-5k": 569,
     "5k-10k": 325,
     "10k+": 93
   },
@@ -87266,11 +87297,16 @@
     "500-1k": 240,
     "1k-2k": 845,
     "2k-3k": 535,
-    "3k-5k": 568,
+    "3k-5k": 569,
     "5k-10k": 325,
     "10k+": 18
   },
   "daysOnMarket": {
+    "Shabat": {
+      "sum": 129,
+      "count": 5,
+      "avg": 26
+    },
     "Kiesel": {
       "sum": 2337,
       "count": 60,
@@ -87302,7 +87338,7 @@
       "avg": 43
     },
     "Fender": {
-      "sum": 3322,
+      "sum": 3323,
       "count": 77,
       "avg": 43
     },
@@ -87540,11 +87576,6 @@
       "sum": 222,
       "count": 5,
       "avg": 44
-    },
-    "Shabat": {
-      "sum": 129,
-      "count": 4,
-      "avg": 32
     },
     "Reichardt": {
       "sum": 13,
@@ -88068,7 +88099,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-28": 32,
+    "2026-07-28": 33,
     "2026-07-27": 11,
     "2026-07-26": 32,
     "2026-07-25": 20,
@@ -88101,11 +88132,11 @@
     "2026-06-28": 1
   },
   "categoryDistribution": {
-    "reverb": 2436,
+    "reverb": 2437,
     "marketplace": 457,
     "other": 111
   },
-  "activeModelsCount": 380,
+  "activeModelsCount": 381,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -88137,7 +88168,7 @@
     },
     {
       "username": "Madero",
-      "count": 168
+      "count": 169
     },
     {
       "username": "jazee_",
@@ -93405,15 +93436,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2703,
+      "total": 2704,
       "sold": 911,
       "fake": 0,
-      "live": 807,
+      "live": 808,
       "removed": 985,
       "soldPct": 34,
       "livePct": 30
     },
     "byBrand": {
+      "Shabat": {
+        "total": 20,
+        "sold": 7,
+        "fake": 0,
+        "live": 7,
+        "removed": 6,
+        "soldPct": 35,
+        "livePct": 35
+      },
       "Kiesel": {
         "total": 130,
         "sold": 59,
@@ -93980,15 +94020,6 @@
         "removed": 6,
         "soldPct": 36,
         "livePct": 21
-      },
-      "Shabat": {
-        "total": 19,
-        "sold": 7,
-        "fake": 0,
-        "live": 6,
-        "removed": 6,
-        "soldPct": 37,
-        "livePct": 32
       },
       "Legator": {
         "total": 2,
@@ -96493,7 +96524,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 568,
+        "total": 569,
         "sold": 163,
         "rate": 29
       },
@@ -96511,6 +96542,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 232,
+        "sold": 44,
+        "rate": 19
+      },
       "Excellent": {
         "total": 993,
         "sold": 374,
@@ -96520,11 +96556,6 @@
         "total": 799,
         "sold": 270,
         "rate": 34
-      },
-      "Brand New": {
-        "total": 231,
-        "sold": 44,
-        "rate": 19
       },
       "Good": {
         "total": 287,
@@ -96897,7 +96928,7 @@
       "live": 6,
       "removed": 6,
       "sellRate": 57,
-      "totalDays": 1407.2,
+      "totalDays": 1407.3000000000002,
       "soldCount": 16,
       "avgDaysToSell": 88
     },
@@ -96954,7 +96985,7 @@
       "live": 25,
       "removed": 32,
       "sellRate": 35,
-      "totalDays": 2959.2999999999997,
+      "totalDays": 2959.3999999999996,
       "soldCount": 31,
       "avgDaysToSell": 95.5
     },
@@ -96973,7 +97004,7 @@
       "live": 26,
       "removed": 57,
       "sellRate": 38,
-      "totalDays": 4083.5000000000005,
+      "totalDays": 4083.7000000000003,
       "soldCount": 51,
       "avgDaysToSell": 80.1
     },
@@ -97105,7 +97136,7 @@
       "live": 55,
       "removed": 69,
       "sellRate": 34,
-      "totalDays": 5496.300000000001,
+      "totalDays": 5496.4000000000015,
       "soldCount": 64,
       "avgDaysToSell": 85.9
     },
@@ -97162,7 +97193,7 @@
       "live": 12,
       "removed": 6,
       "sellRate": 22,
-      "totalDays": 641.5,
+      "totalDays": 641.6000000000001,
       "soldCount": 5,
       "avgDaysToSell": 128.3
     },
@@ -97634,9 +97665,9 @@
       "live": 5,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 264.7,
+      "totalDays": 264.8,
       "soldCount": 5,
-      "avgDaysToSell": 52.9
+      "avgDaysToSell": 53
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -97950,9 +97981,9 @@
       "live": 4,
       "removed": 8,
       "sellRate": 20,
-      "totalDays": 112.3,
+      "totalDays": 112.39999999999999,
       "soldCount": 3,
-      "avgDaysToSell": 37.4
+      "avgDaysToSell": 37.5
     },
     "LTD|LTD": {
       "brand": "LTD",
@@ -99011,9 +99042,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 117.8,
+      "totalDays": 117.9,
       "soldCount": 1,
-      "avgDaysToSell": 117.8
+      "avgDaysToSell": 117.9
     },
     "Fender|Squier": {
       "brand": "Fender",
@@ -99048,9 +99079,9 @@
   "watcherDemand": [
     {
       "label": "0",
-      "total": 12,
+      "total": 13,
       "sold": 8,
-      "rate": 67
+      "rate": 62
     },
     {
       "label": "1–5",
@@ -99079,7 +99110,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 789,
+      "total": 790,
       "sold": 224,
       "rate": 28
     },
@@ -99096,7 +99127,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 541,
+      "total": 542,
       "sold": 174,
       "rate": 32
     }
@@ -99181,16 +99212,16 @@
       "rate": 33
     },
     {
+      "state": "CO",
+      "total": 22,
+      "sold": 6,
+      "rate": 27
+    },
+    {
       "state": "MA",
       "total": 21,
       "sold": 8,
       "rate": 38
-    },
-    {
-      "state": "CO",
-      "total": 21,
-      "sold": 6,
-      "rate": 29
     },
     {
       "state": "OR",
