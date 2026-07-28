@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-28T23:17:26.528Z",
-  "totalLinks": 3009,
-  "totalEver": 3752,
-  "totalBeforeFilter": 3752,
+  "generatedAt": "2026-07-28T23:19:54.172Z",
+  "totalLinks": 3010,
+  "totalEver": 3753,
+  "totalBeforeFilter": 3753,
   "fakeCount": 6,
   "removedCount": 1463,
-  "totalWithPrice": 2701,
+  "totalWithPrice": 2702,
   "overall": {
-    "count": 2626,
-    "sum": 7486181.23,
-    "avg": 2851,
+    "count": 2627,
+    "sum": 7486901.23,
+    "avg": 2850,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2626,
-    "sum": 7486181.23,
-    "avg": 2851,
+    "count": 2627,
+    "sum": 7486901.23,
+    "avg": 2850,
     "min": 10.49,
     "max": 11185,
-    "median": 2213
+    "median": 2200
   },
   "outliers": {
     "thresholdHigh": 11250,
@@ -40,7 +40,7 @@
         "price": "$379,900",
         "image": "https://cdn.shopify.com/s/files/1/0758/4003/collections/alt-t-cats-eye.jpg?v=1746724663",
         "condition": null,
-        "postedAt": "2026-07-21T02:42:27.606Z"
+        "postedAt": "2026-07-21T02:42:27.606+00:00"
       },
       {
         "title": "Bigsby  Electric Tenor Guitar Owned and played by Smokey Stoltenberg Electric Guitar (1949), ser. #10149, original black hard shell case.",
@@ -621,11 +621,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 383,
-      "sum": 1167999.39,
+      "count": 384,
+      "sum": 1168719.39,
       "min": 59.99,
       "max": 11185,
-      "avg": 3050
+      "avg": 3044
     },
     "2026-06": {
       "count": 285,
@@ -672,11 +672,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2372,
-      "sum": 6709899.3,
+      "count": 2373,
+      "sum": 6710619.3,
       "min": 33,
       "max": 11185,
-      "avg": 2829
+      "avg": 2828
     },
     "marketplace": {
       "count": 154,
@@ -695,11 +695,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2372,
-      "sum": 6709899.3,
+      "count": 2373,
+      "sum": 6710619.3,
       "min": 33,
       "max": 11185,
-      "avg": 2829
+      "avg": 2828
     },
     "davesguitar.com": {
       "count": 16,
@@ -969,45 +969,14 @@
     }
   },
   "byModel": {
-    "ibanez-rg1570-prestige": {
-      "displayName": "Ibanez RG1570-GN Prestige 2003 - 2004 - Gray Nickel",
-      "brand": "Ibanez",
-      "model": "RG1570",
-      "variant": "Prestige",
-      "count": 1,
-      "sum": 900,
-      "min": 900,
-      "max": 900,
-      "sightings": [
-        {
-          "price": 900,
-          "date": "2026-07-28T23:17:13.118Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez RG1570-GN Prestige 2003 - 2004 - Gray Nickel",
-          "url": "https://reverb.com/item/98350941",
-          "condition": "Very Good"
-        }
-      ],
-      "byCondition": {
-        "Very Good": {
-          "count": 1,
-          "sum": 900,
-          "min": 900,
-          "max": 900,
-          "avg": 900
-        }
-      },
-      "avg": 900
-    },
     "ibanez-prestige": {
-      "displayName": "Ibanez RG652FX-WH Prestige 2016 - 2017 - White w/ DiMarzio D-Activator pickups",
+      "displayName": "Ibanez RG2550EX-VBB Prestige 2004 - Vibrant Blue",
       "brand": "Ibanez",
       "model": "Prestige",
       "variant": null,
-      "count": 4,
-      "sum": 5193,
-      "min": 1100,
+      "count": 5,
+      "sum": 5913,
+      "min": 720,
       "max": 1699,
       "sightings": [
         {
@@ -1045,22 +1014,31 @@
           "title": "Ibanez RG652FX-WH Prestige 2016 - 2017 - White w/ DiMarzio D-Activator pickups",
           "url": "https://reverb.com/item/99061221",
           "condition": "Very Good"
+        },
+        {
+          "price": 720,
+          "date": "2026-07-28T23:19:40.477Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG2550EX-VBB Prestige 2004 - Vibrant Blue",
+          "url": "https://reverb.com/item/98675043",
+          "condition": "Good"
         }
       ],
       "byCondition": {
+        "Good": {
+          "count": 2,
+          "sum": 1920,
+          "min": 720,
+          "max": 1200,
+          "avg": 960
+        },
         "Very Good": {
           "count": 2,
           "sum": 2294,
           "min": 1100,
           "max": 1194,
           "avg": 1147
-        },
-        "Good": {
-          "count": 1,
-          "sum": 1200,
-          "min": 1200,
-          "max": 1200,
-          "avg": 1200
         },
         "Excellent": {
           "count": 1,
@@ -1099,30 +1077,61 @@
           }
         ]
       },
-      "avg": 1298,
+      "avg": 1183,
       "trends": {
         "d30": {
           "direction": "down",
-          "pctChange": -21,
-          "recentAvg": 1147,
+          "pctChange": -31,
+          "recentAvg": 1005,
           "olderAvg": 1450,
-          "recentCount": 2
+          "recentCount": 3
         },
         "d60": {
           "direction": "down",
-          "pctChange": -21,
-          "recentAvg": 1147,
+          "pctChange": -31,
+          "recentAvg": 1005,
           "olderAvg": 1450,
-          "recentCount": 2
+          "recentCount": 3
         },
         "d90": {
           "direction": "down",
-          "pctChange": -31,
-          "recentAvg": 1165,
+          "pctChange": -38,
+          "recentAvg": 1054,
           "olderAvg": 1699,
-          "recentCount": 3
+          "recentCount": 4
         }
       }
+    },
+    "ibanez-rg1570-prestige": {
+      "displayName": "Ibanez RG1570-GN Prestige 2003 - 2004 - Gray Nickel",
+      "brand": "Ibanez",
+      "model": "RG1570",
+      "variant": "Prestige",
+      "count": 1,
+      "sum": 900,
+      "min": 900,
+      "max": 900,
+      "sightings": [
+        {
+          "price": 900,
+          "date": "2026-07-28T23:17:13.118Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG1570-GN Prestige 2003 - 2004 - Gray Nickel",
+          "url": "https://reverb.com/item/98350941",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 900,
+          "min": 900,
+          "max": 900,
+          "avg": 900
+        }
+      },
+      "avg": 900
     },
     "ibanez-rg-prestige": {
       "displayName": "Ibanez RGR5111RB RG Prestige Electric Guitar w/Case - Weathered Black",
@@ -7586,7 +7595,7 @@
       "sightings": [
         {
           "price": 379900,
-          "date": "2026-07-21T02:42:27.606Z",
+          "date": "2026-07-21T02:42:27.606+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "SUHR SELECT ALT T CAT'S EYE GUITARS",
@@ -84291,12 +84300,12 @@
   },
   "byBrandPrice": {
     "Ibanez": {
-      "count": 120,
+      "count": 121,
       "min": 173.3,
       "max": 9995,
       "soldCount": 48,
       "outliersExcluded": 6,
-      "avg": 2245,
+      "avg": 2232,
       "soldAvg": 1964
     },
     "Lollar": {
@@ -87046,6 +87055,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 288,
+      "sum": 788698.9199999999,
+      "sold": {
+        "count": 95,
+        "sum": 193050.25000000003,
+        "avg": 2032,
+        "min": 285,
+        "max": 13000
+      },
+      "avg": 2739,
+      "min": 70,
+      "max": 55000
+    },
     "Very Good": {
       "count": 802,
       "sum": 2607315.8100000047,
@@ -87087,20 +87110,6 @@
       "avg": 4046,
       "min": 110,
       "max": 190000
-    },
-    "Good": {
-      "count": 287,
-      "sum": 787978.9199999999,
-      "sold": {
-        "count": 95,
-        "sum": 193050.25000000003,
-        "avg": 2032,
-        "min": 285,
-        "max": 13000
-      },
-      "avg": 2746,
-      "min": 70,
-      "max": 55000
     },
     "Fair": {
       "count": 39,
@@ -87195,9 +87204,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3050,
-      "median": 2500,
-      "count": 383
+      "avg": 3044,
+      "median": 2499,
+      "count": 384
     },
     "06": {
       "name": "Jun",
@@ -87380,7 +87389,7 @@
   ],
   "priceDistribution": {
     "0-500": 90,
-    "500-1k": 241,
+    "500-1k": 242,
     "1k-2k": 847,
     "2k-3k": 536,
     "3k-5k": 569,
@@ -87389,7 +87398,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 90,
-    "500-1k": 241,
+    "500-1k": 242,
     "1k-2k": 847,
     "2k-3k": 536,
     "3k-5k": 569,
@@ -87398,9 +87407,9 @@
   },
   "daysOnMarket": {
     "Ibanez": {
-      "sum": 2141,
-      "count": 46,
-      "avg": 47
+      "sum": 2175,
+      "count": 47,
+      "avg": 46
     },
     "Lollar": {
       "sum": 88,
@@ -88194,7 +88203,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-28": 37,
+    "2026-07-28": 38,
     "2026-07-27": 11,
     "2026-07-26": 32,
     "2026-07-25": 20,
@@ -88226,7 +88235,7 @@
     "2026-06-29": 10
   },
   "categoryDistribution": {
-    "reverb": 2440,
+    "reverb": 2441,
     "marketplace": 458,
     "other": 111
   },
@@ -88270,7 +88279,7 @@
     },
     {
       "username": "Pabst Blue Wizard",
-      "count": 58
+      "count": 59
     }
   ],
   "topDealHunters": [
@@ -88361,10 +88370,10 @@
       "count": 241
     },
     "Ibanez": {
-      "avgPrice": 3103,
+      "avgPrice": 3085,
       "retailEst": 1000,
-      "avgDiscount": -210.3,
-      "count": 127
+      "avgDiscount": -208.5,
+      "count": 128
     },
     "Jackson": {
       "avgPrice": 4390,
@@ -92966,15 +92975,15 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 5631.742040426039,
-      "count": 346,
+      "totalPctDrop": 5659.74204042604,
+      "count": 347,
       "avgPctDrop": 16.3
     },
     "byBrand": {
       "Ibanez": {
-        "totalPctDrop": 221.4665418398565,
-        "count": 16,
-        "avgPctDrop": 13.8
+        "totalPctDrop": 249.4665418398565,
+        "count": 17,
+        "avgPctDrop": 14.7
       },
       "Dean": {
         "totalPctDrop": 90.23603280741371,
@@ -93530,23 +93539,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2708,
+      "total": 2709,
       "sold": 911,
       "fake": 0,
-      "live": 812,
+      "live": 813,
       "removed": 985,
       "soldPct": 34,
       "livePct": 30
     },
     "byBrand": {
       "Ibanez": {
-        "total": 133,
+        "total": 134,
         "sold": 48,
         "fake": 0,
-        "live": 44,
+        "live": 45,
         "removed": 41,
         "soldPct": 36,
-        "livePct": 33
+        "livePct": 34
       },
       "Lollar": {
         "total": 4,
@@ -96600,7 +96609,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 241,
+        "total": 242,
         "sold": 97,
         "rate": 40
       },
@@ -96636,6 +96645,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 288,
+        "sold": 103,
+        "rate": 36
+      },
       "Very Good": {
         "total": 802,
         "sold": 270,
@@ -96650,11 +96664,6 @@
         "total": 993,
         "sold": 374,
         "rate": 38
-      },
-      "Good": {
-        "total": 287,
-        "sold": 103,
-        "rate": 36
       },
       "Fair": {
         "total": 39,
@@ -96954,15 +96963,15 @@
       "brand": "Ibanez",
       "brandLine": "Ibanez Prestige",
       "tier": "high",
-      "count": 44,
-      "sum": 81740.35000000002,
-      "avg": 1858,
-      "min": 739,
+      "count": 45,
+      "sum": 82460.35000000002,
+      "avg": 1832,
+      "min": 720,
       "max": 7019,
       "sold": 16,
       "soldSum": 27081.32,
       "soldAvg": 1693,
-      "live": 17,
+      "live": 18,
       "removed": 11,
       "sellRate": 36,
       "totalDays": 1216.8999999999999,
@@ -97041,7 +97050,7 @@
       "live": 6,
       "removed": 6,
       "sellRate": 57,
-      "totalDays": 1407.8000000000002,
+      "totalDays": 1407.9000000000003,
       "soldCount": 16,
       "avgDaysToSell": 88
     },
@@ -97098,7 +97107,7 @@
       "live": 25,
       "removed": 32,
       "sellRate": 35,
-      "totalDays": 2960.6,
+      "totalDays": 2961,
       "soldCount": 31,
       "avgDaysToSell": 95.5
     },
@@ -97117,7 +97126,7 @@
       "live": 26,
       "removed": 57,
       "sellRate": 38,
-      "totalDays": 4085.7,
+      "totalDays": 4085.7999999999997,
       "soldCount": 51,
       "avgDaysToSell": 80.1
     },
@@ -97193,9 +97202,9 @@
       "live": 7,
       "removed": 7,
       "sellRate": 44,
-      "totalDays": 1304,
+      "totalDays": 1304.2,
       "soldCount": 11,
-      "avgDaysToSell": 118.5
+      "avgDaysToSell": 118.6
     },
     "Jackson|Jackson X Series": {
       "brand": "Jackson",
@@ -97325,7 +97334,7 @@
       "live": 11,
       "removed": 23,
       "sellRate": 37,
-      "totalDays": 1612.8,
+      "totalDays": 1612.9,
       "soldCount": 20,
       "avgDaysToSell": 80.6
     },
@@ -97344,7 +97353,7 @@
       "live": 11,
       "removed": 5,
       "sellRate": 16,
-      "totalDays": 293,
+      "totalDays": 293.2,
       "soldCount": 3,
       "avgDaysToSell": 97.7
     },
@@ -97646,7 +97655,7 @@
       "live": 13,
       "removed": 17,
       "sellRate": 23,
-      "totalDays": 676.6999999999999,
+      "totalDays": 676.8,
       "soldCount": 9,
       "avgDaysToSell": 75.2
     },
@@ -97927,7 +97936,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 45,
-      "totalDays": 474.5,
+      "totalDays": 474.59999999999997,
       "soldCount": 5,
       "avgDaysToSell": 94.9
     },
@@ -98526,7 +98535,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 193.5,
+      "totalDays": 193.6,
       "soldCount": 2,
       "avgDaysToSell": 96.8
     },
@@ -99197,14 +99206,14 @@
     },
     {
       "label": "31+",
-      "total": 496,
+      "total": 497,
       "sold": 133,
       "rate": 27
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 792,
+      "total": 793,
       "sold": 224,
       "rate": 28
     },
@@ -99221,7 +99230,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 543,
+      "total": 544,
       "sold": 174,
       "rate": 32
     }
@@ -99402,6 +99411,12 @@
       "rate": 22
     },
     {
+      "state": "NV",
+      "total": 8,
+      "sold": 2,
+      "rate": 25
+    },
+    {
       "state": "AL",
       "total": 8,
       "sold": 2,
@@ -99436,12 +99451,6 @@
       "total": 7,
       "sold": 1,
       "rate": 14
-    },
-    {
-      "state": "NV",
-      "total": 7,
-      "sold": 2,
-      "rate": 29
     },
     {
       "state": "KS",
