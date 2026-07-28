@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-28T05:50:03.168Z",
-  "totalLinks": 2990,
-  "totalEver": 3729,
-  "totalBeforeFilter": 3729,
+  "generatedAt": "2026-07-28T05:53:54.183Z",
+  "totalLinks": 2991,
+  "totalEver": 3730,
+  "totalBeforeFilter": 3730,
   "fakeCount": 6,
   "removedCount": 1459,
-  "totalWithPrice": 2682,
+  "totalWithPrice": 2683,
   "overall": {
-    "count": 2607,
-    "sum": 7427754.83,
-    "avg": 2849,
+    "count": 2608,
+    "sum": 7428493.83,
+    "avg": 2848,
     "min": 10.49,
     "max": 11099
   },
   "filtered": {
-    "count": 2607,
-    "sum": 7427754.83,
-    "avg": 2849,
+    "count": 2608,
+    "sum": 7428493.83,
+    "avg": 2848,
     "min": 10.49,
     "max": 11099,
-    "median": 2225
+    "median": 2213
   },
   "outliers": {
     "thresholdHigh": 11426,
@@ -621,11 +621,11 @@
   },
   "byMonth": {
     "2026-07": {
-      "count": 364,
-      "sum": 1109572.99,
+      "count": 365,
+      "sum": 1110311.99,
       "min": 59.99,
       "max": 11000,
-      "avg": 3048
+      "avg": 3042
     },
     "2026-06": {
       "count": 285,
@@ -672,11 +672,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2356,
-      "sum": 6667533.3,
+      "count": 2357,
+      "sum": 6668272.3,
       "min": 33,
       "max": 11024.45,
-      "avg": 2830
+      "avg": 2829
     },
     "marketplace": {
       "count": 151,
@@ -695,11 +695,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2356,
-      "sum": 6667533.3,
+      "count": 2357,
+      "sum": 6668272.3,
       "min": 33,
       "max": 11024.45,
-      "avg": 2830
+      "avg": 2829
     },
     "davesguitar.com": {
       "count": 15,
@@ -969,6 +969,37 @@
     }
   },
   "byModel": {
+    "ibanez-rg550-genesis": {
+      "displayName": "Ibanez RG550-DY Genesis Collection Desert Yellow",
+      "brand": "Ibanez",
+      "model": "RG550",
+      "variant": "Genesis",
+      "count": 1,
+      "sum": 739,
+      "min": 739,
+      "max": 739,
+      "sightings": [
+        {
+          "price": 739,
+          "date": "2026-07-28T05:53:40.218Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG550-DY Genesis Collection Desert Yellow",
+          "url": "https://reverb.com/item/99617376",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 739,
+          "min": 739,
+          "max": 739,
+          "avg": 739
+        }
+      },
+      "avg": 739
+    },
     "guild-s-100": {
       "displayName": "Used 1997 Guild S-100 w/ OHSC",
       "brand": "Guild",
@@ -83729,6 +83760,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 117,
+      "min": 173.3,
+      "max": 9995,
+      "soldCount": 47,
+      "outliersExcluded": 6,
+      "avg": 2256,
+      "soldAvg": 1980
+    },
     "Guild": {
       "count": 27,
       "min": 374,
@@ -83854,15 +83894,6 @@
       "outliersExcluded": 0,
       "avg": 2328,
       "soldAvg": 2192
-    },
-    "Ibanez": {
-      "count": 116,
-      "min": 173.3,
-      "max": 9995,
-      "soldCount": 47,
-      "outliersExcluded": 6,
-      "avg": 2269,
-      "soldAvg": 1980
     },
     "Hamiltone": {
       "count": 1,
@@ -86485,6 +86516,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 989,
+      "sum": 3998573.36000001,
+      "sold": {
+        "count": 365,
+        "sum": 949314.2999999998,
+        "avg": 2601,
+        "min": 110,
+        "max": 35900
+      },
+      "avg": 4043,
+      "min": 110,
+      "max": 190000
+    },
     "Good": {
       "count": 287,
       "sum": 787978.9199999999,
@@ -86526,20 +86571,6 @@
       "avg": 4505,
       "min": 135,
       "max": 35099
-    },
-    "Excellent": {
-      "count": 988,
-      "sum": 3997834.36000001,
-      "sold": {
-        "count": 365,
-        "sum": 949314.2999999998,
-        "avg": 2601,
-        "min": 110,
-        "max": 35900
-      },
-      "avg": 4046,
-      "min": 110,
-      "max": 190000
     },
     "Fair": {
       "count": 39,
@@ -86634,9 +86665,9 @@
   "seasonal": {
     "07": {
       "name": "Jul",
-      "avg": 3048,
+      "avg": 3042,
       "median": 2500,
-      "count": 364
+      "count": 365
     },
     "06": {
       "name": "Jun",
@@ -86819,7 +86850,7 @@
   ],
   "priceDistribution": {
     "0-500": 90,
-    "500-1k": 239,
+    "500-1k": 240,
     "1k-2k": 840,
     "2k-3k": 531,
     "3k-5k": 566,
@@ -86828,7 +86859,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 90,
-    "500-1k": 239,
+    "500-1k": 240,
     "1k-2k": 840,
     "2k-3k": 531,
     "3k-5k": 566,
@@ -86836,6 +86867,11 @@
     "10k+": 17
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 2006,
+      "count": 43,
+      "avg": 47
+    },
     "Guild": {
       "sum": 248,
       "count": 8,
@@ -86897,19 +86933,14 @@
       "avg": 36
     },
     "PRS": {
-      "sum": 4000,
+      "sum": 4002,
       "count": 92,
-      "avg": 43
+      "avg": 44
     },
     "Music Man": {
       "sum": 720,
       "count": 14,
       "avg": 51
-    },
-    "Ibanez": {
-      "sum": 1999,
-      "count": 42,
-      "avg": 48
     },
     "Suhr": {
       "sum": 750,
@@ -86942,7 +86973,7 @@
       "avg": 17
     },
     "BC Rich": {
-      "sum": 2600,
+      "sum": 2601,
       "count": 52,
       "avg": 50
     },
@@ -87633,7 +87664,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-28": 18,
+    "2026-07-28": 19,
     "2026-07-27": 11,
     "2026-07-26": 32,
     "2026-07-25": 20,
@@ -87663,10 +87694,10 @@
     "2026-07-01": 14,
     "2026-06-30": 6,
     "2026-06-29": 10,
-    "2026-06-28": 12
+    "2026-06-28": 11
   },
   "categoryDistribution": {
-    "reverb": 2424,
+    "reverb": 2425,
     "marketplace": 455,
     "other": 111
   },
@@ -87694,7 +87725,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 248
+      "count": 249
     },
     {
       "username": "Modean",
@@ -87759,7 +87790,7 @@
     "name": "Feb",
     "avg": 1899,
     "median": 1899,
-    "pctBelowAvg": 15,
+    "pctBelowAvg": 14,
     "count": 332
   },
   "topVoted": [],
@@ -87801,10 +87832,10 @@
       "count": 239
     },
     "Ibanez": {
-      "avgPrice": 3154,
+      "avgPrice": 3135,
       "retailEst": 1000,
-      "avgDiscount": -215.4,
-      "count": 123
+      "avgDiscount": -213.5,
+      "count": 124
     },
     "Jackson": {
       "avgPrice": 4390,
@@ -92923,15 +92954,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2689,
+      "total": 2690,
       "sold": 904,
       "fake": 0,
-      "live": 803,
+      "live": 804,
       "removed": 982,
       "soldPct": 34,
       "livePct": 30
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 130,
+        "sold": 47,
+        "fake": 0,
+        "live": 42,
+        "removed": 41,
+        "soldPct": 36,
+        "livePct": 32
+      },
       "Guild": {
         "total": 27,
         "sold": 8,
@@ -93057,15 +93097,6 @@
         "removed": 14,
         "soldPct": 55,
         "livePct": 12
-      },
-      "Ibanez": {
-        "total": 129,
-        "sold": 47,
-        "fake": 0,
-        "live": 41,
-        "removed": 41,
-        "soldPct": 36,
-        "livePct": 32
       },
       "Hamiltone": {
         "total": 1,
@@ -95993,9 +96024,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 239,
+        "total": 240,
         "sold": 97,
-        "rate": 41
+        "rate": 40
       },
       {
         "label": "$1k–2k",
@@ -96029,6 +96060,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 989,
+        "sold": 371,
+        "rate": 38
+      },
       "Good": {
         "total": 287,
         "sold": 103,
@@ -96043,11 +96079,6 @@
         "total": 230,
         "sold": 44,
         "rate": 19
-      },
-      "Excellent": {
-        "total": 988,
-        "sold": 371,
-        "rate": 38
       },
       "Fair": {
         "total": 39,
@@ -96343,6 +96374,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Prestige": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Prestige",
+      "tier": "high",
+      "count": 41,
+      "sum": 77336.35,
+      "avg": 1886,
+      "min": 739,
+      "max": 7019,
+      "sold": 15,
+      "soldSum": 25906.32,
+      "soldAvg": 1727,
+      "live": 15,
+      "removed": 11,
+      "sellRate": 37,
+      "totalDays": 1204.1,
+      "soldCount": 15,
+      "avgDaysToSell": 80.3
+    },
     "Guild|Guild Import": {
       "brand": "Guild",
       "brandLine": "Guild Import",
@@ -96433,7 +96483,7 @@
       "live": 56,
       "removed": 68,
       "sellRate": 34,
-      "totalDays": 5453.599999999999,
+      "totalDays": 5453.8,
       "soldCount": 64,
       "avgDaysToSell": 85.2
     },
@@ -96452,7 +96502,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 40,
-      "totalDays": 794.2,
+      "totalDays": 794.3000000000001,
       "soldCount": 9,
       "avgDaysToSell": 66.2
     },
@@ -96623,7 +96673,7 @@
       "live": 26,
       "removed": 56,
       "sellRate": 38,
-      "totalDays": 4049.3999999999987,
+      "totalDays": 4049.799999999999,
       "soldCount": 51,
       "avgDaysToSell": 79.4
     },
@@ -96642,28 +96692,9 @@
       "live": 5,
       "removed": 6,
       "sellRate": 59,
-      "totalDays": 1396.3000000000002,
+      "totalDays": 1396.4,
       "soldCount": 16,
       "avgDaysToSell": 87.3
-    },
-    "Ibanez|Ibanez Prestige": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Prestige",
-      "tier": "high",
-      "count": 40,
-      "sum": 76597.35,
-      "avg": 1915,
-      "min": 999,
-      "max": 7019,
-      "sold": 15,
-      "soldSum": 25906.32,
-      "soldAvg": 1727,
-      "live": 14,
-      "removed": 11,
-      "sellRate": 38,
-      "totalDays": 1204.1,
-      "soldCount": 15,
-      "avgDaysToSell": 80.3
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -96812,7 +96843,7 @@
       "live": 6,
       "removed": 4,
       "sellRate": 47,
-      "totalDays": 498.90000000000003,
+      "totalDays": 499,
       "soldCount": 9,
       "avgDaysToSell": 55.4
     },
@@ -97039,9 +97070,9 @@
       "live": 3,
       "removed": 0,
       "sellRate": 40,
-      "totalDays": 85,
+      "totalDays": 85.1,
       "soldCount": 2,
-      "avgDaysToSell": 42.5
+      "avgDaysToSell": 42.6
     },
     "G&L|G&L Tribute": {
       "brand": "G&L",
@@ -98589,7 +98620,7 @@
     },
     {
       "label": "31+",
-      "total": 487,
+      "total": 488,
       "sold": 129,
       "rate": 26
     }
@@ -98601,14 +98632,14 @@
       "rate": 28
     },
     "off": {
-      "total": 335,
+      "total": 336,
       "sold": 88,
       "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 568,
+      "total": 569,
       "sold": 126,
       "rate": 22
     },
@@ -98663,9 +98694,9 @@
     },
     {
       "state": "TN",
-      "total": 35,
+      "total": 36,
       "sold": 14,
-      "rate": 40
+      "rate": 39
     },
     {
       "state": "MD",
