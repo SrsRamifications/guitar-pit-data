@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-31T06:11:32.747Z",
-  "totalLinks": 3045,
-  "totalEver": 3798,
-  "totalBeforeFilter": 3798,
+  "generatedAt": "2026-07-31T06:15:46.212Z",
+  "totalLinks": 3046,
+  "totalEver": 3799,
+  "totalBeforeFilter": 3799,
   "fakeCount": 6,
   "removedCount": 1471,
-  "totalWithPrice": 2735,
+  "totalWithPrice": 2736,
   "overall": {
     "count": 2657,
     "sum": 7557359.23,
@@ -24,7 +24,7 @@
   "outliers": {
     "thresholdHigh": 11250,
     "thresholdLow": 0,
-    "count": 78,
+    "count": 79,
     "items": [
       {
         "title": "Gibson Les Paul Standard 1960 - Sunburst",
@@ -319,6 +319,14 @@
         "image": "https://rvb-img.reverb.com/i/s--Jy2aWSa3--/quality=medium-low,height=800,width=800,fit=contain/01fbae6d-0bcc-4958-af79-e5f27c0e9dae.jpg",
         "condition": "Excellent",
         "postedAt": "2026-02-17T02:49:11.057+00:00"
+      },
+      {
+        "title": "Fender LTD Archtop 1971 - Sunburst",
+        "url": "https://reverb.com/item/92890837",
+        "price": "$24,500",
+        "image": "https://rvb-img.reverb.com/i/s--Pf76ZTdG--/quality=medium-low,height=800,width=800,fit=contain/d7ir0qt9nji5siluaysg.jpg",
+        "condition": "Mint",
+        "postedAt": "2026-07-31T06:15:29.226Z"
       },
       {
         "title": "1951 Fender Telecaster - Butterscotch Yellow",
@@ -993,6 +1001,37 @@
     }
   },
   "byModel": {
+    "fender-ltd-archtop": {
+      "displayName": "Fender LTD Archtop 1971 - Sunburst",
+      "brand": "Fender",
+      "model": "LTD Archtop",
+      "variant": null,
+      "count": 1,
+      "sum": 24500,
+      "min": 24500,
+      "max": 24500,
+      "sightings": [
+        {
+          "price": 24500,
+          "date": "2026-07-31T06:15:29.226Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Fender LTD Archtop 1971 - Sunburst",
+          "url": "https://reverb.com/item/92890837",
+          "condition": "Mint"
+        }
+      ],
+      "byCondition": {
+        "Mint": {
+          "count": 1,
+          "sum": 24500,
+          "min": 24500,
+          "max": 24500,
+          "avg": 24500
+        }
+      },
+      "avg": 24500
+    },
     "gibson-citation-maplespruce": {
       "displayName": "1984 Gibson Citation, Maple/Spruce",
       "brand": "Gibson",
@@ -8041,7 +8080,7 @@
         },
         {
           "price": 1159,
-          "date": "2026-07-23T02:56:01.823Z",
+          "date": "2026-07-23T02:56:01.823+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Kiesel Aries Bolt-On 6",
@@ -8074,7 +8113,7 @@
           {
             "price": 1159,
             "askingPrice": 1159,
-            "date": "2026-07-26T02:00:00.532Z",
+            "date": "2026-07-26T02:00:00.532+00:00",
             "title": "Kiesel Aries Bolt-On 6",
             "url": "https://reverb.com/item/99662190"
           },
@@ -85311,6 +85350,15 @@
     }
   },
   "byBrandPrice": {
+    "Fender": {
+      "count": 187,
+      "min": 511,
+      "max": 11000,
+      "soldCount": 70,
+      "outliersExcluded": 19,
+      "avg": 3026,
+      "soldAvg": 2906
+    },
     "Gibson": {
       "count": 311,
       "min": 59.99,
@@ -85337,15 +85385,6 @@
       "outliersExcluded": 0,
       "avg": 899,
       "soldAvg": null
-    },
-    "Fender": {
-      "count": 187,
-      "min": 511,
-      "max": 11000,
-      "soldCount": 70,
-      "outliersExcluded": 18,
-      "avg": 3026,
-      "soldAvg": 2906
     },
     "Friedman": {
       "count": 28,
@@ -88103,6 +88142,20 @@
     }
   },
   "byCondition": {
+    "Mint": {
+      "count": 94,
+      "sum": 546142.36,
+      "sold": {
+        "count": 21,
+        "sum": 73724.08999999998,
+        "avg": 3511,
+        "min": 509.89,
+        "max": 12499.99
+      },
+      "avg": 5810,
+      "min": 400,
+      "max": 46467.6
+    },
     "Excellent": {
       "count": 1007,
       "sum": 4089736.3600000106,
@@ -88130,20 +88183,6 @@
       "avg": 3259,
       "min": 33,
       "max": 437713.69
-    },
-    "Mint": {
-      "count": 93,
-      "sum": 521642.3600000001,
-      "sold": {
-        "count": 21,
-        "sum": 73724.08999999998,
-        "avg": 3511,
-        "min": 509.89,
-        "max": 12499.99
-      },
-      "avg": 5609,
-      "min": 400,
-      "max": 46467.6
     },
     "Brand New": {
       "count": 237,
@@ -88376,7 +88415,7 @@
       "url": "https://reverb.com/item/99662190",
       "oldPrice": "$1,189",
       "newPrice": "$1,159",
-      "date": "2026-07-24T13:58:18.674Z"
+      "date": "2026-07-24T13:58:18.674+00:00"
     },
     {
       "title": "Ibanez  J-Custom SHOP - RG JOE 75X - 1996 - Black and Gold - RARE FIND!",
@@ -88442,7 +88481,7 @@
     "2k-3k": 546,
     "3k-5k": 571,
     "5k-10k": 328,
-    "10k+": 96
+    "10k+": 97
   },
   "priceDistributionFiltered": {
     "0-500": 90,
@@ -88460,7 +88499,7 @@
       "avg": 49
     },
     "Kiesel": {
-      "sum": 2295,
+      "sum": 2296,
       "count": 61,
       "avg": 38
     },
@@ -88505,7 +88544,7 @@
       "avg": 31
     },
     "Aristides": {
-      "sum": 208,
+      "sum": 209,
       "count": 7,
       "avg": 30
     },
@@ -89266,7 +89305,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-07-31": 5,
+    "2026-07-31": 6,
     "2026-07-30": 12,
     "2026-07-29": 17,
     "2026-07-28": 39,
@@ -89299,11 +89338,11 @@
     "2026-07-01": 9
   },
   "categoryDistribution": {
-    "reverb": 2474,
+    "reverb": 2475,
     "marketplace": 460,
     "other": 111
   },
-  "activeModelsCount": 395,
+  "activeModelsCount": 396,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -89335,7 +89374,7 @@
     },
     {
       "username": "Madero",
-      "count": 174
+      "count": 175
     },
     {
       "username": "jazee_",
@@ -89398,10 +89437,10 @@
   "topVoted": [],
   "discountFromRetail": {
     "Fender": {
-      "avgPrice": 5380,
+      "avgPrice": 5472,
       "retailEst": 800,
-      "avgDiscount": -572.4,
-      "count": 206
+      "avgDiscount": -584,
+      "count": 207
     },
     "Squier": {
       "avgPrice": 494,
@@ -94719,15 +94758,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2744,
+      "total": 2745,
       "sold": 921,
       "fake": 0,
-      "live": 830,
+      "live": 831,
       "removed": 993,
       "soldPct": 34,
       "livePct": 30
     },
     "byBrand": {
+      "Fender": {
+        "total": 217,
+        "sold": 73,
+        "fake": 0,
+        "live": 62,
+        "removed": 82,
+        "soldPct": 34,
+        "livePct": 29
+      },
       "Gibson": {
         "total": 336,
         "sold": 121,
@@ -94754,15 +94802,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Fender": {
-        "total": 216,
-        "sold": 73,
-        "fake": 0,
-        "live": 61,
-        "removed": 82,
-        "soldPct": 34,
-        "livePct": 28
       },
       "Friedman": {
         "total": 28,
@@ -97855,12 +97894,17 @@
       },
       {
         "label": "$10k+",
-        "total": 96,
+        "total": 97,
         "sold": 13,
-        "rate": 14
+        "rate": 13
       }
     ],
     "byCondition": {
+      "Mint": {
+        "total": 94,
+        "sold": 22,
+        "rate": 23
+      },
       "Excellent": {
         "total": 1007,
         "sold": 380,
@@ -97870,11 +97914,6 @@
         "total": 812,
         "sold": 272,
         "rate": 33
-      },
-      "Mint": {
-        "total": 93,
-        "sold": 22,
-        "rate": 24
       },
       "Brand New": {
         "total": 237,
@@ -98175,6 +98214,25 @@
     ]
   },
   "byBrandLine": {
+    "Fender|Fender Custom Shop": {
+      "brand": "Fender",
+      "brandLine": "Fender Custom Shop",
+      "tier": "premium",
+      "count": 91,
+      "sum": 780219.8799999999,
+      "avg": 8574,
+      "min": 735,
+      "max": 72382,
+      "sold": 32,
+      "soldSum": 168393.99,
+      "soldAvg": 5262,
+      "live": 27,
+      "removed": 32,
+      "sellRate": 35,
+      "totalDays": 2688.7,
+      "soldCount": 32,
+      "avgDaysToSell": 84
+    },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
       "brandLine": "Gibson Custom Shop",
@@ -98209,7 +98267,7 @@
       "live": 56,
       "removed": 69,
       "sellRate": 34,
-      "totalDays": 5643.7,
+      "totalDays": 5643.8,
       "soldCount": 64,
       "avgDaysToSell": 88.2
     },
@@ -98228,28 +98286,9 @@
       "live": 41,
       "removed": 22,
       "sellRate": 37,
-      "totalDays": 2745.2999999999997,
+      "totalDays": 2745.3999999999996,
       "soldCount": 37,
       "avgDaysToSell": 74.2
-    },
-    "Fender|Fender Custom Shop": {
-      "brand": "Fender",
-      "brandLine": "Fender Custom Shop",
-      "tier": "premium",
-      "count": 90,
-      "sum": 755719.8799999999,
-      "avg": 8397,
-      "min": 735,
-      "max": 72382,
-      "sold": 32,
-      "soldSum": 168393.99,
-      "soldAvg": 5262,
-      "live": 26,
-      "removed": 32,
-      "sellRate": 36,
-      "totalDays": 2688.6,
-      "soldCount": 32,
-      "avgDaysToSell": 84
     },
     "Friedman|Friedman": {
       "brand": "Friedman",
@@ -98285,7 +98324,7 @@
       "live": 28,
       "removed": 59,
       "sellRate": 37,
-      "totalDays": 4202.799999999999,
+      "totalDays": 4202.899999999999,
       "soldCount": 52,
       "avgDaysToSell": 80.8
     },
@@ -98360,7 +98399,7 @@
       "live": 17,
       "removed": 12,
       "sellRate": 37,
-      "totalDays": 1262.1,
+      "totalDays": 1262.1999999999998,
       "soldCount": 17,
       "avgDaysToSell": 74.2
     },
@@ -98472,7 +98511,7 @@
       "live": 10,
       "removed": 6,
       "sellRate": 20,
-      "totalDays": 368.2,
+      "totalDays": 368.3,
       "soldCount": 4,
       "avgDaysToSell": 92.1
     },
@@ -98510,7 +98549,7 @@
       "live": 5,
       "removed": 6,
       "sellRate": 61,
-      "totalDays": 1446.9,
+      "totalDays": 1447,
       "soldCount": 17,
       "avgDaysToSell": 85.1
     },
@@ -98548,7 +98587,7 @@
       "live": 6,
       "removed": 8,
       "sellRate": 48,
-      "totalDays": 685.3,
+      "totalDays": 685.4,
       "soldCount": 13,
       "avgDaysToSell": 52.7
     },
@@ -98642,7 +98681,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 40,
-      "totalDays": 830.3000000000001,
+      "totalDays": 830.5000000000001,
       "soldCount": 9,
       "avgDaysToSell": 69.2
     },
@@ -98775,9 +98814,9 @@
       "live": 15,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 734.5999999999999,
+      "totalDays": 734.6999999999999,
       "soldCount": 7,
-      "avgDaysToSell": 104.9
+      "avgDaysToSell": 105
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -98850,9 +98889,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 22,
-      "totalDays": 75.80000000000001,
+      "totalDays": 75.9,
       "soldCount": 2,
-      "avgDaysToSell": 37.9
+      "avgDaysToSell": 38
     },
     "Solar Guitars|Solar Guitars": {
       "brand": "Solar Guitars",
@@ -98906,7 +98945,7 @@
       "live": 4,
       "removed": 2,
       "sellRate": 45,
-      "totalDays": 453.4,
+      "totalDays": 453.5,
       "soldCount": 5,
       "avgDaysToSell": 90.7
     },
@@ -99262,7 +99301,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1493.9,
+      "totalDays": 1494,
       "soldCount": 14,
       "avgDaysToSell": 93.4
     },
@@ -99317,9 +99356,9 @@
       "live": 0,
       "removed": 4,
       "sellRate": 20,
-      "totalDays": 192.2,
+      "totalDays": 192.3,
       "soldCount": 1,
-      "avgDaysToSell": 192.2
+      "avgDaysToSell": 192.3
     },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
@@ -99693,9 +99732,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 49.5,
+      "totalDays": 49.6,
       "soldCount": 1,
-      "avgDaysToSell": 49.5
+      "avgDaysToSell": 49.6
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -99882,9 +99921,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 192.2,
+      "totalDays": 192.3,
       "soldCount": 2,
-      "avgDaysToSell": 96.1
+      "avgDaysToSell": 96.2
     },
     "Taylor|Taylor Baby": {
       "brand": "Taylor",
@@ -100440,14 +100479,14 @@
     },
     {
       "label": "31+",
-      "total": 509,
+      "total": 510,
       "sold": 137,
       "rate": 27
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 817,
+      "total": 818,
       "sold": 229,
       "rate": 28
     },
@@ -100464,7 +100503,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 558,
+      "total": 559,
       "sold": 180,
       "rate": 32
     }
@@ -100478,7 +100517,7 @@
     },
     {
       "state": "NY",
-      "total": 81,
+      "total": 82,
       "sold": 8,
       "rate": 10
     },
