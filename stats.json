@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-05T01:29:31.102Z",
-  "totalLinks": 3108,
-  "totalEver": 3875,
-  "totalBeforeFilter": 3875,
+  "generatedAt": "2026-08-05T01:29:54.462Z",
+  "totalLinks": 3109,
+  "totalEver": 3876,
+  "totalBeforeFilter": 3876,
   "fakeCount": 6,
   "removedCount": 1489,
-  "totalWithPrice": 2797,
+  "totalWithPrice": 2798,
   "overall": {
-    "count": 2716,
-    "sum": 7685438.22,
-    "avg": 2830,
+    "count": 2717,
+    "sum": 7686588.22,
+    "avg": 2829,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2716,
-    "sum": 7685438.22,
-    "avg": 2830,
+    "count": 2717,
+    "sum": 7686588.22,
+    "avg": 2829,
     "min": 10.49,
     "max": 11185,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11261,
+    "thresholdHigh": 11263,
     "thresholdLow": 0,
     "count": 81,
     "items": [
@@ -669,11 +669,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 50,
-      "sum": 109680.99,
+      "count": 51,
+      "sum": 110830.99,
       "min": 315,
       "max": 9950,
-      "avg": 2194
+      "avg": 2173
     },
     "2026-07": {
       "count": 423,
@@ -727,11 +727,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2457,
-      "sum": 6901622.3,
+      "count": 2458,
+      "sum": 6902772.3,
       "min": 33,
       "max": 11185,
-      "avg": 2809
+      "avg": 2808
     },
     "marketplace": {
       "count": 159,
@@ -750,11 +750,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2457,
-      "sum": 6901622.3,
+      "count": 2458,
+      "sum": 6902772.3,
       "min": 33,
       "max": 11185,
-      "avg": 2809
+      "avg": 2808
     },
     "musicgoround.com": {
       "count": 8,
@@ -1024,6 +1024,53 @@
     }
   },
   "byModel": {
+    "ibanez-standard-mij": {
+      "displayName": "Ibanez SV470-SOL Standard MIJ 1992 - 1997 - Stained Oil",
+      "brand": "Ibanez",
+      "model": "Standard",
+      "variant": "Mij",
+      "count": 2,
+      "sum": 2950,
+      "min": 1150,
+      "max": 1800,
+      "sightings": [
+        {
+          "price": 1800,
+          "date": "2026-05-06T03:24:02.527+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez SV470-BK Standard MIJ 1992 - 1995 - Black",
+          "url": "https://reverb.com/item/96786045-ibanez-sv470-bk-standard-mij-1992-1995-black",
+          "condition": "Excellent"
+        },
+        {
+          "price": 1150,
+          "date": "2026-08-05T01:29:42.157Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez SV470-SOL Standard MIJ 1992 - 1997 - Stained Oil",
+          "url": "https://reverb.com/item/97594963",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1150,
+          "min": 1150,
+          "max": 1150,
+          "avg": 1150
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 1800,
+          "min": 1800,
+          "max": 1800,
+          "avg": 1800
+        }
+      },
+      "avg": 1475
+    },
     "mule-mulecaster": {
       "displayName": "Mule Resophonic Guitars Mulecaster",
       "brand": "Mule",
@@ -41339,37 +41386,6 @@
         ]
       },
       "avg": 875
-    },
-    "ibanez-standard-mij": {
-      "displayName": "Ibanez SV470-BK Standard MIJ 1992 - 1995 - Black",
-      "brand": "Ibanez",
-      "model": "Standard",
-      "variant": "Mij",
-      "count": 1,
-      "sum": 1800,
-      "min": 1800,
-      "max": 1800,
-      "sightings": [
-        {
-          "price": 1800,
-          "date": "2026-05-06T03:24:02.527+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Ibanez SV470-BK Standard MIJ 1992 - 1995 - Black",
-          "url": "https://reverb.com/item/96786045-ibanez-sv470-bk-standard-mij-1992-1995-black",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 1800,
-          "min": 1800,
-          "max": 1800,
-          "avg": 1800
-        }
-      },
-      "avg": 1800
     },
     "taylor-bt2-baby-taylor": {
       "displayName": "Taylor BT2 Baby Taylor 2009 - Present - Natural",
@@ -87206,6 +87222,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 131,
+      "min": 173.3,
+      "max": 9995,
+      "soldCount": 51,
+      "outliersExcluded": 6,
+      "avg": 2221,
+      "soldAvg": 1897
+    },
     "Mule": {
       "count": 11,
       "min": 2500,
@@ -87313,15 +87338,6 @@
       "outliersExcluded": 0,
       "avg": 2108,
       "soldAvg": 2600
-    },
-    "Ibanez": {
-      "count": 130,
-      "min": 173.3,
-      "max": 9995,
-      "soldCount": 51,
-      "outliersExcluded": 6,
-      "avg": 2230,
-      "soldAvg": 1897
     },
     "LTD": {
       "count": 3,
@@ -90025,6 +90041,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 838,
+      "sum": 2699463.8100000056,
+      "sold": {
+        "count": 275,
+        "sum": 574898.88,
+        "avg": 2091,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3221,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 1029,
       "sum": 4477883.3600000115,
@@ -90038,20 +90068,6 @@
       "avg": 4352,
       "min": 110,
       "max": 325000
-    },
-    "Very Good": {
-      "count": 837,
-      "sum": 2698313.8100000056,
-      "sold": {
-        "count": 275,
-        "sum": 574898.88,
-        "avg": 2091,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3224,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 300,
@@ -90174,9 +90190,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2194,
+      "avg": 2173,
       "median": 1700,
-      "count": 50
+      "count": 51
     },
     "07": {
       "name": "Jul",
@@ -90366,7 +90382,7 @@
   "priceDistribution": {
     "0-500": 93,
     "500-1k": 260,
-    "1k-2k": 877,
+    "1k-2k": 878,
     "2k-3k": 559,
     "3k-5k": 576,
     "5k-10k": 333,
@@ -90375,13 +90391,18 @@
   "priceDistributionFiltered": {
     "0-500": 93,
     "500-1k": 260,
-    "1k-2k": 877,
+    "1k-2k": 878,
     "2k-3k": 559,
     "3k-5k": 576,
     "5k-10k": 333,
     "10k+": 18
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 2447,
+      "count": 52,
+      "avg": 47
+    },
     "Mule": {
       "sum": 205,
       "count": 6,
@@ -90426,11 +90447,6 @@
       "sum": 113,
       "count": 4,
       "avg": 28
-    },
-    "Ibanez": {
-      "sum": 2378,
-      "count": 51,
-      "avg": 47
     },
     "LTD": {
       "sum": 54,
@@ -91199,7 +91215,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-05": 6,
+    "2026-08-05": 7,
     "2026-08-04": 15,
     "2026-08-03": 9,
     "2026-08-02": 5,
@@ -91232,11 +91248,11 @@
     "2026-07-06": 8
   },
   "categoryDistribution": {
-    "reverb": 2531,
+    "reverb": 2532,
     "marketplace": 466,
     "other": 111
   },
-  "activeModelsCount": 405,
+  "activeModelsCount": 406,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -91326,7 +91342,7 @@
     "avg": 1700,
     "median": 1700,
     "pctBelowAvg": 23,
-    "count": 50
+    "count": 51
   },
   "topVoted": [],
   "discountFromRetail": {
@@ -91367,10 +91383,10 @@
       "count": 252
     },
     "Ibanez": {
-      "avgPrice": 3024,
+      "avgPrice": 3011,
       "retailEst": 1000,
-      "avgDiscount": -202.4,
-      "count": 137
+      "avgDiscount": -201.1,
+      "count": 138
     },
     "Jackson": {
       "avgPrice": 4318,
@@ -96169,15 +96185,15 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 6324.12565762064,
-      "count": 383,
+      "totalPctDrop": 6338.9404724354545,
+      "count": 384,
       "avgPctDrop": 16.5
     },
     "byBrand": {
       "Ibanez": {
-        "totalPctDrop": 382.14499870703327,
-        "count": 21,
-        "avgPctDrop": 18.2
+        "totalPctDrop": 396.9598135218481,
+        "count": 22,
+        "avgPctDrop": 18
       },
       "Guild": {
         "totalPctDrop": 83.18081046727181,
@@ -96768,15 +96784,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2804,
+      "total": 2805,
       "sold": 939,
       "fake": 0,
-      "live": 857,
+      "live": 858,
       "removed": 1008,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 144,
+        "sold": 51,
+        "fake": 0,
+        "live": 50,
+        "removed": 43,
+        "soldPct": 35,
+        "livePct": 35
+      },
       "Mule": {
         "total": 11,
         "sold": 4,
@@ -96884,15 +96909,6 @@
         "removed": 1,
         "soldPct": 14,
         "livePct": 71
-      },
-      "Ibanez": {
-        "total": 143,
-        "sold": 51,
-        "fake": 0,
-        "live": 49,
-        "removed": 43,
-        "soldPct": 36,
-        "livePct": 34
       },
       "LTD": {
         "total": 4,
@@ -99916,7 +99932,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 877,
+        "total": 878,
         "sold": 349,
         "rate": 40
       },
@@ -99946,15 +99962,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 838,
+        "sold": 277,
+        "rate": 33
+      },
       "Excellent": {
         "total": 1029,
         "sold": 387,
         "rate": 38
-      },
-      "Very Good": {
-        "total": 837,
-        "sold": 277,
-        "rate": 33
       },
       "Good": {
         "total": 300,
@@ -100253,6 +100269,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez Standard": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez Standard",
+      "tier": "budget-mid",
+      "count": 4,
+      "sum": 4464,
+      "avg": 1116,
+      "min": 315,
+      "max": 1800,
+      "sold": 1,
+      "soldSum": 1199,
+      "soldAvg": 1199,
+      "live": 3,
+      "removed": 0,
+      "sellRate": 25,
+      "totalDays": 80.3,
+      "soldCount": 1,
+      "avgDaysToSell": 80.3
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -100346,25 +100381,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "Ibanez|Ibanez Standard": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez Standard",
-      "tier": "budget-mid",
-      "count": 3,
-      "sum": 3314,
-      "avg": 1105,
-      "min": 315,
-      "max": 1800,
-      "sold": 1,
-      "soldSum": 1199,
-      "soldAvg": 1199,
-      "live": 2,
-      "removed": 0,
-      "sellRate": 33,
-      "totalDays": 80.3,
-      "soldCount": 1,
-      "avgDaysToSell": 80.3
     },
     "LTD|LTD": {
       "brand": "LTD",
@@ -101490,7 +101506,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1570.8999999999999,
+      "totalDays": 1571,
       "soldCount": 14,
       "avgDaysToSell": 98.2
     },
@@ -102549,7 +102565,7 @@
     },
     {
       "label": "16–30",
-      "total": 355,
+      "total": 356,
       "sold": 97,
       "rate": 27
     },
@@ -102562,7 +102578,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 854,
+      "total": 855,
       "sold": 243,
       "rate": 28
     },
@@ -102579,7 +102595,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 584,
+      "total": 585,
       "sold": 195,
       "rate": 33
     }
@@ -102748,6 +102764,12 @@
       "rate": 20
     },
     {
+      "state": "CT",
+      "total": 9,
+      "sold": 3,
+      "rate": 33
+    },
+    {
       "state": "OK",
       "total": 9,
       "sold": 2,
@@ -102794,12 +102816,6 @@
       "total": 8,
       "sold": 1,
       "rate": 13
-    },
-    {
-      "state": "CT",
-      "total": 8,
-      "sold": 3,
-      "rate": 38
     },
     {
       "state": "AL",
