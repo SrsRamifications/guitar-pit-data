@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-08T17:56:31.553Z",
-  "totalLinks": 3175,
-  "totalEver": 3952,
-  "totalBeforeFilter": 3952,
+  "generatedAt": "2026-08-08T18:02:53.712Z",
+  "totalLinks": 3176,
+  "totalEver": 3953,
+  "totalBeforeFilter": 3953,
   "fakeCount": 6,
   "removedCount": 1500,
-  "totalWithPrice": 2863,
+  "totalWithPrice": 2864,
   "overall": {
-    "count": 2781,
-    "sum": 7881181.22,
-    "avg": 2834,
+    "count": 2782,
+    "sum": 7887351.22,
+    "avg": 2835,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2781,
-    "sum": 7881181.22,
-    "avg": 2834,
+    "count": 2782,
+    "sum": 7887351.22,
+    "avg": 2835,
     "min": 10.49,
     "max": 11185,
     "median": 2200
   },
   "outliers": {
-    "thresholdHigh": 11292,
+    "thresholdHigh": 11289,
     "thresholdLow": 0,
     "count": 82,
     "items": [
@@ -677,11 +677,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 115,
-      "sum": 306081.99,
+      "count": 116,
+      "sum": 312251.99,
       "min": 315,
       "max": 9950,
-      "avg": 2662
+      "avg": 2692
     },
     "2026-07": {
       "count": 423,
@@ -735,11 +735,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 163,
-      "sum": 503176.77,
+      "count": 164,
+      "sum": 509346.77,
       "min": 39.81,
       "max": 11000,
-      "avg": 3087
+      "avg": 3106
     },
     "reverb": {
       "count": 2518,
@@ -758,11 +758,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 88,
-      "sum": 343880.98,
+      "count": 89,
+      "sum": 350050.98,
       "min": 350,
       "max": 11099,
-      "avg": 3908
+      "avg": 3933
     },
     "reverb.com": {
       "count": 2518,
@@ -1032,6 +1032,37 @@
     }
   },
   "byModel": {
+    "martin-00-18": {
+      "displayName": "Martin 00-18 Natural 1944",
+      "brand": "Martin",
+      "model": "00-18",
+      "variant": null,
+      "count": 1,
+      "sum": 6170,
+      "min": 6170,
+      "max": 6170,
+      "sightings": [
+        {
+          "price": 6170,
+          "date": "2026-08-08T18:02:38.121Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Martin 00-18 Natural 1944",
+          "url": "https://www.chicagomusicexchange.com/products/martin-00-18-natural-1944-2605189",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 6170,
+          "min": 6170,
+          "max": 6170,
+          "avg": 6170
+        }
+      },
+      "avg": 6170
+    },
     "collings-71m": {
       "displayName": "Collings 71M Fiesta Red 2025",
       "brand": "Collings",
@@ -3874,7 +3905,7 @@
         },
         {
           "price": 720,
-          "date": "2026-07-28T23:19:40.477Z",
+          "date": "2026-07-28T23:19:40.477+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Ibanez RG2550EX-VBB Prestige 2004 - Vibrant Blue",
@@ -3932,7 +3963,7 @@
           {
             "price": 648,
             "askingPrice": 720,
-            "date": "2026-07-31T17:59:09.030Z",
+            "date": "2026-07-31T17:59:09.03+00:00",
             "title": "Ibanez RG2550EX-VBB Prestige 2004 - Vibrant Blue",
             "url": "https://reverb.com/item/98675043"
           },
@@ -89002,6 +89033,15 @@
     }
   },
   "byBrandPrice": {
+    "Martin": {
+      "count": 27,
+      "min": 995,
+      "max": 8495,
+      "soldCount": 11,
+      "outliersExcluded": 1,
+      "avg": 3088,
+      "soldAvg": 2423
+    },
     "Collings": {
       "count": 16,
       "min": 2850,
@@ -89478,15 +89518,6 @@
       "outliersExcluded": 0,
       "avg": 1553,
       "soldAvg": 2000
-    },
-    "Martin": {
-      "count": 26,
-      "min": 995,
-      "max": 8495,
-      "soldCount": 11,
-      "outliersExcluded": 1,
-      "avg": 2969,
-      "soldAvg": 2423
     },
     "Lewis": {
       "count": 4,
@@ -91857,6 +91888,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 306,
+      "sum": 828209.9199999999,
+      "sold": {
+        "count": 102,
+        "sum": 204377.24000000002,
+        "avg": 2004,
+        "min": 285,
+        "max": 13000
+      },
+      "avg": 2707,
+      "min": 70,
+      "max": 55000
+    },
     "Used": {
       "count": 81,
       "sum": 322546.6299999998,
@@ -91909,20 +91954,6 @@
       "avg": 3218,
       "min": 33,
       "max": 437713.69
-    },
-    "Good": {
-      "count": 305,
-      "sum": 822039.9199999999,
-      "sold": {
-        "count": 102,
-        "sum": 204377.24000000002,
-        "avg": 2004,
-        "min": 285,
-        "max": 13000
-      },
-      "avg": 2695,
-      "min": 70,
-      "max": 55000
     },
     "Mint": {
       "count": 96,
@@ -92006,9 +92037,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2662,
-      "median": 2299,
-      "count": 115
+      "avg": 2692,
+      "median": 2349,
+      "count": 116
     },
     "07": {
       "name": "Jul",
@@ -92201,7 +92232,7 @@
     "1k-2k": 890,
     "2k-3k": 570,
     "3k-5k": 597,
-    "5k-10k": 342,
+    "5k-10k": 343,
     "10k+": 100
   },
   "priceDistributionFiltered": {
@@ -92210,10 +92241,15 @@
     "1k-2k": 890,
     "2k-3k": 570,
     "3k-5k": 597,
-    "5k-10k": 342,
+    "5k-10k": 343,
     "10k+": 18
   },
   "daysOnMarket": {
+    "Martin": {
+      "sum": 222,
+      "count": 7,
+      "avg": 32
+    },
     "Collings": {
       "sum": 237,
       "count": 7,
@@ -92280,9 +92316,9 @@
       "avg": 43
     },
     "Yamaha": {
-      "sum": 373,
+      "sum": 374,
       "count": 9,
-      "avg": 41
+      "avg": 42
     },
     "BC Rich": {
       "sum": 2645,
@@ -92464,11 +92500,6 @@
       "count": 2,
       "avg": 53
     },
-    "Martin": {
-      "sum": 222,
-      "count": 6,
-      "avg": 37
-    },
     "Lewis": {
       "sum": 16,
       "count": 1,
@@ -92515,7 +92546,7 @@
       "avg": 10
     },
     "G&L": {
-      "sum": 257,
+      "sum": 258,
       "count": 6,
       "avg": 43
     },
@@ -93036,7 +93067,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-08": 11,
+    "2026-08-08": 12,
     "2026-08-07": 16,
     "2026-08-06": 16,
     "2026-08-05": 30,
@@ -93068,11 +93099,11 @@
     "2026-07-10": 8
   },
   "categoryDistribution": {
-    "marketplace": 471,
+    "marketplace": 472,
     "reverb": 2593,
     "other": 111
   },
-  "activeModelsCount": 432,
+  "activeModelsCount": 433,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -93084,7 +93115,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 352
+      "count": 353
     },
     {
       "username": "scottcorgan",
@@ -93371,10 +93402,10 @@
       "count": 43
     },
     "Martin": {
-      "avgPrice": 3526,
+      "avgPrice": 3620,
       "retailEst": 500,
-      "avgDiscount": -605.1,
-      "count": 27
+      "avgDiscount": -624,
+      "count": 28
     },
     "Taylor": {
       "avgPrice": 1753,
@@ -98686,15 +98717,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2868,
+      "total": 2869,
       "sold": 949,
       "fake": 0,
-      "live": 900,
+      "live": 901,
       "removed": 1019,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "Martin": {
+        "total": 32,
+        "sold": 11,
+        "fake": 0,
+        "live": 11,
+        "removed": 10,
+        "soldPct": 34,
+        "livePct": 34
+      },
       "Collings": {
         "total": 16,
         "sold": 7,
@@ -98892,15 +98932,6 @@
         "removed": 2,
         "soldPct": 0,
         "livePct": 60
-      },
-      "Martin": {
-        "total": 31,
-        "sold": 11,
-        "fake": 0,
-        "live": 10,
-        "removed": 10,
-        "soldPct": 35,
-        "livePct": 32
       },
       "Zemaitis": {
         "total": 1,
@@ -101888,7 +101919,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 342,
+        "total": 343,
         "sold": 72,
         "rate": 21
       },
@@ -101900,6 +101931,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 306,
+        "sold": 110,
+        "rate": 36
+      },
       "Used": {
         "total": 82,
         "sold": 30,
@@ -101919,11 +101955,6 @@
         "total": 862,
         "sold": 281,
         "rate": 33
-      },
-      "Good": {
-        "total": 305,
-        "sold": 110,
-        "rate": 36
       },
       "Mint": {
         "total": 96,
@@ -102363,9 +102394,9 @@
       "live": 32,
       "removed": 60,
       "sellRate": 36,
-      "totalDays": 4635.799999999998,
+      "totalDays": 4635.899999999999,
       "soldCount": 52,
-      "avgDaysToSell": 89.1
+      "avgDaysToSell": 89.2
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -102382,7 +102413,7 @@
       "live": 34,
       "removed": 33,
       "sellRate": 33,
-      "totalDays": 2987.8,
+      "totalDays": 2987.9,
       "soldCount": 33,
       "avgDaysToSell": 90.5
     },
@@ -102401,7 +102432,7 @@
       "live": 57,
       "removed": 70,
       "sellRate": 35,
-      "totalDays": 6299.3,
+      "totalDays": 6300.200000000001,
       "soldCount": 69,
       "avgDaysToSell": 91.3
     },
@@ -102477,9 +102508,9 @@
       "live": 16,
       "removed": 24,
       "sellRate": 35,
-      "totalDays": 1837.9,
+      "totalDays": 1838.1,
       "soldCount": 22,
-      "avgDaysToSell": 83.5
+      "avgDaysToSell": 83.6
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -102852,7 +102883,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 57,
-      "totalDays": 1591.3,
+      "totalDays": 1591.4,
       "soldCount": 17,
       "avgDaysToSell": 93.6
     },
@@ -102909,7 +102940,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 46,
-      "totalDays": 1443.3,
+      "totalDays": 1443.5,
       "soldCount": 13,
       "avgDaysToSell": 111
     },
@@ -103077,9 +103108,9 @@
       "live": 2,
       "removed": 1,
       "sellRate": 40,
-      "totalDays": 253,
+      "totalDays": 253.10000000000002,
       "soldCount": 2,
-      "avgDaysToSell": 126.5
+      "avgDaysToSell": 126.6
     },
     "James Tyler|James Tyler Custom / Special Edition": {
       "brand": "James Tyler",
@@ -103096,9 +103127,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 20,
-      "totalDays": 10.9,
+      "totalDays": 11,
       "soldCount": 1,
-      "avgDaysToSell": 10.9
+      "avgDaysToSell": 11
     },
     "Jackson|Jackson X Series": {
       "brand": "Jackson",
@@ -103209,7 +103240,7 @@
       "live": 15,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 785.5,
+      "totalDays": 785.5999999999999,
       "soldCount": 7,
       "avgDaysToSell": 112.2
     },
@@ -103397,7 +103428,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 318.8,
+      "totalDays": 318.90000000000003,
       "soldCount": 5,
       "avgDaysToSell": 63.8
     },
@@ -103527,7 +103558,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1629.6000000000004,
+      "totalDays": 1629.8000000000002,
       "soldCount": 14,
       "avgDaysToSell": 101.9
     },
@@ -103940,9 +103971,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 284.8,
+      "totalDays": 284.9,
       "soldCount": 2,
-      "avgDaysToSell": 142.4
+      "avgDaysToSell": 142.5
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -104494,9 +104525,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 125.9,
+      "totalDays": 126,
       "soldCount": 1,
-      "avgDaysToSell": 125.9
+      "avgDaysToSell": 126
     },
     "Ovation|Ovation USA Premium": {
       "brand": "Ovation",
