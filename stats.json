@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-09T04:11:31.954Z",
-  "totalLinks": 3191,
-  "totalEver": 3971,
-  "totalBeforeFilter": 3971,
+  "generatedAt": "2026-08-09T04:19:09.534Z",
+  "totalLinks": 3192,
+  "totalEver": 3972,
+  "totalBeforeFilter": 3972,
   "fakeCount": 6,
   "removedCount": 1502,
-  "totalWithPrice": 2879,
+  "totalWithPrice": 2880,
   "overall": {
-    "count": 2797,
-    "sum": 7937078.22,
-    "avg": 2838,
+    "count": 2798,
+    "sum": 7943478.22,
+    "avg": 2839,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2797,
-    "sum": 7937078.22,
-    "avg": 2838,
+    "count": 2798,
+    "sum": 7943478.22,
+    "avg": 2839,
     "min": 10.49,
     "max": 11185,
-    "median": 2200
+    "median": 2212
   },
   "outliers": {
-    "thresholdHigh": 11265,
+    "thresholdHigh": 11408,
     "thresholdLow": 0,
     "count": 82,
     "items": [
@@ -677,11 +677,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 131,
-      "sum": 362073.99,
+      "count": 132,
+      "sum": 368473.99,
       "min": 315,
       "max": 9950,
-      "avg": 2764
+      "avg": 2791
     },
     "2026-07": {
       "count": 423,
@@ -735,11 +735,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2532,
-      "sum": 7135462.3,
+      "count": 2533,
+      "sum": 7141862.3,
       "min": 33,
       "max": 11185,
-      "avg": 2818
+      "avg": 2820
     },
     "marketplace": {
       "count": 165,
@@ -758,11 +758,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2532,
-      "sum": 7135462.3,
+      "count": 2533,
+      "sum": 7141862.3,
       "min": 33,
       "max": 11185,
-      "avg": 2818
+      "avg": 2820
     },
     "davesguitar.com": {
       "count": 23,
@@ -1032,6 +1032,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-special-custom-shop-murphy-lab": {
+      "displayName": "Gibson Custom Shop 1957 Les Paul Special Single Cut Ebony Murphy Lab Ultra Heavy Aged",
+      "brand": "Gibson",
+      "model": "Les Paul Special",
+      "variant": "Custom Shop Murphy Lab",
+      "count": 1,
+      "sum": 6400,
+      "min": 6400,
+      "max": 6400,
+      "sightings": [
+        {
+          "price": 6400,
+          "date": "2026-08-09T04:18:55.311Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop 1957 Les Paul Special Single Cut Ebony Murphy Lab Ultra Heavy Aged",
+          "url": "https://reverb.com/item/99526470",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 6400,
+          "min": 6400,
+          "max": 6400,
+          "avg": 6400
+        }
+      },
+      "avg": 6400
+    },
     "suhr-modern-signature": {
       "displayName": "Suhr Andy Wood Signature Modern T SS 2020 - Present - War Black",
       "brand": "Suhr",
@@ -89533,6 +89564,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 323,
+      "min": 59.99,
+      "max": 11099,
+      "soldCount": 126,
+      "outliersExcluded": 11,
+      "avg": 3615,
+      "soldAvg": 3182
+    },
     "Suhr": {
       "count": 42,
       "min": 1999,
@@ -89712,15 +89752,6 @@
       "outliersExcluded": 19,
       "avg": 3036,
       "soldAvg": 2909
-    },
-    "Gibson": {
-      "count": 322,
-      "min": 59.99,
-      "max": 11099,
-      "soldCount": 126,
-      "outliersExcluded": 11,
-      "avg": 3606,
-      "soldAvg": 3182
     },
     "Heritage": {
       "count": 11,
@@ -92388,6 +92419,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 1066,
+      "sum": 4568489.3600000115,
+      "sold": {
+        "count": 389,
+        "sum": 1012539.2899999998,
+        "avg": 2603,
+        "min": 110,
+        "max": 35900
+      },
+      "avg": 4286,
+      "min": 110,
+      "max": 295000
+    },
     "Very Good": {
       "count": 869,
       "sum": 2793746.8100000056,
@@ -92401,20 +92446,6 @@
       "avg": 3215,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 1065,
-      "sum": 4562089.3600000115,
-      "sold": {
-        "count": 389,
-        "sum": 1012539.2899999998,
-        "avg": 2603,
-        "min": 110,
-        "max": 35900
-      },
-      "avg": 4284,
-      "min": 110,
-      "max": 295000
     },
     "Good": {
       "count": 307,
@@ -92537,9 +92568,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2764,
+      "avg": 2791,
       "median": 2499,
-      "count": 131
+      "count": 132
     },
     "07": {
       "name": "Jul",
@@ -92732,7 +92763,7 @@
     "1k-2k": 893,
     "2k-3k": 574,
     "3k-5k": 602,
-    "5k-10k": 345,
+    "5k-10k": 346,
     "10k+": 100
   },
   "priceDistributionFiltered": {
@@ -92741,10 +92772,15 @@
     "1k-2k": 893,
     "2k-3k": 574,
     "3k-5k": 602,
-    "5k-10k": 345,
+    "5k-10k": 346,
     "10k+": 18
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4813,
+      "count": 105,
+      "avg": 46
+    },
     "Suhr": {
       "sum": 804,
       "count": 23,
@@ -92811,7 +92847,7 @@
       "avg": 1
     },
     "Kiesel": {
-      "sum": 2618,
+      "sum": 2619,
       "count": 62,
       "avg": 42
     },
@@ -92836,19 +92872,14 @@
       "avg": 41
     },
     "PRS": {
-      "sum": 4404,
+      "sum": 4408,
       "count": 98,
       "avg": 45
     },
     "Fender": {
-      "sum": 3022,
+      "sum": 3023,
       "count": 75,
       "avg": 40
-    },
-    "Gibson": {
-      "sum": 4792,
-      "count": 104,
-      "avg": 46
     },
     "Heritage": {
       "sum": 214,
@@ -92861,7 +92892,7 @@
       "avg": 42
     },
     "BC Rich": {
-      "sum": 2653,
+      "sum": 2655,
       "count": 48,
       "avg": 55
     },
@@ -92911,7 +92942,7 @@
       "avg": 31
     },
     "Anderson": {
-      "sum": 510,
+      "sum": 511,
       "count": 10,
       "avg": 51
     },
@@ -92936,7 +92967,7 @@
       "avg": 21
     },
     "Ibanez": {
-      "sum": 2395,
+      "sum": 2396,
       "count": 50,
       "avg": 48
     },
@@ -93577,7 +93608,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-09": 7,
+    "2026-08-09": 8,
     "2026-08-08": 20,
     "2026-08-07": 16,
     "2026-08-06": 16,
@@ -93610,11 +93641,11 @@
     "2026-07-10": 5
   },
   "categoryDistribution": {
-    "reverb": 2607,
+    "reverb": 2608,
     "marketplace": 473,
     "other": 111
   },
-  "activeModelsCount": 442,
+  "activeModelsCount": 443,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -93723,8 +93754,8 @@
     "Gibson": {
       "avgPrice": 6227,
       "retailEst": 800,
-      "avgDiscount": -678.3,
-      "count": 337
+      "avgDiscount": -678.4,
+      "count": 338
     },
     "Epiphone": {
       "avgPrice": 2504,
@@ -98678,11 +98709,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 6608.319984033361,
-      "count": 401,
+      "totalPctDrop": 6616.878349514144,
+      "count": 402,
       "avgPctDrop": 16.5
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 620.5246411525866,
+        "count": 44,
+        "avgPctDrop": 14.1
+      },
       "ESP": {
         "totalPctDrop": 361.08236614986794,
         "count": 16,
@@ -98757,11 +98793,6 @@
         "totalPctDrop": 45.42513871239214,
         "count": 6,
         "avgPctDrop": 7.6
-      },
-      "Gibson": {
-        "totalPctDrop": 611.9662756718037,
-        "count": 43,
-        "avgPctDrop": 14.2
       },
       "BC Rich": {
         "totalPctDrop": 451.10695942217035,
@@ -99302,15 +99333,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2883,
+      "total": 2884,
       "sold": 956,
       "fake": 0,
-      "live": 906,
+      "live": 907,
       "removed": 1021,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "Gibson": {
+        "total": 349,
+        "sold": 128,
+        "fake": 0,
+        "live": 93,
+        "removed": 128,
+        "soldPct": 37,
+        "livePct": 27
+      },
       "Suhr": {
         "total": 44,
         "sold": 20,
@@ -99490,15 +99530,6 @@
         "removed": 83,
         "soldPct": 32,
         "livePct": 31
-      },
-      "Gibson": {
-        "total": 348,
-        "sold": 128,
-        "fake": 0,
-        "live": 92,
-        "removed": 128,
-        "soldPct": 37,
-        "livePct": 26
       },
       "Heritage": {
         "total": 11,
@@ -102504,7 +102535,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 345,
+        "total": 346,
         "sold": 74,
         "rate": 21
       },
@@ -102516,15 +102547,15 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 1066,
+        "sold": 395,
+        "rate": 37
+      },
       "Very Good": {
         "total": 869,
         "sold": 281,
         "rate": 32
-      },
-      "Excellent": {
-        "total": 1065,
-        "sold": 395,
-        "rate": 37
       },
       "Good": {
         "total": 307,
@@ -102823,6 +102854,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson Custom Shop": {
+      "brand": "Gibson",
+      "brandLine": "Gibson Custom Shop",
+      "tier": "ultra",
+      "count": 63,
+      "sum": 681076.3299999998,
+      "avg": 10811,
+      "min": 2250,
+      "max": 295000,
+      "sold": 22,
+      "soldSum": 140577.97,
+      "soldAvg": 6390,
+      "live": 17,
+      "removed": 24,
+      "sellRate": 35,
+      "totalDays": 1847.4999999999998,
+      "soldCount": 22,
+      "avgDaysToSell": 84
+    },
     "Suhr|Suhr": {
       "brand": "Suhr",
       "brandLine": "Suhr",
@@ -102838,7 +102888,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 48,
-      "totalDays": 817.0000000000001,
+      "totalDays": 817.1000000000001,
       "soldCount": 15,
       "avgDaysToSell": 54.5
     },
@@ -103043,9 +103093,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 1.2,
+      "totalDays": 1.3,
       "soldCount": 1,
-      "avgDaysToSell": 1.2
+      "avgDaysToSell": 1.3
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -103062,7 +103112,7 @@
       "live": 32,
       "removed": 60,
       "sellRate": 36,
-      "totalDays": 4657.199999999999,
+      "totalDays": 4657.5999999999985,
       "soldCount": 52,
       "avgDaysToSell": 89.6
     },
@@ -103081,7 +103131,7 @@
       "live": 34,
       "removed": 33,
       "sellRate": 33,
-      "totalDays": 3001.7999999999997,
+      "totalDays": 3002.1,
       "soldCount": 33,
       "avgDaysToSell": 91
     },
@@ -103100,7 +103150,7 @@
       "live": 57,
       "removed": 70,
       "sellRate": 35,
-      "totalDays": 6328.400000000001,
+      "totalDays": 6328.900000000001,
       "soldCount": 69,
       "avgDaysToSell": 91.7
     },
@@ -103160,25 +103210,6 @@
       "totalDays": 216.60000000000002,
       "soldCount": 3,
       "avgDaysToSell": 72.2
-    },
-    "Gibson|Gibson Custom Shop": {
-      "brand": "Gibson",
-      "brandLine": "Gibson Custom Shop",
-      "tier": "ultra",
-      "count": 62,
-      "sum": 674676.3299999998,
-      "avg": 10882,
-      "min": 2250,
-      "max": 295000,
-      "sold": 22,
-      "soldSum": 140577.97,
-      "soldAvg": 6390,
-      "live": 16,
-      "removed": 24,
-      "sellRate": 35,
-      "totalDays": 1847.4999999999998,
-      "soldCount": 22,
-      "avgDaysToSell": 84
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -103326,7 +103357,7 @@
       "live": 19,
       "removed": 13,
       "sellRate": 37,
-      "totalDays": 1496.1000000000001,
+      "totalDays": 1496.2,
       "soldCount": 19,
       "avgDaysToSell": 78.7
     },
@@ -103438,7 +103469,7 @@
       "live": 4,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 146.6,
+      "totalDays": 146.7,
       "soldCount": 3,
       "avgDaysToSell": 48.9
     },
@@ -103590,7 +103621,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 71,
-      "totalDays": 639.6,
+      "totalDays": 639.7,
       "soldCount": 10,
       "avgDaysToSell": 64
     },
@@ -103628,7 +103659,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 888.7,
+      "totalDays": 888.8,
       "soldCount": 8,
       "avgDaysToSell": 111.1
     },
@@ -103665,9 +103696,9 @@
       "live": 4,
       "removed": 5,
       "sellRate": 40,
-      "totalDays": 608.0999999999999,
+      "totalDays": 608.2,
       "soldCount": 6,
-      "avgDaysToSell": 101.3
+      "avgDaysToSell": 101.4
     },
     "Santa Cruz|Santa Cruz": {
       "brand": "Santa Cruz",
@@ -103984,7 +104015,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 138.3,
+      "totalDays": 138.4,
       "soldCount": 3,
       "avgDaysToSell": 46.1
     },
@@ -104451,9 +104482,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 20,
-      "totalDays": 131.3,
+      "totalDays": 131.4,
       "soldCount": 1,
-      "avgDaysToSell": 131.3
+      "avgDaysToSell": 131.4
     },
     "Bilt|Bilt": {
       "brand": "Bilt",
@@ -105144,8 +105175,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 458,
-    "totalOffers": 1032,
+    "withOffers": 459,
+    "totalOffers": 1033,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 35
   },
@@ -105180,7 +105211,7 @@
     },
     {
       "label": "31+",
-      "total": 566,
+      "total": 567,
       "sold": 154,
       "rate": 27
     }
@@ -105192,14 +105223,14 @@
       "rate": 28
     },
     "off": {
-      "total": 386,
+      "total": 387,
       "sold": 99,
       "rate": 26
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 665,
+      "total": 666,
       "sold": 141,
       "rate": 21
     },
@@ -105391,6 +105422,12 @@
       "rate": 20
     },
     {
+      "state": "ID",
+      "total": 9,
+      "sold": 1,
+      "rate": 11
+    },
+    {
       "state": "RI",
       "total": 9,
       "sold": 4,
@@ -105425,12 +105462,6 @@
       "total": 9,
       "sold": 4,
       "rate": 44
-    },
-    {
-      "state": "ID",
-      "total": 8,
-      "sold": 1,
-      "rate": 13
     },
     {
       "state": "AL",
