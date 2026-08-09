@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-09T15:16:50.956Z",
-  "totalLinks": 3194,
-  "totalEver": 3974,
-  "totalBeforeFilter": 3974,
+  "generatedAt": "2026-08-09T15:18:56.155Z",
+  "totalLinks": 3195,
+  "totalEver": 3975,
+  "totalBeforeFilter": 3975,
   "fakeCount": 6,
   "removedCount": 1503,
-  "totalWithPrice": 2882,
+  "totalWithPrice": 2883,
   "overall": {
-    "count": 2800,
-    "sum": 7949752.22,
-    "avg": 2839,
+    "count": 2801,
+    "sum": 7955751.22,
+    "avg": 2840,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2800,
-    "sum": 7949752.22,
-    "avg": 2839,
+    "count": 2801,
+    "sum": 7955751.22,
+    "avg": 2840,
     "min": 10.49,
     "max": 11185,
     "median": 2225
   },
   "outliers": {
-    "thresholdHigh": 11253,
+    "thresholdHigh": 11408,
     "thresholdLow": 0,
     "count": 82,
     "items": [
@@ -677,11 +677,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 134,
-      "sum": 374747.99,
+      "count": 135,
+      "sum": 380746.99,
       "min": 315,
       "max": 9950,
-      "avg": 2797
+      "avg": 2820
     },
     "2026-07": {
       "count": 423,
@@ -735,11 +735,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 166,
-      "sum": 514236.77,
+      "count": 167,
+      "sum": 520235.77,
       "min": 39.81,
       "max": 11000,
-      "avg": 3098
+      "avg": 3115
     },
     "reverb": {
       "count": 2534,
@@ -758,11 +758,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 90,
-      "sum": 353245.98,
+      "count": 91,
+      "sum": 359244.98,
       "min": 350,
       "max": 11099,
-      "avg": 3925
+      "avg": 3948
     },
     "reverb.com": {
       "count": 2534,
@@ -1032,6 +1032,37 @@
     }
   },
   "byModel": {
+    "martin-000-28-custom-shop": {
+      "displayName": "Martin Custom Shop Authentic 000-28 1937 Adirondack Spruce/East Indian",
+      "brand": "Martin",
+      "model": "000-28",
+      "variant": "Custom Shop",
+      "count": 1,
+      "sum": 5999,
+      "min": 5999,
+      "max": 5999,
+      "sightings": [
+        {
+          "price": 5999,
+          "date": "2026-08-09T15:18:39.943Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Martin Custom Shop Authentic 000-28 1937 Adirondack Spruce/East Indian",
+          "url": "https://www.chicagomusicexchange.com/products/martin-custom-shop-authentic-000-28-1937-adirondack-1928163",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 5999,
+          "min": 5999,
+          "max": 5999,
+          "avg": 5999
+        }
+      },
+      "avg": 5999
+    },
     "novo-voltur-v2-nucleus": {
       "displayName": "2025 Novo Voltur V2, Nucleus - 6.9 LBS",
       "brand": "Novo",
@@ -4728,7 +4759,7 @@
         },
         {
           "price": 875,
-          "date": "2026-07-29T21:11:08.549Z",
+          "date": "2026-07-29T21:11:08.549+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Ibanez RG652AHM prestige",
@@ -89595,6 +89626,15 @@
     }
   },
   "byBrandPrice": {
+    "Martin": {
+      "count": 28,
+      "min": 995,
+      "max": 8495,
+      "soldCount": 12,
+      "outliersExcluded": 1,
+      "avg": 3192,
+      "soldAvg": 2735
+    },
     "Novo": {
       "count": 15,
       "min": 2850,
@@ -89702,15 +89742,6 @@
       "outliersExcluded": 0,
       "avg": 2251,
       "soldAvg": null
-    },
-    "Martin": {
-      "count": 27,
-      "min": 995,
-      "max": 8495,
-      "soldCount": 12,
-      "outliersExcluded": 1,
-      "avg": 3088,
-      "soldAvg": 2735
     },
     "Collings": {
       "count": 16,
@@ -92450,6 +92481,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 246,
+      "sum": 1089645.1900000002,
+      "sold": {
+        "count": 35,
+        "sum": 172769.59,
+        "avg": 4936,
+        "min": 580.29,
+        "max": 35099
+      },
+      "avg": 4429,
+      "min": 135,
+      "max": 35099
+    },
     "Used": {
       "count": 82,
       "sum": 325741.6299999998,
@@ -92502,20 +92547,6 @@
       "avg": 2712,
       "min": 70,
       "max": 55000
-    },
-    "Brand New": {
-      "count": 245,
-      "sum": 1083646.1900000002,
-      "sold": {
-        "count": 35,
-        "sum": 172769.59,
-        "avg": 4936,
-        "min": 580.29,
-        "max": 35099
-      },
-      "avg": 4423,
-      "min": 135,
-      "max": 35099
     },
     "Mint": {
       "count": 96,
@@ -92599,9 +92630,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2797,
+      "avg": 2820,
       "median": 2499,
-      "count": 134
+      "count": 135
     },
     "07": {
       "name": "Jul",
@@ -92794,7 +92825,7 @@
     "1k-2k": 893,
     "2k-3k": 574,
     "3k-5k": 604,
-    "5k-10k": 346,
+    "5k-10k": 347,
     "10k+": 100
   },
   "priceDistributionFiltered": {
@@ -92803,17 +92834,22 @@
     "1k-2k": 893,
     "2k-3k": 574,
     "3k-5k": 604,
-    "5k-10k": 346,
+    "5k-10k": 347,
     "10k+": 18
   },
   "daysOnMarket": {
+    "Martin": {
+      "sum": 229,
+      "count": 8,
+      "avg": 29
+    },
     "Novo": {
       "sum": 282,
       "count": 6,
       "avg": 47
     },
     "Gibson": {
-      "sum": 4897,
+      "sum": 4898,
       "count": 105,
       "avg": 47
     },
@@ -92866,11 +92902,6 @@
       "sum": 26,
       "count": 1,
       "avg": 26
-    },
-    "Martin": {
-      "sum": 229,
-      "count": 7,
-      "avg": 33
     },
     "Collings": {
       "sum": 243,
@@ -93373,9 +93404,9 @@
       "avg": 36
     },
     "Kauer": {
-      "sum": 59,
+      "sum": 60,
       "count": 1,
-      "avg": 59
+      "avg": 60
     },
     "Nik Huber": {
       "sum": 88,
@@ -93639,7 +93670,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-09": 10,
+    "2026-08-09": 11,
     "2026-08-08": 20,
     "2026-08-07": 16,
     "2026-08-06": 16,
@@ -93672,11 +93703,11 @@
     "2026-07-10": 2
   },
   "categoryDistribution": {
-    "marketplace": 474,
+    "marketplace": 475,
     "reverb": 2609,
     "other": 111
   },
-  "activeModelsCount": 442,
+  "activeModelsCount": 443,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -93688,7 +93719,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 354
+      "count": 355
     },
     {
       "username": "scottcorgan",
@@ -93975,10 +94006,10 @@
       "count": 43
     },
     "Martin": {
-      "avgPrice": 3620,
+      "avgPrice": 3702,
       "retailEst": 500,
-      "avgDiscount": -624,
-      "count": 28
+      "avgDiscount": -640.4,
+      "count": 29
     },
     "Taylor": {
       "avgPrice": 1753,
@@ -99364,15 +99395,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2885,
+      "total": 2886,
       "sold": 956,
       "fake": 0,
-      "live": 907,
+      "live": 908,
       "removed": 1022,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "Martin": {
+        "total": 33,
+        "sold": 12,
+        "fake": 0,
+        "live": 11,
+        "removed": 10,
+        "soldPct": 36,
+        "livePct": 33
+      },
       "Novo": {
         "total": 15,
         "sold": 5,
@@ -99480,15 +99520,6 @@
         "removed": 2,
         "soldPct": 0,
         "livePct": 33
-      },
-      "Martin": {
-        "total": 32,
-        "sold": 12,
-        "fake": 0,
-        "live": 10,
-        "removed": 10,
-        "soldPct": 38,
-        "livePct": 31
       },
       "Collings": {
         "total": 16,
@@ -102566,7 +102597,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 346,
+        "total": 347,
         "sold": 74,
         "rate": 21
       },
@@ -102578,6 +102609,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 246,
+        "sold": 45,
+        "rate": 18
+      },
       "Used": {
         "total": 83,
         "sold": 32,
@@ -102597,11 +102633,6 @@
         "total": 307,
         "sold": 112,
         "rate": 36
-      },
-      "Brand New": {
-        "total": 245,
-        "sold": 45,
-        "rate": 18
       },
       "Mint": {
         "total": 96,
@@ -103046,7 +103077,7 @@
       "live": 2,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 363.5,
+      "totalDays": 363.6,
       "soldCount": 3,
       "avgDaysToSell": 121.2
     },
@@ -103214,7 +103245,7 @@
       "live": 57,
       "removed": 70,
       "sellRate": 35,
-      "totalDays": 6359.700000000001,
+      "totalDays": 6360.100000000001,
       "soldCount": 69,
       "avgDaysToSell": 92.2
     },
@@ -103290,9 +103321,9 @@
       "live": 6,
       "removed": 1,
       "sellRate": 36,
-      "totalDays": 371.7,
+      "totalDays": 371.8,
       "soldCount": 4,
-      "avgDaysToSell": 92.9
+      "avgDaysToSell": 93
     },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
@@ -103459,9 +103490,9 @@
       "live": 3,
       "removed": 0,
       "sellRate": 25,
-      "totalDays": 84.8,
+      "totalDays": 84.9,
       "soldCount": 1,
-      "avgDaysToSell": 84.8
+      "avgDaysToSell": 84.9
     },
     "PRS|PRS SE": {
       "brand": "PRS",
