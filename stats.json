@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-10T03:26:33.052Z",
-  "totalLinks": 3205,
-  "totalEver": 3989,
-  "totalBeforeFilter": 3989,
+  "generatedAt": "2026-08-10T03:26:57.947Z",
+  "totalLinks": 3206,
+  "totalEver": 3990,
+  "totalBeforeFilter": 3990,
   "fakeCount": 6,
   "removedCount": 1506,
-  "totalWithPrice": 2893,
+  "totalWithPrice": 2894,
   "overall": {
-    "count": 2811,
-    "sum": 7977796.22,
-    "avg": 2838,
+    "count": 2812,
+    "sum": 7984795.22,
+    "avg": 2840,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2811,
-    "sum": 7977796.22,
-    "avg": 2838,
+    "count": 2812,
+    "sum": 7984795.22,
+    "avg": 2840,
     "min": 10.49,
     "max": 11185,
-    "median": 2224
+    "median": 2225
   },
   "outliers": {
-    "thresholdHigh": 11253,
+    "thresholdHigh": 11408,
     "thresholdLow": 0,
     "count": 82,
     "items": [
@@ -677,11 +677,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 145,
-      "sum": 403340.99,
+      "count": 146,
+      "sum": 410339.99,
       "min": 315,
       "max": 9950,
-      "avg": 2782
+      "avg": 2811
     },
     "2026-07": {
       "count": 423,
@@ -735,11 +735,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2544,
-      "sum": 7166986.3,
+      "count": 2545,
+      "sum": 7173985.3,
       "min": 33,
       "max": 11185,
-      "avg": 2817
+      "avg": 2819
     },
     "marketplace": {
       "count": 167,
@@ -758,11 +758,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2544,
-      "sum": 7166986.3,
+      "count": 2545,
+      "sum": 7173985.3,
       "min": 33,
       "max": 11185,
-      "avg": 2817
+      "avg": 2819
     },
     "chicagomusicexchange.com": {
       "count": 91,
@@ -1033,14 +1033,14 @@
   },
   "byModel": {
     "esp-original": {
-      "displayName": "ESP Original Custom M-II CTM Glitter Storm",
+      "displayName": "ESP Original HORIZON 1 FR Glitter Storm Blue",
       "brand": "ESP",
       "model": "Original",
       "variant": null,
-      "count": 7,
-      "sum": 32602,
+      "count": 8,
+      "sum": 39601,
       "min": 3633,
-      "max": 6281,
+      "max": 6999,
       "sightings": [
         {
           "price": 3999,
@@ -1104,46 +1104,55 @@
           "title": "ESP Original Custom M-II CTM Glitter Storm",
           "url": "https://reverb.com/item/90905986",
           "condition": "Excellent"
+        },
+        {
+          "price": 6999,
+          "date": "2026-08-10T03:26:42.971Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP Original HORIZON 1 FR Glitter Storm Blue",
+          "url": "https://reverb.com/item/94434700",
+          "condition": "Brand New"
         }
       ],
       "byCondition": {
+        "Brand New": {
+          "count": 5,
+          "sum": 27742,
+          "min": 3633,
+          "max": 6999,
+          "avg": 5548
+        },
         "Excellent": {
           "count": 3,
           "sum": 11859,
           "min": 3861,
           "max": 3999,
           "avg": 3953
-        },
-        "Brand New": {
-          "count": 4,
-          "sum": 20743,
-          "min": 3633,
-          "max": 6281,
-          "avg": 5186
         }
       },
-      "avg": 4657,
+      "avg": 4950,
       "trends": {
         "d30": {
           "direction": "up",
-          "pctChange": 31,
-          "recentAvg": 4994,
+          "pctChange": 40,
+          "recentAvg": 5328,
           "olderAvg": 3816,
-          "recentCount": 5
+          "recentCount": 6
         },
         "d60": {
           "direction": "up",
-          "pctChange": 31,
-          "recentAvg": 4994,
+          "pctChange": 40,
+          "recentAvg": 5328,
           "olderAvg": 3816,
-          "recentCount": 5
+          "recentCount": 6
         },
         "d90": {
           "direction": "up",
-          "pctChange": 19,
-          "recentAvg": 4767,
+          "pctChange": 27,
+          "recentAvg": 5086,
           "olderAvg": 3999,
-          "recentCount": 6
+          "recentCount": 7
         }
       }
     },
@@ -89900,12 +89909,12 @@
   },
   "byBrandPrice": {
     "ESP": {
-      "count": 81,
+      "count": 82,
       "min": 825,
       "max": 10500,
       "soldCount": 19,
       "outliersExcluded": 2,
-      "avg": 3439,
+      "avg": 3482,
       "soldAvg": 2309
     },
     "Gibson": {
@@ -92763,6 +92772,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 247,
+      "sum": 1096644.1900000002,
+      "sold": {
+        "count": 35,
+        "sum": 172769.59,
+        "avg": 4936,
+        "min": 580.29,
+        "max": 35099
+      },
+      "avg": 4440,
+      "min": 135,
+      "max": 35099
+    },
     "Excellent": {
       "count": 1069,
       "sum": 4575504.3600000115,
@@ -92818,20 +92841,6 @@
       "avg": 2705,
       "min": 70,
       "max": 55000
-    },
-    "Brand New": {
-      "count": 246,
-      "sum": 1089645.1900000002,
-      "sold": {
-        "count": 35,
-        "sum": 172769.59,
-        "avg": 4936,
-        "min": 580.29,
-        "max": 35099
-      },
-      "avg": 4429,
-      "min": 135,
-      "max": 35099
     },
     "Used": {
       "count": 82,
@@ -92912,9 +92921,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2782,
+      "avg": 2811,
       "median": 2499,
-      "count": 145
+      "count": 146
     },
     "07": {
       "name": "Jul",
@@ -93107,7 +93116,7 @@
     "1k-2k": 897,
     "2k-3k": 576,
     "3k-5k": 607,
-    "5k-10k": 347,
+    "5k-10k": 348,
     "10k+": 100
   },
   "priceDistributionFiltered": {
@@ -93116,7 +93125,7 @@
     "1k-2k": 897,
     "2k-3k": 576,
     "3k-5k": 607,
-    "5k-10k": 347,
+    "5k-10k": 348,
     "10k+": 18
   },
   "daysOnMarket": {
@@ -93711,9 +93720,9 @@
       "avg": 43
     },
     "Meazzi": {
-      "sum": 82,
+      "sum": 83,
       "count": 1,
-      "avg": 82
+      "avg": 83
     },
     "Supro": {
       "sum": 54,
@@ -93952,7 +93961,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-10": 4,
+    "2026-08-10": 5,
     "2026-08-09": 17,
     "2026-08-08": 20,
     "2026-08-07": 16,
@@ -93985,7 +93994,7 @@
     "2026-07-11": 13
   },
   "categoryDistribution": {
-    "reverb": 2619,
+    "reverb": 2620,
     "marketplace": 475,
     "other": 111
   },
@@ -93997,7 +94006,7 @@
     },
     {
       "username": "theguitarpit",
-      "count": 556
+      "count": 557
     },
     {
       "username": "Shteefe",
@@ -94108,10 +94117,10 @@
       "count": 31
     },
     "ESP": {
-      "avgPrice": 3831,
+      "avgPrice": 3868,
       "retailEst": 2000,
-      "avgDiscount": -91.6,
-      "count": 86
+      "avgDiscount": -93.4,
+      "count": 87
     },
     "PRS": {
       "avgPrice": 4499,
@@ -99693,20 +99702,20 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2896,
+      "total": 2897,
       "sold": 959,
       "fake": 0,
-      "live": 912,
+      "live": 913,
       "removed": 1025,
       "soldPct": 33,
-      "livePct": 31
+      "livePct": 32
     },
     "byBrand": {
       "ESP": {
-        "total": 86,
+        "total": 87,
         "sold": 21,
         "fake": 0,
-        "live": 40,
+        "live": 41,
         "removed": 25,
         "soldPct": 24,
         "livePct": 47
@@ -102904,7 +102913,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 347,
+        "total": 348,
         "sold": 75,
         "rate": 22
       },
@@ -102916,6 +102925,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 247,
+        "sold": 46,
+        "rate": 19
+      },
       "Excellent": {
         "total": 1069,
         "sold": 397,
@@ -102935,11 +102949,6 @@
         "total": 308,
         "sold": 112,
         "rate": 36
-      },
-      "Brand New": {
-        "total": 246,
-        "sold": 46,
-        "rate": 19
       },
       "Used": {
         "total": 83,
@@ -103269,15 +103278,15 @@
       "brand": "ESP",
       "brandLine": "ESP Original",
       "tier": "high",
-      "count": 10,
-      "sum": 48513.2,
-      "avg": 4851,
+      "count": 11,
+      "sum": 55512.2,
+      "avg": 5047,
       "min": 1499,
-      "max": 6299,
+      "max": 6999,
       "sold": 0,
       "soldSum": 0,
       "soldAvg": null,
-      "live": 8,
+      "live": 9,
       "removed": 2,
       "sellRate": 0,
       "totalDays": 0,
@@ -105634,7 +105643,7 @@
     },
     {
       "label": "16–30",
-      "total": 386,
+      "total": 387,
       "sold": 101,
       "rate": 26
     },
@@ -105652,14 +105661,14 @@
       "rate": 28
     },
     "off": {
-      "total": 392,
+      "total": 393,
       "sold": 99,
       "rate": 25
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 671,
+      "total": 672,
       "sold": 142,
       "rate": 21
     },
@@ -105995,6 +106004,12 @@
       "rate": 50
     },
     {
+      "state": "JW",
+      "total": 3,
+      "sold": 0,
+      "rate": 0
+    },
+    {
       "state": "BE",
       "total": 3,
       "sold": 0,
@@ -106051,12 +106066,6 @@
     {
       "state": "Stockholm",
       "total": 3,
-      "sold": 0,
-      "rate": 0
-    },
-    {
-      "state": "JW",
-      "total": 2,
       "sold": 0,
       "rate": 0
     },
