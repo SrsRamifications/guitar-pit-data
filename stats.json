@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-10T03:17:00.915Z",
-  "totalLinks": 3203,
-  "totalEver": 3986,
-  "totalBeforeFilter": 3986,
+  "generatedAt": "2026-08-10T03:17:11.537Z",
+  "totalLinks": 3204,
+  "totalEver": 3987,
+  "totalBeforeFilter": 3987,
   "fakeCount": 6,
   "removedCount": 1506,
-  "totalWithPrice": 2891,
+  "totalWithPrice": 2892,
   "overall": {
-    "count": 2809,
-    "sum": 7970799.22,
-    "avg": 2838,
+    "count": 2810,
+    "sum": 7972198.22,
+    "avg": 2837,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2809,
-    "sum": 7970799.22,
-    "avg": 2838,
+    "count": 2810,
+    "sum": 7972198.22,
+    "avg": 2837,
     "min": 10.49,
     "max": 11185,
     "median": 2200
@@ -677,11 +677,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 143,
-      "sum": 396343.99,
+      "count": 144,
+      "sum": 397742.99,
       "min": 315,
       "max": 9950,
-      "avg": 2772
+      "avg": 2762
     },
     "2026-07": {
       "count": 423,
@@ -735,11 +735,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2542,
-      "sum": 7159989.3,
+      "count": 2543,
+      "sum": 7161388.3,
       "min": 33,
       "max": 11185,
-      "avg": 2817
+      "avg": 2816
     },
     "marketplace": {
       "count": 167,
@@ -758,11 +758,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2542,
-      "sum": 7159989.3,
+      "count": 2543,
+      "sum": 7161388.3,
       "min": 33,
       "max": 11185,
-      "avg": 2817
+      "avg": 2816
     },
     "chicagomusicexchange.com": {
       "count": 91,
@@ -1032,6 +1032,101 @@
     }
   },
   "byModel": {
+    "prs-ce-24": {
+      "displayName": "PRS CE-24",
+      "brand": "PRS",
+      "model": "CE-24",
+      "variant": null,
+      "count": 4,
+      "sum": 8708,
+      "min": 1399,
+      "max": 2860,
+      "sightings": [
+        {
+          "price": 2860,
+          "date": "2026-04-23T16:58:22.273+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS CE 24 Sprayer's Choice - Pink Magenta Sparkle",
+          "url": "https://reverb.com/item/96307699-prs-ce-24-sprayer-s-choice-pink-magenta-sparkle",
+          "condition": "Brand New"
+        },
+        {
+          "price": 1700,
+          "date": "2026-05-29T13:43:41.974+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS CE 24 1997 - Gray Black",
+          "url": "https://reverb.com/item/97652204",
+          "condition": "Good"
+        },
+        {
+          "price": 2749,
+          "date": "2026-06-28T00:19:47.225+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS CE 24 Fire Red Holoflake Sprayer's Choice",
+          "url": "https://reverb.com/item/95252086",
+          "condition": "Brand New"
+        },
+        {
+          "price": 1399,
+          "date": "2026-08-10T03:17:00.073Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "PRS CE-24",
+          "url": "https://reverb.com/item/100327755",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1399,
+          "min": 1399,
+          "max": 1399,
+          "avg": 1399
+        },
+        "Brand New": {
+          "count": 2,
+          "sum": 5609,
+          "min": 2749,
+          "max": 2860,
+          "avg": 2805
+        },
+        "Good": {
+          "count": 1,
+          "sum": 1700,
+          "min": 1700,
+          "max": 1700,
+          "avg": 1700
+        }
+      },
+      "avg": 2177,
+      "trends": {
+        "d30": {
+          "direction": "down",
+          "pctChange": -43,
+          "recentAvg": 1399,
+          "olderAvg": 2436,
+          "recentCount": 1
+        },
+        "d60": {
+          "direction": "down",
+          "pctChange": -9,
+          "recentAvg": 2074,
+          "olderAvg": 2280,
+          "recentCount": 2
+        },
+        "d90": {
+          "direction": "down",
+          "pctChange": -32,
+          "recentAvg": 1949,
+          "olderAvg": 2860,
+          "recentCount": 3
+        }
+      }
+    },
     "bc-rich-legacy-gloss": {
       "displayName": "B.C. Rich Ironbird Legacy 2023 - Black gloss",
       "brand": "BC Rich",
@@ -26534,78 +26629,6 @@
         ]
       },
       "avg": 2595
-    },
-    "prs-ce-24": {
-      "displayName": "PRS CE 24 Fire Red Holoflake Sprayer's Choice",
-      "brand": "PRS",
-      "model": "CE 24",
-      "variant": null,
-      "count": 3,
-      "sum": 7309,
-      "min": 1700,
-      "max": 2860,
-      "sightings": [
-        {
-          "price": 2860,
-          "date": "2026-04-23T16:58:22.273+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS CE 24 Sprayer's Choice - Pink Magenta Sparkle",
-          "url": "https://reverb.com/item/96307699-prs-ce-24-sprayer-s-choice-pink-magenta-sparkle",
-          "condition": "Brand New"
-        },
-        {
-          "price": 1700,
-          "date": "2026-05-29T13:43:41.974+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS CE 24 1997 - Gray Black",
-          "url": "https://reverb.com/item/97652204",
-          "condition": "Good"
-        },
-        {
-          "price": 2749,
-          "date": "2026-06-28T00:19:47.225+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "PRS CE 24 Fire Red Holoflake Sprayer's Choice",
-          "url": "https://reverb.com/item/95252086",
-          "condition": "Brand New"
-        }
-      ],
-      "byCondition": {
-        "Brand New": {
-          "count": 2,
-          "sum": 5609,
-          "min": 2749,
-          "max": 2860,
-          "avg": 2805
-        },
-        "Good": {
-          "count": 1,
-          "sum": 1700,
-          "min": 1700,
-          "max": 1700,
-          "avg": 1700
-        }
-      },
-      "avg": 2436,
-      "trends": {
-        "d60": {
-          "direction": "up",
-          "pctChange": 21,
-          "recentAvg": 2749,
-          "olderAvg": 2280,
-          "recentCount": 1
-        },
-        "d90": {
-          "direction": "down",
-          "pctChange": -22,
-          "recentAvg": 2225,
-          "olderAvg": 2860,
-          "recentCount": 2
-        }
-      }
     },
     "anderson-guitarworks-pro-am": {
       "displayName": "Tom Anderson Guitarworks Pro Am",
@@ -89859,6 +89882,15 @@
     }
   },
   "byBrandPrice": {
+    "PRS": {
+      "count": 244,
+      "min": 580.29,
+      "max": 11024.45,
+      "soldCount": 90,
+      "outliersExcluded": 11,
+      "avg": 3447,
+      "soldAvg": 3236
+    },
     "BC Rich": {
       "count": 152,
       "min": 33,
@@ -90065,15 +90097,6 @@
       "outliersExcluded": 0,
       "avg": 3999,
       "soldAvg": 4083
-    },
-    "PRS": {
-      "count": 243,
-      "min": 580.29,
-      "max": 11024.45,
-      "soldCount": 90,
-      "outliersExcluded": 11,
-      "avg": 3455,
-      "soldAvg": 3236
     },
     "Heritage": {
       "count": 11,
@@ -92723,6 +92746,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 874,
+      "sum": 2803483.810000006,
+      "sold": {
+        "count": 279,
+        "sum": 586254.88,
+        "avg": 2101,
+        "min": 68,
+        "max": 10800
+      },
+      "avg": 3208,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 1069,
       "sum": 4573405.3600000115,
@@ -92750,20 +92787,6 @@
       "avg": 5740,
       "min": 400,
       "max": 46467.6
-    },
-    "Very Good": {
-      "count": 873,
-      "sum": 2802084.810000006,
-      "sold": {
-        "count": 279,
-        "sum": 586254.88,
-        "avg": 2101,
-        "min": 68,
-        "max": 10800
-      },
-      "avg": 3210,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 308,
@@ -92872,9 +92895,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2772,
-      "median": 2499,
-      "count": 143
+      "avg": 2762,
+      "median": 2481,
+      "count": 144
     },
     "07": {
       "name": "Jul",
@@ -93064,7 +93087,7 @@
   "priceDistribution": {
     "0-500": 95,
     "500-1k": 271,
-    "1k-2k": 897,
+    "1k-2k": 898,
     "2k-3k": 576,
     "3k-5k": 605,
     "5k-10k": 347,
@@ -93073,13 +93096,18 @@
   "priceDistributionFiltered": {
     "0-500": 95,
     "500-1k": 271,
-    "1k-2k": 897,
+    "1k-2k": 898,
     "2k-3k": 576,
     "3k-5k": 605,
     "5k-10k": 347,
     "10k+": 18
   },
   "daysOnMarket": {
+    "PRS": {
+      "sum": 4406,
+      "count": 98,
+      "avg": 45
+    },
     "BC Rich": {
       "sum": 2519,
       "count": 47,
@@ -93146,7 +93174,7 @@
       "avg": 44
     },
     "Grosh": {
-      "sum": 192,
+      "sum": 193,
       "count": 4,
       "avg": 48
     },
@@ -93189,11 +93217,6 @@
       "sum": 254,
       "count": 6,
       "avg": 42
-    },
-    "PRS": {
-      "sum": 4406,
-      "count": 97,
-      "avg": 45
     },
     "Heritage": {
       "sum": 219,
@@ -93912,7 +93935,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-10": 2,
+    "2026-08-10": 3,
     "2026-08-09": 17,
     "2026-08-08": 20,
     "2026-08-07": 16,
@@ -93945,11 +93968,11 @@
     "2026-07-11": 13
   },
   "categoryDistribution": {
-    "reverb": 2617,
+    "reverb": 2618,
     "marketplace": 475,
     "other": 111
   },
-  "activeModelsCount": 447,
+  "activeModelsCount": 448,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -93957,7 +93980,7 @@
     },
     {
       "username": "theguitarpit",
-      "count": 555
+      "count": 556
     },
     {
       "username": "Shteefe",
@@ -94074,10 +94097,10 @@
       "count": 85
     },
     "PRS": {
-      "avgPrice": 4511,
+      "avgPrice": 4499,
       "retailEst": 1000,
-      "avgDiscount": -351.1,
-      "count": 254
+      "avgDiscount": -349.9,
+      "count": 255
     },
     "Ibanez": {
       "avgPrice": 3001,
@@ -99653,15 +99676,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2894,
+      "total": 2895,
       "sold": 959,
       "fake": 0,
-      "live": 910,
+      "live": 911,
       "removed": 1025,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "PRS": {
+        "total": 256,
+        "sold": 90,
+        "fake": 0,
+        "live": 66,
+        "removed": 100,
+        "soldPct": 35,
+        "livePct": 26
+      },
       "BC Rich": {
         "total": 158,
         "sold": 51,
@@ -99868,15 +99900,6 @@
         "removed": 3,
         "soldPct": 60,
         "livePct": 20
-      },
-      "PRS": {
-        "total": 255,
-        "sold": 90,
-        "fake": 0,
-        "live": 65,
-        "removed": 100,
-        "soldPct": 35,
-        "livePct": 25
       },
       "Heritage": {
         "total": 11,
@@ -102846,7 +102869,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 897,
+        "total": 898,
         "sold": 353,
         "rate": 39
       },
@@ -102876,6 +102899,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 874,
+        "sold": 281,
+        "rate": 32
+      },
       "Excellent": {
         "total": 1069,
         "sold": 397,
@@ -102885,11 +102913,6 @@
         "total": 97,
         "sold": 23,
         "rate": 24
-      },
-      "Very Good": {
-        "total": 873,
-        "sold": 281,
-        "rate": 32
       },
       "Good": {
         "total": 308,
@@ -103225,6 +103248,25 @@
     ]
   },
   "byBrandLine": {
+    "PRS|PRS CE": {
+      "brand": "PRS",
+      "brandLine": "PRS CE",
+      "tier": "mid",
+      "count": 6,
+      "sum": 12283,
+      "avg": 2047,
+      "min": 1399,
+      "max": 2860,
+      "sold": 1,
+      "soldSum": 1600,
+      "soldAvg": 1600,
+      "live": 4,
+      "removed": 1,
+      "sellRate": 17,
+      "totalDays": 46.2,
+      "soldCount": 1,
+      "avgDaysToSell": 46.2
+    },
     "Fender|Fender USA": {
       "brand": "Fender",
       "brandLine": "Fender USA",
@@ -104780,25 +104822,6 @@
       "soldCount": 3,
       "avgDaysToSell": 157.2
     },
-    "PRS|PRS CE": {
-      "brand": "PRS",
-      "brandLine": "PRS CE",
-      "tier": "mid",
-      "count": 5,
-      "sum": 10884,
-      "avg": 2177,
-      "min": 1600,
-      "max": 2860,
-      "sold": 1,
-      "soldSum": 1600,
-      "soldAvg": 1600,
-      "live": 3,
-      "removed": 1,
-      "sellRate": 20,
-      "totalDays": 46.2,
-      "soldCount": 1,
-      "avgDaysToSell": 46.2
-    },
     "Strandberg|Strandberg Import": {
       "brand": "Strandberg",
       "brandLine": "Strandberg Import",
@@ -105582,9 +105605,9 @@
     },
     {
       "label": "1–5",
-      "total": 73,
+      "total": 74,
       "sold": 21,
-      "rate": 29
+      "rate": 28
     },
     {
       "label": "6–15",
@@ -105607,7 +105630,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 918,
+      "total": 919,
       "sold": 259,
       "rate": 28
     },
@@ -105624,7 +105647,7 @@
       "rate": 21
     },
     "regular": {
-      "total": 625,
+      "total": 626,
       "sold": 206,
       "rate": 33
     }
@@ -105674,9 +105697,9 @@
     },
     {
       "state": "TN",
-      "total": 38,
+      "total": 39,
       "sold": 16,
-      "rate": 42
+      "rate": 41
     },
     {
       "state": "MD",
