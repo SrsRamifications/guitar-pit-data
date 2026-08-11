@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-11T01:43:19.876Z",
-  "totalLinks": 3217,
-  "totalEver": 4006,
-  "totalBeforeFilter": 4006,
+  "generatedAt": "2026-08-11T01:53:07.118Z",
+  "totalLinks": 3218,
+  "totalEver": 4007,
+  "totalBeforeFilter": 4007,
   "fakeCount": 6,
   "removedCount": 1509,
-  "totalWithPrice": 2905,
+  "totalWithPrice": 2906,
   "overall": {
-    "count": 2822,
-    "sum": 8019247.22,
-    "avg": 2842,
+    "count": 2823,
+    "sum": 8019997.22,
+    "avg": 2841,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2822,
-    "sum": 8019247.22,
-    "avg": 2842,
+    "count": 2823,
+    "sum": 8019997.22,
+    "avg": 2841,
     "min": 10.49,
     "max": 11185,
-    "median": 2236
+    "median": 2225
   },
   "outliers": {
-    "thresholdHigh": 11429,
+    "thresholdHigh": 11441,
     "thresholdLow": 0,
     "count": 83,
     "items": [
@@ -685,11 +685,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 156,
-      "sum": 445246.99,
+      "count": 157,
+      "sum": 445996.99,
       "min": 315,
       "max": 9950,
-      "avg": 2854
+      "avg": 2841
     },
     "2026-07": {
       "count": 423,
@@ -743,11 +743,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2555,
-      "sum": 7208437.3,
+      "count": 2556,
+      "sum": 7209187.3,
       "min": 33,
       "max": 11185,
-      "avg": 2821
+      "avg": 2820
     },
     "marketplace": {
       "count": 167,
@@ -766,11 +766,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2555,
-      "sum": 7208437.3,
+      "count": 2556,
+      "sum": 7209187.3,
       "min": 33,
       "max": 11185,
-      "avg": 2821
+      "avg": 2820
     },
     "chicagomusicexchange.com": {
       "count": 91,
@@ -1040,6 +1040,37 @@
     }
   },
   "byModel": {
+    "iron-label-explorer": {
+      "displayName": "Iron Label Guitars ExG 2026 - Light Aged Silverburst",
+      "brand": "Iron Label",
+      "model": "Explorer",
+      "variant": null,
+      "count": 1,
+      "sum": 750,
+      "min": 750,
+      "max": 750,
+      "sightings": [
+        {
+          "price": 750,
+          "date": "2026-08-11T01:52:53.151Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Iron Label Guitars ExG 2026 - Light Aged Silverburst",
+          "url": "https://reverb.com/item/99615214",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 750,
+          "min": 750,
+          "max": 750,
+          "avg": 750
+        }
+      },
+      "avg": 750
+    },
     "fender-jaguar-american-professional": {
       "displayName": "Fender American Professional Jaguar with Rosewood Fretboard 2017 - 2019 - Candy Apple Red",
       "brand": "Fender",
@@ -8705,7 +8736,7 @@
         },
         {
           "price": 5060,
-          "date": "2026-07-31T17:08:29.079Z",
+          "date": "2026-07-31T17:08:29.079+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Fender Custom Shop Limited Edition P90 Korina Telecaster Deluxe Closet Classic Aged Black [R131697] (07/31)",
@@ -90221,6 +90252,15 @@
     }
   },
   "byBrandPrice": {
+    "Iron Label": {
+      "count": 2,
+      "min": 600,
+      "max": 750,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 675,
+      "soldAvg": null
+    },
     "Fender": {
       "count": 202,
       "min": 511,
@@ -91859,15 +91899,6 @@
       "avg": 170,
       "soldAvg": null
     },
-    "Iron Label": {
-      "count": 1,
-      "min": 600,
-      "max": 600,
-      "soldCount": 0,
-      "outliersExcluded": 0,
-      "avg": 600,
-      "soldAvg": null
-    },
     "LSL": {
       "count": 7,
       "min": 1499,
@@ -93085,6 +93116,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 249,
+      "sum": 1103193.19,
+      "sold": {
+        "count": 35,
+        "sum": 172769.59,
+        "avg": 4936,
+        "min": 580.29,
+        "max": 35099
+      },
+      "avg": 4430,
+      "min": 135,
+      "max": 35099
+    },
     "Very Good": {
       "count": 878,
       "sum": 2818283.810000006,
@@ -93126,20 +93171,6 @@
       "avg": 2791,
       "min": 69,
       "max": 22500
-    },
-    "Brand New": {
-      "count": 248,
-      "sum": 1102443.19,
-      "sold": {
-        "count": 35,
-        "sum": 172769.59,
-        "avg": 4936,
-        "min": 580.29,
-        "max": 35099
-      },
-      "avg": 4445,
-      "min": 135,
-      "max": 35099
     },
     "Mint": {
       "count": 97,
@@ -93234,9 +93265,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2854,
+      "avg": 2841,
       "median": 2499,
-      "count": 156
+      "count": 157
     },
     "07": {
       "name": "Jul",
@@ -93399,7 +93430,7 @@
       "url": "https://reverb.com/item/99928029",
       "oldPrice": "$5,107",
       "newPrice": "$5,060",
-      "date": "2026-08-05T02:00:39.064Z"
+      "date": "2026-08-05T02:00:39.064+00:00"
     },
     {
       "title": "Carvin  DC 400T - Ruby Red Quilt **Stunning**",
@@ -93425,7 +93456,7 @@
   ],
   "priceDistribution": {
     "0-500": 95,
-    "500-1k": 272,
+    "500-1k": 273,
     "1k-2k": 900,
     "2k-3k": 577,
     "3k-5k": 609,
@@ -93434,7 +93465,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 95,
-    "500-1k": 272,
+    "500-1k": 273,
     "1k-2k": 900,
     "2k-3k": 577,
     "3k-5k": 609,
@@ -93442,6 +93473,11 @@
     "10k+": 18
   },
   "daysOnMarket": {
+    "Iron Label": {
+      "sum": 20,
+      "count": 1,
+      "avg": 20
+    },
     "Fender": {
       "sum": 3240,
       "count": 80,
@@ -93453,12 +93489,12 @@
       "avg": 36
     },
     "Gibson": {
-      "sum": 4936,
+      "sum": 4937,
       "count": 110,
       "avg": 45
     },
     "Schecter": {
-      "sum": 198,
+      "sum": 199,
       "count": 5,
       "avg": 40
     },
@@ -93473,7 +93509,7 @@
       "avg": 35
     },
     "Jackson": {
-      "sum": 943,
+      "sum": 944,
       "count": 25,
       "avg": 38
     },
@@ -93833,7 +93869,7 @@
       "avg": 20
     },
     "Solar Guitars": {
-      "sum": 182,
+      "sum": 183,
       "count": 4,
       "avg": 46
     },
@@ -94138,9 +94174,9 @@
       "avg": 56
     },
     "Hallmark": {
-      "sum": 57,
+      "sum": 58,
       "count": 1,
-      "avg": 57
+      "avg": 58
     },
     "Padalka": {
       "sum": 58,
@@ -94264,7 +94300,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-11": 3,
+    "2026-08-11": 4,
     "2026-08-10": 13,
     "2026-08-09": 17,
     "2026-08-08": 20,
@@ -94297,11 +94333,11 @@
     "2026-07-12": 22
   },
   "categoryDistribution": {
-    "reverb": 2631,
+    "reverb": 2632,
     "marketplace": 475,
     "other": 111
   },
-  "activeModelsCount": 446,
+  "activeModelsCount": 447,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -94341,7 +94377,7 @@
     },
     {
       "username": "Pabst Blue Wizard",
-      "count": 63
+      "count": 64
     }
   ],
   "topDealHunters": [
@@ -100041,15 +100077,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2908,
+      "total": 2909,
       "sold": 963,
       "fake": 0,
-      "live": 917,
+      "live": 918,
       "removed": 1028,
       "soldPct": 33,
       "livePct": 32
     },
     "byBrand": {
+      "Iron Label": {
+        "total": 2,
+        "sold": 0,
+        "fake": 0,
+        "live": 2,
+        "removed": 0,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Fender": {
         "total": 233,
         "sold": 76,
@@ -101787,15 +101832,6 @@
         "soldPct": 0,
         "livePct": 100
       },
-      "Iron Label": {
-        "total": 1,
-        "sold": 0,
-        "fake": 0,
-        "live": 1,
-        "removed": 0,
-        "soldPct": 0,
-        "livePct": 100
-      },
       "LSL": {
         "total": 7,
         "sold": 4,
@@ -103228,7 +103264,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 272,
+        "total": 273,
         "sold": 104,
         "rate": 38
       },
@@ -103264,6 +103300,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 249,
+        "sold": 46,
+        "rate": 18
+      },
       "Very Good": {
         "total": 878,
         "sold": 283,
@@ -103278,11 +103319,6 @@
         "total": 40,
         "sold": 16,
         "rate": 40
-      },
-      "Brand New": {
-        "total": 248,
-        "sold": 46,
-        "rate": 19
       },
       "Mint": {
         "total": 97,
@@ -103600,7 +103636,7 @@
       "live": 10,
       "removed": 4,
       "sellRate": 39,
-      "totalDays": 623.4,
+      "totalDays": 623.5,
       "soldCount": 9,
       "avgDaysToSell": 69.3
     },
@@ -103657,7 +103693,7 @@
       "live": 20,
       "removed": 24,
       "sellRate": 33,
-      "totalDays": 1889.2000000000003,
+      "totalDays": 1889.3000000000002,
       "soldCount": 22,
       "avgDaysToSell": 85.9
     },
@@ -103676,7 +103712,7 @@
       "live": 33,
       "removed": 33,
       "sellRate": 35,
-      "totalDays": 3096.7,
+      "totalDays": 3097.2999999999997,
       "soldCount": 35,
       "avgDaysToSell": 88.5
     },
@@ -103695,7 +103731,7 @@
       "live": 60,
       "removed": 70,
       "sellRate": 35,
-      "totalDays": 6457.299999999999,
+      "totalDays": 6458.1,
       "soldCount": 69,
       "avgDaysToSell": 93.6
     },
@@ -103751,7 +103787,7 @@
       "live": 7,
       "removed": 9,
       "sellRate": 50,
-      "totalDays": 846.7,
+      "totalDays": 846.8000000000001,
       "soldCount": 16,
       "avgDaysToSell": 52.9
     },
@@ -103789,7 +103825,7 @@
       "live": 40,
       "removed": 26,
       "sellRate": 38,
-      "totalDays": 3150.7999999999993,
+      "totalDays": 3150.899999999999,
       "soldCount": 40,
       "avgDaysToSell": 78.8
     },
@@ -103994,9 +104030,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 3.1,
+      "totalDays": 3.2,
       "soldCount": 1,
-      "avgDaysToSell": 3.1
+      "avgDaysToSell": 3.2
     },
     "PRS|PRS Core": {
       "brand": "PRS",
@@ -104013,7 +104049,7 @@
       "live": 32,
       "removed": 60,
       "sellRate": 36,
-      "totalDays": 4753.900000000001,
+      "totalDays": 4754.5,
       "soldCount": 52,
       "avgDaysToSell": 91.4
     },
@@ -104051,7 +104087,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 42,
-      "totalDays": 981.4,
+      "totalDays": 981.5999999999999,
       "soldCount": 10,
       "avgDaysToSell": 75.5
     },
@@ -104070,7 +104106,7 @@
       "live": 6,
       "removed": 5,
       "sellRate": 21,
-      "totalDays": 222.2,
+      "totalDays": 222.29999999999998,
       "soldCount": 3,
       "avgDaysToSell": 74.1
     },
@@ -104183,7 +104219,7 @@
       "live": 19,
       "removed": 13,
       "sellRate": 37,
-      "totalDays": 1532.2000000000003,
+      "totalDays": 1532.3000000000002,
       "soldCount": 19,
       "avgDaysToSell": 80.6
     },
@@ -104428,7 +104464,7 @@
       "live": 8,
       "removed": 7,
       "sellRate": 46,
-      "totalDays": 1473.8,
+      "totalDays": 1473.8999999999999,
       "soldCount": 13,
       "avgDaysToSell": 113.4
     },
@@ -104447,7 +104483,7 @@
       "live": 2,
       "removed": 2,
       "sellRate": 71,
-      "totalDays": 658.6,
+      "totalDays": 658.6999999999999,
       "soldCount": 10,
       "avgDaysToSell": 65.9
     },
@@ -104466,9 +104502,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 218.6,
+      "totalDays": 218.7,
       "soldCount": 2,
-      "avgDaysToSell": 109.3
+      "avgDaysToSell": 109.4
     },
     "Friedman|Friedman": {
       "brand": "Friedman",
@@ -104803,7 +104839,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 142.1,
+      "totalDays": 142.2,
       "soldCount": 3,
       "avgDaysToSell": 47.4
     },
@@ -105156,7 +105192,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 474.5,
+      "totalDays": 474.6,
       "soldCount": 3,
       "avgDaysToSell": 158.2
     },
@@ -105270,7 +105306,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 353,
+      "totalDays": 353.1,
       "soldCount": 3,
       "avgDaysToSell": 117.7
     },
@@ -105961,7 +105997,7 @@
     },
     {
       "label": "31+",
-      "total": 582,
+      "total": 583,
       "sold": 158,
       "rate": 27
     }
@@ -105973,7 +106009,7 @@
       "rate": 28
     },
     "off": {
-      "total": 397,
+      "total": 398,
       "sold": 100,
       "rate": 25
     }
@@ -105985,7 +106021,7 @@
       "rate": 21
     },
     "regular": {
-      "total": 636,
+      "total": 637,
       "sold": 209,
       "rate": 33
     }
@@ -106011,7 +106047,7 @@
     },
     {
       "state": "IL",
-      "total": 69,
+      "total": 70,
       "sold": 20,
       "rate": 29
     },
