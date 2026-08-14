@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-14T23:45:11.261Z",
-  "totalLinks": 3249,
-  "totalEver": 4044,
-  "totalBeforeFilter": 4044,
+  "generatedAt": "2026-08-14T23:52:35.642Z",
+  "totalLinks": 3250,
+  "totalEver": 4045,
+  "totalBeforeFilter": 4045,
   "fakeCount": 6,
   "removedCount": 1522,
-  "totalWithPrice": 2936,
+  "totalWithPrice": 2937,
   "overall": {
-    "count": 2853,
-    "sum": 8104179.22,
+    "count": 2854,
+    "sum": 8107778.22,
     "avg": 2841,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2853,
-    "sum": 8104179.22,
+    "count": 2854,
+    "sum": 8107778.22,
     "avg": 2841,
     "min": 10.49,
     "max": 11185,
     "median": 2246
   },
   "outliers": {
-    "thresholdHigh": 11420,
+    "thresholdHigh": 11265,
     "thresholdLow": 0,
     "count": 83,
     "items": [
@@ -685,11 +685,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 187,
-      "sum": 532123.99,
+      "count": 188,
+      "sum": 535722.99,
       "min": 300,
       "max": 9950,
-      "avg": 2846
+      "avg": 2850
     },
     "2026-07": {
       "count": 423,
@@ -742,19 +742,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 170,
+      "sum": 525724.77,
+      "min": 39.81,
+      "max": 11000,
+      "avg": 3092
+    },
     "reverb": {
       "count": 2584,
       "sum": 7291479.3,
       "min": 33,
       "max": 11185,
       "avg": 2822
-    },
-    "marketplace": {
-      "count": 169,
-      "sum": 522125.77,
-      "min": 39.81,
-      "max": 11000,
-      "avg": 3090
     },
     "other": {
       "count": 100,
@@ -765,6 +765,13 @@
     }
   },
   "byDomain": {
+    "eddiesguitars.com": {
+      "count": 10,
+      "sum": 64556.38,
+      "min": 1699,
+      "max": 11000,
+      "avg": 6456
+    },
     "reverb.com": {
       "count": 2584,
       "sum": 7291479.3,
@@ -792,13 +799,6 @@
       "min": 749.99,
       "max": 2799.99,
       "avg": 1894
-    },
-    "eddiesguitars.com": {
-      "count": 9,
-      "sum": 60957.38,
-      "min": 1699,
-      "max": 11000,
-      "avg": 6773
     },
     "themusiczoo.com": {
       "count": 4,
@@ -1040,6 +1040,78 @@
     }
   },
   "byModel": {
+    "suhr-alt-t": {
+      "displayName": "Suhr Dealer Select Alt T - Seafoam Green",
+      "brand": "Suhr",
+      "model": "Alt T",
+      "variant": null,
+      "count": 3,
+      "sum": 385499,
+      "min": 2000,
+      "max": 379900,
+      "sightings": [
+        {
+          "price": 379900,
+          "date": "2026-07-21T02:42:27.606+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "SUHR SELECT ALT T CAT'S EYE GUITARS",
+          "url": "http://www.humbuckermusic.com/collections/suhr-select-alt-t-cats-eye-guitars",
+          "condition": null
+        },
+        {
+          "price": 2000,
+          "date": "2026-08-08T19:18:13.454Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Dealer Select Alt T - Seafoam Green",
+          "url": "https://reverb.com/item/100112093",
+          "condition": "Excellent"
+        },
+        {
+          "price": 3599,
+          "date": "2026-08-14T23:52:20.629Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Suhr Dealer Select Alt T - Seafoam Green",
+          "url": "https://eddiesguitars.com/product/electric/electric-guitar-categories/semi-hollow-body-electric-guitars/suhr-alt-t-seafoam-green-4",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 2,
+          "sum": 383499,
+          "min": 3599,
+          "max": 379900,
+          "avg": 191750
+        },
+        "Excellent": {
+          "count": 1,
+          "sum": 2000,
+          "min": 2000,
+          "max": 2000,
+          "avg": 2000
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2000,
+        "min": 2000,
+        "max": 2000,
+        "prices": [
+          {
+            "price": 2000,
+            "askingPrice": 2000,
+            "date": "2026-08-08T19:26:24.921Z",
+            "title": "Suhr Dealer Select Alt T - Seafoam Green",
+            "url": "https://reverb.com/item/100112093"
+          }
+        ]
+      },
+      "avg": 128500,
+      "trends": {}
+    },
     "prs-jet-usa-signature": {
       "displayName": "2009 USA PRS Dave Navarro Signature - Jet White - w/OHSC",
       "brand": "PRS",
@@ -4616,68 +4688,6 @@
           "recentCount": 1
         }
       }
-    },
-    "suhr-alt-t": {
-      "displayName": "Suhr Dealer Select Alt T - Seafoam Green",
-      "brand": "Suhr",
-      "model": "Alt T",
-      "variant": null,
-      "count": 2,
-      "sum": 381900,
-      "min": 2000,
-      "max": 379900,
-      "sightings": [
-        {
-          "price": 379900,
-          "date": "2026-07-21T02:42:27.606+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "SUHR SELECT ALT T CAT'S EYE GUITARS",
-          "url": "http://www.humbuckermusic.com/collections/suhr-select-alt-t-cats-eye-guitars",
-          "condition": null
-        },
-        {
-          "price": 2000,
-          "date": "2026-08-08T19:18:13.454Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Suhr Dealer Select Alt T - Seafoam Green",
-          "url": "https://reverb.com/item/100112093",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 2000,
-          "min": 2000,
-          "max": 2000,
-          "avg": 2000
-        },
-        "Unknown": {
-          "count": 1,
-          "sum": 379900,
-          "min": 379900,
-          "max": 379900,
-          "avg": 379900
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2000,
-        "min": 2000,
-        "max": 2000,
-        "prices": [
-          {
-            "price": 2000,
-            "askingPrice": 2000,
-            "date": "2026-08-08T19:26:24.921Z",
-            "title": "Suhr Dealer Select Alt T - Seafoam Green",
-            "url": "https://reverb.com/item/100112093"
-          }
-        ]
-      },
-      "avg": 190950
     },
     "grosh-classic-standard": {
       "displayName": "Grosh Guitars Retro Classic Standard 1995 - Tobacco Burst",
@@ -91137,6 +91147,15 @@
     }
   },
   "byBrandPrice": {
+    "Suhr": {
+      "count": 44,
+      "min": 1999,
+      "max": 7250,
+      "soldCount": 22,
+      "outliersExcluded": 1,
+      "avg": 2971,
+      "soldAvg": 2802
+    },
     "PRS": {
       "count": 246,
       "min": 580.29,
@@ -91370,15 +91389,6 @@
       "outliersExcluded": 0,
       "avg": 4198,
       "soldAvg": null
-    },
-    "Suhr": {
-      "count": 43,
-      "min": 1999,
-      "max": 7250,
-      "soldCount": 22,
-      "outliersExcluded": 1,
-      "avg": 2957,
-      "soldAvg": 2802
     },
     "Jackson": {
       "count": 69,
@@ -94168,9 +94178,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2846,
+      "avg": 2850,
       "median": 2499,
-      "count": 187
+      "count": 188
     },
     "07": {
       "name": "Jul",
@@ -94362,7 +94372,7 @@
     "500-1k": 275,
     "1k-2k": 910,
     "2k-3k": 584,
-    "3k-5k": 616,
+    "3k-5k": 617,
     "5k-10k": 354,
     "10k+": 101
   },
@@ -94371,11 +94381,16 @@
     "500-1k": 275,
     "1k-2k": 910,
     "2k-3k": 584,
-    "3k-5k": 616,
+    "3k-5k": 617,
     "5k-10k": 354,
     "10k+": 18
   },
   "daysOnMarket": {
+    "Suhr": {
+      "sum": 853,
+      "count": 24,
+      "avg": 36
+    },
     "PRS": {
       "sum": 4235,
       "count": 93,
@@ -94447,7 +94462,7 @@
       "avg": 32
     },
     "Gibson": {
-      "sum": 4655,
+      "sum": 4656,
       "count": 105,
       "avg": 44
     },
@@ -94496,11 +94511,6 @@
       "count": 4,
       "avg": 32
     },
-    "Suhr": {
-      "sum": 853,
-      "count": 23,
-      "avg": 37
-    },
     "Jackson": {
       "sum": 1041,
       "count": 25,
@@ -94537,9 +94547,9 @@
       "avg": 53
     },
     "Castedosa": {
-      "sum": 147,
+      "sum": 148,
       "count": 5,
-      "avg": 29
+      "avg": 30
     },
     "Duesenberg": {
       "sum": 31,
@@ -95208,7 +95218,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-14": 5,
+    "2026-08-14": 6,
     "2026-08-13": 12,
     "2026-08-12": 7,
     "2026-08-11": 11,
@@ -95240,8 +95250,8 @@
     "2026-07-16": 5
   },
   "categoryDistribution": {
+    "marketplace": 478,
     "reverb": 2661,
-    "marketplace": 477,
     "other": 111
   },
   "activeModelsCount": 405,
@@ -95276,7 +95286,7 @@
     },
     {
       "username": "Madero",
-      "count": 188
+      "count": 189
     },
     {
       "username": "jazee_",
@@ -95411,10 +95421,10 @@
       "count": 21
     },
     "Suhr": {
-      "avgPrice": 11524,
+      "avgPrice": 11347,
       "retailEst": 2500,
-      "avgDiscount": -360.9,
-      "count": 44
+      "avgDiscount": -353.9,
+      "count": 45
     },
     "Anderson": {
       "avgPrice": 3359,
@@ -101141,15 +101151,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2937,
+      "total": 2938,
       "sold": 980,
       "fake": 0,
-      "live": 916,
+      "live": 917,
       "removed": 1041,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "Suhr": {
+        "total": 46,
+        "sold": 22,
+        "fake": 0,
+        "live": 9,
+        "removed": 15,
+        "soldPct": 48,
+        "livePct": 20
+      },
       "PRS": {
         "total": 258,
         "sold": 91,
@@ -101383,15 +101402,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 0
-      },
-      "Suhr": {
-        "total": 45,
-        "sold": 22,
-        "fake": 0,
-        "live": 8,
-        "removed": 15,
-        "soldPct": 49,
-        "livePct": 18
       },
       "Jackson": {
         "total": 76,
@@ -104364,7 +104374,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 616,
+        "total": 617,
         "sold": 181,
         "rate": 29
       },
@@ -104724,6 +104734,25 @@
     ]
   },
   "byBrandLine": {
+    "Suhr|Suhr": {
+      "brand": "Suhr",
+      "brandLine": "Suhr",
+      "tier": "premium",
+      "count": 33,
+      "sum": 95787,
+      "avg": 2903,
+      "min": 1999,
+      "max": 7250,
+      "sold": 17,
+      "soldSum": 47096,
+      "soldAvg": 2770,
+      "live": 7,
+      "removed": 9,
+      "sellRate": 52,
+      "totalDays": 917.6,
+      "soldCount": 17,
+      "avgDaysToSell": 54
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -104739,7 +104768,7 @@
       "live": 33,
       "removed": 60,
       "sellRate": 36,
-      "totalDays": 4963,
+      "totalDays": 4963.3,
       "soldCount": 53,
       "avgDaysToSell": 93.6
     },
@@ -104815,9 +104844,9 @@
       "live": 39,
       "removed": 26,
       "sellRate": 40,
-      "totalDays": 2973.0000000000005,
+      "totalDays": 2973.9,
       "soldCount": 43,
-      "avgDaysToSell": 69.1
+      "avgDaysToSell": 69.2
     },
     "Collings|Collings": {
       "brand": "Collings",
@@ -104834,7 +104863,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 554.6,
+      "totalDays": 554.6999999999999,
       "soldCount": 7,
       "avgDaysToSell": 79.2
     },
@@ -104853,7 +104882,7 @@
       "live": 19,
       "removed": 13,
       "sellRate": 38,
-      "totalDays": 1620,
+      "totalDays": 1620.3000000000002,
       "soldCount": 20,
       "avgDaysToSell": 81
     },
@@ -104872,7 +104901,7 @@
       "live": 33,
       "removed": 33,
       "sellRate": 35,
-      "totalDays": 3240.3,
+      "totalDays": 3240.4,
       "soldCount": 36,
       "avgDaysToSell": 90
     },
@@ -104948,7 +104977,7 @@
       "live": 59,
       "removed": 73,
       "sellRate": 35,
-      "totalDays": 6738.900000000001,
+      "totalDays": 6739.300000000001,
       "soldCount": 70,
       "avgDaysToSell": 96.3
     },
@@ -105004,7 +105033,7 @@
       "live": 9,
       "removed": 7,
       "sellRate": 45,
-      "totalDays": 1524.7,
+      "totalDays": 1524.8,
       "soldCount": 13,
       "avgDaysToSell": 117.3
     },
@@ -105042,7 +105071,7 @@
       "live": 9,
       "removed": 5,
       "sellRate": 39,
-      "totalDays": 658.6,
+      "totalDays": 658.6999999999999,
       "soldCount": 9,
       "avgDaysToSell": 73.2
     },
@@ -105080,7 +105109,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 44,
-      "totalDays": 647.6,
+      "totalDays": 647.8,
       "soldCount": 7,
       "avgDaysToSell": 92.5
     },
@@ -105099,7 +105128,7 @@
       "live": 20,
       "removed": 24,
       "sellRate": 33,
-      "totalDays": 1975.2,
+      "totalDays": 1975.3,
       "soldCount": 22,
       "avgDaysToSell": 89.8
     },
@@ -105139,25 +105168,6 @@
       "totalDays": 51,
       "soldCount": 1,
       "avgDaysToSell": 51
-    },
-    "Suhr|Suhr": {
-      "brand": "Suhr",
-      "brandLine": "Suhr",
-      "tier": "premium",
-      "count": 32,
-      "sum": 92188,
-      "avg": 2881,
-      "min": 1999,
-      "max": 7250,
-      "sold": 17,
-      "soldSum": 47096,
-      "soldAvg": 2770,
-      "live": 6,
-      "removed": 9,
-      "sellRate": 53,
-      "totalDays": 917.6,
-      "soldCount": 17,
-      "avgDaysToSell": 54
     },
     "Jackson|Jackson USA": {
       "brand": "Jackson",
@@ -105606,7 +105616,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 57,
-      "totalDays": 1697.3000000000002,
+      "totalDays": 1697.4,
       "soldCount": 17,
       "avgDaysToSell": 99.8
     },
@@ -105625,7 +105635,7 @@
       "live": 14,
       "removed": 8,
       "sellRate": 33,
-      "totalDays": 1042.8000000000002,
+      "totalDays": 1042.9,
       "soldCount": 11,
       "avgDaysToSell": 94.8
     },
@@ -105682,7 +105692,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 226.5,
+      "totalDays": 226.6,
       "soldCount": 2,
       "avgDaysToSell": 113.3
     },
@@ -105849,7 +105859,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 44,
-      "totalDays": 318.29999999999995,
+      "totalDays": 318.4,
       "soldCount": 4,
       "avgDaysToSell": 79.6
     },
@@ -105868,9 +105878,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 46.4,
+      "totalDays": 46.5,
       "soldCount": 1,
-      "avgDaysToSell": 46.4
+      "avgDaysToSell": 46.5
     },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
@@ -105887,9 +105897,9 @@
       "live": 3,
       "removed": 2,
       "sellRate": 29,
-      "totalDays": 229.8,
+      "totalDays": 229.9,
       "soldCount": 2,
-      "avgDaysToSell": 114.9
+      "avgDaysToSell": 115
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -106001,7 +106011,7 @@
       "live": 13,
       "removed": 17,
       "sellRate": 23,
-      "totalDays": 829.9,
+      "totalDays": 830,
       "soldCount": 9,
       "avgDaysToSell": 92.2
     },
@@ -106095,7 +106105,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 71,
-      "totalDays": 516.8000000000001,
+      "totalDays": 517,
       "soldCount": 4,
       "avgDaysToSell": 103.4
     },
@@ -106912,9 +106922,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 131,
+      "totalDays": 131.1,
       "soldCount": 1,
-      "avgDaysToSell": 131
+      "avgDaysToSell": 131.1
     },
     "Ibanez|Rickenbacker": {
       "brand": "Ibanez",
