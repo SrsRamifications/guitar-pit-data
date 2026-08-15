@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-15T15:58:27.495Z",
-  "totalLinks": 3254,
-  "totalEver": 4050,
-  "totalBeforeFilter": 4050,
+  "generatedAt": "2026-08-15T15:59:45.104Z",
+  "totalLinks": 3255,
+  "totalEver": 4051,
+  "totalBeforeFilter": 4051,
   "fakeCount": 6,
   "removedCount": 1526,
-  "totalWithPrice": 2940,
+  "totalWithPrice": 2941,
   "overall": {
-    "count": 2857,
-    "sum": 8136444.22,
+    "count": 2858,
+    "sum": 8138639.22,
     "avg": 2848,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2857,
-    "sum": 8136444.22,
+    "count": 2858,
+    "sum": 8138639.22,
     "avg": 2848,
     "min": 10.49,
     "max": 11185,
-    "median": 2249
+    "median": 2248
   },
   "outliers": {
-    "thresholdHigh": 11453,
+    "thresholdHigh": 11429,
     "thresholdLow": 0,
     "count": 83,
     "items": [
@@ -685,11 +685,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 191,
-      "sum": 564209.99,
+      "count": 192,
+      "sum": 566404.99,
       "min": 300,
       "max": 10742,
-      "avg": 2954
+      "avg": 2950
     },
     "2026-07": {
       "count": 423,
@@ -742,19 +742,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 171,
+      "sum": 527919.77,
+      "min": 39.81,
+      "max": 11000,
+      "avg": 3087
+    },
     "reverb": {
       "count": 2587,
       "sum": 7320145.3,
       "min": 33,
       "max": 11185,
       "avg": 2830
-    },
-    "marketplace": {
-      "count": 170,
-      "sum": 525724.77,
-      "min": 39.81,
-      "max": 11000,
-      "avg": 3092
     },
     "other": {
       "count": 100,
@@ -765,6 +765,13 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 92,
+      "sum": 361439.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 3929
+    },
     "reverb.com": {
       "count": 2587,
       "sum": 7320145.3,
@@ -785,13 +792,6 @@
       "min": 695,
       "max": 3995,
       "avg": 1439
-    },
-    "chicagomusicexchange.com": {
-      "count": 91,
-      "sum": 359244.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 3948
     },
     "musicgoround.com": {
       "count": 8,
@@ -1040,6 +1040,37 @@
     }
   },
   "byModel": {
+    "taylor-810ce": {
+      "displayName": "Taylor 810ce Natural 1995",
+      "brand": "Taylor",
+      "model": "810ce",
+      "variant": null,
+      "count": 1,
+      "sum": 2195,
+      "min": 2195,
+      "max": 2195,
+      "sightings": [
+        {
+          "price": 2195,
+          "date": "2026-08-15T15:59:29.213Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Taylor 810ce Natural 1995",
+          "url": "https://www.chicagomusicexchange.com/collections/acoustic-guitars-used/products/taylor-810ce-natural-1995-2625701",
+          "condition": "Used"
+        }
+      ],
+      "byCondition": {
+        "Used": {
+          "count": 1,
+          "sum": 2195,
+          "min": 2195,
+          "max": 2195,
+          "avg": 2195
+        }
+      },
+      "avg": 2195
+    },
     "nacho-blackguard": {
       "displayName": "Nacho Guitars 60s Whiteguard P90 - Black 44212",
       "brand": "Nacho",
@@ -8447,7 +8478,7 @@
       "sightings": [
         {
           "price": 2500,
-          "date": "2026-08-03T23:59:10.132Z",
+          "date": "2026-08-03T23:59:10.132+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "ESP Standard Eclipse E-II 2008 - Burst",
@@ -91232,6 +91263,15 @@
     }
   },
   "byBrandPrice": {
+    "Taylor": {
+      "count": 21,
+      "min": 275,
+      "max": 5499.99,
+      "soldCount": 5,
+      "outliersExcluded": 0,
+      "avg": 1774,
+      "soldAvg": 1201
+    },
     "Nacho": {
       "count": 2,
       "min": 7299.99,
@@ -91681,15 +91721,6 @@
       "outliersExcluded": 0,
       "avg": 875,
       "soldAvg": null
-    },
-    "Taylor": {
-      "count": 20,
-      "min": 275,
-      "max": 5499.99,
-      "soldCount": 5,
-      "outliersExcluded": 0,
-      "avg": 1753,
-      "soldAvg": 1201
     },
     "Shabat": {
       "count": 21,
@@ -94123,6 +94154,17 @@
     }
   },
   "byCondition": {
+    "Used": {
+      "count": 83,
+      "sum": 327936.6299999998,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 3951,
+      "min": 475.99,
+      "max": 99000
+    },
     "Brand New": {
       "count": 254,
       "sum": 1134997.19,
@@ -94207,17 +94249,6 @@
       "min": 400,
       "max": 46467.6
     },
-    "Used": {
-      "count": 82,
-      "sum": 325741.6299999998,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 3972,
-      "min": 475.99,
-      "max": 99000
-    },
     "New": {
       "count": 5,
       "sum": 17740.98,
@@ -94272,9 +94303,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2954,
+      "avg": 2950,
       "median": 2499,
-      "count": 191
+      "count": 192
     },
     "07": {
       "name": "Jul",
@@ -94465,7 +94496,7 @@
     "0-500": 96,
     "500-1k": 275,
     "1k-2k": 910,
-    "2k-3k": 584,
+    "2k-3k": 585,
     "3k-5k": 617,
     "5k-10k": 356,
     "10k+": 102
@@ -94474,12 +94505,17 @@
     "0-500": 96,
     "500-1k": 275,
     "1k-2k": 910,
-    "2k-3k": 584,
+    "2k-3k": 585,
     "3k-5k": 617,
     "5k-10k": 356,
     "10k+": 19
   },
   "daysOnMarket": {
+    "Taylor": {
+      "sum": 215,
+      "count": 6,
+      "avg": 36
+    },
     "Maestro": {
       "sum": 22,
       "count": 1,
@@ -94714,11 +94750,6 @@
       "sum": 10,
       "count": 1,
       "avg": 10
-    },
-    "Taylor": {
-      "sum": 215,
-      "count": 5,
-      "avg": 43
     },
     "Shabat": {
       "sum": 229,
@@ -95317,7 +95348,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-15": 4,
+    "2026-08-15": 5,
     "2026-08-14": 6,
     "2026-08-13": 12,
     "2026-08-12": 7,
@@ -95350,11 +95381,11 @@
     "2026-07-16": 4
   },
   "categoryDistribution": {
-    "marketplace": 479,
+    "marketplace": 480,
     "reverb": 2664,
     "other": 111
   },
-  "activeModelsCount": 408,
+  "activeModelsCount": 409,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -95366,7 +95397,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 355
+      "count": 356
     },
     {
       "username": "WontonGG",
@@ -95659,10 +95690,10 @@
       "count": 31
     },
     "Taylor": {
-      "avgPrice": 1753,
+      "avgPrice": 1774,
       "retailEst": 800,
-      "avgDiscount": -119.1,
-      "count": 20
+      "avgDiscount": -121.7,
+      "count": 21
     },
     "Guild": {
       "avgPrice": 1939,
@@ -101251,15 +101282,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2942,
+      "total": 2943,
       "sold": 981,
       "fake": 0,
-      "live": 917,
+      "live": 918,
       "removed": 1044,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "Taylor": {
+        "total": 21,
+        "sold": 5,
+        "fake": 0,
+        "live": 5,
+        "removed": 11,
+        "soldPct": 24,
+        "livePct": 24
+      },
       "Gibson": {
         "total": 359,
         "sold": 129,
@@ -101709,15 +101749,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Taylor": {
-        "total": 20,
-        "sold": 5,
-        "fake": 0,
-        "live": 4,
-        "removed": 11,
-        "soldPct": 25,
-        "livePct": 20
       },
       "Shabat": {
         "total": 21,
@@ -104477,7 +104508,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 584,
+        "total": 585,
         "sold": 223,
         "rate": 38
       },
@@ -104501,6 +104532,11 @@
       }
     ],
     "byCondition": {
+      "Used": {
+        "total": 84,
+        "sold": 33,
+        "rate": 39
+      },
       "Brand New": {
         "total": 254,
         "sold": 46,
@@ -104530,11 +104566,6 @@
         "total": 97,
         "sold": 23,
         "rate": 24
-      },
-      "Used": {
-        "total": 83,
-        "sold": 33,
-        "rate": 40
       },
       "New": {
         "total": 5,
@@ -104991,7 +105022,7 @@
       "live": 39,
       "removed": 26,
       "sellRate": 40,
-      "totalDays": 3000.3999999999996,
+      "totalDays": 3000.4999999999995,
       "soldCount": 43,
       "avgDaysToSell": 69.8
     },
@@ -105820,7 +105851,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 940.6,
+      "totalDays": 940.7,
       "soldCount": 8,
       "avgDaysToSell": 117.6
     },
@@ -105968,7 +105999,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 44,
-      "totalDays": 321,
+      "totalDays": 321.1,
       "soldCount": 4,
       "avgDaysToSell": 80.3
     },
@@ -106082,7 +106113,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 40,
-      "totalDays": 151.7,
+      "totalDays": 151.8,
       "soldCount": 2,
       "avgDaysToSell": 75.9
     },
