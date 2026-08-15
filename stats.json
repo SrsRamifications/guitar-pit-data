@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-15T15:59:45.104Z",
-  "totalLinks": 3255,
-  "totalEver": 4051,
-  "totalBeforeFilter": 4051,
+  "generatedAt": "2026-08-15T16:01:20.488Z",
+  "totalLinks": 3256,
+  "totalEver": 4052,
+  "totalBeforeFilter": 4052,
   "fakeCount": 6,
   "removedCount": 1526,
-  "totalWithPrice": 2941,
+  "totalWithPrice": 2942,
   "overall": {
-    "count": 2858,
-    "sum": 8138639.22,
+    "count": 2859,
+    "sum": 8142148.22,
     "avg": 2848,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2858,
-    "sum": 8138639.22,
+    "count": 2859,
+    "sum": 8142148.22,
     "avg": 2848,
     "min": 10.49,
     "max": 11185,
-    "median": 2248
+    "median": 2249
   },
   "outliers": {
     "thresholdHigh": 11429,
@@ -685,11 +685,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 192,
-      "sum": 566404.99,
+      "count": 193,
+      "sum": 569913.99,
       "min": 300,
       "max": 10742,
-      "avg": 2950
+      "avg": 2953
     },
     "2026-07": {
       "count": 423,
@@ -743,11 +743,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 171,
-      "sum": 527919.77,
+      "count": 172,
+      "sum": 531428.77,
       "min": 39.81,
       "max": 11000,
-      "avg": 3087
+      "avg": 3090
     },
     "reverb": {
       "count": 2587,
@@ -766,11 +766,11 @@
   },
   "byDomain": {
     "chicagomusicexchange.com": {
-      "count": 92,
-      "sum": 361439.98,
+      "count": 93,
+      "sum": 364948.98,
       "min": 350,
       "max": 11099,
-      "avg": 3929
+      "avg": 3924
     },
     "reverb.com": {
       "count": 2587,
@@ -1040,6 +1040,37 @@
     }
   },
   "byModel": {
+    "alvarez-gym74ce-yairi-masterworks": {
+      "displayName": "Alvarez GYM74ce Yairi Masterworks Grand Auditorium Solid AAA Vintage R",
+      "brand": "Alvarez",
+      "model": "GYM74ce Yairi Masterworks",
+      "variant": null,
+      "count": 1,
+      "sum": 3509,
+      "min": 3509,
+      "max": 3509,
+      "sightings": [
+        {
+          "price": 3509,
+          "date": "2026-08-15T16:01:04.998Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Alvarez GYM74ce Yairi Masterworks Grand Auditorium Solid AAA Vintage R",
+          "url": "https://www.chicagomusicexchange.com/collections/acoustic-guitars-used/products/alvarez-gym74ce-yairi-masterworks-grand-auditorium-1965547",
+          "condition": "New"
+        }
+      ],
+      "byCondition": {
+        "New": {
+          "count": 1,
+          "sum": 3509,
+          "min": 3509,
+          "max": 3509,
+          "avg": 3509
+        }
+      },
+      "avg": 3509
+    },
     "taylor-810ce": {
       "displayName": "Taylor 810ce Natural 1995",
       "brand": "Taylor",
@@ -91263,6 +91294,15 @@
     }
   },
   "byBrandPrice": {
+    "Alvarez": {
+      "count": 11,
+      "min": 250,
+      "max": 3509,
+      "soldCount": 1,
+      "outliersExcluded": 0,
+      "avg": 944,
+      "soldAvg": 355
+    },
     "Taylor": {
       "count": 21,
       "min": 275,
@@ -91568,15 +91608,6 @@
       "outliersExcluded": 0,
       "avg": 4557,
       "soldAvg": 3562
-    },
-    "Alvarez": {
-      "count": 10,
-      "min": 250,
-      "max": 1599.99,
-      "soldCount": 1,
-      "outliersExcluded": 0,
-      "avg": 688,
-      "soldAvg": 355
     },
     "Valley Arts": {
       "count": 7,
@@ -94154,6 +94185,17 @@
     }
   },
   "byCondition": {
+    "New": {
+      "count": 6,
+      "sum": 21249.98,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 3542,
+      "min": 999.99,
+      "max": 7271
+    },
     "Used": {
       "count": 83,
       "sum": 327936.6299999998,
@@ -94249,17 +94291,6 @@
       "min": 400,
       "max": 46467.6
     },
-    "New": {
-      "count": 5,
-      "sum": 17740.98,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 3548,
-      "min": 999.99,
-      "max": 7271
-    },
     "Non Functioning": {
       "count": 6,
       "sum": 10393.59,
@@ -94303,9 +94334,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2950,
+      "avg": 2953,
       "median": 2499,
-      "count": 192
+      "count": 193
     },
     "07": {
       "name": "Jul",
@@ -94497,7 +94528,7 @@
     "500-1k": 275,
     "1k-2k": 910,
     "2k-3k": 585,
-    "3k-5k": 617,
+    "3k-5k": 618,
     "5k-10k": 356,
     "10k+": 102
   },
@@ -94506,11 +94537,16 @@
     "500-1k": 275,
     "1k-2k": 910,
     "2k-3k": 585,
-    "3k-5k": 617,
+    "3k-5k": 618,
     "5k-10k": 356,
     "10k+": 19
   },
   "daysOnMarket": {
+    "Alvarez": {
+      "sum": 7,
+      "count": 2,
+      "avg": 4
+    },
     "Taylor": {
       "sum": 215,
       "count": 6,
@@ -94665,11 +94701,6 @@
       "sum": 145,
       "count": 5,
       "avg": 29
-    },
-    "Alvarez": {
-      "sum": 7,
-      "count": 1,
-      "avg": 7
     },
     "Valley Arts": {
       "sum": 148,
@@ -95348,7 +95379,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-15": 5,
+    "2026-08-15": 6,
     "2026-08-14": 6,
     "2026-08-13": 12,
     "2026-08-12": 7,
@@ -95381,11 +95412,11 @@
     "2026-07-16": 4
   },
   "categoryDistribution": {
-    "marketplace": 480,
+    "marketplace": 481,
     "reverb": 2664,
     "other": 111
   },
-  "activeModelsCount": 409,
+  "activeModelsCount": 410,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -95397,7 +95428,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 356
+      "count": 357
     },
     {
       "username": "WontonGG",
@@ -95708,10 +95739,10 @@
       "count": 10
     },
     "Alvarez": {
-      "avgPrice": 688,
+      "avgPrice": 944,
       "retailEst": 200,
-      "avgDiscount": -243.9,
-      "count": 10
+      "avgDiscount": -372.2,
+      "count": 11
     }
   },
   "soldPrices": {
@@ -101282,15 +101313,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2943,
+      "total": 2944,
       "sold": 981,
       "fake": 0,
-      "live": 918,
+      "live": 919,
       "removed": 1044,
       "soldPct": 33,
       "livePct": 31
     },
     "byBrand": {
+      "Alvarez": {
+        "total": 11,
+        "sold": 1,
+        "fake": 0,
+        "live": 1,
+        "removed": 9,
+        "soldPct": 9,
+        "livePct": 9
+      },
       "Taylor": {
         "total": 21,
         "sold": 5,
@@ -101596,15 +101636,6 @@
         "removed": 7,
         "soldPct": 31,
         "livePct": 15
-      },
-      "Alvarez": {
-        "total": 10,
-        "sold": 1,
-        "fake": 0,
-        "live": 0,
-        "removed": 9,
-        "soldPct": 10,
-        "livePct": 0
       },
       "Valley Arts": {
         "total": 7,
@@ -104453,10 +104484,10 @@
       },
       {
         "brand": "Alvarez",
-        "total": 10,
+        "total": 11,
         "sold": 1,
-        "live": 0,
-        "soldPct": 10
+        "live": 1,
+        "soldPct": 9
       },
       {
         "brand": "Castedosa",
@@ -104514,7 +104545,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 617,
+        "total": 618,
         "sold": 182,
         "rate": 29
       },
@@ -104532,6 +104563,11 @@
       }
     ],
     "byCondition": {
+      "New": {
+        "total": 6,
+        "sold": 2,
+        "rate": 33
+      },
       "Used": {
         "total": 84,
         "sold": 33,
@@ -104566,11 +104602,6 @@
         "total": 97,
         "sold": 23,
         "rate": 24
-      },
-      "New": {
-        "total": 5,
-        "sold": 2,
-        "rate": 40
       },
       "Non Functioning": {
         "total": 6,
@@ -104889,7 +104920,7 @@
       "live": 60,
       "removed": 73,
       "sellRate": 34,
-      "totalDays": 6785.799999999999,
+      "totalDays": 6786,
       "soldCount": 70,
       "avgDaysToSell": 96.9
     },
@@ -104908,7 +104939,7 @@
       "live": 33,
       "removed": 34,
       "sellRate": 35,
-      "totalDays": 3263.7000000000003,
+      "totalDays": 3263.8,
       "soldCount": 36,
       "avgDaysToSell": 90.7
     },
@@ -104927,7 +104958,7 @@
       "live": 6,
       "removed": 9,
       "sellRate": 55,
-      "totalDays": 929.6999999999999,
+      "totalDays": 929.8000000000001,
       "soldCount": 18,
       "avgDaysToSell": 51.7
     },
@@ -105060,7 +105091,7 @@
       "live": 19,
       "removed": 13,
       "sellRate": 38,
-      "totalDays": 1633.3000000000002,
+      "totalDays": 1633.4,
       "soldCount": 20,
       "avgDaysToSell": 81.7
     },
@@ -105380,7 +105411,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 24,
-      "totalDays": 466.2,
+      "totalDays": 466.3,
       "soldCount": 6,
       "avgDaysToSell": 77.7
     },
@@ -105813,9 +105844,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 71,
-      "totalDays": 704.4,
+      "totalDays": 704.5,
       "soldCount": 10,
-      "avgDaysToSell": 70.4
+      "avgDaysToSell": 70.5
     },
     "PRS|PRS S2": {
       "brand": "PRS",
@@ -105906,7 +105937,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 40,
-      "totalDays": 368.40000000000003,
+      "totalDays": 368.5,
       "soldCount": 4,
       "avgDaysToSell": 92.1
     },
