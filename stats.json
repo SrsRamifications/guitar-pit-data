@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-08-19T02:34:06.423Z",
-  "totalLinks": 3288,
-  "totalEver": 4090,
-  "totalBeforeFilter": 4090,
+  "generatedAt": "2026-08-19T02:35:05.911Z",
+  "totalLinks": 3289,
+  "totalEver": 4091,
+  "totalBeforeFilter": 4091,
   "fakeCount": 6,
   "removedCount": 1533,
-  "totalWithPrice": 2974,
+  "totalWithPrice": 2975,
   "overall": {
-    "count": 2890,
-    "sum": 8241766.22,
-    "avg": 2852,
+    "count": 2891,
+    "sum": 8242466.22,
+    "avg": 2851,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2890,
-    "sum": 8241766.22,
-    "avg": 2852,
+    "count": 2891,
+    "sum": 8242466.22,
+    "avg": 2851,
     "min": 10.49,
     "max": 11185,
-    "median": 2250
+    "median": 2249
   },
   "outliers": {
     "thresholdHigh": 11450,
@@ -693,11 +693,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 224,
-      "sum": 670084.99,
+      "count": 225,
+      "sum": 670784.99,
       "min": 300,
       "max": 10742,
-      "avg": 2991
+      "avg": 2981
     },
     "2026-07": {
       "count": 423,
@@ -751,11 +751,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2608,
-      "sum": 7385455.3,
+      "count": 2609,
+      "sum": 7386155.3,
       "min": 33,
       "max": 11185,
-      "avg": 2832
+      "avg": 2831
     },
     "marketplace": {
       "count": 182,
@@ -774,11 +774,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2608,
-      "sum": 7385455.3,
+      "count": 2609,
+      "sum": 7386155.3,
       "min": 33,
       "max": 11185,
-      "avg": 2832
+      "avg": 2831
     },
     "nstuffmusic.com": {
       "count": 3,
@@ -1048,6 +1048,37 @@
     }
   },
   "byModel": {
+    "esp-viper": {
+      "displayName": "ESP LTD Viper-1000 FM 2005 - 2010 - See Thru Black",
+      "brand": "ESP",
+      "model": "Viper",
+      "variant": null,
+      "count": 1,
+      "sum": 700,
+      "min": 700,
+      "max": 700,
+      "sightings": [
+        {
+          "price": 700,
+          "date": "2026-08-19T02:34:49.312Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "ESP LTD Viper-1000 FM 2005 - 2010 - See Thru Black",
+          "url": "https://reverb.com/item/100396410",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 700,
+          "min": 700,
+          "max": 700,
+          "avg": 700
+        }
+      },
+      "avg": 700
+    },
     "epiphone-sg-custom-classic": {
       "displayName": "Epiphone '63 Les Paul SG Custom with Maestro Vibrola - Classic White with Hard Shell Case",
       "brand": "Epiphone",
@@ -92384,6 +92415,15 @@
     }
   },
   "byBrandPrice": {
+    "ESP": {
+      "count": 85,
+      "min": 700,
+      "max": 10500,
+      "soldCount": 21,
+      "outliersExcluded": 2,
+      "avg": 3502,
+      "soldAvg": 2480
+    },
     "Epiphone": {
       "count": 32,
       "min": 165,
@@ -92572,15 +92612,6 @@
       "outliersExcluded": 11,
       "avg": 3449,
       "soldAvg": 3232
-    },
-    "ESP": {
-      "count": 84,
-      "min": 825,
-      "max": 10500,
-      "soldCount": 21,
-      "outliersExcluded": 2,
-      "avg": 3535,
-      "soldAvg": 2480
     },
     "Renaissance": {
       "count": 1,
@@ -95284,6 +95315,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 317,
+      "sum": 884406.9199999999,
+      "sold": {
+        "count": 105,
+        "sum": 208277.24000000002,
+        "avg": 1984,
+        "min": 285,
+        "max": 13000
+      },
+      "avg": 2790,
+      "min": 70,
+      "max": 55000
+    },
     "Brand New": {
       "count": 256,
       "sum": 1140711.19,
@@ -95297,20 +95342,6 @@
       "avg": 4456,
       "min": 135,
       "max": 35099
-    },
-    "Good": {
-      "count": 316,
-      "sum": 883706.9199999999,
-      "sold": {
-        "count": 105,
-        "sum": 208277.24000000002,
-        "avg": 1984,
-        "min": 285,
-        "max": 13000
-      },
-      "avg": 2797,
-      "min": 70,
-      "max": 55000
     },
     "Excellent": {
       "count": 1098,
@@ -95433,9 +95464,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2991,
+      "avg": 2981,
       "median": 2599,
-      "count": 224
+      "count": 225
     },
     "07": {
       "name": "Jul",
@@ -95624,7 +95655,7 @@
   ],
   "priceDistribution": {
     "0-500": 96,
-    "500-1k": 275,
+    "500-1k": 276,
     "1k-2k": 917,
     "2k-3k": 591,
     "3k-5k": 634,
@@ -95633,7 +95664,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 96,
-    "500-1k": 275,
+    "500-1k": 276,
     "1k-2k": 917,
     "2k-3k": 591,
     "3k-5k": 634,
@@ -95641,6 +95672,11 @@
     "10k+": 19
   },
   "daysOnMarket": {
+    "ESP": {
+      "sum": 1426,
+      "count": 33,
+      "avg": 43
+    },
     "BC Rich": {
       "sum": 1999,
       "count": 38,
@@ -95735,11 +95771,6 @@
       "sum": 4162,
       "count": 88,
       "avg": 47
-    },
-    "ESP": {
-      "sum": 1420,
-      "count": 32,
-      "avg": 44
     },
     "Renaissance": {
       "sum": 6,
@@ -96292,9 +96323,9 @@
       "avg": 76
     },
     "Hamer": {
-      "sum": 183,
+      "sum": 185,
       "count": 3,
-      "avg": 61
+      "avg": 62
     },
     "PJD": {
       "sum": 66,
@@ -96458,7 +96489,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-19": 1,
+    "2026-08-19": 2,
     "2026-08-18": 5,
     "2026-08-17": 8,
     "2026-08-16": 9,
@@ -96491,11 +96522,11 @@
     "2026-07-20": 21
   },
   "categoryDistribution": {
-    "reverb": 2685,
+    "reverb": 2686,
     "marketplace": 492,
     "other": 111
   },
-  "activeModelsCount": 395,
+  "activeModelsCount": 396,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -96535,7 +96566,7 @@
     },
     {
       "username": "Pabst Blue Wizard",
-      "count": 64
+      "count": 65
     }
   ],
   "topDealHunters": [
@@ -96614,10 +96645,10 @@
       "count": 32
     },
     "ESP": {
-      "avgPrice": 3909,
+      "avgPrice": 3873,
       "retailEst": 2000,
-      "avgDiscount": -95.4,
-      "count": 89
+      "avgDiscount": -93.7,
+      "count": 90
     },
     "PRS": {
       "avgPrice": 4493,
@@ -102551,15 +102582,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2976,
+      "total": 2977,
       "sold": 1007,
       "fake": 0,
-      "live": 918,
+      "live": 919,
       "removed": 1051,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "ESP": {
+        "total": 90,
+        "sold": 23,
+        "fake": 0,
+        "live": 41,
+        "removed": 26,
+        "soldPct": 26,
+        "livePct": 46
+      },
       "Epiphone": {
         "total": 32,
         "sold": 7,
@@ -102748,15 +102788,6 @@
         "removed": 102,
         "soldPct": 36,
         "livePct": 24
-      },
-      "ESP": {
-        "total": 89,
-        "sold": 23,
-        "fake": 0,
-        "live": 40,
-        "removed": 26,
-        "soldPct": 26,
-        "livePct": 45
       },
       "Renaissance": {
         "total": 1,
@@ -105765,9 +105796,9 @@
       },
       {
         "label": "$500–1k",
-        "total": 275,
+        "total": 276,
         "sold": 106,
-        "rate": 39
+        "rate": 38
       },
       {
         "label": "$1k–2k",
@@ -105801,15 +105832,15 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 317,
+        "sold": 116,
+        "rate": 37
+      },
       "Brand New": {
         "total": 256,
         "sold": 48,
         "rate": 19
-      },
-      "Good": {
-        "total": 316,
-        "sold": 116,
-        "rate": 37
       },
       "Excellent": {
         "total": 1098,
@@ -106192,6 +106223,25 @@
     ]
   },
   "byBrandLine": {
+    "ESP|LTD": {
+      "brand": "ESP",
+      "brandLine": "LTD",
+      "tier": "budget",
+      "count": 10,
+      "sum": 12724,
+      "avg": 1272,
+      "min": 700,
+      "max": 2650,
+      "sold": 4,
+      "soldSum": 4025,
+      "soldAvg": 1006,
+      "live": 4,
+      "removed": 2,
+      "sellRate": 40,
+      "totalDays": 334.9,
+      "soldCount": 4,
+      "avgDaysToSell": 83.7
+    },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
       "brandLine": "Epiphone",
@@ -106359,7 +106409,7 @@
       "live": 40,
       "removed": 26,
       "sellRate": 39,
-      "totalDays": 3138.2999999999997,
+      "totalDays": 3138.4,
       "soldCount": 43,
       "avgDaysToSell": 73
     },
@@ -106454,7 +106504,7 @@
       "live": 30,
       "removed": 60,
       "sellRate": 38,
-      "totalDays": 5222.4,
+      "totalDays": 5222.499999999999,
       "soldCount": 56,
       "avgDaysToSell": 93.3
     },
@@ -107093,7 +107143,7 @@
       "live": 4,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 176.4,
+      "totalDays": 176.5,
       "soldCount": 3,
       "avgDaysToSell": 58.8
     },
@@ -107377,25 +107427,6 @@
       "sellRate": 0,
       "totalDays": 0,
       "soldCount": 0
-    },
-    "ESP|LTD": {
-      "brand": "ESP",
-      "brandLine": "LTD",
-      "tier": "budget",
-      "count": 9,
-      "sum": 12024,
-      "avg": 1336,
-      "min": 825,
-      "max": 2650,
-      "sold": 4,
-      "soldSum": 4025,
-      "soldAvg": 1006,
-      "live": 3,
-      "removed": 2,
-      "sellRate": 44,
-      "totalDays": 334.9,
-      "soldCount": 4,
-      "avgDaysToSell": 83.7
     },
     "Washburn|Washburn USA Custom": {
       "brand": "Washburn",
@@ -108583,7 +108614,7 @@
     },
     {
       "label": "16–30",
-      "total": 413,
+      "total": 414,
       "sold": 113,
       "rate": 27
     },
@@ -108596,7 +108627,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 959,
+      "total": 960,
       "sold": 285,
       "rate": 30
     },
@@ -108613,9 +108644,9 @@
       "rate": 22
     },
     "regular": {
-      "total": 657,
+      "total": 658,
       "sold": 227,
-      "rate": 35
+      "rate": 34
     }
   },
   "geoSellThrough": [
@@ -108842,16 +108873,16 @@
       "rate": 44
     },
     {
+      "state": "WV",
+      "total": 8,
+      "sold": 5,
+      "rate": 63
+    },
+    {
       "state": "AL",
       "total": 8,
       "sold": 3,
       "rate": 38
-    },
-    {
-      "state": "WV",
-      "total": 7,
-      "sold": 5,
-      "rate": 71
     },
     {
       "state": "NM",
