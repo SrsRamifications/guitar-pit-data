@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-20T01:57:08.696Z",
-  "totalLinks": 3305,
-  "totalEver": 4109,
-  "totalBeforeFilter": 4109,
+  "generatedAt": "2026-08-20T01:57:43.372Z",
+  "totalLinks": 3306,
+  "totalEver": 4110,
+  "totalBeforeFilter": 4110,
   "fakeCount": 6,
   "removedCount": 1534,
-  "totalWithPrice": 2991,
+  "totalWithPrice": 2992,
   "overall": {
-    "count": 2907,
-    "sum": 8295588.22,
-    "avg": 2854,
+    "count": 2908,
+    "sum": 8295887.22,
+    "avg": 2853,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2907,
-    "sum": 8295588.22,
-    "avg": 2854,
+    "count": 2908,
+    "sum": 8295887.22,
+    "avg": 2853,
     "min": 10.49,
     "max": 11185,
     "median": 2250
@@ -693,11 +693,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 241,
-      "sum": 724011.99,
-      "min": 300,
+      "count": 242,
+      "sum": 724310.99,
+      "min": 299,
       "max": 10742,
-      "avg": 3004
+      "avg": 2993
     },
     "2026-07": {
       "count": 423,
@@ -750,19 +750,19 @@
     }
   },
   "byCategory": {
+    "reverb": {
+      "count": 2623,
+      "sum": 7425127.3,
+      "min": 33,
+      "max": 11185,
+      "avg": 2831
+    },
     "marketplace": {
       "count": 185,
       "sum": 580185.77,
       "min": 39.81,
       "max": 11000,
       "avg": 3136
-    },
-    "reverb": {
-      "count": 2622,
-      "sum": 7424828.3,
-      "min": 33,
-      "max": 11185,
-      "avg": 2832
     },
     "other": {
       "count": 100,
@@ -773,19 +773,19 @@
     }
   },
   "byDomain": {
+    "reverb.com": {
+      "count": 2623,
+      "sum": 7425127.3,
+      "min": 33,
+      "max": 11185,
+      "avg": 2831
+    },
     "chicagomusicexchange.com": {
       "count": 103,
       "sum": 397183.98,
       "min": 350,
       "max": 11099,
       "avg": 3856
-    },
-    "reverb.com": {
-      "count": 2622,
-      "sum": 7424828.3,
-      "min": 33,
-      "max": 11185,
-      "avg": 2832
     },
     "thomann.de": {
       "count": 1,
@@ -1055,6 +1055,37 @@
     }
   },
   "byModel": {
+    "misc-superman-s-style-strat-six-flags-promotional": {
+      "displayName": "SUPERMAN S-STYLE \"STRAT\"  - SIX FLAGS PROMOTIONAL",
+      "brand": "MISC",
+      "model": "SUPERMAN S-STYLE \"STRAT\" - SIX FLAGS PROMOTIONAL",
+      "variant": null,
+      "count": 1,
+      "sum": 299,
+      "min": 299,
+      "max": 299,
+      "sightings": [
+        {
+          "price": 299,
+          "date": "2026-08-20T01:57:25.158Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "SUPERMAN S-STYLE \"STRAT\"  - SIX FLAGS PROMOTIONAL",
+          "url": "https://reverb.com/item/98856301",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 299,
+          "min": 299,
+          "max": 299,
+          "avg": 299
+        }
+      },
+      "avg": 299
+    },
     "echopark-62-model": {
       "displayName": "Echopark '62 Model Lake Placid Blue 2014",
       "brand": "Echopark",
@@ -8906,7 +8937,7 @@
       "sightings": [
         {
           "price": 2750,
-          "date": "2026-08-06T19:41:39.413Z",
+          "date": "2026-08-06T19:41:39.413+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Suhr Andy Wood Signature Modern T SS | Whiskey Barrel | Roasted Maple | OHSC",
@@ -8932,7 +8963,7 @@
           {
             "price": 2750,
             "askingPrice": 2750,
-            "date": "2026-08-12T22:00:20.683Z",
+            "date": "2026-08-12T22:00:20.683+00:00",
             "title": "Suhr Andy Wood Signature Modern T SS | Whiskey Barrel | Roasted Maple | OHSC",
             "url": "https://reverb.com/item/100192041"
           }
@@ -92815,6 +92846,15 @@
     }
   },
   "byBrandPrice": {
+    "MISC": {
+      "count": 1,
+      "min": 299,
+      "max": 299,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 299,
+      "soldAvg": null
+    },
     "Echopark": {
       "count": 46,
       "min": 1395,
@@ -95715,6 +95755,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 904,
+      "sum": 2883722.8100000066,
+      "sold": {
+        "count": 298,
+        "sum": 653029.88,
+        "avg": 2191,
+        "min": 68,
+        "max": 19995
+      },
+      "avg": 3190,
+      "min": 33,
+      "max": 437713.69
+    },
     "Used": {
       "count": 89,
       "sum": 343481.6299999998,
@@ -95725,20 +95779,6 @@
       "avg": 3859,
       "min": 475.99,
       "max": 99000
-    },
-    "Very Good": {
-      "count": 903,
-      "sum": 2883423.8100000066,
-      "sold": {
-        "count": 298,
-        "sum": 653029.88,
-        "avg": 2191,
-        "min": 68,
-        "max": 19995
-      },
-      "avg": 3193,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 257,
@@ -95864,9 +95904,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 3004,
+      "avg": 2993,
       "median": 2599,
-      "count": 241
+      "count": 242
     },
     "07": {
       "name": "Jul",
@@ -96054,7 +96094,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 97,
+    "0-500": 98,
     "500-1k": 276,
     "1k-2k": 920,
     "2k-3k": 597,
@@ -96063,7 +96103,7 @@
     "10k+": 103
   },
   "priceDistributionFiltered": {
-    "0-500": 97,
+    "0-500": 98,
     "500-1k": 276,
     "1k-2k": 920,
     "2k-3k": 597,
@@ -96072,6 +96112,11 @@
     "10k+": 19
   },
   "daysOnMarket": {
+    "MISC": {
+      "sum": 48,
+      "count": 1,
+      "avg": 48
+    },
     "Echopark": {
       "sum": 195,
       "count": 6,
@@ -96889,7 +96934,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-20": 4,
+    "2026-08-20": 5,
     "2026-08-19": 14,
     "2026-08-18": 5,
     "2026-08-17": 8,
@@ -96922,11 +96967,11 @@
     "2026-07-21": 15
   },
   "categoryDistribution": {
+    "reverb": 2700,
     "marketplace": 495,
-    "reverb": 2699,
     "other": 111
   },
-  "activeModelsCount": 390,
+  "activeModelsCount": 391,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -96950,7 +96995,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 266
+      "count": 267
     },
     {
       "username": "Modean",
@@ -103018,15 +103063,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 2993,
+      "total": 2994,
       "sold": 1010,
       "fake": 0,
-      "live": 931,
+      "live": 932,
       "removed": 1052,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "MISC": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "removed": 0,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Echopark": {
         "total": 47,
         "sold": 9,
@@ -106226,9 +106280,9 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 97,
+        "total": 98,
         "sold": 24,
-        "rate": 25
+        "rate": 24
       },
       {
         "label": "$500–1k",
@@ -106268,15 +106322,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 904,
+        "sold": 300,
+        "rate": 33
+      },
       "Used": {
         "total": 90,
         "sold": 39,
         "rate": 43
-      },
-      "Very Good": {
-        "total": 903,
-        "sold": 300,
-        "rate": 33
       },
       "Brand New": {
         "total": 257,
@@ -106833,7 +106887,7 @@
       "live": 14,
       "removed": 6,
       "sellRate": 23,
-      "totalDays": 792.6,
+      "totalDays": 792.7,
       "soldCount": 6,
       "avgDaysToSell": 132.1
     },
@@ -109034,7 +109088,7 @@
   },
   "shippingInsights": {
     "freeShippingPct": 0,
-    "avgShippingCost": 113
+    "avgShippingCost": 112
   },
   "watcherDemand": [
     {
@@ -109051,7 +109105,7 @@
     },
     {
       "label": "6–15",
-      "total": 259,
+      "total": 260,
       "sold": 69,
       "rate": 27
     },
@@ -109070,7 +109124,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 968,
+      "total": 969,
       "sold": 286,
       "rate": 30
     },
@@ -109082,7 +109136,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 714,
+      "total": 715,
       "sold": 158,
       "rate": 22
     },
@@ -109179,9 +109233,9 @@
     },
     {
       "state": "MA",
-      "total": 25,
+      "total": 26,
       "sold": 11,
-      "rate": 44
+      "rate": 42
     },
     {
       "state": "OR",
