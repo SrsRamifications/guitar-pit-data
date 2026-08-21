@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-21T18:52:47.237Z",
-  "totalLinks": 3322,
-  "totalEver": 4137,
-  "totalBeforeFilter": 4137,
+  "generatedAt": "2026-08-21T18:55:42.020Z",
+  "totalLinks": 3323,
+  "totalEver": 4138,
+  "totalBeforeFilter": 4138,
   "fakeCount": 6,
   "removedCount": 1539,
-  "totalWithPrice": 3008,
+  "totalWithPrice": 3009,
   "overall": {
-    "count": 2924,
-    "sum": 8340101.22,
+    "count": 2925,
+    "sum": 8342801.22,
     "avg": 2852,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2924,
-    "sum": 8340101.22,
+    "count": 2925,
+    "sum": 8342801.22,
     "avg": 2852,
     "min": 10.49,
     "max": 11185,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11426,
+    "thresholdHigh": 11405,
     "thresholdLow": 0,
     "count": 84,
     "items": [
@@ -693,11 +693,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 258,
-      "sum": 768465.99,
+      "count": 259,
+      "sum": 771165.99,
       "min": 300,
       "max": 10742,
-      "avg": 2979
+      "avg": 2977
     },
     "2026-07": {
       "count": 423,
@@ -751,8 +751,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2639,
-      "sum": 7469341.3,
+      "count": 2640,
+      "sum": 7472041.3,
       "min": 33,
       "max": 11185,
       "avg": 2830
@@ -774,8 +774,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2639,
-      "sum": 7469341.3,
+      "count": 2640,
+      "sum": 7472041.3,
       "min": 33,
       "max": 11185,
       "avg": 2830
@@ -1055,6 +1055,37 @@
     }
   },
   "byModel": {
+    "gibson-firebird-custom-shop-reissue": {
+      "displayName": "Gibson Custom Shop Special Order '65 Non-Reverse Firebird V Reissue - Antique Burst",
+      "brand": "Gibson",
+      "model": "Firebird",
+      "variant": "Custom Shop Reissue",
+      "count": 1,
+      "sum": 2700,
+      "min": 2700,
+      "max": 2700,
+      "sightings": [
+        {
+          "price": 2700,
+          "date": "2026-08-21T18:55:26.502Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop Special Order '65 Non-Reverse Firebird V Reissue - Antique Burst",
+          "url": "https://reverb.com/item/96594725",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2700,
+          "min": 2700,
+          "max": 2700,
+          "avg": 2700
+        }
+      },
+      "avg": 2700
+    },
     "eastman-pg1-claudio-pagelli-signature": {
       "displayName": "Eastman PG1 Claudio Pagelli Signature Archtop (US CUSTOMERS, TARIFF FEES ARE INCLUDED IN SHIPPING COST) 2010 - Present - Blonde",
       "brand": "Eastman",
@@ -8852,7 +8883,7 @@
         },
         {
           "price": 3990,
-          "date": "2026-08-07T22:09:47.113Z",
+          "date": "2026-08-07T22:09:47.113+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Fender Jaguar 1963 - Sunburst",
@@ -8899,7 +8930,7 @@
           {
             "price": 3990,
             "askingPrice": 3990,
-            "date": "2026-08-11T21:59:25.973Z",
+            "date": "2026-08-11T21:59:25.973+00:00",
             "title": "Fender Jaguar 1963 - Sunburst",
             "url": "https://reverb.com/ca/item/100096715-fender-jaguar-1963-sunburst"
           },
@@ -93366,6 +93397,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 345,
+      "min": 59.99,
+      "max": 11099,
+      "soldCount": 130,
+      "outliersExcluded": 11,
+      "avg": 3614,
+      "soldAvg": 3151
+    },
     "Eastman": {
       "count": 46,
       "min": 539.99,
@@ -93374,15 +93414,6 @@
       "outliersExcluded": 0,
       "avg": 1302,
       "soldAvg": 1211
-    },
-    "Gibson": {
-      "count": 344,
-      "min": 59.99,
-      "max": 11099,
-      "soldCount": 130,
-      "outliersExcluded": 11,
-      "avg": 3617,
-      "soldAvg": 3151
     },
     "FGN": {
       "count": 4,
@@ -96266,6 +96297,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 912,
+      "sum": 2905452.8100000066,
+      "sold": {
+        "count": 301,
+        "sum": 656963.88,
+        "avg": 2183,
+        "min": 68,
+        "max": 19995
+      },
+      "avg": 3186,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 1105,
       "sum": 4678011.3600000115,
@@ -96307,20 +96352,6 @@
       "avg": 2699,
       "min": 875,
       "max": 6499
-    },
-    "Very Good": {
-      "count": 911,
-      "sum": 2902752.8100000066,
-      "sold": {
-        "count": 301,
-        "sum": 656963.88,
-        "avg": 2183,
-        "min": 68,
-        "max": 19995
-      },
-      "avg": 3186,
-      "min": 33,
-      "max": 437713.69
     },
     "Used": {
       "count": 89,
@@ -96415,9 +96446,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2979,
+      "avg": 2977,
       "median": 2599,
-      "count": 258
+      "count": 259
     },
     "07": {
       "name": "Jul",
@@ -96608,7 +96639,7 @@
     "0-500": 96,
     "500-1k": 279,
     "1k-2k": 926,
-    "2k-3k": 600,
+    "2k-3k": 601,
     "3k-5k": 641,
     "5k-10k": 363,
     "10k+": 103
@@ -96617,7 +96648,7 @@
     "0-500": 96,
     "500-1k": 279,
     "1k-2k": 926,
-    "2k-3k": 600,
+    "2k-3k": 601,
     "3k-5k": 641,
     "5k-10k": 363,
     "10k+": 19
@@ -96714,9 +96745,9 @@
       "avg": 23
     },
     "Ibanez": {
-      "sum": 2281,
-      "count": 46,
-      "avg": 50
+      "sum": 2191,
+      "count": 45,
+      "avg": 49
     },
     "Martin": {
       "sum": 425,
@@ -97445,7 +97476,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-21": 11,
+    "2026-08-21": 12,
     "2026-08-20": 10,
     "2026-08-19": 14,
     "2026-08-18": 5,
@@ -97478,11 +97509,11 @@
     "2026-07-22": 1
   },
   "categoryDistribution": {
-    "reverb": 2716,
+    "reverb": 2717,
     "marketplace": 495,
     "other": 111
   },
-  "activeModelsCount": 388,
+  "activeModelsCount": 389,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -97506,7 +97537,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 270
+      "count": 271
     },
     {
       "username": "Modean",
@@ -97589,10 +97620,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 6076,
+      "avgPrice": 6067,
       "retailEst": 800,
-      "avgDiscount": -659.5,
-      "count": 359
+      "avgDiscount": -658.3,
+      "count": 360
     },
     "Epiphone": {
       "avgPrice": 2456,
@@ -102993,20 +103024,20 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 7139.066156937089,
-      "count": 434,
-      "avgPctDrop": 16.4
+      "totalPctDrop": 7156.874376115171,
+      "count": 435,
+      "avgPctDrop": 16.5
     },
     "byBrand": {
+      "Gibson": {
+        "totalPctDrop": 672.7851287402668,
+        "count": 47,
+        "avgPctDrop": 14.3
+      },
       "Eastman": {
         "totalPctDrop": 118.6572044069046,
         "count": 7,
         "avgPctDrop": 17
-      },
-      "Gibson": {
-        "totalPctDrop": 654.9769095621847,
-        "count": 46,
-        "avgPctDrop": 14.2
       },
       "BC Rich": {
         "totalPctDrop": 476.4295400673317,
@@ -103637,15 +103668,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3010,
+      "total": 3011,
       "sold": 1017,
       "fake": 0,
-      "live": 936,
+      "live": 937,
       "removed": 1057,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "Gibson": {
+        "total": 372,
+        "sold": 133,
+        "fake": 0,
+        "live": 105,
+        "removed": 134,
+        "soldPct": 36,
+        "livePct": 28
+      },
       "Eastman": {
         "total": 46,
         "sold": 24,
@@ -103654,15 +103694,6 @@
         "removed": 12,
         "soldPct": 52,
         "livePct": 22
-      },
-      "Gibson": {
-        "total": 371,
-        "sold": 133,
-        "fake": 0,
-        "live": 104,
-        "removed": 134,
-        "soldPct": 36,
-        "livePct": 28
       },
       "FGN": {
         "total": 5,
@@ -106863,9 +106894,9 @@
       },
       {
         "label": "$2k–3k",
-        "total": 600,
+        "total": 601,
         "sold": 231,
-        "rate": 39
+        "rate": 38
       },
       {
         "label": "$3k–5k",
@@ -106887,6 +106918,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 912,
+        "sold": 303,
+        "rate": 33
+      },
       "Excellent": {
         "total": 1105,
         "sold": 415,
@@ -106901,11 +106937,6 @@
         "total": 9,
         "sold": 1,
         "rate": 11
-      },
-      "Very Good": {
-        "total": 911,
-        "sold": 303,
-        "rate": 33
       },
       "Used": {
         "total": 90,
@@ -107229,6 +107260,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson Custom Shop": {
+      "brand": "Gibson",
+      "brandLine": "Gibson Custom Shop",
+      "tier": "ultra",
+      "count": 71,
+      "sum": 714305.3299999998,
+      "avg": 10061,
+      "min": 2250,
+      "max": 295000,
+      "sold": 23,
+      "soldSum": 143672.97,
+      "soldAvg": 6247,
+      "live": 23,
+      "removed": 25,
+      "sellRate": 32,
+      "totalDays": 2129.9,
+      "soldCount": 23,
+      "avgDaysToSell": 92.6
+    },
     "Eastman|Eastman": {
       "brand": "Eastman",
       "brandLine": "Eastman",
@@ -107267,25 +107317,6 @@
       "soldCount": 73,
       "avgDaysToSell": 99.8
     },
-    "Gibson|Gibson Custom Shop": {
-      "brand": "Gibson",
-      "brandLine": "Gibson Custom Shop",
-      "tier": "ultra",
-      "count": 70,
-      "sum": 711605.3299999998,
-      "avg": 10166,
-      "min": 2250,
-      "max": 295000,
-      "sold": 23,
-      "soldSum": 143672.97,
-      "soldAvg": 6247,
-      "live": 22,
-      "removed": 25,
-      "sellRate": 33,
-      "totalDays": 2129.9,
-      "soldCount": 23,
-      "avgDaysToSell": 92.6
-    },
     "Aristides|Aristides": {
       "brand": "Aristides",
       "brandLine": "Aristides",
@@ -107320,7 +107351,7 @@
       "live": 6,
       "removed": 3,
       "sellRate": 47,
-      "totalDays": 989.7,
+      "totalDays": 989.8,
       "soldCount": 8,
       "avgDaysToSell": 123.7
     },
@@ -107358,7 +107389,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 48,
-      "totalDays": 1065.7,
+      "totalDays": 1065.9,
       "soldCount": 19,
       "avgDaysToSell": 56.1
     },
@@ -107396,9 +107427,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 33,
-      "totalDays": 203.8,
+      "totalDays": 203.9,
       "soldCount": 1,
-      "avgDaysToSell": 203.8
+      "avgDaysToSell": 203.9
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -107491,7 +107522,7 @@
       "live": 19,
       "removed": 13,
       "sellRate": 41,
-      "totalDays": 1882.6999999999998,
+      "totalDays": 1882.8,
       "soldCount": 22,
       "avgDaysToSell": 85.6
     },
@@ -107963,9 +107994,9 @@
       "live": 1,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 400,
+      "totalDays": 400.1,
       "soldCount": 3,
-      "avgDaysToSell": 133.3
+      "avgDaysToSell": 133.4
     },
     "Castedosa|Castedosa": {
       "brand": "Castedosa",
@@ -108133,7 +108164,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 31,
-      "totalDays": 304.8,
+      "totalDays": 304.9,
       "soldCount": 4,
       "avgDaysToSell": 76.2
     },
@@ -108264,7 +108295,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 57,
-      "totalDays": 1812.8000000000002,
+      "totalDays": 1812.9000000000003,
       "soldCount": 17,
       "avgDaysToSell": 106.6
     },
@@ -108842,7 +108873,7 @@
       "live": 2,
       "removed": 1,
       "sellRate": 40,
-      "totalDays": 270.9,
+      "totalDays": 271,
       "soldCount": 2,
       "avgDaysToSell": 135.5
     },
@@ -109592,8 +109623,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 506,
-    "totalOffers": 1167,
+    "withOffers": 507,
+    "totalOffers": 1171,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 36
   },
@@ -109628,14 +109659,14 @@
     },
     {
       "label": "31+",
-      "total": 624,
+      "total": 625,
       "sold": 177,
       "rate": 28
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 981,
+      "total": 982,
       "sold": 290,
       "rate": 30
     },
@@ -109652,7 +109683,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 670,
+      "total": 671,
       "sold": 230,
       "rate": 34
     }
@@ -109732,9 +109763,9 @@
     },
     {
       "state": "CO",
-      "total": 29,
+      "total": 30,
       "sold": 7,
-      "rate": 24
+      "rate": 23
     },
     {
       "state": "OH",
