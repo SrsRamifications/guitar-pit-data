@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-21T19:48:43.627Z",
-  "totalLinks": 3326,
-  "totalEver": 4142,
-  "totalBeforeFilter": 4142,
+  "generatedAt": "2026-08-21T19:54:34.128Z",
+  "totalLinks": 3327,
+  "totalEver": 4143,
+  "totalBeforeFilter": 4143,
   "fakeCount": 6,
   "removedCount": 1539,
-  "totalWithPrice": 3012,
+  "totalWithPrice": 3013,
   "overall": {
-    "count": 2928,
-    "sum": 8348568.22,
+    "count": 2929,
+    "sum": 8351168.22,
     "avg": 2851,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2928,
-    "sum": 8348568.22,
+    "count": 2929,
+    "sum": 8351168.22,
     "avg": 2851,
     "min": 10.49,
     "max": 11185,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11405,
+    "thresholdHigh": 11258,
     "thresholdLow": 0,
     "count": 84,
     "items": [
@@ -693,11 +693,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 262,
-      "sum": 776932.99,
+      "count": 263,
+      "sum": 779532.99,
       "min": 300,
       "max": 10742,
-      "avg": 2965
+      "avg": 2964
     },
     "2026-07": {
       "count": 423,
@@ -751,8 +751,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2643,
-      "sum": 7477808.3,
+      "count": 2644,
+      "sum": 7480408.3,
       "min": 33,
       "max": 11185,
       "avg": 2829
@@ -774,8 +774,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2643,
-      "sum": 7477808.3,
+      "count": 2644,
+      "sum": 7480408.3,
       "min": 33,
       "max": 11185,
       "avg": 2829
@@ -1055,6 +1055,37 @@
     }
   },
   "byModel": {
+    "dean-dbz-bird-of": {
+      "displayName": "DBZ Bird Of Prey 2009 - Flamed maple",
+      "brand": "Dean",
+      "model": "DBZ Bird Of",
+      "variant": null,
+      "count": 1,
+      "sum": 2600,
+      "min": 2600,
+      "max": 2600,
+      "sightings": [
+        {
+          "price": 2600,
+          "date": "2026-08-21T19:54:19.111Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "DBZ Bird Of Prey 2009 - Flamed maple",
+          "url": "https://reverb.com/item/84762499",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2600,
+          "min": 2600,
+          "max": 2600,
+          "avg": 2600
+        }
+      },
+      "avg": 2600
+    },
     "bc-rich-rare-draco-ghost-limited": {
       "displayName": "*RARE* 2011 B.C. Rich Draco Ghost Pearl White Ghost Flame Limited Model - White with Grey Flames - Excellent Condition 🔥",
       "brand": "BC Rich",
@@ -8026,7 +8057,7 @@
       "sightings": [
         {
           "price": 6449,
-          "date": "2026-08-08T01:17:20.928Z",
+          "date": "2026-08-08T01:17:20.928+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "ESP George Lynch GL Black w/ Skulls & Snakes Graphic Electric Guitar New w/ Case - Skull -In Stock!",
@@ -93490,6 +93521,15 @@
     }
   },
   "byBrandPrice": {
+    "Dean": {
+      "count": 24,
+      "min": 595,
+      "max": 5889,
+      "soldCount": 9,
+      "outliersExcluded": 1,
+      "avg": 2855,
+      "soldAvg": 2265
+    },
     "BC Rich": {
       "count": 155,
       "min": 33,
@@ -94353,15 +94393,6 @@
       "outliersExcluded": 0,
       "avg": 2791,
       "soldAvg": 3203
-    },
-    "Dean": {
-      "count": 23,
-      "min": 595,
-      "max": 5889,
-      "soldCount": 9,
-      "outliersExcluded": 1,
-      "avg": 2866,
-      "soldAvg": 2265
     },
     "Rick Toone": {
       "count": 3,
@@ -96399,6 +96430,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 914,
+      "sum": 2910724.8100000066,
+      "sold": {
+        "count": 301,
+        "sum": 656963.88,
+        "avg": 2183,
+        "min": 68,
+        "max": 19995
+      },
+      "avg": 3185,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 1106,
       "sum": 4680006.3600000115,
@@ -96426,20 +96471,6 @@
       "avg": 4441,
       "min": 135,
       "max": 35099
-    },
-    "Very Good": {
-      "count": 913,
-      "sum": 2908124.8100000066,
-      "sold": {
-        "count": 301,
-        "sum": 656963.88,
-        "avg": 2183,
-        "min": 68,
-        "max": 19995
-      },
-      "avg": 3185,
-      "min": 33,
-      "max": 437713.69
     },
     "Good": {
       "count": 321,
@@ -96548,9 +96579,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2965,
+      "avg": 2964,
       "median": 2599,
-      "count": 262
+      "count": 263
     },
     "07": {
       "name": "Jul",
@@ -96741,7 +96772,7 @@
     "0-500": 96,
     "500-1k": 279,
     "1k-2k": 928,
-    "2k-3k": 602,
+    "2k-3k": 603,
     "3k-5k": 641,
     "5k-10k": 363,
     "10k+": 103
@@ -96750,7 +96781,7 @@
     "0-500": 96,
     "500-1k": 279,
     "1k-2k": 928,
-    "2k-3k": 602,
+    "2k-3k": 603,
     "3k-5k": 641,
     "5k-10k": 363,
     "10k+": 19
@@ -96772,7 +96803,7 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 4520,
+      "sum": 4521,
       "count": 106,
       "avg": 43
     },
@@ -96782,7 +96813,7 @@
       "avg": 3
     },
     "Aristides": {
-      "sum": 370,
+      "sum": 371,
       "count": 9,
       "avg": 41
     },
@@ -97583,7 +97614,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-21": 15,
+    "2026-08-21": 16,
     "2026-08-20": 10,
     "2026-08-19": 14,
     "2026-08-18": 5,
@@ -97615,11 +97646,11 @@
     "2026-07-23": 15
   },
   "categoryDistribution": {
-    "reverb": 2720,
+    "reverb": 2721,
     "marketplace": 495,
     "other": 111
   },
-  "activeModelsCount": 391,
+  "activeModelsCount": 392,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -97643,7 +97674,7 @@
     },
     {
       "username": "YellowJack6",
-      "count": 272
+      "count": 273
     },
     {
       "username": "Modean",
@@ -103774,15 +103805,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3014,
+      "total": 3015,
       "sold": 1017,
       "fake": 0,
-      "live": 940,
+      "live": 941,
       "removed": 1057,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "Dean": {
+        "total": 25,
+        "sold": 10,
+        "fake": 0,
+        "live": 7,
+        "removed": 8,
+        "soldPct": 40,
+        "livePct": 28
+      },
       "BC Rich": {
         "total": 161,
         "sold": 51,
@@ -104664,15 +104704,6 @@
         "removed": 4,
         "soldPct": 31,
         "livePct": 44
-      },
-      "Dean": {
-        "total": 24,
-        "sold": 10,
-        "fake": 0,
-        "live": 6,
-        "removed": 8,
-        "soldPct": 42,
-        "livePct": 25
       },
       "Rick Toone": {
         "total": 7,
@@ -107009,7 +107040,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 602,
+        "total": 603,
         "sold": 231,
         "rate": 38
       },
@@ -107033,6 +107064,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 914,
+        "sold": 303,
+        "rate": 33
+      },
       "Excellent": {
         "total": 1106,
         "sold": 415,
@@ -107042,11 +107078,6 @@
         "total": 258,
         "sold": 48,
         "rate": 19
-      },
-      "Very Good": {
-        "total": 913,
-        "sold": 303,
-        "rate": 33
       },
       "Good": {
         "total": 321,
@@ -107428,7 +107459,7 @@
       "live": 63,
       "removed": 75,
       "sellRate": 35,
-      "totalDays": 7288.199999999999,
+      "totalDays": 7288.699999999997,
       "soldCount": 73,
       "avgDaysToSell": 99.8
     },
@@ -107523,9 +107554,9 @@
       "live": 5,
       "removed": 2,
       "sellRate": 30,
-      "totalDays": 184.60000000000002,
+      "totalDays": 184.7,
       "soldCount": 3,
-      "avgDaysToSell": 61.5
+      "avgDaysToSell": 61.6
     },
     "Taylor|Taylor USA": {
       "brand": "Taylor",
@@ -107618,7 +107649,7 @@
       "live": 39,
       "removed": 26,
       "sellRate": 41,
-      "totalDays": 3289.2,
+      "totalDays": 3289.5000000000005,
       "soldCount": 46,
       "avgDaysToSell": 71.5
     },
@@ -107675,9 +107706,9 @@
       "live": 14,
       "removed": 6,
       "sellRate": 23,
-      "totalDays": 803,
+      "totalDays": 803.2,
       "soldCount": 6,
-      "avgDaysToSell": 133.8
+      "avgDaysToSell": 133.9
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -107808,7 +107839,7 @@
       "live": 30,
       "removed": 36,
       "sellRate": 36,
-      "totalDays": 3493.2999999999997,
+      "totalDays": 3493.3999999999996,
       "soldCount": 37,
       "avgDaysToSell": 94.4
     },
@@ -107827,7 +107858,7 @@
       "live": 30,
       "removed": 60,
       "sellRate": 38,
-      "totalDays": 5371.700000000002,
+      "totalDays": 5372.200000000002,
       "soldCount": 56,
       "avgDaysToSell": 95.9
     },
@@ -108015,9 +108046,9 @@
       "live": 3,
       "removed": 2,
       "sellRate": 17,
-      "totalDays": 57.8,
+      "totalDays": 57.9,
       "soldCount": 1,
-      "avgDaysToSell": 57.8
+      "avgDaysToSell": 57.9
     },
     "Jackson|Jackson MJ": {
       "brand": "Jackson",
@@ -108052,7 +108083,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 606,
+      "totalDays": 606.1,
       "soldCount": 6,
       "avgDaysToSell": 101
     },
@@ -108071,7 +108102,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 24,
-      "totalDays": 503.09999999999997,
+      "totalDays": 503.2,
       "soldCount": 6,
       "avgDaysToSell": 83.9
     },
@@ -108203,7 +108234,7 @@
       "live": 7,
       "removed": 11,
       "sellRate": 42,
-      "totalDays": 1121.0000000000002,
+      "totalDays": 1121.1000000000001,
       "soldCount": 10,
       "avgDaysToSell": 86.2
     },
@@ -108260,7 +108291,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 18,
-      "totalDays": 160.1,
+      "totalDays": 160.2,
       "soldCount": 3,
       "avgDaysToSell": 53.4
     },
@@ -108279,7 +108310,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 31,
-      "totalDays": 305.1,
+      "totalDays": 305.2,
       "soldCount": 4,
       "avgDaysToSell": 76.3
     },
@@ -108410,7 +108441,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 57,
-      "totalDays": 1813.6,
+      "totalDays": 1813.8,
       "soldCount": 17,
       "avgDaysToSell": 106.7
     },
@@ -108748,9 +108779,9 @@
       "live": 5,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 384.1,
+      "totalDays": 384.3,
       "soldCount": 5,
-      "avgDaysToSell": 76.8
+      "avgDaysToSell": 76.9
     },
     "Kramer|Kramer Import": {
       "brand": "Kramer",
@@ -108859,7 +108890,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1838.8999999999999,
+      "totalDays": 1839,
       "soldCount": 14,
       "avgDaysToSell": 114.9
     },
@@ -109713,9 +109744,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 141.7,
+      "totalDays": 141.8,
       "soldCount": 1,
-      "avgDaysToSell": 141.7
+      "avgDaysToSell": 141.8
     },
     "Fender|Squier": {
       "brand": "Fender",
@@ -109738,8 +109769,8 @@
     }
   },
   "offerActivity": {
-    "withOffers": 508,
-    "totalOffers": 1172,
+    "withOffers": 509,
+    "totalOffers": 1175,
     "avgOffersPerListing": 2.3,
     "offersEnabledPct": 36
   },
@@ -109774,14 +109805,14 @@
     },
     {
       "label": "31+",
-      "total": 626,
+      "total": 627,
       "sold": 177,
       "rate": 28
     }
   ],
   "offersEffect": {
     "on": {
-      "total": 984,
+      "total": 985,
       "sold": 290,
       "rate": 29
     },
@@ -109798,7 +109829,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 672,
+      "total": 673,
       "sold": 230,
       "rate": 34
     }
@@ -109872,7 +109903,7 @@
     },
     {
       "state": "WI",
-      "total": 33,
+      "total": 34,
       "sold": 6,
       "rate": 18
     },
