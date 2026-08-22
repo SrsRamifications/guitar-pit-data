@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-22T01:16:05.752Z",
-  "totalLinks": 3330,
-  "totalEver": 4147,
-  "totalBeforeFilter": 4147,
+  "generatedAt": "2026-08-22T01:25:12.209Z",
+  "totalLinks": 3331,
+  "totalEver": 4148,
+  "totalBeforeFilter": 4148,
   "fakeCount": 6,
   "removedCount": 1540,
-  "totalWithPrice": 3016,
+  "totalWithPrice": 3017,
   "overall": {
-    "count": 2931,
-    "sum": 8357101.22,
+    "count": 2932,
+    "sum": 8358096.22,
     "avg": 2851,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2931,
-    "sum": 8357101.22,
+    "count": 2932,
+    "sum": 8358096.22,
     "avg": 2851,
     "min": 10.49,
     "max": 11185,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11426,
+    "thresholdHigh": 11405,
     "thresholdLow": 0,
     "count": 85,
     "items": [
@@ -701,11 +701,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 265,
-      "sum": 785416.99,
+      "count": 266,
+      "sum": 786411.99,
       "min": 300,
       "max": 10742,
-      "avg": 2964
+      "avg": 2956
     },
     "2026-07": {
       "count": 423,
@@ -759,8 +759,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2646,
-      "sum": 7486341.3,
+      "count": 2647,
+      "sum": 7487336.3,
       "min": 33,
       "max": 11185,
       "avg": 2829
@@ -782,8 +782,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2646,
-      "sum": 7486341.3,
+      "count": 2647,
+      "sum": 7487336.3,
       "min": 33,
       "max": 11185,
       "avg": 2829
@@ -1063,6 +1063,37 @@
     }
   },
   "byModel": {
+    "taylor-214ce": {
+      "displayName": "Taylor  214ce with Martin Thinline Gold Plus Pickup",
+      "brand": "Taylor",
+      "model": "214ce",
+      "variant": null,
+      "count": 1,
+      "sum": 995,
+      "min": 995,
+      "max": 995,
+      "sightings": [
+        {
+          "price": 995,
+          "date": "2026-08-22T01:24:56.272Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Taylor  214ce with Martin Thinline Gold Plus Pickup",
+          "url": "https://reverb.com/item/100551218",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 995,
+          "min": 995,
+          "max": 995,
+          "avg": 995
+        }
+      },
+      "avg": 995
+    },
     "santa-cruz-war-adirondack-and": {
       "displayName": "Santa Cruz D Pre War Adirondack and Cuban Mahogany Natural 2020",
       "brand": "Santa Cruz",
@@ -8352,7 +8383,7 @@
       "sightings": [
         {
           "price": 1295,
-          "date": "2026-08-08T15:16:21.964Z",
+          "date": "2026-08-08T15:16:21.964+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Prestige AZS2200 '24",
@@ -93637,6 +93668,15 @@
     }
   },
   "byBrandPrice": {
+    "Taylor": {
+      "count": 24,
+      "min": 275,
+      "max": 5499.99,
+      "soldCount": 6,
+      "outliersExcluded": 0,
+      "avg": 1898,
+      "soldAvg": 1366
+    },
     "Santa Cruz": {
       "count": 2,
       "min": 4000,
@@ -93798,15 +93838,6 @@
       "outliersExcluded": 0,
       "avg": 2375,
       "soldAvg": null
-    },
-    "Taylor": {
-      "count": 23,
-      "min": 275,
-      "max": 5499.99,
-      "soldCount": 6,
-      "outliersExcluded": 0,
-      "avg": 1937,
-      "soldAvg": 1366
     },
     "Echopark": {
       "count": 46,
@@ -96546,6 +96577,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 1107,
+      "sum": 4680810.3600000115,
+      "sold": {
+        "count": 409,
+        "sum": 1057052.6099999999,
+        "avg": 2584,
+        "min": 110,
+        "max": 35900
+      },
+      "avg": 4228,
+      "min": 110,
+      "max": 295000
+    },
     "Good": {
       "count": 323,
       "sum": 908560.9199999999,
@@ -96573,20 +96618,6 @@
       "avg": 3200,
       "min": 33,
       "max": 437713.69
-    },
-    "Excellent": {
-      "count": 1106,
-      "sum": 4679815.3600000115,
-      "sold": {
-        "count": 409,
-        "sum": 1057052.6099999999,
-        "avg": 2584,
-        "min": 110,
-        "max": 35900
-      },
-      "avg": 4231,
-      "min": 110,
-      "max": 295000
     },
     "Brand New": {
       "count": 258,
@@ -96695,9 +96726,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 2964,
-      "median": 2599,
-      "count": 265
+      "avg": 2956,
+      "median": 2575,
+      "count": 266
     },
     "07": {
       "name": "Jul",
@@ -96886,7 +96917,7 @@
   ],
   "priceDistribution": {
     "0-500": 96,
-    "500-1k": 279,
+    "500-1k": 280,
     "1k-2k": 929,
     "2k-3k": 603,
     "3k-5k": 641,
@@ -96895,7 +96926,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 96,
-    "500-1k": 279,
+    "500-1k": 280,
     "1k-2k": 929,
     "2k-3k": 603,
     "3k-5k": 641,
@@ -96903,6 +96934,11 @@
     "10k+": 19
   },
   "daysOnMarket": {
+    "Taylor": {
+      "sum": 258,
+      "count": 7,
+      "avg": 37
+    },
     "Santa Cruz": {
       "sum": 0,
       "count": 1,
@@ -96929,7 +96965,7 @@
       "avg": 0
     },
     "Gibson": {
-      "sum": 4531,
+      "sum": 4532,
       "count": 106,
       "avg": 43
     },
@@ -97053,18 +97089,13 @@
       "count": 2,
       "avg": 10
     },
-    "Taylor": {
-      "sum": 251,
-      "count": 6,
-      "avg": 42
-    },
     "Maestro": {
       "sum": 29,
       "count": 1,
       "avg": 29
     },
     "PRS": {
-      "sum": 3873,
+      "sum": 3875,
       "count": 82,
       "avg": 47
     },
@@ -97194,7 +97225,7 @@
       "avg": 54
     },
     "Framus": {
-      "sum": 213,
+      "sum": 214,
       "count": 3,
       "avg": 71
     },
@@ -97254,9 +97285,9 @@
       "avg": 34
     },
     "Tokai": {
-      "sum": 21,
+      "sum": 22,
       "count": 1,
-      "avg": 21
+      "avg": 22
     },
     "Suzuki archtop with Charlie Christian pickup": {
       "sum": 19,
@@ -97339,7 +97370,7 @@
       "avg": 24
     },
     "G&L": {
-      "sum": 150,
+      "sum": 151,
       "count": 4,
       "avg": 38
     },
@@ -97619,9 +97650,9 @@
       "avg": 69
     },
     "Bare Knuckle": {
-      "sum": 132,
+      "sum": 133,
       "count": 2,
-      "avg": 66
+      "avg": 67
     },
     "Lado": {
       "sum": 80,
@@ -97649,9 +97680,9 @@
       "avg": 68
     },
     "Padalka": {
-      "sum": 68,
+      "sum": 69,
       "count": 1,
-      "avg": 68
+      "avg": 69
     },
     "Rusti": {
       "sum": 69,
@@ -97725,7 +97756,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-22": 1,
+    "2026-08-22": 2,
     "2026-08-21": 18,
     "2026-08-20": 10,
     "2026-08-19": 14,
@@ -97758,15 +97789,15 @@
     "2026-07-23": 12
   },
   "categoryDistribution": {
-    "reverb": 2724,
+    "reverb": 2725,
     "marketplace": 495,
     "other": 111
   },
-  "activeModelsCount": 392,
+  "activeModelsCount": 393,
   "topPosters": [
     {
       "username": "Benson Kent",
-      "count": 591
+      "count": 592
     },
     {
       "username": "theguitarpit",
@@ -98067,10 +98098,10 @@
       "count": 38
     },
     "Taylor": {
-      "avgPrice": 1937,
+      "avgPrice": 1898,
       "retailEst": 800,
-      "avgDiscount": -142.1,
-      "count": 23
+      "avgDiscount": -137.2,
+      "count": 24
     },
     "Guild": {
       "avgPrice": 2086,
@@ -103296,11 +103327,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 7163.773306780918,
-      "count": 435,
+      "totalPctDrop": 7180.856640114251,
+      "count": 436,
       "avgPctDrop": 16.5
     },
     "byBrand": {
+      "Taylor": {
+        "totalPctDrop": 85.17981462678017,
+        "count": 5,
+        "avgPctDrop": 17
+      },
       "Gibson": {
         "totalPctDrop": 672.7851287402668,
         "count": 47,
@@ -103320,11 +103356,6 @@
         "totalPctDrop": 40.66857546730184,
         "count": 3,
         "avgPctDrop": 13.6
-      },
-      "Taylor": {
-        "totalPctDrop": 68.09648129344684,
-        "count": 4,
-        "avgPctDrop": 17
       },
       "Suhr": {
         "totalPctDrop": 70.18143681742633,
@@ -103940,15 +103971,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3018,
+      "total": 3019,
       "sold": 1019,
       "fake": 0,
-      "live": 941,
+      "live": 942,
       "removed": 1058,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "Taylor": {
+        "total": 24,
+        "sold": 6,
+        "fake": 0,
+        "live": 7,
+        "removed": 11,
+        "soldPct": 25,
+        "livePct": 29
+      },
       "Santa Cruz": {
         "total": 3,
         "sold": 1,
@@ -104110,15 +104150,6 @@
         "removed": 1,
         "soldPct": 0,
         "livePct": 50
-      },
-      "Taylor": {
-        "total": 23,
-        "sold": 6,
-        "fake": 0,
-        "live": 6,
-        "removed": 11,
-        "soldPct": 26,
-        "livePct": 26
       },
       "Echopark": {
         "total": 47,
@@ -107163,7 +107194,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 279,
+        "total": 280,
         "sold": 109,
         "rate": 39
       },
@@ -107199,6 +107230,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 1107,
+        "sold": 415,
+        "rate": 37
+      },
       "Good": {
         "total": 323,
         "sold": 117,
@@ -107208,11 +107244,6 @@
         "total": 915,
         "sold": 305,
         "rate": 33
-      },
-      "Excellent": {
-        "total": 1106,
-        "sold": 415,
-        "rate": 38
       },
       "Brand New": {
         "total": 258,
@@ -107541,6 +107572,24 @@
     ]
   },
   "byBrandLine": {
+    "Taylor|Taylor Mexico": {
+      "brand": "Taylor",
+      "brandLine": "Taylor Mexico",
+      "tier": "mid",
+      "count": 2,
+      "sum": 1520,
+      "avg": 760,
+      "min": 525,
+      "max": 995,
+      "sold": 0,
+      "soldSum": 0,
+      "soldAvg": null,
+      "live": 2,
+      "removed": 0,
+      "sellRate": 0,
+      "totalDays": 0,
+      "soldCount": 0
+    },
     "Santa Cruz|Santa Cruz": {
       "brand": "Santa Cruz",
       "brandLine": "Santa Cruz",
@@ -107574,7 +107623,7 @@
       "live": 13,
       "removed": 7,
       "sellRate": 17,
-      "totalDays": 378.3,
+      "totalDays": 378.4,
       "soldCount": 4,
       "avgDaysToSell": 94.6
     },
@@ -107593,7 +107642,7 @@
       "live": 23,
       "removed": 25,
       "sellRate": 32,
-      "totalDays": 2136,
+      "totalDays": 2136.1000000000004,
       "soldCount": 23,
       "avgDaysToSell": 92.9
     },
@@ -107612,7 +107661,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 47,
-      "totalDays": 1637.6,
+      "totalDays": 1637.6999999999998,
       "soldCount": 14,
       "avgDaysToSell": 117
     },
@@ -107631,7 +107680,7 @@
       "live": 63,
       "removed": 75,
       "sellRate": 35,
-      "totalDays": 7305.5,
+      "totalDays": 7305.8,
       "soldCount": 73,
       "avgDaysToSell": 100.1
     },
@@ -107688,9 +107737,9 @@
       "live": 5,
       "removed": 3,
       "sellRate": 27,
-      "totalDays": 132.7,
+      "totalDays": 132.8,
       "soldCount": 3,
-      "avgDaysToSell": 44.2
+      "avgDaysToSell": 44.3
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -107707,7 +107756,7 @@
       "live": 12,
       "removed": 9,
       "sellRate": 48,
-      "totalDays": 1070.7,
+      "totalDays": 1070.8000000000002,
       "soldCount": 19,
       "avgDaysToSell": 56.4
     },
@@ -107821,7 +107870,7 @@
       "live": 39,
       "removed": 26,
       "sellRate": 41,
-      "totalDays": 3298.4999999999995,
+      "totalDays": 3298.8999999999996,
       "soldCount": 46,
       "avgDaysToSell": 71.7
     },
@@ -107840,7 +107889,7 @@
       "live": 19,
       "removed": 13,
       "sellRate": 41,
-      "totalDays": 1888.5000000000002,
+      "totalDays": 1888.6000000000001,
       "soldCount": 22,
       "avgDaysToSell": 85.8
     },
@@ -107897,7 +107946,7 @@
       "live": 14,
       "removed": 17,
       "sellRate": 23,
-      "totalDays": 893.2999999999998,
+      "totalDays": 893.4,
       "soldCount": 9,
       "avgDaysToSell": 99.3
     },
@@ -107954,7 +108003,7 @@
       "live": 10,
       "removed": 3,
       "sellRate": 32,
-      "totalDays": 131.4,
+      "totalDays": 131.5,
       "soldCount": 6,
       "avgDaysToSell": 21.9
     },
@@ -107992,7 +108041,7 @@
       "live": 30,
       "removed": 36,
       "sellRate": 36,
-      "totalDays": 3501.3,
+      "totalDays": 3501.7000000000003,
       "soldCount": 37,
       "avgDaysToSell": 94.6
     },
@@ -108011,7 +108060,7 @@
       "live": 30,
       "removed": 60,
       "sellRate": 38,
-      "totalDays": 5384.7,
+      "totalDays": 5385,
       "soldCount": 56,
       "avgDaysToSell": 96.2
     },
@@ -108162,7 +108211,7 @@
       "live": 8,
       "removed": 5,
       "sellRate": 43,
-      "totalDays": 762.6,
+      "totalDays": 762.8000000000001,
       "soldCount": 10,
       "avgDaysToSell": 76.3
     },
@@ -108293,7 +108342,7 @@
       "live": 1,
       "removed": 2,
       "sellRate": 50,
-      "totalDays": 400.8,
+      "totalDays": 400.90000000000003,
       "soldCount": 3,
       "avgDaysToSell": 133.6
     },
@@ -108501,9 +108550,9 @@
       "live": 3,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 166.89999999999998,
+      "totalDays": 167,
       "soldCount": 3,
-      "avgDaysToSell": 55.6
+      "avgDaysToSell": 55.7
     },
     "Sire|Sire": {
       "brand": "Sire",
@@ -108613,7 +108662,7 @@
       "live": 14,
       "removed": 8,
       "sellRate": 33,
-      "totalDays": 1120.6000000000001,
+      "totalDays": 1120.7,
       "soldCount": 11,
       "avgDaysToSell": 101.9
     },
@@ -108689,7 +108738,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 393.9,
+      "totalDays": 394,
       "soldCount": 5,
       "avgDaysToSell": 78.8
     },
@@ -108782,7 +108831,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 29,
-      "totalDays": 243.9,
+      "totalDays": 244,
       "soldCount": 2,
       "avgDaysToSell": 122
     },
@@ -108914,7 +108963,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 385.4,
+      "totalDays": 385.5,
       "soldCount": 5,
       "avgDaysToSell": 77.1
     },
@@ -109025,7 +109074,7 @@
       "live": 17,
       "removed": 16,
       "sellRate": 33,
-      "totalDays": 1842.6000000000001,
+      "totalDays": 1842.8,
       "soldCount": 14,
       "avgDaysToSell": 115.2
     },
@@ -109099,7 +109148,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 60,
-      "totalDays": 218.9,
+      "totalDays": 219,
       "soldCount": 3,
       "avgDaysToSell": 73
     },
@@ -109192,7 +109241,7 @@
       "live": 0,
       "removed": 2,
       "sellRate": 60,
-      "totalDays": 507.29999999999995,
+      "totalDays": 507.4,
       "soldCount": 3,
       "avgDaysToSell": 169.1
     },
@@ -109324,9 +109373,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 71.3,
+      "totalDays": 71.4,
       "soldCount": 1,
-      "avgDaysToSell": 71.3
+      "avgDaysToSell": 71.4
     },
     "Charvel|Charvel Pro-Mod": {
       "brand": "Charvel",
@@ -109498,24 +109547,6 @@
       "soldCount": 1,
       "avgDaysToSell": 128.2
     },
-    "Taylor|Taylor Mexico": {
-      "brand": "Taylor",
-      "brandLine": "Taylor Mexico",
-      "tier": "mid",
-      "count": 1,
-      "sum": 525,
-      "avg": 525,
-      "min": 525,
-      "max": 525,
-      "sold": 0,
-      "soldSum": 0,
-      "soldAvg": null,
-      "live": 1,
-      "removed": 0,
-      "sellRate": 0,
-      "totalDays": 0,
-      "soldCount": 0
-    },
     "Vigier|Vigier": {
       "brand": "Vigier",
       "brandLine": "Vigier",
@@ -109621,9 +109652,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 128,
+      "totalDays": 128.1,
       "soldCount": 1,
-      "avgDaysToSell": 128
+      "avgDaysToSell": 128.1
     },
     "LSL|LSL Instruments": {
       "brand": "LSL",
@@ -109922,7 +109953,7 @@
     },
     {
       "label": "1–5",
-      "total": 75,
+      "total": 76,
       "sold": 22,
       "rate": 29
     },
@@ -109947,7 +109978,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 988,
+      "total": 989,
       "sold": 292,
       "rate": 30
     },
@@ -109964,7 +109995,7 @@
       "rate": 22
     },
     "regular": {
-      "total": 673,
+      "total": 674,
       "sold": 231,
       "rate": 34
     }
@@ -109996,9 +110027,9 @@
     },
     {
       "state": "FL",
-      "total": 66,
+      "total": 67,
       "sold": 29,
-      "rate": 44
+      "rate": 43
     },
     {
       "state": "WA",
