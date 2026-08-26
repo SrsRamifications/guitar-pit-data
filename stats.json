@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-26T19:38:10.210Z",
-  "totalLinks": 3370,
-  "totalEver": 4210,
-  "totalBeforeFilter": 4210,
+  "generatedAt": "2026-08-26T19:45:51.766Z",
+  "totalLinks": 3371,
+  "totalEver": 4211,
+  "totalBeforeFilter": 4211,
   "fakeCount": 6,
   "removedCount": 1554,
-  "totalWithPrice": 3054,
+  "totalWithPrice": 3055,
   "overall": {
-    "count": 2968,
-    "sum": 8498607.21,
-    "avg": 2863,
+    "count": 2969,
+    "sum": 8508157.21,
+    "avg": 2866,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2968,
-    "sum": 8498607.21,
-    "avg": 2863,
+    "count": 2969,
+    "sum": 8508157.21,
+    "avg": 2866,
     "min": 10.49,
     "max": 11185,
     "median": 2250
@@ -709,11 +709,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 302,
-      "sum": 927650.98,
+      "count": 303,
+      "sum": 937200.98,
       "min": 59.99,
       "max": 10742,
-      "avg": 3072
+      "avg": 3093
     },
     "2026-07": {
       "count": 423,
@@ -766,19 +766,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 189,
+      "sum": 601793.76,
+      "min": 39.81,
+      "max": 11000,
+      "avg": 3184
+    },
     "reverb": {
       "count": 2680,
       "sum": 7615789.3,
       "min": 33,
       "max": 11185,
       "avg": 2842
-    },
-    "marketplace": {
-      "count": 188,
-      "sum": 592243.76,
-      "min": 39.81,
-      "max": 11000,
-      "avg": 3150
     },
     "other": {
       "count": 100,
@@ -789,6 +789,13 @@
     }
   },
   "byDomain": {
+    "chicagomusicexchange.com": {
+      "count": 104,
+      "sum": 406733.98,
+      "min": 350,
+      "max": 11099,
+      "avg": 3911
+    },
     "reverb.com": {
       "count": 2680,
       "sum": 7615789.3,
@@ -809,13 +816,6 @@
       "min": 59.99,
       "max": 6999,
       "avg": 2443
-    },
-    "chicagomusicexchange.com": {
-      "count": 103,
-      "sum": 397183.98,
-      "min": 350,
-      "max": 11099,
-      "avg": 3856
     },
     "thomann.de": {
       "count": 1,
@@ -1071,6 +1071,37 @@
     }
   },
   "byModel": {
+    "padalka-baryon": {
+      "displayName": "Padalka Baryon",
+      "brand": "Padalka",
+      "model": "Baryon",
+      "variant": null,
+      "count": 1,
+      "sum": 9550,
+      "min": 9550,
+      "max": 9550,
+      "sightings": [
+        {
+          "price": 9550,
+          "date": "2026-08-26T19:45:35.076Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Padalka Baryon",
+          "url": "https://www.chicagomusicexchange.com/products/padalka-baryon-2383911",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 9550,
+          "min": 9550,
+          "max": 9550,
+          "avg": 9550
+        }
+      },
+      "avg": 9550
+    },
     "padalka-tourmaline": {
       "displayName": "Padalka Tourmaline 6",
       "brand": "Padalka",
@@ -94747,12 +94778,12 @@
   },
   "byBrandPrice": {
     "Padalka": {
-      "count": 3,
+      "count": 4,
       "min": 2455,
       "max": 10599,
       "soldCount": 0,
       "outliersExcluded": 0,
-      "avg": 6001,
+      "avg": 6889,
       "soldAvg": null
     },
     "Fender": {
@@ -97664,6 +97695,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 262,
+      "sum": 1169266.1899999997,
+      "sold": {
+        "count": 38,
+        "sum": 180268.59,
+        "avg": 4744,
+        "min": 580.29,
+        "max": 35099
+      },
+      "avg": 4463,
+      "min": 135,
+      "max": 35099
+    },
     "Fair": {
       "count": 42,
       "sum": 114610,
@@ -97705,20 +97750,6 @@
       "avg": 3196,
       "min": 33,
       "max": 437713.69
-    },
-    "Brand New": {
-      "count": 261,
-      "sum": 1159716.19,
-      "sold": {
-        "count": 38,
-        "sum": 180268.59,
-        "avg": 4744,
-        "min": 580.29,
-        "max": 35099
-      },
-      "avg": 4443,
-      "min": 135,
-      "max": 35099
     },
     "Good": {
       "count": 330,
@@ -97813,9 +97844,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 3072,
-      "median": 2605,
-      "count": 302
+      "avg": 3093,
+      "median": 2610,
+      "count": 303
     },
     "07": {
       "name": "Jul",
@@ -98008,7 +98039,7 @@
     "1k-2k": 936,
     "2k-3k": 609,
     "3k-5k": 651,
-    "5k-10k": 372,
+    "5k-10k": 373,
     "10k+": 106
   },
   "priceDistributionFiltered": {
@@ -98017,14 +98048,14 @@
     "1k-2k": 936,
     "2k-3k": 609,
     "3k-5k": 651,
-    "5k-10k": 372,
+    "5k-10k": 373,
     "10k+": 20
   },
   "daysOnMarket": {
     "Padalka": {
       "sum": 140,
-      "count": 2,
-      "avg": 70
+      "count": 3,
+      "avg": 47
     },
     "Fender": {
       "sum": 3279,
@@ -98823,7 +98854,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-26": 4,
+    "2026-08-26": 5,
     "2026-08-25": 15,
     "2026-08-24": 5,
     "2026-08-23": 7,
@@ -98856,11 +98887,11 @@
     "2026-07-27": 3
   },
   "categoryDistribution": {
+    "marketplace": 502,
     "reverb": 2758,
-    "marketplace": 501,
     "other": 111
   },
-  "activeModelsCount": 348,
+  "activeModelsCount": 349,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -98868,7 +98899,7 @@
     },
     {
       "username": "theguitarpit",
-      "count": 587
+      "count": 588
     },
     {
       "username": "Shteefe",
@@ -105167,23 +105198,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3058,
+      "total": 3059,
       "sold": 1035,
       "fake": 0,
-      "live": 952,
+      "live": 953,
       "removed": 1071,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
       "Padalka": {
-        "total": 3,
+        "total": 4,
         "sold": 0,
         "fake": 0,
-        "live": 2,
+        "live": 3,
         "removed": 1,
         "soldPct": 0,
-        "livePct": 67
+        "livePct": 75
       },
       "Fender": {
         "total": 242,
@@ -108423,7 +108454,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 372,
+        "total": 373,
         "sold": 78,
         "rate": 21
       },
@@ -108435,6 +108466,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 262,
+        "sold": 50,
+        "rate": 19
+      },
       "Fair": {
         "total": 42,
         "sold": 16,
@@ -108449,11 +108485,6 @@
         "total": 924,
         "sold": 309,
         "rate": 33
-      },
-      "Brand New": {
-        "total": 261,
-        "sold": 50,
-        "rate": 19
       },
       "Good": {
         "total": 330,
@@ -108771,7 +108802,7 @@
       "live": 35,
       "removed": 36,
       "sellRate": 34,
-      "totalDays": 3673,
+      "totalDays": 3673.2,
       "soldCount": 37,
       "avgDaysToSell": 99.3
     },
@@ -108790,7 +108821,7 @@
       "live": 65,
       "removed": 75,
       "sellRate": 35,
-      "totalDays": 7660.699999999999,
+      "totalDays": 7661.0999999999985,
       "soldCount": 76,
       "avgDaysToSell": 100.8
     },
@@ -108809,7 +108840,7 @@
       "live": 7,
       "removed": 12,
       "sellRate": 42,
-      "totalDays": 1186.8000000000002,
+      "totalDays": 1186.9,
       "soldCount": 11,
       "avgDaysToSell": 84.8
     },
@@ -108828,7 +108859,7 @@
       "live": 30,
       "removed": 61,
       "sellRate": 38,
-      "totalDays": 5646.4000000000015,
+      "totalDays": 5646.700000000002,
       "soldCount": 56,
       "avgDaysToSell": 100.8
     },
@@ -108998,7 +109029,7 @@
       "live": 18,
       "removed": 16,
       "sellRate": 32,
-      "totalDays": 1918.7,
+      "totalDays": 1918.9,
       "soldCount": 14,
       "avgDaysToSell": 119.9
     },
@@ -109036,7 +109067,7 @@
       "live": 9,
       "removed": 8,
       "sellRate": 45,
-      "totalDays": 1704.3,
+      "totalDays": 1704.3999999999999,
       "soldCount": 14,
       "avgDaysToSell": 121.7
     },
@@ -109074,7 +109105,7 @@
       "live": 11,
       "removed": 3,
       "sellRate": 30,
-      "totalDays": 160.10000000000002,
+      "totalDays": 160.2,
       "soldCount": 6,
       "avgDaysToSell": 26.7
     },
@@ -109129,9 +109160,9 @@
       "live": 5,
       "removed": 5,
       "sellRate": 41,
-      "totalDays": 730.4,
+      "totalDays": 730.4999999999999,
       "soldCount": 7,
-      "avgDaysToSell": 104.3
+      "avgDaysToSell": 104.4
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -109148,7 +109179,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 36,
-      "totalDays": 153,
+      "totalDays": 153.1,
       "soldCount": 4,
       "avgDaysToSell": 38.3
     },
@@ -109205,7 +109236,7 @@
       "live": 14,
       "removed": 11,
       "sellRate": 24,
-      "totalDays": 900.4,
+      "totalDays": 900.5,
       "soldCount": 8,
       "avgDaysToSell": 112.6
     },
@@ -109224,7 +109255,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 67,
-      "totalDays": 816,
+      "totalDays": 816.1000000000001,
       "soldCount": 10,
       "avgDaysToSell": 81.6
     },
@@ -109243,9 +109274,9 @@
       "live": 37,
       "removed": 27,
       "sellRate": 42,
-      "totalDays": 3522.6000000000004,
+      "totalDays": 3523,
       "soldCount": 47,
-      "avgDaysToSell": 74.9
+      "avgDaysToSell": 75
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -109262,7 +109293,7 @@
       "live": 18,
       "removed": 13,
       "sellRate": 43,
-      "totalDays": 2000.9,
+      "totalDays": 2001.2,
       "soldCount": 23,
       "avgDaysToSell": 87
     },
@@ -109563,7 +109594,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 635.9000000000001,
+      "totalDays": 636,
       "soldCount": 6,
       "avgDaysToSell": 106
     },
@@ -109714,7 +109745,7 @@
       "live": 6,
       "removed": 1,
       "sellRate": 36,
-      "totalDays": 440.3,
+      "totalDays": 440.40000000000003,
       "soldCount": 4,
       "avgDaysToSell": 110.1
     },
@@ -109752,7 +109783,7 @@
       "live": 5,
       "removed": 9,
       "sellRate": 18,
-      "totalDays": 170,
+      "totalDays": 170.1,
       "soldCount": 3,
       "avgDaysToSell": 56.7
     },
@@ -109902,9 +109933,9 @@
       "live": 13,
       "removed": 9,
       "sellRate": 33,
-      "totalDays": 1173,
+      "totalDays": 1173.2,
       "soldCount": 11,
-      "avgDaysToSell": 106.6
+      "avgDaysToSell": 106.7
     },
     "Taylor|Taylor GS Mini": {
       "brand": "Taylor",
@@ -110147,7 +110178,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 173.60000000000002,
+      "totalDays": 173.7,
       "soldCount": 3,
       "avgDaysToSell": 57.9
     },
@@ -110482,9 +110513,9 @@
       "live": 4,
       "removed": 1,
       "sellRate": 17,
-      "totalDays": 125.9,
+      "totalDays": 126,
       "soldCount": 1,
-      "avgDaysToSell": 125.9
+      "avgDaysToSell": 126
     },
     "Schecter|Schecter Korea": {
       "brand": "Schecter",
@@ -110633,7 +110664,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 279.2,
+      "totalDays": 279.29999999999995,
       "soldCount": 2,
       "avgDaysToSell": 139.6
     },
