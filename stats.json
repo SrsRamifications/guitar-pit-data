@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-08-27T16:37:43.419Z",
-  "totalLinks": 3380,
-  "totalEver": 4225,
-  "totalBeforeFilter": 4225,
+  "generatedAt": "2026-08-27T16:44:32.957Z",
+  "totalLinks": 3381,
+  "totalEver": 4226,
+  "totalBeforeFilter": 4226,
   "fakeCount": 6,
   "removedCount": 1553,
-  "totalWithPrice": 3062,
+  "totalWithPrice": 3063,
   "overall": {
-    "count": 2976,
-    "sum": 8523118.21,
+    "count": 2977,
+    "sum": 8525617.21,
     "avg": 2864,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2976,
-    "sum": 8523118.21,
+    "count": 2977,
+    "sum": 8525617.21,
     "avg": 2864,
     "min": 10.49,
     "max": 11185,
@@ -709,11 +709,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 310,
-      "sum": 952149.98,
+      "count": 311,
+      "sum": 954648.98,
       "min": 59.99,
       "max": 10742,
-      "avg": 3071
+      "avg": 3070
     },
     "2026-07": {
       "count": 423,
@@ -766,19 +766,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 190,
+      "sum": 604292.76,
+      "min": 39.81,
+      "max": 11000,
+      "avg": 3180
+    },
     "reverb": {
       "count": 2687,
       "sum": 7630750.3,
       "min": 33,
       "max": 11185,
       "avg": 2840
-    },
-    "marketplace": {
-      "count": 189,
-      "sum": 601793.76,
-      "min": 39.81,
-      "max": 11000,
-      "avg": 3184
     },
     "other": {
       "count": 100,
@@ -789,6 +789,13 @@
     }
   },
   "byDomain": {
+    "gibson.com": {
+      "count": 6,
+      "sum": 14715.98,
+      "min": 59.99,
+      "max": 6999,
+      "avg": 2453
+    },
     "reverb.com": {
       "count": 2687,
       "sum": 7630750.3,
@@ -809,13 +816,6 @@
       "min": 1699,
       "max": 11000,
       "avg": 6732
-    },
-    "gibson.com": {
-      "count": 5,
-      "sum": 12216.98,
-      "min": 59.99,
-      "max": 6999,
-      "avg": 2443
     },
     "thomann.de": {
       "count": 1,
@@ -1071,6 +1071,61 @@
     }
   },
   "byModel": {
+    "gibson-victory-baritone-british": {
+      "displayName": "Gibson Victory Baritone, British Racing Green",
+      "brand": "Gibson",
+      "model": "Victory Baritone, British",
+      "variant": null,
+      "count": 2,
+      "sum": 4998,
+      "min": 2499,
+      "max": 2499,
+      "sightings": [
+        {
+          "price": 2499,
+          "date": "2026-08-25T16:09:04.733Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Victory Baritone, British Racing Green",
+          "url": "https://www.gibson.com/products/gibson-victory-baritone-british-racing-green",
+          "condition": null
+        },
+        {
+          "price": 2499,
+          "date": "2026-08-27T16:44:16.382Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Victory Baritone, British Racing Green",
+          "url": "https://www.gibson.com/en-eu/products/gibson-victory-baritone-british-racing-green",
+          "condition": null
+        }
+      ],
+      "byCondition": {
+        "Unknown": {
+          "count": 2,
+          "sum": 4998,
+          "min": 2499,
+          "max": 2499,
+          "avg": 2499
+        }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 2499,
+        "min": 2499,
+        "max": 2499,
+        "prices": [
+          {
+            "price": 2499,
+            "askingPrice": 2499,
+            "date": "2026-08-25T18:08:18.947Z",
+            "title": "Gibson Victory Baritone, British Racing Green",
+            "url": "https://www.gibson.com/products/gibson-victory-baritone-british-racing-green"
+          }
+        ]
+      },
+      "avg": 2499
+    },
     "kiesel-stratocaster-signature-custom-shop": {
       "displayName": "Kiesel JB24 “Numbers” Jason Becker Signature - Natural - Custom Shop Super Strat - Floyd Rose",
       "brand": "Kiesel",
@@ -2604,52 +2659,6 @@
           "recentCount": 4
         }
       }
-    },
-    "gibson-victory-baritone-british": {
-      "displayName": "Gibson Victory Baritone, British Racing Green",
-      "brand": "Gibson",
-      "model": "Victory Baritone, British",
-      "variant": null,
-      "count": 1,
-      "sum": 2499,
-      "min": 2499,
-      "max": 2499,
-      "sightings": [
-        {
-          "price": 2499,
-          "date": "2026-08-25T16:09:04.733Z",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Victory Baritone, British Racing Green",
-          "url": "https://www.gibson.com/products/gibson-victory-baritone-british-racing-green",
-          "condition": null
-        }
-      ],
-      "byCondition": {
-        "Unknown": {
-          "count": 1,
-          "sum": 2499,
-          "min": 2499,
-          "max": 2499,
-          "avg": 2499
-        }
-      },
-      "soldData": {
-        "count": 1,
-        "avg": 2499,
-        "min": 2499,
-        "max": 2499,
-        "prices": [
-          {
-            "price": 2499,
-            "askingPrice": 2499,
-            "date": "2026-08-25T18:08:18.947Z",
-            "title": "Gibson Victory Baritone, British Racing Green",
-            "url": "https://www.gibson.com/products/gibson-victory-baritone-british-racing-green"
-          }
-        ]
-      },
-      "avg": 2499
     },
     "gibson-les-paul-custom-custom-shop": {
       "displayName": "Gibson Special Order Custom Shop Les Paul Custom",
@@ -95054,6 +95063,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 355,
+      "min": 59.99,
+      "max": 11099,
+      "soldCount": 135,
+      "outliersExcluded": 11,
+      "avg": 3605,
+      "soldAvg": 3106
+    },
     "Kiesel": {
       "count": 143,
       "min": 650,
@@ -95080,15 +95098,6 @@
       "outliersExcluded": 0,
       "avg": 2039,
       "soldAvg": 1059
-    },
-    "Gibson": {
-      "count": 354,
-      "min": 59.99,
-      "max": 11099,
-      "soldCount": 135,
-      "outliersExcluded": 11,
-      "avg": 3608,
-      "soldAvg": 3106
     },
     "LSL": {
       "count": 8,
@@ -98130,9 +98139,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 3071,
+      "avg": 3070,
       "median": 2600,
-      "count": 310
+      "count": 311
     },
     "07": {
       "name": "Jul",
@@ -98323,7 +98332,7 @@
     "0-500": 100,
     "500-1k": 281,
     "1k-2k": 939,
-    "2k-3k": 611,
+    "2k-3k": 612,
     "3k-5k": 652,
     "5k-10k": 373,
     "10k+": 106
@@ -98332,14 +98341,19 @@
     "0-500": 100,
     "500-1k": 281,
     "1k-2k": 939,
-    "2k-3k": 611,
+    "2k-3k": 612,
     "3k-5k": 652,
     "5k-10k": 373,
     "10k+": 20
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4749,
+      "count": 111,
+      "avg": 43
+    },
     "Kiesel": {
-      "sum": 2564,
+      "sum": 2565,
       "count": 55,
       "avg": 47
     },
@@ -98352,11 +98366,6 @@
       "sum": 343,
       "count": 10,
       "avg": 34
-    },
-    "Gibson": {
-      "sum": 4748,
-      "count": 110,
-      "avg": 43
     },
     "LSL": {
       "sum": 2,
@@ -98389,7 +98398,7 @@
       "avg": 49
     },
     "PRS": {
-      "sum": 3810,
+      "sum": 3811,
       "count": 77,
       "avg": 49
     },
@@ -99150,7 +99159,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-27": 7,
+    "2026-08-27": 8,
     "2026-08-26": 7,
     "2026-08-25": 15,
     "2026-08-24": 5,
@@ -99183,8 +99192,8 @@
     "2026-07-28": 15
   },
   "categoryDistribution": {
+    "marketplace": 505,
     "reverb": 2765,
-    "marketplace": 504,
     "other": 111
   },
   "activeModelsCount": 333,
@@ -99294,10 +99303,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 6001,
+      "avgPrice": 5991,
       "retailEst": 800,
-      "avgDiscount": -650.1,
-      "count": 369
+      "avgDiscount": -648.9,
+      "count": 370
     },
     "Epiphone": {
       "avgPrice": 2456,
@@ -105543,15 +105552,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3068,
+      "total": 3069,
       "sold": 1040,
       "fake": 0,
-      "live": 958,
+      "live": 959,
       "removed": 1070,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "Gibson": {
+        "total": 382,
+        "sold": 138,
+        "fake": 0,
+        "live": 109,
+        "removed": 135,
+        "soldPct": 36,
+        "livePct": 29
+      },
       "Kiesel": {
         "total": 146,
         "sold": 71,
@@ -105578,15 +105596,6 @@
         "removed": 7,
         "soldPct": 29,
         "livePct": 48
-      },
-      "Gibson": {
-        "total": 381,
-        "sold": 138,
-        "fake": 0,
-        "live": 108,
-        "removed": 135,
-        "soldPct": 36,
-        "livePct": 28
       },
       "Martin": {
         "total": 46,
@@ -108796,7 +108805,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 611,
+        "total": 612,
         "sold": 238,
         "rate": 39
       },
@@ -109176,6 +109185,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 219,
+      "sum": 1110849.0199999998,
+      "avg": 5072,
+      "min": 59.99,
+      "max": 437713.69,
+      "sold": 78,
+      "soldSum": 226795.92999999996,
+      "soldAvg": 2908,
+      "live": 66,
+      "removed": 75,
+      "sellRate": 36,
+      "totalDays": 7750.5,
+      "soldCount": 78,
+      "avgDaysToSell": 99.4
+    },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
       "brandLine": "Kiesel / Carvin",
@@ -109191,7 +109219,7 @@
       "live": 37,
       "removed": 27,
       "sellRate": 43,
-      "totalDays": 3588.5000000000005,
+      "totalDays": 3588.9,
       "soldCount": 48,
       "avgDaysToSell": 74.8
     },
@@ -109210,28 +109238,9 @@
       "live": 4,
       "removed": 0,
       "sellRate": 20,
-      "totalDays": 59.1,
+      "totalDays": 59.2,
       "soldCount": 1,
-      "avgDaysToSell": 59.1
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 218,
-      "sum": 1108350.0199999998,
-      "avg": 5084,
-      "min": 59.99,
-      "max": 437713.69,
-      "sold": 78,
-      "soldSum": 226795.92999999996,
-      "soldAvg": 2908,
-      "live": 65,
-      "removed": 75,
-      "sellRate": 36,
-      "totalDays": 7750.2,
-      "soldCount": 78,
-      "avgDaysToSell": 99.4
+      "avgDaysToSell": 59.2
     },
     "Bourgeois|Bourgeois": {
       "brand": "Bourgeois",
@@ -109322,7 +109331,7 @@
       "live": 30,
       "removed": 61,
       "sellRate": 38,
-      "totalDays": 5694.5999999999985,
+      "totalDays": 5694.899999999999,
       "soldCount": 56,
       "avgDaysToSell": 101.7
     },
@@ -109341,9 +109350,9 @@
       "live": 9,
       "removed": 10,
       "sellRate": 54,
-      "totalDays": 1268.2,
+      "totalDays": 1268.3000000000002,
       "soldCount": 22,
-      "avgDaysToSell": 57.6
+      "avgDaysToSell": 57.7
     },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
@@ -109530,7 +109539,7 @@
       "live": 9,
       "removed": 8,
       "sellRate": 45,
-      "totalDays": 1716.7,
+      "totalDays": 1716.8,
       "soldCount": 14,
       "avgDaysToSell": 122.6
     },
@@ -109549,9 +109558,9 @@
       "live": 5,
       "removed": 3,
       "sellRate": 47,
-      "totalDays": 643.6,
+      "totalDays": 643.6999999999999,
       "soldCount": 7,
-      "avgDaysToSell": 91.9
+      "avgDaysToSell": 92
     },
     "Martin|Martin USA": {
       "brand": "Martin",
@@ -109568,9 +109577,9 @@
       "live": 11,
       "removed": 3,
       "sellRate": 30,
-      "totalDays": 165.2,
+      "totalDays": 165.29999999999998,
       "soldCount": 6,
-      "avgDaysToSell": 27.5
+      "avgDaysToSell": 27.6
     },
     "Taylor|Taylor Mexico": {
       "brand": "Taylor",
@@ -109756,7 +109765,7 @@
       "live": 4,
       "removed": 2,
       "sellRate": 40,
-      "totalDays": 369.2,
+      "totalDays": 369.3,
       "soldCount": 4,
       "avgDaysToSell": 92.3
     },
@@ -109813,7 +109822,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 40,
-      "totalDays": 201.2,
+      "totalDays": 201.3,
       "soldCount": 4,
       "avgDaysToSell": 50.3
     },
@@ -110434,7 +110443,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 416.5,
+      "totalDays": 416.59999999999997,
       "soldCount": 5,
       "avgDaysToSell": 83.3
     },
@@ -110957,7 +110966,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 285.70000000000005,
+      "totalDays": 285.8,
       "soldCount": 2,
       "avgDaysToSell": 142.9
     },
