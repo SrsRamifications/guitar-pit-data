@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-08-27T00:04:31.255Z",
-  "totalLinks": 3375,
-  "totalEver": 4215,
-  "totalBeforeFilter": 4215,
+  "generatedAt": "2026-08-27T00:05:47.537Z",
+  "totalLinks": 3376,
+  "totalEver": 4216,
+  "totalBeforeFilter": 4216,
   "fakeCount": 6,
   "removedCount": 1554,
-  "totalWithPrice": 3057,
+  "totalWithPrice": 3058,
   "overall": {
-    "count": 2971,
-    "sum": 8512232.21,
+    "count": 2972,
+    "sum": 8513427.21,
     "avg": 2865,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 2971,
-    "sum": 8512232.21,
+    "count": 2972,
+    "sum": 8513427.21,
     "avg": 2865,
     "min": 10.49,
     "max": 11185,
@@ -709,11 +709,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 305,
-      "sum": 941275.98,
+      "count": 306,
+      "sum": 942470.98,
       "min": 59.99,
       "max": 10742,
-      "avg": 3086
+      "avg": 3080
     },
     "2026-07": {
       "count": 423,
@@ -767,11 +767,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2682,
-      "sum": 7619864.3,
+      "count": 2683,
+      "sum": 7621059.3,
       "min": 33,
       "max": 11185,
-      "avg": 2841
+      "avg": 2840
     },
     "marketplace": {
       "count": 189,
@@ -790,11 +790,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2682,
-      "sum": 7619864.3,
+      "count": 2683,
+      "sum": 7621059.3,
       "min": 33,
       "max": 11185,
-      "avg": 2841
+      "avg": 2840
     },
     "chicagomusicexchange.com": {
       "count": 104,
@@ -1071,6 +1071,37 @@
     }
   },
   "byModel": {
+    "gibson-wm-00": {
+      "displayName": "1999 Gibson WM-00",
+      "brand": "Gibson",
+      "model": "WM-00",
+      "variant": null,
+      "count": 1,
+      "sum": 1195,
+      "min": 1195,
+      "max": 1195,
+      "sightings": [
+        {
+          "price": 1195,
+          "date": "2026-08-27T00:05:34.508Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1999 Gibson WM-00",
+          "url": "https://reverb.com/item/101056462",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 1195,
+          "min": 1195,
+          "max": 1195,
+          "avg": 1195
+        }
+      },
+      "avg": 1195
+    },
     "lsl-bone-one-2020s": {
       "displayName": "LsL Instruments T Bone one B 2020s - Translucent white",
       "brand": "LSL",
@@ -94861,6 +94892,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 353,
+      "min": 59.99,
+      "max": 11099,
+      "soldCount": 133,
+      "outliersExcluded": 11,
+      "avg": 3612,
+      "soldAvg": 3121
+    },
     "LSL": {
       "count": 8,
       "min": 1499,
@@ -94887,15 +94927,6 @@
       "outliersExcluded": 20,
       "avg": 3101,
       "soldAvg": 2860
-    },
-    "Gibson": {
-      "count": 352,
-      "min": 59.99,
-      "max": 11099,
-      "soldCount": 133,
-      "outliersExcluded": 11,
-      "avg": 3619,
-      "soldAvg": 3121
     },
     "Kalamazoo": {
       "count": 1,
@@ -97779,6 +97810,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 926,
+      "sum": 2956918.8100000066,
+      "sold": {
+        "count": 308,
+        "sum": 669295.88,
+        "avg": 2173,
+        "min": 68,
+        "max": 19995
+      },
+      "avg": 3193,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 1122,
       "sum": 4753186.360000011,
@@ -97792,20 +97837,6 @@
       "avg": 4236,
       "min": 110,
       "max": 295000
-    },
-    "Very Good": {
-      "count": 925,
-      "sum": 2955723.8100000066,
-      "sold": {
-        "count": 308,
-        "sum": 669295.88,
-        "avg": 2173,
-        "min": 68,
-        "max": 19995
-      },
-      "avg": 3195,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 262,
@@ -97928,9 +97959,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 3086,
-      "median": 2610,
-      "count": 305
+      "avg": 3080,
+      "median": 2605,
+      "count": 306
     },
     "07": {
       "name": "Jul",
@@ -98120,7 +98151,7 @@
   "priceDistribution": {
     "0-500": 100,
     "500-1k": 280,
-    "1k-2k": 937,
+    "1k-2k": 938,
     "2k-3k": 610,
     "3k-5k": 651,
     "5k-10k": 373,
@@ -98129,13 +98160,18 @@
   "priceDistributionFiltered": {
     "0-500": 100,
     "500-1k": 280,
-    "1k-2k": 937,
+    "1k-2k": 938,
     "2k-3k": 610,
     "3k-5k": 651,
     "5k-10k": 373,
     "10k+": 20
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 4630,
+      "count": 109,
+      "avg": 42
+    },
     "LSL": {
       "sum": 1,
       "count": 1,
@@ -98150,11 +98186,6 @@
       "sum": 3283,
       "count": 74,
       "avg": 44
-    },
-    "Gibson": {
-      "sum": 4630,
-      "count": 108,
-      "avg": 43
     },
     "Kalamazoo": {
       "sum": 28,
@@ -98882,9 +98913,9 @@
       "avg": 71
     },
     "FM": {
-      "sum": 71,
+      "sum": 72,
       "count": 1,
-      "avg": 71
+      "avg": 72
     },
     "Micro-Frets": {
       "sum": 72,
@@ -98943,7 +98974,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-08-27": 2,
+    "2026-08-27": 3,
     "2026-08-26": 7,
     "2026-08-25": 15,
     "2026-08-24": 5,
@@ -98976,15 +99007,15 @@
     "2026-07-28": 39
   },
   "categoryDistribution": {
+    "reverb": 2761,
     "marketplace": 504,
-    "reverb": 2760,
     "other": 111
   },
-  "activeModelsCount": 349,
+  "activeModelsCount": 350,
   "topPosters": [
     {
       "username": "Benson Kent",
-      "count": 601
+      "count": 602
     },
     {
       "username": "theguitarpit",
@@ -99087,10 +99118,10 @@
       "count": 12
     },
     "Gibson": {
-      "avgPrice": 6024,
+      "avgPrice": 6011,
       "retailEst": 800,
-      "avgDiscount": -653,
-      "count": 367
+      "avgDiscount": -651.4,
+      "count": 368
     },
     "Epiphone": {
       "avgPrice": 2456,
@@ -105307,15 +105338,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3063,
+      "total": 3064,
       "sold": 1037,
       "fake": 0,
-      "live": 955,
+      "live": 956,
       "removed": 1071,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "Gibson": {
+        "total": 380,
+        "sold": 136,
+        "fake": 0,
+        "live": 109,
+        "removed": 135,
+        "soldPct": 36,
+        "livePct": 29
+      },
       "Martin": {
         "total": 46,
         "sold": 20,
@@ -105360,15 +105400,6 @@
         "removed": 88,
         "soldPct": 34,
         "livePct": 30
-      },
-      "Gibson": {
-        "total": 379,
-        "sold": 136,
-        "fake": 0,
-        "live": 108,
-        "removed": 135,
-        "soldPct": 36,
-        "livePct": 28
       },
       "Kalamazoo": {
         "total": 1,
@@ -108545,7 +108576,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 937,
+        "total": 938,
         "sold": 374,
         "rate": 40
       },
@@ -108575,15 +108606,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 926,
+        "sold": 310,
+        "rate": 33
+      },
       "Excellent": {
         "total": 1122,
         "sold": 420,
         "rate": 37
-      },
-      "Very Good": {
-        "total": 925,
-        "sold": 310,
-        "rate": 34
       },
       "Brand New": {
         "total": 262,
@@ -108896,6 +108927,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 217,
+      "sum": 1106150.0199999998,
+      "avg": 5097,
+      "min": 59.99,
+      "max": 437713.69,
+      "sold": 76,
+      "soldSum": 222600.93,
+      "soldAvg": 2929,
+      "live": 66,
+      "removed": 75,
+      "sellRate": 35,
+      "totalDays": 7674.800000000001,
+      "soldCount": 76,
+      "avgDaysToSell": 101
+    },
     "Bourgeois|Bourgeois": {
       "brand": "Bourgeois",
       "brandLine": "Bourgeois",
@@ -108950,25 +109000,6 @@
       "totalDays": 3679.6,
       "soldCount": 37,
       "avgDaysToSell": 99.4
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 216,
-      "sum": 1104955.0199999998,
-      "avg": 5116,
-      "min": 59.99,
-      "max": 437713.69,
-      "sold": 76,
-      "soldSum": 222600.93,
-      "soldAvg": 2929,
-      "live": 65,
-      "removed": 75,
-      "sellRate": 35,
-      "totalDays": 7674.800000000001,
-      "soldCount": 76,
-      "avgDaysToSell": 101
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -109042,7 +109073,7 @@
       "live": 24,
       "removed": 26,
       "sellRate": 32,
-      "totalDays": 2249.8,
+      "totalDays": 2249.9,
       "soldCount": 23,
       "avgDaysToSell": 97.8
     },
@@ -109080,9 +109111,9 @@
       "live": 6,
       "removed": 4,
       "sellRate": 44,
-      "totalDays": 1031.5000000000002,
+      "totalDays": 1031.6000000000001,
       "soldCount": 8,
-      "avgDaysToSell": 128.9
+      "avgDaysToSell": 129
     },
     "James Tyler|James Tyler Studio Elite": {
       "brand": "James Tyler",
@@ -109155,9 +109186,9 @@
       "live": 2,
       "removed": 2,
       "sellRate": 20,
-      "totalDays": 143.8,
+      "totalDays": 143.9,
       "soldCount": 1,
-      "avgDaysToSell": 143.8
+      "avgDaysToSell": 143.9
     },
     "BC Rich|BC Rich Import": {
       "brand": "BC Rich",
@@ -110417,9 +110448,9 @@
       "live": 2,
       "removed": 1,
       "sellRate": 25,
-      "totalDays": 104.4,
+      "totalDays": 104.5,
       "soldCount": 1,
-      "avgDaysToSell": 104.4
+      "avgDaysToSell": 104.5
     },
     "Vola|Vola": {
       "brand": "Vola",
@@ -111295,7 +111326,7 @@
     },
     {
       "label": "1–5",
-      "total": 73,
+      "total": 74,
       "sold": 22,
       "rate": 30
     },
@@ -111320,7 +111351,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1017,
+      "total": 1018,
       "sold": 301,
       "rate": 30
     },
@@ -111332,7 +111363,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 745,
+      "total": 746,
       "sold": 169,
       "rate": 23
     },
@@ -111429,9 +111460,9 @@
     },
     {
       "state": "MA",
-      "total": 27,
+      "total": 28,
       "sold": 11,
-      "rate": 41
+      "rate": 39
     },
     {
       "state": "OR",
