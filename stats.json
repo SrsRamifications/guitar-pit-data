@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-08-30T00:07:52.258Z",
-  "totalLinks": 3398,
-  "totalEver": 4248,
-  "totalBeforeFilter": 4248,
+  "generatedAt": "2026-08-30T00:46:32.462Z",
+  "totalLinks": 3399,
+  "totalEver": 4249,
+  "totalBeforeFilter": 4249,
   "fakeCount": 6,
   "removedCount": 1561,
-  "totalWithPrice": 3078,
+  "totalWithPrice": 3079,
   "overall": {
-    "count": 2994,
-    "sum": 8616450.21,
+    "count": 2995,
+    "sum": 8618649.21,
     "avg": 2878,
     "min": 10.49,
     "max": 11500
   },
   "filtered": {
-    "count": 2994,
-    "sum": 8616450.21,
+    "count": 2995,
+    "sum": 8618649.21,
     "avg": 2878,
     "min": 10.49,
     "max": 11500,
@@ -693,11 +693,11 @@
   },
   "byMonth": {
     "2026-08": {
-      "count": 326,
-      "sum": 1022630.98,
+      "count": 327,
+      "sum": 1024829.98,
       "min": 59.99,
       "max": 10995,
-      "avg": 3137
+      "avg": 3134
     },
     "2026-07": {
       "count": 423,
@@ -751,8 +751,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2696,
-      "sum": 7661339.3,
+      "count": 2697,
+      "sum": 7663538.3,
       "min": 33,
       "max": 11500,
       "avg": 2842
@@ -774,8 +774,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2696,
-      "sum": 7661339.3,
+      "count": 2697,
+      "sum": 7663538.3,
       "min": 33,
       "max": 11500,
       "avg": 2842
@@ -1055,6 +1055,53 @@
     }
   },
   "byModel": {
+    "ibanez-rg-j-custom": {
+      "displayName": "Ibanez RG8270F-VV J Custom Guitar with Case 2005 - Flame Top",
+      "brand": "Ibanez",
+      "model": "RG",
+      "variant": "J Custom",
+      "count": 2,
+      "sum": 4198.99,
+      "min": 1999.99,
+      "max": 2199,
+      "sightings": [
+        {
+          "price": 1999.99,
+          "date": "2026-05-22T20:27:16.537+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Used 2022 Ibanez JCRG20126 J Custom Royal Blue Solid Body Electric Guitar Royal Blue",
+          "url": "https://www.guitarcenter.com/Used/Ibanez/Used-2022-Ibanez-JCRG20126-J-Custom-Royal-Blue-Solid-Body-Electric-Guitar-122328793.gc?algoliaQueryID=8a66151367128c7fea8d2b5b9f06d34f&algoliaIndexName=pHL-guitarcenter",
+          "condition": "Used"
+        },
+        {
+          "price": 2199,
+          "date": "2026-08-30T00:46:18.220Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez RG8270F-VV J Custom Guitar with Case 2005 - Flame Top",
+          "url": "https://reverb.com/item/100601419",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2199,
+          "min": 2199,
+          "max": 2199,
+          "avg": 2199
+        },
+        "Used": {
+          "count": 1,
+          "sum": 1999.99,
+          "min": 1999.99,
+          "max": 1999.99,
+          "avg": 2000
+        }
+      },
+      "avg": 2099
+    },
     "gibson-es-335-custom-shop-59": {
       "displayName": "Gibson Custom Shop '59 ES-335 - Gloss KJ Pink Harmony",
       "brand": "Gibson",
@@ -44584,37 +44631,6 @@
         }
       },
       "avg": 1900
-    },
-    "ibanez-rg-j-custom": {
-      "displayName": "Used 2022 Ibanez JCRG20126 J Custom Royal Blue Solid Body Electric Guitar Royal Blue",
-      "brand": "Ibanez",
-      "model": "RG",
-      "variant": "J Custom",
-      "count": 1,
-      "sum": 1999.99,
-      "min": 1999.99,
-      "max": 1999.99,
-      "sightings": [
-        {
-          "price": 1999.99,
-          "date": "2026-05-22T20:27:16.537+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Used 2022 Ibanez JCRG20126 J Custom Royal Blue Solid Body Electric Guitar Royal Blue",
-          "url": "https://www.guitarcenter.com/Used/Ibanez/Used-2022-Ibanez-JCRG20126-J-Custom-Royal-Blue-Solid-Body-Electric-Guitar-122328793.gc?algoliaQueryID=8a66151367128c7fea8d2b5b9f06d34f&algoliaIndexName=pHL-guitarcenter",
-          "condition": "Used"
-        }
-      ],
-      "byCondition": {
-        "Used": {
-          "count": 1,
-          "sum": 1999.99,
-          "min": 1999.99,
-          "max": 1999.99,
-          "avg": 2000
-        }
-      },
-      "avg": 2000
     },
     "bc-rich-ironbird-mkii-extreme": {
       "displayName": "B.C. Rich Ironbird MkII Extreme 2023 - Black",
@@ -95492,6 +95508,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 137,
+      "min": 173.3,
+      "max": 9995,
+      "soldCount": 57,
+      "outliersExcluded": 6,
+      "avg": 2255,
+      "soldAvg": 1843
+    },
     "Gibson": {
       "count": 362,
       "min": 59.99,
@@ -95887,15 +95912,6 @@
       "outliersExcluded": 0,
       "avg": 1909,
       "soldAvg": 2500
-    },
-    "Ibanez": {
-      "count": 136,
-      "min": 173.3,
-      "max": 9995,
-      "soldCount": 57,
-      "outliersExcluded": 6,
-      "avg": 2256,
-      "soldAvg": 1843
     },
     "Epiphone": {
       "count": 32,
@@ -98429,8 +98445,8 @@
   },
   "byCondition": {
     "Very Good": {
-      "count": 932,
-      "sum": 2972797.8100000066,
+      "count": 933,
+      "sum": 2974996.8100000066,
       "sold": {
         "count": 310,
         "sum": 672240.8799999999,
@@ -98438,7 +98454,7 @@
         "min": 68,
         "max": 19995
       },
-      "avg": 3190,
+      "avg": 3189,
       "min": 33,
       "max": 437713.69
     },
@@ -98577,9 +98593,9 @@
   "seasonal": {
     "08": {
       "name": "Aug",
-      "avg": 3137,
+      "avg": 3134,
       "median": 2600,
-      "count": 326
+      "count": 327
     },
     "07": {
       "name": "Jul",
@@ -98770,7 +98786,7 @@
     "0-500": 100,
     "500-1k": 282,
     "1k-2k": 943,
-    "2k-3k": 614,
+    "2k-3k": 615,
     "3k-5k": 654,
     "5k-10k": 378,
     "10k+": 107
@@ -98779,16 +98795,21 @@
     "0-500": 100,
     "500-1k": 282,
     "1k-2k": 943,
-    "2k-3k": 614,
+    "2k-3k": 615,
     "3k-5k": 654,
     "5k-10k": 378,
     "10k+": 23
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 2003,
+      "count": 40,
+      "avg": 50
+    },
     "Gibson": {
-      "sum": 4535,
+      "sum": 4537,
       "count": 112,
-      "avg": 40
+      "avg": 41
     },
     "PRS": {
       "sum": 3970,
@@ -98806,12 +98827,12 @@
       "avg": 1
     },
     "Bilt": {
-      "sum": 94,
+      "sum": 95,
       "count": 3,
-      "avg": 31
+      "avg": 32
     },
     "Kiesel": {
-      "sum": 2679,
+      "sum": 2680,
       "count": 55,
       "avg": 49
     },
@@ -98836,7 +98857,7 @@
       "avg": 50
     },
     "Fender": {
-      "sum": 3505,
+      "sum": 3506,
       "count": 74,
       "avg": 47
     },
@@ -98851,7 +98872,7 @@
       "avg": 46
     },
     "Jackson": {
-      "sum": 1420,
+      "sum": 1422,
       "count": 28,
       "avg": 51
     },
@@ -98931,7 +98952,7 @@
       "avg": 11
     },
     "Aristides": {
-      "sum": 348,
+      "sum": 350,
       "count": 8,
       "avg": 44
     },
@@ -98970,11 +98991,6 @@
       "count": 3,
       "avg": 31
     },
-    "Ibanez": {
-      "sum": 1988,
-      "count": 39,
-      "avg": 51
-    },
     "Kramer": {
       "sum": 307,
       "count": 7,
@@ -98986,7 +99002,7 @@
       "avg": 42
     },
     "Luxxtone": {
-      "sum": 222,
+      "sum": 223,
       "count": 6,
       "avg": 37
     },
@@ -99006,9 +99022,9 @@
       "avg": 18
     },
     "Maestro": {
-      "sum": 36,
+      "sum": 37,
       "count": 1,
-      "avg": 36
+      "avg": 37
     },
     "Renaissance": {
       "sum": 17,
@@ -99226,9 +99242,9 @@
       "avg": 39
     },
     "Mario Beauregard": {
-      "sum": 71,
+      "sum": 72,
       "count": 1,
-      "avg": 71
+      "avg": 72
     },
     "Defil": {
       "sum": 30,
@@ -99602,6 +99618,7 @@
     }
   },
   "listingsPerDay": {
+    "2026-08-30": 1,
     "2026-08-29": 9,
     "2026-08-28": 7,
     "2026-08-27": 9,
@@ -99634,11 +99651,11 @@
     "2026-07-31": 17
   },
   "categoryDistribution": {
-    "reverb": 2773,
+    "reverb": 2774,
     "marketplace": 514,
     "other": 111
   },
-  "activeModelsCount": 312,
+  "activeModelsCount": 313,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -99650,7 +99667,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 383
+      "count": 384
     },
     {
       "username": "WontonGG",
@@ -99769,10 +99786,10 @@
       "count": 261
     },
     "Ibanez": {
-      "avgPrice": 3016,
+      "avgPrice": 3010,
       "retailEst": 1000,
-      "avgDiscount": -201.6,
-      "count": 143
+      "avgDiscount": -201,
+      "count": 144
     },
     "Jackson": {
       "avgPrice": 4568,
@@ -105385,11 +105402,16 @@
   },
   "negotiationRate": {
     "overall": {
-      "totalPctDrop": 7524.382533702848,
-      "count": 459,
+      "totalPctDrop": 7536.387335623617,
+      "count": 460,
       "avgPctDrop": 16.4
     },
     "byBrand": {
+      "Ibanez": {
+        "totalPctDrop": 456.6907344228972,
+        "count": 25,
+        "avgPctDrop": 18.3
+      },
       "Gibson": {
         "totalPctDrop": 773.2218319141538,
         "count": 52,
@@ -105494,11 +105516,6 @@
         "totalPctDrop": 81.38326640441932,
         "count": 6,
         "avgPctDrop": 13.6
-      },
-      "Ibanez": {
-        "totalPctDrop": 444.6859325021289,
-        "count": 24,
-        "avgPctDrop": 18.5
       },
       "Fender": {
         "totalPctDrop": 561.1080025257095,
@@ -106054,15 +106071,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3086,
+      "total": 3087,
       "sold": 1053,
       "fake": 0,
-      "live": 957,
+      "live": 958,
       "removed": 1076,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 151,
+        "sold": 57,
+        "fake": 0,
+        "live": 49,
+        "removed": 45,
+        "soldPct": 38,
+        "livePct": 32
+      },
       "Gibson": {
         "total": 389,
         "sold": 143,
@@ -106107,15 +106133,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Ibanez": {
-        "total": 150,
-        "sold": 57,
-        "fake": 0,
-        "live": 48,
-        "removed": 45,
-        "soldPct": 38,
-        "livePct": 32
       },
       "Guild": {
         "total": 32,
@@ -109316,7 +109333,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 614,
+        "total": 615,
         "sold": 240,
         "rate": 39
       },
@@ -109341,7 +109358,7 @@
     ],
     "byCondition": {
       "Very Good": {
-        "total": 932,
+        "total": 933,
         "sold": 312,
         "rate": 33
       },
@@ -109668,6 +109685,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez J.Custom": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez J.Custom",
+      "tier": "premium",
+      "count": 35,
+      "sum": 196564.71,
+      "avg": 5616,
+      "min": 1845,
+      "max": 35500,
+      "sold": 11,
+      "soldSum": 34521,
+      "soldAvg": 3138,
+      "live": 15,
+      "removed": 9,
+      "sellRate": 31,
+      "totalDays": 1208.6000000000001,
+      "soldCount": 11,
+      "avgDaysToSell": 109.9
+    },
     "Gibson|Gibson Custom Shop": {
       "brand": "Gibson",
       "brandLine": "Gibson Custom Shop",
@@ -109683,7 +109719,7 @@
       "live": 24,
       "removed": 28,
       "sellRate": 32,
-      "totalDays": 2319.6000000000004,
+      "totalDays": 2320.2000000000007,
       "soldCount": 25,
       "avgDaysToSell": 92.8
     },
@@ -109702,9 +109738,9 @@
       "live": 66,
       "removed": 75,
       "sellRate": 36,
-      "totalDays": 7933.900000000001,
+      "totalDays": 7936.4,
       "soldCount": 81,
-      "avgDaysToSell": 97.9
+      "avgDaysToSell": 98
     },
     "PRS|PRS Private Stock": {
       "brand": "PRS",
@@ -109721,7 +109757,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 47,
-      "totalDays": 426,
+      "totalDays": 426.20000000000005,
       "soldCount": 8,
       "avgDaysToSell": 53.3
     },
@@ -109740,9 +109776,9 @@
       "live": 9,
       "removed": 3,
       "sellRate": 8,
-      "totalDays": 0.3,
+      "totalDays": 0.4,
       "soldCount": 1,
-      "avgDaysToSell": 0.3
+      "avgDaysToSell": 0.4
     },
     "ESP|ESP Custom Shop": {
       "brand": "ESP",
@@ -109762,25 +109798,6 @@
       "totalDays": 20.9,
       "soldCount": 2,
       "avgDaysToSell": 10.5
-    },
-    "Ibanez|Ibanez J.Custom": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez J.Custom",
-      "tier": "premium",
-      "count": 34,
-      "sum": 194365.71,
-      "avg": 5717,
-      "min": 1845,
-      "max": 35500,
-      "sold": 11,
-      "soldSum": 34521,
-      "soldAvg": 3138,
-      "live": 14,
-      "removed": 9,
-      "sellRate": 32,
-      "totalDays": 1207.9,
-      "soldCount": 11,
-      "avgDaysToSell": 109.8
     },
     "Guild|Guild USA": {
       "brand": "Guild",
@@ -109816,9 +109833,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 60,
-      "totalDays": 228.39999999999998,
+      "totalDays": 228.60000000000002,
       "soldCount": 3,
-      "avgDaysToSell": 76.1
+      "avgDaysToSell": 76.2
     },
     "Kiesel|Kiesel / Carvin": {
       "brand": "Kiesel",
@@ -109835,9 +109852,9 @@
       "live": 36,
       "removed": 28,
       "sellRate": 43,
-      "totalDays": 3692.7,
+      "totalDays": 3694.1999999999994,
       "soldCount": 48,
-      "avgDaysToSell": 76.9
+      "avgDaysToSell": 77
     },
     "Bourgeois|Bourgeois": {
       "brand": "Bourgeois",
@@ -109890,7 +109907,7 @@
       "live": 35,
       "removed": 36,
       "sellRate": 34,
-      "totalDays": 3787.7999999999997,
+      "totalDays": 3788.9,
       "soldCount": 37,
       "avgDaysToSell": 102.4
     },
@@ -109909,7 +109926,7 @@
       "live": 7,
       "removed": 12,
       "sellRate": 42,
-      "totalDays": 1231.3999999999999,
+      "totalDays": 1231.9,
       "soldCount": 11,
       "avgDaysToSell": 88
     },
@@ -109928,7 +109945,7 @@
       "live": 30,
       "removed": 61,
       "sellRate": 38,
-      "totalDays": 5821.8,
+      "totalDays": 5823.400000000001,
       "soldCount": 56,
       "avgDaysToSell": 104
     },
@@ -109947,7 +109964,7 @@
       "live": 8,
       "removed": 10,
       "sellRate": 56,
-      "totalDays": 1395.3999999999999,
+      "totalDays": 1396.1,
       "soldCount": 23,
       "avgDaysToSell": 60.7
     },
@@ -109985,7 +110002,7 @@
       "live": 6,
       "removed": 4,
       "sellRate": 44,
-      "totalDays": 1055.6000000000001,
+      "totalDays": 1055.7,
       "soldCount": 8,
       "avgDaysToSell": 132
     },
@@ -110079,7 +110096,7 @@
       "live": 18,
       "removed": 16,
       "sellRate": 32,
-      "totalDays": 1969.9,
+      "totalDays": 1970.2,
       "soldCount": 14,
       "avgDaysToSell": 123.1
     },
@@ -110098,7 +110115,7 @@
       "live": 9,
       "removed": 8,
       "sellRate": 45,
-      "totalDays": 1749,
+      "totalDays": 1749.1999999999998,
       "soldCount": 14,
       "avgDaysToSell": 124.9
     },
@@ -110117,7 +110134,7 @@
       "live": 5,
       "removed": 3,
       "sellRate": 47,
-      "totalDays": 659.8,
+      "totalDays": 660.1,
       "soldCount": 7,
       "avgDaysToSell": 94.3
     },
@@ -110136,7 +110153,7 @@
       "live": 11,
       "removed": 3,
       "sellRate": 30,
-      "totalDays": 179.2,
+      "totalDays": 179.4,
       "soldCount": 6,
       "avgDaysToSell": 29.9
     },
@@ -110192,9 +110209,9 @@
       "live": 5,
       "removed": 5,
       "sellRate": 41,
-      "totalDays": 752.8000000000001,
+      "totalDays": 752.9,
       "soldCount": 7,
-      "avgDaysToSell": 107.5
+      "avgDaysToSell": 107.6
     },
     "Fender|Fender Japan": {
       "brand": "Fender",
@@ -110211,7 +110228,7 @@
       "live": 4,
       "removed": 3,
       "sellRate": 36,
-      "totalDays": 165.8,
+      "totalDays": 165.9,
       "soldCount": 4,
       "avgDaysToSell": 41.5
     },
@@ -110230,9 +110247,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 30,
-      "totalDays": 209.1,
+      "totalDays": 209.3,
       "soldCount": 3,
-      "avgDaysToSell": 69.7
+      "avgDaysToSell": 69.8
     },
     "Taylor|Taylor USA": {
       "brand": "Taylor",
@@ -110268,7 +110285,7 @@
       "live": 14,
       "removed": 11,
       "sellRate": 24,
-      "totalDays": 922.8000000000001,
+      "totalDays": 923.2,
       "soldCount": 8,
       "avgDaysToSell": 115.4
     },
@@ -110287,7 +110304,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 67,
-      "totalDays": 847.8,
+      "totalDays": 848.0999999999999,
       "soldCount": 10,
       "avgDaysToSell": 84.8
     },
@@ -110306,7 +110323,7 @@
       "live": 18,
       "removed": 13,
       "sellRate": 43,
-      "totalDays": 2074.2000000000003,
+      "totalDays": 2074.8,
       "soldCount": 23,
       "avgDaysToSell": 90.2
     },
@@ -110325,9 +110342,9 @@
       "live": 4,
       "removed": 2,
       "sellRate": 40,
-      "totalDays": 378.5,
+      "totalDays": 378.6,
       "soldCount": 4,
-      "avgDaysToSell": 94.6
+      "avgDaysToSell": 94.7
     },
     "Epiphone|Epiphone": {
       "brand": "Epiphone",
@@ -110344,9 +110361,9 @@
       "live": 14,
       "removed": 6,
       "sellRate": 23,
-      "totalDays": 852.1999999999999,
+      "totalDays": 852.4,
       "soldCount": 6,
-      "avgDaysToSell": 142
+      "avgDaysToSell": 142.1
     },
     "BC Rich|BC Rich USA Custom Shop": {
       "brand": "BC Rich",
@@ -110382,9 +110399,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 40,
-      "totalDays": 210.5,
+      "totalDays": 210.7,
       "soldCount": 4,
-      "avgDaysToSell": 52.6
+      "avgDaysToSell": 52.7
     },
     "James Tyler JTG|James Tyler JTG": {
       "brand": "James Tyler JTG",
@@ -110401,9 +110418,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 33,
-      "totalDays": 82,
+      "totalDays": 82.2,
       "soldCount": 2,
-      "avgDaysToSell": 41
+      "avgDaysToSell": 41.1
     },
     "Yamaha|Yamaha SG/SA Premium": {
       "brand": "Yamaha",
@@ -110420,9 +110437,9 @@
       "live": 7,
       "removed": 5,
       "sellRate": 20,
-      "totalDays": 279.1,
+      "totalDays": 279.2,
       "soldCount": 3,
-      "avgDaysToSell": 93
+      "avgDaysToSell": 93.1
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -110439,9 +110456,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 22,
-      "totalDays": 182,
+      "totalDays": 182.1,
       "soldCount": 2,
-      "avgDaysToSell": 91
+      "avgDaysToSell": 91.1
     },
     "James Tyler|James Tyler": {
       "brand": "James Tyler",
@@ -110476,9 +110493,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 257.6,
+      "totalDays": 257.7,
       "soldCount": 2,
-      "avgDaysToSell": 128.8
+      "avgDaysToSell": 128.9
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -110514,9 +110531,9 @@
       "live": 3,
       "removed": 2,
       "sellRate": 17,
-      "totalDays": 66,
+      "totalDays": 66.1,
       "soldCount": 1,
-      "avgDaysToSell": 66
+      "avgDaysToSell": 66.1
     },
     "Jackson|Jackson MJ": {
       "brand": "Jackson",
@@ -110551,7 +110568,7 @@
       "live": 3,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 655,
+      "totalDays": 655.3,
       "soldCount": 6,
       "avgDaysToSell": 109.2
     },
@@ -110570,9 +110587,9 @@
       "live": 10,
       "removed": 9,
       "sellRate": 24,
-      "totalDays": 552.1000000000001,
+      "totalDays": 552.4,
       "soldCount": 6,
-      "avgDaysToSell": 92
+      "avgDaysToSell": 92.1
     },
     "Alvarez|Alvarez": {
       "brand": "Alvarez",
@@ -110589,9 +110606,9 @@
       "live": 0,
       "removed": 3,
       "sellRate": 25,
-      "totalDays": 21.2,
+      "totalDays": 21.3,
       "soldCount": 1,
-      "avgDaysToSell": 21.2
+      "avgDaysToSell": 21.3
     },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
@@ -110664,9 +110681,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 22,
+      "totalDays": 22.1,
       "soldCount": 1,
-      "avgDaysToSell": 22
+      "avgDaysToSell": 22.1
     },
     "Parker|Parker Fly Concert": {
       "brand": "Parker",
@@ -110702,7 +110719,7 @@
       "live": 6,
       "removed": 1,
       "sellRate": 36,
-      "totalDays": 453.1,
+      "totalDays": 453.29999999999995,
       "soldCount": 4,
       "avgDaysToSell": 113.3
     },
@@ -110721,9 +110738,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 23.8,
+      "totalDays": 23.9,
       "soldCount": 1,
-      "avgDaysToSell": 23.8
+      "avgDaysToSell": 23.9
     },
     "Anderson|Tom Anderson": {
       "brand": "Anderson",
@@ -110740,9 +110757,9 @@
       "live": 5,
       "removed": 9,
       "sellRate": 18,
-      "totalDays": 176.39999999999998,
+      "totalDays": 176.6,
       "soldCount": 3,
-      "avgDaysToSell": 58.8
+      "avgDaysToSell": 58.9
     },
     "Knaggs|Knaggs": {
       "brand": "Knaggs",
@@ -110759,7 +110776,7 @@
       "live": 4,
       "removed": 5,
       "sellRate": 31,
-      "totalDays": 337.90000000000003,
+      "totalDays": 338,
       "soldCount": 4,
       "avgDaysToSell": 84.5
     },
@@ -110871,7 +110888,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 57,
-      "totalDays": 1952.6000000000001,
+      "totalDays": 1953.3000000000002,
       "soldCount": 17,
       "avgDaysToSell": 114.9
     },
@@ -110928,9 +110945,9 @@
       "live": 3,
       "removed": 1,
       "sellRate": 20,
-      "totalDays": 85.2,
+      "totalDays": 85.3,
       "soldCount": 1,
-      "avgDaysToSell": 85.2
+      "avgDaysToSell": 85.3
     },
     "G&L|G&L USA": {
       "brand": "G&L",
@@ -111116,7 +111133,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 75,
-      "totalDays": 180,
+      "totalDays": 180.1,
       "soldCount": 3,
       "avgDaysToSell": 60
     },
@@ -111301,9 +111318,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 60,
-      "totalDays": 242.7,
+      "totalDays": 242.9,
       "soldCount": 3,
-      "avgDaysToSell": 80.9
+      "avgDaysToSell": 81
     },
     "Parker|Parker Fly Mojo": {
       "brand": "Parker",
@@ -111375,7 +111392,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 80,
-      "totalDays": 449.79999999999995,
+      "totalDays": 449.9,
       "soldCount": 4,
       "avgDaysToSell": 112.5
     },
@@ -111432,9 +111449,9 @@
       "live": 4,
       "removed": 1,
       "sellRate": 17,
-      "totalDays": 129.1,
+      "totalDays": 129.2,
       "soldCount": 1,
-      "avgDaysToSell": 129.1
+      "avgDaysToSell": 129.2
     },
     "Schecter|Schecter Korea": {
       "brand": "Schecter",
@@ -111451,9 +111468,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 290.4,
+      "totalDays": 290.5,
       "soldCount": 2,
-      "avgDaysToSell": 145.2
+      "avgDaysToSell": 145.3
     },
     "Gretsch|Gretsch Custom Shop": {
       "brand": "Gretsch",
@@ -111583,9 +111600,9 @@
       "live": 2,
       "removed": 0,
       "sellRate": 50,
-      "totalDays": 285.5,
+      "totalDays": 285.70000000000005,
       "soldCount": 2,
-      "avgDaysToSell": 142.8
+      "avgDaysToSell": 142.9
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -111640,9 +111657,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 165.4,
+      "totalDays": 165.5,
       "soldCount": 1,
-      "avgDaysToSell": 165.4
+      "avgDaysToSell": 165.5
     },
     "Yamaha|Yamaha Revstar": {
       "brand": "Yamaha",
@@ -111805,9 +111822,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 138,
+      "totalDays": 138.1,
       "soldCount": 1,
-      "avgDaysToSell": 138
+      "avgDaysToSell": 138.1
     },
     "Powers Electric|Rickenbacker": {
       "brand": "Powers Electric",
@@ -111915,9 +111932,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 140.4,
+      "totalDays": 140.5,
       "soldCount": 1,
-      "avgDaysToSell": 140.4
+      "avgDaysToSell": 140.5
     },
     "Gibson|Rickenbacker": {
       "brand": "Gibson",
@@ -111934,9 +111951,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 156,
+      "totalDays": 156.1,
       "soldCount": 1,
-      "avgDaysToSell": 156
+      "avgDaysToSell": 156.1
     },
     "Yamaha|Yamaha Pacifica": {
       "brand": "Yamaha",
@@ -112026,9 +112043,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 149.9,
+      "totalDays": 150,
       "soldCount": 1,
-      "avgDaysToSell": 149.9
+      "avgDaysToSell": 150
     },
     "Fender|Squier": {
       "brand": "Fender",
@@ -112081,7 +112098,7 @@
     },
     {
       "label": "16–30",
-      "total": 427,
+      "total": 428,
       "sold": 118,
       "rate": 28
     },
@@ -112094,7 +112111,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1026,
+      "total": 1027,
       "sold": 307,
       "rate": 30
     },
@@ -112111,7 +112128,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 700,
+      "total": 701,
       "sold": 241,
       "rate": 34
     }
@@ -112119,7 +112136,7 @@
   "geoSellThrough": [
     {
       "state": "CA",
-      "total": 172,
+      "total": 173,
       "sold": 59,
       "rate": 34
     },
