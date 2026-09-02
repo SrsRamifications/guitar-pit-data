@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-09-02T14:36:54.693Z",
-  "totalLinks": 3405,
-  "totalEver": 4250,
-  "totalBeforeFilter": 4250,
+  "generatedAt": "2026-09-02T14:41:51.595Z",
+  "totalLinks": 3406,
+  "totalEver": 4251,
+  "totalBeforeFilter": 4251,
   "fakeCount": 6,
   "removedCount": 1545,
-  "totalWithPrice": 3092,
+  "totalWithPrice": 3093,
   "overall": {
-    "count": 3004,
-    "sum": 8626566.55,
-    "avg": 2872,
+    "count": 3005,
+    "sum": 8627666.55,
+    "avg": 2871,
     "min": 10.49,
     "max": 11185
   },
   "filtered": {
-    "count": 3004,
-    "sum": 8626566.55,
-    "avg": 2872,
+    "count": 3005,
+    "sum": 8627666.55,
+    "avg": 2871,
     "min": 10.49,
     "max": 11185,
     "median": 2250
   },
   "outliers": {
-    "thresholdHigh": 11459,
+    "thresholdHigh": 11462,
     "thresholdLow": 0,
     "count": 88,
     "items": [
@@ -725,11 +725,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 16,
-      "sum": 58932,
+      "count": 17,
+      "sum": 60032,
       "min": 1000,
       "max": 8500,
-      "avg": 3683
+      "avg": 3531
     },
     "2026-08": {
       "count": 344,
@@ -790,11 +790,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2712,
-      "sum": 7703448.62,
+      "count": 2713,
+      "sum": 7704548.62,
       "min": 33,
       "max": 11185,
-      "avg": 2841
+      "avg": 2840
     },
     "marketplace": {
       "count": 195,
@@ -813,11 +813,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2712,
-      "sum": 7703448.62,
+      "count": 2713,
+      "sum": 7704548.62,
       "min": 33,
       "max": 11185,
-      "avg": 2841
+      "avg": 2840
     },
     "eddiesguitars.com": {
       "count": 12,
@@ -1094,6 +1094,37 @@
     }
   },
   "byModel": {
+    "ed-roman-ed-roman-scorpion-picasso-electric-guitar-with-case": {
+      "displayName": "Ed Roman Scorpion Picasso electric guitar with case",
+      "brand": "Ed Roman",
+      "model": "Ed Roman Scorpion Picasso electric guitar with case",
+      "variant": null,
+      "count": 1,
+      "sum": 1100,
+      "min": 1100,
+      "max": 1100,
+      "sightings": [
+        {
+          "price": 1100,
+          "date": "2026-09-02T14:41:35.676Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ed Roman Scorpion Picasso electric guitar with case",
+          "url": "https://reverb.com/item/91417637",
+          "condition": "Good"
+        }
+      ],
+      "byCondition": {
+        "Good": {
+          "count": 1,
+          "sum": 1100,
+          "min": 1100,
+          "max": 1100,
+          "avg": 1100
+        }
+      },
+      "avg": 1100
+    },
     "valley-arts-telecaster": {
       "displayName": "Valley Arts Custom Pro Tele Early 2000's - Mary Kaye White",
       "brand": "Valley Arts",
@@ -8627,7 +8658,7 @@
       "sightings": [
         {
           "price": 1499,
-          "date": "2026-08-19T02:33:51.975Z",
+          "date": "2026-08-19T02:33:51.975+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Epiphone '63 Les Paul SG Custom with Maestro Vibrola - Classic White with Hard Shell Case",
@@ -95883,6 +95914,15 @@
     }
   },
   "byBrandPrice": {
+    "Ed Roman": {
+      "count": 1,
+      "min": 1100,
+      "max": 1100,
+      "soldCount": 0,
+      "outliersExcluded": 0,
+      "avg": 1100,
+      "soldAvg": null
+    },
     "Valley Arts": {
       "count": 8,
       "min": 908.59,
@@ -98837,6 +98877,20 @@
     }
   },
   "byCondition": {
+    "Good": {
+      "count": 340,
+      "sum": 1003569.94,
+      "sold": {
+        "count": 108,
+        "sum": 216274.24000000005,
+        "avg": 2003,
+        "min": 285,
+        "max": 13000
+      },
+      "avg": 2952,
+      "min": 70,
+      "max": 55000
+    },
     "Very Good": {
       "count": 934,
       "sum": 2983693.1100000064,
@@ -98878,20 +98932,6 @@
       "avg": 4196,
       "min": 110,
       "max": 265500
-    },
-    "Good": {
-      "count": 339,
-      "sum": 1002469.94,
-      "sold": {
-        "count": 108,
-        "sum": 216274.24000000005,
-        "avg": 2003,
-        "min": 285,
-        "max": 13000
-      },
-      "avg": 2957,
-      "min": 70,
-      "max": 55000
     },
     "Used": {
       "count": 93,
@@ -98986,9 +99026,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3683,
-      "median": 3082,
-      "count": 16
+      "avg": 3531,
+      "median": 3064,
+      "count": 17
     },
     "08": {
       "name": "Aug",
@@ -99184,7 +99224,7 @@
   "priceDistribution": {
     "0-500": 99,
     "500-1k": 280,
-    "1k-2k": 948,
+    "1k-2k": 949,
     "2k-3k": 617,
     "3k-5k": 661,
     "5k-10k": 378,
@@ -99193,13 +99233,18 @@
   "priceDistributionFiltered": {
     "0-500": 99,
     "500-1k": 280,
-    "1k-2k": 948,
+    "1k-2k": 949,
     "2k-3k": 617,
     "3k-5k": 661,
     "5k-10k": 378,
     "10k+": 21
   },
   "daysOnMarket": {
+    "Ed Roman": {
+      "sum": 27,
+      "count": 1,
+      "avg": 27
+    },
     "Fender": {
       "sum": 3459,
       "count": 73,
@@ -99231,7 +99276,7 @@
       "avg": 51
     },
     "Gibson": {
-      "sum": 4742,
+      "sum": 4743,
       "count": 114,
       "avg": 42
     },
@@ -100037,7 +100082,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-02": 4,
+    "2026-09-02": 5,
     "2026-09-01": 14,
     "2026-08-31": 9,
     "2026-08-30": 10,
@@ -100070,11 +100115,11 @@
     "2026-08-03": 6
   },
   "categoryDistribution": {
-    "reverb": 2787,
+    "reverb": 2788,
     "marketplace": 510,
     "other": 108
   },
-  "activeModelsCount": 302,
+  "activeModelsCount": 303,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -100086,7 +100131,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 383
+      "count": 384
     },
     {
       "username": "WontonGG",
@@ -106518,15 +106563,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3102,
+      "total": 3103,
       "sold": 1053,
       "fake": 0,
-      "live": 976,
+      "live": 977,
       "removed": 1073,
       "soldPct": 34,
       "livePct": 31
     },
     "byBrand": {
+      "Ed Roman": {
+        "total": 1,
+        "sold": 0,
+        "fake": 0,
+        "live": 1,
+        "removed": 0,
+        "soldPct": 0,
+        "livePct": 100
+      },
       "Valley Arts": {
         "total": 8,
         "sold": 2,
@@ -109783,7 +109837,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 948,
+        "total": 949,
         "sold": 375,
         "rate": 40
       },
@@ -109813,6 +109867,11 @@
       }
     ],
     "byCondition": {
+      "Good": {
+        "total": 340,
+        "sold": 123,
+        "rate": 36
+      },
       "Very Good": {
         "total": 934,
         "sold": 310,
@@ -109827,11 +109886,6 @@
         "total": 1135,
         "sold": 426,
         "rate": 38
-      },
-      "Good": {
-        "total": 339,
-        "sold": 123,
-        "rate": 36
       },
       "Used": {
         "total": 94,
@@ -110196,7 +110250,7 @@
       "live": 40,
       "removed": 45,
       "sellRate": 34,
-      "totalDays": 4604.9,
+      "totalDays": 4605,
       "soldCount": 43,
       "avgDaysToSell": 107.1
     },
@@ -110215,9 +110269,9 @@
       "live": 9,
       "removed": 4,
       "sellRate": 13,
-      "totalDays": 13.4,
+      "totalDays": 13.5,
       "soldCount": 2,
-      "avgDaysToSell": 6.7
+      "avgDaysToSell": 6.8
     },
     "Ibanez|Ibanez Prestige": {
       "brand": "Ibanez",
@@ -110234,7 +110288,7 @@
       "live": 23,
       "removed": 20,
       "sellRate": 40,
-      "totalDays": 3181.4999999999995,
+      "totalDays": 3181.6999999999994,
       "soldCount": 29,
       "avgDaysToSell": 109.7
     },
@@ -110253,7 +110307,7 @@
       "live": 77,
       "removed": 90,
       "sellRate": 38,
-      "totalDays": 13231.100000000002,
+      "totalDays": 13231.500000000002,
       "soldCount": 103,
       "avgDaysToSell": 128.5
     },
@@ -110348,9 +110402,9 @@
       "live": 4,
       "removed": 1,
       "sellRate": 38,
-      "totalDays": 239.2,
+      "totalDays": 239.3,
       "soldCount": 3,
-      "avgDaysToSell": 79.7
+      "avgDaysToSell": 79.8
     },
     "Hagstrom|Hagstrom Reissue": {
       "brand": "Hagstrom",
@@ -110367,7 +110421,7 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 425.70000000000005,
+      "totalDays": 425.8,
       "soldCount": 2,
       "avgDaysToSell": 212.9
     },
@@ -110386,7 +110440,7 @@
       "live": 35,
       "removed": 39,
       "sellRate": 48,
-      "totalDays": 7822.0999999999985,
+      "totalDays": 7822.199999999999,
       "soldCount": 69,
       "avgDaysToSell": 113.4
     },
@@ -110405,7 +110459,7 @@
       "live": 38,
       "removed": 75,
       "sellRate": 38,
-      "totalDays": 8725.199999999997,
+      "totalDays": 8725.299999999997,
       "soldCount": 69,
       "avgDaysToSell": 126.5
     },
@@ -110481,7 +110535,7 @@
       "live": 18,
       "removed": 9,
       "sellRate": 29,
-      "totalDays": 1247.6000000000001,
+      "totalDays": 1247.7,
       "soldCount": 11,
       "avgDaysToSell": 113.4
     },
@@ -110557,9 +110611,9 @@
       "live": 14,
       "removed": 8,
       "sellRate": 19,
-      "totalDays": 413.1,
+      "totalDays": 413.29999999999995,
       "soldCount": 5,
-      "avgDaysToSell": 82.6
+      "avgDaysToSell": 82.7
     },
     "Guild|Guild USA": {
       "brand": "Guild",
@@ -110651,7 +110705,7 @@
       "live": 10,
       "removed": 13,
       "sellRate": 55,
-      "totalDays": 2452.2,
+      "totalDays": 2452.3,
       "soldCount": 28,
       "avgDaysToSell": 87.6
     },
@@ -110670,7 +110724,7 @@
       "live": 14,
       "removed": 9,
       "sellRate": 23,
-      "totalDays": 1045.7,
+      "totalDays": 1045.8,
       "soldCount": 7,
       "avgDaysToSell": 149.4
     },
@@ -110689,9 +110743,9 @@
       "live": 8,
       "removed": 7,
       "sellRate": 48,
-      "totalDays": 2356.8,
+      "totalDays": 2357,
       "soldCount": 14,
-      "avgDaysToSell": 168.3
+      "avgDaysToSell": 168.4
     },
     "Schecter|Schecter Japan": {
       "brand": "Schecter",
@@ -110936,7 +110990,7 @@
       "live": 6,
       "removed": 7,
       "sellRate": 55,
-      "totalDays": 2089.7,
+      "totalDays": 2089.9,
       "soldCount": 16,
       "avgDaysToSell": 130.6
     },
@@ -111106,7 +111160,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 60,
-      "totalDays": 429.9,
+      "totalDays": 430,
       "soldCount": 3,
       "avgDaysToSell": 143.3
     },
@@ -111181,9 +111235,9 @@
       "live": 0,
       "removed": 8,
       "sellRate": 11,
-      "totalDays": 24.8,
+      "totalDays": 24.9,
       "soldCount": 1,
-      "avgDaysToSell": 24.8
+      "avgDaysToSell": 24.9
     },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
@@ -111445,7 +111499,7 @@
       "live": 6,
       "removed": 12,
       "sellRate": 54,
-      "totalDays": 2986.6,
+      "totalDays": 2986.8,
       "soldCount": 21,
       "avgDaysToSell": 142.2
     },
@@ -111857,7 +111911,7 @@
       "live": 2,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 453.9,
+      "totalDays": 454,
       "soldCount": 4,
       "avgDaysToSell": 113.5
     },
@@ -111913,7 +111967,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 80,
-      "totalDays": 464.2,
+      "totalDays": 464.3,
       "soldCount": 4,
       "avgDaysToSell": 116.1
     },
@@ -112453,9 +112507,9 @@
       "live": 0,
       "removed": 0,
       "sellRate": 100,
-      "totalDays": 159.6,
+      "totalDays": 159.7,
       "soldCount": 1,
-      "avgDaysToSell": 159.6
+      "avgDaysToSell": 159.7
     },
     "Yamaha|Yamaha Pacifica": {
       "brand": "Yamaha",
@@ -112694,7 +112748,7 @@
     },
     {
       "label": "16–30",
-      "total": 438,
+      "total": 439,
       "sold": 118,
       "rate": 27
     },
@@ -112712,14 +112766,14 @@
       "rate": 30
     },
     "off": {
-      "total": 448,
+      "total": 449,
       "sold": 120,
       "rate": 27
     }
   },
   "sellerType": {
     "preferred": {
-      "total": 772,
+      "total": 773,
       "sold": 177,
       "rate": 23
     },
@@ -112881,16 +112935,16 @@
       "rate": 33
     },
     {
+      "state": "MN",
+      "total": 15,
+      "sold": 7,
+      "rate": 47
+    },
+    {
       "state": "TOKYO",
       "total": 14,
       "sold": 3,
       "rate": 21
-    },
-    {
-      "state": "MN",
-      "total": 14,
-      "sold": 7,
-      "rate": 50
     },
     {
       "state": "RI",
