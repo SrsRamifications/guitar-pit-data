@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-10T23:10:13.983Z",
-  "totalLinks": 3527,
-  "totalEver": 4385,
-  "totalBeforeFilter": 4385,
+  "generatedAt": "2026-09-10T23:16:03.323Z",
+  "totalLinks": 3528,
+  "totalEver": 4386,
+  "totalBeforeFilter": 4386,
   "fakeCount": 6,
   "removedCount": 1584,
-  "totalWithPrice": 3210,
+  "totalWithPrice": 3211,
   "overall": {
-    "count": 3121,
-    "sum": 9009034.21,
-    "avg": 2887,
+    "count": 3122,
+    "sum": 9009259.21,
+    "avg": 2886,
     "min": 10.49,
     "max": 11500
   },
   "filtered": {
-    "count": 3121,
-    "sum": 9009034.21,
-    "avg": 2887,
+    "count": 3122,
+    "sum": 9009259.21,
+    "avg": 2886,
     "min": 10.49,
     "max": 11500,
-    "median": 2285
+    "median": 2284
   },
   "outliers": {
     "thresholdHigh": 11535,
@@ -733,11 +733,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 104,
-      "sum": 332893,
-      "min": 294,
+      "count": 105,
+      "sum": 333118,
+      "min": 225,
       "max": 10000,
-      "avg": 3201
+      "avg": 3173
     },
     "2026-08": {
       "count": 344,
@@ -798,8 +798,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2814,
-      "sum": 8024120.3,
+      "count": 2815,
+      "sum": 8024345.3,
       "min": 33,
       "max": 11500,
       "avg": 2851
@@ -821,8 +821,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2814,
-      "sum": 8024120.3,
+      "count": 2815,
+      "sum": 8024345.3,
       "min": 33,
       "max": 11500,
       "avg": 2851
@@ -1109,6 +1109,37 @@
     }
   },
   "byModel": {
+    "harmony-h39-hollywood-fade": {
+      "displayName": "Harmony H39 Hollywood 1952 - 1967 - Sunburst Fade",
+      "brand": "Harmony",
+      "model": "H39 Hollywood Fade",
+      "variant": null,
+      "count": 1,
+      "sum": 225,
+      "min": 225,
+      "max": 225,
+      "sightings": [
+        {
+          "price": 225,
+          "date": "2026-09-10T23:15:48.644Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Harmony H39 Hollywood 1952 - 1967 - Sunburst Fade",
+          "url": "https://reverb.com/item/101674977",
+          "condition": "Fair"
+        }
+      ],
+      "byCondition": {
+        "Fair": {
+          "count": 1,
+          "sum": 225,
+          "min": 225,
+          "max": 225,
+          "avg": 225
+        }
+      },
+      "avg": 225
+    },
     "bc-rich-ironbird-deep-candy-usa-custom-shop": {
       "displayName": "BC Rich USA Custom Shop Ironbird 1984 Deep Candy Apple Red Metallic with Black Bevels",
       "brand": "BC Rich",
@@ -9612,7 +9643,7 @@
       "sightings": [
         {
           "price": 2750,
-          "date": "2026-08-26T03:23:06.178Z",
+          "date": "2026-08-26T03:23:06.178+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Kalamazoo  Sport Model KG 3/4 Flat Top Acoustic Guitar (1937), ser. #587C, original black chipboard case.",
@@ -99338,6 +99369,15 @@
     }
   },
   "byBrandPrice": {
+    "Harmony": {
+      "count": 15,
+      "min": 225,
+      "max": 1595,
+      "soldCount": 4,
+      "outliersExcluded": 0,
+      "avg": 932,
+      "soldAvg": 1298
+    },
     "BC Rich": {
       "count": 162,
       "min": 33,
@@ -99886,15 +99926,6 @@
       "outliersExcluded": 0,
       "avg": 2750,
       "soldAvg": null
-    },
-    "Harmony": {
-      "count": 14,
-      "min": 549.99,
-      "max": 1595,
-      "soldCount": 4,
-      "outliersExcluded": 0,
-      "avg": 982,
-      "soldAvg": 1298
     },
     "Tokai": {
       "count": 12,
@@ -102364,6 +102395,20 @@
     }
   },
   "byCondition": {
+    "Fair": {
+      "count": 43,
+      "sum": 114744,
+      "sold": {
+        "count": 16,
+        "sum": 33759.990000000005,
+        "avg": 2110,
+        "min": 69,
+        "max": 4799
+      },
+      "avg": 2668,
+      "min": 69,
+      "max": 22500
+    },
     "Excellent": {
       "count": 1178,
       "sum": 4923806.3600000115,
@@ -102459,20 +102504,6 @@
       "min": 174.59,
       "max": 3800
     },
-    "Fair": {
-      "count": 42,
-      "sum": 114519,
-      "sold": {
-        "count": 16,
-        "sum": 33759.990000000005,
-        "avg": 2110,
-        "min": 69,
-        "max": 4799
-      },
-      "avg": 2727,
-      "min": 69,
-      "max": 22500
-    },
     "B-Stock": {
       "count": 9,
       "sum": 24291.96,
@@ -102513,9 +102544,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3201,
+      "avg": 3173,
       "median": 2650,
-      "count": 104
+      "count": 105
     },
     "08": {
       "name": "Aug",
@@ -102709,7 +102740,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 102,
+    "0-500": 103,
     "500-1k": 286,
     "1k-2k": 981,
     "2k-3k": 644,
@@ -102718,7 +102749,7 @@
     "10k+": 113
   },
   "priceDistributionFiltered": {
-    "0-500": 102,
+    "0-500": 103,
     "500-1k": 286,
     "1k-2k": 981,
     "2k-3k": 644,
@@ -102727,6 +102758,11 @@
     "10k+": 24
   },
   "daysOnMarket": {
+    "Harmony": {
+      "sum": 196,
+      "count": 5,
+      "avg": 39
+    },
     "BC Rich": {
       "sum": 1959,
       "count": 37,
@@ -102748,13 +102784,13 @@
       "avg": 50
     },
     "Kiesel": {
-      "sum": 2626,
+      "sum": 2627,
       "count": 52,
       "avg": 51
     },
     "Gibson": {
-      "sum": 5172,
-      "count": 114,
+      "sum": 5082,
+      "count": 113,
       "avg": 45
     },
     "Castedosa": {
@@ -102991,11 +103027,6 @@
       "sum": 43,
       "count": 1,
       "avg": 43
-    },
-    "Harmony": {
-      "sum": 196,
-      "count": 4,
-      "avg": 49
     },
     "Tokai": {
       "sum": 58,
@@ -103549,7 +103580,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-10": 7,
+    "2026-09-10": 8,
     "2026-09-09": 18,
     "2026-09-08": 12,
     "2026-09-07": 14,
@@ -103582,11 +103613,11 @@
     "2026-08-11": 1
   },
   "categoryDistribution": {
-    "reverb": 2892,
+    "reverb": 2893,
     "marketplace": 524,
     "other": 111
   },
-  "activeModelsCount": 267,
+  "activeModelsCount": 268,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -103598,7 +103629,7 @@
     },
     {
       "username": "Shteefe",
-      "count": 400
+      "count": 401
     },
     {
       "username": "WontonGG",
@@ -110341,15 +110372,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3216,
+      "total": 3217,
       "sold": 1091,
       "fake": 0,
-      "live": 1014,
+      "live": 1015,
       "removed": 1111,
       "soldPct": 34,
       "livePct": 32
     },
     "byBrand": {
+      "Harmony": {
+        "total": 15,
+        "sold": 4,
+        "fake": 0,
+        "live": 6,
+        "removed": 5,
+        "soldPct": 27,
+        "livePct": 40
+      },
       "BC Rich": {
         "total": 169,
         "sold": 55,
@@ -110925,15 +110965,6 @@
         "removed": 0,
         "soldPct": 0,
         "livePct": 100
-      },
-      "Harmony": {
-        "total": 14,
-        "sold": 4,
-        "fake": 0,
-        "live": 5,
-        "removed": 5,
-        "soldPct": 29,
-        "livePct": 36
       },
       "Tokai": {
         "total": 12,
@@ -113675,7 +113706,7 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 102,
+        "total": 103,
         "sold": 27,
         "rate": 26
       },
@@ -113717,6 +113748,11 @@
       }
     ],
     "byCondition": {
+      "Fair": {
+        "total": 43,
+        "sold": 16,
+        "rate": 37
+      },
       "Excellent": {
         "total": 1178,
         "sold": 442,
@@ -113751,11 +113787,6 @@
         "total": 7,
         "sold": 3,
         "rate": 43
-      },
-      "Fair": {
-        "total": 42,
-        "sold": 16,
-        "rate": 38
       },
       "B-Stock": {
         "total": 9,
@@ -114159,7 +114190,7 @@
       "live": 39,
       "removed": 39,
       "sellRate": 48,
-      "totalDays": 8504.099999999999,
+      "totalDays": 8504.199999999999,
       "soldCount": 71,
       "avgDaysToSell": 119.8
     },
@@ -114178,7 +114209,7 @@
       "live": 75,
       "removed": 95,
       "sellRate": 39,
-      "totalDays": 14440.9,
+      "totalDays": 14441.1,
       "soldCount": 110,
       "avgDaysToSell": 131.3
     },
@@ -114197,7 +114228,7 @@
       "live": 32,
       "removed": 40,
       "sellRate": 35,
-      "totalDays": 4906.7,
+      "totalDays": 4906.9,
       "soldCount": 38,
       "avgDaysToSell": 129.1
     },
@@ -114254,7 +114285,7 @@
       "live": 40,
       "removed": 46,
       "sellRate": 34,
-      "totalDays": 5118.8,
+      "totalDays": 5119.000000000001,
       "soldCount": 45,
       "avgDaysToSell": 113.8
     },
@@ -114273,9 +114304,9 @@
       "live": 5,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 484,
+      "totalDays": 484.1,
       "soldCount": 3,
-      "avgDaysToSell": 161.3
+      "avgDaysToSell": 161.4
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -114368,7 +114399,7 @@
       "live": 20,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 2881.6,
+      "totalDays": 2881.7,
       "soldCount": 21,
       "avgDaysToSell": 125.3
     },
@@ -114387,7 +114418,7 @@
       "live": 10,
       "removed": 15,
       "sellRate": 53,
-      "totalDays": 2312.1,
+      "totalDays": 2312.3,
       "soldCount": 28,
       "avgDaysToSell": 82.6
     },
@@ -114500,7 +114531,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 53,
-      "totalDays": 1093,
+      "totalDays": 1093.1,
       "soldCount": 8,
       "avgDaysToSell": 136.6
     },
@@ -114519,7 +114550,7 @@
       "live": 40,
       "removed": 76,
       "sellRate": 39,
-      "totalDays": 9687.599999999999,
+      "totalDays": 9687.8,
       "soldCount": 73,
       "avgDaysToSell": 132.7
     },
@@ -114538,7 +114569,7 @@
       "live": 24,
       "removed": 20,
       "sellRate": 40,
-      "totalDays": 3415.2000000000003,
+      "totalDays": 3415.4,
       "soldCount": 29,
       "avgDaysToSell": 117.8
     },
@@ -114613,7 +114644,7 @@
       "live": 8,
       "removed": 9,
       "sellRate": 47,
-      "totalDays": 1576.4,
+      "totalDays": 1576.5,
       "soldCount": 15,
       "avgDaysToSell": 105.1
     },
@@ -114670,9 +114701,9 @@
       "live": 1,
       "removed": 3,
       "sellRate": 43,
-      "totalDays": 567.1,
+      "totalDays": 567.2,
       "soldCount": 3,
-      "avgDaysToSell": 189
+      "avgDaysToSell": 189.1
     },
     "Heritage|Heritage": {
       "brand": "Heritage",
@@ -114803,7 +114834,7 @@
       "live": 1,
       "removed": 3,
       "sellRate": 56,
-      "totalDays": 858.6,
+      "totalDays": 858.6999999999999,
       "soldCount": 5,
       "avgDaysToSell": 171.7
     },
@@ -115049,7 +115080,7 @@
       "live": 7,
       "removed": 7,
       "sellRate": 53,
-      "totalDays": 2687.5999999999995,
+      "totalDays": 2687.6999999999994,
       "soldCount": 16,
       "avgDaysToSell": 168
     },
@@ -115182,7 +115213,7 @@
       "live": 5,
       "removed": 8,
       "sellRate": 55,
-      "totalDays": 2223.5,
+      "totalDays": 2223.7,
       "soldCount": 16,
       "avgDaysToSell": 139
     },
@@ -115201,9 +115232,9 @@
       "live": 4,
       "removed": 3,
       "sellRate": 46,
-      "totalDays": 855.3,
+      "totalDays": 855.4,
       "soldCount": 6,
-      "avgDaysToSell": 142.5
+      "avgDaysToSell": 142.6
     },
     "Kramer|Kramer USA Vintage": {
       "brand": "Kramer",
@@ -115294,7 +115325,7 @@
       "live": 10,
       "removed": 9,
       "sellRate": 24,
-      "totalDays": 624,
+      "totalDays": 624.1000000000001,
       "soldCount": 6,
       "avgDaysToSell": 104
     },
@@ -115426,7 +115457,7 @@
       "live": 4,
       "removed": 1,
       "sellRate": 44,
-      "totalDays": 553.1,
+      "totalDays": 553.2,
       "soldCount": 4,
       "avgDaysToSell": 138.3
     },
@@ -115501,7 +115532,7 @@
       "live": 3,
       "removed": 6,
       "sellRate": 18,
-      "totalDays": 344.7,
+      "totalDays": 344.79999999999995,
       "soldCount": 2,
       "avgDaysToSell": 172.4
     },
@@ -115689,9 +115720,9 @@
       "live": 1,
       "removed": 4,
       "sellRate": 44,
-      "totalDays": 636.5,
+      "totalDays": 636.6,
       "soldCount": 4,
-      "avgDaysToSell": 159.1
+      "avgDaysToSell": 159.2
     },
     "Fender|Fender Masterbuilt": {
       "brand": "Fender",
@@ -116625,7 +116656,7 @@
     },
     {
       "label": "1–5",
-      "total": 82,
+      "total": 83,
       "sold": 27,
       "rate": 33
     },
@@ -116650,7 +116681,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1109,
+      "total": 1110,
       "sold": 331,
       "rate": 30
     },
@@ -116667,7 +116698,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 749,
+      "total": 750,
       "sold": 260,
       "rate": 35
     }
@@ -116717,9 +116748,9 @@
     },
     {
       "state": "TN",
-      "total": 45,
+      "total": 46,
       "sold": 16,
-      "rate": 36
+      "rate": 35
     },
     {
       "state": "MD",
