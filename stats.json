@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-10T16:55:30.131Z",
-  "totalLinks": 3524,
-  "totalEver": 4382,
-  "totalBeforeFilter": 4382,
+  "generatedAt": "2026-09-10T16:58:58.378Z",
+  "totalLinks": 3525,
+  "totalEver": 4383,
+  "totalBeforeFilter": 4383,
   "fakeCount": 6,
   "removedCount": 1579,
-  "totalWithPrice": 3207,
+  "totalWithPrice": 3208,
   "overall": {
-    "count": 3118,
-    "sum": 8997670.21,
-    "avg": 2886,
+    "count": 3119,
+    "sum": 8998765.21,
+    "avg": 2885,
     "min": 10.49,
     "max": 11500
   },
   "filtered": {
-    "count": 3118,
-    "sum": 8997670.21,
-    "avg": 2886,
+    "count": 3119,
+    "sum": 8998765.21,
+    "avg": 2885,
     "min": 10.49,
     "max": 11500,
-    "median": 2284
+    "median": 2282
   },
   "outliers": {
     "thresholdHigh": 11535,
@@ -733,11 +733,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 101,
-      "sum": 320999,
+      "count": 102,
+      "sum": 322094,
       "min": 294,
       "max": 10000,
-      "avg": 3178
+      "avg": 3158
     },
     "2026-08": {
       "count": 344,
@@ -797,19 +797,19 @@
     }
   },
   "byCategory": {
+    "marketplace": {
+      "count": 207,
+      "sum": 694339.76,
+      "min": 39.81,
+      "max": 11475,
+      "avg": 3354
+    },
     "reverb": {
       "count": 2812,
       "sum": 8013851.3,
       "min": 33,
       "max": 11500,
       "avg": 2850
-    },
-    "marketplace": {
-      "count": 206,
-      "sum": 693244.76,
-      "min": 39.81,
-      "max": 11475,
-      "avg": 3365
     },
     "other": {
       "count": 100,
@@ -820,6 +820,13 @@
     }
   },
   "byDomain": {
+    "davesguitar.com": {
+      "count": 28,
+      "sum": 40053,
+      "min": 695,
+      "max": 3995,
+      "avg": 1430
+    },
     "reverb.com": {
       "count": 2812,
       "sum": 8013851.3,
@@ -833,13 +840,6 @@
       "min": 350,
       "max": 11475,
       "avg": 4116
-    },
-    "davesguitar.com": {
-      "count": 27,
-      "sum": 38958,
-      "min": 695,
-      "max": 3995,
-      "avg": 1443
     },
     "truetonemusic.com": {
       "count": 1,
@@ -102294,6 +102294,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 972,
+      "sum": 3088342.8100000066,
+      "sold": {
+        "count": 319,
+        "sum": 688743.8799999999,
+        "avg": 2159,
+        "min": 68,
+        "max": 19995
+      },
+      "avg": 3177,
+      "min": 33,
+      "max": 437713.69
+    },
     "Excellent": {
       "count": 1176,
       "sum": 4913007.3600000115,
@@ -102307,20 +102321,6 @@
       "avg": 4178,
       "min": 110,
       "max": 265500
-    },
-    "Very Good": {
-      "count": 971,
-      "sum": 3087247.8100000066,
-      "sold": {
-        "count": 319,
-        "sum": 688743.8799999999,
-        "avg": 2159,
-        "min": 68,
-        "max": 19995
-      },
-      "avg": 3179,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 271,
@@ -102443,9 +102443,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3178,
-      "median": 2650,
-      "count": 101
+      "avg": 3158,
+      "median": 2637,
+      "count": 102
     },
     "08": {
       "name": "Aug",
@@ -102641,7 +102641,7 @@
   "priceDistribution": {
     "0-500": 102,
     "500-1k": 286,
-    "1k-2k": 980,
+    "1k-2k": 981,
     "2k-3k": 644,
     "3k-5k": 684,
     "5k-10k": 398,
@@ -102650,7 +102650,7 @@
   "priceDistributionFiltered": {
     "0-500": 102,
     "500-1k": 286,
-    "1k-2k": 980,
+    "1k-2k": 981,
     "2k-3k": 644,
     "3k-5k": 684,
     "5k-10k": 398,
@@ -103484,7 +103484,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-10": 4,
+    "2026-09-10": 5,
     "2026-09-09": 18,
     "2026-09-08": 12,
     "2026-09-07": 14,
@@ -103517,8 +103517,8 @@
     "2026-08-11": 5
   },
   "categoryDistribution": {
+    "marketplace": 524,
     "reverb": 2890,
-    "marketplace": 523,
     "other": 111
   },
   "activeModelsCount": 268,
@@ -103549,7 +103549,7 @@
     },
     {
       "username": "Modean",
-      "count": 272
+      "count": 273
     },
     {
       "username": "Madero",
@@ -113607,7 +113607,7 @@
       },
       {
         "label": "$1k–2k",
-        "total": 980,
+        "total": 981,
         "sold": 394,
         "rate": 40
       },
@@ -113637,15 +113637,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 972,
+        "sold": 321,
+        "rate": 33
+      },
       "Excellent": {
         "total": 1176,
         "sold": 442,
         "rate": 38
-      },
-      "Very Good": {
-        "total": 971,
-        "sold": 321,
-        "rate": 33
       },
       "Brand New": {
         "total": 271,
@@ -114136,7 +114136,7 @@
       "live": 40,
       "removed": 46,
       "sellRate": 34,
-      "totalDays": 5107.4,
+      "totalDays": 5107.499999999999,
       "soldCount": 45,
       "avgDaysToSell": 113.5
     },
@@ -114155,7 +114155,7 @@
       "live": 5,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 483.20000000000005,
+      "totalDays": 483.3,
       "soldCount": 3,
       "avgDaysToSell": 161.1
     },
@@ -114174,7 +114174,7 @@
       "live": 9,
       "removed": 16,
       "sellRate": 38,
-      "totalDays": 1605.8,
+      "totalDays": 1605.9999999999998,
       "soldCount": 12,
       "avgDaysToSell": 107.1
     },
@@ -114250,7 +114250,7 @@
       "live": 20,
       "removed": 19,
       "sellRate": 37,
-      "totalDays": 2875.6,
+      "totalDays": 2875.7,
       "soldCount": 21,
       "avgDaysToSell": 125
     },
@@ -114288,7 +114288,7 @@
       "live": 10,
       "removed": 15,
       "sellRate": 53,
-      "totalDays": 2305.2000000000007,
+      "totalDays": 2305.3,
       "soldCount": 28,
       "avgDaysToSell": 82.3
     },
@@ -114420,7 +114420,7 @@
       "live": 40,
       "removed": 76,
       "sellRate": 39,
-      "totalDays": 9668.899999999996,
+      "totalDays": 9669.199999999997,
       "soldCount": 73,
       "avgDaysToSell": 132.5
     },
@@ -114609,7 +114609,7 @@
       "live": 8,
       "removed": 4,
       "sellRate": 29,
-      "totalDays": 733,
+      "totalDays": 733.2,
       "soldCount": 5,
       "avgDaysToSell": 146.6
     },
@@ -114704,7 +114704,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 30,
-      "totalDays": 1264.7,
+      "totalDays": 1264.8000000000002,
       "soldCount": 7,
       "avgDaysToSell": 180.7
     },
@@ -114742,7 +114742,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 308.9,
+      "totalDays": 309,
       "soldCount": 2,
       "avgDaysToSell": 154.5
     },
@@ -115140,9 +115140,9 @@
       "live": 3,
       "removed": 4,
       "sellRate": 36,
-      "totalDays": 257.3,
+      "totalDays": 257.5,
       "soldCount": 4,
-      "avgDaysToSell": 64.3
+      "avgDaysToSell": 64.4
     },
     "James Tyler|James Tyler": {
       "brand": "James Tyler",
