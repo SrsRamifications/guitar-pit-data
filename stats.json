@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-09-11T16:02:56.154Z",
-  "totalLinks": 3532,
-  "totalEver": 4392,
-  "totalBeforeFilter": 4392,
+  "generatedAt": "2026-09-11T16:04:28.948Z",
+  "totalLinks": 3533,
+  "totalEver": 4393,
+  "totalBeforeFilter": 4393,
   "fakeCount": 6,
   "removedCount": 1586,
-  "totalWithPrice": 3215,
+  "totalWithPrice": 3216,
   "overall": {
-    "count": 3127,
-    "sum": 9028878.21,
+    "count": 3128,
+    "sum": 9031577.21,
     "avg": 2887,
     "min": 10.49,
     "max": 11500
   },
   "filtered": {
-    "count": 3127,
-    "sum": 9028878.21,
+    "count": 3128,
+    "sum": 9031577.21,
     "avg": 2887,
     "min": 10.49,
     "max": 11500,
-    "median": 2282
+    "median": 2284
   },
   "outliers": {
-    "thresholdHigh": 11565,
+    "thresholdHigh": 11535,
     "thresholdLow": 0,
     "count": 88,
     "items": [
@@ -725,11 +725,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 110,
-      "sum": 352825,
+      "count": 111,
+      "sum": 355524,
       "min": 225,
       "max": 10200,
-      "avg": 3208
+      "avg": 3203
     },
     "2026-08": {
       "count": 344,
@@ -790,8 +790,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2819,
-      "sum": 8042869.3,
+      "count": 2820,
+      "sum": 8045568.3,
       "min": 33,
       "max": 11500,
       "avg": 2853
@@ -813,8 +813,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2819,
-      "sum": 8042869.3,
+      "count": 2820,
+      "sum": 8045568.3,
       "min": 33,
       "max": 11500,
       "avg": 2853
@@ -1101,6 +1101,37 @@
     }
   },
   "byModel": {
+    "harmony-1960s-h1270-sovereign": {
+      "displayName": "1960s Harmony H1270 Sovereign 12-String Resonator Conversion – Hard Case – Used Very Good",
+      "brand": "Harmony",
+      "model": "1960s H1270 Sovereign",
+      "variant": null,
+      "count": 1,
+      "sum": 2699,
+      "min": 2699,
+      "max": 2699,
+      "sightings": [
+        {
+          "price": 2699,
+          "date": "2026-09-11T16:04:11.803Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1960s Harmony H1270 Sovereign 12-String Resonator Conversion – Hard Case – Used Very Good",
+          "url": "https://reverb.com/item/101674480",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 2699,
+          "min": 2699,
+          "max": 2699,
+          "avg": 2699
+        }
+      },
+      "avg": 2699
+    },
     "manuel-rodriguez-a-cut": {
       "displayName": "Manuel Rodriguez & Sons Classical Guitar A Cut nº 8017 2017 Natural Finish",
       "brand": "Manuel Rodriguez",
@@ -99447,6 +99478,15 @@
     }
   },
   "byBrandPrice": {
+    "Harmony": {
+      "count": 16,
+      "min": 225,
+      "max": 2699,
+      "soldCount": 4,
+      "outliersExcluded": 0,
+      "avg": 1042,
+      "soldAvg": 1298
+    },
     "Manuel Rodriguez": {
       "count": 1,
       "min": 728,
@@ -99473,15 +99513,6 @@
       "outliersExcluded": 0,
       "avg": 2583,
       "soldAvg": 2155
-    },
-    "Harmony": {
-      "count": 15,
-      "min": 225,
-      "max": 1595,
-      "soldCount": 4,
-      "outliersExcluded": 0,
-      "avg": 932,
-      "soldAvg": 1298
     },
     "BC Rich": {
       "count": 163,
@@ -102482,6 +102513,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 973,
+      "sum": 3090462.8100000066,
+      "sold": {
+        "count": 320,
+        "sum": 690142.8799999999,
+        "avg": 2157,
+        "min": 68,
+        "max": 19995
+      },
+      "avg": 3176,
+      "min": 33,
+      "max": 437713.69
+    },
     "Mint": {
       "count": 106,
       "sum": 609863.3599999999,
@@ -102534,20 +102579,6 @@
       "avg": 2668,
       "min": 69,
       "max": 22500
-    },
-    "Very Good": {
-      "count": 972,
-      "sum": 3087763.8100000066,
-      "sold": {
-        "count": 320,
-        "sum": 690142.8799999999,
-        "avg": 2157,
-        "min": 68,
-        "max": 19995
-      },
-      "avg": 3177,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 271,
@@ -102631,9 +102662,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3208,
-      "median": 2634,
-      "count": 110
+      "avg": 3203,
+      "median": 2650,
+      "count": 111
     },
     "08": {
       "name": "Aug",
@@ -102830,7 +102861,7 @@
     "0-500": 103,
     "500-1k": 287,
     "1k-2k": 982,
-    "2k-3k": 645,
+    "2k-3k": 646,
     "3k-5k": 685,
     "5k-10k": 400,
     "10k+": 113
@@ -102839,12 +102870,17 @@
     "0-500": 103,
     "500-1k": 287,
     "1k-2k": 982,
-    "2k-3k": 645,
+    "2k-3k": 646,
     "3k-5k": 685,
     "5k-10k": 400,
     "10k+": 25
   },
   "daysOnMarket": {
+    "Harmony": {
+      "sum": 202,
+      "count": 6,
+      "avg": 34
+    },
     "Ibanez": {
       "sum": 2476,
       "count": 44,
@@ -102854,11 +102890,6 @@
       "sum": 483,
       "count": 9,
       "avg": 54
-    },
-    "Harmony": {
-      "sum": 201,
-      "count": 5,
-      "avg": 40
     },
     "BC Rich": {
       "sum": 1994,
@@ -103406,9 +103437,9 @@
       "avg": 48
     },
     "Adam Traub": {
-      "sum": 51,
+      "sum": 52,
       "count": 1,
-      "avg": 51
+      "avg": 52
     },
     "Solar Guitars": {
       "sum": 188,
@@ -103667,7 +103698,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-11": 3,
+    "2026-09-11": 4,
     "2026-09-10": 9,
     "2026-09-09": 18,
     "2026-09-08": 12,
@@ -103700,15 +103731,15 @@
     "2026-08-12": 6
   },
   "categoryDistribution": {
-    "reverb": 2896,
+    "reverb": 2897,
     "marketplace": 525,
     "other": 111
   },
-  "activeModelsCount": 269,
+  "activeModelsCount": 270,
   "topPosters": [
     {
       "username": "Benson Kent",
-      "count": 625
+      "count": 626
     },
     {
       "username": "theguitarpit",
@@ -110467,15 +110498,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3220,
+      "total": 3221,
       "sold": 1092,
       "fake": 0,
-      "live": 1015,
+      "live": 1016,
       "removed": 1113,
       "soldPct": 34,
       "livePct": 32
     },
     "byBrand": {
+      "Harmony": {
+        "total": 16,
+        "sold": 4,
+        "fake": 0,
+        "live": 7,
+        "removed": 5,
+        "soldPct": 25,
+        "livePct": 44
+      },
       "Manuel Rodriguez": {
         "total": 1,
         "sold": 0,
@@ -110502,15 +110542,6 @@
         "removed": 7,
         "soldPct": 52,
         "livePct": 26
-      },
-      "Harmony": {
-        "total": 15,
-        "sold": 4,
-        "fake": 0,
-        "live": 6,
-        "removed": 5,
-        "soldPct": 27,
-        "livePct": 40
       },
       "BC Rich": {
         "total": 169,
@@ -113828,7 +113859,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 645,
+        "total": 646,
         "sold": 246,
         "rate": 38
       },
@@ -113852,6 +113883,11 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 973,
+        "sold": 322,
+        "rate": 33
+      },
       "Mint": {
         "total": 106,
         "sold": 23,
@@ -113871,11 +113907,6 @@
         "total": 43,
         "sold": 16,
         "rate": 37
-      },
-      "Very Good": {
-        "total": 972,
-        "sold": 322,
-        "rate": 33
       },
       "Brand New": {
         "total": 271,
@@ -114275,7 +114306,7 @@
       "live": 16,
       "removed": 18,
       "sellRate": 23,
-      "totalDays": 1261.6,
+      "totalDays": 1261.7,
       "soldCount": 10,
       "avgDaysToSell": 126.2
     },
@@ -114446,9 +114477,9 @@
       "live": 4,
       "removed": 2,
       "sellRate": 33,
-      "totalDays": 486.1,
+      "totalDays": 486.20000000000005,
       "soldCount": 3,
-      "avgDaysToSell": 162
+      "avgDaysToSell": 162.1
     },
     "Jackson|Jackson USA Custom Shop": {
       "brand": "Jackson",
@@ -114767,7 +114798,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 44,
-      "totalDays": 1006.3,
+      "totalDays": 1006.4,
       "soldCount": 4,
       "avgDaysToSell": 251.6
     },
@@ -115052,7 +115083,7 @@
       "live": 3,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 295.4,
+      "totalDays": 295.5,
       "soldCount": 4,
       "avgDaysToSell": 73.9
     },
@@ -115147,7 +115178,7 @@
       "live": 7,
       "removed": 9,
       "sellRate": 36,
-      "totalDays": 527.2,
+      "totalDays": 527.3,
       "soldCount": 9,
       "avgDaysToSell": 58.6
     },
@@ -115561,7 +115592,7 @@
       "live": 4,
       "removed": 1,
       "sellRate": 44,
-      "totalDays": 555.9000000000001,
+      "totalDays": 556,
       "soldCount": 4,
       "avgDaysToSell": 139
     },
@@ -115636,7 +115667,7 @@
       "live": 3,
       "removed": 6,
       "sellRate": 18,
-      "totalDays": 346.1,
+      "totalDays": 346.20000000000005,
       "soldCount": 2,
       "avgDaysToSell": 173.1
     },
@@ -116766,9 +116797,9 @@
     },
     {
       "label": "6–15",
-      "total": 305,
+      "total": 306,
       "sold": 81,
-      "rate": 27
+      "rate": 26
     },
     {
       "label": "16–30",
@@ -116785,7 +116816,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1112,
+      "total": 1113,
       "sold": 332,
       "rate": 30
     },
@@ -116797,7 +116828,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 823,
+      "total": 824,
       "sold": 189,
       "rate": 23
     },
@@ -116887,16 +116918,16 @@
       "rate": 22
     },
     {
+      "state": "MA",
+      "total": 29,
+      "sold": 12,
+      "rate": 41
+    },
+    {
       "state": "OH",
       "total": 29,
       "sold": 7,
       "rate": 24
-    },
-    {
-      "state": "MA",
-      "total": 28,
-      "sold": 12,
-      "rate": 43
     },
     {
       "state": "OR",
