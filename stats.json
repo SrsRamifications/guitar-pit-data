@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T22:32:23.478Z",
+  "generatedAt": "2026-09-26T22:47:23.371Z",
   "totalLinks": 3736,
   "totalEver": 4622,
   "totalBeforeFilter": 4622,
@@ -1326,6 +1326,21 @@
           "max": 5000,
           "avg": 5000
         }
+      },
+      "soldData": {
+        "count": 1,
+        "avg": 5000,
+        "min": 4999.99,
+        "max": 4999.99,
+        "prices": [
+          {
+            "price": 4999.99,
+            "askingPrice": 5000,
+            "date": "2026-09-26T22:32:17.896+00:00",
+            "title": "ESP Custom Shop Horizon 7-String Baritone - Satin Snow White (2014, Not STEF B7)",
+            "url": "https://reverb.com/item/102310275"
+          }
+        ]
       },
       "avg": 5000
     },
@@ -105116,10 +105131,10 @@
       "count": 107,
       "min": 700,
       "max": 10500,
-      "soldCount": 25,
+      "soldCount": 26,
       "outliersExcluded": 3,
       "avg": 3570,
-      "soldAvg": 2559
+      "soldAvg": 2653
     },
     "Fender": {
       "count": 234,
@@ -108219,9 +108234,9 @@
       "count": 1251,
       "sum": 5261971.360000014,
       "sold": {
-        "count": 455,
-        "sum": 1171823.5499999998,
-        "avg": 2575,
+        "count": 456,
+        "sum": 1176823.54,
+        "avg": 2581,
         "min": 110,
         "max": 35900
       },
@@ -108580,7 +108595,7 @@
       "avg": 42
     },
     "ESP": {
-      "sum": 1565,
+      "sum": 1566,
       "count": 38,
       "avg": 41
     },
@@ -108595,7 +108610,7 @@
       "avg": 39
     },
     "Gibson": {
-      "sum": 5265,
+      "sum": 5266,
       "count": 120,
       "avg": 44
     },
@@ -109408,7 +109423,7 @@
   "topDealHunters": [
     {
       "username": "theguitarpit",
-      "count": 262
+      "count": 263
     },
     {
       "username": "Benson Kent",
@@ -109698,19 +109713,27 @@
     }
   },
   "soldPrices": {
-    "count": 1158,
-    "avg": 2809,
+    "count": 1159,
+    "avg": 2811,
     "min": 59.99,
     "max": 35900,
     "avgDiscount": 10
   },
   "timeToSell": {
     "overall": {
-      "totalDays": 11249.900000000005,
-      "count": 794,
+      "totalDays": 11250.300000000005,
+      "count": 795,
       "avgDays": 14.2
     },
     "byModel": {
+      "esp-horizon-custom-shop-7-string": {
+        "displayName": "ESP Custom Shop Horizon 7-String Baritone - Satin Snow White (2014, Not STEF B7)",
+        "totalDays": 0.4,
+        "count": 1,
+        "fastest": 0.4,
+        "slowest": 0.4,
+        "avgDays": 0.4
+      },
       "fender-telecaster": {
         "displayName": "Fender Custom Telecaster Refin Black over Sunburst 1963",
         "totalDays": 67.2,
@@ -114881,6 +114904,13 @@
       }
     },
     "byBrand": {
+      "ESP": {
+        "totalDays": 88.89999999999999,
+        "count": 18,
+        "fastest": 0,
+        "slowest": 14.8,
+        "avgDays": 4.9
+      },
       "Fender": {
         "totalDays": 741.4000000000002,
         "count": 70,
@@ -114915,13 +114945,6 @@
         "fastest": 0,
         "slowest": 81,
         "avgDays": 7.2
-      },
-      "ESP": {
-        "totalDays": 88.49999999999999,
-        "count": 17,
-        "fastest": 0,
-        "slowest": 14.8,
-        "avgDays": 5.2
       },
       "Kramer": {
         "totalDays": 156.60000000000005,
@@ -116480,9 +116503,9 @@
   "sellThrough": {
     "overall": {
       "total": 3413,
-      "sold": 1152,
+      "sold": 1153,
       "fake": 0,
-      "live": 1108,
+      "live": 1107,
       "removed": 1153,
       "soldPct": 34,
       "livePct": 32
@@ -116517,12 +116540,12 @@
       },
       "ESP": {
         "total": 113,
-        "sold": 27,
+        "sold": 28,
         "fake": 0,
-        "live": 55,
+        "live": 54,
         "removed": 31,
-        "soldPct": 24,
-        "livePct": 49
+        "soldPct": 25,
+        "livePct": 48
       },
       "Fender": {
         "total": 274,
@@ -119916,7 +119939,7 @@
       {
         "label": "$5k–10k",
         "total": 426,
-        "sold": 94,
+        "sold": 95,
         "rate": 22
       },
       {
@@ -119934,7 +119957,7 @@
       },
       "Excellent": {
         "total": 1251,
-        "sold": 462,
+        "sold": 463,
         "rate": 37
       },
       "Good": {
@@ -120326,7 +120349,7 @@
       "live": 24,
       "removed": 20,
       "sellRate": 41,
-      "totalDays": 3899.8,
+      "totalDays": 3900.1,
       "soldCount": 31,
       "avgDaysToSell": 125.8
     },
@@ -120358,15 +120381,15 @@
       "avg": 5691,
       "min": 1930,
       "max": 27500,
-      "sold": 5,
-      "soldSum": 42557.72,
-      "soldAvg": 8512,
-      "live": 25,
+      "sold": 6,
+      "soldSum": 47557.70999999999,
+      "soldAvg": 7926,
+      "live": 24,
       "removed": 8,
-      "sellRate": 13,
-      "totalDays": 486.2,
-      "soldCount": 5,
-      "avgDaysToSell": 97.2
+      "sellRate": 16,
+      "totalDays": 486.7,
+      "soldCount": 6,
+      "avgDaysToSell": 81.1
     },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
@@ -120383,7 +120406,7 @@
       "live": 45,
       "removed": 49,
       "sellRate": 35,
-      "totalDays": 5857.900000000001,
+      "totalDays": 5858.2,
       "soldCount": 51,
       "avgDaysToSell": 114.9
     },
@@ -120402,7 +120425,7 @@
       "live": 37,
       "removed": 43,
       "sellRate": 34,
-      "totalDays": 5505.799999999999,
+      "totalDays": 5506.199999999999,
       "soldCount": 42,
       "avgDaysToSell": 131.1
     },
@@ -120421,7 +120444,7 @@
       "live": 10,
       "removed": 13,
       "sellRate": 53,
-      "totalDays": 4012.3999999999996,
+      "totalDays": 4012.7999999999997,
       "soldCount": 26,
       "avgDaysToSell": 154.3
     },
@@ -120440,9 +120463,9 @@
       "live": 43,
       "removed": 78,
       "sellRate": 39,
-      "totalDays": 10915.6,
+      "totalDays": 10916.699999999999,
       "soldCount": 78,
-      "avgDaysToSell": 139.9
+      "avgDaysToSell": 140
     },
     "Gibson|Gibson USA": {
       "brand": "Gibson",
@@ -120459,7 +120482,7 @@
       "live": 85,
       "removed": 100,
       "sellRate": 38,
-      "totalDays": 15833.6,
+      "totalDays": 15835.000000000002,
       "soldCount": 114,
       "avgDaysToSell": 138.9
     },
@@ -120497,7 +120520,7 @@
       "live": 10,
       "removed": 10,
       "sellRate": 26,
-      "totalDays": 727.0999999999999,
+      "totalDays": 727.2,
       "soldCount": 7,
       "avgDaysToSell": 103.9
     },
@@ -120516,7 +120539,7 @@
       "live": 18,
       "removed": 18,
       "sellRate": 22,
-      "totalDays": 1414.1000000000001,
+      "totalDays": 1414.2,
       "soldCount": 10,
       "avgDaysToSell": 141.4
     },
@@ -120628,7 +120651,7 @@
       "live": 2,
       "removed": 1,
       "sellRate": 63,
-      "totalDays": 563.6,
+      "totalDays": 563.6999999999999,
       "soldCount": 5,
       "avgDaysToSell": 112.7
     },
@@ -120647,9 +120670,9 @@
       "live": 4,
       "removed": 1,
       "sellRate": 50,
-      "totalDays": 570.2,
+      "totalDays": 570.4,
       "soldCount": 5,
-      "avgDaysToSell": 114
+      "avgDaysToSell": 114.1
     },
     "Collings|Collings": {
       "brand": "Collings",
@@ -120722,7 +120745,7 @@
       "live": 15,
       "removed": 6,
       "sellRate": 30,
-      "totalDays": 840.8000000000001,
+      "totalDays": 841,
       "soldCount": 9,
       "avgDaysToSell": 93.4
     },
@@ -120741,7 +120764,7 @@
       "live": 41,
       "removed": 39,
       "sellRate": 49,
-      "totalDays": 9610.9,
+      "totalDays": 9611.3,
       "soldCount": 76,
       "avgDaysToSell": 126.5
     },
@@ -120779,9 +120802,9 @@
       "live": 3,
       "removed": 3,
       "sellRate": 40,
-      "totalDays": 1067.3,
+      "totalDays": 1067.4,
       "soldCount": 4,
-      "avgDaysToSell": 266.8
+      "avgDaysToSell": 266.9
     },
     "Music Man|Music Man USA": {
       "brand": "Music Man",
@@ -120798,7 +120821,7 @@
       "live": 7,
       "removed": 12,
       "sellRate": 53,
-      "totalDays": 3497.7000000000003,
+      "totalDays": 3497.9000000000005,
       "soldCount": 21,
       "avgDaysToSell": 166.6
     },
@@ -120817,9 +120840,9 @@
       "live": 9,
       "removed": 8,
       "sellRate": 32,
-      "totalDays": 1383.5,
+      "totalDays": 1383.6000000000001,
       "soldCount": 8,
-      "avgDaysToSell": 172.9
+      "avgDaysToSell": 173
     },
     "Fender|Fender USA": {
       "brand": "Fender",
@@ -120836,7 +120859,7 @@
       "live": 9,
       "removed": 9,
       "sellRate": 51,
-      "totalDays": 2012,
+      "totalDays": 2012.2999999999997,
       "soldCount": 19,
       "avgDaysToSell": 105.9
     },
@@ -120874,7 +120897,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 50,
-      "totalDays": 2943.3999999999996,
+      "totalDays": 2943.4999999999995,
       "soldCount": 16,
       "avgDaysToSell": 184
     },
@@ -120950,7 +120973,7 @@
       "live": 9,
       "removed": 18,
       "sellRate": 39,
-      "totalDays": 1879.6,
+      "totalDays": 1880,
       "soldCount": 14,
       "avgDaysToSell": 110.6
     },
@@ -121007,7 +121030,7 @@
       "live": 12,
       "removed": 15,
       "sellRate": 52,
-      "totalDays": 2757.2999999999997,
+      "totalDays": 2757.5999999999995,
       "soldCount": 29,
       "avgDaysToSell": 95.1
     },
@@ -121082,7 +121105,7 @@
       "live": 5,
       "removed": 8,
       "sellRate": 57,
-      "totalDays": 2489.1000000000004,
+      "totalDays": 2489.4,
       "soldCount": 17,
       "avgDaysToSell": 146.4
     },
@@ -121101,7 +121124,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 50,
-      "totalDays": 938.4,
+      "totalDays": 938.5,
       "soldCount": 5,
       "avgDaysToSell": 187.7
     },
@@ -121139,9 +121162,9 @@
       "live": 6,
       "removed": 2,
       "sellRate": 20,
-      "totalDays": 175.4,
+      "totalDays": 175.6,
       "soldCount": 2,
-      "avgDaysToSell": 87.7
+      "avgDaysToSell": 87.8
     },
     "Aristides|Aristides": {
       "brand": "Aristides",
@@ -121215,7 +121238,7 @@
       "live": 4,
       "removed": 4,
       "sellRate": 33,
-      "totalDays": 322.3,
+      "totalDays": 322.4,
       "soldCount": 4,
       "avgDaysToSell": 80.6
     },
@@ -121253,9 +121276,9 @@
       "live": 5,
       "removed": 7,
       "sellRate": 33,
-      "totalDays": 822.8,
+      "totalDays": 822.9000000000001,
       "soldCount": 6,
-      "avgDaysToSell": 137.1
+      "avgDaysToSell": 137.2
     },
     "Grosh|Don Grosh": {
       "brand": "Grosh",
@@ -121423,7 +121446,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 53,
-      "totalDays": 1204.7999999999997,
+      "totalDays": 1204.8999999999999,
       "soldCount": 8,
       "avgDaysToSell": 150.6
     },
@@ -121517,7 +121540,7 @@
       "live": 6,
       "removed": 6,
       "sellRate": 37,
-      "totalDays": 1121.1,
+      "totalDays": 1121.3000000000002,
       "soldCount": 7,
       "avgDaysToSell": 160.2
     },
@@ -121612,7 +121635,7 @@
       "live": 5,
       "removed": 6,
       "sellRate": 31,
-      "totalDays": 719.8,
+      "totalDays": 719.9,
       "soldCount": 5,
       "avgDaysToSell": 144
     },
@@ -121764,7 +121787,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 46,
-      "totalDays": 951.2,
+      "totalDays": 951.3,
       "soldCount": 6,
       "avgDaysToSell": 158.5
     },
@@ -122137,7 +122160,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 97.5,
+      "totalDays": 97.6,
       "soldCount": 2,
       "avgDaysToSell": 48.8
     },
@@ -122361,7 +122384,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 29,
-      "totalDays": 383.2,
+      "totalDays": 383.29999999999995,
       "soldCount": 2,
       "avgDaysToSell": 191.6
     },
@@ -122637,7 +122660,7 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 466.3,
+      "totalDays": 466.4,
       "soldCount": 2,
       "avgDaysToSell": 233.2
     },
@@ -122898,7 +122921,7 @@
     {
       "label": "16–30",
       "total": 507,
-      "sold": 140,
+      "sold": 141,
       "rate": 28
     },
     {
@@ -122916,14 +122939,14 @@
     },
     "off": {
       "total": 520,
-      "sold": 138,
+      "sold": 139,
       "rate": 27
     }
   },
   "sellerType": {
     "preferred": {
       "total": 902,
-      "sold": 207,
+      "sold": 208,
       "rate": 23
     },
     "regular": {
@@ -123014,8 +123037,8 @@
     {
       "state": "MA",
       "total": 34,
-      "sold": 12,
-      "rate": 35
+      "sold": 13,
+      "rate": 38
     },
     {
       "state": "MO",
