@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-27T16:32:24.604Z",
-  "totalLinks": 3747,
-  "totalEver": 4633,
-  "totalBeforeFilter": 4633,
+  "generatedAt": "2026-09-27T16:36:59.751Z",
+  "totalLinks": 3748,
+  "totalEver": 4634,
+  "totalBeforeFilter": 4634,
   "fakeCount": 6,
   "removedCount": 1634,
-  "totalWithPrice": 3420,
+  "totalWithPrice": 3421,
   "overall": {
-    "count": 3319,
-    "sum": 9624130.47,
+    "count": 3320,
+    "sum": 9629130.47,
     "avg": 2900,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 3319,
-    "sum": 9624130.47,
+    "count": 3320,
+    "sum": 9629130.47,
     "avg": 2900,
     "min": 10.49,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 11495,
@@ -829,11 +829,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 303,
-      "sum": 964064.26,
+      "count": 304,
+      "sum": 969064.26,
       "min": 225,
       "max": 10200,
-      "avg": 3182
+      "avg": 3188
     },
     "2026-08": {
       "count": 344,
@@ -894,11 +894,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2983,
-      "sum": 8547065.3,
+      "count": 2984,
+      "sum": 8552065.3,
       "min": 33,
       "max": 11185,
-      "avg": 2865
+      "avg": 2866
     },
     "marketplace": {
       "count": 236,
@@ -917,11 +917,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2983,
-      "sum": 8547065.3,
+      "count": 2984,
+      "sum": 8552065.3,
       "min": 33,
       "max": 11185,
-      "avg": 2865
+      "avg": 2866
     },
     "davesguitar.com": {
       "count": 36,
@@ -1205,6 +1205,37 @@
     }
   },
   "byModel": {
+    "washburn-ec-36-mij": {
+      "displayName": "Rare Washburn EC-36 1988 - Red/Blue MIJ",
+      "brand": "Washburn",
+      "model": "EC-36",
+      "variant": "Mij",
+      "count": 1,
+      "sum": 5000,
+      "min": 5000,
+      "max": 5000,
+      "sightings": [
+        {
+          "price": 5000,
+          "date": "2026-09-27T16:36:43.971Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Rare Washburn EC-36 1988 - Red/Blue MIJ",
+          "url": "https://reverb.com/item/102325472",
+          "condition": "Very Good"
+        }
+      ],
+      "byCondition": {
+        "Very Good": {
+          "count": 1,
+          "sum": 5000,
+          "min": 5000,
+          "max": 5000,
+          "avg": 5000
+        }
+      },
+      "avg": 5000
+    },
     "bc-rich-stealth-nj-series-mij": {
       "displayName": "B.C. Rich Stealth NJ Series MIJ 80's Grey Burst Japan Kahler",
       "brand": "BC Rich",
@@ -10607,7 +10638,7 @@
         },
         {
           "price": 3500,
-          "date": "2026-09-14T01:59:47.748Z",
+          "date": "2026-09-14T01:59:47.748+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Original VINTAGE Fender Stratocaster NECK ONLY 1956 - \"BROWNIE\"",
@@ -105412,6 +105443,15 @@
     }
   },
   "byBrandPrice": {
+    "Washburn": {
+      "count": 21,
+      "min": 450,
+      "max": 5000,
+      "soldCount": 8,
+      "outliersExcluded": 0,
+      "avg": 2765,
+      "soldAvg": 2845
+    },
     "BC Rich": {
       "count": 176,
       "min": 33,
@@ -105528,15 +105568,6 @@
       "outliersExcluded": 0,
       "avg": 2553,
       "soldAvg": 2670
-    },
-    "Washburn": {
-      "count": 20,
-      "min": 450,
-      "max": 5000,
-      "soldCount": 8,
-      "outliersExcluded": 0,
-      "avg": 2653,
-      "soldAvg": 2845
     },
     "Eastman": {
       "count": 49,
@@ -108528,6 +108559,20 @@
     }
   },
   "byCondition": {
+    "Very Good": {
+      "count": 1041,
+      "sum": 3297089.810000007,
+      "sold": {
+        "count": 335,
+        "sum": 726974.8799999999,
+        "avg": 2170,
+        "min": 68,
+        "max": 19995
+      },
+      "avg": 3167,
+      "min": 33,
+      "max": 437713.69
+    },
     "Good": {
       "count": 371,
       "sum": 1101710.92,
@@ -108541,20 +108586,6 @@
       "avg": 2970,
       "min": 70,
       "max": 55000
-    },
-    "Very Good": {
-      "count": 1040,
-      "sum": 3292089.8100000066,
-      "sold": {
-        "count": 335,
-        "sum": 726974.8799999999,
-        "avg": 2170,
-        "min": 68,
-        "max": 19995
-      },
-      "avg": 3165,
-      "min": 33,
-      "max": 437713.69
     },
     "Brand New": {
       "count": 285,
@@ -108677,9 +108708,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3182,
-      "median": 2650,
-      "count": 303
+      "avg": 3188,
+      "median": 2673,
+      "count": 304
     },
     "08": {
       "name": "Aug",
@@ -108878,7 +108909,7 @@
     "1k-2k": 1016,
     "2k-3k": 704,
     "3k-5k": 737,
-    "5k-10k": 427,
+    "5k-10k": 428,
     "10k+": 127
   },
   "priceDistributionFiltered": {
@@ -108887,10 +108918,15 @@
     "1k-2k": 1016,
     "2k-3k": 704,
     "3k-5k": 737,
-    "5k-10k": 427,
+    "5k-10k": 428,
     "10k+": 26
   },
   "daysOnMarket": {
+    "Washburn": {
+      "sum": 278,
+      "count": 8,
+      "avg": 35
+    },
     "BC Rich": {
       "sum": 1676,
       "count": 38,
@@ -108955,11 +108991,6 @@
       "sum": 1600,
       "count": 38,
       "avg": 42
-    },
-    "Washburn": {
-      "sum": 278,
-      "count": 7,
-      "avg": 40
     },
     "Eastman": {
       "sum": 379,
@@ -109207,7 +109238,7 @@
       "avg": 36
     },
     "James Tyler JTG": {
-      "sum": 150,
+      "sum": 151,
       "count": 3,
       "avg": 50
     },
@@ -109658,7 +109689,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-27": 11,
+    "2026-09-27": 12,
     "2026-09-26": 20,
     "2026-09-25": 7,
     "2026-09-24": 15,
@@ -109691,11 +109722,11 @@
     "2026-08-28": 3
   },
   "categoryDistribution": {
-    "reverb": 3070,
+    "reverb": 3071,
     "marketplace": 566,
     "other": 111
   },
-  "activeModelsCount": 307,
+  "activeModelsCount": 308,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -109703,7 +109734,7 @@
     },
     {
       "username": "theguitarpit",
-      "count": 650
+      "count": 651
     },
     {
       "username": "Shteefe",
@@ -109982,10 +110013,10 @@
       "count": 22
     },
     "Washburn": {
-      "avgPrice": 2653,
+      "avgPrice": 2765,
       "retailEst": 200,
-      "avgDiscount": -1226.4,
-      "count": 20
+      "avgDiscount": -1282.3,
+      "count": 21
     },
     "Rickenbacker": {
       "avgPrice": 2305,
@@ -116841,15 +116872,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3424,
+      "total": 3425,
       "sold": 1155,
       "fake": 0,
-      "live": 1115,
+      "live": 1116,
       "removed": 1154,
       "soldPct": 34,
       "livePct": 33
     },
     "byBrand": {
+      "Washburn": {
+        "total": 21,
+        "sold": 8,
+        "fake": 0,
+        "live": 9,
+        "removed": 4,
+        "soldPct": 38,
+        "livePct": 43
+      },
       "BC Rich": {
         "total": 182,
         "sold": 57,
@@ -116966,15 +117006,6 @@
         "removed": 7,
         "soldPct": 31,
         "livePct": 15
-      },
-      "Washburn": {
-        "total": 20,
-        "sold": 8,
-        "fake": 0,
-        "live": 8,
-        "removed": 4,
-        "soldPct": 40,
-        "livePct": 40
       },
       "Eastman": {
         "total": 49,
@@ -120277,7 +120308,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 427,
+        "total": 428,
         "sold": 95,
         "rate": 22
       },
@@ -120289,15 +120320,15 @@
       }
     ],
     "byCondition": {
+      "Very Good": {
+        "total": 1041,
+        "sold": 337,
+        "rate": 32
+      },
       "Good": {
         "total": 371,
         "sold": 136,
         "rate": 37
-      },
-      "Very Good": {
-        "total": 1040,
-        "sold": 337,
-        "rate": 32
       },
       "Brand New": {
         "total": 285,
@@ -120716,7 +120747,7 @@
       "live": 19,
       "removed": 18,
       "sellRate": 21,
-      "totalDays": 1421.9,
+      "totalDays": 1422,
       "soldCount": 10,
       "avgDaysToSell": 142.2
     },
@@ -120754,7 +120785,7 @@
       "live": 44,
       "removed": 78,
       "sellRate": 39,
-      "totalDays": 10972.599999999999,
+      "totalDays": 10972.9,
       "soldCount": 78,
       "avgDaysToSell": 140.7
     },
@@ -120792,7 +120823,7 @@
       "live": 38,
       "removed": 43,
       "sellRate": 34,
-      "totalDays": 5536,
+      "totalDays": 5536.1,
       "soldCount": 42,
       "avgDaysToSell": 131.8
     },
@@ -120830,7 +120861,7 @@
       "live": 23,
       "removed": 20,
       "sellRate": 43,
-      "totalDays": 3923.2000000000003,
+      "totalDays": 3923.6000000000004,
       "soldCount": 32,
       "avgDaysToSell": 122.6
     },
@@ -120887,7 +120918,7 @@
       "live": 10,
       "removed": 13,
       "sellRate": 53,
-      "totalDays": 4030.7000000000003,
+      "totalDays": 4030.8,
       "soldCount": 26,
       "avgDaysToSell": 155
     },
@@ -120906,7 +120937,7 @@
       "live": 84,
       "removed": 101,
       "sellRate": 38,
-      "totalDays": 15916.699999999999,
+      "totalDays": 15916.999999999998,
       "soldCount": 114,
       "avgDaysToSell": 139.6
     },
@@ -120944,7 +120975,7 @@
       "live": 19,
       "removed": 10,
       "sellRate": 22,
-      "totalDays": 1231.1,
+      "totalDays": 1231.1999999999998,
       "soldCount": 8,
       "avgDaysToSell": 153.9
     },
@@ -121018,9 +121049,9 @@
       "live": 2,
       "removed": 3,
       "sellRate": 55,
-      "totalDays": 738.1000000000001,
+      "totalDays": 738.3,
       "soldCount": 5,
-      "avgDaysToSell": 123
+      "avgDaysToSell": 123.1
     },
     "Charvel|Charvel USA Custom Shop": {
       "brand": "Charvel",
@@ -121075,7 +121106,7 @@
       "live": 7,
       "removed": 4,
       "sellRate": 45,
-      "totalDays": 1210.3,
+      "totalDays": 1210.4,
       "soldCount": 9,
       "avgDaysToSell": 134.5
     },
@@ -121150,7 +121181,7 @@
       "live": 41,
       "removed": 39,
       "sellRate": 49,
-      "totalDays": 9662.5,
+      "totalDays": 9663.300000000001,
       "soldCount": 76,
       "avgDaysToSell": 127.1
     },
@@ -121207,7 +121238,7 @@
       "live": 7,
       "removed": 12,
       "sellRate": 53,
-      "totalDays": 3513.3,
+      "totalDays": 3513.4,
       "soldCount": 21,
       "avgDaysToSell": 167.3
     },
@@ -121226,7 +121257,7 @@
       "live": 9,
       "removed": 8,
       "sellRate": 32,
-      "totalDays": 1389.5000000000002,
+      "totalDays": 1389.6000000000001,
       "soldCount": 8,
       "avgDaysToSell": 173.7
     },
@@ -121245,7 +121276,7 @@
       "live": 9,
       "removed": 9,
       "sellRate": 51,
-      "totalDays": 2025.7000000000003,
+      "totalDays": 2025.8000000000002,
       "soldCount": 19,
       "avgDaysToSell": 106.6
     },
@@ -121283,7 +121314,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 50,
-      "totalDays": 2955.4,
+      "totalDays": 2955.5,
       "soldCount": 16,
       "avgDaysToSell": 184.7
     },
@@ -121302,7 +121333,7 @@
       "live": 23,
       "removed": 19,
       "sellRate": 35,
-      "totalDays": 3249.4000000000005,
+      "totalDays": 3249.6000000000004,
       "soldCount": 21,
       "avgDaysToSell": 141.3
     },
@@ -121434,7 +121465,7 @@
       "live": 3,
       "removed": 2,
       "sellRate": 44,
-      "totalDays": 549.1,
+      "totalDays": 549.3,
       "soldCount": 4,
       "avgDaysToSell": 137.3
     },
@@ -121548,7 +121579,7 @@
       "live": 6,
       "removed": 8,
       "sellRate": 33,
-      "totalDays": 953.5,
+      "totalDays": 953.5999999999999,
       "soldCount": 7,
       "avgDaysToSell": 136.2
     },
@@ -121586,7 +121617,7 @@
       "live": 16,
       "removed": 10,
       "sellRate": 35,
-      "totalDays": 1628.6,
+      "totalDays": 1628.7999999999997,
       "soldCount": 14,
       "avgDaysToSell": 116.3
     },
@@ -122154,7 +122185,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 46,
-      "totalDays": 955.6000000000001,
+      "totalDays": 955.7,
       "soldCount": 6,
       "avgDaysToSell": 159.3
     },
@@ -122359,7 +122390,7 @@
       "live": 2,
       "removed": 3,
       "sellRate": 38,
-      "totalDays": 428.70000000000005,
+      "totalDays": 428.8,
       "soldCount": 3,
       "avgDaysToSell": 142.9
     },
@@ -123027,9 +123058,9 @@
       "live": 0,
       "removed": 1,
       "sellRate": 67,
-      "totalDays": 467.8,
+      "totalDays": 467.90000000000003,
       "soldCount": 2,
-      "avgDaysToSell": 233.9
+      "avgDaysToSell": 234
     },
     "Ibanez|Rickenbacker": {
       "brand": "Ibanez",
@@ -123275,9 +123306,9 @@
     },
     {
       "label": "1–5",
-      "total": 89,
+      "total": 90,
       "sold": 29,
-      "rate": 33
+      "rate": 32
     },
     {
       "label": "6–15",
@@ -123300,7 +123331,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1239,
+      "total": 1240,
       "sold": 362,
       "rate": 29
     },
@@ -123312,7 +123343,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 909,
+      "total": 910,
       "sold": 208,
       "rate": 23
     },
@@ -123373,9 +123404,9 @@
     },
     {
       "state": "NJ",
-      "total": 49,
+      "total": 50,
       "sold": 18,
-      "rate": 37
+      "rate": 36
     },
     {
       "state": "TN",
