@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-28T03:33:52.688Z",
-  "totalLinks": 3753,
-  "totalEver": 4639,
-  "totalBeforeFilter": 4639,
+  "generatedAt": "2026-09-28T03:35:34.205Z",
+  "totalLinks": 3754,
+  "totalEver": 4640,
+  "totalBeforeFilter": 4640,
   "fakeCount": 6,
   "removedCount": 1635,
-  "totalWithPrice": 3426,
+  "totalWithPrice": 3427,
   "overall": {
-    "count": 3325,
-    "sum": 9641011.47,
-    "avg": 2900,
+    "count": 3326,
+    "sum": 9643311.47,
+    "avg": 2899,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 3325,
-    "sum": 9641011.47,
-    "avg": 2900,
+    "count": 3326,
+    "sum": 9643311.47,
+    "avg": 2899,
     "min": 10.49,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 11495,
@@ -829,11 +829,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 309,
-      "sum": 980945.26,
+      "count": 310,
+      "sum": 983245.26,
       "min": 225,
       "max": 10200,
-      "avg": 3175
+      "avg": 3172
     },
     "2026-08": {
       "count": 344,
@@ -894,8 +894,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 2988,
-      "sum": 8563353.3,
+      "count": 2989,
+      "sum": 8565653.3,
       "min": 33,
       "max": 11185,
       "avg": 2866
@@ -917,8 +917,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 2988,
-      "sum": 8563353.3,
+      "count": 2989,
+      "sum": 8565653.3,
       "min": 33,
       "max": 11185,
       "avg": 2866
@@ -1205,6 +1205,37 @@
     }
   },
   "byModel": {
+    "kramer-nightswan-fine-metallic-gloss": {
+      "displayName": "Kramer Nightswan 88 - Fine metallic high gloss eurathane",
+      "brand": "Kramer",
+      "model": "Nightswan Fine metallic",
+      "variant": "Gloss",
+      "count": 1,
+      "sum": 2300,
+      "min": 2300,
+      "max": 2300,
+      "sightings": [
+        {
+          "price": 2300,
+          "date": "2026-09-28T03:35:18.932Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Kramer Nightswan 88 - Fine metallic high gloss eurathane",
+          "url": "https://reverb.com/item/102326801",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 2300,
+          "min": 2300,
+          "max": 2300,
+          "avg": 2300
+        }
+      },
+      "avg": 2300
+    },
     "prs-mccarty-2004": {
       "displayName": "PRS McCarty 2004 - Black",
       "brand": "PRS",
@@ -105633,6 +105664,15 @@
     }
   },
   "byBrandPrice": {
+    "Kramer": {
+      "count": 22,
+      "min": 549,
+      "max": 3250,
+      "soldCount": 9,
+      "outliersExcluded": 1,
+      "avg": 1702,
+      "soldAvg": 1699
+    },
     "PRS": {
       "count": 275,
       "min": 580.29,
@@ -105839,15 +105879,6 @@
       "outliersExcluded": 0,
       "avg": 3800,
       "soldAvg": null
-    },
-    "Kramer": {
-      "count": 21,
-      "min": 549,
-      "max": 3250,
-      "soldCount": 9,
-      "outliersExcluded": 1,
-      "avg": 1674,
-      "soldAvg": 1699
     },
     "Charvel": {
       "count": 23,
@@ -108749,6 +108780,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 1258,
+      "sum": 5291267.360000013,
+      "sold": {
+        "count": 459,
+        "sum": 1183217.5399999998,
+        "avg": 2578,
+        "min": 110,
+        "max": 35900
+      },
+      "avg": 4206,
+      "min": 110,
+      "max": 265500
+    },
     "Very Good": {
       "count": 1044,
       "sum": 3303501.810000007,
@@ -108801,20 +108846,6 @@
       "avg": 4478,
       "min": 135,
       "max": 35099
-    },
-    "Excellent": {
-      "count": 1257,
-      "sum": 5288967.360000013,
-      "sold": {
-        "count": 459,
-        "sum": 1183217.5399999998,
-        "avg": 2578,
-        "min": 110,
-        "max": 35900
-      },
-      "avg": 4208,
-      "min": 110,
-      "max": 265500
     },
     "Used": {
       "count": 109,
@@ -108898,9 +108929,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3175,
+      "avg": 3172,
       "median": 2650,
-      "count": 309
+      "count": 310
     },
     "08": {
       "name": "Aug",
@@ -109097,7 +109128,7 @@
     "0-500": 106,
     "500-1k": 305,
     "1k-2k": 1017,
-    "2k-3k": 704,
+    "2k-3k": 705,
     "3k-5k": 738,
     "5k-10k": 429,
     "10k+": 127
@@ -109106,14 +109137,19 @@
     "0-500": 106,
     "500-1k": 305,
     "1k-2k": 1017,
-    "2k-3k": 704,
+    "2k-3k": 705,
     "3k-5k": 738,
     "5k-10k": 429,
     "10k+": 26
   },
   "daysOnMarket": {
+    "Kramer": {
+      "sum": 348,
+      "count": 9,
+      "avg": 39
+    },
     "PRS": {
-      "sum": 3568,
+      "sum": 3569,
       "count": 72,
       "avg": 50
     },
@@ -109168,7 +109204,7 @@
       "avg": 22
     },
     "Ibanez": {
-      "sum": 1842,
+      "sum": 1843,
       "count": 34,
       "avg": 54
     },
@@ -109198,7 +109234,7 @@
       "avg": 42
     },
     "Jackson": {
-      "sum": 1312,
+      "sum": 1313,
       "count": 29,
       "avg": 45
     },
@@ -109221,11 +109257,6 @@
       "sum": 3,
       "count": 1,
       "avg": 3
-    },
-    "Kramer": {
-      "sum": 348,
-      "count": 8,
-      "avg": 44
     },
     "Charvel": {
       "sum": 337,
@@ -109338,7 +109369,7 @@
       "avg": 57
     },
     "Martin": {
-      "sum": 1027,
+      "sum": 1028,
       "count": 21,
       "avg": 49
     },
@@ -109663,9 +109694,9 @@
       "avg": 51
     },
     "EKO": {
-      "sum": 136,
+      "sum": 137,
       "count": 2,
-      "avg": 68
+      "avg": 69
     },
     "Kapa": {
       "sum": 52,
@@ -109874,7 +109905,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-28": 2,
+    "2026-09-28": 3,
     "2026-09-27": 15,
     "2026-09-26": 20,
     "2026-09-25": 7,
@@ -109907,11 +109938,11 @@
     "2026-08-29": 9
   },
   "categoryDistribution": {
-    "reverb": 3075,
+    "reverb": 3076,
     "marketplace": 567,
     "other": 111
   },
-  "activeModelsCount": 310,
+  "activeModelsCount": 311,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -110192,10 +110223,10 @@
       "count": 17
     },
     "Kramer": {
-      "avgPrice": 4098,
+      "avgPrice": 4019,
       "retailEst": 200,
-      "avgDiscount": -1948.8,
-      "count": 22
+      "avgDiscount": -1909.7,
+      "count": 23
     },
     "Washburn": {
       "avgPrice": 2811,
@@ -117081,15 +117112,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3429,
+      "total": 3430,
       "sold": 1158,
       "fake": 0,
-      "live": 1116,
+      "live": 1117,
       "removed": 1155,
       "soldPct": 34,
       "livePct": 33
     },
     "byBrand": {
+      "Kramer": {
+        "total": 24,
+        "sold": 10,
+        "fake": 0,
+        "live": 7,
+        "removed": 7,
+        "soldPct": 42,
+        "livePct": 29
+      },
       "PRS": {
         "total": 288,
         "sold": 107,
@@ -117296,15 +117336,6 @@
         "removed": 0,
         "soldPct": 50,
         "livePct": 50
-      },
-      "Kramer": {
-        "total": 23,
-        "sold": 10,
-        "fake": 0,
-        "live": 6,
-        "removed": 7,
-        "soldPct": 43,
-        "livePct": 26
       },
       "Charvel": {
         "total": 24,
@@ -120505,7 +120536,7 @@
       },
       {
         "label": "$2k–3k",
-        "total": 704,
+        "total": 705,
         "sold": 266,
         "rate": 38
       },
@@ -120529,6 +120560,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 1258,
+        "sold": 466,
+        "rate": 37
+      },
       "Very Good": {
         "total": 1044,
         "sold": 338,
@@ -120548,11 +120584,6 @@
         "total": 285,
         "sold": 55,
         "rate": 19
-      },
-      "Excellent": {
-        "total": 1257,
-        "sold": 466,
-        "rate": 37
       },
       "Used": {
         "total": 110,
@@ -120941,6 +120972,25 @@
     ]
   },
   "byBrandLine": {
+    "Kramer|Kramer USA Vintage": {
+      "brand": "Kramer",
+      "brandLine": "Kramer USA Vintage",
+      "tier": "premium",
+      "count": 13,
+      "sum": 78803.99,
+      "avg": 6062,
+      "min": 549,
+      "max": 55000,
+      "sold": 4,
+      "soldSum": 8445,
+      "soldAvg": 2111,
+      "live": 5,
+      "removed": 4,
+      "sellRate": 31,
+      "totalDays": 327.2,
+      "soldCount": 4,
+      "avgDaysToSell": 81.8
+    },
     "PRS|PRS Core": {
       "brand": "PRS",
       "brandLine": "PRS Core",
@@ -120956,7 +121006,7 @@
       "live": 45,
       "removed": 78,
       "sellRate": 39,
-      "totalDays": 11007.599999999999,
+      "totalDays": 11007.9,
       "soldCount": 78,
       "avgDaysToSell": 141.1
     },
@@ -121051,7 +121101,7 @@
       "live": 13,
       "removed": 15,
       "sellRate": 51,
-      "totalDays": 2789.9,
+      "totalDays": 2790,
       "soldCount": 29,
       "avgDaysToSell": 96.2
     },
@@ -121127,7 +121177,7 @@
       "live": 10,
       "removed": 13,
       "sellRate": 53,
-      "totalDays": 4041.4,
+      "totalDays": 4041.6,
       "soldCount": 26,
       "avgDaysToSell": 155.4
     },
@@ -121146,7 +121196,7 @@
       "live": 84,
       "removed": 101,
       "sellRate": 38,
-      "totalDays": 15967.9,
+      "totalDays": 15968.2,
       "soldCount": 114,
       "avgDaysToSell": 140.1
     },
@@ -121523,7 +121573,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 50,
-      "totalDays": 2962.6000000000004,
+      "totalDays": 2962.7000000000003,
       "soldCount": 16,
       "avgDaysToSell": 185.2
     },
@@ -121542,7 +121592,7 @@
       "live": 23,
       "removed": 19,
       "sellRate": 35,
-      "totalDays": 3259.2,
+      "totalDays": 3259.2999999999997,
       "soldCount": 21,
       "avgDaysToSell": 141.7
     },
@@ -121829,25 +121879,6 @@
       "totalDays": 1635.3,
       "soldCount": 14,
       "avgDaysToSell": 116.8
-    },
-    "Kramer|Kramer USA Vintage": {
-      "brand": "Kramer",
-      "brandLine": "Kramer USA Vintage",
-      "tier": "premium",
-      "count": 12,
-      "sum": 76503.99,
-      "avg": 6375,
-      "min": 549,
-      "max": 55000,
-      "sold": 4,
-      "soldSum": 8445,
-      "soldAvg": 2111,
-      "live": 4,
-      "removed": 4,
-      "sellRate": 33,
-      "totalDays": 327.2,
-      "soldCount": 4,
-      "avgDaysToSell": 81.8
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -123527,7 +123558,7 @@
     },
     {
       "label": "16–30",
-      "total": 514,
+      "total": 515,
       "sold": 141,
       "rate": 27
     },
@@ -123540,7 +123571,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1242,
+      "total": 1243,
       "sold": 364,
       "rate": 29
     },
@@ -123557,7 +123588,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 841,
+      "total": 842,
       "sold": 287,
       "rate": 34
     }
@@ -123589,7 +123620,7 @@
     },
     {
       "state": "FL",
-      "total": 79,
+      "total": 80,
       "sold": 34,
       "rate": 43
     },
