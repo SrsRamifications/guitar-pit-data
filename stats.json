@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-29T03:53:22.803Z",
-  "totalLinks": 3777,
-  "totalEver": 4669,
-  "totalBeforeFilter": 4669,
+  "generatedAt": "2026-09-29T03:54:28.455Z",
+  "totalLinks": 3778,
+  "totalEver": 4670,
+  "totalBeforeFilter": 4670,
   "fakeCount": 6,
   "removedCount": 1637,
-  "totalWithPrice": 3449,
+  "totalWithPrice": 3450,
   "overall": {
-    "count": 3348,
-    "sum": 9705856.47,
-    "avg": 2899,
+    "count": 3349,
+    "sum": 9710856.47,
+    "avg": 2900,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 3348,
-    "sum": 9705856.47,
-    "avg": 2899,
+    "count": 3349,
+    "sum": 9710856.47,
+    "avg": 2900,
     "min": 10.49,
     "max": 11475,
-    "median": 2300
+    "median": 2299.99
   },
   "outliers": {
     "thresholdHigh": 11495,
@@ -829,11 +829,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 332,
-      "sum": 1045768.26,
+      "count": 333,
+      "sum": 1050768.26,
       "min": 225,
       "max": 10200,
-      "avg": 3150
+      "avg": 3155
     },
     "2026-08": {
       "count": 344,
@@ -894,11 +894,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 3010,
-      "sum": 8623199.3,
+      "count": 3011,
+      "sum": 8628199.3,
       "min": 33,
       "max": 11185,
-      "avg": 2865
+      "avg": 2866
     },
     "marketplace": {
       "count": 238,
@@ -917,11 +917,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 3010,
-      "sum": 8623199.3,
+      "count": 3011,
+      "sum": 8628199.3,
       "min": 33,
       "max": 11185,
-      "avg": 2865
+      "avg": 2866
     },
     "peachguitars.com": {
       "count": 1,
@@ -1212,6 +1212,37 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-junior-1959": {
+      "displayName": "Vintage 1959 Gibson Les Paul Junior Double Cut w/ OHSC",
+      "brand": "Gibson",
+      "model": "Les Paul Junior",
+      "variant": "1959",
+      "count": 1,
+      "sum": 5000,
+      "min": 5000,
+      "max": 5000,
+      "sightings": [
+        {
+          "price": 5000,
+          "date": "2026-09-29T03:54:12.796Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Vintage 1959 Gibson Les Paul Junior Double Cut w/ OHSC",
+          "url": "https://reverb.com/item/102343435",
+          "condition": "Poor"
+        }
+      ],
+      "byCondition": {
+        "Poor": {
+          "count": 1,
+          "sum": 5000,
+          "min": 5000,
+          "max": 5000,
+          "avg": 5000
+        }
+      },
+      "avg": 5000
+    },
     "heritage-standard": {
       "displayName": "Heritage Standard H-150 2010s - Dirty Lemon Burst",
       "brand": "Heritage",
@@ -9631,7 +9662,7 @@
       "sightings": [
         {
           "price": 3704.99,
-          "date": "2026-09-16T01:51:46.494Z",
+          "date": "2026-09-16T01:51:46.494+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Used 2015 Echopark DOWNTOWNER CUSTOM KOA Brown Solid Body Electric Guitar Brown",
@@ -106326,6 +106357,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 406,
+      "min": 59.99,
+      "max": 11099,
+      "soldCount": 154,
+      "outliersExcluded": 13,
+      "avg": 3620,
+      "soldAvg": 3299
+    },
     "Heritage": {
       "count": 15,
       "min": 1399,
@@ -106424,15 +106464,6 @@
       "outliersExcluded": 0,
       "avg": 1614,
       "soldAvg": 1432
-    },
-    "Gibson": {
-      "count": 405,
-      "min": 59.99,
-      "max": 11099,
-      "soldCount": 154,
-      "outliersExcluded": 13,
-      "avg": 3617,
-      "soldAvg": 3299
     },
     "Echopark": {
       "count": 50,
@@ -109451,6 +109482,17 @@
     }
   },
   "byCondition": {
+    "Poor": {
+      "count": 2,
+      "sum": 6799.99,
+      "sold": {
+        "count": 0,
+        "sum": 0
+      },
+      "avg": 3400,
+      "min": 1799.99,
+      "max": 5000
+    },
     "Excellent": {
       "count": 1271,
       "sum": 5321389.360000013,
@@ -109584,25 +109626,14 @@
       "avg": 2699,
       "min": 875,
       "max": 6499
-    },
-    "Poor": {
-      "count": 1,
-      "sum": 1799.99,
-      "sold": {
-        "count": 0,
-        "sum": 0
-      },
-      "avg": 1800,
-      "min": 1799.99,
-      "max": 1799.99
     }
   },
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3150,
-      "median": 2625,
-      "count": 332
+      "avg": 3155,
+      "median": 2650,
+      "count": 333
     },
     "08": {
       "name": "Aug",
@@ -109801,7 +109832,7 @@
     "1k-2k": 1024,
     "2k-3k": 708,
     "3k-5k": 744,
-    "5k-10k": 431,
+    "5k-10k": 432,
     "10k+": 128
   },
   "priceDistributionFiltered": {
@@ -109810,10 +109841,15 @@
     "1k-2k": 1024,
     "2k-3k": 708,
     "3k-5k": 744,
-    "5k-10k": 431,
+    "5k-10k": 432,
     "10k+": 27
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5612,
+      "count": 124,
+      "avg": 45
+    },
     "Heritage": {
       "sum": 217,
       "count": 6,
@@ -109868,11 +109904,6 @@
       "sum": 2624,
       "count": 50,
       "avg": 52
-    },
-    "Gibson": {
-      "sum": 5612,
-      "count": 123,
-      "avg": 46
     },
     "Framus": {
       "sum": 113,
@@ -110591,7 +110622,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-29": 13,
+    "2026-09-29": 14,
     "2026-09-28": 13,
     "2026-09-27": 15,
     "2026-09-26": 20,
@@ -110624,11 +110655,11 @@
     "2026-08-30": 6
   },
   "categoryDistribution": {
-    "reverb": 3097,
+    "reverb": 3098,
     "marketplace": 569,
     "other": 111
   },
-  "activeModelsCount": 323,
+  "activeModelsCount": 324,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -110664,7 +110695,7 @@
     },
     {
       "username": "jazee_",
-      "count": 127
+      "count": 128
     },
     {
       "username": "Pabst Blue Wizard",
@@ -110735,10 +110766,10 @@
       "count": 13
     },
     "Gibson": {
-      "avgPrice": 5700,
+      "avgPrice": 5699,
       "retailEst": 800,
-      "avgDiscount": -612.5,
-      "count": 422
+      "avgDiscount": -612.3,
+      "count": 423
     },
     "Epiphone": {
       "avgPrice": 2547,
@@ -117825,15 +117856,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3453,
+      "total": 3454,
       "sold": 1162,
       "fake": 0,
-      "live": 1134,
+      "live": 1135,
       "removed": 1157,
       "soldPct": 34,
       "livePct": 33
     },
     "byBrand": {
+      "Gibson": {
+        "total": 436,
+        "sold": 158,
+        "fake": 0,
+        "live": 129,
+        "removed": 149,
+        "soldPct": 36,
+        "livePct": 30
+      },
       "Heritage": {
         "total": 15,
         "sold": 3,
@@ -117941,15 +117981,6 @@
         "removed": 40,
         "soldPct": 48,
         "livePct": 27
-      },
-      "Gibson": {
-        "total": 435,
-        "sold": 158,
-        "fake": 0,
-        "live": 128,
-        "removed": 149,
-        "soldPct": 36,
-        "livePct": 29
       },
       "Echopark": {
         "total": 51,
@@ -121279,7 +121310,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 431,
+        "total": 432,
         "sold": 95,
         "rate": 22
       },
@@ -121291,6 +121322,11 @@
       }
     ],
     "byCondition": {
+      "Poor": {
+        "total": 2,
+        "sold": 0,
+        "rate": 0
+      },
       "Excellent": {
         "total": 1271,
         "sold": 467,
@@ -121340,11 +121376,6 @@
         "total": 9,
         "sold": 1,
         "rate": 11
-      },
-      "Poor": {
-        "total": 1,
-        "sold": 0,
-        "rate": 0
       }
     }
   },
@@ -121710,6 +121741,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson USA": {
+      "brand": "Gibson",
+      "brandLine": "Gibson USA",
+      "tier": "high",
+      "count": 302,
+      "sum": 1371097.6999999997,
+      "avg": 4540,
+      "min": 59.99,
+      "max": 437713.69,
+      "sold": 115,
+      "soldSum": 320710.95999999996,
+      "soldAvg": 2789,
+      "live": 86,
+      "removed": 101,
+      "sellRate": 38,
+      "totalDays": 16081.4,
+      "soldCount": 115,
+      "avgDaysToSell": 139.8
+    },
     "Heritage|Heritage": {
       "brand": "Heritage",
       "brandLine": "Heritage",
@@ -121895,28 +121945,9 @@
       "live": 43,
       "removed": 39,
       "sellRate": 48,
-      "totalDays": 9766.300000000001,
+      "totalDays": 9766.400000000001,
       "soldCount": 76,
       "avgDaysToSell": 128.5
-    },
-    "Gibson|Gibson USA": {
-      "brand": "Gibson",
-      "brandLine": "Gibson USA",
-      "tier": "high",
-      "count": 301,
-      "sum": 1366097.6999999997,
-      "avg": 4539,
-      "min": 59.99,
-      "max": 437713.69,
-      "sold": 115,
-      "soldSum": 320710.95999999996,
-      "soldAvg": 2789,
-      "live": 85,
-      "removed": 101,
-      "sellRate": 38,
-      "totalDays": 16081.3,
-      "soldCount": 115,
-      "avgDaysToSell": 139.8
     },
     "Echopark|Echopark": {
       "brand": "Echopark",
@@ -122009,7 +122040,7 @@
       "live": 43,
       "removed": 78,
       "sellRate": 40,
-      "totalDays": 11101.3,
+      "totalDays": 11101.4,
       "soldCount": 80,
       "avgDaysToSell": 138.8
     },
@@ -122462,7 +122493,7 @@
       "live": 23,
       "removed": 19,
       "sellRate": 35,
-      "totalDays": 3281.7000000000003,
+      "totalDays": 3281.8,
       "soldCount": 21,
       "avgDaysToSell": 142.7
     },
@@ -122784,7 +122815,7 @@
       "live": 8,
       "removed": 15,
       "sellRate": 12,
-      "totalDays": 531,
+      "totalDays": 531.0999999999999,
       "soldCount": 3,
       "avgDaysToSell": 177
     },
@@ -124314,7 +124345,7 @@
     },
     {
       "label": "16–30",
-      "total": 520,
+      "total": 521,
       "sold": 142,
       "rate": 27
     },
@@ -124332,7 +124363,7 @@
       "rate": 29
     },
     "off": {
-      "total": 530,
+      "total": 531,
       "sold": 142,
       "rate": 27
     }
@@ -124344,7 +124375,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 858,
+      "total": 859,
       "sold": 289,
       "rate": 34
     }
@@ -124507,16 +124538,16 @@
       "rate": 17
     },
     {
-      "state": "MN",
+      "state": "AL",
       "total": 17,
       "sold": 7,
       "rate": 41
     },
     {
-      "state": "AL",
-      "total": 16,
+      "state": "MN",
+      "total": 17,
       "sold": 7,
-      "rate": 44
+      "rate": 41
     },
     {
       "state": "OK",
