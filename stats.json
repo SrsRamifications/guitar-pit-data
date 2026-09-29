@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-29T02:18:33.135Z",
-  "totalLinks": 3770,
-  "totalEver": 4662,
-  "totalBeforeFilter": 4662,
+  "generatedAt": "2026-09-29T02:20:25.332Z",
+  "totalLinks": 3771,
+  "totalEver": 4663,
+  "totalBeforeFilter": 4663,
   "fakeCount": 6,
   "removedCount": 1637,
-  "totalWithPrice": 3442,
+  "totalWithPrice": 3443,
   "overall": {
-    "count": 3341,
-    "sum": 9689918.47,
+    "count": 3342,
+    "sum": 9690843.47,
     "avg": 2900,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 3341,
-    "sum": 9689918.47,
+    "count": 3342,
+    "sum": 9690843.47,
     "avg": 2900,
     "min": 10.49,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 11495,
@@ -829,11 +829,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 325,
-      "sum": 1029830.26,
+      "count": 326,
+      "sum": 1030755.26,
       "min": 225,
       "max": 10200,
-      "avg": 3169
+      "avg": 3162
     },
     "2026-08": {
       "count": 344,
@@ -894,8 +894,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 3003,
-      "sum": 8607261.3,
+      "count": 3004,
+      "sum": 8608186.3,
       "min": 33,
       "max": 11185,
       "avg": 2866
@@ -917,8 +917,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 3003,
-      "sum": 8607261.3,
+      "count": 3004,
+      "sum": 8608186.3,
       "min": 33,
       "max": 11185,
       "avg": 2866
@@ -1212,6 +1212,37 @@
     }
   },
   "byModel": {
+    "silvertone-h-61-cutaway-archtop": {
+      "displayName": "1957 Silvertone H-61 cutaway Archtop electric guitar w Gibson P-13 *CLOSET QUEEN*",
+      "brand": "Silvertone",
+      "model": "H-61 cutaway Archtop",
+      "variant": null,
+      "count": 1,
+      "sum": 925,
+      "min": 925,
+      "max": 925,
+      "sightings": [
+        {
+          "price": 925,
+          "date": "2026-09-29T02:20:11.288Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "1957 Silvertone H-61 cutaway Archtop electric guitar w Gibson P-13 *CLOSET QUEEN*",
+          "url": "https://reverb.com/item/92897358",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 1,
+          "sum": 925,
+          "min": 925,
+          "max": 925,
+          "avg": 925
+        }
+      },
+      "avg": 925
+    },
     "silvertone-aristocrat-60s": {
       "displayName": "Silvertone Aristocrat 60s - Blonde",
       "brand": "Silvertone",
@@ -9835,7 +9866,7 @@
       "sightings": [
         {
           "price": 3299,
-          "date": "2026-09-15T16:16:34.225Z",
+          "date": "2026-09-15T16:16:34.225+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Charvel Custom Shop San Dimas HSS; Aged Burgundy Mist Metallic",
@@ -106131,12 +106162,12 @@
   },
   "byBrandPrice": {
     "Silvertone": {
-      "count": 2,
-      "min": 1200,
+      "count": 3,
+      "min": 925,
       "max": 1230,
       "soldCount": 1,
       "outliersExcluded": 0,
-      "avg": 1215,
+      "avg": 1118,
       "soldAvg": 1230
     },
     "Ibanez": {
@@ -109255,6 +109286,20 @@
     }
   },
   "byCondition": {
+    "Excellent": {
+      "count": 1268,
+      "sum": 5311176.360000013,
+      "sold": {
+        "count": 460,
+        "sum": 1186017.5399999998,
+        "avg": 2578,
+        "min": 110,
+        "max": 35900
+      },
+      "avg": 4189,
+      "min": 110,
+      "max": 265500
+    },
     "Good": {
       "count": 373,
       "sum": 1107920.92,
@@ -109282,20 +109327,6 @@
       "avg": 4494,
       "min": 135,
       "max": 35099
-    },
-    "Excellent": {
-      "count": 1267,
-      "sum": 5310251.360000013,
-      "sold": {
-        "count": 460,
-        "sum": 1186017.5399999998,
-        "avg": 2578,
-        "min": 110,
-        "max": 35900
-      },
-      "avg": 4191,
-      "min": 110,
-      "max": 265500
     },
     "Mint": {
       "count": 111,
@@ -109404,9 +109435,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3169,
-      "median": 2650,
-      "count": 325
+      "avg": 3162,
+      "median": 2625,
+      "count": 326
     },
     "08": {
       "name": "Aug",
@@ -109601,7 +109632,7 @@
   ],
   "priceDistribution": {
     "0-500": 106,
-    "500-1k": 306,
+    "500-1k": 307,
     "1k-2k": 1022,
     "2k-3k": 708,
     "3k-5k": 741,
@@ -109610,7 +109641,7 @@
   },
   "priceDistributionFiltered": {
     "0-500": 106,
-    "500-1k": 306,
+    "500-1k": 307,
     "1k-2k": 1022,
     "2k-3k": 708,
     "3k-5k": 741,
@@ -110390,7 +110421,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-29": 6,
+    "2026-09-29": 7,
     "2026-09-28": 13,
     "2026-09-27": 15,
     "2026-09-26": 20,
@@ -110423,15 +110454,15 @@
     "2026-08-30": 7
   },
   "categoryDistribution": {
-    "reverb": 3090,
+    "reverb": 3091,
     "marketplace": 569,
     "other": 111
   },
-  "activeModelsCount": 318,
+  "activeModelsCount": 319,
   "topPosters": [
     {
       "username": "Benson Kent",
-      "count": 660
+      "count": 661
     },
     {
       "username": "theguitarpit",
@@ -117624,23 +117655,23 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3446,
+      "total": 3447,
       "sold": 1162,
       "fake": 0,
-      "live": 1127,
+      "live": 1128,
       "removed": 1157,
       "soldPct": 34,
       "livePct": 33
     },
     "byBrand": {
       "Silvertone": {
-        "total": 2,
+        "total": 3,
         "sold": 1,
         "fake": 0,
-        "live": 1,
+        "live": 2,
         "removed": 0,
-        "soldPct": 50,
-        "livePct": 50
+        "soldPct": 33,
+        "livePct": 67
       },
       "Ibanez": {
         "total": 163,
@@ -121054,7 +121085,7 @@
       },
       {
         "label": "$500–1k",
-        "total": 306,
+        "total": 307,
         "sold": 116,
         "rate": 38
       },
@@ -121090,6 +121121,11 @@
       }
     ],
     "byCondition": {
+      "Excellent": {
+        "total": 1268,
+        "sold": 467,
+        "rate": 37
+      },
       "Good": {
         "total": 373,
         "sold": 136,
@@ -121099,11 +121135,6 @@
         "total": 287,
         "sold": 55,
         "rate": 19
-      },
-      "Excellent": {
-        "total": 1267,
-        "sold": 467,
-        "rate": 37
       },
       "Mint": {
         "total": 111,
@@ -121444,6 +121475,13 @@
         "sold": 4
       },
       {
+        "brand": "Silvertone",
+        "avgPrice": 1118,
+        "sellRate": 33,
+        "count": 3,
+        "sold": 1
+      },
+      {
         "brand": "GJ2",
         "avgPrice": 1283,
         "sellRate": 33,
@@ -121618,7 +121656,7 @@
       "live": 43,
       "removed": 39,
       "sellRate": 48,
-      "totalDays": 9761.9,
+      "totalDays": 9761.999999999998,
       "soldCount": 76,
       "avgDaysToSell": 128.4
     },
@@ -121637,7 +121675,7 @@
       "live": 85,
       "removed": 101,
       "sellRate": 38,
-      "totalDays": 16073.100000000004,
+      "totalDays": 16073.300000000005,
       "soldCount": 115,
       "avgDaysToSell": 139.8
     },
@@ -121713,7 +121751,7 @@
       "live": 5,
       "removed": 4,
       "sellRate": 31,
-      "totalDays": 330.79999999999995,
+      "totalDays": 330.9,
       "soldCount": 4,
       "avgDaysToSell": 82.7
     },
@@ -121732,7 +121770,7 @@
       "live": 43,
       "removed": 78,
       "sellRate": 40,
-      "totalDays": 11095.8,
+      "totalDays": 11095.9,
       "soldCount": 80,
       "avgDaysToSell": 138.7
     },
@@ -121884,7 +121922,7 @@
       "live": 10,
       "removed": 13,
       "sellRate": 53,
-      "totalDays": 4064.5000000000005,
+      "totalDays": 4064.6000000000004,
       "soldCount": 26,
       "avgDaysToSell": 156.3
     },
@@ -122223,7 +122261,7 @@
       "live": 8,
       "removed": 8,
       "sellRate": 50,
-      "totalDays": 2978.000000000001,
+      "totalDays": 2978.100000000001,
       "soldCount": 16,
       "avgDaysToSell": 186.1
     },
@@ -122299,7 +122337,7 @@
       "live": 9,
       "removed": 18,
       "sellRate": 39,
-      "totalDays": 1916.3000000000002,
+      "totalDays": 1916.4,
       "soldCount": 14,
       "avgDaysToSell": 112.7
     },
@@ -122696,7 +122734,7 @@
       "live": 3,
       "removed": 4,
       "sellRate": 53,
-      "totalDays": 1219.8000000000002,
+      "totalDays": 1220,
       "soldCount": 8,
       "avgDaysToSell": 152.5
     },
@@ -124113,7 +124151,7 @@
     },
     {
       "label": "16–30",
-      "total": 518,
+      "total": 519,
       "sold": 142,
       "rate": 27
     },
@@ -124126,7 +124164,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1253,
+      "total": 1254,
       "sold": 367,
       "rate": 29
     },
@@ -124143,7 +124181,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 853,
+      "total": 854,
       "sold": 289,
       "rate": 34
     }
@@ -124288,16 +124326,16 @@
       "rate": 4
     },
     {
+      "state": "VA",
+      "total": 21,
+      "sold": 6,
+      "rate": 29
+    },
+    {
       "state": "IN",
       "total": 20,
       "sold": 5,
       "rate": 25
-    },
-    {
-      "state": "VA",
-      "total": 20,
-      "sold": 6,
-      "rate": 30
     },
     {
       "state": "TOKYO",
