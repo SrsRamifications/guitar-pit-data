@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-29T01:32:25.355Z",
-  "totalLinks": 3768,
-  "totalEver": 4659,
-  "totalBeforeFilter": 4659,
+  "generatedAt": "2026-09-29T01:33:21.982Z",
+  "totalLinks": 3769,
+  "totalEver": 4660,
+  "totalBeforeFilter": 4660,
   "fakeCount": 6,
   "removedCount": 1637,
-  "totalWithPrice": 3440,
+  "totalWithPrice": 3441,
   "overall": {
-    "count": 3339,
-    "sum": 9681042.47,
-    "avg": 2899,
+    "count": 3340,
+    "sum": 9688718.47,
+    "avg": 2901,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 3339,
-    "sum": 9681042.47,
-    "avg": 2899,
+    "count": 3340,
+    "sum": 9688718.47,
+    "avg": 2901,
     "min": 10.49,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 11495,
@@ -829,11 +829,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 323,
-      "sum": 1020954.26,
+      "count": 324,
+      "sum": 1028630.26,
       "min": 225,
       "max": 10200,
-      "avg": 3161
+      "avg": 3175
     },
     "2026-08": {
       "count": 344,
@@ -894,11 +894,11 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 3001,
-      "sum": 8598385.3,
+      "count": 3002,
+      "sum": 8606061.3,
       "min": 33,
       "max": 11185,
-      "avg": 2865
+      "avg": 2867
     },
     "marketplace": {
       "count": 238,
@@ -917,11 +917,11 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 3001,
-      "sum": 8598385.3,
+      "count": 3002,
+      "sum": 8606061.3,
       "min": 33,
       "max": 11185,
-      "avg": 2865
+      "avg": 2867
     },
     "peachguitars.com": {
       "count": 1,
@@ -1212,6 +1212,37 @@
     }
   },
   "byModel": {
+    "ibanez-az": {
+      "displayName": "Ibanez IVS6AZ Custom AZ Electric Guitar 6-String - Persimmon Top / Alder",
+      "brand": "Ibanez",
+      "model": "AZ",
+      "variant": null,
+      "count": 1,
+      "sum": 7676,
+      "min": 7676,
+      "max": 7676,
+      "sightings": [
+        {
+          "price": 7676,
+          "date": "2026-09-29T01:33:01.245Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Ibanez IVS6AZ Custom AZ Electric Guitar 6-String - Persimmon Top / Alder",
+          "url": "https://reverb.com/item/102291144",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 7676,
+          "min": 7676,
+          "max": 7676,
+          "avg": 7676
+        }
+      },
+      "avg": 7676
+    },
     "gj2-glendora": {
       "displayName": "GJ2 2016 Glendora Black",
       "brand": "GJ2",
@@ -9899,7 +9930,7 @@
         },
         {
           "price": 1900,
-          "date": "2026-09-15T03:02:21.757Z",
+          "date": "2026-09-15T03:02:21.757+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Gibson Standard 50’s Les Paul 2026 - British Racing Green",
@@ -106068,6 +106099,15 @@
     }
   },
   "byBrandPrice": {
+    "Ibanez": {
+      "count": 148,
+      "min": 173.3,
+      "max": 9995,
+      "soldCount": 63,
+      "outliersExcluded": 7,
+      "avg": 2296,
+      "soldAvg": 1835
+    },
     "GJ2": {
       "count": 3,
       "min": 999,
@@ -106247,15 +106287,6 @@
       "outliersExcluded": 0,
       "avg": 2920,
       "soldAvg": 2450
-    },
-    "Ibanez": {
-      "count": 147,
-      "min": 173.3,
-      "max": 9995,
-      "soldCount": 63,
-      "outliersExcluded": 7,
-      "avg": 2259,
-      "soldAvg": 1835
     },
     "Parker": {
       "count": 17,
@@ -109193,6 +109224,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 287,
+      "sum": 1289884.1899999997,
+      "sold": {
+        "count": 41,
+        "sum": 192292.58999999997,
+        "avg": 4690,
+        "min": 580.29,
+        "max": 35099
+      },
+      "avg": 4494,
+      "min": 135,
+      "max": 35099
+    },
     "Excellent": {
       "count": 1267,
       "sum": 5310251.360000013,
@@ -109234,20 +109279,6 @@
       "avg": 3162,
       "min": 33,
       "max": 437713.69
-    },
-    "Brand New": {
-      "count": 286,
-      "sum": 1282208.1899999997,
-      "sold": {
-        "count": 41,
-        "sum": 192292.58999999997,
-        "avg": 4690,
-        "min": 580.29,
-        "max": 35099
-      },
-      "avg": 4483,
-      "min": 135,
-      "max": 35099
     },
     "New": {
       "count": 11,
@@ -109342,9 +109373,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3161,
+      "avg": 3175,
       "median": 2650,
-      "count": 323
+      "count": 324
     },
     "08": {
       "name": "Aug",
@@ -109543,7 +109574,7 @@
     "1k-2k": 1021,
     "2k-3k": 708,
     "3k-5k": 741,
-    "5k-10k": 430,
+    "5k-10k": 431,
     "10k+": 128
   },
   "priceDistributionFiltered": {
@@ -109552,10 +109583,15 @@
     "1k-2k": 1021,
     "2k-3k": 708,
     "3k-5k": 741,
-    "5k-10k": 430,
+    "5k-10k": 431,
     "10k+": 27
   },
   "daysOnMarket": {
+    "Ibanez": {
+      "sum": 1876,
+      "count": 35,
+      "avg": 54
+    },
     "GJ2": {
       "sum": 86,
       "count": 1,
@@ -109567,7 +109603,7 @@
       "avg": 4
     },
     "Martin": {
-      "sum": 970,
+      "sum": 971,
       "count": 21,
       "avg": 46
     },
@@ -109651,18 +109687,13 @@
       "count": 2,
       "avg": 46
     },
-    "Ibanez": {
-      "sum": 1872,
-      "count": 34,
-      "avg": 55
-    },
     "Parker": {
       "sum": 300,
       "count": 7,
       "avg": 43
     },
     "Dunable": {
-      "sum": 175,
+      "sum": 176,
       "count": 4,
       "avg": 44
     },
@@ -110328,7 +110359,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-29": 4,
+    "2026-09-29": 5,
     "2026-09-28": 13,
     "2026-09-27": 15,
     "2026-09-26": 20,
@@ -110361,11 +110392,11 @@
     "2026-08-30": 9
   },
   "categoryDistribution": {
-    "reverb": 3088,
+    "reverb": 3089,
     "marketplace": 569,
     "other": 111
   },
-  "activeModelsCount": 318,
+  "activeModelsCount": 319,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -110496,10 +110527,10 @@
       "count": 286
     },
     "Ibanez": {
-      "avgPrice": 3033,
+      "avgPrice": 3063,
       "retailEst": 1000,
-      "avgDiscount": -203.3,
-      "count": 155
+      "avgDiscount": -206.3,
+      "count": 156
     },
     "Jackson": {
       "avgPrice": 4835,
@@ -117562,15 +117593,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3444,
+      "total": 3445,
       "sold": 1162,
       "fake": 0,
-      "live": 1125,
+      "live": 1126,
       "removed": 1157,
       "soldPct": 34,
       "livePct": 33
     },
     "byBrand": {
+      "Ibanez": {
+        "total": 163,
+        "sold": 63,
+        "fake": 0,
+        "live": 53,
+        "removed": 47,
+        "soldPct": 39,
+        "livePct": 33
+      },
       "GJ2": {
         "total": 3,
         "sold": 1,
@@ -117759,15 +117799,6 @@
         "removed": 2,
         "soldPct": 40,
         "livePct": 20
-      },
-      "Ibanez": {
-        "total": 162,
-        "sold": 63,
-        "fake": 0,
-        "live": 52,
-        "removed": 47,
-        "soldPct": 39,
-        "livePct": 32
       },
       "Parker": {
         "total": 19,
@@ -121016,7 +121047,7 @@
       },
       {
         "label": "$5k–10k",
-        "total": 430,
+        "total": 431,
         "sold": 95,
         "rate": 22
       },
@@ -121028,6 +121059,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 287,
+        "sold": 55,
+        "rate": 19
+      },
       "Excellent": {
         "total": 1267,
         "sold": 467,
@@ -121042,11 +121078,6 @@
         "total": 1045,
         "sold": 340,
         "rate": 33
-      },
-      "Brand New": {
-        "total": 286,
-        "sold": 55,
-        "rate": 19
       },
       "New": {
         "total": 11,
@@ -121447,6 +121478,25 @@
     ]
   },
   "byBrandLine": {
+    "Ibanez|Ibanez J.Custom": {
+      "brand": "Ibanez",
+      "brandLine": "Ibanez J.Custom",
+      "tier": "premium",
+      "count": 41,
+      "sum": 219381.71,
+      "avg": 5351,
+      "min": 1600,
+      "max": 35500,
+      "sold": 14,
+      "soldSum": 40171,
+      "soldAvg": 2869,
+      "live": 17,
+      "removed": 10,
+      "sellRate": 34,
+      "totalDays": 1648.2,
+      "soldCount": 14,
+      "avgDaysToSell": 117.7
+    },
     "GJ2|GJ2": {
       "brand": "GJ2",
       "brandLine": "GJ2",
@@ -121689,7 +121739,7 @@
       "live": 46,
       "removed": 50,
       "sellRate": 35,
-      "totalDays": 5961.9,
+      "totalDays": 5962,
       "soldCount": 51,
       "avgDaysToSell": 116.9
     },
@@ -121708,7 +121758,7 @@
       "live": 38,
       "removed": 43,
       "sellRate": 34,
-      "totalDays": 5591.000000000001,
+      "totalDays": 5591.1,
       "soldCount": 42,
       "avgDaysToSell": 133.1
     },
@@ -122161,7 +122211,7 @@
       "live": 23,
       "removed": 19,
       "sellRate": 35,
-      "totalDays": 3279.5999999999995,
+      "totalDays": 3279.7999999999993,
       "soldCount": 21,
       "avgDaysToSell": 142.6
     },
@@ -122180,9 +122230,9 @@
       "live": 2,
       "removed": 6,
       "sellRate": 38,
-      "totalDays": 758.2,
+      "totalDays": 758.3,
       "soldCount": 5,
-      "avgDaysToSell": 151.6
+      "avgDaysToSell": 151.7
     },
     "ESP|ESP Original": {
       "brand": "ESP",
@@ -122410,25 +122460,6 @@
       "totalDays": 509.2,
       "soldCount": 3,
       "avgDaysToSell": 169.7
-    },
-    "Ibanez|Ibanez J.Custom": {
-      "brand": "Ibanez",
-      "brandLine": "Ibanez J.Custom",
-      "tier": "premium",
-      "count": 40,
-      "sum": 211705.71,
-      "avg": 5293,
-      "min": 1600,
-      "max": 35500,
-      "sold": 14,
-      "soldSum": 40171,
-      "soldAvg": 2869,
-      "live": 16,
-      "removed": 10,
-      "sellRate": 35,
-      "totalDays": 1648.2,
-      "soldCount": 14,
-      "avgDaysToSell": 117.7
     },
     "Parker|Parker Fly Classic": {
       "brand": "Parker",
@@ -124039,7 +124070,7 @@
     },
     {
       "label": "1–5",
-      "total": 91,
+      "total": 92,
       "sold": 29,
       "rate": 32
     },
@@ -124064,7 +124095,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1252,
+      "total": 1253,
       "sold": 367,
       "rate": 29
     },
@@ -124081,7 +124112,7 @@
       "rate": 23
     },
     "regular": {
-      "total": 851,
+      "total": 852,
       "sold": 289,
       "rate": 34
     }
