@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-30T02:02:24.877Z",
-  "totalLinks": 3787,
-  "totalEver": 4679,
-  "totalBeforeFilter": 4679,
+  "generatedAt": "2026-09-30T02:03:58.997Z",
+  "totalLinks": 3788,
+  "totalEver": 4680,
+  "totalBeforeFilter": 4680,
   "fakeCount": 6,
   "removedCount": 1640,
-  "totalWithPrice": 3459,
+  "totalWithPrice": 3460,
   "overall": {
-    "count": 3359,
-    "sum": 9743588.47,
+    "count": 3360,
+    "sum": 9748423.47,
     "avg": 2901,
     "min": 10.49,
     "max": 11475
   },
   "filtered": {
-    "count": 3359,
-    "sum": 9743588.47,
+    "count": 3360,
+    "sum": 9748423.47,
     "avg": 2901,
     "min": 10.49,
     "max": 11475,
-    "median": 2299.99
+    "median": 2300
   },
   "outliers": {
     "thresholdHigh": 11495,
@@ -821,11 +821,11 @@
   },
   "byMonth": {
     "2026-09": {
-      "count": 343,
-      "sum": 1083510.26,
+      "count": 344,
+      "sum": 1088345.26,
       "min": 225,
       "max": 10800,
-      "avg": 3159
+      "avg": 3164
     },
     "2026-08": {
       "count": 344,
@@ -886,8 +886,8 @@
   },
   "byCategory": {
     "reverb": {
-      "count": 3019,
-      "sum": 8657431.3,
+      "count": 3020,
+      "sum": 8662266.3,
       "min": 33,
       "max": 11185,
       "avg": 2868
@@ -909,8 +909,8 @@
   },
   "byDomain": {
     "reverb.com": {
-      "count": 3019,
-      "sum": 8657431.3,
+      "count": 3020,
+      "sum": 8662266.3,
       "min": 33,
       "max": 11185,
       "avg": 2868
@@ -1204,6 +1204,46 @@
     }
   },
   "byModel": {
+    "gibson-les-paul-special-custom-shop-murphy-lab": {
+      "displayName": "Gibson Custom Shop Les Paul Special Murphy Lab Ultra Light Aging 2023 - Aged TV Yellow",
+      "brand": "Gibson",
+      "model": "Les Paul Special",
+      "variant": "Custom Shop Murphy Lab",
+      "count": 2,
+      "sum": 10530,
+      "min": 4835,
+      "max": 5695,
+      "sightings": [
+        {
+          "price": 5695,
+          "date": "2026-08-09T04:18:55.311+00:00",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop 1957 Les Paul Special Single Cut Ebony Murphy Lab Ultra Heavy Aged",
+          "url": "https://reverb.com/item/99526470",
+          "condition": "Excellent"
+        },
+        {
+          "price": 4835,
+          "date": "2026-09-30T02:03:43.951Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Gibson Custom Shop Les Paul Special Murphy Lab Ultra Light Aging 2023 - Aged TV Yellow",
+          "url": "https://reverb.com/item/98644961",
+          "condition": "Excellent"
+        }
+      ],
+      "byCondition": {
+        "Excellent": {
+          "count": 2,
+          "sum": 10530,
+          "min": 4835,
+          "max": 5695,
+          "avg": 5265
+        }
+      },
+      "avg": 5265
+    },
     "fender-telecaster": {
       "displayName": "Fender Telecaster 1988 - Blonde",
       "brand": "Fender",
@@ -26054,37 +26094,6 @@
         ]
       },
       "avg": 3199
-    },
-    "gibson-les-paul-special-custom-shop-murphy-lab": {
-      "displayName": "Gibson Custom Shop 1957 Les Paul Special Single Cut Ebony Murphy Lab Ultra Heavy Aged",
-      "brand": "Gibson",
-      "model": "Les Paul Special",
-      "variant": "Custom Shop Murphy Lab",
-      "count": 1,
-      "sum": 5695,
-      "min": 5695,
-      "max": 5695,
-      "sightings": [
-        {
-          "price": 5695,
-          "date": "2026-08-09T04:18:55.311+00:00",
-          "modelYear": null,
-          "isReissue": false,
-          "title": "Gibson Custom Shop 1957 Les Paul Special Single Cut Ebony Murphy Lab Ultra Heavy Aged",
-          "url": "https://reverb.com/item/99526470",
-          "condition": "Excellent"
-        }
-      ],
-      "byCondition": {
-        "Excellent": {
-          "count": 1,
-          "sum": 5695,
-          "min": 5695,
-          "max": 5695,
-          "avg": 5695
-        }
-      },
-      "avg": 5695
     },
     "suhr-standard-signature": {
       "displayName": "Suhr Pete Thorn Signature Standard 2024 - Vintage Gold",
@@ -106572,6 +106581,15 @@
     }
   },
   "byBrandPrice": {
+    "Gibson": {
+      "count": 411,
+      "min": 59.99,
+      "max": 11099,
+      "soldCount": 155,
+      "outliersExcluded": 13,
+      "avg": 3614,
+      "soldAvg": 3300
+    },
     "Fender": {
       "count": 238,
       "min": 511,
@@ -106580,15 +106598,6 @@
       "outliersExcluded": 25,
       "avg": 3111,
       "soldAvg": 2906
-    },
-    "Gibson": {
-      "count": 410,
-      "min": 59.99,
-      "max": 11099,
-      "soldCount": 155,
-      "outliersExcluded": 13,
-      "avg": 3611,
-      "soldAvg": 3300
     },
     "Vik": {
       "count": 1,
@@ -109707,8 +109716,8 @@
   },
   "byCondition": {
     "Excellent": {
-      "count": 1275,
-      "sum": 5331654.360000013,
+      "count": 1276,
+      "sum": 5336489.360000013,
       "sold": {
         "count": 461,
         "sum": 1187192.5399999998,
@@ -109855,9 +109864,9 @@
   "seasonal": {
     "09": {
       "name": "Sep",
-      "avg": 3159,
+      "avg": 3164,
       "median": 2600,
-      "count": 343
+      "count": 344
     },
     "08": {
       "name": "Aug",
@@ -110055,7 +110064,7 @@
     "500-1k": 308,
     "1k-2k": 1031,
     "2k-3k": 709,
-    "3k-5k": 743,
+    "3k-5k": 744,
     "5k-10k": 434,
     "10k+": 128
   },
@@ -110064,20 +110073,20 @@
     "500-1k": 308,
     "1k-2k": 1031,
     "2k-3k": 709,
-    "3k-5k": 743,
+    "3k-5k": 744,
     "5k-10k": 434,
     "10k+": 28
   },
   "daysOnMarket": {
+    "Gibson": {
+      "sum": 5752,
+      "count": 129,
+      "avg": 45
+    },
     "Fender": {
       "sum": 3766,
       "count": 79,
       "avg": 48
-    },
-    "Gibson": {
-      "sum": 5726,
-      "count": 128,
-      "avg": 45
     },
     "Vik": {
       "sum": 0,
@@ -110851,7 +110860,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-09-30": 6,
+    "2026-09-30": 7,
     "2026-09-29": 17,
     "2026-09-28": 13,
     "2026-09-27": 15,
@@ -110884,11 +110893,11 @@
     "2026-08-31": 8
   },
   "categoryDistribution": {
-    "reverb": 3105,
+    "reverb": 3106,
     "marketplace": 571,
     "other": 111
   },
-  "activeModelsCount": 327,
+  "activeModelsCount": 328,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -110995,10 +111004,10 @@
       "count": 13
     },
     "Gibson": {
-      "avgPrice": 5670,
+      "avgPrice": 5668,
       "retailEst": 800,
-      "avgDiscount": -608.8,
-      "count": 427
+      "avgDiscount": -608.5,
+      "count": 428
     },
     "Epiphone": {
       "avgPrice": 2547,
@@ -118101,15 +118110,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3461,
+      "total": 3462,
       "sold": 1164,
       "fake": 0,
-      "live": 1137,
+      "live": 1138,
       "removed": 1160,
       "soldPct": 34,
       "livePct": 33
     },
     "byBrand": {
+      "Gibson": {
+        "total": 441,
+        "sold": 159,
+        "fake": 0,
+        "live": 133,
+        "removed": 149,
+        "soldPct": 36,
+        "livePct": 30
+      },
       "Fender": {
         "total": 278,
         "sold": 98,
@@ -118118,15 +118136,6 @@
         "removed": 93,
         "soldPct": 35,
         "livePct": 31
-      },
-      "Gibson": {
-        "total": 440,
-        "sold": 159,
-        "fake": 0,
-        "live": 132,
-        "removed": 149,
-        "soldPct": 36,
-        "livePct": 30
       },
       "Vik": {
         "total": 1,
@@ -121558,7 +121567,7 @@
       },
       {
         "label": "$3k–5k",
-        "total": 743,
+        "total": 744,
         "sold": 226,
         "rate": 30
       },
@@ -121577,7 +121586,7 @@
     ],
     "byCondition": {
       "Excellent": {
-        "total": 1275,
+        "total": 1276,
         "sold": 468,
         "rate": 37
       },
@@ -121995,6 +122004,25 @@
     ]
   },
   "byBrandLine": {
+    "Gibson|Gibson Custom Shop": {
+      "brand": "Gibson",
+      "brandLine": "Gibson Custom Shop",
+      "tier": "ultra",
+      "count": 126,
+      "sum": 1039585.2499999998,
+      "avg": 8251,
+      "min": 1680.71,
+      "max": 265500,
+      "sold": 43,
+      "soldSum": 267331.83999999997,
+      "soldAvg": 6217,
+      "live": 40,
+      "removed": 43,
+      "sellRate": 34,
+      "totalDays": 5637.299999999999,
+      "soldCount": 43,
+      "avgDaysToSell": 131.1
+    },
     "Fender|Fender Custom Shop": {
       "brand": "Fender",
       "brandLine": "Fender Custom Shop",
@@ -122029,28 +122057,9 @@
       "live": 88,
       "removed": 101,
       "sellRate": 38,
-      "totalDays": 16184.200000000004,
+      "totalDays": 16184.300000000005,
       "soldCount": 115,
       "avgDaysToSell": 140.7
-    },
-    "Gibson|Gibson Custom Shop": {
-      "brand": "Gibson",
-      "brandLine": "Gibson Custom Shop",
-      "tier": "ultra",
-      "count": 125,
-      "sum": 1034750.2499999998,
-      "avg": 8278,
-      "min": 1680.71,
-      "max": 265500,
-      "sold": 43,
-      "soldSum": 267331.83999999997,
-      "soldAvg": 6217,
-      "live": 39,
-      "removed": 43,
-      "sellRate": 34,
-      "totalDays": 5637.299999999999,
-      "soldCount": 43,
-      "avgDaysToSell": 131.1
     },
     "Fano|Fano": {
       "brand": "Fano",
@@ -122351,7 +122360,7 @@
       "live": 43,
       "removed": 78,
       "sellRate": 40,
-      "totalDays": 11172.799999999997,
+      "totalDays": 11172.899999999998,
       "soldCount": 80,
       "avgDaysToSell": 139.7
     },
@@ -122408,7 +122417,7 @@
       "live": 23,
       "removed": 20,
       "sellRate": 43,
-      "totalDays": 3997.3999999999996,
+      "totalDays": 3997.4999999999995,
       "soldCount": 32,
       "avgDaysToSell": 124.9
     },
@@ -124593,7 +124602,7 @@
     },
     {
       "label": "6–15",
-      "total": 334,
+      "total": 335,
       "sold": 90,
       "rate": 27
     },
@@ -124612,7 +124621,7 @@
   ],
   "offersEffect": {
     "on": {
-      "total": 1266,
+      "total": 1267,
       "sold": 368,
       "rate": 29
     },
@@ -124624,7 +124633,7 @@
   },
   "sellerType": {
     "preferred": {
-      "total": 921,
+      "total": 922,
       "sold": 211,
       "rate": 23
     },
@@ -124750,6 +124759,12 @@
       "rate": 68
     },
     {
+      "state": "ENG",
+      "total": 24,
+      "sold": 1,
+      "rate": 4
+    },
+    {
       "state": "AZ",
       "total": 24,
       "sold": 10,
@@ -124766,12 +124781,6 @@
       "total": 23,
       "sold": 2,
       "rate": 9
-    },
-    {
-      "state": "ENG",
-      "total": 23,
-      "sold": 1,
-      "rate": 4
     },
     {
       "state": "VA",
