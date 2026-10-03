@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-03T19:11:08.151Z",
-  "totalLinks": 3828,
-  "totalEver": 4725,
-  "totalBeforeFilter": 4725,
+  "generatedAt": "2026-10-03T19:12:29.099Z",
+  "totalLinks": 3829,
+  "totalEver": 4726,
+  "totalBeforeFilter": 4726,
   "fakeCount": 6,
   "removedCount": 1651,
-  "totalWithPrice": 3499,
+  "totalWithPrice": 3500,
   "overall": {
-    "count": 3398,
-    "sum": 9930332.47,
+    "count": 3399,
+    "sum": 9930471.47,
     "avg": 2922,
     "min": 10.49,
     "max": 11500
   },
   "filtered": {
-    "count": 3398,
-    "sum": 9930332.47,
+    "count": 3399,
+    "sum": 9930471.47,
     "avg": 2922,
     "min": 10.49,
     "max": 11500,
@@ -829,11 +829,11 @@
   },
   "byMonth": {
     "2026-10": {
-      "count": 22,
-      "sum": 93709,
+      "count": 23,
+      "sum": 93848,
       "min": 41,
       "max": 9995,
-      "avg": 4260
+      "avg": 4080
     },
     "2026-09": {
       "count": 359,
@@ -901,11 +901,11 @@
   },
   "byCategory": {
     "marketplace": {
-      "count": 246,
-      "sum": 820257.02,
+      "count": 247,
+      "sum": 820396.02,
       "min": 39.81,
       "max": 11475,
-      "avg": 3334
+      "avg": 3321
     },
     "reverb": {
       "count": 3052,
@@ -923,6 +923,13 @@
     }
   },
   "byDomain": {
+    "davesguitar.com": {
+      "count": 41,
+      "sum": 55762,
+      "min": 139,
+      "max": 3995,
+      "avg": 1360
+    },
     "chicagomusicexchange.com": {
       "count": 131,
       "sum": 530385.98,
@@ -936,13 +943,6 @@
       "min": 33,
       "max": 11500,
       "avg": 2890
-    },
-    "davesguitar.com": {
-      "count": 40,
-      "sum": 55623,
-      "min": 350,
-      "max": 3995,
-      "avg": 1391
     },
     "gibson.com": {
       "count": 7,
@@ -1219,6 +1219,37 @@
     }
   },
   "byModel": {
+    "kramer-focus-vt-211s": {
+      "displayName": "Focus VT-211S",
+      "brand": "Kramer",
+      "model": "Focus VT-211S",
+      "variant": null,
+      "count": 1,
+      "sum": 139,
+      "min": 139,
+      "max": 139,
+      "sightings": [
+        {
+          "price": 139,
+          "date": "2026-10-03T19:12:15.233Z",
+          "modelYear": null,
+          "isReissue": false,
+          "title": "Focus VT-211S",
+          "url": "https://www.davesguitar.com/collections/just-in/products/focus-vt-211s",
+          "condition": "Brand New"
+        }
+      ],
+      "byCondition": {
+        "Brand New": {
+          "count": 1,
+          "sum": 139,
+          "min": 139,
+          "max": 139,
+          "avg": 139
+        }
+      },
+      "avg": 139
+    },
     "prs-mccarty-594-private-stock": {
       "displayName": "PRS Private Stock McCarty 594 8193 Red Glow 2019",
       "brand": "PRS",
@@ -10750,7 +10781,7 @@
       "sightings": [
         {
           "price": 899,
-          "date": "2026-09-20T13:19:00.041Z",
+          "date": "2026-09-20T13:19:00.041+00:00",
           "modelYear": null,
           "isReissue": false,
           "title": "Gibson Les Paul Studio, 2025. Factory case and paperwork, Great player",
@@ -10776,7 +10807,7 @@
           {
             "price": 899,
             "askingPrice": 899,
-            "date": "2026-10-01T16:07:57.755Z",
+            "date": "2026-10-01T16:07:57.755+00:00",
             "title": "Gibson Les Paul Studio, 2025. Factory case and paperwork, Great player",
             "url": "https://reverb.com/item/102043993"
           }
@@ -107831,6 +107862,15 @@
     }
   },
   "byBrandPrice": {
+    "Kramer": {
+      "count": 24,
+      "min": 139,
+      "max": 3250,
+      "soldCount": 10,
+      "outliersExcluded": 1,
+      "avg": 1585,
+      "soldAvg": 1729
+    },
     "PRS": {
       "count": 280,
       "min": 580.29,
@@ -107875,15 +107915,6 @@
       "outliersExcluded": 26,
       "avg": 3142,
       "soldAvg": 2951
-    },
-    "Kramer": {
-      "count": 23,
-      "min": 549,
-      "max": 3250,
-      "soldCount": 10,
-      "outliersExcluded": 1,
-      "avg": 1648,
-      "soldAvg": 1729
     },
     "Ibanez": {
       "count": 149,
@@ -110965,6 +110996,20 @@
     }
   },
   "byCondition": {
+    "Brand New": {
+      "count": 291,
+      "sum": 1315089.1899999995,
+      "sold": {
+        "count": 41,
+        "sum": 192292.58999999997,
+        "avg": 4690,
+        "min": 580.29,
+        "max": 35099
+      },
+      "avg": 4519,
+      "min": 135,
+      "max": 35099
+    },
     "Used": {
       "count": 111,
       "sum": 437890.61999999965,
@@ -111017,20 +111062,6 @@
       "avg": 3220,
       "min": 33,
       "max": 437713.69
-    },
-    "Brand New": {
-      "count": 290,
-      "sum": 1314950.1899999995,
-      "sold": {
-        "count": 41,
-        "sum": 192292.58999999997,
-        "avg": 4690,
-        "min": 580.29,
-        "max": 35099
-      },
-      "avg": 4534,
-      "min": 135,
-      "max": 35099
     },
     "Mint": {
       "count": 112,
@@ -111117,9 +111148,9 @@
   "seasonal": {
     "10": {
       "name": "Oct",
-      "avg": 4260,
-      "median": 3225,
-      "count": 22
+      "avg": 4080,
+      "median": 2700,
+      "count": 23
     },
     "09": {
       "name": "Sep",
@@ -111319,7 +111350,7 @@
     }
   ],
   "priceDistribution": {
-    "0-500": 107,
+    "0-500": 108,
     "500-1k": 310,
     "1k-2k": 1036,
     "2k-3k": 717,
@@ -111328,7 +111359,7 @@
     "10k+": 132
   },
   "priceDistributionFiltered": {
-    "0-500": 107,
+    "0-500": 108,
     "500-1k": 310,
     "1k-2k": 1036,
     "2k-3k": 717,
@@ -111337,6 +111368,11 @@
     "10k+": 31
   },
   "daysOnMarket": {
+    "Kramer": {
+      "sum": 311,
+      "count": 10,
+      "avg": 31
+    },
     "PRS": {
       "sum": 3529,
       "count": 72,
@@ -111362,13 +111398,8 @@
       "count": 80,
       "avg": 49
     },
-    "Kramer": {
-      "sum": 311,
-      "count": 9,
-      "avg": 35
-    },
     "Ibanez": {
-      "sum": 1866,
+      "sum": 1867,
       "count": 35,
       "avg": 53
     },
@@ -112114,7 +112145,7 @@
     }
   },
   "listingsPerDay": {
-    "2026-10-03": 7,
+    "2026-10-03": 8,
     "2026-10-02": 9,
     "2026-10-01": 9,
     "2026-09-30": 22,
@@ -112147,11 +112178,11 @@
     "2026-09-03": 4
   },
   "categoryDistribution": {
-    "marketplace": 580,
+    "marketplace": 581,
     "reverb": 3137,
     "other": 111
   },
-  "activeModelsCount": 326,
+  "activeModelsCount": 327,
   "topPosters": [
     {
       "username": "Benson Kent",
@@ -112171,7 +112202,7 @@
     },
     {
       "username": "Modean",
-      "count": 305
+      "count": 306
     },
     {
       "username": "YellowJack6",
@@ -112432,10 +112463,10 @@
       "count": 17
     },
     "Kramer": {
-      "avgPrice": 3871,
+      "avgPrice": 3721,
       "retailEst": 200,
-      "avgDiscount": -1835.3,
-      "count": 24
+      "avgDiscount": -1760.7,
+      "count": 25
     },
     "Washburn": {
       "avgPrice": 2811,
@@ -119496,15 +119527,24 @@
   },
   "sellThrough": {
     "overall": {
-      "total": 3500,
+      "total": 3501,
       "sold": 1185,
       "fake": 0,
-      "live": 1144,
+      "live": 1145,
       "removed": 1171,
       "soldPct": 34,
       "livePct": 33
     },
     "byBrand": {
+      "Kramer": {
+        "total": 26,
+        "sold": 11,
+        "fake": 0,
+        "live": 8,
+        "removed": 7,
+        "soldPct": 42,
+        "livePct": 31
+      },
       "PRS": {
         "total": 293,
         "sold": 110,
@@ -119549,15 +119589,6 @@
         "removed": 93,
         "soldPct": 36,
         "livePct": 31
-      },
-      "Kramer": {
-        "total": 25,
-        "sold": 11,
-        "fake": 0,
-        "live": 7,
-        "removed": 7,
-        "soldPct": 44,
-        "livePct": 28
       },
       "Ibanez": {
         "total": 166,
@@ -122929,7 +122960,7 @@
     "byPriceRange": [
       {
         "label": "Under $500",
-        "total": 107,
+        "total": 108,
         "sold": 31,
         "rate": 29
       },
@@ -122971,6 +123002,11 @@
       }
     ],
     "byCondition": {
+      "Brand New": {
+        "total": 291,
+        "sold": 55,
+        "rate": 19
+      },
       "Used": {
         "total": 112,
         "sold": 59,
@@ -122990,11 +123026,6 @@
         "total": 1056,
         "sold": 348,
         "rate": 33
-      },
-      "Brand New": {
-        "total": 290,
-        "sold": 55,
-        "rate": 19
       },
       "Mint": {
         "total": 112,
@@ -123405,9 +123436,9 @@
       "live": 9,
       "removed": 9,
       "sellRate": 33,
-      "totalDays": 704.0999999999999,
+      "totalDays": 704.3,
       "soldCount": 9,
-      "avgDaysToSell": 78.2
+      "avgDaysToSell": 78.3
     },
     "Suhr|Suhr": {
       "brand": "Suhr",
@@ -123424,7 +123455,7 @@
       "live": 15,
       "removed": 15,
       "sellRate": 49,
-      "totalDays": 2942.7,
+      "totalDays": 2942.7999999999997,
       "soldCount": 29,
       "avgDaysToSell": 101.5
     },
@@ -123443,7 +123474,7 @@
       "live": 85,
       "removed": 102,
       "sellRate": 40,
-      "totalDays": 16894.2,
+      "totalDays": 16894.4,
       "soldCount": 123,
       "avgDaysToSell": 137.4
     },
@@ -123462,7 +123493,7 @@
       "live": 45,
       "removed": 79,
       "sellRate": 40,
-      "totalDays": 11465.800000000003,
+      "totalDays": 11465.900000000003,
       "soldCount": 81,
       "avgDaysToSell": 141.6
     },
@@ -123878,7 +123909,7 @@
       "live": 7,
       "removed": 6,
       "sellRate": 35,
-      "totalDays": 1169,
+      "totalDays": 1169.1,
       "soldCount": 7,
       "avgDaysToSell": 167
     },
@@ -124198,7 +124229,7 @@
       "live": 9,
       "removed": 9,
       "sellRate": 51,
-      "totalDays": 2135.9,
+      "totalDays": 2136,
       "soldCount": 19,
       "avgDaysToSell": 112.4
     },
@@ -124708,9 +124739,9 @@
       "live": 1,
       "removed": 1,
       "sellRate": 33,
-      "totalDays": 32.1,
+      "totalDays": 32.2,
       "soldCount": 1,
-      "avgDaysToSell": 32.1
+      "avgDaysToSell": 32.2
     },
     "Gretsch|Gretsch Professional": {
       "brand": "Gretsch",
@@ -125514,9 +125545,9 @@
       "live": 1,
       "removed": 0,
       "sellRate": 67,
-      "totalDays": 321.29999999999995,
+      "totalDays": 321.4,
       "soldCount": 2,
-      "avgDaysToSell": 160.6
+      "avgDaysToSell": 160.7
     },
     "Taylor|Taylor Baby": {
       "brand": "Taylor",
