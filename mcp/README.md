@@ -100,7 +100,9 @@ uv venv && uv pip install -e '.[test]'
 GUITAR_PIT_DATA_DIR=.. .venv/bin/guitar-pit-mcp   # run against the local checkout
 ```
 
-A note on `analytics.csv`: the upstream writer doesn't quote seller names
-and locations that contain commas, so those values spill into later columns.
-The loader re-joins them (`repair_csv_fields`) and drops the few rows it
-can't realign. Fixing the quoting in the writer would make this unnecessary.
+A note on `analytics.csv`: until SrsRamifications/the-guitar-pit#3, the bot
+split events on every comma before storing them, so values containing commas
+(mostly seller locations) spilled into later columns. The loader re-joins
+them (`repair_csv_fields`) and drops the few rows it can't realign. Once that
+fix is deployed and its repair script has run, the published CSV is clean and
+this becomes a no-op safety net.
